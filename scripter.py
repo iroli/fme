@@ -10,7 +10,7 @@ PAGES_DIR = "./matphys/rpages/"
 EXIT_DIR = "./matphys/"
 EXIT_FILE = "FMEv2.xml"
 # First and last pages to be parsed
-START_PAGE = 148
+START_PAGE = 151
 END_PAGE = 200
 # How many words to display before and after a potential title
 LEAD_WORDS = 5
@@ -217,28 +217,31 @@ for filename in filenames:
 					add_artice(article, root, num)
 					num += 1
 					next_title = True
-				elif response == 'n':
+				elif response == 'n' or response == 'т':
 					# Do not add this one
 					print("Not an article, skipping\n\n")
 					next_title = True
 				else:
 					# Change title borders
-					print("Changing title borders\n\n")
-					corrections = response.split(' ')
-					corrections[0] = int(corrections[0])
-					corrections[1] = int(corrections[1])
-					if corrections[0] > 0:
-						for i in range(abs(corrections[0])):
-							start_title = prev_from(start_title, file)
-					if corrections[0] < 0:
-						for i in range(abs(corrections[0])):
-							start_title = next_from(start_title, file)
-					if corrections[1] < 0:
-						for i in range(abs(corrections[1])):
-							end_title = prev_from(end_title, file)
-					if corrections[1] > 0:
-						for i in range(abs(corrections[1])):
-							end_title = next_from(end_title, file)
+					try:
+						print("Changing title borders\n\n")
+						corrections = response.split(' ')
+						corrections[0] = int(corrections[0])
+						corrections[1] = int(corrections[1])
+						if corrections[0] > 0:
+							for i in range(abs(corrections[0])):
+								start_title = prev_from(start_title, file)
+						if corrections[0] < 0:
+							for i in range(abs(corrections[0])):
+								start_title = next_from(start_title, file)
+						if corrections[1] < 0:
+							for i in range(abs(corrections[1])):
+								end_title = prev_from(end_title, file)
+						if corrections[1] > 0:
+							for i in range(abs(corrections[1])):
+								end_title = next_from(end_title, file)
+					except:
+						print("########## !!! Failed, try again !!! ##########")
 
 
 # End reached
