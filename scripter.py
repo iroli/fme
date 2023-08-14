@@ -10,14 +10,14 @@ PAGES_DIR = "./matphys/rpages/"
 EXIT_DIR = "./matphys/"
 EXIT_FILE = "FMEv2.xml"
 # First and last pages to be parsed
-START_PAGE = 163
+START_PAGE = 198
 END_PAGE = 200
 # How many words to display before and after a potential title
 LEAD_WORDS = 5
 AFT_WORDS = 5
 # Look in the description
 CAPS_QUOT = 0.51
-EXCEPTIONS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'МэВ']
+EXCEPTIONS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'МэВ', 'ГэВ']
 ##################################################################
 
 
@@ -57,30 +57,34 @@ if not(EXIT_FILE in filenames_raw):
 	xml_write(root)
 
 
-# Parse existing xml (string parsing is needed to avoid extra newlines appearing)
-exit_string = ''
-with codecs.open(EXIT_DIR + EXIT_FILE, 'r', 'utf-8') as f:
-	for i in f.readlines():
-		exit_string += i[:-1]
-root = ET.fromstring(exit_string)
-# Remove empty tails and texts
-root.tail = None
-root.text = None
-for i in root:
-	i.tail = None
-	i.text = None
-	for j in i:
-		j.tail = None
-		is_space = True
-		for letter in j.text:
-			is_space = False if letter != ' ' else is_space
-		j.text = None if is_space else j.text
-		for k in j:
-			k.tail = None
+def parse_xml():
+	# Parse existing xml (string parsing is needed to avoid extra newlines appearing)
+	exit_string = ''
+	with codecs.open(EXIT_DIR + EXIT_FILE, 'r', 'utf-8') as f:
+		for i in f.readlines():
+			exit_string += i[:-1]
+	root = ET.fromstring(exit_string)
+	# Remove empty tails and texts
+	root.tail = None
+	root.text = None
+	for i in root:
+		i.tail = None
+		i.text = None
+		for j in i:
+			j.tail = None
 			is_space = True
-			for letter in k.text:
+			for letter in j.text:
 				is_space = False if letter != ' ' else is_space
-			k.text = None if is_space else k.text
+			j.text = None if is_space else j.text
+			for k in j:
+				k.tail = None
+				is_space = True
+				for letter in k.text:
+					is_space = False if letter != ' ' else is_space
+				k.text = None if is_space else k.text
+	return root
+root = parse_xml()
+num = len(root) + 1
 
 
 # Add article title and metadata to xml tree
@@ -143,7 +147,6 @@ def next_from(pos, file, end_replace = True):
 
 
 # Main loop
-num = len(root) + 1
 for filename in filenames:
 	print()
 	print("################################ " + filename + " ################################")
@@ -178,7 +181,12 @@ for filename in filenames:
 				if word_bound_l == len(file):
 					defined_end = True
 				elif not check_caps(file[word_bound_l+1:word_bound_r]) and count_letters(file[word_bound_l+1:word_bound_r]) < 2:
-					pass
+					if re.match(r"[A-ZА-Яa-zа-я]", file[word_bound_l+1]) != None:
+						# Most possibly belongs to title
+						end_title = word_bound_r
+					else:
+						# Most possibly NOT belongs to title
+						pass
 				elif check_caps(file[word_bound_l+1:word_bound_r]):
 					end_title = word_bound_r
 				else:
@@ -186,6 +194,10 @@ for filename in filenames:
 
 			next_title = False
 			while not next_title:
+				# Update root in case it's been changed
+				root = parse_xml()
+				num = len(root) + 1
+
 				# Console output for further user actions
 				segment_start = start_title
 				segment_end = end_title
@@ -215,7 +227,6 @@ for filename in filenames:
 						article.end_title = end_title
 						article.filename = filename
 						add_artice(article, root, num)
-						num += 1
 						next_title = True
 						print(f"Adding article, n=\"{num}\", title=\"{file[start_title+1:end_title]}\"\n\n")
 					elif response == 'n' or response == 'т':
