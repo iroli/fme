@@ -10,8 +10,8 @@ PAGES_DIR = "./matphys/rpages/"
 EXIT_DIR = "./matphys/"
 EXIT_FILE = "FMEv2.xml"
 # First and last pages to be parsed
-START_PAGE = 198
-END_PAGE = 200
+START_PAGE = 225
+END_PAGE = 300
 # How many words to display before and after a potential title
 LEAD_WORDS = 5
 AFT_WORDS = 5
@@ -228,6 +228,8 @@ for filename in filenames:
 						article.filename = filename
 						add_artice(article, root, num)
 						next_title = True
+						word_bound_l = end_title
+						word_bound_r = next_from(word_bound_l, file, end_replace=False)
 						print(f"Adding article, n=\"{num}\", title=\"{file[start_title+1:end_title]}\"\n\n")
 					elif response == 'n' or response == 'т':
 						# Do not add this one
