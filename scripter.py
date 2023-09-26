@@ -230,7 +230,7 @@ for filename in filenames:
 						next_title = True
 						word_bound_l = end_title
 						word_bound_r = next_from(word_bound_l, file, end_replace=False)
-						print(f"Adding article, n=\"{num}\", title=\"{file[start_title+1:end_title]}\"\n\n")
+						print(f'Adding article, n="{num}", title="{file[start_title+1:end_title]}"\n\n')
 					elif response == 'n' or response == 'т':
 						# Do not add this one
 						next_title = True
