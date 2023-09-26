@@ -57,6 +57,16 @@ if not(EXIT_FILE in filenames_raw):
 	xml_write(root)
 
 
+def remove_xml_spaces(elem):
+	elem.tail = None
+	if elem.text != None:
+		is_space = True
+		for letter in elem.text:
+			is_space = False if letter != ' ' else is_space
+		elem.text = None if is_space else elem.text
+	for subelem in elem:
+		subelem = remove_xml_spaces(subelem)
+	return elem
 def parse_xml():
 	# Parse existing xml (string parsing is needed to avoid extra newlines appearing)
 	exit_string = ''
@@ -65,23 +75,7 @@ def parse_xml():
 			exit_string += i[:-1]
 	root = ET.fromstring(exit_string)
 	# Remove empty tails and texts
-	root.tail = None
-	root.text = None
-	for i in root:
-		i.tail = None
-		i.text = None
-		for j in i:
-			j.tail = None
-			is_space = True
-			for letter in j.text:
-				is_space = False if letter != ' ' else is_space
-			j.text = None if is_space else j.text
-			for k in j:
-				k.tail = None
-				is_space = True
-				for letter in k.text:
-					is_space = False if letter != ' ' else is_space
-				k.text = None if is_space else k.text
+	root = remove_xml_spaces(root)
 	return root
 root = parse_xml()
 num = len(root) + 1
