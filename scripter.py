@@ -1,3 +1,5 @@
+# 1. Базовый парсер заголовков
+
 from os import walk
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
@@ -18,6 +20,8 @@ AFT_WORDS = 5
 # Look in the description
 CAPS_QUOT = 0.51
 EXCEPTIONS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'МэВ', 'ГэВ']
+# Symbols excluded in xml have to be converted back
+XML_EXCLUDES = {'&quot;' : '"', '&apos;' : "'", '&lt;' : '<',	'&gt;' : '>',	'&amp;' : '&'}
 ##################################################################
 
 
@@ -30,14 +34,14 @@ class Article:
 
 
 # Write xml tree to file
-def prettify(elem):
+def prettify_1(elem):
 	# Pretty-printed XML string for the Element.
 	rough_string = ET.tostring(elem, 'utf-8')
 	reparsed = minidom.parseString(rough_string)
 	return reparsed.toprettyxml(indent="  ")
-def xml_write(root):
+def xml_write_1(root):
 	with codecs.open(EXIT_DIR + EXIT_FILE, 'w', 'utf-8') as f:
-		f.write(prettify(root))
+		f.write(prettify_1(root))
 
 
 # Get filenames needed
@@ -54,20 +58,27 @@ for i in range(START_PAGE, END_PAGE + 1):
 filenames_raw = next(walk(EXIT_DIR), (None, None, []))[2]  # [] if no file
 if not(EXIT_FILE in filenames_raw):
 	root = ET.Element('data')
-	xml_write(root)
+	xml_write_1(root)
 
 
-def remove_xml_spaces(elem):
+# Convert xml excluded symbols
+def xml_excluded_convert (text:str) -> str:
+	for key in XML_EXCLUDES.keys():
+		while text.find(key) != -1:
+			pos = text.find(key)
+			text = text[:pos] + XML_EXCLUDES[key] + text[pos+len(key):]
+	return text
+def remove_xml_spaces_1(elem):
 	elem.tail = None
 	if elem.text != None:
 		is_space = True
 		for letter in elem.text:
 			is_space = False if letter != ' ' else is_space
-		elem.text = None if is_space else elem.text
+		elem.text = None if is_space else xml_excluded_convert(elem.text)
 	for subelem in elem:
-		subelem = remove_xml_spaces(subelem)
+		subelem = remove_xml_spaces_1(subelem)
 	return elem
-def parse_xml():
+def parse_xml_1():
 	# Parse existing xml (string parsing is needed to avoid extra newlines appearing)
 	exit_string = ''
 	with codecs.open(EXIT_DIR + EXIT_FILE, 'r', 'utf-8') as f:
@@ -75,14 +86,14 @@ def parse_xml():
 			exit_string += i[:-1]
 	root = ET.fromstring(exit_string)
 	# Remove empty tails and texts
-	root = remove_xml_spaces(root)
+	root = remove_xml_spaces_1(root)
 	return root
-root = parse_xml()
+root = parse_xml_1()
 num = len(root) + 1
 
 
 # Add article title and metadata to xml tree
-def add_artice(elem, root, num):
+def add_artice_1(elem, root, num):
 	article = ET.SubElement(root, 'article', {'n':str(num)})
 	title = ET.SubElement(article, 'title')
 	title.text = file[elem.start_title+1:elem.end_title]
@@ -93,18 +104,18 @@ def add_artice(elem, root, num):
 	title_start.text = str(elem.start_title + 1)
 	title_end = ET.SubElement(title_meta, 'title-end')
 	title_end.text = str(elem.end_title)
-	xml_write(root)
+	xml_write_1(root)
 
 
 # Count number of alphabetic letters in word
-def count_letters(word):
+def count_letters_1(word):
 	num = 0
 	for letter in word:
 		num += 0 if re.match(r"[A-ZА-Яa-zа-я]", letter) == None else 1
 	return num
 
 # Check if word is written in CAPS
-def check_caps(word):
+def check_caps_1(word):
 	num = 0
 	len_word = 0
 	for letter in word:
@@ -114,7 +125,7 @@ def check_caps(word):
 	return 0 if len_word == 0 or num / len_word < CAPS_QUOT or word in EXCEPTIONS else num				# Also exclude common roman numbers
 
 # Check for initials like "I.E."
-def check_initials(word):
+def check_initials_1(word):
 	initials = True
 	for i in range(len(word) - 1):
 		type_1 = 0 if re.match(r"[A-ZА-Яa-zа-я]", word[i]) == None else 1
@@ -124,14 +135,14 @@ def check_initials(word):
 
 
 # Find next ot prev word boundary (space / newline)
-def prev_from(pos, file):
+def prev_from_1(pos, file):
 	pos = max(pos, 0)
 	prev_space = file.rfind(' ', 0, pos)
 	prev_nl = file.rfind('\n', 0, pos)
 	prev_space = -1 if prev_space == -1 else prev_space
 	prev_nl = -1 if prev_nl == -1 else prev_nl
 	return max(prev_nl, prev_space)
-def next_from(pos, file, end_replace = True):
+def next_from_1(pos, file, end_replace = True):
 	next_space = file.find(' ', pos + 1)
 	next_nl = file.find('\n', pos + 1)
 	if end_replace:
@@ -148,7 +159,7 @@ for filename in filenames:
 		file = f.read()
 	
 	word_bound_l = -1
-	word_bound_r = next_from(word_bound_l, file, end_replace=False)
+	word_bound_r = next_from_1(word_bound_l, file, end_replace=False)
 	EOF_reached = False
 
 	while not EOF_reached:
@@ -157,9 +168,9 @@ for filename in filenames:
 			EOF_reached = True
 
 
-		if check_caps(file[word_bound_l+1:word_bound_r]) < 2 or check_initials(file[word_bound_l+1:word_bound_r]):
+		if check_caps_1(file[word_bound_l+1:word_bound_r]) < 2 or check_initials_1(file[word_bound_l+1:word_bound_r]):
 			word_bound_l = word_bound_r
-			word_bound_r = next_from(word_bound_l, file, end_replace=False)
+			word_bound_r = next_from_1(word_bound_l, file, end_replace=False)
 		
 		else: # Possibly found a title
 			# Left border of a title is already known
@@ -170,18 +181,18 @@ for filename in filenames:
 			end_title = word_bound_r
 			while not defined_end:
 				word_bound_l = word_bound_r
-				word_bound_r = next_from(word_bound_l, file)
+				word_bound_r = next_from_1(word_bound_l, file)
 
 				if word_bound_l == len(file):
 					defined_end = True
-				elif not check_caps(file[word_bound_l+1:word_bound_r]) and count_letters(file[word_bound_l+1:word_bound_r]) < 2:
+				elif not check_caps_1(file[word_bound_l+1:word_bound_r]) and count_letters_1(file[word_bound_l+1:word_bound_r]) < 2:
 					if re.match(r"[A-ZА-Яa-zа-я]", file[word_bound_l+1]) != None:
 						# Most possibly belongs to title
 						end_title = word_bound_r
 					else:
 						# Most possibly NOT belongs to title
 						pass
-				elif check_caps(file[word_bound_l+1:word_bound_r]):
+				elif check_caps_1(file[word_bound_l+1:word_bound_r]):
 					end_title = word_bound_r
 				else:
 					defined_end = True
@@ -189,16 +200,16 @@ for filename in filenames:
 			next_title = False
 			while not next_title:
 				# Update root in case it's been changed
-				root = parse_xml()
+				root = parse_xml_1()
 				num = len(root) + 1
 
 				# Console output for further user actions
 				segment_start = start_title
 				segment_end = end_title
 				for i in range(LEAD_WORDS):
-					segment_start = prev_from(segment_start, file)
+					segment_start = prev_from_1(segment_start, file)
 				for i in range(AFT_WORDS):
-					segment_end = next_from(segment_end, file)
+					segment_end = next_from_1(segment_end, file)
 				
 				out_str = file[segment_start+1:segment_end]
 
@@ -220,10 +231,10 @@ for filename in filenames:
 						article.start_title = start_title
 						article.end_title = end_title
 						article.filename = filename
-						add_artice(article, root, num)
+						add_artice_1(article, root, num)
 						next_title = True
 						word_bound_l = end_title
-						word_bound_r = next_from(word_bound_l, file, end_replace=False)
+						word_bound_r = next_from_1(word_bound_l, file, end_replace=False)
 						print(f'Adding article, n="{num}", title="{file[start_title+1:end_title]}"\n\n')
 					elif response == 'n' or response == 'т':
 						# Do not add this one
@@ -239,16 +250,16 @@ for filename in filenames:
 						corrections[1] = int(corrections[1])
 						if corrections[0] > 0:
 							for i in range(abs(corrections[0])):
-								start_title = prev_from(start_title, file)
+								start_title = prev_from_1(start_title, file)
 						if corrections[0] < 0:
 							for i in range(abs(corrections[0])):
-								start_title = next_from(start_title, file)
+								start_title = next_from_1(start_title, file)
 						if corrections[1] < 0:
 							for i in range(abs(corrections[1])):
-								end_title = prev_from(end_title, file)
+								end_title = prev_from_1(end_title, file)
 						if corrections[1] > 0:
 							for i in range(abs(corrections[1])):
-								end_title = next_from(end_title, file)
+								end_title = next_from_1(end_title, file)
 						print("Changing title borders\n\n")
 				except:
 					print("########## !!! Failed on input, try again !!! ##########\n\n")
