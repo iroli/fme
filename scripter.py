@@ -12,8 +12,8 @@ PAGES_DIR = "./matphys/rpages/"
 EXIT_DIR = "./matphys/"
 EXIT_FILE = "FMEv2.xml"
 # First and last pages to be parsed
-START_PAGE = 225
-END_PAGE = 300
+START_PAGE = 372
+END_PAGE = 400
 # How many words to display before and after a potential title
 LEAD_WORDS = 5
 AFT_WORDS = 5
@@ -93,7 +93,10 @@ num = len(root) + 1
 
 
 # Add article title and metadata to xml tree
-def add_artice_1(elem, root, num):
+def add_artice_1(elem):
+	# Update root in case it's been changed
+	root = parse_xml_1()
+	num = len(root) + 1
 	article = ET.SubElement(root, 'article', {'n':str(num)})
 	title = ET.SubElement(article, 'title')
 	title.text = file[elem.start_title+1:elem.end_title]
@@ -105,6 +108,7 @@ def add_artice_1(elem, root, num):
 	title_end = ET.SubElement(title_meta, 'title-end')
 	title_end.text = str(elem.end_title)
 	xml_write_1(root)
+	return num
 
 
 # Count number of alphabetic letters in word
@@ -231,7 +235,7 @@ for filename in filenames:
 						article.start_title = start_title
 						article.end_title = end_title
 						article.filename = filename
-						add_artice_1(article, root, num)
+						num = add_artice_1(article)
 						next_title = True
 						word_bound_l = end_title
 						word_bound_r = next_from_1(word_bound_l, file, end_replace=False)
@@ -267,5 +271,5 @@ for filename in filenames:
 
 # End reached
 print('###########################################################################################')
-print('Last requested page processd. Press "Enter" to close this window.')
+print('Last requested page processed. Press "Enter" to close this window.')
 response = input()
