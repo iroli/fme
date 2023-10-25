@@ -1,40 +1,40 @@
-1. Статья: http://libmeta.ru/fme/article/1671_MAGNITNOJ, Начало на стр. 335, формула 13:
-$$\frac{\partial\langle\boldsymbol{B}\rangle}{\partial t}=\alpha \operatorname{rot}\langle\boldsymbol{B}\rangle$$
-2. Статья: http://libmeta.ru/fme/article/980_IZOTERMIChESKIE, Начало на стр. 211, формула 1:
-$$d l^{2}=f(u, v)\left(d u^{2}+d v^{2}\right)$$
-3. Статья: http://libmeta.ru/fme/article/2424_PROTJaZhENNAJa, Начало на стр. 468, формула 1:
-$$\sigma_{i+} \rightarrow \sigma_{i+} \exp \left(i \boldsymbol{k}_{0} \boldsymbol{r}_{i}\right)$$
-4. Статья: http://libmeta.ru/fme/article/451_VOSPROIZVODIMOSTI, Начало на стр. 100, формула 2:
-$$\operatorname{Tr} \mathscr{\mu}(B)[\mu(C)[\rho]]=\operatorname{Tr} \cdot \mu(B \cap C)[\rho], B, C \in \mathscr{B}(\mathscr{X}),$$
-5. Статья: http://libmeta.ru/fme/article/850_DISKRIMINANT, Начало на стр. 184, формула 1:
-$$F(x, \lambda):\left(\mathbb{C}^{n} \times \mathbb{C}^{k}, 0 \times 0\right) \rightarrow(C, 0) \text {. С. В. Чмутов. }$$
-6. Статья: http://libmeta.ru/fme/article/854_DISPERSI, Начало на стр. 186, формула 11:
-$$F=\frac{1}{2} \sum_{i=1}^{s} \sum_{k=1}^{s} \alpha_{i k} \dot{q}_{i} \dot{q}_{k}$$
-7. Статья: http://libmeta.ru/fme/article/1989_NULEVOJ, Начало на стр. 389, формула 1:
-$$U_{t}-V_{x}+[U, V]=0 \leftrightarrow\left[\frac{\partial}{\partial x}-U, \frac{\partial}{\partial t}-V\right]=0$$
-8. Статья: http://libmeta.ru/fme/article/926_EMKOST', Начало на стр. 201, формула 13:
-$$E(\lambda)=\iint_{K \times K} \ln \frac{1}{x-y} d \lambda(x) d \lambda(y)$$
-9. Статья: http://libmeta.ru/fme/article/2613_RENORMALIZATsIONNAJa, Начало на стр. 507, формула 2:
-$$\left(g^{*} \mathrm{P}\right)(S)=\mathrm{P}\left(g^{-1} S\right), g \in G, S \in \Omega .$$
-10. Статья: http://libmeta.ru/fme/article/396_VIL'SONA, Начало на стр. 88, формула 2:
-$$W(C) \sim \exp (-\alpha S(C)),$$
-11. Статья: http://libmeta.ru/fme/article/902_DUAL'NOSTI, Начало на стр. 197, формула 2:
-$$T^{i_{1} \ldots i_{k}}=g^{i_{1} j_{1}} \ldots g^{i_{k} j_{k}} T_{j_{1} \ldots j_{k}}$$
-12. Статья: http://libmeta.ru/fme/article/1815_MOMENT, Начало на стр. 367, формула 1:
-$$\boldsymbol{K}_{O}=|\boldsymbol{r} \cdot \boldsymbol{m v}|$$
-13. Статья: http://libmeta.ru/fme/article/266_BORA-ZOMMERFEL'DA, Начало на стр. 59, формула 11:
-$$\left[\hat{T}_{R}+\varepsilon_{n}(R)+\hat{\Omega}_{n n}(R)-E\right] \Phi_{n}(R)=\sum_{m \neq n} \hat{\Omega}_{m n}(R) \Phi_{m}(R)$$
-14. Статья: http://libmeta.ru/fme/article/827_DINAMIChESKIJ, Начало на стр. 177, формула 3:
-$$C_{\operatorname{coh}}(t) \equiv I_{\operatorname{coh}}(t) / I_{\text {inc }}(t),$$
-15. Статья: http://libmeta.ru/fme/article/1502_LAGRANZhA, Начало на стр. 312, формула 1:
-$$\delta \int L(q, \dot{q}) d t=0$$
-16. Статья: http://libmeta.ru/fme/article/119_ACIMPTOTIChESKOE, Начало на стр. 36, формула 1:
-$$u \sim \sum_{k=k_{0}}^{\infty} u_{k}$$
-17. Статья: http://libmeta.ru/fme/article/2822_SMEShANNAJa, Начало на стр. 548, формула 1:
-$$\begin{aligned}L u=\sum_{i, j=1}^{n} a_{i j}(x) \frac{\partial^{2} u(x)}{\partial x_{i} \partial x_{j}}+\sum_{i=1}^{n} b_{i}(x) \frac{\partial u(x)}{\partial x_{i}}+ \\+c(x) u(x)=f(x),\end{aligned}$$
-18. Статья: http://libmeta.ru/fme/article/881_DIFFUZIONNYJ, Начало на стр. 194, формула 7:
-$$d X_{t}=a\left(X_{t}, t\right) d t+\sigma\left(X_{t}, t\right) d W_{t},$$
-19. Статья: http://libmeta.ru/fme/article/1177_KVANTOVAJa, Начало на стр. 251, формула 6:
-$$\mathscr{L}_{\mathrm{K} . \mathrm{x} .}^{\mathrm{eff}}=\mathscr{L}_{\mathrm{K} . \mathrm{x} .}^{c}-\frac{1}{2 \alpha}\left(\partial_{\mu} A_{\mu}^{a}\right)^{2}+\partial_{\mu} \bar{\eta}^{\alpha}\left(\partial_{\mu} \delta^{a c}-f^{a b c} A_{\mu}^{b}\right) \eta^{c} .$$
-20. Статья: http://libmeta.ru/fme/article/365_VEC, Начало на стр. 83, формула 6:
-$$\rho\left(M_{\alpha}\right)\left(V_{\sigma}\right) \subseteq V_{\alpha+\sigma},$$
+1. Статья: http://libmeta.ru/fme/article/89_ANTIGRUPPIROVKA, Начало на стр. 28, формула 1:
+$$G^{(2)}(0) \leqslant G^{(2)}(\tau)$$
+2. Статья: http://libmeta.ru/fme/article/1523_LAME, Начало на стр. 317, формула 1:
+$$\begin{aligned}& L_{u}=\sqrt{\left(\frac{\partial x}{\partial u}\right)^{2}+\left(\frac{\partial y}{\partial u}\right)^{2}+\left(\frac{\partial z}{\partial u}\right)^{2}}, \\& L_{v}=\sqrt{\left(\frac{\partial x}{\partial v}\right)^{2}+\left(\frac{\partial y}{\partial v}\right)^{2}+\left(\frac{\partial z}{\partial v}\right)^{2}}, \\& L_{w}=\sqrt{\left(\frac{\partial x}{\partial w}\right)^{2}+\left(\frac{\partial y}{\partial w}\right)^{2}+\left(\frac{\partial z}{\partial w}\right)^{2}},\end{aligned}$$
+3. Статья: http://libmeta.ru/fme/article/1800_MNOTOOBRAZI, Начало на стр. 364, формула 1:
+$$\varphi_{\beta}^{\circ} \varphi_{\alpha}^{-1}: \varphi_{\alpha}\left(U_{\alpha} \cap U_{\beta}\right) \rightarrow \varphi_{\beta}\left(U_{\alpha} \cap U_{\beta}\right)$$
+4. Статья: http://libmeta.ru/fme/article/3033_TELEGRAFNOE, Начало на стр. 595, формула 1:
+$$\frac{\partial^{2} u}{\partial t^{2}}-c^{2} \frac{\partial^{2} u}{\partial s^{2}}+(\alpha+\beta) \frac{\partial u}{\partial t}+\alpha \beta u=0 .$$
+5. Статья: http://libmeta.ru/fme/article/2546_RASSEJaNIJa, Начало на стр. 490, формула 2:
+$$-\Delta \psi(\boldsymbol{r})+V(\boldsymbol{r}) \psi(\boldsymbol{r})=\boldsymbol{k}^{2} \psi(\boldsymbol{r})$$
+6. Статья: http://libmeta.ru/fme/article/3255_FEJNMANA, Начало на стр. 638, формула 1:
+$$-i h \frac{\partial \psi}{\partial t}=\frac{h^{2}}{2 m} \Delta \psi-U(x) \psi$$
+7. Статья: http://libmeta.ru/fme/article/221_BOGOLJuBOVA, Начало на стр. 48, формула 1:
+$$\begin{gathered}\frac{\partial}{\partial t} f_{s}\left(t, x_{1}, \ldots, x_{s}\right)=\left[f_{s}\left(t, x_{1}, \ldots, x_{s}\right), H_{s}\right]- \\\dot{v} \\-\sum_{i \neq j=1}^{s} \frac{\partial}{\partial q_{i}} \Phi\left(q_{i}-q_{j}\right) \frac{\partial}{\partial p_{i}} f_{s-1}\left(t, x_{1}, \ldots, x_{s}\right), \quad s=1,2, \ldots,\end{gathered}$$
+8. Статья: http://libmeta.ru/fme/article/2787_SKALJaRNAJa, Начало на стр. 540, формула 1:
+$$R=g^{l q} R_{q l}=g^{l q} R_{q, i l}^{i},$$
+9. Статья: http://libmeta.ru/fme/article/1214_KEL'TSKIJ, Начало на стр. 265, формула 1:
+$$\left[\left(A_{2}-A_{1}\right)\left(r_{2}-r_{1}\right) \sin \delta \cos \delta\right] \omega>0$$
+10. Статья: http://libmeta.ru/fme/article/2687_SVERHUSTOJChIVYJ, Начало на стр. 521, формула 3:
+$$U \geqslant-B m+\frac{A \lambda^{v} m^{2}}{V}=-B m+\frac{A m^{2}}{V}$$
+11. Статья: http://libmeta.ru/fme/article/3465_EJKONALA, Начало на стр. 672, формула 1:
+$$\left(\frac{\partial u}{\partial q}\right)^{2}=1$$
+12. Статья: http://libmeta.ru/fme/article/862_DISTAL'NAJa, Начало на стр. 188, формула 1:
+$$\inf _{t} \rho\left(T^{t} x, T^{t} y\right)>0$$
+13. Статья: http://libmeta.ru/fme/article/3487_EKVIVALENTNOST', Начало на стр. 674, формула 1:
+$$\begin{gathered}\Phi(x) \geqslant \varphi_{1}(|x|) \text { при }|x| \leqslant a_{1}, \\\Phi(x) \geqslant-\varphi_{2}(|x|) \text { при }|x| \geqslant a_{2},\end{gathered}$$
+14. Статья: http://libmeta.ru/fme/article/3091_TOPOLOGIChESKIJ, Начало на стр. 608, формула 1:
+$$c_{2}(\eta)[M]=\frac{1}{8 \pi^{2}} \int_{M} \operatorname{tr}(F \wedge F)$$
+15. Статья: http://libmeta.ru/fme/article/2777_SINUS-GORDONA, Начало на стр. 538, формула 1:
+$$D_{+} D \_\Phi=\operatorname{sh} \Phi$$
+16. Статья: http://libmeta.ru/fme/article/813_DINAMIK, Начало на стр. 170, формула 2:
+$$I_{z} \varepsilon=M_{z},$$
+17. Статья: http://libmeta.ru/fme/article/1554_LEVINA-EJZENBUDA-HIMShIAShVILI, Начало на стр. 322, формула 1:
+$$Q_{f}=\mathbb{R}\left\langle\left\langle x_{1}, \ldots, x_{n}\right\rangle\right\rangle /\left(f_{1}, \ldots, f_{n}\right)$$
+18. Статья: http://libmeta.ru/fme/article/1487_KULONOVSKOE, Начало на стр. 308, формула 1:
+$$v_{c}(x)=n /|x| .$$
+19. Статья: http://libmeta.ru/fme/article/3178_UNITARNYJ, Начало на стр. 622, формула 2:
+$$U=\int_{0}^{2 \pi} e^{i \lambda} E(d \lambda) \Leftrightarrow U=\exp \{i A\}$$
+20. Статья: http://libmeta.ru/fme/article/1249_KLASSIChESKOE, Начало на стр. 270, формула 1:
+$$D_{+} D_{-} \Phi=\exp \Phi$$
