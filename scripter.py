@@ -12,8 +12,8 @@ PAGES_DIR = "./matphys/rpages/"
 EXIT_DIR = "./matphys/"
 EXIT_FILE = "FMEv2.xml"
 # First and last pages to be parsed
-START_PAGE = 372
-END_PAGE = 400
+START_PAGE = 639
+END_PAGE = 700
 # How many words to display before and after a potential title
 LEAD_WORDS = 5
 AFT_WORDS = 5
@@ -34,12 +34,12 @@ class Article:
 
 
 # Write xml tree to file
-def prettify_1(elem):
+def prettify_1(elem:ET.Element) -> str:
 	# Pretty-printed XML string for the Element.
 	rough_string = ET.tostring(elem, 'utf-8')
 	reparsed = minidom.parseString(rough_string)
 	return reparsed.toprettyxml(indent="  ")
-def xml_write_1(root):
+def xml_write_1(root:ET.Element):
 	with codecs.open(EXIT_DIR + EXIT_FILE, 'w', 'utf-8') as f:
 		f.write(prettify_1(root))
 
@@ -68,7 +68,7 @@ def xml_excluded_convert (text:str) -> str:
 			pos = text.find(key)
 			text = text[:pos] + XML_EXCLUDES[key] + text[pos+len(key):]
 	return text
-def remove_xml_spaces_1(elem):
+def remove_xml_spaces_1(elem:ET.Element) -> ET.Element:
 	elem.tail = None
 	if elem.text != None:
 		is_space = True
@@ -78,7 +78,7 @@ def remove_xml_spaces_1(elem):
 	for subelem in elem:
 		subelem = remove_xml_spaces_1(subelem)
 	return elem
-def parse_xml_1():
+def parse_xml_1() -> ET.Element:
 	# Parse existing xml (string parsing is needed to avoid extra newlines appearing)
 	exit_string = ''
 	with codecs.open(EXIT_DIR + EXIT_FILE, 'r', 'utf-8') as f:
@@ -93,7 +93,7 @@ num = len(root) + 1
 
 
 # Add article title and metadata to xml tree
-def add_artice_1(elem):
+def add_artice_1(elem:Article) -> int:
 	# Update root in case it's been changed
 	root = parse_xml_1()
 	num = len(root) + 1
@@ -112,16 +112,20 @@ def add_artice_1(elem):
 
 
 # Count number of alphabetic letters in word
-def count_letters_1(word):
+def count_letters_1(word:str) -> int:
 	num = 0
 	for letter in word:
 		num += 0 if re.match(r"[A-ZА-Яa-zа-я]", letter) == None else 1
 	return num
 
 # Check if word is written in CAPS
-def check_caps_1(word):
+def check_caps_1(word:str) -> int:
 	num = 0
 	len_word = 0
+	while len(word) and re.match(r"[!#$%&'*+-.^_`|~:]", word[-1]) != None:
+		word = word[:-1]
+	while len(word) and re.match(r"[!#$%&'*+-.^_`|~:]", word[0]) != None:
+		word = word[1:]
 	for letter in word:
 		#num += 0 if re.match(r"[A-ZА-Я0-9]|[!#$%&'*+-.^_`|~:]", letter) == None else 1					# Too many symbols, math formulas are being detected
 		len_word += 1 if re.match(r"[!#$%&'*+-.^_`|~:]", letter) == None else 0
@@ -129,7 +133,7 @@ def check_caps_1(word):
 	return 0 if len_word == 0 or num / len_word < CAPS_QUOT or word in EXCEPTIONS else num				# Also exclude common roman numbers
 
 # Check for initials like "I.E."
-def check_initials_1(word):
+def check_initials_1(word:str) -> bool:
 	initials = True
 	for i in range(len(word) - 1):
 		type_1 = 0 if re.match(r"[A-ZА-Яa-zа-я]", word[i]) == None else 1
@@ -137,16 +141,25 @@ def check_initials_1(word):
 		initials = False if type_1 and type_2 else initials
 	return initials
 
+# Check if the word is "CM." which happens often
+def check_link_1(word:str) -> bool:
+	word = word.upper()
+	# Convert to cyrillic
+	for i in range(len(word)):
+		word = (word[:i] + 'С' + word[i+1:]) if word[i] == 'C' else word
+		word = (word[:i] + 'М' + word[i+1:]) if word[i] == 'M' else word
+	return True if word == 'СМ.' else False
+
 
 # Find next ot prev word boundary (space / newline)
-def prev_from_1(pos, file):
+def prev_from_1(pos:int, file:str) -> int:
 	pos = max(pos, 0)
 	prev_space = file.rfind(' ', 0, pos)
 	prev_nl = file.rfind('\n', 0, pos)
 	prev_space = -1 if prev_space == -1 else prev_space
 	prev_nl = -1 if prev_nl == -1 else prev_nl
 	return max(prev_nl, prev_space)
-def next_from_1(pos, file, end_replace = True):
+def next_from_1(pos:int, file:str, end_replace = True) -> int:
 	next_space = file.find(' ', pos + 1)
 	next_nl = file.find('\n', pos + 1)
 	if end_replace:
@@ -172,7 +185,7 @@ for filename in filenames:
 			EOF_reached = True
 
 
-		if check_caps_1(file[word_bound_l+1:word_bound_r]) < 2 or check_initials_1(file[word_bound_l+1:word_bound_r]):
+		if check_caps_1(file[word_bound_l+1:word_bound_r]) < 2 or check_initials_1(file[word_bound_l+1:word_bound_r]) or check_link_1(file[word_bound_l+1:word_bound_r]):
 			word_bound_l = word_bound_r
 			word_bound_r = next_from_1(word_bound_l, file, end_replace=False)
 		
@@ -189,6 +202,9 @@ for filename in filenames:
 
 				if word_bound_l == len(file):
 					defined_end = True
+				elif check_link_1(file[word_bound_l+1:word_bound_r]):
+					# A "CM." link, not a title
+					pass
 				elif not check_caps_1(file[word_bound_l+1:word_bound_r]) and count_letters_1(file[word_bound_l+1:word_bound_r]) < 2:
 					if re.match(r"[A-ZА-Яa-zа-я]", file[word_bound_l+1]) != None:
 						# Most possibly belongs to title
