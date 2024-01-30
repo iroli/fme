@@ -3,7 +3,7 @@
 # -------------------------- VARS --------------------------------
 ARTICLES_DIR = "./results/FMEarticles/"
 STRICT_SEQUENCING = False  # DEFAULT: False; Links with changed order of words will also be found if False
-BRUTE_FORCE_MODE = True  # Maximum amount of links to find, but takes more time (very slow, use with multiprocessing)
+BRUTE_FORCE_MODE = True  # Maximum amount of links to find, but takes more time (very slow)
 USE_MULTIPROCESSING = True  # WARNING: Does not work inside Jupyter!!!; Significantly speeds up scanning process
 KEEP_FREE = 0  # Make multiprocessing keep free a specified amount of logic processors, if needed.
 # ----------------------------------------------------------------
@@ -13,6 +13,8 @@ from lib import *
 
 number_of_processors = max(1, os.cpu_count() - KEEP_FREE)
 matches_list = []
+articles_list = []
+titles_list = []
 
 
 # Find previous word beginning - 1 from given position
@@ -247,22 +249,20 @@ def loop(filenames_loc: list) -> int:
 filenames = get_filenames(ARTICLES_DIR)
 
 # Get all the titles into a list
-articles_list = []
-titles_list = []
-if __name__ != '__main__' or not USE_MULTIPROCESSING:
+if __name__ != '__main__':
 
     # DEBUG                           ###
     # filenames = ["1583_LI.xml", "2471_PUASSONA.xml", "2472_PUASSONA.xml"]
     #####################################
-    if __name__ == '__main__':
-        print("Preparing search base...")
     for filename in tqdm(filenames):
         article = parse_xml(ARTICLES_DIR + filename)
         title = get_xml_elem(article, 'title').text
         titles_list.append([title_word.upper().strip(' \n\r.,;:!?\\()[]{}&') for title_word in title.split(' ')])
         articles_list.append(filename)
 
-if __name__ == '__main__':
+
+def run():
+    global filenames
 
     # DEBUG                           ###
     # filenames = ['3576_JaKOBI.xml']    ###
@@ -282,3 +282,8 @@ if __name__ == '__main__':
     print("Relations found in total:", n)
     if USE_MULTIPROCESSING:
         input()
+
+
+if __name__ == "__main__":
+    print("Preparing search base,")
+    run()
