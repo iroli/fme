@@ -17,6 +17,12 @@ articles_list = []
 titles_list = []
 
 
+class Relation:
+    start = 0
+    end = 0
+    tgt = ''
+
+
 # Find previous word beginning - 1 from given position
 def find_prev_space(work_text: str, start_pos: int) -> int:
     new_pos = 0
@@ -94,9 +100,12 @@ def find_matching_title(sequence_list: list) -> (bool, bool, bool, int):
 # Function for multiprocessing speedup
 def loop(filenames_loc: list) -> int:
     global matches_list
+    relations_list = []
     n_loc = 0
     for filename_loc in tqdm(filenames_loc):
+        relations_list.clear()
         article_loc = parse_xml(ARTICLES_DIR + filename_loc)
+        relations_loc = get_xml_elem(article_loc, 'relations')
         textelem_loc = get_xml_elem(article_loc, 'text')
         text_loc = textelem_loc.text
         n_loc_loc = 0
@@ -205,26 +214,19 @@ def loop(filenames_loc: list) -> int:
                         if match_exact_loc:
                             _match_single_loc = False
                             # Add an inter-link
-                            n_loc_loc += 1
-                            uri_pos_us = article_loc.attrib['uri'].find('_')
-                            uri_pos_sl = article_loc.attrib['uri'].rfind('/', 0, uri_pos_us)
-                            uri_loc = URI_PREFIX + 'relation' + \
-                                      article_loc.attrib['uri'][uri_pos_sl:uri_pos_us + 1] + \
-                                      str(n_loc_loc) + \
-                                      article_loc.attrib['uri'][uri_pos_us:]
-                            relations_loc = get_xml_elem(article_loc, 'relations')
-                            relation_loc = ElementTree.SubElement(relations_loc, 'relation', {'uri': uri_loc})
-                            rel_text_loc = ElementTree.SubElement(relation_loc, 'rel_text')
-                            rel_text_loc.text = text_loc[border_left_loc:border_right_loc]
-                            rel_tgt_loc = ElementTree.SubElement(relation_loc, 'target')
                             related_article_loc = parse_xml(ARTICLES_DIR + articles_list[match_pos_loc])
-                            rel_tgt_loc.text = related_article_loc.attrib['uri']
-                            text_loc = text_loc[:border_left_loc] + 'URI[[' + uri_loc + ']]/URI' + text_loc[
-                                                                                                   border_right_loc:]
+                            relation_obj = Relation()
+                            relation_obj.start = border_left_loc
+                            relation_obj.end = border_right_loc
+                            relation_obj.tgt = related_article_loc.attrib['uri']
+                            relations_list.append((border_left_loc, relation_obj))
                             # Continue in case of multilink
                             if not BRUTE_FORCE_MODE:
-                                border_left_loc += len('URI[[' + uri_loc + ']]/URI')
+                                border_left_loc = border_right_loc
                                 while border_left_loc < len(text_loc) and not text_loc[border_left_loc] in ' \n\r':
+                                    border_left_loc += 1
+                                while border_left_loc < len(text_loc) and \
+                                        text_loc[border_left_loc] in ' \n\r.,;:!?\\()[]{}&':
                                     border_left_loc += 1
                                 border_right_f_loc = border_left_loc
                                 matches_list = [p for p in range(len(titles_list))]
@@ -236,6 +238,32 @@ def loop(filenames_loc: list) -> int:
 
                 find_right_loc = find_left_loc
                 find_left_loc = find_prev_space(text_loc, find_left_loc) if find_left_loc else -1
+
+        # Choose best relations
+        p = 0
+        relations_list.sort(reverse=True)
+        while p < len(relations_list):
+            if p and relations_list[p - 1][1].start < relations_list[p][1].end:
+                if relations_list[p - 1][1].end - relations_list[p - 1][1].start > \
+                        relations_list[p][1].end - relations_list[p][1].start:
+                    del relations_list[p]
+                else:
+                    del relations_list[p - 1]
+            else:
+                p += 1
+        # Add links to xml
+        for relation_obj in relations_list:
+            n_loc_loc += 1
+            uri_pos_us = article_loc.attrib['uri'].find('_')
+            uri_pos_sl = article_loc.attrib['uri'].rfind('/', 0, uri_pos_us)
+            uri_loc = URI_PREFIX + 'relation' + article_loc.attrib['uri'][uri_pos_sl:uri_pos_us + 1] + \
+                      str(n_loc_loc) + article_loc.attrib['uri'][uri_pos_us:]
+            relation_loc = ElementTree.SubElement(relations_loc, 'relation', {'uri': uri_loc})
+            rel_text_loc = ElementTree.SubElement(relation_loc, 'rel_text')
+            rel_text_loc.text = text_loc[relation_obj[1].start:relation_obj[1].end]
+            rel_tgt_loc = ElementTree.SubElement(relation_loc, 'target')
+            rel_tgt_loc.text = relation_obj[1].tgt
+            text_loc = text_loc[:relation_obj[1].start] + 'URI[[' + uri_loc + ']]/URI' + text_loc[relation_obj[1].end:]
 
         # Write xml
         textelem_loc.text = text_loc
