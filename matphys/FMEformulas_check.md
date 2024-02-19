@@ -1,40 +1,40 @@
-1. Статья: http://libmeta.ru/fme/article/47_ALGEBR, Начало на стр. 15, формула 1:
-$$e_{i} e_{j}=\sum c_{i j}^{k} e_{k} .$$
-2. Статья: http://libmeta.ru/fme/article/2270_POGRUZhENIE, Начало на стр. 450, формула 1:
-$$f_{*}: T_{x} N^{n} \rightarrow T_{f(x)} M^{m}$$
-3. Статья: http://libmeta.ru/fme/article/1790_MINKOVSKOGO, Начало на стр. 361, формула 1:
-$$s^{2}=\left(\Delta x^{0}\right)^{2}-\sum_{i}\left(\Delta x^{i}\right)^{2} .$$
-4. Статья: http://libmeta.ru/fme/article/1743_MATEMATIChESKOJ, Начало на стр. 353, формула 2:
-$$\frac{\partial \rho}{\partial t}+\frac{\partial \rho v}{\partial x}=0, \quad \frac{\partial v}{\partial t}+v \frac{\partial v}{\partial x}+\frac{1}{\rho} \frac{\partial P(\rho)}{\partial x}=0$$
-5. Статья: http://libmeta.ru/fme/article/1449_KRASNOE, Начало на стр. 305, формула 1:
-$$1+z=v_{1} / v_{2}$$
-6. Статья: http://libmeta.ru/fme/article/2134_OSTsILLJaTsIJ, Начало на стр. 419, формула 1:
-$$-i h \partial_{t} \psi+H\left(x,-i h \partial_{x}\right) \psi=0,$$
-7. Статья: http://libmeta.ru/fme/article/3139_TURBULENTNOST, Начало на стр. 612, формула 6:
-$$\frac{\partial f_{n}}{\partial t_{k}}=-\left(\frac{\partial u_{k \alpha} f_{n}}{\partial x_{k \alpha}}+\frac{\partial w_{k \alpha} f_{n}}{\partial u_{k \alpha}}\right),$$
-8. Статья: http://libmeta.ru/fme/article/3568_JaKOBI, Начало на стр. 688, формула 1:
-$$\begin{gathered}y_{\omega_{l}}=\frac{1}{m_{\omega_{l}}} \sum_{s=1}^{l} m_{i_{s}} r_{i_{s}}, \\m_{\omega_{l}}=\sum_{s=1}^{l} m_{i_{s}},\end{gathered}$$
-9. Статья: http://libmeta.ru/fme/article/1597_LINEARIZOVANNOE, Начало на стр. 327, формула 3:
-$$f=\pi^{-3 / 2} \exp \left\{-\vec{p}^{2}\right\}+\mu \exp \left\{-\frac{\vec{p}^{2}}{2}\right\} \varphi$$
-10. Статья: http://libmeta.ru/fme/article/3344_HARAKTERISTIChESKAJa, Начало на стр. 655, формула 11:
-$$f(t)=\frac{\exp i t b-\exp i t a}{i t(b-a)} .$$
-11. Статья: http://libmeta.ru/fme/article/1238_KIRKVUDA-ZAL'TsBURGA, Начало на стр. 268, формула 4:
-$$\begin{gathered}W^{1}(x)_{m}=\sum_{i=2}^{m} \Phi\left(x_{i}-x_{1}\right) ; \\(x)_{m-1}^{\prime}=\left\{x_{2}, \ldots, x_{m}\right\} ; \\K\left(x_{1},(y)_{n}\right)=\prod_{j=1}^{n}\left(e^{-\beta \Phi\left(y_{i}-x_{1}\right)}-1\right) .\end{gathered}$$
-12. Статья: http://libmeta.ru/fme/article/217_BLJaShKE, Начало на стр. 48, формула 3:
-$$b_{k}(z)=\frac{\left|a_{k}\right|}{a_{k}} \frac{a_{k}-z}{1-\bar{a}_{k} z},$$
-13. Статья: http://libmeta.ru/fme/article/1489_KULONOVSKIJ, Начало на стр. 308, формула 1:
-$$\Phi(r)=k \frac{q_{1} q_{2}}{\varepsilon r}, \quad k= \begin{cases}1, & \text { СГС, } \\ \frac{1}{4 \pi \varepsilon_{0}}, & \text { СИ, }\end{cases}$$
-14. Статья: http://libmeta.ru/fme/article/2936_STATISTIChESKOJ, Начало на стр. 574, формула 3:
-$$H_{V}\left(U_{t}^{V} \omega\right)=H_{V}(\omega)$$
-15. Статья: http://libmeta.ru/fme/article/1844_MUL'TIPLIKATO, Начало на стр. 371, формула 2:
-$$(\mu f, \Phi)=(f, \mu \Phi), \Phi \in \mathscr{F}^{\prime},$$
-16. Статья: http://libmeta.ru/fme/article/2669_RELEJa, Начало на стр. 516, формула 7:
-$$\begin{gathered}F=\operatorname{grad} f, f: \mathbb{R}^{n} \rightarrow \mathbb{R}, f \in C^{1}, \\G=\operatorname{grad} g, g: \mathbb{R}^{n} \rightarrow \mathbb{R}, g \in C^{2},\end{gathered}$$
-17. Статья: http://libmeta.ru/fme/article/2955_STEPENI, Начало на стр. 580, формула 1:
-$$f=k-\varphi+2 \text {, }$$
-18. Статья: http://libmeta.ru/fme/article/1120_KASATEL'NYJ, Начало на стр. 237, формула 2:
-$$\boldsymbol{v}=v^{i} \partial / \partial x^{i}$$
-19. Статья: http://libmeta.ru/fme/article/2459_PUANKARE, Начало на стр. 471, формула 1:
-$$f(x)=\rho V(x) /|V(x)|,$$
-20. Статья: http://libmeta.ru/fme/article/1431_KOShI, Начало на стр. 301, формула 2:
-$$\frac{\partial u}{\partial t}-\sum_{j=1}^{n} A_{j} \frac{\partial u}{\partial x_{j}}+B u=0$$
+1. Статья: http://libmeta.ru/fme/article/2555_RASSLOENIE,, Начало на стр. 494, формула 1:
+$$X=B \times F, p(x)=B$$
+2. Статья: http://libmeta.ru/fme/article/563_GELL-MANA, Начало на стр. 124, формула 2:
+$$\begin{aligned}& \lambda_{1}=\left\|\begin{array}{lll}0 & 1 & 0 \\1 & 0 & 0 \\0 & 0 & 0\end{array}\right\|, \quad \lambda_{2}=\left\|\begin{array}{rrr}0 & -i & 0 \\i & 0 & 0 \\0 & 0 & 0\end{array}\right\|, \quad \lambda_{3}=\left\|\begin{array}{rrr}1 & 0 & 0 \\0 & -1 & 0 \\0 & 0 & 0\end{array}\right\|, \\& \lambda_{4}=\left\|\begin{array}{lll}0 & 0 & 1 \\0 & 0 & 0 \\1 & 0 & 0\end{array}\right\|, \quad \lambda_{5}=\left\|\begin{array}{ccc}0 & 0 & -i \\0 & 0 & 0 \\i & 0 & 0\end{array}\right\|, \quad \lambda_{6}=\left\|\begin{array}{lll}0 & 0 & 0 \\0 & 0 & 1 \\0 & 1 & 0\end{array}\right\|, \\& \lambda_{7}=\left\|\begin{array}{ccc}0 & 0 & 0 \\0 & 0 & -i \\0 & i & 0\end{array}\right\|, \quad \lambda_{8}=\left\|\begin{array}{ccc}1 / \sqrt{3} & 0 & 0 \\0 & 1 / \sqrt{3} & 0 \\0 & 0 & -2 / \sqrt{3}\end{array}\right\| .\end{aligned}$$
+3. Статья: http://libmeta.ru/fme/article/1741_MATEMATIChESKOE, Начало на стр. 352, формула 1:
+$$\mathrm{E} X=\sum_{k=1}^{\infty} x_{k} p_{k}$$
+4. Статья: http://libmeta.ru/fme/article/2127_OSTsILLIRUJuSchIJ, Начало на стр. 417, формула 1:
+$$I(\tau)=\int_{\mathbb{R}^{n}} e^{i \tau f(x)} \varphi(x) d x_{1} \ldots d x_{n},$$
+5. Статья: http://libmeta.ru/fme/article/3208_USTOJChIVAJa, Начало на стр. 628, формула 1:
+$$f=x_{1}^{2}+\ldots+x_{r}^{2}-x_{r+1}^{2}-\ldots-x_{m}^{2}+c .$$
+6. Статья: http://libmeta.ru/fme/article/345_VEKTOR, Начало на стр. 77, формула 10:
+$$\left(a_{1}, \ldots, a_{N}\right) \in \Delta_{1} \times \ldots \times \Delta_{N} \subset \mathbb{R}^{N},$$
+7. Статья: http://libmeta.ru/fme/article/2696_SVOBODNAJa, Начало на стр. 522, формула 1:
+$$F=U-T S,$$
+8. Статья: http://libmeta.ru/fme/article/557_GEJZENBERGA, Начало на стр. 122, формула 2:
+$$J=3 k T_{C} / 2 z S(S+1)$$
+9. Статья: http://libmeta.ru/fme/article/549_GAUSSOVA, Начало на стр. 121, формула 1:
+$$\begin{gathered}k=\frac{1}{\left(E G-F^{2}\right)^{2}}\left|\begin{array}{lll}E & E_{u} & E_{v} \\F & F_{u} & F_{v} \\G & G_{u} & G_{v}\end{array}\right|- \\-\frac{1}{2 \sqrt{E G-F^{2}}}\left\{\left(\frac{E_{v}-F_{u}}{\sqrt{E G-F^{2}}}\right)_{v}-\left(\frac{F_{v}-G_{u}}{\sqrt{E G-F^{2}}}\right)_{u}\right\} .\end{gathered}$$
+10. Статья: http://libmeta.ru/fme/article/2020_OBOBSchENNOE, Начало на стр. 397, формула 2:
+$$f_{\varphi}(T)=(T, \varphi), T \in D^{\prime}(G), \varphi \in D(G),$$
+11. Статья: http://libmeta.ru/fme/article/2619_RENORMALIZATsIONNAJa, Начало на стр. 508, формула 2:
+$$x \rightarrow x^{\prime}=x / t, g \rightarrow g^{\prime}=\bar{g}(t, g) .$$
+12. Статья: http://libmeta.ru/fme/article/822_DINAMIChESKAJa, Начало на стр. 173, формула 1:
+$$\dot{x}=f(x, y, \varepsilon), \dot{y}=\varepsilon g(x, y, \varepsilon), x \in \mathbb{R}^{m}, y \in \mathbb{R}^{n}, 0<\varepsilon \ll 1 .$$
+13. Статья: http://libmeta.ru/fme/article/3565_JuLINGA-ULENBEKA, Начало на стр. 687, формула 1:
+$$\begin{aligned}& \frac{d f}{d t}=\int d \boldsymbol{p}^{\prime} d \boldsymbol{p}_{1}^{\prime} d \boldsymbol{p}_{1} W\left(\boldsymbol{p}, \boldsymbol{p}_{1}, \boldsymbol{p}^{\prime}, \boldsymbol{p}_{1}\right) \times \\& \times\left(f^{\prime} f_{1}^{\prime}(1+\theta f)\left(1+\theta_{1} f_{1}\right)-f f_{1}\left(1+\theta_{1} f^{\prime}\right)\left(1+\theta_{1} f^{\prime}\right)+\right. \\& +(1+\theta f) S(\boldsymbol{p})-f Y(\boldsymbol{p}) \text {. }\end{aligned}$$
+14. Статья: http://libmeta.ru/fme/article/1525_LAKSA-FILLIPSA, Начало на стр. 316, формула 6:
+$$Z_{t}=P_{k} U_{t} \mid K, t \geqslant 0 .$$
+15. Статья: http://libmeta.ru/fme/article/726_GRINA, Начало на стр. 158, формула 4:
+$$\left(\square-m^{2}\right) D^{c}(x)=-\delta(x)$$
+16. Статья: http://libmeta.ru/fme/article/3512_ELEMENT, Начало на стр. 675, формула 1:
+$$f(z)=\sum_{k=0}^{\infty} c_{k}(z-a)^{k}$$
+17. Статья: http://libmeta.ru/fme/article/2564_RASShIRENIE, Начало на стр. 495, формула 1:
+$$\operatorname{Gr}(A):=\{\{x, A x\}, x \in \mathscr{D}(A)\} \subset \operatorname{Gr}(B)$$
+18. Статья: http://libmeta.ru/fme/article/2097_ORNShTEJNA-TsERNIKE, Начало на стр. 412, формула 1:
+$$v_{2}\left(\overrightarrow{r_{1}}-\overrightarrow{r_{2}}\right)=C\left(\overrightarrow{r_{1}}-\overrightarrow{r_{2}}\right)+n \int d \overrightarrow{r_{3}} v_{2}\left(\overrightarrow{r_{1}}-\overrightarrow{r_{3}}\right) C\left(\overrightarrow{r_{3}}-\overrightarrow{r_{2}}\right)$$
+19. Статья: http://libmeta.ru/fme/article/1343_KONIChESKAJa, Начало на стр. 282, формула 2:
+$$\sum_{i, j} h_{\xi_{i} \xi_{j}(\xi) \mathscr{D}^{\prime}}{ }^{\mathscr{D}} Y_{j}$$
+20. Статья: http://libmeta.ru/fme/article/1160_pq-, Начало на стр. 243, формула 2:
+$$\begin{gathered}\hat{f}_{p q} u(x)=(2 \pi \hbar)^{-n} \int e^{\frac{i}{\hbar} p \cdot(x-y)} f(p, y) u(y) d y \\\hat{f}_{q p} u(x)=(2 \pi \hbar)^{-n} \int e^{\frac{i}{\hbar} p \cdot(x-y)} f(p, x) u(y) d y .\end{gathered}$$
