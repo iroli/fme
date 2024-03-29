@@ -256,8 +256,9 @@ def loop(filenames_loc: list) -> int:
             n_loc_loc += 1
             uri_pos_us = article_loc.attrib['uri'].find('_')
             uri_pos_sl = article_loc.attrib['uri'].rfind('/', 0, uri_pos_us)
+            relations_loc.attrib['n'] = str(int(relations_loc.attrib['n']) + 1)
             uri_loc = URI_PREFIX + 'relation' + article_loc.attrib['uri'][uri_pos_sl:uri_pos_us + 1] + \
-                      str(n_loc_loc) + article_loc.attrib['uri'][uri_pos_us:]
+                      relations_loc.attrib['n'] + article_loc.attrib['uri'][uri_pos_us:]
             relation_loc = ElementTree.SubElement(relations_loc, 'relation', {'uri': uri_loc})
             rel_text_loc = ElementTree.SubElement(relation_loc, 'rel_text')
             rel_text_loc.text = text_loc[relation_obj[1].start:relation_obj[1].end]
