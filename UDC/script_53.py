@@ -5,9 +5,9 @@ import codecs
 
 
 ############################ VARS ################################
-INPUT_FILE = 'Labels.txt'
-CONCEPTS_FILE = '12_UDC_Concepts_.xml'
-RELATIONS_FILE = '14_UDC_Relations_.xml'
+INPUT_FILE = 'Labels_53.txt'
+CONCEPTS_FILE = '12_UDC_Concepts_53.xml'
+RELATIONS_FILE = '14_UDC_Relations_53.xml'
 ##################################################################
 
 
