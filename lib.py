@@ -30,6 +30,10 @@ from tqdm.auto import tqdm
 from multiprocessing import Pool
 # noinspection PyUnresolvedReferences
 import os
+# noinspection PyUnresolvedReferences
+import datetime
+# noinspection PyUnresolvedReferences
+from latex2mathml.converter import convert as tex2mml
 
 
 # Small dictionaries merger
@@ -155,6 +159,17 @@ def get_texts(file_name: str) -> tuple[str, str]:
         file_content = f_in.read()
     text_orig = file_content[file_content.find('<text_orig>') + 11:file_content.find('</text_orig>')]
     return text_local, text_orig
+
+
+# Inserts [left_scope + text + right_scope] instead of [fragment] if exists.
+# Common use: CDATA insertion
+def insert_texts(xml: str, fragment: str, left_scope: str, right_scope: str, text: str) -> str:
+    if xml.find(fragment) != -1:
+        frag_pos = xml.find(fragment)
+        frag_len = len(fragment)
+        xml = xml[:frag_pos] + left_scope + (text if text is not None else '') + right_scope +\
+              (xml[frag_pos+frag_len:] if ((frag_pos + frag_len) < len(xml)) else '')
+    return xml
 
 
 # Get xml tree element with certain tag name
