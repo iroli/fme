@@ -1,0 +1,253 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1693_MAKSVELLA" alphabetic_pos="1695">
+  <title>МАКСВЕЛЛА РАСПРЕДЕЛЕНИЕ</title>
+  <authors>
+    <author>Д. Н. Зубарев</author>
+  </authors>
+  <pages>
+    <start>339</start>
+    <end>339</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Л а н д а у Л. Д., Л и фш и ц Е. М., Статистическая физика, ч. 1, 3 изд., М., 1976, § 22; [2] Рам зей Н., Молекулярные пучки, пер. с англ., М., 1960; [3] Си вухи н Д. В., Общий курс физики, 2 изд., т. 2 - Термодинамика и молекулярная физика, М., 1979, § 72-74; [4] Х и р К., Статистическая механика, кинетическая теория и стохастические процессы, пер. с англ., М., 1976, гл. 1.</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Статистическая физика, ч. 1</title>
+      <publication>3 изд., М.</publication>
+      <year>1976</year>
+      <other>§ 22</other>
+    </unit>
+    <unit>
+      <author>Рамзей Н.</author>
+      <title>Молекулярные пучки</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1960</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Сивухин Д. В.</author>
+      <title>Общий курс физики</title>
+      <publication>2 изд., т. 2 - Термодинамика и молекулярная физика, М.</publication>
+      <year>1979</year>
+      <other>§ 72-74</other>
+    </unit>
+    <unit>
+      <author>Хир К.</author>
+      <title>Статистическая механика, кинетическая теория и стохастические процессы</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1976</year>
+      <other>гл. 1.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1693_1_MAKSVELLA">d w_{v}=f(v) d v_{x} d v_{y} d v_{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1693_2_MAKSVELLA">f(v)=n(m / 2 \pi k T)^{3 / 2} \exp \left[-m\left(v_{x}^{2}+v_{y}^{2}+v_{z}^{2}\right) / 2 k T\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1693_3_MAKSVELLA">d w_{v}=F(v) d v=n(m / 2 \pi k T)^{3 / 2} \exp \left[-m v^{2} / 2 k T\right] 4 \pi v^{2} d v .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1693_4_MAKSVELLA">v_{\mathrm{B}}=(2 k T / m)^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1693_5_MAKSVELLA">\left\langle v^{2}\right\rangle=38 k T / m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1693_6_MAKSVELLA">v_{\mathrm{KB}} \equiv\left\langle v^{2}\right\rangle^{1 / 2}=(3 k T / m)^{1 / 2} \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1693_7_MAKSVELLA">\langle v\rangle=(8 k T / \pi m)^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1693_8_MAKSVELLA">d w_{u}=n(m / 4 \pi k T)^{3 / 2} \exp \left(-m u^{2} / 4 k T\right) 4 \pi u^{2} d u,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1693_9_MAKSVELLA">\langle u\rangle=\sqrt{2}\langle v\rangle .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_1_MAKSVELLA">v_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_2_MAKSVELLA">v_{x}+d v_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_3_MAKSVELLA">v_{y}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_4_MAKSVELLA">v_{y}+d v_{y}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_5_MAKSVELLA">v_{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_6_MAKSVELLA">v_{z}+d v_{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_7_MAKSVELLA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_8_MAKSVELLA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_9_MAKSVELLA">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_10_MAKSVELLA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_11_MAKSVELLA">v+d v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_12_MAKSVELLA">\boldsymbol{f}(v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_13_MAKSVELLA">\mathrm{h}_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_14_MAKSVELLA">t=273 \mathrm{~K} v_{\text {в }} \sim 1500 \mathrm{~m} / \mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_15_MAKSVELLA">(4 / \pi)^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_16_MAKSVELLA">v_{\mathrm{b}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1693_17_MAKSVELLA">u</formula>
+  </formulas_aux>
+  <relations n="14">
+    <relation uri="http://libmeta.ru/fme/relation/1693_1_MAKSVELLA">
+      <rel_text>Больцмана распределение</rel_text>
+      <target>http://libmeta.ru/fme/article/250_BOL'TsMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_2_MAKSVELLA">
+      <rel_text>тяжести</rel_text>
+      <target>http://libmeta.ru/fme/article/3143_TJaZhELYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_3_MAKSVELLA">
+      <rel_text>действием</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_4_MAKSVELLA">
+      <rel_text>квантового вырождения</rel_text>
+      <target>http://libmeta.ru/fme/article/480_VYROZhDENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_5_MAKSVELLA">
+      <rel_text>распределение Максвелла-Больцмана</rel_text>
+      <target>http://libmeta.ru/fme/article/1698_MAKSVELLA-BOL'TsMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_6_MAKSVELLA">
+      <rel_text>потенциальном поле</rel_text>
+      <target>http://libmeta.ru/fme/article/2342_POTENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_7_MAKSVELLA">
+      <rel_text>интеграл столкновения</rel_text>
+      <target>http://libmeta.ru/fme/article/1531_LANDAU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_8_MAKSVELLA">
+      <rel_text>Больцмана кинетического уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/1231_KINETIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_9_MAKSVELLA">
+      <rel_text>частным</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_10_MAKSVELLA">
+      <rel_text>скоростям</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_11_MAKSVELLA">
+      <rel_text>скоростям</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_12_MAKSVELLA">
+      <rel_text>Гиббса распределения</rel_text>
+      <target>http://libmeta.ru/fme/article/604_GIBBSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_13_MAKSVELLA">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1693_14_MAKSVELLA">
+      <rel_text>принцип детального равновесия</rel_text>
+      <target>http://libmeta.ru/fme/article/798_DETAL'NOGO</target>
+    </relation>
+  </relations>
+  <text>распределение по скоростям частиц (молекул) макроскопической физической системы, находящейся в статистическом равновесии, в отсутствие внешнего поля при условии, что движение частиц подчиняется законам классической механики. Установлено Дж. Максвеллом (j. Maxwell) в 1859. Согласно М. p., вероятное число частиц в единице объема, компоненты скоростей к-рых лежат в интервалах от $URI[[http://libmeta.ru/fme/formula/aux/1693_1_MAKSVELLA]]/URI$ до $URI[[http://libmeta.ru/fme/formula/aux/1693_2_MAKSVELLA]]/URI$, от $URI[[http://libmeta.ru/fme/formula/aux/1693_3_MAKSVELLA]]/URI$ до $URI[[http://libmeta.ru/fme/formula/aux/1693_4_MAKSVELLA]]/URI$ и от $URI[[http://libmeta.ru/fme/formula/aux/1693_5_MAKSVELLA]]/URI$ до $URI[[http://libmeta.ru/fme/formula/aux/1693_6_MAKSVELLA]]/URI$, равно
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1693_1_MAKSVELLA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1693_2_MAKSVELLA]]/URI
+\]
+
+- функция распределения Максвелла по скоростям, $URI[[http://libmeta.ru/fme/formula/aux/1693_7_MAKSVELLA]]/URI$ число частиц в единице объема, $URI[[http://libmeta.ru/fme/formula/aux/1693_8_MAKSVELLA]]/URI$ - масса частицы, $URI[[http://libmeta.ru/fme/formula/aux/1693_9_MAKSVELLA]]/URI$ абсолютная температура. Отсюда следует, что число частиц, абсолютные значения скоростей к-рых лежат в интервале от $URI[[http://libmeta.ru/fme/formula/aux/1693_10_MAKSVELLA]]/URI$ до $URI[[http://libmeta.ru/fme/formula/aux/1693_11_MAKSVELLA]]/URI$, равно
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1693_3_MAKSVELLA]]/URI
+\]
+
+Это распределение называется распределением Макс в елла по абсолютным значениям скоростей. Функция $URI[[http://libmeta.ru/fme/formula/aux/1693_12_MAKSVELLA]]/URI$ достигает максимума при скорости
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1693_4_MAKSVELLA]]/URI
+\]
+
+называемой на и б оле е ве ро ятной скоростью. Для молекул $URI[[http://libmeta.ru/fme/formula/aux/1693_13_MAKSVELLA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1693_14_MAKSVELLA]]/URI$. При помощи М.p. можно вычислить среднее значение любой функции от скорости молекул: средний квадрат скорости
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1693_5_MAKSVELLA]]/URI
+\]
+
+среднюю квадратичную скорость
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1693_6_MAKSVELLA]]/URI
+\]
+
+среднюю арифметическую скорость
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1693_7_MAKSVELLA]]/URI
+\]
+
+к-рая в $URI[[http://libmeta.ru/fme/formula/aux/1693_15_MAKSVELLA]]/URI$ раза больше $URI[[http://libmeta.ru/fme/formula/aux/1693_16_MAKSVELLA]]/URI$.
+
+М. p. по относительным скоростям молекул $URI[[http://libmeta.ru/fme/formula/aux/1693_17_MAKSVELLA]]/URI$ имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1693_8_MAKSVELLA]]/URI
+\]
+
+откуда следует, что средняя относительная скорость молекул равна
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1693_9_MAKSVELLA]]/URI
+\]
+
+M. p. не зависит от взаимодействия между молекулами и справедливо не только для газов, но и для жидкостей, если для них возможно классич. описание. В случае многоатомных молекул М. р. имеет место для поступательного движения молекул (для скорости их центра тяжести) и не зависит от внутримолекулярного движения и вращения даже в том случае, когда для них необходимо квантовое описание. М. р. справедливо для броуновского движения частиц, взвешенных в жидкости или газе.
+
+Дж. Максвелл использовал для обоснования М. р. URI[[http://libmeta.ru/fme/relation/1693_14_MAKSVELLA]]/URI. М. р. можно URI[[http://libmeta.ru/fme/relation/1693_13_MAKSVELLA]]/URI из канонич. URI[[http://libmeta.ru/fme/relation/1693_12_MAKSVELLA]]/URI для классич. системы, интегрируя по всем пространственным координатам и по всем URI[[http://libmeta.ru/fme/relation/1693_11_MAKSVELLA]]/URI, кроме одной, так как в классич. случае распределение по URI[[http://libmeta.ru/fme/relation/1693_10_MAKSVELLA]]/URI не зависит от распределения по пространственным координатам. М. р. является URI[[http://libmeta.ru/fme/relation/1693_9_MAKSVELLA]]/URI решением URI[[http://libmeta.ru/fme/relation/1693_8_MAKSVELLA]]/URI для случая статистич. равновесия в отсутствие внешних полей. М.р. обращает в нуль URI[[http://libmeta.ru/fme/relation/1693_7_MAKSVELLA]]/URI этого уравнения, выражающего баланс между прямыми и обратными столкновениями. Во внешнем URI[[http://libmeta.ru/fme/relation/1693_6_MAKSVELLA]]/URI имеет место URI[[http://libmeta.ru/fme/relation/1693_5_MAKSVELLA]]/URI (см. URI[[http://libmeta.ru/fme/relation/1693_1_MAKSVELLA]]/URI). М.р. - предельный случай Бозе Эйнштейна распределения и Ферми - Дирака распределения в случае, когда можно пренебречь явлением URI[[http://libmeta.ru/fme/relation/1693_4_MAKSVELLA]]/URI газа. М. р. подтверждено экспериментально О. Штерном (o. Stern, 1920) в опытах с молекулярными пучками от источника, помещенного внутри вращающейся цилиндрич. поверхности, и позднее (1947) в опытах И. Эстермана (i. Estermann), О. Симпсона (o. Simpson) и О. Штерна по свободному падению молекул пучка под URI[[http://libmeta.ru/fme/relation/1693_3_MAKSVELLA]]/URI силы URI[[http://libmeta.ru/fme/relation/1693_2_MAKSVELLA]]/URI.</text>
+  <text_orig>распредеЛение по скоростям частиц (молекул) макроскопической физической системы, находящейся в статистическом равновесии, в отсутствие внешнего поля при условии, что движение частиц подчиняется законам классической механики. Установлено Дж. Максвеллом (J. Maxwell) в 1859. Согласно М. p., вероятное число частиц в единице объема, компоненты скоростей к-рых лежат в интервалах от $v_{x}$ до $v_{x}+d v_{x}$, от $v_{y}$ до $v_{y}+d v_{y}$ и от $v_{z}$ до $v_{z}+d v_{z}$, равно
+
+\[
+d w_{v}=f(v) d v_{x} d v_{y} d v_{z}
+\]
+
+где
+
+\[
+f(v)=n(m / 2 \pi k T)^{3 / 2} \exp \left[-m\left(v_{x}^{2}+v_{y}^{2}+v_{z}^{2}\right) / 2 k T\right]
+\]
+
+- функция распределения Максвелла по скоростям, $n$ число частиц в единице объема, $m$ - масса частицы, $T-$ абсолютная температура. Отсюда следует, что число частиц, абсолютные значения скоростей к-рых лежат в интервале от $v$ до $v+d v$, равно
+
+\[
+d w_{v}=F(v) d v=n(m / 2 \pi k T)^{3 / 2} \exp \left[-m v^{2} / 2 k T\right] 4 \pi v^{2} d v .
+\]
+
+Это распределение называется распределением Макс в елла по абсолютным значениям скоростей. Функция $\boldsymbol{F}(v)$ достигает максимума при скорости
+
+\[
+v_{\mathrm{B}}=(2 k T / m)^{1 / 2}
+\]
+
+называемой на и б оле е ве ро ятной скоростью. Для молекул $\mathrm{H}_{2}$ при $T=273 \mathrm{~K} v_{\text {в }} \sim 1500 \mathrm{~m} / \mathrm{c}$. При помощи М.p. можно вычислить среднее значение любой функции от скорости молекул: средний квадрат скорости
+
+\[
+\left\langle v^{2}\right\rangle=38 k T / m
+\]
+
+среднюю квадратичную скорость
+
+\[
+v_{\mathrm{KB}} \equiv\left\langle v^{2}\right\rangle^{1 / 2}=(3 k T / m)^{1 / 2} \text {, }
+\]
+
+среднюю арифметическую скорость
+
+\[
+\langle v\rangle=(8 k T / \pi m)^{1 / 2}
+\]
+
+к-рая в $(4 / \pi)^{1 / 2}$ раза больше $v_{\mathrm{B}}$.
+
+М. p. по относительным скоростям молекул $u$ имеет вид:
+
+\[
+d w_{u}=n(m / 4 \pi k T)^{3 / 2} \exp \left(-m u^{2} / 4 k T\right) 4 \pi u^{2} d u,
+\]
+
+откуда следует, что средняя относительная скорость молекул равна
+
+\[
+\langle u\rangle=\sqrt{2}\langle v\rangle .
+\]
+
+M. p. не зависит от взаимодействия между молекулами и справедливо не только для газов, но и для жидкостей, если для них возможно классич. описание. В случае многоатомных молекул М. р. имеет место для поступательного движения молекул (для скорости их центра тяжести) и не зависит от внутримолекулярного движения и вращения даже в том случае, когда для них необходимо квантовое описание. М. р. справедливо для броуновского движения частиш, взвешенных в жидкости или газе.
+
+Дж. Максвелл использовал для обоснования М. р. принцип детального равновесия. М. р. можно получить из канонич. Гиббса распределения для классич. системы, интегрируя по всем пространственным координатам и по всем скоростям, кроме одной, так как в классич. случае распределение по скоростям не зависит от распределения по пространственным координатам. М. р. является частным решением Больцмана кинетического уравнения для случая статистич. равновесия в отсутствие внешних полей. М.р. обращает в нуль интеграл столкновения этого уравнения, выражающего баланс между прямыми и обратными столкновениями. Во внешнем потенциальном поле имеет место распределение Максвелла-Больцмана (см. Больцмана распределение). М.р. - предельный случай Бозе Эйнштейна распределения и Ферми - Дирака распределения в случае, когда можно пренебречь явлением квантового вырождения газа. М. р. подтверждено экспериментально О. Штерном (O. Stern, 1920) в опытах с молекулярными пучками от источника, помещенного внутри вращающейся цилиндрич. поверхности, и позднее (1947) в опытах И. Эстермана (I. Estermann), О. Симпсона (O. Simpson) и О. Штерна по свободному падению молекул пучка под действием силы тяжести.
+
+Лит.: [1] Л а н д а у Л. Д., Л и фш и ц Е. М., Статистическая физика, ч. 1, 3 изд., М., 1976, § 22; [2] Рам зей Н., Молекулярные пучки, пер. с англ., М., 1960; [3] Си вухи н Д. В., Общий курс физики, 2 изд., т. 2 - Термодинамика и молекулярная физика, М., 1979, § 72-74; [4] Х и р К., Статистическая механика, кинетическая теория и стохастические процессы, пер. с англ., М., 1976, гл. 1.
+
+Д. Н. Зубарев.</text_orig>
+</article>

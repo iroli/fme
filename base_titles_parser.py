@@ -14,12 +14,12 @@ import codecs
 from lib import *
 
 # -------------------------- VARS --------------------------------
-PAGES_DIR = "./matphys/rpages/"
-EXIT_DIR = "./matphys/"
-EXIT_FILE = "FMEv2.xml"
+PAGES_DIR = "./mathenc/rpagesV3/"
+EXIT_DIR = "./mathenc/"
+EXIT_FILE = "MEv2.xml"
 # First and last pages to be parsed
-START_PAGE = 639
-END_PAGE = 700
+START_PAGE = 501
+END_PAGE = 593
 # How many words to display before and after a potential title
 LEAD_WORDS = 5
 AFT_WORDS = 5

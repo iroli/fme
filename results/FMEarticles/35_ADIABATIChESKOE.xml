@@ -1,0 +1,236 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/35_ADIABATIChESKOE" alphabetic_pos="35">
+  <title>АДИАБАТИЧЕСКОЕ ПРИБЛИЖЕНИЕ, МЕТОД БОРНА-ОППЕНГЕЙМЕРА</title>
+  <authors/>
+  <pages>
+    <start>12</start>
+    <end>13</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Борн М., Лекции по атомной механике, пер. с нем. т. 1, Харьков-Киев, 1934; [2] М ас л о в В. П., Теория возмущений и асимптотические методы, М., 1965; [3] е го ж е, Асимптотические методы и теория возмущений, М., 1988; [4] Л а нда у Л.Д., Л и фш и ц Е. М., Квантовая механика, 3 изд., М., 1974; [5] и х же, Статистическая физика, 3 изд., ч. 1, М., 1976; ч. 2, М., 1978 [6] М и т р о пол вс к и й Ю. З., Динамика внутренних гравитационных волн в океане, Л., 1981; [7] К у е ре н ко В. В., «известия Ан Ссср. Сер. математическая», 1974, т. 38, № 3, с. 625-62; [8] Базьа.И., Зельдовичя. Б., Переломов А. М., Рассеяние, реакции и распады в нерелятивистской квантовой механике, 2 изд., М., 1971.С. Ю. Доброхотов.\title{12 Адиабатическое}</literature_orig>
+    <unit>
+      <author>Борн М.</author>
+      <title>Лекции по атомной механике</title>
+      <publication>пер. с нем. т. 1, Харьков-Киев</publication>
+      <year>1934</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>Теория возмущений и асимптотические методы</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>е го ж е, Асимптотические методы и теория возмущений</title>
+      <publication>М.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Квантовая механика</title>
+      <publication>3 изд., М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>и х же, Статистическая физика</title>
+      <publication>3 изд., ч. 1, М.</publication>
+      <year>1976</year>
+      <other>М., 1978</other>
+    </unit>
+    <unit>
+      <author>Митрополвский Ю. З.</author>
+      <title>Динамика внутренних гравитационных волн в океане</title>
+      <publication>Л.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Куеренко В. В.</author>
+      <title>«известия Ан Ссср. Сер. математическая»</title>
+      <publication/>
+      <year>1974</year>
+      <other>т. 38, № 3, с. 625-62</other>
+    </unit>
+    <unit>
+      <author>Базьа. И.</author>
+      <author>Зельдовичя. Б.</author>
+      <author>Переломов А. М.</author>
+      <title>Рассеяние, реакции и распады в нерелятивистской квантовой механике</title>
+      <publication>2 изд., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/35_1_ADIABATIChESKOE">\hat{L} \psi \equiv L\left(-i h \frac{\partial}{\partial x}, x,-i \frac{\partial}{\partial y}, y, h\right) \psi=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/35_2_ADIABATIChESKOE">\mathscr{L}(p, x)=L\left(p, x,-i \frac{\partial}{\partial y}, y, 0\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/35_3_ADIABATIChESKOE">\Psi=e^{i S(x) / h} A(x)\left(\varphi_{1}(x) u_{1}+\ldots+\varphi_{m}(x) u_{m}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/35_4_ADIABATIChESKOE">S=\langle P, x-X\rangle+\langle x-X, Q(x-X)\rangle / 2,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_1_ADIABATIChESKOE">x=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_2_ADIABATIChESKOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_3_ADIABATIChESKOE">y=\left(y_{1}, \ldots, y_{e}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_4_ADIABATIChESKOE">\lambda(p, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_5_ADIABATIChESKOE">(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_6_ADIABATIChESKOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_7_ADIABATIChESKOE">h\left(\mathbb{r}_{y}^{m}\right) ; u_{1}(x, p, y), \ldots, u_{m}(x, p, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_8_ADIABATIChESKOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_9_ADIABATIChESKOE">\left\|u_{j}\right\|_{h}=1 ; \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_10_ADIABATIChESKOE">u_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_11_ADIABATIChESKOE">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_12_ADIABATIChESKOE">\lambda(\nabla S, x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_13_ADIABATIChESKOE">a(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_14_ADIABATIChESKOE">\dot{p}=-\lambda_{x}, \dot{x}=\lambda_{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_15_ADIABATIChESKOE">\left(\varphi_{1}(x), \ldots, \varphi_{m}(x)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_16_ADIABATIChESKOE">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_17_ADIABATIChESKOE">\operatorname{im} S \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_18_ADIABATIChESKOE">(p, X)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_19_ADIABATIChESKOE">\lambda(p, x), Q-(n \times n)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_20_ADIABATIChESKOE">\operatorname{im} Q&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_21_ADIABATIChESKOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_22_ADIABATIChESKOE">\lambda(p, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_23_ADIABATIChESKOE">(p, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_24_ADIABATIChESKOE">\mathscr{l}(p, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_25_ADIABATIChESKOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_26_ADIABATIChESKOE">\mathscr{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/35_27_ADIABATIChESKOE">\mathscr{l}</formula>
+  </formulas_aux>
+  <relations n="17">
+    <relation uri="http://libmeta.ru/fme/relation/35_1_ADIABATIChESKOE">
+      <rel_text>Короткие волны в быстроменяющихся средах</rel_text>
+      <target>http://libmeta.ru/fme/article/1398_KOROTKIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_2_ADIABATIChESKOE">
+      <rel_text>спектра оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/1550_LAPLASA-BEL'TRAMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_3_ADIABATIChESKOE">
+      <rel_text>квазистационарные состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/1139_KVAZIKLASSIChESKIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_4_ADIABATIChESKOE">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_5_ADIABATIChESKOE">
+      <rel_text>резольвенты</rel_text>
+      <target>http://libmeta.ru/fme/article/2587_REZOL'VENT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_6_ADIABATIChESKOE">
+      <rel_text>комплексные полюса</rel_text>
+      <target>http://libmeta.ru/fme/article/2582_REDZhE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_7_ADIABATIChESKOE">
+      <rel_text>спектр оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/1550_LAPLASA-BEL'TRAMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_8_ADIABATIChESKOE">
+      <rel_text>Борна-Оппенгеймера метод</rel_text>
+      <target>http://libmeta.ru/fme/article/273_BORNA-OPPENGEJMERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_9_ADIABATIChESKOE">
+      <rel_text>фаза</rel_text>
+      <target>http://libmeta.ru/fme/article/3230_FAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_10_ADIABATIChESKOE">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_11_ADIABATIChESKOE">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_12_ADIABATIChESKOE">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_13_ADIABATIChESKOE">
+      <rel_text>гамильтоновой системы</rel_text>
+      <target>http://libmeta.ru/fme/article/517_GAMIL'TONOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_14_ADIABATIChESKOE">
+      <rel_text>траектории</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_15_ADIABATIChESKOE">
+      <rel_text>уравнения Гамильтона-Якоби</rel_text>
+      <target>http://libmeta.ru/fme/article/509_GAMIL'TONA-JaKOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_16_ADIABATIChESKOE">
+      <rel_text>линейно независимые</rel_text>
+      <target>http://libmeta.ru/fme/article/1604_LINEJNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/35_17_ADIABATIChESKOE">
+      <rel_text>гильбертовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/623_GIL'BERTOVO</target>
+    </relation>
+  </relations>
+  <text>метод нахождения квазиклассических асимптотик для уравнений, в которых часть производных по медленным переменным $URI[[http://libmeta.ru/fme/formula/aux/35_1_ADIABATIChESKOE]]/URI$ входит с малым параметром $URI[[http://libmeta.ru/fme/formula/aux/35_2_ADIABATIChESKOE]]/URI$, а другая часть по быстрым переменным $URI[[http://libmeta.ru/fme/formula/aux/35_3_ADIABATIChESKOE]]/URI$ без параметра (уравнения с операторнозначным символом):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/35_1_ADIABATIChESKOE]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/35_4_ADIABATIChESKOE]]/URI$ - изолированное и имеющее постоянную при каждом $URI[[http://libmeta.ru/fme/formula/aux/35_5_ADIABATIChESKOE]]/URI$ кратность $URI[[http://libmeta.ru/fme/formula/aux/35_6_ADIABATIChESKOE]]/URI$ собственное значение оператора
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/35_2_ADIABATIChESKOE]]/URI
+\]
+
+(операторнозначного символа) в подходящем URI[[http://libmeta.ru/fme/relation/35_17_ADIABATIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/35_7_ADIABATIChESKOE]]/URI$ - URI[[http://libmeta.ru/fme/relation/35_16_ADIABATIChESKOE]]/URI собственные функции, отвечающие $URI[[http://libmeta.ru/fme/formula/aux/35_8_ADIABATIChESKOE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/35_9_ADIABATIChESKOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/35_10_ADIABATIChESKOE]]/URI$ гладко зависят от своих аргументов. Тогда при отсутствии фокальных точек А. п. дает асимптотич. решения уравнений (1) в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/35_3_ADIABATIChESKOE]]/URI
+\]
+
+Здесь решение $URI[[http://libmeta.ru/fme/formula/aux/35_11_ADIABATIChESKOE]]/URI$ URI[[http://libmeta.ru/fme/relation/35_15_ADIABATIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/35_12_ADIABATIChESKOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/35_13_ADIABATIChESKOE]]/URI$ в (2) выражаются через URI[[http://libmeta.ru/fme/relation/35_14_ADIABATIChESKOE]]/URI URI[[http://libmeta.ru/fme/relation/35_13_ADIABATIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/35_14_ADIABATIChESKOE]]/URI$, функции $URI[[http://libmeta.ru/fme/formula/aux/35_15_ADIABATIChESKOE]]/URI$ определяются из линейной обыкновенной системы URI[[http://libmeta.ru/fme/relation/35_12_ADIABATIChESKOE]]/URI. Дополнительные (начальные или краевые) условия для указанных систем индуцируются дополнительными к (1) условиями. При наличии фокальных точек асимптотика решения, обобщающая (2), дается с помощью канонич. URI[[http://libmeta.ru/fme/relation/35_11_ADIABATIChESKOE]]/URI Маслова (см. [2], [3]). А. п. используется в различных эволюционных и спектральных задачах квантовой URI[[http://libmeta.ru/fme/relation/35_10_ADIABATIChESKOE]]/URI и химии (квантовой теории молекул), физики твердого тела (электронные волны в кристаллах), гидродинамики (внутренние волны в океане) и т. д. (см., напр., [4]-[6]). В ряде задач в асимптотике (2) URI[[http://libmeta.ru/fme/relation/35_9_ADIABATIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/35_16_ADIABATIChESKOE]]/URI$ может быть комплекснозначной, $URI[[http://libmeta.ru/fme/formula/aux/35_17_ADIABATIChESKOE]]/URI$. Напр., в «осцилляторном» приближении
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/35_4_ADIABATIChESKOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/35_18_ADIABATIChESKOE]]/URI$ устойчивая в линейном приближении точка покоя $URI[[http://libmeta.ru/fme/formula/aux/35_19_ADIABATIChESKOE]]/URI$-симметричная матрица с $URI[[http://libmeta.ru/fme/formula/aux/35_20_ADIABATIChESKOE]]/URI$ (именно к таким задачам впервые был применен URI[[http://libmeta.ru/fme/relation/35_8_ADIABATIChESKOE]]/URI (см. [1])). При нек-рых дополнительных предположениях на $URI[[http://libmeta.ru/fme/formula/aux/35_21_ADIABATIChESKOE]]/URI$ главный член асимптотики имеет вид (2) и в том случае, когда $URI[[http://libmeta.ru/fme/formula/aux/35_22_ADIABATIChESKOE]]/URI$ меняет кратность в нек-рых точках $URI[[http://libmeta.ru/fme/formula/aux/35_23_ADIABATIChESKOE]]/URI$ (см. [7]).
+
+Если URI[[http://libmeta.ru/fme/relation/35_7_ADIABATIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/35_24_ADIABATIChESKOE]]/URI$ имеет существенно непрерывную компоненту, то роль термов $URI[[http://libmeta.ru/fme/formula/aux/35_25_ADIABATIChESKOE]]/URI$ могут играть URI[[http://libmeta.ru/fme/relation/35_6_ADIABATIChESKOE]]/URI URI[[http://libmeta.ru/fme/relation/35_5_ADIABATIChESKOE]]/URI URI[[http://libmeta.ru/fme/relation/35_4_ADIABATIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/35_26_ADIABATIChESKOE]]/URI$ (URI[[http://libmeta.ru/fme/relation/35_3_ADIABATIChESKOE]]/URI - теория распада тяжелых ядер Гамова, см. [8]) или граничные точки непрерывной компоненты URI[[http://libmeta.ru/fme/relation/35_2_ADIABATIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/35_27_ADIABATIChESKOE]]/URI$ (см. URI[[http://libmeta.ru/fme/relation/35_1_ADIABATIChESKOE]]/URI); аккуратное математич. исследование здесь еще далеко от завершения.</text>
+  <text_orig>метод нахождения квазиклассических асимптотик для уравнений, в которых часть производных по медленным переменным $x=\left(x_{1}, \ldots, x_{n}\right)$ входит с малым параметром $h$, а другая часть по быстрым переменным $y=\left(y_{1}, \ldots, y_{e}\right)$ без параметра (уравнения с операторнозначным символом):
+
+\[
+\hat{L} \psi \equiv L\left(-i h \frac{\partial}{\partial x}, x,-i \frac{\partial}{\partial y}, y, h\right) \psi=0 .
+\]
+
+Пусть $\lambda(p, x)$ - изолированное и имеющее постоянную при каждом $(x, p)$ кратность $m$ собственное значение оператора
+
+\[
+\mathscr{L}(p, x)=L\left(p, x,-i \frac{\partial}{\partial y}, y, 0\right)
+\]
+
+(операторнозначного символа) в подходящем гильбертовом пространстве $H\left(\mathbb{R}_{y}^{m}\right) ; u_{1}(x, p, y), \ldots, u_{m}(x, p, y)$ - линейно независимые собственные функции, отвечающие $\lambda$, $\left\|u_{j}\right\|_{H}=1 ; \lambda$ и $u_{j}$ гладко зависят от своих аргументов. Тогда при отсутствии фокальных точек А. п. дает асимптотич. решения уравнений (1) в виде:
+
+\[
+\Psi=e^{i S(x) / h} A(x)\left(\varphi_{1}(x) u_{1}+\ldots+\varphi_{m}(x) u_{m}\right) .
+\]
+
+Здесь решение $S$ уравнения Гамильтона-Якоби $\lambda(\nabla S, x)=0$ и $A(x)$ в (2) выражаются через траектории гамильтоновой системы $\dot{p}=-\lambda_{x}, \dot{x}=\lambda_{p}$, функции $\left(\varphi_{1}(x), \ldots, \varphi_{m}(x)\right)$ определяются из линейной обыкновенной системы дифференциальных уравнений. Дополнительные (начальные или краевые) условия для указанных систем индуцируются дополнительными к (1) условиями. При наличии фокальных точек асимптотика решения, обобщающая (2), дается с помощью канонич. оператора Маслова (см. [2], [3]). А. п. используется в различных эволюционных и спектральных задачах квантовой механики и химии (квантовой теории молекул), физики твердого тела (электронные волны в кристаллах), гидродинамики (внутренние волны в океане) и т. д. (см., напр., [4]-[6]). В ряде задач в асимптотике (2) фаза $S$ может быть комплекснозначной, $\operatorname{Im} S \geqslant 0$. Напр., в «осцилляторном» приближении
+
+\[
+S=\langle P, x-X\rangle+\langle x-X, Q(x-X)\rangle / 2,
+\]
+
+где $(P, X)-$ устойчивая в линейном приближении точка покоя $\lambda(p, x), Q-(n \times n)$-симметричная матрица с $\operatorname{Im} Q&gt;0$ (именно к таким задачам впервые был применен Борна-Onпенгеймера метод (см. [1])). При нек-рых дополнительных предположениях на $\lambda$ главный член асимптотики имеет вид (2) и в том случае, когда $\lambda(p, x)$ меняет кратность в нек-рых точках $(p, x)$ (см. [7]).
+
+Если спектр оператора $\mathscr{L}(p, x)$ имеет существенно непрерывную компоненту, то роль термов $\lambda$ могут играть комплексные полюса резольвенты оператора $\mathscr{L}$ (квазистационарные состояния - теория распада тяжелых ядер Гамова, см. [8]) или граничные точки непрерывной компоненты спектра оператора $\mathscr{L}$ (см. Короткие волны в быстроменяюшихся средах); аккуратное математич. исследование здесь еще далеко от завершения.
+
+Лит.: [1] Борн М., Лекции по атомной механике, пер. с нем. т. 1, Харьков-Киев, 1934; [2] М ас л о в В. П., Теория возмущений и асимптотические методы, М., 1965; [3] е го ж е, Асимптотические методы и теория возмущений, М., 1988; [4] Л а нда у Л.Д., Л и фш и ц Е. М., Квантовая механика, 3 изд., М., 1974; [5] и х же, Статистическая физика, 3 изд., ч. 1, М., 1976; ч. 2, М., 1978 [6] М и т р о пол вс к и й Ю. З., Динамика внутренних гравитационных волн в океане, Л., 1981; [7] К у е ре н ко В. В., «Известия АН СССР. Сер. математическая», 1974, т. 38, № 3, с. 625-62; [8] БазьА.И., ЗельдовичЯ. Б., Переломов А. М., Рассеяние, реакции и распады в нерелятивистской квантовой механике, 2 изд., М., 1971.
+
+С. Ю. Доброхотов.
+
+\title{
+12 AДИАБАТИЧЕСКОЕ
+}</text_orig>
+</article>

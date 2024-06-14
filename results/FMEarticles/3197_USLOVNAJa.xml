@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3197_USLOVNAJa" alphabetic_pos="3199">
+  <title>УСЛОВНАЯ ВЕРОЯТНОСТЬ СОБЫТИЯ $A$ ПРИ УСЛОВИИ $B$</title>
+  <authors/>
+  <pages>
+    <start>625</start>
+    <end>625</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Гн е де н ко Б. В., Курс теории вероятностей, 6 изд., М., 1988; [2] Фе л л е р В., Введение в теорию вероятностей и ее прило$\begin{array}{ll}\text { жения, пер. с англ., т. 1, М., } 1984 . &amp; P . A \text {. Мингос. }\end{array}$</literature_orig>
+    <unit>
+      <author>Гнеденко Б. В.</author>
+      <title>Курс теории вероятностей</title>
+      <publication>6 изд., М.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Феллер В.</author>
+      <title>Введение в теорию вероятностей и ее прило$\begin{array}{ll}\text { жения</title>
+      <publication>пер. с англ., т. 1, М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3197_1_USLOVNAJa">\mathrm{P}(\Omega)=1, \mathrm{P}(A \cup B)=\mathrm{P}(A)+\mathrm{P}(B),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3197_2_USLOVNAJa">\mathrm{P}_{B}(A)=\mathrm{P}(A) / \mathrm{P}(B), A \subseteq B .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3197_3_USLOVNAJa">\mathrm{P}_{A}(B)=\mathrm{P}_{B}(A \cap B)=\frac{\mathrm{P}(A \cap B)}{\mathrm{P}(B)},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3197_4_USLOVNAJa">\mathrm{P}(A \mid B)=\lim _{\varepsilon \rightarrow 0}\left[\frac{\mathrm{P}\left(A \cap B_{\varepsilon}\right)}{\mathrm{P}\left(B_{\varepsilon}\right)}\right],</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_1_USLOVNAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_2_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_3_USLOVNAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_4_USLOVNAJa">\{\mathrm{p}(a), A \subset \Omega\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_5_USLOVNAJa">a \subset \Omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_6_USLOVNAJa">\mathrm{p}(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_7_USLOVNAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_8_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_9_USLOVNAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_10_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_11_USLOVNAJa">a \cup B</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_12_USLOVNAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_13_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_14_USLOVNAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_15_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_16_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_17_USLOVNAJa">\mathrm{p}(b)&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_18_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_19_USLOVNAJa">\mathrm{p}_{b}(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_20_USLOVNAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_21_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_22_USLOVNAJa">\mathrm{p}(a \mid B)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_23_USLOVNAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_24_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_25_USLOVNAJa">a \cap B</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_26_USLOVNAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_27_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_28_USLOVNAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_29_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_30_USLOVNAJa">\omega=g \subseteq \mathbb{R}^{V}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_31_USLOVNAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_32_USLOVNAJa">v=1,2, \ldots, B \subset G-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_33_USLOVNAJa">\mathbb{r}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_34_USLOVNAJa">\{\mathrm{p}(a), A \subseteq G\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_35_USLOVNAJa">p(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_36_USLOVNAJa">\mathrm{p}(a \mid B)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_37_USLOVNAJa">b_{\varepsilon}-\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_38_USLOVNAJa">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3197_39_USLOVNAJa">(*)</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/3197_1_USLOVNAJa">
+      <rel_text>существует</rel_text>
+      <target>http://libmeta.ru/fme/article/3012_SUSchESTVENNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3197_2_USLOVNAJa">
+      <rel_text>условное распределение</rel_text>
+      <target>http://libmeta.ru/fme/article/3201_USLOVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3197_3_USLOVNAJa">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3197_4_USLOVNAJa">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>вероятность того, что произойдет событие $URI[[http://libmeta.ru/fme/formula/aux/3197_1_USLOVNAJa]]/URI$ при условии, что произошло событие $URI[[http://libmeta.ru/fme/formula/aux/3197_2_USLOVNAJa]]/URI$. Более подробно: пусть на вероятностном пространстве $URI[[http://libmeta.ru/fme/formula/aux/3197_3_USLOVNAJa]]/URI$ (пространстве случаев или всех мыслимых исходов каких-нибудь испытаний) задано распределение вероятностей $URI[[http://libmeta.ru/fme/formula/aux/3197_4_USLOVNAJa]]/URI$. Это означает, что каждому событию (множеству) $URI[[http://libmeta.ru/fme/formula/aux/3197_5_USLOVNAJa]]/URI$ приписана его вероятность $URI[[http://libmeta.ru/fme/formula/aux/3197_6_USLOVNAJa]]/URI$, причем так, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3197_1_USLOVNAJa]]/URI
+\]
+
+если два множества $URI[[http://libmeta.ru/fme/formula/aux/3197_7_USLOVNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3197_8_USLOVNAJa]]/URI$ не пересекаются (то есть события $URI[[http://libmeta.ru/fme/formula/aux/3197_9_USLOVNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3197_10_USLOVNAJa]]/URI$ несовместны); $URI[[http://libmeta.ru/fme/formula/aux/3197_11_USLOVNAJa]]/URI$ означает объединение множеств $URI[[http://libmeta.ru/fme/formula/aux/3197_12_USLOVNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3197_13_USLOVNAJa]]/URI$, то есть событие, включающее и $URI[[http://libmeta.ru/fme/formula/aux/3197_14_USLOVNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3197_15_USLOVNAJa]]/URI$. Любое фиксированное множество $URI[[http://libmeta.ru/fme/formula/aux/3197_16_USLOVNAJa]]/URI$ такое, что $URI[[http://libmeta.ru/fme/formula/aux/3197_17_USLOVNAJa]]/URI$, можно рассматривать как новое вероятностное пространство (состоящее лишь из тех случаев, к-рые принадлежат $URI[[http://libmeta.ru/fme/formula/aux/3197_18_USLOVNAJa]]/URI$ ), и на нем можно задать новое вероятностное распределение:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3197_2_USLOVNAJa]]/URI
+\]
+
+Вероятность $URI[[http://libmeta.ru/fme/formula/aux/3197_19_USLOVNAJa]]/URI$ называется условной вероятнос тью $URI[[http://libmeta.ru/fme/formula/aux/3197_20_USLOVNAJa]]/URI$ при условии $URI[[http://libmeta.ru/fme/formula/aux/3197_21_USLOVNAJa]]/URI$ [часто пишут $URI[[http://libmeta.ru/fme/formula/aux/3197_22_USLOVNAJa]]/URI$ ]. В случае, когда множество $URI[[http://libmeta.ru/fme/formula/aux/3197_23_USLOVNAJa]]/URI$ целиком не лежит в $URI[[http://libmeta.ru/fme/formula/aux/3197_24_USLOVNAJa]]/URI$, полагают
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3197_3_USLOVNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3197_25_USLOVNAJa]]/URI$ - пересечение множеств $URI[[http://libmeta.ru/fme/formula/aux/3197_26_USLOVNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3197_27_USLOVNAJa]]/URI$ (то есть событие, означающее, что $URI[[http://libmeta.ru/fme/formula/aux/3197_28_USLOVNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3197_29_USLOVNAJa]]/URI$ произошли одновременно).
+
+В случае, когда $URI[[http://libmeta.ru/fme/formula/aux/3197_30_USLOVNAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/3197_4_USLOVNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3197_31_USLOVNAJa]]/URI$-мерного пространства, $URI[[http://libmeta.ru/fme/formula/aux/3197_32_USLOVNAJa]]/URI$ гладкое подмногообразие в $URI[[http://libmeta.ru/fme/formula/aux/3197_33_USLOVNAJa]]/URI$, а распределение $URI[[http://libmeta.ru/fme/formula/aux/3197_34_USLOVNAJa]]/URI$ имеет URI[[http://libmeta.ru/fme/relation/3197_3_USLOVNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3197_35_USLOVNAJa]]/URI$, URI[[http://libmeta.ru/fme/relation/3197_2_USLOVNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3197_36_USLOVNAJa]]/URI$ определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3197_4_USLOVNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3197_37_USLOVNAJa]]/URI$-окрестность $URI[[http://libmeta.ru/fme/formula/aux/3197_38_USLOVNAJa]]/URI$ [предел $URI[[http://libmeta.ru/fme/formula/aux/3197_39_USLOVNAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/3197_1_USLOVNAJa]]/URI].</text>
+  <text_orig>вероятность того, что произойдет событие $A$ при условии, что произошло событие $B$. Более подробно: пусть на вероятностном пространстве $\Omega$ (пространстве случаев или всех мыслимых исходов каких-нибудь испытаний) задано распределение вероятностей $\{\mathrm{P}(A), A \subset \Omega\}$. Это означает, что каждому событию (множеству) $A \subset \Omega$ приписана его вероятность $\mathrm{P}(A)$, причем так, что
+
+\[
+\mathrm{P}(\Omega)=1, \mathrm{P}(A \cup B)=\mathrm{P}(A)+\mathrm{P}(B),
+\]
+
+если два множества $A$ и $B$ не пересекаются (то есть события $A$ и $B$ несовместны); $A \cup B$ означает объединение множеств $A$ и $B$, то есть событие, включающее и $A$ и $B$. Любое фиксированное множество $B$ такое, что $\mathrm{P}(B)&gt;0$, можно рассматривать как новое вероятностное пространство (состоящее лишь из тех случаев, к-рые принадлежат $B$ ), и на нем можно задать новое вероятностное распределение:
+
+\[
+\mathrm{P}_{B}(A)=\mathrm{P}(A) / \mathrm{P}(B), A \subseteq B .
+\]
+
+Вероятность $\mathrm{P}_{B}(A)$ называется условной вероятнос тью $A$ при условии $B$ [часто пишут $\mathrm{P}(A \mid B)$ ]. В случае, когда множество $A$ целиком не лежит в $B$, полагают
+
+\[
+\mathrm{P}_{A}(B)=\mathrm{P}_{B}(A \cap B)=\frac{\mathrm{P}(A \cap B)}{\mathrm{P}(B)},
+\]
+
+где $A \cap B$ - пересечение множеств $A$ и $B$ (то есть событие, означающее, что $A$ и $B$ произошли одновременно).
+
+В случае, когда $\Omega=G \subseteq \mathbb{R}^{V}-$ область $v$-мерного пространства, $v=1,2, \ldots, B \subset G-$ гладкое подмногообразие в $\mathbb{R}^{v}$, а распределение $\{\mathrm{P}(A), A \subseteq G\}$ имеет плотность $p(x)$, условное распределение $\mathrm{P}(A \mid B)$ определяется формулой
+
+\[
+\mathrm{P}(A \mid B)=\lim _{\varepsilon \rightarrow 0}\left[\frac{\mathrm{P}\left(A \cap B_{\varepsilon}\right)}{\mathrm{P}\left(B_{\varepsilon}\right)}\right],
+\]
+
+где $B_{\varepsilon}-\varepsilon$-окрестность $B$ [предел $(*)$ существует].
+
+Лит.: [1] Гн е де н ко Б. В., Курс теории вероятностей, 6 изд., М., 1988; [2] Фе л л е р В., Введение в теорию вероятностей и ее прило$\begin{array}{ll}\text { жения, пер. с англ., т. 1, М., } 1984 . &amp; P . A \text {. Мингос. }\end{array}$</text_orig>
+</article>

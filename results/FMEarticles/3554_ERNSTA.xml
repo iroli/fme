@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3554_ERNSTA" alphabetic_pos="3556">
+  <title>ЭРНСТА УРАВНЕНИЯ В ОБЩЕЙ ТЕОРИИ ОТНОСИТЕЛЬНОСТИ</title>
+  <authors>
+    <author>Г. А. Алексеев</author>
+  </authors>
+  <pages>
+    <start>685</start>
+    <end>686</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Ernst F.J., &quot;phys. Rev.», 1968, v. 167, p. 1175-78; [2] е го же, там же, 1968, v. 168, р. 1415-17; [3] Алексее в Г.А., «труды Математич. ин-та Ан СССР», 1987, т. 176, с. 211-58.</literature_orig>
+    <unit>
+      <author>Ernst F. J.</author>
+      <title>&quot;phys. Rev.»</title>
+      <publication/>
+      <year>1968</year>
+      <other>v. 167, p. 1175-78</other>
+    </unit>
+    <unit>
+      <title>е го же, там же</title>
+      <publication/>
+      <year>1968</year>
+      <other>v. 168, р. 1415-17</other>
+    </unit>
+    <unit>
+      <author>Алексеев Г. А.</author>
+      <title>«труды Математич. ин-та Ан СССР»</title>
+      <publication/>
+      <year>1987</year>
+      <other>т. 176, с. 211-58.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3554_1_ERNSTA">(\operatorname{Re} \mathscr{E}) \eta^{\mu v}\left(\partial_{\mu}+\frac{\alpha_{\mu}}{\alpha}\right) \partial_{v} \mathscr{E}-\eta^{\mu v} \partial_{\mu} \mathscr{E} \partial_{v} \mathscr{E}=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3554_2_ERNSTA">\begin{gathered}\eta^{\mu v} \partial_{\mu} \partial_{v} \alpha=0 \\\eta^{\mu v} \partial_{\mu} \alpha \partial_{v} \alpha \neq 0 .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_1_ERNSTA">\boldsymbol{\varepsilon}\left(x^{1}, x^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_2_ERNSTA">\varepsilon-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_3_ERNSTA">\mu, v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_4_ERNSTA">\partial_{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_5_ERNSTA">\partial / \partial x^{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_6_ERNSTA">\eta^{\mu \nu}=\operatorname{diag}(1,-\varepsilon)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_7_ERNSTA">\varepsilon=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_8_ERNSTA">\varepsilon=-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_9_ERNSTA">\alpha\left(x^{1}, x^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_10_ERNSTA">x^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_11_ERNSTA">x^{1}=\alpha=\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_12_ERNSTA">x^{2}=z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3554_13_ERNSTA">\left\{\begin{array}{l}(\operatorname{re} \mathscr{E}+\Phi \bar{\Phi}) \eta^{\mu v}\left(\partial_{\mu}+\frac{\alpha_{\mu}}{\alpha}\right) \partial_{v} \mathscr{E}-\eta^{\mu v}\left(\partial_{\mu}^{\mathscr{E}}+2 \bar{\Phi} \partial_{\mu} \Phi\right) \partial_{v} \mathscr{E}=0, \\ (\operatorname{Re} \mathscr{E}+\Phi \bar{\Phi}) \eta^{\mu v}\left(\partial_{\mu}+\frac{\alpha_{\mu}}{\alpha}\right) \partial_{v} \Phi-\eta^{\mu v}\left(\partial_{\mu} \mathscr{E}+2 \bar{\Phi} \partial_{\mu} \Phi\right) \partial_{v} \Phi=0\end{array}\right.</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/3554_1_ERNSTA">
+      <rel_text>полной интегрируемости</rel_text>
+      <target>http://libmeta.ru/fme/article/2292_POLNAJa</target>
+    </relation>
+  </relations>
+  <text>нелинейные (квазилинейные) уравнения с частными производными, представляющие собой двумерные редукции уравнений Эйнштейна для гравитационных полей в вакууме (одно уравнение для одного комплексного потенциала) или уравнений Эйнштейна - Максвелла для взаимодействующих гравитационных и электромагнитных полей вне их источников, то есть для электровакуумных полей (система двух уравнений для двух комплексных потенциалов). Эти редукции имеют место при следующих предположениях.
+
+1) Существуют два коммутирующих между собой неизотропных поля векторов Киллинга, то есть пространство-время допускает двумерную абелеву группу изометрий.
+
+2) Существуют двумерные поверхности, ортогональные к орбитам этой группы изометрий.
+
+При выполнении этих условий все компоненты метрики и 4-потенциала электромагнитного поля зависят только от двух из четырех пространственно-временных координат и выражаются через упомянутые выше комплексные потенциалы.
+
+Э.у. для гравитационных полей в вакууме имеет вид (см. [1]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3554_1_ERNSTA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3554_1_ERNSTA]]/URI$ - комплексный потенциал Эрнста, Re $URI[[http://libmeta.ru/fme/formula/aux/3554_2_ERNSTA]]/URI$ его вещественная часть; индексы $URI[[http://libmeta.ru/fme/formula/aux/3554_3_ERNSTA]]/URI$ пробегают значения 1,2 ; $URI[[http://libmeta.ru/fme/formula/aux/3554_4_ERNSTA]]/URI$ есть $URI[[http://libmeta.ru/fme/formula/aux/3554_5_ERNSTA]]/URI$; постоянная матрица $URI[[http://libmeta.ru/fme/formula/aux/3554_6_ERNSTA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/3554_7_ERNSTA]]/URI$ в гиперболич. случае, то есть для полей, зависящих от времени и одной из пространственных координат, и $URI[[http://libmeta.ru/fme/formula/aux/3554_8_ERNSTA]]/URI$ в эллиптич. случае, то есть для стационарных полей. Функция $URI[[http://libmeta.ru/fme/formula/aux/3554_9_ERNSTA]]/URI$ есть произвольное непостоянное решение линейного уравнения
+
+такое, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3554_2_ERNSTA]]/URI
+\]
+
+Эта функция может быть выбрана в качестве одной из координат, напр. координаты $URI[[http://libmeta.ru/fme/formula/aux/3554_10_ERNSTA]]/URI$. Так, для стационарных полей с осевой симметрией обычно полагают $URI[[http://libmeta.ru/fme/formula/aux/3554_11_ERNSTA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3554_12_ERNSTA]]/URI$
+
+Э. у. для электровакуумных полей в тех же обозначениях имеют вид (см. [2]):
+
+$URI[[http://libmeta.ru/fme/formula/aux/3554_13_ERNSTA]]/URI$
+
+Обзор многих результатов, касающихся URI[[http://libmeta.ru/fme/relation/3554_1_ERNSTA]]/URI Э.у. и методов построения разнообразных семейств их точных решений можно найти, напр., в [3].</text>
+  <text_orig>нелинейные (квазилинейные) уравнения с частными производными, представляющие собой двумерные редукции уравнений Эйнштейна для гравитационных полей в вакууме (одно уравнение для одного комплексного потенциала) или уравнений Эйнштейна - Максвелла для взаимодействующих гравитационных и электромагнитных полей вне их источников, то есть для электровакуумных полей (система двух уравнений для двух комплексных потенциалов). Эти редукции имеют место при следующих предположениях.
+
+1) Существуют два коммутирующих между собой неизотропных поля векторов Киллинга, то есть пространство-время допускает двумерную абелеву группу изометрий.
+
+2) Существуют двумерные поверхности, ортогональные к орбитам этой группы изометрий.
+
+При выполнении этих условий все компоненты метрики и 4-потенциала электромагнитного поля зависят только от двух из четырех пространственно-временных координат и выражаются через упомянутые выше комплексные потенциалы.
+
+Э.у. для гравитационных полей в вакууме имеет вид (см. [1]):
+
+\[
+(\operatorname{Re} \mathscr{E}) \eta^{\mu v}\left(\partial_{\mu}+\frac{\alpha_{\mu}}{\alpha}\right) \partial_{v} \mathscr{E}-\eta^{\mu v} \partial_{\mu} \mathscr{E} \partial_{v} \mathscr{E}=0,
+\]
+
+где $\boldsymbol{\varepsilon}\left(x^{1}, x^{2}\right)$ - комплексный потенциал Эрнста, Re $\varepsilon-$ его вешественная часть; индексы $\mu, v$ пробегают значения 1,2 ; $\partial_{\mu}$ есть $\partial / \partial x^{\mu}$; постоянная матрица $\eta^{\mu \nu}=\operatorname{diag}(1,-\varepsilon)$, где $\varepsilon=1$ в гиперболич. случае, то есть для полей, зависящих от времени и одной из пространственных координат, и $\varepsilon=-1$ в эллиптич. случае, то есть для стационарных полей. Функшия $\alpha\left(x^{1}, x^{2}\right)$ есть произвольное непостоянное решение линейного уравнения
+
+такое, что
+
+\[
+\begin{gathered}
+\eta^{\mu v} \partial_{\mu} \partial_{v} \alpha=0 \\
+\eta^{\mu v} \partial_{\mu} \alpha \partial_{v} \alpha \neq 0 .
+\end{gathered}
+\]
+
+Эта функция может быть выбрана в качестве одной из координат, напр. координаты $x^{1}$. Так, для стационарных полей с осевой симметрией обычно полагают $x^{1}=\alpha=\rho$, $x^{2}=z$
+
+Э. у. для электровакуумных полей в тех же обозначениях имеют вид (см. [2]):
+
+$\left\{\begin{array}{l}(\operatorname{Re} \mathscr{E}+\Phi \bar{\Phi}) \eta^{\mu v}\left(\partial_{\mu}+\frac{\alpha_{\mu}}{\alpha}\right) \partial_{v} \mathscr{E}-\eta^{\mu v}\left(\partial_{\mu}^{\mathscr{E}}+2 \bar{\Phi} \partial_{\mu} \Phi\right) \partial_{v} \mathscr{E}=0, \\ (\operatorname{Re} \mathscr{E}+\Phi \bar{\Phi}) \eta^{\mu v}\left(\partial_{\mu}+\frac{\alpha_{\mu}}{\alpha}\right) \partial_{v} \Phi-\eta^{\mu v}\left(\partial_{\mu} \mathscr{E}+2 \bar{\Phi} \partial_{\mu} \Phi\right) \partial_{v} \Phi=0\end{array}\right.$
+
+Обзор многих результатов, касающихся полной интегрируемости Э.у. и методов построения разнообразных семейств их точных решений можно найти, напр., в [3].
+
+Jum.: [1] Ernst F.J., &quot;Phys. Rev.», 1968, v. 167, p. 1175-78; [2] е го же, там же, 1968, v. 168, р. 1415-17; [3] Алексее в Г.А., «Труды Математич. ин-та АН СССР», 1987, т. 176, с. 211-58.
+
+Г. А. Алексеев.</text_orig>
+</article>

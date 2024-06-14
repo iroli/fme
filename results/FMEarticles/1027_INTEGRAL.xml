@@ -1,0 +1,183 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1027_INTEGRAL" alphabetic_pos="1029">
+  <title>ИНТЕГРАЛ ПРЕДСТАВЛЕНИЙ, ПРЯМОЙ ИНТЕГРАЛ ПРЕДСТАВЛЕНИЙ, НЕПРЕРЫВНАЯ ПРЯМАЯ СУММА ПРЕДСТАВЛЕНИЙ</title>
+  <authors>
+    <author>Ю. А. Неретин</author>
+  </authors>
+  <pages>
+    <start>217</start>
+    <end>218</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: Диксмье Ж., С -алгебры и их представления, пер. с франц., М., $1974 . \quad$</literature_orig>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1027_1_INTEGRAL">\alpha(x)=\left\langle e_{k}\left|P_{x}\right| e_{l}\right\rangle,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1027_2_INTEGRAL">\mathscr{H}=\int_{X} H_{x} d \mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1027_3_INTEGRAL">(f, g)=\int_{X}\langle f(x) \mid g(x)\rangle d \mu(x) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1027_4_INTEGRAL">\beta(x)=\left\langle e_{k}\left|T_{g}^{x}\right| e_{l}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1027_5_INTEGRAL">\tilde{T}=\int T_{x} d \mu(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1027_6_INTEGRAL">\left[\widetilde{T}_{g} f\right](x)=T_{g}^{x} f(x)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_1_INTEGRAL">h_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_2_INTEGRAL">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_3_INTEGRAL">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_4_INTEGRAL">d_{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_5_INTEGRAL">\boldsymbol{h}_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_6_INTEGRAL">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_7_INTEGRAL">e_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_8_INTEGRAL">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_9_INTEGRAL">\langle\cdot \mid \cdot\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_10_INTEGRAL">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_11_INTEGRAL">p_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_12_INTEGRAL">h_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_13_INTEGRAL">h_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_14_INTEGRAL">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_15_INTEGRAL">h_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_16_INTEGRAL">n(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_17_INTEGRAL">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_18_INTEGRAL">n(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_19_INTEGRAL">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_20_INTEGRAL">1,2, \ldots, \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_21_INTEGRAL">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_22_INTEGRAL">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_23_INTEGRAL">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_24_INTEGRAL">f(x) \in H_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_25_INTEGRAL">e_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_26_INTEGRAL">\left\langle f(x), e_{l}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_27_INTEGRAL">h_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_28_INTEGRAL">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_29_INTEGRAL">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_30_INTEGRAL">f(x) \in H_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_31_INTEGRAL">\int_{x}\langle f(x) \mid f(x)\rangle d \mu(x)&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_32_INTEGRAL">\mathscr{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_33_INTEGRAL">h_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_34_INTEGRAL">t^{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_35_INTEGRAL">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_36_INTEGRAL">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_37_INTEGRAL">\mathscr{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_38_INTEGRAL">t^{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_39_INTEGRAL">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_40_INTEGRAL">t^{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_41_INTEGRAL">t^{y}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_42_INTEGRAL">t^{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_43_INTEGRAL">\widetilde{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_44_INTEGRAL">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1027_45_INTEGRAL">g</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/1027_1_INTEGRAL">
+      <rel_text>неприводимых представлений</rel_text>
+      <target>http://libmeta.ru/fme/article/1932_NEPRIVODIMOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1027_2_INTEGRAL">
+      <rel_text>представление группы</rel_text>
+      <target>http://libmeta.ru/fme/article/2359_PREDSTAVLENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1027_3_INTEGRAL">
+      <rel_text>группа</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1027_4_INTEGRAL">
+      <rel_text>подпредставлением</rel_text>
+      <target>http://libmeta.ru/fme/article/2279_PODPREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1027_5_INTEGRAL">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+  </relations>
+  <text>понятие, обобщающее понятие разложения представления конечной или компактной группы в прямую сумму неприводимых подпредставлений на случай унитарных бесконечномерных представлений более общих групп. Пусть дан набор гильбертовых пространств $URI[[http://libmeta.ru/fme/formula/aux/1027_1_INTEGRAL]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1027_2_INTEGRAL]]/URI$ пробегает нек-рое множество $URI[[http://libmeta.ru/fme/formula/aux/1027_3_INTEGRAL]]/URI$, на к-ром введена мера $URI[[http://libmeta.ru/fme/formula/aux/1027_4_INTEGRAL]]/URI$, и все $URI[[http://libmeta.ru/fme/formula/aux/1027_5_INTEGRAL]]/URI$ можно реализовать как подпространства в одном и том же гильбертовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/1027_6_INTEGRAL]]/URI$, причем для нек-рого (а значит и для любого) базиса $URI[[http://libmeta.ru/fme/formula/aux/1027_7_INTEGRAL]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1027_8_INTEGRAL]]/URI$ измеримы числовые функции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1027_1_INTEGRAL]]/URI
+\]
+
+где через $URI[[http://libmeta.ru/fme/formula/aux/1027_9_INTEGRAL]]/URI$ обозначено скалярное произведение в $URI[[http://libmeta.ru/fme/formula/aux/1027_10_INTEGRAL]]/URI$, а через $URI[[http://libmeta.ru/fme/formula/aux/1027_11_INTEGRAL]]/URI$ - ортогональный проектор на $URI[[http://libmeta.ru/fme/formula/aux/1027_12_INTEGRAL]]/URI$. (случай, когда все $URI[[http://libmeta.ru/fme/formula/aux/1027_13_INTEGRAL]]/URI$ совпадают с $URI[[http://libmeta.ru/fme/formula/aux/1027_14_INTEGRAL]]/URI$, вполне содержателен.) Можно считать (это не приведет к потере общности), что подпространство $URI[[http://libmeta.ru/fme/formula/aux/1027_15_INTEGRAL]]/URI$ натянуто на первые $URI[[http://libmeta.ru/fme/formula/aux/1027_16_INTEGRAL]]/URI$ базисных векторов в $URI[[http://libmeta.ru/fme/formula/aux/1027_17_INTEGRAL]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1027_18_INTEGRAL]]/URI$ - измеримая функция на $URI[[http://libmeta.ru/fme/formula/aux/1027_19_INTEGRAL]]/URI$, принимающая значения в множестве $URI[[http://libmeta.ru/fme/formula/aux/1027_20_INTEGRAL]]/URI$. Рассмотрим вектор-функцию $URI[[http://libmeta.ru/fme/formula/aux/1027_21_INTEGRAL]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1027_22_INTEGRAL]]/URI$ такую, что для любого $URI[[http://libmeta.ru/fme/formula/aux/1027_23_INTEGRAL]]/URI$ выполнено $URI[[http://libmeta.ru/fme/formula/aux/1027_24_INTEGRAL]]/URI$. Назовем такую функцию и з м е р и м о й, если для любого $URI[[http://libmeta.ru/fme/formula/aux/1027_25_INTEGRAL]]/URI$ числовая функция $URI[[http://libmeta.ru/fme/formula/aux/1027_26_INTEGRAL]]/URI$ измерима. Элементами пространства
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1027_2_INTEGRAL]]/URI
+\]
+
+(прямого интеграла гильбертовых пространств $URI[[http://libmeta.ru/fme/formula/aux/1027_27_INTEGRAL]]/URI$ ) являются измеримые вектор-функции $URI[[http://libmeta.ru/fme/formula/aux/1027_28_INTEGRAL]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1027_29_INTEGRAL]]/URI$ такие, что:
+
+1) $URI[[http://libmeta.ru/fme/formula/aux/1027_30_INTEGRAL]]/URI$
+
+2) $URI[[http://libmeta.ru/fme/formula/aux/1027_31_INTEGRAL]]/URI$.
+
+Скалярное произведение в $URI[[http://libmeta.ru/fme/formula/aux/1027_32_INTEGRAL]]/URI$ вводится по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1027_3_INTEGRAL]]/URI
+\]
+
+Пусть теперь в каждом пространстве $URI[[http://libmeta.ru/fme/formula/aux/1027_33_INTEGRAL]]/URI$ задано унитарное представление $URI[[http://libmeta.ru/fme/formula/aux/1027_34_INTEGRAL]]/URI$ группы $URI[[http://libmeta.ru/fme/formula/aux/1027_35_INTEGRAL]]/URI$, причем все числовые функции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1027_4_INTEGRAL]]/URI
+\]
+
+измеримы. Определим представление
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1027_5_INTEGRAL]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/1027_5_INTEGRAL]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1027_36_INTEGRAL]]/URI$ в пространстве $URI[[http://libmeta.ru/fme/formula/aux/1027_37_INTEGRAL]]/URI$ по формуле:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1027_6_INTEGRAL]]/URI
+\]
+
+оно и называется интегралом представления $URI[[http://libmeta.ru/fme/formula/aux/1027_38_INTEGRAL]]/URI$. Если мера точки $URI[[http://libmeta.ru/fme/formula/aux/1027_39_INTEGRAL]]/URI$ равна 0 и $URI[[http://libmeta.ru/fme/formula/aux/1027_40_INTEGRAL]]/URI$ не совпадает ни с каким $URI[[http://libmeta.ru/fme/formula/aux/1027_41_INTEGRAL]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/1027_42_INTEGRAL]]/URI$ не является URI[[http://libmeta.ru/fme/relation/1027_4_INTEGRAL]]/URI в $URI[[http://libmeta.ru/fme/formula/aux/1027_43_INTEGRAL]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/1027_44_INTEGRAL]]/URI$ - URI[[http://libmeta.ru/fme/relation/1027_3_INTEGRAL]]/URI Ли. Тогда любое унитарное URI[[http://libmeta.ru/fme/relation/1027_2_INTEGRAL]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1027_45_INTEGRAL]]/URI$ может быть разложено в интеграл URI[[http://libmeta.ru/fme/relation/1027_1_INTEGRAL]]/URI. На практике, чтобы построить такое разложение, обычно необходимо найти подходящее интегральное преобразование.</text>
+  <text_orig>понятие, обобщающее понятие разложения представления конечной или компактной группы в прямую сумму неприводимых подпредставлений на случай унитарных бесконечномерных представлений более общих групп. Пусть дан набор гильбертовых пространств $H_{x}$, где $x$ пробегает нек-рое множество $X$, на к-ром введена мера $d_{\mu}$, и все $\boldsymbol{H}_{x}$ можно реализовать как подпространства в одном и том же гильбертовом пространстве $H$, причем для нек-рого (а значит и для любого) базиса $e_{k}$ в $H$ измеримы числовые функции
+
+\[
+\alpha(x)=\left\langle e_{k}\left|P_{x}\right| e_{l}\right\rangle,
+\]
+
+где через $\langle\cdot \mid \cdot\rangle$ обозначено скалярное произведение в $H$, а через $P_{x}$ - ортогональный проектор на $H_{x}$. (Случай, когда все $H_{x}$ совпадают с $H$, вполне содержателен.) Можно считать (это не приведет к потере общности), что подпространство $H_{x}$ натянуто на первые $n(x)$ базисньх векторов в $H$, где $n(x)$ - измеримая функшия на $X$, принимающая значения в множестве $1,2, \ldots, \infty$. Рассмотрим вектор-функцию $f(x)$ на $X$ такую, что для любого $x$ выполнено $f(x) \in H_{x}$. Назовем такую функцию и з м е р и м о й, если для любого $e_{l}$ числовая функция $\left\langle f(x), e_{l}\right\rangle$ измерима. Элементами пространства
+
+\[
+\mathscr{H}=\int_{X} H_{x} d \mu
+\]
+
+(прямого интеграла гильбертовых пространств $H_{x}$ ) являются измеримые вектор-функции $f(x)$ на $X$ такие, что:
+
+1) $f(x) \in H_{x}$
+
+2) $\int_{X}\langle f(x) \mid f(x)\rangle d \mu(x)&lt;\infty$.
+
+Скалярное произведение в $\mathscr{H}$ вводится по формуле
+
+\[
+(f, g)=\int_{X}\langle f(x) \mid g(x)\rangle d \mu(x) .
+\]
+
+Пусть теперь в каждом пространстве $H_{x}$ задано унитарное представление $T^{x}$ группы $G$, причем все числовые функции
+
+\[
+\beta(x)=\left\langle e_{k}\left|T_{g}^{x}\right| e_{l}\right\rangle
+\]
+
+измеримы. Определим представление
+
+\[
+\tilde{T}=\int T_{x} d \mu(x)
+\]
+
+группы $G$ в пространстве $\mathscr{H}$ по формуле:
+
+\[
+\left[\widetilde{T}_{g} f\right](x)=T_{g}^{x} f(x)
+\]
+
+оно и называется интегралом представления $T^{x}$. Если мера точки $x$ равна 0 и $T^{x}$ не совпадает ни с каким $T^{y}$, то $T^{x}$ не является подпредставлением в $\widetilde{T}$.
+
+Пусть $G$ - группа Ли. Тогда любое унитарное представление группы $G$ может быть разложено в интеграл неприводимых представлений. На практике, чтобы построить такое разложение, обычно необходимо найти подходящее интегральное преобразование.
+
+Лит.: Диксмье Ж., С -алгебры и их представления, пер. с франц., М., $1974 . \quad$ Ю. А. Неретин.</text_orig>
+</article>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1230_KINETIChESKOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1230_KINETIChESKOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/256</core:url>
+    <lbm:descriptor><![CDATA[КИНЕТИЧЕСКОЕ УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2445"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#2734"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#2735"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#2736"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#2737"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2738"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2739"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2740"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2741"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>эволюционное уравнение для одночастичной функции распределения $URI[[http://libmeta.ru/fme/formula/aux/1230_1_KINETIChESKOE]]/URI$ <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2740">$$\left(x \equiv(q, p) \in \mathbb{R}^{v} \times \mathbb{R}^{v}-\right.$$</a> координата и импульс частицы) типа<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2738">$$\frac{d}{d t} F_{1}(t, x)=A\left(x ; F_{1}(t, x)\right)$$</a><BR/></P><P>где выражение <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2741">$$a\left(x ; F_{1}(t, x)\right)$$</a> в любой момент времени $URI[[http://libmeta.ru/fme/formula/aux/1230_4_KINETIChESKOE]]/URI$ полностью определяется функцией <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2739">$$f_{1}(t, x)$$</a> для этого же момента. Для квантовых систем К. у. определяется аналогичным образом для одночастичной редуцированной плотности матрицы (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#2734">[1]</a>). Основные примеры К. у.: Больцмана уравнение, Власова уравнение, Фоккера - Планка уравнение, Ландау уравнение, Больцмана - Энскога уравнение. Родственные им уравнения рассмотрены в <a href="/object/show?uri=http://libmeta.ru/io/Publication#2735">[2]</a>.<BR/></P><P>Проблема обоснования К. у. связана с выводом К. у. из уравнений эволюции состояния статистич. систем - Боголюбова уравнений. Метод Н. Н. Боголюбова вывода К. у. состоит в том, что на основе асимптотич. разложений по малому параметру строится частное решение уравнений Боголюбова, к-рое зависит от времени через одночастичную функцию распределения. Если начальные функции распределения удовлетворяют принципу ослабления корреляций (см. Кластерное свойство), то одночастичные функции распределения определяются из К. у. Интерпретируется К.у. как уравнение эволюции состояния системы на определенном (кинетич.) этапе процесса релаксации к равновесному состоянию. Существуют и другие методы вывода K. у. (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#2735">[2]</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#2736">[3]</a>).<BR/></P><P>Так как состояние системы частиц описывается последовательностью $URI[[http://libmeta.ru/fme/formula/aux/1230_6_KINETIChESKOE]]/URI$-частичных функций распределения, то, следовательно, К. у. описывает эволюцию состояния в определенной предельной ситуации. Поэтому в математич. работах последнего времени проблема обоснования К.у. формулируется как построение соответствующего предела для решений уравнений Боголюбова. Предельный переход совершается по параметрам, входящим в гамильтониан системы, таким образом, что выполнение условия факторизации для предельных функций распределения в начальный момент времени влечет за собой выполнение аналогичного условия в любой момент времени (в системе отсутствуют корреляции). Следует подчеркнуть, что в кинетич. пределе описываются системы бесконечного числа частиц.<BR/></P><P>Предел решений уравнений Боголюбова удовлетворяет цепочке предельных уравнений Боголюбова. (для стационарных решений уравнений Боголюбова см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2490_RAVNOVESNYE">Равновесных состояний кинетический предел</a>.) Если в начальном состоянии отсутствуют корреляции, то состояние предельной системы в любой момент времени описывается одночастичной функцией распределения, к-рая удовлетворяет К.у. Таким образом, приходят к уравнению Больцмана в Больцмана - Грэда пределе (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#2736">[3]</a>), к уравнению Власова в среднего поля пределе и т. П. (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#2737">[4]</a>).<BR/></P><P>В настоящее время строгие результаты, связанные с выводом К. у., <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получены</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2914_SREDNEGO">пределе среднего поля для</a> гладкого потенциала и интегрируемых начальных данных, в пределе Больцмана - Грэда для системы упругих шаров.<BR/></P><P>Вопросы существования и единственности решений К. у. весьма нетривиальны, известны случаи точных решений (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#2737">[4]</a>). К.у. находят <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3454_ShIROT">широкое</a> применение в различных разделах физики.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#2734">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#2734">Избранные труды, Киев, 1970, т. 2</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#2735">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Либов Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#2735">Введение в теорию кинетических уравнений, пер с англ., М., 1974</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#2736">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#425">Грэд Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#2736">в кн.: Термодинамика газов, пер. с англ. и нем., М., 1970, с. 5-168</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#2737">[4]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#2737">Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, M., 1985, т. 2, c. 233-307.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2445">В. И. Герасименко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[эволюцИонное уравнение для одночастичной функции распределения $F_{1}(t, x)$ $\left(x \equiv(q, p) \in \mathbb{R}^{v} \times \mathbb{R}^{v}-\right.$ координата и импульс частицы) типа
+
+\[
+\frac{d}{d t} F_{1}(t, x)=A\left(x ; F_{1}(t, x)\right)
+\]
+
+где выражение $A\left(x ; F_{1}(t, x)\right)$ в любой момент времени $t$ полностью определяется функцией $F_{1}(t, x)$ для этого же момента. Для квантовых систем К. у. определяется аналогичным образом для одночастичной редуцированной плотности матрицы (см. [1]). Основные примеры К. у.: Больцмана уравнение, Власова уравнение, Фоккера - Планка уравнение, Ландау уравнение, Больцмана - Энскога уравнение. Родственные им уравнения рассмотрены в [2].
+
+Проблема обоснования К. у. связана с выводом К. у. из уравнений эволюции состояния статистич. систем - Боголюбова уравнений. Метод Н. Н. Боголюбова вывода К. у. состоит в том, что на основе асимптотич. разложений по малому параметру строится частное решение уравнений Боголюбова, к-рое зависит от времени через одночастичную функцию распределения. Если начальные функции распределения удовлетворяют принципу ослабления корреляций (см. Кластерное свойство), то одночастичные функции распределения определяются из К. у. Интерпретируется К.у. как уравнение эволюции состояния системы на определенном (кинетич.) этапе процесса релаксации к равновесному состоянию. Существуют и другие методы вывода K. у. (см. [2], [3]).
+
+Так как состояние системы частиц описывается последовательностью $n$-частичных функший распределения, то, следовательно, К. у. описывает эволюцию состояния в определенной предельной ситуации. Поэтому в математич. работах последнего времени проблема обоснования К.у. формулируется как построение соответствующего предела для решений уравнений Боголюбова. Предельный переход совершается по параметрам, входяшим в гамильтониан системы, таким образом, что выполнение условия факторизации для предельных функций распределения в начальный момент времени влечет за собой выполнение аналогичного условия в любой момент времени (в системе отсутствуют корреляции). Следует подчеркнуть, что в кинетич. пределе описываются системы бесконечного числа частиц.
+
+Предел решений уравнений Боголюбова удовлетворяет цепочке предельных уравнений Боголюбова. (Для стационарных решений уравнений Боголюбова см. Равновесных состояний кинетический предел.) Если в начальном состоянии отсутствуют корреляции, то состояние предельной системы в любой момент времени описывается одночастичной функцией распределения, к-рая удовлетворяет К.у. Таким образом, приходят к уравнению Больцмана в Больцмана - Грэда пределе (см. [3]), к уравнению Власова в среднего поля пределе и т. П. (см. [4]).
+
+В настоящее время строгие результаты, связанные с выводом К. у., получены в пределе среднего поля для гладкого потенциала и интегрируемых начальных данных, в пределе Больцмана - Грэда для системы упругих шаров.
+
+Вопросы сушествования и единственности решений К. у. весьма нетривиальны, известны случаи точных решений (см. [4]). К.у. находят широкое применение в различных разделах физики.
+
+Лит.: [1] Б о го л ю бо в Н. Н., Избранные труды, т. 2, Киев, 1970; [2] Л и бо в Р., Введение в теорию кинетических уравнений, пер с англ., М., 1974; [3] Грэ д Г., в кн.: Термодинамика газов, пер. с англ. и нем., М., 1970, с. 5-168; [4] Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 2, M., 1985, c. 233-307.
+
+В. И. Герасименко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2490_RAVNOVESNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3454_ShIROT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2914_SREDNEGO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

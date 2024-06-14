@@ -1,0 +1,364 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1795_MNOGOVOLNOVYE" alphabetic_pos="1797">
+  <title>МНОГОВОЛНОВЫЕ ПРОЦЕССЫ</title>
+  <authors>
+    <author>Г. А. Омельянов</author>
+  </authors>
+  <pages>
+    <start>362</start>
+    <end>363</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ахманов С.А., Хохлов Р. В., Проблемы нелинейной оптики, М., 1964; [2] Гледзер Е. Б., Должанский Ф. В., Обу хо в А. М., Системы гидродинамического типа и их применение, М., 1981; [3] Бломберген Н., Нелинейная оптика, пер. с англ., М., 1966; [4] Захаров В. Е., в сб.: Солитоны, М., 1983; [5] Масло в В. П., Асимптотические методы решения псевдодифференциальных уравнений, М., 1987; [6] H u nte r J. К., М a ida A., Rosales R., «stud. Appl. Math.», 1986, v. 75, p. 187-226.</literature_orig>
+    <unit>
+      <author>Ахманов С. А.</author>
+      <author>Хохлов Р. В.</author>
+      <title>Проблемы нелинейной оптики</title>
+      <publication>М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гледзер Е. Б.</author>
+      <author>Должанский Ф. В.</author>
+      <author>Обухов А. М.</author>
+      <title>Системы гидродинамического типа и их применение</title>
+      <publication>М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бломберген Н.</author>
+      <title>Нелинейная оптика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Захаров В. Е.</author>
+      <title>в сб.: Солитоны</title>
+      <publication>М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>Асимптотические методы решения псевдодифференциальных уравнений</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Hunter J. К.</author>
+      <author>Мaida A.</author>
+      <author>Rosales R.</author>
+      <title>«stud. Appl. Math.»</title>
+      <publication/>
+      <year>1986</year>
+      <other>v. 75, p. 187-226.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_1_MNOGOVOLNOVYE">\begin{gathered}L\left(-i h \partial_{t},-i h \partial_{x}, x, t, h\right) u= \\=h A_{2}\left(x, t, u,-i h \partial_{t} u, \ldots,\left(-i h \partial_{x}\right)^{m_{2}} u, h\right)+ \\+h^{2} A_{3}\left(x, t, u,-i h \partial_{t} u, \ldots,\left(-i h \partial_{x}\right)^{m_{3}} u, h\right)+\ldots,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_2_MNOGOVOLNOVYE">\prod_{j=1}^{m_{1}}\left(\omega-\lambda_{j}(k, x, t)\right)=L(\omega, k, x, t, 0)=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_3_MNOGOVOLNOVYE">\left.u\right|_{t=0}=\varphi_{1}^{0}(x) \exp \left(i S_{1}^{0}(x) / h\right)+\varphi_{2}^{0}(x) \exp \left(i S_{2}^{0}(x) / h\right)+\text { к. с. },</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_4_MNOGOVOLNOVYE">u=\sum_{j=1}^{3} \varphi_{j}(x, t) \exp \left(i S_{j}(x, t) / h\right)+\text { к.c. }+O(h) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_5_MNOGOVOLNOVYE">\frac{\partial S_{j}}{\partial t}-\lambda_{p_{j}}\left(\frac{\partial S_{j}}{\partial x}, x, t\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_6_MNOGOVOLNOVYE">S_{3}=S_{1}+S_{2} \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_7_MNOGOVOLNOVYE">\begin{gathered}\frac{d \varphi_{1}}{d t_{1}}=\gamma_{1} \bar{\varphi}_{2} \varphi_{3}, \quad \frac{d \varphi_{2}}{d t_{2}}=\gamma_{2} \bar{\varphi}_{1} \varphi_{3}, \quad \frac{d \varphi_{3}}{d t_{3}}=\gamma_{3} \varphi_{1} \varphi_{2}, \\\left.\varphi_{i}\right|_{t=0}=\varphi_{i}^{0}, \quad i=1,2,\left.\quad \varphi_{3}\right|_{t=0}=0,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_8_MNOGOVOLNOVYE">\frac{d}{d t_{1}}\left|\varphi_{1}\right|^{2}+\frac{d}{d t_{2}}\left|\varphi_{2}\right|^{2}+x \frac{\gamma_{1}+\gamma_{2}}{\gamma_{3}} \frac{d}{d t_{3}}\left|\varphi_{3}\right|^{2}=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_9_MNOGOVOLNOVYE">F_{j}\left(S_{j}(x, t) / h, x, t\right)=\sum_{l \neq 0} \varphi_{j, l}(x, t) \exp \left(i l S_{j} / h\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_10_MNOGOVOLNOVYE">\left.\begin{array}{rl}K_{1}\left(F_{1}\right) &amp; =\frac{\gamma_{1}}{2 \pi} \frac{\partial}{\partial \tau} \int_{0}^{2 \pi} F_{2}(\eta, x, t) F_{3}(\tau+\eta, x, t) d \eta, \\K_{2}\left(F_{2}\right) &amp; =\frac{\gamma_{2}}{2 \pi} \frac{\partial}{\partial \tau} \int_{0}^{2 \pi} F_{1}(\eta, x, t) F_{3}(\tau+\eta, x, t) d \eta, \\K_{3}\left(F_{3}\right) &amp; =\frac{\gamma_{3}}{2 \pi} \frac{\partial}{\partial \tau} \int_{0}^{2 \pi} F_{1}(\eta, x, t) F_{2}(\tau-\eta, x, t) d \eta, \\K_{j}\left(F_{j}\right) &amp; =\frac{d F_{j}}{d t_{j}}+\alpha_{j} F_{j} \frac{\partial F_{j}}{\partial \tau}+\beta_{j} \frac{\partial^{3} F_{j}}{\partial \tau^{3}}, \\\left.F_{m}\right|_{t=0} &amp; =\varphi_{m}^{0}(x) \exp (i \tau)+\text { к.c., } \quad m=1,2,\left.\quad F_{3}\right|_{t=0}=0 .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_11_MNOGOVOLNOVYE">\frac{d}{d t_{1}} \int_{0}^{2 \pi} F_{1}^{2} d \tau+\frac{d}{d t_{2}} \int_{0}^{2 \pi} F_{2}^{2} d \tau+\frac{\gamma_{1}+\gamma_{2}}{\gamma_{3}} \frac{d}{d t_{3}} \int_{0}^{2 \pi} F_{3}^{2} d \tau=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_12_MNOGOVOLNOVYE">\varphi_{l_{1} l_{2}}(x, t) \exp \left(i\left(l_{1} S_{1}+l_{2} S_{2}\right) / h\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_13_MNOGOVOLNOVYE">u=U\left(S_{1} / h, S_{2} / h, x, t\right)+O(h),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1795_14_MNOGOVOLNOVYE">\begin{gathered}\frac{d U}{d t_{1}}=i A_{2}\left(x, t, U,-i\left(\frac{\partial S_{1}}{\partial t} \frac{\partial}{\partial \tau_{1}}+\frac{\partial S_{2}}{\partial t} \frac{\partial}{\partial \tau_{2}}\right) U, \ldots\right. \\\left.\ldots,\left(-i \frac{\partial S_{1}}{\partial x} \frac{\partial}{\partial \tau_{1}}-i \frac{\partial S_{2}}{\partial x} \frac{\partial}{\partial \tau_{2}}\right)^{m_{2}} U, 0\right), \\\left.U\right|_{t=0}=\varphi_{1}^{0} \exp \left(i \tau_{1}\right)+\varphi_{2}^{0}(x) \exp \left(i \tau_{2}\right)+\text { к.с. }\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_1_MNOGOVOLNOVYE">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_2_MNOGOVOLNOVYE">m_{1}, x \in \mathbb{R}^{n},\left.A_{j}\right|_{u=\sigma v}=\left.\sigma^{j} A_{j}\right|_{u=v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_3_MNOGOVOLNOVYE">\sigma&gt;0, m_{j} \geqslant 0, j \geqslant 2, h \rightarrow 0-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_4_MNOGOVOLNOVYE">\operatorname{im} \lambda_{j}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_5_MNOGOVOLNOVYE">\varphi_{j}^{0}, S_{j}^{0} \in \mathbb{C}^{\infty}, \operatorname{Im} S_{j}^{0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_6_MNOGOVOLNOVYE">s_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_7_MNOGOVOLNOVYE">1 \leqslant P_{j} \leqslant m_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_8_MNOGOVOLNOVYE">\varphi_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_9_MNOGOVOLNOVYE">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_10_MNOGOVOLNOVYE">\varphi_{3} \exp \left(i S_{3} / h\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_11_MNOGOVOLNOVYE">s_{3}=l_{1} S_{1}+l_{2} S_{2}, l_{i}= \pm 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_12_MNOGOVOLNOVYE">s_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_13_MNOGOVOLNOVYE">s_{i}(x, 0)=S_{i}^{0}(x), i=1,2, S_{3}(x, 0)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_14_MNOGOVOLNOVYE">=s_{1}^{0}+s_{2}^{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_15_MNOGOVOLNOVYE">\varphi_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_16_MNOGOVOLNOVYE">d / d t_{j}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_17_MNOGOVOLNOVYE">\gamma_{j}=\gamma_{j}(x, t), \bar{\varphi}_{j}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_18_MNOGOVOLNOVYE">\varphi_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_19_MNOGOVOLNOVYE">[1]-[3])</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_20_MNOGOVOLNOVYE">x=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_21_MNOGOVOLNOVYE">\operatorname{re} \gamma_{j}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_22_MNOGOVOLNOVYE">x=-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_23_MNOGOVOLNOVYE">\operatorname{im} \gamma_{j}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_24_MNOGOVOLNOVYE">s_{3}=l_{1} S_{1}+l_{2} S_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_25_MNOGOVOLNOVYE">l_{i}= \pm 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_26_MNOGOVOLNOVYE">\varphi_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_27_MNOGOVOLNOVYE">\varphi_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_28_MNOGOVOLNOVYE">\bar{\varphi}_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_29_MNOGOVOLNOVYE">l_{i}=-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_30_MNOGOVOLNOVYE">s_{3} \neq l_{1} S_{1}+l_{2} S_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_31_MNOGOVOLNOVYE">l_{i}= \pm 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_32_MNOGOVOLNOVYE">\gamma_{3}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_33_MNOGOVOLNOVYE">\varphi_{3}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_34_MNOGOVOLNOVYE">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_35_MNOGOVOLNOVYE">\lambda_{j}(k, x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_36_MNOGOVOLNOVYE">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_37_MNOGOVOLNOVYE">f_{1}, F_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_38_MNOGOVOLNOVYE">f_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_39_MNOGOVOLNOVYE">u=f_{1}\left(s_{1} / h, x, t\right)+F_{2}\left(S_{2} / h, x, t\right)+F_{3}\left(S_{3} / h, x, t\right)+h u_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_40_MNOGOVOLNOVYE">s_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_41_MNOGOVOLNOVYE">2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_42_MNOGOVOLNOVYE">\tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_43_MNOGOVOLNOVYE">f_{j}(\tau, x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_44_MNOGOVOLNOVYE">u_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_45_MNOGOVOLNOVYE">s_{3}=l_{1} S_{1}+l_{2} S_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_46_MNOGOVOLNOVYE">l_{i} \in \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_47_MNOGOVOLNOVYE">s_{3} \neq l_{1} S_{1}+l_{2} S_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_48_MNOGOVOLNOVYE">l_{i} \in \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_49_MNOGOVOLNOVYE">f_{3}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_50_MNOGOVOLNOVYE">f_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_51_MNOGOVOLNOVYE">k_{i}\left(f_{i}\right)=0, i=1,2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_52_MNOGOVOLNOVYE">\lambda_{j}(k, x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_53_MNOGOVOLNOVYE">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_54_MNOGOVOLNOVYE">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_55_MNOGOVOLNOVYE">l_{1}, l_{2} \in \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_56_MNOGOVOLNOVYE">s_{1}, S_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_57_MNOGOVOLNOVYE">u\left(\tau_{1}, \tau_{2}, x, t\right)-2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_58_MNOGOVOLNOVYE">\tau_{1}, \tau_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_59_MNOGOVOLNOVYE">m_{1}=1, \partial L(\omega, k, x, t, h) / \partial h=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1795_60_MNOGOVOLNOVYE">u</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1795_1_MNOGOVOLNOVYE">
+      <rel_text>гиперболич</rel_text>
+      <target>http://libmeta.ru/fme/article/635_GIPERZVU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1795_2_MNOGOVOLNOVYE">
+      <rel_text>полный резонанс</rel_text>
+      <target>http://libmeta.ru/fme/article/2298_POLNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1795_3_MNOGOVOLNOVYE">
+      <rel_text>дисперсия</rel_text>
+      <target>http://libmeta.ru/fme/article/857_DISPERSI</target>
+    </relation>
+  </relations>
+  <text>процессы резонансного взаимодействия коротких волн, при которых генерируются новые короткие волны. М. п. описываются уравнениями со слабой нелинейностью и возникают при решении многочисленных задач физики и механики. Различают трехволновые процессы - для квадратичной нелинейности, четырехволновые - для кубич. нелинейности и т. д. В физич. приложениях наиболее часто встречаются уравнения со слабой квадратичной нелинейностью:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_1_MNOGOVOLNOVYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1795_1_MNOGOVOLNOVYE]]/URI$ - оператор порядка $URI[[http://libmeta.ru/fme/formula/aux/1795_2_MNOGOVOLNOVYE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1795_3_MNOGOVOLNOVYE]]/URI$ параметр. Характер М. п. определяется свойствами корней дисперсионного уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_2_MNOGOVOLNOVYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1795_4_MNOGOVOLNOVYE]]/URI$.
+
+При сильной дисперсии конечное число коротких волн порождает конечное число новых коротких волн. Так, для уравнения (1) с начальным условием
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_3_MNOGOVOLNOVYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1795_5_MNOGOVOLNOVYE]]/URI$, к. с.- комплексно сопряженные слагаемые, трехволновый процесс описывается асимптотич. решением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_4_MNOGOVOLNOVYE]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1795_6_MNOGOVOLNOVYE]]/URI$, как и в Вкб-методе для линейных задач, удовлетворяют уравнениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_5_MNOGOVOLNOVYE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1795_7_MNOGOVOLNOVYE]]/URI$. Амплитуда $URI[[http://libmeta.ru/fme/formula/aux/1795_8_MNOGOVOLNOVYE]]/URI$ отлична от нуля при $URI[[http://libmeta.ru/fme/formula/aux/1795_9_MNOGOVOLNOVYE]]/URI$, то есть порождается короткой волной $URI[[http://libmeta.ru/fme/formula/aux/1795_10_MNOGOVOLNOVYE]]/URI$, при выполнении одного из условий синхронизма: $URI[[http://libmeta.ru/fme/formula/aux/1795_11_MNOGOVOLNOVYE]]/URI$. Пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_6_MNOGOVOLNOVYE]]/URI
+\]
+
+то есть $URI[[http://libmeta.ru/fme/formula/aux/1795_12_MNOGOVOLNOVYE]]/URI$ удовлетворяют переопределенной системе (4), (5) с начальными условиями $URI[[http://libmeta.ru/fme/formula/aux/1795_13_MNOGOVOLNOVYE]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1795_14_MNOGOVOLNOVYE]]/URI$. Тогда $URI[[http://libmeta.ru/fme/formula/aux/1795_15_MNOGOVOLNOVYE]]/URI$ находятся из уравнений трехволнового процесса (см. [1]-[3]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_7_MNOGOVOLNOVYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1795_16_MNOGOVOLNOVYE]]/URI$ полная производная вдоль характеристик (4), $URI[[http://libmeta.ru/fme/formula/aux/1795_17_MNOGOVOLNOVYE]]/URI$ комплексно сопряжены к $URI[[http://libmeta.ru/fme/formula/aux/1795_18_MNOGOVOLNOVYE]]/URI$. Решение (6) удовлетворяет так наз. соотношению Мэнли - Роу (см. $URI[[http://libmeta.ru/fme/formula/aux/1795_19_MNOGOVOLNOVYE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_8_MNOGOVOLNOVYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1795_20_MNOGOVOLNOVYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1795_21_MNOGOVOLNOVYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1795_22_MNOGOVOLNOVYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1795_23_MNOGOVOLNOVYE]]/URI$. В случае постоянных коэффициентов уравнения (6) интегрируются методом обратной задачи (см. [4]). Если вместо (5) выполнено $URI[[http://libmeta.ru/fme/formula/aux/1795_24_MNOGOVOLNOVYE]]/URI$ при нек-рых $URI[[http://libmeta.ru/fme/formula/aux/1795_25_MNOGOVOLNOVYE]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/1795_26_MNOGOVOLNOVYE]]/URI$ находятся из уравнений, получающихся из (6) заменой $URI[[http://libmeta.ru/fme/formula/aux/1795_27_MNOGOVOLNOVYE]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1795_28_MNOGOVOLNOVYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1795_29_MNOGOVOLNOVYE]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/1795_30_MNOGOVOLNOVYE]]/URI$ при всех $URI[[http://libmeta.ru/fme/formula/aux/1795_31_MNOGOVOLNOVYE]]/URI$, то М. в. нет: $URI[[http://libmeta.ru/fme/formula/aux/1795_32_MNOGOVOLNOVYE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1795_33_MNOGOVOLNOVYE]]/URI$.
+
+При слабой дисперсии конечное число коротких волн порождает бесконечное число новых коротких волн. Напр., каждая из коротких волн (2) порождает при $URI[[http://libmeta.ru/fme/formula/aux/1795_34_MNOGOVOLNOVYE]]/URI$ цуг волн:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_9_MNOGOVOLNOVYE]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/1795_35_MNOGOVOLNOVYE]]/URI$ не линейны по $URI[[http://libmeta.ru/fme/formula/aux/1795_36_MNOGOVOLNOVYE]]/URI$ и выполнено (5), то цуги $URI[[http://libmeta.ru/fme/formula/aux/1795_37_MNOGOVOLNOVYE]]/URI$ порождают цуг $URI[[http://libmeta.ru/fme/formula/aux/1795_38_MNOGOVOLNOVYE]]/URI$, то есть
+
+$URI[[http://libmeta.ru/fme/formula/aux/1795_39_MNOGOVOLNOVYE]]/URI$. (7)
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1795_40_MNOGOVOLNOVYE]]/URI$ удовлетворяют (4), (5), $URI[[http://libmeta.ru/fme/formula/aux/1795_41_MNOGOVOLNOVYE]]/URI$-периодические по $URI[[http://libmeta.ru/fme/formula/aux/1795_42_MNOGOVOLNOVYE]]/URI$ функции $URI[[http://libmeta.ru/fme/formula/aux/1795_43_MNOGOVOLNOVYE]]/URI$ находятся из уравнений Кортевега - де Фриса - Маслова (см. [5]), напр., имеющих вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_10_MNOGOVOLNOVYE]]/URI
+\]
+
+Аналогом соотношения Мэнли-Роу для (8) является равенство:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_11_MNOGOVOLNOVYE]]/URI
+\]
+
+Поправка $URI[[http://libmeta.ru/fme/formula/aux/1795_44_MNOGOVOLNOVYE]]/URI$ в асимптотич. решении (7) ограничена при выполнении условий, аналогичных условиям на малые знаменатели в Кам-теории (см. [5]).
+
+М. п. (7) возможен также в случае $URI[[http://libmeta.ru/fme/formula/aux/1795_45_MNOGOVOLNOVYE]]/URI$ для нек-рых $URI[[http://libmeta.ru/fme/formula/aux/1795_46_MNOGOVOLNOVYE]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/1795_47_MNOGOVOLNOVYE]]/URI$ для всех $URI[[http://libmeta.ru/fme/formula/aux/1795_48_MNOGOVOLNOVYE]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/1795_49_MNOGOVOLNOVYE]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1795_50_MNOGOVOLNOVYE]]/URI$ находятся из уравнений $URI[[http://libmeta.ru/fme/formula/aux/1795_51_MNOGOVOLNOVYE]]/URI$.
+
+Если URI[[http://libmeta.ru/fme/relation/1795_3_MNOGOVOLNOVYE]]/URI слабая и $URI[[http://libmeta.ru/fme/formula/aux/1795_52_MNOGOVOLNOVYE]]/URI$ линейны по $URI[[http://libmeta.ru/fme/formula/aux/1795_53_MNOGOVOLNOVYE]]/URI$, то происходит так наз. URI[[http://libmeta.ru/fme/relation/1795_2_MNOGOVOLNOVYE]]/URI: короткие волны (2) порождают при $URI[[http://libmeta.ru/fme/formula/aux/1795_54_MNOGOVOLNOVYE]]/URI$ короткие волны
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_12_MNOGOVOLNOVYE]]/URI
+\] при всех $URI[[http://libmeta.ru/fme/formula/aux/1795_55_MNOGOVOLNOVYE]]/URI$ (см. [5]). Асимптотич. решение (1), (2) в этом случае имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_13_MNOGOVOLNOVYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1795_56_MNOGOVOLNOVYE]]/URI$ удовлетворяют уравнению (4), $URI[[http://libmeta.ru/fme/formula/aux/1795_57_MNOGOVOLNOVYE]]/URI$-периодична по $URI[[http://libmeta.ru/fme/formula/aux/1795_58_MNOGOVOLNOVYE]]/URI$. Напр., при $URI[[http://libmeta.ru/fme/formula/aux/1795_59_MNOGOVOLNOVYE]]/URI$, уравнение для $URI[[http://libmeta.ru/fme/formula/aux/1795_60_MNOGOVOLNOVYE]]/URI$ следующее:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1795_14_MNOGOVOLNOVYE]]/URI
+\]
+
+Аналогичные М.п. строятся в классе почти периодич. функций, а также для URI[[http://libmeta.ru/fme/relation/1795_1_MNOGOVOLNOVYE]]/URI. и параболич. систем (cm. [5], [6]).</text>
+  <text_orig>процессы резонансного взаимодействия коротких волн, при которых генерируются новые короткие волны. М. п. описываются уравнениями со слабой нелинейностью и возникают при решении многочисленных задач физики и механики. Различают трехволновые процессы - для квадратичной нелинейности, четырехволновые - для кубич. нелинейности и т. д. В физич. приложениях наиболее часто встречаются уравнения со слабой квадратичной нелинейностью:
+
+\[
+\begin{gathered}
+L\left(-i h \partial_{t},-i h \partial_{x}, x, t, h\right) u= \\
+=h A_{2}\left(x, t, u,-i h \partial_{t} u, \ldots,\left(-i h \partial_{x}\right)^{m_{2}} u, h\right)+ \\
++h^{2} A_{3}\left(x, t, u,-i h \partial_{t} u, \ldots,\left(-i h \partial_{x}\right)^{m_{3}} u, h\right)+\ldots,
+\end{gathered}
+\]
+
+где $L$ - оператор порядка $m_{1}, x \in \mathbb{R}^{n},\left.A_{j}\right|_{u=\sigma v}=\left.\sigma^{j} A_{j}\right|_{u=v}$, $\sigma&gt;0, m_{j} \geqslant 0, j \geqslant 2, h \rightarrow 0-$ параметр. Характер М. п. определяется свойствами корней дисперсионного уравнения
+
+\[
+\prod_{j=1}^{m_{1}}\left(\omega-\lambda_{j}(k, x, t)\right)=L(\omega, k, x, t, 0)=0,
+\]
+
+где $\operatorname{Im} \lambda_{j}=0$.
+
+При сильной дисперсии конечное число коротких волн порождает конечное число новых коротких волн. Так, для уравнения (1) с начальным условием
+
+\[
+\left.u\right|_{t=0}=\varphi_{1}^{0}(x) \exp \left(i S_{1}^{0}(x) / h\right)+\varphi_{2}^{0}(x) \exp \left(i S_{2}^{0}(x) / h\right)+\text { к. с. },
+\]
+
+где $\varphi_{j}^{0}, S_{j}^{0} \in \mathbb{C}^{\infty}, \operatorname{Im} S_{j}^{0}=0$, к. с.- комплексно сопряженные слагаемые, трехволновый процесс описывается асимптотич. решением
+
+\[
+u=\sum_{j=1}^{3} \varphi_{j}(x, t) \exp \left(i S_{j}(x, t) / h\right)+\text { к.c. }+O(h) .
+\]
+
+Здесь $S_{j}$, как и в ВКБ-методе для линейных задач, удовлетворяют уравнениям
+
+\[
+\frac{\partial S_{j}}{\partial t}-\lambda_{p_{j}}\left(\frac{\partial S_{j}}{\partial x}, x, t\right)=0
+\]
+
+$1 \leqslant P_{j} \leqslant m_{1}$. Амплитуда $\varphi_{3}$ отлична от нуля при $t&gt;0$, то есть порождается короткой волной $\varphi_{3} \exp \left(i S_{3} / h\right)$, при выполнении одного из условий синхронизма: $S_{3}=l_{1} S_{1}+l_{2} S_{2}, l_{i}= \pm 1$. Пусть
+
+\[
+S_{3}=S_{1}+S_{2} \text {, }
+\]
+
+то есть $S_{j}$ удовлетворяют переопределенной системе (4), (5) с начальными условиями $S_{i}(x, 0)=S_{i}^{0}(x), i=1,2, S_{3}(x, 0)=$ $=S_{1}^{0}+S_{2}^{0}$. Тогда $\varphi_{j}$ находятся из уравнений трехволнового процесса (см. [1]-[3]):
+
+\[
+\begin{gathered}
+\frac{d \varphi_{1}}{d t_{1}}=\gamma_{1} \bar{\varphi}_{2} \varphi_{3}, \quad \frac{d \varphi_{2}}{d t_{2}}=\gamma_{2} \bar{\varphi}_{1} \varphi_{3}, \quad \frac{d \varphi_{3}}{d t_{3}}=\gamma_{3} \varphi_{1} \varphi_{2}, \\
+\left.\varphi_{i}\right|_{t=0}=\varphi_{i}^{0}, \quad i=1,2,\left.\quad \varphi_{3}\right|_{t=0}=0,
+\end{gathered}
+\]
+
+где $d / d t_{j}-$ полная производная вдоль характеристик (4), $\gamma_{j}=\gamma_{j}(x, t), \bar{\varphi}_{j}-$ комплексно сопряжены к $\varphi_{j}$. Решение (6) удовлетворяет так наз. соотношению Мэнли - Роу (см. $[1]-[3])$ :
+
+\[
+\frac{d}{d t_{1}}\left|\varphi_{1}\right|^{2}+\frac{d}{d t_{2}}\left|\varphi_{2}\right|^{2}+x \frac{\gamma_{1}+\gamma_{2}}{\gamma_{3}} \frac{d}{d t_{3}}\left|\varphi_{3}\right|^{2}=0,
+\]
+
+где $x=1$ при $\operatorname{Re} \gamma_{j}=0$ и $x=-1$ при $\operatorname{Im} \gamma_{j}=0$. В случае постоянных коэффициентов уравнения (6) интегрируются методом обратной задачи (см. [4]). Если вместо (5) выполнено $S_{3}=l_{1} S_{1}+l_{2} S_{2}$ при нек-рых $l_{i}= \pm 1$, то $\varphi_{j}$ находятся из уравнений, получающихся из (6) заменой $\varphi_{i}$ на $\bar{\varphi}_{i}$ при $l_{i}=-1$. Если $S_{3} \neq l_{1} S_{1}+l_{2} S_{2}$ при всех $l_{i}= \pm 1$, то М. в. нет: $\gamma_{3}=0$, $\varphi_{3}=0$.
+
+При слабой дисперсии конечное число коротких волін порождает бесконечное число новых коротких волн. Напр., каждая из коротких волн (2) порождает при $t&gt;0$ цуг волн:
+
+\[
+F_{j}\left(S_{j}(x, t) / h, x, t\right)=\sum_{l \neq 0} \varphi_{j, l}(x, t) \exp \left(i l S_{j} / h\right) .
+\]
+
+Если $\lambda_{j}(k, x, t)$ не линейны по $k$ и выполнено (5), то цуги $F_{1}, F_{2}$ порождают цуг $F_{3}$, то есть
+
+$u=F_{1}\left(S_{1} / h, x, t\right)+F_{2}\left(S_{2} / h, x, t\right)+F_{3}\left(S_{3} / h, x, t\right)+h u_{1}$. (7)
+
+Здесь $S_{j}$ удовлетворяют (4), (5), $2 \pi$-периодические по $\tau$ функции $F_{j}(\tau, x, t)$ находятся из уравнений Кортевега - де Фриса - Маслова (см. [5]), напр., имеющих вид:
+
+\[
+\left.\begin{array}{rl}
+K_{1}\left(F_{1}\right) &amp; =\frac{\gamma_{1}}{2 \pi} \frac{\partial}{\partial \tau} \int_{0}^{2 \pi} F_{2}(\eta, x, t) F_{3}(\tau+\eta, x, t) d \eta, \\
+K_{2}\left(F_{2}\right) &amp; =\frac{\gamma_{2}}{2 \pi} \frac{\partial}{\partial \tau} \int_{0}^{2 \pi} F_{1}(\eta, x, t) F_{3}(\tau+\eta, x, t) d \eta, \\
+K_{3}\left(F_{3}\right) &amp; =\frac{\gamma_{3}}{2 \pi} \frac{\partial}{\partial \tau} \int_{0}^{2 \pi} F_{1}(\eta, x, t) F_{2}(\tau-\eta, x, t) d \eta, \\
+K_{j}\left(F_{j}\right) &amp; =\frac{d F_{j}}{d t_{j}}+\alpha_{j} F_{j} \frac{\partial F_{j}}{\partial \tau}+\beta_{j} \frac{\partial^{3} F_{j}}{\partial \tau^{3}}, \\
+\left.F_{m}\right|_{t=0} &amp; =\varphi_{m}^{0}(x) \exp (i \tau)+\text { к.c., } \quad m=1,2,\left.\quad F_{3}\right|_{t=0}=0 .
+\end{array}\right\}
+\]
+
+Аналогом соотношения Мэнли-Роу для (8) является равенство:
+
+\[
+\frac{d}{d t_{1}} \int_{0}^{2 \pi} F_{1}^{2} d \tau+\frac{d}{d t_{2}} \int_{0}^{2 \pi} F_{2}^{2} d \tau+\frac{\gamma_{1}+\gamma_{2}}{\gamma_{3}} \frac{d}{d t_{3}} \int_{0}^{2 \pi} F_{3}^{2} d \tau=0
+\]
+
+Поправка $u_{1}$ в асимптотич. решении (7) ограничена при выполнении условий, аналогичных условиям на малые знаменатели в КАМ-теории (см. [5]).
+
+М. п. (7) возможен также в случае $S_{3}=l_{1} S_{1}+l_{2} S_{2}$ для нек-рых $l_{i} \in \mathbb{Z}$. Если $S_{3} \neq l_{1} S_{1}+l_{2} S_{2}$ для всех $l_{i} \in \mathbb{Z}$, то $F_{3}=0$, а $F_{i}$ находятся из уравнений $K_{i}\left(F_{i}\right)=0, i=1,2$.
+
+Если дисперсия слабая и $\lambda_{j}(k, x, t)$ линейны по $k$, то происходит так наз. полный резонанс: короткие волны (2) порождают при $t&gt;0$ короткие волны
+
+\[
+\varphi_{l_{1} l_{2}}(x, t) \exp \left(i\left(l_{1} S_{1}+l_{2} S_{2}\right) / h\right)
+\] при всех $l_{1}, l_{2} \in \mathbb{Z}$ (см. [5]). Асимптотич. решение (1), (2) в этом случае имеет вид:
+
+\[
+u=U\left(S_{1} / h, S_{2} / h, x, t\right)+O(h),
+\]
+
+где $S_{1}, S_{2}$ удовлетворяют уравнению (4), $U\left(\tau_{1}, \tau_{2}, x, t\right)-2 \pi$-периодична по $\tau_{1}, \tau_{2}$. Напр., при $m_{1}=1, \partial L(\omega, k, x, t, h) / \partial h=0$, уравнение для $U$ следующее:
+
+\[
+\begin{gathered}
+\frac{d U}{d t_{1}}=i A_{2}\left(x, t, U,-i\left(\frac{\partial S_{1}}{\partial t} \frac{\partial}{\partial \tau_{1}}+\frac{\partial S_{2}}{\partial t} \frac{\partial}{\partial \tau_{2}}\right) U, \ldots\right. \\
+\left.\ldots,\left(-i \frac{\partial S_{1}}{\partial x} \frac{\partial}{\partial \tau_{1}}-i \frac{\partial S_{2}}{\partial x} \frac{\partial}{\partial \tau_{2}}\right)^{m_{2}} U, 0\right), \\
+\left.U\right|_{t=0}=\varphi_{1}^{0} \exp \left(i \tau_{1}\right)+\varphi_{2}^{0}(x) \exp \left(i \tau_{2}\right)+\text { к.с. }
+\end{gathered}
+\]
+
+Аналогичные М.п. строятся в классе почти периодич. функций, а также для гиперболич. и параболич. систем (cM. [5], [6]).
+
+Лит.: [1] Ахманов С.А., Хохлов Р. В., Проблемы нелинейной оптики, М., 1964; [2] Гледзер Е. Б., Должанский Ф. В., Обу хо в А. М., Системы гидродинамического типа и их применение, М., 1981; [3] Бломберген Н., Нелинейная оптика, пер. с англ., М., 1966; [4] Захаров В. Е., в сб.: Солитоны, М., 1983; [5] Масло в В. П., Асимптотические методы решения псевдодифференциальных уравнений, М., 1987; [6] H u nte r J. К., М a ida A., Rosales R., «Stud. Appl. Math.», 1986, v. 75, p. 187-226.
+
+Г. А. Омельянов.</text_orig>
+</article>

@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1832_MORERY" alphabetic_pos="1834">
+  <title>МОРЕРЫ ТЕОРЕМА ДЛЯ АНАЛИТИЧЕСКИХ ФУНКЦИЙ</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>370</start>
+    <end>371</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М а р куш е в и ч А. И., Теория аналитических функций, 2 изд., т. 1, М., 1967; [2] Шабат Б. В., Введение в комплексный анализ, 2 изд., ч. 1-2, М., 1976; [3] В лад и м и ров В. С., Методы теории функций многих комплексных переменных, М., 1964.</literature_orig>
+    <unit>
+      <author>Маркушевич А. И.</author>
+      <title>Теория аналитических функций</title>
+      <publication>2 изд., т. 1, М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Шабат Б. В.</author>
+      <title>Введение в комплексный анализ</title>
+      <publication>2 изд., ч. 1-2, М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Методы теории функций многих комплексных переменных</title>
+      <publication>М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1832_1_MORERY">\int_{\Gamma} f(z) d z=0, \quad \Gamma \subset D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1832_2_MORERY">\begin{gathered}T_{v}=\left[a_{1}, z_{1}\right] \times \ldots \times\left[a_{v-1}, z_{v-1}\right] \times \Delta_{v} \times\left[a_{v+1}, z_{v+1}\right] \times \ldots \times\left[a_{n}, z_{n}\right], \\v=1,2, \ldots, n,\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_1_MORERY">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_2_MORERY">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_3_MORERY">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_4_MORERY">\gamma \subset D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_5_MORERY">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_6_MORERY">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_7_MORERY">\gamma=\partial \Delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_8_MORERY">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_9_MORERY">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_10_MORERY">\delta \subset \bar{\Delta} \subset D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_11_MORERY">f(z)=f\left(z_{1}, \ldots, z_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_12_MORERY">z_{1}, \ldots, z_{n}, n \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_13_MORERY">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_14_MORERY">\mathbb{c}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_15_MORERY">\partial T_{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_16_MORERY">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_17_MORERY">\left[a_{\mu}, z_{\mu}\right], \mu \neq v, \mu=1, \ldots, n,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_18_MORERY">\mathbb{c}\left(z_{\mu}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_19_MORERY">a_{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_20_MORERY">z_{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_21_MORERY">\delta_{v}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_22_MORERY">\mathbb{c}\left(z_{v}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_23_MORERY">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1832_24_MORERY">d</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1832_1_MORERY">
+      <rel_text>голоморфная</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1832_2_MORERY">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1832_3_MORERY">
+      <rel_text>комплексного пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/1319_KOMPAKTNOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1832_4_MORERY">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>если (однозначная) функция $URI[[http://libmeta.ru/fme/formula/aux/1832_1_MORERY]]/URI$ комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/1832_2_MORERY]]/URI$ в области $URI[[http://libmeta.ru/fme/formula/aux/1832_3_MORERY]]/URI$ непрерывна и интеграл от нее по любому замкнутому спрямляемому контуру $URI[[http://libmeta.ru/fme/formula/aux/1832_4_MORERY]]/URI$ равен нулю, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1832_1_MORERY]]/URI
+\]
+
+то $URI[[http://libmeta.ru/fme/formula/aux/1832_5_MORERY]]/URI$ - аналитическая функция в $URI[[http://libmeta.ru/fme/formula/aux/1832_6_MORERY]]/URI$. Эта теорема была получена Дж. Морерой (g. Morera, 1886).
+
+Условие сформулированной М.т. можно ослабить, ограничившись требованием, чтобы обращались в нуль интегралы (*), взятые по границе $URI[[http://libmeta.ru/fme/formula/aux/1832_7_MORERY]]/URI$ любого треугольника $URI[[http://libmeta.ru/fme/formula/aux/1832_8_MORERY]]/URI$, компактно принадлежащего области $URI[[http://libmeta.ru/fme/formula/aux/1832_9_MORERY]]/URI$, то есть такого, что $URI[[http://libmeta.ru/fme/formula/aux/1832_10_MORERY]]/URI$. М.т. представляет собой (неполное) обращение Коши теоремы и является одной из основных теорем теории аналитич. функций.
+
+М. т. обобщается на случай функций многих комплексных переменных. Пусть функция $URI[[http://libmeta.ru/fme/formula/aux/1832_11_MORERY]]/URI$ комплексных переменных $URI[[http://libmeta.ru/fme/formula/aux/1832_12_MORERY]]/URI$, непрерывна в URI[[http://libmeta.ru/fme/relation/1832_4_MORERY]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1832_13_MORERY]]/URI$ URI[[http://libmeta.ru/fme/relation/1832_3_MORERY]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1832_14_MORERY]]/URI$ и такова, что обращается в нуль интеграл от нее, взятый по границе $URI[[http://libmeta.ru/fme/formula/aux/1832_15_MORERY]]/URI$ любой компактно принадлежащей $URI[[http://libmeta.ru/fme/formula/aux/1832_16_MORERY]]/URI$ призматич. URI[[http://libmeta.ru/fme/relation/1832_2_MORERY]]/URI вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1832_2_MORERY]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1832_17_MORERY]]/URI$ прямолинейные отрезки в плоскостях $URI[[http://libmeta.ru/fme/formula/aux/1832_18_MORERY]]/URI$ с концами $URI[[http://libmeta.ru/fme/formula/aux/1832_19_MORERY]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1832_20_MORERY]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1832_21_MORERY]]/URI$ треугольник в плоскости $URI[[http://libmeta.ru/fme/formula/aux/1832_22_MORERY]]/URI$. Тогда $URI[[http://libmeta.ru/fme/formula/aux/1832_23_MORERY]]/URI$ - URI[[http://libmeta.ru/fme/relation/1832_1_MORERY]]/URI функция в $URI[[http://libmeta.ru/fme/formula/aux/1832_24_MORERY]]/URI$.</text>
+  <text_orig>если (однозначная) функция $f(z)$ комплексного переменного $z$ в области $D$ непрерывна и интеграл от нее по любому замкнутому спрямляемому контуру $\Gamma \subset D$ равен нулю, то есть
+
+\[
+\int_{\Gamma} f(z) d z=0, \quad \Gamma \subset D
+\]
+
+то $f(z)$ - аналитическая функция в $D$. Эта теорема была получена Дж. Морерой (G. Morera, 1886).
+
+Условие сформулированной М.т. можно ослабить, ограничившись требованием, чтобы обращались в нуль интегралы (*), взятые по границе $\Gamma=\partial \Delta$ любого треугольника $\Delta$, компактно принадлежащего области $D$, то есть такого, что $\Delta \subset \bar{\Delta} \subset D$. М.т. представляет собой (неполное) обращение Коши теоремы и является одной из основных теорем теории аналитич. функций.
+
+М. т. обобщается на случай функций многих комплексных переменных. Пусть функция $f(z)=f\left(z_{1}, \ldots, z_{n}\right)$ комплексных переменных $z_{1}, \ldots, z_{n}, n \geqslant 1$, непрерывна в области $D$ комплексного пространства $\mathbb{C}^{n}$ и такова, что обращается в нуль интеграл от нее, взятый по границе $\partial T_{v}$ любой компактно принадлежащей $D$ призматич. области вида:
+
+\[
+\begin{gathered}
+T_{v}=\left[a_{1}, z_{1}\right] \times \ldots \times\left[a_{v-1}, z_{v-1}\right] \times \Delta_{v} \times\left[a_{v+1}, z_{v+1}\right] \times \ldots \times\left[a_{n}, z_{n}\right], \\
+v=1,2, \ldots, n,
+\end{gathered}
+\]
+
+где $\left[a_{\mu}, z_{\mu}\right], \mu \neq v, \mu=1, \ldots, n,-$ прямолинейные отрезки в плоскостях $\mathbb{C}\left(z_{\mu}\right)$ с концами $a_{\mu}$ и $z_{\mu}$, а $\Delta_{v}-$ треугольник в плоскости $\mathbb{C}\left(z_{v}\right)$. Тогда $f(z)$ - голоморфная функция в $D$.
+
+Лит.: [1] М а р куш е в и ч А. И., Теория аналитических функций, 2 изд., т. 1, М., 1967; [2] Шабат Б. В., Введение в комплексный анализ, 2 изд., ч. 1-2, М., 1976; [3] В лад и м и ров В. С., Методы теории функций многих комплексных переменных, М., 1964.
+
+Е. Д. Соломенцев.</text_orig>
+</article>

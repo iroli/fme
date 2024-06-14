@@ -1,0 +1,102 @@
+Иногда при задании вероятностных автоматов ограничиваются либо указанием матриц $M^{j}$, либо указанием матриц $\bar{M}^{j}=\left\|\mu_{i, q}^{j}\right\|$, где
+
+\[
+\mu_{i, q}^{j}=\sum_{r=1}^{n} \mu_{i, r}^{q, j}
+\]
+
+$i=1, \ldots, n, q=1, \ldots, k, j=1, \ldots, m$. Любая конечная Маркова цепь может рассматриваться как конечный вероятностный автомат, у к-рого матрицы $M^{j}, j=1, \ldots$, $m$, совпадают. Ниже представлены система матриц, задающая нек-рый вероятностный автомат $\mathfrak{U}(n=2, k=2$, $m=2)$, п матрицы $M^{1}, M^{2}, \overline{M^{1}}, \bar{M}^{2}$ этого автомата:
+
+\[
+\begin{aligned}
+& M^{1,1}=\left\|\begin{array}{ll}
+\frac{1}{4} & 0 \\
+\frac{1}{4} & \frac{1}{4}
+\end{array}\right\|, \quad M^{1,2}=\left\|\begin{array}{cc}
+\frac{1}{3} & \frac{2}{3} \\
+\frac{1}{5} & \frac{1}{5}
+\end{array}\right\|, \\
+& M^{2,1}=\left\|\begin{array}{ll}
+\frac{1}{4} & \frac{1}{2} \\
+\frac{1}{4} & \frac{1}{4}
+\end{array}\right\|, \quad M^{2,2}=\left\|\begin{array}{cc}
+0 & 0 \\
+\frac{2}{5} & \frac{1}{5}
+\end{array}\right\| \text {, } \\
+& M^{1}=\left\|\begin{array}{ll}
+\frac{1}{2} & \frac{1}{2} \\
+\frac{1}{2} & \frac{1}{2}
+\end{array}\right\|, \quad M^{2}=\left\|\begin{array}{cc}
+\frac{1}{3} & \frac{2}{3} \\
+\frac{3}{5} & \frac{2}{5}
+\end{array}\right\|, \\
+& \bar{M}^{i}=\left\|\begin{array}{cc}
+\frac{1}{4} & \frac{3}{4} \\
+\frac{1}{2} & \frac{1}{2}
+\end{array}\right\|, \quad \bar{M}^{2}=\left\|\begin{array}{cc}
+1 & 0 \\
+\frac{2}{5} & \frac{3}{5}
+\end{array}\right\| .
+\end{aligned}
+\]
+
+Чтобы задать конечный автомат над термами $\langle A, S, \sigma$, $\left.\alpha_{a}\right\rangle$, когда известны алфавиты $A=\left\{a_{1}, \ldots, a_{m}\right\}, S=$ $=\left\{s_{1}, \ldots, s_{n}\right\}$, необходимо, во-первых, указать отображение $\sigma$ множества $A$ в конечное множество неотрицательных целых qисел, причем так, чтобы существовал хотя бы один элемент $a \in A$ такой, что $\sigma(a)=0$, а во-вторых, для всякого $a_{i} \in A, i=1, \ldots, m$, требуется определить $\sigma\left(a_{i}\right)$-местную функцию $\alpha_{a_{i}}$, отображающую множество $[S]^{\sigma\left(a_{i}\right)}=S \times \ldots \times S$ в $S$. Каждому элементу $a \in A$ такому, что $\sigma(a)=0$, ставится в соответствие элемент $\alpha_{a} \in S$, наз. начальным состоянием автомата. Напр., если $A=\left\{a_{1}, a_{2}\right\}, S=\left\{s_{1}, s_{2}\right\}, \sigma\left(a_{1}\right)=0, \sigma\left(a_{2}\right)=2$, $\alpha_{a_{1}}=s_{1}, \quad \alpha_{a_{2}}\left(s_{1}, \quad s_{1}\right)=s_{2}, \quad \alpha_{a_{2}}\left(s_{1}, s_{2}\right)=s_{1}, \quad \alpha_{a_{2}}\left(s_{2}, \quad s_{1}\right)=s_{2}$, $\alpha_{a_{2}}\left(s_{2}, s_{2}\right)=s_{2}$, то функции $\sigma, \alpha_{a_{1}}, \alpha_{a_{2}}$ задают нек-рый автомат над термами $\left\langle A, S, \sigma,\left\{\alpha_{a_{1}}, \alpha_{a_{2}}\right\}\right\rangle$ с начальным состоянием $s_{1}$.
+
+Чтобы задать мозаитную структуру (бесконечное соединение переходных систем вида $\langle A, S, \varphi\rangle$, где $A=$ $=S^{r}$, см. Автомат), необходимо для каждой целочисленной точки $n$-мерного пространства определить конечное упорядоченное множество целочисленных точек ее окрестность. При этом входной алфавит $A$ переходной системы $\langle A, S, \varphi\rangle$, помещенной в нек-рую точку, есть декартово произведение множеств состояний переходных систем, помещенных в точки ее окрестности. Напр., пусть $S=\left\{s_{1}, s_{2}\right\}$ и для всякой целочисленной точки двумерного пространства $(\alpha, \beta)$ ее окрестность $D_{\alpha, \beta}$ есть упорядоченное множество $\{(\alpha-1, \beta),(\alpha$, $\boldsymbol{\beta}+1),(\alpha+1, \beta)\}$. Чтобы задать однородную двумерную мозаичную структуру, определяют функцию $ф$ следующим образом: $\varphi\left(s_{1}, s_{1}, s_{1}\right)=s_{1}, \varphi\left(s^{\prime}, s^{\prime \prime}, s^{\prime \prime \prime}\right)=s_{2}$ в остальных случаях. Входной алфавит $A$ в данном случае - декартово произведение $S \times S \times S$.
+
+Микроподход. При микроподходе задать структурный автомат - знаqит описать элементы, из к-рых он построен, и схему их соединения. Описание может производиться на различных уровнях детализации. Часто ограничиваются рассмотрением так наз. К а н о ни ч ес к о й $\mathbf{x}$ е м ы построения автоматов; при этом әлементы делят на две группы - ф у н к ц и о на л ьны е ә л м е н ты (автоматы с одним состоянием) и э л е м е т т ы п а я т и. Канонич. схема (рис. 5) состоит из двух функциональных блоков $f$ и $g$ с присоединенными к ним элементами памяти, в качестве к-рых используются автоматы Мура: $\mathfrak{A}_{i}=\left\langle R_{i}, S_{i}, Q_{i}, \varphi_{i}, \psi_{i}\right\rangle$, $i=1, \ldots, l$. Блоки $f$ и $g$ построены из функциональных әлементов. При данном способе задания структуру этих блоков не описывают, а задают (напр., таблично) реализуемые ими вектор-функции:
+
+\[
+\begin{gathered}
+f=\left(f_{1}\left(x_{1}, \ldots, x_{n}, u_{1}, \ldots, u_{l}\right), \ldots,\right. \\
+\left.f_{l}\left(x_{1}, \ldots, x_{n}, u_{1}, \ldots, u_{l}\right)\right): \\
+A^{n} \times Q_{1} \times \ldots \times Q_{l} \longrightarrow R_{1} \times \ldots \times R_{l} ; \\
+g=\left(g_{1}\left(x_{1}, \ldots, x_{n}, u_{1}, \ldots, u_{l}\right), \ldots,\right. \\
+\left.g_{l}\left(x_{1}, \ldots, x_{n}, u_{1}, \ldots, u_{l}\right)\right): \\
+A^{n} \times Q_{1} \times \ldots \times Q_{l} \longrightarrow B^{m},
+\end{gathered}
+\]
+
+где $A^{n}$ и $B^{m}-$, соответственно, входной и выходной алфавиты канонич. схемы. Эта схема задает структур-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_de154b7e914d80975b3dg-1.jpg?height=359&width=377&top_left_y=669&top_left_x=1012)
+
+Рис. 5.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_de154b7e914d80975b3dg-1.jpg?height=392&width=322&top_left_y=643&top_left_x=1484)
+
+Рис. 6. ный автомат $\left\langle A^{n}, S, B^{m}, \varphi, \psi\right\rangle$, где $S=S_{1} \times \ldots \times S_{l}$, а функции $\varphi$ и $\psi$ определяются следующим образом: $\varphi\left(\left(s_{1}, \ldots, s_{l}\right),\left(a_{1}, \ldots, a_{n}\right)\right)=\left(s_{1}^{\prime}, \ldots, s_{n}^{\prime}\right)$,
+
+$s_{i}=\varphi_{i}\left(s_{i}, f_{i}\left(a_{1}, \ldots, a_{n}, \psi_{1}\left(s_{1}\right), \psi_{2}\left(s_{2}\right), \ldots, \psi_{l}\left(s_{l}\right)\right)\right)$;
+
+$\psi\left(\left(s_{1}, \ldots, s_{l}\right),\left(a_{1}, \ldots, a_{n}\right)\right)=\left(b_{1}, \ldots, b_{m}\right)$,
+
+$b_{j}=g_{j}\left(a_{1}, \ldots, a_{n}, \psi_{1}\left(s_{1}\right), \ldots, \psi_{l}\left(s_{l}\right)\right)$.
+
+Важным примером структурных автоматов являются логич. сети (см. А втомат конечный). На рис. 6 представлена канонич. схема автомата $\langle\tilde{A}, \tilde{S}, \tilde{B}, \tilde{\varphi}, \tilde{\psi}\rangle$, изоморфного автомату $\mathfrak{H} 0$, диаграмма к-рого изображена на рис. 3 , $\tilde{A}=\tilde{S}=\tilde{B}=\{0,1\} . \quad$ Автомат $\mathfrak{A}^{\prime}=\left\langle\tilde{S}, \tilde{S}, \tilde{S}, \varphi^{\prime}, \psi^{\prime}\right\rangle-$ автомат Мура такой, что $\varphi^{\prime}(1, z)=z, \varphi^{\prime}(0, z)=z$.
+
+Для описания структурных автоматов часто используются к ан о ич е с кие уравне ния, т. е. системы вида:
+
+\[
+\begin{aligned}
+& u_{1}(1)=s_{0}, \\
+& \dot{u_{l}}(\dot{1})=\dot{s_{0}},
+\end{aligned}
+\]
+
+$u_{1}(t+1)=f_{1}\left(u_{1}(t), \ldots, u_{l}(t), x_{1}(t), \ldots, x_{n}(t)\right)$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_de154b7e914d80975b3dg-1.jpg?height=65&width=712&top_left_y=1714&top_left_x=1033)
+
+$y_{1}(t)=g_{1}\left(u_{1}(t), \ldots, u_{l}(t), x_{1}(t), \ldots, x_{n}(t)\right)$,
+
+$\dot{y}_{m} \dot{(t)}=\dot{g_{m}} \dot{\left(u_{1}\right.} \dot{(t)}, \ldots, \dot{u_{l}}(\dot{t}), \dot{x_{1}}(\dot{t}), \ldots \dot{x_{n}} \dot{(t)} \dot{)}$
+
+где $t=1,2, \ldots-$ целочисленный параметр, $s_{0} \in S$, а функции $f_{i}, i=1, \ldots, l, g_{i}, i=1, \ldots, m$, и переменные $x_{r}$, $r=1, \ldots, n$, принимают значения из множества $A$. Этой системе соответствует канонич. схема, в к-рой все элементы памяти совпадают: $\mathfrak{A}_{i}=\left\langle A, S, B, \varphi, \psi, s_{0}\right\rangle$, где $A=S=B, i=1, \ldots, l ; \varphi\left(a, a^{\prime}\right)=a^{\prime}, \psi\left(a, a^{\prime}\right)=a$. Функционирование автомата $\mathfrak{A}_{i}$ содержательно может быть описано следующим образом. Пусть в момент времени $t$ входу $\mathfrak{A}_{i}$ приписана буква $a(t)$, тогда эта же буква будет приписана выходу $\mathfrak{A}_{i}$ в момент $t+1$. На рис. 6 представлен автомат $\mathfrak{A}$, канонич. уравнения к-рого имеют вид:
+
+\[
+\begin{aligned}
+& u(1)=0, \\
+& u(t+1)=x(t)+u(t)(\bmod 2), \\
+& y(t)=x(t) \vee u(t) .
+\end{aligned}
+\]

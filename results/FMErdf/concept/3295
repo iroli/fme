@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_738_GRUPPIROVKA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_738_GRUPPIROVKA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3295</core:url>
+    <lbm:descriptor><![CDATA[ГРУППИРОВКА ФОТОНОВ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#14279"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24653"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>эффект одновременного преимущественного излучения групп фотонов. Описывается условием<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24653">$$G^{(2)}(0) \geqslant G^{(2)}(\tau)$$</a><BR/></P><P>для степени когерентности (см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_971_IZLUChENIJa">Излучения статистика</a>). В классич. рассмотрении возможность Г. ф. следует из отрицательности <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI">дисперсии</a> интенсивности излучения и прин- ципа ослабления корреляций. В квантовом рассмотрении Г. Ф. соответствует излучению с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3003_SUPERPROSTRANSTV">суперпуассоновской</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_971_IZLUChENIJa">статистикой излучения</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#14279">А. С. Шумовский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[эффект одновременного преимущественного излучения групп фотонов. Описывается условием
+
+\[
+G^{(2)}(0) \geqslant G^{(2)}(\tau)
+\]
+
+для степени когерентности (см. Излучения статистика). В классич. рассмотрении возможность Г. ф. следует из отрицательности дисперсии интенсивности излучения и прин- ципа ослабления корреляций. В квантовом рассмотрении Г. Ф. соответствует излучению с суперпуассоновской статистикой излучения. А. С. Шумовский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_971_IZLUChENIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_971_IZLUChENIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3003_SUPERPROSTRANSTV"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

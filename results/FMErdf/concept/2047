@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2843_SOBSTVENNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2843_SOBSTVENNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2047</core:url>
+    <lbm:descriptor><![CDATA[СОБСТВЕННОЕ ВРЕМЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15390"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_86"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8142"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_389"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>время, измеряемое в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2838_SOBSTVENNAJa">собственной системе отсчета</a>. Время <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2426_PROTEKANI">протекания</a> какого-либо процесса, измеряемое вне тела, в к-ром происходит процесс, зависит от относительной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорости</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдателя</a> и тела. Если измерения производятся в нек-рой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1019_INERTsIAL'NAJa">инерциальной системе отсчета</a>, а тело движется относительно нее с постоянной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростью</a> $URI[[http://libmeta.ru/fme/formula/aux/2843_1_SOBSTVENNOE]]/URI$, то промежуток С. в. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15391">$$\delta \tau$$</a> связан с промежутком времени (внешнего) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдателя</a> $URI[[http://libmeta.ru/fme/formula/aux/2843_3_SOBSTVENNOE]]/URI$ так:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15390">$$\Delta \tau=\Delta t \sqrt{1-v^{2} / c^{2}},$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2843_4_SOBSTVENNOE]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорость</a> света. При наличии тяготения С. в. течет тем медленнее с точки зрения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдателя</a> вне поля, чем сильнее гравитационное поле.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[время, измеряемое в собственной системе отсчета. Время протекания какого-либо процесса, измеряемое вне тела, в к-ром происходит процесс, зависит от относительной скорости наблюдателя и тела. Если измерения производятся в нек-рой инерциальной системе отсчета, а тело движется относительно нее с постоянной скоростью $v$, то промежуток С. в. $\Delta \tau$ связан с промежутком времени (внешнего) наблюдателя $\Delta t$ так:
+
+\[
+\Delta \tau=\Delta t \sqrt{1-v^{2} / c^{2}},
+\]
+
+где $c$ - скорость света. При наличии тяготения С. в. течет тем медленнее с точки зрения наблюдателя вне поля, чем сильнее гравитационное поле.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1019_INERTsIAL'NAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2426_PROTEKANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2838_SOBSTVENNAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

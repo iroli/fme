@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_16979">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mo>grad</mo><mrow><mi>&#x003C1;</mi></mrow></msub><mi>f</mi><mo>&#x0003D;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><mi>&#x003C1;</mi></mrow></mfrac><mo>&#x0002C;</mo><msub><mo>grad</mo><mrow><mi>&#x003C6;</mi></mrow></msub><mi>f</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>&#x003C1;</mi><mi>sin</mi><mi>&#x003B8;</mi></mrow></mfrac><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><mi>&#x003C6;</mi></mrow></mfrac><mo>&#x0002C;</mo><msub><mo>grad</mo><mrow><mi>&#x003B8;</mi></mrow></msub><mi>f</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>&#x003C1;</mi></mrow></mfrac><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><mi>&#x003B8;</mi></mrow></mfrac><mi>;</mi></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\operatorname{grad}_{\rho} f=\frac{\partial f}{\partial \rho}, \operatorname{grad}_{\varphi} f=\frac{1}{\rho \sin \theta} \frac{\partial f}{\partial \varphi}, \operatorname{grad}_{\theta} f=\frac{1}{\rho} \frac{\partial f}{\partial \theta} ;$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

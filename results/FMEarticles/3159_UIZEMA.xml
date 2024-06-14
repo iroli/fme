@@ -1,0 +1,307 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3159_UIZEMA" alphabetic_pos="3161">
+  <title>УИЗЕМА МЕТОД УСРЕДНЕНИЯ, НЕЛИНЕЙНЫЙ МЕТОД ВКБ</title>
+  <authors/>
+  <pages>
+    <start>619</start>
+    <end>619</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Wh ith a m G. B., «proc. Roy. Soc.», 1965, A283, № 1393, p. 238-61; [2] е го же, Линейные и нелинейные волны, пер. с англ., M., 1977; [3] Lu k e J. C., «proc. Roy. Soc.», 1966, A292, № 1430, p. 403-12; [4] Доброхотов С. Ю., Маслов В. П., в кн.: Итоги науки и техники. Современные проблемы математики, т. 15 , М., 1980, с. 3-94; [5] Скотт Э., Волны в активных и нелинейных средах в приложении к электронике, пер. с англ., М., 1977; [6] М а сло в В. П., «еоретич. и математич. физика», 1969, № 3, с. 378-83; [7] Дубровин Б. А., Нов иков С. П., &quot;доклады Ан СССР», 1983, т. 270, № 4, с. 781-85; [8] Ц а р е в С. П., там же, 1985, т. 282, № 3, c. 534-37; [9] Flaschka H., Forest M., Mc Laugh lin D., «comm. Pure and Appl. Math.», 1980, v. 33, № 6, p. 739-78; [10] Д об р о о то в С. Ю., «математич. заметки», 1988, т. 44, № 4, $\begin{array}{ll}\text { c. 551-55. } &amp; \text { С. Ю. Доброхотов. }\end{array}$</literature_orig>
+    <unit>
+      <author>Whitham G. B.</author>
+      <title>«proc. Roy. Soc.»</title>
+      <publication/>
+      <year>1965</year>
+      <other>A283, № 1393, p. 238-61</other>
+    </unit>
+    <unit>
+      <title>е го же, Линейные и нелинейные волны</title>
+      <publication>пер. с англ., M.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Luke J. C.</author>
+      <title>«proc. Roy. Soc.»</title>
+      <publication/>
+      <year>1966</year>
+      <other>A292, № 1430, p. 403-12</other>
+    </unit>
+    <unit>
+      <author>Доброхотов С. Ю.</author>
+      <author>Маслов В. П.</author>
+      <title>в кн.: Итоги науки и техники. Современные проблемы математики</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other>т. 15, с. 3-94</other>
+    </unit>
+    <unit>
+      <author>Скотт Э.</author>
+      <title>Волны в активных и нелинейных средах в приложении к электронике</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>«еоретич. и математич. физика»</title>
+      <publication/>
+      <year>1969</year>
+      <other>№ 3, с. 378-83</other>
+    </unit>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Новиков С. П.</author>
+      <title>&quot;доклады Ан СССР»</title>
+      <publication/>
+      <year>1983</year>
+      <other>т. 270, № 4, с. 781-85</other>
+    </unit>
+    <unit>
+      <author>Царев С. П.</author>
+      <title>там же</title>
+      <publication/>
+      <year>1985</year>
+      <other>т. 282, № 3, c. 534-37</other>
+    </unit>
+    <unit>
+      <author>Flaschka H.</author>
+      <author>Forest M.</author>
+      <author>Mc Laughlin D.</author>
+      <title>«comm. Pure and Appl. Math.»</title>
+      <publication/>
+      <year>1980</year>
+      <other>v. 33, № 6, p. 739-78</other>
+    </unit>
+    <unit>
+      <author>Доброотов С. Ю.</author>
+      <title>«математич. заметки»</title>
+      <publication/>
+      <year>1988</year>
+      <other>т. 44, № 4, $\begin{array}{ll}\text { c. 551-55. } &amp; \text { С. Ю. Доброхотов. }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3159_1_UIZEMA">u=f\left(\frac{S(x, t)}{h}, x, t, h\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3159_2_UIZEMA">f=f_{0}(\tau, x, t)+h f_{1}(\tau, x, t)+\ldots,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3159_3_UIZEMA">h^{2}\left(u_{t t}-\nabla^{2} u\right)+\mathscr{F}_{u}^{\prime}(u, x)=0, x \in \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3159_4_UIZEMA">\begin{gathered}m \frac{\partial^{2} f_{0}}{\partial \tau^{2}}+\mathscr{F}_{u}^{\prime}\left(f_{0}, x\right)=0, \quad m=S_{t}^{2}-(\nabla S)^{2}, \\L f_{k} \stackrel{\operatorname{def}}{\equiv} m \frac{\partial^{2} f_{k}}{\partial \tau^{2}}+\mathscr{F}_{u u}^{\prime \prime}\left(f_{0}, x\right) f_{k}=R_{k} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3159_5_UIZEMA">f_{0}=g(\tau+P(x, t), E(x, t), x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3159_6_UIZEMA">T\left(S_{t}, \nabla S, E, x\right)=2 \sqrt{m} \int_{g_{-}}^{g_{+}} \frac{d g}{\sqrt{E-\mathscr{T}(g, x)}},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3159_7_UIZEMA">T\left(S_{t}, \nabla S, E, x\right)=2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3159_8_UIZEMA">\int_{0}^{2 \pi} R_{0} f_{0 \tau} d \tau</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_1_UIZEMA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_2_UIZEMA">s(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_3_UIZEMA">f(\tau, x, t, h)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_4_UIZEMA">f_{k}-2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_5_UIZEMA">\tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_6_UIZEMA">s, f_{0}, f_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_7_UIZEMA">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_8_UIZEMA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_9_UIZEMA">2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_10_UIZEMA">f_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_11_UIZEMA">s, f_{0}, f_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_12_UIZEMA">\tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_13_UIZEMA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_14_UIZEMA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_15_UIZEMA">x, t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_16_UIZEMA">\tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_17_UIZEMA">r_{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_18_UIZEMA">f_{0}, f_{1}, \ldots, f_{k-1}, S_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_19_UIZEMA">\nabla S</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_20_UIZEMA">p, E \equiv m g_{\tau}^{2}+\mathscr{F}(g, x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_21_UIZEMA">(x, E) \in \mathbb{R} \times\left[E_{0}, E_{1}\right] g(\tau, E, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_22_UIZEMA">\tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_23_UIZEMA">g_{ \pm}(E, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_24_UIZEMA">e-\mathscr{F}(g, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_25_UIZEMA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_26_UIZEMA">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_27_UIZEMA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_28_UIZEMA">k=12 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_29_UIZEMA">l_{2}[0,2 \pi]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_30_UIZEMA">f_{0 \tau}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_31_UIZEMA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_32_UIZEMA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_33_UIZEMA">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_34_UIZEMA">2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_35_UIZEMA">f_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_36_UIZEMA">k=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_37_UIZEMA">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_38_UIZEMA">k&gt;2-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_39_UIZEMA">f_{k-2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_40_UIZEMA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_41_UIZEMA">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_42_UIZEMA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_43_UIZEMA">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_44_UIZEMA">f_{0}(s / h, x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3159_45_UIZEMA">s=\left(s_{1}(x, t), \ldots, S_{l}(x, t)\right)</formula>
+  </formulas_aux>
+  <relations n="14">
+    <relation uri="http://libmeta.ru/fme/relation/3159_1_UIZEMA">
+      <rel_text>резонансов</rel_text>
+      <target>http://libmeta.ru/fme/article/2587_REZOL'VENT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_2_UIZEMA">
+      <rel_text>теория возмущений</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_3_UIZEMA">
+      <rel_text>многофазовые</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_4_UIZEMA">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_5_UIZEMA">
+      <rel_text>подобных</rel_text>
+      <target>http://libmeta.ru/fme/article/2277_PODOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_6_UIZEMA">
+      <rel_text>динамику</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_7_UIZEMA">
+      <rel_text>параметризующие</rel_text>
+      <target>http://libmeta.ru/fme/article/2170_PARASTATISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_8_UIZEMA">
+      <rel_text>законов сохранения</rel_text>
+      <target>http://libmeta.ru/fme/article/2877_SOHRANENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_9_UIZEMA">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_10_UIZEMA">
+      <rel_text>поправки</rel_text>
+      <target>http://libmeta.ru/fme/article/2332_POPRAVK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_11_UIZEMA">
+      <rel_text>самосопряженного оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2678_SAMOSOPRJaZhENNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_12_UIZEMA">
+      <rel_text>эквивалентное</rel_text>
+      <target>http://libmeta.ru/fme/article/3492_EKVIDISTANT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_13_UIZEMA">
+      <rel_text>период</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3159_14_UIZEMA">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>метод построения быстроосциллирующих асимптотических решений вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3159_1_UIZEMA]]/URI
+\]
+
+(волновых пакетов), нелинейных уравнений с частными производными с малым параметром $URI[[http://libmeta.ru/fme/formula/aux/3159_1_UIZEMA]]/URI$. Фаза $URI[[http://libmeta.ru/fme/formula/aux/3159_2_UIZEMA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3159_3_UIZEMA]]/URI$ - гладкие функции,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3159_2_UIZEMA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3159_4_UIZEMA]]/URI$-периодичны по аргументу $URI[[http://libmeta.ru/fme/formula/aux/3159_5_UIZEMA]]/URI$. Функции $URI[[http://libmeta.ru/fme/formula/aux/3159_6_UIZEMA]]/URI$ определяются в результате подстановки $URI[[http://libmeta.ru/fme/formula/aux/3159_7_UIZEMA]]/URI$ в соответствующее уравнение, приравнивания коэффициентов при одинаковых степенях $URI[[http://libmeta.ru/fme/formula/aux/3159_8_UIZEMA]]/URI$ к нулю и учета требования $URI[[http://libmeta.ru/fme/formula/aux/3159_9_UIZEMA]]/URI$-периодичности $URI[[http://libmeta.ru/fme/formula/aux/3159_10_UIZEMA]]/URI$. Напр., для нелинейного волнового уравнения (см. [2]-[6])
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3159_3_UIZEMA]]/URI
+\]
+
+соотношения, связывающие $URI[[http://libmeta.ru/fme/formula/aux/3159_11_UIZEMA]]/URI$, имеют вид системы обыкновенных по $URI[[http://libmeta.ru/fme/formula/aux/3159_12_UIZEMA]]/URI$ URI[[http://libmeta.ru/fme/relation/3159_14_UIZEMA]]/URI, содержащей $URI[[http://libmeta.ru/fme/formula/aux/3159_13_UIZEMA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3159_14_UIZEMA]]/URI$ как параметры
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3159_4_UIZEMA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/3159_15_UIZEMA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3159_16_UIZEMA]]/URI$ считаются независимыми переменными, $URI[[http://libmeta.ru/fme/formula/aux/3159_17_UIZEMA]]/URI$ функции от $URI[[http://libmeta.ru/fme/formula/aux/3159_18_UIZEMA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3159_19_UIZEMA]]/URI$ и их производных. Решение уравнения (2) представляется в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3159_5_UIZEMA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3159_20_UIZEMA]]/URI$ константы интегрирования.
+
+Пусть при каждых $URI[[http://libmeta.ru/fme/formula/aux/3159_21_UIZEMA]]/URI$ - периодич. функция $URI[[http://libmeta.ru/fme/formula/aux/3159_22_UIZEMA]]/URI$; ее URI[[http://libmeta.ru/fme/relation/3159_13_UIZEMA]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3159_6_UIZEMA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3159_23_UIZEMA]]/URI$ - нули $URI[[http://libmeta.ru/fme/formula/aux/3159_24_UIZEMA]]/URI$. Требование
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3159_7_UIZEMA]]/URI
+\]
+
+приводит к соотношению, связывающему $URI[[http://libmeta.ru/fme/formula/aux/3159_25_UIZEMA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3159_26_UIZEMA]]/URI$ (уравнению Гамильтона - Якоби для $URI[[http://libmeta.ru/fme/formula/aux/3159_27_UIZEMA]]/URI$ в линейной теории). Требование существования у (2) при $URI[[http://libmeta.ru/fme/formula/aux/3159_28_UIZEMA]]/URI$-периодич. решения, URI[[http://libmeta.ru/fme/relation/3159_12_UIZEMA]]/URI условию ортогональности в $URI[[http://libmeta.ru/fme/formula/aux/3159_29_UIZEMA]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3159_8_UIZEMA]]/URI
+\]
+
+функции $URI[[http://libmeta.ru/fme/formula/aux/3159_30_UIZEMA]]/URI$, принадлежащей ядру URI[[http://libmeta.ru/fme/relation/3159_11_UIZEMA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3159_31_UIZEMA]]/URI$, вместе с (3) образуют замкнутую систему уравнений, связывающую $URI[[http://libmeta.ru/fme/formula/aux/3159_32_UIZEMA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3159_33_UIZEMA]]/URI$. Требование $URI[[http://libmeta.ru/fme/formula/aux/3159_34_UIZEMA]]/URI$-периодичности функций $URI[[http://libmeta.ru/fme/formula/aux/3159_35_UIZEMA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/3159_36_UIZEMA]]/URI$ приводит к уравнению для URI[[http://libmeta.ru/fme/relation/3159_10_UIZEMA]]/URI к фазе $URI[[http://libmeta.ru/fme/formula/aux/3159_37_UIZEMA]]/URI$ и при $URI[[http://libmeta.ru/fme/formula/aux/3159_38_UIZEMA]]/URI$ констант интегрирования, возникающих при нахождении $URI[[http://libmeta.ru/fme/formula/aux/3159_39_UIZEMA]]/URI$. Другие способы URI[[http://libmeta.ru/fme/relation/3159_9_UIZEMA]]/URI уравнений для $URI[[http://libmeta.ru/fme/formula/aux/3159_40_UIZEMA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3159_41_UIZEMA]]/URI$ основываются на осреднении URI[[http://libmeta.ru/fme/relation/3159_8_UIZEMA]]/URI и вариационных принципах (см. [2], [4], [5]). Часто бывает удобно вместо $URI[[http://libmeta.ru/fme/formula/aux/3159_42_UIZEMA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3159_43_UIZEMA]]/URI$ использовать другие функции, URI[[http://libmeta.ru/fme/relation/3159_7_UIZEMA]]/URI главный член асимптотич. решения $URI[[http://libmeta.ru/fme/formula/aux/3159_44_UIZEMA]]/URI$. Система (1), (2) описывает URI[[http://libmeta.ru/fme/relation/3159_6_UIZEMA]]/URI одноатомного газа (см. [6]), для этой и URI[[http://libmeta.ru/fme/relation/3159_5_UIZEMA]]/URI систем, возникающих при определении, имеется гамильтонов формализм (см. [7]); в ряде случаев они оказываются интегрируемыми (см. [8]). Для нек-рых нелинейных уравнений могут быть URI[[http://libmeta.ru/fme/relation/3159_4_UIZEMA]]/URI URI[[http://libmeta.ru/fme/relation/3159_3_UIZEMA]]/URI асимптотики (тогда $URI[[http://libmeta.ru/fme/formula/aux/3159_45_UIZEMA]]/URI$ - векторнозначна (см. [2], [4], [9], [10]), URI[[http://libmeta.ru/fme/relation/3159_2_UIZEMA]]/URI существенно усложняется из-за URI[[http://libmeta.ru/fme/relation/3159_1_UIZEMA]]/URI (см. [10]).</text>
+  <text_orig>метод построения быстроосциллирующих асимптотических решений вида
+
+\[
+u=f\left(\frac{S(x, t)}{h}, x, t, h\right)
+\]
+
+(волновых пакетов), нелинейных уравнений с частными производными с малым параметром $h$. Фаза $S(x, t)$ и $f(\tau, x, t, h)$ - гладкие функции,
+
+\[
+f=f_{0}(\tau, x, t)+h f_{1}(\tau, x, t)+\ldots,
+\]
+
+$f_{k}-2 \pi$-периодичны по аргументу $\tau$. Функции $S, f_{0}, f_{1}, \ldots$ определяются в результате подстановки $u$ в соответствующее уравнение, приравнивания коэффициентов при одинаковых степенях $h$ к нулю и учета требования $2 \pi$-периодичности $f_{k}$. Напр., для нелинейного волнового уравнения (см. [2]-[6])
+
+\[
+h^{2}\left(u_{t t}-\nabla^{2} u\right)+\mathscr{F}_{u}^{\prime}(u, x)=0, x \in \mathbb{R}^{n}
+\]
+
+соотношения, связывающие $S, f_{0}, f_{1}, \ldots$, имеют вид системы обыкновенных по $\tau$ дифференциальных уравнений, содержащей $x$ и $t$ как параметры
+
+\[
+\begin{gathered}
+m \frac{\partial^{2} f_{0}}{\partial \tau^{2}}+\mathscr{F}_{u}^{\prime}\left(f_{0}, x\right)=0, \quad m=S_{t}^{2}-(\nabla S)^{2}, \\
+L f_{k} \stackrel{\operatorname{def}}{\equiv} m \frac{\partial^{2} f_{k}}{\partial \tau^{2}}+\mathscr{F}_{u u}^{\prime \prime}\left(f_{0}, x\right) f_{k}=R_{k} .
+\end{gathered}
+\]
+
+Здесь $x, t$ и $\tau$ считаются независимыми переменными, $R_{k}-$ функции от $f_{0}, f_{1}, \ldots, f_{k-1}, S_{t}$, $\nabla S$ и их производных. Решение уравнения (2) представляется в виде
+
+\[
+f_{0}=g(\tau+P(x, t), E(x, t), x),
+\]
+
+где $P, E \equiv m g_{\tau}^{2}+\mathscr{F}(g, x)-$ константы интегрирования.
+
+Пусть при каждых $(x, E) \in \mathbb{R} \times\left[E_{0}, E_{1}\right] g(\tau, E, x)$ - периодич. функщия $\tau$; ее период
+
+\[
+T\left(S_{t}, \nabla S, E, x\right)=2 \sqrt{m} \int_{g_{-}}^{g_{+}} \frac{d g}{\sqrt{E-\mathscr{T}(g, x)}},
+\]
+
+$g_{ \pm}(E, x)$ - нули $E-\mathscr{F}(g, x)$. Требование
+
+\[
+T\left(S_{t}, \nabla S, E, x\right)=2 \pi
+\]
+
+приводит к соотношению, связывающему $S$ и $E$ (уравнению Гамильтона - Якоби для $S$ в линейной теории). Требование существования у (2) при $k=12 \pi$-периодич. решения, эквивалентное условию ортогональности в $L_{2}[0,2 \pi]$
+
+\[
+\int_{0}^{2 \pi} R_{0} f_{0 \tau} d \tau
+\]
+
+функции $f_{0 \tau}$, принадлежащей ядру самосопряженного оператора $L$, вместе с (3) образуют замкнутую систему уравнений, связывающую $S$ и $E$. Требование $2 \pi$-периодичности функций $f_{k}$ при $k=2$ приводит к уравнению для поправки к фазе $P$ и при $k&gt;2-$ констант интегрирования, возникающих при нахождении $f_{k-2}$. Другие способы получения уравнений для $S$ и $E$ основываются на осреднении законов сохранения и вариационных принципах (см. [2], [4], [5]). Часто бывает удобно вместо $S$ и $E$ использовать другие функции, параметризующие главный член асимптотич. решения $f_{0}(S / h, x, t)$. Система (1), (2) описывает динамику одноатомного газа (см. [6]), для этой и подобных систем, возникающих при определении, имеется гамильтонов формализм (см. [7]); в ряде случаев они оказываются интегрируемыми (см. [8]). Для нек-рых нелинейных уравнений могут быть получены многофазовые асимптотики (тогда $S=\left(S_{1}(x, t), \ldots, S_{l}(x, t)\right)$ - векторнозначна (см. [2], [4], [9], [10]), теория возмушений существенно усложняется из-за резонансов (см. [10]).
+
+Jum.: [1] Wh ith a m G. B., «Proc. Roy. Soc.», 1965, A283, № 1393, p. 238-61; [2] е го же, Линейные и нелинейные волны, пер. с англ., M., 1977; [3] Lu k e J. C., «Proc. Roy. Soc.», 1966, A292, № 1430, p. 403-12; [4] Доброхотов С. Ю., Маслов В. П., в кн.: Итоги науки и техники. Современные проблемы математики, т. 15 , М., 1980, с. 3-94; [5] Скотт Э., Волны в активных и нелинейных средах в приложении к электронике, пер. с англ., М., 1977; [6] М а сло в В. П., «еоретич. и математич. физика», 1969, № 3, с. 378-83; [7] Дубровин Б. А., Нов иков С. П., &quot;Доклады АН СССР», 1983, т. 270, № 4, с. 781-85; [8] Ц а р е в С. П., там же, 1985, т. 282, № 3, c. 534-37; [9] Flaschka H., Forest M., Mc Laugh lin D., «Comm. Pure and Appl. Math.», 1980, v. 33, № 6, p. 739-78; [10] Д об р о о то в С. Ю., «Математич. заметки», 1988, т. 44, № 4, $\begin{array}{ll}\text { c. 551-55. } &amp; \text { С. Ю. Доброхотов. }\end{array}$</text_orig>
+</article>

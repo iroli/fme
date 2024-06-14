@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_15501">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix" /><mtable><mtr><mtd columnalign="left"><mi>t</mi><mo>&#x0003D;</mo><msup><mi>b</mi><mrow><mo>&#x02212;</mo><mn>1</mn></mrow></msup><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>&#x003C4;</mi></mrow></msubsup><mi>&#x003B2;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>&#x003B5;</mi><msup><mi>&#x003C4;</mi><mrow><mi>&#x02032;</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>d</mi><msup><mi>&#x003C4;</mi><mrow><mi>&#x02032;</mi></mrow></msup><mo>&#x0002C;</mo></mtd></mtr><mtr><mtd columnalign="left"><mi>u</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mo stretchy="false">&#x00028;</mo><mi>&#x003C3;</mi><mi>b</mi><mo>&#x0002F;</mo><mi>a</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mn>1</mn><mo>&#x0002F;</mo><mi>p</mi></mrow></msup><mi>v</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace width="1em" /><mi>&#x003C3;</mi><mo>&#x0003D;</mo><mi>&#x003B1;</mi><mo>&#x0002F;</mo><mi>&#x003B2;</mi><mo>&#x0002C;</mo></mtd></mtr></mtable><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\left.\begin{array}{l}t=b^{-1} \int_{0}^{\tau} \beta\left(\varepsilon \tau^{\prime}\right) d \tau^{\prime}, \\u(x, t)=(\sigma b / a)^{1 / p} v(x, t), \quad \sigma=\alpha / \beta,\end{array}\right\}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

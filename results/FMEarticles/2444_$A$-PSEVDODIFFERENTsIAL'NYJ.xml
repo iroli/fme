@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2444_$A$-PSEVDODIFFERENTsIAL'NYJ" alphabetic_pos="2446">
+  <title>$А$-ПСЕВДОДИФФЕРЕНЦИАЛЬНЫЙ ОПЕРАТОР</title>
+  <authors>
+    <author>Б. Ю. Стернин</author>
+    <author>В. Е. Шаталов</author>
+  </authors>
+  <pages>
+    <start>470</start>
+    <end>470</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М а с л о в В. П., Теория возмущений и асимптотические методы, М., $1965 . \quad$</literature_orig>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>Теория возмущений и асимптотические методы</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2444_1_$A$-PSEVDODIFFERENTsIAL'NYJ">H(x, p) \sim \sum_{k=0}^{\infty} H_{k}(x, p) A^{-k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2444_2_$A$-PSEVDODIFFERENTsIAL'NYJ">\left\|D_{x}^{\alpha} D_{p}^{\beta} H(x, p)\right\| \leqslant C_{\alpha \beta}(1+|x|+|p|)^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2444_3_$A$-PSEVDODIFFERENTsIAL'NYJ">A^{N+1}\left[H(x, p)-\sum_{k=0}^{N} H_{k}(x, p) A^{-k}\right]</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_1_$A$-PSEVDODIFFERENTsIAL'NYJ">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_2_$A$-PSEVDODIFFERENTsIAL'NYJ">h(s, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_3_$A$-PSEVDODIFFERENTsIAL'NYJ">\hat{h}\left(x,-i A^{-1} \frac{\partial}{\partial x}\right) f=\left(\frac{A}{2 \pi}\right)^{n} \int \exp [i A p(x-y)] H(x, p) f(y) d p d y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_4_$A$-PSEVDODIFFERENTsIAL'NYJ">a: E \rightarrow E-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_5_$A$-PSEVDODIFFERENTsIAL'NYJ">a^{-1} ; H(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_6_$A$-PSEVDODIFFERENTsIAL'NYJ">c^{\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_7_$A$-PSEVDODIFFERENTsIAL'NYJ">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_8_$A$-PSEVDODIFFERENTsIAL'NYJ">n \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_9_$A$-PSEVDODIFFERENTsIAL'NYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_10_$A$-PSEVDODIFFERENTsIAL'NYJ">a-\Pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2444_11_$A$-PSEVDODIFFERENTsIAL'NYJ">m</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2444_1_$A$-PSEVDODIFFERENTsIAL'NYJ">
+      <rel_text>гладком многообразии</rel_text>
+      <target>http://libmeta.ru/fme/article/654_GLADKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2444_2_$A$-PSEVDODIFFERENTsIAL'NYJ">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2444_3_$A$-PSEVDODIFFERENTsIAL'NYJ">
+      <rel_text>разложения единицы</rel_text>
+      <target>http://libmeta.ru/fme/article/2509_RAZLOZhENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2444_4_$A$-PSEVDODIFFERENTsIAL'NYJ">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+  </relations>
+  <text>оператор в $URI[[http://libmeta.ru/fme/formula/aux/2444_1_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$, определяемый по символу $URI[[http://libmeta.ru/fme/formula/aux/2444_2_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$ формулой $URI[[http://libmeta.ru/fme/formula/aux/2444_3_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2444_4_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$ неограниченный самосопряженный оператор в гильбертовом пространстве, имеющий ограниченный обратный $URI[[http://libmeta.ru/fme/formula/aux/2444_5_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$ - операторнозначная $URI[[http://libmeta.ru/fme/formula/aux/2444_6_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$-функция, разлагающаяся в асимптотический ряд
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2444_1_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI
+\]
+
+и удовлетворяющая оценке
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2444_2_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI
+\]
+
+с некоторым $URI[[http://libmeta.ru/fme/formula/aux/2444_7_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$. Разложение (1) понимается в том смысле, что для любого $URI[[http://libmeta.ru/fme/formula/aux/2444_8_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$ URI[[http://libmeta.ru/fme/relation/2444_4_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2444_3_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI
+\]
+
+ограничен в $URI[[http://libmeta.ru/fme/formula/aux/2444_9_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$. С помощью URI[[http://libmeta.ru/fme/relation/2444_3_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI определение $URI[[http://libmeta.ru/fme/formula/aux/2444_10_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$. о. переносится на URI[[http://libmeta.ru/fme/relation/2444_2_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI на URI[[http://libmeta.ru/fme/relation/2444_1_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2444_11_$A$-PSEVDODIFFERENTsIAL'NYJ]]/URI$.</text>
+  <text_orig>оператор в $\mathbb{R}^{n}$, определяемый по символу $H(s, p)$ формулой $\hat{H}\left(x,-i A^{-1} \frac{\partial}{\partial x}\right) f=\left(\frac{A}{2 \pi}\right)^{n} \int \exp [i A p(x-y)] H(x, p) f(y) d p d y$, где $A: E \rightarrow E-$ неограниченный самосопряженный оператор в гильбертовом пространстве, имеющий ограниченный обратный $A^{-1} ; H(x, p)$ - операторнозначная $C^{\infty}$-функция, разлагающаяся в асимптотический ряд
+
+\[
+H(x, p) \sim \sum_{k=0}^{\infty} H_{k}(x, p) A^{-k}
+\]
+
+и удовлетворяющая оценке
+
+\[
+\left\|D_{x}^{\alpha} D_{p}^{\beta} H(x, p)\right\| \leqslant C_{\alpha \beta}(1+|x|+|p|)^{m}
+\]
+
+с некоторым $m$. Разложение (1) понимается в том смысле, что для любого $N \geqslant 0$ оператор
+
+\[
+A^{N+1}\left[H(x, p)-\sum_{k=0}^{N} H_{k}(x, p) A^{-k}\right]
+\]
+
+ограничен в $E$. С помощью разложения единицы определение $A-\Pi$. о. переносится на операторы на гладком многообразии $M$.
+
+Лит.: [1] М а с л о в В. П., Теория возмушений и асимптотические методы, М., $1965 . \quad$ Б. Ю. Стернин, В. Е. Шаталов.</text_orig>
+</article>

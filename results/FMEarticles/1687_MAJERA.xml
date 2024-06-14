@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1687_MAJERA" alphabetic_pos="1689">
+  <title>МАЙЕРА ФУНКЦИЯ</title>
+  <authors>
+    <author>Д. П. Санкович</author>
+  </authors>
+  <pages>
+    <start>338</start>
+    <end>338</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] M a y e r J., «j. Chem. Phys.», 1937, v. 5, № 1, p. 67; [2] Хуанг К., Статистическая механика, пер. с англ., М., 1966.</literature_orig>
+    <unit>
+      <author>Mayer J.</author>
+      <title>«j. Chem. Phys.»</title>
+      <publication/>
+      <year>1937</year>
+      <other>v. 5, № 1, p. 67</other>
+    </unit>
+    <unit>
+      <author>Хуанг К.</author>
+      <title>Статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1687_1_MAJERA">f\left(r_{i j}\right)=\exp \left(-\beta V_{i j}\right)-1 \text {, }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1687_1_MAJERA">v_{i j}=V\left(r_{i j}\right), r_{i j}=\left|\overrightarrow{r_{i}}-\overrightarrow{r_{j}}\right|-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1687_2_MAJERA">i=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1687_3_MAJERA">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1687_4_MAJERA">\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1687_5_MAJERA">n</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/1687_1_MAJERA">
+      <rel_text>групповое разложение</rel_text>
+      <target>http://libmeta.ru/fme/article/740_GRUPPOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1687_2_MAJERA">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1687_3_MAJERA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1687_4_MAJERA">
+      <rel_text>свободной энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/2696_SVOBODNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1687_5_MAJERA">
+      <rel_text>температура</rel_text>
+      <target>http://libmeta.ru/fme/article/3038_TEMPERATUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1687_6_MAJERA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+  </relations>
+  <text>Функция вида П. В. Малышев.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1687_1_MAJERA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1687_1_MAJERA]]/URI$ потенциал парного взаимодействия $URI[[http://libmeta.ru/fme/formula/aux/1687_2_MAJERA]]/URI$ й и $URI[[http://libmeta.ru/fme/formula/aux/1687_3_MAJERA]]/URI$-й URI[[http://libmeta.ru/fme/relation/1687_6_MAJERA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1687_4_MAJERA]]/URI$ - обратная URI[[http://libmeta.ru/fme/relation/1687_5_MAJERA]]/URI. М. ф. возникает при разложении URI[[http://libmeta.ru/fme/relation/1687_4_MAJERA]]/URI классич. системы из $URI[[http://libmeta.ru/fme/formula/aux/1687_5_MAJERA]]/URI$ URI[[http://libmeta.ru/fme/relation/1687_3_MAJERA]]/URI в ряд по URI[[http://libmeta.ru/fme/relation/1687_2_MAJERA]]/URI (URI[[http://libmeta.ru/fme/relation/1687_1_MAJERA]]/URI).</text>
+  <text_orig>ФУНкция вИда П. В. Малышев.
+
+\[
+f\left(r_{i j}\right)=\exp \left(-\beta V_{i j}\right)-1 \text {, }
+\]
+
+где $V_{i j}=V\left(r_{i j}\right), r_{i j}=\left|\overrightarrow{r_{i}}-\overrightarrow{r_{j}}\right|-$ потенциал парного взаимодействия $i=$ й и $j$-й частиц, $\beta$ - обратная температура. М. ф. возникает при разложении свободной энергии классич. системы из $N$ частиц в ряд по плотности (групповое разложение).
+
+Jum.: [1] M a y e r J., «J. Chem. Phys.», 1937, v. 5, № 1, p. 67; [2] Хуанг К., Статистическая механика, пер. с англ., М., 1966.
+
+Д. П. Санкович.</text_orig>
+</article>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_5901">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><mover><mrow><mi>f</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>x</mi></mrow><mo stretchy="true">&#x02192;</mo></mover><mo>&#x0002C;</mo><mover><mrow><mi>v</mi></mrow><mo stretchy="true">&#x02192;</mo></mover><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mi>m</mi><mi>&#x003B2;</mi><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>x</mi></mrow><mo stretchy="true">&#x02192;</mo></mover><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo></mrow><mrow><mn>2</mn><mi>&#x003C0;</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>3</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></msup><mi>n</mi><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>x</mi></mrow><mo stretchy="true">&#x02192;</mo></mover><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mi>&#x000D7;</mi><mspace linebreak="newline" /><mi>&</mi><mi>&#x000D7;</mi><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mo>&#x02212;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>m</mi><mi>&#x003B2;</mi><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>x</mi></mrow><mo stretchy="true">&#x02192;</mo></mover><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="false">[</mo><mover><mrow><mi>v</mi></mrow><mo stretchy="true">&#x02192;</mo></mover><mo>&#x02212;</mo><mover><mrow><mi>u</mi></mrow><mo stretchy="true">&#x02192;</mo></mover><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>x</mi></mrow><mo stretchy="true">&#x02192;</mo></mover><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><msup><mo stretchy="false">]</mo><mrow><mn>2</mn></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; \bar{f}(\vec{x}, \vec{v}, t)=\left(\frac{m \beta(\vec{x}, t)}{2 \pi}\right)^{3 / 2} n(\vec{x}, t) \times \\&amp; \times \exp \left\{-\frac{1}{2} m \beta(\vec{x}, t)[\vec{v}-\vec{u}(\vec{x}, t)]^{2}\right\},\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,399 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/785_DEJSTVI" alphabetic_pos="787">
+  <title>ДЕЙСТВИЕ</title>
+  <authors>
+    <author>В. П. Павлов</author>
+  </authors>
+  <pages>
+    <start>168</start>
+    <end>168</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Л а н д а у Л. Д., Л и фшиц Е. М., Теория поля, 6 изд., М., 1973; [2] и х же, Механика, 3 изд., М., 1973; [3] Д и р ак П., Принципы квантовой механики, пер. с англ., 2 изд., М., 1979; [4] Медведе в Б. В., Начала теоретической физики, М., 1977; [5] Р амон П., Теория поля, пер. с англ., М., 1984.</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Теория поля</title>
+      <publication>6 изд., М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>и х же, Механика</title>
+      <publication>3 изд., М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дирак П.</author>
+      <title>Принципы квантовой механики</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Медведев Б. В.</author>
+      <title>Начала теоретической физики</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рамон П.</author>
+      <title>Теория поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/785_1_DEJSTVI">S=\int_{t_{1}}^{t_{2}} L\left(q_{i}, \dot{q}_{i}, t\right) d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/785_2_DEJSTVI">\frac{\partial L}{\partial q_{i}}-\frac{d}{d t} \frac{\partial L}{\partial \dot{q}_{i}}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/785_3_DEJSTVI">S=\int_{t_{1}}^{t_{2}}\left[\sum_{i} p_{i} \dot{q}_{i}-H\left(p_{i}, q_{i}, t\right)\right] d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/785_4_DEJSTVI">\dot{q}_{i}=\partial H / \partial p_{i}, p_{i}=-\partial H / \partial q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/785_5_DEJSTVI">\frac{\partial S}{\partial t}=-H\left(\frac{\partial S}{\partial q_{i}}, q_{i}, t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/785_6_DEJSTVI">S=S\left(\alpha_{i}, q_{i}, t\right)+\alpha_{n+1},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/785_7_DEJSTVI">Q_{i}=\partial S\left(P_{j}, q_{j}, t\right) / \partial P_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/785_8_DEJSTVI">S=\int\left(\frac{\partial A_{\mu}}{\partial x_{v}}-\frac{\partial A_{v}}{\partial x_{\mu}}\right)^{2} d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/785_9_DEJSTVI">\left\langle q_{2}\left(t_{2}\right) \mid q_{1}\left(t_{1}\right)\right\rangle=\int \prod d q(t) \exp \left(-i / \hbar \int_{t_{1}}^{t_{2}} L(q, t)\right) d t,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_1_DEJSTVI">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_2_DEJSTVI">\left(t_{1}, t_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_3_DEJSTVI">l=t-U-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_4_DEJSTVI">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_5_DEJSTVI">\dot{q}_{i}=d q_{i} / d t(i=1, \ldots, n ; n-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_6_DEJSTVI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_7_DEJSTVI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_8_DEJSTVI">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_9_DEJSTVI">\delta S=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_10_DEJSTVI">\delta q(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_11_DEJSTVI">\delta q\left(t_{1}\right)=\delta q\left(t_{2}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_12_DEJSTVI">\delta S=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_13_DEJSTVI">\delta q_{i}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_14_DEJSTVI">\delta p_{i}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_15_DEJSTVI">h-\Gamma a-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_16_DEJSTVI">p_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_17_DEJSTVI">n+1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_18_DEJSTVI">\alpha_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_19_DEJSTVI">p_{i}, q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_20_DEJSTVI">p_{i}=\alpha_{i}, Q_{i}=\partial S / \partial \alpha_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_21_DEJSTVI">h\left(p_{i}, Q_{i}, t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_22_DEJSTVI">p, Q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_23_DEJSTVI">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_24_DEJSTVI">a_{\mu}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_25_DEJSTVI">x=(\boldsymbol{x}, t) \equiv\left\{x_{\mu}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_26_DEJSTVI">|q\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_27_DEJSTVI">\left\langle q_{2}\left(t_{2}\right) \mid q_{1}\left(t_{1}\right)\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_28_DEJSTVI">q_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_29_DEJSTVI">t_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_30_DEJSTVI">q_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_31_DEJSTVI">t_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_32_DEJSTVI">q_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_33_DEJSTVI">t_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_34_DEJSTVI">q_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_35_DEJSTVI">t_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_36_DEJSTVI">\hbar \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_37_DEJSTVI">s / \hbar</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_38_DEJSTVI">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/785_39_DEJSTVI">\delta S=0</formula>
+  </formulas_aux>
+  <relations n="44">
+    <relation uri="http://libmeta.ru/fme/relation/785_1_DEJSTVI">
+      <rel_text>Лагранжев формализм</rel_text>
+      <target>http://libmeta.ru/fme/article/1513_LAGRANZhEV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_2_DEJSTVI">
+      <rel_text>экстремали</rel_text>
+      <target>http://libmeta.ru/fme/article/3502_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_3_DEJSTVI">
+      <rel_text>классическую</rel_text>
+      <target>http://libmeta.ru/fme/article/1253_KLASTERIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_4_DEJSTVI">
+      <rel_text>траектории</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_5_DEJSTVI">
+      <rel_text>динамику</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_6_DEJSTVI">
+      <rel_text>классической</rel_text>
+      <target>http://libmeta.ru/fme/article/1253_KLASTERIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_7_DEJSTVI">
+      <rel_text>квазиклассич</rel_text>
+      <target>http://libmeta.ru/fme/article/1138_KVAZIIMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_8_DEJSTVI">
+      <rel_text>динамики</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_9_DEJSTVI">
+      <rel_text>траекторий</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_10_DEJSTVI">
+      <rel_text>принцип наименьшего действия</rel_text>
+      <target>http://libmeta.ru/fme/article/1858_NAIMEN'ShEGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_11_DEJSTVI">
+      <rel_text>траекторий</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_12_DEJSTVI">
+      <rel_text>вариации</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_13_DEJSTVI">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_14_DEJSTVI">
+      <rel_text>квазиклассич</rel_text>
+      <target>http://libmeta.ru/fme/article/1138_KVAZIIMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_15_DEJSTVI">
+      <rel_text>перенормировки</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_16_DEJSTVI">
+      <rel_text>инвариантностью</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_17_DEJSTVI">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_18_DEJSTVI">
+      <rel_text>функциональная формулировка</rel_text>
+      <target>http://libmeta.ru/fme/article/3138_TURBULENTNOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_19_DEJSTVI">
+      <rel_text>траекториям</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_20_DEJSTVI">
+      <rel_text>состояние</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_21_DEJSTVI">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_22_DEJSTVI">
+      <rel_text>эквивалентно</rel_text>
+      <target>http://libmeta.ru/fme/article/3492_EKVIDISTANT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_23_DEJSTVI">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_24_DEJSTVI">
+      <rel_text>собственными векторами</rel_text>
+      <target>http://libmeta.ru/fme/article/2844_SOBSTVENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_25_DEJSTVI">
+      <rel_text>пространства одномерной</rel_text>
+      <target>http://libmeta.ru/fme/article/2063_ODNOSVJaZNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_26_DEJSTVI">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_27_DEJSTVI">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_28_DEJSTVI">
+      <rel_text>гильбертова пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/623_GIL'BERTOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_29_DEJSTVI">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_30_DEJSTVI">
+      <rel_text>функции Гамильтона</rel_text>
+      <target>http://libmeta.ru/fme/article/505_GAMIL'TONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_31_DEJSTVI">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_32_DEJSTVI">
+      <rel_text>инвариантность</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_33_DEJSTVI">
+      <rel_text>Нетер теореме</rel_text>
+      <target>http://libmeta.ru/fme/article/1944_NETER</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_34_DEJSTVI">
+      <rel_text>линейности уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/729_GRINA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_35_DEJSTVI">
+      <rel_text>калибровочной инвариантности</rel_text>
+      <target>http://libmeta.ru/fme/article/1076_KALIBROVOChNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_36_DEJSTVI">
+      <rel_text>инвариантности</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_37_DEJSTVI">
+      <rel_text>инвариантность</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_38_DEJSTVI">
+      <rel_text>инвариантности</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_39_DEJSTVI">
+      <rel_text>состояние</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_40_DEJSTVI">
+      <rel_text>скоростей</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_41_DEJSTVI">
+      <rel_text>обобщенных координат</rel_text>
+      <target>http://libmeta.ru/fme/article/2022_OBOBSchENNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_42_DEJSTVI">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_43_DEJSTVI">
+      <rel_text>вариационных принципов классической URI[[htt</rel_text>
+      <target>http://libmeta.ru/fme/article/319_VARIATsIONNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/785_44_DEJSTVI">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+  </relations>
+  <text>фундаментальная физическая величина, задание которой как функции переменных, описывающих состояние системы, полностью определяет динамику системы. Исторически понятие Д. было введено в механике голономных систем (систем со связями, не зависящими от скоростей). Д. $URI[[http://libmeta.ru/fme/formula/aux/785_1_DEJSTVI]]/URI$ для промежутка времени $URI[[http://libmeta.ru/fme/formula/aux/785_2_DEJSTVI]]/URI$ определяется как
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/785_1_DEJSTVI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/785_3_DEJSTVI]]/URI$ Лагранжа функция, зависящая от описывающих состояние системы обобщенных координат $URI[[http://libmeta.ru/fme/formula/aux/785_4_DEJSTVI]]/URI$ и скоростей $URI[[http://libmeta.ru/fme/formula/aux/785_5_DEJSTVI]]/URI$ число степеней свободы) и, возможно, времени $URI[[http://libmeta.ru/fme/formula/aux/785_6_DEJSTVI]]/URI$. При этом кинетич. энергия $URI[[http://libmeta.ru/fme/formula/aux/785_7_DEJSTVI]]/URI$ квадратична по скоростям, а потенциальная $URI[[http://libmeta.ru/fme/formula/aux/785_8_DEJSTVI]]/URI$ не зависит от них. Исходными считались уравнения Ньютона, а оправданием для введения понятия Д. служило наблюдение, что эти уравнения получаются как уравнения Эйлера-Лагранжа в вариационном наименьшего действия принципе: $URI[[http://libmeta.ru/fme/formula/aux/785_9_DEJSTVI]]/URI$ при независимых вариациях $URI[[http://libmeta.ru/fme/formula/aux/785_10_DEJSTVI]]/URI$ с условием $URI[[http://libmeta.ru/fme/formula/aux/785_11_DEJSTVI]]/URI$ на границе.
+
+Уравнениям Лагранжа
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/785_2_DEJSTVI]]/URI
+\]
+
+эквивалентны Гамильтона уравнения, получающиеся из требования $URI[[http://libmeta.ru/fme/formula/aux/785_12_DEJSTVI]]/URI$ для Д. в эквивалентной (1) форме
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/785_3_DEJSTVI]]/URI
+\]
+
+при независимых вариациях $URI[[http://libmeta.ru/fme/formula/aux/785_13_DEJSTVI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/785_14_DEJSTVI]]/URI$ (здесь $URI[[http://libmeta.ru/fme/formula/aux/785_15_DEJSTVI]]/URI$ мильтона функция, $URI[[http://libmeta.ru/fme/formula/aux/785_16_DEJSTVI]]/URI$ - обобщенные импульсы). Система обыкновенных дифференциальных уравнений Гамильтона
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/785_4_DEJSTVI]]/URI
+\]
+
+служит характеристич. системой для уравнения Гамильтона - Якоби
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/785_5_DEJSTVI]]/URI
+\]
+
+к-рое является нелинейным уравнением с частными производными, а интегральные кривые уравнений Гамильтона характеристиками уравнения (3). Д. есть полный интеграл уравнения (3),
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/785_6_DEJSTVI]]/URI
+\]
+
+зависящий от $URI[[http://libmeta.ru/fme/formula/aux/785_17_DEJSTVI]]/URI$ произвольных постоянных $URI[[http://libmeta.ru/fme/formula/aux/785_18_DEJSTVI]]/URI$, и является производящей функцией канонич. преобразования от переменных $URI[[http://libmeta.ru/fme/formula/aux/785_19_DEJSTVI]]/URI$ к новым переменным $URI[[http://libmeta.ru/fme/formula/aux/785_20_DEJSTVI]]/URI$. Новая функция Гамильтона $URI[[http://libmeta.ru/fme/formula/aux/785_21_DEJSTVI]]/URI$ тождественно обращается в 0 , вследствие чего новые переменные $URI[[http://libmeta.ru/fme/formula/aux/785_22_DEJSTVI]]/URI$ постоянны (и выражаются через начальные данные). Тем самым знание полного интеграла (3) сводит задачу интегрирования уравнений движения к разрешению относительно $URI[[http://libmeta.ru/fme/formula/aux/785_23_DEJSTVI]]/URI$ алгебраич. уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/785_7_DEJSTVI]]/URI
+\]
+
+В современной теоретич. физике Д. рассматривается как основная фундаментальная величина при формулировке любой теории, особенно полевой, а URI[[http://libmeta.ru/fme/relation/785_44_DEJSTVI]]/URI. уравнения выводятся из URI[[http://libmeta.ru/fme/relation/785_43_DEJSTVI]]/URIp://libmeta.ru/fme/relation/785_42_DEJSTVI]]/URI. Задача построения теории формулируется как задача выбора URI[[http://libmeta.ru/fme/relation/785_41_DEJSTVI]]/URI и URI[[http://libmeta.ru/fme/relation/785_40_DEJSTVI]]/URI, описывающих URI[[http://libmeta.ru/fme/relation/785_39_DEJSTVI]]/URI системы, и вида функции Лагранжа, зависящей от них. Значение понятия Д. возрастает для полевых систем еще и потому, что важнейшие для них принципы URI[[http://libmeta.ru/fme/relation/785_38_DEJSTVI]]/URI формулируются наиболее удобно и компактно как URI[[http://libmeta.ru/fme/relation/785_37_DEJSTVI]]/URI Д. (см. URI[[http://libmeta.ru/fme/relation/785_1_DEJSTVI]]/URI, Лагранжиан); в ряде случаев соображения URI[[http://libmeta.ru/fme/relation/785_36_DEJSTVI]]/URI почти полностью определяют теорию. Напр., электродинамикой без источников называется теория, где в качестве координат выбирают 4-потенциал $URI[[http://libmeta.ru/fme/formula/aux/785_24_DEJSTVI]]/URI$, а требования релятивистской и URI[[http://libmeta.ru/fme/relation/785_35_DEJSTVI]]/URI и URI[[http://libmeta.ru/fme/relation/785_34_DEJSTVI]]/URI поля фиксируют Д. в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/785_8_DEJSTVI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/785_25_DEJSTVI]]/URI$ - точка пространства-времени. Кроме того, благодаря URI[[http://libmeta.ru/fme/relation/785_33_DEJSTVI]]/URI URI[[http://libmeta.ru/fme/relation/785_32_DEJSTVI]]/URI Д. относительно каждой однопараметрич. URI[[http://libmeta.ru/fme/relation/785_31_DEJSTVI]]/URI преобразований влечет за собой закон сохранения одной, явно строящейся по функции Лагранжа (или URI[[http://libmeta.ru/fme/relation/785_30_DEJSTVI]]/URI) физич. величины.
+
+Не менее фундаментальна роль Д. в квантовой теории, где URI[[http://libmeta.ru/fme/relation/785_29_DEJSTVI]]/URI системы описываются векторами URI[[http://libmeta.ru/fme/relation/785_28_DEJSTVI]]/URI, а URI[[http://libmeta.ru/fme/relation/785_27_DEJSTVI]]/URI. переменным отвечают URI[[http://libmeta.ru/fme/relation/785_26_DEJSTVI]]/URI. Если базис URI[[http://libmeta.ru/fme/relation/785_25_DEJSTVI]]/URI системы образован URI[[http://libmeta.ru/fme/relation/785_24_DEJSTVI]]/URI $URI[[http://libmeta.ru/fme/formula/aux/785_26_DEJSTVI]]/URI$ URI[[http://libmeta.ru/fme/relation/785_23_DEJSTVI]]/URI координаты, то стандартному постулату квантования URI[[http://libmeta.ru/fme/relation/785_22_DEJSTVI]]/URI определение амплитуды перехода $URI[[http://libmeta.ru/fme/formula/aux/785_27_DEJSTVI]]/URI$ из URI[[http://libmeta.ru/fme/relation/785_21_DEJSTVI]]/URI с координатой $URI[[http://libmeta.ru/fme/formula/aux/785_28_DEJSTVI]]/URI$ в момент $URI[[http://libmeta.ru/fme/formula/aux/785_29_DEJSTVI]]/URI$ в URI[[http://libmeta.ru/fme/relation/785_20_DEJSTVI]]/URI с координатой $URI[[http://libmeta.ru/fme/formula/aux/785_30_DEJSTVI]]/URI$ в момент $URI[[http://libmeta.ru/fme/formula/aux/785_31_DEJSTVI]]/URI$ как функционального интеграла
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/785_9_DEJSTVI]]/URI
+\]
+
+где П (знак умножения) показывает, что интегрирование экспоненты от класич. Д. ведется по всем возможным URI[[http://libmeta.ru/fme/relation/785_19_DEJSTVI]]/URI, начинающимся в $URI[[http://libmeta.ru/fme/formula/aux/785_32_DEJSTVI]]/URI$ в момент $URI[[http://libmeta.ru/fme/formula/aux/785_33_DEJSTVI]]/URI$ и кончающимся в $URI[[http://libmeta.ru/fme/formula/aux/785_34_DEJSTVI]]/URI$ в момент $URI[[http://libmeta.ru/fme/formula/aux/785_35_DEJSTVI]]/URI$. Такая URI[[http://libmeta.ru/fme/relation/785_18_DEJSTVI]]/URI особенно удобна для URI[[http://libmeta.ru/fme/relation/785_17_DEJSTVI]]/URI: она позволяет ясно следить за URI[[http://libmeta.ru/fme/relation/785_16_DEJSTVI]]/URI на всех этапах, в частности в процедуре URI[[http://libmeta.ru/fme/relation/785_15_DEJSTVI]]/URI. Наконец, функциональная формулировка (4) проясняет переход к классич. теории: в URI[[http://libmeta.ru/fme/relation/785_14_DEJSTVI]]/URI. пределе $URI[[http://libmeta.ru/fme/formula/aux/785_36_DEJSTVI]]/URI$, где фазы $URI[[http://libmeta.ru/fme/formula/aux/785_37_DEJSTVI]]/URI$ велики, основной вклад в интеграл дает URI[[http://libmeta.ru/fme/relation/785_13_DEJSTVI]]/URI, где $URI[[http://libmeta.ru/fme/formula/aux/785_38_DEJSTVI]]/URI$ стационарно, то есть $URI[[http://libmeta.ru/fme/formula/aux/785_39_DEJSTVI]]/URI$ при URI[[http://libmeta.ru/fme/relation/785_12_DEJSTVI]]/URI URI[[http://libmeta.ru/fme/relation/785_11_DEJSTVI]]/URI. Таким образом, URI[[http://libmeta.ru/fme/relation/785_10_DEJSTVI]]/URI для классич. URI[[http://libmeta.ru/fme/relation/785_9_DEJSTVI]]/URI оказывается следствием квантовой URI[[http://libmeta.ru/fme/relation/785_8_DEJSTVI]]/URI в URI[[http://libmeta.ru/fme/relation/785_7_DEJSTVI]]/URI. пределе. В определенном смысле Д. «более важно» для квантовой теории, чем для URI[[http://libmeta.ru/fme/relation/785_6_DEJSTVI]]/URI: квантовую URI[[http://libmeta.ru/fme/relation/785_5_DEJSTVI]]/URI определяют все возможные URI[[http://libmeta.ru/fme/relation/785_4_DEJSTVI]]/URI, а URI[[http://libmeta.ru/fme/relation/785_3_DEJSTVI]]/URI - лишь URI[[http://libmeta.ru/fme/relation/785_2_DEJSTVI]]/URI.</text>
+  <text_orig>фундаментальная физическая величина, задание которой как функции переменных, описывающих состояние системы, полностью определяет динамику системы. Исторически понятие Д. было введено в механике голономных систем (систем со связями, не зависящими от скоростей). Д. $S$ для промежутка времени $\left(t_{1}, t_{2}\right)$ определяется как
+
+\[
+S=\int_{t_{1}}^{t_{2}} L\left(q_{i}, \dot{q}_{i}, t\right) d t
+\]
+
+где $L=T-U-$ Лагранжа функция, зависящая от описывающих состояние системы обобщенных координат $q_{i}$ и скоростей $\dot{q}_{i}=d q_{i} / d t(i=1, \ldots, n ; n-$ число степеней свободы) и, возможно, времени $t$. При этом кинетич. энергия $T$ квадратична по скоростям, а потенциальная $U$ не зависит от них. Исходными считались уравнения Ньютона, а оправданием для введения понятия Д. служило наблюдение, что эти уравнения получаются как уравнения Эйлера-Лагранжа в вариационном наименьшего действия принципе: $\delta S=0$ при независимых вариациях $\delta q(t)$ с условием $\delta q\left(t_{1}\right)=\delta q\left(t_{2}\right)=0$ на границе.
+
+Уравнениям Лагранжа
+
+\[
+\frac{\partial L}{\partial q_{i}}-\frac{d}{d t} \frac{\partial L}{\partial \dot{q}_{i}}=0
+\]
+
+эквивалентны Гамильтона уравнения, получающиеся из требования $\delta S=0$ для Д. в эквивалентной (1) форме
+
+\[
+S=\int_{t_{1}}^{t_{2}}\left[\sum_{i} p_{i} \dot{q}_{i}-H\left(p_{i}, q_{i}, t\right)\right] d t
+\]
+
+при независимых вариациях $\delta q_{i}(t)$ и $\delta p_{i}(t)$ (здесь $H-\Gamma a-$ мильтона функция, $p_{i}$ - обобщенные импульсы). Система обыкновенных дифференциальных уравнений Гамильтона
+
+\[
+\dot{q}_{i}=\partial H / \partial p_{i}, p_{i}=-\partial H / \partial q_{i}
+\]
+
+служит характеристич. системой для уравнения Гамильтона - Якоби
+
+\[
+\frac{\partial S}{\partial t}=-H\left(\frac{\partial S}{\partial q_{i}}, q_{i}, t\right)
+\]
+
+к-рое является нелинейным уравнением с частными производными, а интегральные кривые уравнений Гамильтона характеристиками уравнения (3). Д. есть полный интеграл уравнения (3),
+
+\[
+S=S\left(\alpha_{i}, q_{i}, t\right)+\alpha_{n+1},
+\]
+
+зависящий от $n+1$ произвольных постоянных $\alpha_{k}$, и является производящей функцией канонич. преобразования от переменных $p_{i}, q_{i}$ к новым переменным $P_{i}=\alpha_{i}, Q_{i}=\partial S / \partial \alpha_{i}$. Новая функция Гамильтона $H\left(P_{i}, Q_{i}, t\right)$ тождественно обращается в 0 , вследствие чего новые переменные $P, Q$ постоянны (и выражаются через начальные данные). Тем самым знание полного интеграла (3) сводит задачу интегрирования уравнений движения к разрешению относительно $q_{i}$ алгебраич. уравнений
+
+\[
+Q_{i}=\partial S\left(P_{j}, q_{j}, t\right) / \partial P_{i}
+\]
+
+В современной теоретич. физике Д. рассматривается как основная фундаментальная величина при формулировке любой теории, особенно полевой, а динамич. уравнения выводятся из вариационных принципов классической механики. Задача построения теории формулируется как задача выбора обобщенных координат и скоростей, описывающих состояние системы, и вида функции Лагранжа, зависящей от них. Значение понятия Д. возрастает для полевых систем еще и потому, что важнейшие для них принципы инвариантности формулируются наиболее удобно и компактно как инвариантность Д. (см. Лагранжев формализм, Лагранжиан); в ряде случаев соображения инвариантности почти полностью определяют теорию. Напр., электродинамикой без источников называется теория, где в качестве координат выбирают 4-потенциал $A_{\mu}(x)$, а требования релятивистской и калибровочной инвариантности и линейности уравнений поля фиксируют Д. в виде
+
+\[
+S=\int\left(\frac{\partial A_{\mu}}{\partial x_{v}}-\frac{\partial A_{v}}{\partial x_{\mu}}\right)^{2} d x
+\]
+
+где $x=(\boldsymbol{x}, t) \equiv\left\{x_{\mu}\right\}$ - точка пространства-времени. Кроме того, благодаря Нетер теореме инвариантность Д. относительно каждой однопараметрич. группы преобразований влечет за собой закон сохранения одной, явно строящейся по функции Лагранжа (или функции Гамильтона) физич. величины.
+
+Не менее фундаментальна роль Д. в квантовой теории, где состояния системы описываются векторами гильбертова пространства, а динамич. перменным отвечают операторы. Если базис пространства одномерной системы образован собственными векторами $|q\rangle$ оператора координаты, то стандартному постулату квантования эквивалентно определение амплитуды перехода $\left\langle q_{2}\left(t_{2}\right) \mid q_{1}\left(t_{1}\right)\right\rangle$ из состояния с координатой $q_{1}$ в момент $t_{1}$ в состояние с координатой $q_{2}$ в момент $t_{2}$ как функционального интеграла
+
+\[
+\left\langle q_{2}\left(t_{2}\right) \mid q_{1}\left(t_{1}\right)\right\rangle=\int \prod d q(t) \exp \left(-i / \hbar \int_{t_{1}}^{t_{2}} L(q, t)\right) d t,
+\]
+
+где П (знак умножения) показывает, что интегрирование экспоненты от класич. Д. ведется по всем возможным траекториям, начинающимся в $q_{1}$ в момент $t_{1}$ и кончающимся в $q_{2}$ в момент $t_{2}$. Такая функциональная формулировка особенно удобна для квантовой теории поля: она позволяет ясно следить за инвариантностью на всех этапах, в частности в процедуре перенормировки. Наконец, функциональная формулировка (4) проясняет переход к классич. теории: в квазиклассич. пределе $\hbar \rightarrow 0$, где фазы $S / \hbar$ велики, основной вклад в интеграл дает область, где $S$ стационарно, то есть $\delta S=0$ при вариации траекторий. Таким образом, принцип наименьшего действия для классич. траекторий оказывается следствием квантовой динамики в квазиклассич. пределе. В определенном смысле Д. «более важно» для квантовой теории, чем для классической: квантовую динамику определяют все возможные траектории, а классическую - лишь экстремали.
+
+Лum.: [1] Л а н д а у Л. Д., Л и фшиц Е. М., Теория поля, 6 изд., М., 1973; [2] и х же, Механика, 3 изд., М., 1973; [3] Д и р ак П., Принципы квантовой механики, пер. с англ., 2 изд., М., 1979; [4] Медведе в Б. В., Начала теоретической физики, М., 1977; [5] Р амон П., Теория поля, пер. с англ., М., 1984. В. П. Павлов.</text_orig>
+</article>

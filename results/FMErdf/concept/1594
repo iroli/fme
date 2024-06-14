@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2435_PRJaMOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2435_PRJaMOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1594</core:url>
+    <lbm:descriptor><![CDATA[ПРЯМОЕ ПРОИЗВЕДЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11935"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_547"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11936"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10506"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11937"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11938"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>одна из основных общематематических конструкций, идея которой принадлежит P. Декарту (r. Descartes); П. п. называют также де к а р то вым Произведением. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2435_PRJaMOE">Прямым произведением</a>, или просто произведен ием, двух непустых множеств $URI[[http://libmeta.ru/fme/formula/aux/2435_1_PRJaMOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2435_2_PRJaMOE]]/URI$ называют множество $URI[[http://libmeta.ru/fme/formula/aux/2435_3_PRJaMOE]]/URI$, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоящее</a> из всех упорядоченных пар вида $URI[[http://libmeta.ru/fme/formula/aux/2435_4_PRJaMOE]]/URI$, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11937">$$x \in X, y \in Y$$</a> :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11935">$$X \times Y=\{(x, y) \mid x \in X, y \in Y\}$$</a><BR/></P><P>Если одно из множеств $URI[[http://libmeta.ru/fme/formula/aux/2435_6_PRJaMOE]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/2435_7_PRJaMOE]]/URI$ пусто, то произведение пусто. Множество $URI[[http://libmeta.ru/fme/formula/aux/2435_8_PRJaMOE]]/URI$ можно отождествить с множеством функций, определенных на двухэлементном множестве <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11938">$$\{1,2\}$$</a> и принимающих значения в множестве $URI[[http://libmeta.ru/fme/formula/aux/2435_10_PRJaMOE]]/URI$ при значении аргумента, равном 1, и в множестве $URI[[http://libmeta.ru/fme/formula/aux/2435_11_PRJaMOE]]/URI$ при значении аргумента, равном 2. Это отождествление позволяет распространить определение П. п. на случай любого количества множителей.<BR/></P><P>Многие задачи математики связаны с описанием математич. объектов, неразложимых в П. п., и с выяснением условий, при к-рых множители произведения определены однозначно с точностью до <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ">изоморфизма</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[одна из основнЫХ общематематических конструкций, идея которой принадлежит P. Декарту (R. Descartes); П. п. называют также де к а р то вым Произведением. Прямым произведением, или просто произведен ием, двух непустых множеств $X$ и $Y$ называют множество $X \times Y$, состоящее из всех упорядоченных пар вида $(x, y)$, где $x \in X, y \in Y$ :
+
+\[
+X \times Y=\{(x, y) \mid x \in X, y \in Y\}
+\]
+
+Если одно из множеств $X$ или $Y$ пусто, то произведение пусто. Множество $X \times Y$ можно отождествить с множеством функций, определенных на двухэлементном множестве $\{1,2\}$ и принимающих значения в множестве $X$ при значении аргумента, равном 1, и в множестве $Y$ при значении аргумента, равном 2. Это отождествление позволяет распространить определение П. п. на случай любого количества множителей.
+
+Многие задачи математики связаны с описанием математич. объектов, неразложимых в П. п., и с выяснением условий, при к-рых множители произведения определены однозначно с точностью до изоморфизма.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2435_PRJaMOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

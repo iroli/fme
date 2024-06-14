@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2443_PSEVDODIFFERENTsIAL'NYJ" alphabetic_pos="2445">
+  <title>ПСЕВДОДИФФЕРЕНЦИАЛЬНЫЙ ОПЕРАТОР; ФОРМУЛА КОМПОЗИЦИИ</title>
+  <authors>
+    <author>М. А. Шубин</author>
+  </authors>
+  <pages>
+    <start>469</start>
+    <end>470</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Бе ре з и н Ф.А., Шубин М.А., Уравнение Шредингера, М., 1983; [2] М а с л о в В. П., Ф е д о р ю к М. В., Квазиклассическое приближение для уравнений квантовой механики, М., 1976; [3] Т е й л о р М., Псевдодифференциальные операторы, пер. с англ., М., 1985; [4] Т р е в Ф., Введение в теорию псевдодифференциальных операторов и интегральных операторов Фурье, т. 1, Псевдодифференциальные операторы, пер. с англ., М., 1984; [5] Хё р ман д е р Л., Анализ линейных дифференциальных операторов с частными производными, т. 3, Псевдодифференциальные операторы, пер. с англ., М., 1987; [6] Ш у б и н М.А., Псевдодифференциальные операторы и спектральная теория, М., 1978.</literature_orig>
+    <unit>
+      <author>Березин Ф. А.</author>
+      <author>Шубин М. А.</author>
+      <title>Уравнение Шредингера</title>
+      <publication>М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <author>Федорюк М. В.</author>
+      <title>Квазиклассическое приближение для уравнений квантовой механики</title>
+      <publication>М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Тейлор М.</author>
+      <title>Псевдодифференциальные операторы</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1985</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Трев Ф.</author>
+      <title>Введение в теорию псевдодифференциальных операторов и интегральных операторов Фурье</title>
+      <publication>Псевдодифференциальные операторы, пер. с англ., М.</publication>
+      <year>1984</year>
+      <other>т. 1</other>
+    </unit>
+    <unit>
+      <author>Хёрмандер Л.</author>
+      <title>Анализ линейных дифференциальных операторов с частными производными</title>
+      <publication>Псевдодифференциальные операторы, пер. с англ., М.</publication>
+      <year>1987</year>
+      <other>т. 3</other>
+    </unit>
+    <unit>
+      <author>Шубин М. А.</author>
+      <title>Псевдодифференциальные операторы и спектральная теория</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2443_1_PSEVDODIFFERENTsIAL'NYJ">c(x, \xi) \sim \sum_{\alpha} \frac{(-i \hbar)^{|\alpha|}}{\alpha !} \partial_{\xi}^{\alpha} a(x, \xi) \partial_{x}^{\alpha} b(x, \xi),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2443_2_PSEVDODIFFERENTsIAL'NYJ">\alpha !=\alpha_{1} ! \ldots \alpha_{n} !, \quad \partial_{x}^{\alpha}=\frac{\partial^{|\alpha|}}{\partial x_{1}^{\alpha_{1}} \ldots \partial x_{n}^{\alpha_{n}}} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2443_3_PSEVDODIFFERENTsIAL'NYJ">\begin{gathered}\left|\partial_{\xi}^{\gamma} \partial_{x}^{\delta}\left[c(x, \xi)-\sum_{|\alpha| \leqslant N-1} \frac{(-i \hbar)^{|\alpha|}}{\alpha !} \partial_{\xi}^{\alpha} a(x, \xi) \partial_{x}^{\alpha} b(x, \xi)\right]\right| \leqslant \\\leqslant C_{\gamma \delta N} \hbar^{N}(1+|x|+|\xi|)^{m_{1}+m_{2}-N} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_1_PSEVDODIFFERENTsIAL'NYJ">a, B</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_2_PSEVDODIFFERENTsIAL'NYJ">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_3_PSEVDODIFFERENTsIAL'NYJ">q p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_4_PSEVDODIFFERENTsIAL'NYJ">a(x, \xi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_5_PSEVDODIFFERENTsIAL'NYJ">b(x, \xi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_6_PSEVDODIFFERENTsIAL'NYJ">c^{\infty}\left(\mathbb{r}^{2 n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_7_PSEVDODIFFERENTsIAL'NYJ">(x, \xi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_8_PSEVDODIFFERENTsIAL'NYJ">m_{1}, m_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_9_PSEVDODIFFERENTsIAL'NYJ">c=a B</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_10_PSEVDODIFFERENTsIAL'NYJ">q p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_11_PSEVDODIFFERENTsIAL'NYJ">c(x, \xi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_12_PSEVDODIFFERENTsIAL'NYJ">\alpha=\left(\alpha_{1}, \ldots, \alpha_{n}\right), \alpha_{j} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_13_PSEVDODIFFERENTsIAL'NYJ">|\alpha|=\alpha_{1}+\ldots+\alpha_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_14_PSEVDODIFFERENTsIAL'NYJ">n \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2443_15_PSEVDODIFFERENTsIAL'NYJ">\gamma, \delta</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/2443_1_PSEVDODIFFERENTsIAL'NYJ">
+      <rel_text>асимптотические разложения</rel_text>
+      <target>http://libmeta.ru/fme/article/117_ASIMPTOTIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2443_2_PSEVDODIFFERENTsIAL'NYJ">
+      <rel_text>псевдодифференциальных операторов</rel_text>
+      <target>http://libmeta.ru/fme/article/2075_OPERATORNOZNAChNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2443_3_PSEVDODIFFERENTsIAL'NYJ">
+      <rel_text>асимптотическое разложение</rel_text>
+      <target>http://libmeta.ru/fme/article/117_ASIMPTOTIChESKOE</target>
+    </relation>
+  </relations>
+  <text>формула, выражающая символ или URI[[http://libmeta.ru/fme/relation/2443_3_PSEVDODIFFERENTsIAL'NYJ]]/URI символа композиции двух URI[[http://libmeta.ru/fme/relation/2443_2_PSEVDODIFFERENTsIAL'NYJ]]/URI через символы или URI[[http://libmeta.ru/fme/relation/2443_1_PSEVDODIFFERENTsIAL'NYJ]]/URI символов сомножителей. Напр., для двух операторов $URI[[http://libmeta.ru/fme/formula/aux/2443_1_PSEVDODIFFERENTsIAL'NYJ]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2443_2_PSEVDODIFFERENTsIAL'NYJ]]/URI$ с $URI[[http://libmeta.ru/fme/formula/aux/2443_3_PSEVDODIFFERENTsIAL'NYJ]]/URI$-символами $URI[[http://libmeta.ru/fme/formula/aux/2443_4_PSEVDODIFFERENTsIAL'NYJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2443_5_PSEVDODIFFERENTsIAL'NYJ]]/URI$ класса $URI[[http://libmeta.ru/fme/formula/aux/2443_6_PSEVDODIFFERENTsIAL'NYJ]]/URI$, положительно однородными по $URI[[http://libmeta.ru/fme/formula/aux/2443_7_PSEVDODIFFERENTsIAL'NYJ]]/URI$ порядков $URI[[http://libmeta.ru/fme/formula/aux/2443_8_PSEVDODIFFERENTsIAL'NYJ]]/URI$, композиция $URI[[http://libmeta.ru/fme/formula/aux/2443_9_PSEVDODIFFERENTsIAL'NYJ]]/URI$ имеет $URI[[http://libmeta.ru/fme/formula/aux/2443_10_PSEVDODIFFERENTsIAL'NYJ]]/URI$-символ $URI[[http://libmeta.ru/fme/formula/aux/2443_11_PSEVDODIFFERENTsIAL'NYJ]]/URI$, допускающий асимптотич. разложение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2443_1_PSEVDODIFFERENTsIAL'NYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2443_12_PSEVDODIFFERENTsIAL'NYJ]]/URI$ - целые, $URI[[http://libmeta.ru/fme/formula/aux/2443_13_PSEVDODIFFERENTsIAL'NYJ]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2443_2_PSEVDODIFFERENTsIAL'NYJ]]/URI
+\]
+
+Точный смысл этого разложения состоит в том, что при любом целом $URI[[http://libmeta.ru/fme/formula/aux/2443_14_PSEVDODIFFERENTsIAL'NYJ]]/URI$ и для любых $URI[[http://libmeta.ru/fme/formula/aux/2443_15_PSEVDODIFFERENTsIAL'NYJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2443_3_PSEVDODIFFERENTsIAL'NYJ]]/URI
+\]</text>
+  <text_orig>формула, выражающая символ или асимптотическое разложение символа композиции двух псевдодифференциальных операторов через символы или асимптотические разложения символов сомножителей. Напр., для двух операторов $A, B$ в $\mathbb{R}^{n}$ с $q p$-символами $a(x, \xi)$, $b(x, \xi)$ класса $C^{\infty}\left(\mathbb{R}^{2 n}\right)$, положительно однородными по $(x, \xi)$ порядков $m_{1}, m_{2}$, композиция $C=A B$ имеет $q p$-символ $c(x, \xi)$, допускающий асимптотич. разложение
+
+\[
+c(x, \xi) \sim \sum_{\alpha} \frac{(-i \hbar)^{|\alpha|}}{\alpha !} \partial_{\xi}^{\alpha} a(x, \xi) \partial_{x}^{\alpha} b(x, \xi),
+\]
+
+где $\alpha=\left(\alpha_{1}, \ldots, \alpha_{n}\right), \alpha_{j} \geqslant 0$ - целые, $|\alpha|=\alpha_{1}+\ldots+\alpha_{n}$,
+
+\[
+\alpha !=\alpha_{1} ! \ldots \alpha_{n} !, \quad \partial_{x}^{\alpha}=\frac{\partial^{|\alpha|}}{\partial x_{1}^{\alpha_{1}} \ldots \partial x_{n}^{\alpha_{n}}} .
+\]
+
+Точный смысл этого разложения состоит в том, что при любом целом $N \geqslant 0$ и для любых $\gamma, \delta$
+
+\[
+\begin{gathered}
+\left|\partial_{\xi}^{\gamma} \partial_{x}^{\delta}\left[c(x, \xi)-\sum_{|\alpha| \leqslant N-1} \frac{(-i \hbar)^{|\alpha|}}{\alpha !} \partial_{\xi}^{\alpha} a(x, \xi) \partial_{x}^{\alpha} b(x, \xi)\right]\right| \leqslant \\
+\leqslant C_{\gamma \delta N} \hbar^{N}(1+|x|+|\xi|)^{m_{1}+m_{2}-N} .
+\end{gathered}
+\] Лит.: [1] Бе ре з и н Ф.А., Шубин М.А., Уравнение Шредингера, М., 1983; [2] М а с л о в В. П., Ф е д о р ю к М. В., Квазиклассическое приближение для уравнений квантовой механики, М., 1976; [3] Т е й л о р М., Псевдодифференциальные операторы, пер. с англ., М., 1985; [4] Т р е в Ф., Введение в теорию псевдодифференциальных операторов и интегральных операторов Фурье, т. 1, Псевдодифференциальные операторы, пер. с англ., М., 1984; [5] Хё р ман д е р Л., Анализ линейных дифференциальных операторов с частными производными, т. 3, Псевдодифференциальные операторы, пер. с англ., М., 1987; [6] Ш у б и н М.А., Псевдодифференциальные операторы и спектральная теория, М., 1978.
+
+М. А. Шубин.</text_orig>
+</article>

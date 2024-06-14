@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1132_KVADRATIChNYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1132_KVADRATIChNYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/147</core:url>
+    <lbm:descriptor><![CDATA[КВАДРАТИЧНЫЙ ГАМИЛЬТОНИАН, КВАДРАТИЧНАЯ ФУНКЦИЯ ГАМИЛЬТОНА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#1487"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1488"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1489"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1490"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1491"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_33"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1492"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1493"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1494"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1495"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>функция вида<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1488">$$H=\frac{1}{2}(A x, x)$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1490">$$x=\left(p_{1}, \ldots, p_{n}, q_{1}, \ldots, q_{n}\right)-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a>, записанный в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2754_SIMPLEKTIZATsI">симплектическом</a> базисе (см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2754_SIMPLEKTIZATsI">Симплектическое</a> пространство), $URI[[http://libmeta.ru/fme/formula/aux/1132_2_KVADRATIChNYJ]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2792_SKALJaRNOE">скалярное произведение</a>, $URI[[http://libmeta.ru/fme/formula/aux/1132_3_KVADRATIChNYJ]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI">симметрический</a> линейный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a>. Канонич. уравнения, соответствующие К. г., имеют вид<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1489">$$\dot{x}=I A x,$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1492">$$i=\left\|\begin{array}{cc}0 & -E \\ E & 0\end{array}\right\|, E-$$</a> единичная матрица. Собственные числа К. г. бывают четырех типов: вещественные пары <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1493">$$(a,-a)$$</a>, чисто мнимые пары <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1494">$$(i b,-i b)$$</a>, четверки <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1495">$$( \pm a, \pm i b)$$</a> и нулевые. См. также Квадратичный гамильтониан; нормальная форма.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#1487">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#716">Арнольд В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#1487">Математические методы классической механики, М., 1979</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[функция вида
+
+\[
+H=\frac{1}{2}(A x, x)
+\]
+
+где $x=\left(p_{1}, \ldots, p_{n}, q_{1}, \ldots, q_{n}\right)-$ вектор, записанный в симплектическом базисе (см. Симплектическое пространство), $(\cdot, \cdot)$ - скалярное произведение, $A$ - симметрический линейный оператор. Канонич. уравнения, соответствующие К. г., имеют вид
+
+\[
+\dot{x}=I A x,
+\]
+
+где $I=\left\|\begin{array}{cc}0 & -E \\ E & 0\end{array}\right\|, E-$ единичная матрица. Собственные числа К. г. бывают четырех типов: вешественные пары $(a,-a)$, чисто мнимые пары $(i b,-i b)$, четверки $( \pm a, \pm i b)$ и нулевые. См. также Квадратичный гамильтониан; нормальная форма.
+
+Лит.: [1] Ар нол ь д В. И., Математические методы классической механики, М., $1979 . \quad$ М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2754_SIMPLEKTIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2792_SKALJaRNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2754_SIMPLEKTIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

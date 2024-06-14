@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3465_EVOLJuTsIONNYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3465_EVOLJuTsIONNYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2738</core:url>
+    <lbm:descriptor><![CDATA[ЭВОЛЮЦИОННЫЙ ОПЕРАТОР УРАВНЕНИЯ ЛИУВИЛЛЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2445"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#12012"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20551"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20552"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20553"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_729"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> $URI[[http://libmeta.ru/fme/formula/aux/3465_1_EVOLJuTsIONNYJ]]/URI$, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">действие</a> которого определяется формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20551">$$\begin{gathered}\left(S^{n}(t) f_{n}\right)\left(x_{1}, \ldots, x_{n}\right)= \\=f_{n}\left(X_{1}\left(t, x_{1}, \ldots, x_{n}\right), \ldots, X_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right),\end{gathered}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20553">$$x_{i}\left(t, x_{1}, \ldots, x_{n}\right)-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3237_FAZOVAJa">фазовая точка</a> $URI[[http://libmeta.ru/fme/formula/aux/3465_3_EVOLJuTsIONNYJ]]/URI$-й <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частицы</a> в момент времени $URI[[http://libmeta.ru/fme/formula/aux/3465_4_EVOLJuTsIONNYJ]]/URI$ системы $URI[[http://libmeta.ru/fme/formula/aux/3465_5_EVOLJuTsIONNYJ]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, которые в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1874_NAChAL'NYJ">начальный момент</a> находились в фазовых точках $URI[[http://libmeta.ru/fme/formula/aux/3465_6_EVOLJuTsIONNYJ]]/URI$. Посредством Э. о. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa">уравнения Лиувилля</a> определяется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa">решение задачи</a> Коши для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa">Лиувилля уравнения</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20552">$$D\left(t, x_{1}, \ldots, x_{n}\right)=S^{n}(-t) D^{0}\left(x_{1}, \ldots, x_{n}\right) .$$</a><BR/></P><P>Если <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA">гамильтониан системы</a> удовлетворяет определенным условиям, Э.о. в пространстве <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2835_SOBOLEVA">суммируемых функций</a> образует однопараметрич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группу</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ">изометрич</a>. операторов, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1052_INFINITEZIMAL'NYJ">инфинитезимальный оператор</a> к-рой на множестве непрерывно <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_729_GRINA">дифференцируемых функций</a> с компактными носителями совпадает с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2471_PUASSONA">Пуассона скобкой</a> (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#12012">[1]</a>).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#12012">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1202">Петрина Д. Я.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2445">Герасименко В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4716">Малышев П. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#12012">Математические основы классической статистической механики, Киев, 1985</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2445">В. И. Герасименко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[оператор $S$, действие которого определяется формулой
+
+\[
+\begin{gathered}
+\left(S^{n}(t) f_{n}\right)\left(x_{1}, \ldots, x_{n}\right)= \\
+=f_{n}\left(X_{1}\left(t, x_{1}, \ldots, x_{n}\right), \ldots, X_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right),
+\end{gathered}
+\]
+
+где $X_{i}\left(t, x_{1}, \ldots, x_{n}\right)-$ фазовая точка $i$-й частицы в момент времени $t$ системы $n$ частиц, которые в начальный момент находились в фазовых точках $x_{1}, \ldots, x_{n}$. Посредством Э. о. уравнения Лиувилля определяется решение задачи Коши для Лиувилля уравнения
+
+\[
+D\left(t, x_{1}, \ldots, x_{n}\right)=S^{n}(-t) D^{0}\left(x_{1}, \ldots, x_{n}\right) .
+\]
+
+Если гамильтониан системы удовлетворяет определенным условиям, Э.о. в пространстве суммируемых функший образует однопараметрич. группу изометрич. операторов, инфинитезимальный оператор к-рой на множестве непрерывно дифференцируемых функций с компактными носителями совпадает с Пуассона скобкой (см. [1]).
+
+Лит.: [1] Пет рина Д. Я., Ге расименко В. И., Малыш е в П. В., Математические основы ктассической статистической механики, Киев, 1985.
+
+В. И. Герасименко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2471_PUASSONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_729_GRINA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1052_INFINITEZIMAL'NYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2835_SOBOLEVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1874_NAChAL'NYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3237_FAZOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

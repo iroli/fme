@@ -1,0 +1,337 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1613_LINEJNYJ" alphabetic_pos="1615">
+  <title>ЛИНЕЙНЫЙ ОПЕРАТОР $А$ В ВЕКТОРНОМ ПРОСТРАНСТВЕ $L$</title>
+  <authors/>
+  <pages>
+    <start>327</start>
+    <end>328</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] Н е й м ан И., Математические основы квантовой механики, пер. с нем., М., 1964; [2] Д и рак П., Принципы квантовой механики, пер. с англ., 2 изд., М., 1979; [3] К о с тр ики н А. И., Ман и н Ю. И., Линейная алгебра и геометрия, 2 изд., М., 1986; [4] Р и хтм ай е р Р., Принципы современной математической физики, пер. с англ., т. 1, М., 1982.</literature_orig>
+    <unit>
+      <author>Нейман И.</author>
+      <title>Математические основы квантовой механики</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дирак П.</author>
+      <title>Принципы квантовой механики</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Кострикин А. И.</author>
+      <author>Манин Ю. И.</author>
+      <title>Линейная алгебра и геометрия</title>
+      <publication>2 изд., М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рихтмайер Р.</author>
+      <title>Принципы современной математической физики</title>
+      <publication>пер. с англ., т. 1, М.</publication>
+      <year>1982</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1613_1_LINEJNYJ">A=\left\|a_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1613_2_LINEJNYJ">(A e)_{i}=\sum_{j=1}^{n} a_{i j} e_{j},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1613_3_LINEJNYJ">A=a_{0}+a_{1} d / d x+\ldots+a_{n} d^{n} / d x^{n},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1613_4_LINEJNYJ">(A f)(x)=\int d y A(x, y) f(y) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1613_5_LINEJNYJ">\sum_{k} u_{i k} u_{i k}^{*}=\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1613_6_LINEJNYJ">A=\sum_{i} \lambda_{i} P_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1613_7_LINEJNYJ">f(A)=\sum f\left(\lambda_{i}\right) P_{i} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1613_8_LINEJNYJ">A=\int \lambda d P(\lambda),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1613_9_LINEJNYJ">f(A)=\int f(\lambda) d P(\lambda) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_1_LINEJNYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_2_LINEJNYJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_3_LINEJNYJ">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_4_LINEJNYJ">a e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_5_LINEJNYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_6_LINEJNYJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_7_LINEJNYJ">e_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_8_LINEJNYJ">e_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_9_LINEJNYJ">\lambda_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_10_LINEJNYJ">\lambda_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_11_LINEJNYJ">\lambda_{1} e_{1}+\lambda_{2} e_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_12_LINEJNYJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_13_LINEJNYJ">a\left(\lambda_{1} e_{1}+\lambda_{2} e_{2}\right)=\lambda_{1} A e_{1}+\lambda_{2} A e_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_14_LINEJNYJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_15_LINEJNYJ">e_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_16_LINEJNYJ">(a f)(x)=a_{0} f(x)+a_{1} d f(x) / d x+\ldots+a_{n} d^{n} f(x) / d x^{n} ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_17_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_18_LINEJNYJ">\left\|a_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_19_LINEJNYJ">e_{1}, e_{2}, \ldots, e_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_20_LINEJNYJ">a_{i j}=\left(e_{i}, A e_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_21_LINEJNYJ">(e, f)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_22_LINEJNYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_23_LINEJNYJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_24_LINEJNYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_25_LINEJNYJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_26_LINEJNYJ">a e=\lambda e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_27_LINEJNYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_28_LINEJNYJ">\lambda-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_29_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_30_LINEJNYJ">\lambda,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_31_LINEJNYJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_32_LINEJNYJ">\left\|u_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_33_LINEJNYJ">\delta_{i j}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_34_LINEJNYJ">i \neq j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_35_LINEJNYJ">\delta_{i i}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_36_LINEJNYJ">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_37_LINEJNYJ">\lambda=\exp (i \alpha)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_38_LINEJNYJ">\alpha-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_39_LINEJNYJ">(e, f)=(U e, U f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_40_LINEJNYJ">a^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_41_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_42_LINEJNYJ">a_{i j}^{+}=a_{j i}^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_43_LINEJNYJ">a^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_44_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_45_LINEJNYJ">a^{+}=a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_46_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_47_LINEJNYJ">(e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_48_LINEJNYJ">a e)=(e, A e)^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_49_LINEJNYJ">e_{1}, e_{2}, \ldots, e_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_50_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_51_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_52_LINEJNYJ">a_{i j}=\lambda_{j} \delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_53_LINEJNYJ">(a B)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_54_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_55_LINEJNYJ">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_56_LINEJNYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_57_LINEJNYJ">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_58_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_59_LINEJNYJ">(a B) e=A(B e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_60_LINEJNYJ">a B \neq B A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_61_LINEJNYJ">a B-B A=[A, B]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_62_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_63_LINEJNYJ">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_64_LINEJNYJ">[a, B]=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_65_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_66_LINEJNYJ">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_67_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_68_LINEJNYJ">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_69_LINEJNYJ">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_70_LINEJNYJ">p^{2}=p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_71_LINEJNYJ">l_{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_72_LINEJNYJ">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_73_LINEJNYJ">p e=e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_74_LINEJNYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_75_LINEJNYJ">l_{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_76_LINEJNYJ">p e=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_77_LINEJNYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_78_LINEJNYJ">l_{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_79_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_80_LINEJNYJ">\lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_81_LINEJNYJ">p_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_82_LINEJNYJ">\lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_83_LINEJNYJ">f(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_84_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_85_LINEJNYJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_86_LINEJNYJ">u=\exp (i A)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_87_LINEJNYJ">a-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_88_LINEJNYJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_89_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_90_LINEJNYJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_91_LINEJNYJ">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_92_LINEJNYJ">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_93_LINEJNYJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_94_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_95_LINEJNYJ">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_96_LINEJNYJ">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_97_LINEJNYJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_98_LINEJNYJ">(a e, A e) \leqslant C(e, e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_99_LINEJNYJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_100_LINEJNYJ">e_{1}, e_{2}, \ldots, e_{i}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_101_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_102_LINEJNYJ">i \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_103_LINEJNYJ">a e_{i}-\lambda e_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_104_LINEJNYJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_105_LINEJNYJ">\lambda+d \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_106_LINEJNYJ">d P(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_107_LINEJNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_108_LINEJNYJ">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_109_LINEJNYJ">\lambda&lt;\lambda_{0}&lt;\lambda+d \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_110_LINEJNYJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_111_LINEJNYJ">\lambda+d \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_112_LINEJNYJ">f(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1613_113_LINEJNYJ">a</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/1613_1_LINEJNYJ">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1613_2_LINEJNYJ">
+      <rel_text>наблюдаемых</rel_text>
+      <target>http://libmeta.ru/fme/article/1853_NABLJuDAEMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1613_3_LINEJNYJ">
+      <rel_text>Операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1613_4_LINEJNYJ">
+      <rel_text>наблюдаемым</rel_text>
+      <target>http://libmeta.ru/fme/article/1853_NABLJuDAEMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1613_5_LINEJNYJ">
+      <rel_text>теории самосопряженные</rel_text>
+      <target>http://libmeta.ru/fme/article/2885_SPEKTRAL'NAJa</target>
+    </relation>
+  </relations>
+  <text>отображение, сопоставляющее каждому вектору $URI[[http://libmeta.ru/fme/formula/aux/1613_1_LINEJNYJ]]/URI$ некоторого множества $URI[[http://libmeta.ru/fme/formula/aux/1613_2_LINEJNYJ]]/URI$ (содержащегося в $URI[[http://libmeta.ru/fme/formula/aux/1613_3_LINEJNYJ]]/URI$ и называемого о 6 ла с т ью о п р е де л ен и я Л. о.) другой вектор, обозначаемый $URI[[http://libmeta.ru/fme/formula/aux/1613_4_LINEJNYJ]]/URI$ (и называемый знач е н и м Л.о. на векторе $URI[[http://libmeta.ru/fme/formula/aux/1613_5_LINEJNYJ]]/URI$ ). Выполнены следующие условия: 1) $URI[[http://libmeta.ru/fme/formula/aux/1613_6_LINEJNYJ]]/URI$-линейное множество, то есть для любых его элементов $URI[[http://libmeta.ru/fme/formula/aux/1613_7_LINEJNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1613_8_LINEJNYJ]]/URI$ и любых комплексных чисел $URI[[http://libmeta.ru/fme/formula/aux/1613_9_LINEJNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1613_10_LINEJNYJ]]/URI$ вектор $URI[[http://libmeta.ru/fme/formula/aux/1613_11_LINEJNYJ]]/URI$ также принадлежит $URI[[http://libmeta.ru/fme/formula/aux/1613_12_LINEJNYJ]]/URI$; 2) Л. о. переводит линейную комбинацию векторов в ту же линейную комбинацию соответствующих значений: $URI[[http://libmeta.ru/fme/formula/aux/1613_13_LINEJNYJ]]/URI$.
+
+П р и м е р ы Л. о.: матрица
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1613_1_LINEJNYJ]]/URI
+\]
+
+действующая в $URI[[http://libmeta.ru/fme/formula/aux/1613_14_LINEJNYJ]]/URI$-мерном евклидовом пространстве по правилу
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1613_2_LINEJNYJ]]/URI
+\]
+
+где векторы $URI[[http://libmeta.ru/fme/formula/aux/1613_15_LINEJNYJ]]/URI$ - столбцы комплексных чисел;
+
+дифференциальный оператор
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1613_3_LINEJNYJ]]/URI
+\]
+
+определенный равенством
+
+$URI[[http://libmeta.ru/fme/formula/aux/1613_16_LINEJNYJ]]/URI$
+
+интегральный оператор $URI[[http://libmeta.ru/fme/formula/aux/1613_17_LINEJNYJ]]/URI$, определенный соотношением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1613_4_LINEJNYJ]]/URI
+\]
+
+Конечномерные пространства. В конечномерном пространстве Л.о. можно определить на всех векторах и задать нек-рой матрицей $URI[[http://libmeta.ru/fme/formula/aux/1613_18_LINEJNYJ]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/1613_19_LINEJNYJ]]/URI$ - ортонормированный базис, то $URI[[http://libmeta.ru/fme/formula/aux/1613_20_LINEJNYJ]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1613_21_LINEJNYJ]]/URI$ скалярное произведение векторов $URI[[http://libmeta.ru/fme/formula/aux/1613_22_LINEJNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1613_23_LINEJNYJ]]/URI$. Если для нек-рого вектора $URI[[http://libmeta.ru/fme/formula/aux/1613_24_LINEJNYJ]]/URI$ и комплексного числа $URI[[http://libmeta.ru/fme/formula/aux/1613_25_LINEJNYJ]]/URI$ выполнено равенство $URI[[http://libmeta.ru/fme/formula/aux/1613_26_LINEJNYJ]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/1613_27_LINEJNYJ]]/URI$ называется собственным вектором (собственной функцие й), а $URI[[http://libmeta.ru/fme/formula/aux/1613_28_LINEJNYJ]]/URI$ собственным значением оператора $URI[[http://libmeta.ru/fme/formula/aux/1613_29_LINEJNYJ]]/URI$. Совокупность всех собственных значений называется д и с к р е т н ы м с п е к т р о м, а множество собственных векторов, отвечающих нек-рому собственному значению $URI[[http://libmeta.ru/fme/formula/aux/1613_30_LINEJNYJ]]/URI$ с обс тве н ны м под п ространст вомл.
+
+Конечномерный Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_31_LINEJNYJ]]/URI$ называется у н и та р ны м, если унитарна его матрица $URI[[http://libmeta.ru/fme/formula/aux/1613_32_LINEJNYJ]]/URI$, то есть если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1613_5_LINEJNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1613_33_LINEJNYJ]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1613_34_LINEJNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1613_35_LINEJNYJ]]/URI$. Унитарным является, напр., оператор поворота плоскости на угол $URI[[http://libmeta.ru/fme/formula/aux/1613_36_LINEJNYJ]]/URI$. Собственные значения унитарного Л.о. лежат на единичной окружности в комплексной плоскости, то есть $URI[[http://libmeta.ru/fme/formula/aux/1613_37_LINEJNYJ]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1613_38_LINEJNYJ]]/URI$ вещественное число. Унитарные Л.о. оставляют неизменными длины векторов и углы между ними, то есть сохраняют скалярное произведение: $URI[[http://libmeta.ru/fme/formula/aux/1613_39_LINEJNYJ]]/URI$. Унитарные конечномерные Л.о. используют для описания различных симметрий физич. систем. Совокупность соответствующих Л. о. образует представление группы симметрии.
+
+Конечномерный оператор $URI[[http://libmeta.ru/fme/formula/aux/1613_40_LINEJNYJ]]/URI$называется с опря же нн ы м к $URI[[http://libmeta.ru/fme/formula/aux/1613_41_LINEJNYJ]]/URI$, если матрицы этих операторов связаны соотношениями $URI[[http://libmeta.ru/fme/formula/aux/1613_42_LINEJNYJ]]/URI$, то есть матрица $URI[[http://libmeta.ru/fme/formula/aux/1613_43_LINEJNYJ]]/URI$получается из матрицы $URI[[http://libmeta.ru/fme/formula/aux/1613_44_LINEJNYJ]]/URI$ в результате транспонирования и комплексного сопряжения. Если $URI[[http://libmeta.ru/fme/formula/aux/1613_45_LINEJNYJ]]/URI$, то оператор $URI[[http://libmeta.ru/fme/formula/aux/1613_46_LINEJNYJ]]/URI$ называется с а м о с о П р я же н н ы м, или э р м и т о в ы м. Пример самосопряженных конечномерных Л.о.- Паули матрицы, то есть операторы спина в квантовой механике. Самосопряженный Л. о. обладает важным свойством вещественности: $URI[[http://libmeta.ru/fme/formula/aux/1613_47_LINEJNYJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1613_48_LINEJNYJ]]/URI$. Все собственные значения самосопряженного оператора также вещественны, а собственные векторы, отвечающие различным собственным значениям, попарно ортогональны. Ортонормированный базис в конечномерном пространстве можно составить из собственных векторов $URI[[http://libmeta.ru/fme/formula/aux/1613_49_LINEJNYJ]]/URI$ самосопряженного Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_50_LINEJNYJ]]/URI$. В этом базисе матрица Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_51_LINEJNYJ]]/URI$ диагональна: $URI[[http://libmeta.ru/fme/formula/aux/1613_52_LINEJNYJ]]/URI$.
+
+Произведение $URI[[http://libmeta.ru/fme/formula/aux/1613_53_LINEJNYJ]]/URI$ Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_54_LINEJNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1613_55_LINEJNYJ]]/URI$ определяется результатом последовательного применения к вектору $URI[[http://libmeta.ru/fme/formula/aux/1613_56_LINEJNYJ]]/URI$ операторов $URI[[http://libmeta.ru/fme/formula/aux/1613_57_LINEJNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1613_58_LINEJNYJ]]/URI$, то есть $URI[[http://libmeta.ru/fme/formula/aux/1613_59_LINEJNYJ]]/URI$. Произведение операторов, вообще говоря, не перестановочно: $URI[[http://libmeta.ru/fme/formula/aux/1613_60_LINEJNYJ]]/URI$. Величина $URI[[http://libmeta.ru/fme/formula/aux/1613_61_LINEJNYJ]]/URI$ называется ко м м у та т о р о м Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_62_LINEJNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1613_63_LINEJNYJ]]/URI$. Если Л. о. коммутируют, то есть $URI[[http://libmeta.ru/fme/formula/aux/1613_64_LINEJNYJ]]/URI$, то Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_65_LINEJNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1613_66_LINEJNYJ]]/URI$ можно одновременно привести к диагональному виду, то есть в пространстве существует такой ортонормированный базис, что каждый его элемент является собственным для $URI[[http://libmeta.ru/fme/formula/aux/1613_67_LINEJNYJ]]/URI$ и для $URI[[http://libmeta.ru/fme/formula/aux/1613_68_LINEJNYJ]]/URI$.
+
+Самосопряженный Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_69_LINEJNYJ]]/URI$ называется п р о екц и о н ным оператором, или проектором, если $URI[[http://libmeta.ru/fme/formula/aux/1613_70_LINEJNYJ]]/URI$. Для каждого проектора найдется такое подпространство $URI[[http://libmeta.ru/fme/formula/aux/1613_71_LINEJNYJ]]/URI$ пространства $URI[[http://libmeta.ru/fme/formula/aux/1613_72_LINEJNYJ]]/URI$, что $URI[[http://libmeta.ru/fme/formula/aux/1613_73_LINEJNYJ]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/1613_74_LINEJNYJ]]/URI$ принадлежит $URI[[http://libmeta.ru/fme/formula/aux/1613_75_LINEJNYJ]]/URI$, и $URI[[http://libmeta.ru/fme/formula/aux/1613_76_LINEJNYJ]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/1613_77_LINEJNYJ]]/URI$ принадлежит ортогональному дополнению $URI[[http://libmeta.ru/fme/formula/aux/1613_78_LINEJNYJ]]/URI$. Всякий конечномерный самосопряженный оператор $URI[[http://libmeta.ru/fme/formula/aux/1613_79_LINEJNYJ]]/URI$ можно представить в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1613_6_LINEJNYJ]]/URI
+\]
+
+где суммирование проводится по всем собственным значениям $URI[[http://libmeta.ru/fme/formula/aux/1613_80_LINEJNYJ]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1613_81_LINEJNYJ]]/URI$ проектор на собственное подпространство, отвечающее $URI[[http://libmeta.ru/fme/formula/aux/1613_82_LINEJNYJ]]/URI$. Это равенство называется с пект ральны м р а з л ж е н и е м конечномерного самосопряженного оператора, оно позволяет строить различные функции $URI[[http://libmeta.ru/fme/formula/aux/1613_83_LINEJNYJ]]/URI$ от самосопряженного Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_84_LINEJNYJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1613_7_LINEJNYJ]]/URI
+\]
+
+Всякий унитарный Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_85_LINEJNYJ]]/URI$ в конечномерном пространстве допускает представление $URI[[http://libmeta.ru/fme/formula/aux/1613_86_LINEJNYJ]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1613_87_LINEJNYJ]]/URI$ эрмитов Л. о. Если семейство $URI[[http://libmeta.ru/fme/formula/aux/1613_88_LINEJNYJ]]/URI$ реализует представление группы симмет- рии, то соответствующее семейство самосопряженных Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_89_LINEJNYJ]]/URI$ задает представление алгебры Ли этой группы.
+
+Бесконечномерные пространства. В бесконечномерном гильбертовом пространстве Л.о., вообще говоря, нельзя определить на всех векторах. Обычно область определения $URI[[http://libmeta.ru/fme/formula/aux/1613_90_LINEJNYJ]]/URI$, не исчерпывая всего $URI[[http://libmeta.ru/fme/formula/aux/1613_91_LINEJNYJ]]/URI$, является всюду плотной (то есть любой вектор из $URI[[http://libmeta.ru/fme/formula/aux/1613_92_LINEJNYJ]]/URI$ можно с заданной точностью приблизить вектором из $URI[[http://libmeta.ru/fme/formula/aux/1613_93_LINEJNYJ]]/URI$ ). На всем пространстве можно задать только так наз. ограниченные (непрерывные) операторы. Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_94_LINEJNYJ]]/URI$ называется ограниченным, если существует такая константа $URI[[http://libmeta.ru/fme/formula/aux/1613_95_LINEJNYJ]]/URI$, что для всех векторов $URI[[http://libmeta.ru/fme/formula/aux/1613_96_LINEJNYJ]]/URI$ из $URI[[http://libmeta.ru/fme/formula/aux/1613_97_LINEJNYJ]]/URI$ выполнено неравенство $URI[[http://libmeta.ru/fme/formula/aux/1613_98_LINEJNYJ]]/URI$. Для неограниченного Л. усложняется понятие сопряженности. В бесконечномерном случае Л. о. помимо дискретного могут иметь и непрерывный спектр. Число $URI[[http://libmeta.ru/fme/formula/aux/1613_99_LINEJNYJ]]/URI$ называется т очкой н е п р е ры вн о го с п е к р а, если найдется такая последовательность $URI[[http://libmeta.ru/fme/formula/aux/1613_100_LINEJNYJ]]/URI$ нормированных векторов, что все они ортогональны каждому собственному вектору оператора $URI[[http://libmeta.ru/fme/formula/aux/1613_101_LINEJNYJ]]/URI$, а при $URI[[http://libmeta.ru/fme/formula/aux/1613_102_LINEJNYJ]]/URI$ норма векторов $URI[[http://libmeta.ru/fme/formula/aux/1613_103_LINEJNYJ]]/URI$ стремится к нулю. Непрерывный и дискретный спектры оператора могут пересекаться. Объединение дискретного и непрерывного спектров называется просто с п е к т ро м. Спектр самосопряженного Л. о. всегда веществен. Видоизменяется спектральное разложение самосопряженного Л. о.: каждому интервалу вещественной оси от $URI[[http://libmeta.ru/fme/formula/aux/1613_104_LINEJNYJ]]/URI$ до $URI[[http://libmeta.ru/fme/formula/aux/1613_105_LINEJNYJ]]/URI$ сопоставляется нек-рый проектор $URI[[http://libmeta.ru/fme/formula/aux/1613_106_LINEJNYJ]]/URI$. Подпространство, на к-рое проектирует этот проектор, содержит все собственные подпространства оператора $URI[[http://libmeta.ru/fme/formula/aux/1613_107_LINEJNYJ]]/URI$, отвечающие собственным числам $URI[[http://libmeta.ru/fme/formula/aux/1613_108_LINEJNYJ]]/URI$ таким, что $URI[[http://libmeta.ru/fme/formula/aux/1613_109_LINEJNYJ]]/URI$, а также подпространство, ответственное за появление непрерывного спектра в интервале от $URI[[http://libmeta.ru/fme/formula/aux/1613_110_LINEJNYJ]]/URI$ до $URI[[http://libmeta.ru/fme/formula/aux/1613_111_LINEJNYJ]]/URI$. Оказывается, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1613_8_LINEJNYJ]]/URI
+\]
+
+где интеграл является пределом соответствующих сумм Дарбу, а интегрирование ведется по всей вещественной оси. Функция $URI[[http://libmeta.ru/fme/formula/aux/1613_112_LINEJNYJ]]/URI$ от самосопряженного Л. о. $URI[[http://libmeta.ru/fme/formula/aux/1613_113_LINEJNYJ]]/URI$ определяется интегралом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1613_9_LINEJNYJ]]/URI
+\]
+
+В квантовой URI[[http://libmeta.ru/fme/relation/1613_5_LINEJNYJ]]/URI Л.о. отвечают URI[[http://libmeta.ru/fme/relation/1613_4_LINEJNYJ]]/URI физич. величинам. Процедура квантования сводится к замене евклидовых канонич. координат и импульсов такими самосопряженными Л. о., что их коммутаторы совпадают с соответствующими скобками Пуассона. URI[[http://libmeta.ru/fme/relation/1613_3_LINEJNYJ]]/URI других URI[[http://libmeta.ru/fme/relation/1613_2_LINEJNYJ]]/URI величин выражают при помощи классич. формул через URI[[http://libmeta.ru/fme/relation/1613_1_LINEJNYJ]]/URI координат и импульсов.</text>
+  <text_orig>отображение, сопоставляющее каждому вектору $e$ некоторого множества $D$ (содержащегося в $L$ и называемого о 6 ла с т ью о п р е де л ен и я Л. о.) другой вектор, обозначаемый $A e$ (и называемый знач е н и м Л.о. на векторе $e$ ). Выполнены следующие условия: 1) $D$-линейное множество, то есть для любых его элементов $e_{1}$ и $e_{2}$ и любых комплексных чисел $\lambda_{1}$ и $\lambda_{2}$ вектор $\lambda_{1} e_{1}+\lambda_{2} e_{2}$ также принадлежит $D$; 2) Л. о. переводит линейную комбинацию векторов в ту же линейную комбинацию соответствующих значений: $A\left(\lambda_{1} e_{1}+\lambda_{2} e_{2}\right)=\lambda_{1} A e_{1}+\lambda_{2} A e_{2}$.
+
+П р и м е р ы Л. о.: матрица
+
+\[
+A=\left\|a_{i j}\right\|
+\]
+
+действующая в $n$-мерном евклидовом пространстве по правилу
+
+\[
+(A e)_{i}=\sum_{j=1}^{n} a_{i j} e_{j},
+\]
+
+где векторы $e_{j}$ - столбцы комплексных чисел;
+
+дифференциальный оператор
+
+\[
+A=a_{0}+a_{1} d / d x+\ldots+a_{n} d^{n} / d x^{n},
+\]
+
+определенный равенством
+
+$(A f)(x)=a_{0} f(x)+a_{1} d f(x) / d x+\ldots+a_{n} d^{n} f(x) / d x^{n} ;$
+
+интегральный оператор $A$, определенный соотношением
+
+\[
+(A f)(x)=\int d y A(x, y) f(y) .
+\]
+
+Конечномерные пространства. В конечномерном пространстве Л.о. можно определить на всех векторах и задать нек-рой матрицей $\left\|a_{i j}\right\|$. Если $e_{1}, e_{2}, \ldots, e_{n}$ - ортонормированный базис, то $a_{i j}=\left(e_{i}, A e_{j}\right)$, где $(e, f)-$ скалярное произведение векторов $e$ и $f$. Если для нек-рого вектора $e$ и комплексного числа $\lambda$ выполнено равенство $A e=\lambda e$, то $e$ называется собственным вектором (собственной функцие й), а $\lambda-$ собственным значением оператора $A$. Совокупность всех собственных значений называется д и с к р е т н ы м с п е к т р о м, а множество собственных векторов, отвечающих нек-рому собственному значению $\lambda,-$ с обс тве н ны м под п ространст вомЛ.
+
+Конечномерный Л. о. $U$ называется у н и та р ны м, если унитарна его матрица $\left\|u_{i j}\right\|$, то есть если
+
+\[
+\sum_{k} u_{i k} u_{i k}^{*}=\delta_{i j}
+\]
+
+где $\delta_{i j}=0$ при $i \neq j$ и $\delta_{i i}=1$. Унитарным является, напр., оператор поворота плоскости на угол $\varphi$. Собственные значения унитарного Л.о. лежат на единичной окружности в комплексной плоскости, то есть $\lambda=\exp (i \alpha)$, где $\alpha-$ вещественное число. Унитарные Л.о. оставляют неизменными длины векторов и углы между ними, то есть сохраняют скалярное произведение: $(e, f)=(U e, U f)$. Унитарные конечномерные Л.о. используют для описания различных симметрий физич. систем. Совокупность соответствующих Л. о. образует представление группы симметрии.
+
+Конечномерный оператор $A^{+}$называется с опря же нн ы м к $A$, если матрицы этих операторов связаны соотношениями $a_{i j}^{+}=a_{j i}^{*}$, то есть матрица $A^{+}$получается из матрицы $A$ в результате транспонирования и комплексного сопряжения. Если $A^{+}=A$, то оператор $A$ называется с а м о с о П р я же н н ы м, или э р м и т о в ы м. Пример самосопряженных конечномерных Л.о.- Паули матрицы, то есть операторы спина в квантовой механике. Самосопряженный Л. о. обладает важным свойством вещественности: $(e$, $A e)=(e, A e)^{*}$. Все собственные значения самосопряженного оператора также вещественны, а собственные векторы, отвечающие различным собственным значениям, попарно ортогональны. Ортонормированный базис в конечномерном пространстве можно составить из собственных векторов $e_{1}, e_{2}, \ldots, e_{n}$ самосопряженного Л. о. $A$. В этом базисе матрица Л. о. $A$ диагональна: $a_{i j}=\lambda_{j} \delta_{i j}$.
+
+Произведение $(A B)$ Л. о. $A$ и $B$ определяется результатом последовательного применения к вектору $e$ операторов $B$ и $A$, то есть $(A B) e=A(B e)$. Произведение операторов, вообще говоря, не перестановочно: $A B \neq B A$. Величина $A B-B A=[A, B]$ называется ко м м у та т о р о м Л. о. $A$ и $B$. Если Л. о. коммутируют, то есть $[A, B]=0$, то Л. о. $A$ и $B$ можно одновременно привести к диагональному виду, то есть в пространстве существует такой ортонормированный базис, что каждый его элемент является собственным для $A$ и для $B$.
+
+Самосопряженный Л. о. $P$ называется п р о екц и о н ным оператором, или проектором, если $P^{2}=P$. Для каждого проектора найдется такое подпространство $L_{P}$ пространства $L$, что $P e=e$, если $e$ принадлежит $L_{P}$, и $P e=0$, если $e$ принадлежит ортогональному дополнению $L_{P}$. Всякий конечномерный самосопряженный оператор $A$ можно представить в виде:
+
+\[
+A=\sum_{i} \lambda_{i} P_{i}
+\]
+
+где суммирование проводится по всем собственным значениям $\lambda_{i}$, а $P_{i}-$ проектор на собственное подпространство, отвечающее $\lambda_{i}$. Это равенство называется с пект ральны м р а з л ж е н и е м конечномерного самосопряженного оператора, оно позволяет строить различные функции $f(A)$ от самосопряженного Л. о. $A$ :
+
+\[
+f(A)=\sum f\left(\lambda_{i}\right) P_{i} .
+\]
+
+Всякий унитарный Л. о. $U$ в конечномерном пространстве допускает представление $U=\exp (i A)$, где $A-$ эрмитов Л. о. Если семейство $U$ реализует представление группы симмет- рии, то соответствующее семейство самосопряженных Л. о. $A$ задает представление алгебры Ли этой группы.
+
+Бесконечномерные пространства. В бесконечномерном гильбертовом пространстве Л.о., вообще говоря, нельзя определить на всех векторах. Обычно область определения $D$, не исчерпывая всего $L$, является всюду плотной (то есть любой вектор из $L$ можно с заданной точностью приблизить вектором из $D$ ). На всем пространстве можно задать только так наз. ограниченные (непрерывные) операторы. Л. о. $A$ называется ограниченным, если существует такая константа $C$, что для всех векторов $e$ из $D$ выполнено неравенство $(A e, A e) \leqslant C(e, e)$. Для неограниченного Л. усложняется понятие сопряженности. В бесконечномерном случае Л. о. помимо дискретного могут иметь и непрерывный спектр. Число $\lambda$ называется т очкой н е п р е ры вн о го с п е к р а, если найдется такая последовательность $e_{1}, e_{2}, \ldots, e_{i}, \ldots$ нормированных векторов, что все они ортогональны каждому собственному вектору оператора $A$, а при $i \rightarrow \infty$ норма векторов $A e_{i}-\lambda e_{i}$ стремится к нулю. Непрерывный и дискретный спектры оператора могут пересекаться. Объединение дискретного и непрерывного спектров называется просто с п е к т ро м. Спектр самосопряженного Л. о. всегда веществен. Видоизменяется спектральное разложение самосопряженного Л. о.: каждому интервалу вещественной оси от $\lambda$ до $\lambda+d \lambda$ сопоставляется нек-рый проектор $d P(\lambda)$. Подпространство, на к-рое проектирует этот проектор, содержит все собственные подпространства оператора $A$, отвечающие собственным числам $\lambda_{0}$ таким, что $\lambda&lt;\lambda_{0}&lt;\lambda+d \lambda$, а также подпространство, ответственное за появление непрерывного спектра в интервале от $\lambda$ до $\lambda+d \lambda$. Оказывается, что
+
+\[
+A=\int \lambda d P(\lambda),
+\]
+
+где интеграл является пределом соответствующих сумм Дарбу, а интегрирование ведется по всей вещественной оси. Функция $f(A)$ от самосопряженного Л. о. $A$ определяется интегралом
+
+\[
+f(A)=\int f(\lambda) d P(\lambda) .
+\]
+
+В квантовой теории самосопряженные Л.о. отвечают наблюдаемым физич. величинам. Процедура квантования сводится к замене евклидовых канонич. координат и импульсов такими самосопряженными Л. о., что их коммутаторы совпадают с соответствующими скобками Пуассона. Операторы других наблюдаемых величин выражают при помощи классич. формул через операторы координат и импульсов.
+
+Лuт.: [1] Н е й м ан И., Математические основы квантовой механики, пер. с нем., М., 1964; [2] Д и рак П., Принципы квантовой механики, пер. с англ., 2 изд., М., 1979; [3] К о с тр ики н А. И., Ман и н Ю. И., Линейная алгебра и геометрия, 2 изд., М., 1986; [4] Р и хтм ай е р Р., Принципы современной математической физики, пер. с англ., т. 1, М., 1982.</text_orig>
+</article>

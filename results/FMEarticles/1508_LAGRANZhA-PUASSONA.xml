@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1508_LAGRANZhA-PUASSONA" alphabetic_pos="1510">
+  <title>ЛАГРАНЖА-ПУАССОНА СЛУЧАЙ</title>
+  <authors>
+    <author>М. И. Войцеховский</author>
+  </authors>
+  <pages>
+    <start>312</start>
+    <end>313</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Lagr ang e J. L., Mécanique analytique, P., 1788; pyc. пер.: Аналитическая механика, т. 1-2, M., 1950; [2] P o is s o n S. D., Traite de mécanique, 2 éd., t. 2, Р., 1833, 1 éd., 1813; [3] А р нол ь д В. И., Математические методы классической механики, 2 изд., М., 1979; [4] Голу б е в В. В., Лекции по интегрированию уравнений движения тяжелого твердого тела около неподвижной точки, М., 1953; [5] Л а ндау Л. Д., Л и фш и ц Е. М., Механика, 3 изд., М., 1973.</literature_orig>
+    <unit>
+      <author>Lagrange J. L.</author>
+      <title>Mécanique analytique, P.</title>
+      <publication/>
+      <year>1788</year>
+      <other>т. 1-2, M., 1950</other>
+    </unit>
+    <unit>
+      <author>Poisson S. D.</author>
+      <title>Traite de mécanique, 2 éd., t. 2, Р.</title>
+      <publication/>
+      <year>1833</year>
+      <other>1 éd., 1813</other>
+    </unit>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <title>Математические методы классической механики</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Голубев В. В.</author>
+      <title>Лекции по интегрированию уравнений движения тяжелого твердого тела около неподвижной точки</title>
+      <publication>М.</publication>
+      <year>1953</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Механика</title>
+      <publication>3 изд., М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1508_1_LAGRANZhA-PUASSONA">r=r_{0}=\mathrm{const}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1508_2_LAGRANZhA-PUASSONA">\dot{u}^{2}=(\alpha-a u)\left(1-u^{2}\right)-\left(\beta-b r_{0} u\right)=P(u),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1508_3_LAGRANZhA-PUASSONA">\alpha=\frac{h-C r_{0}}{A}, \quad \beta=\frac{k}{A}, \quad a=-\frac{2 M g \cos \theta}{A}, \quad b=\frac{C}{A} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1508_4_LAGRANZhA-PUASSONA">\dot{\psi}=\frac{\beta-b r_{0} u}{1-u^{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1508_5_LAGRANZhA-PUASSONA">\dot{\varphi}=r_{0}-u \frac{\beta-b r_{0} u}{1-u^{2}} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1508_6_LAGRANZhA-PUASSONA">U_{\Im ф \Phi}=\frac{M_{3}^{2}}{2 M l^{2} \sin ^{2} v}+M g l \cos \vartheta</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_1_LAGRANZhA-PUASSONA">o z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_2_LAGRANZhA-PUASSONA">a=b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_3_LAGRANZhA-PUASSONA">x_{0}=y_{0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_4_LAGRANZhA-PUASSONA">z_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_5_LAGRANZhA-PUASSONA">o</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_6_LAGRANZhA-PUASSONA">\int \frac{d s}{\sqrt{P(s)}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_7_LAGRANZhA-PUASSONA">p(s)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_8_LAGRANZhA-PUASSONA">p(s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_9_LAGRANZhA-PUASSONA">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_10_LAGRANZhA-PUASSONA">u=\cos \vartheta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_11_LAGRANZhA-PUASSONA">\vartheta-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_12_LAGRANZhA-PUASSONA">p(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_13_LAGRANZhA-PUASSONA">[-1,+1]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_14_LAGRANZhA-PUASSONA">\theta_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_15_LAGRANZhA-PUASSONA">\theta_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_16_LAGRANZhA-PUASSONA">u=\dot{\beta} / b r_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_17_LAGRANZhA-PUASSONA">\left(u_{1}, u_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_18_LAGRANZhA-PUASSONA">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_19_LAGRANZhA-PUASSONA">u_{1}=u_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_20_LAGRANZhA-PUASSONA">\theta=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_21_LAGRANZhA-PUASSONA">u=u_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_22_LAGRANZhA-PUASSONA">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_23_LAGRANZhA-PUASSONA">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_24_LAGRANZhA-PUASSONA">o \bar{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_25_LAGRANZhA-PUASSONA">p(u)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_26_LAGRANZhA-PUASSONA">\vartheta=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_27_LAGRANZhA-PUASSONA">u_{2}=u_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_28_LAGRANZhA-PUASSONA">b^{2} r_{0}^{2}&gt;r a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_29_LAGRANZhA-PUASSONA">\left.t \rightarrow \infty\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_30_LAGRANZhA-PUASSONA">c=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_31_LAGRANZhA-PUASSONA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_32_LAGRANZhA-PUASSONA">a=b=m l^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_33_LAGRANZhA-PUASSONA">\vartheta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_34_LAGRANZhA-PUASSONA">e&gt;u_{\text {эфф, }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_35_LAGRANZhA-PUASSONA">e=u_{\text {эфф, где }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_36_LAGRANZhA-PUASSONA">\cos \vartheta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_37_LAGRANZhA-PUASSONA">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_38_LAGRANZhA-PUASSONA">о х</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_39_LAGRANZhA-PUASSONA">o \bar{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1508_40_LAGRANZhA-PUASSONA">o y</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/1508_1_LAGRANZhA-PUASSONA">
+      <rel_text>Твердое тело</rel_text>
+      <target>http://libmeta.ru/fme/article/3029_TVERDOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1508_2_LAGRANZhA-PUASSONA">
+      <rel_text>угловой скорости</rel_text>
+      <target>http://libmeta.ru/fme/article/3145_UGLOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1508_3_LAGRANZhA-PUASSONA">
+      <rel_text>собственного вращения</rel_text>
+      <target>http://libmeta.ru/fme/article/2841_SOBSTVENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1508_4_LAGRANZhA-PUASSONA">
+      <rel_text>маятник</rel_text>
+      <target>http://libmeta.ru/fme/article/1752_MAJaTNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1508_5_LAGRANZhA-PUASSONA">
+      <rel_text>маятник</rel_text>
+      <target>http://libmeta.ru/fme/article/1752_MAJaTNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1508_6_LAGRANZhA-PUASSONA">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1508_7_LAGRANZhA-PUASSONA">
+      <rel_text>частный</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1508_8_LAGRANZhA-PUASSONA">
+      <rel_text>траектория</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1508_9_LAGRANZhA-PUASSONA">
+      <rel_text>параллельных</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1508_10_LAGRANZhA-PUASSONA">
+      <rel_text>Область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>второй Из трех классических случаев интегрируемости уравнений движения тяжелого твердого тела около неподвижной точки (первый - Эйлера - Пуансо случай, третий - Ковалевской случай). Он характеризуется тем, что эллипсоид инерции - эллипсоид вращения (обычно вокруг оси $URI[[http://libmeta.ru/fme/formula/aux/1508_1_LAGRANZhA-PUASSONA]]/URI$ так, что $URI[[http://libmeta.ru/fme/formula/aux/1508_2_LAGRANZhA-PUASSONA]]/URI$ ) и центр тяжести тела расположен на той же оси $URI[[http://libmeta.ru/fme/formula/aux/1508_3_LAGRANZhA-PUASSONA]]/URI$ (она называется осью динам ическ ой симметрии) на расстоянии $URI[[http://libmeta.ru/fme/formula/aux/1508_4_LAGRANZhA-PUASSONA]]/URI$ от неподвижной точки $URI[[http://libmeta.ru/fme/formula/aux/1508_5_LAGRANZhA-PUASSONA]]/URI$ (см. URI[[http://libmeta.ru/fme/relation/1508_1_LAGRANZhA-PUASSONA]]/URI; движение около неподвижной точки). Уравнения Эйлера - Пуассона (i-Iii) обладают в этом случае дополнительным четвертым первым интегралом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1508_1_LAGRANZhA-PUASSONA]]/URI
+\]
+
+выражающим постоянство с п и на - составляющей угловой скорости вдоль оси тела; открыт Ж. Лагранжем [1]. Интегрирование уравнений движения в рассматриваемом случае, полнее проведенное С. Пуассоном [2], приводит к обращению нек-рого эллиптич. интеграла 1-го рода вида $URI[[http://libmeta.ru/fme/formula/aux/1508_6_LAGRANZhA-PUASSONA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1508_7_LAGRANZhA-PUASSONA]]/URI$ многочлен 3-й степени, и нескольким квадратурам (см. [3]). В случае, когда среди корней $URI[[http://libmeta.ru/fme/formula/aux/1508_8_LAGRANZhA-PUASSONA]]/URI$ есть равные, решение может быть получено в элементарных функциях.
+
+П рим еры.
+
+1) Симметричный волчок- тяжелое твердое тело, центр тяжести $URI[[http://libmeta.ru/fme/formula/aux/1508_9_LAGRANZhA-PUASSONA]]/URI$ к-рого находится в ы ш е неподвижной точки (называемой точкой опоры). Тогда из выражений для первых интегралов для $URI[[http://libmeta.ru/fme/formula/aux/1508_10_LAGRANZhA-PUASSONA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1508_11_LAGRANZhA-PUASSONA]]/URI$ угол наклона оси волчка, получается уравнение
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1508_2_LAGRANZhA-PUASSONA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1508_3_LAGRANZhA-PUASSONA]]/URI
+\]
+
+В механич. задаче многочлен $URI[[http://libmeta.ru/fme/formula/aux/1508_12_LAGRANZhA-PUASSONA]]/URI$ имеет три действительных корня, из к-рых лишь два - на отрезке $URI[[http://libmeta.ru/fme/formula/aux/1508_13_LAGRANZhA-PUASSONA]]/URI$. Следовательно, наклон оси волчка меняется периодически между двумя предельными значениями $URI[[http://libmeta.ru/fme/formula/aux/1508_14_LAGRANZhA-PUASSONA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1508_15_LAGRANZhA-PUASSONA]]/URI$. Это периодич. движение называется н ут а ц и е й.
+
+Движение волчка по азимуту, то есть изменение азимута оси, определяется уравнением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1508_4_LAGRANZhA-PUASSONA]]/URI
+\]
+
+В зависимости от расположения корня $URI[[http://libmeta.ru/fme/formula/aux/1508_16_LAGRANZhA-PUASSONA]]/URI$ уравнения относительно интервала $URI[[http://libmeta.ru/fme/formula/aux/1508_17_LAGRANZhA-PUASSONA]]/URI$ ось волчка чертит на единичной сфере либо кривую типа синусоиды, либо кривую с петлями или остриями (в последнем случае волчок сперва падает, но потом вновь поднимается). Азимутальное движение оси волчка называется п ре це с с и е й.
+
+Наконец, вращение вокруг собственной оси $URI[[http://libmeta.ru/fme/formula/aux/1508_18_LAGRANZhA-PUASSONA]]/URI$ (с о б с т венное вращение волчка) определяется квадратурой уравнения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1508_5_LAGRANZhA-PUASSONA]]/URI
+\]
+
+Таким образом, окончательное движение волчка состоит из вращения вокруг собственной оси, нутации и прецессии. Каждое из трех движений имеет свою частоту; если частоты несоизмеримы, то волчок никогда не возвращается в начальное состояние, хотя и подходит к нему сколь угодно близко.
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/1508_19_LAGRANZhA-PUASSONA]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/1508_20_LAGRANZhA-PUASSONA]]/URI$ const, $URI[[http://libmeta.ru/fme/formula/aux/1508_21_LAGRANZhA-PUASSONA]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1508_22_LAGRANZhA-PUASSONA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1508_23_LAGRANZhA-PUASSONA]]/URI$ - линейные функции времени. В этом случае тело равномерно враща- ется вокруг оси, равномерно вращающейся вокруг неподвижной оси $URI[[http://libmeta.ru/fme/formula/aux/1508_24_LAGRANZhA-PUASSONA]]/URI$ (ре гуля рная п рецессия).
+
+Если все три корня уравнения $URI[[http://libmeta.ru/fme/formula/aux/1508_25_LAGRANZhA-PUASSONA]]/URI$ равны, то ось волчка вертикальна $URI[[http://libmeta.ru/fme/formula/aux/1508_26_LAGRANZhA-PUASSONA]]/URI$, а угловая скорость постоянна (спящий волчок); если же лишь $URI[[http://libmeta.ru/fme/formula/aux/1508_27_LAGRANZhA-PUASSONA]]/URI$ и при этом $URI[[http://libmeta.ru/fme/formula/aux/1508_28_LAGRANZhA-PUASSONA]]/URI$, то движение будет асимптотически (при $URI[[http://libmeta.ru/fme/formula/aux/1508_29_LAGRANZhA-PUASSONA]]/URI$ стремиться к рассмотренному равномерному вращению, то есть имеем устойчивость спящего волчка.
+
+2) В р а а ю ш и й с я м а я т н и - тяжелое твердое тело, центр тяжести к-рого находится ниже неподвижной точки (называющейся точкой под вес а). Решение в этом случае аналогично примеру 1).
+
+Ниже приводится решение для с фе рического мая т н и к а, к-рый характеризуется тем, что момент инерции $URI[[http://libmeta.ru/fme/formula/aux/1508_30_LAGRANZhA-PUASSONA]]/URI$, то есть по существу сферич. маятник - это тяжелая материальная точка, движущаяся по поверхности сферы радиуса $URI[[http://libmeta.ru/fme/formula/aux/1508_31_LAGRANZhA-PUASSONA]]/URI$, при этом $URI[[http://libmeta.ru/fme/formula/aux/1508_32_LAGRANZhA-PUASSONA]]/URI$.
+
+URI[[http://libmeta.ru/fme/relation/1508_10_LAGRANZhA-PUASSONA]]/URI движения по углу $URI[[http://libmeta.ru/fme/formula/aux/1508_33_LAGRANZhA-PUASSONA]]/URI$ определяется условием $URI[[http://libmeta.ru/fme/formula/aux/1508_34_LAGRANZhA-PUASSONA]]/URI$, а ее граница - уравнением $URI[[http://libmeta.ru/fme/formula/aux/1508_35_LAGRANZhA-PUASSONA]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1508_6_LAGRANZhA-PUASSONA]]/URI
+\]
+
+Последнее представляет собой кубич. уравнение для $URI[[http://libmeta.ru/fme/formula/aux/1508_36_LAGRANZhA-PUASSONA]]/URI$, имеющее на отрезке $URI[[http://libmeta.ru/fme/formula/aux/1508_37_LAGRANZhA-PUASSONA]]/URI$ цва корня, определяющих положение двух URI[[http://libmeta.ru/fme/relation/1508_9_LAGRANZhA-PUASSONA]]/URI окружностей на сфере, между к-рыми заключена вся URI[[http://libmeta.ru/fme/relation/1508_8_LAGRANZhA-PUASSONA]]/URI (см. [4]). Замечательный URI[[http://libmeta.ru/fme/relation/1508_7_LAGRANZhA-PUASSONA]]/URI случай - п р о с т о й м а я т н и к - URI[[http://libmeta.ru/fme/relation/1508_6_LAGRANZhA-PUASSONA]]/URI, если (постоянный) момент количества движения около вертикальной оси равен нулю. Здесь ось тела $URI[[http://libmeta.ru/fme/formula/aux/1508_38_LAGRANZhA-PUASSONA]]/URI$ лежит в вертикальной плоскости, проходящей через ось $URI[[http://libmeta.ru/fme/formula/aux/1508_39_LAGRANZhA-PUASSONA]]/URI$, и, следовательно, ось $URI[[http://libmeta.ru/fme/formula/aux/1508_40_LAGRANZhA-PUASSONA]]/URI$ неподвижна, и URI[[http://libmeta.ru/fme/relation/1508_5_LAGRANZhA-PUASSONA]]/URI качается в этой плоскости.
+
+Наконец, URI[[http://libmeta.ru/fme/relation/1508_4_LAGRANZhA-PUASSONA]]/URI может быть вообще неподвижен, то есть здесь имеется устойчивость без ограничения снизу URI[[http://libmeta.ru/fme/relation/1508_3_LAGRANZhA-PUASSONA]]/URI URI[[http://libmeta.ru/fme/relation/1508_2_LAGRANZhA-PUASSONA]]/URI.</text>
+  <text_orig>вТОрОЙ ИЗ треХ классических случаев интегрируемости уравнений движения тяжелого твердого тела около неподвижной точки (первый - Эйлера - Пуансо случай, третий - Ковалевской случай). Он характеризуется тем, что эллипсоид инерции - эллипсоид вращения (обычно вокруг оси $O z$ так, что $A=B$ ) и центр тяжести тела расположен на той же оси $x_{0}=y_{0}=0$ (она называется осью динам ическ ой симметрии) на расстоянии $z_{0}$ от неподвижной точки $O$ (см. Твердое тело; движение около неподвижной точки). Уравнения Эйлера - Пуассона (I-III) обладают в этом случае дополнительным четвертым первым интегралом
+
+\[
+r=r_{0}=\mathrm{const}
+\]
+
+выражающим постоянство с п и на - составляющей угловой скорости вдоль оси тела; открыт Ж. Лагранжем [1]. Интегрирование уравнений движения в рассматриваемом случае, полнее проведенное С. Пуассоном [2], приводит к обращению нек-рого эллиптич. интеграла 1-го рода вида $\int \frac{d s}{\sqrt{P(s)}}$, где $P(s)-$ многочлен 3-й степени, и нескольким квадратурам (см. [3]). В случае, когда среди корней $P(s)$ есть равные, решение может быть получено в элементарных функциях.
+
+П рим еры.
+
+1) Симметричный волчок- тяжелое твердое тело, центр тяжести $D$ к-рого находится в ы ш е неподвижной точки (называемой точкой опоры). Тогда из выражений для первых интегралов для $u=\cos \vartheta$, где $\vartheta-$ угол наклона оси волчка, получается уравнение
+
+где
+
+\[
+\dot{u}^{2}=(\alpha-a u)\left(1-u^{2}\right)-\left(\beta-b r_{0} u\right)=P(u),
+\]
+
+\[
+\alpha=\frac{h-C r_{0}}{A}, \quad \beta=\frac{k}{A}, \quad a=-\frac{2 M g \cos \theta}{A}, \quad b=\frac{C}{A} .
+\]
+
+В механич. задаче многочлен $P(u)$ имеет три действительных корня, из к-рых лишь два - на отрезке $[-1,+1]$. Следовательно, наклон оси волчка меняется периодически между двумя предельными значениями $\theta_{1}$ и $\theta_{2}$. Это периодич. движение называется н ут а ц и е й.
+
+Движение волчка по азимуту, то есть изменение азимута оси, определяется уравнением
+
+\[
+\dot{\psi}=\frac{\beta-b r_{0} u}{1-u^{2}}
+\]
+
+В зависимости от расположения корня $u=\dot{\beta} / b r_{0}$ уравнения относительно интервала $\left(u_{1}, u_{2}\right)$ ось волчка чертит на единичной сфере либо кривую типа синусоиды, либо кривую с петлями или остриями (в последнем случае волчок сперва падает, но потом вновь поднимается). Азимутальное движение оси волчка называется п ре це с с и е й.
+
+Наконец, вращение вокруг собственной оси $\varphi$ (с о б с т венное вращение волчка) определяется квадратурой уравнения:
+
+\[
+\dot{\varphi}=r_{0}-u \frac{\beta-b r_{0} u}{1-u^{2}} .
+\]
+
+Таким образом, окончательное движение волчка состоит из вращения вокруг собственной оси, нутации и прецессии. Каждое из трех движений имеет свою частоту; если частоты несоизмеримы, то волчок никогда не возвращается в начальное состояние, хотя и подходит к нему сколь угодно близко.
+
+Если $u_{1}=u_{2}$, то $\theta=$ const, $u=u_{0}$, а $\varphi$ и $\psi$ - линейные функции времени. В этом случае тело равномерно враща- ется вокруг оси, равномерно вращающейся вокруг неподвижной оси $O \bar{z}$ (ре гуля рная п рецессия).
+
+Если все три корня уравнения $P(u)=0$ равны, то ось волчка вертикальна $\vartheta=0$, а угловая скорость постоянна (спящий волчок); если же лишь $u_{2}=u_{3}$ и при этом $b^{2} r_{0}^{2}&gt;r a$, то движение будет асимптотически (при $\left.t \rightarrow \infty\right)$ стремиться к рассмотренному равномерному вращению, то есть имеем устойчивость спящего волчка.
+
+2) В р а а ю ш и й с я м а я т н и - тяжелое твердое тело, центр тяжести к-рого находится ниже неподвижной точки (называющейся точкой под вес а). Решение в этом случае аналогично примеру 1).
+
+Ниже приводится решение для с фе рического мая т н и к а, к-рый характеризуется тем, что момент инерции $C=0$, то есть по существу сферич. маятник - это тяжелая материальная точка, движущаяся по поверхности сферы рациуса $l$, при этом $A=B=M l^{2}$.
+
+Область движения по углу $\vartheta$ определяется условием $E&gt;U_{\text {эфф, }}$, а ее граница - уравнением $E=U_{\text {эфф, где }}$
+
+\[
+U_{\Im ф \Phi}=\frac{M_{3}^{2}}{2 M l^{2} \sin ^{2} v}+M g l \cos \vartheta
+\]
+
+Последнее представляет собой кубич. уравнение для $\cos \vartheta$, имеющее на отрезке $[-1,1]$ цва корня, определяюших положение двух параллельных окружностей на сфере, между к-рыми заключена вся траектория (см. [4]). Замечательный частный случай - п р о с т о й м а я т н и к - получается, если (постоянный) момент количества движения около вертикальной оси равен нулю. Здесь ось тела $О х$ лежит в вертикальной плоскости, проходяшей через ось $O \bar{z}$, и, следовательно, ось $O y$ неподвижна, и маятник качается в этой плоскости.
+
+Наконец, маятник может быть вообще неподвижен, то есть здесь имеется устойчивость без ограничения снизу собственного вращения угловой скорости.
+
+Лum.: [1] Lagr ang e J. L., Mécanique analytique, P., 1788; pyc. пер.: Аналитическая механика, т. 1-2, M., 1950; [2] P o is s o n S. D., Traite de mécanique, 2 éd., t. 2, Р., 1833, 1 éd., 1813; [3] А р нол ь д В. И., Математические методы классической механики, 2 изд., М., 1979; [4] Голу б е в В. В., Лекшии по интегрированию уравнений движения тяжелого твердого тела около неподвижной точки, М., 1953; [5] Л а ндау Л. Д., Л и фш и ц Е. М., Механика, 3 изд., М., 1973. М. И. Войцеховский.</text_orig>
+</article>

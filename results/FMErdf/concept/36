@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1032_INTEGRAL'NOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1032_INTEGRAL'NOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/36</core:url>
+    <lbm:descriptor><![CDATA[ИНТЕГРАЛЬНОЕ МНОГООБРАЗИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#318"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_316"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_319"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_320"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_321"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_322"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>подмногообразие, касающееся распределения. $URI[[http://libmeta.ru/fme/formula/aux/1032_1_INTEGRAL'NOE]]/URI$-мерное распределение называется и нте гр и руемым (или слоен и м м), если через каждую точку <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразия</a> проходит $URI[[http://libmeta.ru/fme/formula/aux/1032_2_INTEGRAL'NOE]]/URI$-мерное И. м. Необходимые и достаточные условия интегрируемости распределения в терминах задающих его 1-форм дает теорема Фробениуса. Для распределения коразмерности 1, заданного $URI[[http://libmeta.ru/fme/formula/aux/1032_3_INTEGRAL'NOE]]/URI$ формой $URI[[http://libmeta.ru/fme/formula/aux/1032_4_INTEGRAL'NOE]]/URI$, это условие: <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_321">$$\alpha \wedge d \alpha=0$$</a>.<BR/></P><P>Максимальная размерность И. м. контактного распределения в $URI[[http://libmeta.ru/fme/formula/aux/1032_6_INTEGRAL'NOE]]/URI$ равна $URI[[http://libmeta.ru/fme/formula/aux/1032_7_INTEGRAL'NOE]]/URI$. Такие подмногообразия называются лежандровыми многообразиями.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#318">C. А. Табачников</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[поДМНогообразие, касающееся распределения. $k$-мерное распределение называется и нте гр и руемым (или слоен и м м), если через каждую точку многообразия проходит $k$-мерное И. м. Необходимые и достаточные условия интегрируемости распределения в терминах задающих его 1-форм дает теорема Фробениуса. Для распределения коразмерности 1, заданного $1-$ формой $\alpha$, это условие: $\alpha \wedge d \alpha=0$.
+
+Максимальная размерность И. м. контактного распределения в $M^{2 n+1}$ равна $n$. Такие подмногообразия называются лежандровыми многообразиями.
+
+C. А. Табачников]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3248_FAZOVYJ" alphabetic_pos="3250">
+  <title>ФАЗОВЫЙ ОБЪЕМ</title>
+  <authors/>
+  <pages>
+    <start>636</start>
+    <end>636</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3248_1_FAZOVYJ">d p d q=d p_{1} d q_{1} \ldots d p_{N} d q_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3248_2_FAZOVYJ">\int_{G} d p d q</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3248_1_FAZOVYJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3248_2_FAZOVYJ">q_{1}, \ldots, q_{N}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3248_3_FAZOVYJ">p_{1}, \ldots, p_{N}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3248_4_FAZOVYJ">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3248_5_FAZOVYJ">2 N</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/3248_1_FAZOVYJ">
+      <rel_text>Интегральный инвариант</rel_text>
+      <target>http://libmeta.ru/fme/article/1035_INTEGRAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3248_2_FAZOVYJ">
+      <rel_text>фазовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3248_3_FAZOVYJ">
+      <rel_text>Лиувилля теорема</rel_text>
+      <target>http://libmeta.ru/fme/article/1626_LIUVILLJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3248_4_FAZOVYJ">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3248_5_FAZOVYJ">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3248_6_FAZOVYJ">
+      <rel_text>обобщенные импульсы</rel_text>
+      <target>http://libmeta.ru/fme/article/2021_OBOBSchENNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3248_7_FAZOVYJ">
+      <rel_text>обобщенные координаты</rel_text>
+      <target>http://libmeta.ru/fme/article/2022_OBOBSchENNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3248_8_FAZOVYJ">
+      <rel_text>механич</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3248_9_FAZOVYJ">
+      <rel_text>фазового пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+  </relations>
+  <text>элемент объема URI[[http://libmeta.ru/fme/relation/3248_9_FAZOVYJ]]/URI. Для URI[[http://libmeta.ru/fme/relation/3248_8_FAZOVYJ]]/URI. системы с $URI[[http://libmeta.ru/fme/formula/aux/3248_1_FAZOVYJ]]/URI$ степенями свободы элементарный Ф.о. равен
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3248_1_FAZOVYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3248_2_FAZOVYJ]]/URI$ URI[[http://libmeta.ru/fme/relation/3248_7_FAZOVYJ]]/URI, а $URI[[http://libmeta.ru/fme/formula/aux/3248_3_FAZOVYJ]]/URI$ URI[[http://libmeta.ru/fme/relation/3248_6_FAZOVYJ]]/URI системы. Ф. о. конечной фазовой URI[[http://libmeta.ru/fme/relation/3248_5_FAZOVYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3248_4_FAZOVYJ]]/URI$ равен $URI[[http://libmeta.ru/fme/formula/aux/3248_5_FAZOVYJ]]/URI$-мерному интегралу
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3248_2_FAZOVYJ]]/URI
+\]
+
+Если система описывается Гамильтона уравнениями, то при движении URI[[http://libmeta.ru/fme/relation/3248_4_FAZOVYJ]]/URI Ф. о. остается неизменным (URI[[http://libmeta.ru/fme/relation/3248_3_FAZOVYJ]]/URI). Это позволяет ввести нормированные распределения функции в URI[[http://libmeta.ru/fme/relation/3248_2_FAZOVYJ]]/URI.
+
+См. также URI[[http://libmeta.ru/fme/relation/3248_1_FAZOVYJ]]/URI.</text>
+  <text_orig>элемент объема фазового пространства. Для механич. системы с $N$ степенями свободы элементарный Ф.о. равен
+
+\[
+d p d q=d p_{1} d q_{1} \ldots d p_{N} d q_{N}
+\]
+
+где $q_{1}, \ldots, q_{N}-$ обобщенные координаты, а $p_{1}, \ldots, p_{N}-$ обобщенные импульсы системы. Ф. о. конечной фазовой области $G$ равен $2 N$-мерному интегралу
+
+\[
+\int_{G} d p d q
+\]
+
+Если система описывается Гамильтона уравнениями, то при движении частиц Ф. о. остается неизменным (Лиувилля теорема). Это позволяет ввести нормированные распределения функции в фазовом пространстве.
+
+См. также Интегральный инвариант.</text_orig>
+</article>

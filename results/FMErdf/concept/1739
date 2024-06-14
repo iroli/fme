@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2566_RAUSA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2566_RAUSA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1739</core:url>
+    <lbm:descriptor><![CDATA[РАУСА ФУНКЦИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#13080"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13081"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13082"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4845"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11202"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13083"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1262"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13084"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13085"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13086"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13087"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13088"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13089"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>характеристическая функция механической системы, выраженная через п е р е м н ны е Р а у с а, которыми являются время $URI[[http://libmeta.ru/fme/formula/aux/2566_1_RAUSA]]/URI$, все $URI[[http://libmeta.ru/fme/formula/aux/2566_2_RAUSA]]/URI$ обобщенных координат <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13082">$$q_{v}$$</a> системы, обобщенные скорости $URI[[http://libmeta.ru/fme/formula/aux/2566_4_RAUSA]]/URI$, соответствующие каким-то $URI[[http://libmeta.ru/fme/formula/aux/2566_5_RAUSA]]/URI$ из этих координат, и обобщенные импульсы $URI[[http://libmeta.ru/fme/formula/aux/2566_6_RAUSA]]/URI$, соответствующие остальным $URI[[http://libmeta.ru/fme/formula/aux/2566_7_RAUSA]]/URI$ координатам. Такой выбор переменных удобен, когда <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13083">$$s-m$$</a> координат $URI[[http://libmeta.ru/fme/formula/aux/2566_9_RAUSA]]/URI$ являются циклическими координатами. Если Лагранжа функция <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13084">$$l\left(q_{v}, \dot{q}_{v}\right)$$</a> для данной системы известна, то Р. ф. определяется из равенства<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13081">$$R\left(t, q_{i}, q_{k}, \dot{q}_{i}, p_{k}\right)=\sum_{k=m+1}^{s} p_{k} \dot{q}_{k}-L,$$</a><BR/></P><P>в правой части к-рого все <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13085">$$\dot{q}_{k}, k=m+1, \ldots, s$$</a>, следует выразить через $URI[[http://libmeta.ru/fme/formula/aux/2566_12_RAUSA]]/URI$, используя соотношения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13086">$$p_{k}=\partial L / \hat{\partial} q_{k}$$</a>. Когда координаты $URI[[http://libmeta.ru/fme/formula/aux/2566_14_RAUSA]]/URI$ являются циклическими, они в Р. ф. не входят; при этом одновременно <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13087">$$p_{k}=\mathrm{const}=\alpha_{k}$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13088">$$r=r\left(t, q_{i}\right.$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13089">$$\left.\dot{q}_{i}, \alpha_{k}\right)$$</a>. См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2565_RAUSA">Рауса уравнения</a>. $URI[[http://libmeta.ru/fme/formula/aux/2566_18_RAUSA]]/URI$<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#13080">C. M. Таре</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[характеристическая функция механической системы, выраженная через п е р е м н ны е Р а у с а, которыми являются время $t$, все $s$ обобщенных координат $q_{v}$ системы, обобщенные скорости $\dot{q}_{i}$, соответствующие каким-то $m$ из этих координат, и обобщенные импульсы $p_{k}$, соответствующие остальным $s-m$ координатам. Такой выбор переменных удобен, когда $s-m$ координат $q_{k}$ являются циклическими координатами. Если Лагранжа функция $L\left(q_{v}, \dot{q}_{v}\right)$ для данной системы известна, то Р. ф. определяется из равенства
+
+\[
+R\left(t, q_{i}, q_{k}, \dot{q}_{i}, p_{k}\right)=\sum_{k=m+1}^{s} p_{k} \dot{q}_{k}-L,
+\]
+
+в правой части к-рого все $\dot{q}_{k}, k=m+1, \ldots, s$, следует выразить через $p_{k}$, используя соотношения $p_{k}=\partial L / \hat{\partial} q_{k}$. Когда координаты $q_{k}$ являются циклическими, они в Р. ф. не входят; при этом одновременно $p_{k}=\mathrm{const}=\alpha_{k}$ и $R=R\left(t, q_{i}\right.$, $\left.\dot{q}_{i}, \alpha_{k}\right)$. См. также Рауса уравнения. $\quad$ C.M. Таре.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2565_RAUSA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

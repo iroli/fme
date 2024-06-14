@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1592_LI-JaNGA" alphabetic_pos="1594">
+  <title>ЛИ-ЯНГА ТЕОРИЯ</title>
+  <authors>
+    <author>П. В. Мальиев</author>
+  </authors>
+  <pages>
+    <start>326</start>
+    <end>327</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Yang C. N., Le e T. D., «phys. Rev.», 1952, v. 87, p. 404; там же, р. 410; [2] Рюэл ь Д., Статистическая механика. Строгие результаты, пер. с англ., М., 1971; [3] Ruelle D., «comm. Math. Phys.», 1970, v. 18, p. 127; [4] Майер Дж., Геппертм ай е р М., Статистическая механика, пер. с англ., М., 1980; [5] Гл и м м Дж., Джа ф фе А., Математические методы квантовой физики, пер. с англ., М., 1984.</literature_orig>
+    <unit>
+      <author>Yang C. N.</author>
+      <author>Lee T. D.</author>
+      <title>«phys. Rev.»</title>
+      <publication/>
+      <year>1952</year>
+      <other>v. 87, p. 404; там же, р. 410</other>
+    </unit>
+    <unit>
+      <author>Рюэль Д.</author>
+      <title>Статистическая механика. Строгие результаты</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ruelle D.</author>
+      <title>«comm. Math. Phys.»</title>
+      <publication/>
+      <year>1970</year>
+      <other>v. 18, p. 127</other>
+    </unit>
+    <unit>
+      <title>Майер Дж., Геппертм ай е р М., Статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Гл и м м Дж., Джа ф фе А., Математические методы квантовой физики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1592_1_LI-JaNGA">\Xi=\sum_{n=0}^{\infty} z^{n} Q_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1592_2_LI-JaNGA">Q_{n}=\frac{1}{n !} \int_{\Lambda^{n}} d x_{1} \ldots d x_{n} \exp \left(-\beta V\left(x_{1}, \ldots, x_{n}\right)\right), \quad n \geqslant 1,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1592_3_LI-JaNGA">\begin{gathered}p_{\Lambda}(z, \beta)=\frac{1}{\beta V(\Lambda)} \ln \Xi_{\Lambda}(z, \beta), \\\rho_{\Lambda}(z, \beta)=\frac{\langle N\rangle}{V(\Lambda)}=\frac{z}{V(\Lambda)} \frac{d}{d z} \ln \Xi_{\Lambda}(z, \beta) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1592_4_LI-JaNGA">p(z, \beta)=\lim _{V(\Lambda) \rightarrow \infty} p_{\Lambda}(z, \beta)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1592_5_LI-JaNGA">\rho(z, \beta)=\lim _{V(\Lambda) \rightarrow \infty} \rho_{\Lambda}(z, \beta)=\frac{\partial(\beta p(z, \beta))}{\partial(\ln z)}=\beta z \frac{\partial p}{\partial z} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1592_6_LI-JaNGA">d \mu_{i}(\xi)=e^{-P_{i}(\xi)} d \xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1592_7_LI-JaNGA">H(\xi)=-\sum_{i, j} J_{i j} \xi_{i} \xi_{j}-\sum_{i} h_{i} \xi_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1592_8_LI-JaNGA">Z_{\Lambda}\left(\left\{h_{i}\right\}\right)=\int e^{-H(\xi)} \prod_{i \in \Lambda} e^{-P_{i}\left(\xi_{i}\right)} d \xi_{i} \neq 0, \quad \Lambda \subset \mathbb{Z}^{\nu} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1592_9_LI-JaNGA">f_{\Lambda}=(V(\Lambda))^{-1} \ln Z_{\Lambda}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_1_LI-JaNGA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_2_LI-JaNGA">q_{0}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_3_LI-JaNGA">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_4_LI-JaNGA">v(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_5_LI-JaNGA">p_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_6_LI-JaNGA">\rho_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_7_LI-JaNGA">(\langle N\rangle-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_8_LI-JaNGA">n&lt;\infty(v(\lambda)&lt;\infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_9_LI-JaNGA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_10_LI-JaNGA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_11_LI-JaNGA">(v(\lambda))^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_12_LI-JaNGA">\langle N\rangle \rightarrow \infty, V(\Lambda) \rightarrow \infty, \rho=\langle N\rangle / V(\Lambda)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_13_LI-JaNGA">|z|=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_14_LI-JaNGA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_15_LI-JaNGA">v(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_16_LI-JaNGA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_17_LI-JaNGA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_18_LI-JaNGA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_19_LI-JaNGA">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_20_LI-JaNGA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_21_LI-JaNGA">\rho(z, \beta)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_22_LI-JaNGA">z&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_23_LI-JaNGA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_24_LI-JaNGA">\rho(z, \beta)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_25_LI-JaNGA">)-3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_26_LI-JaNGA">\mathrm{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_27_LI-JaNGA">p_{i}(\xi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_28_LI-JaNGA">\xi= \pm 1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_29_LI-JaNGA">j_{i j} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_30_LI-JaNGA">h_{i} \equiv h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_31_LI-JaNGA">z=e^{\beta h}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_32_LI-JaNGA">|z| \neq 1(\operatorname{Re} h \neq 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1592_33_LI-JaNGA">|z| \neq 1</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/1592_1_LI-JaNGA">
+      <rel_text>спинов</rel_text>
+      <target>http://libmeta.ru/fme/article/2898_SPINO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1592_2_LI-JaNGA">
+      <rel_text>векторнозначных</rel_text>
+      <target>http://libmeta.ru/fme/article/356_VEKTOR-POTENTsIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1592_3_LI-JaNGA">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1592_4_LI-JaNGA">
+      <rel_text>свободная энергия</rel_text>
+      <target>http://libmeta.ru/fme/article/2696_SVOBODNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1592_5_LI-JaNGA">
+      <rel_text>активность</rel_text>
+      <target>http://libmeta.ru/fme/article/46_AKTIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1592_6_LI-JaNGA">
+      <rel_text>модели Изинга</rel_text>
+      <target>http://libmeta.ru/fme/article/970_IZINGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1592_7_LI-JaNGA">
+      <rel_text>системы с гамильтонианом</rel_text>
+      <target>http://libmeta.ru/fme/article/2356_PREDEL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1592_8_LI-JaNGA">
+      <rel_text>Рассмотрим</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+  </relations>
+  <text>теория, предложенная Янгом (yang C. N.) и Ли (lee T. D.) в 1952 для математического описания фазовых переходов в статистических системах. В Л.- Я. т. фазовые переходы связываются с распределением нулей (корней) большой статистич. суммы, рассматриваемой как многочлен по активности $URI[[http://libmeta.ru/fme/formula/aux/1592_1_LI-JaNGA]]/URI$ с действительными и положительными коэффициентами, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1592_1_LI-JaNGA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1592_2_LI-JaNGA]]/URI$, а
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1592_2_LI-JaNGA]]/URI
+\]
+
+- конфигурационный интеграл, $URI[[http://libmeta.ru/fme/formula/aux/1592_3_LI-JaNGA]]/URI$ - область, в к-рой находится система, $URI[[http://libmeta.ru/fme/formula/aux/1592_4_LI-JaNGA]]/URI$ - ее объем.
+
+В точках фазовых переходов термодинамич. функции системы (или их производные) имеют особенности 1-го или 2-го рода. В большом канонич. ансамбле термодинамич. функции выражаются через логарифм большой статистич.
+
+\section{6 ли}
+
+суммы, напр. для давления $URI[[http://libmeta.ru/fme/formula/aux/1592_5_LI-JaNGA]]/URI$ и плотности $URI[[http://libmeta.ru/fme/formula/aux/1592_6_LI-JaNGA]]/URI$ имеют $URI[[http://libmeta.ru/fme/formula/aux/1592_7_LI-JaNGA]]/URI$ среднее число частиц в системе):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1592_3_LI-JaNGA]]/URI
+\]
+
+Следовательно, особенности термодинамич. функций могут быть связаны только с нулями большой статистич. суммы. При $URI[[http://libmeta.ru/fme/formula/aux/1592_8_LI-JaNGA]]/URI$ большая статистич. сумма не имеет нулей на положительной действительной полуоси $URI[[http://libmeta.ru/fme/formula/aux/1592_9_LI-JaNGA]]/URI$, а комплексные нули являются попарно сопряженными. Янг и Ли доказали, что корни большой статистич. суммы лежат в комплексной плоскости на кривой, симметричной относительно действительной оси. При нечетном $URI[[http://libmeta.ru/fme/formula/aux/1592_10_LI-JaNGA]]/URI$ один из корней лежит на отрицательной полуоси действительной оси. Среднее расстояние между корнями большой статистич. суммы на кривой пропорционально $URI[[http://libmeta.ru/fme/formula/aux/1592_11_LI-JaNGA]]/URI$ и стремится к нулю при $URI[[http://libmeta.ru/fme/formula/aux/1592_12_LI-JaNGA]]/URI$ const, то есть в термодинамич. пределе. В термодинамич. пределе нули большой статистич. суммы могут выходить на положительную полуось действительной оси, становясь причиной появления особенностей термодинамич. функций и, следовательно, фазовых переходов. Янг и Ли доказали несколько теорем, позволивших описать поведение статистич. систем частиц с твердой сердцевиной в термодинамич. пределе. Был выделен также класс решетчатых систем, для к-рых все нули большой статистич. суммы лежат на окружности $URI[[http://libmeta.ru/fme/formula/aux/1592_13_LI-JaNGA]]/URI$. Установлено, что:
+
+1) при любых положительных $URI[[http://libmeta.ru/fme/formula/aux/1592_14_LI-JaNGA]]/URI$ существует конечный предел
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1592_4_LI-JaNGA]]/URI
+\]
+
+К-рый достигается асимптотически при больших $URI[[http://libmeta.ru/fme/formula/aux/1592_15_LI-JaNGA]]/URI$ и является непрерывной неубывающей функцией $URI[[http://libmeta.ru/fme/formula/aux/1592_16_LI-JaNGA]]/URI$;
+
+2) для всех $URI[[http://libmeta.ru/fme/formula/aux/1592_17_LI-JaNGA]]/URI$, принадлежащих области в комплексной плоскости, содержащей отрезок положительной действительной полуоси и свободной от нулей большой статистич. суммы, термодинамич. предел для давления достигается равномерно по $URI[[http://libmeta.ru/fme/formula/aux/1592_18_LI-JaNGA]]/URI$, а предельное давление $URI[[http://libmeta.ru/fme/formula/aux/1592_19_LI-JaNGA]]/URI$ является аналитич. функцией $URI[[http://libmeta.ru/fme/formula/aux/1592_20_LI-JaNGA]]/URI$;
+
+3) для плотности $URI[[http://libmeta.ru/fme/formula/aux/1592_21_LI-JaNGA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1592_5_LI-JaNGA]]/URI
+\]
+
+Отсюда следует, что давление не имеет разрывов при $URI[[http://libmeta.ru/fme/formula/aux/1592_22_LI-JaNGA]]/URI$, a его производная по $URI[[http://libmeta.ru/fme/formula/aux/1592_23_LI-JaNGA]]/URI$ и плотность $URI[[http://libmeta.ru/fme/formula/aux/1592_24_LI-JaNGA]]/URI$ имеют в точках нулей большой статистич. суммы конечные скачки. Это означает, что имеет место фазовый переход 1-го рода. Если на положительную полуось попадает изолированный нуль большой статистич. суммы, то 1-я производная давления (плотности) непрерывна, а разрыв имеет 2-я производная (фазовый переход 2-го рода)
+
+Обобщение утверждений 1$URI[[http://libmeta.ru/fme/formula/aux/1592_25_LI-JaNGA]]/URI$ ) на случай сверхустойчивого регулярного и регулярного снизу потенциала взаимодействия принадлежит Д. Рюэлю [3].
+
+URI[[http://libmeta.ru/fme/relation/1592_8_LI-JaNGA]]/URI решетчатые спиновые URI[[http://libmeta.ru/fme/relation/1592_7_LI-JaNGA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1592_26_LI-JaNGA]]/URI$. Считаем, что распределение отдельного спина имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1592_6_LI-JaNGA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1592_27_LI-JaNGA]]/URI$ - четный многочлен 4-й степени (URI[[http://libmeta.ru/fme/relation/1592_6_LI-JaNGA]]/URI соответствует $URI[[http://libmeta.ru/fme/formula/aux/1592_28_LI-JaNGA]]/URI$. Пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1592_7_LI-JaNGA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1592_29_LI-JaNGA]]/URI$ (ферромагнитное взаимодействие), и пусть $URI[[http://libmeta.ru/fme/formula/aux/1592_30_LI-JaNGA]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1592_31_LI-JaNGA]]/URI$ URI[[http://libmeta.ru/fme/relation/1592_5_LI-JaNGA]]/URI. Тогда при $URI[[http://libmeta.ru/fme/formula/aux/1592_32_LI-JaNGA]]/URI$ статистич. сумма
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1592_8_LI-JaNGA]]/URI
+\]
+
+При этом URI[[http://libmeta.ru/fme/relation/1592_4_LI-JaNGA]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1592_9_LI-JaNGA]]/URI
+\] является аналитич. функцией в URI[[http://libmeta.ru/fme/relation/1592_3_LI-JaNGA]]/URI, не содержащей нулей статистич. суммы, то есть при $URI[[http://libmeta.ru/fme/formula/aux/1592_33_LI-JaNGA]]/URI$. Теоремы Ли Янга справедливы и в случае двух-, трехкомпонентных URI[[http://libmeta.ru/fme/relation/1592_2_LI-JaNGA]]/URI URI[[http://libmeta.ru/fme/relation/1592_1_LI-JaNGA]]/URI (см. [5]).</text>
+  <text_orig>теория, предложенная Янгом (Yang C. N.) и Ли (Lee T. D.) в 1952 для математического описания фазовых переходов в статистических системах. В Л.- Я. т. фазовые переходы связываются с распределением нулей (корней) большой статистич. суммы, рассматриваемой как многочлен по активности $z$ с действительными и положительными коэффициентами, то есть
+
+\[
+\Xi=\sum_{n=0}^{\infty} z^{n} Q_{n}
+\]
+
+где $Q_{0}=1$, а
+
+\[
+Q_{n}=\frac{1}{n !} \int_{\Lambda^{n}} d x_{1} \ldots d x_{n} \exp \left(-\beta V\left(x_{1}, \ldots, x_{n}\right)\right), \quad n \geqslant 1,
+\]
+
+- конфигурационный интеграл, $\Lambda$ - область, в к-рой находится система, $V(\Lambda)$ - ее объем.
+
+В точках фазовых переходов термодинамич. функции системы (или их производные) имеют особенности 1-го или 2-го рода. В большом канонич. ансамбле термодинамич. функции выражаются через логарифм большой статистич.
+
+\section{6 ли}
+
+суммы, напр. для давления $p_{\Lambda}$ и плотности $\rho_{\Lambda}$ имеют $(\langle N\rangle-$ среднее число частиц в системе):
+
+\[
+\begin{gathered}
+p_{\Lambda}(z, \beta)=\frac{1}{\beta V(\Lambda)} \ln \Xi_{\Lambda}(z, \beta), \\
+\rho_{\Lambda}(z, \beta)=\frac{\langle N\rangle}{V(\Lambda)}=\frac{z}{V(\Lambda)} \frac{d}{d z} \ln \Xi_{\Lambda}(z, \beta) .
+\end{gathered}
+\]
+
+Следовательно, особенности термодинамич. функций могут быть связаны только с нулями большой статистич. суммы. При $N&lt;\infty(V(\Lambda)&lt;\infty)$ большая статистич. сумма не имеет нулей на положительной действительной полуоси $z$, а комплексные нули являются попарно сопряженными. Янг и Ли доказали, что корни большой статистич. суммы лежат в комплексной плоскости на кривой, симметричной относительно действительной оси. При нечетном $N$ один из корней лежит на отрицательной полуоси действительной оси. Среднее расстояние между корнями большой статистич. суммы на кривой пропорционально $(V(\Lambda))^{-1}$ и стремится к нулю при $\langle N\rangle \rightarrow \infty, V(\Lambda) \rightarrow \infty, \rho=\langle N\rangle / V(\Lambda)=$ const, то есть в термодинамич. пределе. В термодинамич. пределе нули большой статистич. суммы могут выходить на положительную полуось действительной оси, становясь причиной появления особенностей термодинамич. функций и, следовательно, фазовых переходов. Янг и Ли доказали несколько теорем, позволивших описать поведение статистич. систем частиц с твердой сердцевиной в термодинамич. пределе. Был выделен также класс решетчатых систем, для к-рых все нули большой статистич. суммы лежат на окружности $|z|=1$. Установлено, что:
+
+1) при любых положительных $z$ существует конечный предел
+
+\[
+p(z, \beta)=\lim _{V(\Lambda) \rightarrow \infty} p_{\Lambda}(z, \beta)
+\]
+
+К-рый достигается асимптотически при больших $V(\Lambda)$ и является непрерывной неубывающей функцией $z$;
+
+2) для всех $z$, принадлежащих области в комплексной плоскости, содержащей отрезок положительной действительной полуоси и свободной от нулей большой статистич. суммы, термодинамич. предел для давления достигается равномерно по $z$, а предельное давление $p$ является аналитич. функцией $z$;
+
+3) для плотности $\rho(z, \beta)$ :
+
+\[
+\rho(z, \beta)=\lim _{V(\Lambda) \rightarrow \infty} \rho_{\Lambda}(z, \beta)=\frac{\partial(\beta p(z, \beta))}{\partial(\ln z)}=\beta z \frac{\partial p}{\partial z} .
+\]
+
+Отсюда следует, что давление не имеет разрывов при $z&gt;0$, a его производная по $z$ и плотность $\rho(z, \beta)$ имеют в точках нулей большой статистич. суммы конечные скачки. Это означает, что имеет место фазовый переход 1-го рода. Если на положительную полуось попадает изолированный нуль большой статистич. суммы, то 1-я производная давления (плотности) непрерывна, а разрыв имеет 2-я производная (фазовый переход 2-го рода)
+
+Обобщение утверждений 1$)-3$ ) на случай сверхустойчивого регулярного и регулярного снизу потенциала взаимодействия принадлежит Д. Рюэлю [3].
+
+Рассмотрим решетчатые спиновые системы с гамильтонианом $\mathrm{H}$. Считаем, что распределение отдельного спина имеет вид:
+
+\[
+d \mu_{i}(\xi)=e^{-P_{i}(\xi)} d \xi
+\]
+
+где $P_{i}(\xi)$ - четный многочлен 4-й степени (модели Изинга соответствует $\xi= \pm 1)$. Пусть
+
+\[
+H(\xi)=-\sum_{i, j} J_{i j} \xi_{i} \xi_{j}-\sum_{i} h_{i} \xi_{i}
+\]
+
+где $J_{i j} \geqslant 0$ (ферромагнитное взаимодействие), и пусть $h_{i} \equiv h$, а $z=e^{\beta h}-$ активность. Тогда при $|z| \neq 1(\operatorname{Re} h \neq 0)$ статистич. сумма
+
+\[
+Z_{\Lambda}\left(\left\{h_{i}\right\}\right)=\int e^{-H(\xi)} \prod_{i \in \Lambda} e^{-P_{i}\left(\xi_{i}\right)} d \xi_{i} \neq 0, \quad \Lambda \subset \mathbb{Z}^{\nu} .
+\]
+
+При этом свободная энергия
+
+\[
+f_{\Lambda}=(V(\Lambda))^{-1} \ln Z_{\Lambda}
+\] является аналитич. функцией в области, не содержащей нулей статистич. суммы, то есть при $|z| \neq 1$. Теоремы Ли Янга справедливы и в случае двух-, трехкомпонентных векторнозначных спинов (см. [5]).
+
+Jum.: [1] Yang C. N., Le e T. D., «Phys. Rev.», 1952, v. 87, p. 404; там же, р. 410; [2] Рюэл ь Д., Статистическая механика. Строгие результаты, пер. с англ., М., 1971; [3] Ruelle D., «Comm. Math. Phys.», 1970, v. 18, p. 127; [4] Майер Дж., ГеппертМ ай е р М., Статистическая механика, пер. с англ., М., 1980; [5] Гл и м м Дж., Джа ф фе А., Математические методы квантовой физики, пер. с англ., М., 1984.
+
+П. В. Мальиев.</text_orig>
+</article>

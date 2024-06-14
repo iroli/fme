@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1763_MEMBRANY" alphabetic_pos="1765">
+  <title>МЕМБРАНЫ ЗАДАЧА</title>
+  <authors/>
+  <pages>
+    <start>356</start>
+    <end>356</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Фр идман А., Вариационные принципы и задачи со свободными границами, М., 1990.</literature_orig>
+    <unit>
+      <author>Фридман А.</author>
+      <title>Вариационные принципы и задачи со свободными границами</title>
+      <publication>М.</publication>
+      <year>1990</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main/>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_1_MEMBRANY">u(x), x \in D]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_2_MEMBRANY">\partial D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_3_MEMBRANY">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_4_MEMBRANY">\varphi \in C(\bar{D}), \varphi \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_5_MEMBRANY">\partial D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_6_MEMBRANY">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_7_MEMBRANY">i(v)=\frac{1}{2} \int|\nabla v|^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_8_MEMBRANY">k=\left\{v \in \stackrel{\circ}{W}_{2}^{1}(D) \mid v \geqslant \varphi\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_9_MEMBRANY">\left.D\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1763_10_MEMBRANY">\partial\{x \in \bar{D}: v&gt;\varphi\}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1763_1_MEMBRANY">
+      <rel_text>частным</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1763_2_MEMBRANY">
+      <rel_text>интеграл энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/1028_INTEGRAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1763_3_MEMBRANY">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>задача отыскания формы [смещения $URI[[http://libmeta.ru/fme/formula/aux/1763_1_MEMBRANY]]/URI$, которую примет упругая мембрана, закрепленная на границе $URI[[http://libmeta.ru/fme/formula/aux/1763_2_MEMBRANY]]/URI$ URI[[http://libmeta.ru/fme/relation/1763_3_MEMBRANY]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1763_3_MEMBRANY]]/URI$, при растяжении телом заданной формы [препятствием $URI[[http://libmeta.ru/fme/formula/aux/1763_4_MEMBRANY]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1763_5_MEMBRANY]]/URI$, если внешние силы отсутствуют. Решение $URI[[http://libmeta.ru/fme/formula/aux/1763_6_MEMBRANY]]/URI$ должно минимизировать URI[[http://libmeta.ru/fme/relation/1763_2_MEMBRANY]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1763_7_MEMBRANY]]/URI$ на множестве допустимых смещений, то есть на $URI[[http://libmeta.ru/fme/formula/aux/1763_8_MEMBRANY]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1763_9_MEMBRANY]]/URI$. М. з. является URI[[http://libmeta.ru/fme/relation/1763_1_MEMBRANY]]/URI случаем препятствия задачи. Множество $URI[[http://libmeta.ru/fme/formula/aux/1763_10_MEMBRANY]]/URI$, на к-ром мембрана «отлипает» от препятствия, априори неизвестно, и оно является свободной (неизвестной) границей.</text>
+  <text_orig>задача отыскания формы [смещения $u(x), x \in D]$, которую примет упругая мембрана, закрепленная на границе $\partial D$ области $D$, при растяжении телом заданной формы [препятствием $\varphi \in C(\bar{D}), \varphi \leqslant 0$ на $\partial D$, если внешние силы отсутствуют. Решение $u$ должно минимизировать интеграл энергии $I(v)=\frac{1}{2} \int|\nabla v|^{2}$ на множестве допустимых смещений, то есть на $K=\left\{v \in \stackrel{\circ}{W}_{2}^{1}(D) \mid v \geqslant \varphi\right.$ в $\left.D\right\}$. М. з. является частным случаем препятствия задачи. Множество $\partial\{x \in \bar{D}: v&gt;\varphi\}$, на к-ром мембрана «отлипает» от препятствия, априори неизвестно, и оно является свободной (неизвестной) границей.
+
+Лum.: [1] Фр идман А., Вариационные принципы и задачи со свободными границами, М., 1990.</text_orig>
+</article>

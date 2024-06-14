@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2472_PUASSONA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2472_PUASSONA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1635</core:url>
+    <lbm:descriptor><![CDATA[ПУАССОНА СКОБКИ; КВАНТОВЫЕ ПОПРАВКИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1797"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#12266"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#12268"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#12269"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12270"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12271"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12272"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1791"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_677"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12273"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12274"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12275"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12276"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12277"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>коэффициенты $URI[[http://libmeta.ru/fme/formula/aux/2472_1_PUASSONA]]/URI$ разложения по степеням $URI[[http://libmeta.ru/fme/formula/aux/2472_2_PUASSONA]]/URI$ правых частей нелинейных коммутационных соотношений между квантовыми наблюдаемыми<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12270">$$\left[A^{j}, A^{k}\right]=i \hbar \Psi_{h}^{j k}\left(A^{\mathrm{l}}, \ldots, A^{n}\right), \Psi_{h}=\Psi_{0}+\hbar \Phi+\hbar^{2} R+\ldots,$$</a><BR/></P><P>где тензор $URI[[http://libmeta.ru/fme/formula/aux/2472_3_PUASSONA]]/URI$ задает классическую Пуассона скобку. Поправки <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12272">$$\phi, R, \ldots$$</a> удовлетворяют уравнениям <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12273">$$\llbracket \Psi_{0}, \Phi \rrbracket=0$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12274">$$\llbracket \Psi_{0}, R \rrbracket=\Gamma, \ldots$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12275">$$\llbracket \cdot, \cdot \rrbracket-$$</a> скобка Схоутена (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#12266">[1]</a>), тензоры Г, .. (аномалии в тождестве Якоби) выражаются через $URI[[http://libmeta.ru/fme/formula/aux/2472_8_PUASSONA]]/URI$, Ф (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#12268">[2]</a>); напр.:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12271">$$\begin{gathered}\Gamma^{j k m}=\sum_{j, k, m}\left(\frac{1}{12} \Psi_{0}^{i \alpha} \partial_{\alpha} \Psi_{0}^{p n} \partial_{l_{n}}^{2} \Psi_{0}^{q m} \partial_{p q}^{2} \Psi_{0}^{j k}+\right. \\\left.+\frac{1}{24} \Psi_{0}^{i \alpha} \Psi_{0}^{p n} \partial_{l n}^{2} \Psi_{0}^{q m} \partial_{p q \alpha}^{3} \Psi_{0}^{j k}-\Phi^{j \alpha} \partial_{\alpha} \Phi^{k m}\right) .\end{gathered}$$</a><BR/></P><P>В случае квадратичных скобок <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12276">$$\psi_{0}^{j k}(\xi)=C_{s l}^{j k} \xi^{s} \xi^{l}$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензоры</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12277">$$\phi(\xi), R(\xi), \ldots$$</a> также квадратичны и явно вычисляются (сm. <a href="/object/show?uri=http://libmeta.ru/io/Publication#12269">[3]</a>).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#12266">[1]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#12266">B a ye n F. [a. o.], "ann. Phys.», 1978, v. 111, № 1, p. 61-151</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#12268">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#12267">Вообьев Ю. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1235">Карасев М. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#12268">«функциональный анализ и его прилож.», 1988, т. 22, № 1, с. 1-11</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#12269">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1805">Дринфельд В. Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#12269">«доклады Ан СССР», 1983, т. 273, № 3, с. 531-35.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1797">Ю. М. Воробьев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[коэффициенты $\Phi, R, \ldots$ разложения по степеням $\hbar$ правых частей нелинейных коммутационных соотношений между квантовыми наблюдаемыми
+
+\[
+\left[A^{j}, A^{k}\right]=i \hbar \Psi_{h}^{j k}\left(A^{\mathrm{l}}, \ldots, A^{n}\right), \Psi_{h}=\Psi_{0}+\hbar \Phi+\hbar^{2} R+\ldots,
+\]
+
+где тензор $\Psi_{0}$ задает классическую Пуассона скобку. Поправки $\Phi, R, \ldots$ удовлетворяют уравнениям $\llbracket \Psi_{0}, \Phi \rrbracket=0$, $\llbracket \Psi_{0}, R \rrbracket=\Gamma, \ldots$, где $\llbracket \cdot, \cdot \rrbracket-$ скобка Схоутена (см. [1]), тензоры Г, .. (аномалии в тождестве Якоби) выражаются через $\Psi_{0}$, Ф (см. [2]); напр.:
+
+\[
+\begin{gathered}
+\Gamma^{j k m}=\sum_{j, k, m}\left(\frac{1}{12} \Psi_{0}^{i \alpha} \partial_{\alpha} \Psi_{0}^{p n} \partial_{l_{n}}^{2} \Psi_{0}^{q m} \partial_{p q}^{2} \Psi_{0}^{j k}+\right. \\
+\left.+\frac{1}{24} \Psi_{0}^{i \alpha} \Psi_{0}^{p n} \partial_{l n}^{2} \Psi_{0}^{q m} \partial_{p q \alpha}^{3} \Psi_{0}^{j k}-\Phi^{j \alpha} \partial_{\alpha} \Phi^{k m}\right) .
+\end{gathered}
+\]
+
+В случае квадратичных скобок $\Psi_{0}^{j k}(\xi)=C_{s l}^{j k} \xi^{s} \xi^{l}$ тензоры $\Phi(\xi), R(\xi), \ldots$ также квадратичны и явно вычисляются (сM. [3]).
+
+Jum.: [1] B a ye n F. [a. o.], "Ann. Phys.», 1978, v. 111, № 1, p. 61-151; [2] В о о б ье в Ю. М., Карасе в М. В., «Функциональный анализ и его прилож.», 1988, т. 22, № 1, с. 1-11; [3] Др и нфе льд В. Г., «Доклады АН СССР», 1983, т. 273, № 3, с. 531-35.
+
+Ю. М. Воробьев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

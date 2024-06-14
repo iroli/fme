@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_21723">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&#x003BC;</mi><mo stretchy="false">&#x00028;</mo><mi>S</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msup><mi>&#x003C0;</mi><mrow><mi>n</mi></mrow></msup><msub><mi>t</mi><mrow><mn>1</mn></mrow></msub><msubsup><mo>&#x0220F;</mo><mrow><mi>i</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>t</mi><mrow><mi>i</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x02212;</mo><msub><mi>t</mi><mrow><mi>i</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></msup><mi>&#x000D7;</mi><mspace linebreak="newline" /><mi>&#x000D7;</mi><msubsup><mo>&#x0222B;</mo><mrow><msub><mi>a</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow><msub><mi>b</mi><mrow><mn>1</mn></mrow></msub></mrow></msubsup><mi>&#x02026;</mi><msubsup><mo>&#x0222B;</mo><mrow><msub><mi>a</mi><mrow><mi>n</mi></mrow></msub></mrow><mrow><msub><mi>b</mi><mrow><mi>n</mi></mrow></msub></mrow></msubsup><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mo>&#x02212;</mo><mfrac><mrow><msubsup><mi>x</mi><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msubsup></mrow><mrow><msub><mi>t</mi><mrow><mn>1</mn></mrow></msub></mrow></mfrac><mo>&#x02212;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>i</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msubsup><mfrac><mrow><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>x</mi><mrow><mi>i</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x02212;</mo><msub><mi>x</mi><mrow><mi>i</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><msub><mi>t</mi><mrow><mi>i</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x02212;</mo><msub><mi>t</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mi>d</mi><msub><mi>x</mi><mrow><mn>1</mn></mrow></msub><mi>&#x02026;</mi><mi>d</mi><msub><mi>x</mi><mrow><mi>n</mi></mrow></msub><mi>;</mi></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\mu(S)=\left\{\pi^{n} t_{1} \prod_{i=1}^{n-1}\left(t_{i+1}-t_{i}\right)\right\}^{-1 / 2} \times \\\times \int_{a_{1}}^{b_{1}} \ldots \int_{a_{n}}^{b_{n}} \exp \left\{-\frac{x_{1}^{2}}{t_{1}}-\sum_{i=1}^{n-1} \frac{\left(x_{i+1}-x_{i}\right)^{2}}{t_{i+1}-t_{i}}\right\} d x_{1} \ldots d x_{n} ;\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

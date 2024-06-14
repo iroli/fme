@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/968_IENSENA" alphabetic_pos="970">
+  <title>ИЕНСЕНА ФОРМУЛА</title>
+  <authors/>
+  <pages>
+    <start>207</start>
+    <end>207</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/968_1_IENSENA">\begin{aligned}&amp; \ln |f(0)|=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| d \varphi+ \\&amp; +\sum_{\left|b_{v}\right|&lt;R} \ln \frac{R}{\left|b_{v}\right|}-\sum_{\left|a_{\mu}\right|&lt;R} \ln \frac{R}{\left|a_{\mu}\right|},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/968_2_IENSENA">\begin{gathered}\ln |f(z)|=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| P\left(z, R e^{i \varphi}\right) d \varphi+ \\+\sum_{\left|b_{v}\right|&lt;R} \ln \left|\frac{R^{2}-\bar{b}_{v} z}{R\left(z-b_{v}\right)}\right|-\sum_{\left|a_{\mu}\right|&lt;R} \ln \left|\frac{R^{2}-\bar{a}_{\mu} z}{R\left(z-a_{\mu}\right)}\right|, \\P\left(z, \operatorname{Re}^{i \varphi}\right)=\frac{R^{2}-r^{2}}{R^{2}+r^{2}-2 R \cos (\theta-\varphi)}, \quad r&lt;R .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/968_3_IENSENA">\begin{gathered}\ln f(z)=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| \frac{R e^{i \varphi}+z}{R e^{i \varphi}-z} d \varphi+ \\+\sum_{\left|b_{v}\right|&lt;R} \ln \frac{R^{2}-\bar{b}_{v} z}{R\left(z-b_{v}\right)}-\sum_{\left|a_{\mu}\right|&lt;R} \ln \frac{R^{2}-\bar{a}_{\mu} z}{R\left(z-a_{\mu}\right)} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_1_IENSENA">f(z)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_2_IENSENA">|z| \leqslant R</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_3_IENSENA">a_{\mu},\left|a_{\mu}\right| \leqslant R</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_4_IENSENA">b_{v},\left|b_{v}\right| \leqslant R</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_5_IENSENA">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_6_IENSENA">f(0) \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_7_IENSENA">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_8_IENSENA">|z|&lt;r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_9_IENSENA">f(0)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_10_IENSENA">\operatorname{in}|f(z)|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/968_11_IENSENA">z=r e^{i \theta}</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/968_1_IENSENA">
+      <rel_text>областей</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/968_2_IENSENA">
+      <rel_text>полуплоскости</rel_text>
+      <target>http://libmeta.ru/fme/article/2306_POLUINVARIAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/968_3_IENSENA">
+      <rel_text>формулу Шварца-Йенсена</rel_text>
+      <target>http://libmeta.ru/fme/article/3445_ShVARTsA-IENSENA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/968_4_IENSENA">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/968_5_IENSENA">
+      <rel_text>Шварца интеграл</rel_text>
+      <target>http://libmeta.ru/fme/article/3439_ShVARTsA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/968_6_IENSENA">
+      <rel_text>Пуассона интеграла</rel_text>
+      <target>http://libmeta.ru/fme/article/2469_PUASSONA</target>
+    </relation>
+  </relations>
+  <text>соотношение, связывающее значения мероморфной функции внутри круга с ее граничными значениями на окружности и с ее нулями и полюсами. Пусть $URI[[http://libmeta.ru/fme/formula/aux/968_1_IENSENA]]/URI$ мероморфная функция в круге $URI[[http://libmeta.ru/fme/formula/aux/968_2_IENSENA]]/URI$; $URI[[http://libmeta.ru/fme/formula/aux/968_3_IENSENA]]/URI$, и $URI[[http://libmeta.ru/fme/formula/aux/968_4_IENSENA]]/URI$,- соответственно, все нули и полюсы $URI[[http://libmeta.ru/fme/formula/aux/968_5_IENSENA]]/URI$, причем каждый нуль или полюс считается столько раз, какова его кратность или порядок. Если $URI[[http://libmeta.ru/fme/formula/aux/968_6_IENSENA]]/URI$, то справедлива форм ула Иен сена:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/968_1_IENSENA]]/URI
+\]
+
+в к-рой суммы распространены на все нули и полюсы $URI[[http://libmeta.ru/fme/formula/aux/968_7_IENSENA]]/URI$ внутри круга $URI[[http://libmeta.ru/fme/formula/aux/968_8_IENSENA]]/URI$. Небольшое видоизменение позволяет приспособить формулу (1) и для случая $URI[[http://libmeta.ru/fme/formula/aux/968_9_IENSENA]]/URI$.
+
+Справедлива и более общая формула, названная фо p мулой Пуассона - Иенсена и дающая значения $URI[[http://libmeta.ru/fme/formula/aux/968_10_IENSENA]]/URI$ в любой точке $URI[[http://libmeta.ru/fme/formula/aux/968_11_IENSENA]]/URI$, отличной от нулей и полюсов:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/968_2_IENSENA]]/URI
+\]
+
+Формулу (2) можно рассматривать как обобщение URI[[http://libmeta.ru/fme/relation/968_6_IENSENA]]/URI для круга. Точно так же, обобщая URI[[http://libmeta.ru/fme/relation/968_5_IENSENA]]/URI для круга, URI[[http://libmeta.ru/fme/relation/968_4_IENSENA]]/URI URI[[http://libmeta.ru/fme/relation/968_3_IENSENA]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/968_3_IENSENA]]/URI
+\]
+
+Возможно также построение формул типа (1)-(3) для URI[[http://libmeta.ru/fme/relation/968_2_IENSENA]]/URI и других URI[[http://libmeta.ru/fme/relation/968_1_IENSENA]]/URI.</text>
+  <text_orig>соотношение, связывающее значения мероморфной функции внутри круга с ее граничными значениями на окружности и с ее нулями и полюсами. Пусть $f(z)-$ мероморфная функция в круге $|z| \leqslant R$; $a_{\mu},\left|a_{\mu}\right| \leqslant R$, и $b_{v},\left|b_{v}\right| \leqslant R$,- соответственно, все нули и полюсы $f(z)$, причем каждый нуль или полюс считается столько раз, какова его кратность или порядок. Если $f(0) \neq 0$, то справедлива форм ула Иен сена:
+
+\[
+\begin{aligned}
+&amp; \ln |f(0)|=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| d \varphi+ \\
+&amp; +\sum_{\left|b_{v}\right|&lt;R} \ln \frac{R}{\left|b_{v}\right|}-\sum_{\left|a_{\mu}\right|&lt;R} \ln \frac{R}{\left|a_{\mu}\right|},
+\end{aligned}
+\]
+
+в к-рой суммы распространены на все нули и полюсы $f(z)$ внутри круга $|z|&lt;R$. Небольшое видоизменение позволяет приспособить формулу (1) и для случая $f(0)=0$.
+
+Справедлива и более общая формула, названная фо p мулой Пуассона - Иенсена и дающая значения $\operatorname{In}|f(z)|$ в любой точке $z=r e^{i \theta}$, отличной от нулей и полюсов:
+
+\[
+\begin{gathered}
+\ln |f(z)|=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| P\left(z, R e^{i \varphi}\right) d \varphi+ \\
++\sum_{\left|b_{v}\right|&lt;R} \ln \left|\frac{R^{2}-\bar{b}_{v} z}{R\left(z-b_{v}\right)}\right|-\sum_{\left|a_{\mu}\right|&lt;R} \ln \left|\frac{R^{2}-\bar{a}_{\mu} z}{R\left(z-a_{\mu}\right)}\right|, \\
+P\left(z, \operatorname{Re}^{i \varphi}\right)=\frac{R^{2}-r^{2}}{R^{2}+r^{2}-2 R \cos (\theta-\varphi)}, \quad r&lt;R .
+\end{gathered}
+\]
+
+Формулу (2) можно рассматривать как обобщение Пуассона интеграла для круга. Точно так же, обобщая Швариа интеграл для круга, получают формулу ШварцаИенсена:
+
+\[
+\begin{gathered}
+\ln f(z)=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| \frac{R e^{i \varphi}+z}{R e^{i \varphi}-z} d \varphi+ \\
++\sum_{\left|b_{v}\right|&lt;R} \ln \frac{R^{2}-\bar{b}_{v} z}{R\left(z-b_{v}\right)}-\sum_{\left|a_{\mu}\right|&lt;R} \ln \frac{R^{2}-\bar{a}_{\mu} z}{R\left(z-a_{\mu}\right)} .
+\end{gathered}
+\]
+
+Возможно также построение формул типа (1)-(3) для полуплоскости и других областей.</text_orig>
+</article>

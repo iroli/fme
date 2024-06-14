@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_20813">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>z</mi></mrow></msubsup><mfrac><mrow><msqrt><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>k</mi><mrow><mn>2</mn></mrow></msup><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup></mrow></msqrt></mrow><mrow><msqrt><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi><mo>&#x0003D;</mo><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>&#x003C6;</mi></mrow></msubsup><msqrt><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>k</mi><mrow><mn>2</mn></mrow></msup><msup><mi>sin</mi><mrow><mn>2</mn></mrow></msup><mi>t</mi></mrow></msqrt><mi>d</mi><mi>t</mi><mo>&#x0003D;</mo><mi>E</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003C6;</mi><mo>&#x0002C;</mo><mi>k</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mi>E</mi><mo stretchy="false">&#x00028;</mo><mi>u</mi><mo stretchy="false">&#x00029;</mo><mi>;</mi></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\int_{0}^{z} \frac{\sqrt{1-k^{2} x^{2}}}{\sqrt{1-x^{2}}} d x=\int_{0}^{\varphi} \sqrt{1-k^{2} \sin ^{2} t} d t=E(\varphi, k)=E(u) ;$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

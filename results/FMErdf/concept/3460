@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_887_DLINA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_887_DLINA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3460</core:url>
+    <lbm:descriptor><![CDATA[ДЛИНА РАССЕЯНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">Рассеяния</a> теория, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3561_EFFEKTIVNYJ">Эффективный радиус рассеяния</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[см. Рассеяния теория, Эффективный радиус рассеяния.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3561_EFFEKTIVNYJ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

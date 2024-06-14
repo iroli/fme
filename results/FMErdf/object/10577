@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_10577">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mover><mrow><mi>h</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>&#x003BC;</mi></mrow><mrow><mi>j</mi></mrow></msubsup><mo>&#x0003D;</mo><msubsup><mi>h</mi><mrow><mi>&#x003BC;</mi></mrow><mrow><mi>j</mi></mrow></msubsup><mo>&#x02212;</mo><msub><mo>min</mo><mrow><mi>i</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><mi>h</mi></mrow></msub><msubsup><mi>h</mi><mrow><mi>&#x003BC;</mi></mrow><mrow><mi>i</mi></mrow></msubsup><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\hat{h}_{\mu}^{j}=h_{\mu}^{j}-\min _{i=1, \ldots, h} h_{\mu}^{i},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

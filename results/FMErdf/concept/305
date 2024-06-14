@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1275_KOVARIANTNOST'">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1275_KOVARIANTNOST'</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/305</core:url>
+    <lbm:descriptor><![CDATA[КОВАРИАНТНОСТЬ И КОНТРАВАРИАНТНОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#3153"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3154"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3155"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3156"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3157"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3158"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3159"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_243"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3160"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3161"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3162"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3163"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>понятия линейной алгебры и тензорного анализа, характеризующие способы преобразования компонент тензора при преобразованиях координат<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3154">$$x^{i} \rightarrow y^{i}\left(x^{j}\right)$$</a><BR/></P><P>К о вар и анты е компоненты преобразуются как градиент:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3155">$$\partial f / \partial x^{i}=\left(\frac{\partial f}{\partial y^{j}}\right)\left(\frac{\partial y^{j}}{\partial x^{i}}\right)$$</a><BR/></P><P>а ко н т р а в а р и а н т н ы е - как дифференциал:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3156">$$\partial y^{i}=\left(\frac{\partial y^{i}}{\partial x^{j}}\right) \partial x^{j}$$</a><BR/></P><P>(по повторяющимся индексам подразумевается суммирование). Происхождение терминов связано с тем, что при линейных преобразованиях базиса <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3159">$$\left\{e_{i}\right\}$$</a> в евклидовом (и псевдоевклидовом) пространстве:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3157">$$\boldsymbol{e}_{i} \rightarrow \tilde{\boldsymbol{e}}_{i}=a_{i}^{j} \boldsymbol{e}_{j}$$</a><BR/></P><P>ковариантные компоненты преобразуются одинаково с базисом, а <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ">контравариантные</a> - с помощью матрицы $URI[[http://libmeta.ru/fme/formula/aux/1275_2_KOVARIANTNOST']]/URI$, обратной к транспонированной матрице <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3160">$$a^{\top}$$</a> :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3158">$$b_{j}^{i} a_{k}^{j}=\delta_{k}^{i}$$</a><BR/></P><P>Напр., для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1274_KOVARIANTNOST">ковариантного</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектора</a> (нижние индексы) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3161">$$t_{i}=a_{i}^{j} T_{j}$$</a>, а для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1361_KONTRAVARIANTNOST">контравариантного</a> (верхние индексы) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3162">$$\tilde{t}^{i}=b_{j}^{i} T^{j}$$</a>. Переход от ковариантных к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ">контравариантным</a> компонентам совершается с помощью <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1767_METRIK">метрич</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензора</a>; напр. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3163">$$t^{i}=g^{i j} T_{j}$$</a>. Ко- и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ">контравариантные</a> компоненты совпадают лишь для декартова базиса в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO">евклидовом пространстве</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#3153">C. В. Молодцов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[понятия линейной алгебры и тензорного анализа, характеризующие способы преобразования компонент тензора при преобразованиях координат
+
+\[
+x^{i} \rightarrow y^{i}\left(x^{j}\right)
+\]
+
+К о вар и анты е компоненты преобразуются как градиент:
+
+\[
+\partial f / \partial x^{i}=\left(\frac{\partial f}{\partial y^{j}}\right)\left(\frac{\partial y^{j}}{\partial x^{i}}\right)
+\]
+
+а ко н т р а в а р и а н т н ы е - как дифференциал:
+
+\[
+\partial y^{i}=\left(\frac{\partial y^{i}}{\partial x^{j}}\right) \partial x^{j}
+\]
+
+(по повторяющимся индексам подразумевается суммирование). Происхождение терминов связано с тем, что при линейных преобразованиях базиса $\left\{e_{i}\right\}$ в евклидовом (и псевдоевклидовом) пространстве:
+
+\[
+\boldsymbol{e}_{i} \rightarrow \tilde{\boldsymbol{e}}_{i}=a_{i}^{j} \boldsymbol{e}_{j}
+\]
+
+ковариантные компоненты преобразуются одинаково с базисом, а контравариантные - с помощью матрицы $b$, обратной к транспонированной матрице $a^{\top}$ :
+
+\[
+b_{j}^{i} a_{k}^{j}=\delta_{k}^{i}
+\]
+
+Напр., для ковариантного вектора (нижние индексы) $T_{i}=a_{i}^{j} T_{j}$, а для контравариантного (верхние индексы) $\tilde{T}^{i}=b_{j}^{i} T^{j}$. Переход от ковариантных к контравариантным компонентам совершается с помощью метрич. тензора; напр. $T^{i}=g^{i j} T_{j}$. Ко- и контравариантные компоненты совпадают лишь для декартова базиса в евклидовом пространстве. C. В. Молодцов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1767_METRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1361_KONTRAVARIANTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1274_KOVARIANTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

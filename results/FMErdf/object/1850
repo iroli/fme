@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_1850">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C8;</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02243;</mo><mfrac><mrow><msub><mi>c</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow><msqrt><mrow><mi>p</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo></mrow></msqrt></mrow></mfrac><msup><mi>e</mi><mrow><mfrac><mrow><mi>i</mi></mrow><mrow><mi>&#x0210F;</mi></mrow></mfrac><msup><mo>&#x0222B;</mo><mrow><mi>x</mi></mrow></msup><mi>d</mi><mi>&#x003BE;</mi><mi>p</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003BE;</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x0002B;</mo><mfrac><mrow><msub><mi>c</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow><msqrt><mrow><mi>p</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo></mrow></msqrt></mrow></mfrac><msup><mi>e</mi><mrow><mo>&#x02212;</mo><mfrac><mrow><mi>i</mi></mrow><mrow><mi>&#x0210F;</mi></mrow></mfrac><msup><mo>&#x0222B;</mo><mrow><mi>x</mi></mrow></msup><mi>d</mi><mi>&#x003BE;</mi><mi>p</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003BE;</mi><mo stretchy="false">&#x00029;</mo></mrow></msup></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\psi(x) \simeq \frac{c_{1}}{\sqrt{p(x)}} e^{\frac{i}{\hbar} \int^{x} d \xi p(\xi)}+\frac{c_{2}}{\sqrt{p(x)}} e^{-\frac{i}{\hbar} \int^{x} d \xi p(\xi)}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

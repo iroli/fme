@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1709_MANDELJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1709_MANDELJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/787</core:url>
+    <lbm:descriptor><![CDATA[МАНДЕЛЯ РАСПРЕДЕЛЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6479"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6480"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6481"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6482"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6483"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6484"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6485"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6486"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6487"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6488"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6489"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6490"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6491"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6492"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>распределение вероятностей целочисленной случайной величины $URI[[http://libmeta.ru/fme/formula/aux/1709_1_MANDELJa]]/URI$ :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6479">$$P(n)=\mathrm{P}\{N=n\}=\int_{0}^{\infty} \frac{E^{n}}{n !} e^{-E} p(E) d E,$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1709_2_MANDELJa]]/URI$ - плотность распределения вероятностей для случайной величины<BR/></P><P>\[
+URI[[http://libmeta.ru/fme/formula/main/1709_2_MANDELJa]]/URI
+\]<BR/></P><P>$URI[[http://libmeta.ru/fme/formula/aux/1709_3_MANDELJa]]/URI$ - стационарный комплекснозначный случайный процесс, $URI[[http://libmeta.ru/fme/formula/aux/1709_4_MANDELJa]]/URI$ const. M. p. используется в квантовой оптике при статистич. анализе отсчетов $URI[[http://libmeta.ru/fme/formula/aux/1709_5_MANDELJa]]/URI$ случайных полей излучения. Плотность $URI[[http://libmeta.ru/fme/formula/aux/1709_6_MANDELJa]]/URI$ определяется по заданной мере, соответствующей процессу $URI[[http://libmeta.ru/fme/formula/aux/1709_7_MANDELJa]]/URI$. Если <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6486">$$p(e)=\delta(e-\varepsilon)$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6487">$$\varepsilon=$$</a> const, то М. p. сводится к Пуассона распределению<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6481">$$P(n)=\frac{\varepsilon^{n}}{n !} e^{-\varepsilon} .$$</a><BR/></P><P>В общем случае для произвольной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотности</a> $URI[[http://libmeta.ru/fme/formula/aux/1709_10_MANDELJa]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2533_RASPREDELENIE">распределение вероятностей</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6488">$$p(n)$$</a> является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">составным</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2470_PUASSONA">распределением Пуассона</a> с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI">дисперсией</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6489">$$\mathrm{d}=\left\langle n^{2}\right\rangle-\langle n\rangle^{2}=\langle E\rangle+\left\langle E^{2}\right\rangle-$$</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6490">$$-\langle E\rangle^{2}$$</a>, содержащей добавочное слагаемое по сравнению с распределением (2).<BR/></P><P>По известному набору вероятностей <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6491">$$p(n), n=0,1,2, \ldots$$</a>, обращение (1) позволяет решить задачу восстановления распределения $URI[[http://libmeta.ru/fme/formula/aux/1709_15_MANDELJa]]/URI$ :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6482">$$p(E)=2 e^{-E} \sum_{m=0}^{\infty} \sum_{n=0}^{m} C_{m}^{n} P(n)(-2)^{n} L_{m}(E),$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6492">$$l_{m}(e)$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1499_LAGERRA">многочлены Лагерра</a>.<BR/></P><P>Лип.: [1] Клаудер Дж., Сударшан Э., Основы квантовой оптики, пер. с англ., М., 1970.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[распределение вероятностей целочисленной случайной величины $N$ :
+
+\[
+P(n)=\mathrm{P}\{N=n\}=\int_{0}^{\infty} \frac{E^{n}}{n !} e^{-E} p(E) d E,
+\]
+
+где $p(E)$ - плотность распределения вероятностей для случайной величины
+
+\[
+U=\int_{0}^{T}|\alpha(t)|^{2} d t
+\]
+
+$\{\alpha(t)\}$ - стационарный комплекснозначный случайный процесc, $T=$ const. M. p. используется в квантовой оптике при статистич. анализе отсчетов $N$ случайных полей излучения. Плотность $p(E)$ определяется по заданной мере, соответствующей процессу $\{\alpha(t)\}$. Если $p(E)=\delta(E-\varepsilon)$, где $\varepsilon=$ const, то М. p. сводится к Пуассона распределению
+
+\[
+P(n)=\frac{\varepsilon^{n}}{n !} e^{-\varepsilon} .
+\]
+
+В общем случае для произвольной плотности $p(E)$ распределение вероятностей $P(n)$ является составным распределением Пуассона с дисперсией $\mathrm{D}=\left\langle n^{2}\right\rangle-\langle n\rangle^{2}=\langle E\rangle+\left\langle E^{2}\right\rangle-$ $-\langle E\rangle^{2}$, содержащей добавочное слагаемое по сравнению с распределением (2).
+
+По известному набору вероятностей $P(n), n=0,1,2, \ldots$, обращение (1) позволяет решить задачу восстановления распределения $p(E)$ :
+
+\[
+p(E)=2 e^{-E} \sum_{m=0}^{\infty} \sum_{n=0}^{m} C_{m}^{n} P(n)(-2)^{n} L_{m}(E),
+\]
+
+где $L_{m}(E)$ - многочлены Лагерра.
+
+Лип.: [1] Клаудер Дж., Сударшан Э., Основы квантовой оптики, пер. с англ., М., 1970.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1499_LAGERRA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2470_PUASSONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2533_RASPREDELENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

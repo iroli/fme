@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_23829">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>d</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mfrac><mrow><mo>&#x02202;</mo><mi>T</mi></mrow><mrow><mo>&#x02202;</mo><mover><mrow><mi>&#x003B1;</mi></mrow><mo>&#x002D9;</mo></mover></mrow></mfrac><mo>&#x02212;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>T</mi></mrow><mrow><mo>&#x02202;</mo><mi>&#x003B1;</mi></mrow></mfrac><mo>&#x0003D;</mo><msub><mi>Q</mi><mrow><mi>&#x003B1;</mi></mrow></msub><mo>&#x0002C;</mo><mspace width="1em" /><mfrac><mrow><mi>d</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mfrac><mrow><mo>&#x02202;</mo><mi>T</mi></mrow><mrow><mo>&#x02202;</mo><mover><mrow><mi>&#x003B2;</mi></mrow><mo>&#x002D9;</mo></mover></mrow></mfrac><mo>&#x02212;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>T</mi></mrow><mrow><mo>&#x02202;</mo><mi>&#x003B2;</mi></mrow></mfrac><mo>&#x0003D;</mo><msub><mi>Q</mi><mrow><mi>&#x003B2;</mi></mrow></msub><mo>&#x0002C;</mo><mspace width="1em" /><mfrac><mrow><mi>d</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mfrac><mrow><mo>&#x02202;</mo><mi>T</mi></mrow><mrow><mo>&#x02202;</mo><mover><mrow><mi>&#x003B3;</mi></mrow><mo>&#x002D9;</mo></mover></mrow></mfrac><mo>&#x02212;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>T</mi></mrow><mrow><mo>&#x02202;</mo><mi>&#x003B3;</mi></mrow></mfrac><mo>&#x0003D;</mo><msub><mi>Q</mi><mrow><mi>&#x003B3;</mi></mrow></msub><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{d}{d t} \frac{\partial T}{\partial \dot{\alpha}}-\frac{\partial T}{\partial \alpha}=Q_{\alpha}, \quad \frac{d}{d t} \frac{\partial T}{\partial \dot{\beta}}-\frac{\partial T}{\partial \beta}=Q_{\beta}, \quad \frac{d}{d t} \frac{\partial T}{\partial \dot{\gamma}}-\frac{\partial T}{\partial \gamma}=Q_{\gamma},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

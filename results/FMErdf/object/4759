@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_4759">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>ln</mi><mi>&#x003C6;</mi><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02261;</mo><mi>ln</mi><mi>E</mi><msup><mi>e</mi><mrow><mi>i</mi><mi>t</mi><mi>&#x003BE;</mi></mrow></msup><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>k</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mfrac><mrow><msub><mi>&#x003C7;</mi><mrow><mi>k</mi></mrow></msub></mrow><mrow><mi>k</mi><mo>&#x00021;</mo></mrow></mfrac><mo stretchy="false">&#x00028;</mo><mi>i</mi><mi>t</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mi>k</mi></mrow></msup></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\ln \varphi(t) \equiv \ln E e^{i t \xi}=\sum_{k=1}^{\infty} \frac{\chi_{k}}{k !}(i t)^{k}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1121_KASKAD,">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1121_KASKAD,</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/135</core:url>
+    <lbm:descriptor><![CDATA[КАСКАД, ДИНАМИЧЕСКАЯ СИСТЕМА С ДИСКРЕТНЫМ ВРЕМЕНЕМ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1396"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1397"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1398"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1399"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1400"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1401"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1402"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1403"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1404"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa">динамическая система</a>, определяемая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">действием</a> аддитивной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> целых чисел $URI[[http://libmeta.ru/fme/formula/aux/1121_1_KASKAD,]]/URI$ (или аддитивной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">полугруппы</a> натуральных чисел $URI[[http://libmeta.ru/fme/formula/aux/1121_2_KASKAD,]]/URI$ ) на некотором <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазовом пространстве</a> $URI[[http://libmeta.ru/fme/formula/aux/1121_3_KASKAD,]]/URI$. Согласно общему определению <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">действия</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">полугруппы</a>), это означает, что каждому целому (натуральному) числу $URI[[http://libmeta.ru/fme/formula/aux/1121_4_KASKAD,]]/URI$ сопоставлено нек-рое преобразование <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1401">$$s_{n}: W \rightarrow W$$</a>, причем<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1396">$$S_{n+m}(w)=S_{n}\left(S_{m}(w)\right), w \in W$$</a><BR/></P><P>Поэтому все преобразования $URI[[http://libmeta.ru/fme/formula/aux/1121_6_KASKAD,]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">получаются</a> из одного преобразования <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1403">$$s=s_{1}$$</a> посредством итерирования и (если $URI[[http://libmeta.ru/fme/formula/aux/1121_8_KASKAD,]]/URI$ ) обращения:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1397">$$S_{n}=(S)^{n} \text { при } n>0, S_{n}=\left(S^{-1}\right)^{n} \text { при } n<0 .$$</a><BR/></P><P>Тем самым изучение К. по существу сводится к изучению свойств порождающего его преобразования $URI[[http://libmeta.ru/fme/formula/aux/1121_9_KASKAD,]]/URI$, и в этом смысле К. являются простейшими <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамич</a>. системами. Поэтому К. исследуются весьма интенсивно, хотя в приложениях чаще всего встречаются <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамич</a>. системы с непрерывным временем (потоки). Принципиальная сторона дела для потоков и К. обычно одинакова, но случай К. несколько проще технически, и в то же время <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">полученные</a> для них результаты часто без особого труда удается перенести на потоки - иногда путем формальной редукции свойств потоков к свойствам К., но чаще путем нек-рого видоизменения доказательств.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2737_SIMVOLIChESKAJa">Символическая динамика</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[динамическая система, определяемая действием аддитивной группы целых чисел $\mathbb{Z}$ (или аддитивной полугруппы натуральных чисел $\mathbb{N}$ ) на некотором фазовом пространстве $W$. Согласно общему определению действия группы (полугруппы), это означает, что каждому целому (натуральному) числу $n$ сопоставлено нек-рое преобразование $S_{n}: W \rightarrow W$, причем
+
+\[
+S_{n+m}(w)=S_{n}\left(S_{m}(w)\right), w \in W
+\]
+
+Поэтому все преобразования $S_{n}$ получаются из одного преобразования $S=S_{1}$ посредством итерирования и (если $n<0$ ) обращения:
+
+\[
+S_{n}=(S)^{n} \text { при } n>0, S_{n}=\left(S^{-1}\right)^{n} \text { при } n<0 .
+\]
+
+Тем самым изучение К. по существу сводится к изучению свойств порождающего его преобразования $S$, и в этом смысле К. являются простейшими динамич. системами. Поэтому К. исследуются весьма интенсивно, хотя в приложениях чаще всего встречаются динамич. системы с непрерывным временем (потоки). Принципиальная сторона дела для потоков и К. обычно одинакова, но случай К. несколько проще технически, и в то же время полученные для них результаты часто без особого труда удается перенести на потоки - иногда путем формальной редукции свойств потоков к свойствам К., но чаще путем нек-рого видоизменения доказательств.
+
+См. также Символическая динамика.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2737_SIMVOLIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

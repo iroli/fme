@@ -1,0 +1,199 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2259_PLJuRIGARMONIChESKAJa" alphabetic_pos="2261">
+  <title>ПЛЮРИГАРМОНИЧЕСКАЯ ФУНКЦИЯ</title>
+  <authors/>
+  <pages>
+    <start>448</start>
+    <end>448</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Ш а б а т Б. В., Введение в комплексный анализ, 2 изд., $\begin{array}{ll}\text { ч. 2, М., } 1976 . &amp; \text { Е. Д. Соломенцев. }\end{array}$</literature_orig>
+    <unit>
+      <author>Шабат Б. В.</author>
+      <title>Введение в комплексный анализ</title>
+      <publication>2 изд., $\begin{array}{ll}\text { ч. 2, М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2259_1_PLJuRIGARMONIChESKAJa">\begin{gathered}\frac{\partial^{2} u}{\partial x_{\mu} \partial x_{v}}+\frac{\partial^{2} u}{\partial y_{\mu} \partial y_{v}}=0, \\\frac{\partial^{2} u}{\partial x_{\mu} \partial y_{v}}-\frac{\partial^{2} u}{\partial y_{\mu} \partial x_{v}}=0, \\\mu, v=1, \ldots, n .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2259_2_PLJuRIGARMONIChESKAJa">\frac{\partial u}{\partial z_{v}}=\frac{1}{2}\left(\frac{\partial u}{\partial x_{v}}-i \frac{\partial u}{\partial y_{v}}\right), \quad \frac{\partial u}{\partial \bar{z}_{v}}=\frac{1}{2}\left(\frac{\partial u}{\partial x_{v}}+i \frac{\partial u}{\partial y_{v}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2259_3_PLJuRIGARMONIChESKAJa">\frac{\partial^{2} u}{\partial z_{\mu} \partial \bar{z}_{v}}=0, \quad \mu, v=1, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2259_4_PLJuRIGARMONIChESKAJa">v(z)=\int_{z^{0}}^{z} \sum_{v=1}^{n}\left(-\frac{\partial u}{\partial y_{v}} d x_{v}+\frac{\partial u}{\partial x_{v}} d y_{v}\right)+C, \quad z \in V,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2259_5_PLJuRIGARMONIChESKAJa">U^{n}=\left\{z \in \mathbb{C}^{n}:\left|z_{v}\right|&lt;1, v=1, \ldots, n\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2259_6_PLJuRIGARMONIChESKAJa">T^{n}=\left\{\zeta \in \mathbb{C}^{n}:\left|\zeta_{\nu}\right|=1, v=1, \ldots, n\right\}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_1_PLJuRIGARMONIChESKAJa">u=u(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_2_PLJuRIGARMONIChESKAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_3_PLJuRIGARMONIChESKAJa">z=\left(z_{1}, \ldots, z_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_4_PLJuRIGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_5_PLJuRIGARMONIChESKAJa">\mathbb{c}^{n}, n \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_6_PLJuRIGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_7_PLJuRIGARMONIChESKAJa">x_{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_8_PLJuRIGARMONIChESKAJa">y_{v}, z_{v}=x_{v}+i y_{v}, v=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_9_PLJuRIGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_10_PLJuRIGARMONIChESKAJa">n^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_11_PLJuRIGARMONIChESKAJa">u=\operatorname{re} f, v=\operatorname{Im} f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_12_PLJuRIGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_13_PLJuRIGARMONIChESKAJa">f=u+i v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_14_PLJuRIGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_15_PLJuRIGARMONIChESKAJa">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_16_PLJuRIGARMONIChESKAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_17_PLJuRIGARMONIChESKAJa">z^{0}=x^{0}+i y^{0} \in \mathbb{C}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_18_PLJuRIGARMONIChESKAJa">f=u+i v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_19_PLJuRIGARMONIChESKAJa">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_20_PLJuRIGARMONIChESKAJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_21_PLJuRIGARMONIChESKAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_22_PLJuRIGARMONIChESKAJa">n&gt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_23_PLJuRIGARMONIChESKAJa">n&gt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_24_PLJuRIGARMONIChESKAJa">n&gt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_25_PLJuRIGARMONIChESKAJa">u(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_26_PLJuRIGARMONIChESKAJa">\bar{u}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_27_PLJuRIGARMONIChESKAJa">\partial U^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2259_28_PLJuRIGARMONIChESKAJa">u^{*}(\zeta), \zeta \in T^{n},-</formula>
+  </formulas_aux>
+  <relations n="13">
+    <relation uri="http://libmeta.ru/fme/relation/2259_1_PLJuRIGARMONIChESKAJa">
+      <rel_text>задача Дирихле</rel_text>
+      <target>http://libmeta.ru/fme/article/845_DIRIHLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_2_PLJuRIGARMONIChESKAJa">
+      <rel_text>частью</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_3_PLJuRIGARMONIChESKAJa">
+      <rel_text>обладают</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_4_PLJuRIGARMONIChESKAJa">
+      <rel_text>гармонич</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_5_PLJuRIGARMONIChESKAJa">
+      <rel_text>гармонических функций</rel_text>
+      <target>http://libmeta.ru/fme/article/525_GARMONIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_6_PLJuRIGARMONIChESKAJa">
+      <rel_text>составляют</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_7_PLJuRIGARMONIChESKAJa">
+      <rel_text>голоморфной</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_8_PLJuRIGARMONIChESKAJa">
+      <rel_text>голоморфная</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_9_PLJuRIGARMONIChESKAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_10_PLJuRIGARMONIChESKAJa">
+      <rel_text>голоморфной</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_11_PLJuRIGARMONIChESKAJa">
+      <rel_text>частные</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_12_PLJuRIGARMONIChESKAJa">
+      <rel_text>комплексного пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/1319_KOMPAKTNOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2259_13_PLJuRIGARMONIChESKAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>Функция $URI[[http://libmeta.ru/fme/formula/aux/2259_1_PLJuRIGARMONIChESKAJa]]/URI$ от $URI[[http://libmeta.ru/fme/formula/aux/2259_2_PLJuRIGARMONIChESKAJa]]/URI$ комплексных переменных $URI[[http://libmeta.ru/fme/formula/aux/2259_3_PLJuRIGARMONIChESKAJa]]/URI$ в URI[[http://libmeta.ru/fme/relation/2259_13_PLJuRIGARMONIChESKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2259_4_PLJuRIGARMONIChESKAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2259_12_PLJuRIGARMONIChESKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2259_5_PLJuRIGARMONIChESKAJa]]/URI$, имеющая в $URI[[http://libmeta.ru/fme/formula/aux/2259_6_PLJuRIGARMONIChESKAJa]]/URI$ непрерывные URI[[http://libmeta.ru/fme/relation/2259_11_PLJuRIGARMONIChESKAJa]]/URI производные по координатам $URI[[http://libmeta.ru/fme/formula/aux/2259_7_PLJuRIGARMONIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2259_8_PLJuRIGARMONIChESKAJa]]/URI$, до 2-го порядка включительно и удовлетворяющая в $URI[[http://libmeta.ru/fme/formula/aux/2259_9_PLJuRIGARMONIChESKAJa]]/URI$ системе $URI[[http://libmeta.ru/fme/formula/aux/2259_10_PLJuRIGARMONIChESKAJa]]/URI$ уравнений:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2259_1_PLJuRIGARMONIChESKAJa]]/URI
+\]
+
+Применяя формальные производные
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2259_2_PLJuRIGARMONIChESKAJa]]/URI
+\]
+
+можно записать систему (1) в более компактной форме:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2259_3_PLJuRIGARMONIChESKAJa]]/URI
+\]
+
+Значение класса П. Ф. определяется тем, что действительная и мнимая части $URI[[http://libmeta.ru/fme/formula/aux/2259_11_PLJuRIGARMONIChESKAJa]]/URI$ любой URI[[http://libmeta.ru/fme/relation/2259_10_PLJuRIGARMONIChESKAJa]]/URI в URI[[http://libmeta.ru/fme/relation/2259_9_PLJuRIGARMONIChESKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2259_12_PLJuRIGARMONIChESKAJa]]/URI$ функции $URI[[http://libmeta.ru/fme/formula/aux/2259_13_PLJuRIGARMONIChESKAJa]]/URI$ являются П. ф. в $URI[[http://libmeta.ru/fme/formula/aux/2259_14_PLJuRIGARMONIChESKAJa]]/URI$; такие две (действительные) П. ф. называются с о пряже н ными. Обратно, если дана П.ф. $URI[[http://libmeta.ru/fme/formula/aux/2259_15_PLJuRIGARMONIChESKAJa]]/URI$ в окрестности $URI[[http://libmeta.ru/fme/formula/aux/2259_16_PLJuRIGARMONIChESKAJa]]/URI$ точки $URI[[http://libmeta.ru/fme/formula/aux/2259_17_PLJuRIGARMONIChESKAJa]]/URI$, то в этой окрестности существует URI[[http://libmeta.ru/fme/relation/2259_8_PLJuRIGARMONIChESKAJa]]/URI функция $URI[[http://libmeta.ru/fme/formula/aux/2259_18_PLJuRIGARMONIChESKAJa]]/URI$, действительная часть К-рой равна $URI[[http://libmeta.ru/fme/formula/aux/2259_19_PLJuRIGARMONIChESKAJa]]/URI$. Задача определения этой URI[[http://libmeta.ru/fme/relation/2259_7_PLJuRIGARMONIChESKAJa]]/URI функции $URI[[http://libmeta.ru/fme/formula/aux/2259_20_PLJuRIGARMONIChESKAJa]]/URI$ сводится к нахождению сопряженной П.ф. $URI[[http://libmeta.ru/fme/formula/aux/2259_21_PLJuRIGARMONIChESKAJa]]/URI$ по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2259_4_PLJuRIGARMONIChESKAJa]]/URI
+\]
+
+где интеграл не зависит от пути в силу (1).
+
+Вообще говоря, рассматриваются сами по себе и комплексные П. Ф., определяемые как решения системы (1) или (2). При $URI[[http://libmeta.ru/fme/formula/aux/2259_22_PLJuRIGARMONIChESKAJa]]/URI$ П. ф. URI[[http://libmeta.ru/fme/relation/2259_6_PLJuRIGARMONIChESKAJa]]/URI правильный подкласс класса URI[[http://libmeta.ru/fme/relation/2259_5_PLJuRIGARMONIChESKAJa]]/URI.
+
+Кроме общих свойств URI[[http://libmeta.ru/fme/relation/2259_4_PLJuRIGARMONIChESKAJa]]/URI. функций П. Ф. при $URI[[http://libmeta.ru/fme/formula/aux/2259_23_PLJuRIGARMONIChESKAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2259_3_PLJuRIGARMONIChESKAJa]]/URI характерными свойствами, обусловленными в основном переопределенностью системы (1) или (2) в этом случае. Пусть, напр., при $URI[[http://libmeta.ru/fme/formula/aux/2259_24_PLJuRIGARMONIChESKAJa]]/URI$ П.Ф. $URI[[http://libmeta.ru/fme/formula/aux/2259_25_PLJuRIGARMONIChESKAJa]]/URI$ в единичном поликруге
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2259_5_PLJuRIGARMONIChESKAJa]]/URI
+\]
+
+непрерывна в замкнутом поликруге $URI[[http://libmeta.ru/fme/formula/aux/2259_26_PLJuRIGARMONIChESKAJa]]/URI$. При этом даже ее граничные значения на остове
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2259_6_PLJuRIGARMONIChESKAJa]]/URI
+\]
+
+являющемся правильной URI[[http://libmeta.ru/fme/relation/2259_2_PLJuRIGARMONIChESKAJa]]/URI всей границы $URI[[http://libmeta.ru/fme/formula/aux/2259_27_PLJuRIGARMONIChESKAJa]]/URI$, не могут быть заданы в виде произвольной непрерывной функции $URI[[http://libmeta.ru/fme/formula/aux/2259_28_PLJuRIGARMONIChESKAJa]]/URI$ они удовлетворяют определенным дополнительным условиям. Таким образом, URI[[http://libmeta.ru/fme/relation/2259_1_PLJuRIGARMONIChESKAJa]]/URI в классе П. ф. с данными на остове разрешима лишь при специально подобранных граничных данных.</text>
+  <text_orig>ФУНКцИЯ $u=u(z)$ от $n$ комплексных переменных $z=\left(z_{1}, \ldots, z_{n}\right)$ в области $D$ комплексного пространства $\mathbb{C}^{n}, n \geqslant 1$, имеющая в $D$ непрерывные частные производные по координатам $x_{v}$, $y_{v}, z_{v}=x_{v}+i y_{v}, v=1, \ldots, n$, до 2-го порядка включительно и удовлетворяющая в $D$ системе $n^{2}$ уравнений:
+
+\[
+\begin{gathered}
+\frac{\partial^{2} u}{\partial x_{\mu} \partial x_{v}}+\frac{\partial^{2} u}{\partial y_{\mu} \partial y_{v}}=0, \\
+\frac{\partial^{2} u}{\partial x_{\mu} \partial y_{v}}-\frac{\partial^{2} u}{\partial y_{\mu} \partial x_{v}}=0, \\
+\mu, v=1, \ldots, n .
+\end{gathered}
+\]
+
+Применяя формальные производные
+
+\[
+\frac{\partial u}{\partial z_{v}}=\frac{1}{2}\left(\frac{\partial u}{\partial x_{v}}-i \frac{\partial u}{\partial y_{v}}\right), \quad \frac{\partial u}{\partial \bar{z}_{v}}=\frac{1}{2}\left(\frac{\partial u}{\partial x_{v}}+i \frac{\partial u}{\partial y_{v}}\right)
+\]
+
+можно записать систему (1) в более компактной форме:
+
+\[
+\frac{\partial^{2} u}{\partial z_{\mu} \partial \bar{z}_{v}}=0, \quad \mu, v=1, \ldots, n .
+\]
+
+Значение класса П. Ф. определяется тем, что действительная и мнимая части $u=\operatorname{Re} f, v=\operatorname{Im} f$ любой голоморфной в области $D$ функции $f=u+i v$ являются П. ф. в $D$; такие две (действительные) П. ф. называются с о пряже н ными. Обратно, если дана П.ф. $u$ в окрестности $V$ точки $z^{0}=x^{0}+i y^{0} \in \mathbb{C}^{n}$, то в этой окрестности существует голоморфная функция $f=u+i v$, действительная часть К-рой равна $u$. Задача определения этой голоморфной функции $f$ сводится к нахождению сопряженной П.ф. $v$ по формуле
+
+\[
+v(z)=\int_{z^{0}}^{z} \sum_{v=1}^{n}\left(-\frac{\partial u}{\partial y_{v}} d x_{v}+\frac{\partial u}{\partial x_{v}} d y_{v}\right)+C, \quad z \in V,
+\]
+
+где интеграл не зависит от пути в силу (1).
+
+Вообще говоря, рассматриваются сами по себе и комплексные П. Ф., определяемые как решения системы (1) или (2). При $n&gt;1$ П. ф. составляют правильный подкласс класса гармонических функций.
+
+Кроме общих свойств гармонич. функций П. Ф. при $n&gt;1$ обладают характерными свойствами, обусловленными в основном переопределенностью системы (1) или (2) в этом случае. Пусть, напр., при $n&gt;1$ П.Ф. $u(z)$ в единичном поликруге
+
+\[
+U^{n}=\left\{z \in \mathbb{C}^{n}:\left|z_{v}\right|&lt;1, v=1, \ldots, n\right\}
+\]
+
+непрерывна в замкнутом поликруге $\bar{U}^{n}$. При этом даже ее граничные значения на остове
+
+\[
+T^{n}=\left\{\zeta \in \mathbb{C}^{n}:\left|\zeta_{\nu}\right|=1, v=1, \ldots, n\right\}
+\]
+
+являющемся правильной частью всей границы $\partial U^{n}$, не могут быть заданы в виде произвольной непрерывной функции $U^{*}(\zeta), \zeta \in T^{n},-$ они удовлетворяют определенным дополнительным условиям. Таким образом, задача Дирихле в классе П. ф. с данными на остове разрешима лишь при специально подобранных граничных данных.
+
+Лum.: [1] Ш а б а т Б. В., Введение в комплексный анализ, 2 изд., $\begin{array}{ll}\text { ч. 2, М., } 1976 . &amp; \text { Е. Д. Соломенцев. }\end{array}$</text_orig>
+</article>

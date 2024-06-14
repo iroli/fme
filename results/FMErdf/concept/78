@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1070_KABANE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1070_KABANE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/78</core:url>
+    <lbm:descriptor><![CDATA[КАБАНЭ УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_807"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_808"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_809"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_810"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_811"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1044_INTEGRO-DIFFERENTsIAL'NOE">интегро-дифференциальное уравнение</a>, являющееся моделью <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_254_BOL'TsMANA">Больцмана уравнения</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_807">$$\begin{gathered}\frac{\partial N}{\partial t}+v(\theta) \nabla_{x} N=\frac{c S}{\pi} \int_{0}^{2 \pi} N(x, \varphi, t) N(x, \varphi+\pi, t) d \varphi- \\-2 c S N(x, \theta, t) N(x, \theta+\pi, t) .\end{gathered}$$</a><BR/></P><P>Здесь <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_808">$$n(x, \theta, t)$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотность</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> в точке <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_809">$$x=x_{1} \boldsymbol{i}+x_{2} \boldsymbol{j}$$</a>, имеющих <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорость</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_810">$$v(\theta)=i c \cos \theta+j c \sin \theta, c-$$</a> модуль <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорости</a>, $URI[[http://libmeta.ru/fme/formula/aux/1070_4_KABANE]]/URI$.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[интегро-дифференциальное уравнение, являющееся моделью Больцмана уравнения:
+
+\[
+\begin{gathered}
+\frac{\partial N}{\partial t}+v(\theta) \nabla_{x} N=\frac{c S}{\pi} \int_{0}^{2 \pi} N(x, \varphi, t) N(x, \varphi+\pi, t) d \varphi- \\
+-2 c S N(x, \theta, t) N(x, \theta+\pi, t) .
+\end{gathered}
+\]
+
+Здесь $N(x, \theta, t)$ - плотность частиц в точке $x=x_{1} \boldsymbol{i}+x_{2} \boldsymbol{j}$, имеющих скорость $v(\theta)=i c \cos \theta+j c \sin \theta, c-$ модуль скорости, $t>0$.
+
+Jum.: [i] Cabanne H., Mathematical method in kinetic theory of $\begin{array}{ll}\text { gases, Frankfurt, } 1980 . & \text { И. А. Кузин, В. П. Политюков. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_254_BOL'TsMANA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1044_INTEGRO-DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,615 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3064_TERMODINAMIChESKIJ" alphabetic_pos="3066">
+  <title>ТЕРМОДИНАМИЧЕСКИЙ ПРЕДЕЛ ДЛЯ РАВНОВЕСНЫХ СОСТОЯНИЙ НЕПРЕРЫВНЫХ СИСТЕМ КЛАССИЧЕСКОЙ СТАТИСТИЧЕСКОЙ МЕХАНИКИ</title>
+  <authors>
+    <author>Д. Я. Петрина</author>
+  </authors>
+  <pages>
+    <start>602</start>
+    <end>604</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Петрина Д.Я., Герасименко В.И., Малыше в П. В., Математические основы классической статистической механики, Киев, 1985; [2] Рюэль Д., Статистическая механика. Строгие результаты, пер. с англ., М., $1971 . \quad$</literature_orig>
+    <unit>
+      <author>Петрина Д. Я.</author>
+      <author>Герасименко В. И.</author>
+      <author>Малышев П. В.</author>
+      <title>Математические основы классической статистической механики, Киев</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рюэль Д.</author>
+      <title>Статистическая механика. Строгие результаты</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_1_TERMODINAMIChESKIJ">\left.\begin{array}{c}Z_{(N, \Lambda)}^{-1} e^{-\beta H_{N}^{\Lambda}\left((x)_{N}\right)}, \\Z_{(N, \Lambda)}=\int_{\Lambda^{N}} e^{-\beta H_{N}^{\Lambda}\left((x)_{N}\right)} d(x)_{N}, \\\int_{\Lambda} d x=\int_{\Lambda} d q \int_{\mathbb{R}^{d}} d p, \quad(x)_{N}=\left(x_{1}, \ldots, x_{N}\right) .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_2_TERMODINAMIChESKIJ">H_{N}^{\Lambda}\left((x)_{N}\right)=\sum_{i=1}^{N} \frac{p_{i}^{2}}{2 m}+\sum_{i&lt;j=1}^{N} \Phi\left(q_{i}-q_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_3_TERMODINAMIChESKIJ">\left.\begin{array}{c}F_{s, \Lambda}^{(N)}\left((x)_{S}\right)=\frac{N !}{(N-s) !} Z_{(N, \Lambda)}^{-1} \int_{\Lambda}{ }_{N-s} e^{-\beta H_{N}^{\Lambda}\left((x)_{s},(x)_{N}^{s}\right)} d(x)_{N}^{S}, \\(x)_{N}^{S}=\left(x_{s+1}, \ldots, x_{N}\right), \quad s=1,2, \ldots, N .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_4_TERMODINAMIChESKIJ">\begin{gathered}F_{s, \Lambda}^{(N)}\left((q)_{S}\right)=\int_{\mathbb{R}_{s}^{d}} F_{s, N}^{\Lambda}\left((x)_{S}\right) d(p)_{s}= \\=\frac{N !}{(N-s) !} Q^{-1}(N, V) \int_{\Lambda^{N-s}} e^{-\beta U_{N}^{\Lambda}\left((q)_{s},(q)_{N}^{s}\right)} d(q)_{N}^{S},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_5_TERMODINAMIChESKIJ">U_{N}^{\Lambda}\left((q)_{N}\right)=\sum_{i&lt;j=1} \Phi\left(q_{i}-q_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_6_TERMODINAMIChESKIJ">Q(N, \Lambda)=\int_{\Lambda^{N}} e^{-\beta U_{N}^{\Lambda}\left((q)_{N}\right)} d(q)_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_7_TERMODINAMIChESKIJ">\left.\begin{array}{c}\sum_{i&lt;j=1}^{N} \Phi\left(q_{i}-q_{j}\right) \geqslant-B N, \quad B&gt;0, \\\int\left|e^{-\beta \Phi(q)}-1\right| d q=C(\beta)&lt;\infty .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_8_TERMODINAMIChESKIJ">\lim _{N \rightarrow \infty, V \rightarrow \infty, \frac{N}{V}=\frac{1}{v}} F_{s, \Lambda}^{(N)}\left((q)_{s}\right)=F_{s}\left((q)_{s}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_9_TERMODINAMIChESKIJ">\left(F_{s, \Lambda}^{(N)}\left((q)_{s}\right)\right)_{1 \leqslant s} \leqslant N=F_{\Lambda}^{(N)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_10_TERMODINAMIChESKIJ">\begin{gathered}F_{s, \Lambda}^{(N)}\left((q)_{s}\right)=a_{N}(V) e^{-\beta \sum_{i=2}^{s} \Phi\left(q_{i}-q_{1}\right)}\left[F_{s-1, \Lambda}^{(N-1)}\left((q)_{s}^{1}\right)+\right. \\\left.+\sum_{k=1}^{N-s} \frac{1}{k !} \int_{\Lambda}^{k} \prod_{i=1}^{k} \varphi_{q_{1}}\left(y_{i}\right) F_{s-1+k, \Lambda}^{(N-1)}\left((q)_{s}^{1},(y)_{k}\right) d(y)_{k}\right], \quad \text { (7) } \\F_{0, \Lambda}^{(N-1)}=1, \quad a_{N}(V)=N \frac{Q(N-1, V)}{Q(N, V)}, \\\varphi_{q_{1}}\left(y_{i}\right)=e^{-\beta \Phi\left(q_{1}-y_{i}\right)}-1, \quad 1 \leqslant s \leqslant N, \quad(q)_{s}^{1}=\left(q_{2}, \ldots, q_{s}\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_11_TERMODINAMIChESKIJ">\begin{gathered}F_{s}\left((q)_{s}\right)=a(v) e^{-\beta \sum_{i=2}^{s} \Phi\left(q_{i}-q_{1}\right)}\left[F_{s-1}\left((q)_{s}^{1}\right)+\right. \\\left.+\sum_{k=1}^{\infty} \frac{1}{k !} \int_{\Lambda} k \prod_{i=1}^{k} \varphi_{q_{1}}\left(y_{i}\right) F_{s-1+k}\left((q)_{s}^{1},(y)_{k}\right) d(y)_{k}\right], \\F_{0}=1, \quad s \geqslant 1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_12_TERMODINAMIChESKIJ">\sum_{i \neq j} \Phi\left(q_{i}-q_{j}\right)&gt;2 B</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_13_TERMODINAMIChESKIJ">F=K F+F^{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_14_TERMODINAMIChESKIJ">F_{\Lambda}^{(N)}=K_{\Lambda}^{(N)} F_{\Lambda}^{(N-1)}+F_{\Lambda}^{0(N)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_15_TERMODINAMIChESKIJ">\|f\|=\sup _{s \geqslant 1} \frac{1}{\xi^{s}} \sup _{q_{s}}\left|f_{S}\left((q)_{s}\right)\right|, \quad \xi=C^{-1}(\beta) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_16_TERMODINAMIChESKIJ">F=\sum_{n=0}^{\infty} K^{n} F^{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_17_TERMODINAMIChESKIJ">\begin{gathered}F_{s, \Lambda}\left((x)_{s}\right)=\Xi^{-1}(V, \beta) \sum_{n=0}^{\infty} \frac{1}{n !} \times \\\times \int_{\Lambda^{n}} e^{-\beta\left(H_{s+n}^{\Lambda}\left((x)_{s},(x)_{N}^{s}\right)-\mu(s+n)\right)} d(x)_{N}^{s},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_18_TERMODINAMIChESKIJ">\begin{aligned}\Xi(V, \beta, z) &amp; =\sum_{n=0}^{\infty} \frac{1}{n !} \int_{\Lambda^{n}} e^{-\beta\left(H_{n}^{\Lambda}\left((x)_{n}\right),-\mu(n)\right)} d(x)_{n}= \\&amp; =\sum_{n=0}^{\infty} \frac{z^{n}}{n !} \int_{\Lambda^{n}} e^{-\beta U_{n}^{\Lambda}\left((q)_{n}\right)} d(q)_{n},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_19_TERMODINAMIChESKIJ">\begin{gathered}F_{s, \Lambda}\left((q)_{s}\right)=\Xi^{-1}(V, \beta, z) \sum_{n=0}^{\infty} \frac{z^{n+s}}{n !} \times \\\times \int_{\Lambda^{n}} e^{-\beta U_{s+n}^{\Lambda}\left((q)_{s},(q)_{N}^{s}\right)} d(q)_{N}^{s}, \\F_{s, \Lambda}\left((q)_{s}\right)=0, \quad q_{i} \notin \Lambda, \quad i=1, \ldots, s .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_20_TERMODINAMIChESKIJ">e^{\beta B s}|z|^{s} e^{e^{\beta B} V|z|}, e^{e^{\beta B} V|z|}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_21_TERMODINAMIChESKIJ">\lim _{V \rightarrow \infty} F_{s, \Lambda}\left((q)_{s}\right)=F_{s}\left((q)_{s}\right), \quad s \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_22_TERMODINAMIChESKIJ">\begin{gathered}F_{s, \Lambda}\left((q)_{s}\right)=z e^{-\beta \sum_{i=2}^{s} \Phi\left(q_{1}-q_{i}\right)}\left[F_{s-1, \Lambda}\left((q)_{s}^{1}\right)+\right. \\+\sum_{k=1}^{\infty} \frac{1}{k !} \int_{\Lambda^{k}} \prod_{i=1}^{k} \varphi_{q_{1}}\left(y_{i}\right) \times \\\left.\times F_{s-1+k, \Lambda}\left((q)_{s}^{1},(y)_{k}\right) d(y)_{k}\right], \quad s \geqslant 1, \quad F_{0 \Lambda}=1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_23_TERMODINAMIChESKIJ">\left.\begin{array}{c}F_{\Lambda}=\left(F_{s, \Lambda}\left((q)_{s}\right)\right), s \geqslant 1, F=\left(F_{s}\left((q)_{s}\right)\right), s \geqslant 1, \\F_{\Lambda}=z K_{\Lambda} F_{\Lambda}+F_{\Lambda}^{0}, F=z K F+F^{0}, F^{0}=(z, 0, \ldots),\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_24_TERMODINAMIChESKIJ">|z|&lt;e^{-2 B \beta-1} C^{-1}(\beta)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_25_TERMODINAMIChESKIJ">F^{\Lambda}=\sum_{n=0}^{\infty}\left(z K_{\Lambda}\right)^{n} F_{\Lambda}^{0}, \quad F=\sum_{n=0}^{\infty}(z K)^{n} F^{0} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_26_TERMODINAMIChESKIJ">\begin{gathered}F=\left(F_{s}\left((x)_{s}\right)\right)_{s} \geqslant 1, \\F_{s}\left((x)_{s}\right)=F_{s}\left((q)_{s}\right) e^{-\beta \sum_{i=1}^{s}\left(\frac{p_{i}^{2}}{2 m}-\mu\right)} z^{-s},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3064_27_TERMODINAMIChESKIJ">\|f\|=\sup _{s \geqslant 1} \xi^{-s} \sup _{(x)_{s}} e^{\beta \sum_{i=1}^{N}\left(\frac{p_{i}^{2}}{2 m}-\mu\right)}\left|f_{s}\left((x)_{s}\right)\right|&lt;\infty .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_1_TERMODINAMIChESKIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_2_TERMODINAMIChESKIJ">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_3_TERMODINAMIChESKIJ">\frac{1}{v}=\frac{n}{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_4_TERMODINAMIChESKIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_5_TERMODINAMIChESKIJ">\lambda \subset \mathbb{R}^{d}, d=1,2,3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_6_TERMODINAMIChESKIJ">\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_7_TERMODINAMIChESKIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_8_TERMODINAMIChESKIJ">\lambda, p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_9_TERMODINAMIChESKIJ">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_10_TERMODINAMIChESKIJ">q_{i} \notin \Lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_11_TERMODINAMIChESKIJ">i=1, \ldots, N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_12_TERMODINAMIChESKIJ">h_{n}^{\lambda}=+\infty, \beta=\frac{1}{k T}, k-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_13_TERMODINAMIChESKIJ">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_14_TERMODINAMIChESKIJ">z_{(n, \Lambda)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_15_TERMODINAMIChESKIJ">f_{s, \Lambda}^{(N)}\left((x)_{S}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_16_TERMODINAMIChESKIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_17_TERMODINAMIChESKIJ">\lambda, Q(N, \Lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_18_TERMODINAMIChESKIJ">v(\lambda)=v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_19_TERMODINAMIChESKIJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_20_TERMODINAMIChESKIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_21_TERMODINAMIChESKIJ">\frac{n}{v}=\frac{1}{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_22_TERMODINAMIChESKIJ">v^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_23_TERMODINAMIChESKIJ">f_{\lambda}^{(n-1)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_24_TERMODINAMIChESKIJ">f_{\lambda}^{(n-2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_25_TERMODINAMIChESKIJ">f_{\lambda}^{(n-l)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_26_TERMODINAMIChESKIJ">f=\left(f_{s}\left((q)_{s}\right)\right)_{s} \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_27_TERMODINAMIChESKIJ">a_{n-l}(V)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_28_TERMODINAMIChESKIJ">a(v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_29_TERMODINAMIChESKIJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_30_TERMODINAMIChESKIJ">q_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_31_TERMODINAMIChESKIJ">q_{i}, i=1, \ldots, s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_32_TERMODINAMIChESKIJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_33_TERMODINAMIChESKIJ">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_34_TERMODINAMIChESKIJ">f^{0}=(a(v), 0, \ldots)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_35_TERMODINAMIChESKIJ">f_{\lambda}^{(n)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_36_TERMODINAMIChESKIJ">k_{\lambda}^{(n)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_37_TERMODINAMIChESKIJ">f_{\lambda}^{0(n)}=\left(a_{n}(v), 0, \ldots\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_38_TERMODINAMIChESKIJ">e_{\xi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_39_TERMODINAMIChESKIJ">f=\left(f_{s}\left((q)_{s}\right)\right)_{s} \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_40_TERMODINAMIChESKIJ">\mathrm{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_41_TERMODINAMIChESKIJ">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_42_TERMODINAMIChESKIJ">\frac{1}{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_43_TERMODINAMIChESKIJ">e_{\xi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_44_TERMODINAMIChESKIJ">f_{\lambda}^{(n)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_45_TERMODINAMIChESKIJ">f_{\lambda}^{(n)} \in E_{\xi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_46_TERMODINAMIChESKIJ">f_{s, \Lambda}^{(N)}\left((q)_{S}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_47_TERMODINAMIChESKIJ">f_{s}\left((q)_{s}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_48_TERMODINAMIChESKIJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_49_TERMODINAMIChESKIJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_50_TERMODINAMIChESKIJ">\xi-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_51_TERMODINAMIChESKIJ">z-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_52_TERMODINAMIChESKIJ">z=\left(\frac{2 \pi}{m}\right)^{d / 2} e^{\beta \mu}, \mu-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_53_TERMODINAMIChESKIJ">\bar{n}(v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_54_TERMODINAMIChESKIJ">f_{s, \Lambda}\left((x)_{S}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_55_TERMODINAMIChESKIJ">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_56_TERMODINAMIChESKIJ">v \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_57_TERMODINAMIChESKIJ">f_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_58_TERMODINAMIChESKIJ">\mathbb{r}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_59_TERMODINAMIChESKIJ">k_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_60_TERMODINAMIChESKIJ">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_61_TERMODINAMIChESKIJ">k_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_62_TERMODINAMIChESKIJ">\lambda=\mathbb{r}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_63_TERMODINAMIChESKIJ">e_{\xi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_64_TERMODINAMIChESKIJ">f_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_65_TERMODINAMIChESKIJ">v \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_66_TERMODINAMIChESKIJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_67_TERMODINAMIChESKIJ">f_{s, \Lambda}\left((q)_{s}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_68_TERMODINAMIChESKIJ">f_{s}\left((q)_{s}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_69_TERMODINAMIChESKIJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_70_TERMODINAMIChESKIJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_71_TERMODINAMIChESKIJ">a(v)=z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_72_TERMODINAMIChESKIJ">\boldsymbol{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_73_TERMODINAMIChESKIJ">\boldsymbol{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_74_TERMODINAMIChESKIJ">\boldsymbol{\beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_75_TERMODINAMIChESKIJ">|z|&lt;\|k\|^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_76_TERMODINAMIChESKIJ">k: F=(I-z K)^{-1} F^{0}, I-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_77_TERMODINAMIChESKIJ">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_78_TERMODINAMIChESKIJ">\frac{1}{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_79_TERMODINAMIChESKIJ">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_80_TERMODINAMIChESKIJ">k_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_81_TERMODINAMIChESKIJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_82_TERMODINAMIChESKIJ">\xi(v, z, \beta)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_83_TERMODINAMIChESKIJ">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_84_TERMODINAMIChESKIJ">z&gt;0, \beta&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_85_TERMODINAMIChESKIJ">f_{\lambda}=\left(f_{s, \Lambda}\left((q)_{s}\right)\right), s \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_86_TERMODINAMIChESKIJ">f_{\lambda_{j}}=\left(f_{s, \Lambda_{j}}\left((q)_{s}\right)\right), s \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_87_TERMODINAMIChESKIJ">f_{s, \Lambda_{j}}\left((q)_{s}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_88_TERMODINAMIChESKIJ">v_{j}(\lambda) \rightarrow V_{j} \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_89_TERMODINAMIChESKIJ">f_{s}\left((q)_{s}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3064_90_TERMODINAMIChESKIJ">f=\left(f\left((x)_{s}\right)\right)_{s \geqslant 1}</formula>
+  </formulas_aux>
+  <relations n="17">
+    <relation uri="http://libmeta.ru/fme/relation/3064_1_TERMODINAMIChESKIJ">
+      <rel_text>фазовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_2_TERMODINAMIChESKIJ">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_3_TERMODINAMIChESKIJ">
+      <rel_text>состояние</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_4_TERMODINAMIChESKIJ">
+      <rel_text>бесконечной системы</rel_text>
+      <target>http://libmeta.ru/fme/article/168_BESKONEChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_5_TERMODINAMIChESKIJ">
+      <rel_text>описывают состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2853_SOKRASchENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_6_TERMODINAMIChESKIJ">
+      <rel_text>уравнению Кирквуда</rel_text>
+      <target>http://libmeta.ru/fme/article/232_BOGOLJuBOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_7_TERMODINAMIChESKIJ">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_8_TERMODINAMIChESKIJ">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_9_TERMODINAMIChESKIJ">
+      <rel_text>спектр оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/1550_LAPLASA-BEL'TRAMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_10_TERMODINAMIChESKIJ">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_11_TERMODINAMIChESKIJ">
+      <rel_text>активности</rel_text>
+      <target>http://libmeta.ru/fme/article/46_AKTIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_12_TERMODINAMIChESKIJ">
+      <rel_text>уравнение Кирквуда</rel_text>
+      <target>http://libmeta.ru/fme/article/232_BOGOLJuBOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_13_TERMODINAMIChESKIJ">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_14_TERMODINAMIChESKIJ">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_15_TERMODINAMIChESKIJ">
+      <rel_text>резольвенту</rel_text>
+      <target>http://libmeta.ru/fme/article/2587_REZOL'VENT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_16_TERMODINAMIChESKIJ">
+      <rel_text>уравнения Кирквуда</rel_text>
+      <target>http://libmeta.ru/fme/article/232_BOGOLJuBOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3064_17_TERMODINAMIChESKIJ">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+  </relations>
+  <text>процедура, в результате которой из состояний конечных систем получаются состояния бесконечных систем. Она состоит в том, что число частиц $URI[[http://libmeta.ru/fme/formula/aux/3064_1_TERMODINAMIChESKIJ]]/URI$ и объем системы $URI[[http://libmeta.ru/fme/formula/aux/3064_2_TERMODINAMIChESKIJ]]/URI$ устремляются к бесконечности при постоянной плотности $URI[[http://libmeta.ru/fme/formula/aux/3064_3_TERMODINAMIChESKIJ]]/URI$.
+
+1. Канонический ансамбль. Равновесное состояние в рамках канонич. ансамбля для $URI[[http://libmeta.ru/fme/formula/aux/3064_4_TERMODINAMIChESKIJ]]/URI$ частиц, расположенных в конечной области $URI[[http://libmeta.ru/fme/formula/aux/3064_5_TERMODINAMIChESKIJ]]/URI$, при обратной температуре $URI[[http://libmeta.ru/fme/formula/aux/3064_6_TERMODINAMIChESKIJ]]/URI$, задается Гиббса распределением на фазовом пространстве:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_1_TERMODINAMIChESKIJ]]/URI
+\]
+
+Здесь
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_2_TERMODINAMIChESKIJ]]/URI
+\]
+
+- гамильтониан $URI[[http://libmeta.ru/fme/formula/aux/3064_7_TERMODINAMIChESKIJ]]/URI$ частиц в области $URI[[http://libmeta.ru/fme/formula/aux/3064_8_TERMODINAMIChESKIJ]]/URI$ - импульс, $URI[[http://libmeta.ru/fme/formula/aux/3064_9_TERMODINAMIChESKIJ]]/URI$ координата, а если $URI[[http://libmeta.ru/fme/formula/aux/3064_10_TERMODINAMIChESKIJ]]/URI$, хотя бы для одного $URI[[http://libmeta.ru/fme/formula/aux/3064_11_TERMODINAMIChESKIJ]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/3064_12_TERMODINAMIChESKIJ]]/URI$ постоянная Больцмана, $URI[[http://libmeta.ru/fme/formula/aux/3064_13_TERMODINAMIChESKIJ]]/URI$ абсолютная температура, $URI[[http://libmeta.ru/fme/formula/aux/3064_14_TERMODINAMIChESKIJ]]/URI$ - статистич. сумма. Средняя скорость предполагается равной нулю. Равновесные функции распределения $URI[[http://libmeta.ru/fme/formula/aux/3064_15_TERMODINAMIChESKIJ]]/URI$ определяются следующим образом:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_3_TERMODINAMIChESKIJ]]/URI
+\]
+
+Они равны произведению функции, зависящей от импульсов как распределение Максвелла, и функции, зависящей от координат. Общепринято рассматривать функции распределения, зависящие только от координат:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_4_TERMODINAMIChESKIJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_5_TERMODINAMIChESKIJ]]/URI
+\]
+
+- потенциальная энергия $URI[[http://libmeta.ru/fme/formula/aux/3064_16_TERMODINAMIChESKIJ]]/URI$ частиц в области $URI[[http://libmeta.ru/fme/formula/aux/3064_17_TERMODINAMIChESKIJ]]/URI$ конфигурационный интеграл
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_6_TERMODINAMIChESKIJ]]/URI
+\]
+
+Парный потенциал предполагается устойчивым и регулярным
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_7_TERMODINAMIChESKIJ]]/URI
+\]
+
+Если в выражении для функций распределения перейти к Т. П. и устремить объем $URI[[http://libmeta.ru/fme/formula/aux/3064_18_TERMODINAMIChESKIJ]]/URI$ области $URI[[http://libmeta.ru/fme/formula/aux/3064_19_TERMODINAMIChESKIJ]]/URI$ и число частиц $URI[[http://libmeta.ru/fme/formula/aux/3064_20_TERMODINAMIChESKIJ]]/URI$ к бесконечности при постоянной плотности $URI[[http://libmeta.ru/fme/formula/aux/3064_21_TERMODINAMIChESKIJ]]/URI$, то возникает трудность, связанная с тем, что функции распределения равны отношению двух выражений, к-рые расходятся как $URI[[http://libmeta.ru/fme/formula/aux/3064_22_TERMODINAMIChESKIJ]]/URI$. Сущность обоснования Т. П. состоит в том, чтобы доказать, что в определенном смысле существует предел
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_8_TERMODINAMIChESKIJ]]/URI
+\]
+
+и исследовать характер зависимости предельных функций от плотности.
+
+Для этой цели используются уравнения для функций распределения. Последовательность
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_9_TERMODINAMIChESKIJ]]/URI
+\]
+
+удовлетворяет соотношениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_10_TERMODINAMIChESKIJ]]/URI
+\]
+
+В свою очередь, последовательность $URI[[http://libmeta.ru/fme/formula/aux/3064_23_TERMODINAMIChESKIJ]]/URI$ удовлетворяет аналогичному соотношению и выражается через $URI[[http://libmeta.ru/fme/formula/aux/3064_24_TERMODINAMIChESKIJ]]/URI$ и т. Д. Если перейти в этих соотношениях к Т. П., считая, что последовательность $URI[[http://libmeta.ru/fme/formula/aux/3064_25_TERMODINAMIChESKIJ]]/URI$ сходится к $URI[[http://libmeta.ru/fme/formula/aux/3064_26_TERMODINAMIChESKIJ]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/3064_27_TERMODINAMIChESKIJ]]/URI$ к $URI[[http://libmeta.ru/fme/formula/aux/3064_28_TERMODINAMIChESKIJ]]/URI$, то получают предельное соотношение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_11_TERMODINAMIChESKIJ]]/URI
+\]
+
+В статистич. механике соотношения (8) рассматриваются как уравнения относительно последовательности. Их называют уравнениями Кирквуда - 3 альцбурга. Существуют и другие уравнения для последовательности $URI[[http://libmeta.ru/fme/formula/aux/3064_29_TERMODINAMIChESKIJ]]/URI$ : Майера - Монтролла уравнение, Боголюбова уравнение и т. д. Задачу обоснования Т. п. удобнее решать с помощью уравнения (8). В уравнениях (8) и соотношениях (7) выделенную роль играет переменная $URI[[http://libmeta.ru/fme/formula/aux/3064_30_TERMODINAMIChESKIJ]]/URI$, можно вывести уравнения, выделяя $URI[[http://libmeta.ru/fme/formula/aux/3064_31_TERMODINAMIChESKIJ]]/URI$, в той области, где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_12_TERMODINAMIChESKIJ]]/URI
+\]
+
+и симметризуя их. В дальнейшем под уравнениями Кирквуда - Зальцбурга понимают симметризованные уравнения Кирквуда - Зальцбурга, к-рые естественно рассматривать как одно операторное уравнение для $URI[[http://libmeta.ru/fme/formula/aux/3064_32_TERMODINAMIChESKIJ]]/URI$ вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_13_TERMODINAMIChESKIJ]]/URI
+\]
+
+где оператор $URI[[http://libmeta.ru/fme/formula/aux/3064_33_TERMODINAMIChESKIJ]]/URI$ определяется правой частью симметризованного уравнения Кирквуда - Зальцбурга, а $URI[[http://libmeta.ru/fme/formula/aux/3064_34_TERMODINAMIChESKIJ]]/URI$. Аналогично соотношения пля $URI[[http://libmeta.ru/fme/formula/aux/3064_35_TERMODINAMIChESKIJ]]/URI$ можно представить в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_14_TERMODINAMIChESKIJ]]/URI
+\]
+
+где оператор $URI[[http://libmeta.ru/fme/formula/aux/3064_36_TERMODINAMIChESKIJ]]/URI$ определяется правой частью соотношения (7), а $URI[[http://libmeta.ru/fme/formula/aux/3064_37_TERMODINAMIChESKIJ]]/URI$. Уравнения Кирквуда Зальцбурга (9) и соотношения (10) рассматриваются в банаховом пространстве $URI[[http://libmeta.ru/fme/formula/aux/3064_38_TERMODINAMIChESKIJ]]/URI$ последовательностей ограниченных функций $URI[[http://libmeta.ru/fme/formula/aux/3064_39_TERMODINAMIChESKIJ]]/URI$ с нормой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_15_TERMODINAMIChESKIJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3064_40_TERMODINAMIChESKIJ]]/URI$ е о р е м а. Для устойчивого и регулярного потенциала $URI[[http://libmeta.ru/fme/formula/aux/3064_41_TERMODINAMIChESKIJ]]/URI$ и достаточно малой плотности $URI[[http://libmeta.ru/fme/formula/aux/3064_42_TERMODINAMIChESKIJ]]/URI$ существует единственное решение уравнения Кирквуда - Зальцбурга и его можно представить сходящимся по норме пространства $URI[[http://libmeta.ru/fme/formula/aux/3064_43_TERMODINAMIChESKIJ]]/URI$ рядом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_16_TERMODINAMIChESKIJ]]/URI
+\]
+
+Из соотношений (7) для $URI[[http://libmeta.ru/fme/formula/aux/3064_44_TERMODINAMIChESKIJ]]/URI$ также следует, что $URI[[http://libmeta.ru/fme/formula/aux/3064_45_TERMODINAMIChESKIJ]]/URI$ и что последовательность $URI[[http://libmeta.ru/fme/formula/aux/3064_46_TERMODINAMIChESKIJ]]/URI$ в Т. п. сходится равномерно на компактах к $URI[[http://libmeta.ru/fme/formula/aux/3064_47_TERMODINAMIChESKIJ]]/URI$. Предельная последовательность $URI[[http://libmeta.ru/fme/formula/aux/3064_48_TERMODINAMIChESKIJ]]/URI$ описывает равновесное состояние бесконечной системы, она является голоморфной функцией плотности в нек-рой окрестности нуля.
+
+2. Большой канонический ансамбль. В рамках большого канонич. ансамбля последовательность равновесных функций распределения в конечной области $URI[[http://libmeta.ru/fme/formula/aux/3064_49_TERMODINAMIChESKIJ]]/URI$ определяется следующим образом через распределение Гиббса:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_17_TERMODINAMIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3064_50_TERMODINAMIChESKIJ]]/URI$ большая статистич. сумма
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_18_TERMODINAMIChESKIJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3064_51_TERMODINAMIChESKIJ]]/URI$ активность, $URI[[http://libmeta.ru/fme/formula/aux/3064_52_TERMODINAMIChESKIJ]]/URI$ химич. потенциал, с помощью к-рого фиксируется среднее число частиц $URI[[http://libmeta.ru/fme/formula/aux/3064_53_TERMODINAMIChESKIJ]]/URI$. Функция распределения $URI[[http://libmeta.ru/fme/formula/aux/3064_54_TERMODINAMIChESKIJ]]/URI$ равна произведению функции, зависящей от импульсов как распределение Максвелла, и функции, зависящей только от координат. Общепринято рассматривать функции распределения, зависящие только от координат
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_19_TERMODINAMIChESKIJ]]/URI
+\]
+
+Из условия устойчивости следует, что числитель и знаменатель выражения (13) при конечном $URI[[http://libmeta.ru/fme/formula/aux/3064_55_TERMODINAMIChESKIJ]]/URI$ существуют, являются целыми функциями, ограничены сверху величинами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_20_TERMODINAMIChESKIJ]]/URI
+\]
+
+соответственно и расходятся при $URI[[http://libmeta.ru/fme/formula/aux/3064_56_TERMODINAMIChESKIJ]]/URI$ как экспоненты. Обоснование существования Т. п. состоит в том, чтобы доказать, что в каком-то смысле существует предел
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_21_TERMODINAMIChESKIJ]]/URI
+\]
+
+и установить характер зависимости предельных функций от активности. Для этой цели, как и в случае канонич. ансамбля, используются уравнения для функций распределения, к-рые для большого канонич. ансамбля выглядят таким образом:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_22_TERMODINAMIChESKIJ]]/URI
+\]
+
+Если совершить в них Т. П., то получим уравнения Кирквуда - Зальцбурга для $URI[[http://libmeta.ru/fme/formula/aux/3064_57_TERMODINAMIChESKIJ]]/URI$, к-рые отличаются от (14) только тем, что интегралы берутся по всему $URI[[http://libmeta.ru/fme/formula/aux/3064_58_TERMODINAMIChESKIJ]]/URI$. Симметризуя их, получают окончательные уравнения Кирквуда - Зальцбурга, к-рые можно представить в виде операторных уравнений для последовательностей
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_23_TERMODINAMIChESKIJ]]/URI
+\]
+
+где оператор $URI[[http://libmeta.ru/fme/formula/aux/3064_59_TERMODINAMIChESKIJ]]/URI$ определен правой частью (14), а $URI[[http://libmeta.ru/fme/formula/aux/3064_60_TERMODINAMIChESKIJ]]/URI$ получается из $URI[[http://libmeta.ru/fme/formula/aux/3064_61_TERMODINAMIChESKIJ]]/URI$, если в нем положить $URI[[http://libmeta.ru/fme/formula/aux/3064_62_TERMODINAMIChESKIJ]]/URI$.
+
+Те о ре ма. Для устойчивого и регулярного потенциала существуют единственные решения уравнения Кирквуда Зальцбурга (15) и при
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_24_TERMODINAMIChESKIJ]]/URI
+\]
+
+они представляются сходящимися по норме $URI[[http://libmeta.ru/fme/formula/aux/3064_63_TERMODINAMIChESKIJ]]/URI$ рядами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_25_TERMODINAMIChESKIJ]]/URI
+\]
+
+Последовательность $URI[[http://libmeta.ru/fme/formula/aux/3064_64_TERMODINAMIChESKIJ]]/URI$ сходится при $URI[[http://libmeta.ru/fme/formula/aux/3064_65_TERMODINAMIChESKIJ]]/URI$ к $URI[[http://libmeta.ru/fme/formula/aux/3064_66_TERMODINAMIChESKIJ]]/URI$ в том смысле, что функции $URI[[http://libmeta.ru/fme/formula/aux/3064_67_TERMODINAMIChESKIJ]]/URI$ сходятся к $URI[[http://libmeta.ru/fme/formula/aux/3064_68_TERMODINAMIChESKIJ]]/URI$ равномерно на компактах. Последовательность $URI[[http://libmeta.ru/fme/formula/aux/3064_69_TERMODINAMIChESKIJ]]/URI$ описывает равновесное состояние бесконечной системы в рамках больших канонич. ансамблей. Канонич. ансамбли и большие канонич. ансамбли эквивалентны в том смысле, что если в канонич. ансамбле в уравнении Кирквуда - Зальцбурга для состояния $URI[[http://libmeta.ru/fme/formula/aux/3064_70_TERMODINAMIChESKIJ]]/URI$ положить $URI[[http://libmeta.ru/fme/formula/aux/3064_71_TERMODINAMIChESKIJ]]/URI$, то получают уравнение Кирквуда - Зальцбурга для состояния в большом канонич. ансамбле. Активность является голоморфной функцией плотности в окрестности нуля и, наоборот, плотность является голоморфной функцией активности в окрестности нуля.
+
+3. Существование URI[[http://libmeta.ru/fme/relation/3064_17_TERMODINAMIChESKIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3064_72_TERMODINAMIChESKIJ]]/URI$ при произвольных $URI[[http://libmeta.ru/fme/formula/aux/3064_73_TERMODINAMIChESKIJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3064_74_TERMODINAMIChESKIJ]]/URI$. Решение URI[[http://libmeta.ru/fme/relation/3064_16_TERMODINAMIChESKIJ]]/URI - Зальцбурга при $URI[[http://libmeta.ru/fme/formula/aux/3064_75_TERMODINAMIChESKIJ]]/URI$ можно представить в компактной форме через URI[[http://libmeta.ru/fme/relation/3064_15_TERMODINAMIChESKIJ]]/URI URI[[http://libmeta.ru/fme/relation/3064_14_TERMODINAMIChESKIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3064_76_TERMODINAMIChESKIJ]]/URI$ единичный URI[[http://libmeta.ru/fme/relation/3064_13_TERMODINAMIChESKIJ]]/URI. Для того чтобы решить URI[[http://libmeta.ru/fme/relation/3064_12_TERMODINAMIChESKIJ]]/URI - Зальцбурга при произвольной URI[[http://libmeta.ru/fme/relation/3064_11_TERMODINAMIChESKIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3064_77_TERMODINAMIChESKIJ]]/URI$ (URI[[http://libmeta.ru/fme/relation/3064_10_TERMODINAMIChESKIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3064_78_TERMODINAMIChESKIJ]]/URI$ ), нужно знать URI[[http://libmeta.ru/fme/relation/3064_9_TERMODINAMIChESKIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3064_79_TERMODINAMIChESKIJ]]/URI$ и его свойства. Эта задача не решена. Только для URI[[http://libmeta.ru/fme/relation/3064_8_TERMODINAMIChESKIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3064_80_TERMODINAMIChESKIJ]]/URI$ в конечной URI[[http://libmeta.ru/fme/relation/3064_7_TERMODINAMIChESKIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3064_81_TERMODINAMIChESKIJ]]/URI$ доказано, что его собственные значения определяются нулями $URI[[http://libmeta.ru/fme/formula/aux/3064_82_TERMODINAMIChESKIJ]]/URI$ и полностью охарактеризован его спектр.
+
+Для регулярного, сверхустойчивого и регулярного снизу потенциала $URI[[http://libmeta.ru/fme/formula/aux/3064_83_TERMODINAMIChESKIJ]]/URI$ доказано, что при произвольных $URI[[http://libmeta.ru/fme/formula/aux/3064_84_TERMODINAMIChESKIJ]]/URI$ из последовательности $URI[[http://libmeta.ru/fme/formula/aux/3064_85_TERMODINAMIChESKIJ]]/URI$, можно выделить подпоследовательности $URI[[http://libmeta.ru/fme/formula/aux/3064_86_TERMODINAMIChESKIJ]]/URI$, такие, что $URI[[http://libmeta.ru/fme/formula/aux/3064_87_TERMODINAMIChESKIJ]]/URI$ сходятся при $URI[[http://libmeta.ru/fme/formula/aux/3064_88_TERMODINAMIChESKIJ]]/URI$ к предельным функциям распределения $URI[[http://libmeta.ru/fme/formula/aux/3064_89_TERMODINAMIChESKIJ]]/URI$ равномерно на компактах. Предельные функции распределения удовлетворяют URI[[http://libmeta.ru/fme/relation/3064_6_TERMODINAMIChESKIJ]]/URI - Зальцбурга и URI[[http://libmeta.ru/fme/relation/3064_5_TERMODINAMIChESKIJ]]/URI URI[[http://libmeta.ru/fme/relation/3064_4_TERMODINAMIChESKIJ]]/URI. Предельное URI[[http://libmeta.ru/fme/relation/3064_3_TERMODINAMIChESKIJ]]/URI можно еще описывать с помощью меры, к-рая удовлетворяет Длр-уравнению.
+
+Если рассматривать URI[[http://libmeta.ru/fme/relation/3064_2_TERMODINAMIChESKIJ]]/URI на URI[[http://libmeta.ru/fme/relation/3064_1_TERMODINAMIChESKIJ]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_26_TERMODINAMIChESKIJ]]/URI
+\]
+
+то они принадлежат банаховому пространству последовательностей $URI[[http://libmeta.ru/fme/formula/aux/3064_90_TERMODINAMIChESKIJ]]/URI$ с нормой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3064_27_TERMODINAMIChESKIJ]]/URI
+\]</text>
+  <text_orig>процедура, в результате которой из состояний конечных систем получаются состояния бесконечных систем. Она состоит в том, что число частиц $N$ и объем системы $V$ устремляются к бесконечности при постоянной плотности $\frac{1}{v}=\frac{N}{V}$.
+
+1. Канонический ансамбль. Равновесное состояние в рамках канонич. ансамбля для $N$ частиц, расположенных в конечной области $\Lambda \subset \mathbb{R}^{d}, d=1,2,3$, при обратной температуре $\beta$, задается Гиббса распределением на фазовом пространстве:
+
+\[
+\left.\begin{array}{c}
+Z_{(N, \Lambda)}^{-1} e^{-\beta H_{N}^{\Lambda}\left((x)_{N}\right)}, \\
+Z_{(N, \Lambda)}=\int_{\Lambda^{N}} e^{-\beta H_{N}^{\Lambda}\left((x)_{N}\right)} d(x)_{N}, \\
+\int_{\Lambda} d x=\int_{\Lambda} d q \int_{\mathbb{R}^{d}} d p, \quad(x)_{N}=\left(x_{1}, \ldots, x_{N}\right) .
+\end{array}\right\}
+\]
+
+Здесь
+
+\[
+H_{N}^{\Lambda}\left((x)_{N}\right)=\sum_{i=1}^{N} \frac{p_{i}^{2}}{2 m}+\sum_{i&lt;j=1}^{N} \Phi\left(q_{i}-q_{j}\right)
+\]
+
+- гамильтониан $N$ частиц в области $\Lambda, p$ - импульс, $q$ координата, а если $q_{i} \notin \Lambda$, хотя бы для одного $i=1, \ldots, N$, то $H_{N}^{\Lambda}=+\infty, \beta=\frac{1}{k T}, k-$ постоянная Больцмана, $T-$ абсолютная температура, $Z_{(N, \Lambda)}$ - статистич. сумма. Средняя скорость предполагается равной нулю. Равновесные функщии распределения $F_{s, \Lambda}^{(N)}\left((x)_{S}\right)$ определяются следующим образом:
+
+\[
+\left.\begin{array}{c}
+F_{s, \Lambda}^{(N)}\left((x)_{S}\right)=\frac{N !}{(N-s) !} Z_{(N, \Lambda)}^{-1} \int_{\Lambda}{ }_{N-s} e^{-\beta H_{N}^{\Lambda}\left((x)_{s},(x)_{N}^{s}\right)} d(x)_{N}^{S}, \\
+(x)_{N}^{S}=\left(x_{s+1}, \ldots, x_{N}\right), \quad s=1,2, \ldots, N .
+\end{array}\right\}
+\]
+
+Они равны произведению функции, зависящей от импульсов как распределение Максвелла, и функции, зависящей от координат. Общепринято рассматривать функции распределения, зависящие только от координат:
+
+\[
+\begin{gathered}
+F_{s, \Lambda}^{(N)}\left((q)_{S}\right)=\int_{\mathbb{R}_{s}^{d}} F_{s, N}^{\Lambda}\left((x)_{S}\right) d(p)_{s}= \\
+=\frac{N !}{(N-s) !} Q^{-1}(N, V) \int_{\Lambda^{N-s}} e^{-\beta U_{N}^{\Lambda}\left((q)_{s},(q)_{N}^{s}\right)} d(q)_{N}^{S},
+\end{gathered}
+\]
+
+где
+
+\[
+U_{N}^{\Lambda}\left((q)_{N}\right)=\sum_{i&lt;j=1} \Phi\left(q_{i}-q_{j}\right)
+\]
+
+- потенциальная энергия $N$ частиц в области $\Lambda, Q(N, \Lambda)$ конфигурационный интеграл
+
+\[
+Q(N, \Lambda)=\int_{\Lambda^{N}} e^{-\beta U_{N}^{\Lambda}\left((q)_{N}\right)} d(q)_{N}
+\]
+
+Парный потенциал предполагается устойчивым и регулярным
+
+\[
+\left.\begin{array}{c}
+\sum_{i&lt;j=1}^{N} \Phi\left(q_{i}-q_{j}\right) \geqslant-B N, \quad B&gt;0, \\
+\int\left|e^{-\beta \Phi(q)}-1\right| d q=C(\beta)&lt;\infty .
+\end{array}\right\}
+\]
+
+Если в выражении для функций распределения перейти к Т. П. и устремить объем $V(\Lambda)=V$ области $\Lambda$ и число частиц $N$ к бесконечности при постоянной плотности $\frac{N}{V}=\frac{1}{v}$, то возникает трудность, связанная с тем, что функции распределения равны отношению двух выражений, к-рые расходятся как $V^{N}$. Сущность обоснования Т. П. состоит в том, чтобы доказать, что в определенном смысле существует предел
+
+\[
+\lim _{N \rightarrow \infty, V \rightarrow \infty, \frac{N}{V}=\frac{1}{v}} F_{s, \Lambda}^{(N)}\left((q)_{s}\right)=F_{s}\left((q)_{s}\right),
+\]
+
+и исследовать характер зависимости предельных функций от плотности.
+
+Для этой цели используются уравнения для функций распределения. Последовательность
+
+\[
+\left(F_{s, \Lambda}^{(N)}\left((q)_{s}\right)\right)_{1 \leqslant s} \leqslant N=F_{\Lambda}^{(N)}
+\]
+
+удовлетворяет соотношениям
+
+\[
+\begin{gathered}
+F_{s, \Lambda}^{(N)}\left((q)_{s}\right)=a_{N}(V) e^{-\beta \sum_{i=2}^{s} \Phi\left(q_{i}-q_{1}\right)}\left[F_{s-1, \Lambda}^{(N-1)}\left((q)_{s}^{1}\right)+\right. \\
+\left.+\sum_{k=1}^{N-s} \frac{1}{k !} \int_{\Lambda}^{k} \prod_{i=1}^{k} \varphi_{q_{1}}\left(y_{i}\right) F_{s-1+k, \Lambda}^{(N-1)}\left((q)_{s}^{1},(y)_{k}\right) d(y)_{k}\right], \quad \text { (7) } \\
+F_{0, \Lambda}^{(N-1)}=1, \quad a_{N}(V)=N \frac{Q(N-1, V)}{Q(N, V)}, \\
+\varphi_{q_{1}}\left(y_{i}\right)=e^{-\beta \Phi\left(q_{1}-y_{i}\right)}-1, \quad 1 \leqslant s \leqslant N, \quad(q)_{s}^{1}=\left(q_{2}, \ldots, q_{s}\right) .
+\end{gathered}
+\]
+
+В свою очередь, последовательность $F_{\Lambda}^{(N-1)}$ удовлетворяет аналогичному соотношению и выражается через $F_{\Lambda}^{(N-2)}$ и т. Д. Если перейти в этих соотношениях к Т. П., считая, что последовательность $F_{\Lambda}^{(N-l)}$ сходится к $F=\left(F_{s}\left((q)_{s}\right)\right)_{s} \geqslant 1$, а $a_{N-l}(V)-$ к $a(v)$, то получают предельное соотношение
+
+\[
+\begin{gathered}
+F_{s}\left((q)_{s}\right)=a(v) e^{-\beta \sum_{i=2}^{s} \Phi\left(q_{i}-q_{1}\right)}\left[F_{s-1}\left((q)_{s}^{1}\right)+\right. \\
+\left.+\sum_{k=1}^{\infty} \frac{1}{k !} \int_{\Lambda} k \prod_{i=1}^{k} \varphi_{q_{1}}\left(y_{i}\right) F_{s-1+k}\left((q)_{s}^{1},(y)_{k}\right) d(y)_{k}\right], \\
+F_{0}=1, \quad s \geqslant 1 .
+\end{gathered}
+\]
+
+В статистич. механике соотношения (8) рассматриваются как уравнения относительно последовательности. Их называют уравнениями Кирквуда - 3 альцбурга. Существуют и другие уравнения для последовательности $F$ : Майера - Монтролла уравнение, Боголюбова уравнение и т. д. Задачу обоснования Т. п. удобнее решать с помощью уравнения (8). В уравнениях (8) и соотношениях (7) выделенную роль играет переменная $q_{1}$, можно вывести уравнения, выделяя $q_{i}, i=1, \ldots, s$, в той области, где
+
+\[
+\sum_{i \neq j} \Phi\left(q_{i}-q_{j}\right)&gt;2 B
+\]
+
+и симметризуя их. В дальнейшем под уравнениями Кирквуда - Зальцбурга понимают симметризованные уравнения Кирквуда - Зальцбурга, к-рые естественно рассматривать как одно операторное уравнение для $F$ вида:
+
+\[
+F=K F+F^{0}
+\]
+
+где оператор $K$ определяется правой частью симметризованного уравнения Кирквуда - Зальцбурга, а $F^{0}=(a(v), 0, \ldots)$. Аналогично соотношения пля $F_{\Lambda}^{(N)}$ можно представить в виде
+
+\[
+F_{\Lambda}^{(N)}=K_{\Lambda}^{(N)} F_{\Lambda}^{(N-1)}+F_{\Lambda}^{0(N)}
+\]
+
+где оператор $K_{\Lambda}^{(N)}$ определяется правой частью соотношения (7), а $F_{\Lambda}^{0(N)}=\left(a_{N}(V), 0, \ldots\right)$. Уравнения Кирквуда Зальцбурга (9) и соотношения (10) рассматриваются в банаховом пространстве $E_{\xi}$ последовательностей ограниченных функций $f=\left(f_{s}\left((q)_{s}\right)\right)_{s} \geqslant 1$ с нормой
+
+\[
+\|f\|=\sup _{s \geqslant 1} \frac{1}{\xi^{s}} \sup _{q_{s}}\left|f_{S}\left((q)_{s}\right)\right|, \quad \xi=C^{-1}(\beta) .
+\]
+
+$\mathrm{T}$ е о р е м а. Для устойчивого и регулярного потенциала $\Phi$ и достаточно малой плотности $\frac{1}{v}$ существует единственное решение уравнения Кирквуда - Зальцбурга и его можно представить сходящимся по норме пространства $E_{\xi}$ рядом
+
+\[
+F=\sum_{n=0}^{\infty} K^{n} F^{0}
+\]
+
+Из соотношений (7) для $F_{\Lambda}^{(N)}$ также следует, что $F_{\Lambda}^{(N)} \in E_{\xi}$ и что последовательность $F_{S, \Lambda}^{(N)}\left((q)_{S}\right)$ в Т. п. сходится равномерно на компактах к $F_{s}\left((q)_{s}\right)$. Предельная последовательность $F$ описывает равновесное состояние бесконечной системы, она является голоморфной функцией плотности в нек-рой окрестности нуля.
+
+2. Большой канонический ансамбль. В рамках большого канонич. ансамбля последовательность равновесных функций распределения в конечной области $\Lambda$ определяется следующим образом через распределение Гиббса:
+
+\[
+\begin{gathered}
+F_{s, \Lambda}\left((x)_{s}\right)=\Xi^{-1}(V, \beta) \sum_{n=0}^{\infty} \frac{1}{n !} \times \\
+\times \int_{\Lambda^{n}} e^{-\beta\left(H_{s+n}^{\Lambda}\left((x)_{s},(x)_{N}^{s}\right)-\mu(s+n)\right)} d(x)_{N}^{s},
+\end{gathered}
+\]
+
+где $\Xi-$ большая статистич. сумма
+
+\[
+\begin{aligned}
+\Xi(V, \beta, z) &amp; =\sum_{n=0}^{\infty} \frac{1}{n !} \int_{\Lambda^{n}} e^{-\beta\left(H_{n}^{\Lambda}\left((x)_{n}\right),-\mu(n)\right)} d(x)_{n}= \\
+&amp; =\sum_{n=0}^{\infty} \frac{z^{n}}{n !} \int_{\Lambda^{n}} e^{-\beta U_{n}^{\Lambda}\left((q)_{n}\right)} d(q)_{n},
+\end{aligned}
+\]
+
+$z-$ активность, $z=\left(\frac{2 \pi}{m}\right)^{d / 2} e^{\beta \mu}, \mu-$ химич. потенциал, с помощью к-рого фиксируется среднее число частиц $\bar{N}(V)$. Функция распределения $F_{S, \Lambda}\left((x)_{S}\right)$ равна произведению функции, зависящей от импульсов как распределение Максвелла, и функции, зависящей только от координат. Общепринято рассматривать функции распределения, зависящие только от координат
+
+\[
+\begin{gathered}
+F_{s, \Lambda}\left((q)_{s}\right)=\Xi^{-1}(V, \beta, z) \sum_{n=0}^{\infty} \frac{z^{n+s}}{n !} \times \\
+\times \int_{\Lambda^{n}} e^{-\beta U_{s+n}^{\Lambda}\left((q)_{s},(q)_{N}^{s}\right)} d(q)_{N}^{s}, \\
+F_{s, \Lambda}\left((q)_{s}\right)=0, \quad q_{i} \notin \Lambda, \quad i=1, \ldots, s .
+\end{gathered}
+\]
+
+Из условия устойчивости следует, что числитель и знаменатель выражения (13) при конечном $V$ существуют, являются целыми функциями, ограничены сверху величинами
+
+\[
+e^{\beta B s}|z|^{s} e^{e^{\beta B} V|z|}, e^{e^{\beta B} V|z|}
+\]
+
+соответственно и расходятся при $V \rightarrow \infty$ как экспоненты. Обоснование существования Т. п. состоит в том, чтобы доказать, что в каком-то смысле существует предел
+
+\[
+\lim _{V \rightarrow \infty} F_{s, \Lambda}\left((q)_{s}\right)=F_{s}\left((q)_{s}\right), \quad s \geqslant 1
+\]
+
+и установить характер зависимости предельных функций от активности. Для этой цели, как и в случае канонич. ансамбля, используются уравнения для функций распределения, к-рые для большого канонич. ансамбля выглядят таким образом:
+
+\[
+\begin{gathered}
+F_{s, \Lambda}\left((q)_{s}\right)=z e^{-\beta \sum_{i=2}^{s} \Phi\left(q_{1}-q_{i}\right)}\left[F_{s-1, \Lambda}\left((q)_{s}^{1}\right)+\right. \\
++\sum_{k=1}^{\infty} \frac{1}{k !} \int_{\Lambda^{k}} \prod_{i=1}^{k} \varphi_{q_{1}}\left(y_{i}\right) \times \\
+\left.\times F_{s-1+k, \Lambda}\left((q)_{s}^{1},(y)_{k}\right) d(y)_{k}\right], \quad s \geqslant 1, \quad F_{0 \Lambda}=1 .
+\end{gathered}
+\]
+
+Если совершить в них Т. П., то получим уравнения Кирквуда - Зальцбурга для $F_{s}$, к-рые отличаются от (14) только тем, что интегралы берутся по всему $\mathbb{R}^{d}$. Симметризуя их, получают окончательные уравнения Кирквуда - Зальцбурга, к-рые можно представить в виде операторных уравнений для последовательностей
+
+\[
+\left.\begin{array}{c}
+F_{\Lambda}=\left(F_{s, \Lambda}\left((q)_{s}\right)\right), s \geqslant 1, F=\left(F_{s}\left((q)_{s}\right)\right), s \geqslant 1, \\
+F_{\Lambda}=z K_{\Lambda} F_{\Lambda}+F_{\Lambda}^{0}, F=z K F+F^{0}, F^{0}=(z, 0, \ldots),
+\end{array}\right\}
+\]
+
+где оператор $K_{\Lambda}$ определен правой частью (14), а $K$ получается из $K_{\Lambda}$, если в нем положить $\Lambda=\mathbb{R}^{d}$.
+
+Те о ре ма. Для устойчивого и регулярного потенциала сушествуют единственные решения уравнения Кирквуда Зальцбурга (15) и при
+
+\[
+|z|&lt;e^{-2 B \beta-1} C^{-1}(\beta)
+\]
+
+они представляются сходящимися по норме $E_{\xi}$ рядами
+
+\[
+F^{\Lambda}=\sum_{n=0}^{\infty}\left(z K_{\Lambda}\right)^{n} F_{\Lambda}^{0}, \quad F=\sum_{n=0}^{\infty}(z K)^{n} F^{0} .
+\]
+
+Последовательность $F_{\Lambda}$ сходится при $V \rightarrow \infty$ к $F$ в том смысле, что функции $F_{S, \Lambda}\left((q)_{s}\right)$ сходятся к $F_{s}\left((q)_{s}\right)$ равномерно на компактах. Последовательность $F$ описывает равновесное состояние бесконечной системы в рамках больших канонич. ансамблей. Канонич. ансамбли и большие канонич. ансамбли эквивалентны в том смысле, что если в канонич. ансамбле в уравнении Кирквуда - Зальцбурга для состояния $F$ положить $a(v)=z$, то получают уравнение Кирквуда - Зальцбурга для состояния в большом канонич. ансамбле. Активность является голоморфной функцией плотности в окрестности нуля и, наоборот, плотность является голоморфной функцией активности в окрестности нуля.
+
+3. Существование состояния $\boldsymbol{F}$ при произвольных $\boldsymbol{z}$ и $\boldsymbol{\beta}$. Решение уравнения Кирквуда - Зальцбурга при $|z|&lt;\|K\|^{-1}$ можно представить в компактной форме через резольвенту оператора $K: F=(I-z K)^{-1} F^{0}, I-$ единичный оператор. Для того чтобы решить уравнение Кирквуда - Зальцбурга при произвольной активности $z$ (плотности $\frac{1}{v}$ ), нужно знать спектр оператора $K$ и его свойства. Эта задача не решена. Только для оператора $K_{\Lambda}$ в конечной области $\Lambda$ доказано, что его собственные значения определяются нулями $\Xi(V, z, \beta)$ и полностью охарактеризован его спектр.
+
+Для регулярного, сверхустойчивого и регулярного снизу потенциала $\Phi$ доказано, что при произвольных $z&gt;0, \beta&gt;0$ из последовательности $F_{\Lambda}=\left(F_{s, \Lambda}\left((q)_{s}\right)\right), s \geqslant 1$, можно выделить подпоследовательности $F_{\Lambda_{j}}=\left(F_{s, \Lambda_{j}}\left((q)_{s}\right)\right), s \geqslant 1$, такие, что $F_{s, \Lambda_{j}}\left((q)_{s}\right)$ сходятся при $V_{j}(\Lambda) \rightarrow V_{j} \rightarrow \infty$ к предельным функциям распределения $F_{S}\left((q)_{s}\right)$ равномерно на компактах. Предельные функции распределения удовлетворяют уравнению Кирквуда - Зальцбурга и описывают состояния бесконечной системы. Предельное состояние можно еще описывать с помощью меры, к-рая удовлетворяет ДЛР-уравнению.
+
+Если рассматривать состояния на фазовом пространстве
+
+\[
+\begin{gathered}
+F=\left(F_{s}\left((x)_{s}\right)\right)_{s} \geqslant 1, \\
+F_{s}\left((x)_{s}\right)=F_{s}\left((q)_{s}\right) e^{-\beta \sum_{i=1}^{s}\left(\frac{p_{i}^{2}}{2 m}-\mu\right)} z^{-s},
+\end{gathered}
+\]
+
+то они принадлежат банаховому пространству последовательностей $f=\left(f\left((x)_{s}\right)\right)_{s \geqslant 1}$ с нормой
+
+\[
+\|f\|=\sup _{s \geqslant 1} \xi^{-s} \sup _{(x)_{s}} e^{\beta \sum_{i=1}^{N}\left(\frac{p_{i}^{2}}{2 m}-\mu\right)}\left|f_{s}\left((x)_{s}\right)\right|&lt;\infty .
+\]
+
+Лит.: [1] Петрина Д.Я., Герасименко В.И., Малыше в П. В., Математические основы классической статистической механики, Киев, 1985; [2] Рюэль Д., Статистическая механика. Строгие результаты, пер. с англ., М., $1971 . \quad$ Д. Я. Петрина.</text_orig>
+</article>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1256_KLASTERNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1256_KLASTERNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/284</core:url>
+    <lbm:descriptor><![CDATA[КЛАСТЕРНОЕ СВОЙСТВО, ПРИНЦИП ОСЛАБЛЕНИЯ КОРРЕЛЯЦИЙ, ГРУППОВОЕ СВОЙСТВО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2949"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2950"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2951"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_747"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>свойство, которым обладают трансляционно-инвариантные корреляционные функции $URI[[http://libmeta.ru/fme/formula/aux/1256_1_KLASTERNOE]]/URI$-мерной равновесной непрерывной системы, если<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2950">$$\lim _{a \rightarrow \infty} \rho\left(X_{1}+a, X_{2}\right)=\rho\left(X_{1}\right) \rho\left(X_{2}\right),$$</a><BR/></P><P>где<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2951">$$\begin{aligned}& X_{1}=\left(x_{1}, \ldots, x_{m}\right), X_{2}=\left(x_{m+1}, \ldots, x_{n}\right), \\& X_{1}+a=\left(x_{1}+a, \ldots, x_{m}+a\right) .\end{aligned}$$</a><BR/></P><P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa">Корреляционные функции</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладают</a> этим свойством тогда и только тогда, когда усеченные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa">корреляционные функции</a> по разностным переменным стремятся к нулю на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1373_KONFORMNAJa">бесконечности</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2949">В. И. Скрипник</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[свойство, которым обладают трансляционно-инвариантные корреляционные функции $d$-мерной равновесной непрерывной системы, если
+
+\[
+\lim _{a \rightarrow \infty} \rho\left(X_{1}+a, X_{2}\right)=\rho\left(X_{1}\right) \rho\left(X_{2}\right),
+\]
+
+где
+
+\[
+\begin{aligned}
+& X_{1}=\left(x_{1}, \ldots, x_{m}\right), X_{2}=\left(x_{m+1}, \ldots, x_{n}\right), \\
+& X_{1}+a=\left(x_{1}+a, \ldots, x_{m}+a\right) .
+\end{aligned}
+\]
+
+Корреляционные функции обладают этим свойством тогда и только тогда, когда усеченные корреляционные функции по разностным переменным стремятся к нулю на бесконечности.
+
+В. И. Скрипник.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1373_KONFORMNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

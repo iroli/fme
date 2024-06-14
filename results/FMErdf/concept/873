@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1787_MINIMAL'NAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1787_MINIMAL'NAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/873</core:url>
+    <lbm:descriptor><![CDATA[МИНИМАЛЬНАЯ ПОВЕРХНОСТЬ, ЛОКАЛЬНО МИНИМАЛЬНАЯ ПОВЕРХНОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#7185"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#7186"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#7187"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#7188"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7189"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7190"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_855"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7191"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7192"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7193"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7194"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7195"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7196"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7197"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>поверхность, обладающая следующим свойством: любое малое возмущение поверхности не увеличивает площадь этой поверхности. При этом возмущение считается малым, если мала его амплитуда и оно сосредоточено в малой области пространства. Другими словами, М. п.- это экстремали (критические поверхности) для функционала площади $URI[[http://libmeta.ru/fme/formula/aux/1787_1_MINIMAL'NAJa]]/URI$ (см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_315_VARIATsIONNOE">Вариационное исчисление</a> в целом).<BR/></P><P>Пусть $URI[[http://libmeta.ru/fme/formula/aux/1787_2_MINIMAL'NAJa]]/URI$ - гладкая двумерная поверхность в трехмерном евклидовом пространстве, заданная, напр., в виде графика функции $URI[[http://libmeta.ru/fme/formula/aux/1787_3_MINIMAL'NAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1787_4_MINIMAL'NAJa]]/URI$ декартовы координаты. Площадь поверхности выражается интегралом<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7189">$$S(f)=\int\left(1+f_{x}^{2}+f_{y}^{2}\right)^{1 / 2} d x d y .$$</a><BR/></P><P>Уравнение Эйлера-Лагранжа имеет в данном случае вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7190">$$\left(1+f_{x}^{2}\right) f_{y y}-2 f_{x y} f_{x} f_{y}+\left(1+f_{y}^{2}\right) f_{x x}=0 .$$</a><BR/></P><P>Его решения - это функции $URI[[http://libmeta.ru/fme/formula/aux/1787_5_MINIMAL'NAJa]]/URI$; графики к-рых минимальные поверхности. Это уравнение называется уравнением минимальных поверхностей. Любая поверхность в трехмерном пространстве может быть задана локально (в окрестности каждой своей неособой точки) в виде графика <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7191">$$z=f(x, y)$$</a> при подходящем выборе координат. В то же время, в целом поверхность может не задаваться графиком однозначной функции. В каждой неособой точке гладкой поверхности можно вычислить ее среднюю кривизну $URI[[http://libmeta.ru/fme/formula/aux/1787_7_MINIMAL'NAJa]]/URI$. Минимальные поверхности могут быть охарактеризованы как поверхности нулевой средней кривизны (то есть $URI[[http://libmeta.ru/fme/formula/aux/1787_8_MINIMAL'NAJa]]/URI$ в каждой неособой точке М. п.).<BR/></P><P>М. п. возникают во многих важных вопросах современной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механики</a>, математич. физики (в частности, в теории струн, теории мембран, гидростатике, биологии).<BR/></P><P>Пусть двумерная поверхность в трехмерном пространстве является границей раздела (поверхностью) двух физич. сред, находящихся в равновесии (напр., газ-газ, газ-жидкость, жидкость-жидкость и т. п.). Тогда средняя <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN">кривизна</a> $URI[[http://libmeta.ru/fme/formula/aux/1787_9_MINIMAL'NAJa]]/URI$ поверхности постоянна и равна <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7194">$$h=h\left(p_{1}-p_{2}\right)$$</a>, где постоянная <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7195">$$\lambda=1 / h$$</a> называется ко эфф ициентом пове рхностного натяжения (на поверхности раздела), а <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7196">$$p_{1}-p_{2}-$$</a> это разность <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_750_DAVLENI">давлений</a> в средах.<BR/></P><P>Таким образом, поверхности, разделяющие физич. среды с равными давлениями <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7197">$$\left(p_{1}=p_{2}\right)$$</a>, - это М. п. Классич. пример - мыльные пленки, затягивающие граничный контур (напр., изготовленный из проволоки). <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">Многомерные</a> М. п. определяются как экстремальные (критические) поверхности для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функционала</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многомерного</a> объема, то есть они не увеличивают свой объем под влиянием любых достаточно малых возмущений. Практически все свойства двумерных М. п. в трехмерном пространстве имеют свои аналоги в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_29_ADAMARA-PERRONA">теории многомерных</a> М. п.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#7186">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#3560">Фоменко А. Т.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#7186">Вариационные методы в топологии, М., 1982</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#7187">[2]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#7187">е го же, Топологические вариационные задачи, М., 1985</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#7188">[3]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#7188">Дао Чонг Тхи, Минимальные поверхности и проблема Плато, М., 1987, Фоменко А. Т.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#7185">А. T. Фоменко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[поверхность, обладающая следующим свойством: любое малое возмущение поверхности не увеличивает площадь этой поверхности. При этом возмущение считается малым, если мала его амплитуда и оно сосредоточено в малой области пространства. Другими словами, М. п.- это экстремали (критические поверхности) для функционала площади $S$ (см. Вариационное исчисление в целом).
+
+Пусть $M^{2}$ - гладкая двумерная поверхность в трехмерном евклидовом пространстве, заданная, напр., в виде графика функции $z=f(x, y)$, где $x, y, z-$ декартовы координаты. Площадь поверхности выражается интегралом
+
+\[
+S(f)=\int\left(1+f_{x}^{2}+f_{y}^{2}\right)^{1 / 2} d x d y .
+\]
+
+Уравнение Эйлера-Лагранжа имеет в данном случае вид:
+
+\[
+\left(1+f_{x}^{2}\right) f_{y y}-2 f_{x y} f_{x} f_{y}+\left(1+f_{y}^{2}\right) f_{x x}=0 .
+\]
+
+Его решения - это функции $z=f(x, y)$; графики к-рых минимальные поверхности. Это уравнение называется уравнением минимальных поверхностей. Любая поверхность в трехмерном пространстве может быть задана локально (в окрестности каждой своей неособой точки) в виде графика $z=f(x, y)$ при подходящем выборе координат. В то же время, в целом поверхность может не задаваться графиком однозначной функции. В каждой неособой точке гладкой поверхности можно вычислить ее среднюю кривизну $H$. Минимальные поверхности могут быть охарактеризованы как поверхности нулевой средней кривизны (то есть $H=0$ в каждой неособой точке М. п.).
+
+М. п. возникают во многих важных вопросах современной механики, математич. физики (в частности, в теории струн, теории мембран, гидростатике, биологии).
+
+Пусть двумерная поверхность в трехмерном пространстве является границей раздела (поверхностью) двух физич. сред, находящихся в равновесии (напр., газ-газ, газ-жидкость, жидкость-жидкость и т. п.). Тогда средняя кривизна $H$ поверхности постоянна и равна $H=h\left(p_{1}-p_{2}\right)$, где постоянная $\lambda=1 / h$ называется ко эфф ициентом пове рхностного натяжения (на поверхности раздела), а $p_{1}-p_{2}-$ это разность давлений в средах.
+
+Таким образом, поверхности, разделяющие физич. среды с равными давлениями $\left(p_{1}=p_{2}\right)$, - это М. п. Классич. пример - мыльные пленки, затягивающие граничный контур (напр., изготовленный из проволоки). Многомерные М. п. определяются как экстремальные (критические) поверхности для функционала многомерного объема, то есть они не увеличивают свой объем под влиянием любых достаточно малых возмущений. Практически все свойства двумерных М. п. в трехмерном пространстве имеют свои аналоги в теории многомерных М. п.
+
+Лит.: [1] Фоме н ко А. Т., Вариационные методы в топологии, М., 1982; [2] е го же, Топологические вариационные задачи, М., 1985; [3] Дао Чонг Тхи, Фоменко А. Т., Минимальные поверхности и проблема Плато, М., 1987.
+
+А. T. Фоменко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_315_VARIATsIONNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_29_ADAMARA-PERRONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_750_DAVLENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

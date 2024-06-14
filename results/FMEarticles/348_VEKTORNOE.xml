@@ -1,0 +1,252 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/348_VEKTORNOE" alphabetic_pos="348">
+  <title>ВЕКТОРНОЕ ПОЛЕ</title>
+  <authors>
+    <author>А. В. Ефремов</author>
+  </authors>
+  <pages>
+    <start>78</start>
+    <end>78</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Бо го любо в Н. Н., Ш и рков Д. В., Квантованные поля, М.,, 1980; [2] Коно пле ва Н. П., Попо в В. Н., Калибровочные поля, М., $1980 . \quad$</literature_orig>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <author>Ширков Д. В.</author>
+      <title>Квантованные поля</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Коноплева Н. П.</author>
+      <author>Попов В. Н.</author>
+      <title>Калибровочные поля</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/348_1_VEKTORNOE">\frac{\partial V_{\mu}(x)}{\partial x^{\mu}}=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/348_2_VEKTORNOE">\begin{aligned}V_{\mu}(x)= &amp; \frac{1}{(2 \pi)^{3 / 2}} \int \frac{d^{3} \boldsymbol{k}}{\sqrt{2 k_{0}}}\left[e_{\mu}^{\lambda} a_{\lambda}(\boldsymbol{k}) e^{i\left(k_{0}^{t}-\boldsymbol{k r}\right)}+\right. \\&amp; \left.+e_{\mu}^{\lambda} \tilde{a}_{\lambda}^{+}(\boldsymbol{k}) e^{-i\left(k_{0}^{t}-\boldsymbol{k r}\right)}\right],\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/348_3_VEKTORNOE">\left[a_{\lambda}^{+}(\boldsymbol{k}), a_{\lambda^{\prime}}\left(\boldsymbol{k}^{\prime}\right)\right]_{-}=\left[\tilde{a}_{\lambda}^{+}(\boldsymbol{k}), \tilde{a}_{\lambda^{\prime}}\left(\boldsymbol{k}^{\prime}\right)\right]_{-}=\delta_{\lambda \lambda^{\prime}} \delta\left(\boldsymbol{k}-\boldsymbol{k}^{\prime}\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_1_VEKTORNOE">\boldsymbol{r} \rightarrow-\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_2_VEKTORNOE">v_{\mu}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_3_VEKTORNOE">\hbar=c=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_4_VEKTORNOE">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_5_VEKTORNOE">k_{0}=\sqrt{\boldsymbol{k}^{2}+m^{2}}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_6_VEKTORNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_7_VEKTORNOE">e_{\mu}^{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_8_VEKTORNOE">(\lambda=1,2,3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_9_VEKTORNOE">a_{\lambda}(\boldsymbol{k}), \tilde{a}_{\lambda}(\boldsymbol{k})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_10_VEKTORNOE">a_{\lambda}^{+}(\boldsymbol{k}), \tilde{a}_{\lambda}^{+}(\boldsymbol{k})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_11_VEKTORNOE">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_12_VEKTORNOE">k_{\mu} e_{\mu}^{\lambda}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_13_VEKTORNOE">e_{0}^{\lambda}=k e^{\lambda} / k_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_14_VEKTORNOE">e_{\mu}^{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_15_VEKTORNOE">\boldsymbol{e}^{1}, \boldsymbol{e}^{2}, \boldsymbol{e}^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_16_VEKTORNOE">\boldsymbol{e}^{3}=(\boldsymbol{k} /|\boldsymbol{k}|)\left(k_{0} / m\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_17_VEKTORNOE">\boldsymbol{e}^{1}, \boldsymbol{e}^{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_18_VEKTORNOE">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_19_VEKTORNOE">\boldsymbol{e}_{ \pm}=\left(\boldsymbol{e}^{1} \pm i \boldsymbol{e}^{2}\right) / \sqrt{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_20_VEKTORNOE">a_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_21_VEKTORNOE">\delta_{\lambda \lambda^{\prime}}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_22_VEKTORNOE">\delta\left(\boldsymbol{k}-\boldsymbol{k}^{\prime}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_23_VEKTORNOE">a_{\lambda}^{+}(\boldsymbol{k})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_24_VEKTORNOE">\tilde{a}_{\lambda}^{+}(\boldsymbol{k})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_25_VEKTORNOE">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_26_VEKTORNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_27_VEKTORNOE">\boldsymbol{e}^{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_28_VEKTORNOE">a_{\lambda}(\boldsymbol{k})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_29_VEKTORNOE">\widetilde{a}_{\lambda}(\boldsymbol{k})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/348_30_VEKTORNOE">m=0</formula>
+  </formulas_aux>
+  <relations n="28">
+    <relation uri="http://libmeta.ru/fme/relation/348_1_VEKTORNOE">
+      <rel_text>глюонное</rel_text>
+      <target>http://libmeta.ru/fme/article/3585_GLJuONI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_2_VEKTORNOE">
+      <rel_text>электромагнитное поле</rel_text>
+      <target>http://libmeta.ru/fme/article/3507_ELEKTROMAGNITNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_3_VEKTORNOE">
+      <rel_text>калибровочную симметрию</rel_text>
+      <target>http://libmeta.ru/fme/article/1078_KALIBROVOChNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_4_VEKTORNOE">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_5_VEKTORNOE">
+      <rel_text>перестановочными</rel_text>
+      <target>http://libmeta.ru/fme/article/2205_PERENORMIRUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_6_VEKTORNOE">
+      <rel_text>состояниях</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_7_VEKTORNOE">
+      <rel_text>античастицы</rel_text>
+      <target>http://libmeta.ru/fme/article/101_ANTISOLITO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_8_VEKTORNOE">
+      <rel_text>частицы</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_9_VEKTORNOE">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_10_VEKTORNOE">
+      <rel_text>поляризацией</rel_text>
+      <target>http://libmeta.ru/fme/article/2321_POLJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_11_VEKTORNOE">
+      <rel_text>античастицы</rel_text>
+      <target>http://libmeta.ru/fme/article/101_ANTISOLITO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_12_VEKTORNOE">
+      <rel_text>частицы</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_13_VEKTORNOE">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_14_VEKTORNOE">
+      <rel_text>перестановочным соотношениям</rel_text>
+      <target>http://libmeta.ru/fme/article/2211_PERESTANOVOChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_15_VEKTORNOE">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_16_VEKTORNOE">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_17_VEKTORNOE">
+      <rel_text>поляризацию</rel_text>
+      <target>http://libmeta.ru/fme/article/2321_POLJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_18_VEKTORNOE">
+      <rel_text>циркулярную</rel_text>
+      <target>http://libmeta.ru/fme/article/3404_TsIRKULJaTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_19_VEKTORNOE">
+      <rel_text>векторы</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_20_VEKTORNOE">
+      <rel_text>поляризации</rel_text>
+      <target>http://libmeta.ru/fme/article/2321_POLJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_21_VEKTORNOE">
+      <rel_text>единичных вектора</rel_text>
+      <target>http://libmeta.ru/fme/article/923_EDINIChNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_22_VEKTORNOE">
+      <rel_text>поляризации</rel_text>
+      <target>http://libmeta.ru/fme/article/2321_POLJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_23_VEKTORNOE">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_24_VEKTORNOE">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_25_VEKTORNOE">
+      <rel_text>частота</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_26_VEKTORNOE">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_27_VEKTORNOE">
+      <rel_text>импульсном представлении</rel_text>
+      <target>http://libmeta.ru/fme/article/998_IMPUL'SNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/348_28_VEKTORNOE">
+      <rel_text>Клейна-Гордона уравнению</rel_text>
+      <target>http://libmeta.ru/fme/article/1265_KLEJNA-GORDONA</target>
+    </relation>
+  </relations>
+  <text>функция, определенная на подмножестве трехмерного евклидова пространства, значениями которой являются векторы, приложенные в точках этого подмножества. Напр., совокупность касательных или нормальных векторов к гладкой кривой (поверхности) есть В. п. К этому понятию приводит ряд физич. явлений и процессов. Так, векторы скоростей частиц движущейся жидкости в каждый момент времени образуют пол е скор осте й; гравитационные силы, действующие на материальную точку со стороны распределенной в пространстве массы, образуют поле тяготения; электрич. заряд действует на
+
+78 Векторное окружающие его заряды силами, образующими э л е к т р о статическое поле, ит. Д.
+
+В квантовой теории поля квантами В. п. являются векторные частицы (то есть частицы со спином 1), напр. фотон. При этом действительному В. п. соответствует электрически нейтральная частица, а комплексному - заряженная частица (и ее античастица с зарядом противоположного знака).
+
+По поведению относительно пространственной инверсии (замене координат $URI[[http://libmeta.ru/fme/formula/aux/348_1_VEKTORNOE]]/URI$ ) В. п. делят на собственно ве кт о р ны е, меняющие знак при инверсии, и акс и альные, или акс и альн о - век т орны е, не меняющие знака.
+
+В релятивистской теории В. п. $URI[[http://libmeta.ru/fme/formula/aux/348_2_VEKTORNOE]]/URI$ должно подчиняться дополнительному условию:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/348_1_VEKTORNOE]]/URI
+\]
+
+к-рое сводит число его независимых компонент до трех, соответствующих спину 1 , и исключает часть, соответствующую спину 0 .
+
+Свободное комплексное В. п. подчиняется URI[[http://libmeta.ru/fme/relation/348_28_VEKTORNOE]]/URI и в URI[[http://libmeta.ru/fme/relation/348_27_VEKTORNOE]]/URI имеет вид (в системе единиц $URI[[http://libmeta.ru/fme/formula/aux/348_3_VEKTORNOE]]/URI$ ):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/348_2_VEKTORNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/348_4_VEKTORNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/348_5_VEKTORNOE]]/URI$ соответственно волновой URI[[http://libmeta.ru/fme/relation/348_26_VEKTORNOE]]/URI и URI[[http://libmeta.ru/fme/relation/348_25_VEKTORNOE]]/URI плоской волны, $URI[[http://libmeta.ru/fme/formula/aux/348_6_VEKTORNOE]]/URI$ - параметр, играющий в URI[[http://libmeta.ru/fme/relation/348_24_VEKTORNOE]]/URI роль массы кванта поля, $URI[[http://libmeta.ru/fme/formula/aux/348_7_VEKTORNOE]]/URI$ - четырехмерный URI[[http://libmeta.ru/fme/relation/348_23_VEKTORNOE]]/URI URI[[http://libmeta.ru/fme/relation/348_22_VEKTORNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/348_8_VEKTORNOE]]/URI$ - поляризационный индекс), $URI[[http://libmeta.ru/fme/formula/aux/348_9_VEKTORNOE]]/URI$ и эрмитово сопряженные им величины $URI[[http://libmeta.ru/fme/formula/aux/348_10_VEKTORNOE]]/URI$ - нек-рые комплексные функции $URI[[http://libmeta.ru/fme/formula/aux/348_11_VEKTORNOE]]/URI$. В силу условия (1) $URI[[http://libmeta.ru/fme/formula/aux/348_12_VEKTORNOE]]/URI$, или $URI[[http://libmeta.ru/fme/formula/aux/348_13_VEKTORNOE]]/URI$, то есть $URI[[http://libmeta.ru/fme/formula/aux/348_14_VEKTORNOE]]/URI$ имеет три независимые компоненты $URI[[http://libmeta.ru/fme/formula/aux/348_15_VEKTORNOE]]/URI$, при этом $URI[[http://libmeta.ru/fme/formula/aux/348_16_VEKTORNOE]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/348_17_VEKTORNOE]]/URI$ два URI[[http://libmeta.ru/fme/relation/348_21_VEKTORNOE]]/URI (орта поперечной URI[[http://libmeta.ru/fme/relation/348_20_VEKTORNOE]]/URI), перпендикулярные $URI[[http://libmeta.ru/fme/formula/aux/348_18_VEKTORNOE]]/URI$ и друг другу. Вместо них часто используют URI[[http://libmeta.ru/fme/relation/348_19_VEKTORNOE]]/URI так наз. спирального базиса $URI[[http://libmeta.ru/fme/formula/aux/348_19_VEKTORNOE]]/URI$, описывающего URI[[http://libmeta.ru/fme/relation/348_18_VEKTORNOE]]/URI URI[[http://libmeta.ru/fme/relation/348_17_VEKTORNOE]]/URI, или спиральность. В URI[[http://libmeta.ru/fme/relation/348_16_VEKTORNOE]]/URI величины $URI[[http://libmeta.ru/fme/formula/aux/348_20_VEKTORNOE]]/URI$ превращаются в URI[[http://libmeta.ru/fme/relation/348_15_VEKTORNOE]]/URI, подчиняющиеся URI[[http://libmeta.ru/fme/relation/348_14_VEKTORNOE]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/348_3_VEKTORNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/348_21_VEKTORNOE]]/URI$ символ Кронекера, $URI[[http://libmeta.ru/fme/formula/aux/348_22_VEKTORNOE]]/URI$ дельта-функция векторного аргумента, а все остальные коммутаторы равны нулю, что позволяет трактовать эти величины как URI[[http://libmeta.ru/fme/relation/348_13_VEKTORNOE]]/URI рождения URI[[http://libmeta.ru/fme/relation/348_12_VEKTORNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/348_23_VEKTORNOE]]/URI$ и URI[[http://libmeta.ru/fme/relation/348_11_VEKTORNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/348_24_VEKTORNOE]]/URI$ с импульсом $URI[[http://libmeta.ru/fme/formula/aux/348_25_VEKTORNOE]]/URI$, массой $URI[[http://libmeta.ru/fme/formula/aux/348_26_VEKTORNOE]]/URI$ и линейной URI[[http://libmeta.ru/fme/relation/348_10_VEKTORNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/348_27_VEKTORNOE]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/348_28_VEKTORNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/348_29_VEKTORNOE]]/URI$ - как URI[[http://libmeta.ru/fme/relation/348_9_VEKTORNOE]]/URI гибели URI[[http://libmeta.ru/fme/relation/348_8_VEKTORNOE]]/URI и URI[[http://libmeta.ru/fme/relation/348_7_VEKTORNOE]]/URI в этих URI[[http://libmeta.ru/fme/relation/348_6_VEKTORNOE]]/URI.
+
+Квантование В. п. с $URI[[http://libmeta.ru/fme/formula/aux/348_30_VEKTORNOE]]/URI$ имеет, однако, свои особенности из-за того, что условие (1) оказывается несовместимым с URI[[http://libmeta.ru/fme/relation/348_5_VEKTORNOE]]/URI соотношениями (3).
+
+Особая выделенность В. п. связана с тем, что они играют фундаментальную роль в современной теории элементарных URI[[http://libmeta.ru/fme/relation/348_4_VEKTORNOE]]/URI, выступая в качестве калибровочных полей, обеспечивающих URI[[http://libmeta.ru/fme/relation/348_3_VEKTORNOE]]/URI теории. Таковы, напр., URI[[http://libmeta.ru/fme/relation/348_2_VEKTORNOE]]/URI, URI[[http://libmeta.ru/fme/relation/348_1_VEKTORNOE]]/URI поле.</text>
+  <text_orig>функция, определенная на подмножестве трехмерного евклидова пространства, значениями которой являются векторы, приложенные в точках этого подмножества. Напр., совокупность касательных или нормальных векторов к гладкой кривой (поверхности) есть В. п. К этому понятию приводит ряд физич. явлений и процессов. Так, векторы скоростей частиц движущейся жидкости в каждый момент времени образуют пол е скор осте й; гравитационные силы, действуюшие на материальную точку со стороны распределенной в пространстве массы, образуют поле тяготения; электрич. заряд действует на
+
+78 BEKTOPHOE окружающие его заряды силами, образующими э л е к т р о статическое поле, ит. Д.
+
+В квантовой теории поля квантами В. п. являются векторные частицы (то есть частицы со спином 1), напр. фотон. При этом действительному В. п. соответствует электрически нейтральная частица, а комплексному - заряженная частица (и ее античастица с зарядом противоположного знака).
+
+По поведению относительно пространственной инверсии (замене координат $\boldsymbol{r} \rightarrow-\boldsymbol{r}$ ) В. п. делят на собственно ве кт о р ны е, меняющие знак при инверсии, и акс и альные, или акс и альн о - век т орны е, не меняющие знака.
+
+В релятивистской теории В. п. $V_{\mu}(x)$ должно подчиняться дополнительному условию:
+
+\[
+\frac{\partial V_{\mu}(x)}{\partial x^{\mu}}=0,
+\]
+
+к-рое сводит число его независимых компонент до трех, соответствующих спину 1 , и исключает часть, соответствующую спину 0 .
+
+Свободное комплексное В. п. подчиняется Клейна-Гордона уравнению и в импульсном представлении имеет вид (в системе единиц $\hbar=c=1$ ):
+
+\[
+\begin{aligned}
+V_{\mu}(x)= &amp; \frac{1}{(2 \pi)^{3 / 2}} \int \frac{d^{3} \boldsymbol{k}}{\sqrt{2 k_{0}}}\left[e_{\mu}^{\lambda} a_{\lambda}(\boldsymbol{k}) e^{i\left(k_{0}^{t}-\boldsymbol{k r}\right)}+\right. \\
+&amp; \left.+e_{\mu}^{\lambda} \tilde{a}_{\lambda}^{+}(\boldsymbol{k}) e^{-i\left(k_{0}^{t}-\boldsymbol{k r}\right)}\right],
+\end{aligned}
+\]
+
+где $\boldsymbol{k}$ и $k_{0}=\sqrt{\boldsymbol{k}^{2}+m^{2}}-$ соответственно волновой вектор и частота плоской волны, $m$ - параметр, играющий в квантовой теории поля роль массы кванта поля, $e_{\mu}^{\lambda}$ - четырехмерный вектор поляризации $(\lambda=1,2,3$ - поляризационный индекс), $a_{\lambda}(\boldsymbol{k}), \tilde{a}_{\lambda}(\boldsymbol{k})$ и эрмитово сопряженные им величины $a_{\lambda}^{+}(\boldsymbol{k}), \tilde{a}_{\lambda}^{+}(\boldsymbol{k})$ - нек-рые комплексные функции $\boldsymbol{k}$. В силу условия (1) $k_{\mu} e_{\mu}^{\lambda}=0$, или $e_{0}^{\lambda}=k e^{\lambda} / k_{0}$, то есть $e_{\mu}^{\lambda}$ имеет три независимые компоненты $\boldsymbol{e}^{1}, \boldsymbol{e}^{2}, \boldsymbol{e}^{3}$, при этом $\boldsymbol{e}^{3}=(\boldsymbol{k} /|\boldsymbol{k}|)\left(k_{0} / m\right)$, а $\boldsymbol{e}^{1}, \boldsymbol{e}^{2}-$ два единичных вектора (орта поперечной поляризации), перпендикулярные $\boldsymbol{k}$ и друг другу. Вместо них часто используют векторы так наз. спирального базиса $\boldsymbol{e}_{ \pm}=\left(\boldsymbol{e}^{1} \pm i \boldsymbol{e}^{2}\right) / \sqrt{2}$, описывающего циркулярную поляризацию, или спиральность. В квантовой теории поля величины $a_{\lambda}$ превращаются в операторы, подчиняющиеся перестановочным соотношениям:
+
+\[
+\left[a_{\lambda}^{+}(\boldsymbol{k}), a_{\lambda^{\prime}}\left(\boldsymbol{k}^{\prime}\right)\right]_{-}=\left[\tilde{a}_{\lambda}^{+}(\boldsymbol{k}), \tilde{a}_{\lambda^{\prime}}\left(\boldsymbol{k}^{\prime}\right)\right]_{-}=\delta_{\lambda \lambda^{\prime}} \delta\left(\boldsymbol{k}-\boldsymbol{k}^{\prime}\right),
+\]
+
+где $\delta_{\lambda \lambda^{\prime}}-$ символ Кронекера, $\delta\left(\boldsymbol{k}-\boldsymbol{k}^{\prime}\right)-$ дельта-функция векторного аргумента, а все остальные коммутаторы равны нулю, что позволяет трактовать эти величины как операторы рождения частицы $a_{\lambda}^{+}(\boldsymbol{k})$ и античастицы $\tilde{a}_{\lambda}^{+}(\boldsymbol{k})$ с импульсом $\boldsymbol{k}$, массой $m$ и линейной поляризацией $\boldsymbol{e}^{\lambda}$, а $a_{\lambda}(\boldsymbol{k})$ и $\widetilde{a}_{\lambda}(\boldsymbol{k})$ - как операторы гибели частицы и античастицы в этих состояниях.
+
+Квантование В. п. с $m=0$ имеет, однако, свои особенности из-за того, что условие (1) оказывается несовместимым с перестановочными соотношениями (3).
+
+Особая выделенность В. п. связана с тем, что они играют фундаментальную роль в современной теории элементарных частиц, выступая в качестве калибровочных полей, обеспечивающих калибровочную симметрию теории. Таковы, напр., электромагнитное поле, глюонное поле.
+
+Лит.: [1] Бо го любо в Н. Н., Ш и рков Д. В., Квантованные поля, М.,, 1980; [2] Коно пле ва Н. П., Попо в В. Н., Калибровочные поля, М., $1980 . \quad$ А. В. Ефремов.</text_orig>
+</article>

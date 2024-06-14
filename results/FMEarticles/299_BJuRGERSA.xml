@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/299_BJuRGERSA" alphabetic_pos="299">
+  <title>БЮРГЕРСА УРАВНЕНИЕ</title>
+  <authors>
+    <author>С. Ю. Доброхотов</author>
+  </authors>
+  <pages>
+    <start>64</start>
+    <end>64</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Карпман В. И., Нелинейные волны в диспергирующих средах, М., 1973; [2] У и зе м Дж., Линейные и нелинейные волны, пер. с англ., 1977; [3] Виноградова М.Б., Руденко О. В., Сухоруков А. Н., Теория волн, М., 1979.</literature_orig>
+    <unit>
+      <author>Карпман В. И.</author>
+      <title>Нелинейные волны в диспергирующих средах</title>
+      <publication>М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>У и зе м Дж., Линейные и нелинейные волны</title>
+      <publication>пер. с англ.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Виноградова М. Б.</author>
+      <author>Руденко О. В.</author>
+      <author>Сухоруков А. Н.</author>
+      <title>Теория волн</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/299_1_BJuRGERSA">\frac{\partial u}{\partial t}+\frac{u \partial u}{\partial x}=\frac{\mu \partial^{2} u}{\partial x^{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/299_2_BJuRGERSA">u=-\frac{2 \mu \partial \ln \varphi(x, t)}{\partial x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/299_3_BJuRGERSA">\partial \varphi / \partial t=\mu \partial^{2} \varphi / \partial x^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/299_4_BJuRGERSA">\begin{gathered}\varphi(x, t)=(4 \pi \mu t)^{-1 / 2} \int_{-\infty}^{\infty} d \eta \exp \{-F(x, \eta, t) / 2 v\}, \\F(x, \eta, t)=\int_{0}^{\eta} u_{0}(\xi) d \xi+(x-\eta)^{2} / 2 t\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/299_5_BJuRGERSA">\frac{\partial v}{\partial t}+\frac{v \partial v}{\partial x}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/299_6_BJuRGERSA">v(x, t)=\lim _{\mu \rightarrow+0} u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/299_7_BJuRGERSA">\int_{-\infty}^{\infty} u(x, t) d x=\int_{-\infty}^{\infty} u_{0}(x) d x .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/299_1_BJuRGERSA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/299_2_BJuRGERSA">-\infty&lt;x&lt;\infty, t \geqslant 0, \mu&gt;0-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/299_3_BJuRGERSA">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/299_4_BJuRGERSA">u(x, 0)=u_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/299_5_BJuRGERSA">u(x, 0)=v(x, 0)</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/299_1_BJuRGERSA">
+      <rel_text>Хопфа уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/3364_HOPFA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/299_2_BJuRGERSA">
+      <rel_text>Статистическая гидродинамика</rel_text>
+      <target>http://libmeta.ru/fme/article/2924_STATISTIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/299_3_BJuRGERSA">
+      <rel_text>интеграл движения</rel_text>
+      <target>http://libmeta.ru/fme/article/1025_INTEGRAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/299_4_BJuRGERSA">
+      <rel_text>решения задачи</rel_text>
+      <target>http://libmeta.ru/fme/article/2547_RASSEJaNIJa</target>
+    </relation>
+  </relations>
+  <text>нелинейное дифференциальное уравнение с частными производными
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/299_1_BJuRGERSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/299_1_BJuRGERSA]]/URI$ - неизвестная функция, $URI[[http://libmeta.ru/fme/formula/aux/299_2_BJuRGERSA]]/URI$ параметр. Является модельным уравнением при исследовании волновых процессов в газовой динамике, гидродинамике, акустике и т. Д. На Б. у. как на простейшее уравнение, объединяющее типичную нелинейность и тепловую диффузию (или вязкость), указал Й. Бюргерс (j. Burgers) в 1942, хотя оно фигурировало и ранее в работах других ученых, в частности Г. Бейтмена (h. Bateman). Обнаруженная Э. Хопфом (е. Нoрf) и Дж. Коулом (j. Cole) в 1950 замена
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/299_2_BJuRGERSA]]/URI
+\]
+
+позволяет свести Б. у. к уравнению теплопроводности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/299_3_BJuRGERSA]]/URI
+\]
+
+для функции $URI[[http://libmeta.ru/fme/formula/aux/299_3_BJuRGERSA]]/URI$ и получить решение задачи Коши $URI[[http://libmeta.ru/fme/formula/aux/299_4_BJuRGERSA]]/URI$ для Б. у. в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/299_4_BJuRGERSA]]/URI
+\]
+
+С помощью этой формулы можно детально проследить, как из гладких начальных данных образуются и распространяются ударные волны в нелинейной среде, описываемые уравнением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/299_5_BJuRGERSA]]/URI
+\]
+
+если понимать под обобщенным решением последнего функцию
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/299_6_BJuRGERSA]]/URI
+\]
+
+- предел по «исчезающей» вязкости URI[[http://libmeta.ru/fme/relation/299_4_BJuRGERSA]]/URI Коши $URI[[http://libmeta.ru/fme/formula/aux/299_5_BJuRGERSA]]/URI$ для Б. у. Исходная задача имеет URI[[http://libmeta.ru/fme/relation/299_3_BJuRGERSA]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/299_7_BJuRGERSA]]/URI
+\]
+
+См. также URI[[http://libmeta.ru/fme/relation/299_2_BJuRGERSA]]/URI, URI[[http://libmeta.ru/fme/relation/299_1_BJuRGERSA]]/URI.</text>
+  <text_orig>нелинейное дифференциальное уравнение с частными производными
+
+\[
+\frac{\partial u}{\partial t}+\frac{u \partial u}{\partial x}=\frac{\mu \partial^{2} u}{\partial x^{2}}
+\]
+
+где $u(x, t)$ - неизвестная функция, $-\infty&lt;x&lt;\infty, t \geqslant 0, \mu&gt;0-$ параметр. Является модельным уравнением при исследовании волновых процессов в газовой динамике, гидродинамике, акустике и т. Д. На Б. у. как на простейшее уравнение, объединяющее типичную нелинейность и тепловую диффузию (или вязкость), указал Й. Бюргерс (J. Burgers) в 1942, хотя оно фигурировало и ранее в работах других ученых, в частности Г. Бейтмена (H. Bateman). Обнаруженная Э. Хопфом (Е. Нopf) и Дж. Коулом (J. Cole) в 1950 замена
+
+\[
+u=-\frac{2 \mu \partial \ln \varphi(x, t)}{\partial x}
+\]
+
+позволяет свести Б. у. к уравнению теплопроводности
+
+\[
+\partial \varphi / \partial t=\mu \partial^{2} \varphi / \partial x^{2}
+\]
+
+для функции $\varphi$ и получить решение задачи Коши $u(x, 0)=u_{0}(x)$ для Б. у. в виде:
+
+\[
+\begin{gathered}
+\varphi(x, t)=(4 \pi \mu t)^{-1 / 2} \int_{-\infty}^{\infty} d \eta \exp \{-F(x, \eta, t) / 2 v\}, \\
+F(x, \eta, t)=\int_{0}^{\eta} u_{0}(\xi) d \xi+(x-\eta)^{2} / 2 t
+\end{gathered}
+\]
+
+С помощью этой формулы можно детально проследить, как из гладких начальных данных образуются и распространяются ударные волны в нелинейной среде, описываемые уравнением
+
+\[
+\frac{\partial v}{\partial t}+\frac{v \partial v}{\partial x}=0
+\]
+
+если понимать под обобщенным решением последнего функцию
+
+\[
+v(x, t)=\lim _{\mu \rightarrow+0} u(x, t)
+\]
+
+- предел по «исчезающей» вязкости решения задачи Коши $u(x, 0)=v(x, 0)$ для Б. у. Исходная задача имеет интеграл движения:
+
+\[
+\int_{-\infty}^{\infty} u(x, t) d x=\int_{-\infty}^{\infty} u_{0}(x) d x .
+\]
+
+См. также Статистическая гидродинамика, Хопфа уравнение.
+
+Лит.: [1] Карпман В. И., Нелинейные волны в диспергирующих средах, М., 1973; [2] У и зе м Дж., Линейные и нелинейные волны, пер. с англ., 1977; [3] Виноградова М.Б., Руденко О. В., Сухоруков А. Н., Теория волн, М., 1979.
+
+С. Ю. Доброхотов.</text_orig>
+</article>

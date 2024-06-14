@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3194_URSELLA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3194_URSELLA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2437</core:url>
+    <lbm:descriptor><![CDATA[УРСЕЛЛА ФУНКЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18387"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18388"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4201"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4193"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18389"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1467"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_602"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>усеченные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_256_BOL'TsMANA">Больцмана функции</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4201">$$\varphi\left(x_{n}\right)$$</a>, определяемые из соотношения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18387">$$\exp \left\{-\beta U\left(X_{n}\right)\right\}=\sum_{k=1}^{n} \sum_{\bigcup_{1}^{k} X_{j}=X_{n}} \prod_{j=1}^{k} \varphi\left(X_{j}\right),$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4193">$$u\left(x_{n}\right)$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2340_POTENTsIAL'NAJa">потенциальная энергия</a> непрерывной $URI[[http://libmeta.ru/fme/formula/aux/3194_3_URSELLA]]/URI$-частичной системы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18389">$$\left(x_{n}=\left(x_{1}, \ldots, x_{n}\right) \in \mathbb{R}^{d n}\right)$$</a>. Если эта <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергия</a> выражается через <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2173_PARTO">парный</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_387_VZAIMODEJSTVIJa">потенциал взаимодействия</a> $URI[[http://libmeta.ru/fme/formula/aux/3194_5_URSELLA]]/URI$, то<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18388">$$\varphi\left(X_{n}\right)=\sum_{\gamma} \prod_{i<j}^{\gamma}\left(\exp \left\{-\beta \Phi\left(x_{i}-x_{j}\right)\right\}-1\right)$$</a><BR/></P><P>где сумма берется по всем связным графам $URI[[http://libmeta.ru/fme/formula/aux/3194_6_URSELLA]]/URI$ с вершинами $URI[[http://libmeta.ru/fme/formula/aux/3194_7_URSELLA]]/URI$, а произведение - по всем ребрам графа $URI[[http://libmeta.ru/fme/formula/aux/3194_8_URSELLA]]/URI$.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[усеченные Больцмана функции $\varphi\left(X_{n}\right)$, определяемые из соотношения
+
+\[
+\exp \left\{-\beta U\left(X_{n}\right)\right\}=\sum_{k=1}^{n} \sum_{\bigcup_{1}^{k} X_{j}=X_{n}} \prod_{j=1}^{k} \varphi\left(X_{j}\right),
+\]
+
+где $U\left(X_{n}\right)$ - потенциальная энергия непрерывной $n$-частичной системы $\left(X_{n}=\left(x_{1}, \ldots, x_{n}\right) \in \mathbb{R}^{d n}\right)$. Если эта энергия выражается через парный потенциал взаимодействия $\Phi(x)$, то
+
+\[
+\varphi\left(X_{n}\right)=\sum_{\gamma} \prod_{i<j}^{\gamma}\left(\exp \left\{-\beta \Phi\left(x_{i}-x_{j}\right)\right\}-1\right)
+\]
+
+где сумма берется по всем связным графам $\gamma$ с вершинами $x_{1}, \ldots, x_{n}$, а произведение - по всем ребрам графа $\gamma$.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_387_VZAIMODEJSTVIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2173_PARTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2340_POTENTsIAL'NAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_256_BOL'TsMANA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2178_PAULI" alphabetic_pos="2180">
+  <title>ПАУЛИ МАТРИЦЫ</title>
+  <authors>
+    <author>В. П. Павлов</author>
+  </authors>
+  <pages>
+    <start>424</start>
+    <end>425</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] П а у л и В., Труды по квантовой теории, [пер. с нем.], т. 1-2, М., 1975-77; [2] Дуброви н Б.А., Новиков С. П., Фоме н ко А. Т., Современная геометрия, 2 изд., М., 1986; [3] Ме дв е д е в Б. В., Начала теоретической физики, М., 1977.</literature_orig>
+    <unit>
+      <author>Паули В.</author>
+      <title>Труды по квантовой теории</title>
+      <publication>[пер. с нем.], т. 1-2, М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Новиков С. П.</author>
+      <author>Фоменко А. Т.</author>
+      <title>Современная геометрия</title>
+      <publication>2 изд., М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Медведев Б. В.</author>
+      <title>Начала теоретической физики</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2178_1_PAULI">\sigma_{1}=\left\|\begin{array}{cc}0 &amp; 1 \\1 &amp; 0\end{array}\right\|, \quad \sigma_{2}=\left\|\begin{array}{cc}0 &amp; -i \\i &amp; 0\end{array}\right\|, \quad \sigma_{3}=\left\|\begin{array}{cc}1 &amp; 0 \\0 &amp; -1\end{array}\right\| .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2178_2_PAULI">\sigma_{i} \sigma_{k}-\sigma_{k} \sigma_{i}=2 \varepsilon_{i k l} \sigma_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2178_3_PAULI">\psi \rightarrow \psi^{\prime}=\exp \left(-\frac{i \varphi}{2} n \sigma\right) \psi</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_1_PAULI">s=1 / 2 \hbar \sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_2_PAULI">\mu=(e \hbar / 2 m c) \sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_3_PAULI">\varepsilon_{i k l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_4_PAULI">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_5_PAULI">n\left(n_{1}, n_{2}, n_{3}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_6_PAULI">\psi=\left\|\begin{array}{l}\psi_{1} \\ \Psi_{2}\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_7_PAULI">s O(3)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_8_PAULI">\sigma_{3},\|1\| 0 \|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_9_PAULI">\left\|\begin{array}{l}0 \\ 1\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_10_PAULI">\left.\tau_{i}, i=1,2\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_11_PAULI">s O(3)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_12_PAULI">s O(3) \sim S O(2) / Z_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2178_13_PAULI">s U(2)</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/2178_1_PAULI">
+      <rel_text>Паули уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/2181_PAULI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2178_2_PAULI">
+      <rel_text>модели Изинга</rel_text>
+      <target>http://libmeta.ru/fme/article/970_IZINGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2178_3_PAULI">
+      <rel_text>варианты</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2178_4_PAULI">
+      <rel_text>моделях квантовых</rel_text>
+      <target>http://libmeta.ru/fme/article/919_EVKLIDOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2178_5_PAULI">
+      <rel_text>унитарной симметрией</rel_text>
+      <target>http://libmeta.ru/fme/article/3176_UNITARNAJa</target>
+    </relation>
+  </relations>
+  <text>двухрядные комплексные эрмитовы матрицы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2178_1_PAULI]]/URI
+\]
+
+Введены В. Паули (w. Pauli, 1927) для описания собственного механич. момента (спина) $URI[[http://libmeta.ru/fme/formula/aux/2178_1_PAULI]]/URI$ и магнитного момента $URI[[http://libmeta.ru/fme/formula/aux/2178_2_PAULI]]/URI$ электрона (см. URI[[http://libmeta.ru/fme/relation/2178_1_PAULI]]/URI).
+
+Благодаря перестановочным соотношениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2178_2_PAULI]]/URI
+\]
+
+(где $URI[[http://libmeta.ru/fme/formula/aux/2178_3_PAULI]]/URI$ - Леви-Чивиты символ) компоненты спина s удовлетворяют перестановочным соотношениям для углового момента. При повороте на угол $URI[[http://libmeta.ru/fme/formula/aux/2178_4_PAULI]]/URI$ вокруг оси с направляющим единичным вектором $URI[[http://libmeta.ru/fme/formula/aux/2178_5_PAULI]]/URI$ задающий волновую функцию электрона двухкомпонентный спинор $URI[[http://libmeta.ru/fme/formula/aux/2178_6_PAULI]]/URI$ преобразуется по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2178_3_PAULI]]/URI
+\]
+
+реализуя простейшее спинорное представление группы вращений $URI[[http://libmeta.ru/fme/formula/aux/2178_7_PAULI]]/URI$. В качестве базиса в пространстве этого представления можно взять, напр., собственные векторы матрицы $URI[[http://libmeta.ru/fme/formula/aux/2178_8_PAULI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2178_9_PAULI]]/URI$ с собственными значениями 1 и -1 соответственно.
+
+П. м. используются при описании любой квантовой системы с дискретной переменной, принимающей два значения. Помимо спина классич. примером является система протон - нейтрон; ее дискретную переменную называют 3-й компонентой изотопич. спина (обычно П. м. обозначаются в этом случае символами $URI[[http://libmeta.ru/fme/formula/aux/2178_10_PAULI]]/URI$. Поскольку $URI[[http://libmeta.ru/fme/formula/aux/2178_11_PAULI]]/URI$ локально изоморфна группе унитарных унимодулярных комплексных матриц [точнее, $URI[[http://libmeta.ru/fme/formula/aux/2178_12_PAULI]]/URI$ ], в терминах П.м. описываются калибровочные поля с URI[[http://libmeta.ru/fme/relation/2178_5_PAULI]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2178_13_PAULI]]/URI$. П. м. используются также в многочисленных URI[[http://libmeta.ru/fme/relation/2178_4_PAULI]]/URI систем на решетках (различные URI[[http://libmeta.ru/fme/relation/2178_3_PAULI]]/URI URI[[http://libmeta.ru/fme/relation/2178_2_PAULI]]/URI и т. п.).</text>
+  <text_orig>двУхрядные комплексные эрмитовы матрицы
+
+\[
+\sigma_{1}=\left\|\begin{array}{cc}
+0 &amp; 1 \\
+1 &amp; 0
+\end{array}\right\|, \quad \sigma_{2}=\left\|\begin{array}{cc}
+0 &amp; -i \\
+i &amp; 0
+\end{array}\right\|, \quad \sigma_{3}=\left\|\begin{array}{cc}
+1 &amp; 0 \\
+0 &amp; -1
+\end{array}\right\| .
+\]
+
+Введены В. Паули (W. Pauli, 1927) для описания собственного механич. момента (спина) $s=1 / 2 \hbar \sigma$ и магнитного момента $\mu=(e \hbar / 2 m c) \sigma$ электрона (см. Паули уравнение).
+
+Благодаря перестановочным соотношениям
+
+\[
+\sigma_{i} \sigma_{k}-\sigma_{k} \sigma_{i}=2 \varepsilon_{i k l} \sigma_{l}
+\]
+
+(где $\varepsilon_{i k l}$ - Леви-Чивиты символ) компоненты спина s удовлетворяют перестановочным соотношениям для углового момента. При повороте на угол $\varphi$ вокруг оси с направляющим единичным вектором $n\left(n_{1}, n_{2}, n_{3}\right)$ задающий волновую функцию электрона двухкомпонентный спинор $\psi=\left\|\begin{array}{l}\Psi_{1} \\ \Psi_{2}\end{array}\right\|$ преобразуется по формуле
+
+\[
+\psi \rightarrow \psi^{\prime}=\exp \left(-\frac{i \varphi}{2} n \sigma\right) \psi
+\]
+
+реализуя простейшее спинорное представление группы вращений $S O(3)$. В качестве базиса в пространстве этого представления можно взять, напр., собственные векторы матрицы $\sigma_{3},\|1\| 0 \|$ и $\left\|\begin{array}{l}0 \\ 1\end{array}\right\|$ с собственными значениями 1 и -1 соответственно.
+
+П. м. используются при описании любой квантовой системы с дискретной переменной, принимающей два значения. Помимо спина классич. примером является система протон - нейтрон; ее дискретную переменную называют 3-й компонентой изотопич. спина (обычно П. м. обозначаются в этом случае символами $\left.\tau_{i}, i=1,2\right)$. Поскольку $S O(3)$ локально изоморфна группе унитарных унимодулярных комплексных матриц [точнее, $S O(3) \sim S O(2) / Z_{2}$ ], в терминах П.м. описываются калибровочные поля с унитарной симметрией $S U(2)$. П. м. используются также в многочисленных моделях квантовых систем на решетках (различные варианты модели Изинга и т. п.). Лит.: [1] П а у л и В., Труды по квантовой теории, [пер. с нем.], т. 1-2, М., 1975-77; [2] Дуброви н Б.А., Новиков С. П., Фоме н ко А. Т., Современная геометрия, 2 изд., М., 1986; [3] Ме дв е д е в Б. В., Начала теоретической физики, М., 1977. В. П. Павлов.</text_orig>
+</article>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_26071">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mi>&#x003B7;</mi><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003B1;</mi></mrow></msub><mo>&#x0002C;</mo><msubsup><mi>&#x003B7;</mi><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003B1;</mi></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><mo>&#x0002C;</mo><mi>x</mi><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>x</mi><mrow><mn>0</mn></mrow></msup><mo>&#x0002C;</mo><msup><mi>x</mi><mrow><mn>1</mn></mrow></msup><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msup><mi>x</mi><mrow><mi>v</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x02208;</mo><msup><mi>&#x02124;</mi><mrow><mi>v</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msup><mo>&#x0002C;</mo><mi>&#x003B1;</mi><mo>&#x02208;</mo><mi>M</mi><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\left\{\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, x=\left(x^{0}, x^{1}, \ldots, x^{v}\right) \in \mathbb{Z}^{v+1}, \alpha \in M\right\}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

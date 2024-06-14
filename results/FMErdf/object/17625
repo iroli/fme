@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_17625">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>h</mi><mo stretchy="false">&#x00028;</mo><mi>f</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msub><mo>lim</mo><mrow><mi>&#x003B5;</mi><mo>&#x02192;</mo><mn>0</mn></mrow></msub><msub><mi>\varlimsup</mi><mrow><mi>n</mi><mo>&#x02192;</mo><mo>&#x0221E;</mo></mrow></msub><mfrac><mrow><mi>log</mi><mi>N</mi><mo stretchy="false">&#x00028;</mo><mi>n</mi><mo>&#x0002C;</mo><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo></mrow><mrow><mi>n</mi></mrow></mfrac><mo>&#x0003D;</mo><msub><mo>lim</mo><mrow><mi>&#x003B5;</mi><mo>&#x02192;</mo><mn>0</mn></mrow></msub><msub><mi>\varliminf</mi><mrow><mi>n</mi><mo>&#x02192;</mo><mo>&#x0221E;</mo></mrow></msub><mfrac><mrow><mi>log</mi><mi>N</mi><mo stretchy="false">&#x00028;</mo><mi>n</mi><mo>&#x0002C;</mo><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo></mrow><mrow><mi>n</mi></mrow></mfrac><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$h(f)=\lim _{\varepsilon \rightarrow 0} \varlimsup_{n \rightarrow \infty} \frac{\log N(n, \varepsilon)}{n}=\lim _{\varepsilon \rightarrow 0} \varliminf_{n \rightarrow \infty} \frac{\log N(n, \varepsilon)}{n},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

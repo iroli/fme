@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_25057">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mo>&#x02202;</mo></mrow><mrow><mo>&#x02202;</mo><msub><mi>x</mi><mrow><mi>&#x003BC;</mi></mrow></msub></mrow></mfrac><msub><mi>j</mi><mrow><mi>&#x003BC;</mi><mn>5</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>2</mn><mi>i</mi><mi>m</mi><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><msub><mi>&#x003B3;</mi><mrow><mn>5</mn></mrow></msub><mi>&#x003C8;</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><mfrac><mrow><msup><mi>e</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>16</mn><msup><mi>&#x003C0;</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac><msup><mi>&#x003B5;</mi><mrow><mi>&#x003B1;</mi><mi>&#x003B2;</mi><mi>&#x003B3;</mi><mi>&#x003B4;</mi></mrow></msup><msub><mi>F</mi><mrow><mi>&#x003B1;</mi><mi>&#x003B2;</mi></mrow></msub><msub><mi>F</mi><mrow><mi>&#x003B3;</mi><mi>&#x003B4;</mi></mrow></msub><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{\partial}{\partial x_{\mu}} j_{\mu 5}(x)=2 i m \bar{\psi}(x) \gamma_{5} \psi(x)+\frac{e^{2}}{16 \pi^{2}} \varepsilon^{\alpha \beta \gamma \delta} F_{\alpha \beta} F_{\gamma \delta},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

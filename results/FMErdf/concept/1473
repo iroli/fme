@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2326_POMO-MANNEVILJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2326_POMO-MANNEVILJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1473</core:url>
+    <lbm:descriptor><![CDATA[ПОМО-МАННЕВИЛЯ СЦЕНАРИЙ СТОХАСТИЗАЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#3328"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11374"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_603"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11375"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11376"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>возникновение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">перемежаемости</a> по времени периодического и стохастического движения после обратной тангенциальной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI">бифуркации</a> (слияния и исчезновения устойчивой и неустойчивой периодических <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3238_FAZOVAJa">фазовых траекторий</a>), причем промежутки времени со стохастическим движением случайны, а с периодическим - пропорциональны <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11374">$$\left|\mu-\mu_{c}\right|^{-1 / 2}$$</a>, где $URI[[http://libmeta.ru/fme/formula/aux/2326_2_POMO-MANNEVILJa]]/URI$ параметр неравновесности <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa">динамической системы</a>. Примером может служить <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI">бифуркация</a> слияния устойчивой и неустойчивой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI">траекторий</a> с периодом 3 у отображения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11375">$$x_{n+1}=\mu x_{n}\left(1-x_{n}\right)$$</a> при значении <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11376">$$\mu_{c} \approx 3,83$$</a>, служащем точкой накопления для последовательности обратных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI">бифуркаций</a> удвоения этого <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">периода</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#3328">A. С. Монин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[возникновение перемежаемости по времени периодического и стохастического движения после обратной тангенциальной бифуркации (слияния и исчезновения устойчивой и неустойчивой периодических фазовых траекторий), причем промежутки времени со стохастическим движением случайны, а с периодическим - пропорциональны $\left|\mu-\mu_{c}\right|^{-1 / 2}$, где $\mu-$ параметр неравновесности динамической системы. Примером может служить бифуркация слияния устойчивой и неустойчивой траекторий с периодом 3 у отображения $x_{n+1}=\mu x_{n}\left(1-x_{n}\right)$ при значении $\mu_{c} \approx 3,83$, служащем точкой накопления для последовательности обратных бифуркаций удвоения этого периода. A. С. Монин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3238_FAZOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

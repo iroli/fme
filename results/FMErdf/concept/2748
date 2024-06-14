@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3474_EJLERA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3474_EJLERA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2748</core:url>
+    <lbm:descriptor><![CDATA[ЭЙЛЕРА УРАВНЕНИЯ В МЕХАНИКЕ ТВЕРДОГО ТЕЛА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#20574"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20575"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20576"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20577"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20578"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20579"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20580"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20581"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20582"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20583"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3887"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Д и н а м и ч е с к и е Э.у. представляют собой дифференциальные уравнения движения твердого тела вокруг неподвижной точки и имеют вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20576">$$\left.\begin{array}{l}I_{x} \dot{\omega}_{x}+\left(I_{x}-I_{y}\right) \omega_{y} \omega_{z}=M_{x}, \\I_{y} \dot{\omega}_{y}+\left(I_{x}-I_{z}\right) \omega_{z} \omega_{x}=M_{y}, \\I_{z} \dot{\omega}_{z}+\left(I_{y}-I_{x}\right) \omega_{x} \omega_{y}=M_{z},\end{array}\right\}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/3474_1_EJLERA]]/URI$ - моменты инерции тела относительно главных осей инерции, проведенных из неподвижной точки; <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20579">$$\omega_{x}, \omega_{y}$$</a>, $URI[[http://libmeta.ru/fme/formula/aux/3474_3_EJLERA]]/URI$ проекции мгновенной угловой скорости тела на эти оси; <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20581">$$m_{x}, M_{y}, M_{z}$$</a> - главные моменты сил, действующих на тело, относительно тех же осей; <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20582">$$\dot{\omega}_{x}, \dot{\omega}_{y}, \dot{\omega}_{z}-$$</a> производные по времени от $URI[[http://libmeta.ru/fme/formula/aux/3474_6_EJLERA]]/URI$.<BR/></P><P>Ки не мати ч е ские Э. у. дают выражения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20583">$$\omega_{x}, \omega_{y}, \omega_{z}$$</a> через Эйлера углы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3887">$$\varphi, \psi, \theta$$</a> и имеют вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20577">$$\left.\begin{array}{c}\omega_{x}=\dot{\psi} \sin \theta \sin \varphi+\dot{\theta} \cos \varphi, \\\omega_{y}=\dot{\psi} \sin \theta \cos \varphi-\dot{\theta} \sin \varphi, \\\omega_{z}=\dot{\varphi}+\dot{\psi} \cos \theta .\end{array}\right\}$$</a><BR/></P><P>\title{
+672 Эйлера
+} Системы уравнений (1) и (2) позволяют, зная закон движения тела, определить момент действующих на него сил и наоборот, зная действующие на тело силы, определить закон его движения.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#20575">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#7148">Бухгольц Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20575">Основной курс теоретической механики, 6 изд., ч. 2, М., 1972</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#20574">C. М. Таре</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[Д и н а м и ч е с к и е Э.у. представляют собой дифференциальные уравнения движения твердого тела вокруг неподвижной точки и имеют вид:
+
+\[
+\left.\begin{array}{l}
+I_{x} \dot{\omega}_{x}+\left(I_{x}-I_{y}\right) \omega_{y} \omega_{z}=M_{x}, \\
+I_{y} \dot{\omega}_{y}+\left(I_{x}-I_{z}\right) \omega_{z} \omega_{x}=M_{y}, \\
+I_{z} \dot{\omega}_{z}+\left(I_{y}-I_{x}\right) \omega_{x} \omega_{y}=M_{z},
+\end{array}\right\}
+\]
+
+где $I_{x}, I_{y}, I_{z}$ - моменты инерции тела относительно главных осей инерции, проведенных из неподвижной точки; $\omega_{x}, \omega_{y}$, $\omega_{z}-$ проекции мгновенной угловой скорости тела на эти оси; $M_{x}, M_{y}, M_{z}$ - главные моменты сил, действующих на тело, относительно тех же осей; $\dot{\omega}_{x}, \dot{\omega}_{y}, \dot{\omega}_{z}-$ производные по времени от $\omega_{x}, \omega_{y}, \omega_{z}$.
+
+Ки не мати ч е ские Э. у. дают выражения $\omega_{x}, \omega_{y}, \omega_{z}$ через Эйлера углы $\varphi, \psi, \theta$ и имеют вид:
+
+\[
+\left.\begin{array}{c}
+\omega_{x}=\dot{\psi} \sin \theta \sin \varphi+\dot{\theta} \cos \varphi, \\
+\omega_{y}=\dot{\psi} \sin \theta \cos \varphi-\dot{\theta} \sin \varphi, \\
+\omega_{z}=\dot{\varphi}+\dot{\psi} \cos \theta .
+\end{array}\right\}
+\]
+
+\title{
+672 ЭЙЛЕРА
+} Системы уравнений (1) и (2) позволяют, зная закон движения тела, определить момент действующих на него сил и наоборот, зная действующие на тело силы, огределить закон его движения.
+
+Лuт.: [1] Бу хгольц Н. Н., Основной курс теоретической механики, 6 изд., ч. 2, М., $1972 . \quad$ C. М. Таре.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

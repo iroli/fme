@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_318_VARIATsIONNYE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_318_VARIATsIONNYE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2432</core:url>
+    <lbm:descriptor><![CDATA[ВАРИАЦИОННЫЕ ПРИНЦИПЫ В ТЕОРИИ РАССЕЯНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#793"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#794"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#18375"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18376"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18377"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18378"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18379"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18380"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18381"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18382"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18383"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18384"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18385"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18386"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>вариационные принципы для определения амплитуды рассеяния и фаз рассеяния. Уравнение Шредингера:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18383">$$(h-E) \psi \equiv(-\Delta+V(x)-E) \psi(x, k)=0, \quad k^{2}=E, \quad k, x \in \mathbb{R}^{3}$$</a>, рассматриваемое на классе функций с асимптотич. поведением:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18376">$$\psi(x, k) \sim \exp \{i(x, k)\}+f(\hat{x}, \hat{k}, E) \exp \{i \sqrt{E}|x|\}|x|^{-1},$$</a><BR/></P><P>является уравнением Эйлера для функционала<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18377">$$I\left(k_{1}, k_{2}\right)-4 \pi f\left(\hat{k}_{1}, \hat{k}_{2}, E\right)$$</a><BR/></P><P>где<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18378">$$I\left(k_{1}, k_{2}\right)=\int \bar{\psi}_{1}\left(x, k_{1}\right)(H-E) \psi_{2}\left(x, k_{2}\right) d x .$$</a><BR/></P><P>Стационарное значение функционала<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18379">$$f\left(\hat{k}_{1}, \hat{k}_{2}, E\right)-\frac{1}{4 \pi} I\left(k_{1}, k_{2}\right)$$</a><BR/></P><P>совпадает с истинной амплитудой рассеяния.<BR/></P><P>Аналогично, радиальное уравнение Шредингера:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18380">$$\left(H_{l}-k^{2}\right) \psi_{l} \equiv\left(-\frac{\partial^{2}}{\partial r^{2}}+\frac{l(l+1)}{r^{2}}-k^{2}\right) \psi_{l}(r, k)=0, \quad r, k \in \mathbb{R}^{l},$$</a><BR/></P><P>рассматриваемое на классе функций с условиями<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18381">$$\psi_{l}(0, k)=0, \quad \psi_{l}(r, k) \sim \sin \left(k r-\frac{l \pi}{2}+\eta_{l}\right), \quad r \rightarrow \infty,$$</a><BR/></P><P>является уравнением Эйлера для функционала<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18382">$$I_{l}-k \eta_{l}, \quad I_{l} \equiv \int_{0}^{\infty} \psi_{l}\left(H_{l}-k^{2}\right) \psi_{l} d r$$</a><BR/></P><P>а стационарное значение <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18384">$$i_{l}-k \eta_{l}$$</a> совпадает с <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18385">$$k \delta_{l}$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18386">$$\delta_{l}-$$</a> точный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3251_FAZOVYJ">фазовый сдвиг</a>. Сформулированные В. П. называются вариационными принципами <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3373_HJuL'TENA-KOONA">Хюльтенаkоона</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#18375">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1984">Мотт Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#828">Месси Х.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#18375">Теория атомных столкновений, пер. с англ., 3 изд., М., 1969</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#793">С. П. Меркурьев</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#794">С. Л. Яковлев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[вариационные принципы для определения амплитуды рассеяния и фаз рассеяния. Уравнение Шредингера:
+
+$(H-E) \psi \equiv(-\Delta+V(x)-E) \psi(x, k)=0, \quad k^{2}=E, \quad k, x \in \mathbb{R}^{3}$, рассматриваемое на классе функций с асимптотич. поведением:
+
+\[
+\psi(x, k) \sim \exp \{i(x, k)\}+f(\hat{x}, \hat{k}, E) \exp \{i \sqrt{E}|x|\}|x|^{-1},
+\]
+
+является уравнением Эйлера для функционала
+
+\[
+I\left(k_{1}, k_{2}\right)-4 \pi f\left(\hat{k}_{1}, \hat{k}_{2}, E\right)
+\]
+
+где
+
+\[
+I\left(k_{1}, k_{2}\right)=\int \bar{\psi}_{1}\left(x, k_{1}\right)(H-E) \psi_{2}\left(x, k_{2}\right) d x .
+\]
+
+Стационарное значение функционала
+
+\[
+f\left(\hat{k}_{1}, \hat{k}_{2}, E\right)-\frac{1}{4 \pi} I\left(k_{1}, k_{2}\right)
+\]
+
+совпадает с истинной амплитудой рассеяния.
+
+Аналогично, радиальное уравнение Шредингера:
+
+\[
+\left(H_{l}-k^{2}\right) \psi_{l} \equiv\left(-\frac{\partial^{2}}{\partial r^{2}}+\frac{l(l+1)}{r^{2}}-k^{2}\right) \psi_{l}(r, k)=0, \quad r, k \in \mathbb{R}^{l},
+\]
+
+рассматриваемое на классе функций с условиями
+
+\[
+\psi_{l}(0, k)=0, \quad \psi_{l}(r, k) \sim \sin \left(k r-\frac{l \pi}{2}+\eta_{l}\right), \quad r \rightarrow \infty,
+\]
+
+является уравнением Эйлера для функционала
+
+\[
+I_{l}-k \eta_{l}, \quad I_{l} \equiv \int_{0}^{\infty} \psi_{l}\left(H_{l}-k^{2}\right) \psi_{l} d r
+\]
+
+а стационарное значение $I_{l}-k \eta_{l}$ совпадает с $k \delta_{l}$, где $\delta_{l}-$ точный фазовый сдвиг. Сформулированные В. П. называются вариационными принципами ХюльтенаKоона.
+
+Лит.: [1] М отт Н., Мес с и Х., Теория атомных столкновений, пер. с англ., 3 изд., М., $1969 . \quad$ С. П. Меркурьев, С. Л. Яковлев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3373_HJuL'TENA-KOONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3251_FAZOVYJ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

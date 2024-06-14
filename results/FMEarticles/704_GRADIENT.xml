@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/704_GRADIENT" alphabetic_pos="706">
+  <title>ГРАДИЕНТ АНТИСИММЕТРИЧЕСКОГО ТЕНЗОРНОГО ПОЛЯ С КООРДИНАТАМИ $T_{i_{1} i_{2} \ldots i_{k}}$ В ЛОКАЛЬНОЙ СИСТЕМЕ КООРДИНАТ $\left(x^{1}, \ldots, x^{n}\right)$</title>
+  <authors/>
+  <pages>
+    <start>154</start>
+    <end>155</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/704_1_GRADIENT">(d T)_{j_{1} \ldots j_{k+1}}=\sum_{q=1}^{k+1}(-1)^{q+1} \frac{\partial T_{j_{1} \ldots \hat{j}_{q} \ldots j_{k+1}}}{\partial x^{j_{q}}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/704_2_GRADIENT">\operatorname{grad} f=\nabla f: U \rightarrow E</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/704_3_GRADIENT">\langle\nabla f(u), e\rangle=d f(u)(e)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_1_GRADIENT">(0, k+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_2_GRADIENT">\hat{j}_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_3_GRADIENT">j_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_4_GRADIENT">e-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_5_GRADIENT">f: U \subset E \rightarrow \mathbb{R}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_6_GRADIENT">d f: U \rightarrow E^{*}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_7_GRADIENT">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_8_GRADIENT">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_9_GRADIENT">e-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/704_10_GRADIENT">\begin{array}{ll}\text { нятия индексов. } &amp; \text { В. В. Трофимов. }\end{array}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/704_1_GRADIENT">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/704_2_GRADIENT">
+      <rel_text>произвольного вектора</rel_text>
+      <target>http://libmeta.ru/fme/article/2826_SMEShANNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/704_3_GRADIENT">
+      <rel_text>гильбертово пространство</rel_text>
+      <target>http://libmeta.ru/fme/article/623_GIL'BERTOVO</target>
+    </relation>
+  </relations>
+  <text>кососимметрическое тензорное поле типа $URI[[http://libmeta.ru/fme/formula/aux/704_1_GRADIENT]]/URI$ с координатами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/704_1_GRADIENT]]/URI
+\]
+
+здесь $URI[[http://libmeta.ru/fme/formula/aux/704_2_GRADIENT]]/URI$ обозначает, что индекс $URI[[http://libmeta.ru/fme/formula/aux/704_3_GRADIENT]]/URI$ пропущен.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/704_4_GRADIENT]]/URI$ URI[[http://libmeta.ru/fme/relation/704_3_GRADIENT]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/704_5_GRADIENT]]/URI$ дифференцируемая функция, $URI[[http://libmeta.ru/fme/formula/aux/704_6_GRADIENT]]/URI$ еe дифференциал. Тогда гради ен т
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/704_2_GRADIENT]]/URI
+\] функции $URI[[http://libmeta.ru/fme/formula/aux/704_7_GRADIENT]]/URI$ определяется равенством
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/704_3_GRADIENT]]/URI
+\]
+
+для URI[[http://libmeta.ru/fme/relation/704_2_GRADIENT]]/URI $URI[[http://libmeta.ru/fme/formula/aux/704_8_GRADIENT]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/704_9_GRADIENT]]/URI$ конечномерное пространство, то Г. в смысле второго определения URI[[http://libmeta.ru/fme/relation/704_1_GRADIENT]]/URI из Г. в смысле определения первого с помощью под$URI[[http://libmeta.ru/fme/formula/aux/704_10_GRADIENT]]/URI$</text>
+  <text_orig>кососимметрическое тензорное поле типа $(0, k+1)$ с координатами
+
+\[
+(d T)_{j_{1} \ldots j_{k+1}}=\sum_{q=1}^{k+1}(-1)^{q+1} \frac{\partial T_{j_{1} \ldots \hat{j}_{q} \ldots j_{k+1}}}{\partial x^{j_{q}}}
+\]
+
+здесь $\hat{j}_{q}$ обозначает, что индекс $j_{q}$ пропущен.
+
+Пусть $E-$ гильбертово пространство, $f: U \subset E \rightarrow \mathbb{R}-$ дифференцируемая функшия, $d f: U \rightarrow E^{*}-$ еe дифференциал. Тогда гради ен т
+
+\[
+\operatorname{grad} f=\nabla f: U \rightarrow E
+\] функции $f$ определяется равенством
+
+\[
+\langle\nabla f(u), e\rangle=d f(u)(e)
+\]
+
+для произвольного вектора $e$. Если $E-$ конечномерное пространство, то Г. в смысле второго определения получается из Г. в смысле определения первого с помощью под$\begin{array}{ll}\text { нятия индексов. } &amp; \text { В. В. Трофимов. }\end{array}$</text_orig>
+</article>

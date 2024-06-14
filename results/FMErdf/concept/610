@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_154_BEREZINIAN,">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_154_BEREZINIAN,</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/610</core:url>
+    <lbm:descriptor><![CDATA[БЕРЕЗИНИАН, СУПЕРДЕТЕРМИНАНТ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5317"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#648"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5319"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5320"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5321"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_33"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_77"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5322"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5323"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_243"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_710"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>характеристика блочной матрицы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5321">$$m=\left\|\begin{array}{ll}a & B \\ C & D\end{array}\right\|$$</a> (где $URI[[http://libmeta.ru/fme/formula/aux/154_2_BEREZINIAN,]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/154_3_BEREZINIAN,]]/URI$ невырожденные матрицы); обозначается <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5322">$$\operatorname{ber}(m)$$</a> или <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5323">$$\mathrm{s} \operatorname{det}(M)$$</a>. Вычисляется по формуле<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5320">$$\operatorname{Ber}(M)=\operatorname{det}\left(A-B D^{-1} C\right) \operatorname{det} D^{-1} .$$</a><BR/></P><P>Б. служит аналогом якобиана при замене переменных в интеграле по коммутирующим и антикоммутирующим переменным (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#648">[2]</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5319">[3]</a>). При этом элементы матрицы $URI[[http://libmeta.ru/fme/formula/aux/154_6_BEREZINIAN,]]/URI$ являются функциями от грассмановых переменных, причем элементы матриц $URI[[http://libmeta.ru/fme/formula/aux/154_7_BEREZINIAN,]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/154_8_BEREZINIAN,]]/URI$ четные, а матриц $URI[[http://libmeta.ru/fme/formula/aux/154_9_BEREZINIAN,]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/154_10_BEREZINIAN,]]/URI$ нечетные элементы грассмановой алгебры.<BR/></P><P>Б. - важное понятие теории функций от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1040_INTEGRIROVANIE">антикоммутирующих переменных</a> - супе рматем а т ики, развитой в работах Ф. А. Березина (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#5317">[1]</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#648">[2]</a>).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#5317">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#5316">Береии Ф. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5317">Введение в алгебру и анализ с антикоммутирующими переменными, М., 1983</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#648">[2]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#648">е го же, Метод вторичного квантования, 2 изд., М., 1986</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#5319">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#537">Владимиров В. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#5318">Волович И. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5319">"теор. и матем. физика», 1984, т. 60, № 2, $\begin{array}{ll}\text { с. 169-98. } & \text { С. А. Федотов. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[характеристика блочной матрицы $M=\left\|\begin{array}{ll}A & B \\ C & D\end{array}\right\|$ (где $A$ и $D-$ невырожденные матрицы); обозначается $\operatorname{Ber}(M)$ или $\mathrm{S} \operatorname{det}(M)$. Вычисляется по формуле
+
+\[
+\operatorname{Ber}(M)=\operatorname{det}\left(A-B D^{-1} C\right) \operatorname{det} D^{-1} .
+\]
+
+Б. служит аналогом якобиана при замене переменных в интеграле по коммутирующим и антикоммутируюшим переменным (см. [2], [3]). При этом элементы матрицы $M$ являются функциями от грассмановых переменных, причем элементы матриц $A$ и $D-$ четные, а матриц $B$ и $C-$ нечетные элементы грассмановой алгебры.
+
+Б. - важное понятие теории функций от антикоммутируюших переменных - супе рматем а т ики, развитой в работах Ф. А. Березина (см. [1], [2]).
+
+Лит.: [1] Бе р е и и Ф. А., Введение в алгебру и анализ с антикоммутируюшими переменными, М., 1983; [2] е го же, Метод вторичного квантования, 2 изд., М., 1986; [3] В ла д и м и ро в В. С., В оло вич И. В., "Теор. и матем. физика», 1984, т. 60, № 2, $\begin{array}{ll}\text { с. 169-98. } & \text { С. А. Федотов. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1040_INTEGRIROVANIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1120_KASATEL'NYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1120_KASATEL'NYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/134</core:url>
+    <lbm:descriptor><![CDATA[КАСАТЕЛЬНЫЙ ВЕКТОР В ТОЧКЕ $p$ МНОГООБРАЗИЯ $M$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1386"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1387"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1388"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1389"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_64"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1390"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1392"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1384"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1393"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1394"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1395"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>линейный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функционал</a> (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a>), который каждой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_729_GRINA">дифференцируемой функции</a> $URI[[http://libmeta.ru/fme/formula/aux/1120_1_KASATEL'NYJ]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1120_2_KASATEL'NYJ]]/URI$ ставит в соответствие <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1388">$$v(f)$$</a> и удовлетворяет аксиомам:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1386">$$\begin{gathered}v(f+h)=v(f)+v(h) \\v(c f)=c v(f), c=\mathrm{const} \\v(f h)=f v(h)+h v(f) .\end{gathered}$$</a><BR/></P><P>Это определение не зависит от выбора локальных координат. К. в. представляет собой производную по направлению вдоль кривой $URI[[http://libmeta.ru/fme/formula/aux/1120_4_KASATEL'NYJ]]/URI$, проходящей через точку $URI[[http://libmeta.ru/fme/formula/aux/1120_5_KASATEL'NYJ]]/URI$. Из разложения любой функции в точке $URI[[http://libmeta.ru/fme/formula/aux/1120_6_KASATEL'NYJ]]/URI$ в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3034_TEJLORA">ряд Тейлора</a> следует, что любой К. в. $URI[[http://libmeta.ru/fme/formula/aux/1120_7_KASATEL'NYJ]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1120_8_KASATEL'NYJ]]/URI$ можно записать в виде<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1387">$$\boldsymbol{v}=v^{i} \partial / \partial x^{i}$$</a><BR/></P><P>Действительные коэффициенты $URI[[http://libmeta.ru/fme/formula/aux/1120_9_KASATEL'NYJ]]/URI$ являются (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1361_KONTRAVARIANTNOST">контравариантными</a>) компонентами К. в. в точке $URI[[http://libmeta.ru/fme/formula/aux/1120_10_KASATEL'NYJ]]/URI$ по отношению к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT">локальной системе координат</a> $URI[[http://libmeta.ru/fme/formula/aux/1120_11_KASATEL'NYJ]]/URI$ в окрестности $URI[[http://libmeta.ru/fme/formula/aux/1120_12_KASATEL'NYJ]]/URI$. Совокупность К. в. к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразию</a> в точке $URI[[http://libmeta.ru/fme/formula/aux/1120_13_KASATEL'NYJ]]/URI$ называется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1117_KASATEL'NOE">касательным пространством</a> $URI[[http://libmeta.ru/fme/formula/aux/1120_14_KASATEL'NYJ]]/URI$ к $URI[[http://libmeta.ru/fme/formula/aux/1120_15_KASATEL'NYJ]]/URI$ в этой точке, а <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразие</a> $URI[[http://libmeta.ru/fme/formula/aux/1120_16_KASATEL'NYJ]]/URI$, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоящее</a> из всех <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1117_KASATEL'NOE">касательных пространств</a>, называется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1118_KASATEL'NOE">касательным расслоением</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразия</a> $URI[[http://libmeta.ru/fme/formula/aux/1120_17_KASATEL'NYJ]]/URI$. Сечения этого <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">расслоения</a> - в е ктор ны е поля на $URI[[http://libmeta.ru/fme/formula/aux/1120_18_KASATEL'NYJ]]/URI$, другими словами, можно построить <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_348_VEKTORNOE">векторное поле</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1393">$$v(p)$$</a> на $URI[[http://libmeta.ru/fme/formula/aux/1120_20_KASATEL'NYJ]]/URI$, ставя в соответствие каждой точке $URI[[http://libmeta.ru/fme/formula/aux/1120_21_KASATEL'NYJ]]/URI$ К. в. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1395">$$v \in T_{p}$$</a> так, чтобы компоненты <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1390">$$v^{i}$$</a> являлись <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST">дифференцируемыми</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функциями</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT">локальных координат</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[линейный функционал (оператор), который каждой дифференцируемой функции $f$ на $M$ ставит в соответствие вектор $v(f)$ и удовлетворяет аксиомам:
+
+\[
+\begin{gathered}
+v(f+h)=v(f)+v(h) \\
+v(c f)=c v(f), c=\mathrm{const} \\
+v(f h)=f v(h)+h v(f) .
+\end{gathered}
+\]
+
+Это определение не зависит от выбора локальных координат. К. в. представляет собой производную по направлению вдоль кривой $\gamma(t)$, проходящей через точку $p$. Из разложения любой функции в точке $p$ в ряд Тейлора следует, что любой К. в. $\boldsymbol{v}$ в $p$ можно записать в виде
+
+\[
+\boldsymbol{v}=v^{i} \partial / \partial x^{i}
+\]
+
+Действительные коэффициенты $v^{i}$ являются (контравариантными) компонентами К. в. в точке $p$ по отношению к локальной системе координат $x^{1}, \ldots, x^{n}$ в окрестности $p$. Совокупность К. в. к многообразию в точке $p$ называется касательным пространством $T_{p}$ к $M$ в этой точке, а многообразие $T M$, состоящее из всех касательных пространств, называется касательным расслоением многообразия $M$. Сечения этого расслоения - в е ктор ны е поля на $M$, другими словами, можно построить векторное поле $v(p)$ на $M$, ставя в соответствие каждой точке $p \in M$ К. в. $v \in T_{p}$ так, чтобы компоненты $v^{i}$ являлись дифференцируемыми функциями локальных координат.
+
+М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_348_VEKTORNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1118_KASATEL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1117_KASATEL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1117_KASATEL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1361_KONTRAVARIANTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3034_TEJLORA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_729_GRINA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

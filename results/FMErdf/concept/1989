@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2791_SKALJaRNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2791_SKALJaRNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1989</core:url>
+    <lbm:descriptor><![CDATA[СКАЛЯРНОЕ ПОЛЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#14892"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14893"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14894"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14895"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2998"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6890"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_992"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14896"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14897"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_626"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14898"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_169"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>функция точки некоторого пространства, значениями которой являются действительные числа. Примеры С. п.: поле температуры внутри тела, поле плотности.<BR/></P><P>Свободные (невзаимодействующие) поля подчиняются Клейна - Гордона уравнению<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14893">$$\left(\square+m^{2}\right) \varphi(x)=0, .$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14895">$$\boldsymbol{x}=(\boldsymbol{x}, \boldsymbol{t}), \square-$$</a> оператор Д'аламбера, а параметр $URI[[http://libmeta.ru/fme/formula/aux/2791_2_SKALJaRNOE]]/URI$ называется массой (уравнение записано в системе $URI[[http://libmeta.ru/fme/formula/aux/2791_3_SKALJaRNOE]]/URI$ ). Общее решение уравнения $URI[[http://libmeta.ru/fme/formula/aux/2791_4_SKALJaRNOE]]/URI$ имеет вид суперпозиции плоских волн с волновым вектором $URI[[http://libmeta.ru/fme/formula/aux/2791_5_SKALJaRNOE]]/URI$ и частотой <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14896">$$k_{0}=\sqrt{\boldsymbol{k}^{2}+m^{2}}$$</a> (нулевой компонентой 4-вектора $URI[[http://libmeta.ru/fme/formula/aux/2791_7_SKALJaRNOE]]/URI$ ):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14894">$$\varphi(x)=\left(\frac{1}{2 \pi}\right)^{-3 / 2} \int \frac{d \boldsymbol{k}}{\sqrt{2 k_{0}}}\left[a^{+}(\boldsymbol{k}) e^{i k x}+a^{-}(\boldsymbol{k}) e^{-i k x}\right] .$$</a><BR/></P><P>В <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa">квантовой теории поля</a> функции <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14897">$$a^{ \pm}(\boldsymbol{k})$$</a> представляют собой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операторы</a> рождения и уничтожения свободных скалярных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> с импульсом $URI[[http://libmeta.ru/fme/formula/aux/2791_9_SKALJaRNOE]]/URI$, массой $URI[[http://libmeta.ru/fme/formula/aux/2791_10_SKALJaRNOE]]/URI$ и нулевым <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2898_SPINO">спином</a>, являющихся квантами С. П. Для взаимодействующего С. П. в правой части уравнения (*) стоит выражение, нелинейно зависящее от самого поля $URI[[http://libmeta.ru/fme/formula/aux/2791_11_SKALJaRNOE]]/URI$ (случай самодействия, напр.: <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14898">$$g \varphi^{2}(x)$$</a>, где $URI[[http://libmeta.ru/fme/formula/aux/2791_13_SKALJaRNOE]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_385_VZAIMODEJSTVIJa">константа взаимодействия</a>) или от других физич. полей.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#14892">А. В. Ерремов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[функция точки некоторого пространства, значениями которой являются действительные числа. Примеры С. п.: поле температуры внутри тела, поле плотности.
+
+Свободные (невзаимодействующие) поля подчиняются Клейна - Гордона уравнению
+
+\[
+\left(\square+m^{2}\right) \varphi(x)=0, .
+\]
+
+где $\boldsymbol{x}=(\boldsymbol{x}, \boldsymbol{t}), \square-$ оператор Д'Аламбера, а параметр $m$ называется массой (уравнение записано в системе $\hbar=c=1$ ). Общее решение уравнения $\left(^{*}\right)$ имеет вид суперпозиции плоских волн с волновым вектором $\boldsymbol{k}$ и частотой $k_{0}=\sqrt{\boldsymbol{k}^{2}+m^{2}}$ (нулевой компонентой 4-вектора $\boldsymbol{k}$ ):
+
+\[
+\varphi(x)=\left(\frac{1}{2 \pi}\right)^{-3 / 2} \int \frac{d \boldsymbol{k}}{\sqrt{2 k_{0}}}\left[a^{+}(\boldsymbol{k}) e^{i k x}+a^{-}(\boldsymbol{k}) e^{-i k x}\right] .
+\]
+
+В квантовой теории поля функции $a^{ \pm}(\boldsymbol{k})$ представляют собой операторы рождения и уничтожения свободных скалярных частиц с импульсом $\boldsymbol{k}$, массой $m$ и нулевым спином, являющихся квантами С. П. Для взаимодействующего С. П. в правой части уравнения (*) стоит выражение, нелинейно зависяшее от самого поля $\varphi(x)$ (случай самодействия, напр.: $g \varphi^{2}(x)$, где $g-$ константа взаимодействия) или от других физич. полей. А. В. Ерремов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_385_VZAIMODEJSTVIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2898_SPINO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

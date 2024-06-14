@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3354_HELE-ShOU" alphabetic_pos="3356">
+  <title>ХЕЛЕ-ШОУ ЗАДАЧА С НЕИЗВЕСТНОЙ ГРАНИЦЕЙ</title>
+  <authors>
+    <author>Ю. Е. Хoxлoв</author>
+  </authors>
+  <pages>
+    <start>656</start>
+    <end>657</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Hele - Shaw H.S., &quot;trans. Inst. Nav.», 1898, v. Xi; [2] S to kes G., «rep. Brit. Ass.», 1898, p. 143-47; [3] C rank J., Free and moving boundary problems, Oxford, 1984, ch. 2.</literature_orig>
+    <unit>
+      <author>Hele-Shaw H. S.</author>
+      <title>&quot;trans. Inst. Nav.»</title>
+      <publication/>
+      <year>1898</year>
+      <other>v. Xi</other>
+    </unit>
+    <unit>
+      <author>Stokes G.</author>
+      <title>«rep. Brit. Ass.»</title>
+      <publication/>
+      <year>1898</year>
+      <other>p. 143-47</other>
+    </unit>
+    <unit>
+      <author>Crank J.</author>
+      <title>Free and moving boundary problems, Oxford</title>
+      <publication/>
+      <year>1984</year>
+      <other>ch. 2.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3354_1_HELE-ShOU">\begin{gathered}\Delta p=0 \text { в } D_{(t)} \backslash \cup\left\{z_{k}\right\}, 0 \leqslant t \leqslant T, \\p=0 \text { и } \partial p / \partial t-|\nabla p|^{2}=0 \text { на } \gamma_{t}, 0 \leqslant t \leqslant T .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_1_HELE-ShOU">d_{(t)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_2_HELE-ShOU">d_{(t)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_3_HELE-ShOU">z_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_4_HELE-ShOU">q_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_5_HELE-ShOU">\gamma_{t}=\partial D_{(t)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_6_HELE-ShOU">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_7_HELE-ShOU">d_{(t)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_8_HELE-ShOU">p: D_{(t)} \rightarrow \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_9_HELE-ShOU">d_{(0)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_10_HELE-ShOU">p(z, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_11_HELE-ShOU">z_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_12_HELE-ShOU">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3354_13_HELE-ShOU">\left(q_{k} / 2 \pi\right) \ln \left|z-z_{k}\right|</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/3354_1_HELE-ShOU">
+      <rel_text>интервала времени</rel_text>
+      <target>http://libmeta.ru/fme/article/2193_PERVYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3354_2_HELE-ShOU">
+      <rel_text>подобных</rel_text>
+      <target>http://libmeta.ru/fme/article/2277_PODOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3354_3_HELE-ShOU">
+      <rel_text>краевые задачи</rel_text>
+      <target>http://libmeta.ru/fme/article/1444_KRAEVAJa</target>
+    </relation>
+  </relations>
+  <text>задача теории плоских течений несжимаемой вязкой жидкости, заключающаяся в описании динамики движения области $URI[[http://libmeta.ru/fme/formula/aux/3354_1_HELE-ShOU]]/URI$, занятой жидкостью, при условии, что в $URI[[http://libmeta.ru/fme/formula/aux/3354_2_HELE-ShOU]]/URI$ имеются источники (стоки) $URI[[http://libmeta.ru/fme/formula/aux/3354_3_HELE-ShOU]]/URI$ заданной мощности $URI[[http://libmeta.ru/fme/formula/aux/3354_4_HELE-ShOU]]/URI$, а на границе $URI[[http://libmeta.ru/fme/formula/aux/3354_5_HELE-ShOU]]/URI$ контакта жидкости с внешней средой (напр., воздухом) давление $URI[[http://libmeta.ru/fme/formula/aux/3354_6_HELE-ShOU]]/URI$ остается неизменным.
+
+Точнее, Х.- Ш. з. состоит в нахождении семейства областей $URI[[http://libmeta.ru/fme/formula/aux/3354_7_HELE-ShOU]]/URI$ и потенциальной функции $URI[[http://libmeta.ru/fme/formula/aux/3354_8_HELE-ShOU]]/URI$ таких, что выполняются условия
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3354_1_HELE-ShOU]]/URI
+\]
+
+Кроме того, считаются известными начальная область $URI[[http://libmeta.ru/fme/formula/aux/3354_9_HELE-ShOU]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3354_10_HELE-ShOU]]/URI$, а в точках $URI[[http://libmeta.ru/fme/formula/aux/3354_11_HELE-ShOU]]/URI$ потенциал $URI[[http://libmeta.ru/fme/formula/aux/3354_12_HELE-ShOU]]/URI$ имеет поведение $URI[[http://libmeta.ru/fme/formula/aux/3354_13_HELE-ShOU]]/URI$.
+
+Х. - Ш. з. с неизвестной границей подверглась изучению после предложенной в [2] математич. модели, объяснявшей результаты физич. эксперимента Г. Хеле-Шоу [1]. Близкие однофазные URI[[http://libmeta.ru/fme/relation/3354_3_HELE-ShOU]]/URI с неизвестными границами рассматривались позднее в теории фильтрации, астрофизике, электрохимич. обработке материалов и т. д. (см. [3]). Характерным в URI[[http://libmeta.ru/fme/relation/3354_2_HELE-ShOU]]/URI задачах является появление в ряде случаев особенностей на неизвестной границе за конечное время, что влечет за собой несуществование классич. решения для всего URI[[http://libmeta.ru/fme/relation/3354_1_HELE-ShOU]]/URI.</text>
+  <text_orig>задача теории плоских течений несжимаемой вязкой жидкости, заключающаяся в описании динамики движения области $D_{(t)}$, занятой жидкостью, при условии, что в $D_{(t)}$ имеются источники (стоки) $z_{k}$ заданной мощности $Q_{k}$, а на границе $\gamma_{t}=\partial D_{(t)}$ контакта жидкости с внешней средой (напр., воздухом) давление $p$ остается неизменным.
+
+Точнее, Х.- Ш. з. состоит в нахождении семейства областей $D_{(t)}$ и потенциальной функции $p: D_{(t)} \rightarrow \mathbb{R}$ таких, что выполняются условия
+
+\[
+\begin{gathered}
+\Delta p=0 \text { в } D_{(t)} \backslash \cup\left\{z_{k}\right\}, 0 \leqslant t \leqslant T, \\
+p=0 \text { и } \partial p / \partial t-|\nabla p|^{2}=0 \text { на } \gamma_{t}, 0 \leqslant t \leqslant T .
+\end{gathered}
+\]
+
+Кроме того, считаются известными начальная область $D_{(0)}$ и $p(z, 0)$, а в точках $z_{k}$ потенциал $p$ имеет поведение $\left(Q_{k} / 2 \pi\right) \ln \left|z-z_{k}\right|$.
+
+Х. - Ш. з. с неизвестной границей подверглась изучению после предложенной в [2] математич. модели, объяснявшей результаты физич. эксперимента Г. Хеле-Шоу [1]. Близкие однофазные краевые задачи с неизвестными границами рассматривались позднее в теории фильтрации, астрофизике, электрохимич. обработке материалов и т. д. (см. [3]). Характерным в подобных задачах является появление в ряде случаев особенностей на неизвестной границе за конечное время, что влечет за собой несуществование классич. решения для всего интервала времени.
+
+Jum.: [1] Hele - Shaw H.S., &quot;Trans. Inst. Nav.», 1898, v. XI; [2] S to kes G., «Rep. Brit. Ass.», 1898, p. 143-47; [3] C rank J., Free and moving boundary problems, Oxford, 1984, ch. 2. Ю. Е. Хoxлoв.</text_orig>
+</article>

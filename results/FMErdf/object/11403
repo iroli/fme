@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_11403">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mo>&#x02202;</mo><msub><mi>F</mi><mrow><mi>s</mi></mrow></msub></mrow><mrow><mo>&#x02202;</mo><mi>t</mi></mrow></mfrac><mo>&#x02212;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mi>H</mi><mrow><mi>s</mi></mrow></msub><mo>&#x0002C;</mo><msub><mi>F</mi><mrow><mi>s</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>v</mi></mrow></mfrac><mo>&#x0222B;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mo>&#x02211;</mo><mrow><mn>1</mn><mi>&#x02A7D;</mi><mi>i</mi><mi>&#x02A7D;</mi><mi>s</mi></mrow></msub><mi>&#x003A6;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007C;</mo><msub><mrow><mi mathvariant="bold-italic">r</mi></mrow><mrow><mi>i</mi></mrow></msub><mo>&#x02212;</mo><msub><mrow><mi mathvariant="bold-italic">r</mi></mrow><mrow><mi>s</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo><msub><mi>F</mi><mrow><mi>s</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mi>d</mi><msub><mrow><mi mathvariant="bold-italic">r</mi></mrow><mrow><mi>s</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mi>d</mi><msub><mrow><mi mathvariant="bold-italic">p</mi></mrow><mrow><mi>s</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mtext>,&#x000A0;</mtext></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{\partial F_{s}}{\partial t}-\left\{H_{s}, F_{s}\right\}=\frac{1}{v} \int\left\{\sum_{1 \leqslant i \leqslant s} \Phi\left(\left|\boldsymbol{r}_{i}-\boldsymbol{r}_{s+1}\right|\right), F_{s+1}\right\} d \boldsymbol{r}_{s+1} d \boldsymbol{p}_{s+1} \text {, }$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

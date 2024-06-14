@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_26084">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>S</mi><mo>&#x0003D;</mo><msub><mo>&#x02211;</mo><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003B1;</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi><mo>&#x0002C;</mo><mi>&#x003BC;</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msub><mi>&#x003B7;</mi><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003B1;</mi></mrow></msub><msubsup><mi>&#x003B3;</mi><mrow><mi>&#x003B1;</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi></mrow><mrow><mi>&#x003BC;</mi></mrow></msubsup><msubsup><mi>&#x003B7;</mi><mrow><mi>x</mi><mo>&#x0002B;</mo><mi>e</mi><mi>&#x003BC;</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><mo>&#x0002B;</mo><msub><mi>&#x003B7;</mi><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003B1;</mi></mrow></msub><msubsup><mi>&#x003B3;</mi><mrow><mi>&#x003B1;</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi></mrow><mrow><mi>&#x003BC;</mi></mrow></msubsup><msubsup><mi>&#x003B7;</mi><mrow><mi>x</mi><mo>&#x02212;</mo><mi>e</mi><mi>&#x003BC;</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mo>&#x0002B;</mo><mspace linebreak="newline" /><mo>&#x0002B;</mo><msub><mo>&#x02211;</mo><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003B1;</mi></mrow></msub><mi>m</mi><msub><mi>&#x003B7;</mi><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003B1;</mi></mrow></msub><msubsup><mi>&#x003B7;</mi><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003B1;</mi></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}S=\sum_{x, \alpha, \beta, \mu}\left[\eta_{x, \alpha} \gamma_{\alpha, \beta}^{\mu} \eta_{x+e \mu, \beta}^{*}+\eta_{x, \alpha} \gamma_{\alpha, \beta}^{\mu} \eta_{x-e \mu, \beta}^{*}\right]+ \\+\sum_{x, \alpha} m \eta_{x, \alpha} \eta_{x, \alpha}^{*},\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

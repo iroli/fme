@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1057_INFRAKRASNAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1057_INFRAKRASNAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/63</core:url>
+    <lbm:descriptor><![CDATA[ИНФРАКРАСНАЯ РАСХОДИМОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#740"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#73"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#742"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#743"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_744"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Термин, указывающий на некорректность определения квантовополевых величин в рамках формального применения метода теории возмушений. И. р. проявляются в расходимости фейнмановских интегралов (см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3257_FEJNMANA">Фейнмана диаграмма</a>) в области малых 4-мерных импульсов, что и объясняет происхождение этого термина. Они встречаются только в квантовополевых моделях, включающих безмассовые частицы: фотон - в квантовой электродинамике, глюон - в квантовой хромодинамике, гравитон - в квантовой гравитации. Поэтому их называют также массовыми расходимостями. К ним относят также расходимости, возникающие в пределе нулевых масс. С физич. точки зрения они обусловлены дальнодействующим характером безмассовых полей, то есть медленным спаданием потенциала взаимодействия на больших расстояниях. Различают два основных типа: И. р. в диаграммах Фейнмана, рассматриваемых как функции в области 4-мерных импульсов, а также И. р. в матричных элементах матрицы рассеяния и в сечениях рассеяния.<BR/></P><P>И. p. первого типа обнаруживают тесную аналогию с ультрафиолетовыми расходимостями. Простейшая И. р. первого типа обусловлена фактором <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_744">$$\frac{1}{\left(p^{2}+i 0\right)^{2}}$$</a>, возникающим в фейнмановском интеграле благодаря <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">перемножению</a> пропагаторов двух безмассовых линий с одинаковыми 4-мерными импульсами. И. р. первого типа оказываются наиболее «опасными», так как их наличие фактически свидетельствует о неприемлемых свойствах рассматриваемой квантовополевой модели. Однако в физически осмысленных теориях, таких, как <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa">квантовая электродинамика</a> или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1180_KVANTOVAJa">квантовая хромодинамика</a>, И. р. этого типа могут встретиться только в отдельных диаграммах, а после суммирования <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3257_FEJNMANA">диаграмм Фейнмана</a> каждого порядка <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ">теории возмущений</a> они сокращаются. И. р. первого типа могут также порождаться неудачным выбором <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2205_PERENORMIRUEMOST">перенормировочной</a> процедуры. Напр., Боголюбова - Парасюка R-операция в своем первоначальном виде неприменима в теориях с безмассовыми частицами именно из-за И.р., индуцированных разложениями в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3034_TEJLORA">ряд Тейлора</a> при нулевых 4-мерных импульсах.<BR/></P><P>Происхождение И. р. второго типа можно также объяснить неприменимостью разложения по числу испущенных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> с малыми импульсами (мягких <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>). Однако в величинах, имеющих непосредственный физич. смысл, И. р. отсутствуют. Этим свойством <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладают</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2725_SEChENIE">сечения рассеяния</a> после суммирования по всем энергетически вырожденным начальным и конечным <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояниям</a>. В частности, в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa">квантовой электродинамике</a> необходимо <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2835_SOBOLEVA">производить суммирование по</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояниям</a> с произвольным числом мягких фотонов.<BR/></P><P>Среди И. p. второго типа выделяют класс к о л л и н е а p ных расход и м остей, обусловленных отсутствием запрета на превращение безмассовой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частицы</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояния</a> с безмассовыми частицами, имеющими <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параллельный</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульс</a> и обладающими теми же суммарными квантовыми числами, что и исходная <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частица</a>. Такие И. р. проявляются в расходимости фейнмановских интегралов по переменной, представляющей собой угол между направлениями исходной и виртуальной безмассовых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>. В <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa">квантовой электродинамике</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1291_KOLLINEARNAJa">коллинеарные расходимости</a> возникают лишь в пределе малой массы электрона, а в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1180_KVANTOVAJa">квантовой хромодинамике</a> они присутствуют из-за самодействия <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3585_GLJuONI">глюонов</a>. Тем не менее <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1291_KOLLINEARNAJa">коллинеарные расходимости</a> пропадают, если определять <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2725_SEChENIE">сечение рассеяния</a> в заданный телесный угол и не фиксировать конечного числа <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>.<BR/></P><P>Поскольку в промежуточных расчетах приходится иметь дело с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1057_INFRAKRASNAJa">инфракрасно расходящимися</a> величинами, используются различного рода <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2575_REGULJaRIZATsI">регуляризации</a>. Напр., временно вводится фиктивная ненулевая фотонная (или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3585_GLJuONI">глюонная</a>) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1728_MASS">масca</a>. В окончательных же результатах для физически осмысленных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2725_SEChENIE">сечений рассеяния</a> И. р. исчезают, что проявляется в сокращении сингулярных членов по параметру <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2575_REGULJaRIZATsI">регуляризации</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#73">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#72">Ширков Д. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#73">Введение в теорию квантованных полей, 4 изд., М., 1984</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#742">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#741">Миtа Т.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#742">Foundation of Quantum Chromodinamics, Singapore, 1987</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#743">[3]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#743">Б ьеркен Дж., Дрелл С. Д., Релятивистская квантовая теория, М., 1978</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#740">В. А. Смирнов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[ТерМИН, указЫвающий на некорректность определения квантовополевых величин в рамках формального применения метода теории возмушений. И. р. проявляются в расходимости фейнмановских интегралов (см. Фейнмана диаграмма) в области малых 4-мерных импульсов, что и объясняет происхождение этого термина. Они встречаются только в квантовополевых моделях, включающих безмассовые частицы: фотон - в квантовой электродинамике, глюон - в квантовой хромодинамике, гравитон - в квантовой гравитации. Поэтому их называют также массовыми расходимостями. К ним относят также расходимости, возникающие в пределе нулевыХ масс. С физич. точки зрения они обусловлены дальнодействующим характером безмассовых полей, то есть медленным спаданием потенциала взаимодействия на больших расстояниях. Различают два основных типа: И. р. в диаграммах Фейнмана, рассматриваемых как функции в области 4-мерных импульсов, а также И. р. в матричных элементах матрицы рассеяния и в сечениях рассеяния.
+
+И. p. первого типа обнаруживают тесную аналогию с ультрафиолетовыми расходимостями. Простейшая И. р. первого типа обусловлена фактором $\frac{1}{\left(p^{2}+i 0\right)^{2}}$, возникающим в фейнмановском интеграле благодаря перемножению пропагаторов двух безмассовых линий с одинаковыми 4-мерными импульсами. И. р. первого типа оказываются наиболее «опасными», так как их наличие фактически свидетельствует о неприемлемых свойствах рассматриваемой квантовополевой модели. Однако в физически осмысленных теориях, таких, как квантовая электродинамика или квантовая хромодинамика, И. р. этого типа могут встретиться только в отдельных диаграммах, а после суммирования диаграмм Фейнмана каждого порядка теории возмущений они сокращаются. И. р. первого типа могут также порождаться неудачным выбором перенормировочной процедуры. Напр., Боголюбова - Парасюка R-операция в своем первоначальном виде неприменима в теориях с безмассовыми частицами именно из-за И.р., индуцированных разложениями в ряд Тейлора при нулевых 4-мерных импульсах.
+
+Происхождение И. р. второго типа можно также объяснить неприменимостью разложения по числу испущенных частиц с малыми импульсами (мягких частиц). Однако в величинах, имеюших непосредственный физич. смысл, И. р. отсутствуют. Этим свойством обладают сечения рассеяния после суммирования по всем энергетически вырожденным начальным и конечным состояниям. В частности, в квантовой электродинамике необходимо производить суммирование по состояниям с произвольным числом мягких фотонов.
+
+Среди И. p. второго типа выделяют класс к о л л и н е а p ных расход и м остей, обусловленных отсутствием запрета на превращение безмассовой частицы в состояния с безмассовыми частицами, имеющими параллельный импульс и обладающими теми же суммарными квантовыми числами, что и исходная частица. Такие И. р. проявляются в расходимости фейнмановских интегралов по переменной, представляющей собой угол между направлениями исходной и виртуальной безмассовых частиц. В квантовой электродинамике коллинеарные расходимости возникают лишь в пределе малой массы электрона, а в квантовой хромодинамике они присутствуют из-за самодействия глюонов. Тем не менее коллинеарные расходимости пропадают, если определять сечение рассеяния в заданный телесный угол и не фиксировать конечного числа частиц.
+
+Поскольку в промежуточных расчетах приходится иметь дело с инфракрасно расходящимися величинами, используются различного рода регуляризации. Напр., временно вводится фиктивная ненулевая фотонная (или глюонная) масca. В окончательных же результатах для физически осмысленных сечений рассеяния И. р. исчезают, что проявляется в сокращении сингулярных членов по параметру регуляризации.
+
+Лит.: [1] Боголюбов Н. Н., Ш и рков Д. В., Введение в теорию квантованных полей, 4 изд., М., 1984; [2] М и t а Т., Foundation of Quantum Chromodinamics, Singapore, 1987; [3] Б ьеркен Дж., Дрелл С. Д., Релятивистская квантовая теория, М., 1978.
+
+В. А. Смирнов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3257_FEJNMANA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2575_REGULJaRIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2725_SEChENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1728_MASS"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3585_GLJuONI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2575_REGULJaRIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1057_INFRAKRASNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2725_SEChENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1291_KOLLINEARNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3585_GLJuONI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1180_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1291_KOLLINEARNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2835_SOBOLEVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2725_SEChENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3034_TEJLORA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2205_PERENORMIRUEMOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3257_FEJNMANA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1180_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

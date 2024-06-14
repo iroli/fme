@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1545_LAPLASA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1545_LAPLASA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/605</core:url>
+    <lbm:descriptor><![CDATA[ЛАПЛАСА ОПЕРАТОР, ЛАПЛАСИАН]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5223"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5224"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5225"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1176"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5226"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>простейший эллиптический дифференциальный оператор 2-го порядка:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5223">$$\Delta f=\frac{\partial^{2} f}{\partial x_{1}^{2}}+\ldots+\frac{\partial^{2} f}{\partial x_{n}^{2}},$$</a><BR/></P><P>действующий на гладкие функции $URI[[http://libmeta.ru/fme/formula/aux/1545_1_LAPLASA]]/URI$, определенные в евклидовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/1545_2_LAPLASA]]/URI$ с декартовыми координатами $URI[[http://libmeta.ru/fme/formula/aux/1545_3_LAPLASA]]/URI$ (или в некоторой его части $URI[[http://libmeta.ru/fme/formula/aux/1545_4_LAPLASA]]/URI$ ). Л. о. инвариантен относительно ортогональных преобразований координат в $URI[[http://libmeta.ru/fme/formula/aux/1545_5_LAPLASA]]/URI$, то есть преобразований<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5224">$$x_{i}^{\prime}=\sum_{k} s_{i k} x_{k}$$</a><BR/></P><P>с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2110_ORTOPROEKTO">ортогональной</a> матрицей $URI[[http://libmeta.ru/fme/formula/aux/1545_6_LAPLASA]]/URI$.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[простейший эллиптический дифференциальный оператор 2-го порядка:
+
+\[
+\Delta f=\frac{\partial^{2} f}{\partial x_{1}^{2}}+\ldots+\frac{\partial^{2} f}{\partial x_{n}^{2}},
+\]
+
+действуюший на гладкие функции $f\left(x_{1}, \ldots, x_{n}\right)$, определенные в евклидовом пространстве $\mathbb{R}^{n}$ с декартовыми координатами $x_{1}, \ldots, x_{n}$ (или в некоторой его части $G$ ). Л. о. инвариантен относительно ортогональных преобразований координат в $\mathbb{R}^{n}$, то есть преобразований
+
+\[
+x_{i}^{\prime}=\sum_{k} s_{i k} x_{k}
+\]
+
+с ортогональной матрицей $s_{i k}$.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2110_ORTOPROEKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

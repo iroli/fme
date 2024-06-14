@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3581_JaKOBI-ShALJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3581_JaKOBI-ShALJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2867</core:url>
+    <lbm:descriptor><![CDATA[ЯКОБИ-ШАЛЯ ТЕОРЕМА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1176"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21414"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5737"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21415"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21416"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_78"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>теорема, описывающая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_582_GEODEZIChESKIJ">геодезический поток</a> на эллипсоиде. В <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO">евклидовом пространстве</a> $URI[[http://libmeta.ru/fme/formula/aux/3581_1_JaKOBI-ShALJa]]/URI$ фиксируется квадрика <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21414">$$\left\langle A^{-1} x, x\right\rangle=1$$</a>, где $URI[[http://libmeta.ru/fme/formula/aux/3581_3_JaKOBI-ShALJa]]/URI$ симметрич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> с различными собственными числами.<BR/></P><P>Касательные прямые к квадрике касаются, кроме этой квадрики, еще $URI[[http://libmeta.ru/fme/formula/aux/3581_4_JaKOBI-ShALJa]]/URI$ конфокальных с нею квадрик <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21416">$$\left\langle(a-\lambda E)^{-1} x, x\right\rangle=1$$</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">Полученные</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21415">$$n-2$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2491_RAVNOVESNYE">значения параметра</a> $URI[[http://libmeta.ru/fme/formula/aux/3581_7_JaKOBI-ShALJa]]/URI$ являются <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2294_POLNAJa">первыми интегралами</a> в инволюции геодезич. потока на квадрике. Геодезич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2345_POTO">поток</a> на квадрике в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO">евклидовом пространстве</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3005_SUPERSIMMETRIChNOE">вполне интегрируемая</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA">гамильтонова система</a> (то есть <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладает</a> полной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2784_SISTEMA">системой в инволюции</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">первых</a> интегралов).<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[теорема, описывающая геодезический поток на эллипсоиде. В евклидовом пространстве $\mathbb{R}^{n}$ фиксируется квадрика $\left\langle A^{-1} x, x\right\rangle=1$, где $A-$ симметрич. оператор с различными собственными числами.
+
+Касательные прямые к квадрике касаются, кроме этой квадрики, еще $n-2$ конфокальных с нею квадрик $\left\langle(A-\lambda E)^{-1} x, x\right\rangle=1$. Полученные $n-2$ значения параметра $\lambda$ являются первыми интегралами в инволюции геодезич. потока на квадрике. Геодезич. поток на квадрике в евклидовом пространстве - вполне интегрируемая гамильтонова система (то есть обладает полной системой в инволюции первых интегралов).]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2784_SISTEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3005_SUPERSIMMETRIChNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2345_POTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2294_POLNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2491_RAVNOVESNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_582_GEODEZIChESKIJ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

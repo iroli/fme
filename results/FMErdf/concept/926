@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1834_MORSA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1834_MORSA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/926</core:url>
+    <lbm:descriptor><![CDATA[МОРСА ЛЕММА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1622"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7723"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7724"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7725"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_761"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7726"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7727"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7728"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>пусть <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_729_GRINA">дифференцируемая функция</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7724">$$f: \mathbb{R}^{n} \rightarrow \mathbb{R}^{1}$$</a> (соответственно <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голоморфная</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7725">$$\mathbb{c}^{n} \rightarrow \mathbb{C}$$</a> ) имеет невырожденную критическую точку в $URI[[http://libmeta.ru/fme/formula/aux/1834_3_MORSA]]/URI$, то есть матрица <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7726">$$\left\|\partial^{2} f / \partial x_{i} \partial x_{j}\right\|$$</a> невырождена в $URI[[http://libmeta.ru/fme/formula/aux/1834_5_MORSA]]/URI$; тогда существуют <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT">локальные координаты</a> $URI[[http://libmeta.ru/fme/formula/aux/1834_6_MORSA]]/URI$ в окрестности $URI[[http://libmeta.ru/fme/formula/aux/1834_7_MORSA]]/URI$, в которых функция $URI[[http://libmeta.ru/fme/formula/aux/1834_8_MORSA]]/URI$ имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7723">$$y_{1}^{2}+\ldots+y_{k}^{2}-y_{k+1}^{2}-\ldots-y_{n}^{2}+\text { const }$$</a><BR/></P><P>(соответственно <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7728">$$y_{1}^{2}+\ldots+y_{n}^{2}+$$</a> const).<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1622">C. В. Чмутов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[пусть дифференцируемая функция $f: \mathbb{R}^{n} \rightarrow \mathbb{R}^{1}$ (соответственно голоморфная $\mathbb{C}^{n} \rightarrow \mathbb{C}$ ) имеет невырожденную критическую точку в $O$, то есть матрица $\left\|\partial^{2} f / \partial x_{i} \partial x_{j}\right\|$ невырождена в $O$; тогда существуют локальные координаты $y_{1}, \ldots, y_{n}$ в окрестности $O$, в которых функция $f$ имеет вид:
+
+\[
+y_{1}^{2}+\ldots+y_{k}^{2}-y_{k+1}^{2}-\ldots-y_{n}^{2}+\text { const }
+\]
+
+(соответственно $y_{1}^{2}+\ldots+y_{n}^{2}+$ const).
+
+C. В. Чмутов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_729_GRINA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

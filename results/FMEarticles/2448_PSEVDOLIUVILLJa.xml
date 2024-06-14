@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2448_PSEVDOLIUVILLJa" alphabetic_pos="2450">
+  <title>ПСЕВДОЛИУВИЛЛЯ УРАВНЕНИЕ</title>
+  <authors>
+    <author>В. И. Герасименко</author>
+  </authors>
+  <pages>
+    <start>470</start>
+    <end>470</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Петрина Д. Я., Герасименко В. И., Малыш е в П. В., Математические основы классической статистической механики, Киев, 1985.</literature_orig>
+    <unit>
+      <author>Петрина Д. Я.</author>
+      <author>Герасименко В. И.</author>
+      <author>Малышев П. В.</author>
+      <title>Математические основы классической статистической механики, Киев</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2448_1_PSEVDOLIUVILLJa">\begin{gathered}\frac{\partial}{\partial t} D\left(t, x_{1}, \ldots, x_{N}\right)=\sum_{i=1}^{N} p_{i} \frac{\partial}{\partial q_{i}} D\left(t, x_{1}, \ldots, x_{N}\right)+ \\+\sigma^{2} \sum_{i&lt;j=1}^{N} \int_{n\left(p_{i}-p_{j}\right) \geqslant 0} d \boldsymbol{n} \boldsymbol{n}\left(p_{i}-p_{j}\right) \times\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2448_2_PSEVDOLIUVILLJa">\begin{gathered}\times\left\{\delta ( q _ { i } - q _ { j } - \sigma _ { n } ) D \left(t, x_{1}, \ldots, q_{i}, p_{i}-\boldsymbol{n}\left(\boldsymbol{n}\left(p_{i}-p_{j}\right)\right), \ldots\right.\right. \\\left.\ldots, q_{j}, p_{j}+\boldsymbol{n}\left(\boldsymbol{n}\left(p_{i}-p_{j}\right)\right), \ldots, x_{N}\right)- \\\left.-\delta\left(q_{i}-q_{j}+\sigma_{n}\right) D\left(t, x_{1}, \ldots, x_{N}\right)\right\},\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2448_1_PSEVDOLIUVILLJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2448_2_PSEVDOLIUVILLJa">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2448_3_PSEVDOLIUVILLJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2448_4_PSEVDOLIUVILLJa">(\cdot)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2448_5_PSEVDOLIUVILLJa">x_{i} \equiv\left(q_{i}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2448_6_PSEVDOLIUVILLJa">\left.p_{i}\right) \in \mathbb{R}^{3} \times \mathbb{R}^{3}, d_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2448_7_PSEVDOLIUVILLJa">n \in \mathbb{R}^{3}-</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/2448_1_PSEVDOLIUVILLJa">
+      <rel_text>единичный вектор</rel_text>
+      <target>http://libmeta.ru/fme/article/923_EDINIChNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2448_2_PSEVDOLIUVILLJa">
+      <rel_text>скалярного произведения</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2448_3_PSEVDOLIUVILLJa">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2448_4_PSEVDOLIUVILLJa">
+      <rel_text>масса</rel_text>
+      <target>http://libmeta.ru/fme/article/1728_MASS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2448_5_PSEVDOLIUVILLJa">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2448_6_PSEVDOLIUVILLJa">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2448_7_PSEVDOLIUVILLJa">
+      <rel_text>Лиувилля уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/1627_LIUVILLJa</target>
+    </relation>
+  </relations>
+  <text>аналог URI[[http://libmeta.ru/fme/relation/2448_7_PSEVDOLIUVILLJa]]/URI для системы $URI[[http://libmeta.ru/fme/formula/aux/2448_1_PSEVDOLIUVILLJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2448_6_PSEVDOLIUVILLJa]]/URI, которые взаимодействуют как упругие шары. При $URI[[http://libmeta.ru/fme/formula/aux/2448_2_PSEVDOLIUVILLJa]]/URI$ П. у. имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2448_1_PSEVDOLIUVILLJa]]/URI
+\]
+
+470 Пyahkape
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2448_2_PSEVDOLIUVILLJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2448_3_PSEVDOLIUVILLJa]]/URI$ - диаметр URI[[http://libmeta.ru/fme/relation/2448_5_PSEVDOLIUVILLJa]]/URI, URI[[http://libmeta.ru/fme/relation/2448_4_PSEVDOLIUVILLJa]]/URI URI[[http://libmeta.ru/fme/relation/2448_3_PSEVDOLIUVILLJa]]/URI принята равной единице, $URI[[http://libmeta.ru/fme/formula/aux/2448_4_PSEVDOLIUVILLJa]]/URI$ символ URI[[http://libmeta.ru/fme/relation/2448_2_PSEVDOLIUVILLJa]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/2448_5_PSEVDOLIUVILLJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2448_6_PSEVDOLIUVILLJa]]/URI$ - элемент телесного угла, $URI[[http://libmeta.ru/fme/formula/aux/2448_7_PSEVDOLIUVILLJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2448_1_PSEVDOLIUVILLJa]]/URI.</text>
+  <text_orig>аналог Лиувилля уравнения для системы $N$ частиц, которые взаимодействуют как упругие шары. При $t \geqslant 0$ П. у. имеет вид:
+
+\[
+\begin{gathered}
+\frac{\partial}{\partial t} D\left(t, x_{1}, \ldots, x_{N}\right)=\sum_{i=1}^{N} p_{i} \frac{\partial}{\partial q_{i}} D\left(t, x_{1}, \ldots, x_{N}\right)+ \\
++\sigma^{2} \sum_{i&lt;j=1}^{N} \int_{n\left(p_{i}-p_{j}\right) \geqslant 0} d \boldsymbol{n} \boldsymbol{n}\left(p_{i}-p_{j}\right) \times
+\end{gathered}
+\]
+
+470 ПYAHKAPE
+
+\[
+\begin{gathered}
+\times\left\{\delta ( q _ { i } - q _ { j } - \sigma _ { n } ) D \left(t, x_{1}, \ldots, q_{i}, p_{i}-\boldsymbol{n}\left(\boldsymbol{n}\left(p_{i}-p_{j}\right)\right), \ldots\right.\right. \\
+\left.\ldots, q_{j}, p_{j}+\boldsymbol{n}\left(\boldsymbol{n}\left(p_{i}-p_{j}\right)\right), \ldots, x_{N}\right)- \\
+\left.-\delta\left(q_{i}-q_{j}+\sigma_{n}\right) D\left(t, x_{1}, \ldots, x_{N}\right)\right\},
+\end{gathered}
+\]
+
+где $\sigma$ - диаметр частиц, масса частиц принята равной единице, $(\cdot)-$ символ скалярного произведения, $x_{i} \equiv\left(q_{i}\right.$, $\left.p_{i}\right) \in \mathbb{R}^{3} \times \mathbb{R}^{3}, d_{n}$ - элемент телесного угла, $n \in \mathbb{R}^{3}-$ единичный вектор.
+
+Лum.: [1] Петрина Д. Я., Герасименко В. И., Малыш е в П. В., Математические основы классической статистической механики, Киев, 1985.
+
+В. И. Герасименко.</text_orig>
+</article>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_25891">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mo>lim</mo><mrow><mi>&#x00394;</mi><mi>t</mi><mo>&#x02192;</mo><mn>0</mn></mrow></msub><mfrac><mrow><mn>1</mn></mrow><mrow><mi>&#x00394;</mi><mi>t</mi></mrow></mfrac><msub><mo>&#x0222B;</mo><mrow><mo stretchy="false">&#x0007C;</mo><mi>y</mi><mo>&#x02212;</mo><mi>x</mi><mo stretchy="false">&#x0007C;</mo><mo>&#x0003E;</mo><mi>&#x003B5;</mi></mrow></msub><mi>d</mi><mi>y</mi><mi>p</mi><mo stretchy="false">&#x00028;</mo><mi>y</mi><mo>&#x0002C;</mo><mi>t</mi><mo>&#x0002B;</mo><mi>&#x00394;</mi><mi>t</mi><mo>&#x02223;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>0</mn></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\lim _{\Delta t \rightarrow 0} \frac{1}{\Delta t} \int_{|y-x|&gt;\varepsilon} d y p(y, t+\Delta t \mid x, t)=0$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

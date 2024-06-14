@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_10411">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><msub><mi>f</mi><mrow><mi>s</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>t</mi><mo>&#x0002C;</mo><msub><mi>x</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msub><mi>x</mi><mrow><mi>s</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>n</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mi>s</mi></mrow></msubsup><msubsup><mo>&#x02211;</mo><mrow><mi>k</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mi>n</mi></mrow></msubsup><mfrac><mrow><mo stretchy="false">&#x00028;</mo><mo>&#x02212;</mo><mn>1</mn><msup><mo stretchy="false">&#x00029;</mo><mrow><mi>k</mi></mrow></msup></mrow><mrow><mi>k</mi><mo>&#x00021;</mo><mo stretchy="false">&#x00028;</mo><mi>n</mi><mo>&#x02212;</mo><mi>k</mi><mo stretchy="false">&#x00029;</mo><mo>&#x00021;</mo></mrow></mfrac><mi>&#x000D7;</mi><mspace linebreak="newline" /><mi>&</mi><msub><mi>i</mi><mrow><mn>1</mn></mrow></msub><msub><mi>i</mi><mrow><mi>k</mi></mrow></msub><mspace width="1em" /><msub><mi>i</mi><mrow><mn>1</mn></mrow></msub><mspace width="1em" /><msub><mi>i</mi><mrow><mi>n</mi></mrow></msub><mspace linebreak="newline" /><mi>&</mi><mi>&#x000D7;</mi><msup><mo>&#x02211;</mo><mrow><mo>&#x0002A;</mo></mrow></msup><msup><mi>S</mi><mrow><mi>s</mi><mo>&#x02212;</mo><mi>k</mi></mrow></msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>t</mi><mo>&#x0002C;</mo><msub><mi>x</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msub><mi>x</mi><mrow><mi>s</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><msubsup><mi>f</mi><mrow><mi>s</mi><mo>&#x02212;</mo><mi>n</mi></mrow><mrow><mn>0</mn></mrow></msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>x</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x02228;</mo><mo>&#x0002C;</mo><msub><mi>x</mi><mrow><mi>s</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mtext>,&#x000A0;</mtext></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; f_{s}\left(t, x_{1}, \ldots, x_{s}\right)=\sum_{n=0}^{s} \sum_{k=0}^{n} \frac{(-1)^{k}}{k !(n-k) !} \times \\&amp; i_{1} i_{k} \quad i_{1} \quad i_{n} \\&amp; \times \sum^{*} S^{s-k}\left(t, x_{1}, \ldots, x_{s}\right) f_{s-n}^{0}\left(x_{1}, \ldots \vee, x_{s}\right) \text {, }\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

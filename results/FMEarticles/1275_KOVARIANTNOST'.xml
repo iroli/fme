@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1275_KOVARIANTNOST'" alphabetic_pos="1277">
+  <title>КОВАРИАНТНОСТЬ И КОНТРАВАРИАНТНОСТЬ</title>
+  <authors>
+    <author>C. В. Молодцов</author>
+  </authors>
+  <pages>
+    <start>274</start>
+    <end>274</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1275_1_KOVARIANTNOST'">x^{i} \rightarrow y^{i}\left(x^{j}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1275_2_KOVARIANTNOST'">\partial f / \partial x^{i}=\left(\frac{\partial f}{\partial y^{j}}\right)\left(\frac{\partial y^{j}}{\partial x^{i}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1275_3_KOVARIANTNOST'">\partial y^{i}=\left(\frac{\partial y^{i}}{\partial x^{j}}\right) \partial x^{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1275_4_KOVARIANTNOST'">\boldsymbol{e}_{i} \rightarrow \tilde{\boldsymbol{e}}_{i}=a_{i}^{j} \boldsymbol{e}_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1275_5_KOVARIANTNOST'">b_{j}^{i} a_{k}^{j}=\delta_{k}^{i}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1275_1_KOVARIANTNOST'">\left\{e_{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1275_2_KOVARIANTNOST'">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1275_3_KOVARIANTNOST'">a^{\top}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1275_4_KOVARIANTNOST'">t_{i}=a_{i}^{j} T_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1275_5_KOVARIANTNOST'">\tilde{t}^{i}=b_{j}^{i} T^{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1275_6_KOVARIANTNOST'">t^{i}=g^{i j} T_{j}</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/1275_1_KOVARIANTNOST'">
+      <rel_text>евклидовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/920_EVKLIDOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1275_2_KOVARIANTNOST'">
+      <rel_text>контравариантные</rel_text>
+      <target>http://libmeta.ru/fme/article/1359_KONTAKTOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1275_3_KOVARIANTNOST'">
+      <rel_text>тензора</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1275_4_KOVARIANTNOST'">
+      <rel_text>метрич</rel_text>
+      <target>http://libmeta.ru/fme/article/1767_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1275_5_KOVARIANTNOST'">
+      <rel_text>контравариантным</rel_text>
+      <target>http://libmeta.ru/fme/article/1359_KONTAKTOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1275_6_KOVARIANTNOST'">
+      <rel_text>контравариантного</rel_text>
+      <target>http://libmeta.ru/fme/article/1361_KONTRAVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1275_7_KOVARIANTNOST'">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1275_8_KOVARIANTNOST'">
+      <rel_text>ковариантного</rel_text>
+      <target>http://libmeta.ru/fme/article/1274_KOVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1275_9_KOVARIANTNOST'">
+      <rel_text>контравариантные</rel_text>
+      <target>http://libmeta.ru/fme/article/1359_KONTAKTOMORFIZ</target>
+    </relation>
+  </relations>
+  <text>понятия линейной алгебры и тензорного анализа, характеризующие способы преобразования компонент тензора при преобразованиях координат
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1275_1_KOVARIANTNOST']]/URI
+\]
+
+К о вар и анты е компоненты преобразуются как градиент:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1275_2_KOVARIANTNOST']]/URI
+\]
+
+а ко н т р а в а р и а н т н ы е - как дифференциал:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1275_3_KOVARIANTNOST']]/URI
+\]
+
+(по повторяющимся индексам подразумевается суммирование). Происхождение терминов связано с тем, что при линейных преобразованиях базиса $URI[[http://libmeta.ru/fme/formula/aux/1275_1_KOVARIANTNOST']]/URI$ в евклидовом (и псевдоевклидовом) пространстве:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1275_4_KOVARIANTNOST']]/URI
+\]
+
+ковариантные компоненты преобразуются одинаково с базисом, а URI[[http://libmeta.ru/fme/relation/1275_9_KOVARIANTNOST']]/URI - с помощью матрицы $URI[[http://libmeta.ru/fme/formula/aux/1275_2_KOVARIANTNOST']]/URI$, обратной к транспонированной матрице $URI[[http://libmeta.ru/fme/formula/aux/1275_3_KOVARIANTNOST']]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1275_5_KOVARIANTNOST']]/URI
+\]
+
+Напр., для URI[[http://libmeta.ru/fme/relation/1275_8_KOVARIANTNOST']]/URI URI[[http://libmeta.ru/fme/relation/1275_7_KOVARIANTNOST']]/URI (нижние индексы) $URI[[http://libmeta.ru/fme/formula/aux/1275_4_KOVARIANTNOST']]/URI$, а для URI[[http://libmeta.ru/fme/relation/1275_6_KOVARIANTNOST']]/URI (верхние индексы) $URI[[http://libmeta.ru/fme/formula/aux/1275_5_KOVARIANTNOST']]/URI$. Переход от ковариантных к URI[[http://libmeta.ru/fme/relation/1275_5_KOVARIANTNOST']]/URI компонентам совершается с помощью URI[[http://libmeta.ru/fme/relation/1275_4_KOVARIANTNOST']]/URI. URI[[http://libmeta.ru/fme/relation/1275_3_KOVARIANTNOST']]/URI; напр. $URI[[http://libmeta.ru/fme/formula/aux/1275_6_KOVARIANTNOST']]/URI$. Ко- и URI[[http://libmeta.ru/fme/relation/1275_2_KOVARIANTNOST']]/URI компоненты совпадают лишь для декартова базиса в URI[[http://libmeta.ru/fme/relation/1275_1_KOVARIANTNOST']]/URI.</text>
+  <text_orig>понятия линейной алгебры и тензорного анализа, характеризующие способы преобразования компонент тензора при преобразованиях координат
+
+\[
+x^{i} \rightarrow y^{i}\left(x^{j}\right)
+\]
+
+К о вар и анты е компоненты преобразуются как градиент:
+
+\[
+\partial f / \partial x^{i}=\left(\frac{\partial f}{\partial y^{j}}\right)\left(\frac{\partial y^{j}}{\partial x^{i}}\right)
+\]
+
+а ко н т р а в а р и а н т н ы е - как дифференциал:
+
+\[
+\partial y^{i}=\left(\frac{\partial y^{i}}{\partial x^{j}}\right) \partial x^{j}
+\]
+
+(по повторяющимся индексам подразумевается суммирование). Происхождение терминов связано с тем, что при линейных преобразованиях базиса $\left\{e_{i}\right\}$ в евклидовом (и псевдоевклидовом) пространстве:
+
+\[
+\boldsymbol{e}_{i} \rightarrow \tilde{\boldsymbol{e}}_{i}=a_{i}^{j} \boldsymbol{e}_{j}
+\]
+
+ковариантные компоненты преобразуются одинаково с базисом, а контравариантные - с помощью матрицы $b$, обратной к транспонированной матрице $a^{\top}$ :
+
+\[
+b_{j}^{i} a_{k}^{j}=\delta_{k}^{i}
+\]
+
+Напр., для ковариантного вектора (нижние индексы) $T_{i}=a_{i}^{j} T_{j}$, а для контравариантного (верхние индексы) $\tilde{T}^{i}=b_{j}^{i} T^{j}$. Переход от ковариантных к контравариантным компонентам совершается с помощью метрич. тензора; напр. $T^{i}=g^{i j} T_{j}$. Ко- и контравариантные компоненты совпадают лишь для декартова базиса в евклидовом пространстве. C. В. Молодцов.</text_orig>
+</article>

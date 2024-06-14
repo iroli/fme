@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2359_PREDSTAVLENIE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2359_PREDSTAVLENIE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1509</core:url>
+    <lbm:descriptor><![CDATA[ПРЕДСТАВЛЕНИЕ ГРУППЫ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#257"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11519"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11520"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_116"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_27"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11521"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11522"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11523"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>в общем случае, произвольная реализация этой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> как <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> преобразований. Чаще, однако, под термином «представление <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы»</a> подразумевается то, что точнее называется «линейным представлением». Пусть $URI[[http://libmeta.ru/fme/formula/aux/2359_1_PREDSTAVLENIE]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группа</a>, а $URI[[http://libmeta.ru/fme/formula/aux/2359_2_PREDSTAVLENIE]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1610_LINEJNOE">линейное пространство</a>. Линей ным представлен ием <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> $URI[[http://libmeta.ru/fme/formula/aux/2359_3_PREDSTAVLENIE]]/URI$ в пространстве $URI[[http://libmeta.ru/fme/formula/aux/2359_4_PREDSTAVLENIE]]/URI$ называется отображение <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11520">$$g_{\mapsto} T_{g}$$</a> из $URI[[http://libmeta.ru/fme/formula/aux/2359_6_PREDSTAVLENIE]]/URI$ в множество операторов в $URI[[http://libmeta.ru/fme/formula/aux/2359_7_PREDSTAVLENIE]]/URI$, удовлетворяющее условиям<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11519">$$T_{g_{1} g_{2}}=T_{g_{1}} T_{g_{2}} \text { и } T_{e}=E,$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2359_8_PREDSTAVLENIE]]/URI$ - единица <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a>, а $URI[[http://libmeta.ru/fme/formula/aux/2359_9_PREDSTAVLENIE]]/URI$ - единичный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a>. Если $URI[[http://libmeta.ru/fme/formula/aux/2359_10_PREDSTAVLENIE]]/URI$ бесконечномерно и в нем введена какая-либо топология (чаще всего $URI[[http://libmeta.ru/fme/formula/aux/2359_11_PREDSTAVLENIE]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO">гильбертово пространство</a>), то естественно требовать еще, чтобы <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операторы</a> $URI[[http://libmeta.ru/fme/formula/aux/2359_12_PREDSTAVLENIE]]/URI$ были ограничены. Если $URI[[http://libmeta.ru/fme/formula/aux/2359_13_PREDSTAVLENIE]]/URI$ - топологич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группа</a> (в частности, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группа</a> Ли), то на отображение $URI[[http://libmeta.ru/fme/formula/aux/2359_14_PREDSTAVLENIE]]/URI$ необходимо наложить нек-рые условия непрерывности. Обычно требуют, чтобы матричные элементы П. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11521">$$g \rightarrow T_{g}$$</a> были непрерывными <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функциями</a> на $URI[[http://libmeta.ru/fme/formula/aux/2359_16_PREDSTAVLENIE]]/URI$.<BR/></P><P>Если для разных элементов $URI[[http://libmeta.ru/fme/formula/aux/2359_17_PREDSTAVLENIE]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> соответствующие им <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операторы</a> $URI[[http://libmeta.ru/fme/formula/aux/2359_18_PREDSTAVLENIE]]/URI$ попарно различны, то П. $URI[[http://libmeta.ru/fme/formula/aux/2359_19_PREDSTAVLENIE]]/URI$ называется точ н Ы м.<BR/></P><P>Пусть $URI[[http://libmeta.ru/fme/formula/aux/2359_20_PREDSTAVLENIE]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2279_PODPREDSTAVLENI">подпространство</a> в $URI[[http://libmeta.ru/fme/formula/aux/2359_21_PREDSTAVLENIE]]/URI$, инвариантное относительно всех операторов П. T. Тогда, рассматривая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операторы</a> П. $URI[[http://libmeta.ru/fme/formula/aux/2359_22_PREDSTAVLENIE]]/URI$ как <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операторы</a> в $URI[[http://libmeta.ru/fme/formula/aux/2359_23_PREDSTAVLENIE]]/URI$, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получим</a> П. $URI[[http://libmeta.ru/fme/formula/aux/2359_24_PREDSTAVLENIE]]/URI$ той же <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> в пространстве $URI[[http://libmeta.ru/fme/formula/aux/2359_25_PREDSTAVLENIE]]/URI$. Представление $URI[[http://libmeta.ru/fme/formula/aux/2359_26_PREDSTAVLENIE]]/URI$ называется подп р е д с т в л е и е м П. T.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#257">Ю. А. Неретин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[в общем случае, произвольная реализация этой группы как группы преобразований. Чаще, однако, под термином «представление группы» подразумевается то, что точнее называется «линейным представлением». Пусть $G$ - группа, а $H$ - линейное пространство. Линей ным представлен ием группы $G$ в пространстве $H$ называется отображение $g_{\mapsto} T_{g}$ из $G$ в множество операторов в $H$, удовлетворяющее условиям
+
+\[
+T_{g_{1} g_{2}}=T_{g_{1}} T_{g_{2}} \text { и } T_{e}=E,
+\]
+
+где $e$ - единица группы, а $E$ - единичный оператор. Если $H$ бесконечномерно и в нем введена какая-либо топология (чаще всего $H$ - гильбертово пространство), то естественно требовать еще, чтобы операторы $T_{g}$ были ограничены. Если $G$ - топологич. группа (в частности, группа Ли), то на отображение $g \rightarrow T_{g}$ необходимо наложить нек-рые условия непрерывности. Обычно требуют, чтобы матричные элементы П. $g \rightarrow T_{g}$ были непрерывными функциями на $G$.
+
+Если для разных элементов $g$ группы соответствующие им операторы $T_{g}$ попарно различны, то П. $T$ называется точ н Ы м.
+
+Пусть $H^{\prime}$ - подпространство в $H$, инвариантное относительно всех операторов П. T. Тогда, рассматривая операторы П. $T$ как операторы в $H^{\prime}$, получим П. $T^{\prime}$ той же группы в пространстве $H^{\prime}$. Представление $T^{\prime}$ называется подп р е д с т в л е и е м П. T. Ю. А. Неретин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2279_PODPREDSTAVLENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1610_LINEJNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

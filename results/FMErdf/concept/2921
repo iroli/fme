@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_400_VIL'SONA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_400_VIL'SONA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2921</core:url>
+    <lbm:descriptor><![CDATA[ВИЛЬСОНА КРИТЕРИЙ КОНФАЙНМЕНТА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#21689"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#21690"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21691"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21692"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21693"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21694"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_389"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21695"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1337"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_191"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21696"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Предложенный К. Вильсоном <a href="/object/show?uri=http://libmeta.ru/io/Publication#21689">[1]</a> критерий, используемый при описании фаз в решеточной калибровочной теории - статистической системе, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоящей</a> из элементов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21693">$$u_{i j}$$</a> некоторой (калибровочной) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a>, соответствующих ребрам решетки <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21694">$$(i, j)$$</a> в евклидовом <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3045_TENZORNOE">пространстве произвольной</a> размерности. Как показывают компьютерные вычисления, такие системы могут находиться в различных фазах в зависимости от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a>, размерности пространства и значений <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параметров</a>, определяющих способ вычисления статистич. средних (меру). Для идентификации фаз (то есть в качестве параметра порядка) используют вильсоновскую петлю среднее от следа произведения групповых элементов, взятого вдоль замкнутого контура $URI[[http://libmeta.ru/fme/formula/aux/400_3_VIL'SONA]]/URI$ на решетке<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21691">$$W(C)=\left\langle\operatorname{Tr} \prod_{i, j \in C} U_{i j}\right\rangle$$</a><BR/></P><P>Фазе решеточного конфайнмента соответствует закон пл о шаде й<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21692">$$W(C) \sim \exp (-\alpha S(C)),$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21695">$$\alpha>0, S(C)$$</a> - площадь минимальной решеточной поверхности, натянутой на контур; это и есть кр и т е р и й В и л ь с о на. Эта <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3230_FAZ">фаза</a> была обнаружена в 4-мерных решеточных калибровочных теориях, основанных на калибровочных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группах</a> $URI[[http://libmeta.ru/fme/formula/aux/400_5_VIL'SONA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/400_6_VIL'SONA]]/URI$. В псевдоевклидовом 4-мерном пространстве-времени для контура, вытянутого во времениподобном направлении, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21696">$$w(c)$$</a> имитирует рождение пары точечных противоположных цветовых зарядов, перемещение их вдоль мировых линий и последующую аннигиляцию. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2256_PLOSchADEJ">Закон площадей</a> отвечает линейно растущему <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_387_VZAIMODEJSTVIJa">потенциалу взаимодействия</a> зарядов. Это позволяет надеяться, что решеточный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_400_VIL'SONA">конфайнмент Вильсона</a> имеет отношение к феноменологич. гипотезе конфайнмента. Точный смысл этого соответствия, однако, в настоящее время не ясен, поскольку вильсоновская петля является подходящим <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параметром</a> только в чисто калибровочной (без кварков) решеточной теории (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#21690">[2]</a>).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#21689">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1498">Wilson K.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#21689">«phys. Rev.», 1974, v. D10, p. 2445-59</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#21690">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#719">Кройц М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#21690">Кварки, глюоны и решетки, пер. с англ., М., 1987</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[ПреДЛОженный К. Вильсоном [1] критерий, используемый при описании фаз в решеточной калибровочной теории - статистической системе, состоящей из элементов $U_{i j}$ некоторой (калибровочной) группы, соответствующих ребрам решетки $(i, j)$ в евклидовом пространстве произвольной размерности. Как показывают компьютерные вычисления, такие системы могут находиться в различных фазах в зависимости от группы, размерности пространства и значений параметров, определяющих способ вычисления статистич. средних (меру). Для идентификации фаз (то есть в качестве параметра порядка) используют вильсоновскую петлю среднее от следа произведения групповых элементов, взятого вдоль замкнутого контура $C$ на решетке
+
+\[
+W(C)=\left\langle\operatorname{Tr} \prod_{i, j \in C} U_{i j}\right\rangle
+\]
+
+Фазе решеточного конфайнмента соответствует закон пл о шаде й
+
+\[
+W(C) \sim \exp (-\alpha S(C)),
+\]
+
+где $\alpha>0, S(C)$ - площадь минимальной решеточной поверхности, натянутой на контур; это и есть кр и т е р и й В и л ь с о на. Эта фаза была обнаружена в 4-мерных решеточных калибровочных теориях, основанных на калибровочных группах $S U(3)$ и $S U(2)$. В псевдоевклидовом 4-мерном пространстве-времени для контура, вытянутого во времениподобном направлении, $W(C)$ имитирует рождение пары точечных противоположных цветовых зарядов, перемещение их вдоль мировых линий и последуюшую аннигиляцию. Закон площадей отвечает линейно растущему потенциалу взаимодействия зарядов. Это позволяет надеяться, что решеточный конфайнмент Вильсона имеет отношение к феноменологич. гипотезе конфайнмента. Точный смысл этого соответствия, однако, в настоящее время не ясен, поскольку вильсоновская петля является подходящим параметром только в чисто калибровочной (без кварков) решеточной теории (см. [2]).
+
+Jum.: [1] Wilson K., «Phys. Rev.», 1974, v. D10, p. 2445-59; [2] К р ой ц М., Кварки, глюоны и решетки, пер. с англ., М., 1987.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_400_VIL'SONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_387_VZAIMODEJSTVIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2256_PLOSchADEJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3230_FAZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3045_TENZORNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

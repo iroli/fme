@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_17561">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><msubsup><mi>g</mi><mrow><mi>&#x00041;</mi></mrow><mrow><mn>2</mn></mrow></msubsup></mrow></mfrac><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002B;</mo><mfrac><mrow><mn>2</mn><msubsup><mi>m</mi><mrow><mi>&#x0004E;</mi></mrow><mrow><mn>2</mn></mrow></msubsup></mrow><mrow><mi>&#x003C0;</mi><msubsup><mi>g</mi><mrow><mi>&#x003C0;</mi><mi>&#x0004E;</mi></mrow><mrow><mn>2</mn></mrow></msubsup></mrow></mfrac><msubsup><mo>&#x0222B;</mo><mrow><msub><mi>m</mi><mrow><mi>&#x003C0;</mi></mrow></msub></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mfrac><mrow><mi>q</mi><mi>d</mi><mi>v</mi></mrow><mrow><msup><mi>v</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msub><mi>&#x003C3;</mi><mrow><mi>&#x003C0;</mi><mo>&#x02212;</mo><mi>&#x00070;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>v</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><msub><mi>&#x003C3;</mi><mrow><mi>&#x003C0;</mi><mo>&#x0002B;</mo><mi>&#x00070;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>v</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{1}{g_{\mathrm{A}}^{2}}=1+\frac{2 m_{\mathrm{N}}^{2}}{\pi g_{\pi \mathrm{N}}^{2}} \int_{m_{\pi}}^{\infty} \frac{q d v}{v^{2}}\left[\sigma_{\pi-\mathrm{p}}(v)-\sigma_{\pi+\mathrm{p}}(v)\right] .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

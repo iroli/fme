@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/259_BOL'TsMANA-ENSKOGA" alphabetic_pos="259">
+  <title>БОЛЬЦМАНА-ЭНСКОГА УРАВНЕНИЕ</title>
+  <authors>
+    <author>В. И. Герасименко</author>
+  </authors>
+  <pages>
+    <start>58</start>
+    <end>58</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б о гол ю бо в Н. Н., «теоретич. и математич. физика», 1975, т. 24, № 2, с. 242-47; [2] е го же, Проблемы динамической теории в статистической физике, М.--Л., 1946</literature_orig>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <title>«теоретич. и математич. физика»</title>
+      <publication/>
+      <year>1975</year>
+      <other>т. 24, № 2, с. 242-47</other>
+    </unit>
+    <unit>
+      <title>е го же, Проблемы динамической теории в статистической физике, М.--Л.</title>
+      <publication/>
+      <year>1946</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/259_1_BOL'TsMANA-ENSKOGA">\begin{gathered}\frac{\partial}{\partial t} F(t, x)=-p \frac{\partial}{\partial q} F(t, x)+ \\+\sigma^{2} \int_{\left(p-p_{1}\right) n \geqslant 0} d n d p_{1}\left(p-p_{1}\right) n\left\{F\left(t, q, p-n\left(n\left(p-p_{1}\right)\right)\right) \times\right. \\\left.\times F\left(t, q+\sigma n, p_{1}+n\left(n\left(p-p_{1}\right)\right)\right)-F(t, q, p) F\left(t, q-\sigma n, p_{1}\right)\right\},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/259_2_BOL'TsMANA-ENSKOGA">F(t, x)=\sum_{i=1}^{N} \delta\left(q-q_{i}(t)\right) \delta\left(p-p_{i}(t)\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/259_1_BOL'TsMANA-ENSKOGA">f(t, x), x \equiv(q, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/259_2_BOL'TsMANA-ENSKOGA">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/259_3_BOL'TsMANA-ENSKOGA">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/259_4_BOL'TsMANA-ENSKOGA">d n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/259_5_BOL'TsMANA-ENSKOGA">n \in \mathbb{R}^{3}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/259_6_BOL'TsMANA-ENSKOGA">\left\{q_{i}(t), p_{i}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/259_7_BOL'TsMANA-ENSKOGA">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/259_8_BOL'TsMANA-ENSKOGA">n</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/259_1_BOL'TsMANA-ENSKOGA">
+      <rel_text>Больцмана уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/254_BOL'TsMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/259_2_BOL'TsMANA-ENSKOGA">
+      <rel_text>частицы</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/259_3_BOL'TsMANA-ENSKOGA">
+      <rel_text>фазовая траектория</rel_text>
+      <target>http://libmeta.ru/fme/article/3238_FAZOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/259_4_BOL'TsMANA-ENSKOGA">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/259_5_BOL'TsMANA-ENSKOGA">
+      <rel_text>единичный вектор</rel_text>
+      <target>http://libmeta.ru/fme/article/923_EDINIChNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/259_6_BOL'TsMANA-ENSKOGA">
+      <rel_text>масса</rel_text>
+      <target>http://libmeta.ru/fme/article/1728_MASS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/259_7_BOL'TsMANA-ENSKOGA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/259_8_BOL'TsMANA-ENSKOGA">
+      <rel_text>одночастичной функции</rel_text>
+      <target>http://libmeta.ru/fme/article/491_VYChET</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/259_9_BOL'TsMANA-ENSKOGA">
+      <rel_text>кинетическое уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/1230_KINETIChESKOE</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/259_9_BOL'TsMANA-ENSKOGA]]/URI для URI[[http://libmeta.ru/fme/relation/259_8_BOL'TsMANA-ENSKOGA]]/URI распределения $URI[[http://libmeta.ru/fme/formula/aux/259_1_BOL'TsMANA-ENSKOGA]]/URI$, системы упругих шаров вида (при $URI[[http://libmeta.ru/fme/formula/aux/259_2_BOL'TsMANA-ENSKOGA]]/URI$ ):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/259_1_BOL'TsMANA-ENSKOGA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/259_3_BOL'TsMANA-ENSKOGA]]/URI$ - диаметр URI[[http://libmeta.ru/fme/relation/259_7_BOL'TsMANA-ENSKOGA]]/URI, URI[[http://libmeta.ru/fme/relation/259_6_BOL'TsMANA-ENSKOGA]]/URI принята равной единице, $URI[[http://libmeta.ru/fme/formula/aux/259_4_BOL'TsMANA-ENSKOGA]]/URI$ - элемент телесного угла, $URI[[http://libmeta.ru/fme/formula/aux/259_5_BOL'TsMANA-ENSKOGA]]/URI$ URI[[http://libmeta.ru/fme/relation/259_5_BOL'TsMANA-ENSKOGA]]/URI.
+
+Б.- Э.у. URI[[http://libmeta.ru/fme/relation/259_4_BOL'TsMANA-ENSKOGA]]/URI «микроскопическим» решением (cm. [1]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/259_2_BOL'TsMANA-ENSKOGA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/259_6_BOL'TsMANA-ENSKOGA]]/URI$ - URI[[http://libmeta.ru/fme/relation/259_3_BOL'TsMANA-ENSKOGA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/259_7_BOL'TsMANA-ENSKOGA]]/URI$-й URI[[http://libmeta.ru/fme/relation/259_2_BOL'TsMANA-ENSKOGA]]/URI системы $URI[[http://libmeta.ru/fme/formula/aux/259_8_BOL'TsMANA-ENSKOGA]]/URI$ упругих шаров. Обобщенное URI[[http://libmeta.ru/fme/relation/259_1_BOL'TsMANA-ENSKOGA]]/URI, построенное Н. Н. Боголюбовым (см. [2]) для системы упругих шаров, совпадает с Б.- Э. у.</text>
+  <text_orig>кИНетическое уравнение для одночастичной функции распределения $F(t, x), x \equiv(q, p)$, системы упругих шаров вида (при $t \geqslant 0$ ):
+
+\[
+\begin{gathered}
+\frac{\partial}{\partial t} F(t, x)=-p \frac{\partial}{\partial q} F(t, x)+ \\
++\sigma^{2} \int_{\left(p-p_{1}\right) n \geqslant 0} d n d p_{1}\left(p-p_{1}\right) n\left\{F\left(t, q, p-n\left(n\left(p-p_{1}\right)\right)\right) \times\right. \\
+\left.\times F\left(t, q+\sigma n, p_{1}+n\left(n\left(p-p_{1}\right)\right)\right)-F(t, q, p) F\left(t, q-\sigma n, p_{1}\right)\right\},
+\end{gathered}
+\]
+
+где $\sigma$ - диаметр частиц, масса принята равной единице, $d n$ - элемент телесного угла, $n \in \mathbb{R}^{3}-$ единичный вектор.
+
+Б.- Э.у. обладает «микроскопическим» решением (cM. [1]):
+
+\[
+F(t, x)=\sum_{i=1}^{N} \delta\left(q-q_{i}(t)\right) \delta\left(p-p_{i}(t)\right),
+\]
+
+где $\left\{q_{i}(t), p_{i}(t)\right\}$ - фазовая траектория $i$-й частицы системы $N$ упругих шаров. Обобщенное Больцмана уравнение, построенное Н. Н. Боголюбовым (см. [2]) для системы упругих шаров, совпадает с Б.- Э. у.
+
+Лит.: [1] Б о гол ю бо в Н. Н., «Теоретич. и математич. физика», 1975, т. 24, № 2, с. 242-47; [2] е го же, Проблемы динамической теории в статистической физике, М.--Л., 1946
+
+В. И. Герасименко.</text_orig>
+</article>

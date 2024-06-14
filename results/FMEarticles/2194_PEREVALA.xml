@@ -1,0 +1,307 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2194_PEREVALA" alphabetic_pos="2196">
+  <title>ПЕРЕВАЛА МЕТОД</title>
+  <authors>
+    <author>М. В. Федорюк</author>
+  </authors>
+  <pages>
+    <start>428</start>
+    <end>428</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Фед р юк М. В., Асимптотика. Интегралы и ряды, М., 1987; [2] Арнольд В. И., Варченко А. Н., Гусейн-зад е С. М., Особенности дифференцируемых отображений, М., 1984; [3] D e bye P., &quot;math. Ann.», 1909, Bd 67, S. 535-58.</literature_orig>
+    <unit>
+      <author>Федрюк М. В.</author>
+      <title>Асимптотика. Интегралы и ряды</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <author>Варченко А. Н.</author>
+      <author>Гусейн-заде С. М.</author>
+      <title>Особенности дифференцируемых отображений</title>
+      <publication>М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Debye P.</author>
+      <title>&quot;math. Ann.»</title>
+      <publication/>
+      <year>1909</year>
+      <other>Bd 67, S. 535-58.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_1_PEREVALA">F(\lambda)=\int_{\gamma} f(z) \exp \{\lambda S(z)\} d z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_2_PEREVALA">S^{\prime}\left(z_{0}\right)=0, \ldots, S^{(n-1)}\left(z_{0}\right)=0, S^{(n)}\left(z_{0}\right) \neq 0, n \geqslant 2 ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_3_PEREVALA">\operatorname{Re}\left[S(z)-S\left(z_{0}\right)\right]=c, \operatorname{Im}\left[S(z)-S\left(z_{0}\right)\right]=c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_4_PEREVALA">S=a\left(z-z_{0}\right)^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_5_PEREVALA">\operatorname{Im} S(z)=\operatorname{Im} S\left(z_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_6_PEREVALA">M=\max _{\gamma} \operatorname{Re} S(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_7_PEREVALA">F(\lambda)=\sum_{j=1}^{N} V\left(z_{j}, \lambda\right)+O(\exp \{\lambda(M-\varepsilon)\}), \varepsilon&gt;0, \lambda \rightarrow+\infty .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_8_PEREVALA">\begin{gathered}V\left(z_{j}, \lambda\right)=\left[\frac{2 \pi}{-\lambda S^{\prime \prime}\left(z_{j}\right)}\right]^{1 / 2} \times \\\times \exp \left\{\lambda S\left(z_{j}\right)\right\}\left[f\left(z_{j}\right)+\sum_{n=1}^{\infty} a_{n} \lambda^{-n}\right] .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_9_PEREVALA">V\left(z_{j}, \lambda\right)=-\frac{1}{\lambda S^{\prime}\left(z_{j}\right)} \exp \left\{\lambda S\left(z_{j}\right)\right\}\left[f\left(z_{j}\right)+\sum_{n=1}^{\infty} b_{n} \lambda^{-n}\right] .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_10_PEREVALA">\operatorname{det} \boldsymbol{H}\left(z^{0}\right) \neq 0, \quad \boldsymbol{H}\left(z^{0}\right)=\frac{\partial^{2} S\left(z^{0}\right)}{\partial z_{j} \partial z_{k}}, \quad 1 \leqslant j, \quad k \leqslant n .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2194_11_PEREVALA">\begin{gathered}V\left(z^{0}, \lambda\right)=\left(\frac{2 \pi}{\lambda}\right)^{n / 2}\left[\operatorname{det} H\left(z^{0}\right)\right]^{-1 / 2} \times \\\times \exp \left\{\lambda S\left(z^{0}\right)\right\}\left[f\left(z^{0}\right)+\sum_{m=1}^{\infty} a_{m} \lambda^{-m}\right] .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_1_PEREVALA">\lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_2_PEREVALA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_3_PEREVALA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_4_PEREVALA">f(z) \not \equiv, S(z) \not \equiv</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_5_PEREVALA">\not \equiv</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_6_PEREVALA">\mathscr{d}, \gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_7_PEREVALA">\mathscr{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_8_PEREVALA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_9_PEREVALA">\tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_10_PEREVALA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_11_PEREVALA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_12_PEREVALA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_13_PEREVALA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_14_PEREVALA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_15_PEREVALA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_16_PEREVALA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_17_PEREVALA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_18_PEREVALA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_19_PEREVALA">f(0)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_20_PEREVALA">z_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_21_PEREVALA">s^{\prime}\left(z_{0}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_22_PEREVALA">s^{\prime \prime}\left(z_{0}\right) \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_23_PEREVALA">z_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_24_PEREVALA">c \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_25_PEREVALA">c=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_26_PEREVALA">n+2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_27_PEREVALA">z_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_28_PEREVALA">\operatorname{re} S(z)&lt;\operatorname{Re} S\left(z_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_29_PEREVALA">n+2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_30_PEREVALA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_31_PEREVALA">z_{1}, \ldots, z_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_32_PEREVALA">z_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_33_PEREVALA">u_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_34_PEREVALA">\gamma \cap U_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_35_PEREVALA">\operatorname{re} S(z)&lt;\operatorname{Re} S\left(z_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_36_PEREVALA">z_{j}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_37_PEREVALA">z_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_38_PEREVALA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_39_PEREVALA">s^{\prime}\left(z_{j}\right) \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_40_PEREVALA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_41_PEREVALA">z=\left(z_{1}, \ldots, z_{n}\right), d z=d z_{1}, \ldots, d z_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_42_PEREVALA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_43_PEREVALA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_44_PEREVALA">c^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_45_PEREVALA">z^{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_46_PEREVALA">s(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2194_47_PEREVALA">\nabla S\left(z^{0}\right)=0</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/2194_1_PEREVALA">
+      <rel_text>многомерный</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2194_2_PEREVALA">
+      <rel_text>перевального</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2194_3_PEREVALA">
+      <rel_text>Точка перевала</rel_text>
+      <target>http://libmeta.ru/fme/article/2195_PEREVALA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2194_4_PEREVALA">
+      <rel_text>преобразований Фурье</rel_text>
+      <target>http://libmeta.ru/fme/article/3326_FUR'E</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2194_5_PEREVALA">
+      <rel_text>специальных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/2892_SPETsIAL'NYE</target>
+    </relation>
+  </relations>
+  <text>метод вычисления асимптотики интегралов вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_1_PEREVALA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/2194_1_PEREVALA]]/URI$ - большой параметр, $URI[[http://libmeta.ru/fme/formula/aux/2194_2_PEREVALA]]/URI$ - кусочно гладкая кривая в комплексной плоскости $URI[[http://libmeta.ru/fme/formula/aux/2194_3_PEREVALA]]/URI$, функции $URI[[http://libmeta.ru/fme/formula/aux/2194_4_PEREVALA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2194_5_PEREVALA]]/URI$ const голоморфны в области $URI[[http://libmeta.ru/fme/formula/aux/2194_6_PEREVALA]]/URI$ лежит внутри $URI[[http://libmeta.ru/fme/formula/aux/2194_7_PEREVALA]]/URI$.
+
+По формуле Стокса, интеграл не изменится, если цепь деформировать, не меняя ее границы. Поэтому цепь деформируют так, чтобы уменьшить на ней вещественную часть фазы $URI[[http://libmeta.ru/fme/formula/aux/2194_8_PEREVALA]]/URI$ (при больших $URI[[http://libmeta.ru/fme/formula/aux/2194_9_PEREVALA]]/URI$ она определяет величину интеграла). Уменьшать вещественную часть $URI[[http://libmeta.ru/fme/formula/aux/2194_10_PEREVALA]]/URI$ можно сдвигом внутренности $URI[[http://libmeta.ru/fme/formula/aux/2194_11_PEREVALA]]/URI$ вдоль градиента $URI[[http://libmeta.ru/fme/formula/aux/2194_12_PEREVALA]]/URI$. Сдвигать $URI[[http://libmeta.ru/fme/formula/aux/2194_13_PEREVALA]]/URI$ можно до тех пор, пока цепь не наткнется на критич. точки $URI[[http://libmeta.ru/fme/formula/aux/2194_14_PEREVALA]]/URI$ (в них градиент равен нулю).
+
+Таким образом, П. м. состоит из двух частей: топологической, заключающейся в указании нужным образом продеформированной цепи (пе ре в ального контура), и аналитической, состоящей из оценки интеграла по перевальному контуру в окрестностях критич. точек $URI[[http://libmeta.ru/fme/formula/aux/2194_15_PEREVALA]]/URI$, а также из оценки интеграла по окрестности границы перевального контура (если максимум вещественной части $URI[[http://libmeta.ru/fme/formula/aux/2194_16_PEREVALA]]/URI$ достигается на границе перевального контура).
+
+Рассматривается аналитич. часть П.м., точнее, исследование асимптотики интеграла в окрестности критич. точки f. Предполагается, что ограничение $URI[[http://libmeta.ru/fme/formula/aux/2194_17_PEREVALA]]/URI$ на границу цепи $URI[[http://libmeta.ru/fme/formula/aux/2194_18_PEREVALA]]/URI$ имеет отрицательную вещественную часть, критич. точка находится в начале координат и $URI[[http://libmeta.ru/fme/formula/aux/2194_19_PEREVALA]]/URI$.
+
+Точка $URI[[http://libmeta.ru/fme/formula/aux/2194_20_PEREVALA]]/URI$ называется точкой пе ре вала (или се дловой точкой), если $URI[[http://libmeta.ru/fme/formula/aux/2194_21_PEREVALA]]/URI$, и простой точкой пе ре в ала, если $URI[[http://libmeta.ru/fme/formula/aux/2194_22_PEREVALA]]/URI$.
+
+Пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_2_PEREVALA]]/URI
+\]
+
+тогда локально вблизи точки $URI[[http://libmeta.ru/fme/formula/aux/2194_23_PEREVALA]]/URI$ линии уровня
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_3_PEREVALA]]/URI
+\]
+
+топологически устроены так же, как и для функции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_4_PEREVALA]]/URI
+\]
+
+428 Первая При $URI[[http://libmeta.ru/fme/formula/aux/2194_24_PEREVALA]]/URI$ линии уровня - аналитич. кривые, а при $URI[[http://libmeta.ru/fme/formula/aux/2194_25_PEREVALA]]/URI$ они состоят из $URI[[http://libmeta.ru/fme/formula/aux/2194_26_PEREVALA]]/URI$ аналитич. дуг с вершиной $URI[[http://libmeta.ru/fme/formula/aux/2194_27_PEREVALA]]/URI$. Л и ние й н а и ск о р е й ш г о с п у с к а называется линия
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_5_PEREVALA]]/URI
+\]
+
+вдоль к-рой
+
+$URI[[http://libmeta.ru/fme/formula/aux/2194_28_PEREVALA]]/URI$
+
+имеется $URI[[http://libmeta.ru/fme/formula/aux/2194_29_PEREVALA]]/URI$ линий наискорейшего спуска.
+
+Контур $URI[[http://libmeta.ru/fme/formula/aux/2194_30_PEREVALA]]/URI$ называется п е ре ва л ь ы м, если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_6_PEREVALA]]/URI
+\]
+
+достигается в конечном числе точек $URI[[http://libmeta.ru/fme/formula/aux/2194_31_PEREVALA]]/URI$, к-рые являются точками перевала или концами контура. Кроме того, если $URI[[http://libmeta.ru/fme/formula/aux/2194_32_PEREVALA]]/URI$ есть точка перевала, $URI[[http://libmeta.ru/fme/formula/aux/2194_33_PEREVALA]]/URI$ - малая ее окрестность, то концы кривой $URI[[http://libmeta.ru/fme/formula/aux/2194_34_PEREVALA]]/URI$ лежат в двух разных секторах, в к-рых $URI[[http://libmeta.ru/fme/formula/aux/2194_35_PEREVALA]]/URI$. Асимптотика интеграла (1) по перевальному контуру равна сумме вкладов от точек перевала и концов контура:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_7_PEREVALA]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/2194_36_PEREVALA]]/URI$ простая точка перевала, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_8_PEREVALA]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/2194_37_PEREVALA]]/URI$ - начало $URI[[http://libmeta.ru/fme/formula/aux/2194_38_PEREVALA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2194_39_PEREVALA]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_9_PEREVALA]]/URI
+\]
+
+Эти асимгтотич. ряды можно дифференцировать почленно любое число раз. Вклады от кратных точек перевала и от точек перевала, лежащих на концах $URI[[http://libmeta.ru/fme/formula/aux/2194_40_PEREVALA]]/URI$, вычислены (см. [1]). Исследованы также случаи слияния особенностей: две близкие точки перевала, близкие точки перевала и конец контура, близкие точки перевала и полюс (см. [1]).
+
+П. м. был создан П. Дебаем (см. [3]) и является мощным методом вычисления асимптотики интегралов. С его помощью вычислена асимптотика всех URI[[http://libmeta.ru/fme/relation/2194_5_PEREVALA]]/URI, для к-рых имеются интегральные представления, асимптотика URI[[http://libmeta.ru/fme/relation/2194_4_PEREVALA]]/URI, Лапласа, Меллина, Ганкеля и других от различных классов функций. П. м. называется также метод седловой точки, метод наиско рейше го с пуска.
+
+Пусть в (1) $URI[[http://libmeta.ru/fme/formula/aux/2194_41_PEREVALA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2194_42_PEREVALA]]/URI$ - гладкая ограниченная поверхность вещественной размерности $URI[[http://libmeta.ru/fme/formula/aux/2194_43_PEREVALA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2194_44_PEREVALA]]/URI$. Точка $URI[[http://libmeta.ru/fme/formula/aux/2194_45_PEREVALA]]/URI$ называется точкой пе ре в а ла функции $URI[[http://libmeta.ru/fme/formula/aux/2194_46_PEREVALA]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/2194_47_PEREVALA]]/URI$. URI[[http://libmeta.ru/fme/relation/2194_3_PEREVALA]]/URI называется н е в ы рожде н н о й, если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_10_PEREVALA]]/URI
+\]
+
+Определение URI[[http://libmeta.ru/fme/relation/2194_2_PEREVALA]]/URI контура и (2) сохраняются. Вклад от невырожденной точки перевала имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2194_11_PEREVALA]]/URI
+\]
+
+Этот асимптотич. ряд можно дифференцировать почленно любое число раз.
+
+Развит URI[[http://libmeta.ru/fme/relation/2194_1_PEREVALA]]/URI П. м. (см. [1]).</text>
+  <text_orig>метоД вЫчисления асимптотики интегралов вида
+
+\[
+F(\lambda)=\int_{\gamma} f(z) \exp \{\lambda S(z)\} d z
+\]
+
+Здесь $\lambda&gt;0$ - большой параметр, $\gamma$ - кусочно гладкая кривая в комплексной плоскости $z$, функции $f(z) \not \equiv, S(z) \not \equiv$ $\not \equiv$ const голоморфны в области $\mathscr{D}, \gamma$ лежит внутри $\mathscr{D}$.
+
+По формуле Стокса, интеграл не изменится, если цегь деформировать, не меняя ее границы. Поэтому цепь деформируют так, чтобы уменышить на ней вещественную часть фазы $f$ (при болыших $\tau$ она определяет величину интеграла). Уменьшать вещественную часть $f$ можно сдвигом внутренности $\Gamma$ вдоль градиента $f$. Сдвигать $\Gamma$ можно до тех пор, пока цепь не наткнется на критич. точки $f$ (в них градиент равен нулю).
+
+Таким образом, П. м. состоит из двух частей: топологической, заключающейся в указании нужным образом продеформированной цепи (пе ре в ального контура), и аналитической, состояшей из оценки интеграла по перевальному контуру в окрестностях критич. точек $f$, а также из оценки интеграла по окрестности границы перевального контура (если максимум вещественной части $f$ достигается на границе перевального контура).
+
+Рассматривается аналитич. часть П.м., точнее, исследование асимгтотики интеграла в окрестности критич. точки f. Предполагается, что ограничение $f$ на границу цепи $\Gamma$ имеет отрицательную вещественную часть, критич. точка находится в начале координат и $f(0)=0$.
+
+Точка $z_{0}$ называется точкой пе ре вала (или се дловой точкой), если $S^{\prime}\left(z_{0}\right)=0$, и простой точкой пе ре в ала, если $S^{\prime \prime}\left(z_{0}\right) \neq 0$.
+
+Пусть
+
+\[
+S^{\prime}\left(z_{0}\right)=0, \ldots, S^{(n-1)}\left(z_{0}\right)=0, S^{(n)}\left(z_{0}\right) \neq 0, n \geqslant 2 ;
+\]
+
+тогда локально вблизи точки $z_{0}$ линии уровня
+
+\[
+\operatorname{Re}\left[S(z)-S\left(z_{0}\right)\right]=c, \operatorname{Im}\left[S(z)-S\left(z_{0}\right)\right]=c
+\]
+
+топологически устроены так же, как и для функции
+
+\[
+S=a\left(z-z_{0}\right)^{n}
+\]
+
+428 ПEPBAЯ При $c \neq 0$ линии уровня - аналитич. кривые, а при $c=0$ они состоят из $n+2$ аналитич. дуг с вершиной $z_{0}$. Л и ние й н а и ск о р е й ш г о с п у с к а называется линия
+
+\[
+\operatorname{Im} S(z)=\operatorname{Im} S\left(z_{0}\right)
+\]
+
+вдоль к-рой
+
+$\operatorname{Re} S(z)&lt;\operatorname{Re} S\left(z_{0}\right)$
+
+имеется $n+2$ линий наискорейшего спуска.
+
+Контур $\gamma$ называется п е ре ва л ь ы м, если
+
+\[
+M=\max _{\gamma} \operatorname{Re} S(z)
+\]
+
+достигается в конечном числе точек $z_{1}, \ldots, z_{N}$, к-рые являются точками перевала или концами контура. Кроме того, если $z_{j}$ есть точка перевала, $U_{j}$ - малая ее окрестность, то концы кривой $\gamma \cap U_{j}$ лежат в двух разных секторах, в к-рых $\operatorname{Re} S(z)&lt;\operatorname{Re} S\left(z_{0}\right)$. Асимттотика интеграла (1) по перевальному контуру равна сумме вкладов от точек перевала и концов контура:
+
+\[
+F(\lambda)=\sum_{j=1}^{N} V\left(z_{j}, \lambda\right)+O(\exp \{\lambda(M-\varepsilon)\}), \varepsilon&gt;0, \lambda \rightarrow+\infty .
+\]
+
+Если $z_{j}-$ простая точка перевала, то
+
+\[
+\begin{gathered}
+V\left(z_{j}, \lambda\right)=\left[\frac{2 \pi}{-\lambda S^{\prime \prime}\left(z_{j}\right)}\right]^{1 / 2} \times \\
+\times \exp \left\{\lambda S\left(z_{j}\right)\right\}\left[f\left(z_{j}\right)+\sum_{n=1}^{\infty} a_{n} \lambda^{-n}\right] .
+\end{gathered}
+\]
+
+Если $z_{j}$ - начало $\gamma$ и $S^{\prime}\left(z_{j}\right) \neq 0$, то
+
+\[
+V\left(z_{j}, \lambda\right)=-\frac{1}{\lambda S^{\prime}\left(z_{j}\right)} \exp \left\{\lambda S\left(z_{j}\right)\right\}\left[f\left(z_{j}\right)+\sum_{n=1}^{\infty} b_{n} \lambda^{-n}\right] .
+\]
+
+Эти асимгтотич. ряды можно дифференцировать почленно любое число раз. Вклады от кратных точек перевала и от точек перевала, лежащих на концах $\gamma$, вычислены (см. [1]). Исследованы также случаи слияния особенностей: две близкие точки перевала, близкие точки перевала и конец контура, близкие точки перевала и полюс (см. [1]).
+
+П. м. был создан П. Дебаем (см. [3]) и является мощным методом вычисления асимптотики интегралов. С его помощью вычислена асимптотика всех специальных функций, для к-рых имеются интегральные представления, асимптотика преобразований Фурье, Лапласа, Меллина, Ганкеля и других от различных классов функций. П. м. называется также метод седловой точки, метод наиско рейше го с пуска.
+
+Пусть в (1) $z=\left(z_{1}, \ldots, z_{n}\right), d z=d z_{1}, \ldots, d z_{n}$ и $\gamma$ - гладкая ограниченная поверхность вещественной размерности $n$ в $C^{n}$. Точка $z^{0}$ называется точкой пе ре в а ла функции $S(z)$, если $\nabla S\left(z^{0}\right)=0$. Точка перевала называется н е в ы рожде н н о й, если
+
+\[
+\operatorname{det} \boldsymbol{H}\left(z^{0}\right) \neq 0, \quad \boldsymbol{H}\left(z^{0}\right)=\frac{\partial^{2} S\left(z^{0}\right)}{\partial z_{j} \partial z_{k}}, \quad 1 \leqslant j, \quad k \leqslant n .
+\]
+
+Определение перевального контура и (2) сохраняются. Вклад от невырожденной точки перевала имеет вид:
+
+\[
+\begin{gathered}
+V\left(z^{0}, \lambda\right)=\left(\frac{2 \pi}{\lambda}\right)^{n / 2}\left[\operatorname{det} H\left(z^{0}\right)\right]^{-1 / 2} \times \\
+\times \exp \left\{\lambda S\left(z^{0}\right)\right\}\left[f\left(z^{0}\right)+\sum_{m=1}^{\infty} a_{m} \lambda^{-m}\right] .
+\end{gathered}
+\]
+
+Этот асимптотич. ряд можно дифференцировать почленно любое число раз.
+
+Развит многомерный П. м. (см. [1]).
+
+Лит.: [1] Фед р юк М. В., Асимптотика. Интегралы и ряды, М., 1987; [2] Арнольд В. И., Варченко А. Н., Гусейн-зад е С. М., Особенности дифференцируемых отображений, М., 1984; [3] D e bye P., &quot;Math. Ann.», 1909, Bd 67, S. 535-58. М. В. Федорюк.</text_orig>
+</article>

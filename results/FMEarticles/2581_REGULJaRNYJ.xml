@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2581_REGULJaRNYJ" alphabetic_pos="2583">
+  <title>РЕГУЛЯРНЫЙ ПОТЕНЦИАЛ ВЗАИМОДЕЙСТВИЯ</title>
+  <authors>
+    <author>П. В. Малышев</author>
+  </authors>
+  <pages>
+    <start>498</start>
+    <end>498</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2581_1_REGULJaRNYJ">\int d x\left|e^{-\beta \Phi(x)}-1\right|=C(\beta)&lt;+\infty, \quad x \in \mathbb{R}^{v}, \quad v=1,2,3,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2581_2_REGULJaRNYJ">\Phi(x) \geqslant-\varphi(|x|)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2581_3_REGULJaRNYJ">\int_{0}^{\infty} d r r^{v-1} \varphi(r)&lt;+\infty</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2581_1_REGULJaRNYJ">\beta&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2581_2_REGULJaRNYJ">\beta&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2581_3_REGULJaRNYJ">\beta&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2581_4_REGULJaRNYJ">[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2581_5_REGULJaRNYJ">x \in \mathbb{R}^{v}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2581_1_REGULJaRNYJ">
+      <rel_text>Устойчивый потенциал взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/3224_USTOJChIVYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2581_2_REGULJaRNYJ">
+      <rel_text>давления</rel_text>
+      <target>http://libmeta.ru/fme/article/750_DAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2581_3_REGULJaRNYJ">
+      <rel_text>для функций распределения</rel_text>
+      <target>http://libmeta.ru/fme/article/2539_RASPREDELENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2581_4_REGULJaRNYJ">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>ограниченный снизу взаимодействия потенциал Ф, для которого
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2581_1_REGULJaRNYJ]]/URI
+\]
+
+при некотором $URI[[http://libmeta.ru/fme/formula/aux/2581_1_REGULJaRNYJ]]/URI$. Условие регулярности накладывает ограничение на закон убывания их потенциала на больших расстояниях и эквивалентно условию абсолютной интегрируемости потенциала вне нек-рого множества конечной лебеговой меры. Если условие регулярности справедливо для какого-нибудь $URI[[http://libmeta.ru/fme/formula/aux/2581_2_REGULJaRNYJ]]/URI$, то оно справедливо для всех $URI[[http://libmeta.ru/fme/formula/aux/2581_3_REGULJaRNYJ]]/URI$.
+
+Быстро убывающий потенциал взаимодействия и потенциал конечного радиуса действия являются регулярными.
+
+Потенциалы взаимодействия называются р е гу ля р н ы м и с низу, если существует положительно убывающая ограниченная функция на $URI[[http://libmeta.ru/fme/formula/aux/2581_4_REGULJaRNYJ]]/URI$ такая, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2581_2_REGULJaRNYJ]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2581_3_REGULJaRNYJ]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/fme/formula/aux/2581_5_REGULJaRNYJ]]/URI$.
+
+Условие регулярности снизу накладывает ограничение на закон убывания лишь отрицательной части потенциала взаимодействия и в этом смысле оно слабее условия регулярности. Так, напр., положительно неубывающий потенциал регулярен снизу, но не является Р. П.в.
+
+Р. п. в. используются в различных задачах статистич. URI[[http://libmeta.ru/fme/relation/2581_4_REGULJaRNYJ]]/URI при доказательстве существования термодинамического предела URI[[http://libmeta.ru/fme/relation/2581_3_REGULJaRNYJ]]/URI и термодинамич. функций (напр., URI[[http://libmeta.ru/fme/relation/2581_2_REGULJaRNYJ]]/URI).
+
+Лит. см. при ст. URI[[http://libmeta.ru/fme/relation/2581_1_REGULJaRNYJ]]/URI.</text>
+  <text_orig>ограниченный снизу взаимодействия потенциал Ф, для которого
+
+\[
+\int d x\left|e^{-\beta \Phi(x)}-1\right|=C(\beta)&lt;+\infty, \quad x \in \mathbb{R}^{v}, \quad v=1,2,3,
+\]
+
+при некотором $\beta&gt;0$. Условие регулярности накладывает ограничение на закон убывания их потенциала на больших расстояниях и эквивалентно условию абсолютной интегрируемости потенциала вне нек-рого множества конечной лебеговой меры. Если условие регулярности справедливо для какого-нибудь $\beta&gt;0$, то оно справедливо для всех $\beta&gt;0$.
+
+Быстро убывающий потенциал взаимодействия и потенциал конечного радиуса действия являются регулярными.
+
+Потенциалы взаимодействия называются р е гу ля р н ы м и с низу, если существует положительно убывающая ограниченная функция на $[0, \infty)$ такая, что
+
+\[
+\Phi(x) \geqslant-\varphi(|x|)
+\]
+
+и
+
+\[
+\int_{0}^{\infty} d r r^{v-1} \varphi(r)&lt;+\infty
+\]
+
+для всех $x \in \mathbb{R}^{v}$.
+
+Условие регулярности снизу накладывает ограничение на закон убывания лишь отрицательной части потенциала взаимодействия и в этом смысле оно слабее условия регулярности. Так, напр., положительно неубывающий потенциал регулярен снизу, но не является Р. П.в.
+
+Р. п. в. используются в различных задачах статистич. механики при доказательстве существования термодинамического предела для функций распределения и термодинамич. функций (напр., давления).
+
+Лит. см. при ст. Устойчивый потенциал взаимодействия.
+
+П. В. Малышев.</text_orig>
+</article>

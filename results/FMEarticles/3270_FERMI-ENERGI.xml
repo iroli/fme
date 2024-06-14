@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3270_FERMI-ENERGI" alphabetic_pos="3272">
+  <title>ФЕРМИ-ЭНЕРГИЯ</title>
+  <authors>
+    <author>Д. П. Санкович</author>
+  </authors>
+  <pages>
+    <start>639</start>
+    <end>640</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Бо голюбов Н. Н., Бо голюбов Н. Н. (мл.), Введение в квантовую статистическую механику, М., 1984; [2] Б алес к у Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978.</literature_orig>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <title>Бо голюбов Н. Н. (мл.), Введение в квантовую статистическую механику</title>
+      <publication>М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Балеску Р.</author>
+      <title>Равновесная и неравновесная статистическая механика</title>
+      <publication>пер. с англ., т. 1, М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3270_1_FERMI-ENERGI">\left\langle n_{p \sigma}\right\rangle=\theta\left(\varepsilon_{F}-\varepsilon_{p}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3270_2_FERMI-ENERGI">\varepsilon_{F}=\left(\frac{6 \pi^{2}}{g}\right)^{2 / 3}\left(\frac{\hbar^{2}}{2 m}\right) n^{2 / 3},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3270_3_FERMI-ENERGI">\varepsilon=\frac{3}{5} n \varepsilon_{F},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3270_4_FERMI-ENERGI">P=\frac{2}{5} n \varepsilon_{F} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_1_FERMI-ENERGI">\varepsilon_{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_2_FERMI-ENERGI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_3_FERMI-ENERGI">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_4_FERMI-ENERGI">\theta(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_5_FERMI-ENERGI">\theta(x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_6_FERMI-ENERGI">x&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_7_FERMI-ENERGI">\theta(x)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_8_FERMI-ENERGI">x&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_9_FERMI-ENERGI">n-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_10_FERMI-ENERGI">m, g=2 \sigma+1-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3270_11_FERMI-ENERGI">\hbar-</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/3270_1_FERMI-ENERGI">
+      <rel_text>давление</rel_text>
+      <target>http://libmeta.ru/fme/article/750_DAVLENI</target>
+    </relation>
+  </relations>
+  <text>значение граничной энергии $URI[[http://libmeta.ru/fme/formula/aux/3270_1_FERMI-ENERGI]]/URI$ идеального ферми-газа при нулевой температуре. В этом случае среднее число заполнения квантового уровня с импульсом $URI[[http://libmeta.ru/fme/formula/aux/3270_2_FERMI-ENERGI]]/URI$ и спином $URI[[http://libmeta.ru/fme/formula/aux/3270_3_FERMI-ENERGI]]/URI$ следует из Ферми - Дирака распределения и имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3270_1_FERMI-ENERGI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3270_4_FERMI-ENERGI]]/URI$ - ступенчатая функция Хевисайда: $URI[[http://libmeta.ru/fme/formula/aux/3270_5_FERMI-ENERGI]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/3270_6_FERMI-ENERGI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3270_7_FERMI-ENERGI]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/3270_8_FERMI-ENERGI]]/URI$. Ф. э. определяется выражением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3270_2_FERMI-ENERGI]]/URI
+\] где $URI[[http://libmeta.ru/fme/formula/aux/3270_9_FERMI-ENERGI]]/URI$ средняя плотность фермионов массы $URI[[http://libmeta.ru/fme/formula/aux/3270_10_FERMI-ENERGI]]/URI$ кратность вырождения уровня, $URI[[http://libmeta.ru/fme/formula/aux/3270_11_FERMI-ENERGI]]/URI$ постоянная Планка. Ф. э. совпадает со значением химич. потенциала идеального ферми-газа при нулевой температуре. Через Ф. э. выражаются другие термодинамич. функции идеального ферми-газа при нулевой температуре. Удельная внутренняя энергия:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3270_3_FERMI-ENERGI]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/3270_1_FERMI-ENERGI]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3270_4_FERMI-ENERGI]]/URI
+\]
+
+Для неидеальных фермиевских систем понятие Ф. э. носит феноменологич. характер.</text>
+  <text_orig>значение граничной энергии $\varepsilon_{F}$ идеального ферми-газа при нулевой температуре. В этом случае среднее число заполнения квантового уровня с импульсом $p$ и спином $\sigma$ следует из Ферми - Дирака распределения и имеет вид:
+
+\[
+\left\langle n_{p \sigma}\right\rangle=\theta\left(\varepsilon_{F}-\varepsilon_{p}\right),
+\]
+
+где $\theta(x)$ - ступенчатая функция Хевисайда: $\theta(x)=0$ при $x&lt;0$ и $\theta(x)=1$ при $x&gt;0$. Ф. э. определяется выражением
+
+\[
+\varepsilon_{F}=\left(\frac{6 \pi^{2}}{g}\right)^{2 / 3}\left(\frac{\hbar^{2}}{2 m}\right) n^{2 / 3},
+\] где $n-$ средняя плотность фермионов массы $m, g=2 \sigma+1-$ кратность вырождения уровня, $\hbar-$ постоянная Планка. Ф. э. совпадает со значением химич. потенциала идеального ферми-газа при нулевой температуре. Через Ф. э. выражаются другие термодинамич. функции идеального ферми-газа при нулевой температуре. Удельная внутренняя энергия:
+
+\[
+\varepsilon=\frac{3}{5} n \varepsilon_{F},
+\]
+
+давление:
+
+\[
+P=\frac{2}{5} n \varepsilon_{F} .
+\]
+
+Для неидеальных фермиевских систем понятие Ф. э. носит феноменологич. характер.
+
+Лum.: [1] Бо голюбов Н. Н., Бо голюбов Н. Н. (мл.), Введение в квантовую статистическую механику, М., 1984; [2] Б алес к у Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978.
+
+Д. П. Санкович.</text_orig>
+</article>

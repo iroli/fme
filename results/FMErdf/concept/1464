@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2318_POLJuSNAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2318_POLJuSNAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1464</core:url>
+    <lbm:descriptor><![CDATA[ПОЛЮСНАЯ СИСТЕМА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1544"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11319"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11321"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11323"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11324"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>конечномерная динамическая система, являющаяся ограничением уравнения с частными производными на подкласс мероморфных функций (рациональных, эллиптических или некоторых специальных функций). Классич. примером П. с. является система вихрей двумерной гидродинамики идеальной жидкости.<BR/></P><P>Существование П. с. для заданного нелинейного уравнения является ситуацией исключительной. Повышенный интерес к ним в современной математич. физике был вызван работой <a href="/object/show?uri=http://libmeta.ru/io/Publication#11319">[1]</a>, показавшей, что Кортевега - де Фриса уравнение имеет рациональные решения вида:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11324">$$u(x, t)=2 \sum_{i=1}^{N}\left(x-x_{i}(t)\right)^{-2}, \quad N=\frac{n(n+1)}{2}, \quad n \in \mathbb{Z},$$</a><BR/></P><P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамика</a> полюсов К-рых тесно связана с теорией интегрируемой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_511_GAMIL'TONIAN">системы частиц</a> на прямой - Мозера - Калоджеро системой. Впоследствии было показано <a href="/object/show?uri=http://libmeta.ru/io/Publication#11321">[2]</a>, что существование рациональных решений характерно для большинства уравнений, допускающих коммутационное представление.<BR/></P><P>Особенно важны П. с., связанные с двумерными уравнениями типа Кадомцева - Петвиашвили уравнения. Их рациональные решения с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2582_REDZhE">полюсами в комплексной</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> являются солитонами - решениями, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1640_LOKALIZUEMOST">локализованными</a> по всем направлениям <a href="/object/show?uri=http://libmeta.ru/io/Publication#11323">[3]</a>. Процесс <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2861_SOLITONOV">взаимодействия солитонов</a> в этих случаях и описывается соответствующей П.с.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#11319">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#3478">Airault H.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#3478">Mckean H.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#11318">Moser I.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11319">"comm. Pure Appl. Math.», 1977, v. 30, p. 95-125</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#11321">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#11320">Криеввер И. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11321">«функциональный анализ и его прилож.», 1978, т. 12, в. 1, с. 76-78</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#11323">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1840">Bordag L.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#10055">Its A. R.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2127">Manakovs. V.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2266">Matveevv. B.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#11322">Zakharov V. E.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11323">«phys. Lett.», 1977, p. 205-07.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1544">И. М. Кричевер</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[конечномерная динамическая система, являющаяся ограничением уравнения с частными производными на подкласс мероморфных функций (рациональньх, эллиптических или некоторых специальных функций). Классич. примером П. с. является система вихрей двумерной гидродинамики идеальной жидкости.
+
+Сушествование П. с. для заданного нелинейного уравнения является ситуацией исключительной. Повышенный интерес к ним в современной математич. физике был вызван работой [1], показавшей, что Кортевега - де Фриса уравнение имеет рациональные решения вида:
+
+\[
+u(x, t)=2 \sum_{i=1}^{N}\left(x-x_{i}(t)\right)^{-2}, \quad N=\frac{n(n+1)}{2}, \quad n \in \mathbb{Z},
+\]
+
+динамика полюсов К-рых тесно связана с теорией интегрируемой системы частиц на прямой - Мозера - Калоджеро системой. Впоследствии было показано [2], что существование рациональных решений характерно для большинства уравнений, допускающих коммутационное представление.
+
+Особенно важны П. с., связанные с двумерными уравнениями типа Кадомиева - Петвиашвили уравнения. Их рациональные решения с полюсами в комплексной области являются солитонами - решениями, локализованными по всем направлениям [3]. Процесс взаимодействия солитонов в этих случаях и описывается соответствующей П.с.
+
+Jum.: [1] Airault H., McKean H., Moser I., "Comm. Pure Appl. Math.», 1977, v. 30, p. 95-125; [2] К р и е в вер И. М., «ФунКциональный анализ и его прилож.», 1978, т. 12, в. 1, с. 76-78; [3] Bordag L., Its A. R., ManakovS.V., MatveevV.B., Zak h a rov V. E., «Phys. Lett.», 1977, p. 205-07. И. М. Кричевер.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2861_SOLITONOV"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1640_LOKALIZUEMOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2582_REDZhE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_511_GAMIL'TONIAN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

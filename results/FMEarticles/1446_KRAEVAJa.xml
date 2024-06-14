@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1446_KRAEVAJa" alphabetic_pos="1448">
+  <title>КРАЕВАЯ ЗАДАЧА ТЕОРИИ ПОТЕНЦИАЛА</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>304</start>
+    <end>304</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1446_1_KRAEVAJa">u(x)=f(x), x \in \Gamma,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1446_2_KRAEVAJa">\frac{\partial u(x)}{\partial n}=\varphi(x), x \in \Gamma .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1446_3_KRAEVAJa">\frac{\partial u(x)}{\partial n}+\alpha(x) u(x)=\psi(x), \quad x \in \Gamma .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1446_1_KRAEVAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1446_2_KRAEVAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1446_3_KRAEVAJa">\partial D=\Gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1446_4_KRAEVAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1446_5_KRAEVAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1446_6_KRAEVAJa">(*)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1446_7_KRAEVAJa">\partial u(x) / \partial n \mathrm{~K} \Gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1446_8_KRAEVAJa">\partial u(x) / \partial l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1446_9_KRAEVAJa">l=l(x), x \in \Gamma . \quad</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>основная задача теории потенциала. Поскольку ньютонов потенциал и логарифмический потенциал удовлетворяют определенным дифференциальным уравнениям с частными производными эллиптич. типа, а именно Лапласа уравнению в областях, свободных от порождающих эти потенциалы масс, и Пуассона уравнению в областях, занятых массами, к числу К. 3. теории потенциала относят в первую очередь краевые задачи для эллиптич. уравнений и систем.
+
+1) Дирихле задача, или первая краевая задача, когда требуется найти потенциал $URI[[http://libmeta.ru/fme/formula/aux/1446_1_KRAEVAJa]]/URI$ в нек-рой области $URI[[http://libmeta.ru/fme/formula/aux/1446_2_KRAEVAJa]]/URI$ по заданным его непрерывным значениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1446_1_KRAEVAJa]]/URI
+\]
+
+на границе области $URI[[http://libmeta.ru/fme/formula/aux/1446_3_KRAEVAJa]]/URI$, причем распределение масс внутри $URI[[http://libmeta.ru/fme/formula/aux/1446_4_KRAEVAJa]]/URI$ предполагается известным. Эта задача в теории потенциала является основной.
+
+2) Неймана задача, или вторая краевая задача, когда требуется найти потенциал в $URI[[http://libmeta.ru/fme/formula/aux/1446_5_KRAEVAJa]]/URI$ по заданным непрерывным значениям его нормальной производной
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1446_2_KRAEVAJa]]/URI
+\]
+
+3) Смешанная задача, или третья краевая задача, когда на Г задается линейная комбинация
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1446_3_KRAEVAJa]]/URI
+\]
+
+4) Задача с кос ой п ро из в одн о й, когда на Г в условии $URI[[http://libmeta.ru/fme/formula/aux/1446_6_KRAEVAJa]]/URI$ вместо производной по нормали $URI[[http://libmeta.ru/fme/formula/aux/1446_7_KRAEVAJa]]/URI$ фигурирует производная $URI[[http://libmeta.ru/fme/formula/aux/1446_8_KRAEVAJa]]/URI$ по произвольному, вообще говоря, направлению $URI[[http://libmeta.ru/fme/formula/aux/1446_9_KRAEVAJa]]/URI$</text>
+  <text_orig>основная задача теории потенциала. Поскольку ньютонов потенциал и логарифмический потенциал удовлетворяют определенным дифференциальным уравнениям с частными производными эллиптич. типа, а именно Лапласа уравнению в областях, свободных от порождающих эти потенциалы масс, и Пуассона уравнению в областях, занятых массами, к числу К. 3. теории потенциала относят в первую очередь краевые задачи для эллиптич. уравнений и систем.
+
+1) Дирихле задача, или первая краевая задача, когда требуется найти потенциал $u(x)$ в нек-рой области $D$ по заданным его непрерывным значениям
+
+\[
+u(x)=f(x), x \in \Gamma,
+\]
+
+на границе области $\partial D=\Gamma$, причем распределение масс внутри $D$ предполагается известным. Эта задача в теории потенциала является основной.
+
+2) Неймана задача, или вторая краевая задача, когда требуется найти потенциал в $D$ по заданным непрерывным значениям его нормальной производной
+
+\[
+\frac{\partial u(x)}{\partial n}=\varphi(x), x \in \Gamma .
+\]
+
+3) Смешанная задача, или третья краевая задача, когда на Г задается линейная комбинация
+
+\[
+\frac{\partial u(x)}{\partial n}+\alpha(x) u(x)=\psi(x), \quad x \in \Gamma .
+\]
+
+4) Задача с кос ой п ро из в одн о й, когда на Г в условии $(*)$ вместо производной по нормали $\partial u(x) / \partial n \mathrm{~K} \Gamma$ фигурирует производная $\partial u(x) / \partial l$ по произвольному, вообще говоря, направлению $l=l(x), x \in \Gamma . \quad$ Е.Д. Соломенцев.</text_orig>
+</article>

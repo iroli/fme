@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_23484">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>S</mi><mrow><mi>&#x0039B;</mi><mo>&#x0002C;</mo><mi>b</mi></mrow></msub><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mi>z</mi><mo>&#x02208;</mo><msub><mi>&#x02102;</mi><mrow><mo>&#x0002B;</mo></mrow></msub><mi>:</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007C;</mo><mfrac><mrow><mo>Im</mo><mi>z</mi></mrow><mrow><mo>Re</mo><mi>z</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mo>&#x0003C;</mo><mfrac><mrow><msqrt><mrow><mn>1</mn><mo>&#x02212;</mo><mn>2</mn><mo stretchy="false">&#x0007C;</mo><mover><mrow><mi>&#x0039B;</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mo stretchy="false">&#x0007C;</mo><mover><mrow><mi>b</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msqrt></mrow><mrow><mo stretchy="false">&#x0007C;</mo><mi>&#x0039B;</mi><mo stretchy="false">&#x0007C;</mo><mi>b</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$S_{\Lambda, b}=\left\{z \in \mathbb{C}_{+}:\left|\frac{\operatorname{Im} z}{\operatorname{Re} z}\right|&lt;\frac{\sqrt{1-2|\bar{\Lambda}| \bar{b}}}{|\Lambda| b}\right\} .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

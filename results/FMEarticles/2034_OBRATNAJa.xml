@@ -1,0 +1,226 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2034_OBRATNAJa" alphabetic_pos="2036">
+  <title>ОБРАТНАЯ КРАЕВАЯ ЗАДАЧА ДЛЯ АНАЛИТИЧЕСКИХ ФУНКЦИЙ</title>
+  <authors>
+    <author>Ю. Е. Хохлов</author>
+  </authors>
+  <pages>
+    <start>399</start>
+    <end>400</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Г а х о в Ф. Д., Краевые задачи, 3 изд., М., 1977; [2] Ту маш е в Г. Г., Н у ж и н М. Т., Обратные краевые задачи, 2 изд., Казань, 1965; [3] Монахов В. Н., Краевые задачи со свободными границами для эллиптических систем уравнений, Новосибирск, 1977; [4] Аксентьев Л.А., Ильинский Н.Б., Нужин М.Т. и др., в кн.: Итоги науки и техники. Математический анализ, т. 18, М., 1980, с. 67-124; [5] Авхадиев Ф.Г., Аксентьев Л.А., Ел и зар о в А. М., в кн.: Итоги науки и техники. Математический анализ, т. 25, М., 1987, с. 3-121.</literature_orig>
+    <unit>
+      <author>Гахов Ф. Д.</author>
+      <title>Краевые задачи</title>
+      <publication>3 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Тумашев Г. Г.</author>
+      <author>Нужин М. Т.</author>
+      <title>Обратные краевые задачи</title>
+      <publication>2 изд., Казань</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Монахов В. Н.</author>
+      <title>Краевые задачи со свободными границами для эллиптических систем уравнений, Новосибирск</title>
+      <publication/>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Аксентьев Л. А.</author>
+      <author>Ильинский Н. Б.</author>
+      <title>Нужин М.Т. и др., в кн.: Итоги науки и техники. Математический анализ</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other>т. 18, с. 67-124</other>
+    </unit>
+    <unit>
+      <author>Авхадиев Ф. Г.</author>
+      <author>Аксентьев Л. А.</author>
+      <author>Елизаров А. М.</author>
+      <title>в кн.: Итоги науки и техники. Математический анализ</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other>т. 25, с. 3-121.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2034_1_OBRATNAJa">\left.\operatorname{Re} w(z)\right|_{\gamma}=f_{1}(s),\left.\operatorname{Im} w(z)\right|_{\gamma}=f_{2}(s), 0 \leqslant s \leqslant l,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2034_2_OBRATNAJa">L=\left\{w \in \mathbb{C} \mid w=f_{1}(s)+f_{2}(s), 0 \leqslant s \leqslant l\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2034_3_OBRATNAJa">d \sigma=\sqrt{f_{1}^{\prime}(s)+f_{2}^{\prime}(s)} d s=\sqrt{|\nabla f|^{2}} d s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2034_4_OBRATNAJa">\alpha(w)=\ln z^{\prime}(w)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2034_5_OBRATNAJa">\left.\alpha\right|_{L}=\ln |d s / d \sigma|=-1 / 2 \ln |\nabla f|^{2} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2034_6_OBRATNAJa">z(w)=e^{i \beta} \int_{a}^{w} \exp \varphi\left(-1 / 2 \ln |\nabla f|^{2}\right)(w) d w+C,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_1_OBRATNAJa">\gamma \subset \mathbf{C}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_2_OBRATNAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_3_OBRATNAJa">d_{z}^{+}\left(d_{z}^{-}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_4_OBRATNAJa">d_{z}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_5_OBRATNAJa">w=w(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_6_OBRATNAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_7_OBRATNAJa">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_8_OBRATNAJa">f_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_9_OBRATNAJa">f_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_10_OBRATNAJa">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_11_OBRATNAJa">d s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_12_OBRATNAJa">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_13_OBRATNAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_14_OBRATNAJa">d_{w}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_15_OBRATNAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_16_OBRATNAJa">d_{w}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_17_OBRATNAJa">\beta \in \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_18_OBRATNAJa">c \in \mathbb{C}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_19_OBRATNAJa">w(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_20_OBRATNAJa">d_{z}^{+}=z\left(d_{w}^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_21_OBRATNAJa">d_{z}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_22_OBRATNAJa">d_{z}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_23_OBRATNAJa">z^{\prime}(w)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_24_OBRATNAJa">d_{w}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_25_OBRATNAJa">w_{0}=w(\infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_26_OBRATNAJa">\operatorname{res}_{w_{0}} z^{\prime}(w)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_27_OBRATNAJa">z(w)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_28_OBRATNAJa">w_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_29_OBRATNAJa">w_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_30_OBRATNAJa">w(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_31_OBRATNAJa">\gamma_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_32_OBRATNAJa">w(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2034_33_OBRATNAJa">\gamma_{2}</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/2034_1_OBRATNAJa">
+      <rel_text>краевым условиям</rel_text>
+      <target>http://libmeta.ru/fme/article/1447_KRAEVYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2034_2_OBRATNAJa">
+      <rel_text>частных</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2034_3_OBRATNAJa">
+      <rel_text>краевые условия</rel_text>
+      <target>http://libmeta.ru/fme/article/1447_KRAEVYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2034_4_OBRATNAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2034_5_OBRATNAJa">
+      <rel_text>римановых поверхностях</rel_text>
+      <target>http://libmeta.ru/fme/article/2640_RIMANOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2034_6_OBRATNAJa">
+      <rel_text>областях</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2034_7_OBRATNAJa">
+      <rel_text>многосвязных</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2034_8_OBRATNAJa">
+      <rel_text>полярный угол</rel_text>
+      <target>http://libmeta.ru/fme/article/2324_POLJaRNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2034_9_OBRATNAJa">
+      <rel_text>полярный радиус</rel_text>
+      <target>http://libmeta.ru/fme/article/2323_POLJaRNYJ</target>
+    </relation>
+  </relations>
+  <text>задача об отыскании области и аналитической в ней функции по заданным на границе области значениям функции. Точнее, внутренняя (внешняя) О. К. 3. (см. [1], [2]) состоит в определении неизвестной границы $URI[[http://libmeta.ru/fme/formula/aux/2034_1_OBRATNAJa]]/URI$ заданной длины $URI[[http://libmeta.ru/fme/formula/aux/2034_2_OBRATNAJa]]/URI$, ограничивающей конечную (бесконечную) область $URI[[http://libmeta.ru/fme/formula/aux/2034_3_OBRATNAJa]]/URI$, и аналитической в $URI[[http://libmeta.ru/fme/formula/aux/2034_4_OBRATNAJa]]/URI$функции $URI[[http://libmeta.ru/fme/formula/aux/2034_5_OBRATNAJa]]/URI$ таких, что на неизвестной границе удовлетворяются краевые условия:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2034_1_OBRATNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2034_6_OBRATNAJa]]/URI$ - длина дуги кривой $URI[[http://libmeta.ru/fme/formula/aux/2034_7_OBRATNAJa]]/URI$. Предполагается, что требования, накладываемые на функции $URI[[http://libmeta.ru/fme/formula/aux/2034_8_OBRATNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2034_9_OBRATNAJa]]/URI$, гарантируют жордановость и определенную гладкость замкнутой кривой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2034_2_OBRATNAJa]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2034_10_OBRATNAJa]]/URI$ таким задачам приводят математич. модели аэродинамики, теории фильтрации, магнитной гидродинамики, теории взрыва и т. Д. (см. [3], [4]).
+
+Метод решения О. К. З., основанный на теории конформных отображений, заключается в установлении соответствия между длинами дуг $URI[[http://libmeta.ru/fme/formula/aux/2034_11_OBRATNAJa]]/URI$ неизвестной границы $URI[[http://libmeta.ru/fme/formula/aux/2034_12_OBRATNAJa]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2034_3_OBRATNAJa]]/URI
+\]
+
+известной кривой $URI[[http://libmeta.ru/fme/formula/aux/2034_13_OBRATNAJa]]/URI$ с последующим решением Дирихле задачи в известной области $URI[[http://libmeta.ru/fme/formula/aux/2034_14_OBRATNAJa]]/URI$ для действительной части функции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2034_4_OBRATNAJa]]/URI
+\]
+
+по известным граничным данным
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2034_5_OBRATNAJa]]/URI
+\]
+
+Решение внутренней О. к. з. существует и допускает интегральное представление вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2034_6_OBRATNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2034_15_OBRATNAJa]]/URI$ - оператор Шварца в области $URI[[http://libmeta.ru/fme/formula/aux/2034_16_OBRATNAJa]]/URI$, константы $URI[[http://libmeta.ru/fme/formula/aux/2034_17_OBRATNAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2034_18_OBRATNAJa]]/URI$. Построение функции $URI[[http://libmeta.ru/fme/formula/aux/2034_19_OBRATNAJa]]/URI$ в уже найденной области $URI[[http://libmeta.ru/fme/formula/aux/2034_20_OBRATNAJa]]/URI$не составляет труда.
+
+Общий вид представления (2) показывает, что искомая область $URI[[http://libmeta.ru/fme/formula/aux/2034_21_OBRATNAJa]]/URI$определяется с точностью до движения. Совокупность подобных областей, отличающихся лишь положением на плоскости, естественно рассматривается как одно решение. Для внутренней О. К. з. такое решение единственно.
+
+Внешняя О.к. з. характеризуется тем, что бесконечно удаленная точка принадлежит искомой области $URI[[http://libmeta.ru/fme/formula/aux/2034_22_OBRATNAJa]]/URI$. Приме- няя описанный метод решения, приходится восстанавливать функцию $URI[[http://libmeta.ru/fme/formula/aux/2034_23_OBRATNAJa]]/URI$, аналитическую в $URI[[http://libmeta.ru/fme/formula/aux/2034_24_OBRATNAJa]]/URI$кроме точки $URI[[http://libmeta.ru/fme/formula/aux/2034_25_OBRATNAJa]]/URI$, где она имеет полюс 2-го порядка. Соотношение $URI[[http://libmeta.ru/fme/formula/aux/2034_26_OBRATNAJa]]/URI$, гарантирующее отсутствие логарифмич. особенности у $URI[[http://libmeta.ru/fme/formula/aux/2034_27_OBRATNAJa]]/URI$ в точке $URI[[http://libmeta.ru/fme/formula/aux/2034_28_OBRATNAJa]]/URI$, является условием замкнутости неизвестной границы и служит уравнением для отыскания $URI[[http://libmeta.ru/fme/formula/aux/2034_29_OBRATNAJa]]/URI$. Оно разрешимо, вообще говоря, не единственным способом, а внешняя О. к. з. в силу этого может иметь несколько существенно различных решений. В то же время внешняя О.К. з. однозначно разрешима в классах областей с выпуклыми границами, звездными границами и в нек-рых более широких классах.
+
+В модельных задачах математич. физики используются способы задания граничных данных функции $URI[[http://libmeta.ru/fme/formula/aux/2034_30_OBRATNAJa]]/URI$ через другие параметры (URI[[http://libmeta.ru/fme/relation/2034_9_OBRATNAJa]]/URI, URI[[http://libmeta.ru/fme/relation/2034_8_OBRATNAJa]]/URI, декартовы координаты и т. д.), вносящие изменения в схему решения О. к. з. Рассматриваются О. к. з. в URI[[http://libmeta.ru/fme/relation/2034_7_OBRATNAJa]]/URI URI[[http://libmeta.ru/fme/relation/2034_6_OBRATNAJa]]/URI, на URI[[http://libmeta.ru/fme/relation/2034_5_OBRATNAJa]]/URI, для функций с особенностями полярного и логарифмич. характера и т.д. (см. [2], [4]). При этом, как правило, сохраняется общий метод решения, тогда как используемый аппарат усложняется. Изучаются так наз. смешанные О.к. з. (см. [3], [4]), когда граница искомой URI[[http://libmeta.ru/fme/relation/2034_4_OBRATNAJa]]/URI состоит из известной части границы $URI[[http://libmeta.ru/fme/formula/aux/2034_31_OBRATNAJa]]/URI$, где задана действительная или мнимая часть $URI[[http://libmeta.ru/fme/formula/aux/2034_32_OBRATNAJa]]/URI$, и неизвестной части границы $URI[[http://libmeta.ru/fme/formula/aux/2034_33_OBRATNAJa]]/URI$, где заданы URI[[http://libmeta.ru/fme/relation/2034_3_OBRATNAJa]]/URI (1). В настоящее время эти задачи исследованы в отдельных URI[[http://libmeta.ru/fme/relation/2034_2_OBRATNAJa]]/URI случаях. В прикладных задачах требование жордановости неизвестной границы означает физич. реализуемость решения, в связи с чем встает проблема выделения однолистных решений О.к. з. по исходным URI[[http://libmeta.ru/fme/relation/2034_1_OBRATNAJa]]/URI (1). Имеются определенные достижения в этом направлении (см. [5]), но до окончательного решения проблемы далеко.</text>
+  <text_orig>задача об отыскании области и аналитической в ней функции по заданным на границе области значениям функции. Точнее, внутренняя (внешняя) О. К. 3. (см. [1], [2]) состоит в определении неизвестной границы $\gamma \subset \mathbf{C}$ заданной длины $l$, ограничивающей конечную (бесконечную) область $D_{z}^{+}\left(D_{z}^{-}\right)$, и аналитической в $D_{z}^{+}$функции $w=w(z)$ таких, что на неизвестной границе удовлетворяются краевые условия:
+
+\[
+\left.\operatorname{Re} w(z)\right|_{\gamma}=f_{1}(s),\left.\operatorname{Im} w(z)\right|_{\gamma}=f_{2}(s), 0 \leqslant s \leqslant l,
+\]
+
+где $s$ - длина дуги кривой $\gamma$. Предполагается, что требования, накладываемые на функции $f_{1}$ и $f_{2}$, гарантируют жордановость и определенную гладкость замкнутой кривой
+
+\[
+L=\left\{w \in \mathbb{C} \mid w=f_{1}(s)+f_{2}(s), 0 \leqslant s \leqslant l\right\} .
+\]
+
+$\mathrm{K}$ таким задачам приводят математич. модели аэродинамики, теории фильтрации, магнитной гидродинамики, теории взрыва и т. Д. (см. [3], [4]).
+
+Метод решения О. К. З., основанный на теории конформных отображений, заключается в установлении соответствия между длинами дуг $d s$ неизвестной границы $\gamma$ и
+
+\[
+d \sigma=\sqrt{f_{1}^{\prime}(s)+f_{2}^{\prime}(s)} d s=\sqrt{|\nabla f|^{2}} d s
+\]
+
+известной кривой $L$ с последуюшим решением Дирихле задачи в известной области $D_{w}$ для действительной части функции
+
+\[
+\alpha(w)=\ln z^{\prime}(w)
+\]
+
+по известным граничным данным
+
+\[
+\left.\alpha\right|_{L}=\ln |d s / d \sigma|=-1 / 2 \ln |\nabla f|^{2} .
+\]
+
+Решение внутренней О. к. з. существует и допускает интегральное представление вида:
+
+\[
+z(w)=e^{i \beta} \int_{a}^{w} \exp \varphi\left(-1 / 2 \ln |\nabla f|^{2}\right)(w) d w+C,
+\]
+
+где $\varphi$ - оператор Шварца в области $D_{w}^{+}$, константы $\beta \in \mathbb{R}$, $C \in \mathbb{C}$. Построение функции $w(z)$ в уже найденной области $D_{z}^{+}=z\left(D_{w}^{+}\right)$не составляет труда.
+
+Общий вид представления (2) показывает, что искомая область $D_{z}^{+}$определяется с точностью до движения. Совокупность подобных областей, отличающихся лишь положением на плоскости, естественно рассматривается как одно решение. Для внутренней О. К. з. такое решение единственно.
+
+Внешняя О.к. з. характеризуется тем, что бесконечно удаленная точка принадлежит искомой об̈ласти $D_{z}^{-}$. Приме- няя описанный метод решения, приходится восстанавливать функцию $z^{\prime}(w)$, аналитическую в $D_{w}^{-}$кроме точки $w_{0}=w(\infty)$, где она имеет полюс 2-го порядка. Соотношение $\operatorname{Res}_{w_{0}} z^{\prime}(w)=0$, гарантирующее отсутствие логарифмич. особенности у $z(w)$ в точке $w_{0}$, является условием замкнутости неизвестной границы и служит уравнением для отыскания $w_{0}$. Оно разрешимо, вообще говоря, не единственным способом, а внешняя О. к. з. в силу этого может иметь несколько существенно различных решений. В то же время внешняя О.К. з. однозначно разрешима в классах областей с выпуклыми границами, звездными границами и в нек-рых более широких классах.
+
+В модельных задачах математич. физики используются способы задания граничных данных функции $w(z)$ через другие параметры (полярный радиус, полярный угол, декартовы координаты и т. д.), вносящие изменения в схему решения О. к. з. Рассматриваются О. к. з. в многосвязных областях, на римановых поверхностях, для функций с особенностями полярного и логарифмич. характера и т.д. (см. [2], [4]). При этом, как правило, сохраняется общий метод решения, тогда как используемый аппарат усложняется. Изучаются так наз. смешанные О.к. з. (см. [3], [4]), когда граница искомой области состоит из известной части границы $\gamma_{1}$, где задана действительная или мнимая часть $w(z)$, и неизвестной части границы $\gamma_{2}$, где заданы краевые условия (1). В настоящее время эти задачи исследованы в отдельных частных случаях. В прикладных задачах требование жордановости неизвестной границы означает физич. реализуемость решения, в связи с чем встает проблема выделения однолистных решений О.к. з. по исходным краевым условиям (1). Имеются определенные достижения в этом направлении (см. [5]), но до окончательного решения проблемы далеко.
+
+Лит.: [1] Г а х о в Ф. Д., Краевые задачи, 3 изд., М., 1977; [2] Ту маш е в Г. Г., Н у ж и н М. Т., Обратные краевые задачи, 2 изд., Казань, 1965; [3] Монахов В. Н., Краевые задачи со свободными границами для эллиптических систем уравнений, Новосибирск, 1977; [4] Аксентьев Л.А., Ильинский Н.Б., Нужин М.Т. и др., в кн.: Итоги науки и техники. Математический анализ, т. 18, М., 1980, с. 67-124; [5] Авхадиев Ф.Г., Аксентьев Л.А., Ел и зар о в А. М., в кн.: Итоги науки и техники. Математический анализ, т. 25, М., 1987, с. 3-121. Ю. Е. Хохлов.</text_orig>
+</article>

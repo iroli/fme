@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_14814">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>P</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><msubsup><mo>&#x0222B;</mo><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow><mrow><mo>&#x0002B;</mo><mo>&#x0221E;</mo></mrow></msubsup><mi>p</mi><mi>&#x003C1;</mi><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>p</mi><mo>&#x0002B;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>a</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><msub><mi>N</mi><mrow><mn>1</mn></mrow></msub></mrow></msubsup><msub><mi>p</mi><mrow><mi>a</mi></mrow></msub><mo>&#x0002B;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>b</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><msub><mi>N</mi><mrow><mn>2</mn></mrow></msub></mrow></msubsup><msub><mi>&#x003B7;</mi><mrow><mi>b</mi></mrow></msub><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>M</mi><mo>&#x0003D;</mo><mfrac><mrow><mn>8</mn><mi>m</mi></mrow><mrow><mi>&#x003B3;</mi></mrow></mfrac><mo>&#x0002C;</mo><mspace width="1em" /><mi>&#x003B8;</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x003B3;</mi></mrow><mrow><mn>16</mn></mrow></mfrac><mi>&#x003B1;</mi><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}P_{1}=\int_{-\infty}^{+\infty} p \rho(p) d p+\sum_{a=1}^{N_{1}} p_{a}+\sum_{b=1}^{N_{2}} \eta_{b}, \\M=\frac{8 m}{\gamma}, \quad \theta=\frac{\gamma}{16} \alpha .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

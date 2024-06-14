@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_17720">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mi>w</mi><mo>&#x02208;</mo><msup><mi>&#x02102;</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msup><mi>:</mi><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007C;</mo><msubsup><mi>w</mi><mrow><mn>0</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mo>&#x0002B;</mo><mi>&#x02026;</mi><mo>&#x0002B;</mo><msubsup><mi>w</mi><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><mn>1</mn><mo>&#x0003E;</mo><mn>2</mn><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007C;</mo><msub><mi>w</mi><mrow><mn>0</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><mi>&#x02026;</mi><mo>&#x0002B;</mo><mn>2</mn><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007C;</mo><msub><mi>w</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mrow><mn>2</mn></mrow></msup><mo>&#x0002C;</mo><mo stretchy="true" fence="true" form="postfix" /></mrow><mspace linebreak="newline" /><mrow><mo stretchy="true" fence="true" form="prefix" /><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007C;</mo><msubsup><mi>w</mi><mrow><mn>0</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mo>&#x0002B;</mo><mi>&#x02026;</mi><mo>&#x0002B;</mo><msubsup><mi>w</mi><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mo>&#x0003C;</mo><mn>1</mn><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\left\{w \in \mathbb{C}^{n+1}:\left|w_{0}^{2}+\ldots+w_{n}^{2}\right|^{2}+1&gt;2\left|w_{0}\right|^{2}+\ldots+2\left|w_{n}\right|^{2},\right. \\\left.\left|w_{0}^{2}+\ldots+w_{n}^{2}\right|&lt;1\right\} .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

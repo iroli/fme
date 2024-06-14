@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1839_MOSchNOST">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1839_MOSchNOST</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/931</core:url>
+    <lbm:descriptor><![CDATA[МОЩНОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7729"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7730"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_33"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7486"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7731"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3273_FIZIChESKIE">физическая величина</a>, измеряемая отношением работы к промежутку времени, в течение которого она произведена. Если работа производится равномерно, то М. определяется формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7729">$$N=A / t,$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1839_1_MOSchNOST]]/URI$ - работа за время $URI[[http://libmeta.ru/fme/formula/aux/1839_2_MOSchNOST]]/URI$, а в общем случае<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7730">$$N=d A / d t \text {, }$$</a><BR/></P><P>$URI[[http://libmeta.ru/fme/formula/aux/1839_3_MOSchNOST]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3515_ELEMENTARNAJa">элементарная работа</a> за элементарный промежуток времени $URI[[http://libmeta.ru/fme/formula/aux/1839_4_MOSchNOST]]/URI$.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[физическая величина, измеряемая отношением работы к промежутку времени, в течение которого она произведена. Если работа производится равномерно, то М. определяется формулой
+
+\[
+N=A / t,
+\]
+
+где $A$ - работа за время $t$, а в общем случае
+
+\[
+N=d A / d t \text {, }
+\]
+
+$d A$ - элементарная работа за элементарный промежуток времени $d t$.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3515_ELEMENTARNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3273_FIZIChESKIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

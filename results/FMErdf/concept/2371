@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3134_TURBULENTNAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3134_TURBULENTNAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2371</core:url>
+    <lbm:descriptor><![CDATA[ТУРБУЛЕНТНАЯ ТЕПЛОПРОВОДНОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1353"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17764"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17765"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17766"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_115"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_544"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17767"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17768"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a> валентности 2 из коэффициентов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17764">$$c \rho K_{i j}$$</a> линейной зависимости <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST">турбулентного</a> потока тепла <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17765">$$q_{i}=c \rho\left\langle\theta^{\prime} u_{j}^{\prime}\right\rangle$$</a> от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_703_GRADIEN">градиента</a> осредненного температурного поля <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17766">$$\partial\langle\theta\rangle / \partial x_{j}(c-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST">теплоемкость</a>, $URI[[http://libmeta.ru/fme/formula/aux/3134_4_TURBULENTNAJa]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотность</a>). Даже в простейшем случае, когда осредненное <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3136_TURBULENTNOE">турбулентное течение</a> плоскопараллельно, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_544">$$k_{i j}$$</a> не диагонален. Тем не менее нередко учитывают лишь его вертикальную <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17767">$$k_{z Z}$$</a> и горизонтальные компоненты <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17768">$$k_{x X} \approx K_{Y Y}$$</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1353">А. С. Монин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[тенЗор валентности 2 из коэффициентов $c \rho K_{i j}$ линейной зависимости турбулентного потока тепла $q_{i}=c \rho\left\langle\theta^{\prime} u_{j}^{\prime}\right\rangle$ от градиента осредненного температурного поля $\partial\langle\theta\rangle / \partial x_{j}(c-$ теплоемкость, $\rho$ - плотность). Даже в простейшем случае, когда осредненное турбулентное течение плоскопараллельно, тензор $K_{i j}$ не диагонален. Тем не менее нередко учитывают лишь его вертикальную $K_{Z Z}$ и горизонтальные компоненты $K_{X X} \approx K_{Y Y}$.
+
+А. С. Монин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3136_TURBULENTNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_703_GRADIEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

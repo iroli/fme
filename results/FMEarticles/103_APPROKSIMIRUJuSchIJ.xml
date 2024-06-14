@@ -1,0 +1,486 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/103_APPROKSIMIRUJuSchIJ" alphabetic_pos="103">
+  <title>АППРОКСИМИРУЮЩИЙ ГАМИЛЬТОНИАН</title>
+  <authors/>
+  <pages>
+    <start>29</start>
+    <end>31</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Боголюбов Н. Н., Избранные труды, тт. 1-3, К., 1970; [2] H a ag R., &quot;nuovo Cim.», 1962, v. 25, p. 287-99; [3] Б о го л юб о в Н. Н. (м л.), Метод исследования модельных гамильтонианов, М., 1974; [4] Боголюбов Н. Н. (мл.) и др. Метод аппроксимирующего гамильтониана в статистической физике, София, 1981; [5] Бо голюбов Н. Н. (мл.) и др., «успехи математич. наук», 1984, т. 39 , в. 6, с. 3-45; [6] Бо го любов Н. Н. (мл.), Курбатов А. М., П е т и на Д. Я., Санко в ич Д. П., в кн.: Советские научные обзоры, сер. С, Математическая физика, 1980, I; [7] T i n demans P.A.J., Capel H.W., &quot;physica», 1974, v. 75, p. 407-53; [8] Den Ouden L.W.J., Capel H.W., Perkj.H. H., &quot;physica», 1976, v. 85 A, p. 425-56; [9] G in i b re J., &quot;comm. Math. Phys.», 1968, v. 8, p. 26-51; [10] Hertel P., Thirring W., &quot;comm. Math. Phys.», 1971 , v. 24, p. 22-36; [11] Пастур Л.А., Ф иготи н А. Л., «теоретич. и математич. физика», 1978, т. 35, с. 193-210; [12] Плак и д а Н. М., Т о нч е в Н. С., «теоретич. и математич. физика», 1987, т. 72, с. 269-76.</literature_orig>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <title>Избранные труды</title>
+      <publication>К.</publication>
+      <year>1970</year>
+      <other>тт. 1-3</other>
+    </unit>
+    <unit>
+      <author>Haag R.</author>
+      <title>&quot;nuovo Cim.»</title>
+      <publication/>
+      <year>1962</year>
+      <other>v. 25, p. 287-99</other>
+    </unit>
+    <unit>
+      <title>Б о го л юб о в Н. Н. (м л.), Метод исследования модельных гамильтонианов</title>
+      <publication>М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Боголюбов Н. Н. (мл.) и др. Метод аппроксимирующего гамильтониана в статистической физике, София</title>
+      <publication/>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Бо голюбов Н. Н. (мл.) и др., «успехи математич. наук»</title>
+      <publication/>
+      <year>1984</year>
+      <other>т. 39, в. 6, с. 3-45</other>
+    </unit>
+    <unit>
+      <title>Бо го любов Н. Н. (мл.), Курбатов А. М., П е т и на Д. Я., Санко в ич Д. П., в кн.: Советские научные обзоры, сер. С, Математическая физика</title>
+      <publication/>
+      <year>1980</year>
+      <other>I</other>
+    </unit>
+    <unit>
+      <author>Tindemans P. A. J.</author>
+      <author>Capel H. W.</author>
+      <title>&quot;physica»</title>
+      <publication/>
+      <year>1974</year>
+      <other>v. 75, p. 407-53</other>
+    </unit>
+    <unit>
+      <author>Den Ouden L. W. J.</author>
+      <author>Capel H. W.</author>
+      <author>Perkj. H. H.</author>
+      <title>&quot;physica»</title>
+      <publication/>
+      <year>1976</year>
+      <other>v. 85 A, p. 425-56</other>
+    </unit>
+    <unit>
+      <author>Ginibre J.</author>
+      <title>&quot;comm. Math. Phys.»</title>
+      <publication/>
+      <year>1968</year>
+      <other>v. 8, p. 26-51</other>
+    </unit>
+    <unit>
+      <author>Hertel P.</author>
+      <author>Thirring W.</author>
+      <title>&quot;comm. Math. Phys.»</title>
+      <publication/>
+      <year>1971</year>
+      <other>v. 24, p. 22-36</other>
+    </unit>
+    <unit>
+      <author>Пастур Л. А.</author>
+      <author>Фиготин А. Л.</author>
+      <title>«теоретич. и математич. физика»</title>
+      <publication/>
+      <year>1978</year>
+      <other>т. 35, с. 193-210</other>
+    </unit>
+    <unit>
+      <author>Плакида Н. М.</author>
+      <author>Тончев Н. С.</author>
+      <title>«теоретич. и математич. физика»</title>
+      <publication/>
+      <year>1987</year>
+      <other>т. 72, с. 269-76.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_1_APPROKSIMIRUJuSchIJ">f_{\Lambda}[H]=-(\beta / \Lambda)^{-1} \ln \operatorname{Tr} \exp (-\beta H)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_2_APPROKSIMIRUJuSchIJ">\langle A\rangle_{H}=\operatorname{Tr}\left(A e^{-\beta H}\right) / \operatorname{Tr} e^{-\beta H}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_3_APPROKSIMIRUJuSchIJ">H=T-|\Lambda| \sum_{k=1}^{r} g_{k} A_{\Lambda, k} A_{\Lambda, k}^{+}+|\Lambda| \sum_{k=r+1}^{s} g_{k} A_{\Lambda, k^{A, k}} A_{\Lambda,}^{+},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_4_APPROKSIMIRUJuSchIJ">\begin{gathered}\left\|A_{\Lambda, k}^{\#}\right\| \leqslant M_{1}, \quad\left\|\left[A_{\Lambda, k}, A_{\Lambda, k^{\prime}}^{\#}\right]\right\| \leqslant M_{2}|\Lambda|^{-1}, \\\left\|\left[A_{\Lambda, k}^{\#},\left[A_{\Lambda, k^{\prime}},\right]\right]\right\| \leqslant M_{2 T}|\Lambda|^{-1}, \\\left\|\left[A_{\Lambda, k}^{\#},\left[A_{\Lambda, k^{\prime}}^{\#}, A_{\Lambda, k^{\prime \prime}}\right]\right]\right\| \leqslant M_{3}|\Lambda|^{-2},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_5_APPROKSIMIRUJuSchIJ">\begin{gathered}H_{0}(a, b)=T-|\Lambda| \sum_{k=1}^{r} g_{k}\left(a_{k} A_{\Lambda, k}^{+}+a_{k}^{*} A_{\Lambda, k}-a_{k} a_{k}^{*}\right)+ \\+|\Lambda| \sum_{k=r+1}^{s} g_{k}\left(b_{k} A_{\Lambda, k}^{+}+b_{k}^{*} A_{\Lambda, k}-b_{k} b_{k}^{*}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_6_APPROKSIMIRUJuSchIJ">t-\lim \left|\inf _{a \in \mathbb{C}^{r}} \sup _{b \in \mathbb{C}^{(s-r)}} f_{\Lambda}\left[H_{0}(a, b)\right]-f_{\Lambda}[H]\right|=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_7_APPROKSIMIRUJuSchIJ">\begin{gathered}t-\lim f_{\Lambda}[H]=t-\lim \left\{\inf _{a \in \mathbb{C}^{r}} \sup _{b \in \mathbb{C}^{(s-r)}} f_{\Lambda}\left[H_{0}(a, b)\right]\right\}= \\=\inf _{a \in \mathbb{C}^{r}} \sup _{b \in \mathbb{C}^{(s-r)}}\left\{t-\lim f_{\Lambda}\left[H_{0}(a, b)\right]\right\} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_8_APPROKSIMIRUJuSchIJ">t-\lim \left\langle\left(A_{\Lambda}-a\right)^{2}\right\rangle_{H_{0}(a)}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_9_APPROKSIMIRUJuSchIJ">H_{0}(a)=T-|\Lambda| \varphi^{\prime}(a)\left(A_{\Lambda}-a\right)-|\Lambda| \varphi(a),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_10_APPROKSIMIRUJuSchIJ">a=\left\langle A_{\Lambda}\right\rangle_{H_{0}(a)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_11_APPROKSIMIRUJuSchIJ">t-\lim \left\{f_{\Lambda}[H]-\inf _{a \in S_{\Lambda}} f_{\Lambda}\left[H_{0}(a)\right]\right\}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_12_APPROKSIMIRUJuSchIJ">F(x)=t-\lim f_{\Lambda}\left[T-x|\Lambda| A_{\Lambda}\right],</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_13_APPROKSIMIRUJuSchIJ">t-\lim f_{\Lambda}[H]=\inf _{a \in S}\left\{t-\lim f_{\Lambda}\left[H_{0}(a)\right]\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_14_APPROKSIMIRUJuSchIJ">-F^{\prime}\left(\varphi^{\prime}(a)-0\right) \leqslant a \leqslant-F^{\prime}\left(\varphi^{\prime}(a)+0\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_15_APPROKSIMIRUJuSchIJ">S=\left\{a \in \mathbb{R}^{l}: a=t-\lim \left\langle A_{\Lambda}\right\rangle_{H_{0}(a)}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_16_APPROKSIMIRUJuSchIJ">H=H_{L}+\sum_{k=1}^{M} \omega_{k} b_{k}^{+} b_{k}+|\Lambda|^{-1 / 2} \sum_{k=1}^{M} \lambda_{k}\left(b_{k} L_{k}^{+}+b_{k}^{+} L_{k}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_17_APPROKSIMIRUJuSchIJ">\begin{gathered}H_{0}(\eta)=H_{L}+|\Lambda| \sum_{k=1}^{M}\left\{\omega _ { k } ( | \Lambda | ^ { - 1 / 2 } b _ { k } ^ { + } + \lambda _ { k } \omega _ { k } ^ { - 1 } \eta _ { k } ^ { * } ) \left(|\Lambda|^{-1 / 2} b_{k}+\right.\right. \\\left.\left.+\lambda_{k} \omega_{k}^{-1} \eta_{k}\right)-\lambda_{k}^{2}\left(\omega_{k}|\Lambda|\right)^{-1}\left(\eta_{k} L_{k}^{+}+\eta_{k}^{*} L_{k}\right)+\lambda_{k}^{2} \omega_{k}^{-1}\left|\eta_{k}\right|^{2}\right\},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/103_18_APPROKSIMIRUJuSchIJ">0 \leqslant \inf _{\eta \in \mathbb{C}^{M}} f_{\Lambda}\left[H_{0}(\eta)\right]-f_{\Lambda}[H] \leqslant O\left(|\Lambda|^{-1 / 3}\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_1_APPROKSIMIRUJuSchIJ">(u-v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_2_APPROKSIMIRUJuSchIJ">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_3_APPROKSIMIRUJuSchIJ">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_4_APPROKSIMIRUJuSchIJ">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_5_APPROKSIMIRUJuSchIJ">h=\gamma-\mu N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_6_APPROKSIMIRUJuSchIJ">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_7_APPROKSIMIRUJuSchIJ">\mu-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_8_APPROKSIMIRUJuSchIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_9_APPROKSIMIRUJuSchIJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_10_APPROKSIMIRUJuSchIJ">|\lambda|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_11_APPROKSIMIRUJuSchIJ">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_12_APPROKSIMIRUJuSchIJ">\mathbb{r}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_13_APPROKSIMIRUJuSchIJ">\mathbb{z}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_14_APPROKSIMIRUJuSchIJ">a^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_15_APPROKSIMIRUJuSchIJ">a, A^{\#}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_16_APPROKSIMIRUJuSchIJ">a^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_17_APPROKSIMIRUJuSchIJ">\boldsymbol{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_18_APPROKSIMIRUJuSchIJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_19_APPROKSIMIRUJuSchIJ">h, \operatorname{Tr}(\cdot)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_20_APPROKSIMIRUJuSchIJ">\beta=\left(k_{\mathrm{b}} T\right), K_{\mathrm{b}}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_21_APPROKSIMIRUJuSchIJ">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_22_APPROKSIMIRUJuSchIJ">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_23_APPROKSIMIRUJuSchIJ">g_{k}&gt;0, T=T^{+},\left|f_{\Lambda}[\mathrm{T}]\right| \leqslant M_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_24_APPROKSIMIRUJuSchIJ">k, k^{\prime}, k^{\prime \prime}=1, \ldots, s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_25_APPROKSIMIRUJuSchIJ">r&lt;s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_26_APPROKSIMIRUJuSchIJ">k=r+1, \ldots, s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_27_APPROKSIMIRUJuSchIJ">\bar{b}_{\lambda}(a)=\left\{\bar{b}_{\lambda, k}(a)\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_28_APPROKSIMIRUJuSchIJ">b_{k}=\left\langle A_{\Lambda, k}\right\rangle_{H_{0}(a, b)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_29_APPROKSIMIRUJuSchIJ">f_{\lambda}[h]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_30_APPROKSIMIRUJuSchIJ">t-\lim f_{\Lambda}\left[H_{0}(a, b)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_31_APPROKSIMIRUJuSchIJ">r=s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_32_APPROKSIMIRUJuSchIJ">r=s=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_33_APPROKSIMIRUJuSchIJ">h=t-|\Lambda| \varphi\left(A_{\Lambda}\right), \quad</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_34_APPROKSIMIRUJuSchIJ">t=t^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_35_APPROKSIMIRUJuSchIJ">f_{\lambda}[t]&lt;\infty, \quad A_{\Lambda}=A_{\Lambda}^{+}, \quad\left\|A_{\Lambda}\right\| \leqslant M_{1}, \quad\left\|\left[T, A_{\Lambda}\right]\right\| \leqslant M_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_36_APPROKSIMIRUJuSchIJ">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_37_APPROKSIMIRUJuSchIJ">x \in \mathbf{I} \equiv\left[-M_{1}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_38_APPROKSIMIRUJuSchIJ">\left.M_{1}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_39_APPROKSIMIRUJuSchIJ">\left|\varphi^{\prime \prime}(x)\right| \leqslant K, x \in \mathbb{I}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_40_APPROKSIMIRUJuSchIJ">a \in S_{\Lambda} \subset \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_41_APPROKSIMIRUJuSchIJ">s_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_42_APPROKSIMIRUJuSchIJ">x \in \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_43_APPROKSIMIRUJuSchIJ">s \subset \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_44_APPROKSIMIRUJuSchIJ">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_45_APPROKSIMIRUJuSchIJ">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_46_APPROKSIMIRUJuSchIJ">x \in \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_47_APPROKSIMIRUJuSchIJ">\varphi^{\prime \prime}(a)&gt;0, a \in \mathbb{I}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_48_APPROKSIMIRUJuSchIJ">\varphi^{\prime \prime}(a)&lt;0, a \in \mathbb{I},-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_49_APPROKSIMIRUJuSchIJ">a_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_50_APPROKSIMIRUJuSchIJ">h_{l}=h_{l}^{+}, f_{\Lambda}\left[H_{L}\right]&lt;\infty, b_{k}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_51_APPROKSIMIRUJuSchIJ">b_{k}, k=1, \ldots, M,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_52_APPROKSIMIRUJuSchIJ">\omega_{k} \geqslant \omega_{0}&gt;0, \lambda_{k} \geqslant 0,\left\|L_{k}^{\#}\right\| \leqslant C|\Lambda|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_53_APPROKSIMIRUJuSchIJ">\eta=\left(\eta_{1}, \ldots, \eta_{M}\right) \in \mathbb{C}^{M}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_54_APPROKSIMIRUJuSchIJ">o\left(|\lambda|^{-1 / 3}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_55_APPROKSIMIRUJuSchIJ">|\lambda| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_56_APPROKSIMIRUJuSchIJ">f_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_57_APPROKSIMIRUJuSchIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_58_APPROKSIMIRUJuSchIJ">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/103_59_APPROKSIMIRUJuSchIJ">n^{-7 / 3} F_{N}</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/103_1_APPROKSIMIRUJuSchIJ">
+      <rel_text>флуктуации</rel_text>
+      <target>http://libmeta.ru/fme/article/3283_FLUKTUATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/103_2_APPROKSIMIRUJuSchIJ">
+      <rel_text>вариант</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/103_3_APPROKSIMIRUJuSchIJ">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/103_4_APPROKSIMIRUJuSchIJ">
+      <rel_text>потенциалом взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/2724_SERDTsEVINA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/103_5_APPROKSIMIRUJuSchIJ">
+      <rel_text>свободной энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/2696_SVOBODNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/103_6_APPROKSIMIRUJuSchIJ">
+      <rel_text>давления</rel_text>
+      <target>http://libmeta.ru/fme/article/750_DAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/103_7_APPROKSIMIRUJuSchIJ">
+      <rel_text>получаемых</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>гамильтониан системы многих тел, который строится по определенным правилам из исходного модельного гамильтониана, является термодинамически эквивалентным ему и имеет более простую структуру. В ряде случаев удается построить А. г., к-рый допускает явное вычисление статистич. суммы и корреляционных функций в термодинамич. пределе. Интерес может представлять также сведение исходной задачи к исследованию более простой, хотя и не точно решаемой модели.
+
+Метод А. г. является математически строгим методом исследования в статистич. механике. Он включает в себя следующие взаимосвязанные компоненты: 1) описание классов модельных гамильтонианов, допускающих существенно более простой А. г.; 2) правила построения соответствующего данному классу А. г.; 3) технику получения асимптотич. оценок, доказывающих термодинамич., а если возможно, и статистич. эквивалентность А. г. исходному гамильтониану; 4) исследование термодинамич. и статистич. свойств системы, описываемой А. Г.
+
+Идея А. г. впервые высказана Н. Н. Боголюбовым в 1947 в его работе по теории слабо неидеального бозе-газа (см. [1]). Она состояла в том, что в модельном гамильтониане операторы рождения и гибели частиц с нулевым импульсом, при условии наличия в системе бозе-конденсата, заменялись на с-числа. Величина последних определялась из термодинамич. соображений. Таким образом, для модельного гамильтониана строился А. г., зависящий от термодинамич. параметров, к-рый диагонализируется с помощью канонич. $URI[[http://libmeta.ru/fme/formula/aux/103_1_APPROKSIMIRUJuSchIJ]]/URI$-преобразования, впервые введенного в этой же работе. Были приведены убедительные аргументы в пользу того, что оба эти гамильтониана термодинамически эквивалентны. В 1960 Н. Н. Боголюбов (см. [1]) математически строго показал, что в термодинамич. пределе плотности энергии основного состояния и функции Грина для нулевой температуры, соответствующие модельному и аппроксимирующему гамильтонианам модели Бкш - Боголюбова (см. Бкш-модель) в теории сверхпроводимости, совпадают. Тем самым была строго доказана термодинамич. и статистич. эквивалентность этих гамильтонианов для нулевой температуры. Здесь был использован метод включения внешних источников, нарушающих симметрию исходного гамильтониана, к-рый впоследствии получил дальнейшее развитие в фундаментальной работе о квазисредних в задачах статистич. механики. Вывод асимптотич. оценок для функций Грина и корреляционных средних при отличном от нуля источнике существенно основывался на асимптотической коммутативности нек-рых операторных конструкций, входящих в гамильтониан взаимодействия, со всеми операторами Ферми рождения и гибели. Математич. структуру модели Бкш - Боголюбова с точки зрения асимптотич. коммутативности этих операторных конструкций между собой и со всеми операторами алгебры, порождаемой канонич. переменными, проанализировал Р. Хааг [2]. Он показал, что для придания смысла сходимости этих операторов, представляющих собой пространственные средние от локальных (квазилокальных) операторов, к $URI[[http://libmeta.ru/fme/formula/aux/103_2_APPROKSIMIRUJuSchIJ]]/URI$-числам в термодинамич. пределе, а также соответствующей сходимости модельного гамильтониана А. г., необходимо тонкое исследование структуры пространства представлений канонич. переменных для бесконечной системы. Независимо от трудностей алгебраич. обоснования выделение в гамильтониане взаимодействия подобных операторных конструкций, к-рые асимптотически коммутируют со всеми канонич. переменными, и их замена по определенным правилам на $URI[[http://libmeta.ru/fme/formula/aux/103_3_APPROKSIMIRUJuSchIJ]]/URI$-числа утвердились в качестве основного эвристич. принципа построения А. г. в общем случае.
+
+Основания современной формулировки метода А. г. были положены в 1965-66 в работах Н. Н. Боголюбова (мл.) (см. [3]). Он развил метод прямого доказательства термоди- намич. эквивалентности модельного и А. г. при произвольных температурах и для целого класса модельных систем (см. [3]). (о дальнейшем развитии и обобщении метода А. г. cm. [4]-[6].)
+
+В качестве иллюстрации опишем нек-рые общие классы моделей, допускающих асимптотически точное решение (или существенное упрощение) методом А. Г., и приведем соответствующую каждому классу форму А. г. Везде будет подразумеваться, что гамильтониан $URI[[http://libmeta.ru/fme/formula/aux/103_4_APPROKSIMIRUJuSchIJ]]/URI$ (статистич. оператор $URI[[http://libmeta.ru/fme/formula/aux/103_5_APPROKSIMIRUJuSchIJ]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/103_6_APPROKSIMIRUJuSchIJ]]/URI$ - гамильтониан, $URI[[http://libmeta.ru/fme/formula/aux/103_7_APPROKSIMIRUJuSchIJ]]/URI$ химич. потенциал, $URI[[http://libmeta.ru/fme/formula/aux/103_8_APPROKSIMIRUJuSchIJ]]/URI$ - оператор числа частиц) задан как самосопряженный оператор в подходящем гильбертовом пространстве и описывает систему частиц, заключенных в области $URI[[http://libmeta.ru/fme/formula/aux/103_9_APPROKSIMIRUJuSchIJ]]/URI$ конечного объема $URI[[http://libmeta.ru/fme/formula/aux/103_10_APPROKSIMIRUJuSchIJ]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/103_11_APPROKSIMIRUJuSchIJ]]/URI$-мерном пространстве $URI[[http://libmeta.ru/fme/formula/aux/103_12_APPROKSIMIRUJuSchIJ]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/103_13_APPROKSIMIRUJuSchIJ]]/URI$. Введем обозначения: Ii. Ii - норма оператора, [·, .] - коммутатор, $URI[[http://libmeta.ru/fme/formula/aux/103_14_APPROKSIMIRUJuSchIJ]]/URI$- оператор, сопряженный $URI[[http://libmeta.ru/fme/formula/aux/103_15_APPROKSIMIRUJuSchIJ]]/URI$ обозначает либо $URI[[http://libmeta.ru/fme/formula/aux/103_16_APPROKSIMIRUJuSchIJ]]/URI$, либо $URI[[http://libmeta.ru/fme/formula/aux/103_17_APPROKSIMIRUJuSchIJ]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_1_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+- плотность термодинамич. потенциала и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_2_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+- среднее значение наблюдаемой $URI[[http://libmeta.ru/fme/formula/aux/103_18_APPROKSIMIRUJuSchIJ]]/URI$ в канонич. (большом канонич.) ансамбле Гиббса для системы с гамильтонианом (статистич. оператором) $URI[[http://libmeta.ru/fme/formula/aux/103_19_APPROKSIMIRUJuSchIJ]]/URI$ след оператора, $URI[[http://libmeta.ru/fme/formula/aux/103_20_APPROKSIMIRUJuSchIJ]]/URI$ константа Больцмана, $URI[[http://libmeta.ru/fme/formula/aux/103_21_APPROKSIMIRUJuSchIJ]]/URI$ абсолютная температура, $URI[[http://libmeta.ru/fme/formula/aux/103_22_APPROKSIMIRUJuSchIJ]]/URI$-lim - термодинамич. предел.
+
+1. Гамильтонианы с квадратичной по ограниченным интенсивным операторам формо й (см. [4], [5], [7]). Для простоты предполагается, что квадратичная форма дана в канонич. виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_3_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/103_23_APPROKSIMIRUJuSchIJ]]/URI$ и для всех $URI[[http://libmeta.ru/fme/formula/aux/103_24_APPROKSIMIRUJuSchIJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_4_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+и, если $URI[[http://libmeta.ru/fme/formula/aux/103_25_APPROKSIMIRUJuSchIJ]]/URI$, то для всех $URI[[http://libmeta.ru/fme/formula/aux/103_26_APPROKSIMIRUJuSchIJ]]/URI$ выполнено условие кластеризации
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_7de28ee68f6d750e266dg-1.jpg?height=115&amp;width=716&amp;top_left_y=1382&amp;top_left_x=126)
+
+где $URI[[http://libmeta.ru/fme/formula/aux/103_27_APPROKSIMIRUJuSchIJ]]/URI$ решение системы уравнений $URI[[http://libmeta.ru/fme/formula/aux/103_28_APPROKSIMIRUJuSchIJ]]/URI$. В этом случае А. г. имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_5_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+причем (принцип минимакса):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_6_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+Для существования термодинамич. предела для $URI[[http://libmeta.ru/fme/formula/aux/103_29_APPROKSIMIRUJuSchIJ]]/URI$ необходимо потребовать существование $URI[[http://libmeta.ru/fme/formula/aux/103_30_APPROKSIMIRUJuSchIJ]]/URI$ поточечно. Тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_7_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+Примером системы с квадратичной формой общего вида является модель сверхпроводника с магнитным фазовым переходом, в к-рой учитывается как взаимодействие типа Бкш, так и редуцированное обменное взаимодействие коллективизированных электронов с локализованными магнитными моментами (см. [4]). Следует заметить, что в частном случае $URI[[http://libmeta.ru/fme/formula/aux/103_31_APPROKSIMIRUJuSchIJ]]/URI$, когда нет взаимодействия типа отталкивания, необходимость в условии кластеризации отпадает. К случаю $URI[[http://libmeta.ru/fme/formula/aux/103_32_APPROKSIMIRUJuSchIJ]]/URI$ относятся, напр., модели Бкш - Боголюбова и Кюри - Вейсса.
+
+2. Гамильтонианы с функцией от ограни ченной, самосопряженной интенсивной на блюд а е мой (см. [4]): $URI[[http://libmeta.ru/fme/formula/aux/103_33_APPROKSIMIRUJuSchIJ]]/URI$ где $URI[[http://libmeta.ru/fme/formula/aux/103_34_APPROKSIMIRUJuSchIJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/103_35_APPROKSIMIRUJuSchIJ]]/URI$. Функция $URI[[http://libmeta.ru/fme/formula/aux/103_36_APPROKSIMIRUJuSchIJ]]/URI$ дважды дифференцируема на интервалах $URI[[http://libmeta.ru/fme/formula/aux/103_37_APPROKSIMIRUJuSchIJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/103_38_APPROKSIMIRUJuSchIJ]]/URI$, причем $URI[[http://libmeta.ru/fme/formula/aux/103_39_APPROKSIMIRUJuSchIJ]]/URI$. Кроме того, для $URI[[http://libmeta.ru/fme/formula/aux/103_40_APPROKSIMIRUJuSchIJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_8_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+где А. г. имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_9_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+a $URI[[http://libmeta.ru/fme/formula/aux/103_41_APPROKSIMIRUJuSchIJ]]/URI$ есть множество всех решений уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_10_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+Тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_11_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+Если потребовать существование термодинамич. предела
+
+для всех $URI[[http://libmeta.ru/fme/formula/aux/103_42_APPROKSIMIRUJuSchIJ]]/URI$, то существует
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_12_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_13_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/103_43_APPROKSIMIRUJuSchIJ]]/URI$ есть множество решений неравенств
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_14_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+Эти неравенства впервые получены в [8] как обобщение уравнения самосогласования на случай, когда $URI[[http://libmeta.ru/fme/formula/aux/103_44_APPROKSIMIRUJuSchIJ]]/URI$ не дифференцируема. Если $URI[[http://libmeta.ru/fme/formula/aux/103_45_APPROKSIMIRUJuSchIJ]]/URI$ - дифференцируемая функция $URI[[http://libmeta.ru/fme/formula/aux/103_46_APPROKSIMIRUJuSchIJ]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_15_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+Можно показать, что частный случай $URI[[http://libmeta.ru/fme/formula/aux/103_47_APPROKSIMIRUJuSchIJ]]/URI$, описывает взаимодействие типа притяжения, а $URI[[http://libmeta.ru/fme/formula/aux/103_48_APPROKSIMIRUJuSchIJ]]/URI$ типа отталкивания. Нетривиальным примером системы этого класса служит модель, в к-рой $URI[[http://libmeta.ru/fme/formula/aux/103_49_APPROKSIMIRUJuSchIJ]]/URI$ есть гамильтониан плоской модели Изинга со взаимодействием ближайших соседей. Случай аналитич. функции многих переменных рассмотрен в [8].
+
+3. Гамильтонианы вида (см. [4]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_16_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/103_50_APPROKSIMIRUJuSchIJ]]/URI$и $URI[[http://libmeta.ru/fme/formula/aux/103_51_APPROKSIMIRUJuSchIJ]]/URI$ бозе-операторы рождения и гибели, $URI[[http://libmeta.ru/fme/formula/aux/103_52_APPROKSIMIRUJuSchIJ]]/URI$. А. г. имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_17_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/103_53_APPROKSIMIRUJuSchIJ]]/URI$. Тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/103_18_APPROKSIMIRUJuSchIJ]]/URI
+\]
+
+причем $URI[[http://libmeta.ru/fme/formula/aux/103_54_APPROKSIMIRUJuSchIJ]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/103_55_APPROKSIMIRUJuSchIJ]]/URI$ равномерно по температуре в любом ограниченном интервале.
+
+Гамильтонианы этого типа используются для описания взаимодействия бозонного поля (фононы, фотоны) с веще- ством, напр. Дикке модель, модель структурной неустойчивости типа удвоения периода, в к-рой зонные электроны взаимодействуют с выделенной фононной модой, модель сверхпроводника со структурной неустойчивостью (см. [4]).
+
+4. Другие модели, к к-рым применим ме тод А.Г. Вопрос об асимптотич. точности результатов, URI[[http://libmeta.ru/fme/relation/103_7_APPROKSIMIRUJuSchIJ]]/URI методом А. г. для URI[[http://libmeta.ru/fme/relation/103_6_APPROKSIMIRUJuSchIJ]]/URI в большом канонич. ансамбле Гиббса для системы многих взаимодействующих бозонов, исследовался Дж. Жинибром [9]. Используя идеи метода А. Г., П. Хертел и В. Тирринг [10] показали, что для URI[[http://libmeta.ru/fme/relation/103_5_APPROKSIMIRUJuSchIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/103_56_APPROKSIMIRUJuSchIJ]]/URI$ системы из $URI[[http://libmeta.ru/fme/formula/aux/103_57_APPROKSIMIRUJuSchIJ]]/URI$ фермионов с URI[[http://libmeta.ru/fme/relation/103_4_APPROKSIMIRUJuSchIJ]]/URI типа гравитационного притяжения существует конечная при $URI[[http://libmeta.ru/fme/formula/aux/103_58_APPROKSIMIRUJuSchIJ]]/URI$ URI[[http://libmeta.ru/fme/relation/103_3_APPROKSIMIRUJuSchIJ]]/URI вида $URI[[http://libmeta.ru/fme/formula/aux/103_59_APPROKSIMIRUJuSchIJ]]/URI$, к-рая в точности воспроизводит уравнение Томаса-Ферми. Л. А. Пастур и А. Л. Фиготин [11] применили URI[[http://libmeta.ru/fme/relation/103_2_APPROKSIMIRUJuSchIJ]]/URI метода А. г. в теории неупорядоченных спиновых систем. Н. М. Плакида и Н. С. Тончев [12] построили А. Г. для модели кристалла с ангармонич. взаимодействием специального вида, в к-рой существенны как классич., так и квантовые URI[[http://libmeta.ru/fme/relation/103_1_APPROKSIMIRUJuSchIJ]]/URI. С помощью новой техники асимптотич. оценок было показано, что эта модель точно решаема для произвольной размерности пространства и при наличии внешнего поля.</text>
+  <text_orig>гамильтониан системы многих тел, который строится по определенным правилам из исходного модельного гамильтониана, является термодинамически эквивалентным ему и имеет более простую структуру. В ряде случаев удается построить А. г., к-рый допускает явное вычисление статистич. суммы и корреляционных функций в термодинамич. пределе. Интерес может представлять также сведе́ние исходной задачи к исследованию более простой, хотя и не точно решаемой модели.
+
+Метод А. г. является математически строгим методом исследования в статистич. механике. Он включает в себя следующие взаимосвязанные компоненты: 1) описание классов модельных гамильтонианов, допускающих существенно более простой А. г.; 2) правила построения соответствующего данному классу А. г.; 3) технику получения асимптотич. оценок, доказывающих термодинамич., а если возможно, и статистич. эквивалентность А. г. исходному гамильтониану; 4) исследование термодинамич. и статистич. свойств системы, описываемой А. Г.
+
+Идея А. г. впервые высказана Н. Н. Боголюбовым в 1947 в его работе по теории слабо неидеального бозе-газа (см. [1]). Она состояла в том, что в модельном гамильтониане операторы рождения и гибели частиц с нулевым импульсом, при условии наличия в системе бозе-конденсата, заменялись на с-числа. Величина последних определялась из термодинамич. соображений. Таким образом, для модельного гамильтониана строился А. г., зависящий от термодинамич. параметров, к-рый диагонализируется с помощью канонич. $(u-v)$-преобразования, впервые введенного в этой же работе. Были приведены убедительные аргументы в пользу того, что оба эти гамильтониана термодинамически эквивалентны. В 1960 Н. Н. Боголюбов (см. [1]) математически строго показал, что в термодинамич. пределе плотности энергии основного состояния и функции Грина для нулевой температуры, соответствующие модельному и аппроксимируюшему гамильтонианам модели БКШ - Боголюбова (см. БКШ-модель) в теории сверхпроводимости, совпадают. Тем самым была строго доказана термодинамич. и статистич. эквивалентность этих гамильтонианов для нулевой температуры. Здесь был использован метод включения внешних источников, нарушающих симметрию исходного гамильтониана, к-рый впоследствии получил дальнейшее развитие в фундаментальной работе о квазисредних в задачах статистич. механики. Вывод асимптотич. оценок для функций Грина и корреляционных средних при отличном от нуля источнике существенно основывался на асимптотической коммутативности нек-рых операторных конструкций, входящих в гамильтониан взаимодействия, со всеми операторами Ферми рождения и гибели. Математич. структуру модели БКШ - Боголюбова с точки зрения асимптотич. коммутативности этих операторных конструкций между собой и со всеми операторами алгебры, порождаемой канонич. переменными, проанализировал Р. Хааг [2]. Он показал, что для придания смысла сходимости этих операторов, представляющих собой пространственные средние от локальных (квазилокальных) операторов, к $c$-числам в термодинамич. пределе, а также соответствующей сходимости модельного гамильтониана А. г., необходимо тонкое исследование структуры пространства представлений канонич. переменных для бесконечной системы. Независимо от трудностей алгебраич. обоснования выделение в гамильтониане взаимодействия подобных операторных конструкций, к-рые асимптотически коммутируют со всеми канонич. переменными, и их замена по определенным правилам на $c$-числа утвердились в качестве основного эвристич. принципа построения А. г. в общем случае.
+
+Основания современной формулировки метода А. г. были положены в 1965-66 в работах Н. Н. Боголюбова (мл.) (см. [3]). Он развил метод прямого доказательства термоди- намич. эквивалентности модельного и А. г. при произвольных температурах и для целого класса модельных систем (см. [3]). (О дальнейшем развитии и обобшении метода А. г. cM. [4]-[6].)
+
+В качестве иллюстрации опишем нек-рые общие классы моделей, допускающих асимптотически точное решение (или существенное упрощение) методом А. Г., и приведем соответствующую каждому классу форму А. г. Везде будет подразумеваться, что гамильтониан $H$ (статистич. оператор $H=\Gamma-\mu N$, где $\Gamma$ - гамильтониан, $\mu-$ химич. потенциал, $N$ - оператор числа частиц) задан как самосопряженный оператор в подходящем гильбертовом пространстве и описывает систему частиц, заключенных в области $\Lambda$ конечного объема $|\Lambda|$ в $v$-мерном пространстве $\mathbb{R}^{v}$ или $\mathbb{Z}^{v}$. Введем обозначения: II. II - норма оператора, [·, .] - коммутатор, $A^{+}$- оператор, сопряженный $A, A^{\#}$ обозначает либо $A^{+}$, либо $\boldsymbol{A}$,
+
+\[
+f_{\Lambda}[H]=-(\beta / \Lambda)^{-1} \ln \operatorname{Tr} \exp (-\beta H)
+\]
+
+- плотность термодинамич. потенциала и
+
+\[
+\langle A\rangle_{H}=\operatorname{Tr}\left(A e^{-\beta H}\right) / \operatorname{Tr} e^{-\beta H}
+\]
+
+- среднее значение наблюдаемой $A$ в канонич. (большом канонич.) ансамбле Гиббса для системы с гамильтонианом (статистич. оператором) $H, \operatorname{Tr}(\cdot)-$ след оператора, $\beta=\left(K_{\mathrm{b}} T\right), K_{\mathrm{b}}-$ константа Больцмана, $T-$ абсолютная температура, $t$-lim - термодинамич. предел.
+
+1. Гамильтонианы с квадратичной по ограниченным интенсивным операторам формо й (см. [4], [5], [7]). Для простоты предполагается, что квадратичная форма дана в канонич. виде:
+
+\[
+H=T-|\Lambda| \sum_{k=1}^{r} g_{k} A_{\Lambda, k} A_{\Lambda, k}^{+}+|\Lambda| \sum_{k=r+1}^{s} g_{k} A_{\Lambda, k^{A, k}} A_{\Lambda,}^{+},
+\]
+
+где $g_{k}&gt;0, T=T^{+},\left|f_{\Lambda}[\mathrm{T}]\right| \leqslant M_{0}$ и для всех $k, k^{\prime}, k^{\prime \prime}=1, \ldots, s$ :
+
+\[
+\begin{gathered}
+\left\|A_{\Lambda, k}^{\#}\right\| \leqslant M_{1}, \quad\left\|\left[A_{\Lambda, k}, A_{\Lambda, k^{\prime}}^{\#}\right]\right\| \leqslant M_{2}|\Lambda|^{-1}, \\
+\left\|\left[A_{\Lambda, k}^{\#},\left[A_{\Lambda, k^{\prime}},\right]\right]\right\| \leqslant M_{2 T}|\Lambda|^{-1}, \\
+\left\|\left[A_{\Lambda, k}^{\#},\left[A_{\Lambda, k^{\prime}}^{\#}, A_{\Lambda, k^{\prime \prime}}\right]\right]\right\| \leqslant M_{3}|\Lambda|^{-2},
+\end{gathered}
+\]
+
+и, если $r&lt;s$, то для всех $k=r+1, \ldots, s$ выполнено условие кластеризации
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_7de28ee68f6d750e266dg-1.jpg?height=115&amp;width=716&amp;top_left_y=1382&amp;top_left_x=126)
+
+где $\bar{b}_{\Lambda}(a)=\left\{\bar{b}_{\Lambda, k}(a)\right\}-$ решение системы уравнений $b_{k}=\left\langle A_{\Lambda, k}\right\rangle_{H_{0}(a, b)}$. В этом случае А. г. имеет вид
+
+\[
+\begin{gathered}
+H_{0}(a, b)=T-|\Lambda| \sum_{k=1}^{r} g_{k}\left(a_{k} A_{\Lambda, k}^{+}+a_{k}^{*} A_{\Lambda, k}-a_{k} a_{k}^{*}\right)+ \\
++|\Lambda| \sum_{k=r+1}^{s} g_{k}\left(b_{k} A_{\Lambda, k}^{+}+b_{k}^{*} A_{\Lambda, k}-b_{k} b_{k}^{*}\right),
+\end{gathered}
+\]
+
+причем (принцип минимакса):
+
+\[
+t-\lim \left|\inf _{a \in \mathbb{C}^{r}} \sup _{b \in \mathbb{C}^{(s-r)}} f_{\Lambda}\left[H_{0}(a, b)\right]-f_{\Lambda}[H]\right|=0 .
+\]
+
+Для существования термодинамич. предела для $f_{\Lambda}[H]$ необходимо потребовать существование $t-\lim f_{\Lambda}\left[H_{0}(a, b)\right]$ поточечно. Тогда
+
+\[
+\begin{gathered}
+t-\lim f_{\Lambda}[H]=t-\lim \left\{\inf _{a \in \mathbb{C}^{r}} \sup _{b \in \mathbb{C}^{(s-r)}} f_{\Lambda}\left[H_{0}(a, b)\right]\right\}= \\
+=\inf _{a \in \mathbb{C}^{r}} \sup _{b \in \mathbb{C}^{(s-r)}}\left\{t-\lim f_{\Lambda}\left[H_{0}(a, b)\right]\right\} .
+\end{gathered}
+\]
+
+Примером системы с квадратичной формой общего вида является модель сверхпроводника с магнитным фазовым переходом, в к-рой учитывается как взаимодействие типа БКШ, так и редуцированное обменное взаимодействие коллективизированных электронов с локализованными магнитными моментами (см. [4]). Следует заметить, что в частном случае $r=s$, когда нет взаимодействия типа отталкивания, необходимость в условии кластеризации отпадает. К случаю $r=s=1$ относятся, напр., модели БКШ - Боголюбова и Кюри - Вейсса.
+
+2. Гамильтонианы с функцией от ограни ченной, самосопряженной интенсивной на блюд а е мой (см. [4]): $H=T-|\Lambda| \varphi\left(A_{\Lambda}\right), \quad$ где $T=T^{+}$, $f_{\Lambda}[T]&lt;\infty, \quad A_{\Lambda}=A_{\Lambda}^{+}, \quad\left\|A_{\Lambda}\right\| \leqslant M_{1}, \quad\left\|\left[T, A_{\Lambda}\right]\right\| \leqslant M_{2}$. Функция $\varphi(x)$ дважды дифференцируема на интервалах $x \in \mathbf{I} \equiv\left[-M_{1}\right.$, $\left.M_{1}\right]$, причем $\left|\varphi^{\prime \prime}(x)\right| \leqslant K, x \in \mathbb{I}$. Кроме того, для $a \in S_{\Lambda} \subset \mathbb{R}^{1}$ :
+
+\[
+t-\lim \left\langle\left(A_{\Lambda}-a\right)^{2}\right\rangle_{H_{0}(a)}=0
+\]
+
+где А. г. имеет вид
+
+\[
+H_{0}(a)=T-|\Lambda| \varphi^{\prime}(a)\left(A_{\Lambda}-a\right)-|\Lambda| \varphi(a),
+\]
+
+a $S_{\Lambda}$ есть множество всех решений уравнения
+
+\[
+a=\left\langle A_{\Lambda}\right\rangle_{H_{0}(a)}
+\]
+
+Тогда
+
+\[
+t-\lim \left\{f_{\Lambda}[H]-\inf _{a \in S_{\Lambda}} f_{\Lambda}\left[H_{0}(a)\right]\right\}=0 .
+\]
+
+Если потребовать существование термодинамич. предела
+
+для всех $x \in \mathbb{R}^{1}$, то существует
+
+\[
+F(x)=t-\lim f_{\Lambda}\left[T-x|\Lambda| A_{\Lambda}\right],
+\]
+
+\[
+t-\lim f_{\Lambda}[H]=\inf _{a \in S}\left\{t-\lim f_{\Lambda}\left[H_{0}(a)\right]\right\}
+\]
+
+где $S \subset \mathbb{R}^{1}$ есть множество решений неравенств
+
+\[
+-F^{\prime}\left(\varphi^{\prime}(a)-0\right) \leqslant a \leqslant-F^{\prime}\left(\varphi^{\prime}(a)+0\right) .
+\]
+
+Эти неравенства впервые получены в [8] как обобщение уравнения самосогласования на случай, когда $F(x)$ не дифференцируема. Если $F(x)$ - дифференцируемая функция $x \in \mathbb{R}^{1}$, то
+
+\[
+S=\left\{a \in \mathbb{R}^{l}: a=t-\lim \left\langle A_{\Lambda}\right\rangle_{H_{0}(a)}\right\}
+\]
+
+Можно показать, что частный случай $\varphi^{\prime \prime}(a)&gt;0, a \in \mathbb{I}$, описывает взаимодействие типа притяжения, а $\varphi^{\prime \prime}(a)&lt;0, a \in \mathbb{I},-$ типа отталкивания. Нетривиальным примером системы этого класса служит модель, в к-рой $A_{\Lambda}$ есть гамильтониан плоской модели Изинга со взаимодействием ближайших соседей. Случай аналитич. функции многих переменных рассмотрен в [8].
+
+3. Гамильтонианы вида (см. [4]):
+
+\[
+H=H_{L}+\sum_{k=1}^{M} \omega_{k} b_{k}^{+} b_{k}+|\Lambda|^{-1 / 2} \sum_{k=1}^{M} \lambda_{k}\left(b_{k} L_{k}^{+}+b_{k}^{+} L_{k}\right),
+\]
+
+где $H_{L}=H_{L}^{+}, f_{\Lambda}\left[H_{L}\right]&lt;\infty, b_{k}^{+}$и $b_{k}, k=1, \ldots, M,-$ бозе-операторы рождения и гибели, $\omega_{k} \geqslant \omega_{0}&gt;0, \lambda_{k} \geqslant 0,\left\|L_{k}^{\#}\right\| \leqslant C|\Lambda|$. А. г. имеет вид
+
+\[
+\begin{gathered}
+H_{0}(\eta)=H_{L}+|\Lambda| \sum_{k=1}^{M}\left\{\omega _ { k } ( | \Lambda | ^ { - 1 / 2 } b _ { k } ^ { + } + \lambda _ { k } \omega _ { k } ^ { - 1 } \eta _ { k } ^ { * } ) \left(|\Lambda|^{-1 / 2} b_{k}+\right.\right. \\
+\left.\left.+\lambda_{k} \omega_{k}^{-1} \eta_{k}\right)-\lambda_{k}^{2}\left(\omega_{k}|\Lambda|\right)^{-1}\left(\eta_{k} L_{k}^{+}+\eta_{k}^{*} L_{k}\right)+\lambda_{k}^{2} \omega_{k}^{-1}\left|\eta_{k}\right|^{2}\right\},
+\end{gathered}
+\]
+
+где $\eta=\left(\eta_{1}, \ldots, \eta_{M}\right) \in \mathbb{C}^{M}$. Тогда
+
+\[
+0 \leqslant \inf _{\eta \in \mathbb{C}^{M}} f_{\Lambda}\left[H_{0}(\eta)\right]-f_{\Lambda}[H] \leqslant O\left(|\Lambda|^{-1 / 3}\right),
+\]
+
+причем $O\left(|\Lambda|^{-1 / 3}\right)$ при $|\Lambda| \rightarrow \infty$ равномерно по температуре в любом ограниченном интервале.
+
+Гамильтонианы этого типа используются для описания взаимодействия бозонного поля (фононы, фотоны) с веще- ством, напр. Дикке модель, модель структурной неустойчивости типа удвоения периода, в к-рой зонные электроны взаимодействуют с выделенной фононной модой, модель сверхпроводника со структурной неустойчивостью (см. [4]).
+
+4. Другие модели, к к-рым применим ме тод А.Г. Вопрос об асимптотич. точности результатов, получаемых методом А. г. для давления в большом канонич. ансамбле Гиббса для системы многих взаимодействуюших бозонов, исследовался Дж. Жинибром [9]. Используя идеи метода А. Г., П. Хертел и В. Тирринг [10] показали, что для свободной энергии $F_{N}$ системы из $N$ фермионов с потенциалом взаимодействия типа гравитационного притяжения существует конечная при $N \rightarrow \infty$ плотность вида $N^{-7 / 3} F_{N}$, к-рая в точности воспроизводит уравнение Томаса-Ферми. Л. А. Пастур и А. Л. Фиготин [11] применили вариант метода А. г. в теории неупорядоченных спиновых систем. Н. М. Плакида и Н. С. Тончев [12] построили А. Г. для модели кристалла с ангармонич. взаимодействием специального вида, в к-рой существенны как классич., так и квантовые флуктуации. С помощью новой техники асимптотич. оценок было показано, что эта модель точно решаема для произвольной размерности пространства и при наличии внешнего поля.
+
+Лum.: [1] Боголюбов Н. Н., Избранные труды, тт. 1-3, К., 1970; [2] H a ag R., &quot;Nuovo Cim.», 1962, v. 25, p. 287-99; [3] Б о го л юб о в Н. Н. (м л.), Метод исследования модельных гамильтонианов, М., 1974; [4] Боголюбов Н. Н. (мл.) и др. Метод аппроксимирующего гамильтониана в статистической физике, София, 1981; [5] Бо голюбов Н. Н. (мл.) и др., «Успехи математич. наук», 1984, т. 39 , в. 6, с. 3-45; [6] Бо го любов Н. Н. (мл.), Курбатов А. М., П е т и на Д. Я., Санко в ич Д. П., в кн.: Советские научные обзоры, сер. С, Математическая физика, 1980, I; [7] T i n demans P.A.J., Capel H.W., &quot;Physica», 1974, v. 75, p. 407-53; [8] Den Ouden L.W.J., Capel H.W., PerkJ.H. H., &quot;Physica», 1976, v. 85 A, p. 425-56; [9] G in i b re J., &quot;Comm. Math. Phys.», 1968, v. 8, p. 26-51; [10] Hertel P., Thirring W., &quot;Comm. Math. Phys.», 1971 , v. 24, p. 22-36; [11] Пастур Л.А., Ф иготи н А. Л., «Теоретич. и математич. физика», 1978, т. 35, с. 193-210; [12] Плак и д а Н. М., Т о нч е в Н. С., «Теоретич. и математич. физика», 1987, т. 72, с. 269-76.</text_orig>
+</article>

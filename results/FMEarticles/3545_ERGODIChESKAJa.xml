@@ -1,0 +1,368 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3545_ERGODIChESKAJa" alphabetic_pos="3547">
+  <title>ЭРГОДИЧЕСКАЯ ТЕОРИЯ</title>
+  <authors/>
+  <pages>
+    <start>683</start>
+    <end>685</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Корн фель д И. П., Синай Я.Г., Фомин С. В., Эргодическая теория, М., 1980; [2] Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 2, М., 1985; [3] Колм о го р о А. Н., “доклады Ан СССР», 1958, т. 119, № 5, с. 861-64; [4] Кры ло в Н. С., Работы по обоснованию статистической физики, М.- Л., 1950; [5] С и най Я., «доклады Ан СССР», 1959, т. 124, № 4, с. 768-71; [6] О р н с тей н Д., Эргодическая теория, случайность и динамические системы, пер. с англ., М., 1978; [7] Не йман Дж., Избранные труды по функциональному анализу, т. 1-2, пер. с англ., М., 1987.</literature_orig>
+    <unit>
+      <author>Корнфельд И. П.</author>
+      <author>Синай Я. Г.</author>
+      <author>Фомин С. В.</author>
+      <title>Эргодическая теория</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Итоги науки и техники. Современные проблемы математики. Фундаментальные направления</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other>т. 2</other>
+    </unit>
+    <unit>
+      <author>Колмогоро А. Н.</author>
+      <title>“доклады Ан СССР»</title>
+      <publication/>
+      <year>1958</year>
+      <other>т. 119, № 5, с. 861-64</other>
+    </unit>
+    <unit>
+      <author>Крылов Н. С.</author>
+      <title>Работы по обоснованию статистической физики, М.- Л.</title>
+      <publication/>
+      <year>1950</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Синай Я.</author>
+      <title>«доклады Ан СССР»</title>
+      <publication/>
+      <year>1959</year>
+      <other>т. 124, № 4, с. 768-71</other>
+    </unit>
+    <unit>
+      <author>Орнстейн Д.</author>
+      <title>Эргодическая теория, случайность и динамические системы</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Не йман Дж., Избранные труды по функциональному анализу</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1987</year>
+      <other>т. 1-2</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3545_1_ERGODIChESKAJa">\left(\left(S^{*}\right)^{t} \mathrm{P}\right)(C)=\mathrm{P}\left(S^{-t} C\right), C \in \mathscr{F} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3545_2_ERGODIChESKAJa">\left(S^{*}\right)^{t} \mathrm{P} \Rightarrow \mathrm{P}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3545_3_ERGODIChESKAJa">\begin{gathered}\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} f\left(S^{t} \omega\right) d t= \\=\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} f\left(S^{-1} \omega\right) d t=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^{T} f\left(S^{t} \omega\right) d t .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3545_4_ERGODIChESKAJa">\int f(\omega) d \mathrm{P}_{0}(\omega) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3545_5_ERGODIChESKAJa">\begin{gathered}\lim _{t \rightarrow \infty} \int_{\Omega} f(\omega) d \mathrm{Q}_{t}(\omega)=\lim _{t \rightarrow \infty} \int f(\omega) q_{t}(\omega) d \mathrm{P}_{0}(\omega)= \\=\lim _{t \rightarrow \infty} \int f(\omega) q_{0}\left(S^{t} \omega\right) d \mathrm{P}_{0}=\int f(\omega) d \mathrm{P}_{0}(\omega) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3545_6_ERGODIChESKAJa">\frac{1}{\sqrt{\mathrm{D} X_{t}}}\left(X_{t}-t \mathrm{E} X_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3545_7_ERGODIChESKAJa">X_{t}(\omega)=\int_{0}^{t} f\left(S^{u} \omega\right) d u,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3545_8_ERGODIChESKAJa">b_{f}(t)=\mathrm{E} f\left(S^{t} \omega\right) f(\omega)-(\mathrm{E} f(\omega))^{2} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_1_ERGODIChESKAJa">\{. \boldsymbol{T}(n)\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_2_ERGODIChESKAJa">\mathscr{n}(n)=a_{0} n^{r}+\ldots+a_{r-1} n+a_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_3_ERGODIChESKAJa">a_{0}, \ldots, a_{r-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_4_ERGODIChESKAJa">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_5_ERGODIChESKAJa">x_{0}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_6_ERGODIChESKAJa">\left\{s^{t}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_7_ERGODIChESKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_8_ERGODIChESKAJa">x_{t}(\omega)=x_{0}\left(s^{t} \omega\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_9_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_10_ERGODIChESKAJa">\omega \rightarrow\left\{X_{t}(\omega)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_11_ERGODIChESKAJa">x_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_12_ERGODIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_13_ERGODIChESKAJa">x_{t},-\infty&lt;t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_14_ERGODIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_15_ERGODIChESKAJa">x_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_16_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_17_ERGODIChESKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_18_ERGODIChESKAJa">(\omega, \widetilde{\mathscr{}})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_19_ERGODIChESKAJa">\left\{s^{t}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_20_ERGODIChESKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_21_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_22_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_23_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_24_ERGODIChESKAJa">c \in, \bar{F}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_25_ERGODIChESKAJa">t,-\infty&lt;t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_26_ERGODIChESKAJa">\mathrm{p}\left(s^{t} C\right)=\mathrm{P}(C)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_27_ERGODIChESKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_28_ERGODIChESKAJa">\mathscr{f}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_29_ERGODIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_30_ERGODIChESKAJa">\left\{s^{t}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_31_ERGODIChESKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_32_ERGODIChESKAJa">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_33_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_34_ERGODIChESKAJa">\left(s^{*}\right)^{t} \mathrm{P}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_35_ERGODIChESKAJa">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_36_ERGODIChESKAJa">\mathrm{p}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_37_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_38_ERGODIChESKAJa">\mathrm{p}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_39_ERGODIChESKAJa">f \in L^{1}\left(\Omega, \widetilde{\mathcal{K}}, \mathrm{P}_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_40_ERGODIChESKAJa">\mathrm{p}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_41_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_42_ERGODIChESKAJa">\mathrm{p}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_43_ERGODIChESKAJa">q_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_44_ERGODIChESKAJa">p_{0}, q_{0}(\omega)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_45_ERGODIChESKAJa">=\frac{d \mathrm{Q}_{0}}{d \mathrm{P}_{0}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_46_ERGODIChESKAJa">\mathrm{q}_{t}=\left(s^{*}\right)^{t} \mathrm{Q}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_47_ERGODIChESKAJa">\mathrm{p}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_48_ERGODIChESKAJa">q_{t}(\omega)=q_{0}\left(s^{t} \omega\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_49_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_50_ERGODIChESKAJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_51_ERGODIChESKAJa">\mathrm{q}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_52_ERGODIChESKAJa">\mathrm{p}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_53_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_54_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_55_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_56_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_57_ERGODIChESKAJa">\omega=\{\omega(s),-\infty&lt;s&lt;\infty\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_58_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_59_ERGODIChESKAJa">\eta_{0}=f(\omega)=f(\{\omega(s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_60_ERGODIChESKAJa">-\infty&lt;s&lt;\infty\})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_61_ERGODIChESKAJa">\eta_{t}=f(\{\omega(s+t),-\infty&lt;s&lt;\infty\})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_62_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_63_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_64_ERGODIChESKAJa">x_{0}=f(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_65_ERGODIChESKAJa">t \mathrm{E} X_{0}=\mathrm{E} X_{t}, \mathrm{D} X_{t}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_66_ERGODIChESKAJa">x_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_67_ERGODIChESKAJa">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_68_ERGODIChESKAJa">x_{t}=f\left(s^{t} \omega\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_69_ERGODIChESKAJa">x_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_70_ERGODIChESKAJa">b_{f}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_71_ERGODIChESKAJa">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_72_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_73_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_74_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_75_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_76_ERGODIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_77_ERGODIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_78_ERGODIChESKAJa">\left(x_{1}, \ldots, x_{d}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_79_ERGODIChESKAJa">\left(x_{1}, \ldots, x_{d}\right) \rightarrow\left(x_{1}+c_{1}, x_{2}+c_{2} x_{1}, \ldots, x_{d}+c_{d, 1} x_{1}+\ldots\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_80_ERGODIChESKAJa">\left.\ldots+c_{d, d-1} x_{d-1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_81_ERGODIChESKAJa">c_{i, j}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_82_ERGODIChESKAJa">\mathbb{r}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3545_83_ERGODIChESKAJa">\mathbb{z}^{d}</formula>
+  </formulas_aux>
+  <relations n="11">
+    <relation uri="http://libmeta.ru/fme/relation/3545_1_ERGODIChESKAJa">
+      <rel_text>Перемешивание</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_2_ERGODIChESKAJa">
+      <rel_text>динамических систем</rel_text>
+      <target>http://libmeta.ru/fme/article/826_DINAMIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_3_ERGODIChESKAJa">
+      <rel_text>Изоморфизм</rel_text>
+      <target>http://libmeta.ru/fme/article/978_IZOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_4_ERGODIChESKAJa">
+      <rel_text>группой</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_5_ERGODIChESKAJa">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_6_ERGODIChESKAJa">
+      <rel_text>регулярности</rel_text>
+      <target>http://libmeta.ru/fme/article/2575_REGULJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_7_ERGODIChESKAJa">
+      <rel_text>энтропия</rel_text>
+      <target>http://libmeta.ru/fme/article/3540_ENTROPI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_8_ERGODIChESKAJa">
+      <rel_text>перемешивание</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_9_ERGODIChESKAJa">
+      <rel_text>эргодич-</rel_text>
+      <target>http://libmeta.ru/fme/article/3549_ERGOSFER</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_10_ERGODIChESKAJa">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3545_11_ERGODIChESKAJa">
+      <rel_text>однородных случайных</rel_text>
+      <target>http://libmeta.ru/fme/article/2060_ODNORODNOE</target>
+    </relation>
+  </relations>
+  <text>раздел математики, возникший в 20-30-х гт. 20 в., хотя основные ее понятия - эргодичность, перемешивание - восходят к трудам Л. Больцмана (l. Boltzmann) и Дж. Гиббса (j. Gibbs), посвященным проблеме обоснования статистич: физики. Одной из первых общих теорем Э.т. стала Биркгофа-Хинчина эргодическая теорема, утверждающая существование почти наверное временных средних у однопараметрич. групп или полугрупп преобразований, сохраняющих какую-либо вероятностную меру (автоморфизмов, потоков или эндоморфизмов, полупотоков). Далее такие группы или полугруппы называются динамическими системами. Они служат основным объектом изучения в Э. т.
+
+В теории вероятностей динамич. системы естественно возникают как группы сдвигов в пространстве реализаций стационарных в узком смысле случайных процессов. Динамич. системы появляются во многих проблемах теории дифференциальных уравнений, статистич. физики, механики, теории нелинейных колебаний, физике плазмы и др. Напр., в гамильтоновых системах с компактным многообразием постоянной энергии поток, состоящий из сдвигов вдоль траекторий такой системы, сохраняет микроканонич. распределение Лиувилля и является тем самым динамич. системой. В диссипативных системах механики, где фазовый объем под действием динамики уменьшается, в фазовых пространствах часто образуются инвариантные притягивающие множества, напр. стохастич. аттракторы, и свойства динамики определяют свойства сосредоточенных на них естественных сохраняющихся вероятностных мер. Считается, что в этих терминах может быть описано явление турбулентности в гидродинамике. Динамич. системы возникают во многих задачах теории чисел, в особенности в задачах, связанных с равномерным распределением. Так, теорема Вейля о том, что дробные доли $URI[[http://libmeta.ru/fme/formula/aux/3545_1_ERGODIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/3545_2_ERGODIChESKAJa]]/URI$ и хотя бы один из коэффициентов $URI[[http://libmeta.ru/fme/formula/aux/3545_3_ERGODIChESKAJa]]/URI$ иррационален, равномерно распределены, может быть выведена как усиление эргодич. теоремы Биркгофа - Хинчина для специального сохраняющего меру преобразования $URI[[http://libmeta.ru/fme/formula/aux/3545_4_ERGODIChESKAJa]]/URI$-мерного тора (см. [1]). Динамич. системы возникают в комбинаторике, теории представлений групп некоммутативных алгебр и др. (см. [1], [2]). При этом в этих областях появляются и группы сохраняющих меру преобразований, переводящие меры в эквивалентные в смысле абсолютной непрерывности меры.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/3545_5_ERGODIChESKAJa]]/URI$ - произвольная случайная величина и $URI[[http://libmeta.ru/fme/formula/aux/3545_6_ERGODIChESKAJa]]/URI$ поток в пространстве $URI[[http://libmeta.ru/fme/formula/aux/3545_7_ERGODIChESKAJa]]/URI$. Семейство случайных величин $URI[[http://libmeta.ru/fme/formula/aux/3545_8_ERGODIChESKAJa]]/URI$ образует стационарный в узком смысле случайный процесс. Если поток $URI[[http://libmeta.ru/fme/formula/aux/3545_9_ERGODIChESKAJa]]/URI$ представляет собой группу сдвигов исходного стационарного процесса, то переход $URI[[http://libmeta.ru/fme/formula/aux/3545_10_ERGODIChESKAJa]]/URI$ можно рассматривать как нелинейное преобразование этого процесса. Э. т. изучает свойства всех стационарных процессов, возникающих таким образом. Если $URI[[http://libmeta.ru/fme/formula/aux/3545_11_ERGODIChESKAJa]]/URI$ такова, что наименьшая $URI[[http://libmeta.ru/fme/formula/aux/3545_12_ERGODIChESKAJa]]/URI$-алгебра, порожденная всеми случайными величинами $URI[[http://libmeta.ru/fme/formula/aux/3545_13_ERGODIChESKAJa]]/URI$, совпадает с $URI[[http://libmeta.ru/fme/formula/aux/3545_14_ERGODIChESKAJa]]/URI$-алгеброй всех измеримых множеств, то $URI[[http://libmeta.ru/fme/formula/aux/3545_15_ERGODIChESKAJa]]/URI$ называется о 6 р а з у ю ш е й, а сама динамич. система $URI[[http://libmeta.ru/fme/formula/aux/3545_16_ERGODIChESKAJa]]/URI$ оказывается тем самым изоморфной группе сдвигов построенного стационарного процесса (см. URI[[http://libmeta.ru/fme/relation/3545_3_ERGODIChESKAJa]]/URI URI[[http://libmeta.ru/fme/relation/3545_2_ERGODIChESKAJa]]/URI). В отличие от типичных задач теории вероятностей «случайность» динамич. системы состоит только в выборе начальной точки $URI[[http://libmeta.ru/fme/formula/aux/3545_17_ERGODIChESKAJa]]/URI$, после чего эволюция такой точки происходит чисто детерминированным образом. По этой причине в физич. литературе Э. т. часто называют те ор и ей де терминированного хаоса.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/3545_18_ERGODIChESKAJa]]/URI$ - измеримое пространство, $URI[[http://libmeta.ru/fme/formula/aux/3545_19_ERGODIChESKAJa]]/URI$ однопараметрич. группа или полугруппа преобразований пространства $URI[[http://libmeta.ru/fme/formula/aux/3545_20_ERGODIChESKAJa]]/URI$. Ниже указаны свойства $URI[[http://libmeta.ru/fme/formula/aux/3545_21_ERGODIChESKAJa]]/URI$, к-рые обычно рассматриваются как стохастические, сближающие динамич. системы со случайными процессами с теми или иными свойствами регулярности (в определенном смысле эти свойства последовательно усиливают друг друга).
+
+1) Существование распределения вероятностей, инвариантного относительно группы $URI[[http://libmeta.ru/fme/formula/aux/3545_22_ERGODIChESKAJa]]/URI$. Здесь распределение вероятностей Р называется и н в а р и ант ны м относительно $URI[[http://libmeta.ru/fme/formula/aux/3545_23_ERGODIChESKAJa]]/URI$, если для любого $URI[[http://libmeta.ru/fme/formula/aux/3545_24_ERGODIChESKAJa]]/URI$ и любого $URI[[http://libmeta.ru/fme/formula/aux/3545_25_ERGODIChESKAJa]]/URI$, вероятность $URI[[http://libmeta.ru/fme/formula/aux/3545_26_ERGODIChESKAJa]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/3545_27_ERGODIChESKAJa]]/URI$ - компакт, $URI[[http://libmeta.ru/fme/formula/aux/3545_28_ERGODIChESKAJa]]/URI$ его борелевская $URI[[http://libmeta.ru/fme/formula/aux/3545_29_ERGODIChESKAJa]]/URI$-алгебра, а $URI[[http://libmeta.ru/fme/formula/aux/3545_30_ERGODIChESKAJa]]/URI$ однопараметрич. группа гомеоморфизмов $URI[[http://libmeta.ru/fme/formula/aux/3545_31_ERGODIChESKAJa]]/URI$, то существует хотя бы одно инвариантное распределение вероятностей $URI[[http://libmeta.ru/fme/formula/aux/3545_32_ERGODIChESKAJa]]/URI$. Это вытекает из общей Боголюбова - Крылова теоремы; рассуждение, использованное при ее доказательстве, носит весьма общий характер и встречается во многих других вопросах, напр. при доказательстве существования хотя бы одного стационарного распределения у цепи Маркова с компактным фазовым пространством, в теории клеточных автоматов.
+
+Инвариантные распределения вероятностей могут оказаться вырожденными, то есть сосредоточенными на одной или нескольких траекториях группы $URI[[http://libmeta.ru/fme/formula/aux/3545_33_ERGODIChESKAJa]]/URI$. Для получения невырожденных распределений иногда используется следующий прием. Пусть для любого распределения вероятностей Р через $URI[[http://libmeta.ru/fme/formula/aux/3545_34_ERGODIChESKAJa]]/URI$ обозначен его сдвиг на время $URI[[http://libmeta.ru/fme/formula/aux/3545_35_ERGODIChESKAJa]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3545_1_ERGODIChESKAJa]]/URI
+\]
+
+Если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3545_2_ERGODIChESKAJa]]/URI
+\]
+
+в каком-либо естественном смысле, то $URI[[http://libmeta.ru/fme/formula/aux/3545_36_ERGODIChESKAJa]]/URI$ будет инвариантным. Именно так строятся инвариантные распределения вероятностей в системах со стохастич. аттракторами и близких к ним.
+
+2) Эргод и ч ность. Пусть для группы $URI[[http://libmeta.ru/fme/formula/aux/3545_37_ERGODIChESKAJa]]/URI$ уже выбрано инвариантное распределение вероятностей $URI[[http://libmeta.ru/fme/formula/aux/3545_38_ERGODIChESKAJa]]/URI$. Эргодич. теорема Биркгофа - Хинчина устанавливает для любой $URI[[http://libmeta.ru/fme/formula/aux/3545_39_ERGODIChESKAJa]]/URI$ существование почти всюду пределов временных средних
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3545_3_ERGODIChESKAJa]]/URI
+\]
+
+Эргодичность $URI[[http://libmeta.ru/fme/formula/aux/3545_40_ERGODIChESKAJa]]/URI$ означает, что все эти пределы равны математич. ожиданию
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3545_4_ERGODIChESKAJa]]/URI
+\]
+
+Во многих случаях либо эргодичность устанавливается достаточно просто, либо оказывается следствием более сильных стохастич. свойств.
+
+3) Перемеш и вание. Пусть для динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/3545_41_ERGODIChESKAJa]]/URI$ установлено, что распределение вероятностей $URI[[http://libmeta.ru/fme/formula/aux/3545_42_ERGODIChESKAJa]]/URI$ инвариантно и эргодично, и пусть распределение вероятностей $URI[[http://libmeta.ru/fme/formula/aux/3545_43_ERGODIChESKAJa]]/URI$ абсолютно непрерывно относительно $URI[[http://libmeta.ru/fme/formula/aux/3545_44_ERGODIChESKAJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/3545_45_ERGODIChESKAJa]]/URI$. Тогда $URI[[http://libmeta.ru/fme/formula/aux/3545_46_ERGODIChESKAJa]]/URI$ также абсолютно непрерывно относительно $URI[[http://libmeta.ru/fme/formula/aux/3545_47_ERGODIChESKAJa]]/URI$ и его плотность $URI[[http://libmeta.ru/fme/formula/aux/3545_48_ERGODIChESKAJa]]/URI$. Система $URI[[http://libmeta.ru/fme/formula/aux/3545_49_ERGODIChESKAJa]]/URI$ пере меши ва юща я (см. URI[[http://libmeta.ru/fme/relation/3545_1_ERGODIChESKAJa]]/URI), если для любой ограниченной измеримой $URI[[http://libmeta.ru/fme/formula/aux/3545_50_ERGODIChESKAJa]]/URI$ предел
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3545_5_ERGODIChESKAJa]]/URI
+\]
+
+Распределение вероятностей $URI[[http://libmeta.ru/fme/formula/aux/3545_51_ERGODIChESKAJa]]/URI$ интерпретируется как неравновесное. Перемешивание означает, что всякое неравновесное распределение вероятностей сходится под действием динамики к равновесному $URI[[http://libmeta.ru/fme/formula/aux/3545_52_ERGODIChESKAJa]]/URI$. Именно в таком виде оно было введено Дж. Гиббсом. Из перемешивания вытекает эргодичность. Эргодич. системы без перемешивания возникают в теории динамических систем с чисто точечным спектром.
+
+4) Регулярность.В теории вероятностей большую роль играет закон нуль - единица Колмогорова. А. Н. Колмогоров предложил также (см. [3]) понятие $URI[[http://libmeta.ru/fme/formula/aux/3545_53_ERGODIChESKAJa]]/URI$-системы как такой динамич. системы, в к-рой в определенном смысле выполняется закон нуль-единица. Родственными понятиями являются понятия $URI[[http://libmeta.ru/fme/formula/aux/3545_54_ERGODIChESKAJa]]/URI$-перемешивания и $URI[[http://libmeta.ru/fme/formula/aux/3545_55_ERGODIChESKAJa]]/URI$-разбиения. $URI[[http://libmeta.ru/fme/formula/aux/3545_56_ERGODIChESKAJa]]/URI$-системы - аналоги регулярных стационарных процессов, но не вполне идентичны им.
+
+Группа сдвигов стационарного в узком смысле процесса с реализациями $URI[[http://libmeta.ru/fme/formula/aux/3545_57_ERGODIChESKAJa]]/URI$ является $URI[[http://libmeta.ru/fme/formula/aux/3545_58_ERGODIChESKAJa]]/URI$-системой, если существует такая образующая $URI[[http://libmeta.ru/fme/formula/aux/3545_59_ERGODIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3545_60_ERGODIChESKAJa]]/URI$, что отвечающий ей стационарный процесс $URI[[http://libmeta.ru/fme/formula/aux/3545_61_ERGODIChESKAJa]]/URI$ регулярный (то есть удовлетворяет закону нуль-единица). $URI[[http://libmeta.ru/fme/formula/aux/3545_62_ERGODIChESKAJa]]/URI$-системы являются эргодичными и перемешивающими. Обратное, как показывают простые примеры, неверно. В целом ряде случаев установить $URI[[http://libmeta.ru/fme/formula/aux/3545_63_ERGODIChESKAJa]]/URI$-свойство проще, чем установить отдельно эргодичность или перемешивание.
+
+5) Выполнение центральной предельной те о ремы. Регулярные стационарные процессы при небольших дополнительных условиях подчиняются центральной предельной теореме. Для динамич. систем справедливость ее для какой-нибудь случайной величины $URI[[http://libmeta.ru/fme/formula/aux/3545_64_ERGODIChESKAJa]]/URI$ означает, что нормированная случайная величина
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3545_6_ERGODIChESKAJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3545_7_ERGODIChESKAJa]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3545_65_ERGODIChESKAJa]]/URI$ математич. ожидание и дисперсия $URI[[http://libmeta.ru/fme/formula/aux/3545_66_ERGODIChESKAJa]]/URI$, имеет в пределе при $URI[[http://libmeta.ru/fme/formula/aux/3545_67_ERGODIChESKAJa]]/URI$ гауссовское распределение. Для динамич. систем, не относящихся непосредственно к теории вероятностей, утверждение центральной предельной теоремы может иногда выглядеть достаточно неожиданным. Как всегда, ее доказательство сводится к изучению свойств слабой зависимости семейства случайных величин $URI[[http://libmeta.ru/fme/formula/aux/3545_68_ERGODIChESKAJa]]/URI$. В приложениях Э. т. представляет интерес доказательство центральной предельной теоремы для возможно более широкого класса случайных величин $URI[[http://libmeta.ru/fme/formula/aux/3545_69_ERGODIChESKAJa]]/URI$.
+
+6) Характер убывания временных ковариац и й. Во многих приложениях Э.т. важную роль играет характер убывания временных ковариаций
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3545_8_ERGODIChESKAJa]]/URI
+\]
+
+В случае марковских стационарных процессов такие ковариации часто убывают экспоненциально, причем показатель экспоненты выражается через щель в спектре соответствующего марковского оператора. В случае динамич. систем экспоненциальное убывание ковариаций обычно устанавливается путем построения марковских аппроксимаций динамич. систем. Точное исследование асимптотич. поведения $URI[[http://libmeta.ru/fme/formula/aux/3545_70_ERGODIChESKAJa]]/URI$ относится к наиболее трудным проблемам Э. т. Часто убывание ковариаций оказывается гораздо более медленным. 7) Изоморфизм сдвигу Бернулли. Динамич. системой с дискретным временем, обладающей наиболее сильными стохастич. свойствами, является Бернулли сдвие. Иногда в качестве стохастич. свойства предлагается изоморфизм динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/3545_71_ERGODIChESKAJa]]/URI$ этому сдвигу. Следует, впрочем, подчеркнуть, что изоморфизм обычно оказывается измеримым и не сохраняет дополнительной структуры, напр. топологии, гладкости. Поэтому при изоморфизме может теряться контроль за асимптотикой ковариаций, центральной предельной теоремой и т. П. для естественных классов функций.
+
+Одной из основных задач Э. т. считается задача исследования стохастич. свойств тех или иных классов динамич. систем. У классич. динамич. систем, представляющих собой группы сдвигов вдоль траекторий систем дифференциальных уравнений, возникновение стохастич. свойств объясняется неустойчивостью динамики. Первые замечания, относящиеся к этой общей и важной идее, можно найти еще у A. Пуанкаре (н. Poincaré). Роль неустойчивости для статистики отмечалась также Ж. Адамаром (j. Hadamard), Дж. Биркгофом (g. Birkhoff), Э. Хопфом (е. Hopf) при их анализе геодезич. потоков на многообразиях отрицательной кривизны, являющихся частным случаем систем Аносова, и Н. С. Крыловым, заметившим глубокую аналогию в свойствах неустойчивости между указанными геодезич. потоками и системами твердых сфер, взаимодействующих при движении посредством упругих соударений (см. [2], [4]). Ясное понимание связи между неустойчивостью динамики и стохастич. свойствами динамич. систем возникло в начале 60-х гг. после появления работы А. Н. Колмогорова [3], где были введены понятия энтропии динамич. системы и $URI[[http://libmeta.ru/fme/formula/aux/3545_72_ERGODIChESKAJa]]/URI$-системы. В дальнейшем было предложено более общее понятие энтропии (см. [2], [5]), к-рое теперь является общепризнанным. Энтропия динамич. систем является инвариантом изоморфизма, и это позволило А. Н. Колмогорову дать отрицательное решение одной из основных проблем Э.т. об изоморфизме динамич. систем со счетнократным лебеговским спектром, показав, что сдвиги Бернулли с разным значением энтропии метрически не изоморфны между собой. После работы А. Н. Колмогорова стало также ясно, что проблема изоморфизма динамич. систем в случае $URI[[http://libmeta.ru/fme/formula/aux/3545_73_ERGODIChESKAJa]]/URI$-систем должна рассматриваться как проблема стационарного кодирования в духе теории информации. Первые продвижения здесь принадлежат Л. Д. Мешалкину и Я. Г. Синаю (см. [1], [2]). Окончательные результаты в проблеме метрич. изоморфизма $URI[[http://libmeta.ru/fme/formula/aux/3545_74_ERGODIChESKAJa]]/URI$-систем были получены Д. Орнштейном (см. [6]). Он показал, в частности, что сдвиги Бернулли с равной энтропией изоморфны. В то же время в классе $URI[[http://libmeta.ru/fme/formula/aux/3545_75_ERGODIChESKAJa]]/URI$-систем энтропия не образует полной системы метрич. инвариантов и существует континуум попарно неизоморфных $URI[[http://libmeta.ru/fme/formula/aux/3545_76_ERGODIChESKAJa]]/URI$-систем с одинаковым значением энтропии. Эти результаты получены путем глубокого анализа свойств регулярности стационарных процессов и построения тонких примеров процессов с различными свойствами регулярности.
+
+В Э.т. важную роль играют также динамич. системы со слабыми стохастич. свойствами. К ним относятся, в первую очередь, динамич. системы с чисто точечным спектром. Известная теория Колмогорова - Арнольда - Мозера утверждает, что такие системы возникают на эргодич. компонентах гамильтоновых систем, являющихся малым возмущением интегрируемых гамильтоновых систем. Преобразования $URI[[http://libmeta.ru/fme/formula/aux/3545_77_ERGODIChESKAJa]]/URI$-мерного тора с координатами $URI[[http://libmeta.ru/fme/formula/aux/3545_78_ERGODIChESKAJa]]/URI$, имеющие вид $URI[[http://libmeta.ru/fme/formula/aux/3545_79_ERGODIChESKAJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/3545_80_ERGODIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/3545_81_ERGODIChESKAJa]]/URI$ целые, называемые косы м и с д в гам и и возникают в приложениях Э.т. к теории чисел (см. [1]). Своеобразные динамич. системы возникают в теории биллиардов в многоугольных и вообще плоских областях, перекладываниях отрезков и связанных с ними векторных полях на двумерных многообразиях.
+
+В теории URI[[http://libmeta.ru/fme/relation/3545_11_ERGODIChESKAJa]]/URI полей возникают URI[[http://libmeta.ru/fme/relation/3545_10_ERGODIChESKAJa]]/URI сохраняющих меру преобразований, где «временем» служат пространства $URI[[http://libmeta.ru/fme/formula/aux/3545_82_ERGODIChESKAJa]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/3545_83_ERGODIChESKAJa]]/URI$. Эргодич. теоремы, URI[[http://libmeta.ru/fme/relation/3545_9_ERGODIChESKAJa]]/URI ность, URI[[http://libmeta.ru/fme/relation/3545_8_ERGODIChESKAJa]]/URI, URI[[http://libmeta.ru/fme/relation/3545_7_ERGODIChESKAJa]]/URI определяются так же, как в случае однопараметрич. групп преобразований. Свойства же URI[[http://libmeta.ru/fme/relation/3545_6_ERGODIChESKAJa]]/URI здесь могут быть гораздо более разнообразными и сложными, чем в случае одномерного времени. Многочисленные примеры однородных полей возникают в равновесной статистич. URI[[http://libmeta.ru/fme/relation/3545_5_ERGODIChESKAJa]]/URI.
+
+Формулировки и доказательства эргодич. теорем значительно усложняются, когда время оказывается свободной URI[[http://libmeta.ru/fme/relation/3545_4_ERGODIChESKAJa]]/URI или близким к ней объектом. Соответствующая теория связана с теорией аменабельных групп и факторов Неймана (см. [2], [7]).</text>
+  <text_orig>раздел математики, возникший в 20-30-х гт. 20 в., хотя основные ее понятия - эргодичность, перемешивание - восходят к трудам Л. Больцмана (L. Boltzmann) и Дж. Гиббса (J. Gibbs), посвященным проблеме обоснования статистич: физики. Одной из первых обших теорем Э.т. стала Биркгофа-Хинчина эргодическая теорема, утверждающая существование почти наверное временны́х средних у однопараметрич. групп или полугрупп преобразований, сохраняющих какую-либо вероятностную меру (автоморфизмов, потоков или эндоморфизмов, полупотоков). Далее такие группы или полугруппы называются динамическими системами. Они служат основным объектом изучения в Э. т.
+
+В теории вероятностей динамич. системы естественно возникают как группы сдвигов в пространстве реализаций стационарных в узком смысле случайных процессов. Динамич. системы появляются во многих проблемах теории дифференциальных уравнений, статистич. физики, механики, теории нелинейных колебаний, физике плазмы и др. Напр., в гамильтоновых системах с компактным многообразием постоянной энергии поток, состоящий из сдвигов вдоль траекторий такой системы, сохраняет микроканонич. распределение Лиувилля и является тем самым динамич. системой. В диссипативных системах механики, где фазовый объем под действием динамики уменьшается, в фазовых пространствах часто образуются инвариантные притягивающие множества, напр. стохастич. аттракторы, и свойства динамики определяют свойства сосредоточенных на них естественных сохраняющихся вероятностных мер. Считается, что в этих терминах может быть описано явление турбулентности в гидродинамике. Динамич. системы возникают во многих задачах теории чисел, в особенности в задачах, связанных с равномерным распределением. Так, теорема Вейля о том, что дробные доли $\{. \boldsymbol{T}(n)\}$, где $\mathscr{N}(n)=a_{0} n^{r}+\ldots+a_{r-1} n+a_{r}$ и хотя бы один из коэффициентов $a_{0}, \ldots, a_{r-1}$ иррационален, равномерно распределены, может быть выведена как усиление эргодич. теоремы Биркгофа - Хинчина для специального сохраняюшего меру преобразования $r$-мерного тора (см. [1]). Динамич. системы возникают в комбинаторике, теории представлений групп некоммутативных алгебр и др. (см. [1], [2]). При этом в этих областях появляются и группы сохраняющих меру преобразований, переводящие меры в эквивалентные в смысле абсолютной непрерывности меры.
+
+Пусть $X_{0}(\omega)$ - произвольная случайная величина и $\left\{S^{t}\right\}-$ поток в пространстве $\Omega$. Семейство случайных величин $X_{t}(\omega)=X_{0}\left(S^{t} \omega\right)$ образует стационарный в узком смысле случайный процесс. Если поток $\left\{S^{t}\right\}$ представляет собой группу сдвигов исходного стационарного процесса, то переход $\omega \rightarrow\left\{X_{t}(\omega)\right\}$ можно рассматривать как нелинейное преобразование этого процесса. Э. т. изучает свойства всех стационарных процессов, возникающих таким образом. Если $X_{0}$ такова, что наименьшая $\sigma$-алгебра, порожденная всеми случайными величинами $X_{t},-\infty&lt;t&lt;\infty$, совпадает с $\sigma$-алгеброй всех измеримых множеств, то $X_{0}$ называется о 6 р а з у ю ш е й, а сама динамич. система $\left\{S^{t}\right\}$ оказывается тем самым изоморфной группе сдвигов построенного стационарного процесса (см. Изоморфизм динамических систем). В отличие от типичных задач теории вероятностей «случайность» динамич. системы состоит только в выборе начальной точки $\omega$, после чего эволюция такой точки происходит чисто детерминированным образом. По этой причине в физич. литературе Э. т. часто называют те ор и ей де терминированного хаоса.
+
+Пусть $(\Omega, \widetilde{\mathscr{}})$ - измеримое пространство, $\left\{S^{t}\right\}-$ однопараметрич. группа или полугруппа преобразований пространства $\Omega$. Ниже указаны свойства $\left\{S^{t}\right\}$, к-рые обычно рассматриваются как стохастические, сближаюшие динамич. системы со случайными процессами с теми или иными свойствами регулярности (в определенном смысле эти свойства последовательно усиливают друг друга).
+
+1) Существование распределения вероятностей, инвариантного относительно группы $\left\{S^{t}\right\}$. Здесь распределение вероятностей Р называется и н в а р и ант ны м относительно $\left\{S^{t}\right\}$, если для любого $C \in, \bar{F}$ и любого $t,-\infty&lt;t&lt;\infty$, вероятность $\mathrm{P}\left(S^{t} C\right)=\mathrm{P}(C)$. Если $\Omega$ - компакт, $\mathscr{F}-$ его борелевская $\sigma$-алгебра, а $\left\{S^{t}\right\}-$ однопараметрич. группа гомеоморфизмов $\Omega$, то существует хотя бы одно инвариантное распределение вероятностей $\mathrm{P}$. Это вытекает из общей Боголюбова - Крылова теоремы; рассуждение, использованное при ее доказательстве, носит весьма обший характер и встречается во многих других вопросах, напр. при доказательстве сушествования хотя бы одного стационарного распределения у цепи Маркова с компактным фазовым пространством, в теории клеточных автоматов.
+
+Инвариантные распределения вероятностей могут оказаться вырожденными, то есть сосредоточенными на одной или нескольких траекториях группы $\left\{S^{t}\right\}$. Для получения невырожденных распределений иногда используется следующий прием. Пусть для любого распределения вероятностей Р через $\left(S^{*}\right)^{t} \mathrm{P}$ обозначен его сдвиг на время $t$, то есть
+
+\[
+\left(\left(S^{*}\right)^{t} \mathrm{P}\right)(C)=\mathrm{P}\left(S^{-t} C\right), C \in \mathscr{F} .
+\]
+
+Если
+
+\[
+\left(S^{*}\right)^{t} \mathrm{P} \Rightarrow \mathrm{P}_{0}
+\]
+
+в каком-либо естественном смысле, то $\mathrm{P}_{0}$ будет инвариантным. Именно так строятся инвариантные распределения вероятностей в системах со стохастич. аттракторами и близких к ним.
+
+2) Эргод и ч ность. Пусть для группы $\left\{S^{t}\right\}$ уже выбрано инвариантное распределение вероятностей $\mathrm{P}_{0}$. Эргодич. теорема Биркгофа - Хинчина устанавливает для любой $f \in L^{1}\left(\Omega, \widetilde{\mathcal{K}}, \mathrm{P}_{0}\right)$ существование почти всюду пределов временных средних
+
+\[
+\begin{gathered}
+\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} f\left(S^{t} \omega\right) d t= \\
+=\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} f\left(S^{-1} \omega\right) d t=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^{T} f\left(S^{t} \omega\right) d t .
+\end{gathered}
+\]
+
+Эргодичность $\mathrm{P}_{0}$ означает, что все эти пределы равны математич. ожиданию
+
+\[
+\int f(\omega) d \mathrm{P}_{0}(\omega) .
+\]
+
+Во многих случаях либо эргодичность устанавливается достаточно просто, либо оказывается следствием более сильных стохастич. свойств.
+
+3) Перемеш и вание. Пусть для динамич. системы $\left\{S^{t}\right\}$ установлено, что распределение вероятностей $\mathrm{P}_{0}$ инвариантно и эргодично, и пусть распределение вероятностей $Q_{0}$ абсолютно непрерывно относительно $P_{0}, q_{0}(\omega)=$ $=\frac{d \mathrm{Q}_{0}}{d \mathrm{P}_{0}}$. Тогда $\mathrm{Q}_{t}=\left(S^{*}\right)^{t} \mathrm{Q}_{0}$ также абсолютно непрерывно относительно $\mathrm{P}_{0}$ и его плотность $q_{t}(\omega)=q_{0}\left(S^{t} \omega\right)$. Система $\left\{S^{t}\right\}$ пере меши ва юща я (см. Перемешивание), если для любой ограниченной измеримой $f$ предел
+
+\[
+\begin{gathered}
+\lim _{t \rightarrow \infty} \int_{\Omega} f(\omega) d \mathrm{Q}_{t}(\omega)=\lim _{t \rightarrow \infty} \int f(\omega) q_{t}(\omega) d \mathrm{P}_{0}(\omega)= \\
+=\lim _{t \rightarrow \infty} \int f(\omega) q_{0}\left(S^{t} \omega\right) d \mathrm{P}_{0}=\int f(\omega) d \mathrm{P}_{0}(\omega) .
+\end{gathered}
+\]
+
+Распределение вероятностей $\mathrm{Q}_{0}$ интерпретируется как неравновесное. Перемешивание означает, что всякое неравновесное распределение вероятностей сходится под действием динамики к равновесному $\mathrm{P}_{0}$. Именно в таком виде оно было введено Дж. Гиббсом. Из перемешивания вытекает эргодичность. Эргодич. системы без перемешивания возникают в теории динамических систем с чисто точечным спектром.
+
+4) Регулярность.В теории вероятностей большую роль играет закон нуль - единица Колмогорова. А. Н. Колмогоров предложил также (см. [3]) понятие $K$-системы как такой динамич. системы, в к-рой в определенном смысле выполняется закон нуль-единица. Родственными понятиями являются понятия $K$-перемешивания и $K$-разбиения. $K$-системы - аналоги регулярных стационарных процессов, но не вполне идентичны им.
+
+Группа сдвигов стационарного в узком смысле процесса с реализациями $\omega=\{\omega(s),-\infty&lt;s&lt;\infty\}$ является $K$-системой, если существует такая образующая $\eta_{0}=f(\omega)=f(\{\omega(s)$, $-\infty&lt;s&lt;\infty\})$, что отвечающий ей стационарный процесс $\eta_{t}=f(\{\omega(s+t),-\infty&lt;s&lt;\infty\})$ регулярный (то есть удовлетворяет закону нуль-единица). $K$-системы являются эргодичными и перемешивающими. Обратное, как показывают простые примеры, неверно. В целом ряде случаев установить $K$-свойство проще, чем установить отдельно эргодичность или перемешивание.
+
+5) Выполнение центральной предельной те о ремы. Регулярные стационарные процессы при небольших дополнительных условиях подчиняются центральной предельной теореме. Для динамич. систем справедливость ее для какой-нибудь случайной величины $X_{0}=f(\omega)$ означает, что нормированная случайная величина
+
+\[
+\frac{1}{\sqrt{\mathrm{D} X_{t}}}\left(X_{t}-t \mathrm{E} X_{0}\right)
+\]
+
+где
+
+\[
+X_{t}(\omega)=\int_{0}^{t} f\left(S^{u} \omega\right) d u,
+\]
+
+$t \mathrm{E} X_{0}=\mathrm{E} X_{t}, \mathrm{D} X_{t}-$ математич. ожидание и дисперсия $X_{t}$, имеет в пределе при $t \rightarrow \infty$ гауссовское распределение. Для динамич. систем, не относящихся непосредственно к теории вероятностей, утверждение центральной предельной теоремы может иногда выглядеть достаточно неожиданным. Как всегда, ее доказательство сводится к изучению свойств слабой зависимости семейства случайных величин $X_{t}=f\left(S^{t} \omega\right)$. В приложениях Э. т. представляет интерес доказательство центральной предельной теоремы для возможно более широкого класса случайных величин $X_{0}$.
+
+6) Характер убывания временныхковариац и й. Во многих приложениях Э.т. важную роль играет характер убывания временных ковариаций
+
+\[
+b_{f}(t)=\mathrm{E} f\left(S^{t} \omega\right) f(\omega)-(\mathrm{E} f(\omega))^{2} .
+\]
+
+В случае марковских стационарных процессов такие ковариации часто убывают экспоненциально, причем показатель экспоненты выражается через щель в спектре соответствующего марковского оператора. В случае динамич. систем экспоненциальное убывание ковариаций обычно устанавливается путем построения марковских аппроксимаций динамич. систем. Точное исследование асимптотич. поведения $b_{f}(t)$ относится к наиболее трудным проблемам Э. т. Часто убывание ковариаций оказывается гораздо более медленным. 7) Изоморфизм сдвигу Бернулли. Динамич. системой с дискретным временем, обладающей наиболее сильными стохастич. свойствами, является Бернулли сдвие. Иногда в качестве стохастич. свойства предлагается изоморфизм динамич. системы $\left\{S^{t}\right\}$ этому сдвигу. Следует, впрочем, подчеркнуть, что изоморфизм обычно оказывается измеримым и не сохраняет дополнительной структуры, напр. топологии, гладкости. Поэтому при изоморфизме может теряться контроль за асимптотикой ковариаций, центральной предельной теоремой и т. П. для естественных классов функций.
+
+Одной из основных задач Э. т. считается задача исследования стохастич. свойств тех или иных классов динамич. систем. У классич. динамич. систем, представляющих собой группы сдвигов вдоль траекторий систем дифференциальных уравнений, возникновение стохастич. свойств объясняется неустойчивостью динамики. Первые замечания, относящиеся к этой общей и важной идее, можно найти еще у A. Пуанкаре (Н. Poincaré). Роль неустойчивости для статистики отмечалась также Ж. Адамаром (J. Hadamard), Дж. Биркгофом (G. Birkhoff), Э. Хопфом (Е. Hopf) при их анализе геодезич. потоков на многообразиях отрицательной кривизны, являющихся частным случаем систем Аносова, и Н. С. Крыловым, заметившим глубокую аналогию в свойствах неустойчивости между указанными геодезич. потоками и системами твердых сфер, взаимодействуюших при движении посредством упругих соударений (см. [2], [4]). Ясное понимание связи между неустойчивостью динамики и стохастич. свойствами динамич. систем возникло в начале 60-х гг. после появления работы А. Н. Колмогорова [3], где были введены понятия энтропии динамич. системы и $K$-системы. В дальнейшем было предложено более общее понятие энтропии (см. [2], [5]), к-рое теперь является общепризнанным. Энтропия динамич. систем является инвариантом изоморфизма, и это позволило А. Н. Колмогорову дать отрицательное решение одной из основных проблем Э.т. об изоморфизме динамич. систем со счетнократным лебеговским спектром, показав, что сдвиги Бернулли с разным значением энтропии метрически не изоморфны между собой. После работы А. Н. Колмогорова стало также ясно, что проблема изоморфизма динамич. систем в случае $K$-систем должна рассматриваться как проблема стационарного кодирования в духе теории информации. Первые продвижения здесь принадлежат Л. Д. Мешалкину и Я. Г. Синаю (см. [1], [2]). Окончательные результаты в проблеме метрич. изоморфизма $K$-систем были получены Д. Орнстейном (см. [6]). Он показал, в частности, что сдвиги Бернулли с равной энтропией изоморфны. В то же время в классе $K$-систем энтропия не образует полной системы метрич. инвариантов и существует континуум попарно неизоморфных $K$-систем с одинаковым значением энтропии. Эти результаты получены путем глубокого анализа свойств регулярности стационарных процессов и построения тонких примеров процессов с различными свойствами регулярности.
+
+В Э.т. важную роль играют также динамич. системы со слабыми стохастич. свойствами. К ним относятся, в первую очередь, динамич. системы с чисто точечным спектром. Известная теория Колмогорова - Арнольда - Мозера утверждает, что такие системы возникают на эргодич. компонентах гамильтоновых систем, являюшихся малым возмущением интегрируемых гамильтоновых систем. Преобразования $d$-мерного тора с координатами $\left(x_{1}, \ldots, x_{d}\right)$, имеющие вид $\left(x_{1}, \ldots, x_{d}\right) \rightarrow\left(x_{1}+c_{1}, x_{2}+c_{2} x_{1}, \ldots, x_{d}+c_{d, 1} x_{1}+\ldots\right.$ $\left.\ldots+c_{d, d-1} x_{d-1}\right)$, где $c_{i, j}-$ целые, называемые косы м и с д в гам и и возникают в приложениях Э.т. к теории чисел (см. [1]). Своеобразные динамич. системы возникают в теории билиардов в многоугольных и вообще плоских областях, перекладываниях отрезков и связанных с ними векторных полях на двумерных многообразиях.
+
+В теории однородных случайных полей возникают группы сохраняющих меру преобразований, где «временем» служат пространства $\mathbb{R}^{d}$ или $\mathbb{Z}^{d}$. Эргодич. теоремы, эргодич- ность, перемешивание, энтропия определяются так же, как в случае однопараметрич. групп преобразований. Свойства же регулярности здесь могут быть гораздо более разнообразными и сложными, чем в случае одномерного времени. Многочисленные примеры однородных полей возникают в равновесной статистич. механике.
+
+Формулировки и доказательства эргодич. теорем значительно усложняются, когда время оказывается свободной группой или близким к ней объектом. Соответствующая теория связана с теорией аменабельных групп и факторов Неймана (см. [2], [7]).
+
+Лит.: [1] Корн фель д И. П., Синай Я.Г., Фомин С. В., Эргодическая теория, М., 1980; [2] Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 2, М., 1985; [3] Колм о го р о А. Н., “Доклады АН СССР», 1958, т. 119, № 5, с. 861-64; [4] Кры ло в Н. С., Работы по обоснованию статистической физики, М.- Л., 1950; [5] С и най Я., «Доклады АН СССР», 1959, т. 124, № 4, с. 768-71; [6] О р н с тей н Д., Эргодическая теория, случайность и динамические системы, пер. с англ., М., 1978; [7] Не йман Дж., Избранные труды по функциональному анализу, т. 1-2, пер. с англ., М., 1987.</text_orig>
+</article>

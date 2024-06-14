@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_21168">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>H</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>2</mn><mi>x</mi><msub><mi>H</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><mn>2</mn><mi>n</mi><msub><mi>H</mi><mrow><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace linebreak="newline" /><msubsup><mi>H</mi><mrow><mi>n</mi></mrow><mrow><mi>&#x02032;</mi></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>2</mn><mi>n</mi><msub><mi>H</mi><mrow><mi>n</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace linebreak="newline" /><msub><mi>H</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>k</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><mfrac><mrow><mi>n</mi></mrow><mrow><mn>2</mn></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">]</mo></mrow></mrow></msubsup><mfrac><mrow><mo stretchy="false">&#x00028;</mo><mo>&#x02212;</mo><mn>1</mn><msup><mo stretchy="false">&#x00029;</mo><mrow><mi>k</mi></mrow></msup><mi>n</mi><mo>&#x00021;</mo></mrow><mrow><mi>k</mi><mo>&#x00021;</mo><mo stretchy="false">&#x00028;</mo><mi>n</mi><mo>&#x02212;</mo><mn>2</mn><mi>k</mi><mo stretchy="false">&#x00029;</mo><mo>&#x00021;</mo></mrow></mfrac><mo stretchy="false">&#x00028;</mo><mn>2</mn><mi>x</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mi>n</mi><mo>&#x02212;</mo><mn>2</mn><mi>k</mi></mrow></msup><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mn>2</mn><mi>x</mi><mi>w</mi><mo>&#x02212;</mo><msup><mi>w</mi><mrow><mn>2</mn></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>n</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mfrac><mrow><msub><mi>H</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo></mrow><mrow><mi>n</mi><mo>&#x00021;</mo></mrow></mfrac><msup><mi>w</mi><mrow><mi>n</mi></mrow></msup></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}H_{n+1}(x)=2 x H_{n}(x)-2 n H_{n-1}(x), \\H_{n}^{\prime}(x)=2 n H_{n-1}(x), \\H_{n}(x)=\sum_{k=0}^{\left[\frac{n}{2}\right]} \frac{(-1)^{k} n !}{k !(n-2 k) !}(2 x)^{n-2 k}, \\\exp \left(2 x w-w^{2}\right)=\sum_{n=0}^{\infty} \frac{H_{n}(x)}{n !} w^{n}\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

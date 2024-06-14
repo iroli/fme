@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_21919">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mi>F</mi><mrow><mi>i</mi></mrow><mrow><mo stretchy="false">&#x00028;</mo><mn>0</mn><mo stretchy="false">&#x00029;</mo></mrow></msubsup><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>&#x003BC;</mi><msub><mi>q</mi><mrow><mi>i</mi></mrow></msub><msup><mi>r</mi><mrow><mo>&#x02212;</mo><mn>3</mn></mrow></msup><mo>&#x0002C;</mo><mi>r</mi><mo>&#x0003D;</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>q</mi><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mo>&#x0002B;</mo><msubsup><mi>q</mi><mrow><mn>2</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mo>&#x0002B;</mo><msubsup><mi>q</mi><mrow><mn>3</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></msup><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$F_{i}^{(0)}=-\mu q_{i} r^{-3}, r=\left(q_{1}^{2}+q_{2}^{2}+q_{3}^{2}\right)^{1 / 2},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

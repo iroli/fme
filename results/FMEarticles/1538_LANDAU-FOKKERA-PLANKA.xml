@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1538_LANDAU-FOKKERA-PLANKA" alphabetic_pos="1540">
+  <title>ЛАНДАУ-ФОККЕРА-ПЛАНКА УРАВНЕНИЕ</title>
+  <authors>
+    <author>И. А. Кузин</author>
+    <author>В. П. Политюков</author>
+  </authors>
+  <pages>
+    <start>319</start>
+    <end>319</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1538_1_LANDAU-FOKKERA-PLANKA">\frac{d f_{\alpha}}{d t}=-\sum_{i} \frac{\partial}{\partial v_{i}}\left(f_{\alpha} \frac{\partial h_{\alpha}}{\partial v_{i}}\right)+\frac{1}{2} \sum_{i, j} \frac{\partial^{2}}{\partial v_{i} \partial v_{j}}\left(f_{\alpha} \frac{\partial^{2} g_{\alpha}}{\partial v_{i} \partial v_{j}}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1538_1_LANDAU-FOKKERA-PLANKA">f_{\alpha}(x, v, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1538_2_LANDAU-FOKKERA-PLANKA">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1538_3_LANDAU-FOKKERA-PLANKA">h_{\alpha}(v, t), g_{\alpha}(v, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1538_4_LANDAU-FOKKERA-PLANKA">f_{\alpha}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/1538_1_LANDAU-FOKKERA-PLANKA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1538_2_LANDAU-FOKKERA-PLANKA">
+      <rel_text>Ландау уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/1532_LANDAU</target>
+    </relation>
+  </relations>
+  <text>Кинетическое URI[[http://libmeta.ru/fme/relation/1538_2_LANDAU-FOKKERA-PLANKA]]/URI, записанное в форме уравнения Фоккера - Планка с переменными коэффициентами:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1538_1_LANDAU-FOKKERA-PLANKA]]/URI
+\]
+
+здесь $URI[[http://libmeta.ru/fme/formula/aux/1538_1_LANDAU-FOKKERA-PLANKA]]/URI$ - функция распределения, $URI[[http://libmeta.ru/fme/formula/aux/1538_2_LANDAU-FOKKERA-PLANKA]]/URI$ - сорт URI[[http://libmeta.ru/fme/relation/1538_1_LANDAU-FOKKERA-PLANKA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1538_3_LANDAU-FOKKERA-PLANKA]]/URI$ являются заданными функционалами от $URI[[http://libmeta.ru/fme/formula/aux/1538_4_LANDAU-FOKKERA-PLANKA]]/URI$.</text>
+  <text_orig>КИНЕтическое Ландау уравнение, записанное в форме уравнения Фоккера - Планка с переменными коэффициентами:
+
+\[
+\frac{d f_{\alpha}}{d t}=-\sum_{i} \frac{\partial}{\partial v_{i}}\left(f_{\alpha} \frac{\partial h_{\alpha}}{\partial v_{i}}\right)+\frac{1}{2} \sum_{i, j} \frac{\partial^{2}}{\partial v_{i} \partial v_{j}}\left(f_{\alpha} \frac{\partial^{2} g_{\alpha}}{\partial v_{i} \partial v_{j}}\right)
+\]
+
+здесь $f_{\alpha}(x, v, t)$ - функция распределения, $\alpha$ - сорт частиц, $h_{\alpha}(v, t), g_{\alpha}(v, t)$ являются заданными функционалами от $f_{\alpha}$. И. А. Кузин, В. П. Политюков.</text_orig>
+</article>

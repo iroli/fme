@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/396_VIGNERA" alphabetic_pos="396">
+  <title>ВИГНЕРА ФУНКЦИЯ</title>
+  <authors/>
+  <pages>
+    <start>87</start>
+    <end>87</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Wigne r E., «phys. Rev.», 1939, v. 40, № 3, p. 749; [2] Бал е с к у Р., Статистическая механика заряженных частиц, пер. с англ., М., 1967.</literature_orig>
+    <unit>
+      <author>Wigner E.</author>
+      <title>«phys. Rev.»</title>
+      <publication/>
+      <year>1939</year>
+      <other>v. 40, № 3, p. 749</other>
+    </unit>
+    <unit>
+      <author>Балеску Р.</author>
+      <title>Статистическая механика заряженных частиц</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/396_1_VIGNERA">\begin{aligned}&amp; f_{s}^{w}\left(q_{1}, p_{1} ; \ldots ; q_{S}, p_{s}\right)=(2 \pi \hbar)^{-3 s} \int d j_{1} \ldots d j_{S} \times \\&amp; \times \exp \left(-i \sum_{n=1}^{s} j_{n} p_{n}\right) \operatorname{Tr}\left\{\hat{\rho} \hat{\psi}^{+}\left(q_{1}-\frac{\hbar}{2} j_{1}\right) \ldots\right. \\&amp; \left.\ldots \psi^{+}\left(q_{s}-\frac{\hbar}{2} j_{S}\right) \hat{\psi}\left(q_{s}+\frac{\hbar}{2} j_{S}\right) \ldots \hat{\psi}\left(q_{1}+\frac{\hbar}{2} j_{1}\right)\right\},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/396_2_VIGNERA">\int d p_{1} d q_{1} \ldots d p_{s} d q_{s} f_{s}^{\boldsymbol{w}}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/396_3_VIGNERA">\begin{gathered}\langle\hat{a}\rangle=\sum_{s=0}^{\infty}(s !)^{-1} \int d q_{1} d p_{1} \ldots d q_{S} d p_{s} \times \\\times a_{s}\left(q_{1}, p_{1} ; \ldots ; q_{S}, p_{S}\right) f_{s}^{w}\left(q_{1}, p_{1} ; \ldots ; q_{S}, p_{S}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/396_4_VIGNERA">\begin{aligned}&amp; f_{s}^{w}\left(q_{1}, p_{1} ; \ldots ; q_{s}, p_{s}\right)=(2 \pi)^{-3 s} \int d k_{1} \ldots d k_{s} \times \\&amp; \times \exp \left[-i \sum_{n=1}^{s} k_{n} q_{n}\right] \tilde{f}_{s}^{w}\left(k_{1}, p_{1} ; \ldots ; k_{s}, p_{s}\right),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/396_5_VIGNERA">\begin{gathered}\tilde{f}_{s}^{w}\left(k_{1}, p_{1} ; \ldots ; k_{s}, p_{s}\right)=\hbar^{-3 s} \operatorname{Tr}\left\{\hat{\rho} \hat{a}^{+}\left(p_{1}-\frac{\hbar}{2} k_{1}\right) \times \ldots\right. \\\left.\ldots \times \hat{a}^{+}\left(p_{s}-\frac{\hbar}{2} k_{s}\right) \hat{a}\left(p_{s}+\frac{\hbar}{2} k_{s}\right) \ldots \hat{a}\left(p_{1}+\frac{\hbar}{2} k_{1}\right)\right\}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/396_6_VIGNERA">\tilde{f}_{s}^{w}\left(k_{1}, p_{1} ; \ldots ; k_{s}, p_{s}\right)=\delta\left(k_{1}+\ldots+k_{s}\right) \tilde{f}_{s}^{w}\left(k_{1}, p_{1} ; \ldots ; k_{s}, p_{s}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/396_7_VIGNERA">\tilde{f}_{1}^{w}(k, p)=8 \pi^{3} n \delta(k) \varphi^{w}(p)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_1_VIGNERA">(2 \pi \hbar)^{3 N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_2_VIGNERA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_3_VIGNERA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_4_VIGNERA">\hat{\psi}^{+}(x), \hat{\psi}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_5_VIGNERA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_6_VIGNERA">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_7_VIGNERA">a_{s}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_8_VIGNERA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_9_VIGNERA">\hat{a}_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_10_VIGNERA">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_11_VIGNERA">f_{s}^{w}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_12_VIGNERA">q_{1}, \ldots, q_{s} ; \hat{a}^{+}(p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_13_VIGNERA">\hat{a}(p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/396_14_VIGNERA">\varphi^{w}(p)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/396_1_VIGNERA">
+      <rel_text>кинетических уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/1230_KINETIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/396_2_VIGNERA">
+      <rel_text>уравнения Лиувилля</rel_text>
+      <target>http://libmeta.ru/fme/article/1627_LIUVILLJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/396_3_VIGNERA">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>функция, являющаяся преобразованием Вейля статистического оператора (с точностью до множителя $URI[[http://libmeta.ru/fme/formula/aux/396_1_VIGNERA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/396_2_VIGNERA]]/URI$ - число степеней свободы системы). $URI[[http://libmeta.ru/fme/formula/aux/396_3_VIGNERA]]/URI$-частичная В . ф. есть, по определению,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/396_1_VIGNERA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/396_4_VIGNERA]]/URI$ - вторично-квантованные операторы рождения - уничтожения частицы в точке $URI[[http://libmeta.ru/fme/formula/aux/396_5_VIGNERA]]/URI$. В. Ф. действительна и нормированна:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/396_2_VIGNERA]]/URI
+\]
+
+В общем случае В. Ф. не обязательно положительно определена. Среднее значение квантовой наблюдаемой $URI[[http://libmeta.ru/fme/formula/aux/396_6_VIGNERA]]/URI$ общего вида можно записать через В. ф.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/396_3_VIGNERA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/396_7_VIGNERA]]/URI$ вейлевский символ $URI[[http://libmeta.ru/fme/formula/aux/396_8_VIGNERA]]/URI$-частичного оператора $URI[[http://libmeta.ru/fme/formula/aux/396_9_VIGNERA]]/URI$ Для практич. вычислений удобно импульсное представление B. $URI[[http://libmeta.ru/fme/formula/aux/396_10_VIGNERA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/396_4_VIGNERA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/396_5_VIGNERA]]/URI
+\]
+
+есть фурье-образ В. ф. $URI[[http://libmeta.ru/fme/formula/aux/396_11_VIGNERA]]/URI$ по координатам $URI[[http://libmeta.ru/fme/formula/aux/396_12_VIGNERA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/396_13_VIGNERA]]/URI$ - операторы рождения - уничтожения в импульсном пространстве. Для пространственно однородной системы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/396_6_VIGNERA]]/URI
+\]
+
+в частности, одночастичная В. Ф. имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/396_7_VIGNERA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/396_14_VIGNERA]]/URI$ - функция распределения по импульсам. Важным преимуществом В. ф. является совпадение на ее языке структур классич. и квантовой URI[[http://libmeta.ru/fme/relation/396_3_VIGNERA]]/URI, в частности, URI[[http://libmeta.ru/fme/relation/396_2_VIGNERA]]/URI и цепочки URI[[http://libmeta.ru/fme/relation/396_1_VIGNERA]]/URI.</text>
+  <text_orig>функция, являющаяся преобразованием Вейля статистического оператора (с точностью до множителя $(2 \pi \hbar)^{3 N}$, где $N$ - число степеней свободы системы). $s$-частичная В . ф. есть, по определению,
+
+\[
+\begin{aligned}
+&amp; f_{s}^{w}\left(q_{1}, p_{1} ; \ldots ; q_{S}, p_{s}\right)=(2 \pi \hbar)^{-3 s} \int d j_{1} \ldots d j_{S} \times \\
+&amp; \times \exp \left(-i \sum_{n=1}^{s} j_{n} p_{n}\right) \operatorname{Tr}\left\{\hat{\rho} \hat{\psi}^{+}\left(q_{1}-\frac{\hbar}{2} j_{1}\right) \ldots\right. \\
+&amp; \left.\ldots \psi^{+}\left(q_{s}-\frac{\hbar}{2} j_{S}\right) \hat{\psi}\left(q_{s}+\frac{\hbar}{2} j_{S}\right) \ldots \hat{\psi}\left(q_{1}+\frac{\hbar}{2} j_{1}\right)\right\},
+\end{aligned}
+\]
+
+где $\hat{\psi}^{+}(x), \hat{\psi}(x)$ - вторично-квантованные операторы рождения - уничтожения частицы в точке $x$. В. Ф. действительна и нормированна:
+
+\[
+\int d p_{1} d q_{1} \ldots d p_{s} d q_{s} f_{s}^{\boldsymbol{w}}=1
+\]
+
+В общем случае В. Ф. не обязательно положительно определена. Среднее значение квантовой наблюдаемой $\hat{a}$ общего вида можно записать через В. ф.:
+
+\[
+\begin{gathered}
+\langle\hat{a}\rangle=\sum_{s=0}^{\infty}(s !)^{-1} \int d q_{1} d p_{1} \ldots d q_{S} d p_{s} \times \\
+\times a_{s}\left(q_{1}, p_{1} ; \ldots ; q_{S}, p_{S}\right) f_{s}^{w}\left(q_{1}, p_{1} ; \ldots ; q_{S}, p_{S}\right),
+\end{gathered}
+\]
+
+где $a_{s}-$ вейлевский символ $s$-частичного оператора $\hat{a}_{s}$ Для практич. вычислений удобно импульсное представление B. $\phi$ :
+
+\[
+\begin{aligned}
+&amp; f_{s}^{w}\left(q_{1}, p_{1} ; \ldots ; q_{s}, p_{s}\right)=(2 \pi)^{-3 s} \int d k_{1} \ldots d k_{s} \times \\
+&amp; \times \exp \left[-i \sum_{n=1}^{s} k_{n} q_{n}\right] \tilde{f}_{s}^{w}\left(k_{1}, p_{1} ; \ldots ; k_{s}, p_{s}\right),
+\end{aligned}
+\]
+
+где
+
+\[
+\begin{gathered}
+\tilde{f}_{s}^{w}\left(k_{1}, p_{1} ; \ldots ; k_{s}, p_{s}\right)=\hbar^{-3 s} \operatorname{Tr}\left\{\hat{\rho} \hat{a}^{+}\left(p_{1}-\frac{\hbar}{2} k_{1}\right) \times \ldots\right. \\
+\left.\ldots \times \hat{a}^{+}\left(p_{s}-\frac{\hbar}{2} k_{s}\right) \hat{a}\left(p_{s}+\frac{\hbar}{2} k_{s}\right) \ldots \hat{a}\left(p_{1}+\frac{\hbar}{2} k_{1}\right)\right\}
+\end{gathered}
+\]
+
+есть фурье-образ В. ф. $f_{s}^{w}$ по координатам $q_{1}, \ldots, q_{s} ; \hat{a}^{+}(p)$, $\hat{a}(p)$ - операторы рождения - уничтожения в импульсном пространстве. Для пространственно однородной системы
+
+\[
+\tilde{f}_{s}^{w}\left(k_{1}, p_{1} ; \ldots ; k_{s}, p_{s}\right)=\delta\left(k_{1}+\ldots+k_{s}\right) \tilde{f}_{s}^{w}\left(k_{1}, p_{1} ; \ldots ; k_{s}, p_{s}\right),
+\]
+
+в частности, одночастичная В. Ф. имеет вид:
+
+\[
+\tilde{f}_{1}^{w}(k, p)=8 \pi^{3} n \delta(k) \varphi^{w}(p)
+\]
+
+где $\varphi^{w}(p)$ - функция распределения по импульсам. Важным преимушеством В. ф. является совпадение на ее языке структур классич. и квантовой механики, в частности, уравнения Лиувилля и цепочки кинетических уравнений.
+
+Jum.: [1] Wigne r E., «Phys. Rev.», 1939, v. 40, № 3, p. 749; [2] Бал е с к у Р., Статистическая механика заряженных частиц, пер. с англ., М., 1967.</text_orig>
+</article>

@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2230_PERKUSA-JEVIKA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2230_PERKUSA-JEVIKA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1367</core:url>
+    <lbm:descriptor><![CDATA[ПЕРКУСА-ЙЕВИКА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1464"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#3758"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10536"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10537"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10539"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10540"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10541"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9921"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10542"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_764"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10543"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10544"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10545"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>приближенное замкнутое <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1906_NELINEJNOE">нелинейное интегральное уравнение</a> для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2173_PARTO">парной</a> функции распределения $URI[[http://libmeta.ru/fme/formula/aux/2230_1_PERKUSA-JEVIKA]]/URI$ :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10541">$$n_{2}(r) e^{\beta V(r)}=1-n \int d s\left[e^{\beta V(s)}-1\right] n_{2}(s)\left[n_{2}(|r-s|)-1\right]$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2230_2_PERKUSA-JEVIKA]]/URI$ - потенциал парного взаимодействия <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, $URI[[http://libmeta.ru/fme/formula/aux/2230_3_PERKUSA-JEVIKA]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотность</a> числа <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, $URI[[http://libmeta.ru/fme/formula/aux/2230_4_PERKUSA-JEVIKA]]/URI$ - обратная <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температура</a>. П.Й. у. впервые <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получено</a> диаграммным методом в описывает поведение систем с большой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотностыо</a>. П.- Й. у. или его модификации представляют собой наилучшее приближение из числа всех известных к настоящему времени. П.- Й. у. имеет точное решение в случае <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_388_VZAIMODEJSTVIJa">потенциала твердых</a> сфер: <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10543">$$v(r)=+\infty$$</a> при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10544">$$r<d_{0}, V(r)=0$$</a> при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10545">$$r \geqslant d_{0}$$</a> (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#10537">[3]</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10539">[4]</a>).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Балеску Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#10536">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#10534">Percus J. К.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#10535">Yevick G. J.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10536">«phys. Rev.», 1958, v. 110, № 1</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#10537">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#815">Thiele E.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10537">«j. Chem. Phys.», 1963, v. 39, p. 474</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#10539">[4]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#10538">Wertheim M. S.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10539">«phys. Rev. Lett.», 1963</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#10540">[5]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#10540">е го же, «j. Math. Phys.», 1964, v. 5, p. 643.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1464">Д. П. Санкович</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[приближенное замкнутое нелинейное интегральное уравнение для парной функции распределения $n_{2}(r)$ :
+
+\[
+n_{2}(r) e^{\beta V(r)}=1-n \int d s\left[e^{\beta V(s)}-1\right] n_{2}(s)\left[n_{2}(|r-s|)-1\right]
+\]
+
+где $V(r)$ - потенциал парного взаимодействня частищ, $n$ плотность числа частиц, $\beta$ - обратная температура. П.Й. у. впервые получено диаграммным методом в описывает поведение систем с большой плотностыо. П.- Й. у. или его модификации представляют собой наилучшее приближение из числа всех известных к настоящему времени. П.- Й. у. имеет точное решение в случае потенциала твердых сфер: $V(r)=+\infty$ при $r<d_{0}, V(r)=0$ при $r \geqslant d_{0}$ (см. [3], [4]).
+
+Лит.: [1] Балеску Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978; [2] Percus J. К., Yevick G. J., «Phys. Rev.», 1958, v. 110, № 1; [3] Thiele E., «J. Chem. Phys.», 1963, v. 39, p. 474; [4] Wertheim M. S., «Phys. Rev. Lett.», 1963; [5] е го же, «J. Math. Phys.», 1964, v. 5, p. 643.
+
+Д. П. Санкович.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_388_VZAIMODEJSTVIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2173_PARTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1906_NELINEJNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

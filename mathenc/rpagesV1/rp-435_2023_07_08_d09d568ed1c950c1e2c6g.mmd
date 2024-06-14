@@ -1,0 +1,117 @@
+верное для Re $z>0$. Многозначность функции $x^{z-1}$ устраняется формулой $x^{z-1}=e^{(z-1) \ln x}$ с действительным In $x$. Обозначение $\Gamma(z)$ и назв. Г.-ф. были предложены А. М. Лежандром (А. M. Legendre, 1814).
+
+Если $\operatorname{Re} z<0$ и $-k-1<\operatorname{Re} z<-k, k=0,1,2, \ldots$, то Г.-ф. может быть представлена и н т е г р а ло м К оши-З а ль ш ю ц а:
+
+\[
+\Gamma(z)=\int_{0}^{\infty} x^{z-1}\left(e^{-x}-\sum_{m=0}^{k}(-1)^{m} \frac{x^{m}}{m !}\right) d x .
+\]
+
+На всей плоскости $z$ с выброшенными точками $z=0$, $-1,-2, \ldots$ для Г.-ф. справедливо и н т е г р а л ьное п р е дстав лени е
+
+\[
+\Gamma(z)=\frac{1}{e^{2 \pi i z}-1} \int_{C} s^{z-1} e^{-s} d s,
+\]
+
+где $s^{z-1}=e^{(z-1) \ln s}$, причем $\ln s$ есть ветвь логарифма, для к-рой $0<\arg \ln s \leqslant 2 \pi ;$ контур $C$ изображен на рис. 1. Из представления Ганкеля видно, что $\Gamma(z)-$ мероморфьная фуункция. В точках $z_{n}=-n, n=0,1,2, \ldots$, она имеет простые полюсы с вычетами $(-1)^{n} / n$ !
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d09d568ed1c950c1e2c6g-1.jpg?height=131&width=664&top_left_y=798&top_left_x=189)
+
+О с новны е с оотношения и с в о йс т в а Г.-ф.
+
+1) Функционально е уравнение Ә йл e p a:
+
+\[
+z \Gamma(z)=\Gamma(z+1)
+\]
+
+или
+
+\[
+\Gamma(z)=\frac{1}{z(z+1) \ldots(z+n)} \Gamma(z+n+1) ;
+\]
+
+$\Gamma(1)=1, \Gamma(n+1)=n !$, если $n>0-$ целое, при этом считают $0 !=\Gamma(1)=1$.
+
+2) Формула дополнения Эйле ра:
+
+\[
+\Gamma(z) \Gamma(1-z)=\frac{\pi}{\sin \pi z} .
+\]
+
+В частности,
+
+$\Gamma\left(\frac{1}{2}\right)=\sqrt{\pi} ; \quad \Gamma\left(n+\frac{1}{2}\right)=\frac{1 \cdot 3 \cdot 5 \cdot \ldots \cdot(2 n-1)}{2^{n}} \sqrt{\pi}$, если $n>0-$ целое, то
+
+$\left|\Gamma\left(\frac{1}{2}+i y\right)\right|^{2}=\frac{\pi}{\operatorname{ch} y \pi}, y-$ действительное.
+
+3) Формула умножения Гаус с а:
+
+\[
+\prod_{k=0}^{m-1} \Gamma\left(z+\frac{k}{m}\right)=(2 \pi)^{\frac{m-1}{2}} m^{\frac{1}{2}-m z} \Gamma(m z),
+\]\[
+m=2,3,4, \ldots \text {. }
+\]
+
+При $m=2$ это есть фо р м ул а уд в о ения Л еж $\mathbf{a}$ нд $\mathrm{p}$ a.
+
+4) При Re $z \geqslant \delta>0$ или $|\operatorname{Im} z| \geqslant \delta>0$ имеет место асимптотич. разложение $\ln \Gamma(z)$ в р яд $\mathrm{C}$ т и ли н г a:
+
+\[
+\begin{gathered}
+\ln \Gamma(z)=\left(z-\frac{1}{2}\right) \ln z-z+\frac{1}{2} \ln 2 \pi+ \\
++\sum_{n=1}^{m} \frac{B_{2 n}}{2 n(2 n-1) z^{2 n-1}}+O\left(z^{-2 m-1}\right), \\
+m=1,2, \ldots,
+\end{gathered}
+\]
+
+где $B_{2 n}-$ Бернулли числа. Из чего следует равенство
+
+$\Gamma(z)=\sqrt{2 \pi} z^{z-\frac{1}{2}} e^{-z}\left[1+\frac{z-1}{12}+\frac{z-2}{288}-\right.$
+
+В частности,
+
+\[
+\left.-\frac{139 z-3}{51840}-\frac{571 z-4}{2488320}+O\left(z^{-5}\right)\right] \text {. }
+\]
+
+\[
+\Gamma(1+x)=\sqrt{2 \pi} x^{x+\frac{1}{2}} e^{-x+\frac{\theta}{12 x}}, \quad 0<\theta<1 .
+\]
+
+Более точной является фо р м у л а С о н и на [6]:
+
+$\Gamma(1+x)=\sqrt{2 \pi} x^{x+\frac{1}{2}} e^{-x+\frac{1}{12(x+\theta)}}, \quad 0<\theta<\frac{1}{2}$.
+
+5) В действительной области $\Gamma(x)>0$ для $x>0$ и принимает знак $(-1)^{k+1}$ на участках $-k-1<x<-k$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d09d568ed1c950c1e2c6g-1.jpg?height=774&width=707&top_left_y=397&top_left_x=1046)
+
+$k=0,1,2, \ldots$ (см. рис. 2). Для всех действительных $x$ справедливо неравенство
+
+\[
+\Gamma \Gamma^{\prime \prime}>\Gamma^{\prime 2} \geqslant 0
+\]
+
+т. е. все ветви как $|\Gamma(x)|$, так и $\ln |\Gamma(x)|$ - выпуклые функции. Свойство логарифмич. выпуклости определяет Г.-ф. среди всех решений функционального уравнения
+
+\[
+\Gamma(1+x)=x \Gamma(x)
+\]
+
+с точностью до постоянного множителя.
+
+Для положительных $x$ Г.-Ф. имеет единственный минимум при $x=1,4616321 \ldots$, равный $0,885603 \ldots$. Локальные минимумы функции $|\Gamma(x)|$ при $x \rightarrow-\infty$ образуют последовательность, стремящуюся к нулю.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d09d568ed1c950c1e2c6g-1.jpg?height=342&width=858&top_left_y=1605&top_left_x=970)
+
+Рис. 3. График функции $\frac{1}{\Gamma(x)}$.
+
+6) В комплексной области, при $\operatorname{Re} z>0$, Г.-ф. быстро убывает при $|\operatorname{Im} z| \rightarrow \infty$
+
+$\lim _{z \mid \rightarrow \infty}|\Gamma(z)||\operatorname{Im} z|^{\frac{1}{2}-\operatorname{Re} z} e^{\frac{\pi}{2}|\operatorname{Im} z|}=\sqrt{2 \pi}$.
+
+7) Функция 1/Г (z) (см. рис. 3) является целой функцией 1-го порядка максимального типа, причем асимптотически при $r \rightarrow \infty$
+
+\[
+\ln M(r) \sim r \ln r
+\]

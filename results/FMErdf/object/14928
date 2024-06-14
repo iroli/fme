@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_14928">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mrow><mi mathvariant="bold-italic">q</mi></mrow><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo><mi>T</mi></mrow></msup><mo>&#x0003D;</mo><mo>&#x02212;</mo><msubsup><mi>x</mi><mrow><mo fence="false" stretchy="false">&#x02016;</mo></mrow><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo></mrow></msubsup><msub><mo>&#x02207;</mo><mrow><mo fence="false" stretchy="false">&#x02016;</mo></mrow></msub><msup><mi>T</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x02212;</mo><msubsup><mi>x</mi><mrow><mi>&#x027C2;</mi></mrow><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo></mrow></msubsup><msub><mo>&#x02207;</mo><mrow><mi>&#x027C2;</mi></mrow></msub><msup><mi>T</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x0002B;</mo><mfrac><mrow><mn>5</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfrac><mrow><mi>n</mi><msup><mi>T</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo></mrow></msup></mrow><mrow><msup><mi>&#x003C9;</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><msup><mi>m</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo></mrow></msup></mrow></mfrac><mfrac><mrow><mi>B</mi></mrow><mrow><mi>B</mi></mrow></mfrac><mi>&#x000D7;</mi><mo>&#x02207;</mo><msup><mi>T</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\boldsymbol{q}^{(\alpha) T}=-x_{\|}^{(\alpha)} \nabla_{\|} T^{(\alpha)}-x_{\perp}^{(\alpha)} \nabla_{\perp} T^{(\alpha)}+\frac{5}{2} \frac{n T^{(\alpha)}}{\omega^{(\alpha)} m^{(\alpha)}} \frac{B}{B} \times \nabla T^{(\alpha)},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,566 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1743_MATEMATIChESKOJ" alphabetic_pos="1745">
+  <title>МАТЕМАТИЧЕСКОЙ ФИЗИКИ НЕЛИНЕЙНЫЕ УРАВНЕНИЯ</title>
+  <authors/>
+  <pages>
+    <start>353</start>
+    <end>355</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Уизем Дж., Линейные и нелинейные волны, пер. с англ., М., 1977; [2] Теория солитонов. Метод обратной задачи, М., 1980; [3] Ablow it z M. J., S eg u r N., Solitons and the inverse scattering transform, Phil., 1981; [4] И бр а гим о в Н. Х., Группы преобразований в математической физике, М., 1983.</literature_orig>
+    <unit>
+      <title>Уизем Дж., Линейные и нелинейные волны</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Теория солитонов. Метод обратной задачи</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ablowitz M. J.</author>
+      <author>Segur N.</author>
+      <title>Solitons and the inverse scattering transform, Phil.</title>
+      <publication/>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ибрагимов Н. Х.</author>
+      <title>Группы преобразований в математической физике</title>
+      <publication>М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1743_1_MATEMATIChESKOJ">\left.\begin{array}{c}\frac{\partial \rho}{\partial t}+\operatorname{div}(\rho v)=0 \\\frac{\partial v}{\partial t}+(\nu \nabla) v+\rho^{-1} \nabla P=0\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1743_2_MATEMATIChESKOJ">\frac{\partial \rho}{\partial t}+\frac{\partial \rho v}{\partial x}=0, \quad \frac{\partial v}{\partial t}+v \frac{\partial v}{\partial x}+\frac{1}{\rho} \frac{\partial P(\rho)}{\partial x}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1743_3_MATEMATIChESKOJ">\boldsymbol{n}_{\xi \eta}+\boldsymbol{n}\left(\boldsymbol{n}_{\xi}, \boldsymbol{n}_{\eta}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1743_4_MATEMATIChESKOJ">g_{\xi \eta}+\left(g_{\xi} g^{-1} g_{\eta}+g_{\eta} g^{-1} g_{\xi}\right) / 2=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1743_5_MATEMATIChESKOJ">\left.\begin{array}{c}\frac{\partial u_{0}}{\partial t}+\left(v_{0}, \nabla u_{0}\right)=i u_{1} u_{2}, \\\frac{\partial u_{1}}{\partial t}+\left(v_{1}, \nabla u_{1}\right)=i u_{1} u_{2}^{*}, \\\frac{\partial u_{2}}{\partial t}+\left(v_{2}, \nabla u_{2}\right)=i u_{1} u_{1}^{*},\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1743_6_MATEMATIChESKOJ">u_{t}=F\left(u, u_{1}, \ldots, u_{n}\right), u_{\mathbf{k}}=\partial^{\mathbf{k}} u / \partial x^{\mathbf{k}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1743_7_MATEMATIChESKOJ">u_{\tau}=f\left(u, u_{1}, \ldots, u_{l}, x, \tau\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1743_8_MATEMATIChESKOJ">\{f, h\}=\sum_{\mathbf{k}=0}^{l}\left(\frac{\partial f}{\partial u_{\mathbf{k}}} \frac{\partial^{\mathbf{k}} h}{\partial x^{\mathbf{k}}}-\frac{\partial h}{\partial u_{\mathbf{k}}} \frac{\partial^{\mathbf{k}} f}{\partial x^{\mathbf{k}}}\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_1_MATEMATIChESKOJ">\rho, P, v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_2_MATEMATIChESKOJ">p=p(\rho)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_3_MATEMATIChESKOJ">\rho=\rho_{0}, v_{0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_4_MATEMATIChESKOJ">v=\nabla \varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_5_MATEMATIChESKOJ">\rho=\rho_{0}+\delta \rho, \delta \rho \ll \rho_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_6_MATEMATIChESKOJ">\rho=\rho_{0}, \operatorname{div} v=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_7_MATEMATIChESKOJ">v_{0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_8_MATEMATIChESKOJ">\frac{\partial v}{\partial t}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_9_MATEMATIChESKOJ">\rho \rightarrow \rho_{0}, v \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_10_MATEMATIChESKOJ">x \rightarrow \pm \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_11_MATEMATIChESKOJ">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_12_MATEMATIChESKOJ">\boldsymbol{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_13_MATEMATIChESKOJ">\xi=x+t, \eta=x-t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_14_MATEMATIChESKOJ">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_15_MATEMATIChESKOJ">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_16_MATEMATIChESKOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_17_MATEMATIChESKOJ">f\left(u, u_{1}, \ldots, u_{l}, x, \tau\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1743_18_MATEMATIChESKOJ">\tau-</formula>
+  </formulas_aux>
+  <relations n="78">
+    <relation uri="http://libmeta.ru/fme/relation/1743_1_MATEMATIChESKOJ">
+      <rel_text>Автомодельность</rel_text>
+      <target>http://libmeta.ru/fme/article/16_AVTOMODEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_2_MATEMATIChESKOJ">
+      <rel_text>Солитон</rel_text>
+      <target>http://libmeta.ru/fme/article/2855_SOLITO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_3_MATEMATIChESKOJ">
+      <rel_text>странные аттракторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2973_STRANNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_4_MATEMATIChESKOJ">
+      <rel_text>турбулентность</rel_text>
+      <target>http://libmeta.ru/fme/article/3139_TURBULENTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_5_MATEMATIChESKOJ">
+      <rel_text>моделировать</rel_text>
+      <target>http://libmeta.ru/fme/article/1805_MODELIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_6_MATEMATIChESKOJ">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_7_MATEMATIChESKOJ">
+      <rel_text>группой</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_8_MATEMATIChESKOJ">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_9_MATEMATIChESKOJ">
+      <rel_text>уравнений Эйнштейна</rel_text>
+      <target>http://libmeta.ru/fme/article/3483_EJNShTEJNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_10_MATEMATIChESKOJ">
+      <rel_text>солитоны</rel_text>
+      <target>http://libmeta.ru/fme/article/2855_SOLITO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_11_MATEMATIChESKOJ">
+      <rel_text>гамильтоновы системы</rel_text>
+      <target>http://libmeta.ru/fme/article/517_GAMIL'TONOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_12_MATEMATIChESKOJ">
+      <rel_text>перечисленные</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_13_MATEMATIChESKOJ">
+      <rel_text>обратной задачи рассеяния метод</rel_text>
+      <target>http://libmeta.ru/fme/article/2036_OBRATNOJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_14_MATEMATIChESKOJ">
+      <rel_text>составляют</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_15_MATEMATIChESKOJ">
+      <rel_text>одномерные уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/2057_ODNORODNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_16_MATEMATIChESKOJ">
+      <rel_text>обладают</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_17_MATEMATIChESKOJ">
+      <rel_text>Перечисленные</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_18_MATEMATIChESKOJ">
+      <rel_text>алгебры</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_19_MATEMATIChESKOJ">
+      <rel_text>изоморфную</rel_text>
+      <target>http://libmeta.ru/fme/article/978_IZOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_20_MATEMATIChESKOJ">
+      <rel_text>скобок Пуассона</rel_text>
+      <target>http://libmeta.ru/fme/article/2471_PUASSONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_21_MATEMATIChESKOJ">
+      <rel_text>алгебру</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_22_MATEMATIChESKOJ">
+      <rel_text>Интегралы движения</rel_text>
+      <target>http://libmeta.ru/fme/article/1025_INTEGRAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_23_MATEMATIChESKOJ">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_24_MATEMATIChESKOJ">
+      <rel_text>интеграл движения</rel_text>
+      <target>http://libmeta.ru/fme/article/1025_INTEGRAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_25_MATEMATIChESKOJ">
+      <rel_text>действия</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_26_MATEMATIChESKOJ">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_27_MATEMATIChESKOJ">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_28_MATEMATIChESKOJ">
+      <rel_text>перечисленных</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_29_MATEMATIChESKOJ">
+      <rel_text>группа</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_30_MATEMATIChESKOJ">
+      <rel_text>группа</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_31_MATEMATIChESKOJ">
+      <rel_text>алгебра</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_32_MATEMATIChESKOJ">
+      <rel_text>Группа</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_33_MATEMATIChESKOJ">
+      <rel_text>подгруппы группы</rel_text>
+      <target>http://libmeta.ru/fme/article/1968_NORMALIZATOR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_34_MATEMATIChESKOJ">
+      <rel_text>действии</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_35_MATEMATIChESKOJ">
+      <rel_text>инвариантными</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_36_MATEMATIChESKOJ">
+      <rel_text>инвариантными</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_37_MATEMATIChESKOJ">
+      <rel_text>группу</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_38_MATEMATIChESKOJ">
+      <rel_text>алгебре</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_39_MATEMATIChESKOJ">
+      <rel_text>скобки Пуассона</rel_text>
+      <target>http://libmeta.ru/fme/article/2471_PUASSONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_40_MATEMATIChESKOJ">
+      <rel_text>алгебру</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_41_MATEMATIChESKOJ">
+      <rel_text>методы теории</rel_text>
+      <target>http://libmeta.ru/fme/article/56_ALGEBRO-GEOMETRIChESKIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_42_MATEMATIChESKOJ">
+      <rel_text>автомодельные</rel_text>
+      <target>http://libmeta.ru/fme/article/13_AVTOKOLEBANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_43_MATEMATIChESKOJ">
+      <rel_text>уравнения Бюргерса</rel_text>
+      <target>http://libmeta.ru/fme/article/299_BJuRGERSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_44_MATEMATIChESKOJ">
+      <rel_text>перечисленные</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_45_MATEMATIChESKOJ">
+      <rel_text>теории возмущений</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_46_MATEMATIChESKOJ">
+      <rel_text>гамильтоновых систем</rel_text>
+      <target>http://libmeta.ru/fme/article/517_GAMIL'TONOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_47_MATEMATIChESKOJ">
+      <rel_text>уравнений Власова</rel_text>
+      <target>http://libmeta.ru/fme/article/420_VLASOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_48_MATEMATIChESKOJ">
+      <rel_text>обобщений уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/2684_SVERTKI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_49_MATEMATIChESKOJ">
+      <rel_text>энергией</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_50_MATEMATIChESKOJ">
+      <rel_text>интеграл энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/1028_INTEGRAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_51_MATEMATIChESKOJ">
+      <rel_text>стационарных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/2948_STATsIONARNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_52_MATEMATIChESKOJ">
+      <rel_text>классификацию</rel_text>
+      <target>http://libmeta.ru/fme/article/1253_KLASTERIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_53_MATEMATIChESKOJ">
+      <rel_text>гиперболич</rel_text>
+      <target>http://libmeta.ru/fme/article/635_GIPERZVU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_54_MATEMATIChESKOJ">
+      <rel_text>классификации</rel_text>
+      <target>http://libmeta.ru/fme/article/1253_KLASTERIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_55_MATEMATIChESKOJ">
+      <rel_text>решения задачи</rel_text>
+      <target>http://libmeta.ru/fme/article/2547_RASSEJaNIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_56_MATEMATIChESKOJ">
+      <rel_text>уравнения газовой динамики</rel_text>
+      <target>http://libmeta.ru/fme/article/493_GAZOVOJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_57_MATEMATIChESKOJ">
+      <rel_text>параметрич</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_58_MATEMATIChESKOJ">
+      <rel_text>Бюргерса уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/299_BJuRGERSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_59_MATEMATIChESKOJ">
+      <rel_text>нелинейное уравнение Шредингера</rel_text>
+      <target>http://libmeta.ru/fme/article/1907_NELINEJNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_60_MATEMATIChESKOJ">
+      <rel_text>уравнение диффузии</rel_text>
+      <target>http://libmeta.ru/fme/article/882_DIFFUZII</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_61_MATEMATIChESKOJ">
+      <rel_text>уравнение Лапласа</rel_text>
+      <target>http://libmeta.ru/fme/article/1548_LAPLASA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_62_MATEMATIChESKOJ">
+      <rel_text>математической физики классические уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/1742_MATEMATIChESKOJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_63_MATEMATIChESKOJ">
+      <rel_text>многообразия</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_64_MATEMATIChESKOJ">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_65_MATEMATIChESKOJ">
+      <rel_text>частным</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_66_MATEMATIChESKOJ">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_67_MATEMATIChESKOJ">
+      <rel_text>асимптотической свободой</rel_text>
+      <target>http://libmeta.ru/fme/article/110_ASIMPTOTIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_68_MATEMATIChESKOJ">
+      <rel_text>частицы</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_69_MATEMATIChESKOJ">
+      <rel_text>инстантонов</rel_text>
+      <target>http://libmeta.ru/fme/article/1023_INSTRUMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_70_MATEMATIChESKOJ">
+      <rel_text>получили</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_71_MATEMATIChESKOJ">
+      <rel_text>солитоны</rel_text>
+      <target>http://libmeta.ru/fme/article/2855_SOLITO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_72_MATEMATIChESKOJ">
+      <rel_text>Локализованные</rel_text>
+      <target>http://libmeta.ru/fme/article/1640_LOKALIZUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_73_MATEMATIChESKOJ">
+      <rel_text>евклидовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/920_EVKLIDOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_74_MATEMATIChESKOJ">
+      <rel_text>траектории</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_75_MATEMATIChESKOJ">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_76_MATEMATIChESKOJ">
+      <rel_text>квазиклассич</rel_text>
+      <target>http://libmeta.ru/fme/article/1138_KVAZIIMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_77_MATEMATIChESKOJ">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1743_78_MATEMATIChESKOJ">
+      <rel_text>Локализованные</rel_text>
+      <target>http://libmeta.ru/fme/article/1640_LOKALIZUEMOST</target>
+    </relation>
+  </relations>
+  <text>уравнения, не обладающие свойством линейности; применяются в физике как математические модели нелинейных явлений в различных сплошных средах. М. Ф. Н. у.- важная часть математич. аппарата, используемого в фундаментальных физич. теориях: теории тяготения и квантовой теории поля.
+
+Строго говоря, все сплошные среды описываются нелинейными уравнениями. Выбор для описания среды линейных или нелинейных уравнений зависит от роли, К-рую играют нелинейные эффекты, и определяется конкретной физич. ситуацией. Напр., при описании распространения лазерных импульсов необходимо учитывать зависимость показателя преломления среды от интенсивности электромагнитного поля. Возникающие при этом М. Ф. н. у. являются основой математич. аппарата нелинейной оптики.
+
+Линейные уравнения, используемые в физике, являются результатом линеаризации более точных М.ф. н.у. на фоне их простейших (фоновых) решений. Исторически первым примером М.Ф. н. у. были найденные в 18 в. Эйлера уравнения для идеальной жидкости:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1743_1_MATEMATIChESKOJ]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1743_1_MATEMATIChESKOJ]]/URI$ - плотность, давление и скорость жидкости. Для баротропной жидкости, когда $URI[[http://libmeta.ru/fme/formula/aux/1743_2_MATEMATIChESKOJ]]/URI$, уравнения Эйлера можно линеаризовать на фоне тривиального решения $URI[[http://libmeta.ru/fme/formula/aux/1743_3_MATEMATIChESKOJ]]/URI$ в предположении потенциальности поля скоростей: $URI[[http://libmeta.ru/fme/formula/aux/1743_4_MATEMATIChESKOJ]]/URI$. Полагая $URI[[http://libmeta.ru/fme/formula/aux/1743_5_MATEMATIChESKOJ]]/URI$, получаем из (1) волновое уравнение для звуковых волн. Однако при рас- смотрении вихревых движений жидкости, когда ее можно считать несжимаемой, $URI[[http://libmeta.ru/fme/formula/aux/1743_6_MATEMATIChESKOJ]]/URI$, уравнения Эйлера (1) становятся существенно нелинейными. Их линеаризация на фоне решения $URI[[http://libmeta.ru/fme/formula/aux/1743_7_MATEMATIChESKOJ]]/URI$ приводит к тривиальному уравнению $URI[[http://libmeta.ru/fme/formula/aux/1743_8_MATEMATIChESKOJ]]/URI$.
+
+Таким образом, линеаризация М. ф. н. у. не всегда ведет к содержательному результату. Может оказаться, что линеаризация имеет смысл, но линейные уравнения сохраняют применимость лишь конечное время. Эта ситуация типична, если фоновое решение неустойчиво, но может иметь место и при устойчивом фоновом решении. Так, одномерные уравнения Эйлера
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1743_2_MATEMATIChESKOJ]]/URI
+\]
+
+при произвольном начальном условии $URI[[http://libmeta.ru/fme/formula/aux/1743_9_MATEMATIChESKOJ]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1743_10_MATEMATIChESKOJ]]/URI$ описывают образование ударных волн. При этом за достаточно большое время теряют применимость не только линейное приближение, но и сами уравнения (2), решения к-рых при $URI[[http://libmeta.ru/fme/formula/aux/1743_11_MATEMATIChESKOJ]]/URI$ становятся неоднозначными.
+
+Даже если линеаризация М. Ф. н. у. возможна, с точки зрения физики исключительно важны «существенно нелинейные» решения, качественно отличающиеся от решений линейных уравнений. Такими могут быть стационарные решения солитонного типа, локализованные в одном или нескольких измерениях (см. URI[[http://libmeta.ru/fme/relation/1743_2_MATEMATIChESKOJ]]/URI), или решения типа волновых коллапсов, описывающие самопроизвольную концентрацию энергии в небольших областях пространства. Существенно нелинейными являются и стационарные решения уравнений гидродинамики. Весьма важен вопрос об устойчивости существенно нелинейных решений, в том числе гидродинамич. течений и солитонов, К-рый решается либо при помощи линеаризации нелинейных уравнений на фоне изучаемых решений, либо при помощи вариационных оценок.
+
+Решения М. Ф. н. у. во многих случаях обнаруживают тенденцию к стохастизации. В этом случае они требуют статистич. описания, что составляет предмет теории турбулентности. Турбулентность часто развивается как результат неустойчивости фонового состояния. Если уровень нелинейности решения остается малым, то говорят о слабой турбулентности, в противном случае - о сильной турбулентности. Сильная турбулентность может сопровождаться волновыми коллапсами, целиком или частично состоять из взаимодействующих солитонов.
+
+Нелинейные уравнения в физике. М. ф. н. У., встречающиеся в физике, отличаются большим разнообразием. Их значительная часть представляет собой обобщения гидродинамич. уравнений Эйлера, напр. Навье - Стокса уравнения для описания движений вязкой несжимаемой жидкости. Описываемая ими гидродинамич. турбулентность является предельно сильной.
+
+В метеорологии были выведены уравнения Буссинеска, описывающие движения несжимаемой жидкости в поле тяжести и сил Кориолиса и используемые в океанологии и физике атмосферы. Магнитной гидродинамики уравнения описывают движение проводящей жидкости в магнитном поле и применяются в астрофизике и физике плазмы.
+
+Классич. примером М. ф. н. у. являются уравнения теории упругости. Развитие микроскопич. теории кристаллов дополнило их уравнениями равновесия и динамики дислокаций, также существенно нелинейными.
+
+Многие М. Ф. н. у. возникли в физике в связи с развитием теории конденсированных сред, они описывают макроскопич. проявления квантовомеханич. эффектов; неизвестной функцией в них является плотность параметра порядка (см. Фазовый переход). Если параметр порядка скалярный, это двухжидкостные уравнения гидродинамики сверхтекучего гелия, Ландау - Гинзбурга уравнения и их обобщения, описывающие магнитостатику и электродинамику сверхпроводников. Если параметр порядка векторный или тен- зорный, это уравнения Ландау - Лифшица, описывающие ферромагнетики и антиферромагнетики, уравнения обобщенной гидродинамики сверхтекучего гелия, макроскопич. модели жидких кристаллов. Для всех этих уравнений наибольший интерес представляют их существенно нелинейные решения, часто описывающие локализованные (хотя бы частично) объекты: вихри в жидком гелии и в сверхпроводниках, доменные стенки в ферромагнетиках и антиферромагнетиках, дисклинации в жидких кристаллах и солитоны, к-рые в том или ином виде существуют во всех упомянутых средах.
+
+М. Ф. н.у. возникают также как результат применения приближения Хартри - Фока к многочастичным квантовомеханич. системам и имеют в этом качестве применения в атомной и ядерной физике. Еще одним источником М. Ф. н. у. является химич. физика. Это - нелинейные уравнения диффузии, описывающие волны горения и детонации, а также колебательные химич. реакции. К ним примыкают возникшие в биофизике уравнения, описывающие распространение импульса по нервному волокну. Уравнения этих типов возникают в задачах о самоорганизации и диссипативных структурах.
+
+М. Ф. н.у. играют важную роль и в фундаментальной физике, напр. Эйнштейна уравнения для гравитационного поля. Уравнения Эйнштейна в вакууме имеют ясный геометрич. смысл, описывая римановы пространства, тензор Риччи к-рых равен нулю. Геометрич. интерпретацию имеют и многие нелинейные уравнения в квантовой теории поля, в частности Янга - Миллса поля.
+
+URI[[http://libmeta.ru/fme/relation/1743_78_MATEMATIChESKOJ]]/URI решения М. Ф. н. у. в URI[[http://libmeta.ru/fme/relation/1743_77_MATEMATIChESKOJ]]/URI можно рассматривать как точки стационарной фазы при URI[[http://libmeta.ru/fme/relation/1743_76_MATEMATIChESKOJ]]/URI. вычислении функциональных интегралов, пля Грина функций, содержащих информацию о спектре масс и сечениях взаимодействия элементарных URI[[http://libmeta.ru/fme/relation/1743_75_MATEMATIChESKOJ]]/URI. Если точкам стационарной фазы соответствуют URI[[http://libmeta.ru/fme/relation/1743_74_MATEMATIChESKOJ]]/URI подбарьерных переходов между топологически неэквивалентными вырожденными состояниями вакуума, классич. М. ф. н.у. следует рассматривать в мнимом времени, то есть не в пространстве Минковского, а в четырехмерном URI[[http://libmeta.ru/fme/relation/1743_73_MATEMATIChESKOJ]]/URI. URI[[http://libmeta.ru/fme/relation/1743_72_MATEMATIChESKOJ]]/URI решения таких уравнений - четырехмерные URI[[http://libmeta.ru/fme/relation/1743_71_MATEMATIChESKOJ]]/URI - URI[[http://libmeta.ru/fme/relation/1743_70_MATEMATIChESKOJ]]/URI название URI[[http://libmeta.ru/fme/relation/1743_69_MATEMATIChESKOJ]]/URI.
+
+Уравнения Янга - Миллса описывают URI[[http://libmeta.ru/fme/relation/1743_68_MATEMATIChESKOJ]]/URI, обладающие URI[[http://libmeta.ru/fme/relation/1743_67_MATEMATIChESKOJ]]/URI. В двумерном пространстве-времени этим же свойством URI[[http://libmeta.ru/fme/relation/1743_66_MATEMATIChESKOJ]]/URI уравнение $URI[[http://libmeta.ru/fme/formula/aux/1743_12_MATEMATIChESKOJ]]/URI$-поля:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1743_3_MATEMATIChESKOJ]]/URI
+\]
+
+(здесь $URI[[http://libmeta.ru/fme/formula/aux/1743_13_MATEMATIChESKOJ]]/URI$ «конусные» переменные). Это уравнение является URI[[http://libmeta.ru/fme/relation/1743_65_MATEMATIChESKOJ]]/URI случаем более общего уравнения «главного кирального поля»:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1743_4_MATEMATIChESKOJ]]/URI
+\]
+
+(здесь $URI[[http://libmeta.ru/fme/formula/aux/1743_14_MATEMATIChESKOJ]]/URI$ - элемент нек-рой URI[[http://libmeta.ru/fme/relation/1743_64_MATEMATIChESKOJ]]/URI Ли). Инстантонные решения этого уравнения можно использовать для описания солитонных конфигураций в жидком гелии.
+
+Универсальные модели. В этих моделях проявляется одна из характерных черт теории М. Ф. н. у.: среди огромного их URI[[http://libmeta.ru/fme/relation/1743_63_MATEMATIChESKOJ]]/URI можно выделить небольшое число уравнений сравнительно простого вида, к-рые можно использовать как математич. модели различных по своей природе физич. ситуаций. Эти уравнения играют, в известном смысле, ту же роль, что и URI[[http://libmeta.ru/fme/relation/1743_62_MATEMATIChESKOJ]]/URI (URI[[http://libmeta.ru/fme/relation/1743_61_MATEMATIChESKOJ]]/URI, URI[[http://libmeta.ru/fme/relation/1743_60_MATEMATIChESKOJ]]/URI, волновое уравнение).
+
+$URI[[http://libmeta.ru/fme/formula/aux/1743_15_MATEMATIChESKOJ]]/URI$ числу таких универсальных моделей относятся Кортевега - де Фриса уравнение, URI[[http://libmeta.ru/fme/relation/1743_59_MATEMATIChESKOJ]]/URI, синус-Гордона уравнение, Кадомцева - Петвиашвили уравнение, URI[[http://libmeta.ru/fme/relation/1743_58_MATEMATIChESKOJ]]/URI, Хохлова - Заболотской уравнение и др. Необходимо отметить еще систему уравнений «трех волн»:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1743_5_MATEMATIChESKOJ]]/URI
+\] являющуюся универсальной моделью для описания URI[[http://libmeta.ru/fme/relation/1743_57_MATEMATIChESKOJ]]/URI. взаимодействий волн в нелинейных средах. Система (5) допускает многочисленные обобщения.
+
+Большое разнообразие встречающихся в физике М. Ф. н. у. затрудняет развитие общих математич. методов их исследования. Лишь для сравнительно немногих М. Ф. н. у. доказаны теоремы существования и единственности, к таким относятся уравнения Янга - Миллса, уравнения Навье - Стокса в двумерном случае, URI[[http://libmeta.ru/fme/relation/1743_56_MATEMATIChESKOJ]]/URI. Для уравнений Навье - Стокса в трехмерном случае теорема единственности URI[[http://libmeta.ru/fme/relation/1743_55_MATEMATIChESKOJ]]/URI Коши до сих пор не доказана. Затруднена даже проблема URI[[http://libmeta.ru/fme/relation/1743_54_MATEMATIChESKOJ]]/URI М. Ф. н. у. Часть их попадает под классич. разделение на эллиптич., URI[[http://libmeta.ru/fme/relation/1743_53_MATEMATIChESKOJ]]/URI. и параболич. уравнения, но значительное число важных М.Ф.н.у. (среди них уравнение Кортевега - де Фриса, уравнение Кадомцева - Петвиашвили) не могут быть отнесены ни к одному из этих типов. Нек-рую URI[[http://libmeta.ru/fme/relation/1743_52_MATEMATIChESKOJ]]/URI М. Ф. н. у. можно осуществить на основе физич. соображений. Прежде всего это разделение на стационарные и эволюционные уравнения. Большинство URI[[http://libmeta.ru/fme/relation/1743_51_MATEMATIChESKOJ]]/URI относится к эллиптич. типу. Среди эволюционных уравнений, явно содержащих производные по времени, можно выделить консервативные М. ф. н. У., сохраняющие URI[[http://libmeta.ru/fme/relation/1743_50_MATEMATIChESKOJ]]/URI, и диссипативные М. Ф. н. у., описывающие «открытые системы», обменивающиеся URI[[http://libmeta.ru/fme/relation/1743_49_MATEMATIChESKOJ]]/URI с «внешним миром». Одним из интересных достижений теории М. ф. н. у. было обнаружение того факта, что консервативные М. ф. н. у., как правило, являются гамильтоновыми системами, хотя явное введение канонич. переменных зачастую оказывается трудной задачей. Установлена гамильтонова природа большинства консервативных URI[[http://libmeta.ru/fme/relation/1743_48_MATEMATIChESKOJ]]/URI Эйлера и даже системы URI[[http://libmeta.ru/fme/relation/1743_47_MATEMATIChESKOJ]]/URI, описывающих плазму без столкновений. Для URI[[http://libmeta.ru/fme/relation/1743_46_MATEMATIChESKOJ]]/URI, близких к линейным, развиты методы URI[[http://libmeta.ru/fme/relation/1743_45_MATEMATIChESKOJ]]/URI, позволяющие учитывать нелинейные эффекты и производить статистич. описание решений. Все URI[[http://libmeta.ru/fme/relation/1743_44_MATEMATIChESKOJ]]/URI выше универсальные М. Ф. н.у., за исключением URI[[http://libmeta.ru/fme/relation/1743_43_MATEMATIChESKOJ]]/URI и уравнения Хохлова - Заболотской, являются гамильтоновыми.
+
+Точные решения. Для физики важно знать как можно больше точных решений М. Ф. н. У., особенно существенно нелинейных. Простейшие из таких решений можно находить, используя очевидные свойства симметрии М. Ф. н. У., а также отыскивая всевозможные URI[[http://libmeta.ru/fme/relation/1743_42_MATEMATIChESKOJ]]/URI подстановки (см. URI[[http://libmeta.ru/fme/relation/1743_1_MATEMATIChESKOJ]]/URI). Более тонкие способы вычисления точных решений используют URI[[http://libmeta.ru/fme/relation/1743_41_MATEMATIChESKOJ]]/URI групп Ли. Пусть М. Ф. н.у. для функции двух переменных $URI[[http://libmeta.ru/fme/formula/aux/1743_16_MATEMATIChESKOJ]]/URI$ имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1743_6_MATEMATIChESKOJ]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/fme/formula/aux/1743_17_MATEMATIChESKOJ]]/URI$ называется с имме т р и е й у р а в не н и я (6), если оно совместно с уравнением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1743_7_MATEMATIChESKOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1743_18_MATEMATIChESKOJ]]/URI$ новая переменная. Симметрии образуют URI[[http://libmeta.ru/fme/relation/1743_40_MATEMATIChESKOJ]]/URI Ли относительно URI[[http://libmeta.ru/fme/relation/1743_39_MATEMATIChESKOJ]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1743_8_MATEMATIChESKOJ]]/URI
+\]
+
+По URI[[http://libmeta.ru/fme/relation/1743_38_MATEMATIChESKOJ]]/URI симметрий М. Ф. н. у. восстанавливают URI[[http://libmeta.ru/fme/relation/1743_37_MATEMATIChESKOJ]]/URI Ли - Беклунда непрерывных преобразований, оставляющих М. Ф. н. у. URI[[http://libmeta.ru/fme/relation/1743_36_MATEMATIChESKOJ]]/URI. Точные решения М. Ф. н. у. находят как решения, остающиеся URI[[http://libmeta.ru/fme/relation/1743_35_MATEMATIChESKOJ]]/URI при URI[[http://libmeta.ru/fme/relation/1743_34_MATEMATIChESKOJ]]/URI какой-либо URI[[http://libmeta.ru/fme/relation/1743_33_MATEMATIChESKOJ]]/URI Ли - Беклунда. URI[[http://libmeta.ru/fme/relation/1743_32_MATEMATIChESKOJ]]/URI Ли - Беклунда и URI[[http://libmeta.ru/fme/relation/1743_31_MATEMATIChESKOJ]]/URI симметрий существуют у каждого М.Ф. н.у. В большинстве случаев URI[[http://libmeta.ru/fme/relation/1743_30_MATEMATIChESKOJ]]/URI Ли Беклунда является конечномерной. Существуют, однако, случаи, когда эта URI[[http://libmeta.ru/fme/relation/1743_29_MATEMATIChESKOJ]]/URI бесконечномерна, как у всех URI[[http://libmeta.ru/fme/relation/1743_28_MATEMATIChESKOJ]]/URI выше универсальных М. Ф. н. у.
+
+Если преобразование из URI[[http://libmeta.ru/fme/relation/1743_27_MATEMATIChESKOJ]]/URI Ли - Беклунда оставляет инвариантным URI[[http://libmeta.ru/fme/relation/1743_26_MATEMATIChESKOJ]]/URI URI[[http://libmeta.ru/fme/relation/1743_25_MATEMATIChESKOJ]]/URI гамильтонова М. Ф. н. у., то оно имеет URI[[http://libmeta.ru/fme/relation/1743_24_MATEMATIChESKOJ]]/URI - URI[[http://libmeta.ru/fme/relation/1743_23_MATEMATIChESKOJ]]/URI, не зависящий от времени. URI[[http://libmeta.ru/fme/relation/1743_22_MATEMATIChESKOJ]]/URI образуют URI[[http://libmeta.ru/fme/relation/1743_21_MATEMATIChESKOJ]]/URI Ли относительно URI[[http://libmeta.ru/fme/relation/1743_20_MATEMATIChESKOJ]]/URI, URI[[http://libmeta.ru/fme/relation/1743_19_MATEMATIChESKOJ]]/URI нек-рой подалгебре URI[[http://libmeta.ru/fme/relation/1743_18_MATEMATIChESKOJ]]/URI симметрий. URI[[http://libmeta.ru/fme/relation/1743_17_MATEMATIChESKOJ]]/URI выше универсальные гамильтоновы М. Ф.н. у. URI[[http://libmeta.ru/fme/relation/1743_16_MATEMATIChESKOJ]]/URI бесконечными наборами независимых интегралов движения. Уравнения, обладающие этим свойством, несколько условно называют и н т е г р и р у е м ы м и, хотя интегрируемость доказана лишь для немногих из них. Интегрируемыми являются, в частности, URI[[http://libmeta.ru/fme/relation/1743_15_MATEMATIChESKOJ]]/URI Эйлера (2).
+
+Обширный класс интегрируемых М. Ф. н.у. URI[[http://libmeta.ru/fme/relation/1743_14_MATEMATIChESKOJ]]/URI уравнения, к к-рым применим URI[[http://libmeta.ru/fme/relation/1743_13_MATEMATIChESKOJ]]/URI. Для этих уравнений, к к-рым относятся, в частности, URI[[http://libmeta.ru/fme/relation/1743_12_MATEMATIChESKOJ]]/URI выше универсальные URI[[http://libmeta.ru/fme/relation/1743_11_MATEMATIChESKOJ]]/URI, возможно явное вычисление большого количества точных решений, в том числе описывающих URI[[http://libmeta.ru/fme/relation/1743_10_MATEMATIChESKOJ]]/URI и их взаимодействия. При помощи метода обратной задачи удается вычислять инстантонные решения уравнений Янга Миллса, а также найти многочисленные точные решения URI[[http://libmeta.ru/fme/relation/1743_9_MATEMATIChESKOJ]]/URI.
+
+Если М. ф. н. у. не URI[[http://libmeta.ru/fme/relation/1743_8_MATEMATIChESKOJ]]/URI бесконечной URI[[http://libmeta.ru/fme/relation/1743_7_MATEMATIChESKOJ]]/URI Ли Беклунда, возможности его аналитич. исследования сильно ограничены. В ряде случаев можно, используя разложение по набору заданных функций (метод Галеркина), свести его к системе обыкновенных URI[[http://libmeta.ru/fme/relation/1743_6_MATEMATIChESKOJ]]/URI, к-рую можно изучать качественными методами, а также интегрировать при помощи Эвм. Таким способом удается URI[[http://libmeta.ru/fme/relation/1743_5_MATEMATIChESKOJ]]/URI не слишком развитую URI[[http://libmeta.ru/fme/relation/1743_4_MATEMATIChESKOJ]]/URI, в том числе изучать URI[[http://libmeta.ru/fme/relation/1743_3_MATEMATIChESKOJ]]/URI. Наконец, если число независимых переменных, входящих в М. Ф. н. у., не превышает трех, оказывается достаточно эффективным их прямое численное решение на Эвм.</text>
+  <text_orig>уравнения, не обладающие свойством линейности; применяются в физике как математические модели нелинейных явлений в различных сплошных средах. М. Ф. Н. у.- важная часть математич. аппарата, используемого в фундаментальных физич. теориях: теории тяготения и квантовой теории поля.
+
+Строго говоря, все сплошные среды описываются нелинейными уравнениями. Выбор для описания среды линейных или нелинейных уравнений зависит от роли, К-рую играют нелинейные эффекты, и определяется конкретной физич. ситуацией. Напр., при описании распространения лазерных импульсов необходимо учитывать зависимость показателя преломления среды от интенсивности электромагнитного поля. Возникающие при этом М. Ф. н. у. являются основой математич. аппарата нелинейной оптики.
+
+Линейные уравнения, используемые в физике, являются результатом линеаризации более точных М.ф. н.у. на фоне их простейших (фоновых) решений. Исторически первым примером М.Ф. н. у. были найденные в 18 в. Эйлера уравнения для идеальной жидкости:
+
+\[
+\left.\begin{array}{c}
+\frac{\partial \rho}{\partial t}+\operatorname{div}(\rho v)=0 \\
+\frac{\partial v}{\partial t}+(\nu \nabla) v+\rho^{-1} \nabla P=0
+\end{array}\right\}
+\]
+
+Здесь $\rho, P, v$ - плотность, давление и скорость жидкости. Для баротропной жидкости, когда $P=P(\rho)$, уравнения Эйлера можно линеаризовать на фоне тривиального решения $\rho=\rho_{0}, v_{0}=0$ в предположении потенциальности поля скоростей: $v=\nabla \varphi$. Полагая $\rho=\rho_{0}+\delta \rho, \delta \rho \ll \rho_{0}$, получаем из (1) волновое уравнение для звуковых волн. Однако при рас- смотрении вихревых движений жидкости, когда ее можно считать несжимаемой, $\rho=\rho_{0}, \operatorname{div} v=0$, уравнения Эйлера (1) становятся существенно нелинейными. Их линеаризация на фоне решения $v_{0}=0$ приводит к тривиальному уравнению $\frac{\partial v}{\partial t}=0$.
+
+Таким образом, линеаризация М. ф. н. у. не всегда ведет к содержательному результату. Может оказаться, что линеаризация имеет смысл, но линейные уравнения сохраняют применимость лишь конечное время. Эта ситуация типична, если фоновое решение неустойчиво, но может иметь место и при устойчивом фоновом решении. Так, одномерные уравнения Эйлера
+
+\[
+\frac{\partial \rho}{\partial t}+\frac{\partial \rho v}{\partial x}=0, \quad \frac{\partial v}{\partial t}+v \frac{\partial v}{\partial x}+\frac{1}{\rho} \frac{\partial P(\rho)}{\partial x}=0
+\]
+
+при произвольном начальном условии $\rho \rightarrow \rho_{0}, v \rightarrow 0$ при $x \rightarrow \pm \infty$ описывают образование ударных волн. При этом за достаточно болышое время теряют применимость не только линейное приближение, но и сами уравнения (2), решения к-рых при $t \rightarrow \infty$ становятся неоднозначными.
+
+Даже если линеаризация М. Ф. н. у. возможна, с точки зрения физики исключительно важны «существенно нелинейные» решения, качественно отличающиеся от решений линейных уравнений. Такими могут быть стационарные решения солитонного типа, локализованные в одном или нескольких измерениях (см. Солитон), или решения типа волновых коллапсов, описывающие самопроизвольную концентрацию энергии в небольших областях пространства. Существенно нелинейными являются и стационарные решения уравнений гидродинамики. Весьма важен вопрос об устойчивости существенно нелинейных решений, в том числе гидродинамич. течений и солитонов, К-рый решается либо при помощи линеаризации нелинейных уравнений на фоне изучаемых решений, либо при помоши вариационных оценок.
+
+Решения М. Ф. н. у. во многих случаях обнаруживают тенденцию к стохастизации. В этом случае они требуют статистич. описания, что составляет предмет теории турбулентности. Турбулентность часто развивается как результат неустойчивости фонового состояния. Если уровень нелинейности решения остается малым, то говорят о слабой турбулентности, в противном случае - о сильной турбулентности. Сильная турбулентность может сопровождаться волновыми коллапсами, целиком или частично состоять из взаимодействующих солитонов.
+
+Нелинейные уравнения в физике. М. ф. н. У., встречающиеся в физике, отличаются большим разнообразием. Их значительная часть представляет собой обобщения гидродинамич. уравнений Эйлера, напр. Навье - Стокса уравнения для описания движений вязкой несжимаемой жидкости. Описываемая ими гидродинамич. турбулентность является предельно сильной.
+
+В метеорологии были выведены уравнения Буссинеска, описывающие движения несжимаемой жидкости в поле тяжести и сил Кориолиса и используемые в океанологии и физике атмосферы. Магнитной гидродинамики уравнения описывают движение проводящей жидкости в магнитном поле и применяются в астрофизике и физике плазмы.
+
+Классич. примером М. ф. н. у. являются уравнения теории упругости. Развитие микроскопич. теории кристаллов дополнило их уравнениями равновесия и динамики дислокаций, также существенно нелинейными.
+
+Многие М. Ф. н. у. возникли в физике в связи с развитием теории конденсированных сред, они описывают макроскопич. проявления квантовомеханич. эффектов; неизвестной функцией в них является плотность параметра порядка (см. Фазовый переход). Если параметр порядка скалярный, это двухжидкостные уравнения гидродинамики сверхтекучего гелия, Ландау - Гинзбурга уравнения и их обобщения, описывающие магнитостатику и электродинамику сверхпроводников. Если параметр порядка векторный или тен- зорный, это уравнения Ландау - Лифшица, описывающие ферромагнетики и антиферромагнетики, уравнения обобщенной гидродинамики сверхтекучего гелия, макроскопич. модели жидких кристаллов. Для всех этих уравнений наиболыший интерес представляют их существенно нелинейные решения, часто описывающие локализованные (хотя бы частично) объекты: вихри в жидком гелии и в сверхпроводниках, доменные стенки в ферромагнетиках и антиферромагнетиках, дисклинации в жидких кристаллах и солитоны, к-рые в том или ином виде существуют во всех упомянутых средах.
+
+М. Ф. н.у. возникают также как результат применения приближения Хартри - Фока к многочастичным квантовомеханич. системам и имеют в этом качестве применения в атомной и ядерной физике. Еще одним источником М. Ф. н. у. является химич. физика. Это - нелинейные уравнения диффузии, описывающие волны горения и детонации, а также колебательные химич. реакции. К ним примыкают возникшие в биофизике уравнения, описывающие распространение импульса по нервному волокну. Уравнения этих типов возникают в задачах о самоорганизации и диссипативных структурах.
+
+М. Ф. н.у. играют важную роль и в фундаментальной физике, напр. Эйнштейна уравнения для гравитационного поля. Уравнения Эйнштейна в вакууме имеют ясный геометрич. смысл, описывая римановы пространства, тензор Риччи к-рых равен нулю. Геометрич. интерпретацию имеют и многие нелинейные уравнения в квантовой теории поля, в частности Янга - Mиллса поля.
+
+Локализованные решения М. Ф. н. у. в квантовой теории поля можно рассматривать как точки стационарной фазы при квазиклассич. вычислении функциональньх интегралов, пля Грина функций, содержащих информацию о спектре масс и сечениях взаимодействия элементарных частиц. Если точкам стационарной фазы соответствуют траектории подбарьерных переходов между топологически неэквивалентными вырожденными состояниями вакуума, классич. М. ф. н.у. следует рассматривать в мнимом времени, то есть не в пространстве Минковского, а в четырехмерном евклидовом пространстве. Локализованные решения таких уравнений - четырехмерные солитоны - получили название инстантонов.
+
+Уравнения Янга - Миллса описывают частицы, обладающие асимптотической свободой. В двумерном пространстве-времени этим же свойством обладает уравнение $\boldsymbol{n}$-поля:
+
+\[
+\boldsymbol{n}_{\xi \eta}+\boldsymbol{n}\left(\boldsymbol{n}_{\xi}, \boldsymbol{n}_{\eta}\right)=0
+\]
+
+(здесь $\xi=x+t, \eta=x-t-$ «конусные» переменные). Это уравнение является частным случаем более общего уравнения «главного кирального поля»:
+
+\[
+g_{\xi \eta}+\left(g_{\xi} g^{-1} g_{\eta}+g_{\eta} g^{-1} g_{\xi}\right) / 2=0
+\]
+
+(здесь $g$ - элемент нек-рой группы Ли). Инстантонные решения этого уравнения можно использовать для описания солитонных конфигураций в жидком гелии.
+
+Универсалыные модели. В этих моделях проявляется одна из характерных черт теории М. Ф. н. у.: среди огромного их многообразия можно выделить небольшое число уравнений сравнительно простого вида, к-рые можно использовать как математич. модели различных по своей природе физич. ситуаций. Эти уравнения играют, в известном смысле, ту же роль, что и математической физики классические уравнения (уравнение Лапласа, уравнение диффузии, волновое уравнение).
+
+$\mathrm{K}$ числу таких универсальных моделей относятся Кортевега - де Фриса уравнение, нелинейное уравнение Шредингера, синус-Гордона уравнение, Кадомцева - Петвиашвили уравнение, Бюргерса уравнение, Хохлова - Заболотской уравнение и др. Необходимо отметить еще систему уравнений «трех волн»:
+
+\[
+\left.\begin{array}{c}
+\frac{\partial u_{0}}{\partial t}+\left(v_{0}, \nabla u_{0}\right)=i u_{1} u_{2}, \\
+\frac{\partial u_{1}}{\partial t}+\left(v_{1}, \nabla u_{1}\right)=i u_{1} u_{2}^{*}, \\
+\frac{\partial u_{2}}{\partial t}+\left(v_{2}, \nabla u_{2}\right)=i u_{1} u_{1}^{*},
+\end{array}\right\}
+\] являющуюся универсальной моделью для описания параметрич. взаимодействий волн в нелинейных средах. Система (5) допускает многочисленные обобщения.
+
+Большое разнообразие встречающихся в физике М. Ф. н. у. затрудняет развитие общих математич. методов их исследования. Лишь для сравнительно немногих М. Ф. н. у. доказаны теоремы существования и единственности, к таким относятся уравнения Янга - Миллса, уравнения Навье - Стокса в двумерном случае, уравнения газовой динамики. Для уравнений Навье - Стокса в трехмерном случае теорема единственности решения задачи Коши до сих пор не доказана. Затруднена даже проблема классификации М. Ф. н. у. Часть их попадает под классич. разделение на эллиптич., гиперболич. и параболич. уравнения, но значительное число важных М.Ф.н.у. (среди них уравнение Кортевега - де Фриса, уравнение Кадомцева - Петвиашвили) не могут быть отнесены ни к одному из этих типов. Нек-рую классификацию М. Ф. н. у. можно осуществить на основе физич. соображений. Прежде всего это разделение на стационарные и эволюционные уравнения. Большинство стационарных уравнений относится к эллиптич. типу. Среди эволюционных уравнений, явно содержащих производные по времени, можно выделить консервативные М. ф. н. У., сохраняющие интеграл энергии, и диссипативные М. Ф. н. у., описывающие «открытые системы», обменивающиеся энергией с «внешним миром». Одним из интересных достижений теории М. ф. н. у. было обнаружение того факта, что консервативные М. ф. н. у., как правило, являются гамильтоновыми системами, хотя явное введение канонич. переменных зачастую оказывается трудной задачей. Установлена гамильтонова природа большинства консервативных обобщений уравнений Эйлера и даже системы уравнений Власова, описывающих плазму без столкновений. Для гамильтоновых систем, близких к линейным, развиты методы теории возмущений, позволяющие учитывать нелинейные эффекты и производить статистич. описание решений. Все перечисленные выше универсальные М. Ф. н.у., за исключением уравнения Бюргерса и уравнения Хохлова - Заболотской, являются гамильтоновыми.
+
+Точные решения. Для физики важно знать как можно больше точных решений М. Ф. н. У., особенно сушественно нелинейных. Простейшие из таких решений можно находить, используя очевидные свойства симметрии М. Ф. н. У., а также отыскивая всевозможные автомодельные подстановки (см. Автомодельность). Более тонкие способы вычисления точных решений используют методы теории групп Ли. Пусть М. Ф. н.у. для функции двух переменных $u(x, t)$ имеет вид
+
+\[
+u_{t}=F\left(u, u_{1}, \ldots, u_{n}\right), u_{\mathbf{k}}=\partial^{\mathbf{k}} u / \partial x^{\mathbf{k}}
+\]
+
+Функция $f\left(u, u_{1}, \ldots, u_{l}, x, \tau\right)$ называется с имме т р и е й у р а в не н и я (6), если оно совместно с уравнением
+
+\[
+u_{\tau}=f\left(u, u_{1}, \ldots, u_{l}, x, \tau\right)
+\]
+
+где $\tau-$ новая переменная. Симметрии образуют алгебру Ли относительно скобки Пуассона
+
+\[
+\{f, h\}=\sum_{\mathbf{k}=0}^{l}\left(\frac{\partial f}{\partial u_{\mathbf{k}}} \frac{\partial^{\mathbf{k}} h}{\partial x^{\mathbf{k}}}-\frac{\partial h}{\partial u_{\mathbf{k}}} \frac{\partial^{\mathbf{k}} f}{\partial x^{\mathbf{k}}}\right) .
+\]
+
+По алгебре симметрий М. Ф. н. у. восстанавливают группу Ли - Беклунда непрерывных преобразований, оставляющих М. Ф. н. у. инвариантными. Точные решения М. Ф. н. у. находят как решения, остаюшиеся инвариантными при действии какой-либо подгруппы группы Ли - Беклунда. Группа Ли - Беклунда и алгебра симметрий существуют у каждого М.Ф. н.у. В большинстве случаев группа Ли Беклунда является конечномерной. Существуют, однако, случаи, когда эта группа бесконечномерна, как у всех перечисленных выше универсальных М. Ф. н. у.
+
+Если преобразование из группы Ли - Беклунда оставляет инвариантным функционал действия гамильтонова М. Ф. н. у., то оно имеет интеграл движения - функционал, не зависящий от времени. Интегралы движения образуют алгебру Ли относительно скобок Пуассона, изоморфную нек-рой подалгебре атгебры симметрий. Перечисленные выше универсальные гамильтоновы М. Ф.н. у. обладают бесконечными наборами независимых интегралов движения. Уравнения, обладающие этим свойством, несколько условно называют и н т е г р и р у е м ы м и, хотя интегрируемость доказана лишь для немногих из них. Интегрируемыми являются, в частности, одюомерные уравнения Эйлера (2).
+
+Обширный класс интегрируемых М. Ф. н.у. составляют уравнения, к к-рым применим обратной задачи рассеяния метод. Для этих уравнений, к к-рым относятся, в частности, перечисленные выше универсальные гамильтоновы системы, возможно явное вычисление болышого количества точных решений, в том числе описывающих солитоны и их взаимодействия. При помощи метода обратной задачи удается вычислять инстантонные решения уравнений Янга Миллса, а также найти многочисленные точные решения уравнений Эйнштейна.
+
+Если М. ф. н. у. не обладает бесконечной группой Ли Беклунда, возможности его аналитич. исследования сильно ограничены. В ряде случаев можно, используя разложение по набору заданных функций (метод Галеркина), свести его к системе обыкновенных дифференциальных уравнений, к-рую можно изучать качественными методами, а также интегрировать при помоши ЭВМ. Таким способом удается моделировать не слишком развитую турбулентность, в том числе изучать странные аттракторы. Наконец, если число независимых переменных, входящих в М. Ф. н. у., не превышает трех, оказывается достаточно эффективным их прямое численное решение на ЭВМ.
+
+Лит.: [1] Уизем Дж., Линейные и нелинейные волны, пер. с англ., М., 1977; [2] Теория солитонов. Метод обратной задачи, М., 1980; [3] Ablow it z M. J., S eg u r N., Solitons and the inverse scattering transform, Phil., 1981; [4] И бр а гим о в Н. Х., Группы преобразований в математической физике, М., 1983.</text_orig>
+</article>

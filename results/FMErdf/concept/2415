@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3174_UNIMODULJaRNAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3174_UNIMODULJaRNAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2415</core:url>
+    <lbm:descriptor><![CDATA[УНИМОДУЛЯРНАЯ ГРУППА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#257"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1646_LOKAL'NO">локально компактная группа</a> $URI[[http://libmeta.ru/fme/formula/aux/3174_1_UNIMODULJaRNAJa]]/URI$, на которой существует двусторонне инвариантная Хаара мера. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">Группа</a> Ли унимодулярна тогда и только тогда, когда все <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операторы</a> присоединенного представления этой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> имеют определитель 1. В частности, унимодулярны все <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">полупростые</a> и все <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1962_NIL'POTENTNAJa">нильпотентные группы</a> Ли.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1002_INVARIANTNOE">Инвариантное интегрирование</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#257">Ю. А. Неретин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[локально компактная группа $G$, на которой существует двусторонне инвариантная Хаара мера. Группа Ли унимодулярна тогда и только тогда, когда все операторы присоединенного представления этой группы имеют определитель 1. В частности, унимодулярны все полупростые и все нильпотентные группы Ли.
+
+См. также Инвариантное интегрирование. Ю. А. Неретин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1002_INVARIANTNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1962_NIL'POTENTNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1646_LOKAL'NO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

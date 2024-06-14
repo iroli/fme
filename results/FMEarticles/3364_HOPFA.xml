@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3364_HOPFA" alphabetic_pos="3366">
+  <title>ХОПФА УРАВНЕНИЕ</title>
+  <authors>
+    <author>Ю. П. Вирченко</author>
+  </authors>
+  <pages>
+    <start>657</start>
+    <end>657</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] H op f E., &quot;comm. Pure Appl. Math.», 1956, v. 3, № 1, p. 201-30; [2] Рождественский Б.Л., Яненко Н. Н., Системы квазилинейных уравнений, 2 изд., М., 1978.</literature_orig>
+    <unit>
+      <author>Hopf E.</author>
+      <title>&quot;comm. Pure Appl. Math.»</title>
+      <publication/>
+      <year>1956</year>
+      <other>v. 3, № 1, p. 201-30</other>
+    </unit>
+    <unit>
+      <author>Рождественский Б. Л.</author>
+      <author>Яненко Н. Н.</author>
+      <title>Системы квазилинейных уравнений</title>
+      <publication>2 изд., М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3364_1_HOPFA">\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3364_2_HOPFA">u=u_{0}(x-u t),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3364_3_HOPFA">\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}=\mu \frac{\partial^{2} u}{\partial x^{2}}, \quad \mu&gt;0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3364_4_HOPFA">\oint_{C} u d x-\frac{u^{2}}{2} d t=0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_1_HOPFA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_2_HOPFA">x \in \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_3_HOPFA">t \in[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_4_HOPFA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_5_HOPFA">u_{0}(x)=u(x, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_6_HOPFA">t \in\left[0,\left(\max _{x}\left(-\partial u_{0} / \partial x\right)\right)^{-1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_7_HOPFA">[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_8_HOPFA">u_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_9_HOPFA">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_10_HOPFA">c-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3364_11_HOPFA">(-\infty, \infty) \times[0, \infty)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/3364_1_HOPFA">
+      <rel_text>закону сохранения</rel_text>
+      <target>http://libmeta.ru/fme/article/2877_SOHRANENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3364_2_HOPFA">
+      <rel_text>Полученное</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3364_3_HOPFA">
+      <rel_text>начальным условием</rel_text>
+      <target>http://libmeta.ru/fme/article/1873_NAChAL'NYE</target>
+    </relation>
+  </relations>
+  <text>нелинейное уравнение переноса }\end{array}# для скорости течения $URI[[http://libmeta.ru/fme/formula/aux/3364_1_HOPFA]]/URI$ в точке $URI[[http://libmeta.ru/fme/formula/aux/3364_2_HOPFA]]/URI$ в момент времени $URI[[http://libmeta.ru/fme/formula/aux/3364_3_HOPFA]]/URI$ в одномерной газодинамике:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3364_1_HOPFA]]/URI
+\]
+
+Уравнение (1) точно интегрируется и его решение $URI[[http://libmeta.ru/fme/formula/aux/3364_4_HOPFA]]/URI$ определяется неявно из уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3364_2_HOPFA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3364_5_HOPFA]]/URI$. Однако это решение существует только на интервале $URI[[http://libmeta.ru/fme/formula/aux/3364_6_HOPFA]]/URI$. Это явление типично для систем квазилинейных дифференциальных уравнений с частными производными 1-го порядка. Чтобы говорить о возможности продолжения решений этих уравнений на $URI[[http://libmeta.ru/fme/formula/aux/3364_7_HOPFA]]/URI$ вводится понятие обобщенных решений, к-рые уже являются разрывными. В классич. работе Э. Хопфа [1] построено обобщенное разрывное решение уравнения (1), как поточечный предел решения ура в не ния Бюргерса
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3364_3_HOPFA]]/URI
+\]
+
+с тем же URI[[http://libmeta.ru/fme/relation/3364_3_HOPFA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3364_8_HOPFA]]/URI$ при стремлении к нулю вязкости $URI[[http://libmeta.ru/fme/formula/aux/3364_9_HOPFA]]/URI$. URI[[http://libmeta.ru/fme/relation/3364_2_HOPFA]]/URI разрывное решение удовлетворяет интегральному URI[[http://libmeta.ru/fme/relation/3364_1_HOPFA]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3364_4_HOPFA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3364_10_HOPFA]]/URI$ любой контур в $URI[[http://libmeta.ru/fme/formula/aux/3364_11_HOPFA]]/URI$, и так наз. у с ло в и ю Гюго н и о на линиях разрыва решения.</text>
+  <text_orig>нелинейное уравнение переноса }\end{array}$ для скорости течения $u(x, t)$ в точке $x \in \mathbb{R}$ в момент времени $t \in[0, \infty)$ в одномерной газодинамике:
+
+\[
+\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}=0 .
+\]
+
+Уравнение (1) точно интегрируется и его решение $u(x, t)$ определяется неявно из уравнения
+
+\[
+u=u_{0}(x-u t),
+\]
+
+где $u_{0}(x)=u(x, 0)$. Однако это решение существует только на интервале $t \in\left[0,\left(\max _{x}\left(-\partial u_{0} / \partial x\right)\right)^{-1}\right)$. Это явление типично для систем квазилинейных дифференциальных уравнений с частными производными 1-го порядка. Чтобы говорить о возможности продолжения решений этих уравнений на $[0, \infty)$ вводится понятие обобщенных решений, к-рые уже являются разрывными. В классич. работе Э. Хопфа [1] построено обобщенное разрывное решение уравнения (1), как поточечный предел решения ура в не ния Бюргерса
+
+\[
+\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}=\mu \frac{\partial^{2} u}{\partial x^{2}}, \quad \mu&gt;0,
+\]
+
+с тем же начальным условием $u_{0}(x)$ при стремлении к нулю вязкости $\mu$. Полученное разрывное решение удовлетворяет интегральному закону сохранения
+
+\[
+\oint_{C} u d x-\frac{u^{2}}{2} d t=0
+\]
+
+где $C-$ любой контур в $(-\infty, \infty) \times[0, \infty)$, и так наз. у с ло в и ю Гюго н и о на линиях разрыва решения.
+
+Jum.: [1] H op f E., &quot;Comm. Pure Appl. Math.», 1956, v. 3, № 1, p. 201-30; [2] Рождественский Б.Л., Яненко Н. Н., Системы квазилинейных уравнений, 2 изд., М., 1978. Ю. П. Вирченко.</text_orig>
+</article>

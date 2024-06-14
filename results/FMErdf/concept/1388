@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_224_BOGOLJuBOVA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_224_BOGOLJuBOVA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1388</core:url>
+    <lbm:descriptor><![CDATA[БОГОЛЮБОВА НЕРАВЕНСТВО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2949"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10851"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10852"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1019"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10853"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>неравенство, используемое в теории фазовых переходов. Пусть $URI[[http://libmeta.ru/fme/formula/aux/224_1_BOGOLJuBOVA]]/URI$ - симметрич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1339_KONEChNOMERNOE">конечномерном векторном пространстве</a> $URI[[http://libmeta.ru/fme/formula/aux/224_2_BOGOLJuBOVA]]/URI$. Положим<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10851">$$\langle X\rangle=(\operatorname{Tr} \exp (-\beta H))^{-1} \operatorname{Tr} X \exp (-\beta H)$$</a><BR/></P><P>для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> $URI[[http://libmeta.ru/fme/formula/aux/224_3_BOGOLJuBOVA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/224_4_BOGOLJuBOVA]]/URI$. Тогда для операторов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10853">$$a, C$$</a> в $URI[[http://libmeta.ru/fme/formula/aux/224_6_BOGOLJuBOVA]]/URI$ имеет место <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_224_BOGOLJuBOVA">неравенство Боголюбова</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10852">$$\begin{gathered}\frac{1}{2} \beta\left\langle A A^{*}+A^{*} A\right\rangle\left\langle\left[[C, H] C^{*}\right]\right\rangle \geqslant|\langle[C, A]\rangle|^{2}, \\{[C, H]=C H-H C .}\end{gathered}$$</a><BR/></P><P>Это неравенство обобщается на случай бесконечномерного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO">гильбертова пространства</a>.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_234_BOGOLJuBOVA-PAJERLSA">Боголюбова-Пайерлса неравенство</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2949">В. И. Скрипник</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[неравенство, используемое в теории фазовых переходов. Пусть $H$ - симметрич. оператор в конечномерном векторном пространстве $L$. Положим
+
+\[
+\langle X\rangle=(\operatorname{Tr} \exp (-\beta H))^{-1} \operatorname{Tr} X \exp (-\beta H)
+\]
+
+для оператора $X$ в $L$. Тогда для операторов $A, C$ в $L$ имеет место неравенство Боголюбова:
+
+\[
+\begin{gathered}
+\frac{1}{2} \beta\left\langle A A^{*}+A^{*} A\right\rangle\left\langle\left[[C, H] C^{*}\right]\right\rangle \geqslant|\langle[C, A]\rangle|^{2}, \\
+{[C, H]=C H-H C .}
+\end{gathered}
+\]
+
+Это неравенство обобщается на случай бесконечномерного гильбертова пространства.
+
+См. также Боголюбова-Пайерлса неравенство.
+
+В. И. Скрипник.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_234_BOGOLJuBOVA-PAJERLSA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_224_BOGOLJuBOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1339_KONEChNOMERNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

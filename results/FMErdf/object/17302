@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_17302">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>F</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msub><mi>U</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><msub><mi>F</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mn>0</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mspace linebreak="newline" /><mo>&#x0003D;</mo><msup><mi>e</mi><mrow><msub><mo>&#x0222B;</mo><mrow><mi>&#x0039B;</mi></mrow></msub><mi>d</mi><mi>x</mi></mrow></msup><msub><mi>S</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mo>&#x02212;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><msup><mi>e</mi><mrow><mo>&#x02212;</mo><msub><mo>&#x0222B;</mo><mrow><mi>&#x0039B;</mi></mrow></msub><mi>d</mi><mi>x</mi></mrow></msup><msub><mi>F</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mn>0</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace width="1em" /><msub><mi>F</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mn>0</mn><mo stretchy="false">&#x00029;</mo><mo>&#x02208;</mo><msub><mi>B</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}F_{\Lambda}(t)=U_{\Lambda}(t) F_{\Lambda}(0)= \\=e^{\int_{\Lambda} d x} S_{\Lambda}(-t) e^{-\int_{\Lambda} d x} F_{\Lambda}(0), \quad F_{\Lambda}(0) \in B_{\Lambda},\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

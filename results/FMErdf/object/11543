@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_11543">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>Tr</mo><mi>&#x003C1;</mi><mi>X</mi><mo>&#x0003D;</mo><mo>&#x0222B;</mo><mi>F</mi><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mo>&#x0002C;</mo><mi>&#x003C8;</mi><mo stretchy="false">&#x00029;</mo><mi>&#x003BC;</mi><mo stretchy="false">&#x00028;</mo><mi>d</mi><mi>&#x003C8;</mi><mi>d</mi><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mo stretchy="false">&#x00029;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\operatorname{Tr} \rho X=\int F(\bar{\psi}, \psi) \mu(d \psi d \bar{\psi})$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

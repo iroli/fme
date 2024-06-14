@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2141_OTNOSITEL'NOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2141_OTNOSITEL'NOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1268</core:url>
+    <lbm:descriptor><![CDATA[ОТНОСИТЕЛЬНОЕ РАВНОВЕСИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#513"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9773"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9774"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1723"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3442"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>состояние гамильтоновой системы, которому соответствует фазовая кривая, проектирующаяся в положение равновесия приведенной системы.<BR/></P><P>Пусть гамильтонова система с гамильтонианом $URI[[http://libmeta.ru/fme/formula/aux/2141_1_OTNOSITEL'NOE]]/URI$ обладает группой с симметрией $URI[[http://libmeta.ru/fme/formula/aux/2141_2_OTNOSITEL'NOE]]/URI$. Симплектическая редукция позволяет рассмотреть приведенную систему на приведенном фазовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/2141_3_OTNOSITEL'NOE]]/URI$. Фазовые кривые исходной системы $URI[[http://libmeta.ru/fme/formula/aux/2141_4_OTNOSITEL'NOE]]/URI$, проектирующиеся в положение равновесия приведенной системы, отвечают положениям О.p.<BR/></P><P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3235_FAZOVAJa">Фазовая кривая</a> соответствует О. р. тогда и только тогда, когда она является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2083_ORBIT">орбитой</a> однопараметрич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1968_NORMALIZATOR">подгруппы группы</a> $URI[[http://libmeta.ru/fme/formula/aux/2141_5_OTNOSITEL'NOE]]/URI$ в исходном пространстве. Другое описание О. p.критич. точки <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1820_MOMENTA">отображения момента</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9773">$$P \times H: M \rightarrow \mathbb{S}^{*} \times \mathbb{R}$$</a><BR/></P><P>на регулярном множестве уровня момента. $URI[[http://libmeta.ru/fme/formula/aux/2141_6_OTNOSITEL'NOE]]/URI$<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#513">М. Э. Казарян</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[состояние гамильтоновой системы, которому соответствует фазовая кривая, проектирующаяся в положение равновесия приведенной системы.
+
+Пусть гамильтонова система с гамильтонианом $H$ обладает группой с симметрией $G$. Симплектическая редукция позволяет рассмотреть приведенную систему на приведенном фазовом пространстве $F_{p}$. Фазовые кривые исходной системы $\boldsymbol{M}$, проектирующиеся в положение равновесия приведенной системы, отвечают положениям О.p.
+
+Фазовая кривая соответствует О. р. тогда и только тогда, когда она является орбитой однопараметрич. подгруппы группы $\boldsymbol{G}$ в исходном пространстве. Другое описание О. p.критич. точки отображения момента и энергии
+
+\[
+P \times H: M \rightarrow \mathbb{S}^{*} \times \mathbb{R}
+\]
+
+на регулярном множестве уровня момента. $\quad$ М. Э. Казарян.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1820_MOMENTA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1968_NORMALIZATOR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2083_ORBIT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3235_FAZOVAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

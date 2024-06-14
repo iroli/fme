@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_6206">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>d</mi><msub><mi>w</mi><mrow><mi>v</mi></mrow></msub><mo>&#x0003D;</mo><mi>F</mi><mo stretchy="false">&#x00028;</mo><mi>v</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>v</mi><mo>&#x0003D;</mo><mi>n</mi><mo stretchy="false">&#x00028;</mo><mi>m</mi><mo>&#x0002F;</mo><mn>2</mn><mi>&#x003C0;</mi><mi>k</mi><mi>T</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mn>3</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></msup><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><mo>&#x02212;</mo><mi>m</mi><msup><mi>v</mi><mrow><mn>2</mn></mrow></msup><mo>&#x0002F;</mo><mn>2</mn><mi>k</mi><mi>T</mi><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mn>4</mn><mi>&#x003C0;</mi><msup><mi>v</mi><mrow><mn>2</mn></mrow></msup><mi>d</mi><mi>v</mi><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$d w_{v}=F(v) d v=n(m / 2 \pi k T)^{3 / 2} \exp \left[-m v^{2} / 2 k T\right] 4 \pi v^{2} d v .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

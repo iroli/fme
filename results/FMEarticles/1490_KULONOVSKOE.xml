@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1490_KULONOVSKOE" alphabetic_pos="1492">
+  <title>КУЛОНОВСКОЕ РАССЕЯНИЕ</title>
+  <authors/>
+  <pages>
+    <start>308</start>
+    <end>309</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Do1lard J., «j. Math. Phys.», 1964, v. 5, p. 729-38; [2] Н ь ю то н Р., Теория рассеяния волн и частиц, пер. с англ., М., $\begin{array}{ll}1969 . &amp; \text { С. П. Меркурьев, С. Л. Яковлев. }\end{array}$</literature_orig>
+    <unit>
+      <author>Do1lard J.</author>
+      <title>«j. Math. Phys.»</title>
+      <publication/>
+      <year>1964</year>
+      <other>v. 5, p. 729-38</other>
+    </unit>
+    <unit>
+      <author>Ньютон Р.</author>
+      <title>Теория рассеяния волн и частиц</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1969</year>
+      <other>С. Л. Яковлев. }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1490_1_KULONOVSKOE">v_{c}(x)=n /|x| .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1490_2_KULONOVSKOE">H=-\Delta_{x}+v_{c}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1490_3_KULONOVSKOE">W_{ \pm}^{c}=\underset{t \rightarrow \mp \infty}{\operatorname{sim}} \exp \{i t H\} \exp \left\{-i t H_{0}-i W_{t}\left(H_{0}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1490_4_KULONOVSKOE">W_{ \pm}^{c}(x, k)=(2 \pi)^{-3 / 2} \psi_{c}^{( \pm)}(x, k) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1490_5_KULONOVSKOE">\left\{-\Delta_{x}+v_{c}(x)-k^{2}\right\} \psi_{c(x, k)}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1490_6_KULONOVSKOE">\psi_{c}(x, k)=e^{-\pi \eta / 2} \Gamma(1+i \eta) \Phi(-i \eta, 1, i|k| \xi) e^{i(x, k)},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1490_1_KULONOVSKOE">v_{c}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1490_2_KULONOVSKOE">w_{t}\left(h_{0}\right)=\operatorname{sign} t \cdot n /\left[2\left(H_{0}\right)^{1 / 2}\right] \ln 4|t| H_{0}, H_{0}=-\Delta_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1490_3_KULONOVSKOE">w_{ \pm}^{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1490_4_KULONOVSKOE">\psi_{c}^{( \pm)}(x, k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1490_5_KULONOVSKOE">\psi_{c}(x, k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1490_6_KULONOVSKOE">\phi(a, c, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1490_7_KULONOVSKOE">\eta=n / 2|k|, \xi=|x|-(k /|k|, x)</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/1490_1_KULONOVSKOE">
+      <rel_text>гипергеометрич</rel_text>
+      <target>http://libmeta.ru/fme/article/632_GIPERBOLIChNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1490_2_KULONOVSKOE">
+      <rel_text>уравнению Шредингера</rel_text>
+      <target>http://libmeta.ru/fme/article/3462_ShREDINGERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1490_3_KULONOVSKOE">
+      <rel_text>уравнения Шредингера</rel_text>
+      <target>http://libmeta.ru/fme/article/3462_ShREDINGERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1490_4_KULONOVSKOE">
+      <rel_text>преобразования Фурье</rel_text>
+      <target>http://libmeta.ru/fme/article/3326_FUR'E</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1490_5_KULONOVSKOE">
+      <rel_text>решения задачи рассеяния</rel_text>
+      <target>http://libmeta.ru/fme/article/2547_RASSEJaNIJa</target>
+    </relation>
+  </relations>
+  <text>рассеяние в системе двух частиц с потенциалом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1490_1_KULONOVSKOE]]/URI
+\]
+
+Для оператора Шредингера
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1490_2_KULONOVSKOE]]/URI
+\] с кулоновским потенциалом $URI[[http://libmeta.ru/fme/formula/aux/1490_1_KULONOVSKOE]]/URI$ URI[[http://libmeta.ru/fme/relation/1490_5_KULONOVSKOE]]/URI определяются с помощью модифицированных волновых операторов:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1490_3_KULONOVSKOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1490_2_KULONOVSKOE]]/URI$. Ядра операторов $URI[[http://libmeta.ru/fme/formula/aux/1490_3_KULONOVSKOE]]/URI$ после URI[[http://libmeta.ru/fme/relation/1490_4_KULONOVSKOE]]/URI по второму аргументу выражаются через решения URI[[http://libmeta.ru/fme/relation/1490_3_KULONOVSKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1490_4_KULONOVSKOE]]/URI$ формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1490_4_KULONOVSKOE]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/fme/formula/aux/1490_5_KULONOVSKOE]]/URI$, удовлетворяющая URI[[http://libmeta.ru/fme/relation/1490_2_KULONOVSKOE]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1490_5_KULONOVSKOE]]/URI
+\]
+
+может быть явно выражена через вырожденную URI[[http://libmeta.ru/fme/relation/1490_1_KULONOVSKOE]]/URI. функцию $URI[[http://libmeta.ru/fme/formula/aux/1490_6_KULONOVSKOE]]/URI$ формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1490_6_KULONOVSKOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1490_7_KULONOVSKOE]]/URI$.</text>
+  <text_orig>рассеяние в системе двух частиц с потенциалом
+
+\[
+v_{c}(x)=n /|x| .
+\]
+
+Для оператора Шредингера
+
+\[
+H=-\Delta_{x}+v_{c}(x)
+\] с кулоновским потенциалом $v_{c}(x)$ решения задачи рассеяния определяются с помощью модифицированных волновых операторов:
+
+\[
+W_{ \pm}^{c}=\underset{t \rightarrow \mp \infty}{\operatorname{sim}} \exp \{i t H\} \exp \left\{-i t H_{0}-i W_{t}\left(H_{0}\right)\right\}
+\]
+
+где $W_{t}\left(H_{0}\right)=\operatorname{sign} t \cdot n /\left[2\left(H_{0}\right)^{1 / 2}\right] \ln 4|t| H_{0}, H_{0}=-\Delta_{x}$. Ядра операторов $W_{ \pm}^{c}$ после преобразования Фурье по второму аргументу выражаются через решения уравнения Шредингера $\psi_{c}^{( \pm)}(x, k)$ формулой
+
+\[
+W_{ \pm}^{c}(x, k)=(2 \pi)^{-3 / 2} \psi_{c}^{( \pm)}(x, k) .
+\]
+
+Функция $\psi_{c}(x, k)$, удовлетворяющая уравнению Шредингера:
+
+\[
+\left\{-\Delta_{x}+v_{c}(x)-k^{2}\right\} \psi_{c(x, k)}=0
+\]
+
+может быть явно выражена через вырожденную гипергеометрич. функцию $\Phi(a, c, x)$ формулой
+
+\[
+\psi_{c}(x, k)=e^{-\pi \eta / 2} \Gamma(1+i \eta) \Phi(-i \eta, 1, i|k| \xi) e^{i(x, k)},
+\]
+
+где $\eta=n / 2|k|, \xi=|x|-(k /|k|, x)$.
+
+Jum.: [1] Do1lard J., «J. Math. Phys.», 1964, v. 5, p. 729-38; [2] Н ь ю то н Р., Теория рассеяния волн и частиц, пер. с англ., М., $\begin{array}{ll}1969 . &amp; \text { С. П. Меркурьев, С. Л. Яковлев. }\end{array}$</text_orig>
+</article>

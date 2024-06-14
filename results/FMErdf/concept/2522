@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3270_FERMI-ENERGI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3270_FERMI-ENERGI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2522</core:url>
+    <lbm:descriptor><![CDATA[ФЕРМИ-ЭНЕРГИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1464"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#19144"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#3758"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19145"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19146"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19147"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19148"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19149"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_218"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8678"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19150"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8020"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19151"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_474"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1730"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19152"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1780"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>значение граничной энергии $URI[[http://libmeta.ru/fme/formula/aux/3270_1_FERMI-ENERGI]]/URI$ идеального ферми-газа при нулевой температуре. В этом случае среднее число заполнения квантового уровня с импульсом $URI[[http://libmeta.ru/fme/formula/aux/3270_2_FERMI-ENERGI]]/URI$ и спином $URI[[http://libmeta.ru/fme/formula/aux/3270_3_FERMI-ENERGI]]/URI$ следует из Ферми - Дирака распределения и имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19145">$$\left\langle n_{p \sigma}\right\rangle=\theta\left(\varepsilon_{F}-\varepsilon_{p}\right),$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/3270_4_FERMI-ENERGI]]/URI$ - ступенчатая функция Хевисайда: $URI[[http://libmeta.ru/fme/formula/aux/3270_5_FERMI-ENERGI]]/URI$ при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8020">$$x<0$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19151">$$\theta(x)=1$$</a> при $URI[[http://libmeta.ru/fme/formula/aux/3270_8_FERMI-ENERGI]]/URI$. Ф. э. определяется выражением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19146">$$\varepsilon_{F}=\left(\frac{6 \pi^{2}}{g}\right)^{2 / 3}\left(\frac{\hbar^{2}}{2 m}\right) n^{2 / 3},$$</a> где $URI[[http://libmeta.ru/fme/formula/aux/3270_9_FERMI-ENERGI]]/URI$ средняя плотность фермионов массы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19152">$$m, g=2 \sigma+1-$$</a> кратность вырождения уровня, $URI[[http://libmeta.ru/fme/formula/aux/3270_11_FERMI-ENERGI]]/URI$ постоянная Планка. Ф. э. совпадает со значением химич. потенциала идеального ферми-газа при нулевой температуре. Через Ф. э. выражаются другие термодинамич. функции идеального ферми-газа при нулевой температуре. Удельная внутренняя энергия:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19147">$$\varepsilon=\frac{3}{5} n \varepsilon_{F},$$</a><BR/></P><P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_750_DAVLENI">давление</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19148">$$P=\frac{2}{5} n \varepsilon_{F} .$$</a><BR/></P><P>Для неидеальных фермиевских систем понятие Ф. э. носит феноменологич. характер.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#19144">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#19144">Бо голюбов Н. Н. (мл.), Введение в квантовую статистическую механику, М., 1984</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Балеску Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1464">Д. П. Санкович</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[значение граничной энергии $\varepsilon_{F}$ идеального ферми-газа при нулевой температуре. В этом случае среднее число заполнения квантового уровня с импульсом $p$ и спином $\sigma$ следует из Ферми - Дирака распределения и имеет вид:
+
+\[
+\left\langle n_{p \sigma}\right\rangle=\theta\left(\varepsilon_{F}-\varepsilon_{p}\right),
+\]
+
+где $\theta(x)$ - ступенчатая функция Хевисайда: $\theta(x)=0$ при $x<0$ и $\theta(x)=1$ при $x>0$. Ф. э. определяется выражением
+
+\[
+\varepsilon_{F}=\left(\frac{6 \pi^{2}}{g}\right)^{2 / 3}\left(\frac{\hbar^{2}}{2 m}\right) n^{2 / 3},
+\] где $n-$ средняя плотность фермионов массы $m, g=2 \sigma+1-$ кратность вырождения уровня, $\hbar-$ постоянная Планка. Ф. э. совпадает со значением химич. потенциала идеального ферми-газа при нулевой температуре. Через Ф. э. выражаются другие термодинамич. функции идеального ферми-газа при нулевой температуре. Удельная внутренняя энергия:
+
+\[
+\varepsilon=\frac{3}{5} n \varepsilon_{F},
+\]
+
+давление:
+
+\[
+P=\frac{2}{5} n \varepsilon_{F} .
+\]
+
+Для неидеальных фермиевских систем понятие Ф. э. носит феноменологич. характер.
+
+Лum.: [1] Бо голюбов Н. Н., Бо голюбов Н. Н. (мл.), Введение в квантовую статистическую механику, М., 1984; [2] Б алес к у Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978.
+
+Д. П. Санкович.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_750_DAVLENI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

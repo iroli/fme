@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3473_EJLERA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3473_EJLERA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2747</core:url>
+    <lbm:descriptor><![CDATA[ЭЙЛЕРА УРАВНЕНИЯ В ГИДРОМЕХАНИКЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11455"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20569"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20570"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_115"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5084"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20571"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2718"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20572"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20573"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5821"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>дифференциальные уравнения движения идеальной жидкости в переменных Эйлера. Если давление $URI[[http://libmeta.ru/fme/formula/aux/3473_1_EJLERA]]/URI$, плотность $URI[[http://libmeta.ru/fme/formula/aux/3473_2_EJLERA]]/URI$, проекции скоростей частиц жидкости <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5084">$$u, v, w$$</a> и проекции действующей объемной силы $URI[[http://libmeta.ru/fme/formula/aux/3473_4_EJLERA]]/URI$ рассматривать как функции координат $URI[[http://libmeta.ru/fme/formula/aux/3473_5_EJLERA]]/URI$ точек пространства и времени $URI[[http://libmeta.ru/fme/formula/aux/3473_6_EJLERA]]/URI$ (пе ре мен ные Эйле ра), то Э.у. в проекциях на оси прямоугольной декартовой системы координат принимает вид системы уравнений:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20569">$$\begin{aligned}& \frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}+v \frac{\partial u}{\partial y}+w \frac{\partial u}{\partial z}=X-\frac{1}{\rho} \frac{\partial p}{\partial x}, \\& \frac{\partial v}{\partial t}+u \frac{\partial v}{\partial x}+v \frac{\partial v}{\partial y}+w \frac{\partial v}{\partial z}=Y-\frac{1}{\rho} \frac{\partial p}{\partial y}, \\& \frac{\partial w}{\partial t}+u \frac{\partial w}{\partial x}+v \frac{\partial w}{\partial y}+w \frac{\partial w}{\partial z}=Z-\frac{1}{\rho} \frac{\partial p}{\partial z} .\end{aligned}$$</a><BR/></P><P>Решение общей задачи гидромеханики в переменных Эйлера сводится к тому, чтобы, зная <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20571">$$x, Y, Z$$</a>, а также начальные и граничные условия, определить <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20572">$$u, v, w, p, \rho$$</a> как функции $URI[[http://libmeta.ru/fme/formula/aux/3473_9_EJLERA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3473_10_EJLERA]]/URI$. Для этого к Э. у. присоединяют уравнение неразрывности в переменных Эйлера:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20570">$$\frac{\partial \rho}{\partial t}+\frac{\partial(\rho u)}{\partial x}+\frac{\partial(\rho v)}{\partial y}+\frac{\partial(\rho w)}{\partial z}=0 .$$</a><BR/></P><P>В случае баротропной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_939_ZhIDKOST">жидкости</a>, у к-рой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотность</a> зависит от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_750_DAVLENI">давления</a>, пятым уравнением будет <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2873_SOSTOJaNIJa">уравнение состояния</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20573">$$\rho=\varphi(p)$$</a> (или $URI[[http://libmeta.ru/fme/formula/aux/3473_12_EJLERA]]/URI$ const, когда <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_939_ZhIDKOST">жидкость</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1939_NESZhIMAEMAJa">несжимаема</a>).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#11455">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4815">Лойцянский Л. Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11455">Механика жидкости и газа, 6 изд., М., 1987</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[дифференциальные уравнения движения идеальной жидкости в переменных Эйлера. Если давление $p$, плотность $\rho$, проекции скоростей частиц жидкости $u, v, w$ и проекции действуюшей объемной силы $X, Y, Z$ рассматривать как функции координат $x, y, z$ точек пространства и времени $t$ (пе ре мен ные Эйле ра), то Э.у. в проекциях на оси прямоугольной декартовой системы координат принимает вид системы уравнений:
+
+\[
+\begin{aligned}
+& \frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}+v \frac{\partial u}{\partial y}+w \frac{\partial u}{\partial z}=X-\frac{1}{\rho} \frac{\partial p}{\partial x}, \\
+& \frac{\partial v}{\partial t}+u \frac{\partial v}{\partial x}+v \frac{\partial v}{\partial y}+w \frac{\partial v}{\partial z}=Y-\frac{1}{\rho} \frac{\partial p}{\partial y}, \\
+& \frac{\partial w}{\partial t}+u \frac{\partial w}{\partial x}+v \frac{\partial w}{\partial y}+w \frac{\partial w}{\partial z}=Z-\frac{1}{\rho} \frac{\partial p}{\partial z} .
+\end{aligned}
+\]
+
+Решение общей задачи гидромеханики в переменных Эйлера сводится к тому, чтобы, зная $X, Y, Z$, а также начальные и граничные условия, определить $u, v, w, p, \rho$ как функции $x, y, z$ и $t$. Для этого к Э. у. присоединяют уравнение неразрывности в переменных Эйлера:
+
+\[
+\frac{\partial \rho}{\partial t}+\frac{\partial(\rho u)}{\partial x}+\frac{\partial(\rho v)}{\partial y}+\frac{\partial(\rho w)}{\partial z}=0 .
+\]
+
+В случае баротропной жидкости, у к-рой плотность зависит от давления, пятым уравнением будет уравнение состояния $\rho=\varphi(p)$ (или $\rho=$ const, когда жидкость несжимаема).
+
+Лит.: [1] Л ойцянский Л. Г., Механика жидкости и газа, 6 изд., М., 1987.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1939_NESZhIMAEMAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_939_ZhIDKOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2873_SOSTOJaNIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_750_DAVLENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_939_ZhIDKOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

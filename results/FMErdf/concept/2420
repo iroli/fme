@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3179_UNITARNOSTI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3179_UNITARNOSTI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2420</core:url>
+    <lbm:descriptor><![CDATA[УНИТАРНОСТИ УСЛОВИЕ МАТРИЦЫ РАССЕЯНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#6461"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_114"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>одно из ограничений, налагаемых на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a> матрицу, заключающееся в том, что она должна представлять собой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3181_UNITARNYJ">унитарный оператор</a>. В физич. смысле У.у. есть условие равенства единице суммы вероятностей всех возможных процессов, происходящих в системе. Напр., два сталкивающихся протона могут либо <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3188_UPRUGOE">упруго рассеяться</a> друг на друге, либо породить один или несколько $URI[[http://libmeta.ru/fme/formula/aux/3179_1_UNITARNOSTI]]/URI$-мезонов или пару протон-антипротон и т. Д.; сумма вероятностей всех таких процессов, допустимых законами сохранения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульса</a>, электрич. и барионного зарядов и т. д., согласно У. у., равна единице. У. у.- одно из основных составляющих <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2886_SPEKTRAL'NOE">элементов теории рассеяния</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_855_DISPERSIONNYE">дисперсионных соотношений</a> метода. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">Частным</a> случаем У. у. является оптическая теорема, связывающая мнимую часть амплитуды <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3188_UPRUGOE">упругого рассеяния</a> на нулевой угол с полным <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2725_SEChENIE">сечением рассеяния</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#6461">А. В. Ефремов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[одно из ограничений, налагаемых на рассеяния матрицу, заключающееся в том, что она должна представлять собой унитарный оператор. В физич. смысле У.у. есть условие равенства единице суммы вероятностей всех возможных процессов, происходящих в системе. Напр., два сталкивающихся протона могут либо упруго рассеяться друг на друге, либо породить один или несколько $\pi$-мезонов или пару протон-антипротон и т. Д.; сумма вероятностей всех таких процессов, допустимых законами сохранения энергии, импульса, электрич. и барионного зарядов и т. д., согласно У. у., равна единице. У. у.- одно из основных составляющих элементов теории рассеяния и дисперсионных соотношений метода. Частным случаем У. у. является оптическая теорема, связывающая мнимую часть амплитуды упругого рассеяния на нулевой угол с полным сечением рассеяния.
+
+А. В. Ефремов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2725_SEChENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3188_UPRUGOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_855_DISPERSIONNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2886_SPEKTRAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3188_UPRUGOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3181_UNITARNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

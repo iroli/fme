@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_21755">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x00070;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mo>max</mo><mrow><mn>0</mn><mi>&#x02A7D;</mi><mi>s</mi><mi>&#x02A7D;</mi><mi>t</mi></mrow></msub><msub><mi>W</mi><mrow><mi>s</mi></mrow></msub><mi>&#x02A7E;</mi><mi>a</mi><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0003D;</mo><mn>2</mn><mi>&#x00050;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mi>W</mi><mrow><mi>s</mi></mrow></msub><mo>&#x0003E;</mo><mi>a</mi><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0003D;</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mi>&#x003C0;</mi><mi>t</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></msup><msubsup><mo>&#x0222B;</mo><mrow><mi>a</mi></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mi>d</mi><mi>x</mi><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mo>&#x02212;</mo><mfrac><mrow><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn><mi>t</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\mathrm{p}\left\{\max _{0 \leqslant s \leqslant t} W_{s} \geqslant a\right\}=2 \mathrm{P}\left\{W_{s}&gt;a\right\}=\left(\frac{2}{\pi t}\right)^{1 / 2} \int_{a}^{\infty} d x \exp \left(-\frac{x^{2}}{2 t}\right)$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

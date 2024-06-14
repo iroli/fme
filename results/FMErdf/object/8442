@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_8442">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><msub><mi>&#x003C6;</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0003D;</mo><mi>\stackrel</mi><mrow><mo>&#x0002B;</mo></mrow><msubsup><mrow><mi>F</mi></mrow><mrow><mi>i</mi><mi>j</mi></mrow><mrow><mi>i</mi><mi>j</mi></mrow></msubsup><mo>&#x0003D;</mo><msub><mi>F</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><msup><mi>l</mi><mrow><mi>i</mi></mrow></msup><msup><mi>m</mi><mrow><mi>j</mi></mrow></msup><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>&</mi><msub><mi>&#x003C6;</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>\stackrel</mi><mrow><mo>&#x0002B;</mo></mrow><msub><mrow><mi>F</mi></mrow><mrow><mi>i</mi><mi>j</mi></mrow></msub><msup><mi>M</mi><mrow><mi>i</mi><mi>j</mi></mrow></msup><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><msub><mi>F</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>l</mi><mrow><mi>i</mi></mrow></msup><msup><mi>n</mi><mrow><mi>j</mi></mrow></msup><mo>&#x02212;</mo><msup><mi>m</mi><mrow><mi>i</mi></mrow></msup><msup><mover><mrow><mi>m</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mi>j</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>&</mi><msub><mi>&#x003C6;</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>\stackrel</mi><mrow><mo>&#x0002B;</mo></mrow><mrow><msub><mi>F</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><msup><mi>V</mi><mrow><mi>i</mi><mi>j</mi></mrow></msup><mo>&#x0003D;</mo><mo>&#x02212;</mo><msub><mi>F</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><msup><mi>n</mi><mrow><mi>i</mi></mrow></msup><msup><mover><mrow><mi>m</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mi>j</mi></mrow></msup><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; \varphi_{0}=\stackrel{+}{F}_{i j}^{i j}=F_{i j} l^{i} m^{j}, \\&amp; \varphi_{1}=\frac{1}{2} \stackrel{+}{F}_{i j} M^{i j}=\frac{1}{2} F_{i j}\left(l^{i} n^{j}-m^{i} \bar{m}^{j}\right), \\&amp; \varphi_{2}=-\stackrel{+}{F_{i j}} V^{i j}=-F_{i j} n^{i} \bar{m}^{j} .\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

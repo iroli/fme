@@ -1,0 +1,498 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2877_SOHRANENIJa" alphabetic_pos="2879">
+  <title>СОХРАНЕНИЯ ЗАКОНЫ</title>
+  <authors>
+    <author>В. П. Павлов</author>
+  </authors>
+  <pages>
+    <start>557</start>
+    <end>559</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Халмош П., Конечномерные векторные пространства, пер. с англ., М., 1963; [2] Д и ра к П. А. М., Принципы квантовой механики, пер. с англ., 2 изд., М., 1979; [3] Р ид М., Сай мон Б., Методы современной математической физики, т. 1 Функциональный анализ, пер. с англ., М., 1977; [4] Нейман И., Математические основы квантовой механики, пер. с нем., М., 1964.</literature_orig>
+    <unit>
+      <author>Халмош П.</author>
+      <title>Конечномерные векторные пространства</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1963</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дирак П. А. М.</author>
+      <title>Принципы квантовой механики</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рид М.</author>
+      <author>Саймон Б.</author>
+      <title>Методы современной математической физики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1977</year>
+      <other>т. 1 Функциональный анализ</other>
+    </unit>
+    <unit>
+      <author>Нейман И.</author>
+      <title>Математические основы квантовой механики</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_1_SOHRANENIJa">\Sigma_{A_{l}}=\left\{\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \in \Sigma_{A} \mid \omega_{n} \in L_{l}, \quad n \in \mathbb{Z}\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_2_SOHRANENIJa">N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\sum_{i=1}^{m} N_{n}\left(\left.\sigma\right|_{\Sigma_{A_{i}}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_3_SOHRANENIJa">N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\left\{\begin{array}{cc}v \lambda^{n}(A)+\sum_{\left|\lambda_{k}\right|&lt;\lambda(A)} \lambda_{k}^{n}, &amp; \text { если } n=0(\bmod v), \\0, &amp; \text { если } n \neq 0(\bmod v),\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_4_SOHRANENIJa">\zeta(t)=\exp \left(\sum_{n=0}^{\infty} \frac{N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right) \cdot t^{n}}{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_5_SOHRANENIJa">\zeta(t)=1 / \operatorname{det}(E-t A)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_6_SOHRANENIJa">h\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\varlimsup_{n \rightarrow \infty} \frac{\ln N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)}{n}=\ln \lambda(A) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_7_SOHRANENIJa">h_{\mu_{*}}=\sup h_{\mu}\left(\left.\sigma\right|_{\Sigma_{A}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_8_SOHRANENIJa">h_{\mu *}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=h\left(\left.\sigma\right|_{\Sigma_{A}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_9_SOHRANENIJa">p_{i j}=\frac{a_{i j} \beta_{j}}{\lambda(A) \beta_{i}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_10_SOHRANENIJa">\mu_{*}(B)=\lim _{i \rightarrow \infty} \frac{N_{i v}(B)}{N_{i v}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_11_SOHRANENIJa">P_{i}^{2}=P_{i}, \sum_{i} P_{i}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_12_SOHRANENIJa">M=\sum_{i} \lambda_{i} P_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_13_SOHRANENIJa">\langle\lambda / \lambda\rangle=(2 \pi)^{-1} \int \psi_{\lambda}^{*}(q) \psi_{\lambda}(q) d q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_14_SOHRANENIJa">p=\int d \lambda \lambda|\lambda\rangle\langle\lambda|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2877_15_SOHRANENIJa">p \varphi(q)=\int d \lambda \lambda|\lambda\rangle\langle\lambda \mid \varphi\rangle=</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_1_SOHRANENIJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_2_SOHRANENIJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_3_SOHRANENIJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_4_SOHRANENIJa">i&gt;j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_5_SOHRANENIJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_6_SOHRANENIJa">i, j \in L, i&gt;j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_7_SOHRANENIJa">j&gt;i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_8_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_9_SOHRANENIJa">i, j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_10_SOHRANENIJa">k&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_11_SOHRANENIJa">a_{i j}^{(k)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_12_SOHRANENIJa">a^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_13_SOHRANENIJa">n&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_14_SOHRANENIJa">i, j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_15_SOHRANENIJa">g_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_16_SOHRANENIJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_17_SOHRANENIJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_18_SOHRANENIJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_19_SOHRANENIJa">a^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_20_SOHRANENIJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_21_SOHRANENIJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_22_SOHRANENIJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_23_SOHRANENIJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_24_SOHRANENIJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_25_SOHRANENIJa">\omega \in \Sigma_{A}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_26_SOHRANENIJa">\left\{\sigma^{n}(\omega)\right\}_{-\infty}^{+\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_27_SOHRANENIJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_28_SOHRANENIJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_29_SOHRANENIJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_30_SOHRANENIJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_31_SOHRANENIJa">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_32_SOHRANENIJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_33_SOHRANENIJa">n_{*}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_34_SOHRANENIJa">f^{n}(u) \cap V \neq \varnothing</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_35_SOHRANENIJa">n&gt;n_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_36_SOHRANENIJa">l_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_37_SOHRANENIJa">l_{2}, \ldots, L_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_38_SOHRANENIJa">i_{l}, j_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_39_SOHRANENIJa">l_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_40_SOHRANENIJa">i_{l}&gt;j_{l}, j_{l}&gt;i_{l}, l=1,2, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_41_SOHRANENIJa">l_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_42_SOHRANENIJa">a_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_43_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_44_SOHRANENIJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_45_SOHRANENIJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_46_SOHRANENIJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_47_SOHRANENIJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_48_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_49_SOHRANENIJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_50_SOHRANENIJa">\omega_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_51_SOHRANENIJa">\omega_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_52_SOHRANENIJa">\left.\sigma\right|_{\Omega_{i}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_53_SOHRANENIJa">\left(\sigma_{a_{i}}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_54_SOHRANENIJa">a_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_55_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_56_SOHRANENIJa">l_{i}, i=1,2, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_57_SOHRANENIJa">n\left(\left.\sigma\right|_{\Sigma_{A}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_58_SOHRANENIJa">\sigma^{n}: \Sigma_{A} \rightarrow \Sigma_{A}, n \in \mathbb{Z}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_59_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_60_SOHRANENIJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_61_SOHRANENIJa">k_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_62_SOHRANENIJa">a_{i j}^{\left(k_{j}\right)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_63_SOHRANENIJa">a_{j j}^{\left(k_{j}\right)}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_64_SOHRANENIJa">a^{k_{j}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_65_SOHRANENIJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_66_SOHRANENIJa">k_{j}, j \in G</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_67_SOHRANENIJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_68_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_69_SOHRANENIJa">\left.\left(\Sigma_{A}, \sigma\right)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_70_SOHRANENIJa">\lambda(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_71_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_72_SOHRANENIJa">|t|&lt;1 / \lambda(A)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_73_SOHRANENIJa">h\left(\left.\sigma\right|_{\Sigma_{A}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_74_SOHRANENIJa">\mu_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_75_SOHRANENIJa">h_{\mu_{*}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_76_SOHRANENIJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_77_SOHRANENIJa">\mu_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_78_SOHRANENIJa">p_{i}=\alpha_{i} \beta_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_79_SOHRANENIJa">\left\{\beta_{i}\right\}_{1}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_80_SOHRANENIJa">\left\{\alpha_{i}\right\}_{1}^{n}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_81_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_82_SOHRANENIJa">\sum_{i=1}^{n} \alpha_{i} \beta_{i}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_83_SOHRANENIJa">\mu_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_84_SOHRANENIJa">b=\left[i_{0}, i_{1}, \ldots, i_{k}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_85_SOHRANENIJa">n_{i v}(B)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_86_SOHRANENIJa">\sigma^{i v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_87_SOHRANENIJa">b, v-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_88_SOHRANENIJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_89_SOHRANENIJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_90_SOHRANENIJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_91_SOHRANENIJa">(\omega, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_92_SOHRANENIJa">(\omega, f, \mu)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_93_SOHRANENIJa">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_94_SOHRANENIJa">\left.f\right|_{\Omega}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_95_SOHRANENIJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_96_SOHRANENIJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_97_SOHRANENIJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_98_SOHRANENIJa">u_{1}, U_{2}, \ldots, U_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_99_SOHRANENIJa">u_{i} \cap</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_100_SOHRANENIJa">u_{j}=\varnothing, i \neq j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_101_SOHRANENIJa">\bigcup_{i=1}^{n} \partial U_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_102_SOHRANENIJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_103_SOHRANENIJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_104_SOHRANENIJa">(\omega, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_105_SOHRANENIJa">\left(\sigma_{a}, \sigma\right),\left.\sigma \varphi_{L}\right|_{\Omega}=\left.\varphi_{L} f\right|_{\Omega}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_106_SOHRANENIJa">\varphi_{l}^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_107_SOHRANENIJa">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_108_SOHRANENIJa">\mu_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_109_SOHRANENIJa">\varphi_{l}^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_110_SOHRANENIJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_111_SOHRANENIJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_112_SOHRANENIJa">f-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_113_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_114_SOHRANENIJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_115_SOHRANENIJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_116_SOHRANENIJa">\lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_117_SOHRANENIJa">\delta(m)=\left(m-\lambda_{i}\right) \Delta_{i}(M)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_118_SOHRANENIJa">p_{i}=\delta_{i}(m) / \Delta_{i}\left(\lambda_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_119_SOHRANENIJa">\lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_120_SOHRANENIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_121_SOHRANENIJa">p_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_122_SOHRANENIJa">\lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_123_SOHRANENIJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_124_SOHRANENIJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_125_SOHRANENIJa">\lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_126_SOHRANENIJa">\lambda \neq \lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_127_SOHRANENIJa">\lambda I-M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_128_SOHRANENIJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_129_SOHRANENIJa">(\lambda I-M)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_130_SOHRANENIJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_131_SOHRANENIJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_132_SOHRANENIJa">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_133_SOHRANENIJa">a x=\lambda x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_134_SOHRANENIJa">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_135_SOHRANENIJa">(\lambda I-M)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_136_SOHRANENIJa">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_137_SOHRANENIJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_138_SOHRANENIJa">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_139_SOHRANENIJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_140_SOHRANENIJa">\lambda I-A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_141_SOHRANENIJa">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_142_SOHRANENIJa">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_143_SOHRANENIJa">a x=\lambda x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_144_SOHRANENIJa">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_145_SOHRANENIJa">\mathbb{r}=(-\infty,+\infty), \quad H</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_146_SOHRANENIJa">l^{2}(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_147_SOHRANENIJa">\varphi(q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_148_SOHRANENIJa">\mathbb{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_149_SOHRANENIJa">p=-i \hbar d / d q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_150_SOHRANENIJa">\mathbb{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_151_SOHRANENIJa">p \psi_{\lambda}(q)=\lambda \psi_{\lambda}(q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_152_SOHRANENIJa">\psi_{\lambda}(q)=|\lambda\rangle=\exp (i \lambda q / \hbar) ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_153_SOHRANENIJa">l^{2}(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_154_SOHRANENIJa">l^{2}(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_155_SOHRANENIJa">|\lambda\rangle\langle\lambda|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_156_SOHRANENIJa">|\lambda\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_157_SOHRANENIJa">\varphi(q)=|\varphi\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_158_SOHRANENIJa">l^{2}(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2877_159_SOHRANENIJa">=\int d \lambda \lambda \exp (-i \lambda q / \hbar)(2 \pi)^{-1} \int d q^{\prime} \exp (i \lambda q / \hbar) \varphi(q)=-i \hbar d \varphi(q) / d q</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2877_1_SOHRANENIJa">
+      <rel_text>расстоянием</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2877_2_SOHRANENIJa">
+      <rel_text>пересекаются</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2877_3_SOHRANENIJa">
+      <rel_text>спектрального разложения операторов</rel_text>
+      <target>http://libmeta.ru/fme/article/2887_SPEKTRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2877_4_SOHRANENIJa">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+  </relations>
+  <text>физические закономерности, согласно которым численные значения некоторых физических величин не изменяются со временем в любых процес- ориентированный путь из состояния $URI[[http://libmeta.ru/fme/formula/aux/2877_1_SOHRANENIJa]]/URI$ в состояние $URI[[http://libmeta.ru/fme/formula/aux/2877_2_SOHRANENIJa]]/URI$. Состояние $URI[[http://libmeta.ru/fme/formula/aux/2877_3_SOHRANENIJa]]/URI$ называется возвратны м, если $URI[[http://libmeta.ru/fme/formula/aux/2877_4_SOHRANENIJa]]/URI$. Топологич. марковская цепь $URI[[http://libmeta.ru/fme/formula/aux/2877_5_SOHRANENIJa]]/URI$ называется н е р а з л о ж и м о й, если все ее состояния возвратны и для любых $URI[[http://libmeta.ru/fme/formula/aux/2877_6_SOHRANENIJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2877_7_SOHRANENIJa]]/URI$. Неразложимость матрицы $URI[[http://libmeta.ru/fme/formula/aux/2877_8_SOHRANENIJa]]/URI$ эквивалентна условию: для любых $URI[[http://libmeta.ru/fme/formula/aux/2877_9_SOHRANENIJa]]/URI$ существует $URI[[http://libmeta.ru/fme/formula/aux/2877_10_SOHRANENIJa]]/URI$ такое, что элемент $URI[[http://libmeta.ru/fme/formula/aux/2877_11_SOHRANENIJa]]/URI$ матрицы $URI[[http://libmeta.ru/fme/formula/aux/2877_12_SOHRANENIJa]]/URI$ положителен. Топологич. марковская цепь называется П р и м и т и в н о й, если существует $URI[[http://libmeta.ru/fme/formula/aux/2877_13_SOHRANENIJa]]/URI$ такое, что для любых $URI[[http://libmeta.ru/fme/formula/aux/2877_14_SOHRANENIJa]]/URI$ существует путь в $URI[[http://libmeta.ru/fme/formula/aux/2877_15_SOHRANENIJa]]/URI$, состоящий из $URI[[http://libmeta.ru/fme/formula/aux/2877_16_SOHRANENIJa]]/URI$ ребер, соединяющий $URI[[http://libmeta.ru/fme/formula/aux/2877_17_SOHRANENIJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2877_18_SOHRANENIJa]]/URI$ (это эквивалентно тому, что все элементы матрицы $URI[[http://libmeta.ru/fme/formula/aux/2877_19_SOHRANENIJa]]/URI$ положительны). Если топологич. марковская цепь $URI[[http://libmeta.ru/fme/formula/aux/2877_20_SOHRANENIJa]]/URI$ неразложима, то периодич. точки гомеоморфизма $URI[[http://libmeta.ru/fme/formula/aux/2877_21_SOHRANENIJa]]/URI$ плотны в $URI[[http://libmeta.ru/fme/formula/aux/2877_22_SOHRANENIJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2877_23_SOHRANENIJa]]/URI$ является то поло г иче ск и т р а н з и т и в ны м на $URI[[http://libmeta.ru/fme/formula/aux/2877_24_SOHRANENIJa]]/URI$, то есть существует элемент $URI[[http://libmeta.ru/fme/formula/aux/2877_25_SOHRANENIJa]]/URI$ такой, что траектория $URI[[http://libmeta.ru/fme/formula/aux/2877_26_SOHRANENIJa]]/URI$ плотна в $URI[[http://libmeta.ru/fme/formula/aux/2877_27_SOHRANENIJa]]/URI$. Если же цепь $URI[[http://libmeta.ru/fme/formula/aux/2877_28_SOHRANENIJa]]/URI$ примитивна, то $URI[[http://libmeta.ru/fme/formula/aux/2877_29_SOHRANENIJa]]/URI$ топологически переме ши в а е т, то есть для любых открытых в $URI[[http://libmeta.ru/fme/formula/aux/2877_30_SOHRANENIJa]]/URI$ множеств $URI[[http://libmeta.ru/fme/formula/aux/2877_31_SOHRANENIJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2877_32_SOHRANENIJa]]/URI$ найдется $URI[[http://libmeta.ru/fme/formula/aux/2877_33_SOHRANENIJa]]/URI$ такое, что $URI[[http://libmeta.ru/fme/formula/aux/2877_34_SOHRANENIJa]]/URI$ для всех $URI[[http://libmeta.ru/fme/formula/aux/2877_35_SOHRANENIJa]]/URI$.
+
+Множество всех возвратных состояний топологич. марковской цепи разбивается на непересекающиеся классы $URI[[http://libmeta.ru/fme/formula/aux/2877_36_SOHRANENIJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2877_37_SOHRANENIJa]]/URI$ таким образом, что если состояния $URI[[http://libmeta.ru/fme/formula/aux/2877_38_SOHRANENIJa]]/URI$ лежат в $URI[[http://libmeta.ru/fme/formula/aux/2877_39_SOHRANENIJa]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2877_40_SOHRANENIJa]]/URI$. Классу $URI[[http://libmeta.ru/fme/formula/aux/2877_41_SOHRANENIJa]]/URI$ соответствует подматрица $URI[[http://libmeta.ru/fme/formula/aux/2877_42_SOHRANENIJa]]/URI$ матрицы $URI[[http://libmeta.ru/fme/formula/aux/2877_43_SOHRANENIJa]]/URI$, определяющая в пространстве $URI[[http://libmeta.ru/fme/formula/aux/2877_44_SOHRANENIJa]]/URI$ инвариантное относительно $URI[[http://libmeta.ru/fme/formula/aux/2877_45_SOHRANENIJa]]/URI$ подмножество
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_1_SOHRANENIJa]]/URI
+\]
+
+Следующий результат является аналогом теоремы о спектральном разложении неблуждающего множества динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/2877_46_SOHRANENIJa]]/URI$, где диффеоморфизм $URI[[http://libmeta.ru/fme/formula/aux/2877_47_SOHRANENIJa]]/URI$ удовлетворяет аксиоме $URI[[http://libmeta.ru/fme/formula/aux/2877_48_SOHRANENIJa]]/URI$ Смейла (см. [2]).
+
+Неблуждающее множество символич. динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/2877_49_SOHRANENIJa]]/URI$ представляется в виде объединения попарно непересекающихся замкнутых инвариантных подмножеств $URI[[http://libmeta.ru/fme/formula/aux/2877_50_SOHRANENIJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2877_51_SOHRANENIJa]]/URI$ таких, что ограничение $URI[[http://libmeta.ru/fme/formula/aux/2877_52_SOHRANENIJa]]/URI$ есть топологич. марковская цепь $URI[[http://libmeta.ru/fme/formula/aux/2877_53_SOHRANENIJa]]/URI$, соответствующая неразложимой подматрице $URI[[http://libmeta.ru/fme/formula/aux/2877_54_SOHRANENIJa]]/URI$ матрицы $URI[[http://libmeta.ru/fme/formula/aux/2877_55_SOHRANENIJa]]/URI$ для класса состояний $URI[[http://libmeta.ru/fme/formula/aux/2877_56_SOHRANENIJa]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2877_57_SOHRANENIJa]]/URI$ - число неподвижных точек отображения $URI[[http://libmeta.ru/fme/formula/aux/2877_58_SOHRANENIJa]]/URI$. Так как
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_2_SOHRANENIJa]]/URI
+\]
+
+то далее, не уменьшая общности, предполагается, что матрица $URI[[http://libmeta.ru/fme/formula/aux/2877_59_SOHRANENIJa]]/URI$ неразложима. Для каждого $URI[[http://libmeta.ru/fme/formula/aux/2877_60_SOHRANENIJa]]/URI$ через $URI[[http://libmeta.ru/fme/formula/aux/2877_61_SOHRANENIJa]]/URI$ обозначается такое число, что $URI[[http://libmeta.ru/fme/formula/aux/2877_62_SOHRANENIJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2877_63_SOHRANENIJa]]/URI$ элемент матрицы $URI[[http://libmeta.ru/fme/formula/aux/2877_64_SOHRANENIJa]]/URI$; пусть $URI[[http://libmeta.ru/fme/formula/aux/2877_65_SOHRANENIJa]]/URI$ - наибольший общий делитель $URI[[http://libmeta.ru/fme/formula/aux/2877_66_SOHRANENIJa]]/URI$. Число $URI[[http://libmeta.ru/fme/formula/aux/2877_67_SOHRANENIJa]]/URI$ называется инде ксом цикличности матрицы $URI[[http://libmeta.ru/fme/formula/aux/2877_68_SOHRANENIJa]]/URI$ [и соответственно цепи $URI[[http://libmeta.ru/fme/formula/aux/2877_69_SOHRANENIJa]]/URI$. Имеет место следующая формула:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_3_SOHRANENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2877_70_SOHRANENIJa]]/URI$ - наибольшее положительное собственное значение матрицы $URI[[http://libmeta.ru/fme/formula/aux/2877_71_SOHRANENIJa]]/URI$ (существующее в силу теоремы Фробениуса - Перрона).
+
+Дзета-функция Артина - Мазура
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_4_SOHRANENIJa]]/URI
+\]
+
+вычисляется по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_5_SOHRANENIJa]]/URI
+\]
+
+и определяющий ее ряд сходится в круге $URI[[http://libmeta.ru/fme/formula/aux/2877_72_SOHRANENIJa]]/URI$.
+
+528 Символическая Топологич. энтропия $URI[[http://libmeta.ru/fme/formula/aux/2877_73_SOHRANENIJa]]/URI$ вычисляется по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_6_SOHRANENIJa]]/URI
+\]
+
+С точки зрения эргодич. теории наиболее важным метрич. свойством (неразложимой) топологич. марковской це-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d26047d7a6f631f561a9g-1.jpg?height=37&amp;width=813&amp;top_left_y=277&amp;top_left_x=935)
+борелевской вероятностной меры $URI[[http://libmeta.ru/fme/formula/aux/2877_74_SOHRANENIJa]]/URI$, к-рая максимизирует метрич. энтропию $URI[[http://libmeta.ru/fme/formula/aux/2877_75_SOHRANENIJa]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_7_SOHRANENIJa]]/URI
+\]
+
+где sup вычисляется по всем вероятностным борелевским мерам на $URI[[http://libmeta.ru/fme/formula/aux/2877_76_SOHRANENIJa]]/URI$. При этом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_8_SOHRANENIJa]]/URI
+\]
+
+Мера $URI[[http://libmeta.ru/fme/formula/aux/2877_77_SOHRANENIJa]]/URI$ положительна на открытых множествах и совпадает с распределением вероятностей, отвечающим стационарной цепи Маркова с вероятностями перехода
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_9_SOHRANENIJa]]/URI
+\]
+
+и стационарными вероятностями $URI[[http://libmeta.ru/fme/formula/aux/2877_78_SOHRANENIJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2877_79_SOHRANENIJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2877_80_SOHRANENIJa]]/URI$ соответственно правый и левый собственные векторы матрицы $URI[[http://libmeta.ru/fme/formula/aux/2877_81_SOHRANENIJa]]/URI$ (положительные в силу теоремы Фробениуса - Перрона) с нормировкой $URI[[http://libmeta.ru/fme/formula/aux/2877_82_SOHRANENIJa]]/URI$. Мера $URI[[http://libmeta.ru/fme/formula/aux/2877_83_SOHRANENIJa]]/URI$ определяется конструктивно через асимптотику числа периодич. точек следующим образом: цля любого цилиндра $URI[[http://libmeta.ru/fme/formula/aux/2877_84_SOHRANENIJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_10_SOHRANENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2877_85_SOHRANENIJa]]/URI$ - число неподвижных точек отображения $URI[[http://libmeta.ru/fme/formula/aux/2877_86_SOHRANENIJa]]/URI$ в цилиндре $URI[[http://libmeta.ru/fme/formula/aux/2877_87_SOHRANENIJa]]/URI$ индекс цикличности цепи $URI[[http://libmeta.ru/fme/formula/aux/2877_88_SOHRANENIJa]]/URI$.
+
+Марковские разбиения (см. [4]-[9]).
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2877_89_SOHRANENIJa]]/URI$ - замкнутое инвариантное множество динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/2877_90_SOHRANENIJa]]/URI$. Динамич. свойства системы $URI[[http://libmeta.ru/fme/formula/aux/2877_91_SOHRANENIJa]]/URI$, а также метрич. свойства системы $URI[[http://libmeta.ru/fme/formula/aux/2877_92_SOHRANENIJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2877_93_SOHRANENIJa]]/URI$ - мера максимальной (метрической) энтропии ограничения $URI[[http://libmeta.ru/fme/formula/aux/2877_94_SOHRANENIJa]]/URI$, наиболее тесно связаны с нек-рой топологич. марковской цепью $URI[[http://libmeta.ru/fme/formula/aux/2877_95_SOHRANENIJa]]/URI$, если удается найти такое покрытие $URI[[http://libmeta.ru/fme/formula/aux/2877_96_SOHRANENIJa]]/URI$ множества $URI[[http://libmeta.ru/fme/formula/aux/2877_97_SOHRANENIJa]]/URI$ замкнутыми множествами $URI[[http://libmeta.ru/fme/formula/aux/2877_98_SOHRANENIJa]]/URI$, что:
+
+1) int $URI[[http://libmeta.ru/fme/formula/aux/2877_99_SOHRANENIJa]]/URI$ int $URI[[http://libmeta.ru/fme/formula/aux/2877_100_SOHRANENIJa]]/URI$;
+
+2) $URI[[http://libmeta.ru/fme/formula/aux/2877_101_SOHRANENIJa]]/URI$ нигде не плотно в $URI[[http://libmeta.ru/fme/formula/aux/2877_102_SOHRANENIJa]]/URI$;
+
+3) $URI[[http://libmeta.ru/fme/formula/aux/2877_103_SOHRANENIJa]]/URI$ является образующим покрытием. При наличии такого покрытия система $URI[[http://libmeta.ru/fme/formula/aux/2877_104_SOHRANENIJa]]/URI$ полусопряжена с цепью $URI[[http://libmeta.ru/fme/formula/aux/2877_105_SOHRANENIJa]]/URI$, причем отображение $URI[[http://libmeta.ru/fme/formula/aux/2877_106_SOHRANENIJa]]/URI$ является гомеоморфизмом на множестве второй категории, а мера $URI[[http://libmeta.ru/fme/formula/aux/2877_107_SOHRANENIJa]]/URI$ индуцируется мерой $URI[[http://libmeta.ru/fme/formula/aux/2877_108_SOHRANENIJa]]/URI$ с помощью отображения $URI[[http://libmeta.ru/fme/formula/aux/2877_109_SOHRANENIJa]]/URI$.
+
+Покрытия указанного типа существуют для инвариантных базисных множеств $URI[[http://libmeta.ru/fme/formula/aux/2877_110_SOHRANENIJa]]/URI$ важного класса динамич. систем $URI[[http://libmeta.ru/fme/formula/aux/2877_111_SOHRANENIJa]]/URI$, когда $URI[[http://libmeta.ru/fme/formula/aux/2877_112_SOHRANENIJa]]/URI$ диффеоморфизм, удовлетворяющий аксиоме $URI[[http://libmeta.ru/fme/formula/aux/2877_113_SOHRANENIJa]]/URI$ Смейла. Покрытия, названные для этого класса м а р к о в ск и м и, были построены в работах [4], [6]. Их построение основано на существовании у рассмотренных систем инвариантных семейств устойчивых и неустойчивых многообразий. Элементы покрытия являются «параллелограммами&quot; со сторонами, лежащими на устойчивых и неустойчивых многообразиях и удовлетворяют нек-рому условию правильности пересечения образов и прообразов параллелограммов в силу диффеоморфизма $URI[[http://libmeta.ru/fme/formula/aux/2877_114_SOHRANENIJa]]/URI$ с исходными элементами покрытия. Это условие с учетом сжатия (растяжения) устойчивых (неустойчивых) многообразий гарантирует свойство 3) покрытия $URI[[http://libmeta.ru/fme/formula/aux/2877_115_SOHRANENIJa]]/URI$. (для простоты принято, что все $URI[[http://libmeta.ru/fme/formula/aux/2877_116_SOHRANENIJa]]/URI$ различны). Если положить
+
+$URI[[http://libmeta.ru/fme/formula/aux/2877_117_SOHRANENIJa]]/URI$, то оператор $URI[[http://libmeta.ru/fme/formula/aux/2877_118_SOHRANENIJa]]/URI$
+
+является проектором на собственное подпространство, принадлежащее $URI[[http://libmeta.ru/fme/formula/aux/2877_119_SOHRANENIJa]]/URI$ : для любого вектора $URI[[http://libmeta.ru/fme/formula/aux/2877_120_SOHRANENIJa]]/URI$ вектор $URI[[http://libmeta.ru/fme/formula/aux/2877_121_SOHRANENIJa]]/URI$ - собственный и принадлежит $URI[[http://libmeta.ru/fme/formula/aux/2877_122_SOHRANENIJa]]/URI$;
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_11_SOHRANENIJa]]/URI
+\]
+
+При этом матрица $URI[[http://libmeta.ru/fme/formula/aux/2877_123_SOHRANENIJa]]/URI$ имеет спектральное разложение:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_12_SOHRANENIJa]]/URI
+\]
+
+Для эрмитовых $URI[[http://libmeta.ru/fme/formula/aux/2877_124_SOHRANENIJa]]/URI$ проекторы также эрмитовы, $URI[[http://libmeta.ru/fme/formula/aux/2877_125_SOHRANENIJa]]/URI$ вещественны, а собственные подпространства ортогональны друг другу. При $URI[[http://libmeta.ru/fme/formula/aux/2877_126_SOHRANENIJa]]/URI$ матрица $URI[[http://libmeta.ru/fme/formula/aux/2877_127_SOHRANENIJa]]/URI$ имеет обратную. Вообще, в конечномерном случае есть две возможности: либо (i) $URI[[http://libmeta.ru/fme/formula/aux/2877_128_SOHRANENIJa]]/URI$ регулярная точка и резольвента $URI[[http://libmeta.ru/fme/formula/aux/2877_129_SOHRANENIJa]]/URI$ существует как оператор на всем векторном пространстве, либо (ii) $URI[[http://libmeta.ru/fme/formula/aux/2877_130_SOHRANENIJa]]/URI$ точка спектра и резольвента не существует.
+
+В бесконечномерном случае речь идет об операторах $URI[[http://libmeta.ru/fme/formula/aux/2877_131_SOHRANENIJa]]/URI$, действующих в нормированном линейном пространстве (банаховом пространстве) $URI[[http://libmeta.ru/fme/formula/aux/2877_132_SOHRANENIJa]]/URI$, и появляется третья возможность: (iii) уравнение $URI[[http://libmeta.ru/fme/formula/aux/2877_133_SOHRANENIJa]]/URI$ имеет лишь нулевые решения в $URI[[http://libmeta.ru/fme/formula/aux/2877_134_SOHRANENIJa]]/URI$, но резольвента $URI[[http://libmeta.ru/fme/formula/aux/2877_135_SOHRANENIJa]]/URI$ не определена на всем $URI[[http://libmeta.ru/fme/formula/aux/2877_136_SOHRANENIJa]]/URI$. Объединяя вторую (точечный, или дискретный, спектр) и третью (не пре ры вный и остаточный спектры) возможности, с п е к т р о м о п е р а т о р а называют множество таких $URI[[http://libmeta.ru/fme/formula/aux/2877_137_SOHRANENIJa]]/URI$, для к-рых резольвента не является ограниченным оператором на всем $URI[[http://libmeta.ru/fme/formula/aux/2877_138_SOHRANENIJa]]/URI$. При этом $URI[[http://libmeta.ru/fme/formula/aux/2877_139_SOHRANENIJa]]/URI$ принадлежит непрерывному С., если область значений оператора $URI[[http://libmeta.ru/fme/formula/aux/2877_140_SOHRANENIJa]]/URI$ плотна в $URI[[http://libmeta.ru/fme/formula/aux/2877_141_SOHRANENIJa]]/URI$, и остаточному - в противном случае. У ограниченных самосопряженных операторов остаточный С. отсутствует.
+
+В квантовой механике наблюдаемым отвечают самосопряженные операторы, действующие в гильбертовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/2877_142_SOHRANENIJa]]/URI$. Сведения об их С. имеют непосредственный физич. смысл. Так, точечный С. оператора Гамильтона это уровни энергии связанных состояний, а непрерывному С. отвечают состояния, фигурирующие в теории рассеяния. В соответствии с идеей П. Дирака (см. [2]) в квантовой механике оперируют с формальными решениями уравнения $URI[[http://libmeta.ru/fme/formula/aux/2877_143_SOHRANENIJa]]/URI$, отвечающими непрерывному С.; такие решения не принадлежат $URI[[http://libmeta.ru/fme/formula/aux/2877_144_SOHRANENIJa]]/URI$. Напр., для системы с одной степенью свободы, координата к-рой может принимать значения на всей оси $URI[[http://libmeta.ru/fme/formula/aux/2877_145_SOHRANENIJa]]/URI$ в координатном представлении реализуется как пространство $URI[[http://libmeta.ru/fme/formula/aux/2877_146_SOHRANENIJa]]/URI$ квадратично интегрируемых функций $URI[[http://libmeta.ru/fme/formula/aux/2877_147_SOHRANENIJa]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/2877_148_SOHRANENIJa]]/URI$. Оператор импульса $URI[[http://libmeta.ru/fme/formula/aux/2877_149_SOHRANENIJa]]/URI$ имеет непрерывный С., совпадающий с $URI[[http://libmeta.ru/fme/formula/aux/2877_150_SOHRANENIJa]]/URI$. Решениями уравнения $URI[[http://libmeta.ru/fme/formula/aux/2877_151_SOHRANENIJa]]/URI$ являются плоские волны $URI[[http://libmeta.ru/fme/formula/aux/2877_152_SOHRANENIJa]]/URI$ поскольку в пространстве $URI[[http://libmeta.ru/fme/formula/aux/2877_153_SOHRANENIJa]]/URI$ их норма
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_13_SOHRANENIJa]]/URI
+\]
+
+расходится, они не принадлежат $URI[[http://libmeta.ru/fme/formula/aux/2877_154_SOHRANENIJa]]/URI$ и называются о бобщенным и собственным и векторами. Комбинация $URI[[http://libmeta.ru/fme/formula/aux/2877_155_SOHRANENIJa]]/URI$ является аналогом проектора на обобщенный собственный вектор $URI[[http://libmeta.ru/fme/formula/aux/2877_156_SOHRANENIJa]]/URI$, а спектральное разложение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_14_SOHRANENIJa]]/URI
+\]
+
+- аналогом разложения (*) для случая непрерывного С.: для любого URI[[http://libmeta.ru/fme/relation/2877_4_SOHRANENIJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2877_157_SOHRANENIJa]]/URI$ из $URI[[http://libmeta.ru/fme/formula/aux/2877_158_SOHRANENIJa]]/URI$ имеем:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2877_15_SOHRANENIJa]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2877_159_SOHRANENIJa]]/URI$.
+
+Эта конструкция служит только моделью математически строгого определения URI[[http://libmeta.ru/fme/relation/2877_3_SOHRANENIJa]]/URI с непрерывным С. В большинстве квантовомеханич. задач дискретный и непрерывный участки С. не URI[[http://libmeta.ru/fme/relation/2877_2_SOHRANENIJa]]/URI, а случаи, когда точки дискретного С. погружены в непрерывный, считаются экзотическими. Простейший пример такой ситуации - осциллирующий и медленно убы- вающий с URI[[http://libmeta.ru/fme/relation/2877_1_SOHRANENIJa]]/URI потенциал (так наз. потенциал Вигнера - Неймана).</text>
+  <text_orig>физические закономерности, согласно которым численные значения некоторых физических величин не изменяются со временем в любых процес- ориентированный путь из состояния $i$ в состояние $j$. Состояние $i$ называется возвратны м, если $i&gt;j$. Топологич. марковская цепь $\left(\Sigma_{A}, \sigma\right)$ называется н е р а з л о ж и м о й, если все ее состояния возвратны и для любых $i, j \in L, i&gt;j$ и $j&gt;i$. Неразложимость матрицы $A$ эквивалентна условию: для любых $i, j$ существует $k&gt;0$ такое, что элемент $a_{i j}^{(k)}$ матрицы $A^{k}$ положителен. Топологич. марковская цепь называется П р и м и т и в н о й, если сушествует $n&gt;0$ такое, что для любых $i, j$ сушествует путь в $G_{A}$, состоящий из $n$ ребер, соединяюший $i$ и $j$ (это эквивалентно тому, что все элементы матрицы $A^{n}$ положительны). Если топологич. марковская цепь $\left(\Sigma_{A}, \sigma\right)$ неразложима, то периодич. точки гомеоморфизма $\sigma$ плотны в $\Sigma_{A}$ и $\sigma$ является то поло г иче ск и т р а н з и т и в ны м на $\Sigma_{A}$, то есть существует элемент $\omega \in \Sigma_{A}$ такой, что траектория $\left\{\sigma^{n}(\omega)\right\}_{-\infty}^{+\infty}$ плотна в $\Sigma_{A}$. Если же цепь $\left(\Sigma_{A}, \sigma\right)$ примитивна, то $\sigma$ топологически переме ши в а е т, то есть для любых открытых в $\Sigma_{A}$ множеств $U$ и $V$ найдется $n_{*}&gt;0$ такое, что $f^{n}(U) \cap V \neq \varnothing$ для всех $n&gt;n_{*}$.
+
+Множество всех возвратных состояний топологич. марковской цепи разбивается на непересекающиеся классы $L_{1}$, $L_{2}, \ldots, L_{m}$ таким образом, что если состояния $i_{l}, j_{l}$ лежат в $L_{l}$, то $i_{l}&gt;j_{l}, j_{l}&gt;i_{l}, l=1,2, \ldots, m$. Классу $L_{l}$ соответствует подматрица $A_{l}$ матрицы $A$, определяющая в пространстве $\Sigma_{A}$ инвариантное относительно $\sigma$ подмножество
+
+\[
+\Sigma_{A_{l}}=\left\{\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \in \Sigma_{A} \mid \omega_{n} \in L_{l}, \quad n \in \mathbb{Z}\right\} .
+\]
+
+Следующий результат является аналогом теоремы о спектральном разложении неблуждаюшего множества динамич. системы $(M, f)$, где диффеоморфизм $f$ удовлетворяет аксиоме $A$ Смейла (см. [2]).
+
+Неблуждающее множество символич. динамич. системы $\left(\Sigma_{A}, \sigma\right)$ представляется в виде объединения попарно непересекающихся замкнутых инвариантных подмножеств $\Omega_{1}, \ldots$, $\Omega_{m}$ таких, что ограничение $\left.\sigma\right|_{\Omega_{i}}$ есть топологич. марковская цепь $\left(\Sigma_{A_{i}}, \sigma\right)$, соответствующая неразложимой подматрице $A_{i}$ матрицы $A$ для класса состояний $L_{i}, i=1,2, \ldots, m$.
+
+Пусть $N\left(\left.\sigma\right|_{\Sigma_{A}}\right)$ - число неподвижных точек отображения $\sigma^{n}: \Sigma_{A} \rightarrow \Sigma_{A}, n \in \mathbb{Z}^{+}$. Так как
+
+\[
+N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\sum_{i=1}^{m} N_{n}\left(\left.\sigma\right|_{\Sigma_{A_{i}}}\right)
+\]
+
+то далее, не уменьшая общности, предполагается, что матрица $A$ неразложима. Для каждого $j$ через $k_{j}$ обозначается такое число, что $a_{i j}^{\left(k_{j}\right)}$, где $a_{j j}^{\left(k_{j}\right)}-$ элемент матрицы $A^{k_{j}}$; пусть $v$ - наибольший общий делитель $k_{j}, j \in G$. Число $v$ называется инде ксом цикличности матрицы $A$ [и соответственно цепи $\left.\left(\Sigma_{A}, \sigma\right)\right]$. Имеет место следующая формула:
+
+\[
+N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\left\{\begin{array}{cc}
+v \lambda^{n}(A)+\sum_{\left|\lambda_{k}\right|&lt;\lambda(A)} \lambda_{k}^{n}, &amp; \text { если } n=0(\bmod v), \\
+0, &amp; \text { если } n \neq 0(\bmod v),
+\end{array}\right.
+\]
+
+где $\lambda(A)$ - наибольшее положительное собственное значение матрицы $A$ (существующее в силу теоремы Фробениуса - Перрона).
+
+Дзета-функция Артина - Мазура
+
+\[
+\zeta(t)=\exp \left(\sum_{n=0}^{\infty} \frac{N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right) \cdot t^{n}}{n}\right)
+\]
+
+вычисляется по формуле
+
+\[
+\zeta(t)=1 / \operatorname{det}(E-t A)
+\]
+
+и определяющий ее ряд сходится в круге $|t|&lt;1 / \lambda(A)$.
+
+528 СИМВОЛИЧЕСКАЯ Топологич. энтропия $h\left(\left.\sigma\right|_{\Sigma_{A}}\right)$ вычисляется по формуле
+
+\[
+h\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\varlimsup_{n \rightarrow \infty} \frac{\ln N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)}{n}=\ln \lambda(A) .
+\]
+
+С точки зрения эргодич. теории наиболее важным метрич. свойством (неразложимой) топологич. марковской це-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d26047d7a6f631f561a9g-1.jpg?height=37&amp;width=813&amp;top_left_y=277&amp;top_left_x=935)
+борелевской вероятностной меры $\mu_{*}$, к-рая максимизирует метрич. энтропию $h_{\mu_{*}}$, то есть
+
+\[
+h_{\mu_{*}}=\sup h_{\mu}\left(\left.\sigma\right|_{\Sigma_{A}}\right)
+\]
+
+где sup вычисляется по всем вероятностным борелевским мерам на $\Sigma_{A}$. При этом
+
+\[
+h_{\mu *}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=h\left(\left.\sigma\right|_{\Sigma_{A}}\right)
+\]
+
+Мера $\mu_{*}$ положительна на открытых множествах и совпадает с распределением вероятностей, отвечающим стационарной цепи Маркова с вероятностями перехода
+
+\[
+p_{i j}=\frac{a_{i j} \beta_{j}}{\lambda(A) \beta_{i}}
+\]
+
+и стационарными вероятностями $p_{i}=\alpha_{i} \beta_{i}$, где $\left\{\beta_{i}\right\}_{1}^{N}$, $\left\{\alpha_{i}\right\}_{1}^{N}-$ соответственно правый и левый собственные векторы матрицы $A$ (положительные в силу теоремы Фробениуса - Перрона) с нормировкой $\sum_{i=1}^{N} \alpha_{i} \beta_{i}=1$. Мера $\mu_{*}$ определяется конструктивно через асимптотику числа периодич. точек следующим образом: цля любого цилиндра $B=\left[i_{0}, i_{1}, \ldots, i_{k}\right]$
+
+\[
+\mu_{*}(B)=\lim _{i \rightarrow \infty} \frac{N_{i v}(B)}{N_{i v}}
+\]
+
+где $N_{i v}(B)$ - число неподвижных точек отображения $\sigma^{i v}$ в цилиндре $B, v-$ индекс цикличности цепи $\left(\Sigma_{A}, \sigma\right)$.
+
+Марковские разбиения (см. [4]-[9]).
+
+Пусть $\Omega$ - замкнутое инвариантное множество динамич. системы $(M, f)$. Динамич. свойства системы $(\Omega, f)$, а также метрич. свойства системы $(\Omega, f, \mu)$, где $\mu$ - мера максимальной (метрической) энтропии ограничения $\left.f\right|_{\Omega}$, наиболее тесно связаны с нек-рой топологич. марковской цепью $\left(\Sigma_{A}, \sigma\right)$, если удается найти такое покрытие $L$ множества $\Omega$ замкнутыми множествами $U_{1}, U_{2}, \ldots, U_{N}$, что:
+
+1) int $U_{i} \cap$ int $U_{j}=\varnothing, i \neq j$;
+
+2) $\bigcup_{i=1}^{n} \partial U_{i}$ нигде не плотно в $M$;
+
+3) $L$ является образующим покрытием. При наличии такого покрытия система $(\Omega, f)$ полусопряжена с цепью $\left(\Sigma_{A}, \sigma\right),\left.\sigma \varphi_{L}\right|_{\Omega}=\left.\varphi_{L} f\right|_{\Omega}$, причем отображение $\varphi_{L}^{-1}$ является гомеоморфизмом на множестве второй категории, а мера $\mu$ индуцируется мерой $\mu_{*}$ с помощью отображения $\varphi_{L}^{-1}$.
+
+Покрытия указанного типа существуют для инвариантных базисных множеств $\Omega$ важного класса динамич. систем $(M, f)$, когда $f-$ диффеоморфизм, удовлетворяющий аксиоме $A$ Смейла. Покрытия, названные для этого класса м а р к о в ск и м и, были построены в работах [4], [6]. Их построение основано на существовании у рассмотренных систем инвариантных семейств устойчивых и неустойчивых многообразий. Элементы покрытия являются «параллелограммами&quot; со сторонами, лежащими на устойчивых и неустойчивых многообразиях и удовлетворяют нек-рому условию правильности пересечения образов и прообразов параллелограммов в силу диффеоморфизма $f$ с исходными элементами покрытия. Это условие с учетом сжатия (растяжения) устойчивых (неустойчивых) многообразий гарантирует свойство 3) покрытия $L$. (для простоты принято, что все $\lambda_{i}$ различны). Если положить
+
+$\Delta(M)=\left(M-\lambda_{i}\right) \Delta_{i}(M)$, то оператор $P_{i}=\Delta_{i}(M) / \Delta_{i}\left(\lambda_{i}\right)$
+
+является проектором на собственное подпространство, принадлежащее $\lambda_{i}$ : для любого вектора $x$ вектор $P_{i}(x)$ - собственный и принадлежит $\lambda_{i}$;
+
+\[
+P_{i}^{2}=P_{i}, \sum_{i} P_{i}=1
+\]
+
+При этом матрица $M$ имеет спектральное разложение:
+
+\[
+M=\sum_{i} \lambda_{i} P_{i}
+\]
+
+Для эрмитовых $M$ проекторы также эрмитовы, $\lambda_{i}$ вещественны, а собственные подпространства ортогональны друг другу. При $\lambda \neq \lambda_{i}$ матрица $\lambda I-M$ имеет обратную. Вообще, в конечномерном случае есть две возможности: либо (I) $\lambda$ регулярная точка и резольвента $(\lambda I-M)^{-1}$ существует как оператор на всем векторном пространстве, либо (II) $\lambda$ точка спектра и резольвента не существует.
+
+В бесконечномерном случае речь идет об операторах $A$, действующих в нормированном линейном пространстве (банаховом пространстве) $\mathscr{B}$, и появляется третья возможность: (III) уравнение $A x=\lambda x$ имеет лишь нулевые решения в $\mathscr{B}$, но резольвента $(\lambda I-M)^{-1}$ не определена на всем $\mathscr{B}$. Объединяя вторую (точечный, или дискретный, спектр) и третью (не пре ры вный и остаточный спектры) возможности, с п е к т р о м о п е р а т о р а называют множество таких $\lambda$, для к-рых резольвента не является ограниченным оператором на всем $\mathscr{B}$. При этом $\lambda$ принадлежит непрерывному С., если область значений оператора $\lambda I-A$ плотна в $\mathscr{B}$, и остаточному - в противном случае. У ограниченных самосопряженных операторов остаточный С. отсутствует.
+
+В квантовой механике наблюдаемым отвечают самосопряженные операторы, действующие в гильбертовом пространстве $H$. Сведения об их С. имеют непосредственный физич. смысл. Так, точечный С. оператора Гамильтона это уровни энергии связанных состояний, а непрерывному С. отвечают состояния, фигурируюшие в теории рассеяния. В соответствии с идеей П. Дирака (см. [2]) в квантовой механике оперируют с формальными решениями уравнения $A x=\lambda x$, отвечающими непрерывному С.; такие решения не принадлежат $H$. Напр., для системы с одной степенью свободы, координата к-рой может принимать значения на всей оси $\mathbb{R}=(-\infty,+\infty), \quad H$ в координатном представлении реализуется как пространство $L^{2}(\mathbb{R})$ квадратично интегрируемых функщий $\varphi(q)$ на $\mathbb{R}$. Оператор импульса $p=-i \hbar d / d q$ имеет непрерывный С., совпадающий с $\mathbb{R}$. Решениями уравнения $p \psi_{\lambda}(q)=\lambda \psi_{\lambda}(q)$ являются плоские волны $\psi_{\lambda}(q)=|\lambda\rangle=\exp (i \lambda q / \hbar) ;$ поскольку в пространстве $L^{2}(\mathbb{R})$ их норма
+
+\[
+\langle\lambda / \lambda\rangle=(2 \pi)^{-1} \int \psi_{\lambda}^{*}(q) \psi_{\lambda}(q) d q
+\]
+
+расходится, они не принадлежат $L^{2}(\mathbb{R})$ и называются о бобщенным и собственным и векторами. Комбинация $|\lambda\rangle\langle\lambda|$ является аналогом проектора на обобщенный собственный вектор $|\lambda\rangle$, а спектральное разложение
+
+\[
+p=\int d \lambda \lambda|\lambda\rangle\langle\lambda|
+\]
+
+- аналогом разложения (*) для случая непрерывного С.: для любого вектора $\varphi(q)=|\varphi\rangle$ из $L^{2}(\mathbb{R})$ имеем:
+
+\[
+p \varphi(q)=\int d \lambda \lambda|\lambda\rangle\langle\lambda \mid \varphi\rangle=
+\]
+
+$=\int d \lambda \lambda \exp (-i \lambda q / \hbar)(2 \pi)^{-1} \int d q^{\prime} \exp (i \lambda q / \hbar) \varphi(q)=-i \hbar d \varphi(q) / d q$.
+
+Эта конструкция служит только моделью математически строгого определения спектрального разложения операторов с непрерывным С. В большинстве квантовомеханич. задач дискретный и непрерывный участки С. не пересекаются, а случаи, когда точки дискретного С. погружены в непрерывный, считаются экзотическими. Простейший пример такой ситуации - осциллирующий и медленно убы- вающий с расстоянием потенциал (так наз. потенциал Вигнера - Неймана).
+
+Лит.: [1] Халмош П., Конечномерные векторные пространства, пер. с англ., М., 1963; [2] Д и ра к П. А. М., Принципы квантовой механики, пер. с англ., 2 изд., М., 1979; [3] Р ид М., Сай мон Б., Методы современной математической физики, т. 1 Функциональный анализ, пер. с англ., М., 1977; [4] Нейман И., Математические основы квантовой механики, пер. с нем., М., 1964.
+
+В. П. Павлов.</text_orig>
+</article>

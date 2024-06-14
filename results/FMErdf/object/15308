@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_15308">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><mi>t</mi></mrow></mfrac><mo>&#x0002B;</mo><mi>v</mi><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><mi>x</mi></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>p</mi></mrow></msubsup><mi>&#x003A6;</mi><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo>&#x02212;</mo><mi>y</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>y</mi><mo>&#x02212;</mo><mspace linebreak="newline" /><mo>&#x022F1;</mo><mo>&#x02212;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>p</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mi>&#x003A6;</mi><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>p</mi><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\frac{\partial f}{\partial t}+v \frac{\partial f}{\partial x}=\frac{1}{2} \int_{0}^{p} \Phi(p-y, y) f(p-y) f(y) d y- \\\ddots-f(x, p, t) \int_{0}^{\infty} \Phi(p, y) f(p) d p .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

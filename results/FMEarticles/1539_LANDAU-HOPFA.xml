@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1539_LANDAU-HOPFA" alphabetic_pos="1541">
+  <title>ЛАНДАУ-ХОПФА СЦЕНАРИЙ СТОХАСТИЗАЦИИ</title>
+  <authors/>
+  <pages>
+    <start>319</start>
+    <end>319</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1539_1_LANDAU-HOPFA">u\left[x, \varphi_{1}(t), \ldots, \varphi_{N}(t)\right]</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1539_1_LANDAU-HOPFA">2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1539_2_LANDAU-HOPFA">\varphi_{n}(t)=\omega_{n}(t)+\alpha_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1539_3_LANDAU-HOPFA">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1539_4_LANDAU-HOPFA">\alpha_{1}, \ldots, \alpha_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1539_5_LANDAU-HOPFA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1539_6_LANDAU-HOPFA">t^{n} \rightarrow T^{n+1}</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/1539_1_LANDAU-HOPFA">
+      <rel_text>бифуркациям</rel_text>
+      <target>http://libmeta.ru/fme/article/197_BIFURKATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1539_2_LANDAU-HOPFA">
+      <rel_text>структурной устойчивостью</rel_text>
+      <target>http://libmeta.ru/fme/article/2978_STRUKTURNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1539_3_LANDAU-HOPFA">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1539_4_LANDAU-HOPFA">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1539_5_LANDAU-HOPFA">
+      <rel_text>фазовая траектория</rel_text>
+      <target>http://libmeta.ru/fme/article/3238_FAZOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1539_6_LANDAU-HOPFA">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1539_7_LANDAU-HOPFA">
+      <rel_text>фазовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+  </relations>
+  <text>последовательность нормальных бифуркаций Андронова Хопфа, порождающая квазипериодическое течение жидкости
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1539_1_LANDAU-HOPFA]]/URI
+\]
+
+с периодом $URI[[http://libmeta.ru/fme/formula/aux/1539_1_LANDAU-HOPFA]]/URI$ по каждому из аргументов $URI[[http://libmeta.ru/fme/formula/aux/1539_2_LANDAU-HOPFA]]/URI$, вообще говоря, несоизмеримыми частотами $URI[[http://libmeta.ru/fme/formula/aux/1539_3_LANDAU-HOPFA]]/URI$, занимающее в URI[[http://libmeta.ru/fme/relation/1539_7_LANDAU-HOPFA]]/URI URI[[http://libmeta.ru/fme/relation/1539_6_LANDAU-HOPFA]]/URI, соответствующую всевозможным наборам начальных фаз $URI[[http://libmeta.ru/fme/formula/aux/1539_4_LANDAU-HOPFA]]/URI$ так, что URI[[http://libmeta.ru/fme/relation/1539_5_LANDAU-HOPFA]]/URI с течением времени проходит сколь угодно близко от любой точки этой URI[[http://libmeta.ru/fme/relation/1539_4_LANDAU-HOPFA]]/URI. Результирующее движение не URI[[http://libmeta.ru/fme/relation/1539_3_LANDAU-HOPFA]]/URI URI[[http://libmeta.ru/fme/relation/1539_2_LANDAU-HOPFA]]/URI, но приобретает ее, если перейти к URI[[http://libmeta.ru/fme/relation/1539_1_LANDAU-HOPFA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1539_5_LANDAU-HOPFA]]/URI$-мерных торов $URI[[http://libmeta.ru/fme/formula/aux/1539_6_LANDAU-HOPFA]]/URI$ без требования квазипериодичности течений на них.</text>
+  <text_orig>последовательность нормальных бифуркаций Андронова Хопфа, порождающая квазипериодическое течение жидкости
+
+\[
+u\left[x, \varphi_{1}(t), \ldots, \varphi_{N}(t)\right]
+\]
+
+с периодом $2 \pi$ по каждому из аргументов $\varphi_{n}(t)=\omega_{n}(t)+\alpha_{n}$, вообще говоря, несоизмеримыми частотами $\omega_{n}$, занимающее в фазовом пространстве область, соответствующую всевозможным наборам начальных фаз $\alpha_{1}, \ldots, \alpha_{N}$ так, что фазовая траектория с течением времени проходит сколь угодно близко от любой точки этой области. Результирующее движение не обладает структурной устойчивостью, но приобретает ее, если перейти к бифуркациям $n$-мерных торов $T^{n} \rightarrow T^{n+1}$ без требования квазипериодичности течений на них.</text_orig>
+</article>

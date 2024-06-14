@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_21764">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>G</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x0222B;</mo><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mo>&#x02212;</mo><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>T</mi></mrow></msubsup><mi>V</mi><mo stretchy="false">[</mo><mi>x</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003C4;</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="false">]</mo><mi>d</mi><mi>&#x003C4;</mi><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mi>d</mi><msubsup><mi>W</mi><mrow><mn>0</mn><mo>&#x0002C;</mo><mi>T</mi></mrow><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi></mrow></msubsup><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$G(x, y)=\int \exp \left\{-\int_{0}^{T} V[x(\tau)] d \tau\right\} d W_{0, T}^{x, y} .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

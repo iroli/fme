@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_97_ANTIKONFORMNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_97_ANTIKONFORMNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3563</core:url>
+    <lbm:descriptor><![CDATA[АНТИКОНФОРМНОЕ ОТОБРАЖЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#3576"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#26426"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3098"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE">непрерывное отображение</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2064_OKRESTNOST'">окрестности точки</a> комплексной плоскости, сохраняющее углы между <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN">кривыми</a>, проходящими через данную точку, и меняющее ориентацию. А. о. задается комплексно сопряженной <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3098">$$\mathrm{k}$$</a> аналитич. функции и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладает</a> свойствами <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1378_KONFORMNOE">конформного отображения</a> с вполне естественными уточнениями.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#26426">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4432">Маркушевич А. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#26426">Теория аналитических функций, 2 изд., т. 1, М., 1967, гл. 2.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#3576">Ю. Е. Хохлов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[непрерывное отображение в окрестности точки комплексной плоскости, сохраняющее углы между кривыми, проходящими через данную точку, и меняющее ориентацию. А. о. задается комплексно сопряженной $\mathrm{K}$ аналитич. функции и обладает свойствами конформного отображения с вполне естественными уточнениями. Лит.: [1] М а р к у ш е в и ч А. И., Теория аналитических функций, 2 изд., т. 1, М., 1967, гл. 2. Ю. Е. Хохлов]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1378_KONFORMNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2064_OKRESTNOST'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

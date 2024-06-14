@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2142_OTNOSITEL'NOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2142_OTNOSITEL'NOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1269</core:url>
+    <lbm:descriptor><![CDATA[ОТНОСИТЕЛЬНОЕ РАВНОВЕСИЕ В ДИНАМИКЕ ТВЕРДОГО ТЕЛА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#9775"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>твердого тела - вид движения твердого тела, подчиненного нестационарной связи, при котором тело не изменяет своего положения относительно этой связи. Обычно <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1942_NESTATsIONARNAJa">нестационарная связь</a> реализуется путем принудительного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2231_PERMANENTNOE">перманентного вращения</a> нек-рого второго тела. Тогда О.р. проявляется в том, что оба тела совершают <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2231_PERMANENTNOE">перманентное вращение</a> как одно целое. Напр., горизонтальная ось качания физич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1752_MAJaTNI">маятника</a> совершает принудительное вращение вокруг вертикали с постоянной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3145_UGLOVAJa">угловой скоростью</a>. В этом случае существует несколько положений О.р. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1752_MAJaTNI">маятника</a>. Нек-рые из них могут изменяться вместе с изменением величины <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3145_UGLOVAJa">угловой скорости</a> вращения оси.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2486_RAVNOVESIE">Равновесие механической системы</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#9775">В. А. Самсонов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[твердого тела - вид движения твердого тела, подчиненного нестационарной связи, при котором тело не изменяет своего положения относительно этой связи. Обычно нестационарная связь реализуется путем принудительного перманентного вращения нек-рого второго тела. Тогда О.р. проявляется в том, что оба тела совершают перманентное вращение как одно целое. Напр., горизонтальная ось качания физич. маятника совершает принудительное вращение вокруг вертикали с постоянной угловой скоростью. В этом случае сушествует несколько положений О.р. маятника. Нек-рые из них могут изменяться вместе с изменением величины угловой скорости вращения оси.
+
+См. также Равновесие механической системы.
+
+В. А. Самсонов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2486_RAVNOVESIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3145_UGLOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1752_MAJaTNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3145_UGLOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1752_MAJaTNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2231_PERMANENTNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2231_PERMANENTNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1942_NESTATsIONARNAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

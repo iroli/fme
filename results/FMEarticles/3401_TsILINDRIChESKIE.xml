@@ -1,0 +1,305 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3401_TsILINDRIChESKIE" alphabetic_pos="3403">
+  <title>ЦИЛИНДРИЧЕСКИЕ ФУНКЦИИ</title>
+  <authors>
+    <author>П. И. Лизоркин</author>
+  </authors>
+  <pages>
+    <start>661</start>
+    <end>662</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Лаврентьев М. А., Шабат Б. В., Методы теории функций комплексного переменного, 3 изд., М., 1965; [2] Л е бе д е в Н. Н., Специальные функции и их приложения, 2 изд., М.- Л., 1963; [3] В а тсо н Г. Н., Теория бесселевых функций, пер. с англ., ч. 1-2, М., 1949; [4] Я нке Е., Эм де Ф., Л е ш Ф., Специальные функции. Формулы, графики, таблицы, 2 изд., пер. с нем., М., 1968.</literature_orig>
+    <unit>
+      <author>Лаврентьев М. А.</author>
+      <author>Шабат Б. В.</author>
+      <title>Методы теории функций комплексного переменного</title>
+      <publication>3 изд., М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Лебедев Н. Н.</author>
+      <title>Специальные функции и их приложения</title>
+      <publication>2 изд., М.- Л.</publication>
+      <year>1963</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ватсон Г. Н.</author>
+      <title>Теория бесселевых функций</title>
+      <publication>пер. с англ., ч. 1-2, М.</publication>
+      <year>1949</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Янке Е.</author>
+      <author>Эмде Ф.</author>
+      <author>Леш Ф.</author>
+      <title>Специальные функции. Формулы, графики, таблицы</title>
+      <publication>2 изд., пер. с нем., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_1_TsILINDRIChESKIE">\frac{d^{2} Z}{d z^{2}}+\frac{1}{z} \frac{d Z}{d z}+\left(1-\frac{p^{2}}{z^{2}}\right) Z=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_2_TsILINDRIChESKIE">\begin{array}{ll}J_{p}=\frac{H_{p}^{(1)}(z)+H_{p}^{(2)}(z)}{2} ; \quad H_{p}^{(1)}=J_{p}(z)+i N_{p}(z) ; \\N_{p}=\frac{H_{p}^{(1)}(z)-H_{p}^{(2)}(z)}{2 i} ; \quad H_{p}^{(2)}=J_{p}(z)-i N_{p}(z) .\end{array}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_3_TsILINDRIChESKIE">\begin{gathered}H_{p}^{(1)}(z)=\left(\frac{2}{\pi z}\right)^{1 / 2} e^{i\left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)} S_{p}(-2 i z), \\H_{p}^{(2)}(z)=\left(\frac{2}{\pi z}\right)^{1 / 2} e^{-i\left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)} S_{p}(2 i z), \\J_{p}(z)=\left(\frac{2}{\pi z}\right)^{1 / 2}\left\{P_{p}(z) \cos \left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)-Q_{p}(z) \sin \left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)\right\}, \\N_{p}(z)=\left(\frac{2}{\pi z}\right)^{1 / 2}\left\{P_{p}(z) \sin \left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)+Q_{p}(z) \cos \left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)\right\},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_4_TsILINDRIChESKIE">\begin{gathered}S_{p}(t)=1+\sum_{k=1}^{n} \frac{A_{k}^{p}}{k !(4 t)^{k}}+O\left(z^{-n-1}\right), \\P_{p}(z)=1+\sum_{k=1}^{n} \frac{(-1)^{k} A_{2 k}^{p}}{(2 k) !(8 z)^{2 k}}+O\left(z^{-2 n-2}\right), \\Q_{p}(z)=\sum_{k=1}^{n} \frac{(-1)^{k} A_{2 k-1}^{p}}{(2 k-1) !(8 z)^{2 k-1}}+O\left(z^{-2 n-3}\right), \\A_{k}^{p}=\left(4 p^{2}-1^{2}\right)\left(4 p^{2}-3^{2}\right) \ldots\left[4 p^{2}-(2 k-1)^{2}\right] .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_5_TsILINDRIChESKIE">\begin{gathered}J_{p}(z)=\frac{N_{-p}(z)-N_{p}(z) \cos p \pi}{\sin p \pi}, \\N_{p}(z)=\frac{J_{p}(z) \cos p z-J_{-p}(z)}{\sin p \pi}, \\H_{p}^{(1)}(z)=\frac{J_{-p}(z)-e^{-p \pi i} J_{p}(z)}{i \sin p \pi}=\frac{N_{-p}(z)-e^{-p \pi i} N_{p}(z)}{\sin p \pi}, \\H_{p}^{(2)}(z)=\frac{e^{p \pi i} J_{p}(z)-J_{-p}(z)}{i \sin p \pi}=\frac{N_{-p}(z)-e^{p \pi i} N_{p}(z)}{\sin p \pi} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_6_TsILINDRIChESKIE">\begin{aligned}&amp; Z_{p-1}+Z_{p+1}=\frac{2 p}{z} Z_{p} ; \quad \frac{d}{d z}\left\{z^{p} Z_{p}\right\}=z^{p} Z_{p-1} \\&amp; Z_{p-1}-Z_{p+1}=2 Z_{p}^{\prime} ; \quad \frac{d}{d z}\left\{\frac{1}{z^{p}} Z_{p}\right\}=\frac{1}{z^{p}} Z_{p+1}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_7_TsILINDRIChESKIE">z^{2} W^{\prime \prime}+(1-2 \alpha) z W^{\prime}+\left[\beta^{2} \gamma^{2} z^{2 \gamma}-\left(p^{2} \gamma^{2}-\alpha^{2}\right)\right] W=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_8_TsILINDRIChESKIE">W=c_{1} z^{\alpha} Z_{p}^{(1)}\left(\beta z^{\gamma}\right)+c_{2} z^{\alpha} Z_{p}^{(2)}\left(\beta z^{\gamma}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_9_TsILINDRIChESKIE">W^{\prime}-z W=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_10_TsILINDRIChESKIE">I_{p}(x)=e^{-\frac{p \pi i}{2}} J_{p}(i x)=\sum_{k=0}^{\infty} \frac{1}{k ! \Gamma(p+k+1)}\left(\frac{x}{2}\right)^{p+2 k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_11_TsILINDRIChESKIE">U^{\prime \prime}+\frac{1}{x} U^{\prime}-\left(1+\frac{p^{2}}{x^{2}}\right) U=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_12_TsILINDRIChESKIE">K_{p}(x)=\frac{\pi i}{2} e^{\frac{p \pi i}{2}} H_{p}^{(1)}(i x) \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_13_TsILINDRIChESKIE">I_{p}(x) \sim \frac{1}{\sqrt{2 \pi x}} e^{x} ; \quad K_{p}(x) \sim \sqrt{\frac{\pi}{2 x}} e^{-x} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_14_TsILINDRIChESKIE">z=x \sqrt{-i}=e^{3 i \pi / 4} x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3401_15_TsILINDRIChESKIE">\begin{gathered}I_{p}(x \sqrt{-i})=\operatorname{ber}_{p} x+i \operatorname{bei}_{p} x, \\K_{p}(x \sqrt{-i})=\operatorname{ker}_{p} x+i \operatorname{kei}_{p} x, \\H_{p}(x \sqrt{-i})=\operatorname{her}_{p} x+i \operatorname{hei}_{p} x .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_1_TsILINDRIChESKIE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_2_TsILINDRIChESKIE">j_{p}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_3_TsILINDRIChESKIE">n_{p}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_4_TsILINDRIChESKIE">\left.Y_{p}(z)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_5_TsILINDRIChESKIE">h_{p}^{(1)}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_6_TsILINDRIChESKIE">h_{p}^{(2)}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_7_TsILINDRIChESKIE">\boldsymbol{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_8_TsILINDRIChESKIE">|z|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_9_TsILINDRIChESKIE">|\arg z| \leqslant \pi-\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_10_TsILINDRIChESKIE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_11_TsILINDRIChESKIE">\alpha, \beta, \gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_12_TsILINDRIChESKIE">\alpha=0, \beta=i, \gamma=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_13_TsILINDRIChESKIE">i_{-p}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_14_TsILINDRIChESKIE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_15_TsILINDRIChESKIE">x&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3401_16_TsILINDRIChESKIE">p</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/3401_1_TsILINDRIChESKIE">
+      <rel_text>Неймана функции</rel_text>
+      <target>http://libmeta.ru/fme/article/1898_NEJMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3401_2_TsILINDRIChESKIE">
+      <rel_text>Бесселя функции</rel_text>
+      <target>http://libmeta.ru/fme/article/172_BESSELJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3401_3_TsILINDRIChESKIE">
+      <rel_text>частей</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+  </relations>
+  <text>решения дифференциального Бесселя уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_1_TsILINDRIChESKIE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3401_1_TsILINDRIChESKIE]]/URI$ - параметр (индекс) уравнения. В приложениях наиболее часто встречаются Ц. ф. 1-го рода $URI[[http://libmeta.ru/fme/formula/aux/3401_2_TsILINDRIChESKIE]]/URI$ (см. URI[[http://libmeta.ru/fme/relation/3401_2_TsILINDRIChESKIE]]/URI) и Ц. ф. 2-го рода $URI[[http://libmeta.ru/fme/formula/aux/3401_3_TsILINDRIChESKIE]]/URI$ [см. URI[[http://libmeta.ru/fme/relation/3401_1_TsILINDRIChESKIE]]/URI, их называют также фу н кция м и В е бера и употребляют иногда обозначение $URI[[http://libmeta.ru/fme/formula/aux/3401_4_TsILINDRIChESKIE]]/URI$, преимущественно при действительных значениях аргумента. В комплексной области удобно пользоваться Ц. Ф. 3-го рода $URI[[http://libmeta.ru/fme/formula/aux/3401_5_TsILINDRIChESKIE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3401_6_TsILINDRIChESKIE]]/URI$ (см. Ганкеля функции). Ц. ф. иногда называют 6 е с с еле вы м и функ ц и я м и.
+
+Соотношения между Ц. Ф. напоминают соотношения между тригонометрич. и показательной функциями:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_2_TsILINDRIChESKIE]]/URI
+\]
+
+При действительных значениях аргумента (и индекса $URI[[http://libmeta.ru/fme/formula/aux/3401_7_TsILINDRIChESKIE]]/URI$ ) функции Бесселя и Неймана действительны и представляют собой действительную и мнимую части функций Ганкеля. Эта же аналогия проявляется в асимптотич. представлениях (при больших $URI[[http://libmeta.ru/fme/formula/aux/3401_8_TsILINDRIChESKIE]]/URI$ ), верных при $URI[[http://libmeta.ru/fme/formula/aux/3401_9_TsILINDRIChESKIE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_3_TsILINDRIChESKIE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_4_TsILINDRIChESKIE]]/URI
+\]
+
+Другие соотношения между Ц. Ф. (при нецелом $URI[[http://libmeta.ru/fme/formula/aux/3401_10_TsILINDRIChESKIE]]/URI$ ):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_5_TsILINDRIChESKIE]]/URI
+\]
+
+Ц. Ф. удовлетворяют важным и удобным рекуррентным соотношениям:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_6_TsILINDRIChESKIE]]/URI
+\] С помощью Ц. ф. выражается общее решение линейного уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_7_TsILINDRIChESKIE]]/URI
+\]
+
+при произвольных $URI[[http://libmeta.ru/fme/formula/aux/3401_11_TsILINDRIChESKIE]]/URI$. Именно:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_8_TsILINDRIChESKIE]]/URI
+\]
+
+Среди уравнений (2) содержится уравнение вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_9_TsILINDRIChESKIE]]/URI
+\]
+
+к-рое порождает так наз. фу н кци и Э й р и.
+
+В приложениях часто встречаются м о д и ф и ц и р о в а н ны е Ц. ф. (ц. ф. мнимого аргумента), к-рые определяются соотношением:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_10_TsILINDRIChESKIE]]/URI
+\]
+
+и удовлетворяют уравнению вида (2) при $URI[[http://libmeta.ru/fme/formula/aux/3401_12_TsILINDRIChESKIE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_11_TsILINDRIChESKIE]]/URI
+\]
+
+в качестве второго решения берут здесь или $URI[[http://libmeta.ru/fme/formula/aux/3401_13_TsILINDRIChESKIE]]/URI$ (при нецелом $URI[[http://libmeta.ru/fme/formula/aux/3401_14_TsILINDRIChESKIE]]/URI$ ), или функцию Макдональда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_12_TsILINDRIChESKIE]]/URI
+\]
+
+Важность этих функций обусловлена тем, что они представляют собой положительные решения уравнения (3) при $URI[[http://libmeta.ru/fme/formula/aux/3401_15_TsILINDRIChESKIE]]/URI$ с экспоненциальным поведением на бесконечности, асимптотич. представления имеют для них вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_13_TsILINDRIChESKIE]]/URI
+\]
+
+В нек-рых задачах встречаются еще Ц. Ф. аргумента
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_14_TsILINDRIChESKIE]]/URI
+\]
+
+Для действительных и мнимых URI[[http://libmeta.ru/fme/relation/3401_3_TsILINDRIChESKIE]]/URI этих функций введены специальные обозначения ( $URI[[http://libmeta.ru/fme/formula/aux/3401_16_TsILINDRIChESKIE]]/URI$ - действительно):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3401_15_TsILINDRIChESKIE]]/URI
+\]</text>
+  <text_orig>решения дифференциального Бесселя уравнения
+
+\[
+\frac{d^{2} Z}{d z^{2}}+\frac{1}{z} \frac{d Z}{d z}+\left(1-\frac{p^{2}}{z^{2}}\right) Z=0,
+\]
+
+$p$ - параметр (индекс) уравнения. В приложениях наиболее часто встречаются Ц. ф. 1-го рода $J_{p}(z)$ (см. Бесселя функции) и Ц. ф. 2-го рода $N_{p}(z)$ [см. Неймана функции, их называют также фу н цция м и В е бера и употребляют иногда обозначение $\left.Y_{p}(z)\right]$, преимущественно при действительных значениях аргумента. В комплексной области удобно пользоваться Ц. Ф. 3-го рода $H_{p}^{(1)}(z)$ и $H_{p}^{(2)}(z)$ (см. Ганкеля функции). Ц. ф. иногда называют 6 е с с еле вы м и функ ц и я м и.
+
+Соотношения между Ц. Ф. напоминают соотношения между тригонометрич. и показательной функциями:
+
+\[
+\begin{array}{ll}
+J_{p}=\frac{H_{p}^{(1)}(z)+H_{p}^{(2)}(z)}{2} ; \quad H_{p}^{(1)}=J_{p}(z)+i N_{p}(z) ; \\
+N_{p}=\frac{H_{p}^{(1)}(z)-H_{p}^{(2)}(z)}{2 i} ; \quad H_{p}^{(2)}=J_{p}(z)-i N_{p}(z) .
+\end{array}
+\]
+
+При действительных значениях аргумента (и индекса $\boldsymbol{p}$ ) функции Бесселя и Неймана действительны и представляют собой действительную и мнимую части функций Ганкеля. Эта же аналогия проявляется в асимптотич. представлениях (при больших $|z|$ ), верных при $|\arg z| \leqslant \pi-\delta$ :
+
+\[
+\begin{gathered}
+H_{p}^{(1)}(z)=\left(\frac{2}{\pi z}\right)^{1 / 2} e^{i\left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)} S_{p}(-2 i z), \\
+H_{p}^{(2)}(z)=\left(\frac{2}{\pi z}\right)^{1 / 2} e^{-i\left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)} S_{p}(2 i z), \\
+J_{p}(z)=\left(\frac{2}{\pi z}\right)^{1 / 2}\left\{P_{p}(z) \cos \left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)-Q_{p}(z) \sin \left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)\right\}, \\
+N_{p}(z)=\left(\frac{2}{\pi z}\right)^{1 / 2}\left\{P_{p}(z) \sin \left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)+Q_{p}(z) \cos \left(z-\frac{p \pi}{2}-\frac{\pi}{4}\right)\right\},
+\end{gathered}
+\]
+
+где
+
+\[
+\begin{gathered}
+S_{p}(t)=1+\sum_{k=1}^{n} \frac{A_{k}^{p}}{k !(4 t)^{k}}+O\left(z^{-n-1}\right), \\
+P_{p}(z)=1+\sum_{k=1}^{n} \frac{(-1)^{k} A_{2 k}^{p}}{(2 k) !(8 z)^{2 k}}+O\left(z^{-2 n-2}\right), \\
+Q_{p}(z)=\sum_{k=1}^{n} \frac{(-1)^{k} A_{2 k-1}^{p}}{(2 k-1) !(8 z)^{2 k-1}}+O\left(z^{-2 n-3}\right), \\
+A_{k}^{p}=\left(4 p^{2}-1^{2}\right)\left(4 p^{2}-3^{2}\right) \ldots\left[4 p^{2}-(2 k-1)^{2}\right] .
+\end{gathered}
+\]
+
+Другие соотношения между Ц. Ф. (при нецелом $p$ ):
+
+\[
+\begin{gathered}
+J_{p}(z)=\frac{N_{-p}(z)-N_{p}(z) \cos p \pi}{\sin p \pi}, \\
+N_{p}(z)=\frac{J_{p}(z) \cos p z-J_{-p}(z)}{\sin p \pi}, \\
+H_{p}^{(1)}(z)=\frac{J_{-p}(z)-e^{-p \pi i} J_{p}(z)}{i \sin p \pi}=\frac{N_{-p}(z)-e^{-p \pi i} N_{p}(z)}{\sin p \pi}, \\
+H_{p}^{(2)}(z)=\frac{e^{p \pi i} J_{p}(z)-J_{-p}(z)}{i \sin p \pi}=\frac{N_{-p}(z)-e^{p \pi i} N_{p}(z)}{\sin p \pi} .
+\end{gathered}
+\]
+
+Ц. Ф. удовлетворяют важным и удобным рекуррентным соотношениям:
+
+\[
+\begin{aligned}
+&amp; Z_{p-1}+Z_{p+1}=\frac{2 p}{z} Z_{p} ; \quad \frac{d}{d z}\left\{z^{p} Z_{p}\right\}=z^{p} Z_{p-1} \\
+&amp; Z_{p-1}-Z_{p+1}=2 Z_{p}^{\prime} ; \quad \frac{d}{d z}\left\{\frac{1}{z^{p}} Z_{p}\right\}=\frac{1}{z^{p}} Z_{p+1}
+\end{aligned}
+\] С помощью Ц. ф. выражается общее решение линейного уравнения
+
+\[
+z^{2} W^{\prime \prime}+(1-2 \alpha) z W^{\prime}+\left[\beta^{2} \gamma^{2} z^{2 \gamma}-\left(p^{2} \gamma^{2}-\alpha^{2}\right)\right] W=0
+\]
+
+при произвольных $\alpha, \beta, \gamma$. Именно:
+
+\[
+W=c_{1} z^{\alpha} Z_{p}^{(1)}\left(\beta z^{\gamma}\right)+c_{2} z^{\alpha} Z_{p}^{(2)}\left(\beta z^{\gamma}\right) .
+\]
+
+Среди уравнений (2) содержится уравнение вида
+
+\[
+W^{\prime}-z W=0
+\]
+
+к-рое порождает так наз. фу н кци и Э й р и.
+
+В приложениях часто встречаются м о д и ф и ц и р о в а н ны е Ц. ф. (Ц. ф. мнимого аргумента), к-рые определяются соотношением:
+
+\[
+I_{p}(x)=e^{-\frac{p \pi i}{2}} J_{p}(i x)=\sum_{k=0}^{\infty} \frac{1}{k ! \Gamma(p+k+1)}\left(\frac{x}{2}\right)^{p+2 k}
+\]
+
+и удовлетворяют уравнению вида (2) при $\alpha=0, \beta=i, \gamma=1$ :
+
+\[
+U^{\prime \prime}+\frac{1}{x} U^{\prime}-\left(1+\frac{p^{2}}{x^{2}}\right) U=0
+\]
+
+в качестве второго решения берут здесь или $I_{-p}(x)$ (при нецелом $p$ ), или функцию Макдональда
+
+\[
+K_{p}(x)=\frac{\pi i}{2} e^{\frac{p \pi i}{2}} H_{p}^{(1)}(i x) \text {. }
+\]
+
+Важность этих функций обусловлена тем, что они представляют собой положительные решения уравнения (3) при $x&gt;0$ с экспоненциальным поведением на бесконечности, асимптотич. представления имеют для них вид:
+
+\[
+I_{p}(x) \sim \frac{1}{\sqrt{2 \pi x}} e^{x} ; \quad K_{p}(x) \sim \sqrt{\frac{\pi}{2 x}} e^{-x} .
+\]
+
+В нек-рых задачах встречаются еще Ц. Ф. аргумента
+
+\[
+z=x \sqrt{-i}=e^{3 i \pi / 4} x
+\]
+
+Для действительных и мнимых частей этих функций введены специальные обозначения ( $p$ - действительно):
+
+\[
+\begin{gathered}
+I_{p}(x \sqrt{-i})=\operatorname{ber}_{p} x+i \operatorname{bei}_{p} x, \\
+K_{p}(x \sqrt{-i})=\operatorname{ker}_{p} x+i \operatorname{kei}_{p} x, \\
+H_{p}(x \sqrt{-i})=\operatorname{her}_{p} x+i \operatorname{hei}_{p} x .
+\end{gathered}
+\]
+
+Лит.: [1] Лаврентьев М. А., Шабат Б. В., Методы теории функций комплексного переменного, 3 изд., М., 1965; [2] Л е бе д е в Н. Н., Специальные функции и их приложения, 2 изд., М.- Л., 1963; [3] В а тсо н Г. Н., Теория бесселевых функций, пер. с англ., ч. 1-2, М., 1949; [4] Я нке Е., Эм де Ф., Л е ш Ф., Специальные функции. Формулы, графики, таблицы, 2 изд., пер. с нем., М., 1968.
+
+П. И. Лизоркин.</text_orig>
+</article>

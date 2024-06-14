@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_22596">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>d</mi><mi>A</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>A</mi></mrow><mrow><mo>&#x02202;</mo><mi>t</mi></mrow></mfrac><mo>&#x0002B;</mo><mfrac><mrow><mi>i</mi></mrow><mrow><mi>&#x0210F;</mi></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msub><mi>H</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0002C;</mo><mi>A</mi><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mi>;</mi><mspace width="1em" /><mi>i</mi><mi>&#x0210F;</mi><mfrac><mrow><mo>&#x02202;</mo></mrow><mrow><mo>&#x02202;</mo><mi>t</mi></mrow></mfrac><mo stretchy="false">&#x0007C;</mo><mi>&#x003C8;</mi><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mi>&#x027E9;</mi><mo>&#x0003D;</mo><msub><mi>H</mi><mrow><mi>I</mi></mrow></msub><mo stretchy="false">&#x0007C;</mo><mi>&#x003C8;</mi><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mi>&#x027E9;</mi><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{d A}{d t}=\frac{\partial A}{\partial t}+\frac{i}{\hbar}\left[H_{0}, A\right] ; \quad i \hbar \frac{\partial}{\partial t}|\psi(t)\rangle=H_{I}|\psi(t)\rangle .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

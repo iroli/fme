@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2982_SUBADDITIVNAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2982_SUBADDITIVNAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2201</core:url>
+    <lbm:descriptor><![CDATA[СУБАДДИТИВНАЯ ЭРГОДИЧЕСКАЯ ТЕОРЕМА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#4571"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16702"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16703"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16704"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16705"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16707"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16709"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16710"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16711"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16712"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16713"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16714"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16715"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>утверждение об асимптотическом поведении семейства $URI[[http://libmeta.ru/fme/formula/aux/2982_1_SUBADDITIVNAJa]]/URI$, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16711">$$i, j \in \mathbb{Z}^{+}$$</a>, действительнозначных случайных величин, составляющих субаддитивный случайный процесс с дискретным временем, то есть таких (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#16702">[1]</a>), что<BR/></P><P>1) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16712">$$x_{i j} \leqslant X_{i k}+X_{k j}, i \leqslant k \leqslant j$$</a><BR/></P><P>2) совместное распределение любого конечного набора случайных величин <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16710">$$\left\{x_{i j}\right\}$$</a> совпадает с распределением набора <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16713">$$\left\{x_{i j}^{\prime}\right\}$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16714">$$x_{i j}^{\prime}=X_{i+1, j+1}$$</a><BR/></P><P>3) математич. ожидания<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16715">$$\begin{array}{cc}m_{j}=\mathrm{e}\left(x_{i j}\right) \\ \text { сушествуют и } & \inf ^{-1} m_{j}=C>-\infty .\end{array}$$</a><BR/></P><P>Тогда почти наверное существует предел<BR/></P><P>причем<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16709">$$\begin{gathered}X=\lim _{j \rightarrow \infty} j^{-1} X_{0 j}, \\E X=C .\end{gathered}$$</a><BR/></P><P>Эта теорема, доказанная Дж. Кингманом <a href="/object/show?uri=http://libmeta.ru/io/Publication#16703">[2]</a>, обобщает, в частности, индивидуальную эргодич. теорему (Биркгофа Хинчина). Субаддитивные процессы встречаются в различных задачах теории просачивания, в комбинаторике, при изучении асимптотич. поведения произведений случайных операторов. Имеются обобщения С. э. т., относящиеся к процессам с непрерывным временем, к случайным полям и т. Д. (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#16707">[5]</a>). См. также <a href="/object/show?uri=http://libmeta.ru/io/Publication#16704">[3]</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16705">[4]</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#16702">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#571">Hammersley J.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16702">"ann. Probab.”, 1974, v. 2. № 4, p. 652-80</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#16703">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#571">Kingman J.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16703">там же, 1973, v. 1, № 6, p. 883-909</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#16704">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1820">Derriennic G.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16704">«c.r. Acad. sci.», 1975, t. 281, p. 985-88:</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#16705">[4]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1820">Katznelson G.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2266">Weiss B.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16705">"isr. J. Math.», 1982, v. 42, № 4, p. 291-96</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#16707">[5]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#2117">Akcoghu M.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#16706">Krengel U.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16707">«j. reine und angew. Math.», 1981, Bd 323, S. 53-67</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#16708">[6]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#16706">Krengel U.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16708">Ergodic theorems, B.- N.Y., 1985</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#4571">И. П. Корнфельд</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[утверждение об асимптотическом поведении семейства $\left\{X_{i j}\right\}$, $i, j \in \mathbb{Z}^{+}$, действительнозначных случайных величин, составляющих субадлитивный случайный процесс с дискретным временем, то есть таких (см. [1]), что
+
+1) $X_{i j} \leqslant X_{i k}+X_{k j}, i \leqslant k \leqslant j$
+
+2) совместное распределение любого конечного набора случайных величин $\left\{X_{i j}\right\}$ совпадает с распределением набора $\left\{X_{i j}^{\prime}\right\}$, где $X_{i j}^{\prime}=X_{i+1, j+1}$
+
+3) математич. ожидания
+
+$\begin{array}{cc}m_{j}=\mathrm{E}\left(X_{i j}\right) \\ \text { сушествуют и } & \inf ^{-1} m_{j}=C>-\infty .\end{array}$
+
+Тогда почти наверное существует предел
+
+причем
+
+\[
+\begin{gathered}
+X=\lim _{j \rightarrow \infty} j^{-1} X_{0 j}, \\
+E X=C .
+\end{gathered}
+\]
+
+Эта теорема, доказанная Дж. Кингманом [2], обобщает, в частности, индивидуальную эргодич. теорему (Биркгофа Хинчина). Субаддитивные процессы встречаются в различных задачах теории просачивания, в комбинаторике, при изучении асимптотич. поведения произведений случайных операторов. Имеются обобшения С. э. т., относящиеся к процессам с непрерывным временем, к случайным полям и т. Д. (см. [5]). См. также [3], [4].
+
+Лum.: [1] Hammersle y J., "Ann. Probab.”, 1974, v. 2. № 4, p. 652-80; [2] K ing m a n J., там же, 1973, v. 1, № 6, p. 883-909; [3] Derriennic G., «C.r. Acad. sci.», 1975, t. 281, p. 985-88: [4] Katznelson G., We iss B., "Isr. J. Math.», 1982, v. 42, № 4, p. 291-96; [5] Akcoghu M., Krengel U., «J. reine und angew. Math.», 1981, Bd 323, S. 53-67; [6] K re ngel U., Ergodic theorems, B.- N.Y., 1985 . И. П. Корнфельд.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

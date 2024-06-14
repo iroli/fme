@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1258_KLASTERY" alphabetic_pos="1260">
+  <title>КЛАСТЕРЫ СОБСТВЕННЫХ ЗНАЧЕНИЙ</title>
+  <authors/>
+  <pages>
+    <start>271</start>
+    <end>271</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Хё р м а н де р Л., Анализ линейных дифференциальных операторов с частными производными, пер. с англ., т. 4, М., 1988.</literature_orig>
+    <unit>
+      <author>Хёрмандер Л.</author>
+      <title>Анализ линейных дифференциальных операторов с частными производными</title>
+      <publication>пер. с англ., т. 4, М.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1258_1_KLASTERY">\max _{i, j}\left|\lambda_{k, i}-\lambda_{k, j}\right| / \min _{i, j, l \neq k} \mid \lambda_{k, i}-\lambda_{l, j} \rightarrow 0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1258_1_KLASTERY">\left\{\lambda_{k, j}, 1 \leqslant j \leqslant \mu_{k}\right\}, k=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1258_2_KLASTERY">\mu_{k} \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1258_3_KLASTERY">k \rightarrow \infty</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1258_1_KLASTERY">
+      <rel_text>главного символа</rel_text>
+      <target>http://libmeta.ru/fme/article/651_GLAVNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1258_2_KLASTERY">
+      <rel_text>многообразиях</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1258_3_KLASTERY">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/1258_3_KLASTERY]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1258_1_KLASTERY]]/URI$, собственных значений, лежа- щих в интервале, не содержащем других точек спектра, причем $URI[[http://libmeta.ru/fme/formula/aux/1258_2_KLASTERY]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1258_1_KLASTERY]]/URI
+\]
+
+при $URI[[http://libmeta.ru/fme/formula/aux/1258_3_KLASTERY]]/URI$. Наиболее изучены К. с. з. у эллиптич. операторов на компактных замкнутых URI[[http://libmeta.ru/fme/relation/1258_2_KLASTERY]]/URI с периодич. гамильтоновым потоком URI[[http://libmeta.ru/fme/relation/1258_1_KLASTERY]]/URI и нек-рым условием на субглавный символ. Изучено асимптотич. распределение собственных значений внутри кластеров.</text>
+  <text_orig>гРУППЫ $\left\{\lambda_{k, j}, 1 \leqslant j \leqslant \mu_{k}\right\}, k=1,2, \ldots$, собственных значений, лежа- щих в интервале, не содержащем других точек спектра, причем $\mu_{k} \rightarrow \infty$ и
+
+\[
+\max _{i, j}\left|\lambda_{k, i}-\lambda_{k, j}\right| / \min _{i, j, l \neq k} \mid \lambda_{k, i}-\lambda_{l, j} \rightarrow 0
+\]
+
+при $k \rightarrow \infty$. Наиболее изучены К. с. з. у эллиптич. операторов на компактных замкнутых многообразиях с периодич. гамильтоновым потоком главного символа и нек-рым условием на субглавный символ. Изучено асимптотич. распределение собственных значений внутри кластеров.
+
+Лum.: [1] Хё р м а н де р Л., Анализ линейных дифференциальных операторов с частными производными, пер. с англ., т. 4, М., 1988.</text_orig>
+</article>

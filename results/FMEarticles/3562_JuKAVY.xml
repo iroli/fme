@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3562_JuKAVY" alphabetic_pos="3564">
+  <title>ЮКАВЫ ПОТЕНЦИАЛ</title>
+  <authors/>
+  <pages>
+    <start>687</start>
+    <end>687</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Альфаро В., Редже Т., Потенциальное рассеяние, $\begin{array}{ll}\text { пер. с англ., М., 1966. } &amp; \text { С. П. Меркурьев, А. А. Квицинский }\end{array}$</literature_orig>
+    <unit>
+      <author>Альфаро В.</author>
+      <author>Редже Т.</author>
+      <title>Потенциальное рассеяние</title>
+      <publication>$\begin{array}{ll}\text { пер. с англ., М.</publication>
+      <year>1966</year>
+      <other>А. А. Квицинский }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3562_1_JuKAVY">V(r)=\int_{\mu}^{\infty} d a c(a) e^{-a r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3562_2_JuKAVY">F_{0}(k)=1+\int_{\mu}^{\infty} d a \rho(k, a),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3562_3_JuKAVY">a(a-2 i k) \rho(k, a)=c(a)+\theta(a-2 \mu) \int_{\mu}^{a-\mu} c(a-b) \rho(k, b) d b,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_1_JuKAVY">f_{0}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_2_JuKAVY">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_3_JuKAVY">\theta(x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_4_JuKAVY">x&lt;0, \theta(x)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_5_JuKAVY">x \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_6_JuKAVY">[n \mu,(n+1) \mu], n-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_7_JuKAVY">f_{0}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_8_JuKAVY">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_9_JuKAVY">[-i x,-i \infty), x \geqslant \mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3562_10_JuKAVY">c(a)=</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/3562_1_JuKAVY">
+      <rel_text>потенциал взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/387_VZAIMODEJSTVIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3562_2_JuKAVY">
+      <rel_text>Частным</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3562_3_JuKAVY">
+      <rel_text>интегрального уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/1033_INTEGRAL'NOE</target>
+    </relation>
+  </relations>
+  <text>потенциал вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3562_1_JuKAVY]]/URI
+\]
+
+Функция Йоста $URI[[http://libmeta.ru/fme/formula/aux/3562_1_JuKAVY]]/URI$ для Ю. п. дается представлением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3562_2_JuKAVY]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3562_2_JuKAVY]]/URI$ - решение URI[[http://libmeta.ru/fme/relation/3562_3_JuKAVY]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3562_3_JuKAVY]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3562_3_JuKAVY]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/3562_4_JuKAVY]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/3562_5_JuKAVY]]/URI$, к-рое точно решается итерациями в последовательных интервалах $URI[[http://libmeta.ru/fme/formula/aux/3562_6_JuKAVY]]/URI$ целое число. Функция $URI[[http://libmeta.ru/fme/formula/aux/3562_7_JuKAVY]]/URI$ для Ю. п. аналитична в комплексной $URI[[http://libmeta.ru/fme/formula/aux/3562_8_JuKAVY]]/URI$-плоскости с разрезом $URI[[http://libmeta.ru/fme/formula/aux/3562_9_JuKAVY]]/URI$. URI[[http://libmeta.ru/fme/relation/3562_2_JuKAVY]]/URI случаем Ю. п. при $URI[[http://libmeta.ru/fme/formula/aux/3562_10_JuKAVY]]/URI$ const является Юкавы URI[[http://libmeta.ru/fme/relation/3562_1_JuKAVY]]/URI, предложенный для описания ядерных сил.</text>
+  <text_orig>потенциал вида
+
+\[
+V(r)=\int_{\mu}^{\infty} d a c(a) e^{-a r}
+\]
+
+Функция Йоста $F_{0}(k)$ для Ю. п. дается представлением
+
+\[
+F_{0}(k)=1+\int_{\mu}^{\infty} d a \rho(k, a),
+\]
+
+где $\rho$ - решение интегрального уравнения
+
+\[
+a(a-2 i k) \rho(k, a)=c(a)+\theta(a-2 \mu) \int_{\mu}^{a-\mu} c(a-b) \rho(k, b) d b,
+\]
+
+$\theta(x)=0$, если $x&lt;0, \theta(x)=1$, если $x \geqslant 0$, к-рое точно решается итерациями в последовательных интервалах $[n \mu,(n+1) \mu], n-$ целое число. Функция $F_{0}(k)$ для Ю. п. аналитична в комплексной $k$-плоскости с разрезом $[-i x,-i \infty), x \geqslant \mu$. Частным случаем Ю. п. при $c(a)=$ const является Юкавы потенциал взаимодействия, предложенный для описания ядерных сил.
+
+Лит.: [1] Альфаро В., Редже Т., Потенциальное рассеяние, $\begin{array}{ll}\text { пер. с англ., М., 1966. } &amp; \text { С. П. Меркурьев, А. А. Квицинский }\end{array}$</text_orig>
+</article>

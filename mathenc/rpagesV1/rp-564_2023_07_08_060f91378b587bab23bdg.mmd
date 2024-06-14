@@ -1,0 +1,123 @@
+- (вещественно) сопряженные дифференциальные операторы второго порядка, $a^{i j}=a^{j l}$, то
+
+\[
+\begin{gathered}
+\int_{D}\left[v L u+\sum_{i, j=1}^{n} a^{i j} \frac{\partial u}{\partial x^{i}} \frac{\partial v}{\partial x^{j}}-\right. \\
+\left.-\left(\sum_{i=1}^{n} b^{i} \frac{\partial u}{\partial x^{i}}+c u\right) v\right] d x=\int_{\Gamma} v \frac{\partial u}{\partial M} d s, \\
+\int_{D}\left[u L^{*} v-v L u\right] d x=\int_{\Gamma}\left[u \frac{\partial v}{\partial M}-v \frac{\partial u}{\partial M}-B u v\right] d s,
+\end{gathered}
+\]
+
+где $N=\left(N_{1}, \ldots, N_{n}\right)-$ единичный (ко)вектор внешней нормали $\mathrm{\kappa} \Gamma$
+
+\[
+B=\sum_{i=1}^{n} N_{i} b^{i}, \quad \frac{\partial}{\partial M}=\sum_{i, j=1}^{n} a^{i j} N_{j} \frac{\partial}{\partial x^{i}}
+\]
+
+- оператор дифференцирования по направлению так наз. конормали
+
+\[
+M=\left(\sum_{j=1}^{n} a^{1 j} \frac{\partial}{\partial x^{j}}, \ldots, \sum_{j=1}^{n} a^{n j} \frac{\partial}{\partial x^{j}}\right)
+\]
+
+оператора $L$
+
+2) если
+
+$L u=\sum_{i, j=1}^{n} a^{i j}(x) \frac{\partial^{2} u}{\partial x^{i} \partial x^{j}}+\sum_{i=1}^{n} b^{l}(x) \frac{\partial u}{\partial x^{i}}+c(x) u$, $L^{*} v=\sum_{i, j=1}^{n} \frac{\partial^{2}}{\partial x^{i} \partial x^{j}}\left[a^{i j}(x) v\right]-\sum_{i=1}^{n} \frac{\partial}{\partial x^{i}}\left[b^{i}(x) v\right]+$ тo
+
+\[
++c(x) v
+\]
+
+\[
+\begin{gathered}
+\int_{D}\left[v L u+\sum_{i, j=1}^{n} a^{i j} \frac{\partial u}{\partial x^{i}} \frac{\partial v}{\partial x^{j}}-\right. \\
+\left.-\left(\sum_{i=1}^{n} b^{i} \frac{\partial u}{\partial x^{i}}+c u\right) v\right]=\int_{\Gamma} v \frac{\partial u}{\partial M} d s, \\
+\int_{D}\left[u L^{*} v-v L u\right] d x=\int_{\Gamma}\left[u \frac{\partial v}{\partial M}-v \frac{\partial u}{\partial M}-C u v\right] d s,
+\end{gathered}
+\]
+
+где $M-$ конормаль оператора $L$, а
+
+3) если
+
+\[
+C=\sum_{i=1}^{n}\left[b^{i}-\sum_{j=1}^{n} \frac{\partial a^{i j}}{\partial x^{j}}\right] N_{i}
+\]
+
+\[
+\begin{gathered}
+L u=\sum_{p=1}^{m} \sum_{|\alpha|=p} a^{\alpha}(x) D_{\alpha} u+a(x) u, \\
+L^{*} v=\sum_{p=1}^{m}(-1)^{p} D_{\alpha}\left[a^{\alpha}(x) v\right]+a(x) v
+\end{gathered}
+\]
+
+- (вещественно) сопряженные дифференциальные операторы порядка $m, \alpha=\left(\alpha_{1}, \alpha_{2}, \ldots, \alpha_{p}\right)-$ целочисленный мультииндекс длины $|\alpha|=p, \quad 1 \leqslant \alpha_{i} \leqslant n, \quad D_{\alpha}=$ $=\partial_{\alpha_{1}} \partial_{\alpha_{2}} \cdots \partial_{\alpha_{p}}, \partial_{i}=\frac{\partial}{\partial x^{i}}$, то
+
+\[
+\int_{D}\left[u L^{*} u-v L u\right] d x=
+\]\[
+=\sum_{p=1}^{m} \sum_{|\alpha|=p} \sum_{k=1}^{p} \int_{\Gamma}(-1)^{k}\left[\partial_{\alpha_{1}} \ldots \partial_{\alpha_{k-1}}\left(a^{\alpha}\right)\right] \times
+\]\[
+\times N_{\alpha_{k}}\left[\partial_{\alpha_{k+1}} \ldots \partial_{\alpha_{p}} u\right] d s .
+\]
+
+Здесь граничный интеграл можно записать в виде билинейной суммы
+
+\[
+\sum_{i j} \int_{\Gamma} B^{i j}\left(S_{i} u\right)\left(T_{j} v\right) d s,
+\]
+
+где $S_{i}, T_{j}-$ нек-рые линейные дифференциальные операторы порядков $s_{i}, t_{j}, 0 \leqslant s_{i}+t_{j} \leqslant m-1$.
+
+Г. ф. играют важную роль в анализе и особенно в теории краевых задач для дифференциальных операторов (обыкновенных и с частными производными) второго и более высоких порядков. Для достаточно гладких в $\bar{D}$ функций $u(x), v(x) \Gamma$. ф. (2), (4) служат источником ряда соотношений, полезных для изучения свойств решения краевых задач, выяснения вида краевых задач, получения решения в явном виде и т. п. Напр., для гармонической в $D$ функциі $u(x)$ из (2) при $v(x)=1$ следует Гаусса теорема:
+
+\[
+\int_{\partial G} \frac{\partial u}{\partial N} d s=0 .
+\]
+
+Для достаточно гладких в $\bar{D}$ функций $u(x), w(x)$ и функции
+
+\[
+v(x)= \begin{cases}\frac{1}{n-2}|x-y|^{2-n}+w(x), & \text { есліг } n \geqslant 3, \\ -\ln |x-y|+w(x), & \text { еслиг } n=2,\end{cases}
+\]
+
+имеющей при $x=y$ такую же особенность, как и фушдаментальное решение оператора Лапласа, верны следугщие Г. ф.:
+
+$\int_{D}\left[u \Delta w+\sum_{i=1}^{n} \frac{\partial u}{\partial x^{i}} \frac{\partial v}{\partial x^{j}}\right] d x=c u(y)+\int_{D} u \frac{\partial v}{\partial N} d s$
+
+$\int_{D}[u \Delta w-v \Delta u] d x=c u(y)+\int_{D}\left[u \frac{\partial v}{\partial N}-v \frac{\partial u}{\partial N}\right] d s$.
+
+Здесь число
+
+\[
+c=\left\{\begin{array}{lll}
+\omega_{n}, & \text { если } & y \in D, \\
+\frac{1}{2} \omega_{n}, & \text { если } & y \in \Gamma, \\
+0, & \text { если } & y \notin \bar{D},
+\end{array}\right.
+\]
+
+а $\omega_{n}=2 \pi^{n / 2 /} \Gamma(n / 2)$ есть площадь $(n-1)$-мерной единичной сферы пространства $E^{n}$. При этом для $y \in \Gamma$ предполагается, что граница $\Gamma$ имеет непрерывную касательную плоскость в нек-рой окрестности $y$.
+
+Формулы (5) и (6) служат основой получения интегральных представлений решений основных краевых задач потенциала теории (см. Гармоническая бункция, Грина бункция, Пуассона формула). Напр., отсюда для гармонической в $D$ функции $u(x)$ получаем фо рму лу, или интеграл Грина
+
+\[
+u(y)=\frac{1}{c} \int_{\Gamma}\left[v(x) \frac{\partial u}{\partial N}-u(x) \frac{\partial v}{\partial N}\right] d s,
+\]
+
+играющую важную роль в теории гармонических бункций.
+
+Формулы, подобные формулам (5), (6), дающие интегральные представления решения задачи Коши или смешанной задачи, имеют место и для нормально гиперболич. оператора второго порядка. См. Кирхгофа бормула, Римана метод, Римана бункция.
+
+О Г. ф. в теории краевых задач см. также [4]-[9].
+
+Jum.: [1] G r e e n G., An essay on the application of mathematical analysis to the theories of electricity and magnetisn,
+Nottingham, [1828]; [2] М а к с в е л л Д., Избранные coчnнeNottingham, [1828]; [2] М а к с в е л л Д., Избранные сочине-
+ния по теории электромагнитного поля, пер. с англ., М., 1954; [3] С м и р но в В. И., Курс высшей математики, т. 2,20 изд., М., $1966 ;$ [4] К у р а н т $\mathbf{P}$. Уравнения с частными прогзводными, пер. с англ., М., ния математической физики, М и р а н д a K., Уравнения с частными производными әллиптического типа, пер. с итал., М., 1957; [8] Д а н ф о р д Н.,
+III в а р ц Д ж. Т., Линейные операторы, пер. с англ., ч. 2, М., 1966; [9] Л и о н с भК.-Л., М а д ж е н е с Ә., Неоднородные граничные задачи и их приложения, пер. с франц., М., 1971.
+
+ГРИНА ФУНКЦИЯ - функция, связанная с интегральным представлением решений краевых задач для дифференциальных уравнений.
+
+Г. ф. краевой задачи для линейного дифференциального уравнения - фундаментальное решение уравнения, удовлетворяющее однородным краевым условиям. Г. Ф. является ядром интегрального оператора, обратного к дифференциальному оператору, порожденному данным дифференциальным уравнением и однородными краевыми условіями. Г. Ф. гозволяет найти решения неоднородного уравнения, удовлетворяющие однородным краевым условиям. Нахождение Г. ф. сводит исследование свойств дифференциального

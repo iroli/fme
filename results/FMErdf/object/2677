@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_2677">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>d</mi><mi>V</mi><mo>&#x0003D;</mo><mi>d</mi><mi>t</mi><mo>&#x0002B;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>r</mi><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><msup><mi>a</mi><mrow><mn>2</mn></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>d</mi><mi>r</mi><mo>&#x0002F;</mo><mi>&#x00394;</mi><mo>&#x0002C;</mo><mi>d</mi><mover><mrow><mi>&#x003C6;</mi></mrow><mo>&#x0007E;</mo></mover><mo>&#x0003D;</mo><mi>d</mi><mi>&#x003C6;</mi><mo>&#x0002B;</mo><mi>a</mi><mi>d</mi><mi>r</mi><mo>&#x0002F;</mo><mi>&#x00394;</mi><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$d V=d t+\left(r^{2}+a^{2}\right) d r / \Delta, d \widetilde{\varphi}=d \varphi+a d r / \Delta .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

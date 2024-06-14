@@ -1,0 +1,215 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1775_METRIChESKIJ" alphabetic_pos="1777">
+  <title>МЕТРИЧЕСКИЙ ТЕНЗОР</title>
+  <authors>
+    <author>В. П. Павлов</author>
+  </authors>
+  <pages>
+    <start>358</start>
+    <end>358</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Л анд а у Л. Д., Л и фш и « Е. М., Теория поля, 7 изд., М., 1988; [2] Р а ш в с к и й П. К., Риманова геометрия и тензорный анализ, 3 изд., М., 1967; [3] Фок В. А., Теория пространства, времени и тяготения, 2 изд., М., 1961; [4] Дубро в и н Б. А., Нов ик о в С. П., Фо м е н ко А. Т., Современная геометрия, 2 изд., М., 1986.</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифши« Е. М.</author>
+      <title>Теория поля</title>
+      <publication>7 изд., М.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рашвский П. К.</author>
+      <title>Риманова геометрия и тензорный анализ</title>
+      <publication>3 изд., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Фок В. А.</author>
+      <title>Теория пространства, времени и тяготения</title>
+      <publication>2 изд., М.</publication>
+      <year>1961</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Новиков С. П.</author>
+      <author>Фоменко А. Т.</author>
+      <title>Современная геометрия</title>
+      <publication>2 изд., М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1775_1_METRIChESKIJ">\tilde{g}_{i j}=g_{k l}\left(\partial x^{k} / \partial y^{i}\right)\left(\partial x^{l} / \partial y^{j}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1775_2_METRIChESKIJ">s=\int_{a}^{b} d t\left[g_{i j}(x(t)) \frac{d x^{i}}{d t} \frac{d x^{j}}{d t}\right]^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1775_3_METRIChESKIJ">d s=g_{i j} d x^{i} d x^{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1775_4_METRIChESKIJ">d V=\sqrt{g} d x^{1} \ldots d x^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1775_5_METRIChESKIJ">V(U)=\int_{U} \sqrt{g} d x^{1} \ldots d x^{n},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1775_6_METRIChESKIJ">\nabla_{k} g_{i j}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1775_7_METRIChESKIJ">\Gamma_{i j}^{k}=\frac{1}{2} g^{k l}\left(\frac{\partial g_{l j}}{\partial x^{j}}+\frac{\partial g_{l i}}{\partial x^{j}}-\frac{\partial g_{i j}}{\partial x^{l}}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1775_8_METRIChESKIJ">g_{i j}=\delta_{i j}-(1 / 3) R_{i j, k l} x^{k} x^{l}+\ldots .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1775_9_METRIChESKIJ">(\xi, \eta)=g_{i j} \xi^{i} \eta^{j}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_1_METRIChESKIJ">g_{i j}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_2_METRIChESKIJ">x=\left(x^{1}, x^{2}, \ldots, x^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_3_METRIChESKIJ">g_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_4_METRIChESKIJ">g_{i j} T^{i} T^{j}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_5_METRIChESKIJ">t \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_6_METRIChESKIJ">x^{i} \rightarrow y^{i}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_7_METRIChESKIJ">g_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_8_METRIChESKIJ">x^{i}=x^{i}(t), a \leqslant t \leqslant b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_9_METRIChESKIJ">d s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_10_METRIChESKIJ">v(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_11_METRIChESKIJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_12_METRIChESKIJ">g=\operatorname{det}\left\|g_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_13_METRIChESKIJ">z^{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_14_METRIChESKIJ">g_{i j}(z)=\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_15_METRIChESKIJ">\delta_{i j}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_16_METRIChESKIJ">\nabla_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_17_METRIChESKIJ">x_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_18_METRIChESKIJ">\left.\Gamma_{i j}^{k}\right|_{x=x_{0}}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_19_METRIChESKIJ">\partial g_{i j} /\left.\partial x^{k}\right|_{x=x_{0}}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_20_METRIChESKIJ">r_{i j, k l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_21_METRIChESKIJ">\xi=\left(\xi^{1}, \ldots, \xi^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_22_METRIChESKIJ">\eta=\left(\eta^{1}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1775_23_METRIChESKIJ">\left.\eta^{n}\right)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1775_1_METRIChESKIJ">
+      <rel_text>относительности и теории</rel_text>
+      <target>http://libmeta.ru/fme/article/2418_PROSTRANSTVENNOPODOBNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1775_2_METRIChESKIJ">
+      <rel_text>криволинейных координатах</rel_text>
+      <target>http://libmeta.ru/fme/article/1464_KRIVOLINEJNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1775_3_METRIChESKIJ">
+      <rel_text>скалярное произведение</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+  </relations>
+  <text>дважды ковариантный симметричный тензор $URI[[http://libmeta.ru/fme/formula/aux/1775_1_METRIChESKIJ]]/URI$, заданный в области риманова пространства с координатами $URI[[http://libmeta.ru/fme/formula/aux/1775_2_METRIChESKIJ]]/URI$, причем матрица $URI[[http://libmeta.ru/fme/formula/aux/1775_3_METRIChESKIJ]]/URI$ положительно определена: $URI[[http://libmeta.ru/fme/formula/aux/1775_4_METRIChESKIJ]]/URI$, если вектор $URI[[http://libmeta.ru/fme/formula/aux/1775_5_METRIChESKIJ]]/URI$ (принято соглашение о суммировании по повторяющимся индексам). При замене координат $URI[[http://libmeta.ru/fme/formula/aux/1775_6_METRIChESKIJ]]/URI$ М. т. $URI[[http://libmeta.ru/fme/formula/aux/1775_7_METRIChESKIJ]]/URI$ переходит в
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1775_1_METRIChESKIJ]]/URI
+\]
+
+М. т. иногда называют р имановой метрикой, поскольку он определяет расстояние в римановом пространстве: если задана кривая $URI[[http://libmeta.ru/fme/formula/aux/1775_8_METRIChESKIJ]]/URI$, то ее длина
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1775_2_METRIChESKIJ]]/URI
+\]
+
+а элемент длины $URI[[http://libmeta.ru/fme/formula/aux/1775_9_METRIChESKIJ]]/URI$ определен формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1775_3_METRIChESKIJ]]/URI
+\]
+
+правая часть к-рой называется п е р в о й (основной) к в а дра т и ч о й формой. Элемент объема
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1775_4_METRIChESKIJ]]/URI
+\]
+
+а объем $URI[[http://libmeta.ru/fme/formula/aux/1775_10_METRIChESKIJ]]/URI$ области $URI[[http://libmeta.ru/fme/formula/aux/1775_11_METRIChESKIJ]]/URI$ равен
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1775_5_METRIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1775_12_METRIChESKIJ]]/URI$. Если существуют координаты $URI[[http://libmeta.ru/fme/formula/aux/1775_13_METRIChESKIJ]]/URI$, в к-рых М. т. имеет вид $URI[[http://libmeta.ru/fme/formula/aux/1775_14_METRIChESKIJ]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1775_15_METRIChESKIJ]]/URI$ символ Кронекера, то метрика называется е в кл и д о в о й, а сама область риманова пространства является областью евклидова пространства.
+
+Кроме М.т. в римановом пространстве вводится еще одна независимая структура - связность, задающая ковариантную производную $URI[[http://libmeta.ru/fme/formula/aux/1775_16_METRIChESKIJ]]/URI$. М. т. называется с огласован н ы м со связностью, если он ковариантно постоянен:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1775_6_METRIChESKIJ]]/URI
+\]
+
+Тогда коэффициенты связности, или Кристоффеля символы, однозначно выражаются через М. т.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1775_7_METRIChESKIJ]]/URI
+\]
+
+В окрестности любой точки $URI[[http://libmeta.ru/fme/formula/aux/1775_17_METRIChESKIJ]]/URI$ можно ввести нормальные (римановы) координаты такие, что $URI[[http://libmeta.ru/fme/formula/aux/1775_18_METRIChESKIJ]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/1775_19_METRIChESKIJ]]/URI$. Тогда в этой окрестности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1775_8_METRIChESKIJ]]/URI
+\]
+
+Коэффициенты $URI[[http://libmeta.ru/fme/formula/aux/1775_20_METRIChESKIJ]]/URI$ характеризуют отличие М.т. от евклидова и являются компонентами кривизны тензора. Помимо внутренних характеристик многообразия М.т. задает скалярное произведение векторов $URI[[http://libmeta.ru/fme/formula/aux/1775_21_METRIChESKIJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1775_22_METRIChESKIJ]]/URI$, ..., $URI[[http://libmeta.ru/fme/formula/aux/1775_23_METRIChESKIJ]]/URI$, касательных к многообразию в данной точке:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1775_9_METRIChESKIJ]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/1775_3_METRIChESKIJ]]/URI не зависит от выбора системы координат.
+
+Понятие М. т. общеупотребительно при описании сплошной среды, при формулировке теории поля в URI[[http://libmeta.ru/fme/relation/1775_2_METRIChESKIJ]]/URI, а особенно - в теории URI[[http://libmeta.ru/fme/relation/1775_1_METRIChESKIJ]]/URI тяготения.</text>
+  <text_orig>дваждЫ ковариантныЙ симметричный тензор $g_{i j}(x)$, заданный в области риманова пространства с координатами $x=\left(x^{1}, x^{2}, \ldots, x^{n}\right)$, причем матрица $g_{i j}$ положительно определена: $g_{i j} T^{i} T^{j}&gt;0$, если вектор $T \neq 0$ (принято соглашение о суммировании по повторяющимся индексам). При замене координат $x^{i} \rightarrow y^{i}(x)$ М. т. $g_{i j}$ переходит в
+
+\[
+\tilde{g}_{i j}=g_{k l}\left(\partial x^{k} / \partial y^{i}\right)\left(\partial x^{l} / \partial y^{j}\right) .
+\]
+
+М. т. иногда называют р имановой метрикой, поскольку он определяет расстояние в римановом пространстве: если задана кривая $x^{i}=x^{i}(t), a \leqslant t \leqslant b$, то ее длина
+
+\[
+s=\int_{a}^{b} d t\left[g_{i j}(x(t)) \frac{d x^{i}}{d t} \frac{d x^{j}}{d t}\right]^{1 / 2}
+\]
+
+а элемент длины $d s$ определен формулой
+
+\[
+d s=g_{i j} d x^{i} d x^{j}
+\]
+
+правая часть к-рой называется п е р в о й (основной) к в а дра т и ч о й формой. Элемент объема
+
+\[
+d V=\sqrt{g} d x^{1} \ldots d x^{n}
+\]
+
+а объем $V(U)$ области $U$ равен
+
+\[
+V(U)=\int_{U} \sqrt{g} d x^{1} \ldots d x^{n},
+\]
+
+где $g=\operatorname{det}\left\|g_{i j}\right\|$. Если существуют координаты $z^{i}$, в к-рых М. т. имеет вид $g_{i j}(z)=\delta_{i j}$, где $\delta_{i j}-$ символ Кронекера, то метрика называется е в кл и д о в о й, а сама область риманова пространства является областью евклидова пространства.
+
+Кроме М.т. в римановом пространстве вводится еще одна независимая структура - связность, задаюшая ковариантную производную $\nabla_{k}$. М. т. называется с огласован н ы м со связностью, если он ковариантно постоянен:
+
+\[
+\nabla_{k} g_{i j}=0 .
+\]
+
+Тогда коэффициенты связности, или Кристоффеля символы, однозначно выражаются через М. т.:
+
+\[
+\Gamma_{i j}^{k}=\frac{1}{2} g^{k l}\left(\frac{\partial g_{l j}}{\partial x^{j}}+\frac{\partial g_{l i}}{\partial x^{j}}-\frac{\partial g_{i j}}{\partial x^{l}}\right) \text {. }
+\]
+
+В окрестности любой точки $x_{0}$ можно ввести нормальные (римановы) координаты такие, что $\left.\Gamma_{i j}^{k}\right|_{x=x_{0}}=0$ или $\partial g_{i j} /\left.\partial x^{k}\right|_{x=x_{0}}=0$. Тогда в этой окрестности
+
+\[
+g_{i j}=\delta_{i j}-(1 / 3) R_{i j, k l} x^{k} x^{l}+\ldots .
+\]
+
+Коэффициенты $R_{i j, k l}$ характеризуют отличие М.т. от евклидова и являются компонентами кривизны тензора. Помимо внутренних характеристик многообразия М.т. задает скалярное произведение векторов $\xi=\left(\xi^{1}, \ldots, \xi^{n}\right)$ и $\eta=\left(\eta^{1}\right.$, ..., $\left.\eta^{n}\right)$, касательных к многообразию в данной точке:
+
+\[
+(\xi, \eta)=g_{i j} \xi^{i} \eta^{j}
+\]
+
+скалярное произведение не зависит от выбора системы координат.
+
+Понятие М. т. общеупотребительно при описании сплошной среды, при формулировке теории поля в криволинейных координатах, а особенно - в теории относительности и теории тяготения.
+
+Лит.: [1] Л анд а у Л. Д., Л и фш и « Е. М., Теория поля, 7 изд., М., 1988; [2] Р а ш в с к и й П. К., Риманова геометрия и тензорный анализ, 3 изд., М., 1967; [3] Фок В. А., Теория пространства, времени и тяготения, 2 изд., М., 1961; [4] Дубро в и н Б. А., Нов ик о в С. П., Фо м е н ко А. Т., Современная геометрия, 2 изд., М., 1986. В. П. Павлов.</text_orig>
+</article>

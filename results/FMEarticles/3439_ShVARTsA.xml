@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3439_ShVARTsA" alphabetic_pos="3441">
+  <title>ШВАРЦА ИНТЕГРАЛ</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>667</start>
+    <end>667</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б и цадзе А. В., Основы теории аналитических функций комплексного переменного, 2 изд., М., 1972; [2] Гахо в Ф.Д.. Краевые задачи, 3 изд., М., $1977 . \quad$</literature_orig>
+    <unit>
+      <author>Бицадзе А. В.</author>
+      <title>Основы теории аналитических функций комплексного переменного</title>
+      <publication>2 изд., М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Гахо в Ф.Д.. Краевые задачи</title>
+      <publication>3 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3439_1_ShVARTsA">\left.\begin{array}{rl}f(z) &amp; =S u(z)=\frac{1}{2 \pi i} \int_{C} u(t) \frac{t+z}{t-z} \frac{d t}{t}+i c= \\&amp; =\frac{1}{2 \pi} \int_{0}^{2 \pi} \frac{e^{i \varphi+r e}}{e^{i \varphi}-r e} u(\varphi) d \varphi+i c, \\&amp; f(z)=\frac{1}{2 \pi} \int_{C} v(t) \frac{t+z}{t-z} \frac{d t}{t}+c_{1}= \\&amp; =\frac{i}{2 \pi} \int_{0}^{2 \pi} \frac{e^{i \varphi_{+}} e^{i \theta}}{e^{i \varphi}-r e^{i \theta}} v(\varphi) d \varphi+c_{1},\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3439_2_ShVARTsA">\frac{1}{2 \pi} \cdot \frac{e^{i \varphi_{+}}+e^{i \theta}}{e^{i \varphi}-r e^{i \theta}}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_1_ShVARTsA">f(z)=u(z)+i v(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_2_ShVARTsA">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_3_ShVARTsA">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_4_ShVARTsA">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_5_ShVARTsA">c=\left\{z: z=e^{i \varphi}, 0&lt;\varphi&lt;2 \pi\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_6_ShVARTsA">u(\varphi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_7_ShVARTsA">f(z)=u(z)+i v(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_8_ShVARTsA">u(\varphi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_9_ShVARTsA">v(\varphi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_10_ShVARTsA">z=r e^{i \theta}, t=e^{i \varphi}, c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_11_ShVARTsA">c_{1}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_12_ShVARTsA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3439_13_ShVARTsA">(*),-</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/3439_1_ShVARTsA">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3439_2_ShVARTsA">
+      <rel_text>первой</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3439_3_ShVARTsA">
+      <rel_text>интегральный оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/1038_INTEGRAL'NYJ</target>
+    </relation>
+  </relations>
+  <text>зависящий от параметра интеграл, дающий решение задач и Ш ва рца о выражении аналитической функции $URI[[http://libmeta.ru/fme/formula/aux/3439_1_ShVARTsA]]/URI$ в круге $URI[[http://libmeta.ru/fme/formula/aux/3439_2_ShVARTsA]]/URI$ по граничным значениям ее действительной (или мнимой) части $URI[[http://libmeta.ru/fme/formula/aux/3439_3_ShVARTsA]]/URI$ на граничной окружности $URI[[http://libmeta.ru/fme/formula/aux/3439_4_ShVARTsA]]/URI$.
+
+Пусть на единичной окружности $URI[[http://libmeta.ru/fme/formula/aux/3439_5_ShVARTsA]]/URI$ дана непрерывная действительная функция $URI[[http://libmeta.ru/fme/formula/aux/3439_6_ShVARTsA]]/URI$. Тогда интегральны е формулы Ш варца, выражающие аналитич. функцию $URI[[http://libmeta.ru/fme/formula/aux/3439_7_ShVARTsA]]/URI$, граничные значения действительной части к-рой совпадают с $URI[[http://libmeta.ru/fme/formula/aux/3439_8_ShVARTsA]]/URI$ (или граничные значения мнимой части совпадают с $URI[[http://libmeta.ru/fme/formula/aux/3439_9_ShVARTsA]]/URI$ ), имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3439_1_ShVARTsA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3439_10_ShVARTsA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3439_11_ShVARTsA]]/URI$ произвольные действительные постоянные. Ш. и. (*) тесно связан с Пуассона интегралом. Выражение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3439_2_ShVARTsA]]/URI
+\]
+
+часто называется я д р о м Ш в а р ц а, а URI[[http://libmeta.ru/fme/relation/3439_3_ShVARTsA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3439_12_ShVARTsA]]/URI$, фигурирующий в URI[[http://libmeta.ru/fme/relation/3439_2_ShVARTsA]]/URI формуле $URI[[http://libmeta.ru/fme/formula/aux/3439_13_ShVARTsA]]/URI$ о пе ра то ром Ш в а ца. Эти понятия обобщаются и на URI[[http://libmeta.ru/fme/relation/3439_1_ShVARTsA]]/URI произвольного вида комплексной плоскости.</text>
+  <text_orig>зависяший от параметра интеграл, даюший решение задач и Ш ва рца о выражении аналитической функции $f(z)=u(z)+i v(z)$ в круге $D$ по граничным значениям ее действительной (или мнимой) части $u$ на граничной окружности $C$.
+
+Пусть на единичной окружности $C=\left\{z: z=e^{i \varphi}, 0&lt;\varphi&lt;2 \pi\right\}$ дана непрерывная действительная функция $u(\varphi)$. Тогда интегральны е формулы Ш варца, выражающие аналитич. функцию $f(z)=u(z)+i v(z)$, граничные значения действительной части к-рой совпадают с $u(\varphi)$ (или граничные значения мнимой части совпадают с $v(\varphi)$ ), имеют вид:
+
+\[
+\left.\begin{array}{rl}
+f(z) &amp; =S u(z)=\frac{1}{2 \pi i} \int_{C} u(t) \frac{t+z}{t-z} \frac{d t}{t}+i c= \\
+&amp; =\frac{1}{2 \pi} \int_{0}^{2 \pi} \frac{e^{i \varphi+r e}}{e^{i \varphi}-r e} u(\varphi) d \varphi+i c, \\
+&amp; f(z)=\frac{1}{2 \pi} \int_{C} v(t) \frac{t+z}{t-z} \frac{d t}{t}+c_{1}= \\
+&amp; =\frac{i}{2 \pi} \int_{0}^{2 \pi} \frac{e^{i \varphi_{+}} e^{i \theta}}{e^{i \varphi}-r e^{i \theta}} v(\varphi) d \varphi+c_{1},
+\end{array}\right\}
+\]
+
+где $z=r e^{i \theta}, t=e^{i \varphi}, c$ и $c_{1}-$ произвольные действительные постоянные. Ш. и. (*) тесно связан с Пуассона интегралом. Выражение
+
+\[
+\frac{1}{2 \pi} \cdot \frac{e^{i \varphi_{+}}+e^{i \theta}}{e^{i \varphi}-r e^{i \theta}}
+\]
+
+часто называется я д р о м Ш в а р ц а, а интегральный оператор $S$, фигурирующий в первой формуле $(*),-$ о пе ра то ром Ш в а ца. Эти понятия обобщаются и на области произвольного вида комплексной плоскости.
+
+Лum.: [1] Б и цадзе А. В., Основы теории аналитических функций комплексного переменного, 2 изд., М., 1972; [2] Гахо в Ф.Д.. Краевые задачи, 3 изд., М., $1977 . \quad$ Е. Д. Соломенцев.</text_orig>
+</article>

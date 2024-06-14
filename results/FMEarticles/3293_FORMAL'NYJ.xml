@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3293_FORMAL'NYJ" alphabetic_pos="3295">
+  <title>ФОРМАЛЬНЫЙ РЯД (СТЕПЕННОЙ) ОТ ПЕРЕМЕННЫХ $x_{1}, \ldots$, $x_{n}$ НАД ПОЛЕМ $P$</title>
+  <authors/>
+  <pages>
+    <start>642</start>
+    <end>642</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Би ркгоф Дж. Д., Динамические системы, пер. с англ., М.-Л., 1941.</literature_orig>
+    <unit>
+      <author>Биркгоф Дж. Д.</author>
+      <title>Динамические системы</title>
+      <publication>пер. с англ., М.-Л.</publication>
+      <year>1941</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3293_1_FORMAL'NYJ">F\left(x_{1}, \ldots, x_{n}\right)=\sum_{k=0}^{\infty} F_{k}\left(x_{1}, \ldots, x_{n}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3293_1_FORMAL'NYJ">f_{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3293_2_FORMAL'NYJ">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3293_3_FORMAL'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3293_4_FORMAL'NYJ">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3293_5_FORMAL'NYJ">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3293_6_FORMAL'NYJ">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3293_7_FORMAL'NYJ">x_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3293_8_FORMAL'NYJ">x_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3293_9_FORMAL'NYJ">z_{j}</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/3293_1_FORMAL'NYJ">
+      <rel_text>возмущений теории</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3293_2_FORMAL'NYJ">
+      <rel_text>широко</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3293_3_FORMAL'NYJ">
+      <rel_text>параметрам</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3293_4_FORMAL'NYJ">
+      <rel_text>определении операций</rel_text>
+      <target>http://libmeta.ru/fme/article/2564_RASShIRENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3293_5_FORMAL'NYJ">
+      <rel_text>параметров</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3293_6_FORMAL'NYJ">
+      <rel_text>функциями</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+  </relations>
+  <text>алгебраическое выражение вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3293_1_FORMAL'NYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3293_1_FORMAL'NYJ]]/URI$ форма от $URI[[http://libmeta.ru/fme/formula/aux/3293_2_FORMAL'NYJ]]/URI$ степени $URI[[http://libmeta.ru/fme/formula/aux/3293_3_FORMAL'NYJ]]/URI$ с коэффициентами из $URI[[http://libmeta.ru/fme/formula/aux/3293_4_FORMAL'NYJ]]/URI$. Обычно $URI[[http://libmeta.ru/fme/formula/aux/3293_5_FORMAL'NYJ]]/URI$ - поле действительных или комплексных чисел. Коэффициенты могут быть URI[[http://libmeta.ru/fme/relation/3293_6_FORMAL'NYJ]]/URI нек-рых URI[[http://libmeta.ru/fme/relation/3293_5_FORMAL'NYJ]]/URI. При естественном URI[[http://libmeta.ru/fme/relation/3293_4_FORMAL'NYJ]]/URI сложения и умножения Ф. р. образуют коммутативное кольцо с единицей. По обычным правилам вводятся производные $URI[[http://libmeta.ru/fme/formula/aux/3293_6_FORMAL'NYJ]]/URI$. р. по переменным $URI[[http://libmeta.ru/fme/formula/aux/3293_7_FORMAL'NYJ]]/URI$ или по URI[[http://libmeta.ru/fme/relation/3293_3_FORMAL'NYJ]]/URI. Можно определить также композицию Ф. р., считая $URI[[http://libmeta.ru/fme/formula/aux/3293_8_FORMAL'NYJ]]/URI$ Ф. р. от новых переменных $URI[[http://libmeta.ru/fme/formula/aux/3293_9_FORMAL'NYJ]]/URI$. Ф. р. URI[[http://libmeta.ru/fme/relation/3293_2_FORMAL'NYJ]]/URI используются в URI[[http://libmeta.ru/fme/relation/3293_1_FORMAL'NYJ]]/URI.</text>
+  <text_orig>алгебраическое выражение вида
+
+\[
+F\left(x_{1}, \ldots, x_{n}\right)=\sum_{k=0}^{\infty} F_{k}\left(x_{1}, \ldots, x_{n}\right)
+\]
+
+где $F_{k}-$ форма от $x_{1}, \ldots, x_{n}$ степени $k$ с коэффициентами из $P$. Обычно $P$ - поле действительных или комплексных чисел. Коэффициенты могут быть функциями нек-рых параметров. При естественном определении операций сложения и умножения Ф. р. образуют коммутативное кольцо с единицей. По обычным правилам вводятся производные $\Phi$. р. по переменным $x_{i}$ или по параметрам. Можно определить также композицию Ф. р., считая $x_{i}$ Ф. р. от новых переменных $z_{j}$. Ф. р. широко используются в возмуцений теории.
+
+Лит.: [1] Би ркгоф Дж. Д., Динамические системы, пер. с англ., М.-Л., 1941.</text_orig>
+</article>

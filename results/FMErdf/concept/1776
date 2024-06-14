@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_259_BOL'TsMANA-ENSKOGA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_259_BOL'TsMANA-ENSKOGA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1776</core:url>
+    <lbm:descriptor><![CDATA[БОЛЬЦМАНА-ЭНСКОГА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2445"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#13331"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#13332"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13333"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13334"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13335"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9872"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_218"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13336"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12018"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13337"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_729"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1230_KINETIChESKOE">кинетическое уравнение</a> для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_491_VYChET">одночастичной функции</a> распределения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13335">$$f(t, x), x \equiv(q, p)$$</a>, системы упругих шаров вида (при $URI[[http://libmeta.ru/fme/formula/aux/259_2_BOL'TsMANA-ENSKOGA]]/URI$ ):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13333">$$\begin{gathered}\frac{\partial}{\partial t} F(t, x)=-p \frac{\partial}{\partial q} F(t, x)+ \\+\sigma^{2} \int_{\left(p-p_{1}\right) n \geqslant 0} d n d p_{1}\left(p-p_{1}\right) n\left\{F\left(t, q, p-n\left(n\left(p-p_{1}\right)\right)\right) \times\right. \\\left.\times F\left(t, q+\sigma n, p_{1}+n\left(n\left(p-p_{1}\right)\right)\right)-F(t, q, p) F\left(t, q-\sigma n, p_{1}\right)\right\},\end{gathered}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/259_3_BOL'TsMANA-ENSKOGA]]/URI$ - диаметр <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1728_MASS">масса</a> принята равной единице, $URI[[http://libmeta.ru/fme/formula/aux/259_4_BOL'TsMANA-ENSKOGA]]/URI$ - элемент телесного угла, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12018">$$n \in \mathbb{R}^{3}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_923_EDINIChNYJ">единичный вектор</a>.<BR/></P><P>Б.- Э.у. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладает</a> «микроскопическим» решением (cm. <a href="/object/show?uri=http://libmeta.ru/io/Publication#13331">[1]</a>):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13334">$$F(t, x)=\sum_{i=1}^{N} \delta\left(q-q_{i}(t)\right) \delta\left(p-p_{i}(t)\right),$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13337">$$\left\{q_{i}(t), p_{i}(t)\right\}$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3238_FAZOVAJa">фазовая траектория</a> $URI[[http://libmeta.ru/fme/formula/aux/259_7_BOL'TsMANA-ENSKOGA]]/URI$-й <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частицы</a> системы $URI[[http://libmeta.ru/fme/formula/aux/259_8_BOL'TsMANA-ENSKOGA]]/URI$ упругих шаров. Обобщенное <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_254_BOL'TsMANA">Больцмана уравнение</a>, построенное Н. Н. Боголюбовым (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#13332">[2]</a>) для системы упругих шаров, совпадает с Б.- Э. у.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#13331">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#13331">«теоретич. и математич. физика», 1975, т. 24, № 2, с. 242-47</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#13332">[2]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#13332">е го же, Проблемы динамической теории в статистической физике, М.--Л., 1946</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2445">В. И. Герасименко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[кИНетическое уравнение для одночастичной функции распределения $F(t, x), x \equiv(q, p)$, системы упругих шаров вида (при $t \geqslant 0$ ):
+
+\[
+\begin{gathered}
+\frac{\partial}{\partial t} F(t, x)=-p \frac{\partial}{\partial q} F(t, x)+ \\
++\sigma^{2} \int_{\left(p-p_{1}\right) n \geqslant 0} d n d p_{1}\left(p-p_{1}\right) n\left\{F\left(t, q, p-n\left(n\left(p-p_{1}\right)\right)\right) \times\right. \\
+\left.\times F\left(t, q+\sigma n, p_{1}+n\left(n\left(p-p_{1}\right)\right)\right)-F(t, q, p) F\left(t, q-\sigma n, p_{1}\right)\right\},
+\end{gathered}
+\]
+
+где $\sigma$ - диаметр частиц, масса принята равной единице, $d n$ - элемент телесного угла, $n \in \mathbb{R}^{3}-$ единичный вектор.
+
+Б.- Э.у. обладает «микроскопическим» решением (cM. [1]):
+
+\[
+F(t, x)=\sum_{i=1}^{N} \delta\left(q-q_{i}(t)\right) \delta\left(p-p_{i}(t)\right),
+\]
+
+где $\left\{q_{i}(t), p_{i}(t)\right\}$ - фазовая траектория $i$-й частицы системы $N$ упругих шаров. Обобщенное Больцмана уравнение, построенное Н. Н. Боголюбовым (см. [2]) для системы упругих шаров, совпадает с Б.- Э. у.
+
+Лит.: [1] Б о гол ю бо в Н. Н., «Теоретич. и математич. физика», 1975, т. 24, № 2, с. 242-47; [2] е го же, Проблемы динамической теории в статистической физике, М.--Л., 1946
+
+В. И. Герасименко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_254_BOL'TsMANA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3238_FAZOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_923_EDINIChNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1728_MASS"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_491_VYChET"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1230_KINETIChESKOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

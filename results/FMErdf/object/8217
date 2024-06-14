@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_8217">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mi>T</mi><mrow><mi>v</mi></mrow><mrow><mi>&#x003BC;</mi></mrow></msubsup><mo>&#x0003D;</mo><msubsup><mi>&#x003B4;</mi><mrow><mi>v</mi></mrow><mrow><mi>&#x003BC;</mi></mrow></msubsup><mi>L</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>L</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo></mrow><mrow><mo>&#x02202;</mo><msup><mi>&#x003C6;</mi><mrow><mi>a</mi></mrow></msup></mrow></mfrac><msubsup><mi>&#x003C6;</mi><mrow><mi>v</mi></mrow><mrow><mi>a</mi></mrow></msubsup></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$T_{v}^{\mu}=\delta_{v}^{\mu} L(x)-\frac{\partial L(x)}{\partial \varphi^{a}} \varphi_{v}^{a}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

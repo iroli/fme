@@ -1,0 +1,577 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1674_MAGNITNOJ" alphabetic_pos="1676">
+  <title>МАГНИТНОЙ ГИДРОДИНАМИКИ УРАВНЕНИЯ</title>
+  <authors>
+    <author>В. П. Демуцкий</author>
+    <author>Р. В. Половин</author>
+  </authors>
+  <pages>
+    <start>335</start>
+    <end>337</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Альфвен Г., Фельтхам мар К. Г., Космическая электродинамика, пер. с англ., 2 изд., М., 1967; [2] Ку ли ко в -с к и й А. Г., Л ю б и м о в Г.А., Магнитная гидродинамика, М., 1962; [3] Л а нда у Л. Д., Л и фш и ц Е. М., Электродинамика сплошных сред, М., 1982; [4] Поло в и н Р. В., Дем мшки й В. П., Основы магнитной гидродинамики, М., 1987.</literature_orig>
+    <unit>
+      <author>Альфвен Г.</author>
+      <author>Фельтхаммар К. Г.</author>
+      <title>Космическая электродинамика</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Куликов-ский А. Г.</author>
+      <author>Любимов Г. А.</author>
+      <title>Магнитная гидродинамика</title>
+      <publication>М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Электродинамика сплошных сред</title>
+      <publication>М.</publication>
+      <year>1982</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Половин Р. В.</author>
+      <author>Деммшкий В. П.</author>
+      <title>Основы магнитной гидродинамики</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_1_MAGNITNOJ">n_{\alpha}(r, t)=\int f_{\alpha}(v, r, t) d v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_2_MAGNITNOJ">v_{\alpha}(r, t)=\frac{1}{n_{\alpha}} \int v f_{\alpha}(v, r, t) d v .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_3_MAGNITNOJ">\frac{\partial \rho}{\partial t}+\operatorname{div} \rho v=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_4_MAGNITNOJ">\rho \frac{d \boldsymbol{v}}{d t}=-\nabla p+\frac{1}{4 \pi} \operatorname{rot}[\boldsymbol{B} \times \boldsymbol{B}]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_5_MAGNITNOJ">\frac{\partial \boldsymbol{B}}{\partial t}=\operatorname{rot}[\boldsymbol{v} \times \boldsymbol{B}]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_6_MAGNITNOJ">\operatorname{div} \boldsymbol{B}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_7_MAGNITNOJ">\frac{\partial s}{\partial t}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_8_MAGNITNOJ">\begin{gathered}\boldsymbol{E}=-\frac{1}{c} \boldsymbol{v} \times \boldsymbol{B}, \\\boldsymbol{j}=\frac{c}{4 \pi} \operatorname{rot} \boldsymbol{B}, \\\rho_{e}=\frac{1}{4 \pi} \operatorname{div} \boldsymbol{E} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_9_MAGNITNOJ">V_{A}=\frac{B}{\sqrt{4 \pi \rho}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_10_MAGNITNOJ">\rho \frac{d v}{d t}=-\nabla p+\frac{1}{4 \pi} \operatorname{rot}[\boldsymbol{B} \times \boldsymbol{B}]+\eta \Delta v .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_11_MAGNITNOJ">\frac{\partial \boldsymbol{B}}{\partial t}=\operatorname{rot}[\boldsymbol{v} \times \boldsymbol{B}]+v_{m} \Delta \boldsymbol{B} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_12_MAGNITNOJ">v_{m}=\frac{c^{2}}{4 \pi \sigma}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_13_MAGNITNOJ">\frac{d s}{d t}=\frac{1}{\rho T}\left\{2 \eta\left[v_{i j}^{(d)}\right]^{2}+\operatorname{div}(x \nabla T)+v_{m} \frac{(\operatorname{rot} B)^{2}}{4 \pi}\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_14_MAGNITNOJ">\begin{aligned}&amp; v_{i j}^{(d)}=v_{i j}-\frac{1}{3} v_{l l} \delta_{i j}, \\&amp; v_{i j}=\frac{1}{2}\left(\frac{\partial v_{i}}{\partial x_{j}}+\frac{\partial v_{j}}{\partial x_{i}}\right),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_15_MAGNITNOJ">\frac{\partial i}{\partial t}(\rho s)=\frac{j_{k}^{2}}{\sigma T}+\frac{x}{T^{2}}\left(\frac{\partial T}{\partial x_{k}}\right)^{2}+\frac{2 \eta}{T}\left[v_{l k}^{(d)}\right]^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_16_MAGNITNOJ">\operatorname{Re}=\frac{L v}{v} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_17_MAGNITNOJ">\operatorname{Re}_{m}=\frac{L v}{v_{m}} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_18_MAGNITNOJ">\mathrm{Pe}=\frac{L v}{\chi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_19_MAGNITNOJ">p(x, y, z)=\text { const, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_20_MAGNITNOJ">\frac{\partial^{2} \psi}{\partial r^{2}}-\frac{1}{r} \frac{\partial \psi}{\partial r}+\frac{\partial^{2} \psi}{\partial z^{2}}+16 \pi^{3} r^{2} \frac{d p}{d \psi}+\frac{8 \pi^{2}}{c^{2}} \frac{d\left(I^{2}\right)}{d \psi}=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_21_MAGNITNOJ">\psi(r, z)=\int_{0}^{r} B(z, \rho) 2 \pi \rho d \rho,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_22_MAGNITNOJ">I(r, z)=\int_{0}^{r} j_{z}(\rho, z) 2 \pi \rho d \rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_23_MAGNITNOJ">B_{z}=\frac{1}{2 \pi r} \frac{\partial \psi}{\partial r} ; \quad B_{r}=\frac{1}{2 \pi r} \frac{\partial \psi}{\partial z} ; \quad B_{\vartheta}=\frac{2 I}{c r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_24_MAGNITNOJ">v_{z}(x)=-\frac{l^{2}}{\eta H a \operatorname{sh} H a} \frac{\partial p}{\partial z}\left(\operatorname{ch} H a-\operatorname{ch} \frac{H a \cdot x}{l}\right), \quad v_{x}=v_{y}=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_25_MAGNITNOJ">A \rightleftarrows A+S ; \quad A \rightleftarrows F+S ; \quad F \rightleftarrows F+S ; \quad F \rightleftarrows A+S .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_26_MAGNITNOJ">\sigma^{(T)}=3 c^{2} /\left(4 \pi \tau_{c}\left\langle\tilde{y}^{2}\right\rangle\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_27_MAGNITNOJ">\frac{\partial\langle\boldsymbol{B}\rangle}{\partial t}=\alpha \operatorname{rot}\langle\boldsymbol{B}\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1674_28_MAGNITNOJ">\alpha=-\frac{1}{3}\langle\tilde{v}(t) \operatorname{rot} \tilde{v}(t)\rangle \tau_{c}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_1_MAGNITNOJ">f_{\alpha}(\boldsymbol{v}, \boldsymbol{r}, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_2_MAGNITNOJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_3_MAGNITNOJ">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_4_MAGNITNOJ">v, \omega \ll v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_5_MAGNITNOJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_6_MAGNITNOJ">\mathrm{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_7_MAGNITNOJ">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_8_MAGNITNOJ">v_{e i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_9_MAGNITNOJ">p_{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_10_MAGNITNOJ">p_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_11_MAGNITNOJ">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_12_MAGNITNOJ">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_13_MAGNITNOJ">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_14_MAGNITNOJ">\boldsymbol{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_15_MAGNITNOJ">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_16_MAGNITNOJ">\boldsymbol{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_17_MAGNITNOJ">\boldsymbol{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_18_MAGNITNOJ">\rho_{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_19_MAGNITNOJ">\boldsymbol{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_20_MAGNITNOJ">\boldsymbol{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_21_MAGNITNOJ">p(r, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_22_MAGNITNOJ">\boldsymbol{v}(\boldsymbol{r}, t), \boldsymbol{B}(\boldsymbol{r}, t), s(\boldsymbol{r}, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_23_MAGNITNOJ">\rho(r, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_24_MAGNITNOJ">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_25_MAGNITNOJ">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_26_MAGNITNOJ">\boldsymbol{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_27_MAGNITNOJ">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_28_MAGNITNOJ">v_{a n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_29_MAGNITNOJ">\boldsymbol{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_30_MAGNITNOJ">b^{2} / 8 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_31_MAGNITNOJ">\eta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_32_MAGNITNOJ">\eta=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_33_MAGNITNOJ">v_{m}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_34_MAGNITNOJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_35_MAGNITNOJ">v_{i j}^{(d)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_36_MAGNITNOJ">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_37_MAGNITNOJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_38_MAGNITNOJ">l-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_39_MAGNITNOJ">v-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_40_MAGNITNOJ">v=(\eta / \rho)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_41_MAGNITNOJ">\chi=\frac{\chi}{\rho c_{p}} \quad</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_42_MAGNITNOJ">c_{p}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_43_MAGNITNOJ">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_44_MAGNITNOJ">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_45_MAGNITNOJ">\vartheta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_46_MAGNITNOJ">b_{\vartheta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_47_MAGNITNOJ">b_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_48_MAGNITNOJ">b_{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_49_MAGNITNOJ">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_50_MAGNITNOJ">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_51_MAGNITNOJ">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_52_MAGNITNOJ">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_53_MAGNITNOJ">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_54_MAGNITNOJ">\psi(r, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_55_MAGNITNOJ">i(r, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_56_MAGNITNOJ">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_57_MAGNITNOJ">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_58_MAGNITNOJ">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_59_MAGNITNOJ">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_60_MAGNITNOJ">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_61_MAGNITNOJ">x= \pm l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_62_MAGNITNOJ">h a=l V_{A} / \sqrt{v v_{m}}, \frac{\partial p}{\partial z}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_63_MAGNITNOJ">\beta \equiv \frac{8 \pi p}{B^{2}} \ll 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_64_MAGNITNOJ">a, F, S</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_65_MAGNITNOJ">c-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_66_MAGNITNOJ">\left\langle\widetilde{v}^{2}\right\rangle-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_67_MAGNITNOJ">\tau_{c}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1674_68_MAGNITNOJ">\alpha</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/1674_1_MAGNITNOJ">
+      <rel_text>турбулентностью</rel_text>
+      <target>http://libmeta.ru/fme/article/3139_TURBULENTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1674_2_MAGNITNOJ">
+      <rel_text>полоидального магнитного</rel_text>
+      <target>http://libmeta.ru/fme/article/2302_POLOIDAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1674_3_MAGNITNOJ">
+      <rel_text>скоростью</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1674_4_MAGNITNOJ">
+      <rel_text>гидромагнитного динамо</rel_text>
+      <target>http://libmeta.ru/fme/article/619_GIDROMAGNITNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1674_5_MAGNITNOJ">
+      <rel_text>механизм</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1674_6_MAGNITNOJ">
+      <rel_text>Гидромагнитное динамо</rel_text>
+      <target>http://libmeta.ru/fme/article/619_GIDROMAGNITNOE</target>
+    </relation>
+  </relations>
+  <text>Уравнения движения электропроводной жидкости или ионизованного газа (плазмы) в магнитном поле. При этом индуцируется электрич. поле и возникает электрич. ток. В свою очередь, взаимодействие тока с магнитным полем вызывает изменение движения жидкости и изменение магнитного поля. Магнитная гидродинамика в широком смысле - это раздел механики сплошных сред, изучающий движение электропроводных газов и жидкостей при наличии магнитного поля. При этом состояние среды характеризуется функциями распределения по скоростям $URI[[http://libmeta.ru/fme/formula/aux/1674_1_MAGNITNOJ]]/URI$ для каждого сорта частиц $URI[[http://libmeta.ru/fme/formula/aux/1674_2_MAGNITNOJ]]/URI$, а также значениями электрич. и магнитного полей во всех точках пространства и в каждый момент времени. Если характерная для рассматриваемых процессов частота $URI[[http://libmeta.ru/fme/formula/aux/1674_3_MAGNITNOJ]]/URI$ значительно меньше частоты столкновений отдельных частиц $URI[[http://libmeta.ru/fme/formula/aux/1674_4_MAGNITNOJ]]/URI$, то каждый сорт частиц описывают гидродинамически. При этом состояние частиц сорта $URI[[http://libmeta.ru/fme/formula/aux/1674_5_MAGNITNOJ]]/URI$ описывается плотностью
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_1_MAGNITNOJ]]/URI
+\]
+
+и средней скоростью
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_2_MAGNITNOJ]]/URI
+\]
+
+Это - м ного ж ид к о с т а я магнитная гидродинамика. В частности, полностью ионизованной плазме, состоящей из электронов и одного сорта ионов, соответствует д в у $URI[[http://libmeta.ru/fme/formula/aux/1674_6_MAGNITNOJ]]/URI$ ж и д к о с т н а я магнитная гидродинамика.
+
+Если характерная частота $URI[[http://libmeta.ru/fme/formula/aux/1674_7_MAGNITNOJ]]/URI$ значительно меньше частоты обмена энергией между электроном и ионом $URI[[http://libmeta.ru/fme/formula/aux/1674_8_MAGNITNOJ]]/URI$, то давления электронов $URI[[http://libmeta.ru/fme/formula/aux/1674_9_MAGNITNOJ]]/URI$ и ионов $URI[[http://libmeta.ru/fme/formula/aux/1674_10_MAGNITNOJ]]/URI$ успевают выровняться и плазма характеризуется единым давлением $URI[[http://libmeta.ru/fme/formula/aux/1674_11_MAGNITNOJ]]/URI$. Из-за того, что электрон значительно легче иона, плотность массы $URI[[http://libmeta.ru/fme/formula/aux/1674_12_MAGNITNOJ]]/URI$ и скорость среды $URI[[http://libmeta.ru/fme/formula/aux/1674_13_MAGNITNOJ]]/URI$ определяются ионами, а плотность тока $URI[[http://libmeta.ru/fme/formula/aux/1674_14_MAGNITNOJ]]/URI$ - электронами. Такую плазму, рассматриваемую как единое целое, называют п р о с т о й. Однако уравнения движения простой плазмы, дополненные уравнениями Максвелла, все еще слишком сложны. Решающий шаг в их упрощении был сделан Г. Альфвеном (h. Alfven,-1942). Он показал, что при медленных движениях имеет место закон вмороженности магнитного поля в плазму - магнитные силовые линии перемещаются вместе с элементами объема плазмы. Это позволило создать сравнительно простую модель магнитную гидродинамику в узком смысле, и аналитически решить целый ряд астрофизич. задач.
+
+Система М. г. У. в узком смысле имеет вид (среда полагается идеальной, то есть бездиссипативной):
+
+закон сохранения массы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_3_MAGNITNOJ]]/URI
+\]
+
+закон сохранения импульса
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_4_MAGNITNOJ]]/URI
+\]
+
+закон вмороженности магнитного поля
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_5_MAGNITNOJ]]/URI
+\]
+
+закон отсутствия магнитных зарядов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_6_MAGNITNOJ]]/URI
+\]
+
+и закон сохранения энтропии
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_7_MAGNITNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1674_15_MAGNITNOJ]]/URI$ - удельная энтропия. Из электродинамич. величин электрич. и магнитного полей $URI[[http://libmeta.ru/fme/formula/aux/1674_16_MAGNITNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1674_17_MAGNITNOJ]]/URI$, плотностей заряда $URI[[http://libmeta.ru/fme/formula/aux/1674_18_MAGNITNOJ]]/URI$ и тока $URI[[http://libmeta.ru/fme/formula/aux/1674_19_MAGNITNOJ]]/URI$ в М. г.у. входит только $URI[[http://libmeta.ru/fme/formula/aux/1674_20_MAGNITNOJ]]/URI$. Поэтому в магнитной гидродинамике в узком смысле состояние среды характеризуется восемью функциями координат и времени: $URI[[http://libmeta.ru/fme/formula/aux/1674_21_MAGNITNOJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1674_22_MAGNITNOJ]]/URI$. Входящая в уравнения массовая плотность среды $URI[[http://libmeta.ru/fme/formula/aux/1674_23_MAGNITNOJ]]/URI$ выражается через $URI[[http://libmeta.ru/fme/formula/aux/1674_24_MAGNITNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1674_25_MAGNITNOJ]]/URI$ с помощью термодинамич. уравнения состояния. Остальные электродинамич. величины выражаются через $URI[[http://libmeta.ru/fme/formula/aux/1674_26_MAGNITNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1674_27_MAGNITNOJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_8_MAGNITNOJ]]/URI
+\]
+
+Соотношение (6) означает, что в системе отсчета, движущейся вместе с плазмой, электрич. поле равно нулю. Это объясняется тем, что электроны, обладая очень малой массой, экранируют электрич. поле. Равенства (7), (8) являются уравнениями Максвелла [при этом в (7) опущен ток смещения].
+
+Таким образом, в магнитной гидродинамике изменяются привычные связи между различными электрич. величинами. Так, в электротехнике ток определяется в основном электрич. полем (закон Ома), а магнитное поле приводит лишь к малым поправкам. Напротив, в магнитной гидродинамике ток определяется магнитным полем.
+
+В магнитной гидродинамике возникают специфич. поперечные волны, называемые ал ь ф в е н о в с к и м и, фазовая скорость к-рых равна $URI[[http://libmeta.ru/fme/formula/aux/1674_28_MAGNITNOJ]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_9_MAGNITNOJ]]/URI
+\]
+
+a $URI[[http://libmeta.ru/fme/formula/aux/1674_29_MAGNITNOJ]]/URI$ - единичный вектор в направлении распространения волны. Кроме того, звуковые волны модифицируются благодаря наличию магнитного давления $URI[[http://libmeta.ru/fme/formula/aux/1674_30_MAGNITNOJ]]/URI$ (м а г н и тоз в уко в ы е вол ны). Соотношение (7) справедливо, если скорость среды, альфвеновская скорость и скорость звука являются нерелятивистскими.
+
+Из приведенных уравнений вытекает целый ряд физич. выводов и инженерных приложений. Прежде всего, из уравнения (6) следует, что энергия электрич. поля в нерелятивистском случае значительно меньше энергии магнитного
+
+336 Магнитной поля. Из этого уравнения видно также, что движение проводящей среды поперек магнитного поля создает разность электрич. потенциалов. Этот эффект используется для создания магнитогидродинамич. генераторов электроэнергии, в к-рых осуществляется прямой переход тепловой энергии в электрическую. Такие генераторы обладают более высоким коэффициентом полезного действия. Другим приложением соотношения (6) являются магнитогидродинамич. измерители скорости и расходомеры. Из (6) следует также, что плазма, помещенная в скрещенные электрич. и магнитное поля, приходит в движение. Такое движение, перпендикулярное электрич. и магнитному полям, называют д р е й фо в ым, а его скорость - д р е йфо вой скоростью. Этот эффект используют для создания магнитогидродинамич. двигателей для ракет. При этом могут быть достигнуты скорости истечения реактивной струи, значительно превышающие ее скорости в тепловых ракетных двигателях. Движение электропроводной жидкости в скрещенных электрич. и магнитных полях используют также для создания магнитогидродинамич. насосов кондукционного типа. Закон вмороженности используется для магнитного удержания горячей плазмы без соприкосновения с твердыми стенками. Благодаря закону вмороженности движущееся магнитное поле увлекает за собой электропроводящую жидкость (магнитогидродинамич. насосы индукционного типа).
+
+М. г.у. с диссипацией. Вследствие столкновений отдельных частиц возникают диссипативные эффекты. При этом в М. г. у. идеальной среды (1)-(5) возникают, вообще говоря, дополнительные члены. В законе сохранения массы (1) диссипативные члены описывают химич. реакции, к-рые приводят к изменению массы данного вещества. Если такие реакции отсутствуют, то закон сохранения массы (1) остается неизменным. В законе сохранения импульса (2) возникают члены, описывающие эффект вязкости:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_10_MAGNITNOJ]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1674_31_MAGNITNOJ]]/URI$ - коэффициент сдвиговой вязкости (мы полагаем $URI[[http://libmeta.ru/fme/formula/aux/1674_32_MAGNITNOJ]]/URI$ const и объемной вязкостью пренебрегаем). Дополнительный член в законе вмороженности (3) описывает диффузию магнитного поля:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_11_MAGNITNOJ]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1674_33_MAGNITNOJ]]/URI$ «магнитная вязкость», равная
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_12_MAGNITNOJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1674_34_MAGNITNOJ]]/URI$ - коэффициент электропроводности, к-рый полагается постоянным. Закон отсутствия магнитных зарядов (4) не изменяется при учете диссипации. Что же касается уравнения (5), то оно принимает вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_13_MAGNITNOJ]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1674_35_MAGNITNOJ]]/URI$ - девиатор тензора скоростей деформации, $URI[[http://libmeta.ru/fme/formula/aux/1674_36_MAGNITNOJ]]/URI$ температура,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_14_MAGNITNOJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1674_37_MAGNITNOJ]]/URI$ - коэффициент теплопроводности. Производство энтропии в единичном объеме равно:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_15_MAGNITNOJ]]/URI
+\]
+
+эта величина всегда неотрицательна.
+
+Вязкостью можно пренебречь при больших числах Рейнольдса
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_16_MAGNITNOJ]]/URI
+\] Здесь $URI[[http://libmeta.ru/fme/formula/aux/1674_38_MAGNITNOJ]]/URI$ характерный размер, $URI[[http://libmeta.ru/fme/formula/aux/1674_39_MAGNITNOJ]]/URI$ характерная скорость, $URI[[http://libmeta.ru/fme/formula/aux/1674_40_MAGNITNOJ]]/URI$ кинематич. вязкость. Диффузией магнитного поля можно пренебречь, если велико магнитное число Рейнольдса:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_17_MAGNITNOJ]]/URI
+\]
+
+Наконец, теплопроводностью можно пренебречь, если велико число Пекле:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_18_MAGNITNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1674_41_MAGNITNOJ]]/URI$ коэффициент температуропроводности, $URI[[http://libmeta.ru/fme/formula/aux/1674_42_MAGNITNOJ]]/URI$ удельная теплоемкость при постоянном давлении.
+
+Равновесные конфигурации. Такие конфигурации (м а г н и т ны е ло в уш к и) представляют интерес для осуществления управляемых термоядерных реакций. При этом магнитные силовые линии целиком лежат на поверхностях
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_19_MAGNITNOJ]]/URI
+\]
+
+называемых поэтому магнитными поверхностям и. Простейшая равновесная конфигурация аксиально симметрична. В этом случае величины в М.г.у. зависят только от двух цилиндрич. координат $URI[[http://libmeta.ru/fme/formula/aux/1674_43_MAGNITNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1674_44_MAGNITNOJ]]/URI$ и не зависят от азимута $URI[[http://libmeta.ru/fme/formula/aux/1674_45_MAGNITNOJ]]/URI$. Аксиально симметричное магнитное поле называется то ро и даль ны м, если отлична от нуля только его азимутальная компонента $URI[[http://libmeta.ru/fme/formula/aux/1674_46_MAGNITNOJ]]/URI$. Если же отличны от нуля только компоненты $URI[[http://libmeta.ru/fme/formula/aux/1674_47_MAGNITNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1674_48_MAGNITNOJ]]/URI$, то поле называется полои да л ьны м. Аксиально-симметричные равновесные конфигурации описываются уравне н и м Грэда-Шафра но в а
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_20_MAGNITNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1674_49_MAGNITNOJ]]/URI$ - магнитный поток через круг радиусом $URI[[http://libmeta.ru/fme/formula/aux/1674_50_MAGNITNOJ]]/URI$, находящийся на высоте $URI[[http://libmeta.ru/fme/formula/aux/1674_51_MAGNITNOJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_21_MAGNITNOJ]]/URI
+\]
+
+и $URI[[http://libmeta.ru/fme/formula/aux/1674_52_MAGNITNOJ]]/URI$ - ток, протекающий через тот же круг
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_22_MAGNITNOJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1674_53_MAGNITNOJ]]/URI$ - скорость света.
+
+Функции $URI[[http://libmeta.ru/fme/formula/aux/1674_54_MAGNITNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1674_55_MAGNITNOJ]]/URI$ определяют магнитное поле:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_23_MAGNITNOJ]]/URI
+\]
+
+и плотность тока $URI[[http://libmeta.ru/fme/formula/aux/1674_56_MAGNITNOJ]]/URI$ согласно уравнению (7). Величины $URI[[http://libmeta.ru/fme/formula/aux/1674_57_MAGNITNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1674_58_MAGNITNOJ]]/URI$ постоянны на магнитных поверхностях. Задавая $URI[[http://libmeta.ru/fme/formula/aux/1674_59_MAGNITNOJ]]/URI$ как функцию от $URI[[http://libmeta.ru/fme/formula/aux/1674_60_MAGNITNOJ]]/URI$, можно получить много простых аналитич. решений уравнения (9), что позволяет исследовать широкий класс равновесных плазменных конфигураций. Особую роль для управляемых термоядерных реакций играют за м кнутые магнитные ловушки, то есть конфигурации, топологически эквивалентные тору. Если плазма удерживается внешним магнитным полем, то тороидальную ловушку называют с те л л а р а т о ро м. Если же удержание плазмы осуществляется магнитным полем азимутального тока, текущего внутри плазмы, то ловушка называется то ка ма ком.
+
+Стационарные течения. Простейшим магнитогидродинамич. течением в канале, служащим моделью многих инженерных приложений, является течение вязкой несжимаемой жидкости с учетом конечной электропроводности между двумя параллельными плоскостями $URI[[http://libmeta.ru/fme/formula/aux/1674_61_MAGNITNOJ]]/URI$ (течен и Гартмана). При этом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_24_MAGNITNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1674_62_MAGNITNOJ]]/URI$ градиент давления.
+
+Турбулентность. В случае неустойчивости равновесного состояния в плазме возбуждается большое число волн, имеющих случайный характер. Такое состояние плазмы назы- вается турбулентным. Напротив, упорядоченное движение спокойной плазмы, при к-ром она движется как бы отдельными слоями, обладающими различными, но определенными скоростями, называется л а м и на р ным.
+
+Слабая турбулентность. При малом уровне турбулентности, когда нелинейные члены в М. г. у. уже следует учитывать, но они все еще невелики, турбулентное состояние можно рассматривать как газ слабо взаимодействующих волн - плазмонов, имеющих случайные фазы. Такую турбулентность называют слабой. В случае $URI[[http://libmeta.ru/fme/formula/aux/1674_63_MAGNITNOJ]]/URI$ наиболее существенны следующие процессы взаимодействия волн:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_25_MAGNITNOJ]]/URI
+\]
+
+Здесь буквами $URI[[http://libmeta.ru/fme/formula/aux/1674_64_MAGNITNOJ]]/URI$ обозначены соответственно альфвеновская, быстрая и медленная магнитозвуковые волны.
+
+Аномальные процессы переноса. В турбулентной среде коэффициенты переноса становятся аномально большими. В частности, аномальная электропроводность
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_26_MAGNITNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1674_65_MAGNITNOJ]]/URI$ скорость света, $URI[[http://libmeta.ru/fme/formula/aux/1674_66_MAGNITNOJ]]/URI$ средний квадрат флуктуации скорости, $URI[[http://libmeta.ru/fme/formula/aux/1674_67_MAGNITNOJ]]/URI$ время корреляции флуктуаший.
+
+URI[[http://libmeta.ru/fme/relation/1674_6_MAGNITNOJ]]/URI. Под г и д ро м а гн и т ны м д и н а м о понимают URI[[http://libmeta.ru/fme/relation/1674_5_MAGNITNOJ]]/URI, способный генерировать магнитное поле в движущейся проводящей среде. Основой URI[[http://libmeta.ru/fme/relation/1674_4_MAGNITNOJ]]/URI является растяжение силовых линий «затравочного» магнитного поля. При вращении звезды различные ее точки движутся с различной URI[[http://libmeta.ru/fme/relation/1674_3_MAGNITNOJ]]/URI. Благодаря закону вмороженности это приводит к растяжению магнитных силовых линий. Что же касается затравочного поля, то оно образуется током, возникающим вследствие различия вязкости электронов и ионов. Однако теория ламинарного динамо не объясняет возникновения URI[[http://libmeta.ru/fme/relation/1674_2_MAGNITNOJ]]/URI поля. Последнее связано с URI[[http://libmeta.ru/fme/relation/1674_1_MAGNITNOJ]]/URI. При турбулентном движении рост магнитного поля пропорционален его ротору ( $URI[[http://libmeta.ru/fme/formula/aux/1674_68_MAGNITNOJ]]/URI$-эффект)
+
+Здесь
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_27_MAGNITNOJ]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1674_28_MAGNITNOJ]]/URI
+\]</text>
+  <text_orig>УРавнения движения электропроводной жидкости или ионизованного газа (плазмы) в магнитном поле. При этом индуцируется электрич. поле и возникает электрич. ток. В свою очередь, взаимодействие тока с магнитным полем вызывает изменение движения жидкости и изменение магнитного поля. Магнитная гидродинамика в широком смысле - это раздел механики сплошных сред, изучающий движение электропроводных газов и жидкостей при наличии магнитного поля. При этом состояние среды характеризуется функциями распределения по скоростям $f_{\alpha}(\boldsymbol{v}, \boldsymbol{r}, t)$ для каждого сорта частиц $\alpha$, а также значениями электрич. и магнитного полей во всех точках пространства и в каждый момент времени. Если характерная для рассматриваемых процессов частота $\omega$ значительно меньше частоты столкновений отдельных частиц $v, \omega \ll v$, то каждый сорт частиц описывают гидродинамически. При этом состояние частиц сорта $\alpha$ описывается плотностью
+
+\[
+n_{\alpha}(r, t)=\int f_{\alpha}(v, r, t) d v
+\]
+
+и средней скоростью
+
+\[
+v_{\alpha}(r, t)=\frac{1}{n_{\alpha}} \int v f_{\alpha}(v, r, t) d v .
+\]
+
+Это - м ного ж ид к о с т а я магнитная гидродинамика. В частности, полностью ионизованной плазме, состоящей из электронов и одного сорта ионов, соответствует д в у $\mathrm{x}$ ж и д к о с т н а я магнитная гидродинамика.
+
+Если характерная частота $\omega$ значительно меньше частоты обмена энергией между электроном и ионом $v_{e i}$, то давления электронов $p_{e}$ и ионов $p_{i}$ успевают выровняться и плазма характеризуется единым давлением $p$. Из-за того, что электрон значительно легче иона, плотность массы $\rho$ и скорость среды $v$ определяются ионами, а плотность тока $\boldsymbol{j}$ - электронами. Такую плазму, рассматриваемую как единое целое, называют п р о с т о й. Однако уравнения движения простой плазмы, дополненные уравнениями Максвелла, все еще слишком сложны. Решающий шаг в их упрощении был сделан Г. Альфвеном (H. Alfven,-1942). Он показал, что при медленных движениях имеет место закон вмороженности магнитного поля в плазму - магнитные силовые линии перемещаются вместе с элементами объема плазмы. Это позволило создать сравнительно простую модель магнитную гидродинамику в узком смысле, и аналитически решить целый ряд астрофизич. задач.
+
+Система М. г. У. в узком смысле имеет вид (среда полагается идеальной, то есть бездиссипативной):
+
+закон сохранения массы
+
+\[
+\frac{\partial \rho}{\partial t}+\operatorname{div} \rho v=0
+\]
+
+закон сохранения импульса
+
+\[
+\rho \frac{d \boldsymbol{v}}{d t}=-\nabla p+\frac{1}{4 \pi} \operatorname{rot}[\boldsymbol{B} \times \boldsymbol{B}]
+\]
+
+закон вмороженности магнитного поля
+
+\[
+\frac{\partial \boldsymbol{B}}{\partial t}=\operatorname{rot}[\boldsymbol{v} \times \boldsymbol{B}]
+\]
+
+закон отсутствия магнитных зарядов
+
+\[
+\operatorname{div} \boldsymbol{B}=0
+\]
+
+и закон сохранения энтропии
+
+\[
+\frac{\partial s}{\partial t}=0
+\]
+
+где $s$ - удельная энтропия. Из электродинамич. величин электрич. и магнитного полей $\boldsymbol{E}$ и $\boldsymbol{B}$, плотностей заряда $\rho_{e}$ и тока $\boldsymbol{j}$ в М. г.у. входит только $\boldsymbol{B}$. Поэтому в магнитной гидродинамике в узком смысле состояние среды характеризуется восемью функциями координат и времени: $p(r, t)$, $\boldsymbol{v}(\boldsymbol{r}, t), \boldsymbol{B}(\boldsymbol{r}, t), s(\boldsymbol{r}, t)$. Входящая в уравнения массовая плотность среды $\rho(r, t)$ выражается через $p$ и $s$ с помощью термодинамич. уравнения состояния. Остальные электродинамич. величины выражаются через $\boldsymbol{B}$ и $\boldsymbol{v}$ :
+
+\[
+\begin{gathered}
+\boldsymbol{E}=-\frac{1}{c} \boldsymbol{v} \times \boldsymbol{B}, \\
+\boldsymbol{j}=\frac{c}{4 \pi} \operatorname{rot} \boldsymbol{B}, \\
+\rho_{e}=\frac{1}{4 \pi} \operatorname{div} \boldsymbol{E} .
+\end{gathered}
+\]
+
+Соотношение (6) означает, что в системе отсчета, движущейся вместе с плазмой, электрич. поле равно нулю. Это объясняется тем, что электроны, обладая очень малой массой, экранируют электрич. поле. Равенства (7), (8) являются уравнениями Максвелла [при этом в (7) опущен ток смещения].
+
+Таким образом, в магнитной гидродинамике изменяются привычные связи между различными электрич. величинами. Так, в электротехнике ток определяется в основном электрич. полем (закон Ома), а магнитное поле приводит лишь к малым поправкам. Напротив, в магнитной гидродинамике ток определяется магнитным полем.
+
+В магнитной гидродинамике возникают специфич. поперечные волны, называемые ал ь ф в е н о в с к и м и, фазовая скорость к-рых равна $V_{A n}$, где
+
+\[
+V_{A}=\frac{B}{\sqrt{4 \pi \rho}}
+\]
+
+a $\boldsymbol{n}$ - единичный вектор в направлении распространения волны. Кроме того, звуковые волны модифицируются благодаря наличию магнитного давления $B^{2} / 8 \pi$ (м а г н и тоз в уко в ы е вол ны). Соотношение (7) справедливо, если скорость среды, альфвеновская скорость и скорость звука являются нерелятивистскими.
+
+Из приведенных уравнений вытекает целый ряд физич. выводов и инженерных приложений. Прежде всего, из уравнения (6) следует, что энергия электрич. поля в нерелятивистском случае значительно меньше энергии магнитного
+
+336 МАГНИТНОЙ поля. Из этого уравнения видно также, что движение проводящей среды поперек магнитного поля создает разность электрич. потенциалов. Этот эффект используется для создания магнитогидродинамич. генераторов электроэнергии, в к-рых осуществляется прямой переход тепловой энергин в электрическую. Такие генераторы обладают более высоким коэффициентом полезного действия. Другим приложением соотношения (6) являются магнитогидродинамич. измерители скорости и расходомеры. Из (6) следует также, что плазма, помещенная в скрещенные электрич. и магнитное поля, приходит в движение. Такое движение, перпендикулярное электрич. и магнитному полям, называют д р е й фо в ым, а его скорость - д р е йфо вой скоростью. Этот эффект используют для создания магнитогидродинамич. двигателей для ракет. При этом могут быть достигнуты скорости истечения реактивной струи, значительно превышающие ее скорости в тепловых ракетных двигателях. Движение электропроводной жидкости в скрещенных электрич. и магнитных полях используют также для создания магнитогидродинамич. насосов кондукционного типа. Закон вмороженности используется для магнитного удержания горячей плазмы без соприкосновения с твердыми стенками. Благодаря закону вмороженности движущееся магнитное поле увлекает за собой электропроводящую жидкость (магнитогидродинамич. насосы индукционного типа).
+
+М. г.у. с диссипацией. Вследствие столкновений отдельных частиц возникают диссипативные эффекты. При этом в М. г. у. идеальной среды (1)-(5) возникают, вообще говоря, дополнительные члены. В законе сохранения массы (1) диссипативные члены описывают химич. реакции, к-рые приводят к изменению массы данного вещества. Если такие реакции отсутствуют, то закон сохранения массы (1) остается неизменным. В законе сохранения импульса (2) возникают члены, описывающие эффект вязкости:
+
+\[
+\rho \frac{d v}{d t}=-\nabla p+\frac{1}{4 \pi} \operatorname{rot}[\boldsymbol{B} \times \boldsymbol{B}]+\eta \Delta v .
+\]
+
+Здесь $\eta$ - коэффициент сдвиговой вязкости (мы полагаем $\eta=$ const и объемной вязкостью пренебрегаем). Дополнительный член в законе вмороженности (3) описывает диффузию магнитного поля:
+
+\[
+\frac{\partial \boldsymbol{B}}{\partial t}=\operatorname{rot}[\boldsymbol{v} \times \boldsymbol{B}]+v_{m} \Delta \boldsymbol{B} .
+\]
+
+Здесь $v_{m}-$ «магнитная вязкость», равная
+
+\[
+v_{m}=\frac{c^{2}}{4 \pi \sigma}
+\]
+
+$\sigma$ - коэффициент электропроводности, к-рый полагается постоянным. Закон отсутствия магнитных зарядов (4) не изменяется при учете диссипации. Что же касается уравнения (5), то оно принимает вид:
+
+\[
+\frac{d s}{d t}=\frac{1}{\rho T}\left\{2 \eta\left[v_{i j}^{(d)}\right]^{2}+\operatorname{div}(x \nabla T)+v_{m} \frac{(\operatorname{rot} B)^{2}}{4 \pi}\right\} .
+\]
+
+Здесь $v_{i j}^{(d)}$ - девиатор тензора скоростей деформации, $T-$ температура,
+
+\[
+\begin{aligned}
+&amp; v_{i j}^{(d)}=v_{i j}-\frac{1}{3} v_{l l} \delta_{i j}, \\
+&amp; v_{i j}=\frac{1}{2}\left(\frac{\partial v_{i}}{\partial x_{j}}+\frac{\partial v_{j}}{\partial x_{i}}\right),
+\end{aligned}
+\]
+
+$x$ - коэффициент теплопроводности. Производство энтропии в единичном объеме равно:
+
+\[
+\frac{\partial i}{\partial t}(\rho s)=\frac{j_{k}^{2}}{\sigma T}+\frac{x}{T^{2}}\left(\frac{\partial T}{\partial x_{k}}\right)^{2}+\frac{2 \eta}{T}\left[v_{l k}^{(d)}\right]^{2}
+\]
+
+эта величина всегда неотрицательна.
+
+Вязкостью можно пренебречь при больших числах Рейнольдса
+
+\[
+\operatorname{Re}=\frac{L v}{v} .
+\] Здесь $L-$ характерный размер, $v-$ характерная скорость, $v=(\eta / \rho)-$ кинематич. вязкость. Диффузией магнитного поля можно пренебречь, если велико магнитное число Рейнольдса:
+
+\[
+\operatorname{Re}_{m}=\frac{L v}{v_{m}} .
+\]
+
+Наконец, теплопроводностью можно пренебречь, если велико число Пекле:
+
+\[
+\mathrm{Pe}=\frac{L v}{\chi}
+\]
+
+где $\chi=\frac{\chi}{\rho c_{p}} \quad$ коэффициент температуропроводности, $c_{p}-$ удельная теплоемкость при постоянном давлении.
+
+Равновесные конфигурации. Такие конфигурации (м а г н и т ны е ло в уш к и) представляют интерес для осуществления управляемых термоядерных реакций. При этом магнитные силовые линии целиком лежат на поверхностях
+
+\[
+p(x, y, z)=\text { const, }
+\]
+
+называемых поэтому магнитными поверхностям и. Простейшая равновесная конфигурация аксиально симметрична. В этом случае величины в М.г.у. зависят только от двух цилиндрич. координат $r$ и $z$ и не зависят от азимута $\vartheta$. Аксиально симметричное магнитное поле называется то ро и даль ны м, если отлична от нуля только его азимутальная компонента $B_{\vartheta}$. Если же отличны от нуля только компоненты $B_{r}$ и $B_{z}$, то поле называется полои да л ьны м. Аксиально-симметричные равновесные конфигурации описываются уравне н и м Грэда-Шафра но в а
+
+\[
+\frac{\partial^{2} \psi}{\partial r^{2}}-\frac{1}{r} \frac{\partial \psi}{\partial r}+\frac{\partial^{2} \psi}{\partial z^{2}}+16 \pi^{3} r^{2} \frac{d p}{d \psi}+\frac{8 \pi^{2}}{c^{2}} \frac{d\left(I^{2}\right)}{d \psi}=0,
+\]
+
+где $\psi$ - магнитный поток через круг радиусом $r$, находящийся на высоте $z$ :
+
+\[
+\psi(r, z)=\int_{0}^{r} B(z, \rho) 2 \pi \rho d \rho,
+\]
+
+и $I$ - ток, протекающий через тот же круг
+
+\[
+I(r, z)=\int_{0}^{r} j_{z}(\rho, z) 2 \pi \rho d \rho
+\]
+
+$c$ - скорость света.
+
+Функции $\psi(r, z)$ и $I(r, z)$ определяют магнитное поле:
+
+\[
+B_{z}=\frac{1}{2 \pi r} \frac{\partial \psi}{\partial r} ; \quad B_{r}=\frac{1}{2 \pi r} \frac{\partial \psi}{\partial z} ; \quad B_{\vartheta}=\frac{2 I}{c r}
+\]
+
+и плотность тока $j$ согласно уравнению (7). Величины $\psi$ и $I$ постоянны на магнитных поверхностях. Задавая $I$ как функцию от $\psi$, можно получить много простых аналитич. решений уравнения (9), что позволяет исследовать широкий класс равновесных плазменных конфигураций. Особую роль для управляемых термоядерных реакций играют за м кнутые магнитные ловушки, то есть конфигурации, топологически эквивалентные тору. Если плазма удерживается внешним магнитным полем, то тороидальную ловушку называют с те л л а р а т о ро м. Если же удержание плазмы осуществляется магнитным полем азимутального тока, текущего внутри плазмы, то ловушка называется то ка ма ком.
+
+Стационарные течения. Простейшим магнитогидродинамич. течением в канале, служащим моделью многих инженерных приложений, является течение вязкой несжимаемой жидкости с учетом конечной электропроводности между двумя параллельными плоскостями $x= \pm l$ (течен и Гартмана). При этом
+
+\[
+v_{z}(x)=-\frac{l^{2}}{\eta H a \operatorname{sh} H a} \frac{\partial p}{\partial z}\left(\operatorname{ch} H a-\operatorname{ch} \frac{H a \cdot x}{l}\right), \quad v_{x}=v_{y}=0,
+\]
+
+где $H a=l V_{A} / \sqrt{v v_{m}}, \frac{\partial p}{\partial z}-$ градиент давления.
+
+Турбулентность. В случае неустойчивости равновесного состояния в плазме возбуждается большое число волн, имеющих случайный характер. Такое состояние плазмы назы- вается турбулентным. Напротив, упорядоченное движение спокойной плазмы, при к-ром она движется как бы отдельными слоями, обладающими различными, но определенными скоростями, называется л а м и на р ным.
+
+Слабая турбулентность. При малом уровне турбулентности, когда нелинейные члены в М. г. у. уже следует учитывать, но они все еще невелики, турбулентное состояние можно рассматривать как газ слабо взаимодействующих волн - плазмонов, имеющих случайные фазы. Такую турбулентность называют слабой. В случае $\beta \equiv \frac{8 \pi p}{B^{2}} \ll 1$ наиболее сушественны следующие процессы взаимодействия волн:
+
+\[
+A \rightleftarrows A+S ; \quad A \rightleftarrows F+S ; \quad F \rightleftarrows F+S ; \quad F \rightleftarrows A+S .
+\]
+
+Здесь буквами $A, F, S$ обозначены соответственно альфвеновская, быстрая и медленная магнитозвуковые волны.
+
+Аномальные процессы переноса. В турбулентной среде коэффициенты переноса становятся аномально большими. В частности, аномальная электропроводность
+
+\[
+\sigma^{(T)}=3 c^{2} /\left(4 \pi \tau_{c}\left\langle\tilde{y}^{2}\right\rangle\right),
+\]
+
+где $c-$ скорость света, $\left\langle\widetilde{v}^{2}\right\rangle-$ средний квадрат флуктуации скорости, $\tau_{c}-$ время корреляции флуктуаший.
+
+Гидромагнитное динамо. Под г и д ро м а гн и т ны м д и н а м о понимают механизм, способный генерировать магнитное поле в движущейся проводящей среде. Основой гидромагнитного динамо является растяжение силовых линий «затравочного» магнитного поля. При вращении звезды различные ее точки движутся с различной скоростью. Благодаря закону вмороженности это приводит к растяжению магнитных силовых линий. Что же касается затравочного поля, то оно образуется током, возникающим вследствие различия вязкости электронов и ионов. Однако теория ламинарного динамо не объясняет возникновения полоидального магнитного поля. Последнее связано с турбулентностью. При турбулентном движении рост магнитного поля пропорционален его ротору ( $\alpha$-эффект)
+
+Здесь
+
+\[
+\frac{\partial\langle\boldsymbol{B}\rangle}{\partial t}=\alpha \operatorname{rot}\langle\boldsymbol{B}\rangle
+\]
+
+\[
+\alpha=-\frac{1}{3}\langle\tilde{v}(t) \operatorname{rot} \tilde{v}(t)\rangle \tau_{c}
+\]
+
+Jum.: [1] Альфвен Г., Фельтхам мар К. Г., Космическая электродинамика, пер. с англ., 2 изд., М., 1967; [2] Ку ли ко в -
+с к и й А. Г., Л ю б и м о в Г.А., Магнитная гидродинамика, М., 1962; [3] Л а нда у Л. Д., Л и фш и ц Е. М., Электродинамика сплошных сред, М., 1982; [4] Поло в и н Р. В., Дем мшки й В. П., Основы магнитной гидродинамики, М., 1987. В.П. Демуцкий, Р. В. Половин.</text_orig>
+</article>

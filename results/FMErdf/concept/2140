@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2927_STATISTIChESKAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2927_STATISTIChESKAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2140</core:url>
+    <lbm:descriptor><![CDATA[СТАТИСТИЧЕСКАЯ СУММА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2445"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16273"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_477"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16274"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2800"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16275"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16276"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5887"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_78"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>общая мера <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазового пространства</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI">классической</a> системы или след ненормированной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1746_MATRITsA">матрицы плотности</a>, которой задается квантовый ансамбль. Напр., в случае равновесного большого канонич. ансамбля С. с. (большая С. с.) непрерывной системы классич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16273">$$\Xi(\Lambda)=\sum_{n=0}^{\infty} \frac{z^{n}}{n !} \int_{\Lambda^{n}} d q_{1} \ldots d q_{n} \exp \left\{-\beta U\left(q_{1}, \ldots, q_{n}\right)\right\},$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2927_1_STATISTIChESKAJa]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_46_AKTIVNOST">активность</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16274">$$u\left(q_{1}, \ldots, q_{n}\right)$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_387_VZAIMODEJSTVIJa">потенциал взаимодействия</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, $URI[[http://libmeta.ru/fme/formula/aux/2927_3_STATISTIChESKAJa]]/URI$ - параметр, имеющий смысл обратной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температуры</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16275">$$\lambda \subset \mathbb{R}^{\nu}$$</a>. Предел <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16276">$$\lambda-\mathbb{R}^{\nu}$$</a> логарифма С. с. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5887">$$\xi(\lambda)$$</a>, деленный на объем <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> $URI[[http://libmeta.ru/fme/formula/aux/2927_7_STATISTIChESKAJa]]/URI$, в статистич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механике</a> отождествляется с термодинамич. функцией - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_750_DAVLENI">давлением</a>.<BR/></P><P>Для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2536_RASPREDELENIJa">частичных функций распределения вероятностей</a> С. с. является нормирующим множителем.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2445">В. И. Герасименко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[общая мера фазового пространства классической системы или след ненормированной матрицы плотности, которой задается квантовый ансамбль. Напр., в случае равновесного большого канонич. ансамбля С. с. (большая С. с.) непрерывной системы классич. частиц имеет вид:
+
+\[
+\Xi(\Lambda)=\sum_{n=0}^{\infty} \frac{z^{n}}{n !} \int_{\Lambda^{n}} d q_{1} \ldots d q_{n} \exp \left\{-\beta U\left(q_{1}, \ldots, q_{n}\right)\right\},
+\]
+
+где $z$ - активность, $U\left(q_{1}, \ldots, q_{n}\right)$ - потенциал взаимодействия частиц, $\beta>0$ - параметр, имеющий смысл обратной температуры, $\Lambda \subset \mathbb{R}^{\nu}$. Предел $\Lambda-\mathbb{R}^{\nu}$ логарифма С. с. $\Xi(\Lambda)$, деленный на объем области $\Lambda$, в статистич. механике отождествляется с термодинамич. функщией - давлением.
+
+Для частичных функщий распределения вероятностей С. с. является нормирующим множителем. В. И. Герасименко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2536_RASPREDELENIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_750_DAVLENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_387_VZAIMODEJSTVIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_46_AKTIVNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1746_MATRITsA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

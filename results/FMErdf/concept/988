@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1890_NEJMANA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1890_NEJMANA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/988</core:url>
+    <lbm:descriptor><![CDATA[НЕЙМАНА АЛГЕБРА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#7931"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_33"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2206"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7932"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7933"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7934"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>подалгебра $URI[[http://libmeta.ru/fme/formula/aux/1890_1_NEJMANA]]/URI$ алгебры $URI[[http://libmeta.ru/fme/formula/aux/1890_2_NEJMANA]]/URI$ ограниченных линейных операторов в гильбертовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/1890_3_NEJMANA]]/URI$, самосопряженная (то есть содержащая вместе с каждым оператором $URI[[http://libmeta.ru/fme/formula/aux/1890_4_NEJMANA]]/URI$ сопряженный к нему оператор <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7932">$$t^{*}$$</a> ) и<BR/></P><P>376 Неголономная совпадающая со своим б и к о м м у т а н т о м (то есть содержащая те и только те операторы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7933">$$t \subset \mathscr{B}(H)$$</a>, которые перестановочны с каждым оператором, перестановочным со всеми операторами из A). Эти алгебры были введены Дж. Нейманом (j. Neumann, 1936). Согласно те ор е м е Н е йман а, самосопряженная алгебра <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7934">$$a \subset \mathscr{B}(H)$$</a> тогда и только тогда является Н. а., когда алгебра $URI[[http://libmeta.ru/fme/formula/aux/1890_8_NEJMANA]]/URI$ (или ее единичный шар) замкнута в слабой, сильной, ультраслабой или ультрасильной, но не равномерной операторной топологии.<BR/></P><P>Н. а. естественно возникают в задачах, связанных с операторами в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO">гильбертовом пространстве</a>, и имеют многочисленные приложения как в самой теории операторов и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2886_SPEKTRAL'NOE">теории представлений</a> групп и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_47_ALGEBR">алгебр</a>, так и в теории <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамич</a>. систем, статистич. физике и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa">квантовой теории поля</a>.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_622_GIL'BERTOVA">Гильбертова алгебра</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#7931">А. И. Шiтерн</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[подалгебра $A$ алгебры $\mathscr{B}(H)$ ограниченных линейных операторов в гильбертовом пространстве $H$, самосопряженная (то есть содержащая вместе с каждым оператором $T$ сопряженный к нему оператор $T^{*}$ ) и
+
+376 НЕГОЛОНОМНАЯ совпадающая со своим б и к о м м у т а н т о м (то есть содержащая те и только те операторы $T \subset \mathscr{B}(H)$, которые перестановочны с каждым оператором, перестановочным со всеми операторами из A). Эти алгебры были введены Дж. Нейманом (J. Neumann, 1936). Согласно те ор е м е Н е йман а, самосопряженная алгебра $A \subset \mathscr{B}(H)$ тогда и только тогда является Н. а., когда алгебра $A$ (или ее единичный шар) замкнута в слабой, сильной, ультраслабой или ультрасильной, но не равномерной операторной топологии.
+
+Н. а. естественно возникают в задачах, связанных с операторами в гильбертовом пространстве, и имеют многочисленные приложения как в самой теории операторов и теории представлений групп и алгебр, так и в теории динамич. систем, статистич. физике и квантовой теории поля.
+
+См. также Гильбертова алгебра. А. И. ШIтерн.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_622_GIL'BERTOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_47_ALGEBR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2886_SPEKTRAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

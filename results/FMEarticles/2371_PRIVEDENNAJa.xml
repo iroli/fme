@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2371_PRIVEDENNAJa" alphabetic_pos="2373">
+  <title>ПРИВЕДЕННАЯ МАТРИЦА ПЛОТНОСТИ ДЛЯ $m$ КВАНТОВЫХ ЧАСТИЦ В ОБЪЕМЕ $V$</title>
+  <authors/>
+  <pages>
+    <start>460</start>
+    <end>460</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Рюэл ь Д., Статистическая механика. Строгие результаты, пер. с англ., М., 1971.</literature_orig>
+    <unit>
+      <author>Рюэль Д.</author>
+      <title>Статистическая механика. Строгие результаты</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2371_1_PRIVEDENNAJa">\begin{gathered}\rho_{V}\left((x)_{m} ;(y)_{m}\right)=\Xi^{-1} \sum_{n=0}^{\infty} \frac{z^{m+n}}{n !} \times \\\times \int d(u)_{n} \sum_{\pi} \varepsilon^{\pi} Q_{m+n}\left((x)_{m},(u)_{n} ;(y)_{m},(u)_{n}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2371_2_PRIVEDENNAJa">\begin{gathered}\Xi=\sum_{n=0}^{\infty} \frac{z^{n}}{n !} \int d(u)_{n} \sum_{\pi} \varepsilon^{\pi} Q_{n}\left((u)_{n} ;(u)_{n}\right), \\Q_{n}=\exp \left(-\beta H_{n}^{V}\right), \\H_{n}^{V}=\left(\sum_{i=1}^{n}-\frac{\Delta_{i}}{4}+U\right)_{V^{n}}\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2371_1_PRIVEDENNAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2371_2_PRIVEDENNAJa">v \in \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2371_3_PRIVEDENNAJa">-\frac{1}{4} \Delta+U</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2371_4_PRIVEDENNAJa">v ; \Delta-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2371_5_PRIVEDENNAJa">\mathbb{r}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2371_6_PRIVEDENNAJa">(x)_{j}=\left(x_{1}, x_{2}, \ldots, x_{j}\right), x_{k} \in \mathbb{R}^{v}, z-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2371_7_PRIVEDENNAJa">\pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2371_8_PRIVEDENNAJa">\varepsilon^{\pi}=1</formula>
+  </formulas_aux>
+  <relations n="15">
+    <relation uri="http://libmeta.ru/fme/relation/2371_1_PRIVEDENNAJa">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_2_PRIVEDENNAJa">
+      <rel_text>корреляционной функции</rel_text>
+      <target>http://libmeta.ru/fme/article/1409_KORRELJaTsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_3_PRIVEDENNAJa">
+      <rel_text>перестановки</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_4_PRIVEDENNAJa">
+      <rel_text>перестановкам</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_5_PRIVEDENNAJa">
+      <rel_text>Суммирование производится по</rel_text>
+      <target>http://libmeta.ru/fme/article/2835_SOBOLEVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_6_PRIVEDENNAJa">
+      <rel_text>активность</rel_text>
+      <target>http://libmeta.ru/fme/article/46_AKTIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_7_PRIVEDENNAJa">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_8_PRIVEDENNAJa">
+      <rel_text>дифференцируемых функциях</rel_text>
+      <target>http://libmeta.ru/fme/article/729_GRINA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_9_PRIVEDENNAJa">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_10_PRIVEDENNAJa">
+      <rel_text>симметричного</rel_text>
+      <target>http://libmeta.ru/fme/article/2741_SIMMETRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_11_PRIVEDENNAJa">
+      <rel_text>граничным условием</rel_text>
+      <target>http://libmeta.ru/fme/article/713_GRANIChNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_12_PRIVEDENNAJa">
+      <rel_text>самосопряженным</rel_text>
+      <target>http://libmeta.ru/fme/article/2679_SAMOUSREDNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_13_PRIVEDENNAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_14_PRIVEDENNAJa">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2371_15_PRIVEDENNAJa">
+      <rel_text>гамильтониан системы</rel_text>
+      <target>http://libmeta.ru/fme/article/517_GAMIL'TONOVA</target>
+    </relation>
+  </relations>
+  <text>интегральный оператор с ядром
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2371_1_PRIVEDENNAJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2371_2_PRIVEDENNAJa]]/URI
+\]
+
+- URI[[http://libmeta.ru/fme/relation/2371_15_PRIVEDENNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2371_1_PRIVEDENNAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2371_14_PRIVEDENNAJa]]/URI, заключенных в открытой связной URI[[http://libmeta.ru/fme/relation/2371_13_PRIVEDENNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2371_2_PRIVEDENNAJa]]/URI$, являющейся URI[[http://libmeta.ru/fme/relation/2371_12_PRIVEDENNAJa]]/URI расширением (задаваемым нулевым URI[[http://libmeta.ru/fme/relation/2371_11_PRIVEDENNAJa]]/URI) URI[[http://libmeta.ru/fme/relation/2371_10_PRIVEDENNAJa]]/URI URI[[http://libmeta.ru/fme/relation/2371_9_PRIVEDENNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2371_3_PRIVEDENNAJa]]/URI$, определенного на дважды непрерывно URI[[http://libmeta.ru/fme/relation/2371_8_PRIVEDENNAJa]]/URI с носителями, лежащими в $URI[[http://libmeta.ru/fme/formula/aux/2371_4_PRIVEDENNAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2371_7_PRIVEDENNAJa]]/URI Лапласа в $URI[[http://libmeta.ru/fme/formula/aux/2371_5_PRIVEDENNAJa]]/URI$; $URI[[http://libmeta.ru/fme/formula/aux/2371_6_PRIVEDENNAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2371_6_PRIVEDENNAJa]]/URI. URI[[http://libmeta.ru/fme/relation/2371_5_PRIVEDENNAJa]]/URI всем URI[[http://libmeta.ru/fme/relation/2371_4_PRIVEDENNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2371_7_PRIVEDENNAJa]]/URI$ соответствующего числа переменных, при этом $URI[[http://libmeta.ru/fme/formula/aux/2371_8_PRIVEDENNAJa]]/URI$ для бозонов и обозначает знак URI[[http://libmeta.ru/fme/relation/2371_3_PRIVEDENNAJa]]/URI для фермионов. П.. п. является квантовым аналогом URI[[http://libmeta.ru/fme/relation/2371_2_PRIVEDENNAJa]]/URI.
+
+См. также Термодинамический предел для равновесных URI[[http://libmeta.ru/fme/relation/2371_1_PRIVEDENNAJa]]/URI.</text>
+  <text_orig>интегральный оператор с ядром
+
+\[
+\begin{gathered}
+\rho_{V}\left((x)_{m} ;(y)_{m}\right)=\Xi^{-1} \sum_{n=0}^{\infty} \frac{z^{m+n}}{n !} \times \\
+\times \int d(u)_{n} \sum_{\pi} \varepsilon^{\pi} Q_{m+n}\left((x)_{m},(u)_{n} ;(y)_{m},(u)_{n}\right),
+\end{gathered}
+\]
+
+где
+
+\[
+\begin{gathered}
+\Xi=\sum_{n=0}^{\infty} \frac{z^{n}}{n !} \int d(u)_{n} \sum_{\pi} \varepsilon^{\pi} Q_{n}\left((u)_{n} ;(u)_{n}\right), \\
+Q_{n}=\exp \left(-\beta H_{n}^{V}\right), \\
+H_{n}^{V}=\left(\sum_{i=1}^{n}-\frac{\Delta_{i}}{4}+U\right)_{V^{n}}
+\end{gathered}
+\]
+
+- гамильтониан системы $n$ частиц, заключенных в открытой связной области $V \in \mathbb{R}^{v}$, являющейся самосопряженным расширением (задаваемым нулевым граничным условием) симметричного оператора $-\frac{1}{4} \Delta+U$, определенного на дважды непрерывно дифференцируемых функциях с носителями, лежащими в $V ; \Delta-$ оператор Лапласа в $\mathbb{R}^{v}$; $(x)_{j}=\left(x_{1}, x_{2}, \ldots, x_{j}\right), x_{k} \in \mathbb{R}^{v}, z-$ активность. Суммирование производится по всем перестановкам $\pi$ соответствующего числа переменных, при этом $\varepsilon^{\pi}=1$ для бозонов и обозначает знак перестановки для фермионов. П.. п. является квантовым аналогом корреляционной функции.
+
+См. также Термодинамический предел для равновесных состояний.
+
+Лит.: [1] Рюэл ь Д., Статистическая механика. Строгие результаты, пер. с англ., М., 1971.</text_orig>
+</article>

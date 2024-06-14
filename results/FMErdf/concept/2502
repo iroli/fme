@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3252_FAZOVYH">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3252_FAZOVYH</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2502</core:url>
+    <lbm:descriptor><![CDATA[ФАЗОВЫХ ФУНКЦИЙ МЕТОД]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#19043"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#19044"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19045"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19046"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19047"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19048"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19049"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19050"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10043"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19051"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19052"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10542"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>метод перехода от радиального уравнения Шредингера для решения задачи рассеяния к задаче Коши для дифференциального уравнения первого порядка относительно фазовой функции <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19048">$$\delta_{l}(k, r)$$</a> :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19045">$$\frac{d}{d r} \delta_{l}=-\frac{1}{k} V(r)\left[\cos \delta_{l} j_{l}(k r)-\sin \delta_{l} n_{l}(k r)\right]^{2}$$</a><BR/></P><P>с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_713_GRANIChNOE">граничным условием</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19049">$$\delta_{l}(k, 0)=0$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19050">$$j_{l}$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10043">$$n_{l}$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3016_SFERIChESKIE">сферические функции</a> Бесселя. Величина <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19051">$$\delta_{l}(k, R)$$</a> определяет фазу <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a> на «обрезанном» потенциале <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19052">$$v_{r}(r)$$</a> :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19046">$$\begin{gathered}V_{R}(r)=V(r), \text { при } r<R, \\V_{R}(r)=0 \text { при } r \geqslant R .\end{gathered}$$</a><BR/></P><P>Предел<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19047">$$\delta_{l}(k)=\lim _{R \rightarrow \infty} \delta_{l}(k, R)$$</a><BR/></P><P>равен фазе <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a> на потенциале $URI[[http://libmeta.ru/fme/formula/aux/3252_7_FAZOVYH]]/URI$. Ф. Ф. м.- эффективное средство для численного расчета и качественного анализа <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#19043">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#19042">Бабиков В. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#19043">Метод фазовых функций в квантовой механике, 3 изд., М., 1988</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#19044">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#350">Калоджеро Ф.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#19044">Метод фазовых функций в теории потенциального рассеяния, пер. с англ., М., 1972</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[метод перехода от радиального уравнения Шредингера для решения задачи рассеяния к задаче Коши для дифференциального уравнения первого порядка относительно фазовой функции $\delta_{l}(k, r)$ :
+
+\[
+\frac{d}{d r} \delta_{l}=-\frac{1}{k} V(r)\left[\cos \delta_{l} j_{l}(k r)-\sin \delta_{l} n_{l}(k r)\right]^{2}
+\]
+
+с граничным условием $\delta_{l}(k, 0)=0$, где $j_{l}$ и $n_{l}$ - сферические функции Бесселя. Величина $\delta_{l}(k, R)$ определяет фазу рассеяния на «обрезанном» потенциале $V_{R}(r)$ :
+
+\[
+\begin{gathered}
+V_{R}(r)=V(r), \text { при } r<R, \\
+V_{R}(r)=0 \text { при } r \geqslant R .
+\end{gathered}
+\]
+
+Предел
+
+\[
+\delta_{l}(k)=\lim _{R \rightarrow \infty} \delta_{l}(k, R)
+\]
+
+равен фазе рассеяния на потенциале $V(r)$. Ф. Ф. м.- эффективное средство для численного расчета и качественного анализа рассеяния.
+
+Лuт.: [1] Б а б и к о в В. В., Метод фазовых функций в квантовой механике, 3 изд., М., 1988; [2] Ка ло д же ро Ф., Метод фазовых функций в теории потенциального рассеяния, пер. с англ., М., 1972.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3016_SFERIChESKIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_713_GRANIChNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_13755">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mi>A</mi><mrow><mi>i</mi></mrow></msub><mo>&#x0002C;</mo><msub><mi>B</mi><mrow><mi>i</mi></mrow></msub><mo>&#x0002C;</mo><mi>i</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><mi>g</mi><mo>&#x0002C;</mo><msub><mi>C</mi><mrow><mi>j</mi></mrow></msub><mo>&#x0002C;</mo><mi>j</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><mi>n</mi><mo>&#x0002B;</mo><mi>m</mi><mo stretchy="true" fence="true" form="postfix" /></mrow><mspace linebreak="newline" /><mi>&</mi><mrow><mo stretchy="true" fence="true" form="prefix" /><mspace width="1em" /><msubsup><mo>&#x0220F;</mo><mrow><mi>i</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>g</mi></mrow></msubsup><msub><mi>A</mi><mrow><mi>i</mi></mrow></msub><msub><mi>B</mi><mrow><mi>i</mi></mrow></msub><msubsup><mi>A</mi><mrow><mi>i</mi></mrow><mrow><mo>&#x02212;</mo><mn>1</mn></mrow></msubsup><msubsup><mi>B</mi><mrow><mi>i</mi></mrow><mrow><mo>&#x02212;</mo><mn>1</mn></mrow></msubsup><msubsup><mo>&#x0220F;</mo><mrow><mi>j</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>m</mi><mo>&#x0002B;</mo><mi>n</mi></mrow></msubsup><msub><mi>C</mi><mrow><mi>j</mi></mrow></msub><mo>&#x0003D;</mo><mn>1</mn><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp;\left\{A_{i}, B_{i}, i=1, \ldots, g, C_{j}, j=1, \ldots, n+m\right. \\&amp;\left.\quad \prod_{i=1}^{g} A_{i} B_{i} A_{i}^{-1} B_{i}^{-1} \prod_{j=1}^{m+n} C_{j}=1\right\} .\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,202 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/378_VETVJaSchIJSJa" alphabetic_pos="378">
+  <title>ВЕТВЯЩИЙСЯ ПРОЦЕСС</title>
+  <authors>
+    <author>Ю. П. Вирченко</author>
+  </authors>
+  <pages>
+    <start>84</start>
+    <end>85</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Ба руч а - Р и д А. Т., Элементы теории марковских процессов и их приложения, пер. с англ., М., 1969; [2] Се в астьян о в Б. А., Ветвящиеся процессы, М., 1971.</literature_orig>
+    <unit>
+      <author>Баруча-Рид А. Т.</author>
+      <title>Элементы теории марковских процессов и их приложения</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Севастьянов Б. А.</author>
+      <title>Ветвящиеся процессы</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/378_1_VETVJaSchIJSJa">\begin{gathered}\xi_{0}=1, \quad \mathrm{P}\left\{\xi_{1}=k\right\}=p_{k}, \quad \sum_{k=0}^{\infty} p_{k}=1, \\P_{j k}=\mathrm{P}\left\{\xi_{n+1}=k \mid \xi_{n}=j\right\}=\sum_{i_{1}+i_{2}+\ldots+i_{j}=k} p_{i_{1}} p_{i_{2}} \ldots p_{i_{j}} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/378_2_VETVJaSchIJSJa">F_{t}(x)=\sum_{k=0}^{\infty} x^{k} \mathrm{P}\left\{\xi_{t}=k\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/378_3_VETVJaSchIJSJa">F_{t}(x)=F\left(F_{t-1}(x)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/378_4_VETVJaSchIJSJa">F(x)=\sum_{k=1}^{\infty} p_{k} x^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/378_5_VETVJaSchIJSJa">p_{j k}(t)=\mathrm{P}\left\{\xi\left(t+t_{0}\right)=k \mid \xi\left(t_{0}\right)=j\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/378_6_VETVJaSchIJSJa">p_{j k}(t)=\sum_{i_{1}+i_{2}+\ldots+i_{j}=k} p_{1 i_{1}}(t) p_{1 i_{2}}(t) \ldots p_{1 i_{j}}(t) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/378_7_VETVJaSchIJSJa">F(t+s ; x)=F(t ; F(s ; x)) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_1_VETVJaSchIJSJa">\{\xi(t)\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_2_VETVJaSchIJSJa">t \in \mathbb{N}(\mathbb{N}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_3_VETVJaSchIJSJa">t \in(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_4_VETVJaSchIJSJa">t \in \mathbb{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_5_VETVJaSchIJSJa">t \in(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_6_VETVJaSchIJSJa">\left\{\xi_{t}, t \in \mathbb{N}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_7_VETVJaSchIJSJa">\xi_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_8_VETVJaSchIJSJa">\mathbb{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_9_VETVJaSchIJSJa">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_10_VETVJaSchIJSJa">\left\{\xi_{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_11_VETVJaSchIJSJa">p_{j k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_12_VETVJaSchIJSJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_13_VETVJaSchIJSJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_14_VETVJaSchIJSJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_15_VETVJaSchIJSJa">\xi_{0}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_16_VETVJaSchIJSJa">\xi_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_17_VETVJaSchIJSJa">\mathrm{p}\left\{\xi_{t+s}=k \mid \xi_{t}=j\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/378_18_VETVJaSchIJSJa">\{\xi(t), t \in(0, \infty)\}, \xi(t) \in \mathbb{N}</formula>
+  </formulas_aux>
+  <relations n="14">
+    <relation uri="http://libmeta.ru/fme/relation/378_1_VETVJaSchIJSJa">
+      <rel_text>Яноши уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/3584_JaNOShI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_2_VETVJaSchIJSJa">
+      <rel_text>Марковский процесс</rel_text>
+      <target>http://libmeta.ru/fme/article/1715_MARKOVSKIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_3_VETVJaSchIJSJa">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_4_VETVJaSchIJSJa">
+      <rel_text>производящей функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2401_PROIZVODJaSchAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_5_VETVJaSchIJSJa">
+      <rel_text>условию ветвления</rel_text>
+      <target>http://libmeta.ru/fme/article/376_VETVLENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_6_VETVJaSchIJSJa">
+      <rel_text>переходные вероятности</rel_text>
+      <target>http://libmeta.ru/fme/article/2216_PEREHODNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_7_VETVJaSchIJSJa">
+      <rel_text>Маркова с непрерывным временем</rel_text>
+      <target>http://libmeta.ru/fme/article/1713_MARKOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_8_VETVJaSchIJSJa">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_9_VETVJaSchIJSJa">
+      <rel_text>рассмотрим</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_10_VETVJaSchIJSJa">
+      <rel_text>распределения вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_11_VETVJaSchIJSJa">
+      <rel_text>производящие функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2401_PROIZVODJaSchAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_12_VETVJaSchIJSJa">
+      <rel_text>уравнения Колмогорова-Чепмена</rel_text>
+      <target>http://libmeta.ru/fme/article/1302_KOLMOGOROVA-ChEPMENA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_13_VETVJaSchIJSJa">
+      <rel_text>вероятностей случайной величины</rel_text>
+      <target>http://libmeta.ru/fme/article/2254_VEROJaTNOSTI,</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/378_14_VETVJaSchIJSJa">
+      <rel_text>функция для распределения</rel_text>
+      <target>http://libmeta.ru/fme/article/2539_RASPREDELENIJa</target>
+    </relation>
+  </relations>
+  <text>случайный процесс, описывающий эволюцию во времени, которая состоит из последовательности актов размножения и взаимного превращения каких-либо объектов друг в друга. Элемент случайности в эволюции системы связан как с неопределенностью момента события размножения (превращения), так и с неопределенностью типа этого события. Примерами явлений, изучаемых в физике, химии, биологии, к-рые могут быть описаны В. П., служат цепные реакции, размножение вторичных частиц при воздействии излучения на вещество (электронно-фотонные и нуклонные каскады), каскады распадов частиц, рост биологич. популяций. Основным свойством, К-рое математически характеризует В. п., является предположение о независимости событий размножения (превращения) друг от друга. Наиболее употребительны в приложениях марковские В. П. (см. URI[[http://libmeta.ru/fme/relation/378_2_VETVJaSchIJSJa]]/URI) и среди них наиболее изученными являются процессы однородные во времени. В. п. $URI[[http://libmeta.ru/fme/formula/aux/378_1_VETVJaSchIJSJa]]/URI$ можно рассматривать как при дискретном времени, $URI[[http://libmeta.ru/fme/formula/aux/378_2_VETVJaSchIJSJa]]/URI$ множество целых неотрицательных чисел), так и при непрерывном времени $URI[[http://libmeta.ru/fme/formula/aux/378_3_VETVJaSchIJSJa]]/URI$. Однородный марковский В. п. представляет собой однородную Маркова цепь при $URI[[http://libmeta.ru/fme/formula/aux/378_4_VETVJaSchIJSJa]]/URI$, либо цепь Маркова с непрерывным временем при $URI[[http://libmeta.ru/fme/formula/aux/378_5_VETVJaSchIJSJa]]/URI$ со счетным набором состояний. Напр., дискретный марковский В. П. $URI[[http://libmeta.ru/fme/formula/aux/378_6_VETVJaSchIJSJa]]/URI$ с одним типом частиц и одной частицей в начальном состоянии, когда значения $URI[[http://libmeta.ru/fme/formula/aux/378_7_VETVJaSchIJSJa]]/URI$ принадлежат $URI[[http://libmeta.ru/fme/formula/aux/378_8_VETVJaSchIJSJa]]/URI$, определяется условиями (процесс Гальтона-Ватсона)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/378_1_VETVJaSchIJSJa]]/URI
+\]
+
+Последнее условие называется условием ветвлен и я. Значение выборочных функций процесса интерпретируется как число частиц в момент $URI[[http://libmeta.ru/fme/formula/aux/378_9_VETVJaSchIJSJa]]/URI$. Так как процесс $URI[[http://libmeta.ru/fme/formula/aux/378_10_VETVJaSchIJSJa]]/URI$, по определению, должен быть марковским и поэтому $URI[[http://libmeta.ru/fme/formula/aux/378_11_VETVJaSchIJSJa]]/URI$ является матрицей условных вероятностей перехода из состояния $URI[[http://libmeta.ru/fme/formula/aux/378_12_VETVJaSchIJSJa]]/URI$ в состояние $URI[[http://libmeta.ru/fme/formula/aux/378_13_VETVJaSchIJSJa]]/URI$, то для производящей функции распределения вероятностей для числа частиц в $URI[[http://libmeta.ru/fme/formula/aux/378_14_VETVJaSchIJSJa]]/URI$-м поколении
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/378_2_VETVJaSchIJSJa]]/URI
+\]
+
+при условии $URI[[http://libmeta.ru/fme/formula/aux/378_15_VETVJaSchIJSJa]]/URI$, получается рекуррентное уравнение
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/378_3_VETVJaSchIJSJa]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/378_4_VETVJaSchIJSJa]]/URI
+\]
+
+- производящая URI[[http://libmeta.ru/fme/relation/378_14_VETVJaSchIJSJa]]/URI URI[[http://libmeta.ru/fme/relation/378_13_VETVJaSchIJSJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/378_16_VETVJaSchIJSJa]]/URI$. Это положение является типичным при изучении марковских В. п. Вместо изучения вероятностей перехода $URI[[http://libmeta.ru/fme/formula/aux/378_17_VETVJaSchIJSJa]]/URI$ на основе URI[[http://libmeta.ru/fme/relation/378_12_VETVJaSchIJSJa]]/URI удобнее изучать URI[[http://libmeta.ru/fme/relation/378_11_VETVJaSchIJSJa]]/URI для URI[[http://libmeta.ru/fme/relation/378_10_VETVJaSchIJSJa]]/URI значений процесса для каждого момента времени. Напр., URI[[http://libmeta.ru/fme/relation/378_9_VETVJaSchIJSJa]]/URI аналогичный приведенному выше марковский В. п. с непрерывным временем и одним типом URI[[http://libmeta.ru/fme/relation/378_8_VETVJaSchIJSJa]]/URI, к-рый определяется как однородная цепь URI[[http://libmeta.ru/fme/relation/378_7_VETVJaSchIJSJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/378_18_VETVJaSchIJSJa]]/URI$, URI[[http://libmeta.ru/fme/relation/378_6_VETVJaSchIJSJa]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/378_5_VETVJaSchIJSJa]]/URI
+\]
+
+к-рой удовлетворяют URI[[http://libmeta.ru/fme/relation/378_5_VETVJaSchIJSJa]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/378_6_VETVJaSchIJSJa]]/URI
+\]
+
+Для URI[[http://libmeta.ru/fme/relation/378_4_VETVJaSchIJSJa]]/URI имеет место функциональное уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/378_7_VETVJaSchIJSJa]]/URI
+\] Находят приложение в задачах математич. физики В. п., не являющиеся однородными, в К-рых учитывается «возраст» URI[[http://libmeta.ru/fme/relation/378_3_VETVJaSchIJSJa]]/URI, а также немарковские В. П. (см. URI[[http://libmeta.ru/fme/relation/378_1_VETVJaSchIJSJa]]/URI).</text>
+  <text_orig>случайный процесс, описывающий эволюцию во времени, которая состоит из последовательности актов размножения и взаимного превращения каких-либо объектов друг в друга. Элемент случайности в эволюции системы связан как с неопределенностью момента события размножения (превращения), так и с неопределенностью типа этого события. Примерами явлений, изучаемых в физике, химии, биологии, к-рые могут быть описаны В. П., служат цепные реакции, размножение вторичных частиц при воздействии излучения на вещество (электронно-фотонные и нуклонные каскады), каскады распадов частиц, рост биологич. популяций. Основным свойством, К-рое математически характеризует В. п., является предположение о независимости событий размножения (превращения) друг от друга. Наиболее употребительны в приложениях марковские В. П. (см. Марковский процесс) и среди них наиболее изученными являются процессы однородные во времени. В. п. $\{\xi(t)\}$ можно рассматривать как при дискретном времени, $t \in \mathbb{N}(\mathbb{N}-$ множество целых неотрицательных чисел), так и при непрерывном времени $t \in(0, \infty)$. Однородный марковский В. п. представляет собой однородную Маркова цепь при $t \in \mathbb{N}$, либо цепь Маркова с непрерывным временем при $t \in(0, \infty)$ со счетным набором состояний. Напр., дискретный марковский В. П. $\left\{\xi_{t}, t \in \mathbb{N}\right\}$ с одним типом частиц и одной частицей в начальном состоянии, когда значения $\xi_{t}$ принадлежат $\mathbb{N}$, определяется условиями (процесс Гальтона-Ватсона)
+
+\[
+\begin{gathered}
+\xi_{0}=1, \quad \mathrm{P}\left\{\xi_{1}=k\right\}=p_{k}, \quad \sum_{k=0}^{\infty} p_{k}=1, \\
+P_{j k}=\mathrm{P}\left\{\xi_{n+1}=k \mid \xi_{n}=j\right\}=\sum_{i_{1}+i_{2}+\ldots+i_{j}=k} p_{i_{1}} p_{i_{2}} \ldots p_{i_{j}} .
+\end{gathered}
+\]
+
+Последнее условие называется условием ветвлен и я. Значение выборочных функций процесса интерпретируется как число частиц в момент $t$. Так как процесс $\left\{\xi_{t}\right\}$, по определению, должен быть марковским и поэтому $P_{j k}$ является матрицей условных вероятностей перехода из состояния $j$ в состояние $k$, то для производящей функции распределения вероятностей для числа частиц в $n$-м поколении
+
+\[
+F_{t}(x)=\sum_{k=0}^{\infty} x^{k} \mathrm{P}\left\{\xi_{t}=k\right\}
+\]
+
+при условии $\xi_{0}=1$, получается рекуррентное уравнение
+
+где
+
+\[
+F_{t}(x)=F\left(F_{t-1}(x)\right)
+\]
+
+\[
+F(x)=\sum_{k=1}^{\infty} p_{k} x^{k}
+\]
+
+- производящая функция для распределения вероятностей случайной величины $\xi_{1}$. Это положение является типичным при изучении марковских В. п. Вместо изучения вероятностей перехода $\mathrm{P}\left\{\xi_{t+s}=k \mid \xi_{t}=j\right\}$ на основе уравнения Колмогорова-Чепмена удобнее изучать производящие функции для распределения вероятностей значений процесса для каждого момента времени. Напр., рассмотрим аналогичный приведенному выше марковский В. п. с непрерывным временем и одним типом частиц, к-рый определяется как однородная цепь Маркова с непрерывным временем $\{\xi(t), t \in(0, \infty)\}, \xi(t) \in \mathbb{N}$, переходные вероятности
+
+\[
+p_{j k}(t)=\mathrm{P}\left\{\xi\left(t+t_{0}\right)=k \mid \xi\left(t_{0}\right)=j\right\}
+\]
+
+к-рой удовлетворяют условию ветвления:
+
+\[
+p_{j k}(t)=\sum_{i_{1}+i_{2}+\ldots+i_{j}=k} p_{1 i_{1}}(t) p_{1 i_{2}}(t) \ldots p_{1 i_{j}}(t) .
+\]
+
+Для производящей функции имеет место функциональное уравнение
+
+\[
+F(t+s ; x)=F(t ; F(s ; x)) .
+\] Находят приложение в задачах математич. физики В. п., не являющиеся однородными, в К-рых учитывается «возраст» частиц, а также немарковские В. П. (см. Яноши уравнение).
+
+Лum.: [1] Ба руч а - Р и д А. Т., Элементы теории марковских процессов и их приложения, пер. с англ., М., 1969; [2] Се в астьян о в Б. А., Ветвящиеся процессы, М., 1971. Ю. П. Вирченко.</text_orig>
+</article>

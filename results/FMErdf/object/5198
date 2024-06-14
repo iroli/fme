@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_5198">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>d</mi><msub><mi>f</mi><mrow><mi>&#x003B1;</mi></mrow></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>&#x0003D;</mo><mo>&#x02212;</mo><msub><mo>&#x02211;</mo><mrow><mi>i</mi></mrow></msub><mfrac><mrow><mo>&#x02202;</mo></mrow><mrow><mo>&#x02202;</mo><msub><mi>v</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>f</mi><mrow><mi>&#x003B1;</mi></mrow></msub><mfrac><mrow><mo>&#x02202;</mo><msub><mi>h</mi><mrow><mi>&#x003B1;</mi></mrow></msub></mrow><mrow><mo>&#x02202;</mo><msub><mi>v</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002B;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><msub><mo>&#x02211;</mo><mrow><mi>i</mi><mo>&#x0002C;</mo><mi>j</mi></mrow></msub><mfrac><mrow><msup><mo>&#x02202;</mo><mrow><mn>2</mn></mrow></msup></mrow><mrow><mo>&#x02202;</mo><msub><mi>v</mi><mrow><mi>i</mi></mrow></msub><mo>&#x02202;</mo><msub><mi>v</mi><mrow><mi>j</mi></mrow></msub></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>f</mi><mrow><mi>&#x003B1;</mi></mrow></msub><mfrac><mrow><msup><mo>&#x02202;</mo><mrow><mn>2</mn></mrow></msup><msub><mi>g</mi><mrow><mi>&#x003B1;</mi></mrow></msub></mrow><mrow><mo>&#x02202;</mo><msub><mi>v</mi><mrow><mi>i</mi></mrow></msub><mo>&#x02202;</mo><msub><mi>v</mi><mrow><mi>j</mi></mrow></msub></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{d f_{\alpha}}{d t}=-\sum_{i} \frac{\partial}{\partial v_{i}}\left(f_{\alpha} \frac{\partial h_{\alpha}}{\partial v_{i}}\right)+\frac{1}{2} \sum_{i, j} \frac{\partial^{2}}{\partial v_{i} \partial v_{j}}\left(f_{\alpha} \frac{\partial^{2} g_{\alpha}}{\partial v_{i} \partial v_{j}}\right)$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

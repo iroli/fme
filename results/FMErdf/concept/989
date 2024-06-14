@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1891_NEJMANA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1891_NEJMANA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/989</core:url>
+    <lbm:descriptor><![CDATA[НЕЙМАНА ЗАДАЧА, ВТОРАЯ КРАЕВАЯ ЗАДАЧА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1473"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7935"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7936"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_378"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_602"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7937"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4521"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_626"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>одна из краевых задач для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">дифференциальных уравнений</a> с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частными</a> производными. Пусть, напр., в ограниченной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> $URI[[http://libmeta.ru/fme/formula/aux/1891_1_NEJMANA]]/URI$, в каждой точке границы $URI[[http://libmeta.ru/fme/formula/aux/1891_2_NEJMANA]]/URI$ к-рой существует нормаль, задано эллиптич. уравнение 2-го порядка<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7935">$$\begin{gathered}L u=\sum_{i, j=1}^{n} a_{i j}(x) \frac{\partial^{2} u(x)}{\partial x_{i} \partial x_{j}}+\sum_{i=1}^{n} b_{i}(x) \frac{\partial u(x)}{\partial x_{i}}+ \\+c(x) u(x)=f(x),\end{gathered}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1891_3_NEJMANA]]/URI$. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1891_NEJMANA">Задачей Неймана</a> для уравнения $URI[[http://libmeta.ru/fme/formula/aux/1891_4_NEJMANA]]/URI$ в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> $URI[[http://libmeta.ru/fme/formula/aux/1891_5_NEJMANA]]/URI$ называется следующая задача: из множества всех решений уравнения (*) требуется выделить те, к-рые в каждой граничной точке имеют производные по внутренней конормали $URI[[http://libmeta.ru/fme/formula/aux/1891_6_NEJMANA]]/URI$ и удовлетворяют условию<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7936">$$\left.\frac{\partial u(x, t)}{\partial N(x)}\right|_{x \in \Gamma}=\varphi(x)$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1891_7_NEJMANA]]/URI$ - заданная непрерывная функция.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1473">В. И. Битюцков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[одна из краевых задач для дифференциальных уравнений с частными производными. Пусть, напр., в ограниченной области $\Omega$, в каждой точке границы $\Gamma$ к-рой существует нормаль, задано эллиптич. уравнение 2-го порядка
+
+\[
+\begin{gathered}
+L u=\sum_{i, j=1}^{n} a_{i j}(x) \frac{\partial^{2} u(x)}{\partial x_{i} \partial x_{j}}+\sum_{i=1}^{n} b_{i}(x) \frac{\partial u(x)}{\partial x_{i}}+ \\
++c(x) u(x)=f(x),
+\end{gathered}
+\]
+
+где $x=\left(x_{1}, x_{2}, \ldots, x_{n}\right), n \geqslant 2$. Задачей Неймана для уравнения $(*)$ в области $\Omega$ называется следующая задача: из множества всех решений уравнения (*) требуется выделить те, к-рые в каждой граничной точке имеют производные по внутренней конормали $N$ и удовлетворяют условию
+
+\[
+\left.\frac{\partial u(x, t)}{\partial N(x)}\right|_{x \in \Gamma}=\varphi(x)
+\]
+
+где $\varphi(x)$ - заданная непрерывная функция. В. И. Битюцков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1891_NEJMANA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

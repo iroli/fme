@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/556_GEJZENBERGA" alphabetic_pos="556">
+  <title>ГЕЙЗЕНБЕРГА ГРУППА </title>
+  <authors>
+    <author>Ю. А. Неретин</author>
+  </authors>
+  <pages>
+    <start>122</start>
+    <end>122</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/556_1_GEJZENBERGA">\begin{gathered}\left(a_{1}, \ldots, a_{n}, b_{1}, \ldots, b_{n}, c\right)\left(a_{1}^{\prime}, \ldots, a_{n}^{\prime}, b_{1}^{\prime}, \ldots, b_{n}^{\prime}, c^{\prime}\right)= \\=\left(a_{1}+a_{1}^{\prime}, \ldots, a_{n}+a_{n}^{\prime}, b_{1}+b_{1}^{\prime}, \ldots, b_{n}+b_{n}^{\prime}, c+c^{\prime}+\sum a_{i} b_{i}^{\prime}\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/556_2_GEJZENBERGA">f\left(x_{1}, \ldots, x_{n}\right) \rightarrow f\left(x_{1}+a_{1}, \ldots, x_{n}+a_{n}\right) e^{i \lambda\left(\sum b_{i} x_{i}+c\right)} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/556_3_GEJZENBERGA">\begin{gathered}{\left[p_{i}, p_{j}\right]=\left[q_{i}, q_{j}\right]=\left[p_{i}, z\right]=0,} \\{\left[p_{i}, q_{j}\right]=\delta_{i j} z .}\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/556_1_GEJZENBERGA">(2 n+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/556_2_GEJZENBERGA">a_{1}, \ldots, a_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/556_3_GEJZENBERGA">b_{1}, \ldots, b_{n}, c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/556_4_GEJZENBERGA">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/556_5_GEJZENBERGA">l^{2}\left(\mathbb{r}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/556_6_GEJZENBERGA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/556_7_GEJZENBERGA">p_{1}, \ldots, p_{n}, q_{1}, \ldots, q_{n}, z</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/556_1_GEJZENBERGA">
+      <rel_text>алгебра</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/556_2_GEJZENBERGA">
+      <rel_text>Алгебра</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+  </relations>
+  <text>$URI[[http://libmeta.ru/fme/formula/aux/556_1_GEJZENBERGA]]/URI$-мерное действительное векторное пространство с координатами $URI[[http://libmeta.ru/fme/formula/aux/556_2_GEJZENBERGA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/556_3_GEJZENBERGA]]/URI$ и с операцией умножения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/556_1_GEJZENBERGA]]/URI
+\]
+
+Точные унитарные представления Г. г. нумеруются одним действительным параметром $URI[[http://libmeta.ru/fme/formula/aux/556_4_GEJZENBERGA]]/URI$ и реализуются в пространстве $URI[[http://libmeta.ru/fme/formula/aux/556_5_GEJZENBERGA]]/URI$ измеримых функций на $URI[[http://libmeta.ru/fme/formula/aux/556_6_GEJZENBERGA]]/URI$ с интегрируемым квадратом по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/556_2_GEJZENBERGA]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/556_2_GEJZENBERGA]]/URI Ли Г. г.- это URI[[http://libmeta.ru/fme/relation/556_1_GEJZENBERGA]]/URI с базисом $URI[[http://libmeta.ru/fme/formula/aux/556_7_GEJZENBERGA]]/URI$ и соотношениями коммутации
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/556_3_GEJZENBERGA]]/URI
+\]</text>
+  <text_orig>$(2 n+1)$-мерное действительное векторное пространство с координатами $a_{1}, \ldots, a_{n}$, $b_{1}, \ldots, b_{n}, c$ и с операцией умножения:
+
+\[
+\begin{gathered}
+\left(a_{1}, \ldots, a_{n}, b_{1}, \ldots, b_{n}, c\right)\left(a_{1}^{\prime}, \ldots, a_{n}^{\prime}, b_{1}^{\prime}, \ldots, b_{n}^{\prime}, c^{\prime}\right)= \\
+=\left(a_{1}+a_{1}^{\prime}, \ldots, a_{n}+a_{n}^{\prime}, b_{1}+b_{1}^{\prime}, \ldots, b_{n}+b_{n}^{\prime}, c+c^{\prime}+\sum a_{i} b_{i}^{\prime}\right) .
+\end{gathered}
+\]
+
+Точные унитарные представления Г. г. нумеруются одним действительным параметром $\lambda$ и реализуются в пространстве $L^{2}\left(\mathbb{R}^{n}\right)$ измеримых функций на $\mathbb{R}^{n}$ с интегрируемым квадратом по формуле
+
+\[
+f\left(x_{1}, \ldots, x_{n}\right) \rightarrow f\left(x_{1}+a_{1}, \ldots, x_{n}+a_{n}\right) e^{i \lambda\left(\sum b_{i} x_{i}+c\right)} .
+\]
+
+Алгебра Ли Г. г.- это алгебра с базисом $p_{1}, \ldots, p_{n}, q_{1}, \ldots, q_{n}, z$ и соотношениями коммутации
+
+\[
+\begin{gathered}
+{\left[p_{i}, p_{j}\right]=\left[q_{i}, q_{j}\right]=\left[p_{i}, z\right]=0,} \\
+{\left[p_{i}, q_{j}\right]=\delta_{i j} z .}
+\end{gathered}
+\]
+
+Ю. А. Неретин.</text_orig>
+</article>

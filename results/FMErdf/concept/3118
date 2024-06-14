@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_579_GENERATsIJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_579_GENERATsIJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3118</core:url>
+    <lbm:descriptor><![CDATA[ГЕНЕРАЦИЯ МАГНИТНОГО ПОЛЯ ТУРБУЛЕНТНОСТЬЮ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23253"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23255"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1019"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23256"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23257"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3080"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>процесс усиления или поддержания поля случайными движениями электропроводящей жидкости или газа. Наглядное представление об этом дает следующая модель («восьмерка» Зельдовича). Рассматривается начальное распределение поля в виде кольцеобразной петли магнитных линий длины $URI[[http://libmeta.ru/fme/formula/aux/579_1_GENERATsIJa]]/URI$ и площадью сечения $URI[[http://libmeta.ru/fme/formula/aux/579_2_GENERATsIJa]]/URI$, так что магнитный поток через него равен <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23256">$$h S$$</a>, где $URI[[http://libmeta.ru/fme/formula/aux/579_4_GENERATsIJa]]/URI$ - напряженность поля. Пусть движения растягивают петлю вдвое с сохранением объема <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23257">$$(l \rightarrow 2 L, S \rightarrow S / 2)$$</a> и магнитного потока, а затем сворачивают ее в восьмерку, накладывают одно кольцо восьмерки на другое и сливают их. В результате получается петля той же длины и сечения, что и исходная, но с удвоенным магнитным потоком и полем. При $URI[[http://libmeta.ru/fme/formula/aux/579_6_GENERATsIJa]]/URI$-кратном повторении процедуры поток и поле растут как $URI[[http://libmeta.ru/fme/formula/aux/579_7_GENERATsIJa]]/URI$. Модель может быть математически формализована, напр. в форме двумерного преобразования (с разрывом) типа известного «преобразования пекаря».<BR/></P><P>Способно ли заданное турбулентное течение (случайное распределение скорости) неограниченно долго усиливать или поддерживать магнитное поле? Известно, что для скалярной величины (температура, дым, примесь в турбулентном потоке) ответ отрицателен в силу принципа максимума, речь может идти только о временном усилении скаляра. (псевдо-) векторный характер магнитного поля дает возможность найти положительное решение проблемы. Методами теории случайных процессов доказано, что обновляющееся через конечное время случайное течение хорошо проводящей жидкости приводит к неограниченному экспоненциальному росту компактного начального распределе- ния магнитного поля (без учета обратного влияния поля на движение). Скорость роста (старший показатель Ляпунова) поля, описываемого уравнением параболич. типа, но с коэффициентами, зависящими от времени, является своеобразным аналогом старшего собственного значения. Распределение генерируемого поля (аналог собственной функции) оказывается перемежаемым: на фоне слабо растущего поля имеются редкие, но интенсивные концентрации в виде магнитных жгутов.<BR/></P><P>Если турбулентность отрицательно неинвариантна благодаря средней спиральности (среднее значение от скалярного произведения скорости на вихрь отлично от нуля), то наряду с флуктуационным распределением она способна генерировать и среднее магнитное поле с гладким распределением.<BR/></P><P>Г. м. П. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST">турбулентностью</a> важна для объяснения происхождения магнитных полей планет, звезд, галактик, а также представляет интерес при конструировании крупных технич. установок с жидкометаллич. массами, напр. ядерных реакторов-размножителей.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#23253">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#23252">Моффат Г. К.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#23253">Возбуждение магнитного поля в проводящей среде, пер. с англ., М., 1980</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#23255">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#23254">Молчаов С. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#15983">Рузмайкин А. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#15984">Соколов Д. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#23255">«успехи физич. наук», 1985, $\begin{array}{ll}\text { т. } 145 \text {, с. 593-628. } & \text { A. А. Рузмайкин. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[процесс усиления или поддержания поля случайными движениями электропроводящей жидкости или газа. Наглядное представление об этом дает следующая модель («восьмерка» Зельдовича). Рассматривается начальное распределение поля в виде кольцеобразной петли магнитных линий длины $L$ и площадью сечения $S$, так что магнитный поток через него равен $H S$, где $H$ - напряженность поля. Пусть движения растягивают петлю вдвое с сохранением объема $(L \rightarrow 2 L, S \rightarrow S / 2)$ и магнитного потока, а затем сворачивают ее в восьмерку, накладывают одно кольцо восьмерки на другое и сливают их. В результате получается петля той же длины и сечения, что и исходная, но с удвоенным магнитным потоком и полем. При $n$-кратном повторении процедуры поток и поле растут как $2^{n}$. Модель может быть математически формализована, напр. в форме двумерного преобразования (с разрывом) типа известного «преобразования пекаря».
+
+Способно ли заданное турбулентное течение (случайное распределение скорости) неограниченно долго усиливать или поддерживать магнитное поле? Известно, что для скалярной величины (температура, дым, примесь в турбулентном потоке) ответ отрицателен в силу принципа максимума, речь может идти только о временном усилении скаляра. (Псевдо-) векторный характер магнитного поля дает возможность найти положительное решение проблемы. Методами теории случайных процессов доказано, что обновляющееся через конечное время случайное течение хорошо проводящей жидкости приводит к неограниченному экспоненциальному росту компактного начального распределе- ния магнитного поля (без учета обратного влияния поля на движение). Скорость роста (старший показатель Ляпунова) поля, описываемого уравнением параболич. типа, но с коэффициентами, зависящими от времени, является своеобразным аналогом старшего собственного значения. Распределение генерируемого поля (аналог собственной функции) оказывается перемежаемым: на фоне слабо растущего поля имеются редкие, но интенсивные концентрации в виде магнитных жгутов.
+
+Если турбулентность отрицательно неинвариантна благодаря средней спиральности (среднее значение от скалярного произведения скорости на вихрь отлично от нуля), то наряду с флуктуационным распределением она способна генерировать и среднее магнитное поле с гладким распределением.
+
+Г. м. П. турбулентностью важна для объяснения происхождения магнитных полей планет, звезд, галактик, а также представляет интерес при конструировании крупных технич. установок с жидкометаллич. массами, напр. ядерных реакторов-размножителей.
+
+Лит.: [1] М о фф а т Г.К., Возбуждение магнитного поля в проводящей среде, пер. с англ., М., 1980; [2] М о л ч а о в С. А., Р у з м айкин А. А., Соколо в Д.Д., «Успехи физич. наук», 1985, $\begin{array}{ll}\text { т. } 145 \text {, с. 593-628. } & \text { A. А. Рузмайкин. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

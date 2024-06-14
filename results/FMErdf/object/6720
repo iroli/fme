@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_6720">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>k</mi><mrow><mi>I</mi></mrow></msub><mi>&#x003C6;</mi><mo>&#x0003D;</mo><msup><mi>e</mi><mrow><mfrac><mrow><mi>i</mi></mrow><mrow><mi>h</mi></mrow></mfrac><msubsup><mi>c</mi><mrow><mi>I</mi><mi>J</mi></mrow><mrow><mo stretchy="false">&#x00028;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo></mrow></msubsup><mo>&#x0002B;</mo><mi>i</mi><mi>&#x003C0;</mi><msubsup><mi>c</mi><mrow><mi>I</mi><mi>J</mi></mrow><mrow><mo stretchy="false">&#x00028;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo></mrow></msubsup></mrow></msup><msub><mi>k</mi><mrow><mi>J</mi></mrow></msub><mi>&#x003C6;</mi><mo>&#x0002B;</mo><mi>O</mi><mo stretchy="false">&#x00028;</mo><mi>h</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace width="1em" /><mi>&#x003C6;</mi><mo>&#x02208;</mo><msubsup><mi>C</mi><mrow><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>U</mi><mrow><mi>I</mi></mrow></msub><mo>&#x02229;</mo><msub><mi>U</mi><mrow><mi>J</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$k_{I} \varphi=e^{\frac{i}{h} c_{I J}^{(1)}+i \pi c_{I J}^{(2)}} k_{J} \varphi+O(h), \quad \varphi \in C_{0}^{\infty}\left(U_{I} \cap U_{J}\right)$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

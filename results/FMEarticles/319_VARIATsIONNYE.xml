@@ -1,0 +1,506 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/319_VARIATsIONNYE" alphabetic_pos="319">
+  <title>ВАРИАЦИОННЫЕ ПРИНЦИПЫ КЛАССИЧЕСКОЙ МЕХАНИКИ</title>
+  <authors>
+    <author>В. В. Румяниев</author>
+  </authors>
+  <pages>
+    <start>71</start>
+    <end>73</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Вариационные принципы механики, сб. статей, М., 1959; [2] Полак Л. С., Вариационные принципы механики, М., 1960; [3] Л а н ц ош К., Вариационные принципы механики, пер. с англ., М., 1965; [4] Нов ос елов В. С., Вариационные методы в механике, Л., 1966; [5] П а р с Л. А., Аналитическая динамика, пер. с англ., М., 1971; [6] Ч е т а е в Н. Г., Устойчивость движения. Работы по аналитической механике, М., 1971.</literature_orig>
+    <unit>
+      <title>Вариационные принципы механики, сб. статей</title>
+      <publication>М.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Полак Л. С.</author>
+      <title>Вариационные принципы механики</title>
+      <publication>М.</publication>
+      <year>1960</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ланцош К.</author>
+      <title>Вариационные принципы механики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Новоселов В. С.</author>
+      <title>Вариационные методы в механике</title>
+      <publication>Л.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Парс Л. А.</author>
+      <title>Аналитическая динамика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Четаев Н. Г.</author>
+      <title>Устойчивость движения. Работы по аналитической механике</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_1_VARIATsIONNYE">\sum_{i} R_{i} \delta r_{i}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_2_VARIATsIONNYE">\sum_{i}\left(F_{i}-m_{i} w_{i}\right) \delta r_{i}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_3_VARIATsIONNYE">\delta r_{i}=\frac{1}{2} \Delta w_{i}(d t)^{2}, \quad \Delta w=\frac{\delta v_{i}}{d t}-\frac{d v_{i}}{d t},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_4_VARIATsIONNYE">\Delta Z=0, \quad Z=\frac{1}{2} \sum_{i} \frac{m_{i}}{2}\left(w_{i}-\frac{F_{i}}{m_{i}}\right)^{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_5_VARIATsIONNYE">\varphi_{s}\left(t, r_{i}, \dot{r}_{i}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_6_VARIATsIONNYE">\sum_{i} \operatorname{grad} r_{i} \varphi_{s} \cdot \delta r_{i}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_7_VARIATsIONNYE">\sum_{i}\left(F_{i}-m_{i} w_{i}\right) \cdot \delta \dot{r}_{i}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_8_VARIATsIONNYE">r_{i}=r_{i}\left(t, q_{1}, \ldots, q_{n}\right), \quad n=3 N-k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_9_VARIATsIONNYE">L\left(t, q_{i}, \dot{q}_{i}\right)=T+U,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_10_VARIATsIONNYE">S=\int_{t_{0}}^{t_{1}} L d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_11_VARIATsIONNYE">\delta S=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_12_VARIATsIONNYE">S=\int_{t_{0}}^{t_{1}}\left(\sum_{i=1}^{n} p_{i} \dot{q}_{i}-H\right) d t,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_13_VARIATsIONNYE">H\left(t, q_{i}, p_{i}\right)=\sum_{i=1}^{n} \frac{\partial L}{\partial \dot{q}_{i}} \dot{q}_{i}-L</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_14_VARIATsIONNYE">\frac{d}{d t} \frac{\partial L}{\partial \dot{q}_{i}}-\frac{\partial L}{\partial q_{i}}=0, \quad i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_15_VARIATsIONNYE">\frac{d q_{i}}{d t}=\frac{\partial H}{\partial p_{i}}, \quad \frac{d p_{i}}{d t}=-\frac{\partial H}{\partial q_{i}}, \quad i=1, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_16_VARIATsIONNYE">v\left(t, q_{i}, q_{i 0}\right)=\int_{t_{0}}^{t} L d t .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_17_VARIATsIONNYE">\frac{\partial v}{\partial t}+H\left(t, q_{i}, \frac{\partial v}{\partial q_{i}}\right)=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_18_VARIATsIONNYE">p_{i}=\frac{\partial v}{\partial q_{i}}, \quad \beta_{i}=\frac{\partial v}{\partial \alpha_{i}}, \quad i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/319_19_VARIATsIONNYE">E=T-U=h .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_1_VARIATsIONNYE">r_{i}=r_{i}\left(t_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_2_VARIATsIONNYE">v_{i}\left(t_{0}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_3_VARIATsIONNYE">r_{i}\left(t_{0}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_4_VARIATsIONNYE">v_{i}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_5_VARIATsIONNYE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_6_VARIATsIONNYE">r_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_7_VARIATsIONNYE">o</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_8_VARIATsIONNYE">o x y z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_9_VARIATsIONNYE">v_{i}=\dot{r}_{i} ; \delta r_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_10_VARIATsIONNYE">f_{i}\left(t, r_{j}, \dot{r}_{j}\right) \in C^{1}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_11_VARIATsIONNYE">r_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_12_VARIATsIONNYE">m_{i} w_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_13_VARIATsIONNYE">m_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_14_VARIATsIONNYE">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_15_VARIATsIONNYE">w_{i}=\ddot{r}_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_16_VARIATsIONNYE">r_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_17_VARIATsIONNYE">v_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_18_VARIATsIONNYE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_19_VARIATsIONNYE">t+d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_20_VARIATsIONNYE">d v_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_21_VARIATsIONNYE">\delta v_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_22_VARIATsIONNYE">d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_23_VARIATsIONNYE">\delta^{2} Z&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_24_VARIATsIONNYE">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_25_VARIATsIONNYE">r_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_26_VARIATsIONNYE">\ddot{r}_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_27_VARIATsIONNYE">r_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_28_VARIATsIONNYE">\dot{r}_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_29_VARIATsIONNYE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_30_VARIATsIONNYE">\dot{r}_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_31_VARIATsIONNYE">r_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_32_VARIATsIONNYE">t+d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_33_VARIATsIONNYE">\delta \dot{r}_{i}=\delta \ddot{r}_{i} d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_34_VARIATsIONNYE">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_35_VARIATsIONNYE">(n+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_36_VARIATsIONNYE">\left(t, q_{1}, \ldots, q_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_37_VARIATsIONNYE">(2 n+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_38_VARIATsIONNYE">t, q_{i}, p_{i}=\partial L / \partial \dot{q}_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_39_VARIATsIONNYE">\left(t_{0}, t_{1}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_40_VARIATsIONNYE">q_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_41_VARIATsIONNYE">p_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_42_VARIATsIONNYE">v\left(t, q_{i}, \alpha_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_43_VARIATsIONNYE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_44_VARIATsIONNYE">\alpha_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_45_VARIATsIONNYE">\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_46_VARIATsIONNYE">p_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_47_VARIATsIONNYE">p_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_48_VARIATsIONNYE">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_49_VARIATsIONNYE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/319_50_VARIATsIONNYE">t</formula>
+  </formulas_aux>
+  <relations n="13">
+    <relation uri="http://libmeta.ru/fme/relation/319_1_VARIATsIONNYE">
+      <rel_text>Уравнения Лагранжа</rel_text>
+      <target>http://libmeta.ru/fme/article/1503_LAGRANZhA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_2_VARIATsIONNYE">
+      <rel_text>Якоби принцип стационарного действия</rel_text>
+      <target>http://libmeta.ru/fme/article/2944_STATsIONARNOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_3_VARIATsIONNYE">
+      <rel_text>Лагранжа принцип стационарного действия</rel_text>
+      <target>http://libmeta.ru/fme/article/1501_LAGRANZhA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_4_VARIATsIONNYE">
+      <rel_text>Гамильтона-Остроградского принцип стационарного действия</rel_text>
+      <target>http://libmeta.ru/fme/article/2942_STATsIONARNOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_5_VARIATsIONNYE">
+      <rel_text>Четаева принцип максимума работы</rel_text>
+      <target>http://libmeta.ru/fme/article/1701_MAKSIMUMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_6_VARIATsIONNYE">
+      <rel_text>лагранжев формализм</rel_text>
+      <target>http://libmeta.ru/fme/article/1513_LAGRANZhEV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_7_VARIATsIONNYE">
+      <rel_text>принципы наименьшего действия</rel_text>
+      <target>http://libmeta.ru/fme/article/1858_NAIMEN'ShEGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_8_VARIATsIONNYE">
+      <rel_text>механику</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_9_VARIATsIONNYE">
+      <rel_text>теорию относительности</rel_text>
+      <target>http://libmeta.ru/fme/article/2144_OTNOSITEL'NOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_10_VARIATsIONNYE">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_11_VARIATsIONNYE">
+      <rel_text>обладают</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_12_VARIATsIONNYE">
+      <rel_text>законы сохранения</rel_text>
+      <target>http://libmeta.ru/fme/article/2877_SOHRANENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/319_13_VARIATsIONNYE">
+      <rel_text>параметрами</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+  </relations>
+  <text>основные, исходные положения аналитической механики, математически выраженные в форме вариационных соотношений, из которых как логические следствия вытекают дифференциальные уравнения движения, а также все положения и законы механики. В В. п. К. м. действительные движения материальной системы, происходящие под действием заданных сил, сравниваются с кинематически возможными движениями, допускаемыми наложенными на систему связями и удовлетворяющими определенным условиям. В большинстве случаев признаком, по к-рому действительное движение выделяется из рассматриваемого класса кинематически возможных движений, служит условие экстремальности (стационарности) нек-рой скалярной функции или функционала, обеспечивающее инвариантность описания.
+
+В. п. к. м. отличаются один от другого как по форме и способам варьирования, так и по общности, но каждый из них, в рамках его приложимости, образует единую основу и как бы синтезирует всю механику соответствующих материальных систем. Иными словами, тот или иной из В. п. К. м. потенциально заключает в себе все содержание этой области науки и объединяет все ее положения в единой формулировке.
+
+Классич. механика основывается на законах Ньютона, установленных для свободных материальных точек, и аксиомах связей. Справедливость В. П. К. М. доказывается, исходя из этих законов и аксиом. В свою очередь, любой из В. п. К.м. можно принять за аксиому и из нее логически вывести законы механики.
+
+В. п. к. м. по форме подразделяются на дифференциальные и интегральные принципы. К дифференциальным принципам, характеризующим свойства движения для любого данного момента времени, относятся: принцип возможных перемещений, принципы Д'аламбера - Лагранжа, Гаусса, Герца, Четаева и Журдена. Интегральными принципами, характеризующими свойства движения на любых конечных промежутках времени, являются принципы наименьшего действия в формах Гамильтона - Остроградского, Лагранжа, Якоби и нек-рые другие.
+
+Первый из В. п.к. м.- принцип в о 3 м ож ных (в и р ту аль ных) пе ре м е ше н и й, применялся еще Г. Галилеем (g. Galilei, 1665). Первым, кто понял общность этого принципа и его полезность для решения задач статики, был И. Бернулли (j. Bernoulli, 1717). Принцип получил обоснование, существенное развитие и применение в «аналитической механике» Ж. Лагранжа (j. Lagrange, 1788), считавшего его основным для всей механики. Этот принцип позволяет находить положения равновесия системы материальных точек, то есть такие положения $URI[[http://libmeta.ru/fme/formula/aux/319_1_VARIATsIONNYE]]/URI$, в к-рых система будет оставаться все время, если она помещена в эти положения с нулевыми начальными скоростями $URI[[http://libmeta.ru/fme/formula/aux/319_2_VARIATsIONNYE]]/URI$ при условии, что $URI[[http://libmeta.ru/fme/formula/aux/319_3_VARIATsIONNYE]]/URI$ возможные положения и $URI[[http://libmeta.ru/fme/formula/aux/319_4_VARIATsIONNYE]]/URI$ - кинематически возможные скорости при любом $URI[[http://libmeta.ru/fme/formula/aux/319_5_VARIATsIONNYE]]/URI$. Здесь и далее $URI[[http://libmeta.ru/fme/formula/aux/319_6_VARIATsIONNYE]]/URI$ - радиус-векторы точек системы относительно начала $URI[[http://libmeta.ru/fme/formula/aux/319_7_VARIATsIONNYE]]/URI$ инерциальной системы координат $URI[[http://libmeta.ru/fme/formula/aux/319_8_VARIATsIONNYE]]/URI$, причем $URI[[http://libmeta.ru/fme/formula/aux/319_9_VARIATsIONNYE]]/URI$ возможные (виртуальные) перемещения, допускаемые в данный момент времени наложенными на систему связями, $URI[[http://libmeta.ru/fme/formula/aux/319_10_VARIATsIONNYE]]/URI$ заданные активные силы, $URI[[http://libmeta.ru/fme/formula/aux/319_11_VARIATsIONNYE]]/URI$ - реакции связей. Связи предполагаются идеальными и удерживающими, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_1_VARIATsIONNYE]]/URI
+\]
+
+См. также Возможных перемещений принцип .
+
+Для вывода уравнений динамики методами статики применяется так наз. пр и нц и п Д' Ала мбер а: если к действующим на точки материальной системы заданным (активным) силам и силам реакций связей присоединить силы инерции - $URI[[http://libmeta.ru/fme/formula/aux/319_12_VARIATsIONNYE]]/URI$, то такая система сил будет находиться в равновесии. Здесь $URI[[http://libmeta.ru/fme/formula/aux/319_13_VARIATsIONNYE]]/URI$ масса $URI[[http://libmeta.ru/fme/formula/aux/319_14_VARIATsIONNYE]]/URI$-й точки, $URI[[http://libmeta.ru/fme/formula/aux/319_15_VARIATsIONNYE]]/URI$ ее ускорение.
+
+Обобщение принципа Д'аламбера и принципа возможных перемещений было получено Ж. Лагранжем (1788).
+
+Общие теоремы динамики системы характеризуют нек-рые свойства движения, но, в отличие от В. п. к. м., ни одна из них в общем случае не в состоянии заменить всю систему дифференциальных уравнений движения и вполне охарактеризовать движение системы.
+
+Принцип Д'аламбера - Лагранжа является одним из наиболее общих В. П. к. м., справедливым как для голономных, так и для неголономных систем. Все другие В. П. К. М. представляют собой или иные формулировки этого принципа или следствия из него. Принцип Д’аламбера Лагранжа не связан, однако, с понятием экстремума какой-либо функции. В нем фигурирует бесконечно малая величина - сумма элементарных работ заданных сил и сил инерции на бесконечно малом возможном перемещении из заданной конфигурации, не представляющая собой вариации какой-либо функции,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_2_VARIATsIONNYE]]/URI
+\]
+
+См. также Д'аламбера - Лагранжа принцип .
+
+K. Гаусс (c. Gauss, 1829) предложил новый вариационный принцип, представляющий собой модификацию принципа Д'аламбера-Лагранжа (г а у с с а п р и н ц и п). Среди всех кинематически возможных движений рассматриваются мыслимые по Гауссу движения, удовлетворяющие условиям наложенных на систему связей и условиям постоянства $URI[[http://libmeta.ru/fme/formula/aux/319_16_VARIATsIONNYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/319_17_VARIATsIONNYE]]/URI$ для рассматриваемого момента времени $URI[[http://libmeta.ru/fme/formula/aux/319_18_VARIATsIONNYE]]/URI$. В момент $URI[[http://libmeta.ru/fme/formula/aux/319_19_VARIATsIONNYE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_3_VARIATsIONNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/319_20_VARIATsIONNYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/319_21_VARIATsIONNYE]]/URI$ обозначают изменения скоростей за промежуток времени $URI[[http://libmeta.ru/fme/formula/aux/319_22_VARIATsIONNYE]]/URI$ для действительного и какого-либо мыслимого движений; при этом уравнение (1) приводится к виду
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_4_VARIATsIONNYE]]/URI
+\]
+
+причем $URI[[http://libmeta.ru/fme/formula/aux/319_23_VARIATsIONNYE]]/URI$. Из принципа Гаусса при выражении $URI[[http://libmeta.ru/fme/formula/aux/319_24_VARIATsIONNYE]]/URI$ через независимые ускорения системы получаются Аппеля уравнения. Принцип Гаусса представляет собой физич. аналогию предложенному К. Гауссом методу наименьших квадратов теории ошибок. Принцип Гаусса эквивалентен принципу Д'аламбера - Лагранжа, однако при рассмотрении нелинейных дифференциальных связей вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_5_VARIATsIONNYE]]/URI
+\]
+
+эти принципы по П. Аппелю (р. Appell) и Э. Делассю (e. Delassus, 1911-13) оказались несовместимыми. Этот вопрос был разрешен Н. Г. Четаевым (1932-33), предложившим определять возможные перемещения для нелинейных связей условиями вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_6_VARIATsIONNYE]]/URI
+\]
+
+См. также Гаусса принцип наименьшего принуждения, Гаусса принцип наименьших реакций.
+
+K принципу Гаусса тесно примыкает принци п пря ме йше го пути (принци п Герца), постулированный Г. Герцем (g. Hertz, 1894) в качестве основного закона разработанной им механики, в к-рой, в отличие от механики Ньютона, вместо понятия силы введены представления о скрытых связях, скрытых массах и скрытых движениях. Принцип Герца эквивалентен принципу Гаусса для систем, стесненных стационарными связями и не подверженных действию активных сил (см. Герца принцип прямейшего пути).
+
+Н. Г. Четаев (1941) предложил видоизменение принципа Гаусса (см. URI[[http://libmeta.ru/fme/relation/319_5_VARIATsIONNYE]]/URI).
+
+Изложенные принципы по способам варьирования подразделяются на две группы: в принципах возможных перемещений и Д'аламбера - Лагранжа варьируется в нек-рый момент времени положение $URI[[http://libmeta.ru/fme/formula/aux/319_25_VARIATsIONNYE]]/URI$ системы, а в принципах Гаусса, Герца и Четаева варьируются ускорения $URI[[http://libmeta.ru/fme/formula/aux/319_26_VARIATsIONNYE]]/URI$ системы при постоянных $URI[[http://libmeta.ru/fme/formula/aux/319_27_VARIATsIONNYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/319_28_VARIATsIONNYE]]/URI$.
+
+Промежуточное место между этими двумя группами занимает пр инци п Журде на, в к-ром в момент $URI[[http://libmeta.ru/fme/formula/aux/319_29_VARIATsIONNYE]]/URI$ варьируются скорости $URI[[http://libmeta.ru/fme/formula/aux/319_30_VARIATsIONNYE]]/URI$ при постоянных $URI[[http://libmeta.ru/fme/formula/aux/319_31_VARIATsIONNYE]]/URI$. В момент $URI[[http://libmeta.ru/fme/formula/aux/319_32_VARIATsIONNYE]]/URI$ возможные перемещения $URI[[http://libmeta.ru/fme/formula/aux/319_33_VARIATsIONNYE]]/URI$, и уравнение (1) принимает вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_7_VARIATsIONNYE]]/URI
+\]
+
+В интегральных В. п.к. М. сравнение действительного и кинематически возможных движений производится для конечных промежутков времени. Именно, сравниваются значения нек-рых определенных интегралов (называемых действием), вычисляемых для действительного и кинематически возможных движений, удовлетворяющих определенным условиям, между нек-рыми двумя конечными положениями системы. Интегральные В. п.к. м. менее общи по сравнению с дифференциальными принципами и применимы главным образом к голономным системам, находящимся под действием потенциальных сил. Наиболее общим из них является принцип, установленный У. Гамильтоном (w. Hamilton, 1834-35) для случая стационарных голономных связей и обобщенный М. В. Остроградским (1848) на нестационарные геометрич. связи (см. URI[[http://libmeta.ru/fme/relation/319_4_VARIATsIONNYE]]/URI).
+
+Если уравнения геометрич. связей представить в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_8_VARIATsIONNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/319_34_VARIATsIONNYE]]/URI$ - число связей, и ввести Лагранжа функцию
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_9_VARIATsIONNYE]]/URI
+\]
+
+то действие
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_10_VARIATsIONNYE]]/URI
+\]
+
+При этом в расширенном $URI[[http://libmeta.ru/fme/formula/aux/319_35_VARIATsIONNYE]]/URI$-мерном координатном пространстве $URI[[http://libmeta.ru/fme/formula/aux/319_36_VARIATsIONNYE]]/URI$ равенство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_11_VARIATsIONNYE]]/URI
+\]
+
+соответствует обычной (непараметрической) задаче вариационного исчисления при закрепленных концах. В $URI[[http://libmeta.ru/fme/formula/aux/319_37_VARIATsIONNYE]]/URI$-мерном расширенном фазовом пространстве с ко- ординатами $URI[[http://libmeta.ru/fme/formula/aux/319_38_VARIATsIONNYE]]/URI$ равенство (3) соответствует вариационной задаче со свободными концами $URI[[http://libmeta.ru/fme/formula/aux/319_39_VARIATsIONNYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/319_40_VARIATsIONNYE]]/URI$ фиксированы, $URI[[http://libmeta.ru/fme/formula/aux/319_41_VARIATsIONNYE]]/URI$ свободны), причем
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_12_VARIATsIONNYE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_13_VARIATsIONNYE]]/URI
+\]
+
+- Гамильтона функция.
+
+Из уравнения (3) выводятся Лагранжа уравнения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_14_VARIATsIONNYE]]/URI
+\]
+
+и канонич. Гамильтона уравнения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_15_VARIATsIONNYE]]/URI
+\]
+
+Для решения основной задачи динамики достаточно знания функции действия
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_16_VARIATsIONNYE]]/URI
+\]
+
+Однако для определения функции действия по формуле (5) необходимо знание закона движения. Чтобы обойти эту трудность, У. Гамильтон нашел дифференциальное уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_17_VARIATsIONNYE]]/URI
+\]
+
+к-рому удовлетворяет функция действия.
+
+К. Якоби (с. Јacobi, 1837) показал, что если известен полный интеграл $URI[[http://libmeta.ru/fme/formula/aux/319_42_VARIATsIONNYE]]/URI$ уравнения (6), зависящий от $URI[[http://libmeta.ru/fme/formula/aux/319_43_VARIATsIONNYE]]/URI$ произвольных постоянных $URI[[http://libmeta.ru/fme/formula/aux/319_44_VARIATsIONNYE]]/URI$, из к-рых ни одна не является аддитивной, то общее решение уравнений (4) дается равенствами:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_18_VARIATsIONNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/319_45_VARIATsIONNYE]]/URI$ - произвольные постоянные.
+
+Для систем, стесненных стационарными связями и находящихся под действием потенциальных сил, не зависящих явно от времени, существует интеграл энергии
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/319_19_VARIATsIONNYE]]/URI
+\]
+
+Его существование позволяет ограничить множество сравниваемых кинематически возможных движений, переводящих систему из положения $URI[[http://libmeta.ru/fme/formula/aux/319_46_VARIATsIONNYE]]/URI$ в положение $URI[[http://libmeta.ru/fme/formula/aux/319_47_VARIATsIONNYE]]/URI$, движениями, при к-рых полная механич. энергия $URI[[http://libmeta.ru/fme/formula/aux/319_48_VARIATsIONNYE]]/URI$ имеет одно и то же фиксированное значение $URI[[http://libmeta.ru/fme/formula/aux/319_49_VARIATsIONNYE]]/URI$. В этом случае интеграл (7) можно рассматривать как неголономное условие и искать принцип механики в виде условного вариационного принципа. Эту задачу разрешил Ж. Лагранж (см. URI[[http://libmeta.ru/fme/relation/319_3_VARIATsIONNYE]]/URI).
+
+Для рассматриваемых систем исключением времени $URI[[http://libmeta.ru/fme/formula/aux/319_50_VARIATsIONNYE]]/URI$ с помощью интеграла энергии (5) К. Якоби (1837) получил новый В. п. К. М. (см. URI[[http://libmeta.ru/fme/relation/319_2_VARIATsIONNYE]]/URI).
+
+URI[[http://libmeta.ru/fme/relation/319_1_VARIATsIONNYE]]/URI или уравнения экстремалей вариационных принципов Гамильтона - Остроградского, Лагранжа и Якоби являются необходимыми условиями экстремума соответствующего интеграла, или де й с т в и я по Гамильтону, Лагранжу, Якоби. В случаях, когда выполняются достаточные условия минимума, эти интегралы в действительных движениях принимают минимальные значения. Вследствие этого интегральные В. п.К.м. называют также принципами наименьше го действия.
+
+Использование интегральных В. П. к. м. естественным образом приводит к понятию обобщенных решений и расширению классов функциональных пространств, в к-рых разыскиваются решения задач математич. физики.
+
+В. п. к. М. оказались применимыми не только к дискретным материальным системам, но и к системам с распределенными URI[[http://libmeta.ru/fme/relation/319_13_VARIATsIONNYE]]/URI, к сплошным средам; они играют
+
+\title{
+72 Вариационные
+} важную роль в теории поля и в математич. физике. С В. П. К. М. тесно связаны оптико-механич. аналогия, теория канонич. преобразований, теория групп Ли и URI[[http://libmeta.ru/fme/relation/319_12_VARIATsIONNYE]]/URI. В. П. К. м. URI[[http://libmeta.ru/fme/relation/319_11_VARIATsIONNYE]]/URI большой эвристической ценностью, они распространены и на другие URI[[http://libmeta.ru/fme/relation/319_10_VARIATsIONNYE]]/URI физики, в частности на URI[[http://libmeta.ru/fme/relation/319_9_VARIATsIONNYE]]/URI и на квантовую и волновую URI[[http://libmeta.ru/fme/relation/319_8_VARIATsIONNYE]]/URI, где важную роль играют URI[[http://libmeta.ru/fme/relation/319_7_VARIATsIONNYE]]/URI и связанные с ними URI[[http://libmeta.ru/fme/relation/319_6_VARIATsIONNYE]]/URI и гамильтонов формализм.</text>
+  <text_orig>основные, исходные положения аналитической механики, математически выраженные в форме вариационных соотношений, из которых как логические следствия вытекают дифференциальные уравнения движения, а также все положения и законы механики. В В. п. К. м. действительные движения материальной системы, происходящие под действием заданных сил, сравниваются с кинематически возможными движениями, допускаемыми наложенными на систему связями и удовлетворяющими определенным условиям. В большинстве случаев признаком, по к-рому действительное движение выделяется из рассматриваемого класса кинематически возможных движений, служит условие экстремальности (стационарности) нек-рой скалярной функции или функционала, обеспечивающее инвариантность описания.
+
+В. п. к. м. отличаются один от другого как по форме и способам варьирования, так и по общности, но каждый из них, в рамках его приложимости, образует единую основу и как бы синтезирует всю механику соответствующих материальных систем. Иными словами, тот или иной из В. п. К. м. потенциально заключает в себе все содержание этой области науки и объединяет все ее положения в единой формулировке.
+
+Классич. механика основывается на законах Ньютона, установленных для свободных материальных точек, и аксиомах связей. Справедливость В. П. К. М. доказывается, исходя из этих законов и аксиом. В свою очередь, любой из В. п. К.м. можно принять за аксиому и из нее логически вывести законы механики.
+
+В. п. к. м. по форме подразделяются на дифференциальные и интегральные принципы. К дифференциальным принципам, характеризующим свойства движения для любого данного момента времени, относятся: принцип возможных перемешений, принципы Д'Аламбера - Лагранжа, Гаусса, Герца, Четаева и Журдена. Интегральными принципами, характеризующими свойства движения на любых конечных промежутках времени, являются принципы наименьшего действия в формах Гамильтона - Остроградского, Лагранжа, Якоби и нек-рые другие.
+
+Первый из В. п.к. м.- принцип в о 3 м ож ных (в и р ту аль ных) пе ре м е ше н и й, применялся еще Г. Галилеем (G. Galilei, 1665). Первым, кто понял общность этого принципа и его полезность для решения задач статики, был И. Бернулли (J. Bernoulli, 1717). Принцип получил обоснование, существенное развитие и применение в «Аналитической механике» Ж. Лагранжа (J. Lagrange, 1788), считавшего его основным для всей механики. Этот принцип позволяет находить положения равновесия системы материальных точек, то есть такие положения $r_{i}=r_{i}\left(t_{0}\right)$, в к-рых система будет оставаться все время, если она помещена в эти положения с нулевыми начальными скоростями $v_{i}\left(t_{0}\right)=0$ при условии, что $r_{i}\left(t_{0}\right)-$ возможные положения и $v_{i}=0$ - кинематически возможные скорости при любом $t$. Здесь и далее $r_{i}$ - радиус-векторы точек системы относительно начала $O$ инерциальной системы координат $O x y z$, причем $v_{i}=\dot{r}_{i} ; \delta r_{i}-$ возможные (виртуальные) перемещения, допускаемые в данный момент времени наложенными на систему связями, $F_{i}\left(t, r_{j}, \dot{r}_{j}\right) \in C^{1}-$ заданные активные силы, $R_{i}$ - реакции связей. Связи предполагаются идеальными и удерживающими, то есть
+
+\[
+\sum_{i} R_{i} \delta r_{i}=0 .
+\]
+
+См. также Возможных перемещений принцип .
+
+Для вывода уравнений динамики методами статики применяется так наз. пр и нц и п Д' Ала мбер а: если к действующим на точки материальной системы заданным (активным) силам и силам реакций связей присоединить силы инерции - $m_{i} w_{i}$, то такая система сил будет находиться в равновесии. Здесь $m_{i}-$ масса $i$-й точки, $w_{i}=\ddot{r}_{i}-$ ее ускорение.
+
+Обобщение принципа Д'Аламбера и принципа возможных перемещений было получено Ж. Лагранжем (1788).
+
+Общие теоремы динамики системы характеризуют нек-рые свойства движения, но, в отличие от В. п. к. м., ни одна из них в общем случае не в состоянии заменить всю систему дифференциальных уравнений движения и вполне охарактеризовать движение системы.
+
+Принцип Д'Аламбера - Лагранжа является одним из наиболее общих В. П. к. м., справедливым как для голономных, так и для неголономных систем. Все другие В. П. К. М. представляют собой или иные формулировки этого принципа или следствия из него. Принцип Д’Аламбера Лагранжа не связан, однако, с понятием экстремума какой-либо функции. В нем фигурирует бесконечно малая величина - сумма элементарных работ заданных сил и сил инерции на бесконечно малом возможном перемещении из заданной конфигурации, не представляющая собой вариации какой-либо функции,
+
+\[
+\sum_{i}\left(F_{i}-m_{i} w_{i}\right) \delta r_{i}=0 .
+\]
+
+См. также Д'Аламбера - Лагранжа принцип .
+
+K. Гаусc (C. Gauss, 1829) предложил новый вариационный принцип, представляющий собой модификацию принципа Д'Аламбера-Лагранжа (Г а у с с а п р и н ц и п). Среди всех кинематически возможных движений рассматриваются мыслимые по Гауссу движения, удовлетворяющие условиям наложенных на систему связей и условиям постоянства $r_{i}$ и $v_{i}$ для рассматриваемого момента времени $t$. В момент $t+d t$ :
+
+\[
+\delta r_{i}=\frac{1}{2} \Delta w_{i}(d t)^{2}, \quad \Delta w=\frac{\delta v_{i}}{d t}-\frac{d v_{i}}{d t},
+\]
+
+где $d v_{i}$ и $\delta v_{i}$ обозначают изменения скоростей за промежуток времени $d t$ для действительного и какого-либо мыслимого движений; при этом уравнение (1) приводится к виду
+
+\[
+\Delta Z=0, \quad Z=\frac{1}{2} \sum_{i} \frac{m_{i}}{2}\left(w_{i}-\frac{F_{i}}{m_{i}}\right)^{2},
+\]
+
+причем $\Delta^{2} Z&gt;0$. Из принципа Гаусса при выражении $Z$ через независимые ускорения системы получаются Anпеля уравнения. Принцип Гаусса представляет собой физич. аналогию предложенному К. Гауссом методу наименьших квадратов теории ошибок. Принцип Гаусса эквивалентен принципу Д'Аламбера - Лагранжа, однако при рассмотрении нелинейных дифференциальных связей вида
+
+\[
+\varphi_{s}\left(t, r_{i}, \dot{r}_{i}\right)=0
+\]
+
+эти принципы по П. Аппелю (Р. Appell) и Э. Делассю (E. Delassus, 1911-13) оказались несовместимыми. Этот вопрос был разрешен Н. Г. Четаевым (1932-33), предложившим определять возможные перемещения для нелинейных связей условиями вида
+
+\[
+\sum_{i} \operatorname{grad} r_{i} \varphi_{s} \cdot \delta r_{i}=0
+\]
+
+См. также Гаусса принцип наименышего принуждения, Гаусса принцип наименьших реакций.
+
+K принципу Гаусса тесно примыкает принци п пря ме йше го пути (принци п Герца), постулированный Г. Герцем (G. Hertz, 1894) в качестве основного закона разработанной им механики, в к-рой, в отличие от механики Ньютона, вместо понятия силы введены представления о скрытых связях, скрытых массах и скрытых движениях. Принцип Герца эквивалентен принципу Гаусса для систем, стесненных стационарными связями и не подверженных действию активных сил (см. Герца принцип прямейшего пути).
+
+Н. Г. Четаев (1941) предложил видоизменение принципа Гаусса (см. Четаева принцип максимума работы).
+
+Изложенные принципы по способам варьирования подразделяются на две группы: в принципах возможных перемещений и Д'Аламбера - Лагранжа варьируется в нек-рый момент времени положение $r_{i}$ системы, а в принципах Гаусса, Герца и Четаева варьируются ускорения $\ddot{r}_{i}$ системы при постоянных $r_{i}$ и $\dot{r}_{i}$.
+
+Промежуточное место между этими двумя группами занимает пр инци п Журде на, в к-ром в момент $t$ варьируются скорости $\dot{r}_{i}$ при постоянных $r_{i}$. В момент $t+d t$ возможные перемещения $\delta \dot{r}_{i}=\delta \ddot{r}_{i} d t$, и уравнение (1) принимает вид:
+
+\[
+\sum_{i}\left(F_{i}-m_{i} w_{i}\right) \cdot \delta \dot{r}_{i}=0 .
+\]
+
+В интегральных В. п.к. М. сравнение действительного и кинематически возможных движений производится для конечных промежутков времени. Именно, сравниваются значения нек-рых определенных интегралов (называемых действием), вычисляемых для действительного и кинематически возможных движений, удовлетворяюших определенным условиям, между нек-рыми двумя конечными положениями системы. Интегральные В. п.к. м. менее общи по сравнению с дифференциальными принципами и применимы главным образом к голономным системам, находящимся под действием потенциальных сил. Наиболее общим из них является принцип, установленный У. Гамильтоном (W. Hamilton, 1834-35) для случая стационарных голономных связей и обобщенный М. В. Остроградским (1848) на нестационарные геометрич. связи (см. Гамильтона-Остроградского принцип стационарного действия).
+
+Если уравнения геометрич. связей представить в виде
+
+\[
+r_{i}=r_{i}\left(t, q_{1}, \ldots, q_{n}\right), \quad n=3 N-k
+\]
+
+где $k$ - число связей, и ввести Лагранжа функцию
+
+\[
+L\left(t, q_{i}, \dot{q}_{i}\right)=T+U,
+\]
+
+то действие
+
+\[
+S=\int_{t_{0}}^{t_{1}} L d t
+\]
+
+При этом в расширенном $(n+1)$-мерном координатном пространстве $\left(t, q_{1}, \ldots, q_{n}\right)$ равенство
+
+\[
+\delta S=0
+\]
+
+соответствует обычной (непараметрической) задаче вариационного исчисления при закрепленных концах. В $(2 n+1)$-мерном расширенном фазовом пространстве с ко- ординатами $t, q_{i}, p_{i}=\partial L / \partial \dot{q}_{i}$ равенство (3) соответствует вариационной задаче со свободными концами $\left(t_{0}, t_{1}\right.$ и $q_{i}-$ фиксированы, $p_{i}-$ свободны), причем
+
+\[
+S=\int_{t_{0}}^{t_{1}}\left(\sum_{i=1}^{n} p_{i} \dot{q}_{i}-H\right) d t,
+\]
+
+где
+
+\[
+H\left(t, q_{i}, p_{i}\right)=\sum_{i=1}^{n} \frac{\partial L}{\partial \dot{q}_{i}} \dot{q}_{i}-L
+\]
+
+- Гамильтона функция.
+
+Из уравнения (3) выводятся Лагранжа уравнения:
+
+\[
+\frac{d}{d t} \frac{\partial L}{\partial \dot{q}_{i}}-\frac{\partial L}{\partial q_{i}}=0, \quad i=1, \ldots, n,
+\]
+
+и канонич. Гамильтона уравнения:
+
+\[
+\frac{d q_{i}}{d t}=\frac{\partial H}{\partial p_{i}}, \quad \frac{d p_{i}}{d t}=-\frac{\partial H}{\partial q_{i}}, \quad i=1, \ldots, n .
+\]
+
+Для решения основной задачи динамики достаточно знания функции действия
+
+\[
+v\left(t, q_{i}, q_{i 0}\right)=\int_{t_{0}}^{t} L d t .
+\]
+
+Однако для определения функции действия по формуле (5) необходимо знание закона движения. Чтобы обойти эту трудность, У. Гамильтон нашел дифференциальное уравнение
+
+\[
+\frac{\partial v}{\partial t}+H\left(t, q_{i}, \frac{\partial v}{\partial q_{i}}\right)=0,
+\]
+
+к-рому удовлетворяет функция действия.
+
+К. Якоби (С. Јacobi, 1837) показал, что если известен полный интеграл $v\left(t, q_{i}, \alpha_{i}\right)$ уравнения (6), зависяший от $n$ произвольных постоянных $\alpha_{i}$, из к-рых ни одна не является аддитивной, то общее решение уравнений (4) дается равенствами:
+
+\[
+p_{i}=\frac{\partial v}{\partial q_{i}}, \quad \beta_{i}=\frac{\partial v}{\partial \alpha_{i}}, \quad i=1, \ldots, n,
+\]
+
+где $\beta_{i}$ - произвольные постоянные.
+
+Для систем, стесненных стационарными связями и находящихся под действием потенциальных сил, не зависящих явно от времени, существует интеграл энергии
+
+\[
+E=T-U=h .
+\]
+
+Его существование позволяет ограничить множество сравниваемых кинематически возможных движений, переводяших систему из положения $P_{0}$ в положение $P_{1}$, движениями, при к-рых полная механич. энергия $E$ имеет одно и то же фиксированное значение $h$. В этом случае интеграл (7) можно рассматривать как неголономное условие и искать принцип механики в виде условного вариационного принципа. Эту задачу разрешил Ж. Лагранж (см. Лагранжа принцип стационарного действия).
+
+Для рассматриваемых систем исключением времени $t$ с помощью интеграла энергии (5) К. Якоби (1837) получил новый В. п. К. М. (см. Якоби принцип стационарного действия).
+
+Уравнения Лагранжа или уравнения экстремалей вариационных принципов Гамильтона - Остроградского, Лагранжа и Якоби являются необходимыми условиями экстремума соответствующего интеграла, или де й с т в и я по Гамильтону, Лагранжу, Якоби. В случаях, когда выполняются достаточные условия минимума, эти интегралы в действительных движениях принимают минимальные значения. Вследствие этого интегральные В. п.К.м. называют также принципами наименьше го действия.
+
+Использование интегральных В. П. к. м. естественным образом приводит к понятию обобщенных решений и расширению классов функциональных пространств, в к-рых разыскиваются решения задач математич. физики.
+
+В. п. к. М. оказались применимыми не только к дискретным материальным системам, но и к системам с распределенными параметрами, к сплошным средам; они играют
+
+\title{
+72 ВАРИАЦИОННЫЕ
+} важную роль в теории поля и в математич. физике. С В. П. К. М. тесно связаны оптико-механич. аналогия, теория канонич. преобразований, теория групп Ли и законы сохранения. В. П. К. м. обладают большой эвристической ценностью, они распространены и на другие области физики, в частности на теорию относительности и на квантовую и волновую механику, где важную роль играют принципы наименьшего действия и связанные с ними лагранжев формализм и гамильтонов формализм.
+
+Лum.: [1] Вариационные принципы механики, сб. статей, М., 1959; [2] Полак Л. С., Вариационные принципы механики, М., 1960; [3] Л а н ц ош К., Вариационные принципы механики, пер. с англ., М., 1965; [4] Нов ос елов В. С., Вариационные методы в механике, Л., 1966; [5] П а р с Л. А., Аналитическая динамика, пер. с англ., М., 1971; [6] Ч е т а е в Н. Г., Устойчивость движения. Работы по аналитической механике, М., 1971. В. В. Румяниев.</text_orig>
+</article>

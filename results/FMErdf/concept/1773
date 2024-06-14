@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2597_REJNOL'DSA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2597_REJNOL'DSA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1773</core:url>
+    <lbm:descriptor><![CDATA[РЕЙНОЛЬДСА ЧИСЛО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13304"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_115"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1539"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2260"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13305"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13306"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>один из Критериев подобия для течений вязких жидкостей и газов, характеризующий соотношение между инерционными силами и силами вязкости:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13304">$$\operatorname{Re}=\rho v l / \mu,$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2597_1_REJNOL'DSA]]/URI$ - плотность, $URI[[http://libmeta.ru/fme/formula/aux/2597_2_REJNOL'DSA]]/URI$ - динамический коэффициент вязкости жидкости или газа, $URI[[http://libmeta.ru/fme/formula/aux/2597_3_REJNOL'DSA]]/URI$ характерная скорость потока, $URI[[http://libmeta.ru/fme/formula/aux/2597_4_REJNOL'DSA]]/URI$ характерный линейный размер. От Р. ч. зависит также режим течения жидкости, характеризуемый так наз. критическим Р.ч. Re кр. При $URI[[http://libmeta.ru/fme/formula/aux/2597_5_REJNOL'DSA]]/URI$ возможно лишь ламинарное течение жидкости, a при $URI[[http://libmeta.ru/fme/formula/aux/2597_6_REJNOL'DSA]]/URI$ течение может стать турбулентным.<BR/></P><P>Р. ч. названо по имени О. Рейнольдса (o. Reynolds).<BR/></P><P>\section{а. С. Монин.}<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[один из Критериев подобия для течений вязких жидкостей и газов, характеризуюший соотношение между инерционными силами и силами вязкости:
+
+\[
+\operatorname{Re}=\rho v l / \mu,
+\]
+
+где $\rho$ - плотность, $\mu$ - динамический коэффициент вязкости жидкости или газа, $v-$ характерная скорость потока, $l-$ характерный линейный размер. От Р. ч. зависит также режим течения жидкости, характеризуемый так наз. критическим Р.ч. Re кр. При $\operatorname{Re}<\operatorname{Re}_{\text {кр }}$ возможно лишь ламинарное течение жидкости, a при $\operatorname{Re}>\operatorname{Re}_{\text {кр }}$ течение может стать турбулентным.
+
+Р. ч. названо по имени О. Рейнольдса (O. Reynolds).
+
+\section{А. С. Монин.}]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

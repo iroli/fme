@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2825_SMEShANNAJa" alphabetic_pos="2827">
+  <title>СМЕШАННАЯ ЗАДАЧА, ТРЕТЬЯ КРАЕВАЯ ЗАДАЧА</title>
+  <authors/>
+  <pages>
+    <start>548</start>
+    <end>548</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2825_1_SMEShANNAJa">\begin{aligned}L u=\sum_{i, j=1}^{n} a_{i j}(x) \frac{\partial^{2} u(x)}{\partial x_{i} \partial x_{j}}+\sum_{i=1}^{n} b_{i}(x) \frac{\partial u(x)}{\partial x_{i}}+ \\+c(x) u(x)=f(x),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2825_2_SMEShANNAJa">\frac{\partial u(x)}{\partial N}+\alpha(x) u(x)=v(x), \quad x \in \Gamma,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_1_SMEShANNAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_2_SMEShANNAJa">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_3_SMEShANNAJa">x=\left(x_{1}, x_{2}, \ldots, x_{n}\right), n \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_4_SMEShANNAJa">\left({ }^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_5_SMEShANNAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_6_SMEShANNAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_7_SMEShANNAJa">(*)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_8_SMEShANNAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_9_SMEShANNAJa">\alpha&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_10_SMEShANNAJa">v-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2825_11_SMEShANNAJa">\gamma</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2825_1_SMEShANNAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2825_2_SMEShANNAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2825_3_SMEShANNAJa">
+      <rel_text>частными</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2825_4_SMEShANNAJa">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>одна из краевых задач для URI[[http://libmeta.ru/fme/relation/2825_4_SMEShANNAJa]]/URI с URI[[http://libmeta.ru/fme/relation/2825_3_SMEShANNAJa]]/URI производными. Пусть, напр., в ограниченной URI[[http://libmeta.ru/fme/relation/2825_2_SMEShANNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2825_1_SMEShANNAJa]]/URI$, в каждой точке границы $URI[[http://libmeta.ru/fme/formula/aux/2825_2_SMEShANNAJa]]/URI$ к-рой существует нормаль, задано эллиптич. уравнение 2-го порядка
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2825_1_SMEShANNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2825_3_SMEShANNAJa]]/URI$. С м е ш а н н о й 3 а д а ч е й для уравнения $URI[[http://libmeta.ru/fme/formula/aux/2825_4_SMEShANNAJa]]/URI$ в URI[[http://libmeta.ru/fme/relation/2825_1_SMEShANNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2825_5_SMEShANNAJa]]/URI$ называется следующая задача: из множества всех решений $URI[[http://libmeta.ru/fme/formula/aux/2825_6_SMEShANNAJa]]/URI$ уравнения $URI[[http://libmeta.ru/fme/formula/aux/2825_7_SMEShANNAJa]]/URI$ выделить те, К-рые в каждой граничной точке имеют производные по внутренней конормали $URI[[http://libmeta.ru/fme/formula/aux/2825_8_SMEShANNAJa]]/URI$ и удовлетворяют условию
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2825_2_SMEShANNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2825_9_SMEShANNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2825_10_SMEShANNAJa]]/URI$ заданные непрерывные на $URI[[http://libmeta.ru/fme/formula/aux/2825_11_SMEShANNAJa]]/URI$ функции.</text>
+  <text_orig>одна из краевых задач для дифференциальных уравнений с частными производными. Пусть, напр., в ограниченной области $\Omega$, в каждой точке границы $\Gamma$ к-рой существует нормаль, задано эллиптич. уравнение 2-го порядка
+
+\[
+\begin{aligned}
+L u=\sum_{i, j=1}^{n} a_{i j}(x) \frac{\partial^{2} u(x)}{\partial x_{i} \partial x_{j}}+\sum_{i=1}^{n} b_{i}(x) \frac{\partial u(x)}{\partial x_{i}}+ \\
++c(x) u(x)=f(x),
+\end{aligned}
+\]
+
+где $x=\left(x_{1}, x_{2}, \ldots, x_{n}\right), n \geqslant 2$. С м е ш а н н о й 3 а д а ч е й для уравнения $\left({ }^{*}\right)$ в области $\Omega$ называется следующая задача: из множества всех решений $u(x)$ уравнения $(*)$ выделить те, К-рые в каждой граничной точке имеют производные по внутренней конормали $N$ и удовлетворяют условию
+
+\[
+\frac{\partial u(x)}{\partial N}+\alpha(x) u(x)=v(x), \quad x \in \Gamma,
+\]
+
+где $\alpha&gt;0$ и $v-$ заданные непрерывные на $\Gamma$ функции.</text_orig>
+</article>

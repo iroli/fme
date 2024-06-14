@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1738_MATVEEVA-ITSA" alphabetic_pos="1740">
+  <title>МАТВЕЕВА-ИТСА ФОРМУЛА</title>
+  <authors>
+    <author>С. Ю. Доброхотов</author>
+  </authors>
+  <pages>
+    <start>352</start>
+    <end>352</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Итс А.Р., Матв е е в В. Б., «теоретич. и математич. физика», 1975, т. 23, в. 1, с. 51-64; [2] 3 ахаров В. Е., Манак о в С. В., Н о в и ко в С. П., П и т а е в ск и й Л. П., Теория солитонов, M., 1980.</literature_orig>
+    <unit>
+      <author>Итс А. Р.</author>
+      <author>Матвеев В. Б.</author>
+      <title>«теоретич. и математич. физика»</title>
+      <publication/>
+      <year>1975</year>
+      <other>т. 23, в. 1, с. 51-64</other>
+    </unit>
+    <unit>
+      <author>3ахаров В. Е.</author>
+      <author>Манаков С. В.</author>
+      <author>Новиков С. П.</author>
+      <author>Питаевский Л. П.</author>
+      <title>Теория солитонов</title>
+      <publication>M.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1738_1_MATVEEVA-ITSA">u_{t}-6 u u_{x}+u_{x x x}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1738_2_MATVEEVA-ITSA">E=\left(E_{1}, \ldots, E_{2 l+1}\right), E_{1}&lt;E_{2}&lt;\ldots&lt;E_{2 l+1}, z=\left(z_{1}, \ldots, z_{l}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1738_3_MATVEEVA-ITSA">u(x, t)=C(E)-\partial^{2} / \partial x^{2} \ln \theta(U x+V t+z, E) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_1_MATVEEVA-ITSA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_2_MATVEEVA-ITSA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_3_MATVEEVA-ITSA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_4_MATVEEVA-ITSA">3 l+1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_5_MATVEEVA-ITSA">\theta(p, E)=\sum \exp (\operatorname{inp}+i n B(E) n / 2)-l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_6_MATVEEVA-ITSA">\theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_7_MATVEEVA-ITSA">p=\left(p_{1}, \ldots, p_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_8_MATVEEVA-ITSA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_9_MATVEEVA-ITSA">n \doteq\left(n_{1}, \ldots, n_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_10_MATVEEVA-ITSA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_11_MATVEEVA-ITSA">u=u(e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_12_MATVEEVA-ITSA">v=v(e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_13_MATVEEVA-ITSA">c(e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_14_MATVEEVA-ITSA">(l \times l)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_15_MATVEEVA-ITSA">b(e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1738_16_MATVEEVA-ITSA">e</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1738_1_MATVEEVA-ITSA">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1738_2_MATVEEVA-ITSA">
+      <rel_text>гиперэллиптич</rel_text>
+      <target>http://libmeta.ru/fme/article/636_GIPERPOLODI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1738_3_MATVEEVA-ITSA">
+      <rel_text>частью</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1738_4_MATVEEVA-ITSA">
+      <rel_text>параметров</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+  </relations>
+  <text>формула для почти периодического по $URI[[http://libmeta.ru/fme/formula/aux/1738_1_MATVEEVA-ITSA]]/URI$ и по $URI[[http://libmeta.ru/fme/formula/aux/1738_2_MATVEEVA-ITSA]]/URI$ решения $URI[[http://libmeta.ru/fme/formula/aux/1738_3_MATVEEVA-ITSA]]/URI$ Кортевега - де Фриса уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1738_1_MATVEEVA-ITSA]]/URI
+\]
+
+Такие решения, зависящие от $URI[[http://libmeta.ru/fme/formula/aux/1738_4_MATVEEVA-ITSA]]/URI$ URI[[http://libmeta.ru/fme/relation/1738_4_MATVEEVA-ITSA]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1738_2_MATVEEVA-ITSA]]/URI
+\]
+
+определяются формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1738_3_MATVEEVA-ITSA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1738_5_MATVEEVA-ITSA]]/URI$-мерная $URI[[http://libmeta.ru/fme/formula/aux/1738_6_MATVEEVA-ITSA]]/URI$-функция Римана, $URI[[http://libmeta.ru/fme/formula/aux/1738_7_MATVEEVA-ITSA]]/URI$, суммирование проводится по $URI[[http://libmeta.ru/fme/formula/aux/1738_8_MATVEEVA-ITSA]]/URI$-мерным целочисленным векторам $URI[[http://libmeta.ru/fme/formula/aux/1738_9_MATVEEVA-ITSA]]/URI$. Элементы $URI[[http://libmeta.ru/fme/formula/aux/1738_10_MATVEEVA-ITSA]]/URI$-мерных векторов $URI[[http://libmeta.ru/fme/formula/aux/1738_11_MATVEEVA-ITSA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1738_12_MATVEEVA-ITSA]]/URI$, константа $URI[[http://libmeta.ru/fme/formula/aux/1738_13_MATVEEVA-ITSA]]/URI$ и элементы $URI[[http://libmeta.ru/fme/formula/aux/1738_14_MATVEEVA-ITSA]]/URI$-симметрич. матрицы $URI[[http://libmeta.ru/fme/formula/aux/1738_15_MATVEEVA-ITSA]]/URI$ с положительно определенной мнимой URI[[http://libmeta.ru/fme/relation/1738_3_MATVEEVA-ITSA]]/URI выражаются через $URI[[http://libmeta.ru/fme/formula/aux/1738_16_MATVEEVA-ITSA]]/URI$ с
+
+352 Масштабная помощью URI[[http://libmeta.ru/fme/relation/1738_2_MATVEEVA-ITSA]]/URI. интегралов. Аналогичные формулы URI[[http://libmeta.ru/fme/relation/1738_1_MATVEEVA-ITSA]]/URI для ряда других нелинейных уравнений.</text>
+  <text_orig>формУла для почти периодического по $x$ и по $t$ решения $u(x, t)$ Кортевега - де Фриса уравнения
+
+\[
+u_{t}-6 u u_{x}+u_{x x x}=0
+\]
+
+Такие решения, зависяшие от $3 l+1$ параметров
+
+\[
+E=\left(E_{1}, \ldots, E_{2 l+1}\right), E_{1}&lt;E_{2}&lt;\ldots&lt;E_{2 l+1}, z=\left(z_{1}, \ldots, z_{l}\right),
+\]
+
+определяются формулой
+
+\[
+u(x, t)=C(E)-\partial^{2} / \partial x^{2} \ln \theta(U x+V t+z, E) .
+\]
+
+Здесь $\theta(p, E)=\sum \exp (\operatorname{inp}+i n B(E) n / 2)-l$-мерная $\theta$-функция Римана, $p=\left(p_{1}, \ldots, p_{l}\right)$, суммирование проводится по $l$-мерным целочисленным векторам $n \doteq\left(n_{1}, \ldots, n_{l}\right)$. Элементы $l$-мерных векторов $U=U(E)$ и $V=V(E)$, константа $C(E)$ и элементы $(l \times l)$-симметрич. матрицы $B(E)$ с положительно определенной мнимой частью выражаются через $E$ с
+
+352 МАСШТАБНАЯ помощью гиперэллиптич. интегралов. Аналогичные формулы получены для ряда других нелинейных уравнений.
+
+Лum.: [1] Итс А.Р., Матв е е в В. Б., «Теоретич. и математич. физика», 1975, т. 23, в. 1, с. 51-64; [2] 3 ахаров В. Е., Манак о в С. В., Н о в и ко в С. П., П и т а е в ск и й Л. П., Теория солитоНов, M., 1980.
+
+С. Ю. Доброхотов.</text_orig>
+</article>

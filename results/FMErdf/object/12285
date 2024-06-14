@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12285">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>V</mi><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><mo stretchy="false">&#x00028;</mo><mi>n</mi><mo>&#x02212;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo><msub><mi>&#x003C3;</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mrow><mo>&#x02212;</mo><mn>1</mn></mrow></msup><msub><mo>&#x0222B;</mo><mrow><mi>G</mi></mrow></msub><mi>d</mi><mrow><mi mathvariant="bold-italic">y</mi></mrow><mo stretchy="false">&#x0007C;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo>&#x02212;</mo><mrow><mi mathvariant="bold-italic">y</mi></mrow><msup><mo stretchy="false">&#x0007C;</mo><mrow><mn>2</mn><mo>&#x02212;</mo><mi>n</mi></mrow></msup><mi>f</mi><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">y</mi></mrow><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace width="1em" /><mi>n</mi><mi>&#x02A7E;</mi><mn>3</mn></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$V(\boldsymbol{x})=-\left[(n-2) \sigma_{n}\right]^{-1} \int_{G} d \boldsymbol{y}|\boldsymbol{x}-\boldsymbol{y}|^{2-n} f(\boldsymbol{y}), \quad n \geqslant 3$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

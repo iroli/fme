@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1696_MAKSVELLA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1696_MAKSVELLA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/772</core:url>
+    <lbm:descriptor><![CDATA[МАКСВЕЛЛА УРАВНЕНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6225"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6227"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6230"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6231"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6232"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6233"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_115"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_857"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6234"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6235"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1074"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2357"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4544"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6236"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>система Уравнений для вычисления напряженностей $URI[[http://libmeta.ru/fme/formula/aux/1696_1_MAKSVELLA]]/URI$ и индукций <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6233">$$\boldsymbol{d}, \boldsymbol{B}$$</a> электрического и магнитного полей при известных плотностях заряда $URI[[http://libmeta.ru/fme/formula/aux/1696_3_MAKSVELLA]]/URI$ и стороннего тока $URI[[http://libmeta.ru/fme/formula/aux/1696_4_MAKSVELLA]]/URI$. Эта система включает уравнения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6231">$$\begin{gathered}\operatorname{rot} \boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{c \partial t}, \quad \operatorname{rot} \boldsymbol{H}=\frac{4 \pi \boldsymbol{j}}{c}+\frac{\partial \boldsymbol{D}}{c \partial t}, \\\operatorname{div} \boldsymbol{D}=4 \pi \rho, \quad \operatorname{div} \boldsymbol{B}=0\end{gathered}$$</a><BR/></P><P>и связи $URI[[http://libmeta.ru/fme/formula/aux/1696_5_MAKSVELLA]]/URI$ с $URI[[http://libmeta.ru/fme/formula/aux/1696_6_MAKSVELLA]]/URI$ с $URI[[http://libmeta.ru/fme/formula/aux/1696_7_MAKSVELLA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1696_8_MAKSVELLA]]/URI$ с $URI[[http://libmeta.ru/fme/formula/aux/1696_9_MAKSVELLA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1696_10_MAKSVELLA]]/URI$, называемые ма те р и аль ным и уравнениями. Установлены Дж. Максвеллом<BR/></P><P>Максвелла 339 (j. Maxwell, 1864). В зависимости от свойств среды <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1745_MATERIAL'NYE">материальные уравнения</a> могут быть линейными или нелинейными, локальными или интегральными. М.у. для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3404_TsIRKULJaTsI">циркуляций</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6232">$$\boldsymbol{e}, \boldsymbol{H}$$</a> и потоков <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6236">$$\boldsymbol{b}, \boldsymbol{D}$$</a> установлены экспериментально и считаются справедливыми для кусочно непрерывных полей. Различные формы М.у., допускаемые ими <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> и соответствующие <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2877_SOHRANENIJa">законы сохранения</a> см. в <a href="/object/show?uri=http://libmeta.ru/io/Publication#6227">[2]</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#6225">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#6224">Максвелл Дж. К.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6225">Избранные сочинения по теории электромагнитного поля, пер. с англ., М., 1952, с. 251-345</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#6227">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#6226">Туров Е. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6227">Материальные уравнения электродинамики, М., 1983</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#6230">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#6228">Фушич В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#6229">Никити А. Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6230">Симметрия уравнений Максвелла, Киев, 1983</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[система УравнениЙ длЯ вЫчисления напряженностей $\boldsymbol{E}, \boldsymbol{H}$ и индукций $\boldsymbol{D}, \boldsymbol{B}$ электрического и магнитного полей при известных плотностях заряда $\rho$ и стороннего тока $j$. Эта система включает уравнения
+
+\[
+\begin{gathered}
+\operatorname{rot} \boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{c \partial t}, \quad \operatorname{rot} \boldsymbol{H}=\frac{4 \pi \boldsymbol{j}}{c}+\frac{\partial \boldsymbol{D}}{c \partial t}, \\
+\operatorname{div} \boldsymbol{D}=4 \pi \rho, \quad \operatorname{div} \boldsymbol{B}=0
+\end{gathered}
+\]
+
+и связи $\boldsymbol{D}$ с $\boldsymbol{E}, \boldsymbol{B}$ с $\boldsymbol{H}$ и $\boldsymbol{J}$ с $\boldsymbol{j}$ и $\boldsymbol{E}$, называемые ма те р и аль ным и уравнениями. Установлены Дж. Максвеллом
+
+МАКСВЕЛЛА 339 (J. Maxwell, 1864). В зависимости от свойств среды материальные уравнения могут быть линейными или нелинейными, локальными или интегральными. М.у. для циркуляций $\boldsymbol{E}, \boldsymbol{H}$ и потоков $\boldsymbol{B}, \boldsymbol{D}$ установлены экспериментально и считаются справедливыми для кусочно непрерывных полей. Различные формы М.у., допускаемые ими группы и соответствующие законы сохранения см. в [2].
+
+Лит.: [1] Максве лл Дж. К., Избранные сочинения по теории электромагнитного поля, пер. с англ., М., 1952, с. 251-345; [2] Туро в Е. А., Материальные уравнения электродинамики, М., 1983; [3] Фуш и ч В. И., Н и к и т и А. Г., Симметрия уравнений Максвелла, Киев, 1983.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2877_SOHRANENIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3404_TsIRKULJaTsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1745_MATERIAL'NYE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

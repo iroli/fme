@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3012_SUSchESTVENNO">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3012_SUSchESTVENNO</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2236</core:url>
+    <lbm:descriptor><![CDATA[СУЩЕСТВЕННО ОСОБАЯ ТОЧКА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16959"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16960"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16961"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16962"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16963"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3738"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3814"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_477"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5931"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5940"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5936"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_992"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16964"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>изолированная особая точка $URI[[http://libmeta.ru/fme/formula/aux/3012_1_SUSchESTVENNO]]/URI$ однозначного характера аналитической функции $URI[[http://libmeta.ru/fme/formula/aux/3012_2_SUSchESTVENNO]]/URI$ комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/3012_3_SUSchESTVENNO]]/URI$, для которой не существует никакого, конечного или бесконечного, предела<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16959">$$\lim _{z \rightarrow a} f(z)$$</a><BR/></P><P>В достаточно малой проколотой окрестности<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16960">$$V=\{z \in \mathbb{C}: 0<|z-a|<r\}$$</a><BR/></P><P>С. о. т. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5931">$$a \neq \infty$$</a> или в<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16961">$$V^{\prime}=\{z \in \mathbb{C}: r<|z|<\infty\}$$</a><BR/></P><P>в случае $URI[[http://libmeta.ru/fme/formula/aux/3012_5_SUSchESTVENNO]]/URI$ функция $URI[[http://libmeta.ru/fme/formula/aux/3012_6_SUSchESTVENNO]]/URI$ разлагается в Лорана ряд<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16962">$$f(z)=\sum_{k=-\infty}^{\infty} c_{k}(z-a)^{k}, a \neq \infty, z \in V,$$</a><BR/></P><P>или, соответственно,<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16963">$$f(z)=\sum_{k=-\infty}^{\infty} \frac{c_{k}}{z^{k}}, a=\infty, z \in V^{\prime}$$</a><BR/></P><P>причем в главной части этих рядов имеется бесконечно много отличных от нуля коэффициентов $URI[[http://libmeta.ru/fme/formula/aux/3012_7_SUSchESTVENNO]]/URI$ с отрицательными индексами $URI[[http://libmeta.ru/fme/formula/aux/3012_8_SUSchESTVENNO]]/URI$. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16964">$$\quad \boldsymbol{E}$$</a>. Д. Соломенцев.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[изолированная особая точка $а$ однозначного характера аналитической функции $f(z)$ комплексного переменного $z$, для которой не существует никакого, конечного или бесконечного, предела
+
+\[
+\lim _{z \rightarrow a} f(z)
+\]
+
+В достаточно малой проколотой окрестности
+
+\[
+V=\{z \in \mathbb{C}: 0<|z-a|<r\}
+\]
+
+С. о. т. $a \neq \infty$ или в
+
+\[
+V^{\prime}=\{z \in \mathbb{C}: r<|z|<\infty\}
+\]
+
+в случае $a=\infty$ функция $f(z)$ разлагается в Лорана ряд
+
+\[
+f(z)=\sum_{k=-\infty}^{\infty} c_{k}(z-a)^{k}, a \neq \infty, z \in V,
+\]
+
+или, соответственно,
+
+\[
+f(z)=\sum_{k=-\infty}^{\infty} \frac{c_{k}}{z^{k}}, a=\infty, z \in V^{\prime}
+\]
+
+причем в главной части этих рядов имеется бесконечно много отличных от нуля козффициентов $c_{k}$ с отрицательными индексами $\boldsymbol{k}$. $\quad \boldsymbol{E}$. Д. Соломенцев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

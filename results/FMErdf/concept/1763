@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2588_REZOL'VENTA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2588_REZOL'VENTA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1763</core:url>
+    <lbm:descriptor><![CDATA[РЕЗОЛЬВЕНТА УРАВНЕНИЯ ЛИУВИЛЛЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1464"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11725"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#13261"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13262"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13263"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13264"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_710"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_477"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13265"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3232"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13266"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13267"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>оператор, являющийся преобразованием Лапласа пропагатора уравнения Лиувилля. По определению, оператор Р. уравнения Лиувилля <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13264">$$\hat{r}(z), z \in \mathbb{C}$$</a>, задает временную эволюцию вектора распределения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13262">$$\vec{f}(t)=(2 \pi)^{-1} \int_{C} d z e^{-i z t} \hat{\mathbb{R}}(z) \vec{f}(0)$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2588_2_REZOL'VENTA]]/URI$ контур в комплексной плоскости $URI[[http://libmeta.ru/fme/formula/aux/2588_3_REZOL'VENTA]]/URI$, образованный прямой, проходящей параллельно действительной оси выше всех сингулярностей функции <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13265">$$\hat{\re}(\mathrm{z})$$</a>. Р. уравнения Лиувилля и пропагатор <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3232">$$\hat{u}(t)$$</a> связаны соотношением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13263">$$\hat{U}(t)=(2 \pi)^{-1} \int_{C} d z e^{-i z t} \hat{\Re}(z) .$$</a><BR/></P><P>Р. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa">уравнения Лиувилля</a> формально можно определить в виде <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13266">$$\hat{\mathscr{a}}(z)=(-\hat{\mathscr{L}}-i z)^{-1}$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13267">$$\hat{\mathscr{\mathscr { }}}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> Лиувилля.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#11725">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Балеску Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11725">Равновесная и неравновесная статистическая механика, пер. с англ., т. 2, М., 1978</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#13261">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#11318">Prigogine I.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1866">George C.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1574">Henin F.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#13261">«physica», 1969, v. 45, p. 418.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1464">Д. П. Санкович</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[оператор, являющийся преобразованием Лапласа пропагатора уравнения Лиувилля. По определению, оператор Р. уравнения Лиувилля $\hat{R}(z), z \in \mathbb{C}$, задает временную эволюцию вектора распределения
+
+\[
+\vec{f}(t)=(2 \pi)^{-1} \int_{C} d z e^{-i z t} \hat{\mathbb{R}}(z) \vec{f}(0)
+\]
+
+где $C-$ контур в комплексной плоскости $z$, образованный прямой, проходящей параллельно действительной оси выше всех сингулярностей функции $\hat{\Re}(\mathrm{z})$. Р. уравнения Лиувилля и пропагатор $\hat{U}(t)$ связаны соотношением
+
+\[
+\hat{U}(t)=(2 \pi)^{-1} \int_{C} d z e^{-i z t} \hat{\Re}(z) .
+\]
+
+Р. уравнения Лиувилля формально можно определить в виде $\hat{\mathscr{A}}(z)=(-\hat{\mathscr{L}}-i z)^{-1}$, где $\hat{\mathscr{\mathscr { }}}-$ оператор Лиувилля.
+
+Лит.: [1] Балес ку Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 2, М., 1978; [2] Prigogine I., Ge orge C., He ni n F., «Physica», 1969, v. 45, p. 418.
+
+Д. П. Санкович.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

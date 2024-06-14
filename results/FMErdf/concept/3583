@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_998_IMPUL'SNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_998_IMPUL'SNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3583</core:url>
+    <lbm:descriptor><![CDATA[ИМПУЛЬСНОЕ ПРЕДСТАВЛЕНИЕ КВАНТОВОЙ МЕХАНИКИ ($p$-ПРЕДСТАВЛЕНИЕ)]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#26470"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26471"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26472"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26473"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26474"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26475"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26476"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26477"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26478"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26479"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>описание квантовомеханических систем, основанное на разложении векторов <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояния</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26473">$$|\psi(t)\rangle$$</a> по базисным векторам <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26474">$$\left|\boldsymbol{p}_{1}, \boldsymbol{p}_{2}, \ldots\right\rangle$$</a>, отвечающим определенным значениям импульсов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26475">$$p_{1}, p_{2}, \ldots$$</a> каждой из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>. Если число <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> $URI[[http://libmeta.ru/fme/formula/aux/998_4_IMPUL'SNOE]]/URI$ фиксировано, то<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26471">$$|\psi(t)\rangle=\int d p_{1} d p_{2} \ldots d p_{n}\left|p_{1}, p_{2}, \ldots, p_{n}\right\rangle \times\left\langle p_{1}, p_{2}, \ldots, p_{n} \mid \psi(t)\right\rangle,$$</a><BR/></P><P>где амплитуда <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26476">$$\left\langle p_{1}, p_{2}, \ldots, p_{n} \mid \psi(t)\right\rangle$$</a> представляет собой $URI[[http://libmeta.ru/fme/formula/aux/998_6_IMPUL'SNOE]]/URI$-частичную <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_444_VOLNOVAJa">волновую функцию в</a> И. П. Вероятность того, что в момент времени <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3">$$t$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульс</a> 1-й <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частицы</a> лежит в интервале <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26477">$$\left(p_{1}, p_{1}+d p_{1}\right)$$</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульс</a> 2-й <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частицы</a> - в интервале <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26478">$$\left(p_{2}, p_{2}+d p_{2}\right)$$</a> и т. д., пропорциональна<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26472">$$\left|\left\langle\boldsymbol{p}_{1}, \boldsymbol{p}_{2}, \ldots, \boldsymbol{p}_{n} \mid \psi(t)\right\rangle\right|^{2} d \boldsymbol{p}_{1} d \boldsymbol{p}_{2} \ldots d \boldsymbol{p}_{n}$$</a><BR/></P><P>Если взаимодействие в системе зависит лишь от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2545_RASSEJaNIJa">относительных расстояний</a> между частицами и отсутствуют внешние поля, нарушающие <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2063_ODNOSVJaZNOE">однородность пространства</a>, то полный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульс</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26479">$$\boldsymbol{p}=\boldsymbol{p}_{1}+\boldsymbol{p}_{2}+\ldots+\boldsymbol{p}_{n}$$</a> сохраняется, и его можно обратить в 0 , переходя в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3387_TsENTRA">систему центра масс</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>. В результате число независимых импульсов, от к-рых зависит волновая функция, уменьшается на единицу.<BR/></P><P>Наиболее важное и адекватное применение И. п. находит в квантовомеханич. теории <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a>. Особенно возрастает роль И. п. при переходе к релятивистскому описанию <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_359_VELIKOE">взаимодействий частиц в</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa">квантовой теории поля</a>, где оно объединяется с энергетич. представлением в рамках одного четырехмерного <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_391">$$p$$</a>-представления.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3459_ShREDINGERA">Шредингера представление</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#26470">В. Г. Кадышевский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[описание квантовомеханических систем, основанное на разложении векторов состояния $|\psi(t)\rangle$ по базисным векторам $\left|\boldsymbol{p}_{1}, \boldsymbol{p}_{2}, \ldots\right\rangle$, отвечающим определенным значениям импульсов $p_{1}, p_{2}, \ldots$ каждой из частиц. Если число частиц $n$ фиксировано, то
+
+\[
+|\psi(t)\rangle=\int d p_{1} d p_{2} \ldots d p_{n}\left|p_{1}, p_{2}, \ldots, p_{n}\right\rangle \times\left\langle p_{1}, p_{2}, \ldots, p_{n} \mid \psi(t)\right\rangle,
+\]
+
+где амплитуда $\left\langle p_{1}, p_{2}, \ldots, p_{n} \mid \psi(t)\right\rangle$ представляет собой $n$-частичную волновую функцию в И. П. Вероятность того, что в момент времени $t$ импульс 1-й частицы лежит в интервале $\left(p_{1}, p_{1}+d p_{1}\right)$, импульс 2-й частицы - в интервале $\left(p_{2}, p_{2}+d p_{2}\right)$ и т. д., пропорциональна
+
+\[
+\left|\left\langle\boldsymbol{p}_{1}, \boldsymbol{p}_{2}, \ldots, \boldsymbol{p}_{n} \mid \psi(t)\right\rangle\right|^{2} d \boldsymbol{p}_{1} d \boldsymbol{p}_{2} \ldots d \boldsymbol{p}_{n}
+\]
+
+Если взаимодействие в системе зависит лишь от относительных расстояний между частицами и отсутствуют внешние поля, нарушающие однородность пространства, то полный импульс $\boldsymbol{P}=\boldsymbol{p}_{1}+\boldsymbol{p}_{2}+\ldots+\boldsymbol{p}_{n}$ сохраняется, и его можно обратить в 0 , переходя в систему центра масс частиц. В результате число независимых импульсов, от к-рых зависит волновая функция, уменьшается на единицу.
+
+Наиболее важное и адекватное применение И. п. находит в квантовомеханич. теории рассеяния. Особенно возрастает роль И. п. при переходе к релятивистскому описанию взаимодействий частиц в квантовой теории поля, где оно объединяется с энергетич. представлением в рамках одного четырехмерного $p$-представления.
+
+См. также Шредингера представление. В. Г. Кадышевский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3459_ShREDINGERA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_359_VELIKOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3387_TsENTRA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2063_ODNOSVJaZNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2545_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_444_VOLNOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3548_ERGODIChNOST">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3548_ERGODIChNOST</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2830</core:url>
+    <lbm:descriptor><![CDATA[ЭРГОДИЧНОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#4572"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4574"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21159"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11634"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2349"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21160"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21161"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21162"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21163"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21164"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2913"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>свойство <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">полугруппы</a>, сохраняющих меру преобразований вероятностного пространства <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11634">$$(\omega, \mathscr{F}$$</a>, Р $URI[[http://libmeta.ru/fme/formula/aux/3548_2_ERGODIChNOST]]/URI$. Оно определяется как отсутствие подмножеств <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21160">$$a \in \mathscr{F}, \mathrm{P}(A)>0, \mathrm{P}(\Omega \backslash A)>0$$</a>, инвариантных относительно <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">полугруппы</a>. Для сохраняющих бесконечную меру преобразований иногда вместо термина «э.» используется термин «ме т р и чес кая тран з и и вность». Если <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21161">$$\left\{s^{(t)}\right\}$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группа</a> сдвигов в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2420_PROSTRANSTVO">пространстве peaлизаций</a> стационарного случайного поля <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21162">$$x=\left\{x(t), t \in \mathbb{R}^{d}\right.$$</a> или <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21163">$$\left.\mathbb{Z}^{d}\right\}$$</a>, то Э. означает, что для любой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa">случайной величины</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21164">$$y\left(x \in L^{1}(\Omega, \mathscr{F}, \mathrm{P})\right)$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_464_VREMENNOE">временное среднее</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21159">$$\frac{1}{T^{d}} \int_{0}^{T} \ldots \int_{0}^{T} Y\left(S^{\left(t_{1} \ldots t_{d}\right)}\right) d t_{1} \ldots d t_{d} \rightarrow \mathrm{E} Y$$</a><BR/></P><P>почти всюду (в случае <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2913">$$\mathbb{z}^{d}$$</a> вместо интегралов надо <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассмотреть</a> суммы). Эквивалентность этого приведенному выше определения есть простое следствие Биркгофа - Хинчина <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3548_ERGODIChNOST">эргодической</a> теоремы.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4574">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4571">Корнфельд И. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4572">Синай Я. Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4573">Фомин С. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4574">Эргодическая теория, М., 1980</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#4572">Я. Г. Синай</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[свойство группы или полугруппы, сохраняющих меру преобразований вероятностного пространства $(\Omega, \mathscr{F}$, Р $)$. Оно определяется как отсутствие подмножеств $A \in \mathscr{F}, \mathrm{P}(A)>0, \mathrm{P}(\Omega \backslash A)>0$, инвариантных относительно группы или полугруппы. Для сохраняющих бесконечную меру преобразований иногда вместо термина «Э.» используется термин «ме т р и чес кая тран з и и вность». Если $\left\{S^{(t)}\right\}$ - группа сдвигов в пространстве peaлизаций стационарного случайного поля $X=\left\{X(t), t \in \mathbb{R}^{d}\right.$ или $\left.\mathbb{Z}^{d}\right\}$, то Э. означает, что для любой случайной величины $Y\left(X \in L^{1}(\Omega, \mathscr{F}, \mathrm{P})\right)$ временное среднее
+
+\[
+\frac{1}{T^{d}} \int_{0}^{T} \ldots \int_{0}^{T} Y\left(S^{\left(t_{1} \ldots t_{d}\right)}\right) d t_{1} \ldots d t_{d} \rightarrow \mathrm{E} Y
+\]
+
+почти всюду (в случае $\mathbb{Z}^{d}$ вместо интегралов надо рассмотреть суммы). Эквивалентность этого приведенному выше определения есть простое следствие Биркгофа - Хинчина эргодической теоремы.
+
+Лит.: [1] Корнфельд И. П., Синай Я.Г., Фомин С. В., Эргодическая теория, М., $1980 . \quad$ Я. Г. Синай.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3548_ERGODIChNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_464_VREMENNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2420_PROSTRANSTVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

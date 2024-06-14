@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/677_GOLOMORFNOE" alphabetic_pos="679">
+  <title>ГОЛОМОРФНОЕ ОТОБРАЖЕНИЕ</title>
+  <authors>
+    <author>П. Г. Гриневич</author>
+  </authors>
+  <pages>
+    <start>148</start>
+    <end>148</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Ш абат Б. В., Введение в комплексный анализ, М., 1976.</literature_orig>
+    <unit>
+      <author>Шабат Б. В.</author>
+      <title>Введение в комплексный анализ</title>
+      <publication>М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/677_1_GOLOMORFNOE">f: \mathbb{C}^{n} \rightarrow \mathbb{C}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/677_2_GOLOMORFNOE">f(z)=\sum_{k_{1} \ldots k_{n} \geqslant 0} c_{k_{1} \ldots k_{n}}\left(z^{1}\right)^{k_{1}} \ldots\left(z^{n}\right)^{k_{n}} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_1_GOLOMORFNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_2_GOLOMORFNOE">u n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_3_GOLOMORFNOE">\mathbb{c}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_4_GOLOMORFNOE">\mathbb{c}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_5_GOLOMORFNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_6_GOLOMORFNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_7_GOLOMORFNOE">u-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_8_GOLOMORFNOE">\mathbb{c}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_9_GOLOMORFNOE">z=\left(z^{1}, \ldots, z^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_10_GOLOMORFNOE">\mathbb{r}^{2 n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_11_GOLOMORFNOE">x^{j}=\operatorname{re} z^{j}, y^{j}=\operatorname{Im} z^{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_12_GOLOMORFNOE">2 n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_13_GOLOMORFNOE">f(\boldsymbol{x}, \boldsymbol{y})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_14_GOLOMORFNOE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_15_GOLOMORFNOE">\bar{\partial}_{j} f=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_16_GOLOMORFNOE">\bar{\partial}_{j}=\partial / \partial x^{j}+i \partial / \partial y^{j}=2 \partial / \partial \bar{z}^{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_17_GOLOMORFNOE">f: U \rightarrow G</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_18_GOLOMORFNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_19_GOLOMORFNOE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_20_GOLOMORFNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/677_21_GOLOMORFNOE">\left|z^{j}-a^{j}\right|&lt;r_{j}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/677_1_GOLOMORFNOE">
+      <rel_text>Риманова поверхность</rel_text>
+      <target>http://libmeta.ru/fme/article/2640_RIMANOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/677_2_GOLOMORFNOE">
+      <rel_text>голоморфна</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/677_3_GOLOMORFNOE">
+      <rel_text>голоморфна</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/677_4_GOLOMORFNOE">
+      <rel_text>голоморфна</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+  </relations>
+  <text>отображение $URI[[http://libmeta.ru/fme/formula/aux/677_1_GOLOMORFNOE]]/URI$ из области $URI[[http://libmeta.ru/fme/formula/aux/677_2_GOLOMORFNOE]]/URI$-мерного комплексного пространства $URI[[http://libmeta.ru/fme/formula/aux/677_3_GOLOMORFNOE]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/677_4_GOLOMORFNOE]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/677_1_GOLOMORFNOE]]/URI
+\]
+
+такое, что в координатах оно задается $URI[[http://libmeta.ru/fme/formula/aux/677_5_GOLOMORFNOE]]/URI$ голоморфными функциями от $URI[[http://libmeta.ru/fme/formula/aux/677_6_GOLOMORFNOE]]/URI$ комплексных переменных.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/677_7_GOLOMORFNOE]]/URI$ область в $URI[[http://libmeta.ru/fme/formula/aux/677_8_GOLOMORFNOE]]/URI$ с координатами $URI[[http://libmeta.ru/fme/formula/aux/677_9_GOLOMORFNOE]]/URI$, К-рую можно рассматривать как область в $URI[[http://libmeta.ru/fme/formula/aux/677_10_GOLOMORFNOE]]/URI$ с координатами $URI[[http://libmeta.ru/fme/formula/aux/677_11_GOLOMORFNOE]]/URI$. Комплекснозначная дифференцируемая функция $URI[[http://libmeta.ru/fme/formula/aux/677_12_GOLOMORFNOE]]/URI$ вещественных переменных $URI[[http://libmeta.ru/fme/formula/aux/677_13_GOLOMORFNOE]]/URI$ называется голо м о р фно й в $URI[[http://libmeta.ru/fme/formula/aux/677_14_GOLOMORFNOE]]/URI$, если она удовлетворяет уравнениям Коши - Римана $URI[[http://libmeta.ru/fme/formula/aux/677_15_GOLOMORFNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/677_16_GOLOMORFNOE]]/URI$.
+
+Отображение $URI[[http://libmeta.ru/fme/formula/aux/677_17_GOLOMORFNOE]]/URI$ называется б и го л о м о р фным, если оно голоморфно вместе с обратным ему.
+
+Т е о р е м а Х а р т о г с а. Функция $URI[[http://libmeta.ru/fme/formula/aux/677_18_GOLOMORFNOE]]/URI$ URI[[http://libmeta.ru/fme/relation/677_4_GOLOMORFNOE]]/URI в $URI[[http://libmeta.ru/fme/formula/aux/677_19_GOLOMORFNOE]]/URI$ тогда и только тогда, когда она URI[[http://libmeta.ru/fme/relation/677_3_GOLOMORFNOE]]/URI по каждой переменной в отдельности.
+
+Если функция $URI[[http://libmeta.ru/fme/formula/aux/677_20_GOLOMORFNOE]]/URI$ URI[[http://libmeta.ru/fme/relation/677_2_GOLOMORFNOE]]/URI в поликруге $URI[[http://libmeta.ru/fme/formula/aux/677_21_GOLOMORFNOE]]/URI$, то она представима в нем рядом Тейлора
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/677_2_GOLOMORFNOE]]/URI
+\]
+
+См. также URI[[http://libmeta.ru/fme/relation/677_1_GOLOMORFNOE]]/URI.</text>
+  <text_orig>отображение $f$ из области $U n$-мерного комплексного пространства $\mathbb{C}^{n}$ в $\mathbb{C}^{m}$
+
+\[
+f: \mathbb{C}^{n} \rightarrow \mathbb{C}^{m}
+\]
+
+такое, что в координатах оно задается $m$ голоморфными функциями от $n$ комплексных переменных.
+
+Пусть $U-$ область в $\mathbb{C}^{n}$ с координатами $z=\left(z^{1}, \ldots, z^{n}\right)$, К-рую можно рассматривать как область в $\mathbb{R}^{2 n}$ с координатами $x^{j}=\operatorname{Re} z^{j}, y^{j}=\operatorname{Im} z^{j}$. Комплекснозначная дифференцируемая функция $2 n$ вещественных переменных $f(\boldsymbol{x}, \boldsymbol{y})$ называется голо м о р фно й в $U$, если она удовлетворяет уравнениям Коши - Римана $\bar{\partial}_{j} f=0$, где $\bar{\partial}_{j}=\partial / \partial x^{j}+i \partial / \partial y^{j}=2 \partial / \partial \bar{z}^{j}$.
+
+Отображение $f: U \rightarrow G$ называется б и го л о м о р фным, если оно голоморфно вместе с обратным ему.
+
+Т е о р е м а Х а р т о г с а. Функция $f$ голоморфна в $U$ тогда и только тогда, когда она голоморфна по каждой переменной в отдельности.
+
+Если функция $f$ голоморфна в поликруге $\left|z^{j}-a^{j}\right|&lt;r_{j}$, то она представима в нем рядом Тейлора
+
+\[
+f(z)=\sum_{k_{1} \ldots k_{n} \geqslant 0} c_{k_{1} \ldots k_{n}}\left(z^{1}\right)^{k_{1}} \ldots\left(z^{n}\right)^{k_{n}} .
+\]
+
+См. также Риманова поверхность.
+
+Лum.: [1] Ш абат Б. В., Введение в комплексный анализ, М., 1976.
+
+П.Г. Гриневич.</text_orig>
+</article>

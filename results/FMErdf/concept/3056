@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_522_GARMONIK</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3056</core:url>
+    <lbm:descriptor><![CDATA[ГАРМОНИКА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#22858"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22859"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22860"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22861"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_33"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1565"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12342"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22862"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_602"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>простейшая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2224_PERIODIChESKAJa">периодическая функция</a> вида<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22859">$$A \sin (\omega x+\varphi) .$$</a><BR/></P><P>Эта функция встречается при рассмотрении многих колебательных процессов. Число $URI[[http://libmeta.ru/fme/formula/aux/522_1_GARMONIK]]/URI$ называется ам пл и ту д о й, $URI[[http://libmeta.ru/fme/formula/aux/522_2_GARMONIK]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частотой</a>, $URI[[http://libmeta.ru/fme/formula/aux/522_3_GARMONIK]]/URI$ начальной фазой, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22862">$$t=2 \pi / \omega-$$</a> периодом колебания. Функции<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22860">$$\sin (2 \omega x+\varphi), \sin (3 \omega x+\varphi), \ldots$$</a><BR/></P><P>называются соответственно второй, третьей и т. д. высшими $URI[[http://libmeta.ru/fme/formula/aux/522_5_GARMONIK]]/URI$. относительно основной Г. Помимо самих Г. рассматривают их суммы<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22861">$$a_{0}+a_{1} \sin (\omega x+\varphi)+a_{2} \sin (2 \omega x+\varphi)+\ldots$$</a> так как очень <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3454_ShIROT">широкий</a> класс <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1793_MITTAG-LEFFLERA">функций разлагается</a> в ряды такого вида для изучения различных процессов.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2698_SVOBODNOE">Свободное гармоническое колебание</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#22858">А. И. Барабанов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[простейшая периодическая функция вида
+
+\[
+A \sin (\omega x+\varphi) .
+\]
+
+Эта функция встречается при рассмотрении многих колебательных процессов. Число $A$ называется ам пл и ту д о й, $\omega-$ частотой, $\varphi-$ начальной фазой, $T=2 \pi / \omega-$ периодом колебания. Функции
+
+\[
+\sin (2 \omega x+\varphi), \sin (3 \omega x+\varphi), \ldots
+\]
+
+называются соответственно второй, третьей и т. д. высшими $\Gamma$. относительно основной Г. Помимо самих Г. рассматривают их суммы
+
+\[
+a_{0}+a_{1} \sin (\omega x+\varphi)+a_{2} \sin (2 \omega x+\varphi)+\ldots
+\] так как очень широкий класс функций разлагается в ряды такого вида для изучения различных процессов.
+
+См. также Свободное гармоническое колебание.
+
+А. И. Барабанов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2698_SVOBODNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1793_MITTAG-LEFFLERA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3454_ShIROT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2224_PERIODIChESKAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

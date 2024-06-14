@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12219">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>d</mi><mover><mrow><mi>A</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mo>&#x02202;</mo><mover><mrow><mi>A</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover></mrow><mrow><mo>&#x02202;</mo><mi>t</mi></mrow></mfrac><mo>&#x0002B;</mo><mo stretchy="false">&#x0007B;</mo><mover><mrow><mi>H</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mo>&#x0002C;</mo><mover><mrow><mi>A</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><msub><mo stretchy="false">&#x0007D;</mo><mrow><mrow><mi mathvariant="normal">K</mi><mi mathvariant="normal">B</mi></mrow></mrow></msub><mo>&#x02261;</mo><mfrac><mrow><mo>&#x02202;</mo><mover><mrow><mi>A</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover></mrow><mrow><mo>&#x02202;</mo><mi>t</mi></mrow></mfrac><mo>&#x0002B;</mo><mfrac><mrow><mi>i</mi></mrow><mrow><mi>&#x0210F;</mi></mrow></mfrac><mo stretchy="false">[</mo><mover><mrow><mi>H</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mo>&#x0002C;</mo><mover><mrow><mi>A</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mo stretchy="false">]</mo><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{d \hat{A}}{d t}=\frac{\partial \hat{A}}{\partial t}+\{\hat{H}, \hat{A}\}_{\mathrm{KB}} \equiv \frac{\partial \hat{A}}{\partial t}+\frac{i}{\hbar}[\hat{H}, \hat{A}] .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

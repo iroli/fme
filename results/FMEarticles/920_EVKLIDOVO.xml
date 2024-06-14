@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/920_EVKLIDOVO" alphabetic_pos="922">
+  <title>ЕВКЛИДОВО ПРОСТРАНСТВО</title>
+  <authors/>
+  <pages>
+    <start>201</start>
+    <end>201</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/920_1_EVKLIDOVO">(\boldsymbol{x}, \boldsymbol{y})=x_{1} y_{1}+\ldots+x_{n} y_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/920_2_EVKLIDOVO">|(x, y)|^{2} \leqslant(x, x)(y, y) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/920_3_EVKLIDOVO">|\boldsymbol{x}|=\sqrt{(\boldsymbol{x}, \boldsymbol{x})}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/920_4_EVKLIDOVO">\cos \theta=(\boldsymbol{x}, \boldsymbol{y}) /|\boldsymbol{x}||\boldsymbol{y}| \text {. }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_1_EVKLIDOVO">(\boldsymbol{x}, \boldsymbol{y})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_2_EVKLIDOVO">\boldsymbol{x}=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_3_EVKLIDOVO">\boldsymbol{y}=\left(y_{1}, \ldots, y_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_4_EVKLIDOVO">(\boldsymbol{x}, \boldsymbol{x}) \geqslant 0,(\boldsymbol{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_5_EVKLIDOVO">\boldsymbol{x})=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_6_EVKLIDOVO">\left.\boldsymbol{x}=0 ; 2)(\boldsymbol{x}, \boldsymbol{y})=(\boldsymbol{y}, \boldsymbol{x})^{*} ; 3\right)(\alpha \boldsymbol{x}, \boldsymbol{y})=\alpha(\boldsymbol{x}, \boldsymbol{y})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_7_EVKLIDOVO">(x, y+z)=(x, y)+(x, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_8_EVKLIDOVO">\alpha-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_9_EVKLIDOVO">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_10_EVKLIDOVO">\theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/920_11_EVKLIDOVO">\boldsymbol{x}, \boldsymbol{y}</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/920_1_EVKLIDOVO">
+      <rel_text>псевдоевклидовым пространством</rel_text>
+      <target>http://libmeta.ru/fme/article/2441_PSEVDOGIL'BERTOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/920_2_EVKLIDOVO">
+      <rel_text>скалярного произведения</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/920_3_EVKLIDOVO">
+      <rel_text>гильбертовым пространством</rel_text>
+      <target>http://libmeta.ru/fme/article/623_GIL'BERTOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/920_4_EVKLIDOVO">
+      <rel_text>длина векторов</rel_text>
+      <target>http://libmeta.ru/fme/article/886_DLINA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/920_5_EVKLIDOVO">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/920_6_EVKLIDOVO">
+      <rel_text>скалярное произведение</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+  </relations>
+  <text>конечномерное векторное пространство с положительно определенным скалярным произведением. Является непосредственным обобщением обычного трехмерного пространства. В Е. П. существуют декартовы координаты, в к-рых скалярное произведение $URI[[http://libmeta.ru/fme/formula/aux/920_1_EVKLIDOVO]]/URI$ векторов $URI[[http://libmeta.ru/fme/formula/aux/920_2_EVKLIDOVO]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/920_3_EVKLIDOVO]]/URI$ имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/920_1_EVKLIDOVO]]/URI
+\]
+
+В произвольных координатах URI[[http://libmeta.ru/fme/relation/920_6_EVKLIDOVO]]/URI по определению удовлетворяет условиям: 1) $URI[[http://libmeta.ru/fme/formula/aux/920_4_EVKLIDOVO]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/920_5_EVKLIDOVO]]/URI$ лишь при $URI[[http://libmeta.ru/fme/formula/aux/920_6_EVKLIDOVO]]/URI$; 4) $URI[[http://libmeta.ru/fme/formula/aux/920_7_EVKLIDOVO]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/920_8_EVKLIDOVO]]/URI$ любое комплексное число, * означает комплексное сопряжение. В Е. п. имеет место неравенство Коши
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/920_2_EVKLIDOVO]]/URI
+\]
+
+Число
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/920_3_EVKLIDOVO]]/URI
+\]
+
+называется норм ой (или длиной) URI[[http://libmeta.ru/fme/relation/920_5_EVKLIDOVO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/920_9_EVKLIDOVO]]/URI$, а угол $URI[[http://libmeta.ru/fme/formula/aux/920_10_EVKLIDOVO]]/URI$ между векторами $URI[[http://libmeta.ru/fme/formula/aux/920_11_EVKLIDOVO]]/URI$ находят из формулы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/920_4_EVKLIDOVO]]/URI
+\]
+
+Первоначально евклидовыми назывались пространства, в к-рых выполнены аксиомы евклидовой геометрии, основными понятиями к-рой являются URI[[http://libmeta.ru/fme/relation/920_4_EVKLIDOVO]]/URI и угол между ними. Бесконечномерное Е. п. обычно называется URI[[http://libmeta.ru/fme/relation/920_3_EVKLIDOVO]]/URI. Пространство, в К-ром нарушено условие 1) положительности URI[[http://libmeta.ru/fme/relation/920_2_EVKLIDOVO]]/URI, называется URI[[http://libmeta.ru/fme/relation/920_1_EVKLIDOVO]]/URI.</text>
+  <text_orig>конечномерное векторное пространство с положительно определенным скалярным произведением. Является непосредственным обобщением обычного трехмерного пространства. В Е. П. существуют декартовы координаты, в к-рых скалярное произведение $(\boldsymbol{x}, \boldsymbol{y})$ векторов $\boldsymbol{x}=\left(x_{1}, \ldots, x_{n}\right)$ и $\boldsymbol{y}=\left(y_{1}, \ldots, y_{n}\right)$ имеет вид:
+
+\[
+(\boldsymbol{x}, \boldsymbol{y})=x_{1} y_{1}+\ldots+x_{n} y_{n}
+\]
+
+В произвольных координатах скалярное произведение по определению удовлетворяет условиям: 1) $(\boldsymbol{x}, \boldsymbol{x}) \geqslant 0,(\boldsymbol{x}$, $\boldsymbol{x})=0$ лишь при $\left.\boldsymbol{x}=0 ; 2)(\boldsymbol{x}, \boldsymbol{y})=(\boldsymbol{y}, \boldsymbol{x})^{*} ; 3\right)(\alpha \boldsymbol{x}, \boldsymbol{y})=\alpha(\boldsymbol{x}, \boldsymbol{y})$; 4) $(x, y+z)=(x, y)+(x, z)$, где $\alpha-$ любое комплексное число, * означает комплексное сопряжение. В Е. п. имеет место неравенство Коши
+
+\[
+|(x, y)|^{2} \leqslant(x, x)(y, y) .
+\]
+
+Число
+
+\[
+|\boldsymbol{x}|=\sqrt{(\boldsymbol{x}, \boldsymbol{x})}
+\]
+
+называется норм ой (или длиной) вектора $x$, а угол $\theta$ между векторами $\boldsymbol{x}, \boldsymbol{y}$ находят из формулы
+
+\[
+\cos \theta=(\boldsymbol{x}, \boldsymbol{y}) /|\boldsymbol{x}||\boldsymbol{y}| \text {. }
+\]
+
+Первоначально евклидовыми назывались пространства, в к-рых выполнены аксиомы евклидовой геометрии, основными понятиями к-рой являются длина векторов и угол между ними. Бесконечномерное Е. п. обычно называется гильбертовым пространством. Пространство, в К-ром нарушено условие 1) положительности скалярного произведения, называется псевдоевклидовым пространством.</text_orig>
+</article>

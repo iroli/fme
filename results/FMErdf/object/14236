@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_14236">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>&#x003C6;</mi><mrow><mi>&#x003BE;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mi>&</mi><mo>&#x0003D;</mo><mi>&#x00045;</mi><msup><mi>e</mi><mrow><mi>i</mi><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo>&#x0002C;</mo><mi>&#x003BE;</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>t</mi><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>t</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msub><mi>t</mi><mrow><mi>k</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace width="1em" /><msub><mi>t</mi><mrow><mi>j</mi></mrow></msub><mi>&</mi><mo>&#x02208;</mo><mi>&#x0211D;</mi><mo>&#x0002C;</mo><mspace width="1em" /><mo stretchy="false">&#x00028;</mo><mi>&#x003BE;</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>s</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>k</mi></mrow></msubsup><msub><mi>&#x003BE;</mi><mrow><mi>s</mi></mrow></msub><msub><mi>t</mi><mrow><mi>s</mi></mrow></msub><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}\varphi_{\xi}(t) &amp; =\mathrm{E} e^{i(t, \xi)}, \\t=\left(t_{1}, \ldots, t_{k}\right), \quad t_{j} &amp; \in \mathbb{R}, \quad(\xi, t)=\sum_{s=1}^{k} \xi_{s} t_{s},\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

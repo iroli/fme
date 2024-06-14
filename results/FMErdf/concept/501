@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1451_KRATNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1451_KRATNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/501</core:url>
+    <lbm:descriptor><![CDATA[КРАТНОЕ ПЕРЕМЕШИВАНИЕ, ПЕРЕМЕШИВАНИЕ КРАТНОСТИ $r$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#4568"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4570"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4574"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4575"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4576"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2540"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4577"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4578"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4579"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4580"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_986"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4581"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>свойство <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa">динамической системы</a>, выражаемое в случае эндоморфизма $URI[[http://libmeta.ru/fme/formula/aux/1451_1_KRATNOE]]/URI$ вероятностного пространства $URI[[http://libmeta.ru/fme/formula/aux/1451_2_KRATNOE]]/URI$ равенством<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4575">$$\lim _{n \rightarrow \infty}\left[\mathrm{P}\left(\bigcap_{i=0}^{r} T^{-k_{i}(n)} A_{i}\right)-\prod_{i=0}^{r} \mathrm{P}\left(A_{i}\right)\right]=0$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4577">$$a_{0}, \ldots, A_{r}$$</a> - любые множества из $URI[[http://libmeta.ru/fme/formula/aux/1451_4_KRATNOE]]/URI$ и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4578">$$\left\{k_{i}(n), n=1,2, \ldots\right\}$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4579">$$i=0,1, \ldots, r,-$$</a> любые последовательности натуральных чисел, для к-рых<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4576">$$\lim _{n \rightarrow \infty} \min _{0 \leqslant i<j \leqslant r}\left|k_{i}(n)-k_{j}(n)\right|=0 .$$</a><BR/></P><P>Для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамич</a>. системы с непрерывным временем К. п. определяется аналогично. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">Перемешивание</a> кратности 1 есть просто <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">перемешивание</a>; термин «к. п.» обычно употребляется по отношению к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">перемешиванию</a> кратности <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4580">$$r \geqslant 2$$</a>. Вопрос о совпадении или несовпадении классов $URI[[http://libmeta.ru/fme/formula/aux/1451_8_KRATNOE]]/URI$-кратно и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4581">$$(r+1)$$</a>-кратно <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">перемешивающих</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамич</a>. систем не решен ни, при одном $URI[[http://libmeta.ru/fme/formula/aux/1451_10_KRATNOE]]/URI$ (очевидно, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">первый</a> из этих классов содержит второй).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4570">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4569">Рохлин В. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4570">«известия Ан Ссср. Сер. матем.», 1949, т. 13, № 4, с. 329-40</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#4574">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4571">Корнфельд И. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4572">Синай Я. Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4573">Фомин С. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4574">Эргодическая теория, М., 1980</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#4568">Б. М. Гуревич</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[свойство динамической системы, выражаемое в случае эндоморфизма $T$ вероятностного пространства $(\Omega, \mathscr{F}, \mathrm{P})$ равенством
+
+\[
+\lim _{n \rightarrow \infty}\left[\mathrm{P}\left(\bigcap_{i=0}^{r} T^{-k_{i}(n)} A_{i}\right)-\prod_{i=0}^{r} \mathrm{P}\left(A_{i}\right)\right]=0
+\]
+
+где $A_{0}, \ldots, A_{r}$ - любые множества из $\mathscr{F}$ и $\left\{k_{i}(n), n=1,2, \ldots\right\}$, $i=0,1, \ldots, r,-$ любые последовательности натуральных чисел, для к-рых
+
+\[
+\lim _{n \rightarrow \infty} \min _{0 \leqslant i<j \leqslant r}\left|k_{i}(n)-k_{j}(n)\right|=0 .
+\]
+
+Для динамич. системы с непрерывным временем К. п. определяется аналогично. Перемешивание кратности 1 есть просто перемешивание; термин «К. п.» обычно употребляется по отношению к перемешиванию кратности $r \geqslant 2$. Вопрос о совпадении или несовпадении классов $r$-кратно и $(r+1)$-кратно перемешивающих динамич. систем не решен ни, при одном $r$ (очевидно, первый из этих классов содержит второй). Лит.: [1] Рохлин В. А., «Известия АН СССР. Сер. матем.», 1949, т. 13, № 4, с. 329-40; [2] Корнфельд И. П., Синай Я. Г., Фо м и н С. В., Эргодическая теория, М., $1980 . \quad$ Б. М. Гуревич.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

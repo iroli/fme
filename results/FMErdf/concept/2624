@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3362_HODZhA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3362_HODZhA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2624</core:url>
+    <lbm:descriptor><![CDATA[ХОДЖА ЧИСЛО $h^{p, q}$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#776"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19910"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19911"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19342"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19894"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>размерность пространства <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19911">$$h^{p, q}$$</a>, определенного смешанной Ходжа структурой $URI[[http://libmeta.ru/fme/formula/aux/3362_2_HODZhA]]/URI$ и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19894">$$f^{p}$$</a> :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19910">$$H^{p, q}=\left(F^{p} \cap W_{p+q} / F^{p+1} \cap W_{p+q}+W_{p+q-1}\right) / W_{p+q-1} .$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#776">С. В. Чмутов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[размерность пространства $H^{p, q}$, определенного смешанной Ходжа структурой $W_{k}$ и $F^{p}$ :
+
+\[
+H^{p, q}=\left(F^{p} \cap W_{p+q} / F^{p+1} \cap W_{p+q}+W_{p+q-1}\right) / W_{p+q-1} .
+\]
+
+С. В. Чмутов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

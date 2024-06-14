@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2804_SLABAJa" alphabetic_pos="2806">
+  <title>СЛАБАЯ НЕЛИНЕЙНОСТЬ</title>
+  <authors>
+    <author>Г. А. Омельянов</author>
+  </authors>
+  <pages>
+    <start>541</start>
+    <end>542</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Л а нда у Л. Д., Л и фш и ц Е. М., Теория упругости, М., 1987.</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Теория упругости</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2804_1_SLABAJa">L\left(x, u, \delta \frac{\partial u}{\partial x}, \ldots, \partial^{|m|} \frac{\partial^{|m|_{u}}}{\partial x^{m}}, \delta, h\right)=0, \quad x=\left(x_{0}, x_{1}, \ldots, x_{n}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2804_2_SLABAJa">\delta^{2} \frac{\partial^{2} u_{i}}{\partial t^{2}}=\delta^{2} \frac{\partial}{\partial x_{k}} \lambda_{i k l m}\left(\frac{\partial u_{l}}{\partial x_{m}}+\frac{\partial u_{m}}{\partial x_{l}}+\delta \frac{\partial u_{j}}{\partial x_{l}} \frac{\partial u_{j}}{\partial x_{m}}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_1_SLABAJa">\delta, h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_2_SLABAJa">u=\gamma f(S(x) / h, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_3_SLABAJa">l\left(x, \gamma f(\tau, x), \gamma \frac{\delta}{h} \frac{\partial S}{\partial x} \frac{\partial f(\tau, x)}{\partial \tau}, \ldots, \gamma\left(\frac{\delta}{h}\right)^{|m|}\left(\frac{\partial S}{\partial x}\right)^{m} \frac{\partial^{|m|} f(\tau, x)}{\partial \tau^{|m|}}, \delta, h\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_4_SLABAJa">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_5_SLABAJa">f, \ldots, \partial^{|m|} f / \partial \tau^{|m|}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_6_SLABAJa">\delta, \gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_7_SLABAJa">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_8_SLABAJa">u=\gamma f(S(x, t) / h, x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_9_SLABAJa">\delta=\gamma=h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_10_SLABAJa">\delta=h, \gamma=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2804_11_SLABAJa">\delta=1, \gamma=h</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/2804_1_SLABAJa">
+      <rel_text>уравнения теории упругости</rel_text>
+      <target>http://libmeta.ru/fme/article/3189_UPRUGOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2804_2_SLABAJa">
+      <rel_text>ряд Лорана</rel_text>
+      <target>http://libmeta.ru/fme/article/1654_LORANA</target>
+    </relation>
+  </relations>
+  <text>Термин, Означающий, что нелинейные члены уравнения (формулы) являются в некотором смысле младшими по сравнению с линейными. Уравнение с параметрами $URI[[http://libmeta.ru/fme/formula/aux/2804_1_SLABAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2804_1_SLABAJa]]/URI
+\] имеет С. н. на функциях вида $URI[[http://libmeta.ru/fme/formula/aux/2804_2_SLABAJa]]/URI$, если старший член разложения
+
+$URI[[http://libmeta.ru/fme/formula/aux/2804_3_SLABAJa]]/URI$
+
+в URI[[http://libmeta.ru/fme/relation/2804_2_SLABAJa]]/URI по $URI[[http://libmeta.ru/fme/formula/aux/2804_4_SLABAJa]]/URI$ линеен относительно $URI[[http://libmeta.ru/fme/formula/aux/2804_5_SLABAJa]]/URI$. В зависимости от соотношения между $URI[[http://libmeta.ru/fme/formula/aux/2804_6_SLABAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2804_7_SLABAJa]]/URI$ одно и то же уравнение может быть нелинейным или С. н. Напр., URI[[http://libmeta.ru/fme/relation/2804_1_SLABAJa]]/URI (см. [1]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2804_2_SLABAJa]]/URI
+\]
+
+слабо нелинейны на $URI[[http://libmeta.ru/fme/formula/aux/2804_8_SLABAJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2804_9_SLABAJa]]/URI$ и нелинейны при $URI[[http://libmeta.ru/fme/formula/aux/2804_10_SLABAJa]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/2804_11_SLABAJa]]/URI$.</text>
+  <text_orig>ТермИН, ОЗНачающИЙ, что нелинейные члены уравнения (формулы) являются в некотором смысле младшими по сравнению с линейными. Уравнение с параметрами $\delta, h \rightarrow 0$ :
+
+\[
+L\left(x, u, \delta \frac{\partial u}{\partial x}, \ldots, \partial^{|m|} \frac{\partial^{|m|_{u}}}{\partial x^{m}}, \delta, h\right)=0, \quad x=\left(x_{0}, x_{1}, \ldots, x_{n}\right),
+\] имеет С. н. на функциях вида $u=\gamma f(S(x) / h, x)$, если старший член разложения
+
+$L\left(x, \gamma f(\tau, x), \gamma \frac{\delta}{h} \frac{\partial S}{\partial x} \frac{\partial f(\tau, x)}{\partial \tau}, \ldots, \gamma\left(\frac{\delta}{h}\right)^{|m|}\left(\frac{\partial S}{\partial x}\right)^{m} \frac{\partial^{|m|} f(\tau, x)}{\partial \tau^{|m|}}, \delta, h\right)$
+
+в ряд Лорана по $h$ линеен относительно $f, \ldots, \partial^{|m|} f / \partial \tau^{|m|}$. В зависимости от соотношения между $\delta, \gamma$ и $h$ одно и то же уравнение может быть нелинейным или С. н. Напр., уравнения теории упругости (см. [1]):
+
+\[
+\delta^{2} \frac{\partial^{2} u_{i}}{\partial t^{2}}=\delta^{2} \frac{\partial}{\partial x_{k}} \lambda_{i k l m}\left(\frac{\partial u_{l}}{\partial x_{m}}+\frac{\partial u_{m}}{\partial x_{l}}+\delta \frac{\partial u_{j}}{\partial x_{l}} \frac{\partial u_{j}}{\partial x_{m}}\right)
+\]
+
+слабо нелинейны на $u=\gamma f(S(x, t) / h, x, t)$ при $\delta=\gamma=h$ и нелинейны при $\delta=h, \gamma=1$ или $\delta=1, \gamma=h$.
+
+Лит.: [1] Л а нда у Л. Д., Л и фш и ц Е. М., Теория упругости, М., 1987.
+Г. А. Омельянов.</text_orig>
+</article>

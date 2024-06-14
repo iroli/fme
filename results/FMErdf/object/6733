@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_6733">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>S</mi><mrow><mi>I</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>x</mi><mrow><mi>I</mi></mrow></msup><mo>&#x0002C;</mo><msub><mi>&#x003BE;</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><msub><mrow><mo stretchy="true" fence="true" form="prefix" /><msub><mi>R</mi><mrow><mi>&#x003B3;</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>W</mi><mo>&#x02212;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>p</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msub><mo>&#x0002B;</mo><msub><mi>w</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>q</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msup><mo>&#x0002B;</mo><msup><mi>z</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mrow><mi>&#x003B1;</mi></mrow></msub><mo>&#x0003D;</mo><mi>&#x003B1;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>x</mi><mrow><mi>I</mi></mrow></msup><mo>&#x0002C;</mo><msub><mi>&#x003BE;</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mtext>,&#x000A0;</mtext></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$S_{I}\left(x^{I}, \xi_{\bar{I}}\right)=\left.R_{\gamma}\left(W-\left(p_{\bar{I}}+w_{\bar{I}}\right)\left(q^{\bar{I}}+z^{\bar{I}}\right)\right)\right|_{\alpha}=\alpha\left(x^{I}, \xi_{\bar{I}}\right) \text {, }$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

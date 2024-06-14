@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2021_OBOBSchENNYE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2021_OBOBSchENNYE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1135</core:url>
+    <lbm:descriptor><![CDATA[ОБОБЩЕННЫЕ ИМПУЛЬСЫ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8737"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_927"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_612"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2260"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_297"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4845"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5734"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3273_FIZIChESKIE">физические величины</a> $URI[[http://libmeta.ru/fme/formula/aux/2021_1_OBOBSchENNYE]]/URI$, определяемые формулами:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8737">$$p_{i}=\partial T / \partial \dot{q}_{i} \text { или } p_{i}=\partial L / \partial \dot{q}_{i} \text {, }$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2021_2_OBOBSchENNYE]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1227_KINETIChESKAJa">кинетическая энергия</a>, а $URI[[http://libmeta.ru/fme/formula/aux/2021_3_OBOBSchENNYE]]/URI$ Лагранжа функция данной механической системы, выраженные через <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE">обобщенные координаты</a> $URI[[http://libmeta.ru/fme/formula/aux/2021_4_OBOBSchENNYE]]/URI$ и обобщенные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорости</a> $URI[[http://libmeta.ru/fme/formula/aux/2021_5_OBOBSchENNYE]]/URI$. Размерность О. и. зависит от размерности <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE">обобщенной координаты</a>. Если $URI[[http://libmeta.ru/fme/formula/aux/2021_6_OBOBSchENNYE]]/URI$ имеет размерность длины, то $URI[[http://libmeta.ru/fme/formula/aux/2021_7_OBOBSchENNYE]]/URI$ размерность обычного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульса</a>, то есть произведения массы на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорость</a>; если же координатой $URI[[http://libmeta.ru/fme/formula/aux/2021_8_OBOBSchENNYE]]/URI$ является угол (величина безразмерная), то $URI[[http://libmeta.ru/fme/formula/aux/2021_9_OBOBSchENNYE]]/URI$ имеет размерность момента количества движения, и т. д.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[физические величинЫ $p_{i}$, определяемые формулами:
+
+\[
+p_{i}=\partial T / \partial \dot{q}_{i} \text { или } p_{i}=\partial L / \partial \dot{q}_{i} \text {, }
+\]
+
+где $T-$ кинетическая энергия, а $L-$ Лагранжа функция данной механической системы, выраженные через обобщенные координаты $q_{i}$ и обобщенные скорости $\dot{q}_{i}$. Размерность О. и. зависит от размерности обобщенной координаты. Если $q_{i}$ имеет размерность длины, то $p_{i}-$ размерность обычного импульса, то есть произведения массы на скорость; если же координатой $q_{i}$ является угол (величина безразмерная), то $p_{i}$ имеет размерность момента количества движения, и т. д.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1227_KINETIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3273_FIZIChESKIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

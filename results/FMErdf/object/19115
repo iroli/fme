@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_19115">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo>&#x0002C;</mo><mi>&#x003C1;</mi><mo>&#x0002C;</mo><mi>v</mi><mo stretchy="false">&#x00029;</mo></mrow><mrow><mo>&#x02202;</mo><mi>t</mi></mrow></mfrac><mo>&#x0002B;</mo><mi>v</mi><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><mi>&#x003C1;</mi></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><msubsup><mi>E</mi><mrow><mi>k</mi></mrow><mrow><mn>2</mn></mrow></msubsup></mrow><mrow><mn>4</mn><msup><mi>E</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mfrac><mrow><msup><mo>&#x02202;</mo><mrow><mn>2</mn></mrow></msup></mrow><mrow><mo>&#x02202;</mo><msup><mi>v</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mi>f</mi></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{\partial f(t, \rho, v)}{\partial t}+v \frac{\partial f}{\partial \rho}=\frac{E_{k}^{2}}{4 E^{2}} \frac{\partial^{2}}{\partial v^{2}} f$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

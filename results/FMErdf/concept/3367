@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_802_DEFORMATsIJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_802_DEFORMATsIJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3367</core:url>
+    <lbm:descriptor><![CDATA[ДЕФОРМАЦИЙ ТЕНЗОР]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24933"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24934"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24935"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6345"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24936"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24937"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24938"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7889"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI">симметрический</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a>, задающий геометрию деформированного твердого тела. Д.т. выражается формулой:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24933">$$\varepsilon_{i k}=\frac{1}{2}\left(\frac{\partial u_{i}}{\partial x_{k}}+\frac{\partial u_{k}}{\partial x_{i}}+\frac{\partial u_{i}}{\partial x_{i}} \frac{\partial u_{k}}{\partial x_{k}}\right), \quad i, k=1,2,3 .$$</a><BR/></P><P>Здесь <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24935">$$u_{i}=x_{i}^{\prime}-x_{i}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2922_STARShEGO">компоненты вектора</a> смещений, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6345">$$x_{i}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1387_KOORDINATY">координата точки</a> тела до смешения, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24936">$$x_{i}^{\prime}$$</a> - после смещения. Изменение элемента длины <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24937">$$\boldsymbol{d l}^{\prime}$$</a> деформированного тела связано с Д. т. соотношением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24934">$$d l^{2}=\left(\delta_{i k}+2 \varepsilon_{i k}\right) d x_{i} d x_{k},$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24938">$$\delta_{i k} d x_{i} d x_{k}$$</a> - квадрат элемента длины недеформированного тела, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7889">$$\delta_{i k}$$</a> - символ Кронекера.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[симметрический тензор, задающий геометрию деформированного твердого тела. Д.т. выражается формулой:
+
+\[
+\varepsilon_{i k}=\frac{1}{2}\left(\frac{\partial u_{i}}{\partial x_{k}}+\frac{\partial u_{k}}{\partial x_{i}}+\frac{\partial u_{i}}{\partial x_{i}} \frac{\partial u_{k}}{\partial x_{k}}\right), \quad i, k=1,2,3 .
+\]
+
+Здесь $u_{i}=x_{i}^{\prime}-x_{i}-$ компоненты вектора смещений, где $x_{i}-$ координата точки тела до смешения, $x_{i}^{\prime}$ - после смещения. Изменение элемента длины $\boldsymbol{d l}^{\prime}$ деформированного тела связано с Д. т. соотношением
+
+\[
+d l^{2}=\left(\delta_{i k}+2 \varepsilon_{i k}\right) d x_{i} d x_{k},
+\]
+
+где $\delta_{i k} d x_{i} d x_{k}$ - квадрат элемента длины недеформированного тела, $\delta_{i k}$ - символ Кронекера.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1387_KOORDINATY"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2922_STARShEGO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

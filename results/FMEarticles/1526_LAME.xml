@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1526_LAME" alphabetic_pos="1528">
+  <title>ЛАМЕ КОЭФФИЦИЕНТЫ ОРТОГОНАЛЬНОЙ КРИВОЛИНЕЙНОЙ СИСТЕМЫ КООРДИНАТ $u, v, w$ В ПРОСТРАНСТВЕ</title>
+  <authors>
+    <author>В. И. Битюиков</author>
+  </authors>
+  <pages>
+    <start>317</start>
+    <end>317</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1526_1_LAME">\begin{aligned}&amp; L_{u}=\sqrt{\left(\frac{\partial x}{\partial u}\right)^{2}+\left(\frac{\partial y}{\partial u}\right)^{2}+\left(\frac{\partial z}{\partial u}\right)^{2}}, \\&amp; L_{v}=\sqrt{\left(\frac{\partial x}{\partial v}\right)^{2}+\left(\frac{\partial y}{\partial v}\right)^{2}+\left(\frac{\partial z}{\partial v}\right)^{2}}, \\&amp; L_{w}=\sqrt{\left(\frac{\partial x}{\partial w}\right)^{2}+\left(\frac{\partial y}{\partial w}\right)^{2}+\left(\frac{\partial z}{\partial w}\right)^{2}},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1526_2_LAME">d l=\sqrt{L_{u}^{2} d u^{2}+L_{v}^{2} d v^{2}+L_{w}^{2} d w^{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1526_3_LAME">d s=\sqrt{\left(L_{u} L_{v} d u d v\right)^{2}+\left(L_{u} L_{w} d u d w\right)^{2}+\left(L_{v} L_{w} d v d w\right)^{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1526_4_LAME">d V=L_{u} L_{v} L_{w} d u d v d w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1526_5_LAME">\begin{aligned}&amp; \operatorname{grad}_{u} \psi=\frac{1}{L_{u}} \frac{\partial \psi}{\partial u}, \quad \operatorname{grad}_{v} \psi=\frac{1}{L_{v}} \frac{\partial \psi}{\partial v}, \quad \operatorname{grad}_{w} \psi=\frac{1}{L_{w}} \frac{\partial \psi}{\partial w} ; \\&amp; \operatorname{div} \boldsymbol{a}=\frac{1}{L_{u} L_{v} L_{w}}\left[\frac{\partial}{\partial u}\left(a_{u} L_{v} L_{w}\right)+\frac{\partial}{\partial v}\left(a_{v} L_{u} L_{w}\right)+\frac{\partial}{\partial w}\left(a_{w} L_{u} L_{v}\right)\right] ; \\&amp; \operatorname{rot}_{u} \boldsymbol{a}=\frac{1}{L_{v} L_{w}}\left[\frac{\partial}{\partial v}\left(a_{w} L_{w}\right)-\frac{\partial}{\partial w}\left(a_{v} L_{v}\right)\right] \\&amp; \operatorname{rot}_{v} \boldsymbol{a}=\frac{1}{L_{w} L_{u}}\left[\frac{\partial}{\partial w}\left(a_{u} L_{u}\right)-\frac{\partial}{\partial u}\left(a_{w} L_{w}\right)\right] \\&amp; \operatorname{rot}_{w} \boldsymbol{a}=\frac{1}{L_{u} L_{v}}\left[\frac{\partial}{\partial u}\left(a_{v} L_{v}\right)-\frac{\partial}{\partial v}\left(a_{u} L_{u}\right)\right] \\&amp; \Delta \psi=\operatorname{div}(\operatorname{grad} \psi)=\frac{1}{L_{u} L_{v} L_{w}}\left[\frac{\partial}{\partial u}\left(\frac{L_{v} L_{w}}{L_{u}} \frac{\partial \psi}{\partial u}\right)+\right. \\&amp; \left.+\frac{\partial}{\partial v}\left(\frac{L_{w} L_{u}}{L_{v}} \frac{\partial \psi}{\partial v}\right)+\frac{\partial}{\partial w}\left(\frac{L_{u} L_{v}}{L_{w}} \frac{\partial \psi}{\partial w}\right)\right] .\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1526_1_LAME">x, y, z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1526_2_LAME">u, v, w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1526_3_LAME">u, v, w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1526_4_LAME">\quad</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>величины
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1526_1_LAME]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1526_1_LAME]]/URI$ - декартовы прямоугольные координаты; аналогично определяются Л. к. на плоскости. Через Л. к. в координатах $URI[[http://libmeta.ru/fme/formula/aux/1526_2_LAME]]/URI$ выражаются элемент длины:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1526_2_LAME]]/URI
+\]
+
+элемент площади поверхности:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1526_3_LAME]]/URI
+\]
+
+элемент объема:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1526_4_LAME]]/URI
+\]
+
+Л.к. входят в выражения векторных дифференциальных операций в координатах $URI[[http://libmeta.ru/fme/formula/aux/1526_3_LAME]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1526_5_LAME]]/URI
+\]
+
+Л. к. введены Г. Ламе (g. Lamé, 1859). $URI[[http://libmeta.ru/fme/formula/aux/1526_4_LAME]]/URI$</text>
+  <text_orig>величины
+
+\[
+\begin{aligned}
+&amp; L_{u}=\sqrt{\left(\frac{\partial x}{\partial u}\right)^{2}+\left(\frac{\partial y}{\partial u}\right)^{2}+\left(\frac{\partial z}{\partial u}\right)^{2}}, \\
+&amp; L_{v}=\sqrt{\left(\frac{\partial x}{\partial v}\right)^{2}+\left(\frac{\partial y}{\partial v}\right)^{2}+\left(\frac{\partial z}{\partial v}\right)^{2}}, \\
+&amp; L_{w}=\sqrt{\left(\frac{\partial x}{\partial w}\right)^{2}+\left(\frac{\partial y}{\partial w}\right)^{2}+\left(\frac{\partial z}{\partial w}\right)^{2}},
+\end{aligned}
+\]
+
+где $x, y, z$ - декартовы прямоугольные координаты; аналогично определяются Л. к. на плоскости. Через Л. к. в координатах $u, v, w$ выражаются элемент длины:
+
+\[
+d l=\sqrt{L_{u}^{2} d u^{2}+L_{v}^{2} d v^{2}+L_{w}^{2} d w^{2}}
+\]
+
+элемент площади поверхности:
+
+\[
+d s=\sqrt{\left(L_{u} L_{v} d u d v\right)^{2}+\left(L_{u} L_{w} d u d w\right)^{2}+\left(L_{v} L_{w} d v d w\right)^{2}}
+\]
+
+элемент объема:
+
+\[
+d V=L_{u} L_{v} L_{w} d u d v d w
+\]
+
+Л.к. входят в выражения векторных дифференциальных операций в координатах $u, v, w$ :
+
+\[
+\begin{aligned}
+&amp; \operatorname{grad}_{u} \psi=\frac{1}{L_{u}} \frac{\partial \psi}{\partial u}, \quad \operatorname{grad}_{v} \psi=\frac{1}{L_{v}} \frac{\partial \psi}{\partial v}, \quad \operatorname{grad}_{w} \psi=\frac{1}{L_{w}} \frac{\partial \psi}{\partial w} ; \\
+&amp; \operatorname{div} \boldsymbol{a}=\frac{1}{L_{u} L_{v} L_{w}}\left[\frac{\partial}{\partial u}\left(a_{u} L_{v} L_{w}\right)+\frac{\partial}{\partial v}\left(a_{v} L_{u} L_{w}\right)+\frac{\partial}{\partial w}\left(a_{w} L_{u} L_{v}\right)\right] ; \\
+&amp; \operatorname{rot}_{u} \boldsymbol{a}=\frac{1}{L_{v} L_{w}}\left[\frac{\partial}{\partial v}\left(a_{w} L_{w}\right)-\frac{\partial}{\partial w}\left(a_{v} L_{v}\right)\right] \\
+&amp; \operatorname{rot}_{v} \boldsymbol{a}=\frac{1}{L_{w} L_{u}}\left[\frac{\partial}{\partial w}\left(a_{u} L_{u}\right)-\frac{\partial}{\partial u}\left(a_{w} L_{w}\right)\right] \\
+&amp; \operatorname{rot}_{w} \boldsymbol{a}=\frac{1}{L_{u} L_{v}}\left[\frac{\partial}{\partial u}\left(a_{v} L_{v}\right)-\frac{\partial}{\partial v}\left(a_{u} L_{u}\right)\right] \\
+&amp; \Delta \psi=\operatorname{div}(\operatorname{grad} \psi)=\frac{1}{L_{u} L_{v} L_{w}}\left[\frac{\partial}{\partial u}\left(\frac{L_{v} L_{w}}{L_{u}} \frac{\partial \psi}{\partial u}\right)+\right. \\
+&amp; \left.+\frac{\partial}{\partial v}\left(\frac{L_{w} L_{u}}{L_{v}} \frac{\partial \psi}{\partial v}\right)+\frac{\partial}{\partial w}\left(\frac{L_{u} L_{v}}{L_{w}} \frac{\partial \psi}{\partial w}\right)\right] .
+\end{aligned}
+\]
+
+Л. к. введены Г. Ламе (G. Lamé, 1859). $\quad$ В. И. Битюиков.</text_orig>
+</article>

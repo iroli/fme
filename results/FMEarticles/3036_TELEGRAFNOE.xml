@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3036_TELEGRAFNOE" alphabetic_pos="3038">
+  <title>ТЕЛЕГРАФНОЕ УРАВНЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>595</start>
+    <end>595</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ку р а н т Р., Уравнения с частными производными, пер. $\begin{array}{ll}\text { с англ., М., 1964. } &amp; \text { A. П. Солдатов. }\end{array}$</literature_orig>
+    <unit>
+      <author>Курант Р.</author>
+      <title>Уравнения с частными производными</title>
+      <publication>пер. $\begin{array}{ll}\text { с англ., М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3036_1_TELEGRAFNOE">\frac{\partial^{2} u}{\partial t^{2}}-c^{2} \frac{\partial^{2} u}{\partial s^{2}}+(\alpha+\beta) \frac{\partial u}{\partial t}+\alpha \beta u=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3036_2_TELEGRAFNOE">e^{1 / 2(\alpha+\beta) t} u(s, t)=v(x, y), x=s+c t, y=s-c t,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3036_3_TELEGRAFNOE">v_{x y}+\lambda v=0, \quad \lambda=\left(\frac{\alpha-\beta}{4 c}\right)^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3036_4_TELEGRAFNOE">v_{x y}+a v_{x}+b v_{y}+c v=f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3036_5_TELEGRAFNOE">R(x, y ; \xi, \eta)=J_{0}(\sqrt{4 \lambda(x-\xi)(y-\eta)})</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3036_1_TELEGRAFNOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3036_2_TELEGRAFNOE">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3036_3_TELEGRAFNOE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3036_4_TELEGRAFNOE">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3036_5_TELEGRAFNOE">\beta-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3036_6_TELEGRAFNOE">r(x, y ; \xi, \eta)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3036_7_TELEGRAFNOE">j_{0}(z)</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/3036_1_TELEGRAFNOE">
+      <rel_text>функция Бесселя</rel_text>
+      <target>http://libmeta.ru/fme/article/172_BESSELJa</target>
+    </relation>
+  </relations>
+  <text>дифференциальное уравнение с частными производными
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3036_1_TELEGRAFNOE]]/URI
+\]
+
+Этому уравнению удовлетворяет напряжение тока в проводе, рассматриваемое как функция времени $URI[[http://libmeta.ru/fme/formula/aux/3036_1_TELEGRAFNOE]]/URI$ и расстояния $URI[[http://libmeta.ru/fme/formula/aux/3036_2_TELEGRAFNOE]]/URI$ от нек-рой фиксированной точки провода. Здесь $URI[[http://libmeta.ru/fme/formula/aux/3036_3_TELEGRAFNOE]]/URI$ - скорость света, $URI[[http://libmeta.ru/fme/formula/aux/3036_4_TELEGRAFNOE]]/URI$ - емкостный, $URI[[http://libmeta.ru/fme/formula/aux/3036_5_TELEGRAFNOE]]/URI$ индуктивный коэффициенты.
+
+Преобразованием
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3036_2_TELEGRAFNOE]]/URI
+\]
+
+уравнение (1) приводится к виду
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3036_3_TELEGRAFNOE]]/URI
+\]
+
+Это уравнение принадлежит к классу гиперболич. уравнений 2-го порядка
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3036_4_TELEGRAFNOE]]/URI
+\]
+
+в теории к-рых важную роль играет функция Римана $URI[[http://libmeta.ru/fme/formula/aux/3036_6_TELEGRAFNOE]]/URI$. Для уравнения (2) эта функция выписывается в явном виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3036_5_TELEGRAFNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3036_7_TELEGRAFNOE]]/URI$ - URI[[http://libmeta.ru/fme/relation/3036_1_TELEGRAFNOE]]/URI.</text>
+  <text_orig>дифференциальНое уравнение с частными производными
+
+\[
+\frac{\partial^{2} u}{\partial t^{2}}-c^{2} \frac{\partial^{2} u}{\partial s^{2}}+(\alpha+\beta) \frac{\partial u}{\partial t}+\alpha \beta u=0 .
+\]
+
+Этому уравнению удовлетворяет напряжение тока в проводе, рассматриваемое как функция времени $t$ и расстояния $s$ от нек-рой фиксированной точки провода. Здесь $c$ - скорость света, $\alpha$ - емкостный, $\beta-$ индуктивный коэффициенты.
+
+Преобразованием
+
+\[
+e^{1 / 2(\alpha+\beta) t} u(s, t)=v(x, y), x=s+c t, y=s-c t,
+\]
+
+уравнение (1) приводится к виду
+
+\[
+v_{x y}+\lambda v=0, \quad \lambda=\left(\frac{\alpha-\beta}{4 c}\right)^{2}
+\]
+
+Это уравнение принадлежит к классу гиперболич. уравнений 2-го порядка
+
+\[
+v_{x y}+a v_{x}+b v_{y}+c v=f
+\]
+
+в теории к-рых важную роль играет функция Римана $R(x, y ; \xi, \eta)$. Для уравнения (2) эта функция выписывается в явном виде:
+
+\[
+R(x, y ; \xi, \eta)=J_{0}(\sqrt{4 \lambda(x-\xi)(y-\eta)})
+\]
+
+где $J_{0}(z)$ - функшия Бесселя.
+
+Лит.: [1] Ку р а н т Р., Уравнения с частными производными, пер. $\begin{array}{ll}\text { с англ., М., 1964. } &amp; \text { A. П. Солдатов. }\end{array}$</text_orig>
+</article>

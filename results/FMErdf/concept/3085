@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_549_GAUSSOVA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_549_GAUSSOVA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3085</core:url>
+    <lbm:descriptor><![CDATA[ГАУССОВА КРИВИЗНА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22973"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>величина, характеризующая отклонение поверхности от плоскости; она выражается только через коэффициенты <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">первой</a> квадратичной формы:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22973">$$\begin{gathered}k=\frac{1}{\left(E G-F^{2}\right)^{2}}\left|\begin{array}{lll}E & E_{u} & E_{v} \\F & F_{u} & F_{v} \\G & G_{u} & G_{v}\end{array}\right|- \\-\frac{1}{2 \sqrt{E G-F^{2}}}\left\{\left(\frac{E_{v}-F_{u}}{\sqrt{E G-F^{2}}}\right)_{v}-\left(\frac{F_{v}-G_{u}}{\sqrt{E G-F^{2}}}\right)_{u}\right\} .\end{gathered}$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[величина, характеризующая отклонение поверхности от плоскости; она выражается только через коэффициенты первой квадратичной формы:
+
+\[
+\begin{gathered}
+k=\frac{1}{\left(E G-F^{2}\right)^{2}}\left|\begin{array}{lll}
+E & E_{u} & E_{v} \\
+F & F_{u} & F_{v} \\
+G & G_{u} & G_{v}
+\end{array}\right|- \\
+-\frac{1}{2 \sqrt{E G-F^{2}}}\left\{\left(\frac{E_{v}-F_{u}}{\sqrt{E G-F^{2}}}\right)_{v}-\left(\frac{F_{v}-G_{u}}{\sqrt{E G-F^{2}}}\right)_{u}\right\} .
+\end{gathered}
+\]
+
+М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

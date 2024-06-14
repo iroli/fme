@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/399_VIKA" alphabetic_pos="399">
+  <title>ВИКА ТЕОРЕМА</title>
+  <authors/>
+  <pages>
+    <start>88</start>
+    <end>88</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б о гол юбов Н. Н., Ш и рков Д. В., Квантовые поля, $\begin{array}{ll}\text { М., 1980. } &amp; \text { Д. В. Ширков. }\end{array}$</literature_orig>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <author>Ширков Д. В.</author>
+      <title>Квантовые поля, $\begin{array}{ll}\text { М.</title>
+      <publication/>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/399_1_VIKA">: A_{1} A_{2} \ldots A_{n}: \text {; }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/399_2_VIKA">\begin{gathered}\sum_{i \neq j}: A_{1} \ldots \underbrace{}_{i} \ldots A_{j} \ldots A_{n}: \equiv \\\equiv \sum_{i \neq j} A_{i} A_{j} \eta(i, j): A_{1} \ldots A_{i-1} A_{i+1} \ldots A_{j-1} A_{j+1} \ldots A_{n}:\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/399_3_VIKA">\sum_{i \neq j \neq k \neq l}: A_{1} \ldots \underbrace{A_{i} \ldots A_{j} \ldots A_{k}} \ldots A_{i} \ldots A_{n}:</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/399_4_VIKA">A_{i} A_{j}=\left\langle 0\left|A_{i} A_{j}\right| 0\right\rangle .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/399_5_VIKA">\bar{A}_{i} A_{j}=\left\langle 0\left|T\left(A_{i} A_{j}\right)\right| 0\right\rangle .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_1_VIKA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_2_VIKA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_3_VIKA">a_{1}, A_{2}, \ldots, A_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_4_VIKA">a_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_5_VIKA">a_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_6_VIKA">凵</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_7_VIKA">\eta=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_8_VIKA">\eta(i, j)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_9_VIKA">(1,2, \ldots, i, \ldots, j, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_10_VIKA">(i, j, 1, \ldots, i-1, i+1, \ldots, j-1, j+1, \ldots, n)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_11_VIKA">n \geqslant 4</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_12_VIKA">n \geqslant 6</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_13_VIKA">a_{i} A_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/399_14_VIKA">n</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/399_1_VIKA">
+      <rel_text>теории возмущений</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/399_2_VIKA">
+      <rel_text>диаграммам Фейнмана</rel_text>
+      <target>http://libmeta.ru/fme/article/3257_FEJNMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/399_3_VIKA">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/399_4_VIKA">
+      <rel_text>линейных операторов в</rel_text>
+      <target>http://libmeta.ru/fme/article/2809_SLED</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/399_5_VIKA">
+      <rel_text>матричный элемент</rel_text>
+      <target>http://libmeta.ru/fme/article/1751_MATRIChNYJ</target>
+    </relation>
+  </relations>
+  <text>теорема квантовой теории, выражающая произведение (а также хронологическое произведение) $URI[[http://libmeta.ru/fme/formula/aux/399_1_VIKA]]/URI$ полевых операторов во взаимодействия представлении через сумму нормальных произведений этих же операторов, умноженных на перестановочные (или причинные) функџии. Согласно этой доказанной Дж. Виком (g. Wick, 1950) теореме, обычное произведение локальных полевых операторов равно сумме всех соответствующих нормальных произведений со всевозможными спариваниями, включая и нормальное произведение без спариваний. Иными словами, произведение $URI[[http://libmeta.ru/fme/formula/aux/399_2_VIKA]]/URI$ полевых операторов $URI[[http://libmeta.ru/fme/formula/aux/399_3_VIKA]]/URI$ может быть представлено в виде суммы нормальных произведений (обозначается : ... :) со всевозможными спариваниями [заменами пары операторов на числовую (не операторную) функцию], то есть в виде суммы:
+
+a) нормального произведения без спариваний
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/399_1_VIKA]]/URI
+\]
+
+б) нормальных произведений с одним спариванием любых двух операторов $URI[[http://libmeta.ru/fme/formula/aux/399_4_VIKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/399_5_VIKA]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/399_2_VIKA]]/URI
+\]
+
+[здесь скобка $URI[[http://libmeta.ru/fme/formula/aux/399_6_VIKA]]/URI$ снизу означает спаривание, $URI[[http://libmeta.ru/fme/formula/aux/399_7_VIKA]]/URI$ в случае операторов бозе-полей и $URI[[http://libmeta.ru/fme/formula/aux/399_8_VIKA]]/URI$ равно четности перестановок операторов ферми-полей от порядка $URI[[http://libmeta.ru/fme/formula/aux/399_9_VIKA]]/URI$, n) к порядку $URI[[http://libmeta.ru/fme/formula/aux/399_10_VIKA]]/URI$;
+
+в) нормальных произведений с двумя всевозможными спариваниями (при $URI[[http://libmeta.ru/fme/formula/aux/399_11_VIKA]]/URI$ )
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/399_3_VIKA]]/URI
+\]
+
+г) нормальных произведений с тремя всевозможными спариваниями (при $URI[[http://libmeta.ru/fme/formula/aux/399_12_VIKA]]/URI$ ) и т. д. При этом $URI[[http://libmeta.ru/fme/formula/aux/399_13_VIKA]]/URI$ определено как вакуумное среднее от произведения спариваемых операторов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/399_4_VIKA]]/URI
+\]
+
+В. т. для хронологич. произведения $URI[[http://libmeta.ru/fme/formula/aux/399_14_VIKA]]/URI$ линейных операторов отличается только заменой простого спаривания на хронологическое (скобка сверху):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/399_5_VIKA]]/URI
+\]
+
+Из В. т. следует, что любой URI[[http://libmeta.ru/fme/relation/399_5_VIKA]]/URI от обычного или хронологич. произведения URI[[http://libmeta.ru/fme/relation/399_4_VIKA]]/URI конечном счете выражается через произведения соответствующих спариваний. В URI[[http://libmeta.ru/fme/relation/399_3_VIKA]]/URI это приводит к URI[[http://libmeta.ru/fme/relation/399_2_VIKA]]/URI, в квантовой статистике - к диаграммной технике для термодинамич. URI[[http://libmeta.ru/fme/relation/399_1_VIKA]]/URI.</text>
+  <text_orig>теорема квантовой теории, выражающая произведение (а также хронологическое произведение) $n$ полевых операторов во взаимодействия представлении через сумму нормальных произведений этих же операторов, умноженных на перестановочные (или причинные) функџии. Согласно этой доказанной Дж. Виком (G. Wick, 1950) теореме, обычное произведение локальных полевых операторов равно сумме всех соответствующих нормальных произведений со всевозможными спариваниями, включая и нормальное произведение без спариваний. Иными словами, произведение $n$ полевых операторов $A_{1}, A_{2}, \ldots, A_{n}$ может быть представлено в виде суммы нормальных произведений (обозначается : ... :) со всевозможными спариваниями [заменами пары операторов на числовую (не операторную) функцию], то есть в виде суммы:
+
+a) нормального произведения без спариваний
+
+\[
+: A_{1} A_{2} \ldots A_{n}: \text {; }
+\]
+
+б) нормальных произведений с одним спариванием любых двух операторов $A_{i}$ и $A_{j}$
+
+\[
+\begin{gathered}
+\sum_{i \neq j}: A_{1} \ldots \underbrace{}_{i} \ldots A_{j} \ldots A_{n}: \equiv \\
+\equiv \sum_{i \neq j} A_{i} A_{j} \eta(i, j): A_{1} \ldots A_{i-1} A_{i+1} \ldots A_{j-1} A_{j+1} \ldots A_{n}:
+\end{gathered}
+\]
+
+[здесь скобка $凵$ снизу означает спаривание, $\eta=1$ в случае операторов бозе-полей и $\eta(i, j)$ равно четности перестановок операторов ферми-полей от порядка $(1,2, \ldots, i, \ldots, j, \ldots$, n) к порядку $(i, j, 1, \ldots, i-1, i+1, \ldots, j-1, j+1, \ldots, n)]$;
+
+в) нормальных произведений с двумя всевозможными спариваниями (при $n \geqslant 4$ )
+
+\[
+\sum_{i \neq j \neq k \neq l}: A_{1} \ldots \underbrace{A_{i} \ldots A_{j} \ldots A_{k}} \ldots A_{i} \ldots A_{n}:
+\]
+
+г) нормальных произведений с тремя всевозможными спариваниями (при $n \geqslant 6$ ) и т. д. При этом $A_{i} A_{j}$ определено как вакуумное среднее от произведения спариваемых операторов
+
+\[
+A_{i} A_{j}=\left\langle 0\left|A_{i} A_{j}\right| 0\right\rangle .
+\]
+
+В. т. для хронологич. произведения $n$ линейных операторов отличается только заменой простого спаривания на хронологическое (скобка сверху):
+
+\[
+\bar{A}_{i} A_{j}=\left\langle 0\left|T\left(A_{i} A_{j}\right)\right| 0\right\rangle .
+\]
+
+Из В. т. следует, что любой матричный элемент от обычного или хронологич. произведения линейных операторов в конечном счете выражается через произведения соответствуюших спариваний. В квантовой теории поля это приводит к диаграммам Фейнмана, в квантовой статистике - к диаграммной технике для термодинамич. теории возмущений.
+
+Лит.: [1] Б о гол юбов Н. Н., Ш и рков Д. В., Квантовые поля, $\begin{array}{ll}\text { М., 1980. } &amp; \text { Д. В. Ширков. }\end{array}$</text_orig>
+</article>

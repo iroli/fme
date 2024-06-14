@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3196_USKORENI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3196_USKORENI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2439</core:url>
+    <lbm:descriptor><![CDATA[УСКОРЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#3970"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18390"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18392"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18393"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18394"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18395"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18396"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_86"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18397"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8142"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18398"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18399"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_115"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7557"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18400"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>векторная величина, характеризующая быстроту изменения скорости точки по численному значению и по направлению. При прямолинейном движении точки, когда ее скорость $URI[[http://libmeta.ru/fme/formula/aux/3196_1_USKORENI]]/URI$ возрастает (или убывает) равномерно, численно У. равно<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18390">$$w=\Delta v / \Delta t$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18397">$$\delta v-$$</a> приращение скорости за промежуток времени <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8142">$$\delta t$$</a>. В общем случае вектор У.<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18391">$$w=d v / d t=\dot{v}$$</a><BR/></P><P>он направлен в сторону вогнутости траектории точки и лежит в соприкасающейся плоскости (если траектория точки - плоская кривая, то в плоскости этой кривой).<BR/></P><P>Проекции У. на прямоугольные декартовы координатные оси Oxyz равны:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18392">$$w_{x}=\dot{v}_{x}, w_{y}=\dot{v}_{y}, w_{z}=\dot{v}_{z}$$</a><BR/></P><P>при этом модуль У.<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18393">$$w=\sqrt{w_{x}^{2}+w_{y}^{2}+w_{z}^{2}}$$</a><BR/></P><P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO">Проекции</a> У. на касательную и главную нормаль к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI">траектории</a> называют соответственно кас а те ль ны м (т а нген циальным) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18398">$$w_{\tau}$$</a> и нормальным (цент рост реми т е л ь н ы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18399">$$) w_{n}$$</a> У.; они определяются равенствами:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18394">$$w_{\tau}=d v / d t=\dot{v} \text { и } w_{n}=v^{2} / \rho \text {, }$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/3196_6_USKORENI]]/URI$ - численная величина <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорости</a>, $URI[[http://libmeta.ru/fme/formula/aux/3196_7_USKORENI]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1460_KRIVIZNY">радиус кривизны</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI">траектории</a> в соответствующей ее точке. При этом<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18395">$$w=\sqrt{w_{\tau}^{2}+w_{n}^{2}}$$</a><BR/></P><P>Касательное У. характеризует изменение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорости</a> точки по ее численной величине, а нормальное У.- по направлению. У. свободной материальной точки при движении по отношению к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1019_INERTsIAL'NAJa">инерциальной системе отсчета</a> связано с массой $URI[[http://libmeta.ru/fme/formula/aux/3196_8_USKORENI]]/URI$ точки и с действующей силой $URI[[http://libmeta.ru/fme/formula/aux/3196_9_USKORENI]]/URI$ равенством:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18396">$$m \boldsymbol{w}=\boldsymbol{F} \text { (второй закон Ньютона). }$$</a><BR/></P><P>Размерность У. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18400">$$l T^{-2}$$</a>.<BR/></P><P>Об У. вращающегося тела см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3146_UGLOVOE">Угловое ускорение</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#3970">С. М. Тарг</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[векторная величина, характеризующая быстроту изменения скорости точки по численному значению и по направлению. При прямолинейном движении точки, когда ее скорость $v$ возрастает (или убывает) равномерно, численно У. равно
+
+\[
+w=\Delta v / \Delta t
+\]
+
+где $\Delta v-$ прирашение скорости за промежуток времени $\Delta t$. В общем случае вектор У.
+
+\[
+w=d v / d t=\dot{v}
+\]
+
+он направлен в сторону вогнутости траектории точки и лежит в соприкасающейся плоскости (если траектория точки - плоская кривая, то в плоскости этой кривой).
+
+Проекции У. на прямоугольные декартовы координатные оси Oxyz равны:
+
+\[
+w_{x}=\dot{v}_{x}, w_{y}=\dot{v}_{y}, w_{z}=\dot{v}_{z}
+\]
+
+при этом модуль У.
+
+\[
+w=\sqrt{w_{x}^{2}+w_{y}^{2}+w_{z}^{2}}
+\]
+
+Проекции У. на касательную и главную нормаль к траектории называют соответственно кас а те ль ны м (т а нген циальным) $w_{\tau}$ и нормальным (цент рост реми т е л ь н ы $) w_{n}$ У.; они определяются равенствами:
+
+\[
+w_{\tau}=d v / d t=\dot{v} \text { и } w_{n}=v^{2} / \rho \text {, }
+\]
+
+где $v$ - численная величина скорости, $\rho$ - радиус кривизны траектории в соответствующей ее точке. При этом
+
+\[
+w=\sqrt{w_{\tau}^{2}+w_{n}^{2}}
+\]
+
+Касательное У. характеризует изменение скорости точки по ее численной величине, а нормальное У.- по направлению. У. свободной материальной точки при движении по отношению к инерциальной системе отсчета связано с массой $m$ точки и с действующей силой $\boldsymbol{F}$ равенством:
+
+\[
+m \boldsymbol{w}=\boldsymbol{F} \text { (второй закон Ньютона). }
+\]
+
+Размерность У. $L T^{-2}$.
+
+Об У. вращающегося тела см. Угловое ускорение. С. М. Тарг.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3146_UGLOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1019_INERTsIAL'NAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1460_KRIVIZNY"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

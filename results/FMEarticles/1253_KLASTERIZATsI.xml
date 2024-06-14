@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1253_KLASTERIZATsI" alphabetic_pos="1255">
+  <title>КЛАСТЕРИЗАЦИЯ</title>
+  <authors>
+    <author>А. Л. Ребенко</author>
+  </authors>
+  <pages>
+    <start>270</start>
+    <end>270</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1253_1_KLASTERIZATsI">f(X)=\sum_{k} \sum^{*} f_{1}\left(X_{1}\right) \ldots f_{k}\left(X_{k}\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1253_1_KLASTERIZATsI">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1253_2_KLASTERIZATsI">\left\{x_{1}, \ldots, x_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1253_3_KLASTERIZATsI">\left\{x_{1}, \ldots, X_{m}\right\} \equiv X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1253_4_KLASTERIZATsI">\cup X_{i}=\left\{x_{1}, \ldots, x_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1253_5_KLASTERIZATsI">\sum^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1253_6_KLASTERIZATsI">x_{1}, \ldots, X_{k}, X_{i} \cap X_{j}=\varnothing</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1253_7_KLASTERIZATsI">\cup X_{i}=X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1253_8_KLASTERIZATsI">s</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/1253_1_KLASTERIZATsI">
+      <rel_text>кластеризуются</rel_text>
+      <target>http://libmeta.ru/fme/article/1253_KLASTERIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1253_2_KLASTERIZATsI">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1253_3_KLASTERIZATsI">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1253_4_KLASTERIZATsI">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1253_5_KLASTERIZATsI">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>разбиение системы $URI[[http://libmeta.ru/fme/formula/aux/1253_1_KLASTERIZATsI]]/URI$ независимых переменных $URI[[http://libmeta.ru/fme/formula/aux/1253_2_KLASTERIZATsI]]/URI$ на кластеры (непересекающиеся подмножества) $URI[[http://libmeta.ru/fme/formula/aux/1253_3_KLASTERIZATsI]]/URI$ такое, что $URI[[http://libmeta.ru/fme/formula/aux/1253_4_KLASTERIZATsI]]/URI$. В статистич. URI[[http://libmeta.ru/fme/relation/1253_5_KLASTERIZATsI]]/URI и URI[[http://libmeta.ru/fme/relation/1253_4_KLASTERIZATsI]]/URI функции, описывающие URI[[http://libmeta.ru/fme/relation/1253_3_KLASTERIZATsI]]/URI большого числа URI[[http://libmeta.ru/fme/relation/1253_2_KLASTERIZATsI]]/URI, URI[[http://libmeta.ru/fme/relation/1253_1_KLASTERIZATsI]]/URI, то есть представляются в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1253_1_KLASTERIZATsI]]/URI
+\]
+
+где суммирование $URI[[http://libmeta.ru/fme/formula/aux/1253_5_KLASTERIZATsI]]/URI$ проводится по $URI[[http://libmeta.ru/fme/formula/aux/1253_6_KLASTERIZATsI]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1253_7_KLASTERIZATsI]]/URI$. К. возникает в майеровских разложениях, кластерных разложениях, в теории $URI[[http://libmeta.ru/fme/formula/aux/1253_8_KLASTERIZATsI]]/URI$-матриц и других случаях.</text>
+  <text_orig>разбиение системы $n$ независимых переменных $\left\{x_{1}, \ldots, x_{n}\right\}$ на кластеры (непересекающиеся подмножества) $\left\{X_{1}, \ldots, X_{m}\right\} \equiv X$ такое, что $\cup X_{i}=\left\{x_{1}, \ldots, x_{n}\right\}$. В статистич. механике и квантовой теории поля функции, описывающие состояния большого числа частиц, кластеризуются, то есть представляются в виде:
+
+\[
+f(X)=\sum_{k} \sum^{*} f_{1}\left(X_{1}\right) \ldots f_{k}\left(X_{k}\right),
+\]
+
+где суммирование $\sum^{*}$ проводится по $X_{1}, \ldots, X_{k}, X_{i} \cap X_{j}=\varnothing$, $\cup X_{i}=X$. К. возникает в майеровских разложениях, кластерных разложениях, в теории $S$-матриц и других случаях. А.Л. Ребенко.</text_orig>
+</article>

@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2967_STOHASTIChESKIJ" alphabetic_pos="2969">
+  <title>СТОХАСТИЧЕСКИЙ АТТРАКТОР</title>
+  <authors>
+    <author>А. Бунимович.Стохастй</author>
+  </authors>
+  <pages>
+    <start>583</start>
+    <end>583</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] С и най Я. Г., в кн.: Нелинейные волны, М., 1979. с. 192-212. Л.</literature_orig>
+    <unit>
+      <author>Синай Я. Г.</author>
+      <title>в кн.: Нелинейные волны</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main/>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_1_STOHASTIChESKIJ">\left\{s^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_2_STOHASTIChESKIJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_3_STOHASTIChESKIJ">u_{0} \supset A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_4_STOHASTIChESKIJ">u_{t_{1}}=s^{t_{1}} U_{0} \supset U_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_5_STOHASTIChESKIJ">t&gt;t_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_6_STOHASTIChESKIJ">\bigcap_{t} U_{t}=A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_7_STOHASTIChESKIJ">\mu_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_8_STOHASTIChESKIJ">u_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_9_STOHASTIChESKIJ">\mu_{t}=s_{x}^{t} \mu_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_10_STOHASTIChESKIJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_11_STOHASTIChESKIJ">\left.\mu_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_12_STOHASTIChESKIJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_13_STOHASTIChESKIJ">\left(a, \lambda,\left\{S^{t}\right\}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2967_14_STOHASTIChESKIJ">\lambda</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/2967_1_STOHASTIChESKIJ">
+      <rel_text>Перемешивание</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2967_2_STOHASTIChESKIJ">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2967_3_STOHASTIChESKIJ">
+      <rel_text>траекторий</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2967_4_STOHASTIChESKIJ">
+      <rel_text>перемешивающей</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2967_5_STOHASTIChESKIJ">
+      <rel_text>динамическая система</rel_text>
+      <target>http://libmeta.ru/fme/article/826_DINAMIChESKAJa</target>
+    </relation>
+  </relations>
+  <text>замкнутое инвариантное относительно динамической системы $URI[[http://libmeta.ru/fme/formula/aux/2967_1_STOHASTIChESKIJ]]/URI$, представляющей собой однопараметрическую группу диффеоморфизмов гладкого многообразия, множество $URI[[http://libmeta.ru/fme/formula/aux/2967_2_STOHASTIChESKIJ]]/URI$, обладающее следующими свойствами (см. [1]):
+
+1) существует окрестность $URI[[http://libmeta.ru/fme/formula/aux/2967_3_STOHASTIChESKIJ]]/URI$ такая, что $URI[[http://libmeta.ru/fme/formula/aux/2967_4_STOHASTIChESKIJ]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2967_5_STOHASTIChESKIJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2967_6_STOHASTIChESKIJ]]/URI$;
+
+2) для любой абсолютно непрерывной меры $URI[[http://libmeta.ru/fme/formula/aux/2967_7_STOHASTIChESKIJ]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/2967_8_STOHASTIChESKIJ]]/URI$ семейство мер $URI[[http://libmeta.ru/fme/formula/aux/2967_9_STOHASTIChESKIJ]]/URI$ сходится к инвариантной мере $URI[[http://libmeta.ru/fme/formula/aux/2967_10_STOHASTIChESKIJ]]/URI$ (не зависящей от $URI[[http://libmeta.ru/fme/formula/aux/2967_11_STOHASTIChESKIJ]]/URI$, сосредоточенной на $URI[[http://libmeta.ru/fme/formula/aux/2967_12_STOHASTIChESKIJ]]/URI$;
+
+3) URI[[http://libmeta.ru/fme/relation/2967_5_STOHASTIChESKIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2967_13_STOHASTIChESKIJ]]/URI$ является URI[[http://libmeta.ru/fme/relation/2967_4_STOHASTIChESKIJ]]/URI (см. URI[[http://libmeta.ru/fme/relation/2967_1_STOHASTIChESKIJ]]/URI).
+
+Статистика типичных (по отношению к мере Лебега) URI[[http://libmeta.ru/fme/relation/2967_3_STOHASTIChESKIJ]]/URI в URI[[http://libmeta.ru/fme/relation/2967_2_STOHASTIChESKIJ]]/URI притяжения С.а. определяется предельной мерой $URI[[http://libmeta.ru/fme/formula/aux/2967_14_STOHASTIChESKIJ]]/URI$.</text>
+  <text_orig>замкнутое инвариантное относительно динамической системы $\left\{S^{t}\right\}$, представляющей собой однопараметрическую группу диффеоморфизмов гладкого многообразия, множество $A$, обладаюшее следующими свойствами (см. [1]):
+
+1) существует окрестность $U_{0} \supset A$ такая, что $U_{t_{1}}=S^{t_{1}} U_{0} \supset U_{t}$ при $t&gt;t_{1}$ и $\bigcap_{t} U_{t}=A$;
+
+2) для любой абсолютно непрерывной меры $\mu_{0}$ на $U_{0}$ семейство мер $\mu_{t}=S_{x}^{t} \mu_{0}$ сходится к инвариантной мере $\lambda$ (не зависящей от $\left.\mu_{0}\right)$, сосредоточенной на $A$;
+
+3) динамическая система $\left(A, \lambda,\left\{S^{t}\right\}\right)$ является перемешиваюшей (см. Перемешивание).
+
+Статистика типичных (по отношению к мере Лебега) траекторий в области притяжения С.а. определяется предельной мерой $\lambda$.
+
+Лum.: [1] С и най Я. Г., в кн.: Нелинейные волны, М., 1979. с. 192-212. Л. А. Бунимович.
+СтохАСТй</text_orig>
+</article>

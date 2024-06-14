@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1897_NEJMANA" alphabetic_pos="1899">
+  <title>НЕЙМАНА УРАВНЕНИЕ</title>
+  <authors>
+    <author>А. В. Солдатов</author>
+  </authors>
+  <pages>
+    <start>376</start>
+    <end>377</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1897_1_NEJMANA">\frac{\partial \rho(t)}{\partial t}=\frac{i}{\hbar}(\rho(t) H-H \rho(t)),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1897_2_NEJMANA">\rho(t)=\exp \left(-\frac{i H}{\hbar} t\right) \rho(0) \exp \left(\frac{i H}{\hbar} t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1897_3_NEJMANA">\rho(t)=U(t, 0) \rho(0) U^{-1}(t, 0) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1897_4_NEJMANA">i \hbar \frac{\partial U(t, 0)}{\partial t}=H(t) U(t, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1897_5_NEJMANA">\rho H-H \rho=0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1897_1_NEJMANA">\rho(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1897_2_NEJMANA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1897_3_NEJMANA">u(t, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1897_4_NEJMANA">u(0,0)=1</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1897_1_NEJMANA">
+      <rel_text>Плотности</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1897_2_NEJMANA">
+      <rel_text>Лиувилля квантовый оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/1205_KVANTOVYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1897_3_NEJMANA">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+  </relations>
+  <text>линейное уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1897_1_NEJMANA]]/URI
+\]
+
+которому удовлетворяет статистический оператор $URI[[http://libmeta.ru/fme/formula/aux/1897_1_NEJMANA]]/URI$, зависящий от времени и описывающий в квантовой и статистической механике эволюцию системы во времени; здесь $URI[[http://libmeta.ru/fme/formula/aux/1897_2_NEJMANA]]/URI$ - гамильтониан системы, который может явно зависеть от времени. Это уравнение дает возможность определить статистич. оператор в любой момент времени, если он известен в начальный момент. Если гамильтониан системы не зависит явно от времени, то формальное решение Н.у. может быть представлено в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1897_2_NEJMANA]]/URI
+\]
+
+В противном случае явно зависящего от времени гамильтониана решение может быть получено при помощи эволюционного оператора $URI[[http://libmeta.ru/fme/formula/aux/1897_3_NEJMANA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1897_3_NEJMANA]]/URI
+\]
+
+Эволюционный оператор удовлетворяет уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1897_4_NEJMANA]]/URI
+\]
+
+и начальному условию $URI[[http://libmeta.ru/fme/formula/aux/1897_4_NEJMANA]]/URI$.
+
+Н. у. описывает обратимую эволюцию квантовой системы. В состоянии статистич. равновесия оно сводится к уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1897_5_NEJMANA]]/URI
+\]
+
+и статистич. URI[[http://libmeta.ru/fme/relation/1897_3_NEJMANA]]/URI является интегралом движения.
+
+См. также URI[[http://libmeta.ru/fme/relation/1897_2_NEJMANA]]/URI, URI[[http://libmeta.ru/fme/relation/1897_1_NEJMANA]]/URI матрица.</text>
+  <text_orig>линейное уравнение
+
+\[
+\frac{\partial \rho(t)}{\partial t}=\frac{i}{\hbar}(\rho(t) H-H \rho(t)),
+\]
+
+которому удовлетворяет статистический оператор $\rho(t)$, зависящий от времени и описывающий в квантовой и статистической механике эволюцию системы во времени; здесь $H$ - гамильтониан системы, который может явно зависеть от времени. Это уравнение дает возможность определить статистич. оператор в любой момент времени, если он известен в начальный момент. Если гамильтониан системы не зависит явно от времени, то формальное решение Н.у. может быть представлено в виде:
+
+\[
+\rho(t)=\exp \left(-\frac{i H}{\hbar} t\right) \rho(0) \exp \left(\frac{i H}{\hbar} t\right)
+\]
+
+В противном случае явно зависящего от времени гамильтониана решение может быть получено при помощи эволюционного оператора $U(t, 0)$ :
+
+\[
+\rho(t)=U(t, 0) \rho(0) U^{-1}(t, 0) .
+\]
+
+Эволюционный оператор удовлетворяет уравнению
+
+\[
+i \hbar \frac{\partial U(t, 0)}{\partial t}=H(t) U(t, 0)
+\]
+
+и начальному условию $U(0,0)=1$.
+
+Н. у. описывает обратимую эволюцию квантовой системы. В состоянии статистич. равновесия оно сводится к уравнению
+
+\[
+\rho H-H \rho=0
+\]
+
+и статистич. оператор является интегралом движения.
+
+См. также Лиувилля квантовый оператор, Плотности матрица.
+
+А. В. Солдатов.</text_orig>
+</article>

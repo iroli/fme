@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_19550">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><msub><mi>x</mi><mrow><mo>&#x02212;</mo></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>&#x003A9;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><munder><mrow><mo>lim</mo><mo>proj</mo><mo>lim</mo><mo>proj</mo><msub><mi>x</mi><mrow><mi>&#x003B5;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>U</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mrow><mrow><mi>U</mi><mo>&#x022D0;</mo><mi>&#x003A9;</mi></mrow></munder><mspace linebreak="newline" /><mi>&</mi><msub><mi>x</mi><mrow><mo>&#x0002B;</mo></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>&#x003A9;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msub><mo>limproj</mo><mrow><mi>U</mi><mo>&#x022D0;</mo><mi>&#x003A9;</mi></mrow></msub><msub><mo>limind</mo><mrow><mi>&#x003B5;</mi><mo>&#x0003E;</mo><mn>0</mn></mrow></msub><msub><mi>x</mi><mrow><mi>&#x003B5;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>U</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; x_{-}(\Omega)=\underset{U \Subset \Omega}{\lim \operatorname{proj} \lim \operatorname{proj} x_{\varepsilon}(U),} \\&amp; x_{+}(\Omega)=\operatorname{limproj}_{U \Subset \Omega} \operatorname{limind}_{\varepsilon&gt;0} x_{\varepsilon}(U),\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

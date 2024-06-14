@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/210_BLOHA" alphabetic_pos="210">
+  <title>БЛОХА УГОЛ</title>
+  <authors/>
+  <pages>
+    <start>48</start>
+    <end>48</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/210_1_BLOHA">\begin{gathered}R^{x}(t)=\rho(t) \sin \Theta(t) \cos \varphi(t), \\R^{y}(t)=\rho(t) \sin \Theta(t) \sin \varphi(t), \\R^{z}(t)=-\rho(t) \cos \Theta(t) .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/210_1_BLOHA">\theta(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/210_2_BLOHA">\boldsymbol{r}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/210_3_BLOHA">(-z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/210_4_BLOHA">\rho(t), \Theta(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/210_5_BLOHA">\varphi(t)</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/210_1_BLOHA">
+      <rel_text>уравнения Блоха</rel_text>
+      <target>http://libmeta.ru/fme/article/211_BLOHA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/210_2_BLOHA">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/210_3_BLOHA">
+      <rel_text>получающихся</rel_text>
+      <target>http://libmeta.ru/fme/article/2306_POLUINVARIAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/210_4_BLOHA">
+      <rel_text>Блоха вектора</rel_text>
+      <target>http://libmeta.ru/fme/article/207_BLOHA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/210_5_BLOHA">
+      <rel_text>классического</rel_text>
+      <target>http://libmeta.ru/fme/article/1253_KLASTERIZATsI</target>
+    </relation>
+  </relations>
+  <text>угол отклонения $URI[[http://libmeta.ru/fme/formula/aux/210_1_BLOHA]]/URI$ URI[[http://libmeta.ru/fme/relation/210_5_BLOHA]]/URI URI[[http://libmeta.ru/fme/relation/210_4_BLOHA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/210_2_BLOHA]]/URI$ от оси $URI[[http://libmeta.ru/fme/formula/aux/210_3_BLOHA]]/URI$ в сферической системе координат. Б. у. определяется равенствами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/210_1_BLOHA]]/URI
+\]
+
+Функции $URI[[http://libmeta.ru/fme/formula/aux/210_4_BLOHA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/210_5_BLOHA]]/URI$ находятся из уравнений, URI[[http://libmeta.ru/fme/relation/210_3_BLOHA]]/URI при подстановке данного представления URI[[http://libmeta.ru/fme/relation/210_2_BLOHA]]/URI Блоха в URI[[http://libmeta.ru/fme/relation/210_1_BLOHA]]/URI.</text>
+  <text_orig>угол отклонения $\Theta(t)$ классического Блоха вектора $\boldsymbol{R}(t)$ от оси $(-z)$ в сферической системе координат. Б. у. определяется равенствами
+
+\[
+\begin{gathered}
+R^{x}(t)=\rho(t) \sin \Theta(t) \cos \varphi(t), \\
+R^{y}(t)=\rho(t) \sin \Theta(t) \sin \varphi(t), \\
+R^{z}(t)=-\rho(t) \cos \Theta(t) .
+\end{gathered}
+\]
+
+Функции $\rho(t), \Theta(t)$ и $\varphi(t)$ находятся из уравнений, получающихся при подстановке данного представления вектора Блоха в уравнения Блоха.</text_orig>
+</article>

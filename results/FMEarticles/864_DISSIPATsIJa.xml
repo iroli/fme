@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/864_DISSIPATsIJa" alphabetic_pos="866">
+  <title>ДИССИПАЦИЯ ЭНЕРГИИ ТУРБУЛЕНТНОСТИ</title>
+  <authors>
+    <author>А. М. Яалом</author>
+  </authors>
+  <pages>
+    <start>188</start>
+    <end>188</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/864_1_DISSIPATsIJa">\sum_{k=1}^{3} \frac{\partial u_{k}}{\partial x_{k}}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/864_2_DISSIPATsIJa">\varepsilon=\frac{v}{2} \sum_{i, j=1}^{3}\left(\frac{\partial u_{i}}{\partial x_{j}}+\frac{\partial u_{j}}{\partial x_{i}}\right)^{2}, \quad v=\frac{\mu}{\rho} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/864_1_DISSIPATsIJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/864_2_DISSIPATsIJa">\varepsilon=\frac{\mu}{2 \rho} \sum_{i, j=1}^{3}\left(\frac{\partial u_{i}}{\partial x_{j}}+\frac{\partial u_{j}}{\partial x_{i}}-\frac{2}{3} \delta_{i j} \sum_{k=1}^{3} \frac{\partial u_{k}}{\partial x_{k}}\right)^{2}+\frac{\zeta}{\rho}\left(\sum_{k=1}^{3} \frac{\partial u_{k}}{\partial x_{k}}\right)^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/864_3_DISSIPATsIJa">x_{i}, i=1,2,3,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/864_4_DISSIPATsIJa">u_{j}, j=1,2,3,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/864_5_DISSIPATsIJa">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/864_6_DISSIPATsIJa">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/864_7_DISSIPATsIJa">\mu-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/864_8_DISSIPATsIJa">\zeta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/864_9_DISSIPATsIJa">\varepsilon</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>процесс рассеяния кинетической энергии турбулентности, то есть ее перехода в теплоту в результате внутреннего (вязкого) трения в жидкости. Д и с с и п а ц и е й называется также мера скорости этого процесса, равная количеству энергии $URI[[http://libmeta.ru/fme/formula/aux/864_1_DISSIPATsIJa]]/URI$, переходящему в теплоту за единицу времени в единице массы жидкости. Величина в общем случае задается фор-
+
+мулой:
+$URI[[http://libmeta.ru/fme/formula/aux/864_2_DISSIPATsIJa]]/URI$, 188 Диссипативное где $URI[[http://libmeta.ru/fme/formula/aux/864_3_DISSIPATsIJa]]/URI$ декартовы координаты, $URI[[http://libmeta.ru/fme/formula/aux/864_4_DISSIPATsIJa]]/URI$ три компоненты вектора скорости, $URI[[http://libmeta.ru/fme/formula/aux/864_5_DISSIPATsIJa]]/URI$ - символ Кронекера, $URI[[http://libmeta.ru/fme/formula/aux/864_6_DISSIPATsIJa]]/URI$ плотность жидкости, $URI[[http://libmeta.ru/fme/formula/aux/864_7_DISSIPATsIJa]]/URI$ коэффициент вязкости, а $URI[[http://libmeta.ru/fme/formula/aux/864_8_DISSIPATsIJa]]/URI$ второй коэффициент вязкости. В случае несжимаемой жидкости
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/864_1_DISSIPATsIJa]]/URI
+\]
+
+и формула для $URI[[http://libmeta.ru/fme/formula/aux/864_9_DISSIPATsIJa]]/URI$ заметно упрощается:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/864_2_DISSIPATsIJa]]/URI
+\]</text>
+  <text_orig>процесс рассеяния кинетической энергии турбулентности, то есть ее перехода в теплоту в результате внутреннего (вязкого) трения в жидкости. Д и с с и п а ц и е й называется также мера скорости этого процесса, равная количеству энергии $\varepsilon$, переходящему в теплоту за единицу времени в единице массы жидкости. Величина в общем случае задается фор-
+
+мулой:
+$\varepsilon=\frac{\mu}{2 \rho} \sum_{i, j=1}^{3}\left(\frac{\partial u_{i}}{\partial x_{j}}+\frac{\partial u_{j}}{\partial x_{i}}-\frac{2}{3} \delta_{i j} \sum_{k=1}^{3} \frac{\partial u_{k}}{\partial x_{k}}\right)^{2}+\frac{\zeta}{\rho}\left(\sum_{k=1}^{3} \frac{\partial u_{k}}{\partial x_{k}}\right)^{2}$, 188 ДИССИПАТИВНОЕ где $x_{i}, i=1,2,3,-$ декартовы координаты, $u_{j}, j=1,2,3,-$ три компоненты вектора скорости, $\delta_{i j}$ - символ Кронекера, $\rho$ плотность жидкости, $\mu-$ коэффициент вязкости, а $\zeta$ второй коэффициент вязкости. В случае несжимаемой жидкости
+
+\[
+\sum_{k=1}^{3} \frac{\partial u_{k}}{\partial x_{k}}=0
+\]
+
+и формула для $\varepsilon$ заметно упрощается:
+
+\[
+\varepsilon=\frac{v}{2} \sum_{i, j=1}^{3}\left(\frac{\partial u_{i}}{\partial x_{j}}+\frac{\partial u_{j}}{\partial x_{i}}\right)^{2}, \quad v=\frac{\mu}{\rho} .
+\]
+
+А. М. Яалом.</text_orig>
+</article>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_24188">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mover><mrow><mi>h</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mi>v</mi></mrow><mrow><mi>&#x003BC;</mi></mrow></msubsup><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><mn>4</mn><mi>G</mi></mrow><mrow><msup><mi>c</mi><mrow><mn>4</mn></mrow></msup></mrow></mfrac><mo>&#x0222B;</mo><msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>&#x003C4;</mi><mrow><mi>v</mi></mrow><mrow><mi>&#x003BC;</mi></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mi>t</mi><mo>&#x02212;</mo><mi>R</mi><mo>&#x0002F;</mo><mi>c</mi></mrow></msub><mi>d</mi><mi>V</mi><mo>&#x0002F;</mo><mi>R</mi></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\bar{h}_{v}^{\mu}=-\frac{4 G}{c^{4}} \int\left(\tau_{v}^{\mu}\right)_{t-R / c} d V / R$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

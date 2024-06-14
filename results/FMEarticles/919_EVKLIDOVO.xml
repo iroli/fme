@@ -1,0 +1,478 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/919_EVKLIDOVO" alphabetic_pos="921">
+  <title>ЕВКЛИДОВО КВАНТОВОЕ ПОЛЕ; РЕШЕТЧАТЫЕ МОДЕЛИ</title>
+  <authors>
+    <author>Р. А. Минлос</author>
+  </authors>
+  <pages>
+    <start>199</start>
+    <end>201</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] С ай м о н Б., Модель $p[\varphi]_{2}$ евклидовой квантовой теории поля, пер. с англ., М., 1976; [2] З айл е р Э., Калибровочные теории, пер. с англ., М., 1985; [3] Глимм Дж., Джаффе А., Математические методы квантовой физики, пер. с англ., М., 1984.</literature_orig>
+    <unit>
+      <author>Саймон Б.</author>
+      <title>Модель $p[\varphi]_{2}$ евклидовой квантовой теории поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Зайлер Э.</author>
+      <title>Калибровочные теории</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1985</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Глимм Дж., Джаффе А., Математические методы квантовой физики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_1_EVKLIDOVO">\left\{\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, x=\left(x^{0}, x^{1}, \ldots, x^{v}\right) \in \mathbb{Z}^{v+1}, \alpha \in M\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_2_EVKLIDOVO">\tau_{s} \eta_{x, \alpha}=\eta_{x+s, \alpha}, \tau_{s} \eta_{x, \alpha}^{*}=\eta_{x+s, \alpha}^{*}, s \in \mathbb{Z}^{\nu+1} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_3_EVKLIDOVO">\theta \eta_{x, \alpha}=\sum_{\beta} \gamma_{\alpha, \beta} \eta_{v x, \beta}^{*}, \quad \theta \eta_{x, \alpha}^{*}=\sum_{\beta} \overline{\gamma_{\alpha, \beta}} \eta_{v x, \beta},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_4_EVKLIDOVO">S(\sigma)=\sum_{x, \mu} P\left(\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, \eta_{x+e \mu, \alpha}, \eta_{x+e \mu, \alpha}^{*}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_5_EVKLIDOVO">\langle f\rangle=\lim _{\Lambda \rightarrow \mathbb{Z}^{v+1}}\langle f\rangle_{\Lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_6_EVKLIDOVO">\langle f\rangle_{\Lambda}=\frac{1}{z_{\Lambda}} \int_{\Sigma^{\Lambda}} f \exp \left\{-S_{\Lambda}\right\} \dot{\prod}_{x \in \Lambda} d \chi(\sigma(x)) \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_7_EVKLIDOVO">S_{\Lambda}=\sum^{(1)} P\left\{\eta_{x_{1}, \alpha}, \eta_{x_{1}, \alpha}^{*}, \eta_{x_{2}, \alpha}, \eta_{x_{2}, \alpha}^{*}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_8_EVKLIDOVO">\begin{aligned}&amp; S(\sigma)=\sum^{(2)} J \sigma(x) \sigma\left(x^{\prime}\right), \\&amp; \sigma=\left\{\sigma(x)= \pm 1, x \in \mathbb{Z}^{v+1}\right\}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_9_EVKLIDOVO">S(\sigma)=\sum_{p} \operatorname{Re} g_{0}\left(\sigma_{p}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_10_EVKLIDOVO">\left\{\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, x \in \mathbb{Z}^{v+1}, \alpha \in M\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_11_EVKLIDOVO">\langle\cdot\rangle=\lim _{\Lambda-\tilde{\mathbb{Z}}^{v+1}}\langle\cdot\rangle_{\Lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_12_EVKLIDOVO">\langle f\rangle_{\Lambda}=\frac{1}{z_{\Lambda}} \int_{\mathfrak{x}_{\Lambda}} f \exp \left(-S_{\Lambda}\right) \prod^{(1)} d \eta_{x, \alpha} \prod^{(2)} d \eta_{x, \alpha}^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_13_EVKLIDOVO">\int_{\mathscr{e}_{\Lambda}} \cdots \Pi^{(1)} d \eta_{x, \alpha} \Pi^{(2)} d \eta_{x, \alpha}^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_14_EVKLIDOVO">\begin{gathered}S=\sum_{x, \alpha, \beta, \mu}\left[\eta_{x, \alpha} \gamma_{\alpha, \beta}^{\mu} \eta_{x+e \mu, \beta}^{*}+\eta_{x, \alpha} \gamma_{\alpha, \beta}^{\mu} \eta_{x-e \mu, \beta}^{*}\right]+ \\+\sum_{x, \alpha} m \eta_{x, \alpha} \eta_{x, \alpha}^{*},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_15_EVKLIDOVO">S_{\text {в3 }}=h \sum_{x, \alpha, \beta, \mu} \eta_{x, \alpha} \sigma_{\alpha, \beta}(x, x+\boldsymbol{e} \mu) \eta_{x+\boldsymbol{e} \mu, \beta}^{*},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/919_16_EVKLIDOVO">\sigma(\beta)=\left\{\sigma_{\alpha, \beta}(b)\right\} \subset S U(4),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_1_EVKLIDOVO">\mathbb{z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_2_EVKLIDOVO">\mathbb{r}^{v+1}, v=1,2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_3_EVKLIDOVO">\mathscr{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_4_EVKLIDOVO">\mathbb{z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_5_EVKLIDOVO">b=\left(x_{1}, x_{2}\right),\left(x_{1}-x_{2}\right)=1, x_{1}, x_{2} \in \mathbb{Z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_6_EVKLIDOVO">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_7_EVKLIDOVO">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_8_EVKLIDOVO">\tau_{s}, s \in \mathbb{Z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_9_EVKLIDOVO">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_10_EVKLIDOVO">\eta_{x, \alpha}, \eta_{x, \alpha}^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_11_EVKLIDOVO">\left.x^{0}=0\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_12_EVKLIDOVO">\theta: \mathfrak{A} \rightarrow \mathscr{A}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_13_EVKLIDOVO">\mathfrak{u}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_14_EVKLIDOVO">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_15_EVKLIDOVO">\mathbb{z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_16_EVKLIDOVO">x^{0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_17_EVKLIDOVO">\gamma=\left\{\gamma_{\alpha, \beta}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_18_EVKLIDOVO">\dot{\gamma}^{2}=e-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_19_EVKLIDOVO">\mathscr{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_20_EVKLIDOVO">\langle\cdot\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_21_EVKLIDOVO">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_22_EVKLIDOVO">\langle\mathbb{1}\rangle=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_23_EVKLIDOVO">\left\langle\tau_{s} A\right\rangle=\langle A\rangle, A \in \mathfrak{A}, s \in \mathbb{Z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_24_EVKLIDOVO">\langle\theta A\rangle=\langle\bar{A}\rangle, A \in \mathfrak{A}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_25_EVKLIDOVO">\langle A \theta A\rangle \geqslant 0, A \in \mathfrak{A}_{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_26_EVKLIDOVO">\mathfrak{a}_{+}&lt;\mathfrak{y}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_27_EVKLIDOVO">\left\{\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, x=\left(x^{0}, \ldots, x^{v}\right), x^{0} \geqslant 0, \alpha \in M\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_28_EVKLIDOVO">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_29_EVKLIDOVO">c(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_30_EVKLIDOVO">\omega=\sigma^{\mathbb{z}^{v+1}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_31_EVKLIDOVO">\sigma=\{\sigma(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_32_EVKLIDOVO">\left.x \in \mathbb{Z}^{v+1}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_33_EVKLIDOVO">\mathbb{z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_34_EVKLIDOVO">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_35_EVKLIDOVO">\eta_{x, \alpha}=\varphi_{\alpha}(\sigma(x)), x \in \mathbb{Z}^{v+1}, \alpha \in M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_36_EVKLIDOVO">\left\{\varphi_{\alpha}(\cdot), \alpha \in M\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_37_EVKLIDOVO">c(\sigma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_38_EVKLIDOVO">\theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_39_EVKLIDOVO">\gamma=e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_40_EVKLIDOVO">p(\cdot)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_41_EVKLIDOVO">\left\{\eta_{x_{1}, \alpha}, \eta_{x_{1}, \alpha}^{*}, \eta_{x_{2}, \alpha}^{-}, \eta_{x_{2}}^{*}, \alpha\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_42_EVKLIDOVO">x_{1}, x_{2} \in \mathbb{Z}^{v+1}, \boldsymbol{e} \mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_43_EVKLIDOVO">\mu=0, \ldots, v,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_44_EVKLIDOVO">\mathbb{z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_45_EVKLIDOVO">(x, \mu)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_46_EVKLIDOVO">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_47_EVKLIDOVO">\chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_48_EVKLIDOVO">\langle\cdot\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_49_EVKLIDOVO">c(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_50_EVKLIDOVO">f \in C(\Omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_51_EVKLIDOVO">\lambda \subset \mathbb{Z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_52_EVKLIDOVO">s_{\lambda}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_53_EVKLIDOVO">\sum^{(1)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_54_EVKLIDOVO">\left(x_{1}, x_{2}\right) \subset \Lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_55_EVKLIDOVO">\left|x_{1}-x_{2}\right|=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_56_EVKLIDOVO">z_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_57_EVKLIDOVO">\lambda-\mathbb{Z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_58_EVKLIDOVO">\lambda \subset \mathbb{Z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_59_EVKLIDOVO">\langle\cdot\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_60_EVKLIDOVO">c(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_61_EVKLIDOVO">\sigma=\{-1,1\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_62_EVKLIDOVO">\chi(\{1\})=\chi(\{-1\})=1 / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_63_EVKLIDOVO">\sum^{(2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_64_EVKLIDOVO">\left(x, x^{\prime}\right),\left|x-x^{\prime}\right|=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_65_EVKLIDOVO">\sigma=\left\{\sigma(b), \quad b=\left(x_{1}, \quad x_{2}\right), \quad\left|x_{1}-x_{2}\right|=1\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_66_EVKLIDOVO">\left.x_{1}, x_{2} \in \mathbb{Z}^{v+1}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_67_EVKLIDOVO">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_68_EVKLIDOVO">\chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_69_EVKLIDOVO">\sigma(-b)=\sigma^{-1}(b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_70_EVKLIDOVO">b(-b-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_71_EVKLIDOVO">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_72_EVKLIDOVO">c^{\text {gouge }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_73_EVKLIDOVO">\sigma(b) \rightarrow \gamma\left(x_{1}\right) \sigma(b) \gamma^{-1}\left(x_{2}\right), \quad b=\left(x_{1}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_74_EVKLIDOVO">\gamma=\left\{\gamma(x), x \in \mathbb{Z}^{v+1},-\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_75_EVKLIDOVO">\mathbb{z}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_76_EVKLIDOVO">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_77_EVKLIDOVO">\sigma_{p}=\pi_{b \in \partial p} \sigma(b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_78_EVKLIDOVO">g_{0}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_79_EVKLIDOVO">\mathfrak{a}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_80_EVKLIDOVO">\widetilde{\mathbb{z}}^{v+1} \subset \mathbb{Z}^{v} \times \widetilde{\mathbb{Z}}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_81_EVKLIDOVO">\widetilde{\mathbb{z}}^{1}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_82_EVKLIDOVO">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_83_EVKLIDOVO">p\left\{\eta_{x_{1}, \alpha}, \eta_{x_{1}, \alpha}^{*}, \eta_{x_{2}, \alpha}, \eta_{x_{2}, \alpha}^{*}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_84_EVKLIDOVO">\mathfrak{\mathscr { }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_85_EVKLIDOVO">\langle\cdot\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_86_EVKLIDOVO">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_87_EVKLIDOVO">\lambda \subset \widetilde{\mathbb{Z}}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_88_EVKLIDOVO">\prod^{(1)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_89_EVKLIDOVO">\prod^{(2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_90_EVKLIDOVO">x \in \Lambda, \alpha \in M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_91_EVKLIDOVO">\mathfrak{a}_{\lambda} \subset \mathfrak{A}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_92_EVKLIDOVO">\left\{\eta_{x, \alpha}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_93_EVKLIDOVO">\left.\eta_{x, \alpha}^{*}, x \in \Lambda, \alpha \in M\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_94_EVKLIDOVO">\mathfrak{a}_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_95_EVKLIDOVO">\pi \eta_{x, \alpha} \Pi \eta_{x, \alpha}^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_96_EVKLIDOVO">\pi_{x \in \Lambda, \alpha \in M} \eta_{x, \alpha}, \eta_{x, \alpha}^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_97_EVKLIDOVO">\mathfrak{a}_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_98_EVKLIDOVO">p\left\{\eta_{x_{1}, \alpha}, \eta_{x_{1}, \alpha}^{*}, \eta_{x_{2}, \alpha}, \eta_{x_{2}, \alpha}^{*}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_99_EVKLIDOVO">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_100_EVKLIDOVO">\widetilde{\mathbb{z}}^{3+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_101_EVKLIDOVO">\gamma \in \widetilde{\mathbb{Z}}^{3+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_102_EVKLIDOVO">\left\{\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, \alpha=0,1,2,3\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_103_EVKLIDOVO">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_104_EVKLIDOVO">\gamma^{\mu}=\left\{\gamma_{\alpha, \beta}^{\mu}\right\}, \mu=0,1,2,3,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_105_EVKLIDOVO">\left.\gamma^{\mu} \gamma^{\mu^{\prime}}+\gamma^{\mu^{\prime}} \gamma^{\mu}=0, \mu \neq \mu^{\prime},\left(\gamma^{\mu}\right)^{2}=E\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_106_EVKLIDOVO">\widetilde{\mathbb{z}}^{3+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_107_EVKLIDOVO">s U(4)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_108_EVKLIDOVO">g_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_109_EVKLIDOVO">\mathbb{c}^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_110_EVKLIDOVO">\sigma(\beta)=\left\{\sigma_{\alpha, \beta}(b)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_111_EVKLIDOVO">b-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/919_112_EVKLIDOVO">\mathbb{z}^{3+1}, h</formula>
+  </formulas_aux>
+  <relations n="16">
+    <relation uri="http://libmeta.ru/fme/relation/919_1_EVKLIDOVO">
+      <rel_text>действия</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_2_EVKLIDOVO">
+      <rel_text>действия</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_3_EVKLIDOVO">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_4_EVKLIDOVO">
+      <rel_text>действия</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_5_EVKLIDOVO">
+      <rel_text>Действие</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_6_EVKLIDOVO">
+      <rel_text>группе</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_7_EVKLIDOVO">
+      <rel_text>решетчатая модель</rel_text>
+      <target>http://libmeta.ru/fme/article/919_EVKLIDOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_8_EVKLIDOVO">
+      <rel_text>самосопряженные</rel_text>
+      <target>http://libmeta.ru/fme/article/2679_SAMOUSREDNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_9_EVKLIDOVO">
+      <rel_text>матрицы Дирака</rel_text>
+      <target>http://libmeta.ru/fme/article/838_DIRAKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_10_EVKLIDOVO">
+      <rel_text>действие</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_11_EVKLIDOVO">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_12_EVKLIDOVO">
+      <rel_text>алгебры</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_13_EVKLIDOVO">
+      <rel_text>мономах</rel_text>
+      <target>http://libmeta.ru/fme/article/1827_MONOPOL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_14_EVKLIDOVO">
+      <rel_text>линейный функционал</rel_text>
+      <target>http://libmeta.ru/fme/article/3346_HARAKTERISTIChESKIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_15_EVKLIDOVO">
+      <rel_text>алгебре</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/919_16_EVKLIDOVO">
+      <rel_text>интеграл Березина</rel_text>
+      <target>http://libmeta.ru/fme/article/153_BEREZINA</target>
+    </relation>
+  </relations>
+  <text>решетчатые аналоги (то есть определенные на решетке $URI[[http://libmeta.ru/fme/formula/aux/919_1_EVKLIDOVO]]/URI$ ) моделей непрерывных евклидовых полей в пространстве $URI[[http://libmeta.ru/fme/formula/aux/919_2_EVKLIDOVO]]/URI$, 3. Понятие евклидова решетчатого поля аксиоматически вводится следующим образом.
+
+Поле вая алге бра $URI[[http://libmeta.ru/fme/formula/aux/919_3_EVKLIDOVO]]/URI$ - нек-рая (топологическая) алгебра с единицей выделено семейство образующих (полевых) переменных
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_1_EVKLIDOVO]]/URI
+\]
+
+помеченных точками решетки $URI[[http://libmeta.ru/fme/formula/aux/919_4_EVKLIDOVO]]/URI$, а иногда ее ребрами $URI[[http://libmeta.ru/fme/formula/aux/919_5_EVKLIDOVO]]/URI$, и еше, быть может, индексами $URI[[http://libmeta.ru/fme/formula/aux/919_6_EVKLIDOVO]]/URI$ из нек-рого множества $URI[[http://libmeta.ru/fme/formula/aux/919_7_EVKLIDOVO]]/URI$.
+
+Т рансляци и определяются представлением группы сдвигов решетки, к-рое задается с помощью гомоморфизмов $URI[[http://libmeta.ru/fme/formula/aux/919_8_EVKLIDOVO]]/URI$, алгебры $URI[[http://libmeta.ru/fme/formula/aux/919_9_EVKLIDOVO]]/URI$, действующих на образующие $URI[[http://libmeta.ru/fme/formula/aux/919_10_EVKLIDOVO]]/URI$ по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_2_EVKLIDOVO]]/URI
+\]
+
+Отражение «во времени» (то есть отражение в плоскости $URI[[http://libmeta.ru/fme/formula/aux/919_11_EVKLIDOVO]]/URI$ представляется инволюцией $URI[[http://libmeta.ru/fme/formula/aux/919_12_EVKLIDOVO]]/URI$ алгебры $URI[[http://libmeta.ru/fme/formula/aux/919_13_EVKLIDOVO]]/URI$, коммутирующей с исходной инволюцией * и действующей на образующие по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_3_EVKLIDOVO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/919_14_EVKLIDOVO]]/URI$ - отражение $URI[[http://libmeta.ru/fme/formula/aux/919_15_EVKLIDOVO]]/URI$ в плоскости $URI[[http://libmeta.ru/fme/formula/aux/919_16_EVKLIDOVO]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/919_17_EVKLIDOVO]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/919_18_EVKLIDOVO]]/URI$ нек-рая матрица.
+
+П о л е (е в к л и д о в о) на $URI[[http://libmeta.ru/fme/formula/aux/919_19_EVKLIDOVO]]/URI$ определяется нек-рым квазисостоянием $URI[[http://libmeta.ru/fme/formula/aux/919_20_EVKLIDOVO]]/URI$ (то есть усреднением - линейным функционалом на алгебре $URI[[http://libmeta.ru/fme/formula/aux/919_21_EVKLIDOVO]]/URI$ таким, что $URI[[http://libmeta.ru/fme/formula/aux/919_22_EVKLIDOVO]]/URI$ и удовлетворяющим условиям:
+
+1) $URI[[http://libmeta.ru/fme/formula/aux/919_23_EVKLIDOVO]]/URI$ (трансляционная инвариантность); 2) $URI[[http://libmeta.ru/fme/formula/aux/919_24_EVKLIDOVO]]/URI$ (отражательная инвариантность);
+
+3) $URI[[http://libmeta.ru/fme/formula/aux/919_25_EVKLIDOVO]]/URI$(положительность в смысле Остервальдера - Шрадера), где $URI[[http://libmeta.ru/fme/formula/aux/919_26_EVKLIDOVO]]/URI$ - подалгебра, порожденная образующими $URI[[http://libmeta.ru/fme/formula/aux/919_27_EVKLIDOVO]]/URI$ (алгебра «будущего»).
+
+Большой класс решетчатых моделей евклидова поля составляют так наз. ки ральны е бозе-поля со значениями в нек-ром (топологическом) пространстве $URI[[http://libmeta.ru/fme/formula/aux/919_28_EVKLIDOVO]]/URI$. В этом. случае полевой алгеброй служит алгебра $URI[[http://libmeta.ru/fme/formula/aux/919_29_EVKLIDOVO]]/URI$ непрерывных ограниченных функций, заданных на совокупности $URI[[http://libmeta.ru/fme/formula/aux/919_30_EVKLIDOVO]]/URI$ конфигураций поля (то есть функций $URI[[http://libmeta.ru/fme/formula/aux/919_31_EVKLIDOVO]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/919_32_EVKLIDOVO]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/919_33_EVKLIDOVO]]/URI$ со значениями в $URI[[http://libmeta.ru/fme/formula/aux/919_34_EVKLIDOVO]]/URI$ ), снабженной тихоновской топологией. Полевые переменные выбираются в виде $URI[[http://libmeta.ru/fme/formula/aux/919_35_EVKLIDOVO]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/919_36_EVKLIDOVO]]/URI$ нек-рый набор образующих алгебры $URI[[http://libmeta.ru/fme/formula/aux/919_37_EVKLIDOVO]]/URI$. Отражение $URI[[http://libmeta.ru/fme/formula/aux/919_38_EVKLIDOVO]]/URI$ в описываемом случае определяется единичной матрицей $URI[[http://libmeta.ru/fme/formula/aux/919_39_EVKLIDOVO]]/URI$. Каждая модель бозе-поля задается своим (формальным) евклидовым действием
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_4_EVKLIDOVO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/919_40_EVKLIDOVO]]/URI$ - вещественный ограниченный снизу полином от переменных $URI[[http://libmeta.ru/fme/formula/aux/919_41_EVKLIDOVO]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/919_42_EVKLIDOVO]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/919_43_EVKLIDOVO]]/URI$ единичные орты решетки $URI[[http://libmeta.ru/fme/formula/aux/919_44_EVKLIDOVO]]/URI$, а (формальное) суммирование в (3) происходит по всем парам $URI[[http://libmeta.ru/fme/formula/aux/919_45_EVKLIDOVO]]/URI$. Предполагается далее, что в пространстве $URI[[http://libmeta.ru/fme/formula/aux/919_46_EVKLIDOVO]]/URI$ фиксирована нек-рая мера $URI[[http://libmeta.ru/fme/formula/aux/919_47_EVKLIDOVO]]/URI$, и квазисостояние $URI[[http://libmeta.ru/fme/formula/aux/919_48_EVKLIDOVO]]/URI$ на алгебре $URI[[http://libmeta.ru/fme/formula/aux/919_49_EVKLIDOVO]]/URI$ определяется как предел на всюду плотном множестве цилиндрич. функций $URI[[http://libmeta.ru/fme/formula/aux/919_50_EVKLIDOVO]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_5_EVKLIDOVO]]/URI
+\]
+
+Здесь для каждого конечного множества $URI[[http://libmeta.ru/fme/formula/aux/919_51_EVKLIDOVO]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_6_EVKLIDOVO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/919_52_EVKLIDOVO]]/URI$ конечная часть суммы (3):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_7_EVKLIDOVO]]/URI
+\]
+
+(в $URI[[http://libmeta.ru/fme/formula/aux/919_53_EVKLIDOVO]]/URI$ суммирование проводится по $URI[[http://libmeta.ru/fme/formula/aux/919_54_EVKLIDOVO]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/919_55_EVKLIDOVO]]/URI$ ), а $URI[[http://libmeta.ru/fme/formula/aux/919_56_EVKLIDOVO]]/URI$ - нормирующий множитель (статистич. сумма). Предел $URI[[http://libmeta.ru/fme/formula/aux/919_57_EVKLIDOVO]]/URI$ означает предел по произвольной возрастающей последовательности конечных подмножеств $URI[[http://libmeta.ru/fme/formula/aux/919_58_EVKLIDOVO]]/URI$, заполняющих в объединении всю решетку. Построенное таким образом квазисостояние $URI[[http://libmeta.ru/fme/formula/aux/919_59_EVKLIDOVO]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/919_60_EVKLIDOVO]]/URI$ удовлетворяет условиям 1), 2), 3). Примерами решетчатых бозе-полей служат модель Изинга и модель Янга - Миллса (калибровочное поле).
+
+Первую модель (Изинга), хотя и возникшую в статистич. физике, можно рассматривать как простейшую модель евклидова квантового поля. Пространством значений здесь служит множество $URI[[http://libmeta.ru/fme/formula/aux/919_61_EVKLIDOVO]]/URI$ с мерой $URI[[http://libmeta.ru/fme/formula/aux/919_62_EVKLIDOVO]]/URI$, а действие равно
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_8_EVKLIDOVO]]/URI
+\]
+
+(в $URI[[http://libmeta.ru/fme/formula/aux/919_63_EVKLIDOVO]]/URI$ суммирование проводится по $URI[[http://libmeta.ru/fme/formula/aux/919_64_EVKLIDOVO]]/URI$ ).
+
+Калибровочное поле определено на ориентированных ребрах решетки $URI[[http://libmeta.ru/fme/formula/aux/919_65_EVKLIDOVO]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/919_66_EVKLIDOVO]]/URI$ и принимает значения из нек-рой компактной группы $URI[[http://libmeta.ru/fme/formula/aux/919_67_EVKLIDOVO]]/URI$ с мерой Хаара $URI[[http://libmeta.ru/fme/formula/aux/919_68_EVKLIDOVO]]/URI$. При этом рассматриваются лишь конфигурации поля, удовлетворяющие условию $URI[[http://libmeta.ru/fme/formula/aux/919_69_EVKLIDOVO]]/URI$ для любого ребра $URI[[http://libmeta.ru/fme/formula/aux/919_70_EVKLIDOVO]]/URI$ ребро противо- положной ориентации), а в качестве алгебры $URI[[http://libmeta.ru/fme/formula/aux/919_71_EVKLIDOVO]]/URI$ выбирается алгебра $URI[[http://libmeta.ru/fme/formula/aux/919_72_EVKLIDOVO]]/URI$ непрерывных функций, инвариантных относительно калибровочных преобразований $URI[[http://libmeta.ru/fme/formula/aux/919_73_EVKLIDOVO]]/URI$, действующих в пространстве конфигураций. Здесь $URI[[http://libmeta.ru/fme/formula/aux/919_74_EVKLIDOVO]]/URI$ произвольная функция на $URI[[http://libmeta.ru/fme/formula/aux/919_75_EVKLIDOVO]]/URI$ со значениями в группе $URI[[http://libmeta.ru/fme/formula/aux/919_76_EVKLIDOVO]]/URI$. Действие в этой модели имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_9_EVKLIDOVO]]/URI
+\]
+
+где суммирование берется по всем двумерным граням решетки, $URI[[http://libmeta.ru/fme/formula/aux/919_77_EVKLIDOVO]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/919_78_EVKLIDOVO]]/URI$ - характер нек-рого (простейшего) неприводимого представления группы.
+
+Другой класс решетчатых моделей евклидовых полей образуют фе р м и - п о л я. В этом случае $URI[[http://libmeta.ru/fme/formula/aux/919_79_EVKLIDOVO]]/URI$ грассманова алгебра с (антикоммутирующими) образующими
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_10_EVKLIDOVO]]/URI
+\]
+
+(см. [2]), помеченными точками сдвинутой решетки $URI[[http://libmeta.ru/fme/formula/aux/919_80_EVKLIDOVO]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/919_81_EVKLIDOVO]]/URI$ решетка полуцелых чисел. Действие $URI[[http://libmeta.ru/fme/formula/aux/919_82_EVKLIDOVO]]/URI$ снова имеет вид (4), где $URI[[http://libmeta.ru/fme/formula/aux/919_83_EVKLIDOVO]]/URI$ четный полином от образующих, инвариантный относительно инволюции в $URI[[http://libmeta.ru/fme/formula/aux/919_84_EVKLIDOVO]]/URI$. Квазисостояние $URI[[http://libmeta.ru/fme/formula/aux/919_85_EVKLIDOVO]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/919_86_EVKLIDOVO]]/URI$ снова определяется как предел
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_11_EVKLIDOVO]]/URI
+\]
+
+где для любого конечного $URI[[http://libmeta.ru/fme/formula/aux/919_87_EVKLIDOVO]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_12_EVKLIDOVO]]/URI
+\]
+
+(в $URI[[http://libmeta.ru/fme/formula/aux/919_88_EVKLIDOVO]]/URI$ и в $URI[[http://libmeta.ru/fme/formula/aux/919_89_EVKLIDOVO]]/URI$ умножение проводится по $URI[[http://libmeta.ru/fme/formula/aux/919_90_EVKLIDOVO]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/919_91_EVKLIDOVO]]/URI$ - подалгебра, порожденная образующими $URI[[http://libmeta.ru/fme/formula/aux/919_92_EVKLIDOVO]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/919_93_EVKLIDOVO]]/URI$, a
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_13_EVKLIDOVO]]/URI
+\]
+
+- так наз. URI[[http://libmeta.ru/fme/relation/919_16_EVKLIDOVO]]/URI по этой URI[[http://libmeta.ru/fme/relation/919_15_EVKLIDOVO]]/URI, то есть URI[[http://libmeta.ru/fme/relation/919_14_EVKLIDOVO]]/URI на $URI[[http://libmeta.ru/fme/formula/aux/919_94_EVKLIDOVO]]/URI$, равный нулю на всех URI[[http://libmeta.ru/fme/relation/919_13_EVKLIDOVO]]/URI вида $URI[[http://libmeta.ru/fme/formula/aux/919_95_EVKLIDOVO]]/URI$, кроме «полного» монома $URI[[http://libmeta.ru/fme/formula/aux/919_96_EVKLIDOVO]]/URI$, содержащего все образующие URI[[http://libmeta.ru/fme/relation/919_12_EVKLIDOVO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/919_97_EVKLIDOVO]]/URI$, на к-ром этот URI[[http://libmeta.ru/fme/relation/919_11_EVKLIDOVO]]/URI равен единице. При надлежащем выборе полинома $URI[[http://libmeta.ru/fme/formula/aux/919_98_EVKLIDOVO]]/URI$ и матрицы $URI[[http://libmeta.ru/fme/formula/aux/919_99_EVKLIDOVO]]/URI$ в (2) квазисостояние (6) удовлетворяет требованиям 1), 2), 3).
+
+Пример решетчатого ферми-поля - свободное д и ра ковское поле в $URI[[http://libmeta.ru/fme/formula/aux/919_100_EVKLIDOVO]]/URI$. Здесь при каждом $URI[[http://libmeta.ru/fme/formula/aux/919_101_EVKLIDOVO]]/URI$ имеется восемь образующих $URI[[http://libmeta.ru/fme/formula/aux/919_102_EVKLIDOVO]]/URI$, а URI[[http://libmeta.ru/fme/relation/919_10_EVKLIDOVO]]/URI имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_14_EVKLIDOVO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/919_103_EVKLIDOVO]]/URI$ - параметр, а $URI[[http://libmeta.ru/fme/formula/aux/919_104_EVKLIDOVO]]/URI$ URI[[http://libmeta.ru/fme/relation/919_9_EVKLIDOVO]]/URI (то есть URI[[http://libmeta.ru/fme/relation/919_8_EVKLIDOVO]]/URI матрицы, удовлетворяющие условиям $URI[[http://libmeta.ru/fme/formula/aux/919_105_EVKLIDOVO]]/URI$.
+
+Существуют также модели, включающие как бозе-, так и ферми-поля. Наиболее известный пример - URI[[http://libmeta.ru/fme/relation/919_7_EVKLIDOVO]]/URI хромодинамики, описывающая взаимодействие дираковского поля на решетке $URI[[http://libmeta.ru/fme/formula/aux/919_106_EVKLIDOVO]]/URI$ с калибровочным полем на этой решетке, принимающим значения в URI[[http://libmeta.ru/fme/relation/919_6_EVKLIDOVO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/919_107_EVKLIDOVO]]/URI$. URI[[http://libmeta.ru/fme/relation/919_5_EVKLIDOVO]]/URI в этой модели представляется как сумма янг-миллсовского URI[[http://libmeta.ru/fme/relation/919_4_EVKLIDOVO]]/URI (5) (в к-ром $URI[[http://libmeta.ru/fme/formula/aux/919_108_EVKLIDOVO]]/URI$ - характер основного представления этой URI[[http://libmeta.ru/fme/relation/919_3_EVKLIDOVO]]/URI в пространстве $URI[[http://libmeta.ru/fme/formula/aux/919_109_EVKLIDOVO]]/URI$ ), дираковского URI[[http://libmeta.ru/fme/relation/919_2_EVKLIDOVO]]/URI (7) и URI[[http://libmeta.ru/fme/relation/919_1_EVKLIDOVO]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_15_EVKLIDOVO]]/URI
+\] определяющего взаимодействие между полями. Здесь
+
+$URI[[http://libmeta.ru/fme/formula/aux/919_110_EVKLIDOVO]]/URI$
+где $URI[[http://libmeta.ru/fme/formula/aux/919_111_EVKLIDOVO]]/URI$ ребро $URI[[http://libmeta.ru/fme/formula/aux/919_112_EVKLIDOVO]]/URI$ - параметр.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/919_16_EVKLIDOVO]]/URI
+\]</text>
+  <text_orig>решетчатые аналоги (то есть определенные на решетке $\mathbb{Z}^{v+1}$ ) моделей непрерывных евклидовых полей в пространстве $\mathbb{R}^{v+1}, v=1,2$, 3. Понятие евклидова решетчатого поля аксиоматически вводится следующим образом.
+
+Поле вая алге бра $\mathscr{A}$ - нек-рая (топологическая) алгебра с единицей выделено семейство образуюших (полевых) переменных
+
+\[
+\left\{\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, x=\left(x^{0}, x^{1}, \ldots, x^{v}\right) \in \mathbb{Z}^{v+1}, \alpha \in M\right\}
+\]
+
+помеченных точками решетки $\mathbb{Z}^{v+1}$, а иногда ее ребрами $b=\left(x_{1}, x_{2}\right),\left(x_{1}-x_{2}\right)=1, x_{1}, x_{2} \in \mathbb{Z}^{v+1}$, и еше, быть может, индексами $\alpha$ из нек-рого множества $M$.
+
+Т рансляци и определяются представлением группы сдвигов решетки, к-рое задается с помошью гомоморфизмов $\tau_{s}, s \in \mathbb{Z}^{v+1}$, алгебры $\mathfrak{A}$, действующих на образующие $\eta_{x, \alpha}, \eta_{x, \alpha}^{*}$ по формуле
+
+\[
+\tau_{s} \eta_{x, \alpha}=\eta_{x+s, \alpha}, \tau_{s} \eta_{x, \alpha}^{*}=\eta_{x+s, \alpha}^{*}, s \in \mathbb{Z}^{\nu+1} .
+\]
+
+Отражение «во времени» (то есть отражение в плоскости $\left.x^{0}=0\right)$ представляется инволюцией $\theta: \mathfrak{A} \rightarrow \mathscr{A}$ алгебры $\mathfrak{U}$, коммутирующей с исходной инволюцией * и действующей на образующие по формуле
+
+\[
+\theta \eta_{x, \alpha}=\sum_{\beta} \gamma_{\alpha, \beta} \eta_{v x, \beta}^{*}, \quad \theta \eta_{x, \alpha}^{*}=\sum_{\beta} \overline{\gamma_{\alpha, \beta}} \eta_{v x, \beta},
+\]
+
+где $v$ - отражение $\mathbb{Z}^{v+1}$ в плоскости $x^{0}=0$, а $\gamma=\left\{\gamma_{\alpha, \beta}\right\}$, $\dot{\gamma}^{2}=E-$ нек-рая матрица.
+
+П о л е (е в к л и д о в о) на $\mathscr{A}$ определяется нек-рым квазисостоянием $\langle\cdot\rangle$ (то есть усреднением - линейным функционалом на алгебре $\mathfrak{A}$ таким, что $\langle\mathbb{1}\rangle=1$ и удовлетворяюшим условиям:
+
+1) $\left\langle\tau_{s} A\right\rangle=\langle A\rangle, A \in \mathfrak{A}, s \in \mathbb{Z}^{v+1}$ (трансляционная инвариантность); 2) $\langle\theta A\rangle=\langle\bar{A}\rangle, A \in \mathfrak{A}$ (отражательная инвариантность);
+
+3) $\langle A \theta A\rangle \geqslant 0, A \in \mathfrak{A}_{+}$(положительность в смысле Остервальдера - Шрадера), где $\mathfrak{A}_{+}&lt;\mathfrak{Y}$ - подалгебра, порожденная образующими $\left\{\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, x=\left(x^{0}, \ldots, x^{v}\right), x^{0} \geqslant 0, \alpha \in M\right\}$ (алгебра «будущего»).
+
+Большой класс решетчатых моделей евклидова поля составляют так наз. ки ральны е бозе-поля со значениями в нек-ром (топологическом) пространстве $\Sigma$. В этом. случае полевой алгеброй служит алгебра $C(\Omega)$ непрерывных ограниченных функций, заданных на совокупности $\Omega=\Sigma^{\mathbb{Z}^{v+1}}$ конфигураций поля (то есть функций $\sigma=\{\sigma(x)$, $\left.x \in \mathbb{Z}^{v+1}\right\}$ на $\mathbb{Z}^{v+1}$ со значениями в $\Sigma$ ), снабженной тихоновской топологией. Полевые переменные выбираются в виде $\eta_{x, \alpha}=\varphi_{\alpha}(\sigma(x)), x \in \mathbb{Z}^{v+1}, \alpha \in M$, где $\left\{\varphi_{\alpha}(\cdot), \alpha \in M\right\}-$ нек-рый набор образуюших алгебры $C(\Sigma)$. Отражение $\theta$ в описываемом случае определяется единичной матрицей $\gamma=E$. Каждая модель бозе-поля задается своим (формальным) евклидовым действием
+
+\[
+S(\sigma)=\sum_{x, \mu} P\left(\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, \eta_{x+e \mu, \alpha}, \eta_{x+e \mu, \alpha}^{*}\right),
+\]
+
+где $P(\cdot)$ - вещественный ограниченный снизу полином от переменных $\left\{\eta_{x_{1}, \alpha}, \eta_{x_{1}, \alpha}^{*}, \eta_{x_{2}, \alpha}^{-}, \eta_{x_{2}}^{*}, \alpha\right\}$, где $x_{1}, x_{2} \in \mathbb{Z}^{v+1}, \boldsymbol{e} \mu$, $\mu=0, \ldots, v,-$ единичные орты решетки $\mathbb{Z}^{v+1}$, а (формальное) суммирование в (3) происходит по всем парам $(x, \mu)$. Предполагается далее, что в пространстве $\Sigma$ фиксирована нек-рая мера $\chi$, и квазисостояние $\langle\cdot\rangle$ на алгебре $C(\Omega)$ определяется как предел на всюду плотном множестве цилиндрич. функций $f \in C(\Omega)$ :
+
+\[
+\langle f\rangle=\lim _{\Lambda \rightarrow \mathbb{Z}^{v+1}}\langle f\rangle_{\Lambda}
+\]
+
+Здесь для каждого конечного множества $\Lambda \subset \mathbb{Z}^{v+1}$
+
+\[
+\langle f\rangle_{\Lambda}=\frac{1}{z_{\Lambda}} \int_{\Sigma^{\Lambda}} f \exp \left\{-S_{\Lambda}\right\} \dot{\prod}_{x \in \Lambda} d \chi(\sigma(x)) \text {, }
+\]
+
+где $S_{\Lambda}-$ конечная часть суммы (3):
+
+\[
+S_{\Lambda}=\sum^{(1)} P\left\{\eta_{x_{1}, \alpha}, \eta_{x_{1}, \alpha}^{*}, \eta_{x_{2}, \alpha}, \eta_{x_{2}, \alpha}^{*}\right\}
+\]
+
+(в $\sum^{(1)}$ суммирование проводится по $\left(x_{1}, x_{2}\right) \subset \Lambda$, $\left|x_{1}-x_{2}\right|=1$ ), а $Z_{\Lambda}$ - нормирующий множитель (статистич. сумма). Предел $\Lambda-\mathbb{Z}^{v+1}$ означает предел по произвольной возрастающей последовательности конечных подмножеств $\Lambda \subset \mathbb{Z}^{v+1}$, заполняющих в объединении всю решетку. Построенное таким образом квазисостояние $\langle\cdot\rangle$ на $C(\Omega)$ удовлетворяет условиям 1), 2), 3). Примерами решетчатых бозе-полей служат модель Изинга и модель Янга - Миллса (калибровочное поле).
+
+Первую модель (Изинга), хотя и возникшую в статистич. физике, можно рассматривать как простейшую модель евклидова квантового поля. Пространством значений здесь служит множество $\Sigma=\{-1,1\}$ с мерой $\chi(\{1\})=\chi(\{-1\})=1 / 2$, а действие равно
+
+\[
+\begin{aligned}
+&amp; S(\sigma)=\sum^{(2)} J \sigma(x) \sigma\left(x^{\prime}\right), \\
+&amp; \sigma=\left\{\sigma(x)= \pm 1, x \in \mathbb{Z}^{v+1}\right\}
+\end{aligned}
+\]
+
+(в $\sum^{(2)}$ суммирование проводится по $\left(x, x^{\prime}\right),\left|x-x^{\prime}\right|=1$ ).
+
+Калибровочное поле определено на ориентированных ребрах решетки $\sigma=\left\{\sigma(b), \quad b=\left(x_{1}, \quad x_{2}\right), \quad\left|x_{1}-x_{2}\right|=1\right.$, $\left.x_{1}, x_{2} \in \mathbb{Z}^{v+1}\right\}$ и принимает значения из нек-рой компактной группы $\Sigma$ с мерой Хаара $\chi$. При этом рассматриваются лишь конфигурации поля, удовлетворяющие условию $\sigma(-b)=\sigma^{-1}(b)$ для любого ребра $b(-b-$ ребро противо- положной ориентации), а в качестве алгебры $\mathfrak{A}$ выбирается алгебра $C^{\text {gouge }}$ непрерывных функций, инвариантных относительно калибровочных преобразований $\sigma(b) \rightarrow \gamma\left(x_{1}\right) \sigma(b) \gamma^{-1}\left(x_{2}\right), \quad b=\left(x_{1}, x_{2}\right)$, действуюших в пространстве конфигураций. Здесь $\gamma=\left\{\gamma(x), x \in \mathbb{Z}^{v+1},-\right.$ произвольная функция на $\mathbb{Z}^{v+1}$ со значениями в группе $\Sigma$. Действие в этой модели имеет вид
+
+\[
+S(\sigma)=\sum_{p} \operatorname{Re} g_{0}\left(\sigma_{p}\right),
+\]
+
+где суммирование берется по всем двумерным граням решетки, $\sigma_{p}=\Pi_{b \in \partial p} \sigma(b)$, а $g_{0}(\cdot)$ - характер нек-рого (простейшего) неприводимого представления группы.
+
+Другой класс решетчатых моделей евклидовых полей образуют фе р м и - п о л я. В этом случае $\mathfrak{A}-$ грассманова алгебра с (антикоммутирующими) образуюшими
+
+\[
+\left\{\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, x \in \mathbb{Z}^{v+1}, \alpha \in M\right\}
+\]
+
+(см. [2]), помеченными точками сдвинутой решетки $\widetilde{\mathbb{Z}}^{v+1} \subset \mathbb{Z}^{v} \times \widetilde{\mathbb{Z}}^{1}$, где $\widetilde{\mathbb{Z}}^{1}-$ решетка полуцелых чисел. Действие $S$ снова имеет вид (4), где $P\left\{\eta_{x_{1}, \alpha}, \eta_{x_{1}, \alpha}^{*}, \eta_{x_{2}, \alpha}, \eta_{x_{2}, \alpha}^{*}\right\}-$ четный полином от образующих, инвариантный относительно инволюции в $\mathfrak{\mathscr { }}$. Квазисостояние $\langle\cdot\rangle$ на $\mathfrak{A}$ снова определяется как предел
+
+\[
+\langle\cdot\rangle=\lim _{\Lambda-\tilde{\mathbb{Z}}^{v+1}}\langle\cdot\rangle_{\Lambda}
+\]
+
+где для любого конечного $\Lambda \subset \widetilde{\mathbb{Z}}^{v+1}$
+
+\[
+\langle f\rangle_{\Lambda}=\frac{1}{z_{\Lambda}} \int_{\mathfrak{x}_{\Lambda}} f \exp \left(-S_{\Lambda}\right) \prod^{(1)} d \eta_{x, \alpha} \prod^{(2)} d \eta_{x, \alpha}^{*}
+\]
+
+(в $\prod^{(1)}$ и в $\prod^{(2)}$ умножение проводится по $x \in \Lambda, \alpha \in M$, $\mathfrak{A}_{\Lambda} \subset \mathfrak{A}$ - подалгебра, порожденная образующими $\left\{\eta_{x, \alpha}\right.$, $\left.\eta_{x, \alpha}^{*}, x \in \Lambda, \alpha \in M\right\}$, a
+
+\[
+\int_{\mathscr{e}_{\Lambda}} \cdots \Pi^{(1)} d \eta_{x, \alpha} \Pi^{(2)} d \eta_{x, \alpha}^{*}
+\]
+
+- так наз. интеграл Березина по этой алгебре, то есть линейный функционал на $\mathfrak{A}_{\Lambda}$, равный нулю на всех мономах вида $\Pi \eta_{x, \alpha} \Pi \eta_{x, \alpha}^{*}$, кроме «полного» монома $\Pi_{x \in \Lambda, \alpha \in M} \eta_{x, \alpha}, \eta_{x, \alpha}^{*}$, содержащего все образующие алгебры $\mathfrak{A}_{\Lambda}$, на к-ром этот функционал равен единице. При надлежащем выборе полинома $P\left\{\eta_{x_{1}, \alpha}, \eta_{x_{1}, \alpha}^{*}, \eta_{x_{2}, \alpha}, \eta_{x_{2}, \alpha}^{*}\right\}$ и матрицы $\gamma$ в (2) квазисостояние (6) удовлетворяет требованиям 1), 2), 3).
+
+Пример решетчатого ферми-поля - свободное д и ра ковское поле в $\widetilde{\mathbb{Z}}^{3+1}$. Здесь при каждом $\gamma \in \widetilde{\mathbb{Z}}^{3+1}$ имеется восемь образующих $\left\{\eta_{x, \alpha}, \eta_{x, \alpha}^{*}, \alpha=0,1,2,3\right\}$, а действие имеет вид:
+
+\[
+\begin{gathered}
+S=\sum_{x, \alpha, \beta, \mu}\left[\eta_{x, \alpha} \gamma_{\alpha, \beta}^{\mu} \eta_{x+e \mu, \beta}^{*}+\eta_{x, \alpha} \gamma_{\alpha, \beta}^{\mu} \eta_{x-e \mu, \beta}^{*}\right]+ \\
++\sum_{x, \alpha} m \eta_{x, \alpha} \eta_{x, \alpha}^{*},
+\end{gathered}
+\]
+
+где $m$ - параметр, а $\gamma^{\mu}=\left\{\gamma_{\alpha, \beta}^{\mu}\right\}, \mu=0,1,2,3,-$ матрицы Дирака (то есть самосопряженные матрицы, удовлетворяющие условиям $\left.\gamma^{\mu} \gamma^{\mu^{\prime}}+\gamma^{\mu^{\prime}} \gamma^{\mu}=0, \mu \neq \mu^{\prime},\left(\gamma^{\mu}\right)^{2}=E\right)$.
+
+Существуют также модели, включающие как бозе-, так и ферми-поля. Наиболее известный пример - решетчатая модель хромодинамики, описывающая взаимодействие дираковского поля на решетке $\widetilde{\mathbb{Z}}^{3+1}$ с калибровочным полем на этой решетке, принимаюшим значения в группе $S U(4)$. Действие в этой модели представляется как сумма янг-миллсовского действия (5) (в к-ром $g_{0}$ - характер основного представления этой группы в пространстве $\mathbb{C}^{4}$ ), дираковского действия (7) и действия
+
+\[
+S_{\text {в3 }}=h \sum_{x, \alpha, \beta, \mu} \eta_{x, \alpha} \sigma_{\alpha, \beta}(x, x+\boldsymbol{e} \mu) \eta_{x+\boldsymbol{e} \mu, \beta}^{*},
+\] определяющего взаимодействие между полями. Здесь
+
+$\sigma(\beta)=\left\{\sigma_{\alpha, \beta}(b)\right\}$
+где $b-$ ребро $\mathbb{Z}^{3+1}, h$ - параметр.
+
+\[
+\sigma(\beta)=\left\{\sigma_{\alpha, \beta}(b)\right\} \subset S U(4),
+\]
+
+Лит.: [1] С ай м о н Б., Модель $P[\varphi]_{2}$ евклидовой квантовой теории поля, пер. с англ., М., 1976; [2] З айл е р Э., Калибровочные теории, пер. с англ., М., 1985; [3] Глимм Дж., Джаффе А., Математические методы квантовой физики, пер. с англ., М., 1984.
+
+Р. А. Минлос.</text_orig>
+</article>

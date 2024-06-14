@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_16124">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x003BC;</mi><mrow><mn>0</mn></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>B</mi><mrow><mn>0</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><mi>&#x003BC;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mover><mrow><mi>h</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><msub><mi>B</mi><mrow><mn>0</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mtext>&#x000A0;для&#x000A0;любых&#x000A0;</mtext><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mtable><mtr><mtd columnalign="left"><msub><mi>B</mi><mrow><mn>0</mn></mrow></msub><mo>&#x02208;</mo><mrow><mi mathvariant="script">H</mi></mrow><mo stretchy="false">&#x00028;</mo><mi>&#x1D50A;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mtd></mtr><mtr><mtd columnalign="left"><mi>h</mi><mo>&#x02208;</mo><msup><mi>&#x0211D;</mi><mrow><mi>n</mi></mrow></msup><mo>&#x0002C;</mo></mtd></mtr></mtable><mo stretchy="true" fence="true" form="postfix" /></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\mu_{0}\left(B_{0}\right)=\mu\left(\hat{h} B_{0}\right) \text { для любых }\left\{\begin{array}{l}B_{0} \in \mathscr{H}(\mathfrak{G}), \\h \in \mathbb{R}^{n},\end{array}\right.$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

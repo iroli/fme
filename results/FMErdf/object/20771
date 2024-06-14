@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_20771">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>n</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><msub><mi>d</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo>&#x02212;</mo><mi>b</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mi>n</mi></mrow></msup><mo>&#x0003D;</mo><msub><mi>c</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0002B;</mo><mspace linebreak="newline" /><mo>&#x0002B;</mo><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msub><mi>c</mi><mrow><mn>1</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>b</mi><mo>&#x02212;</mo><mi>a</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><msub><mi>c</mi><mrow><mn>1</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mo>&#x0002B;</mo><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msub><mi>c</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>b</mi><mo>&#x02212;</mo><mi>a</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><mo stretchy="true" fence="true" form="postfix" /></mrow><mspace linebreak="newline" /><mrow><mo stretchy="true" fence="true" form="prefix" /><mo>&#x0002B;</mo><mn>2</mn><msub><mi>c</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>b</mi><mo>&#x02212;</mo><mi>a</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo>&#x02212;</mo><mi>b</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><msub><mi>c</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo>&#x02212;</mo><mi>b</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mn>2</mn></mrow></msup><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mo>&#x0002B;</mo><mi>&#x02026;</mi><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}f(z)=\sum_{n=0}^{\infty} d_{n}(z-b)^{n}=c_{0}+ \\+\left[c_{1}(b-a)+c_{1}(z-b)\right]+\left[c_{2}(b-a)^{2}+\right. \\\left.+2 c_{2}(b-a)(z-b)+c_{2}(z-b)^{2}\right]+\ldots .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3012_SUSchESTVENNO" alphabetic_pos="3014">
+  <title>СУЩЕСТВЕННО ОСОБАЯ ТОЧКА</title>
+  <authors/>
+  <pages>
+    <start>590</start>
+    <end>590</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3012_1_SUSchESTVENNO">\lim _{z \rightarrow a} f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3012_2_SUSchESTVENNO">V=\{z \in \mathbb{C}: 0&lt;|z-a|&lt;r\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3012_3_SUSchESTVENNO">V^{\prime}=\{z \in \mathbb{C}: r&lt;|z|&lt;\infty\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3012_4_SUSchESTVENNO">f(z)=\sum_{k=-\infty}^{\infty} c_{k}(z-a)^{k}, a \neq \infty, z \in V,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3012_5_SUSchESTVENNO">f(z)=\sum_{k=-\infty}^{\infty} \frac{c_{k}}{z^{k}}, a=\infty, z \in V^{\prime}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3012_1_SUSchESTVENNO">а</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3012_2_SUSchESTVENNO">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3012_3_SUSchESTVENNO">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3012_4_SUSchESTVENNO">a \neq \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3012_5_SUSchESTVENNO">a=\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3012_6_SUSchESTVENNO">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3012_7_SUSchESTVENNO">c_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3012_8_SUSchESTVENNO">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3012_9_SUSchESTVENNO">\quad \boldsymbol{E}</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>изолированная особая точка $URI[[http://libmeta.ru/fme/formula/aux/3012_1_SUSchESTVENNO]]/URI$ однозначного характера аналитической функции $URI[[http://libmeta.ru/fme/formula/aux/3012_2_SUSchESTVENNO]]/URI$ комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/3012_3_SUSchESTVENNO]]/URI$, для которой не существует никакого, конечного или бесконечного, предела
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3012_1_SUSchESTVENNO]]/URI
+\]
+
+В достаточно малой проколотой окрестности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3012_2_SUSchESTVENNO]]/URI
+\]
+
+С. о. т. $URI[[http://libmeta.ru/fme/formula/aux/3012_4_SUSchESTVENNO]]/URI$ или в
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3012_3_SUSchESTVENNO]]/URI
+\]
+
+в случае $URI[[http://libmeta.ru/fme/formula/aux/3012_5_SUSchESTVENNO]]/URI$ функция $URI[[http://libmeta.ru/fme/formula/aux/3012_6_SUSchESTVENNO]]/URI$ разлагается в Лорана ряд
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3012_4_SUSchESTVENNO]]/URI
+\]
+
+или, соответственно,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3012_5_SUSchESTVENNO]]/URI
+\]
+
+причем в главной части этих рядов имеется бесконечно много отличных от нуля коэффициентов $URI[[http://libmeta.ru/fme/formula/aux/3012_7_SUSchESTVENNO]]/URI$ с отрицательными индексами $URI[[http://libmeta.ru/fme/formula/aux/3012_8_SUSchESTVENNO]]/URI$. $URI[[http://libmeta.ru/fme/formula/aux/3012_9_SUSchESTVENNO]]/URI$. Д. Соломенцев.</text>
+  <text_orig>изолированная особая точка $а$ однозначного характера аналитической функции $f(z)$ комплексного переменного $z$, для которой не существует никакого, конечного или бесконечного, предела
+
+\[
+\lim _{z \rightarrow a} f(z)
+\]
+
+В достаточно малой проколотой окрестности
+
+\[
+V=\{z \in \mathbb{C}: 0&lt;|z-a|&lt;r\}
+\]
+
+С. о. т. $a \neq \infty$ или в
+
+\[
+V^{\prime}=\{z \in \mathbb{C}: r&lt;|z|&lt;\infty\}
+\]
+
+в случае $a=\infty$ функция $f(z)$ разлагается в Лорана ряд
+
+\[
+f(z)=\sum_{k=-\infty}^{\infty} c_{k}(z-a)^{k}, a \neq \infty, z \in V,
+\]
+
+или, соответственно,
+
+\[
+f(z)=\sum_{k=-\infty}^{\infty} \frac{c_{k}}{z^{k}}, a=\infty, z \in V^{\prime}
+\]
+
+причем в главной части этих рядов имеется бесконечно много отличных от нуля козффициентов $c_{k}$ с отрицательными индексами $\boldsymbol{k}$. $\quad \boldsymbol{E}$. Д. Соломенцев.</text_orig>
+</article>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2832_SMIRNOVA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2832_SMIRNOVA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2035</core:url>
+    <lbm:descriptor><![CDATA[СМИРНОВА КЛАСС]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15304"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15305"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7904"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7612"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1440"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15306"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7905"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>класс функций, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоящий</a> из всех аналитических в единичном круге <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7904">$$|\zeta|<1$$</a> функций <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7612">$$f(\zeta)$$</a>, для которых семейство<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15304">$$\left\{\ln ^{+}\left|f\left(r e^{i \theta}\right)\right| ; 0 \leqslant r<1\right\}$$</a><BR/></P><P>равномерно интегрируемо по $URI[[http://libmeta.ru/fme/formula/aux/2832_3_SMIRNOVA]]/URI$ на интервале $URI[[http://libmeta.ru/fme/formula/aux/2832_4_SMIRNOVA]]/URI$ (см. также Неванлинны класс). С. к. в верхней <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2306_POLUINVARIAN">полуплоскости</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7905">$$z=x+i y, y>0$$</a>, определяется преобразованием Кэли:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15305">$$\zeta \mapsto z=i(1+\zeta) /(1-\zeta) . \quad \text { В. В. Жаринов. }$$</a><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[класс функций, состояший из всех аналитических в единичном круге $|\zeta|<1$ функций $f(\zeta)$, для которых семейство
+
+\[
+\left\{\ln ^{+}\left|f\left(r e^{i \theta}\right)\right| ; 0 \leqslant r<1\right\}
+\]
+
+равномерно интегрируемо по $\theta$ на интервале $(0,2 \pi)$ (см. также Неванлинны класс). С. к. в верхней полуплоскости $z=x+i y, y>0$, определяется преобразованием Кэли:
+
+\[
+\zeta \mapsto z=i(1+\zeta) /(1-\zeta) . \quad \text { В. В. Жаринов. }
+\]]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2306_POLUINVARIAN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

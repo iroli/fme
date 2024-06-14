@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/559_GEJZENBERGA" alphabetic_pos="559">
+  <title>ГЕЙЗЕНБЕРГА УРАВНЕНИЕ; АСИМПТОТИЧЕСКИЕ РЕШЕНИЯ</title>
+  <authors>
+    <author>М. А. Антонеи</author>
+  </authors>
+  <pages>
+    <start>124</start>
+    <end>124</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Бе рези н Ф.А., Ш убин М. А., Уравнение Шрединrepa, M., 1983; [2] Groenwold H. J., &quot;physica», 1946, v. 12, p. 405-60; [3] Ан тон ец М. А., «теоретич. и математич. физика», 1979, т. 38, № 3, с. 331-44.</literature_orig>
+    <unit>
+      <author>Березин Ф. А.</author>
+      <author>Шубин М. А.</author>
+      <title>Уравнение Шрединrepa</title>
+      <publication>M.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Groenwold H. J.</author>
+      <title>&quot;physica»</title>
+      <publication/>
+      <year>1946</year>
+      <other>v. 12, p. 405-60</other>
+    </unit>
+    <unit>
+      <author>Антонец М. А.</author>
+      <title>«теоретич. и математич. физика»</title>
+      <publication/>
+      <year>1979</year>
+      <other>т. 38, № 3, с. 331-44.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/559_1_GEJZENBERGA">\frac{\partial \hat{f}}{\partial t}=\frac{i}{n}[\hat{H}, \hat{f}]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/559_2_GEJZENBERGA">\frac{\partial f}{\partial t}=\{H, f\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/559_3_GEJZENBERGA">f(t, h, p, q)=\sum_{k=0}^{\infty} h^{k} f_{k}(t, p, q), \quad p, q \in \mathbb{R}^{n},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/559_4_GEJZENBERGA">\frac{\partial f_{k}}{\partial t}=\left\{H, f_{k}\right\}+R_{k},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/559_1_GEJZENBERGA">\hat{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/559_2_GEJZENBERGA">\mathbb{r}^{2 n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/559_3_GEJZENBERGA">f_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/559_4_GEJZENBERGA">r_{0}=r_{1}=0, R_{k}=R_{k}(H), k=2,3, \ldots</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/559_1_GEJZENBERGA">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/559_2_GEJZENBERGA">
+      <rel_text>неоднородных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/1916_NEODNORODNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/559_3_GEJZENBERGA">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/559_4_GEJZENBERGA">
+      <rel_text>Лиувилля уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/1627_LIUVILLJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/559_5_GEJZENBERGA">
+      <rel_text>полученного</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>а с импт О тич С ск и е р е ш е н и я - решения уравнения Гейзенберга
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/559_1_GEJZENBERGA]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a957fb82d9960e552508g-1.jpg?height=49&amp;width=817&amp;top_left_y=1475&amp;top_left_x=76)
+$URI[[http://libmeta.ru/fme/formula/aux/559_1_GEJZENBERGA]]/URI$, которые могут быть построены для уравнения Гейзенберга, URI[[http://libmeta.ru/fme/relation/559_5_GEJZENBERGA]]/URI квантованием соответствующего URI[[http://libmeta.ru/fme/relation/559_4_GEJZENBERGA]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/559_2_GEJZENBERGA]]/URI
+\]
+
+Для квантования Вейля гамильтоновой URI[[http://libmeta.ru/fme/relation/559_3_GEJZENBERGA]]/URI в $URI[[http://libmeta.ru/fme/formula/aux/559_2_GEJZENBERGA]]/URI$ асимптотич. решения в представлении символов Вейля имеют вид (см., напр., [1]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/559_3_GEJZENBERGA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/559_3_GEJZENBERGA]]/URI$ - суть решения URI[[http://libmeta.ru/fme/relation/559_2_GEJZENBERGA]]/URI Лиувилля
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/559_4_GEJZENBERGA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/559_4_GEJZENBERGA]]/URI$. Способ URI[[http://libmeta.ru/fme/relation/559_1_GEJZENBERGA]]/URI асимптотич. решений Г.у. предложен в [2], достаточно полное обоснование см. в [3].</text>
+  <text_orig>а с импт О тич С ск и е р е ш е н и я - решения уравнения Гейзенберга
+
+\[
+\frac{\partial \hat{f}}{\partial t}=\frac{i}{n}[\hat{H}, \hat{f}]
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a957fb82d9960e552508g-1.jpg?height=49&amp;width=817&amp;top_left_y=1475&amp;top_left_x=76)
+$\hat{H}$, которые могут быть построены для уравнения Гейзенберга, полученного квантованием соответствующего Лиувилля уравнения
+
+\[
+\frac{\partial f}{\partial t}=\{H, f\} .
+\]
+
+Для квантования Вейля гамильтоновой механики в $\mathbb{R}^{2 n}$ асимптотич. решения в представлении символов Вейля имеют вид (см., напр., [1]):
+
+\[
+f(t, h, p, q)=\sum_{k=0}^{\infty} h^{k} f_{k}(t, p, q), \quad p, q \in \mathbb{R}^{n},
+\]
+
+$f_{k}$ - суть решения неоднородных уравнений Лиувилля
+
+\[
+\frac{\partial f_{k}}{\partial t}=\left\{H, f_{k}\right\}+R_{k},
+\]
+
+где $R_{0}=R_{1}=0, R_{k}=R_{k}(H), k=2,3, \ldots$. Способ получения асимптотич. решений Г.у. предложен в [2], достаточно полное обоснование см. в [3].
+
+Лит.: [1] Бе рези н Ф.А., Ш убин М. А., Уравнение Шрединrepa, M., 1983; [2] Groenwold H. J., &quot;Physica», 1946, v. 12, p. 405-60; [3] Ан тон ец М. А., «Теоретич. и математич. физика», 1979, т. 38, № 3, с. 331-44. М. А. Антонеи.</text_orig>
+</article>

@@ -86,8 +86,8 @@ XML_EXCLUDES = {
     '&gt;': '>',
     '&amp;': '&'
 }
-PERSONAL_WORD_LIST = "./matphys/PWL.txt"
-URI_PREFIX = "http://libmeta.ru/fme/"
+PERSONAL_WORD_LIST = "./mathenc/PWL.txt"
+URI_PREFIX = "http://libmeta.ru/me/"
 # ----------------------------------------------------------------
 
 
@@ -288,7 +288,7 @@ def check_in_formula(text_to_check: str, pos_to_check: int) -> bool:
     in_aux = not ((found_before + cntr) % 2) and found_before > 0
     return in_main or in_aux
 
-
+print(enchant)
 # Prepare spellcheckers
 ru_dict = enchant.DictWithPWL("ru_RU", PERSONAL_WORD_LIST)
 ru_checker = SpellChecker(ru_dict, filters=[EmailFilter, URLFilter])
@@ -301,6 +301,9 @@ def spellcheck_dict_update():
     global ru_checker
     global en_dict
     global en_checker
+
+
+
     ru_dict = enchant.DictWithPWL("ru_RU", PERSONAL_WORD_LIST)
     ru_checker = SpellChecker(ru_dict, filters=[EmailFilter, URLFilter])
     en_dict = enchant.DictWithPWL("en_US", PERSONAL_WORD_LIST)

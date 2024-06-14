@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12606">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>T</mi><mrow><mi>N</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003BE;</mi><mo>&#x0002C;</mo><mi>t</mi><mo>&#x0002C;</mo><mi>h</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msub><mo>&#x02211;</mo><mrow><mo>&#x0002B;</mo><mo>&#x0002C;</mo><mo>&#x02212;</mo></mrow></msub><msubsup><mo>&#x02211;</mo><mrow><mi>j</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mi>N</mi></mrow></msubsup><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>i</mi><mi>&#x003BE;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>S</mi><mrow><mi>&#x000B1;</mi></mrow></msup><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>t</mi><mo>&#x0002C;</mo><mi>&#x003C9;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><mi>x</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>&#x000D7;</mi><mspace linebreak="newline" /><mi>&#x000D7;</mi><msub><mi>&#x003C7;</mi><mrow><mi>j</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>&#x003BE;</mi><mo stretchy="false">&#x00029;</mo><msubsup><mi>a</mi><mrow><mi>j</mi></mrow><mrow><mi>&#x000B1;</mi></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>t</mi><mo>&#x0002C;</mo><mi>&#x003C9;</mi><mo stretchy="false">&#x00029;</mo><msup><mi>&#x003BE;</mi><mrow><mo>&#x02212;</mo><mi>j</mi></mrow></msup><mo>&#x0002C;</mo><mspace width="1em" /><mi>&#x003C9;</mi><mo>&#x0003D;</mo><mi>h</mi><mi>&#x003BE;</mi><mo>&#x0002C;</mo><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}T_{N}(x, \xi, t, h)=\sum_{+,-} \sum_{j=0}^{N} \exp \left(i \xi\left(S^{ \pm}(x, t, \omega)-x\right)\right) \times \\\times \chi_{j}(\xi) a_{j}^{ \pm}(x, t, \omega) \xi^{-j}, \quad \omega=h \xi, .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

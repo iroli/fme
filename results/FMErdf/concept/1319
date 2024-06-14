@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2188_PERVAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2188_PERVAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1319</core:url>
+    <lbm:descriptor><![CDATA[ПЕРВАЯ КВАДРАТИЧНАЯ ФОРМА ПОВЕРХНОСТИ $M^{k}$ В $n$-МЕРНОМ ЕВКЛИДОВОМ ПРОСТРАНСТВЕ $\mathbb{R}^{n}$, РАДИУС-ВЕКТОР ТЕКУЩЕЙ ТОЧКИ КОТОРОЙ ЗАДАН ПАРАМЕТРИЧЕСКИ $\boldsymbol{r}=\boldsymbol{r}\left(u^{1}, \ldots\right.$, $\left.u^{k}\right)$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1366"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10083"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10084"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10085"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10086"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10087"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10088"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3086"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2701"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>форма вида<BR/></P><P>то есть<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10083">$$(d \boldsymbol{r}, d \boldsymbol{r})=g_{a b} d u^{a} d u^{b}$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10084">$$g_{a b}=\left(\frac{\partial \boldsymbol{r}}{\partial u^{a}}, \frac{\partial \boldsymbol{r}}{\partial u^{b}}\right) \text {. }$$</a><BR/></P><P>В инвариантной форме П. к. Ф. в точке <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10086">$$m \in M^{k}-$$</a> это ограничение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_915_EVKLIDOVA">евклидовой метрики</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10087">$$d s^{2}=d x_{1}^{2}+\ldots+d x_{n}^{2}$$</a> на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1117_KASATEL'NOE">касательное пространство</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10088">$$t_{m} M^{k}$$</a>. В случае когда $URI[[http://libmeta.ru/fme/formula/aux/2188_4_PERVAJa]]/URI$, часто используют классич. обозначения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10085">$$E=g_{11}, F=g_{12}, G=g_{22} \text {. }$$</a><BR/></P><P>Коэффициенты $URI[[http://libmeta.ru/fme/formula/aux/2188_5_PERVAJa]]/URI$ образуют <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a>, называемый м е т рическим тензором.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2637_RIMANOVA">Риманова геометрия</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1366">В. В. Трофимов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[форма вида
+
+то есть
+
+\[
+(d \boldsymbol{r}, d \boldsymbol{r})=g_{a b} d u^{a} d u^{b}
+\]
+
+\[
+g_{a b}=\left(\frac{\partial \boldsymbol{r}}{\partial u^{a}}, \frac{\partial \boldsymbol{r}}{\partial u^{b}}\right) \text {. }
+\]
+
+В инвариантной форме П. к. Ф. в точке $m \in M^{k}-$ это ограничение евклидовой метрики $d s^{2}=d x_{1}^{2}+\ldots+d x_{n}^{2}$ на касательное пространство $T_{m} M^{k}$. В случае когда $n=3$, часто используют классич. обозначения
+
+\[
+E=g_{11}, F=g_{12}, G=g_{22} \text {. }
+\]
+
+Коэффициенты $g_{i j}$ образуют тензор, называемый м е т рическим тензором.
+
+См. также Риманова геометрия.
+
+В. В. Трофимов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2637_RIMANOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1117_KASATEL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_915_EVKLIDOVA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

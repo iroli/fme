@@ -1,0 +1,149 @@
+ассоциативной и коммутативной. Действительно, в противном случае получилось бы противоречие:
+
+\[
+\begin{gathered}
+(x \delta(x)) \mathscr{P}\left(\frac{1}{x}\right)=0 \mathscr{P}\left(\frac{1}{x}\right)=0, \\
+(x \delta(x)) \mathscr{P}\left(\frac{1}{x}\right)=(\delta(x) x) \mathscr{P}\left(\frac{1}{x}\right)= \\
+=\delta(x)\left(x \mathscr{P}\left(\frac{1}{x}\right)\right)=\delta(x) .
+\end{gathered}
+\]
+
+В нек-рых классах О. ф. такое произведение можно определігть, однако оно может оказаться неоднозначным.
+
+в) Д и ф ф е р е нц и р о в а н и е. Пусть $f \in D^{\prime}(O)$. Обобщен ная (слабая) производная O. ф. $f$
+
+\[
+D^{\alpha} f(x)=\frac{\partial|\alpha| f(x)}{\partial x_{1}^{\alpha_{1}} \cdots \partial x_{n}^{\alpha_{n}}},|\alpha|=\alpha_{1}+\cdots+\alpha_{n}
+\]
+
+порядка $\alpha=\left(\alpha_{1}, \ldots, \alpha_{n}\right)$ определяется равенством
+
+\[
+\left(D^{\alpha}, \varphi\right)=(-1)^{\downarrow} \alpha !\left(f, D^{\alpha} \varphi\right), \varphi \in D(O) .
+\]
+
+Так как операция $\varphi \rightarrow(-1)^{|\alpha|} D^{\alpha} \varphi$ линейна и непрерывна из $D(O)$ в $D(O)$, то функционал $D^{\alpha} f$, определяемый правой частью равенства (4), есть 0 . ф. из $D^{\prime}(O)$. Если $f \in C^{p}(O)$, то $D \alpha f \in C^{p-|\alpha|}(O)$ при всех $\alpha$ таких, что $|\alpha| \leqslant p$. Имеют место следующие свойства: операция $f \rightarrow D \alpha f$ линейна и непрерывна из $D^{\prime}(O)$ в $D^{\prime}(O)$, любая 0 . ф. из $D^{\prime}(O)$ бесконечно дифференцируема (в обобщенном смысле); дифференцирование не завісит от порядка; справедлива формула Лейбница для дифференцирования произведения $a f$, где $a \in C^{\infty}(O)$; дифференцирование не увеличивает носителя; всякая $O$. $ф . ~ f$ из $D^{\prime}(O)$ во всяком открытом множестве $O^{\prime} \Subset O$ есть нек-рая производная от непрерывной функции в $O^{\prime}$; любое дифференциальное уравнение $L u=f, f \in D^{\prime}(O)$, с постоянными коәффициентами разрешимо в $D^{\prime}(O)$, еслі $O-$ выпуклая область; любая О. ф. $f$ порядка $N$ с носителем в точке 0 единственным образом представляется в виде
+
+\[
+f(x)=\sum_{|\alpha| \leqslant N} a_{\alpha} D^{\alpha} \delta(x) .
+\]
+
+$\Pi$ р и м е р ы. 10) $\theta^{\prime}(x)=\delta(x)$, где $\theta$ - ф у н к ц и я $\mathrm{X}$ е в и с а й д а (функция включения):
+
+\[
+\theta(x)=1, x \geqslant 0, \theta(x)=0, x<0 .
+\]
+
+11) $\left(\delta^{\prime}, \varphi\right)=-\varphi^{\prime}(0)$
+
+- $\delta^{\prime}(x)$ описывает плотность зарядов, соответствующих диполю момента +1 в точке $x=0$ и ориентированного вдоль положительного направления оси $x$.
+
+12) Обобщением $\delta^{\prime}(x)$ является нормальная производная от плотности простого слоя на ориентируемой поверхности $S$ :
+
+\[
+\left(\frac{\partial}{\partial n}\left(\mu \delta_{s}\right), \varphi\right)=-\int_{S} \mu \frac{\partial \varphi}{\partial n} d S_{x} .
+\]
+
+О. ф. - $\frac{\partial}{\partial n}\left(\mu \delta_{s}\right)$ описывает пространственную плотность зарядов, соответствуюцую распределению диполей на поверхности $S$ с поверхностной плотностью момента $\mu$ и ориентированных вдоль заданного направления нормали $n$ на $S$ (п ло т но с т ь д в о й н о г о с ло я).
+
+13) Общее решение уравнения $u^{\prime}=0$ в классе $D^{\prime}\left(\mathbb{R}^{1}\right)$ есть $\boldsymbol{u}(x)=C$, где $C$ - произвольная постоянная.
+
+14) Общее решение уравнения $x u=0$ в классе $D^{\prime}\left(\mathbb{R}^{1}\right)$ есть $u(x)=C \delta(x)$.
+
+15) $x^{m} \delta^{(k)}(x)=0, \quad k=0,1, \ldots, m-1$.
+
+16) Тригонометрический ряд
+
+\[
+\sum_{k=-\infty}^{\infty} a_{k} e^{i k x},\left|a_{k}\right| \leqslant A(1+|k|)^{m}
+\]
+
+сходится в $D^{\prime}$ и его можно дифференцировать в $D^{\prime}$ почленно бесконечное число раз.
+
+17) $\frac{1}{2 \pi} \sum_{k=-\infty}^{\infty} e^{i k x}=\sum_{k=-\infty}^{\infty} \delta(x-2 k \pi)$.
+
+г) П р ям о е про изве ден и е. Пусть $f \in D^{\prime}\left(O_{1}\right)$ и $g \in D^{\prime}\left(O_{2}\right)$. Прямое произведение определяется по формуле
+
+\[
+\begin{gathered}
+(f(x) \times g(y), \varphi)=(f(x),(g(y), \varphi)), \\
+\varphi(x, y) \in D\left(O_{1} \times O_{2}\right) .
+\end{gathered}
+\]
+
+Так как операция $\varphi \rightarrow(g(y), \varphi(x, y))$ линейна и непрерывна пз $\boldsymbol{D}\left(O_{1} \times O_{2}\right)$ в $D\left(O_{1}\right)$, то функционал $f(x) \times g(y)$, определяемый формулой $(5)$, есть О. ф. из $D^{\prime}\left(O_{1} \times O_{2}\right)$. Прямое произведеніе - коммутатıвная и ассоциативная операция, причем
+
+\[
+\operatorname{supp}(f \times g)=\operatorname{supp} f \times \operatorname{supp} g .
+\]
+
+О. ф. $f(x, y)$ из $D^{\prime}\left(O_{1} \times O_{2}\right)$ не зависит от переменной $y$, если она представима в виде
+
+\[
+f(x, y)=f_{0}(x) \times 1(y), f_{0} \in D^{\prime}\left(O_{1}\right) ;
+\]
+
+в этом случае пшшется $f(x, y)=f_{0}(x)$.
+
+$\Pi$ р и м е р ы. 18) $\delta(x)=\delta\left(x_{1}\right) \times \ldots \times \delta\left(x_{n}\right)$.
+
+19) Общее решение в $D^{\prime}\left(\mathbb{R}^{2}\right)$ уравнения колебаний однородной струны $u_{t t}=u_{x x}$ задается формулой
+
+\[
+u(x, t)=f(x+t)+g(x-t),
+\]
+
+где $f(\xi)$ и $g(\eta)$ - пропзвольные О. ф. из $D^{\prime}\left(\mathbb{R}^{1}\right)$.
+
+д) С в е р т к а. Пусть О. ф. $f$ и $g$ из $D^{\prime}\left(\mathbb{R}^{n}\right)$ обладают тем свойством, что піх прямое произведение $f(x) \times g(y)$ допускает расширение на функции вида $\varphi(x+y)$, где $\varphi$ пробегает $D\left(\mathbb{R}^{n}\right)$, в следующем смысле: для всякой последовательности функций $\eta_{k}(x, y), k \rightarrow \infty$, из $D\left(\mathbb{R}^{2 n}\right)$ со свойстваміг
+
+\[
+\begin{aligned}
+& \left|D^{\alpha} \eta_{k}(x, y)\right| \leqslant C_{\alpha}, \eta_{k}(x, y) \rightarrow 1, \\
+& D^{\alpha} \eta_{k}(x, y) \Rightarrow 0,|\alpha| \geqslant 1, k \rightarrow \infty,
+\end{aligned}
+\]
+
+(на любом компакте), числовая последовательность $\left(f(x) \times g(y), \quad \eta_{k}(x, y) \varphi(x+y)\right)$ имеет предел, не зависяций от пооледовательности $\left\{\eta_{k}\right\}$. Этот предел наз. сверткой О.ф. $f$ и $g$ и обозначается $f * g$, так что
+
+\[
+\begin{gathered}
+(f * g, \varphi)=\lim _{k \rightarrow \infty}\left(f(x) \times g(y), \eta_{k}(x, y) \varphi(x+y)\right), \\
+\varphi \in D\left(\mathbb{R}^{n}\right) .
+\end{gathered}
+\]
+
+Из полноты пространства $D^{\prime}$ следует, что $f * g \in D^{\prime}\left(\mathbb{R}^{n}\right)$. Как показывают элементарные примеры, свертка существует не для любых пар $f$ и $g$. Она заведомо существует, если одна из О. ф. финитна. Если свертка существует в $D^{\prime}$, то она коммутативна $f * g=g * f$ и справедливы формулы дифференцированія свертки
+
+Далее,
+
+\[
+f * D^{\alpha} g=D^{\alpha}(f * g)=D^{\alpha} f * g .
+\]
+
+\[
+f * \delta=\delta * f=f,
+\]
+
+откуда из (7) получается
+
+\[
+D^{\alpha} f=f * D^{\alpha} \delta .
+\]
+
+Наконец,
+
+\[
+\operatorname{supp}(f * g) \subset \overline{\operatorname{supp} f+\operatorname{supp} g .}
+\]
+
+Как показывает пример:
+
+\[
+\begin{gathered}
+\left(1 * \delta^{\prime}\right) * \theta=1^{\prime} * \theta=0 * \theta=0, \\
+1 *\left(\delta^{\prime} * \theta\right)=1 * \theta^{\prime}=1 * \delta=1,
+\end{gathered}
+\]
+
+свертка - неассоциативная операция. Однако существуют ассоциативные (и коммутативные) сверточные алгебры. Единицей в них, в силу (8), служит $\delta$-функция. Сверточную алгебру образует, напр., множество $D^{\prime}(\Gamma)$, состоящее из О. ф. из $D^{\prime}$ с носителями в выпук-

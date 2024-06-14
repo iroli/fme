@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/718_GRA" alphabetic_pos="720">
+  <title>ГРАФ</title>
+  <authors>
+    <author>В. П. Козырев</author>
+  </authors>
+  <pages>
+    <start>157</start>
+    <end>157</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main/>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_1_GRA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_2_GRA">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_3_GRA">g(v, E)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_4_GRA">(u, v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_5_GRA">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_6_GRA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_7_GRA">(u, v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_8_GRA">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_9_GRA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_10_GRA">v_{1}, v_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_11_GRA">\ldots, v_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_12_GRA">g(v, E)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_13_GRA">e_{1}, e_{2}, \ldots, e_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_14_GRA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_15_GRA">a=\left\|a_{i j}\right\|, i=1, \ldots, n, j=1, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_16_GRA">a_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_17_GRA">v_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_18_GRA">v_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_19_GRA">v_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_20_GRA">v_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_21_GRA">a_{i j}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_22_GRA">b=\left\|b_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_23_GRA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_24_GRA">b_{i j}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_25_GRA">v_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_26_GRA">e_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_27_GRA">b_{i j}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_28_GRA">v_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_29_GRA">e_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_30_GRA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_31_GRA">v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_32_GRA">\left(v_{0}, v_{1}\right),\left(v_{1}, v_{2}\right), \ldots,\left(v_{i-1}, v_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_33_GRA">\left(v_{i}, v_{i+1}\right), \ldots,\left(v_{r-1}, v_{r}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_34_GRA">v_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_35_GRA">v_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/718_36_GRA">v_{0}=v_{r}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/718_1_GRA">
+      <rel_text>перечислении</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/718_2_GRA">
+      <rel_text>первым</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+  </relations>
+  <text>множество $URI[[http://libmeta.ru/fme/formula/aux/718_1_GRA]]/URI$ вершин и набор $URI[[http://libmeta.ru/fme/formula/aux/718_2_GRA]]/URI$ неупорядоченных и упорядоченных пар вершин; обозначается через $URI[[http://libmeta.ru/fme/formula/aux/718_3_GRA]]/URI$. Неупорядоченная пара вершин называется р е б ро м, упорядоченная пара - ду го й. Г., содержащий только ребра, называется н е о р и н т и ро ванны м; Г., содержащий только дуги,- о р и е н т и р о в а н н ы м. Пара вершин может соединяться двумя или более ребрами (дугами одного направления), такие ребра (дуги) называются к ратным и. Дуга (или ребро) может начинаться и кончаться в одной и той же вершине, такая дуга (ребро) называется петле й. Вершины, соединенные ребром или дугой, называются с м е ж н ы м и; ребра, имеющие общую вершину, - также с ме жны м и. Ребро (дуга) и любая из его двух вершин называются и нци д е нт ным и. Говорят, что ребро $URI[[http://libmeta.ru/fme/formula/aux/718_4_GRA]]/URI$ соединяет вершины $URI[[http://libmeta.ru/fme/formula/aux/718_5_GRA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/718_6_GRA]]/URI$, а дуга $URI[[http://libmeta.ru/fme/formula/aux/718_7_GRA]]/URI$ начинается в вершине $URI[[http://libmeta.ru/fme/formula/aux/718_8_GRA]]/URI$ и кончается в вершине $URI[[http://libmeta.ru/fme/formula/aux/718_9_GRA]]/URI$.
+
+Каждый Г. можно представить в евклидовом пространстве множеством точек, соответствующих вершинам, к-рые соединены линиями, соответствующими ребрам (или дугам) Г.,- укла д ка Г. В 3-мерном пространстве любой Г. можно представить таким образом, что линии, соответствующие ребрам (дугам), не пересекаются во внутренних точках. Класс Г., называемых плоски м и, допускает представление в 2-мерном пространстве.
+
+Существуют различные способы задания Г. Пусть $URI[[http://libmeta.ru/fme/formula/aux/718_10_GRA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/718_11_GRA]]/URI$ - вершины графа $URI[[http://libmeta.ru/fme/formula/aux/718_12_GRA]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/718_13_GRA]]/URI$ - его ребра. М а т р и це й с меж нос т и, соответствующей графу $URI[[http://libmeta.ru/fme/formula/aux/718_14_GRA]]/URI$, называется матрица $URI[[http://libmeta.ru/fme/formula/aux/718_15_GRA]]/URI$, у к-рой элемент $URI[[http://libmeta.ru/fme/formula/aux/718_16_GRA]]/URI$ равен числу ребер (дуг), соединяющих вершины $URI[[http://libmeta.ru/fme/formula/aux/718_17_GRA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/718_18_GRA]]/URI$ (идущих из $URI[[http://libmeta.ru/fme/formula/aux/718_19_GRA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/718_20_GRA]]/URI$ ), и $URI[[http://libmeta.ru/fme/formula/aux/718_21_GRA]]/URI$, если соответствующие вершины не смежны. В матрице инцидентности $URI[[http://libmeta.ru/fme/formula/aux/718_22_GRA]]/URI$ графа $URI[[http://libmeta.ru/fme/formula/aux/718_23_GRA]]/URI$ элемент $URI[[http://libmeta.ru/fme/formula/aux/718_24_GRA]]/URI$, если вершина $URI[[http://libmeta.ru/fme/formula/aux/718_25_GRA]]/URI$ инцидентна ребру $URI[[http://libmeta.ru/fme/formula/aux/718_26_GRA]]/URI$, и $URI[[http://libmeta.ru/fme/formula/aux/718_27_GRA]]/URI$, если вершина $URI[[http://libmeta.ru/fme/formula/aux/718_28_GRA]]/URI$ и ребро $URI[[http://libmeta.ru/fme/formula/aux/718_29_GRA]]/URI$ не инцидентны. Г. можно задать посредством с п и с к о в, напр. указанием пар вершин, соединенных ребрами (дугами), или заданием для каждой вершины множества смежных с ней вершин (с т е пе н ь в е рш и ны $URI[[http://libmeta.ru/fme/formula/aux/718_30_GRA]]/URI$ называется число ребер, инцидентных $URI[[http://libmeta.ru/fme/formula/aux/718_31_GRA]]/URI$.
+
+Последовательность ребер $URI[[http://libmeta.ru/fme/formula/aux/718_32_GRA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/718_33_GRA]]/URI$ называется м а рш р у то м, соединяющим вершины $URI[[http://libmeta.ru/fme/formula/aux/718_34_GRA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/718_35_GRA]]/URI$. Маршрут замкнут, если $URI[[http://libmeta.ru/fme/formula/aux/718_36_GRA]]/URI$. Маршрут, содержащий все вершины или ребра Г. и обладающий определенными свойствами, называется об ход о м Г.
+
+В проблематике теории Г. можно выделить направления, носящие более комбинаторный или более геометрический характер. K URI[[http://libmeta.ru/fme/relation/718_2_GRA]]/URI относятся, напр., задачи о построении Г. с заданными свойствами, задачи о подсчете и URI[[http://libmeta.ru/fme/relation/718_1_GRA]]/URI Г. с фиксированными свойствами. Геометрический (топологический) характер носят, напр., задачи, связанные с обходами Г., и задачи, возникающие при укладке Г. на различных поверхностях.</text>
+  <text_orig>множество $V$ вершин и набор $E$ неупорядоченных и упорядоченных пар вершин; обозначается через $G(V, E)$. Неупорядоченная пара вершин называется р е б ро м, упорядоченная пара - ду го й. Г., содержаший только ребра, называется н е о р и н т и ро ванны м; Г., содержащий только дуги,- о р и е н т и р о в а н н ы м. Пара вершин может соединяться двумя или более ребрами (дугами одного направления), такие ребра (дуги) называются к ратным и. Дуга (или ребро) может начинаться и кончаться в одной и той же вершне, такая дуга (ребро) называется петле й. Вершины, соединенные ребром или дугой, называются с м е ж н ы м и; ребра, имеюшие общую вершину, - также с ме жны м и. Ребро (дуга) и любая из его двух вершин называются и нци д е нт ным и. Говорят, что ребро $(u, v)$ соединяет вершины $u$ и $v$, а дуга $(u, v)$ начинается в вершине $u$ и кончается в вершине $v$.
+
+Каждый Г. можно представить в евклидовом пространстве множеством точек, соответствующих вершинам, к-рые соединены линиями, соответствующими ребрам (или дугам) Г.,- укла д ка Г. В 3-мерном пространстве любой Г. можно представить таким образом, что линии, соответствующие ребрам (дугам), не пересекаются во внутренних точках. Класс Г., называемых плоски м и, допускает представление в 2-мерном пространстве.
+
+Существуют различные способы задания Г. Пусть $v_{1}, v_{2}$, $\ldots, v_{n}$ - вершины графа $G(V, E)$, а $e_{1}, e_{2}, \ldots, e_{m}$ - его ребра. М а т р и це й с меж нос т и, соответствующей графу $G$, называется матрица $A=\left\|a_{i j}\right\|, i=1, \ldots, n, j=1, \ldots, m$, у к-рой элемент $a_{i j}$ равен числу ребер (дуг), соединяюших вершины $v_{i}$ и $v_{j}$ (идущих из $v_{i}$ в $v_{j}$ ), и $a_{i j}=0$, если соответствуюшие вершины не смежны. В матрице инцидентности $B=\left\|b_{i j}\right\|$ графа $G$ элемент $b_{i j}=1$, если вершина $v_{i}$ инцидентна ребру $e_{j}$, и $b_{i j}=0$, если вершина $v_{i}$ и ребро $e_{j}$ не инцидентны. Г. можно задать посредством с п и с к о в, напр. указанием пар вершин, соединенных ребрами (дугами), или заданием для каждой вершины множества смежных с ней вершин (с т е пе н ь в е рш и ны $v$ называется число ребер, инцидентных $v)$.
+
+Последовательность ребер $\left(v_{0}, v_{1}\right),\left(v_{1}, v_{2}\right), \ldots,\left(v_{i-1}, v_{i}\right)$, $\left(v_{i}, v_{i+1}\right), \ldots,\left(v_{r-1}, v_{r}\right)$ называется м а рш р у то м, соединяющим вершины $v_{0}$ и $v_{r}$. Маршрут замкнут, если $v_{0}=v_{r}$. Маршрут, содержащий все вершины или ребра Г. и обладающий определенными свойствами, называется об ход о м Г.
+
+В проблематике теории Г. можно выделить направления, носящие более комбинаторный или более геометрический характер. K первым относятся, напр., задачи о построении Г. с заданными свойствами, задачи о подсчете и перечислении Г. с фиксированными свойствами. Геометрический (топологический) характер носят, напр., задачи, связанные с обходами Г., и задачи, возникающие при укладке Г. на различных поверхностях.
+
+В. П. Козырев.</text_orig>
+</article>

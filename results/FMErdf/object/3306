@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_3306">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mo>&#x0222B;</mo><mrow><mo stretchy="false">&#x0007C;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy="false">&#x0007C;</mo><mo>&#x0003E;</mo><mi>&#x003B5;</mi></mrow></msub><mi>P</mi><mo stretchy="false">&#x00028;</mo><mi>s</mi><mo>&#x0002C;</mo><mi>x</mi><mi>;</mi><mi>t</mi><mo>&#x0002C;</mo><mi>d</mi><mi>y</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mi>o</mi><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo>&#x02212;</mo><mi>s</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\int_{|x-y|&gt;\varepsilon} P(s, x ; t, d y)=o(t-s),$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

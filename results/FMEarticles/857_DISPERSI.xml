@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/857_DISPERSI" alphabetic_pos="859">
+  <title>ДИСПЕРСИЯ</title>
+  <authors>
+    <author>В. И. Битюиков</author>
+  </authors>
+  <pages>
+    <start>186</start>
+    <end>187</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/857_1_DISPERSI">\mathrm{D} X=\mathrm{E}(X-\mathrm{E} X)^{2} \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/857_2_DISPERSI">p_{k}=\mathrm{P}\left\{X=x_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/857_3_DISPERSI">\mathrm{D} X=\sum_{k=1}^{\infty}\left(x_{k}-m\right)^{2} p_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/857_4_DISPERSI">\mathrm{D} X=\int_{-\infty}^{\infty}(x-m)^{2} p(x) d x,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/857_5_DISPERSI">\sigma=\sqrt{D X}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_1_DISPERSI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_2_DISPERSI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_3_DISPERSI">\mathrm{e}(x-m)^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_4_DISPERSI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_5_DISPERSI">m=\mathrm{ex}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_6_DISPERSI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_7_DISPERSI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_8_DISPERSI">p(x),-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_9_DISPERSI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_10_DISPERSI">\mathrm{d} X=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_11_DISPERSI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/857_12_DISPERSI">m</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/857_1_DISPERSI">
+      <rel_text>рассеяния</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/857_2_DISPERSI">
+      <rel_text>независимых случайных величин</rel_text>
+      <target>http://libmeta.ru/fme/article/1887_NEZAVISIMYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/857_3_DISPERSI">
+      <rel_text>случайная величина</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/857_4_DISPERSI">
+      <rel_text>квадратичное отклонение</rel_text>
+      <target>http://libmeta.ru/fme/article/1130_KVADRATIChNOE</target>
+    </relation>
+  </relations>
+  <text>одна из характеристик распределения вероятностей случайной величины, наиболее употребительная мера рассеяния ее значений. Д и с п е р с и я D $URI[[http://libmeta.ru/fme/formula/aux/857_1_DISPERSI]]/URI$ случайной величины $URI[[http://libmeta.ru/fme/formula/aux/857_2_DISPERSI]]/URI$ определяется как математическое ожидание $URI[[http://libmeta.ru/fme/formula/aux/857_3_DISPERSI]]/URI$ квадрата отклонения $URI[[http://libmeta.ru/fme/formula/aux/857_4_DISPERSI]]/URI$ от ее математич. ожидания $URI[[http://libmeta.ru/fme/formula/aux/857_5_DISPERSI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/857_1_DISPERSI]]/URI
+\]
+
+Для случайной величины $URI[[http://libmeta.ru/fme/formula/aux/857_6_DISPERSI]]/URI$ с дискретным распределением
+
+Д. определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/857_2_DISPERSI]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/857_3_DISPERSI]]/URI
+\]
+
+при условии, что ряд сходится, а для случайной величины $URI[[http://libmeta.ru/fme/formula/aux/857_7_DISPERSI]]/URI$ с непрерывным распределением, имеющим плотность вероятности $URI[[http://libmeta.ru/fme/formula/aux/857_8_DISPERSI]]/URI$ формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/857_4_DISPERSI]]/URI
+\]
+
+если этот интеграл сходится.
+
+Наряду с Д. в качестве меры рассеяния (той же размерности, что и сама случайная величина) используется квадратный корень из Д.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/857_5_DISPERSI]]/URI
+\]
+
+- URI[[http://libmeta.ru/fme/relation/857_4_DISPERSI]]/URI $URI[[http://libmeta.ru/fme/formula/aux/857_9_DISPERSI]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/857_10_DISPERSI]]/URI$, то URI[[http://libmeta.ru/fme/relation/857_3_DISPERSI]]/URI $URI[[http://libmeta.ru/fme/formula/aux/857_11_DISPERSI]]/URI$ принимает с вероятностью 1 единственное значение $URI[[http://libmeta.ru/fme/formula/aux/857_12_DISPERSI]]/URI$. В теории вероятностей большое значение имеет теорема: Д. суммы URI[[http://libmeta.ru/fme/relation/857_2_DISPERSI]]/URI равна сумме Д. этих величин. Это свойство выделяет Д. среди других характеристик URI[[http://libmeta.ru/fme/relation/857_1_DISPERSI]]/URI. В математич. статистике важную роль для характеристики качества статистич. оценок играет их Д.</text>
+  <text_orig>одна из характеристик распределения вероятностей случайной величины, наиболее употребительная мера рассеяния ее значений. Д и с п е р с и я D $X$ случайной величины $X$ определяется как математическое ожидание $\mathrm{E}(X-m)^{2}$ квадрата отклонения $X$ от ее математич. ожидания $m=\mathrm{EX}$ :
+
+\[
+\mathrm{D} X=\mathrm{E}(X-\mathrm{E} X)^{2} \text {. }
+\]
+
+Для случайной величины $X$ с дискретным распределением
+
+Д. определяется формулой
+
+\[
+p_{k}=\mathrm{P}\left\{X=x_{k}\right\}
+\]
+
+\[
+\mathrm{D} X=\sum_{k=1}^{\infty}\left(x_{k}-m\right)^{2} p_{k}
+\]
+
+при условии, что ряд сходится, а для случайной величины $X$ с непрерывным распределением, имеющим плотность вероятности $p(x),-$ формулой
+
+\[
+\mathrm{D} X=\int_{-\infty}^{\infty}(x-m)^{2} p(x) d x,
+\]
+
+если этот интеграл сходится.
+
+Наряду с Д. в качестве меры рассеяния (той же размерности, что и сама случайная величина) используется квадратный корень из Д.:
+
+\[
+\sigma=\sqrt{D X}
+\]
+
+- квадратичное отклонение $X$. Если $\mathrm{D} X=0$, то случайная величина $X$ принимает с вероятностью 1 единственное значение $m$. В теории вероятностей большое значение имеет теорема: Д. суммы независимых случайных величин равна сумме Д. этих величин. Это свойство выделяет Д. среди других характеристик рассеяния. В математич. статистике важную роль для характеристики качества статистич. оценок играет их Д.
+
+В. И. Битюиков.</text_orig>
+</article>

@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2024_OBOBSchENNYE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2024_OBOBSchENNYE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1138</core:url>
+    <lbm:descriptor><![CDATA[ОБОБЩЕННЫЕ СИЛЫ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_297"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4722"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8740"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8741"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8742"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8743"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8744"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>величины, играющие роль обычных сил, когда при изучении равновесия или движения механической системы ее положение определяется обобщенными координатами. Число О.с. равно числу $URI[[http://libmeta.ru/fme/formula/aux/2024_1_OBOBSchENNYE]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2955_STEPENI">степеней свободы</a> системы; при этом каждой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE">обобщенной координате</a> $URI[[http://libmeta.ru/fme/formula/aux/2024_2_OBOBSchENNYE]]/URI$ соответствует своя О.с. $URI[[http://libmeta.ru/fme/formula/aux/2024_3_OBOBSchENNYE]]/URI$. Значение О.с. $URI[[http://libmeta.ru/fme/formula/aux/2024_4_OBOBSchENNYE]]/URI$, соответствующей координате $URI[[http://libmeta.ru/fme/formula/aux/2024_5_OBOBSchENNYE]]/URI$, можно найти, вычислив <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3515_ELEMENTARNAJa">элементарную работу</a> $URI[[http://libmeta.ru/fme/formula/aux/2024_6_OBOBSchENNYE]]/URI$ всех сил на возможном перемещении системы, при к-ром изменяется только координата $URI[[http://libmeta.ru/fme/formula/aux/2024_7_OBOBSchENNYE]]/URI$, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получая</a> приращение $URI[[http://libmeta.ru/fme/formula/aux/2024_8_OBOBSchENNYE]]/URI$. Тогда <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8742">$$\delta A_{1}=Q_{1} \delta q_{1}$$</a>, то есть коэффициент при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8741">$$\delta q_{1}$$</a> в выражении <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8740">$$\delta A_{1}$$</a> и будет О. с. $URI[[http://libmeta.ru/fme/formula/aux/2024_12_OBOBSchENNYE]]/URI$. Аналогично вычисляются <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8743">$$q_{2}, Q_{3}, \ldots, Q_{s}$$</a>.<BR/></P><P>Размерность О.с. зависит от размерности <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE">обобщенной координаты</a>. Если $URI[[http://libmeta.ru/fme/formula/aux/2024_14_OBOBSchENNYE]]/URI$ имеет размерность длины, то $URI[[http://libmeta.ru/fme/formula/aux/2024_15_OBOBSchENNYE]]/URI$ размерность обычной силы; если $URI[[http://libmeta.ru/fme/formula/aux/2024_16_OBOBSchENNYE]]/URI$ угол, то $URI[[http://libmeta.ru/fme/formula/aux/2024_17_OBOBSchENNYE]]/URI$ имеет размерность <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1819_MOMENT">момента силы</a>, и т. д. При изучении движения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механич</a>. системы О. с. входят вместо обычных сил в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1503_LAGRANZhA">Лагранжа уравнения</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механики</a>, а при равновесии все О. с. равны нулю.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[величины, играющие роль обычных сил, когда при изучении равновесия или движения механической системы ее положение определяется обобщенными координатами. Число О.с. равно числу $s$ степеней свободы системы; при этом каждой обобщенной координате $q_{i}$ соответствует своя О.с. $Q_{i}$. Значение О.с. $Q_{1}$, соответствующей координате $q_{1}$, можно найти, вычислив элементарную работу $\delta A_{1}$ всех сил на возможном перемещении системы, при к-ром изменяется только координата $q_{1}$, получая приращение $\delta q_{1}$. Тогда $\delta A_{1}=Q_{1} \delta q_{1}$, то есть коэффициент при $\delta q_{1}$ в выражении $\delta A_{1}$ и будет О. с. $Q_{1}$. Аналогично вычисляются $Q_{2}, Q_{3}, \ldots, Q_{s}$.
+
+Размерность О.с. зависит от размерности обобщенной координаты. Если $q_{i}$ имеет размерность длины, то $Q_{i}-$ размерность обычной силы; если $q_{i}-$ угол, то $Q_{i}$ имеет размерность момента силы, и т. д. При изучении движения механич. системы О. с. входят вместо обычных сил в Лагранжа уравнения механики, а при равновесии все О. с. равны нулю.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1503_LAGRANZhA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1819_MOMENT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3515_ELEMENTARNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2955_STEPENI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

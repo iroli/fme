@@ -1,0 +1,625 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3204_USREDNENIJa" alphabetic_pos="3206">
+  <title>УСРЕДНЕНИЯ МЕТОД, ОСРЕДНЕНИЯ МЕТОД</title>
+  <authors>
+    <author>А. И. Нейuтадm</author>
+  </authors>
+  <pages>
+    <start>625</start>
+    <end>628</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] А н о с о в Д. В., «известия Ан Ссср. Сер. математическая», 1960, т. 24, № 5, с. 721-42; [2] А р нол ьд В. И., Дополнительные главы теории обыкновенных дифференциальных уравнений, М., 1978; [3] Арнольд В.И., Козло в В. В., Не йш тадт А. И., в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 3, М., 1985; [4] Бо гол ю бо в Н. Н., О некоторых статистических методах в математической физике, Львов, 1945; [5] Бо голюбов Н.Н., М и троп ольск и й Ю. А., Асимптотические методы в теории нелинейных ко.лебаний, 4 изд., М., 1974; [6] Волосов В. М., М оргу н о в Б. И., Метод осреднения в теории нелинейных колебательных систем, М., 1971; [7] Джакаль я Г. Е. О., Методы теории возмуще- ний для нелинейных систем, пер. с англ., М., 1979; [8] М и тропольски й Ю.А., Метод усреднения в нелинейной механике, Киев, 1971; [9] Пуанка ре А., Избранные труды, тт. 1-3, М., 1971-74; [10] Lochak P., Meunier P., Multiphaze averaging for classical systems, N. Y., 1988.</literature_orig>
+    <unit>
+      <author>Аносов Д. В.</author>
+      <title>«известия Ан Ссср. Сер. математическая»</title>
+      <publication/>
+      <year>1960</year>
+      <other>т. 24, № 5, с. 721-42</other>
+    </unit>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <title>Дополнительные главы теории обыкновенных дифференциальных уравнений</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <author>Козлов В. В.</author>
+      <author>Нейштадт А. И.</author>
+      <title>в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other>т. 3</other>
+    </unit>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <title>О некоторых статистических методах в математической физике, Львов</title>
+      <publication/>
+      <year>1945</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <author>Митропольский Ю. А.</author>
+      <title>Асимптотические методы в теории нелинейных ко.лебаний</title>
+      <publication>4 изд., М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Волосов В. М.</author>
+      <author>Моргунов Б. И.</author>
+      <title>Метод осреднения в теории нелинейных колебательных систем</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Джакалья Г. Е. О.</author>
+      <title>Методы теории возмуще- ний для нелинейных систем</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Митропольский Ю. А.</author>
+      <title>Метод усреднения в нелинейной механике, Киев</title>
+      <publication/>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Пуанкаре А.</author>
+      <title>Избранные труды</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other>тт. 1-3</other>
+    </unit>
+    <unit>
+      <author>Lochak P.</author>
+      <author>Meunier P.</author>
+      <title>Multiphaze averaging for classical systems, N. Y.</title>
+      <publication/>
+      <year>1988</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_1_USREDNENIJa">\left.\begin{array}{l}\dot{I}=\varepsilon g(I, \varphi, \varepsilon), \quad \dot{\varphi}=\omega(I)+\varepsilon f(I, \varphi, \varepsilon), \\I=\left(I_{1}, \ldots, I_{n}\right) \in \mathbb{R}^{n}, \\\varphi=\left(\varphi_{1}, \ldots, \varphi_{n}\right) \operatorname{modd} 2 \pi \in T^{m}, 0&lt;\varepsilon \ll 1 .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_2_USREDNENIJa">\dot{J}=\varepsilon G(J), \quad G(J)=(2 \pi)^{-m} \oint_{T^{m}} g(J, \varphi, 0) d \varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_3_USREDNENIJa">\begin{gathered}\vartheta=\left(\vartheta_{1}, \ldots, \vartheta_{r}\right) \operatorname{modd} 2 \pi \in T^{r}, \\\chi=\left(\chi_{1}, \ldots, \chi_{m-r}\right) \operatorname{modd} 2 \pi \in T^{m-r}, \\\vartheta_{i}=\left(k^{(i)}, \varphi\right), \chi_{j}=\left(k^{r+j}, \varphi\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_4_USREDNENIJa">\left.\begin{array}{l}\dot{J}=\varepsilon G_{\Gamma}(J, \gamma), \quad \dot{\gamma}=R \omega(J)+\varepsilon R F_{\Gamma}(J, \gamma), \\G_{\Gamma}(J, \vartheta)=(2 \pi)^{-(m-r)} \oint_{T^{m-r}} g(J, \varphi, 0) d \chi, \\F_{\Gamma}(J, \vartheta)=(2 \pi)^{-(m-r)} \oint_{T^{m-r}} f(J, \varphi, 0) d \chi\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_5_USREDNENIJa">H=H_{0}(p)+\varepsilon H_{1}(p, \varphi, y, x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_6_USREDNENIJa">\dot{p}=-\varepsilon \frac{\partial H_{1}}{\partial \varphi}, \dot{y}=\varepsilon \frac{\partial H_{1}}{\partial x}, \quad \dot{x}=\varepsilon \frac{\partial H_{1}}{\partial y}, \dot{\varphi}=\frac{\partial H_{0}}{\partial p}+\varepsilon \frac{\partial H_{1}}{\partial p} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_7_USREDNENIJa">\left.\begin{array}{c}\dot{p}=0, \quad \dot{y}=-\varepsilon \frac{\partial \mathscr{H}_{1}}{\partial x}, \quad \dot{x}=\varepsilon \frac{\partial \mathscr{H}_{1}}{\partial y}, \\\mathscr{H}_{1}(p, y, x)=(2 \pi)^{-m} \oint_{T^{m}} H_{1}(p, \varphi, y, x) d \varphi ;\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_8_USREDNENIJa">\left.\begin{array}{l}I=J+\varepsilon u_{1}(J, \psi)+\varepsilon^{2} u_{2}(J, \psi)+\ldots, \\\varphi=\psi+\varepsilon v_{1}(J, \psi)+\varepsilon^{2} v_{2}(J, \psi)+\ldots,\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_9_USREDNENIJa">\left.\begin{array}{l}\dot{J}=\varepsilon G_{0}(J)+\varepsilon^{2} G_{1}(J)+\ldots, \\\dot{\psi}=\omega(J)+\varepsilon F_{0}(J)+\varepsilon^{2} F_{1}(J)+\ldots .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_10_USREDNENIJa">\left.\begin{array}{l}G_{0}(J)=g(J, \psi, 0)-\frac{\partial u_{1}}{\partial \psi} \omega, \\F_{0}(J)=f(J, \psi, 0)+\frac{\partial \omega}{\partial J} u_{1}-\frac{\partial v_{1}}{\partial \psi} \omega, \\G_{i}(J)=X_{i}(J, \psi)-\frac{\partial u_{i+1}}{\partial \psi} \omega, i \geqslant 1, \\F_{i}(J)=Y_{i}(J, \psi)+\frac{\partial \omega}{\partial J} u_{i+1}-\frac{\partial v_{i+1}}{\partial \psi} \omega .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_11_USREDNENIJa">\left.\begin{array}{l}G_{0}(J)=g_{0}(J) \equiv G(J), \\u_{1}(J, \psi)=\sum_{k \neq 0} \frac{g_{k}(J)}{i(k, \omega(J))} \exp (i(k, \psi))+u_{1}^{0}(J),\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_12_USREDNENIJa">\dot{x}=\varepsilon X(x, t, \varepsilon), x \in D \subset \mathbb{R}^{p}, 0&lt;\varepsilon \ll 1 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_13_USREDNENIJa">X_{0}(x)=\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} X(x, t, 0) d t .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_14_USREDNENIJa">\dot{\xi}=\varepsilon X_{0}(\xi) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_15_USREDNENIJa">\dot{x}=f(x, y, \varepsilon), \dot{y}=\varepsilon g(x, y, \varepsilon),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_16_USREDNENIJa">\dot{Y}=\varepsilon G(Y), \quad G(Y)=\int_{M} G(x, Y, 0) d \mu_{Y} / \mu_{Y}(M) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3204_17_USREDNENIJa">\sup _{0 \leqslant t \leqslant 1 / \varepsilon}|y(t)-Y(t)|&gt;\rho</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_1_USREDNENIJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_2_USREDNENIJa">\varepsilon=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_3_USREDNENIJa">i=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_4_USREDNENIJa">\omega(i)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_5_USREDNENIJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_6_USREDNENIJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_7_USREDNENIJa">2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_8_USREDNENIJa">\varphi_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_9_USREDNENIJa">\omega(i)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_10_USREDNENIJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_11_USREDNENIJa">1 / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_12_USREDNENIJa">d \varphi=d \varphi_{1}, \ldots, d \varphi_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_13_USREDNENIJa">\varepsilon[g(i, \varphi, 0)-G(I)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_14_USREDNENIJa">(k, \omega)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_15_USREDNENIJa">k \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_16_USREDNENIJa">(k, \omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_17_USREDNENIJa">\mathbb{r}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_18_USREDNENIJa">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_19_USREDNENIJa">\mathbb{z}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_20_USREDNENIJa">\mathbb{z}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_21_USREDNENIJa">r-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_22_USREDNENIJa">\gamma, k^{1}, \ldots, k^{(m)}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_23_USREDNENIJa">\mathbb{z}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_24_USREDNENIJa">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_25_USREDNENIJa">\varphi_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_26_USREDNENIJa">r-(r \times m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_27_USREDNENIJa">k^{(i)}, 1 \leqslant i \leqslant r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_28_USREDNENIJa">i, \vartheta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_29_USREDNENIJa">g, f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_30_USREDNENIJa">\vartheta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_31_USREDNENIJa">\chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_32_USREDNENIJa">\left.\chi ; d \chi=d \chi_{1} \ldots d \chi_{m-r}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_33_USREDNENIJa">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_34_USREDNENIJa">g_{\gamma}, F_{\Gamma}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_35_USREDNENIJa">g, f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_36_USREDNENIJa">\varepsilon=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_37_USREDNENIJa">\exp (i(k, \varphi)), k \neq \Gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_38_USREDNENIJa">\varphi, x-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_39_USREDNENIJa">p, y-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_40_USREDNENIJa">i=(p, y, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_41_USREDNENIJa">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_42_USREDNENIJa">y, x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_43_USREDNENIJa">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_44_USREDNENIJa">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_45_USREDNENIJa">i, \varphi \mapsto J</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_46_USREDNENIJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_47_USREDNENIJa">u_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_48_USREDNENIJa">v_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_49_USREDNENIJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_50_USREDNENIJa">2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_51_USREDNENIJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_52_USREDNENIJa">x_{i}, Y_{\imath}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_53_USREDNENIJa">u_{1}, v_{1}, \ldots, u_{i}, v_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_54_USREDNENIJa">g_{k}, k \in \mathbb{Z}^{m},-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_55_USREDNENIJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_56_USREDNENIJa">\varepsilon=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_57_USREDNENIJa">u_{1}^{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_58_USREDNENIJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_59_USREDNENIJa">f_{0}, v_{1}, G_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_60_USREDNENIJa">u_{i+1}, F_{i}, v_{i+1}, i \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_61_USREDNENIJa">\varepsilon^{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_62_USREDNENIJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_63_USREDNENIJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_64_USREDNENIJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_65_USREDNENIJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_66_USREDNENIJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_67_USREDNENIJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_68_USREDNENIJa">l=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_69_USREDNENIJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_70_USREDNENIJa">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_71_USREDNENIJa">i, \varphi \mapsto J, \psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_72_USREDNENIJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_73_USREDNENIJa">(k, \psi), k \in \Gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_74_USREDNENIJa">j,(k, \psi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_75_USREDNENIJa">n=m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_76_USREDNENIJa">n=m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_77_USREDNENIJa">n \geqslant m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_78_USREDNENIJa">\varepsilon \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_79_USREDNENIJa">1 / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_80_USREDNENIJa">1 / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_81_USREDNENIJa">\omega, g, f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_82_USREDNENIJa">d\{i\} \times T^{\left.m_{\{\varphi}\right\} \times\left[0, \varepsilon_{0}\right] ; J(t)-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_83_USREDNENIJa">i_{0} \in D_{0} \subset D ;(I(t), \varphi(t))</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_84_USREDNENIJa">\left(i_{0}, \varphi_{0}\right) \in D_{0} \times T^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_85_USREDNENIJa">i(0)=j(0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_86_USREDNENIJa">j(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_87_USREDNENIJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_88_USREDNENIJa">0 \leqslant t \leqslant K / \varepsilon, K=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_89_USREDNENIJa">&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_90_USREDNENIJa">(m=1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_91_USREDNENIJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_92_USREDNENIJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_93_USREDNENIJa">0 \leqslant t \leqslant K / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_94_USREDNENIJa">(i(t), \varphi(t))</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_95_USREDNENIJa">|i(t)-J(t)|&lt;c \varepsilon, c=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_96_USREDNENIJa">&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_97_USREDNENIJa">\omega=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_98_USREDNENIJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_99_USREDNENIJa">1 / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_100_USREDNENIJa">(m \geqslant 2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_101_USREDNENIJa">(\omega=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_102_USREDNENIJa">\rho&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_103_USREDNENIJa">|i(t)-J(t)|&lt;\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_104_USREDNENIJa">\varepsilon&lt;\varepsilon_{0}(\rho)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_105_USREDNENIJa">0 \leqslant t \leqslant K / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_106_USREDNENIJa">|(k, \omega)|&gt;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_107_USREDNENIJa">|k|^{-v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_108_USREDNENIJa">k \in \mathbb{Z}^{m} \backslash\{0\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_109_USREDNENIJa">v&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_110_USREDNENIJa">\rho=o(\varepsilon)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_111_USREDNENIJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_112_USREDNENIJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_113_USREDNENIJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_114_USREDNENIJa">\omega(i)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_115_USREDNENIJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_116_USREDNENIJa">\rho&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_117_USREDNENIJa">|i(t)-J(t)|&lt;\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_118_USREDNENIJa">0 \leqslant t \leqslant K / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_119_USREDNENIJa">e(\rho, \varepsilon)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_120_USREDNENIJa">\varepsilon \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_121_USREDNENIJa">e(\rho, \varepsilon)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_122_USREDNENIJa">o(\sqrt{\varepsilon} / \rho)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_123_USREDNENIJa">(\partial \omega / \partial I)=m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_124_USREDNENIJa">(m=2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_125_USREDNENIJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_126_USREDNENIJa">(m+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_127_USREDNENIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_128_USREDNENIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_129_USREDNENIJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_130_USREDNENIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_131_USREDNENIJa">(\omega=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_132_USREDNENIJa">\omega=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_133_USREDNENIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_134_USREDNENIJa">i, \varphi-\omega t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_135_USREDNENIJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_136_USREDNENIJa">\omega t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_137_USREDNENIJa">\xi(t)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_138_USREDNENIJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_139_USREDNENIJa">0 \leqslant t \leqslant K / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_140_USREDNENIJa">x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_141_USREDNENIJa">x(0)=\xi(0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_142_USREDNENIJa">\rho&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_143_USREDNENIJa">|x(t)-\xi(t)|&lt;\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_144_USREDNENIJa">\varepsilon&lt;\varepsilon_{0}(\rho)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_145_USREDNENIJa">0 \leqslant t \leqslant K / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_146_USREDNENIJa">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_147_USREDNENIJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_148_USREDNENIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_149_USREDNENIJa">x_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_150_USREDNENIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_151_USREDNENIJa">x \in M, y \in \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_152_USREDNENIJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_153_USREDNENIJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_154_USREDNENIJa">\varepsilon=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_155_USREDNENIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_156_USREDNENIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_157_USREDNENIJa">\mu_{y}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_158_USREDNENIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_159_USREDNENIJa">y(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_160_USREDNENIJa">y(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_161_USREDNENIJa">y(0)=y(0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_162_USREDNENIJa">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_163_USREDNENIJa">e(\rho, \varepsilon)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_164_USREDNENIJa">\varepsilon \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_165_USREDNENIJa">\lambda=\varepsilon t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_166_USREDNENIJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_167_USREDNENIJa">\lambda=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3204_168_USREDNENIJa">[3],[5],[6],[8]</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/3204_1_USREDNENIJa">
+      <rel_text>радиотехнике</rel_text>
+      <target>http://libmeta.ru/fme/article/2504_RADIUS-VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3204_2_USREDNENIJa">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3204_3_USREDNENIJa">
+      <rel_text>динамике</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3204_4_USREDNENIJa">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3204_5_USREDNENIJa">
+      <rel_text>широко</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3204_6_USREDNENIJa">
+      <rel_text>теории возмущений</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+  </relations>
+  <text>общее название для методов возмущений теории, основанных на принципе усреднения и идее о разделении движений на плавный дрейф и быстрые осцилляции. У. м. применяется для исследования поведения динамич. систем, отличающихся от интегрируемых малыми возмущениями.
+
+1) Принцип усреднения. Уравнения движения систем, отличающихся от интегрируемых малыми возмущениями, часто могут быть записаны в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_1_USREDNENIJa]]/URI
+\]
+
+Малый параметр $URI[[http://libmeta.ru/fme/formula/aux/3204_1_USREDNENIJa]]/URI$ характеризует величину возмущения. При $URI[[http://libmeta.ru/fme/formula/aux/3204_2_USREDNENIJa]]/URI$ получают невозмущенную систему, движение в К-рой условно-периодично и происходит по торам $URI[[http://libmeta.ru/fme/formula/aux/3204_3_USREDNENIJa]]/URI$ const с частотами $URI[[http://libmeta.ru/fme/formula/aux/3204_4_USREDNENIJa]]/URI$. Компоненты вектора $URI[[http://libmeta.ru/fme/formula/aux/3204_5_USREDNENIJa]]/URI$ называются м е дленными переменными, а компоненты $URI[[http://libmeta.ru/fme/formula/aux/3204_6_USREDNENIJa]]/URI$ - быстрым и перем ен ным и, или фазам и. Правые части (1) $URI[[http://libmeta.ru/fme/formula/aux/3204_7_USREDNENIJa]]/URI$-периодичны по всем $URI[[http://libmeta.ru/fme/formula/aux/3204_8_USREDNENIJa]]/URI$ и предполагаются достаточно гладкими функциями всех аргументов. Предполагается, что компоненты вектора частот $URI[[http://libmeta.ru/fme/formula/aux/3204_9_USREDNENIJa]]/URI$ не являются целочисленно линейно зависимыми тождественно по I. Систему (1) называют системой с вращающимися фазами.
+
+П р и н ц и п (или ме тод) усреднения в простейшем варианте состоит в том, что для приближенного описания поведения медленных переменных $URI[[http://libmeta.ru/fme/formula/aux/3204_10_USREDNENIJa]]/URI$ на временах порядка $URI[[http://libmeta.ru/fme/formula/aux/3204_11_USREDNENIJa]]/URI$ или больших систему (1) заменяют на усредненную систему
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_2_USREDNENIJa]]/URI
+\]
+
+(здесь $URI[[http://libmeta.ru/fme/formula/aux/3204_12_USREDNENIJa]]/URI$ ). Система (2) содержит только медленно изменяющиеся переменные и потому гораздо проще для исследования, чем (1). Принцип усреднения основан на представлении, что отброшенные при переходе от (1) к (2) члены $URI[[http://libmeta.ru/fme/formula/aux/3204_13_USREDNENIJa]]/URI$ в правой части (1) быстро осциллируют и не дают существенного вклада в эволюцию переменных 1 . Вопросы установления связи между поведением систем (1) и (2), то есть обоснования принципа усреднения, решены далеко не полностью.
+
+Другой вариант принципа усреднения используется для описания движения в случаях, когда частоты приближенно удовлетворяют одному или нескольким заданным резонансным соотношениям, то есть равенствам вида $URI[[http://libmeta.ru/fme/formula/aux/3204_14_USREDNENIJa]]/URI$ с целочисленными векторами коэффициентов $URI[[http://libmeta.ru/fme/formula/aux/3204_15_USREDNENIJa]]/URI$; здесь $URI[[http://libmeta.ru/fme/formula/aux/3204_16_USREDNENIJa]]/URI$ - стандартное скалярное произведение в $URI[[http://libmeta.ru/fme/formula/aux/3204_17_USREDNENIJa]]/URI$. Пусть $URI[[http://libmeta.ru/fme/formula/aux/3204_18_USREDNENIJa]]/URI$ - подгруппа целочисленной решетки $URI[[http://libmeta.ru/fme/formula/aux/3204_19_USREDNENIJa]]/URI$, состоящая из принадлежащих $URI[[http://libmeta.ru/fme/formula/aux/3204_20_USREDNENIJa]]/URI$ линейных комбинаций (над полем рациональных чисел) векторов коэффициентов заданных резонансных соотношений, $URI[[http://libmeta.ru/fme/formula/aux/3204_21_USREDNENIJa]]/URI$ ранг $URI[[http://libmeta.ru/fme/formula/aux/3204_22_USREDNENIJa]]/URI$ базис в $URI[[http://libmeta.ru/fme/formula/aux/3204_23_USREDNENIJa]]/URI$, первые $URI[[http://libmeta.ru/fme/formula/aux/3204_24_USREDNENIJa]]/URI$ векторов к-рого принадлежат Г. Вместо $URI[[http://libmeta.ru/fme/formula/aux/3204_25_USREDNENIJa]]/URI$ вводят новые переменные
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_3_USREDNENIJa]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/3204_26_USREDNENIJa]]/URI$-матрица, строками к-рой являются векторы $URI[[http://libmeta.ru/fme/formula/aux/3204_27_USREDNENIJa]]/URI$. Для приближенного описания изменения переменных $URI[[http://libmeta.ru/fme/formula/aux/3204_28_USREDNENIJa]]/URI$, систему (1) заменяют на следующую систему:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_4_USREDNENIJa]]/URI
+\]
+
+(надо выразить $URI[[http://libmeta.ru/fme/formula/aux/3204_29_USREDNENIJa]]/URI$ через $URI[[http://libmeta.ru/fme/formula/aux/3204_30_USREDNENIJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3204_31_USREDNENIJa]]/URI$ и затем проинтегрировать по $URI[[http://libmeta.ru/fme/formula/aux/3204_32_USREDNENIJa]]/URI$. Система (3) называется ч а с т и ч н о ус ре д не н н ой с учетом резонансов из $URI[[http://libmeta.ru/fme/formula/aux/3204_33_USREDNENIJa]]/URI$. Функции $URI[[http://libmeta.ru/fme/formula/aux/3204_34_USREDNENIJa]]/URI$ получаются из разложений Фурье функций $URI[[http://libmeta.ru/fme/formula/aux/3204_35_USREDNENIJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/3204_36_USREDNENIJa]]/URI$ отбрасыванием гармоник $URI[[http://libmeta.ru/fme/formula/aux/3204_37_USREDNENIJa]]/URI$ (нерезонансных гармоник). Переход от (1) к (3) основан на представлении, что отброшенные члены быстро осциллируют и не дают существенного вклада в эволюцию медленных переменных.
+
+Пусть система (1) гамильтонова, близкая к интегрируемой. Гамильтониан имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_5_USREDNENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3204_38_USREDNENIJa]]/URI$ координаты, $URI[[http://libmeta.ru/fme/formula/aux/3204_39_USREDNENIJa]]/URI$ сопряженные им импульсы. Уравнения движения имеют вид (1) с $URI[[http://libmeta.ru/fme/formula/aux/3204_40_USREDNENIJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_6_USREDNENIJa]]/URI
+\]
+
+Применение принципа усреднения, когда нет резонансных соотношений, приводит к системе
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_7_USREDNENIJa]]/URI
+\]
+
+то есть в этом приближении эволюция $URI[[http://libmeta.ru/fme/formula/aux/3204_41_USREDNENIJa]]/URI$ отсутствует, а для $URI[[http://libmeta.ru/fme/formula/aux/3204_42_USREDNENIJa]]/URI$ получается гамильтонова система, зависящая от $URI[[http://libmeta.ru/fme/formula/aux/3204_43_USREDNENIJa]]/URI$ как от параметра. К виду (4) приводятся уравнения движения планет вокруг Солнца, а вывод об отсутствии эволюции импульсов $URI[[http://libmeta.ru/fme/formula/aux/3204_44_USREDNENIJa]]/URI$ известен в этой задаче как те о ре ма Лагранжа - Лапласа об отсутствии эволюции больших полуосей планет.
+
+2) Исключение быстрых переменных, разделение движений. В У. м. важную роль играет идея, что точную систему можно в главном приближении привести к усредненной с помощью близкой к тождественной замены переменных, и что такие замены переменных позволяют в высших приближениях с любой заданной точностью исключить из правых частей уравнений быстрые переменные и таким образом разделить быстрое и медленное движения. Процедуры исключения быстрых переменных таковы. Для системы (1), если нет резонансных соотношений, исключение быстрых переменных проводится следующим образом. Нужная замена переменных $URI[[http://libmeta.ru/fme/formula/aux/3204_45_USREDNENIJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3204_46_USREDNENIJa]]/URI$ ищется в виде формальных рядов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_8_USREDNENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3204_47_USREDNENIJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3204_48_USREDNENIJa]]/URI$ имеют по $URI[[http://libmeta.ru/fme/formula/aux/3204_49_USREDNENIJa]]/URI$ период $URI[[http://libmeta.ru/fme/formula/aux/3204_50_USREDNENIJa]]/URI$. Замена (6) подбирается так, чтобы правые части уравнений для новых переменных не содержали быстрых фаз, то есть уравнения имели вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_9_USREDNENIJa]]/URI
+\]
+
+Подстановка (6) в (7) с учетом (1) после приравнивания членов одинаковых степеней по $URI[[http://libmeta.ru/fme/formula/aux/3204_51_USREDNENIJa]]/URI$ дает:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_10_USREDNENIJa]]/URI
+\]
+
+Функции $URI[[http://libmeta.ru/fme/formula/aux/3204_52_USREDNENIJa]]/URI$ определяются членами $URI[[http://libmeta.ru/fme/formula/aux/3204_53_USREDNENIJa]]/URI$ в разложении (6). Из первого уравнения (8) следует, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_11_USREDNENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3204_54_USREDNENIJa]]/URI$ коэффициенты Фурье функции $URI[[http://libmeta.ru/fme/formula/aux/3204_55_USREDNENIJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/3204_56_USREDNENIJa]]/URI$, a $URI[[http://libmeta.ru/fme/formula/aux/3204_57_USREDNENIJa]]/URI$ произвольная функция $URI[[http://libmeta.ru/fme/formula/aux/3204_58_USREDNENIJa]]/URI$. Предполагается, что знаменатели в (9) не обращаются в 0 , и что ряд в (9) сходится и определяет гладкую функцию. Аналогично, из остальных уравнений (8) последовательно определяются $URI[[http://libmeta.ru/fme/formula/aux/3204_59_USREDNENIJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3204_60_USREDNENIJa]]/URI$.
+
+Если оборвать ряды в (6), (7) на членах порядка $URI[[http://libmeta.ru/fme/formula/aux/3204_61_USREDNENIJa]]/URI$, то получится укороченная система $URI[[http://libmeta.ru/fme/formula/aux/3204_62_USREDNENIJa]]/URI$-го приближения. В ней уравнения для $URI[[http://libmeta.ru/fme/formula/aux/3204_63_USREDNENIJa]]/URI$ отщепляются и решаются отдельно. После этого изменение $URI[[http://libmeta.ru/fme/formula/aux/3204_64_USREDNENIJa]]/URI$ определяется квадратурой. Изменение исходной переменной $URI[[http://libmeta.ru/fme/formula/aux/3204_65_USREDNENIJa]]/URI$ в этом приближении сводится к медленному дрейфу, описываемому уравнением для $URI[[http://libmeta.ru/fme/formula/aux/3204_66_USREDNENIJa]]/URI$, на к-рый накладываются малые осцилляции, описываемые заменой переменных. Изменение $URI[[http://libmeta.ru/fme/formula/aux/3204_67_USREDNENIJa]]/URI$ представляется как вращение с медленно изменяющейся частотой, на к-рое также накладываются осцилляции. При $URI[[http://libmeta.ru/fme/formula/aux/3204_68_USREDNENIJa]]/URI$ укороченная система для $URI[[http://libmeta.ru/fme/formula/aux/3204_69_USREDNENIJa]]/URI$ совпадает с усредненной системой (2).
+
+Если задана подгруппа $URI[[http://libmeta.ru/fme/formula/aux/3204_70_USREDNENIJa]]/URI$ целочисленной решетки, определяющая возможные резонансные соотношения, то аналогично строится формальная замена переменных $URI[[http://libmeta.ru/fme/formula/aux/3204_71_USREDNENIJa]]/URI$ такая, что правые части дифференциальных уравнений для новых переменных зависят от $URI[[http://libmeta.ru/fme/formula/aux/3204_72_USREDNENIJa]]/URI$ только через комбинации $URI[[http://libmeta.ru/fme/formula/aux/3204_73_USREDNENIJa]]/URI$ (см. [3]). Так полученные уравнения приближения для $URI[[http://libmeta.ru/fme/formula/aux/3204_74_USREDNENIJa]]/URI$ совпадают с частично усредненной системой (3) при определенном выборе произвольных функций, входящих в формулы замены переменных.
+
+Если исходная система гамильтонова, то замену переменных, исключающую зависимость правых частей от фаз, можно выбрать симплектической. Соответствующие процедуры носят название методов Линдштейна и Н ь ю кома (в нерезонансном случае при $URI[[http://libmeta.ru/fme/formula/aux/3204_75_USREDNENIJa]]/URI$ ), Де ло н е (в резонансном случае при $URI[[http://libmeta.ru/fme/formula/aux/3204_76_USREDNENIJa]]/URI$ ) и Це йпеля (в резонансном случае при $URI[[http://libmeta.ru/fme/formula/aux/3204_77_USREDNENIJa]]/URI$ ) (см. [9], [3]). Процедуры исключения быстрых переменных в высших приближениях весьма громоздки. Разработаны варианты этих процедур, допускающие удобную реализацию при символьных вычислениях на Эвм (см. [7]), особенно для гамильтоновского случая (Депри - Хори метод и др.). У. м. состоит в том, что в первом приближении для описания движения используется усредненная система, а в следующих приближениях - укороченные системы, полученные с помощью процедуры исключения быстрых переменных, вместе с соответствующими заменами переменных.
+
+3) Обоснование метода усреднения. Для обоснования У. м. устанавливаются условия, при к-рых отклонение решений точной системы от решений усредненной системы с подходящими начальными данными стремится к 0 при $URI[[http://libmeta.ru/fme/formula/aux/3204_78_USREDNENIJa]]/URI$ на интервалах времени длины порядка $URI[[http://libmeta.ru/fme/formula/aux/3204_79_USREDNENIJa]]/URI$ или бо́льших. Желательно также иметь оценки сверху для этих отклонений. Важны и оценки для отклонений решений точной системы от решений укороченных систем, получающихся в результате применения процедур исключения быстрых переменных. Могут иметься «плохие» начальные данные, при к-рых решение точной системы отклоняется от решения усредненной системы на величину порядка 1 за время порядка $URI[[http://libmeta.ru/fme/formula/aux/3204_80_USREDNENIJa]]/URI$. В этом случае надо иметь оценки сверху для меры множества «плохих» начальных данных, а на дополнительном множестве - оценки сверху расхождения решений точной и усредненной систем. Эти задачи в настоящее время далеки от полного решения. Ниже приводятся нек-рые общие результаты в указанных направлениях.
+
+Пусть функции $URI[[http://libmeta.ru/fme/formula/aux/3204_81_USREDNENIJa]]/URI$ в правых частях системы (1) определены и ограничены вместе с достаточным количеством производных в области $URI[[http://libmeta.ru/fme/formula/aux/3204_82_USREDNENIJa]]/URI$ решение усредненной системы (2) с начальным условием $URI[[http://libmeta.ru/fme/formula/aux/3204_83_USREDNENIJa]]/URI$ - решение точной системы (1) с начальным условием $URI[[http://libmeta.ru/fme/formula/aux/3204_84_USREDNENIJa]]/URI$. Таким образом, $URI[[http://libmeta.ru/fme/formula/aux/3204_85_USREDNENIJa]]/URI$. Предполагается, что решение $URI[[http://libmeta.ru/fme/formula/aux/3204_86_USREDNENIJa]]/URI$ определено и остается на положительном расстоянии от границы области $URI[[http://libmeta.ru/fme/formula/aux/3204_87_USREDNENIJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/3204_88_USREDNENIJa]]/URI$ const $URI[[http://libmeta.ru/fme/formula/aux/3204_89_USREDNENIJa]]/URI$.
+
+Если система (1) одночастотна $URI[[http://libmeta.ru/fme/formula/aux/3204_90_USREDNENIJa]]/URI$ и частота $URI[[http://libmeta.ru/fme/formula/aux/3204_91_USREDNENIJa]]/URI$ не обращается в 0 в $URI[[http://libmeta.ru/fme/formula/aux/3204_92_USREDNENIJa]]/URI$, то при $URI[[http://libmeta.ru/fme/formula/aux/3204_93_USREDNENIJa]]/URI$ решение $URI[[http://libmeta.ru/fme/formula/aux/3204_94_USREDNENIJa]]/URI$ определено и выполнено: $URI[[http://libmeta.ru/fme/formula/aux/3204_95_USREDNENIJa]]/URI$ const $URI[[http://libmeta.ru/fme/formula/aux/3204_96_USREDNENIJa]]/URI$. Для $URI[[http://libmeta.ru/fme/formula/aux/3204_97_USREDNENIJa]]/URI$ это утверждение было доказано П. Фату (p. Fatou, 1928), а также Л. И. Мандельштамом и Н. Д. Папалекси (1934) и явилось исторически первым результатом по обоснованию У. м. (см. [8]). Имеется подробное доказательство, основанное на исключении быстрой переменной (см. [2]). Для одночастотных систем высшие приближения процедуры исключения быстрых переменных позволяют описать движение с любой степенной по $URI[[http://libmeta.ru/fme/formula/aux/3204_98_USREDNENIJa]]/URI$ точностью на временах порядка $URI[[http://libmeta.ru/fme/formula/aux/3204_99_USREDNENIJa]]/URI$ (см. [5]).
+
+Если система (1) многочастотна $URI[[http://libmeta.ru/fme/formula/aux/3204_100_USREDNENIJa]]/URI$, но вектор частот постоянный $URI[[http://libmeta.ru/fme/formula/aux/3204_101_USREDNENIJa]]/URI$ const) и нерезонансный, то для любого $URI[[http://libmeta.ru/fme/formula/aux/3204_102_USREDNENIJa]]/URI$ будет $URI[[http://libmeta.ru/fme/formula/aux/3204_103_USREDNENIJa]]/URI$ при достаточно малом $URI[[http://libmeta.ru/fme/formula/aux/3204_104_USREDNENIJa]]/URI$ и при $URI[[http://libmeta.ru/fme/formula/aux/3204_105_USREDNENIJa]]/URI$ (см. [4], [5]). Если же частоты здесь удовлетворяют диофантову условию $URI[[http://libmeta.ru/fme/formula/aux/3204_106_USREDNENIJa]]/URI$ const $URI[[http://libmeta.ru/fme/formula/aux/3204_107_USREDNENIJa]]/URI$ при всех $URI[[http://libmeta.ru/fme/formula/aux/3204_108_USREDNENIJa]]/URI$ и нек-ром $URI[[http://libmeta.ru/fme/formula/aux/3204_109_USREDNENIJa]]/URI$, то можно выбрать $URI[[http://libmeta.ru/fme/formula/aux/3204_110_USREDNENIJa]]/URI$, а высшие приближения процедуры п. 2) позволяют получить любую степенную по $URI[[http://libmeta.ru/fme/formula/aux/3204_111_USREDNENIJa]]/URI$ точность.
+
+Если система многочастотна, и частоты непостоянны (зависят от медленных переменных $URI[[http://libmeta.ru/fme/formula/aux/3204_112_USREDNENIJa]]/URI$ ), то из-за эволюции $URI[[http://libmeta.ru/fme/formula/aux/3204_113_USREDNENIJa]]/URI$ частоты сами медленно изменяются и в различные моменты времени могут удовлетворять различным резонансным соотношениям. Возможен захват в резонанс, приводящий к большому расхождению решений точной и усредненной систем. Однако из обшей теоремы Аносова об усреднении (см. [1]) вытекает, что если частоты $URI[[http://libmeta.ru/fme/formula/aux/3204_114_USREDNENIJa]]/URI$ нерезонансны при почти всех $URI[[http://libmeta.ru/fme/formula/aux/3204_115_USREDNENIJa]]/URI$, то для любого $URI[[http://libmeta.ru/fme/formula/aux/3204_116_USREDNENIJa]]/URI$ выполнено неравенство $URI[[http://libmeta.ru/fme/formula/aux/3204_117_USREDNENIJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/3204_118_USREDNENIJa]]/URI$ для всех начальных данных, не принадлежащих множеству $URI[[http://libmeta.ru/fme/formula/aux/3204_119_USREDNENIJa]]/URI$, мера к-рого стремится к нулю при $URI[[http://libmeta.ru/fme/formula/aux/3204_120_USREDNENIJa]]/URI$. В ряде случаев оказывается (см. [3]), что мера $URI[[http://libmeta.ru/fme/formula/aux/3204_121_USREDNENIJa]]/URI$ есть $URI[[http://libmeta.ru/fme/formula/aux/3204_122_USREDNENIJa]]/URI$ (для справедливости этой оценки достаточно, напр., выполнения условия rank $URI[[http://libmeta.ru/fme/formula/aux/3204_123_USREDNENIJa]]/URI$ Сравнительно полно исследованы двухчастотные системы $URI[[http://libmeta.ru/fme/formula/aux/3204_124_USREDNENIJa]]/URI$ (см. [2], [3], [10]). Для гамильтоновых систем и для обратимых систем обоснование У. м. далеко продвинуто в рамках теории Колмогорова - Арнольда - Мозера (кam-теория), доставляющей оценки отличия решений точной и усредненной систем для большинства начальных данных на бесконечных временах. Для оставшихся начальных данных в гамильтоновых системах это отличие может расти из-за Арнольда диффузии, но, вообще говоря, лишь очень медленно. Согласно Нехорошева теореме, это отличие остается малым на интервале времени, длина к-рого растет экспоненциально при линейном убывании возмущения (в случае общего положения).
+
+Другой аспект обоснования У. м.- установление связи между интегральными многообразиями точной и усредненной систем. Так, для одночастотных систем и для систем с постоянными нерезонансными частотами, если усредненная система имеет положение равновесия (или предельный цикл), для к-рого вещественные части характеристич. показателей отличны от нуля (для цикла - всех показателей, кроме одного, равного нулю), то точная система имеет близкий к этому равновесию (циклу) по медленным переменным инвариантный тор, соответственно $URI[[http://libmeta.ru/fme/formula/aux/3204_125_USREDNENIJa]]/URI$ - или $URI[[http://libmeta.ru/fme/formula/aux/3204_126_USREDNENIJa]]/URI$-мерный. Этот тор будет устойчивым или неустойчивым в зависимости от того, устойчиво или неустойчиво равновесие (цикл) усредненной системы (см. [5]). Для гамильтоновых и обратимых систем вопрос об интегральных многообразиях решается в Кам-теории.
+
+4) Усреднение в системах Боголюбова. С и с т е м а м и в стандартной форме Боголюбова (см. [4]) называются системы дифференциальных уравнений вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_12_USREDNENIJa]]/URI
+\]
+
+Предполагается, что функция $URI[[http://libmeta.ru/fme/formula/aux/3204_127_USREDNENIJa]]/URI$ удовлетворяет, кроме обычных условий гладкости, следующему усло в и ю ра вномер ного с ред него: равномерно по $URI[[http://libmeta.ru/fme/formula/aux/3204_128_USREDNENIJa]]/URI$ в области $URI[[http://libmeta.ru/fme/formula/aux/3204_129_USREDNENIJa]]/URI$ существует предел (в ремен ное с реднее)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_13_USREDNENIJa]]/URI
+\]
+
+Принцип усреднения Боголюбова состоит в том, что для приближенного описания поведения $URI[[http://libmeta.ru/fme/formula/aux/3204_130_USREDNENIJa]]/URI$ исходную систему заменяют на усредненную систему
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_14_USREDNENIJa]]/URI
+\]
+
+Этот подход обобщает подход для случая постоянных частот $URI[[http://libmeta.ru/fme/formula/aux/3204_131_USREDNENIJa]]/URI$ const). При $URI[[http://libmeta.ru/fme/formula/aux/3204_132_USREDNENIJa]]/URI$ const уравнения движения системы с вращающимися фазами (1) приводятся к стандартной форме (7): достаточно обозначить через $URI[[http://libmeta.ru/fme/formula/aux/3204_133_USREDNENIJa]]/URI$ пару $URI[[http://libmeta.ru/fme/formula/aux/3204_134_USREDNENIJa]]/URI$. Усредненная система (1) совпадает при нерезонансных частотах с усредненной системой (2), а при резонансных частотах с частично усредненной системой (3) (только к системам (2), (3) дописываются еше уравнения для изменения нек-рых фаз $URI[[http://libmeta.ru/fme/formula/aux/3204_135_USREDNENIJa]]/URI$ - $URI[[http://libmeta.ru/fme/formula/aux/3204_136_USREDNENIJa]]/URI$, не входящих в правую часть усредненной системы). Обоснование сформулированному принципу усреднения дают три те о ре м ы Богол ю бо в а (см. [4], [5]). Согласно первой теореме, если $URI[[http://libmeta.ru/fme/formula/aux/3204_137_USREDNENIJa]]/URI$ решение усредненной системы, лежащее строго внутри $URI[[http://libmeta.ru/fme/formula/aux/3204_138_USREDNENIJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/3204_139_USREDNENIJa]]/URI$, a $URI[[http://libmeta.ru/fme/formula/aux/3204_140_USREDNENIJa]]/URI$ - решение точной системы с начальным условием $URI[[http://libmeta.ru/fme/formula/aux/3204_141_USREDNENIJa]]/URI$, то для любого $URI[[http://libmeta.ru/fme/formula/aux/3204_142_USREDNENIJa]]/URI$ будет $URI[[http://libmeta.ru/fme/formula/aux/3204_143_USREDNENIJa]]/URI$ при достаточно малом $URI[[http://libmeta.ru/fme/formula/aux/3204_144_USREDNENIJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3204_145_USREDNENIJa]]/URI$. Вторая и третья теоремы Боголюбова описывают движение в окрестности положения равновесия и предельного цикла усредненной системы. В частности, если для равновесия вещественные части всех его характеристич. показателей отличны от нуля (а для цикла - всех кроме одного), то точная система имеет решение, вечно остающееся вблизи этого равновесия (цикла). Свойства устойчивости указанного решения - такие же, как у равновесия (цикла) усредненной системы.
+
+Для систем вида (10), аналогично п. 2), построена процедура, позволяющая с помощью замены переменных исклю- чнть время $URI[[http://libmeta.ru/fme/formula/aux/3204_146_USREDNENIJa]]/URI$ из правой части с любой степенной по $URI[[http://libmeta.ru/fme/formula/aux/3204_147_USREDNENIJa]]/URI$ точностью (проведение процедуры требует дополнительных условий типа условия равномерного среднего для функций, возникающих при построении высших приближений, см. [5]). В первом приближении замена переменных приводит исходную систему к усредненной.
+
+Условие равномерного среднего очень важно для всей теории. Если предел в (11) существует, но сходимость не равномерная по $URI[[http://libmeta.ru/fme/formula/aux/3204_148_USREDNENIJa]]/URI$, то временное среднее $URI[[http://libmeta.ru/fme/formula/aux/3204_149_USREDNENIJa]]/URI$ может, напр., разрывно зависеть от $URI[[http://libmeta.ru/fme/formula/aux/3204_150_USREDNENIJa]]/URI$ и усредненная система не будет определена.
+
+Результаты об усреднении для систем в стандартной форме обобщены на уравнения с запаздывающим аргументом, конечно-разностные уравнения, бесконечномерные системы, уравнения с частными производными и др. (см. [8]).
+
+5) Усреднение в быстро-медленных системах. Рассмотренные выше системы (1) и (7) являются частным случаем систем вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_15_USREDNENIJa]]/URI
+\]
+
+называемых быстро-медленным и системами (или системами с быстрыми и медленными движениями, с быстрыми и медленными переменными). Обобщением подхода П. 1) является для этих систем следующий п р и н цип ус редне ния Аносова (см. [1]). Пусть в системе (12) $URI[[http://libmeta.ru/fme/formula/aux/3204_151_USREDNENIJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/3204_152_USREDNENIJa]]/URI$ - гладкое компактное $URI[[http://libmeta.ru/fme/formula/aux/3204_153_USREDNENIJa]]/URI$-мерное многообразие. Пусть при $URI[[http://libmeta.ru/fme/formula/aux/3204_154_USREDNENIJa]]/URI$ система для быстрых переменных $URI[[http://libmeta.ru/fme/formula/aux/3204_155_USREDNENIJa]]/URI$, зависящая от медленных переменных $URI[[http://libmeta.ru/fme/formula/aux/3204_156_USREDNENIJa]]/URI$, как от параметров, обладает конечной гладкой инвариантной мерой $URI[[http://libmeta.ru/fme/formula/aux/3204_157_USREDNENIJa]]/URI$ и при почти всех $URI[[http://libmeta.ru/fme/formula/aux/3204_158_USREDNENIJa]]/URI$ эргодична. Вводится усредненная система
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_16_USREDNENIJa]]/URI
+\]
+
+Принцип усреднения предлагает для приближенного описания медленного движения $URI[[http://libmeta.ru/fme/formula/aux/3204_159_USREDNENIJa]]/URI$ в исходной системе использовать решение $URI[[http://libmeta.ru/fme/formula/aux/3204_160_USREDNENIJa]]/URI$ усредненной системы с начальным условием $URI[[http://libmeta.ru/fme/formula/aux/3204_161_USREDNENIJa]]/URI$. Обоснование этому принципу дает теорема Аносова (см. [1]): для любого положительного числа $URI[[http://libmeta.ru/fme/formula/aux/3204_162_USREDNENIJa]]/URI$ мера множества $URI[[http://libmeta.ru/fme/formula/aux/3204_163_USREDNENIJa]]/URI$ начальных данных (из компакта в фазовом пространстве), для к-рых
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3204_17_USREDNENIJa]]/URI
+\]
+
+стремится к 0 при $URI[[http://libmeta.ru/fme/formula/aux/3204_164_USREDNENIJa]]/URI$.
+
+Частный случай, когда исходная система - гамильтонова, зависящая от плавно изменяющегося параметра $URI[[http://libmeta.ru/fme/formula/aux/3204_165_USREDNENIJa]]/URI$, и при почти всех значениях $URI[[http://libmeta.ru/fme/formula/aux/3204_166_USREDNENIJa]]/URI$ движение системы с $URI[[http://libmeta.ru/fme/formula/aux/3204_167_USREDNENIJa]]/URI$ const на почти всех поверхностях уровня энергии эргодично (см. [10]). На быстро-медленные системы (12) обобщен также подход п. 4), использующий усреднение по времени и условие равномерного среднего (см. [6]).
+
+6) Приложения метода усреднений. Рассмотренный У. м.один из самых продуктивных в URI[[http://libmeta.ru/fme/relation/3204_6_USREDNENIJa]]/URI, и его приложения ныне необозримы. Он URI[[http://libmeta.ru/fme/relation/3204_5_USREDNENIJa]]/URI используется в небесной URI[[http://libmeta.ru/fme/relation/3204_4_USREDNENIJa]]/URI и URI[[http://libmeta.ru/fme/relation/3204_3_USREDNENIJa]]/URI космич. полетов для описания эволюции движения небесных тел, в физике плазмы и теории ускорителей при исследовании движения заряженных URI[[http://libmeta.ru/fme/relation/3204_2_USREDNENIJa]]/URI в полях, в URI[[http://libmeta.ru/fme/relation/3204_1_USREDNENIJa]]/URI при расчете нелинейных колебательных режимов. Имеются приложения У. м. в гидродинамике, физике лазеров, оптике, акустике и др. (см. $URI[[http://libmeta.ru/fme/formula/aux/3204_168_USREDNENIJa]]/URI$.</text>
+  <text_orig>общее название для методов возмущений теории, основанных на принципе усреднения и идее о разделении движений на плавный дрейф и быстрые осцилляции. У. м. применяется для исследования поведения динамич. систем, отличающихся от интегрируемых малыми возмущениями.
+
+1) Принцип усреднения. Уравнения движения систем, отличающихся от интегрируемых малыми возмущениями, часто могут быть записаны в виде:
+
+\[
+\left.\begin{array}{l}
+\dot{I}=\varepsilon g(I, \varphi, \varepsilon), \quad \dot{\varphi}=\omega(I)+\varepsilon f(I, \varphi, \varepsilon), \\
+I=\left(I_{1}, \ldots, I_{n}\right) \in \mathbb{R}^{n}, \\
+\varphi=\left(\varphi_{1}, \ldots, \varphi_{n}\right) \operatorname{modd} 2 \pi \in T^{m}, 0&lt;\varepsilon \ll 1 .
+\end{array}\right\}
+\]
+
+Малый параметр $\varepsilon$ характеризует величину возмущения. При $\varepsilon=0$ получают невозмущенную систему, движение в К-рой условно-периодично и происходит по торам $I=$ const с частотами $\omega(I)$. Компоненты вектора $I$ называются м е дленными переменными, а компоненты $\varphi$ - быстрым и перем ен ным и, или фазам и. Правые части (1) $2 \pi$-периодичны по всем $\varphi_{i}$ и предполагаются достаточно гладкими функциями всех аргументов. Предполагается, что компоненты вектора частот $\omega(I)$ не являются целочисленно линейно зависимыми тождественно по I. Систему (1) называют системой с врашаюшимися фазами.
+
+П р и н ц и п (или ме тод) усреднения в простейшем варианте состоит в том, что для приближенного описания поведения медленных переменных $I$ на временах порядка $1 / \varepsilon$ или бо́льших систему (1) заменяют на усредненную систему
+
+\[
+\dot{J}=\varepsilon G(J), \quad G(J)=(2 \pi)^{-m} \oint_{T^{m}} g(J, \varphi, 0) d \varphi
+\]
+
+(здесь $d \varphi=d \varphi_{1}, \ldots, d \varphi_{m}$ ). Система (2) содержит только медленно изменяющиеся переменные и потому гораздо проще для исследования, чем (1). Принцип усреднения основан на представлении, что отброшенные при переходе от (1) к (2) члены $\varepsilon[g(I, \varphi, 0)-G(I)]$ в правой части (1) быстро осциллируют и не дают существенного вклада в эволюцию переменных 1 . Вопросы установления связи между поведением систем (1) и (2), то есть обоснования принципа усреднения, решены далеко не полностью.
+
+Другой вариант принципа усреднения используется для описания движения в случаях, когда частоты приближенно удовлетворяют одному или нескольким заданным резонансным соотношениям, то есть равенствам вида $(k, \omega)=0$ с целочисленными векторами коэффициентов $k \neq 0$; здесь $(k, \omega)$ - стандартное скалярное произведение в $\mathbb{R}^{m}$. Пусть $\Gamma$ - подгруппа целочисленной решетки $\mathbb{Z}^{m}$, состоящая из принадлежащих $\mathbb{Z}^{m}$ линейных комбинаций (над полем рациональных чисел) векторов коэффициентов заданных резонансных соотношений, $r-$ ранг $\Gamma, k^{1}, \ldots, k^{(m)}-$ базис в $\mathbb{Z}^{m}$, первые $r$ векторов к-рого принадлежат Г. Вместо $\varphi_{i}$ вводят новые переменные
+
+\[
+\begin{gathered}
+\vartheta=\left(\vartheta_{1}, \ldots, \vartheta_{r}\right) \operatorname{modd} 2 \pi \in T^{r}, \\
+\chi=\left(\chi_{1}, \ldots, \chi_{m-r}\right) \operatorname{modd} 2 \pi \in T^{m-r}, \\
+\vartheta_{i}=\left(k^{(i)}, \varphi\right), \chi_{j}=\left(k^{r+j}, \varphi\right) .
+\end{gathered}
+\]
+
+Пусть $R-(r \times m)$-матрица, строками к-рой являются векторы $k^{(i)}, 1 \leqslant i \leqslant r$. Для приближенного описания изменения переменных $I, \vartheta$, систему (1) заменяют на следующую систему:
+
+\[
+\left.\begin{array}{l}
+\dot{J}=\varepsilon G_{\Gamma}(J, \gamma), \quad \dot{\gamma}=R \omega(J)+\varepsilon R F_{\Gamma}(J, \gamma), \\
+G_{\Gamma}(J, \vartheta)=(2 \pi)^{-(m-r)} \oint_{T^{m-r}} g(J, \varphi, 0) d \chi, \\
+F_{\Gamma}(J, \vartheta)=(2 \pi)^{-(m-r)} \oint_{T^{m-r}} f(J, \varphi, 0) d \chi
+\end{array}\right\}
+\]
+
+(надо выразить $g, f$ через $\vartheta$, $\chi$ и затем проинтегрировать по $\left.\chi ; d \chi=d \chi_{1} \ldots d \chi_{m-r}\right)$. Система (3) называется ч а с т и ч н о ус ре д не н н ой с учетом резонансов из $\Gamma$. Функции $G_{\Gamma}, F_{\Gamma}$ получаются из разложений Фурье функций $g, f$ при $\varepsilon=0$ отбрасыванием гармоник $\exp (i(k, \varphi)), k \neq \Gamma$ (нерезонансных гармоник). Переход от (1) к (3) основан на представлении, что отброшенные члены быстро осциллируют и не дают существенного вклада в эволюцию медленных переменных.
+
+Пусть система (1) гамильтонова, близкая к интегрируемой. Гамильтониан имеет вид:
+
+\[
+H=H_{0}(p)+\varepsilon H_{1}(p, \varphi, y, x),
+\]
+
+где $\varphi, x-$ координаты, $p, y-$ сопряженные им импульсы. Уравнения движения имеют вид (1) с $I=(p, y, x)$ :
+
+\[
+\dot{p}=-\varepsilon \frac{\partial H_{1}}{\partial \varphi}, \dot{y}=\varepsilon \frac{\partial H_{1}}{\partial x}, \quad \dot{x}=\varepsilon \frac{\partial H_{1}}{\partial y}, \dot{\varphi}=\frac{\partial H_{0}}{\partial p}+\varepsilon \frac{\partial H_{1}}{\partial p} .
+\]
+
+Применение принципа усреднения, когда нет резонансных соотношений, приводит к системе
+
+\[
+\left.\begin{array}{c}
+\dot{p}=0, \quad \dot{y}=-\varepsilon \frac{\partial \mathscr{H}_{1}}{\partial x}, \quad \dot{x}=\varepsilon \frac{\partial \mathscr{H}_{1}}{\partial y}, \\
+\mathscr{H}_{1}(p, y, x)=(2 \pi)^{-m} \oint_{T^{m}} H_{1}(p, \varphi, y, x) d \varphi ;
+\end{array}\right\}
+\]
+
+то есть в этом приближении эволюция $p$ отсутствует, а для $y, x$ получается гамильтонова система, зависящая от $p$ как от параметра. К виду (4) приводятся уравнения движения планет вокруг Солнца, а вывод об отсутствии эволюции импульсов $p$ известен в этой задаче как те о ре ма Лагранжа - Лапласа об отсутствии эволюции больших полуосей планет.
+
+2) Исключение быстрых переменных, разделение движений. В У. м. важную роль играет идея, что точную систему можно в главном приближении привести к усредненной с помощью близкой к тождественной замены переменных, и что такие замены переменных позволяют в высших приближениях с любой заданной точностью исключить из правых частей уравнений быстрые переменные и таким образом разделить быстрое и медленное движения. Процедуры исключения быстрых переменных таковы. Для системы (1), если нет резонансных соотношений, исключение быстрых переменных проводится следующим образом. Нужная замена переменных $I, \varphi \mapsto J$, $\psi$ ищется в виде формальных рядов
+
+\[
+\left.\begin{array}{l}
+I=J+\varepsilon u_{1}(J, \psi)+\varepsilon^{2} u_{2}(J, \psi)+\ldots, \\
+\varphi=\psi+\varepsilon v_{1}(J, \psi)+\varepsilon^{2} v_{2}(J, \psi)+\ldots,
+\end{array}\right\}
+\]
+
+где $u_{j}$, $v_{j}$ имеют по $\psi$ период $2 \pi$. Замена (6) подбирается так, чтобы правые части уравнений для новых переменных не содержали быстрых фаз, то есть уравнения имели вид:
+
+\[
+\left.\begin{array}{l}
+\dot{J}=\varepsilon G_{0}(J)+\varepsilon^{2} G_{1}(J)+\ldots, \\
+\dot{\psi}=\omega(J)+\varepsilon F_{0}(J)+\varepsilon^{2} F_{1}(J)+\ldots .
+\end{array}\right\}
+\]
+
+Подстановка (6) в (7) с учетом (1) после приравнивания членов одинаковых степеней по $\varepsilon$ дает:
+
+\[
+\left.\begin{array}{l}
+G_{0}(J)=g(J, \psi, 0)-\frac{\partial u_{1}}{\partial \psi} \omega, \\
+F_{0}(J)=f(J, \psi, 0)+\frac{\partial \omega}{\partial J} u_{1}-\frac{\partial v_{1}}{\partial \psi} \omega, \\
+G_{i}(J)=X_{i}(J, \psi)-\frac{\partial u_{i+1}}{\partial \psi} \omega, i \geqslant 1, \\
+F_{i}(J)=Y_{i}(J, \psi)+\frac{\partial \omega}{\partial J} u_{i+1}-\frac{\partial v_{i+1}}{\partial \psi} \omega .
+\end{array}\right\}
+\]
+
+Функции $X_{i}, Y_{\imath}$ определяются членами $u_{1}, v_{1}, \ldots, u_{i}, v_{i}$ в разложении (6). Из первого уравнения (8) следует, что
+
+\[
+\left.\begin{array}{l}
+G_{0}(J)=g_{0}(J) \equiv G(J), \\
+u_{1}(J, \psi)=\sum_{k \neq 0} \frac{g_{k}(J)}{i(k, \omega(J))} \exp (i(k, \psi))+u_{1}^{0}(J),
+\end{array}\right\}
+\]
+
+где $g_{k}, k \in \mathbb{Z}^{m},-$ коэффициенты Фурье функции $g$ при $\varepsilon=0$, a $u_{1}^{0}-$ произвольная функция $J$. Предполагается, что знаменатели в (9) не обрашаются в 0 , и что ряд в (9) сходится и определяет гладкую функцию. Аналогично, из остальных уравнений (8) последовательно определяются $F_{0}, v_{1}, G_{i}$, $u_{i+1}, F_{i}, v_{i+1}, i \geqslant 1$.
+
+Если оборвать ряды в (6), (7) на членах порядка $\varepsilon^{l}$, то получится укороченная система $l$-го приближения. В ней уравнения для $J$ отщепляются и решаются отдельно. После этого изменение $\psi$ определяется квадратурой. Изменение исходной переменной $I$ в этом приближении сводится к медленному дрейфу, описываемому уравнением для $J$, на к-рый накладываются малые осцилляции, описываемые заменой переменных. Изменение $\varphi$ представляется как вращение с медленно изменяющейся частотой, на к-рое также накладываются осцилляции. При $l=1$ укороченная система для $J$ совпадает с усредненной системой (2).
+
+Если задана подгруппа $\Gamma$ целочисленной решетки, определяющая возможные резонансные соотношения, то аналогично строится формальная замена переменных $I, \varphi \mapsto J, \psi$ такая, что правые части дифференциальных уравнений для новых переменных зависят от $\psi$ только через комбинации $(k, \psi), k \in \Gamma$ (см. [3]). Так полученные уравнения приближения для $J,(k, \psi)$ совпадают с частично усредненной системой (3) при определенном выборе произвольных функций, входящих в формулы замены переменных.
+
+Если исходная система гамильтонова, то замену переменных, исключающую зависимость правых частей от фаз, можно выбрать симплектической. Соответствующие процедуры носят название методов Линдштейна и Н ь ю кома (в нерезонансном случае при $n=m$ ), Де ло н е (в резонансном случае при $n=m$ ) и Це йпеля (в резонансном случае при $n \geqslant m$ ) (см. [9], [3]). Процедуры исключения быстрых переменных в высших приближениях весьма громоздки. Разработаны варианты этих процедур, допускающие удобную реализацию при символьных вычислениях на ЭВМ (см. [7]), особенно для гамильтоновского случая (Депри - Хори метод и др.). У. м. состоит в том, что в первом приближении для описания движения используется усредненная система, а в следующих приближениях - укороченные системы, полученные с помощью процедуры исключения быстрых переменных, вместе с соответствующими заменами переменных.
+
+3) Обоснование метода усреднения. Для обоснования У. м. устанавливаются условия, при к-рых отклонение решений точной системы от решений усредненной системы с подходяшими начальными данными стремится к 0 при $\varepsilon \rightarrow 0$ на интервалах времени длины порядка $1 / \varepsilon$ или бо́льших. Желательно также иметь оценки сверху для этих отклонений. Важны и оценки для отклонений решений точной системы от решений укороченных систем, получающихся в результате применения процедур исключения быстрых переменных. Могут иметься «плохие» начальные данные, при к-рых решение точной системы отклоняется от решения усредненной системы на величину порядка 1 за время порядка $1 / \varepsilon$. В этом случае надо иметь оценки сверху для меры множества «плохих» начальных данных, а на дополнительном множестве - оценки сверху расхождения решений точной и усредненной систем. Эти задачи в настояшее время далеки от полного решения. Ниже приводятся нек-рые общие результаты в указанных направлениях.
+
+Пусть функции $\omega, g, f$ в правых частях системы (1) определены и ограничены вместе с достаточным количеством производных в области $D\{I\} \times T^{\left.m_{\{\varphi}\right\} \times\left[0, \varepsilon_{0}\right] ; J(t)-}$ решение усредненной системы (2) с начальным условием $I_{0} \in D_{0} \subset D ;(I(t), \varphi(t))$ - решение точной системы (1) с начальным условием $\left(I_{0}, \varphi_{0}\right) \in D_{0} \times T^{m}$. Таким образом, $I(0)=J(0)$. Предполагается, что решение $J(t)$ определено и остается на положительном расстоянии от границы области $D$ при $0 \leqslant t \leqslant K / \varepsilon, K=$ const $&gt;0$.
+
+Если система (1) одночастотна $(m=1)$ и частота $\omega$ не обрашается в 0 в $D$, то при $0 \leqslant t \leqslant K / \varepsilon$ решение $(I(t), \varphi(t))$ определено и выполнено: $|I(t)-J(t)|&lt;c \varepsilon, c=$ const $&gt;0$. Для $\omega=1$ это утверждение было доказано П. Фату (P. Fatou, 1928), а также Л. И. Мандельштамом и Н. Д. Папалекси (1934) и явилось исторически первым результатом по обоснованию У. м. (см. [8]). Имеется подробное доказательство, основанное на исключении быстрой переменной (см. [2]). Для одночастотных систем высшие приближения процедуры исключения быстрых переменных позволяют описать дњижение с любой степенной по $\varepsilon$ точностью на временах порядка $1 / \varepsilon$ (см. [5]).
+
+Если система (1) многочастотна $(m \geqslant 2)$, но вектор частот постоянный $(\omega=$ const) и нерезонансный, то для любого $\rho&gt;0$ будет $|I(t)-J(t)|&lt;\rho$ при достаточно малом $\varepsilon&lt;\varepsilon_{0}(\rho)$ и при $0 \leqslant t \leqslant K / \varepsilon$ (см. [4], [5]). Если же частоты здесь удовлетворяют диофантову условию $|(k, \omega)|&gt;$ const $|k|^{-v}$ при всех $k \in \mathbb{Z}^{m} \backslash\{0\}$ и нек-ром $v&gt;0$, то можно выбрать $\rho=O(\varepsilon)$, а высшие приближения процедуры п. 2) позволяют получить любую степенную по $\varepsilon$ точность.
+
+Если система многочастотна, и частоты непостоянны (зависят от медленных переменных $I$ ), то из-за эволюции $I$ частоты сами медленно изменяются и в различные моменты времени могут удовлетворять различным резонансным соотношениям. Возможен захват в резонанс, приводящий к болышому расхождению решений точной и усредненной систем. Однако из обшей теоремы Аносова об усреднении (см. [1]) вытекает, что если частоты $\omega(I)$ нерезонансны при почти всех $I$, то для любого $\rho&gt;0$ выполнено неравенство $|I(t)-J(t)|&lt;\rho$ при $0 \leqslant t \leqslant K / \varepsilon$ для всех начальных данных, не принадлежаших множеству $E(\rho, \varepsilon)$, мера к-рого стремится к нулю при $\varepsilon \rightarrow 0$. В ряде случаев оказывается (см. [3]), что мера $E(\rho, \varepsilon)$ есть $O(\sqrt{\varepsilon} / \rho)$ (для справедливости этой оценки достаточно, напр., выполнения условия rank $(\partial \omega / \partial I)=m)$ Сравнительно полно исследованы двухчастотные системы $(m=2)$ (см. [2], [3], [10]). Для гамильтоновых систем и для обратимых систем обоснование У. м. далеко продвинуто в рамках теории Колмогорова - Арнольда - Мозера (КAM-теория), доставляющей оценки отличия решений точной и усредненной систем для большинства начальных данных на бесконечных временах. Для оставшихся начальных данных в гамильтоновых системах это отличие может расти из-за Арнольда диффузии, но, вообще говоря, лишь очень медленно. Согласно Нехорощева теореме, это отличие остается малым на интервале времени, длина к-рого растет экспоненциально при линейном убывании возмущения (в случае общего положения).
+
+Другой аспект обоснования У. м.- установление связи между интегральными многообразиями точной и усредненной систем. Так, для одночастотных систем и для систем с постоянными нерезонансными частотами, если усредненная система имеет положение равновесия (или предельный цикл), для к-рого ве́щественные части характеристич. показателей отличны от нуля (для цикла - всех показателей, кроме одного, равного нулю), то точная система имеет близкий к этому равновесию (циклу) по медленным переменным инвариантный тор, соответственно $m$ - или $(m+1)$-мерный. Этот тор будет устойчивым или неустойчивым в зависимости от того, устойчиво или неустойчиво равновесие (цикл) усредненной системы (см. [5]). Для гамильтоновых и обратимых систем вопрос об интегральных многообразиях решается в КАМ-теории.
+
+4) Усреднение в системах Боголюбова. С и с т е м а м и в стандартной форме Боголюбова (см. [4]) называются системы дифференциальных уравнений вида
+
+\[
+\dot{x}=\varepsilon X(x, t, \varepsilon), x \in D \subset \mathbb{R}^{p}, 0&lt;\varepsilon \ll 1 .
+\]
+
+Предполагается, что функция $X$ удовлетворяет, кроме обычных условий гладкости, следующему усло в и ю ра вномер ного с ред него: равномерно по $x$ в области $D$ сушествует предел (в ремен ное с реднее)
+
+\[
+X_{0}(x)=\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} X(x, t, 0) d t .
+\]
+
+Принцип усреднения Боголюбова состоит в том, что для приближенного описания поведения $x$ исходную систему заменяют на усредненную систему
+
+\[
+\dot{\xi}=\varepsilon X_{0}(\xi) .
+\]
+
+Этот подход обобщает подход для случая постоянных частот $(\omega=$ const). При $\omega=$ const уравнения движения системы с вращающимися фазами (1) приводятся к стандартной форме (7): достаточно обозначить через $x$ пару $I, \varphi-\omega t$. Усредненная система (1) совпадает при нерезонансных частотах с усредненной системой (2), а при резонансных частотах с частично усредненной системой (3) (только к системам (2), (3) дописываются еше уравнения для изменения нек-рых фаз $\varphi$ - $\omega t$, не входящих в правую часть усредненной системы). Обоснование сформулированному принципу усреднения дают три те о ре м ы Богол ю бо в а (см. [4], [5]). Согласно первой теореме, если $\xi(t)-$ решение усредненной системы, лежащее строго внутри $D$ при $0 \leqslant t \leqslant K / \varepsilon$, a $x(t)$ - решение точной системы с начальным условием $x(0)=\xi(0)$, то для любого $\rho&gt;0$ будет $|x(t)-\xi(t)|&lt;\rho$ при достаточно малом $\varepsilon&lt;\varepsilon_{0}(\rho)$ и $0 \leqslant t \leqslant K / \varepsilon$. Вторая и третья теоремы Боголюбова описывают движение в окрестности положения равновесия и предельного цикла усредненной системы. В частности, если для равновесия вещественные части всех его характеристич. показателей отличны от нуля (а для цикла - всех кроме одного), то точная система имеет решение, вечно остающееся вблизи этого равновесия (цикла). Свойства устойчивости указанного решения - такие же, как у равновесия (цикла) усредненной системы.
+
+Для систем вида (10), аналогично п. 2), построена процедура, позволяющая с помошью замены переменных исклю- чнть время $t$ из правой части с любой степенной по $\varepsilon$ точностыю (проведение процедуры требует дополнительных условий типа условия равномерного среднего для функций, возникаюших при построении высших приближений, см. [5]). В первом приближении замена переменных приводит исходную систему к усредненной.
+
+Условие равномерного среднего очень важно для всей теории. Если предел в (11) существует, но сходимость не равномерная по $x$, то временное среднее $X_{0}$ может, напр., разрывно зависеть от $x$ и усредненная система не будет определена.
+
+Результаты об усреднении для систем в стандартной форме обобщены на уравнения с запаздывающим аргументом, конечно-разностные уравнения, бесконечномерные системы, уравнения с частными производными и др. (см. [8]).
+
+5) Усреднение в быстро-медленных системах. Рассмотренные выше системы (1) и (7) являются частным случаем систем вида
+
+\[
+\dot{x}=f(x, y, \varepsilon), \dot{y}=\varepsilon g(x, y, \varepsilon),
+\]
+
+называемых быстро-медленным и системами (или системами с быстрыми и медленными движениями, с быстрыми и медленными переменными). Обобщением подхода П. 1) является для этих систем следующий п р и н цип ус редне ния Аносова (см. [1]). Пусть в системе (12) $x \in M, y \in \mathbb{R}^{n}$, где $M$ - гладкое компактное $m$-мерное многообразие. Пусть при $\varepsilon=0$ система для быстрых переменных $x$, зависящая от медленных переменных $y$, как от параметров, обладает конечной гладкой инвариантной мерой $\mu_{y}$ и при почти всех $y$ эргодична. Вводится усредненная система
+
+\[
+\dot{Y}=\varepsilon G(Y), \quad G(Y)=\int_{M} G(x, Y, 0) d \mu_{Y} / \mu_{Y}(M) .
+\]
+
+Принцип усреднения предлагает для приближенного описания медленного движения $y(t)$ в исходной системе использовать решение $Y(t)$ усредненной системы с начальным условием $Y(0)=y(0)$. Обоснование этому принципу дает теорема Аносова (см. [1]): для любого положительного числа $\rho$ мера множества $E(\rho, \varepsilon)$ начальных данных (из компакта в фазовом пространстве), для к-рых
+
+\[
+\sup _{0 \leqslant t \leqslant 1 / \varepsilon}|y(t)-Y(t)|&gt;\rho
+\]
+
+стремится к 0 при $\varepsilon \rightarrow 0$.
+
+Частный случай, когда исходная система - гамильтонова, зависящая от плавно изменяющегося параметра $\lambda=\varepsilon t$, и при почти всех значениях $\lambda$ движение системы с $\lambda=$ const на почти всех поверхностях уровня энергии эргодично (см. [10]). На быстро-медленные системы (12) обобщен также подход п. 4), использующий усреднение по времени и условие равномерного среднего (см. [6]).
+
+6) Приложения метода усреднений. Рассмотренный У. м.один из самых продуктивных в теории возмущений, и его приложения ныне необозримы. Он широко используется в небесной механике и динамике космич. полетов для описания эволюции движения небесных тел, в физике плазмы и теории ускорителей при исследовании движения заряженных частиц в полях, в радиотехнике при расчете нелинейных колебательных режимов. Имеются приложения У. м. в гидродинамике, физике лазеров, оптике, акустике и др. (см. $[3],[5],[6],[8]$.
+
+Лum.: [1] А н о с о в Д. В., «Известия АН СССР. Сер. математическая», 1960, т. 24, № 5, с. 721-42; [2] А р нол ьд В. И., Дополнительные главы теории обыкновенных дифференциальных уравнений, М., 1978; [3] Арнольд В.И., Козло в В. В., Не йш тадт А. И., в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 3, М., 1985; [4] Бо гол ю бо в Н. Н., О некоторых статистических методах в математической физике, Львов, 1945; [5] Бо голюбов Н.Н., М и троп ольск и й Ю. А., Асимптотические методы в теории нелинейных ко.тебаний, 4 изд., М., 1974; [6] Волосов В. М., М оргу н о в Б. И., Метод осреднения в теории нелинейных колебательных систем, М., 1971; [7] Джакаль я Г. Е. О., Методы теории возмуще- ний для нелинейных систем, пер. с англ., М., 1979; [8] М и тропольски й Ю.А., Метод усреднения в нелинейной механике, Киев, 1971; [9] Пуанка ре А., Избранные труды, тт. 1-3, М., 1971-74; [10] Lochak P., Meunier P., Multiphaze averaging for classical systems, N. Y., 1988. А. И. Нейuтадm.</text_orig>
+</article>

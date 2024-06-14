@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_7996">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><msub><mi>J</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x0222B;</mo><mi>d</mi><mi>x</mi><mo stretchy="false">&#x0007C;</mo><mi>&#x003C8;</mi><msup><mo stretchy="false">&#x0007C;</mo><mrow><mn>2</mn></mrow></msup><mtext>&#x000A0;(оператор&#x000A0;заряда),&#x000A0;</mtext><mspace linebreak="newline" /><mi>&</mi><msub><mi>J</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>i</mi></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#x0222B;</mo><mi>d</mi><mi>x</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>&#x003C8;</mi><mfrac><mrow><mo>&#x02202;</mo><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow><mrow><mo>&#x02202;</mo><mi>x</mi></mrow></mfrac><mo>&#x02212;</mo><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mfrac><mrow><mo>&#x02202;</mo><mi>&#x003C8;</mi></mrow><mrow><mo>&#x02202;</mo><mi>x</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mtext>&#x000A0;(оператор&#x000A0;импульса),&#x000A0;</mtext><mspace linebreak="newline" /><mi>&</mi><msub><mi>J</mi><mrow><mn>3</mn></mrow></msub><mo>&#x0003D;</mo><mi>H</mi><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; J_{1}=\int d x|\psi|^{2} \text { (оператор заряда), } \\&amp; J_{2}=\frac{i}{2} \int d x\left(\psi \frac{\partial \bar{\psi}}{\partial x}-\bar{\psi} \frac{\partial \psi}{\partial x}\right) \text { (оператор импульса), } \\&amp; J_{3}=H .\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

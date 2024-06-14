@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2270_POGRUZhENIE" alphabetic_pos="2272">
+  <title>ПОГРУЖЕНИЕ МНОГООБРАЗИЯ $N^{n}$</title>
+  <authors>
+    <author>В. В. Трофимов</author>
+  </authors>
+  <pages>
+    <start>450</start>
+    <end>450</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Дубровин Б. А., Новиков С. П., Фоменко А.Т., Современная геометрия. Методы и приложения, М., 1986.</literature_orig>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Новиков С. П.</author>
+      <author>Фоменко А. Т.</author>
+      <title>Современная геометрия. Методы и приложения</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2270_1_POGRUZhENIE">f_{*}: T_{x} N^{n} \rightarrow T_{f(x)} M^{m}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2270_1_POGRUZhENIE">f: N^{n} \rightarrow M^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2270_2_POGRUZhENIE">n^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2270_3_POGRUZhENIE">m^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2270_4_POGRUZhENIE">x \in N^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2270_5_POGRUZhENIE">f_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2270_6_POGRUZhENIE">t_{x} N^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2270_7_POGRUZhENIE">f_{*}\left(t_{x} N^{n}\right) \subset T_{f(x)} M^{m}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/2270_1_POGRUZhENIE">
+      <rel_text>подпространство</rel_text>
+      <target>http://libmeta.ru/fme/article/2279_PODPREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2270_2_POGRUZhENIE">
+      <rel_text>изоморфизм</rel_text>
+      <target>http://libmeta.ru/fme/article/978_IZOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2270_3_POGRUZhENIE">
+      <rel_text>мономорфизм</rel_text>
+      <target>http://libmeta.ru/fme/article/1826_MONODROMI</target>
+    </relation>
+  </relations>
+  <text>гладкое отображение $URI[[http://libmeta.ru/fme/formula/aux/2270_1_POGRUZhENIE]]/URI$ многообразия $URI[[http://libmeta.ru/fme/formula/aux/2270_2_POGRUZhENIE]]/URI$ в многообразие $URI[[http://libmeta.ru/fme/formula/aux/2270_3_POGRUZhENIE]]/URI$ такое, что его дифференциал
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2270_1_POGRUZhENIE]]/URI
+\]
+
+- URI[[http://libmeta.ru/fme/relation/2270_3_POGRUZhENIE]]/URI для произвольной точки $URI[[http://libmeta.ru/fme/formula/aux/2270_4_POGRUZhENIE]]/URI$, то есть $URI[[http://libmeta.ru/fme/formula/aux/2270_5_POGRUZhENIE]]/URI$ индуцирует URI[[http://libmeta.ru/fme/relation/2270_2_POGRUZhENIE]]/URI пространства $URI[[http://libmeta.ru/fme/formula/aux/2270_6_POGRUZhENIE]]/URI$ на URI[[http://libmeta.ru/fme/relation/2270_1_POGRUZhENIE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2270_7_POGRUZhENIE]]/URI$.</text>
+  <text_orig>гладкое отображение $f: N^{n} \rightarrow M^{m}$ многообразия $N^{n}$ в многообразие $M^{m}$ такое, что его дифференциал
+
+\[
+f_{*}: T_{x} N^{n} \rightarrow T_{f(x)} M^{m}
+\]
+
+- мономорфизм для произвольной точки $x \in N^{n}$, то есть $f_{*}$ индуцирует изоморфизм пространства $T_{x} N^{n}$ на подпространство $f_{*}\left(T_{x} N^{n}\right) \subset T_{f(x)} M^{m}$.
+
+Лит.: [1] Дубровин Б. А., Новиков С. П., Фоменко А.Т., Современная геометрия. Методы и приложения, М., 1986.
+
+В. В. Трофимов.</text_orig>
+</article>

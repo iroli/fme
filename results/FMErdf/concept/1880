@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2693_SVETOVOJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2693_SVETOVOJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1880</core:url>
+    <lbm:descriptor><![CDATA[СВЕТОВОЙ КОНУС; КАЛИБРОВКА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#14"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14148"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14149"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14150"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1083_KALIBROVOChNOE">калибровочное условие</a> вида $URI[[http://libmeta.ru/fme/formula/aux/2693_1_SVETOVOJ]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2693_2_SVETOVOJ]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2694_SVETOPODOBNYJ">светоподобный вектор</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14150">$$n^{2}=0$$</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1075_KALIBROVK">Калибровка</a> С. к. используется в моделях релятивистских струн.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#14">А. А. Славнов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[калибровочное условие вида $\left(n_{\mu}, A_{\mu}\right)=0$, где $n_{\mu}-$ светоподобный вектор, $n^{2}=0$. Калибровка С. к. используется в моделях релятивистских струн. А. А. Славнов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1075_KALIBROVK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2694_SVETOPODOBNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1083_KALIBROVOChNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

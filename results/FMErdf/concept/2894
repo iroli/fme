@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_377_VETV'">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_377_VETV'</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2894</core:url>
+    <lbm:descriptor><![CDATA[ВЕТВЬ АНАЛИТИЧЕСКОЙ ФУНКЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#4516"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21535"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21536"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_33"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9568"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_747"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21537"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21538"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21539"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21540"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21541"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>результат аналитического продолжения данного элемента аналитической функции, представленного степенным рядом<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21535">$$\Pi(a ; r)=\sum_{v=0}^{\infty} c_{v}(z-a)^{v}$$</a><BR/></P><P>с центром $URI[[http://libmeta.ru/fme/formula/aux/377_1_VETV']]/URI$ и радиусом сходимости $URI[[http://libmeta.ru/fme/formula/aux/377_2_VETV']]/URI$, вдоль всевозможных путей, принадлежащих данной области $URI[[http://libmeta.ru/fme/formula/aux/377_3_VETV']]/URI$ комплексной плоскости <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21537">$$\mathbb{c}, a \in D$$</a>. Таким образом, В. а.ф. определяется элементом <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21538">$$п(a ; r)$$</a> и областью $URI[[http://libmeta.ru/fme/formula/aux/377_6_VETV']]/URI$. Для вычисления применяются только однозначные, или регулярные, В. а. ф., к-рые существуют не для всех областей $URI[[http://libmeta.ru/fme/formula/aux/377_7_VETV']]/URI$, принадлежащих области существования полной аналитической функции. Напр., в разрезанной комплексной плоскости<BR/></P><P>\section{becoboe}<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21539">$$d=\mathbb{c} \backslash\{z=x ;-\infty \leqslant x \leqslant 0\}$$</a> многозначная аналитич. функция $URI[[http://libmeta.ru/fme/formula/aux/377_9_VETV']]/URI$ допускает регулярную В. а. ф.<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21536">$$w=\ln z=\ln |z|+i \arg z,|\arg z|<\pi,$$</a><BR/></P><P>- <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_645_GLAVNOE">главное значение</a> логарифма, а в кольце <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21541">$$d=\{z ; 1<|z|<2\}$$</a> выделение регулярной В. а. ф. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21540">$$w=\operatorname{ln} z$$</a> невозможно.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#4516">Е. Д. Соломенцев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[результат аналитического продолжения данного элемента аналитической функщии, представленного степенным рядом
+
+\[
+\Pi(a ; r)=\sum_{v=0}^{\infty} c_{v}(z-a)^{v}
+\]
+
+с центром $a$ и радиусом сходимости $r>0$, вдоль всевозможных путей, принадлежащих данной области $D$ комплексной плоскости $\mathbb{C}, a \in D$. Таким образом, В. а.ф. определяется элементом $П(a ; r)$ и областью $D$. Для вычисления применяются только однозначные, или регулярные, В. а. ф., к-рые существуют не для всех областей $D$, принадлежаших области существования полной аналитической функции. Напр., в разрезанной комплексной плоскости
+
+\section{BECOBOE}
+
+$D=\mathbb{C} \backslash\{z=x ;-\infty \leqslant x \leqslant 0\}$ многозначная аналитич. функция $w=\operatorname{Ln} z$ допускает регулярную В. а. ф.
+
+\[
+w=\ln z=\ln |z|+i \arg z,|\arg z|<\pi,
+\]
+
+- главное значение логарифма, а в кольце $D=\{z ; 1<|z|<2\}$ выделение регулярной В. а. ф. $w=\operatorname{Ln} z$ невозможно.
+
+Е. Д. Соломенцев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_645_GLAVNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2470_PUASSONA" alphabetic_pos="2472">
+  <title>ПУАССОНА РАСПРЕДЕЛЕНИЕ</title>
+  <authors>
+    <author>Ю. П. Вирченко</author>
+  </authors>
+  <pages>
+    <start>473</start>
+    <end>473</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ш и р я е в А. Н., Вероятность, М., 1980; [2] Бо ров к о в А. А., Теория вероятностей, 2 изд., М., 1986; [3] Фел л е р В., Введение в теорию вероятностей и ее приложения, пер. с англ., т. 1 , 2 изд., М., 1984; [4] Колч и н В. Ф., Се вастьян о в Б. А., Чист я к о в В.П., Случайные размещения, М., 1980.</literature_orig>
+    <unit>
+      <author>Ширяев А. Н.</author>
+      <title>Вероятность</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Боровков А. А.</author>
+      <title>Теория вероятностей</title>
+      <publication>2 изд., М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Феллер В.</author>
+      <title>Введение в теорию вероятностей и ее приложения</title>
+      <publication>пер. с англ., т. 1, 2 изд., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Колчин В. Ф.</author>
+      <author>Севастьянов Б. А.</author>
+      <author>Чистяков В. П.</author>
+      <title>Случайные размещения</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2470_1_PUASSONA">P_{n}=\mathrm{P}\{N=n\}=\frac{\lambda^{n}}{n !} e^{-\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2470_2_PUASSONA">f(t)=\mathrm{E} e^{i N t}=\exp \left[\lambda\left(e^{i t}-1\right)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2470_3_PUASSONA">\mathrm{P}\{N=n\}=C_{M}^{n} p^{n}(1-p)^{M-n} \rightarrow \frac{\lambda^{n}}{n !} e^{-\lambda},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2470_4_PUASSONA">f(t)=\exp [\lambda(\psi(t)-1)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2470_5_PUASSONA">P_{n}=\mathrm{P}\{N=n\}=\frac{1}{n !} \int_{0}^{\infty} d x p(x) x^{n} e^{-x},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2470_6_PUASSONA">f(t)=\mathrm{E} e^{i t N}=\varphi\left(i\left(1-e^{i t}\right)\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_1_PUASSONA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_2_PUASSONA">n=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_3_PUASSONA">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_4_PUASSONA">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_5_PUASSONA">n_{1}, N_{2}, \ldots, N_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_6_PUASSONA">\lambda_{1}, \lambda_{2} \ldots, \lambda_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_7_PUASSONA">\left(\lambda_{1}+\lambda_{2}+\ldots+\lambda_{s}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_8_PUASSONA">\left(n_{1}+n_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_9_PUASSONA">n_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_10_PUASSONA">n_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_11_PUASSONA">n_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_12_PUASSONA">n_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_13_PUASSONA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_14_PUASSONA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_15_PUASSONA">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_16_PUASSONA">m \rightarrow \infty, p \rightarrow 0, M p \rightarrow \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_17_PUASSONA">\left(\xi_{1}+\xi_{2}+\ldots+\xi_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_18_PUASSONA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_19_PUASSONA">\xi_{1}, \xi_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_20_PUASSONA">n ; \xi_{1}, \xi_{2}, \ldots-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_21_PUASSONA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_22_PUASSONA">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_23_PUASSONA">f(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_24_PUASSONA">\psi(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_25_PUASSONA">\xi_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_26_PUASSONA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_27_PUASSONA">\xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_28_PUASSONA">\mathrm{p}\{n=n \mid \xi=x\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_29_PUASSONA">\xi=x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_30_PUASSONA">p(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_31_PUASSONA">\xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2470_32_PUASSONA">\varphi(t)=\mathrm{e} e^{i t \xi}</formula>
+  </formulas_aux>
+  <relations n="14">
+    <relation uri="http://libmeta.ru/fme/relation/2470_1_PUASSONA">
+      <rel_text>Составное</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_2_PUASSONA">
+      <rel_text>составного</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_3_PUASSONA">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_4_PUASSONA">
+      <rel_text>параметром</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_5_PUASSONA">
+      <rel_text>распределение вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_6_PUASSONA">
+      <rel_text>случайной величиной</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_7_PUASSONA">
+      <rel_text>случайной величины</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_8_PUASSONA">
+      <rel_text>распределение вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_9_PUASSONA">
+      <rel_text>параметром</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_10_PUASSONA">
+      <rel_text>случайных величин</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_11_PUASSONA">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_12_PUASSONA">
+      <rel_text>моделировании</rel_text>
+      <target>http://libmeta.ru/fme/article/1805_MODELIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_13_PUASSONA">
+      <rel_text>распределение вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2470_14_PUASSONA">
+      <rel_text>получено</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+  </relations>
+  <text>распределение вероятностей случайной величины $URI[[http://libmeta.ru/fme/formula/aux/2470_1_PUASSONA]]/URI$, принимающей целые неотрицательные значения $URI[[http://libmeta.ru/fme/formula/aux/2470_2_PUASSONA]]/URI$ с вероятностями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2470_1_PUASSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2470_3_PUASSONA]]/URI$ - параметр распределения. Характеристич. функция П. р. имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2470_2_PUASSONA]]/URI
+\]
+
+и поэтому семиинварианты любого порядка равны $URI[[http://libmeta.ru/fme/formula/aux/2470_4_PUASSONA]]/URI$.
+
+Сумма независимых случайных величин $URI[[http://libmeta.ru/fme/formula/aux/2470_5_PUASSONA]]/URI$, имеющих П. р. с параметрами $URI[[http://libmeta.ru/fme/formula/aux/2470_6_PUASSONA]]/URI$, подчиняется П. р. с параметром $URI[[http://libmeta.ru/fme/formula/aux/2470_7_PUASSONA]]/URI$ и, обратно, если сумма $URI[[http://libmeta.ru/fme/formula/aux/2470_8_PUASSONA]]/URI$ двух независимых случайных величин $URI[[http://libmeta.ru/fme/formula/aux/2470_9_PUASSONA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2470_10_PUASSONA]]/URI$ имеет П. р., то каждая случайная величина $URI[[http://libmeta.ru/fme/formula/aux/2470_11_PUASSONA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2470_12_PUASSONA]]/URI$ подчинена П. р.
+
+П. р. было впервые URI[[http://libmeta.ru/fme/relation/2470_14_PUASSONA]]/URI С. Пуассоном (s. Poisson, 1837) как асимптотич. URI[[http://libmeta.ru/fme/relation/2470_13_PUASSONA]]/URI числа «успехов» $URI[[http://libmeta.ru/fme/formula/aux/2470_13_PUASSONA]]/URI$ в схеме Бернулли при большом числе испытаний $URI[[http://libmeta.ru/fme/formula/aux/2470_14_PUASSONA]]/URI$ и малой вероятности успеха $URI[[http://libmeta.ru/fme/formula/aux/2470_15_PUASSONA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2470_3_PUASSONA]]/URI
+\]
+
+при $URI[[http://libmeta.ru/fme/formula/aux/2470_16_PUASSONA]]/URI$. Это обстоятельство обуславливает то, что П. р. является хорошим приближением при URI[[http://libmeta.ru/fme/relation/2470_12_PUASSONA]]/URI многих явлений, связанных с появлением случайного числа редких слабозависимых событий в фиксированном промежутке времени и в ограниченной URI[[http://libmeta.ru/fme/relation/2470_11_PUASSONA]]/URI пространства. Наряду с обыкновенным П. р. в математич. физике используется и так наз. обобще нное, или сложное, П. р. для вероятностей значений суммы $URI[[http://libmeta.ru/fme/formula/aux/2470_17_PUASSONA]]/URI$ случайного числа $URI[[http://libmeta.ru/fme/formula/aux/2470_18_PUASSONA]]/URI$ одинаково распределенных URI[[http://libmeta.ru/fme/relation/2470_10_PUASSONA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2470_19_PUASSONA]]/URI$. При этом $URI[[http://libmeta.ru/fme/formula/aux/2470_20_PUASSONA]]/URI$ взаимно независимы и $URI[[http://libmeta.ru/fme/formula/aux/2470_21_PUASSONA]]/URI$ распределено согласно П. р. с URI[[http://libmeta.ru/fme/relation/2470_9_PUASSONA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2470_22_PUASSONA]]/URI$. Характеристич. функция $URI[[http://libmeta.ru/fme/formula/aux/2470_23_PUASSONA]]/URI$ сложного П. р. имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2470_4_PUASSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2470_24_PUASSONA]]/URI$ - характеристич. функция $URI[[http://libmeta.ru/fme/formula/aux/2470_25_PUASSONA]]/URI$
+
+Если URI[[http://libmeta.ru/fme/relation/2470_8_PUASSONA]]/URI целой неотрицательной URI[[http://libmeta.ru/fme/relation/2470_7_PUASSONA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2470_26_PUASSONA]]/URI$ определяется URI[[http://libmeta.ru/fme/relation/2470_6_PUASSONA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2470_27_PUASSONA]]/URI$ так, что условное URI[[http://libmeta.ru/fme/relation/2470_5_PUASSONA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2470_28_PUASSONA]]/URI$ является П. р. с URI[[http://libmeta.ru/fme/relation/2470_4_PUASSONA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2470_29_PUASSONA]]/URI$, то оно называется с о с тавны м П. р. и определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2470_5_PUASSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2470_30_PUASSONA]]/URI$ - URI[[http://libmeta.ru/fme/relation/2470_3_PUASSONA]]/URI распределения величины $URI[[http://libmeta.ru/fme/formula/aux/2470_31_PUASSONA]]/URI$. Характеристй. функция URI[[http://libmeta.ru/fme/relation/2470_2_PUASSONA]]/URI П. р. имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2470_6_PUASSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2470_32_PUASSONA]]/URI$. URI[[http://libmeta.ru/fme/relation/2470_1_PUASSONA]]/URI П. р. находит применение в задачах квантовой оптики.</text>
+  <text_orig>распределение вероятностей случайной величины $N$, принимающей целые неотрицательные значения $n=0,1,2, \ldots$ с вероятностями
+
+\[
+P_{n}=\mathrm{P}\{N=n\}=\frac{\lambda^{n}}{n !} e^{-\lambda}
+\]
+
+где $\lambda$ - параметр распределения. Характеристич. функция П. р. имеет вид:
+
+\[
+f(t)=\mathrm{E} e^{i N t}=\exp \left[\lambda\left(e^{i t}-1\right)\right]
+\]
+
+и поэтому семиинварианты любого порядка равны $\lambda$.
+
+Сумма независимых случайных величин $N_{1}, N_{2}, \ldots, N_{s}$, имеющих П. р. с параметрами $\lambda_{1}, \lambda_{2} \ldots, \lambda_{s}$, подчиняется П. р. с параметром $\left(\lambda_{1}+\lambda_{2}+\ldots+\lambda_{s}\right)$ и, обратно, если сумма $\left(N_{1}+N_{2}\right)$ двух независимых случайных величин $N_{1}$ и $N_{2}$ имеет П. р., то каждая случайная величина $N_{1}$ и $N_{2}$ подчинена П. р.
+
+П. р. было впервые получено С. Пуассоном (S. Poisson, 1837) как асимптотич. распределение вероятностей числа «успехов» $N$ в схеме Бернулли при большом числе испытаний $M$ и малой вероятности успеха $p$ :
+
+\[
+\mathrm{P}\{N=n\}=C_{M}^{n} p^{n}(1-p)^{M-n} \rightarrow \frac{\lambda^{n}}{n !} e^{-\lambda},
+\]
+
+при $M \rightarrow \infty, p \rightarrow 0, M p \rightarrow \lambda$. Это обстоятельство обуславливает то, что П. р. является хорошим приближением при моделировании многих явлений, связанных с появлением случайного числа редких слабозависимых событий в фиксированном промежутке времени и в ограниченной области пространства. Наряду с обыкновенным П. р. в математич. физике используется и так наз. обобще нное, или сложное, П. р. для вероятностей значений суммы $\left(\xi_{1}+\xi_{2}+\ldots+\xi_{N}\right)$ случайного числа $N$ одинаково распределенных случайных величин $\xi_{1}, \xi_{2}, \ldots$. При этом $N ; \xi_{1}, \xi_{2}, \ldots-$ взаимно независимы и $N$ распределено согласно П. р. с параметром $\lambda$. Характеристич. функция $f(t)$ сложного П. р. имеет вид:
+
+\[
+f(t)=\exp [\lambda(\psi(t)-1)]
+\]
+
+где $\psi(t)$ - характеристич. функция $\xi_{s}$
+
+Если распределение вероятностей целой неотрицательной случайной величины $N$ определяется случайной величиной $\xi$ так, что условное распределение вероятностей $\mathrm{P}\{N=n \mid \xi=x\}$ является П. р. с параметром $\xi=x$, то оно называется с о с тавны м П. р. и определяется формулой
+
+\[
+P_{n}=\mathrm{P}\{N=n\}=\frac{1}{n !} \int_{0}^{\infty} d x p(x) x^{n} e^{-x},
+\]
+
+где $p(x)$ - плотность распределения величины $\xi$. Характеристй. функция составного П. р. имеет вид:
+
+\[
+f(t)=\mathrm{E} e^{i t N}=\varphi\left(i\left(1-e^{i t}\right)\right),
+\]
+
+где $\varphi(t)=\mathrm{E} e^{i t \xi}$. Составное П. р. находит применение в задачах квантовой оптики.
+
+Лит.: [1] Ш и р я е в А. Н., Вероятность, М., 1980; [2] Бо ров к о в А. А., Теория вероятностей, 2 изд., М., 1986; [3] Фел л е р В., Введение в теорию вероятностей и ее приложения, пер. с англ., т. 1 , 2 изд., М., 1984; [4] Колч и н В. Ф., Се вастьян о в Б. А., Чист я к о в В.П., Случайные размещения, М., 1980. Ю. П. Вирченко.</text_orig>
+</article>

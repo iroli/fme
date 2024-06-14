@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_766_DARBU">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_766_DARBU</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3326</core:url>
+    <lbm:descriptor><![CDATA[ДАРБУ ТЕОРЕМА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#513"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24735"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21578"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24736"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>в окрестности любой точки <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2770_SIMPLEKTOMORFIZ">симплектического</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразия</a> можно выбрать координаты <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21578">$$p_{1}, \ldots$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24736">$$p_{n}, q_{1}, \ldots, q_{n}$$</a>, в которых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2754_SIMPLEKTIZATsI">симплектическая</a> структура имеет вид<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24735">$$\omega=d p_{1} \wedge d q_{1}+\ldots+d p_{n} \wedge d q_{n}$$</a><BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1348_KONTAKTNAJa">Контактная геометрия</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1355_KONTAKTNYJ">Контактный диффеоморфизм</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#513">М. Э. Казарян</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[в окрестности любой точкИ симплектического многообразия можно выбрать координаты $p_{1}, \ldots$, $p_{n}, q_{1}, \ldots, q_{n}$, в которых симплектическая структура имеет виД
+
+\[
+\omega=d p_{1} \wedge d q_{1}+\ldots+d p_{n} \wedge d q_{n}
+\]
+
+См. также Контактная геометрия, Контактный диффеоморфизм.
+
+М. Э. Казарян.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1355_KONTAKTNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1348_KONTAKTNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2754_SIMPLEKTIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2770_SIMPLEKTOMORFIZ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1538_LANDAU-FOKKERA-PLANKA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1538_LANDAU-FOKKERA-PLANKA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/597</core:url>
+    <lbm:descriptor><![CDATA[ЛАНДАУ-ФОККЕРА-ПЛАНКА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5196"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5197"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5198"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5199"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_320"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5200"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5201"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Кинетическое <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1532_LANDAU">Ландау уравнение</a>, записанное в форме уравнения Фоккера - Планка с переменными коэффициентами:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5198">$$\frac{d f_{\alpha}}{d t}=-\sum_{i} \frac{\partial}{\partial v_{i}}\left(f_{\alpha} \frac{\partial h_{\alpha}}{\partial v_{i}}\right)+\frac{1}{2} \sum_{i, j} \frac{\partial^{2}}{\partial v_{i} \partial v_{j}}\left(f_{\alpha} \frac{\partial^{2} g_{\alpha}}{\partial v_{i} \partial v_{j}}\right)$$</a><BR/></P><P>здесь <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5199">$$f_{\alpha}(x, v, t)$$</a> - функция распределения, $URI[[http://libmeta.ru/fme/formula/aux/1538_2_LANDAU-FOKKERA-PLANKA]]/URI$ - сорт <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5200">$$h_{\alpha}(v, t), g_{\alpha}(v, t)$$</a> являются заданными функционалами от $URI[[http://libmeta.ru/fme/formula/aux/1538_4_LANDAU-FOKKERA-PLANKA]]/URI$.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#5196">И. А. Кузин</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#5197">В. П. Политюков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[КИНЕтическое Ландау уравнение, записанное в форме уравнения Фоккера - Планка с переменными коэффициентами:
+
+\[
+\frac{d f_{\alpha}}{d t}=-\sum_{i} \frac{\partial}{\partial v_{i}}\left(f_{\alpha} \frac{\partial h_{\alpha}}{\partial v_{i}}\right)+\frac{1}{2} \sum_{i, j} \frac{\partial^{2}}{\partial v_{i} \partial v_{j}}\left(f_{\alpha} \frac{\partial^{2} g_{\alpha}}{\partial v_{i} \partial v_{j}}\right)
+\]
+
+здесь $f_{\alpha}(x, v, t)$ - функция распределения, $\alpha$ - сорт частиц, $h_{\alpha}(v, t), g_{\alpha}(v, t)$ являются заданными функционалами от $f_{\alpha}$. И. А. Кузин, В. П. Политюков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1532_LANDAU"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

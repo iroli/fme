@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_567_GEL'MGOL'TsA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_567_GEL'MGOL'TsA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3105</core:url>
+    <lbm:descriptor><![CDATA[ГЕЛЬМГОЛЬЦА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#23097"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4464"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4461"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23098"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4323"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_78"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8492"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23099"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23100"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_602"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1624"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">дифференциальное уравнение</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23098">$$\Delta u+\lambda u=0,$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/567_1_GEL'MGOL'TsA]]/URI$ - Лапласа <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a>, $URI[[http://libmeta.ru/fme/formula/aux/567_2_GEL'MGOL'TsA]]/URI$ - постоянная; при $URI[[http://libmeta.ru/fme/formula/aux/567_3_GEL'MGOL'TsA]]/URI$ Г.у. переходит в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1548_LAPLASA">Лапласа уравнение</a>. Г.у. можно <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получить</a> из волнового уравнения, если зависимость от времени описывается функцией <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23099">$$\exp (i \omega t)$$</a>, в этом случае <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23100">$$\lambda=\omega^{2} c^{-2}(c-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорость</a> распространения волн). Названо по имени Г. Гельмгольца (h. Helmholtz), изучавшего это уравнение в 1860.<BR/></P><P>Для Г.у. в ограниченной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> рассматривают обычные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1444_KRAEVAJa">краевые задачи</a> (Дирихле, Неймана и др.). Значения $URI[[http://libmeta.ru/fme/formula/aux/567_6_GEL'MGOL'TsA]]/URI$, для к-рых существует отличное от нуля решение однородного Г. у., называются собственными значениями <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> Лапласа. Для таких значений $URI[[http://libmeta.ru/fme/formula/aux/567_7_GEL'MGOL'TsA]]/URI$ решение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1444_KRAEVAJa">краевой задачи</a> не единственно. При помощи функции Грина <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1444_KRAEVAJa">краевую задачу</a> можно свести к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1033_INTEGRAL'NOE">интегральному уравнению</a>. В случае неограниченной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> убывающее на бесконечности решение $URI[[http://libmeta.ru/fme/formula/aux/567_8_GEL'MGOL'TsA]]/URI$.у. не является единственным при $URI[[http://libmeta.ru/fme/formula/aux/567_9_GEL'MGOL'TsA]]/URI$. В этом случае для выделения единственного решения ставят дополнительные условия.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4464">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4462">Тихонов А. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4463">Самарский А. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4464">Уравнения математической физики, 5 изд., М., 1977</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#4461">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#537">Владимиров В. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4461">Уравнения математической физики, 4 изд., М., 1981</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#23097">В. И. Ажхимов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[дифференциальное уравнение
+
+\[
+\Delta u+\lambda u=0,
+\]
+
+где $\Delta$ - Лапласа оператор, $\lambda$ - постоянная; при $\lambda=0$ Г.у. переходит в Лапласа уравнение. Г.у. можно получить из волнового уравнения, если зависимость от времени описывается функцией $\exp (i \omega t)$, в этом случае $\lambda=\omega^{2} c^{-2}(c-$ скорость распространения волн). Названо по имени Г. Гельмгольца (H. Helmholtz), изучавшего это уравнение в 1860.
+
+Для Г.у. в ограниченной области рассматривают обычные краевые задачи (Дирихле, Неймана и др.). Значения $\lambda$, для к-рых сушествует отличное от нуля решение однородного Г. у., называются собственными значениями оператора Лапласа. Для таких значений $\lambda$ решение краевой задачи не единственно. При помощи функции Грина краевую задачу можно свести к интегральному уравнению. В случае неограниченной области убывающее на бесконечности решение $\Gamma$.у. не является единственным при $\lambda>0$. В этом случае для выделения единственного решения ставят дополнительные условия.
+
+Лит.: [1] Т и хонов А. Н., С ам а рск и й А. А., Уравнения математической физики, 5 изд., М., 1977; [2] Влад ими ров В. С., Уравнения математической физики, 4 изд., М., 1981. В. И. Ажхимов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1033_INTEGRAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1444_KRAEVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1444_KRAEVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1444_KRAEVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1548_LAPLASA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

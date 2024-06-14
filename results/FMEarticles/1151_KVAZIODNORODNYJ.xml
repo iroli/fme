@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1151_KVAZIODNORODNYJ" alphabetic_pos="1153">
+  <title>КВАЗИОДНОРОДНЫЙ ГАМИЛЬТОНИАН</title>
+  <authors/>
+  <pages>
+    <start>242</start>
+    <end>242</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] М а с л о в В. П., Операторные методы, М., 1973; [2] Масло в В. П., Н а з айки н с к й й В. Е., в кн.: Итоги науки и техники. Современные проблемы математики, т. 13, М., 1979, $\begin{array}{ll}\text { c. 5-144. } &amp; \text { B. E. Назайкинский. }\end{array}$</literature_orig>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>Операторные методы</title>
+      <publication>М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <author>Назайкинскйй В. Е.</author>
+      <title>в кн.: Итоги науки и техники. Современные проблемы математики</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other>т. 13, $\begin{array}{ll}\text { c. 5-144. } &amp; \text { B. E. Назайкинский. }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1151_1_KVAZIODNORODNYJ">\hat{f}=f\left(\stackrel{1}{A_{1}}, \ldots, \stackrel{n}{A_{n}}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1151_2_KVAZIODNORODNYJ">L_{1}\left(\stackrel{2}{x},-i \frac{\frac{1}{\partial}}{\partial x}\right), \ldots, L_{n}\left(\stackrel{2}{x},-i \frac{\frac{1}{\partial}}{\partial x}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1151_3_KVAZIODNORODNYJ">\begin{gathered}F\left(\lambda^{\rho_{1}} x_{1}, \ldots, \lambda^{\rho_{n}} x_{n}, \lambda^{1-\rho_{1}} p_{1}, \ldots, \lambda^{1-\rho_{n}} p_{n}\right)= \\=\lambda^{m} H(x, p)+O\left(\lambda^{m-\varepsilon}\right), \lambda \rightarrow+\infty,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1151_4_KVAZIODNORODNYJ">\|u\|_{s}=\left\|\left(1+A_{1}^{2 / \rho_{1}}+\ldots+A_{n}^{2 / \rho_{n}}\right)^{s / 2} u\right\|</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1151_1_KVAZIODNORODNYJ">\left(a_{1}, \ldots, A_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1151_2_KVAZIODNORODNYJ">\rho_{1}, \ldots, \rho_{n} \geqslant 0-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1151_3_KVAZIODNORODNYJ">a_{1}, \ldots, A_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1151_4_KVAZIODNORODNYJ">f(x, p)=f\left(L_{1}(x, p), \ldots, L_{n}(x, p)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1151_5_KVAZIODNORODNYJ">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1151_6_KVAZIODNORODNYJ">h(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1151_7_KVAZIODNORODNYJ">\hat{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1151_8_KVAZIODNORODNYJ">\hat{f}</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/1151_1_KVAZIODNORODNYJ">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1151_2_KVAZIODNORODNYJ">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1151_3_KVAZIODNORODNYJ">
+      <rel_text>Гамильтона функции</rel_text>
+      <target>http://libmeta.ru/fme/article/505_GAMIL'TONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1151_4_KVAZIODNORODNYJ">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1151_5_KVAZIODNORODNYJ">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>старшая часть символа оператора представления, соответствующего заданной функции от упорядоченных операторов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1151_1_KVAZIODNORODNYJ]]/URI
+\]
+
+Пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1151_2_KVAZIODNORODNYJ]]/URI
+\]
+
+- левое упорядоченное представление набора $URI[[http://libmeta.ru/fme/formula/aux/1151_1_KVAZIODNORODNYJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1151_2_KVAZIODNORODNYJ]]/URI$ заданные веса операторов $URI[[http://libmeta.ru/fme/formula/aux/1151_3_KVAZIODNORODNYJ]]/URI$ и пусть функция $URI[[http://libmeta.ru/fme/formula/aux/1151_4_KVAZIODNORODNYJ]]/URI$ URI[[http://libmeta.ru/fme/relation/1151_5_KVAZIODNORODNYJ]]/URI свойством
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1151_3_KVAZIODNORODNYJ]]/URI
+\]
+
+для нек-рых $URI[[http://libmeta.ru/fme/formula/aux/1151_5_KVAZIODNORODNYJ]]/URI$, m. Тогда функция $URI[[http://libmeta.ru/fme/formula/aux/1151_6_KVAZIODNORODNYJ]]/URI$ называется квазиоднородным гамильтонианом URI[[http://libmeta.ru/fme/relation/1151_4_KVAZIODNORODNYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1151_7_KVAZIODNORODNYJ]]/URI$. К. г. играет роль URI[[http://libmeta.ru/fme/relation/1151_3_KVAZIODNORODNYJ]]/URI при построении методом канонич. URI[[http://libmeta.ru/fme/relation/1151_2_KVAZIODNORODNYJ]]/URI Маслова квазиобратного к $URI[[http://libmeta.ru/fme/formula/aux/1151_8_KVAZIODNORODNYJ]]/URI$ URI[[http://libmeta.ru/fme/relation/1151_1_KVAZIODNORODNYJ]]/URI в шкале с нормой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1151_4_KVAZIODNORODNYJ]]/URI
+\]
+
+(гильбертов случай).</text>
+  <text_orig>старшая часть символа оператора представления, соответствующего заданной функции от упорядоченных операторов
+
+\[
+\hat{f}=f\left(\stackrel{1}{A_{1}}, \ldots, \stackrel{n}{A_{n}}\right) .
+\]
+
+Пусть
+
+\[
+L_{1}\left(\stackrel{2}{x},-i \frac{\frac{1}{\partial}}{\partial x}\right), \ldots, L_{n}\left(\stackrel{2}{x},-i \frac{\frac{1}{\partial}}{\partial x}\right)
+\]
+
+- левое упорядоченное представление набора $\left(A_{1}, \ldots, A_{n}\right)$, $\rho_{1}, \ldots, \rho_{n} \geqslant 0-$ заданные веса операторов $A_{1}, \ldots, A_{n}$ и пусть функция $F(x, p)=f\left(L_{1}(x, p), \ldots, L_{n}(x, p)\right)$ обладает свойством
+
+\[
+\begin{gathered}
+F\left(\lambda^{\rho_{1}} x_{1}, \ldots, \lambda^{\rho_{n}} x_{n}, \lambda^{1-\rho_{1}} p_{1}, \ldots, \lambda^{1-\rho_{n}} p_{n}\right)= \\
+=\lambda^{m} H(x, p)+O\left(\lambda^{m-\varepsilon}\right), \lambda \rightarrow+\infty,
+\end{gathered}
+\]
+
+для нек-рых $\varepsilon&gt;0$, m. Тогда функция $H(x, p)$ называется квазиоднородным гамильтонианом оператора $\hat{f}$. К. г. играет роль Гамильтона функции при построении методом канонич. оператора Маслова квазиобратного к $\hat{f}$ оператора в шкале с нормой
+
+\[
+\|u\|_{s}=\left\|\left(1+A_{1}^{2 / \rho_{1}}+\ldots+A_{n}^{2 / \rho_{n}}\right)^{s / 2} u\right\|
+\]
+
+(гильбертов случай).
+
+Лum.: [1] М а с л о в В. П., Операторные методы, М., 1973; [2] Масло в В. П., Н а з айки н с к й й В. Е., в кн.: Итоги науки и техники. Современные проблемы математики, т. 13, М., 1979, $\begin{array}{ll}\text { c. 5-144. } &amp; \text { B. E. Назайкинский. }\end{array}$</text_orig>
+</article>

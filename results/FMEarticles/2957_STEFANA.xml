@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2957_STEFANA" alphabetic_pos="2959">
+  <title>СТЕФАНА ЗАДАЧА</title>
+  <authors/>
+  <pages>
+    <start>581</start>
+    <end>581</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Т ихоно в А. Н., С ам а р с к и й А. А., Уравнения математической физики, 5 изд., М., 1977; [2] Будак Б. М., В а с иль е в Ф. П., У с п е н с к и й А. Б., Численные методы в газовой динамике, М., 1965, с. 139-83.</literature_orig>
+    <unit>
+      <author>Тихонов А. Н.</author>
+      <author>Самарский А. А.</author>
+      <title>Уравнения математической физики</title>
+      <publication>5 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Будак Б. М.</author>
+      <author>Васильев Ф. П.</author>
+      <author>Успенский А. Б.</author>
+      <title>Численные методы в газовой динамике</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other>с. 139-83.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2957_1_STEFANA">\begin{aligned}&amp; c_{1} \rho_{1} \frac{\partial u}{\partial t}=k_{1} \frac{\partial^{2} u}{\partial x^{2}} \text { при } 0&lt;x&lt;\xi(t), t&gt;0, \\&amp; c_{2} \rho_{2} \frac{\partial u}{\partial t}=k_{2} \frac{\partial^{2} u}{\partial x^{2}} \text { при } \xi(t)&lt;x&lt;+\infty, t&gt;0,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2957_2_STEFANA">u(0, t)=u_{1}=\mathrm{const}&lt;T, t&gt;0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2957_3_STEFANA">u(x, 0)=u_{2}=\text { const }&gt;T, t \geqslant 0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2957_4_STEFANA">\begin{gathered}u(\xi(t)-0, t)=u(\xi(t)+0, t), t&gt;0, \\\lambda \rho_{1} \frac{d \xi(t)}{d t}=k_{1} \frac{\partial u(\xi(t)-0, t)}{\partial x}-k_{2} \frac{\partial u(\xi(t)+0, t)}{\partial x}, t&gt;0, \xi(0)=0,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2957_5_STEFANA">u=u\left(x t^{-1 / 2}\right), \xi(t)=\alpha t^{1 / 2}, \alpha=\text { const }&gt;0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2957_6_STEFANA">q(t)=\frac{\partial u(0, t)}{\partial x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2957_7_STEFANA">\begin{gathered}\frac{\partial u}{\partial t}=a^{2} \frac{\partial^{2} u}{\partial x^{2}}, 0&lt;x&lt;\xi(t), 0&lt;t \leqslant T, \\u(x, 0)=\varphi(x), 0 \leqslant x \leqslant \xi_{0} ; u(\xi(t)-0, t)=\mu(t), \\\gamma(t) \frac{d \xi(t)}{d t}=-\frac{\partial u(\xi(t)-0, t)}{\partial x} ; \xi(0)=\xi_{0}&gt;0,\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_1_STEFANA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_2_STEFANA">\xi=\xi(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_3_STEFANA">k_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_4_STEFANA">k_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_5_STEFANA">c_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_6_STEFANA">c_{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_7_STEFANA">\rho_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_8_STEFANA">\rho_{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_9_STEFANA">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_10_STEFANA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2957_11_STEFANA">\varphi(x), \mu(t), \gamma(t) \geqslant \gamma_{0}&gt;0, \xi(t)-</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2957_1_STEFANA">
+      <rel_text>заданные функции</rel_text>
+      <target>http://libmeta.ru/fme/article/1505_LAGRANZhA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2957_2_STEFANA">
+      <rel_text>поток</rel_text>
+      <target>http://libmeta.ru/fme/article/2345_POTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2957_3_STEFANA">
+      <rel_text>граничных условий</rel_text>
+      <target>http://libmeta.ru/fme/article/713_GRANIChNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2957_4_STEFANA">
+      <rel_text>Обратная задача Стефана</rel_text>
+      <target>http://libmeta.ru/fme/article/2033_OBRATNAJa</target>
+    </relation>
+  </relations>
+  <text>задача, возникающая при исследовании физических процессов, связанных с фазовым превращением вешества. Простейшая двухфазная С. з. в теплофизич. терминах формулируется следующим образом: найти распределение температуры $URI[[http://libmeta.ru/fme/formula/aux/2957_1_STEFANA]]/URI$ и закон движения границы раздела фаз $URI[[http://libmeta.ru/fme/formula/aux/2957_2_STEFANA]]/URI$ (напр., границы «лед - вода» внутри замерзающей воды) из уравнения теплопроводности:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2957_1_STEFANA]]/URI
+\]
+
+граничного условия
+
+начального условия
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2957_2_STEFANA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2957_3_STEFANA]]/URI
+\]
+
+и условия на границе замерзания
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2957_4_STEFANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2957_3_STEFANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2957_4_STEFANA]]/URI$ - коэффициенты теплопроводности, $URI[[http://libmeta.ru/fme/formula/aux/2957_5_STEFANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2957_6_STEFANA]]/URI$ удельные теплоемкости, $URI[[http://libmeta.ru/fme/formula/aux/2957_7_STEFANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2957_8_STEFANA]]/URI$ плотности твердой и соответственно жидкой фаз, $URI[[http://libmeta.ru/fme/formula/aux/2957_9_STEFANA]]/URI$ - скрытая теплота плавления, отнесенная к единице массы, $URI[[http://libmeta.ru/fme/formula/aux/2957_10_STEFANA]]/URI$ - температура замерзания. Әта задача имеет автомодельное решение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2957_5_STEFANA]]/URI
+\]
+
+Достаточно общая постановка С. 3. в пространственно трехмерном случае сводится к краевой задаче для квазилинейного параболич. уравнения 2-го порядка с кусочно непрерывными коэффициентами, терпящими разрывы 1-го рода на заранее неизвестных и подлежащих определению поверхностях, на к-рых задается значение искомой функции и, кроме того, удовлетворяющих нек-рому дифференциальному условию.
+
+Такого типа задачу одним из первых исследовал Й. Стефан (j. Stefan, 1890).
+
+URI[[http://libmeta.ru/fme/relation/2957_4_STEFANA]]/URI заключается в том, чтобы по заданному закону движения границы раздела фаз восстановить закон изменения URI[[http://libmeta.ru/fme/relation/2957_3_STEFANA]]/URI или коэффициентов уравнения. Напр., найти URI[[http://libmeta.ru/fme/relation/2957_2_STEFANA]]/URI
+
+из условий:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2957_6_STEFANA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2957_7_STEFANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2957_11_STEFANA]]/URI$ URI[[http://libmeta.ru/fme/relation/2957_1_STEFANA]]/URI.</text>
+  <text_orig>задача, возникающая при исследовании физических процессов, связанных с фазовым превращением вешества. Простейшая двухфазная С. з. в теплофизич. терминах формулируется следующим образом: найти распределение температуры $u(x, t)$ и закон движения границы раздела фаз $\xi=\xi(t)$ (напр., границы «лед - вода» внутри замерзающей воды) из уравнения теплопроводности:
+
+\[
+\begin{aligned}
+&amp; c_{1} \rho_{1} \frac{\partial u}{\partial t}=k_{1} \frac{\partial^{2} u}{\partial x^{2}} \text { при } 0&lt;x&lt;\xi(t), t&gt;0, \\
+&amp; c_{2} \rho_{2} \frac{\partial u}{\partial t}=k_{2} \frac{\partial^{2} u}{\partial x^{2}} \text { при } \xi(t)&lt;x&lt;+\infty, t&gt;0,
+\end{aligned}
+\]
+
+граничного условия
+
+начального условия
+
+\[
+u(0, t)=u_{1}=\mathrm{const}&lt;T, t&gt;0,
+\]
+
+\[
+u(x, 0)=u_{2}=\text { const }&gt;T, t \geqslant 0,
+\]
+
+и условия на границе замерзания
+
+\[
+\begin{gathered}
+u(\xi(t)-0, t)=u(\xi(t)+0, t), t&gt;0, \\
+\lambda \rho_{1} \frac{d \xi(t)}{d t}=k_{1} \frac{\partial u(\xi(t)-0, t)}{\partial x}-k_{2} \frac{\partial u(\xi(t)+0, t)}{\partial x}, t&gt;0, \xi(0)=0,
+\end{gathered}
+\]
+
+где $k_{1}$ и $k_{2}$ - коэффициенты теплопроводности, $c_{1}$ и $c_{2}-$ удельные теплоемкости, $\rho_{1}$ и $\rho_{2}-$ плотности твердой и соответственно жидкой фаз, $\lambda$ - скрытая теплота плавления, отнесенная к единице массы, $T$ - температура замерзания. Әта задача имеет автомодельное решение
+
+\[
+u=u\left(x t^{-1 / 2}\right), \xi(t)=\alpha t^{1 / 2}, \alpha=\text { const }&gt;0 .
+\]
+
+Достаточно общая постановка С. 3. в пространственно трехмерном случае сводится к краевой задаче для квазилинейного параболич. уравнения 2-го порядка с кусочно непрерывными коэффициентами, терпящими разрывы 1-го рода на заранее неизвестных и подлежащих определению поверхностях, на к-рых задается значение искомой функции и, кроме того, удовлетворяюших нек-рому дифференциальному условию.
+
+Такого типа задачу одним из первых исследовал Й. Стефан (J. Stefan, 1890).
+
+Обратная задача Стефана заключается в том, чтобы по заданному закону движения границы раздела фаз восстановить закон изменения граничных условий или коэффициентов уравнения. Напр., найти поток
+
+из условий:
+
+\[
+q(t)=\frac{\partial u(0, t)}{\partial x}
+\]
+
+\[
+\begin{gathered}
+\frac{\partial u}{\partial t}=a^{2} \frac{\partial^{2} u}{\partial x^{2}}, 0&lt;x&lt;\xi(t), 0&lt;t \leqslant T, \\
+u(x, 0)=\varphi(x), 0 \leqslant x \leqslant \xi_{0} ; u(\xi(t)-0, t)=\mu(t), \\
+\gamma(t) \frac{d \xi(t)}{d t}=-\frac{\partial u(\xi(t)-0, t)}{\partial x} ; \xi(0)=\xi_{0}&gt;0,
+\end{gathered}
+\]
+
+где $\varphi(x), \mu(t), \gamma(t) \geqslant \gamma_{0}&gt;0, \xi(t)-$ заданные функции.
+
+Лum.: [1] Т ихоно в А. Н., С ам а р с к и й А. А., Уравнения математической физики, 5 изд., М., 1977; [2] Будак Б. М., В а с иль е в Ф. П., У с п е н с к и й А. Б., Численные методы в газовой динамике, М., 1965, с. 139-83.</text_orig>
+</article>

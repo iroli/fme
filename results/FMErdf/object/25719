@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_25719">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>s</mi><mrow><mi>i</mi><mi>k</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msup><mi>z</mi><mrow><msub><mi>r</mi><mrow><mi>i</mi><mi>k</mi></mrow></msub></mrow></msup><msubsup><mo>&#x02211;</mo><mrow><mi>m</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><msub><mi>m</mi><mrow><mi>i</mi><mi>k</mi></mrow></msub></mrow></msubsup><msub><mi>&#x003C3;</mi><mrow><mi>i</mi><mi>k</mi><mi>m</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><msup><mi>ln</mi><mrow><mi>m</mi></mrow></msup><mi>z</mi><mo>&#x0002C;</mo><mspace linebreak="newline" /><msub><mi>&#x003C3;</mi><mrow><mi>i</mi><mi>k</mi><mi>m</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>l</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><msub><mi>&#x003C3;</mi><mrow><mi>i</mi><mi>k</mi><mi>m</mi><mi>l</mi></mrow></msub><msup><mi>z</mi><mrow><mo>&#x02212;</mo><mi>l</mi><mo>&#x0002F;</mo><mi>n</mi></mrow></msup><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}s_{i k}(z)=z^{r_{i k}} \sum_{m=0}^{m_{i k}} \sigma_{i k m}(z) \ln ^{m} z, \\\sigma_{i k m}(z)=\sum_{l=0}^{\infty} \sigma_{i k m l} z^{-l / n} .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

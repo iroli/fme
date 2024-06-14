@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1501_LAGRANZhA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1501_LAGRANZhA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/557</core:url>
+    <lbm:descriptor><![CDATA[ЛАГРАНЖА ПРИНЦИП СТАЦИОНАРНОГО ДЕЙСТВИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#4804"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4805"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4806"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1275"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4807"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_612"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2309"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3916"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4808"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>один из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_319_VARIATsIONNYE">вариационных принципов классической URI[[htt</a>p://libmeta.ru/fme/relation/1501_8_LAGRANZhA]]/URI: если заданы <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1874_NAChAL'NYJ">начальный момент</a> времени $URI[[http://libmeta.ru/fme/formula/aux/1501_1_LAGRANZhA]]/URI$ и начальное и конечное положения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голономной</a> системы, для которой существует <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1028_INTEGRAL">интеграл энергии</a>, то для действительного движения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4805">$$\delta \int_{t_{0}}^{t} 2 T d t=0$$</a><BR/></P><P>по сравнению с варьированными движениями между теми же начальным и конечным положениями и с той же <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергией</a> $URI[[http://libmeta.ru/fme/formula/aux/1501_2_LAGRANZhA]]/URI$, что и в действительном движении. С и м вол $URI[[http://libmeta.ru/fme/formula/aux/1501_3_LAGRANZhA]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI">вариация</a> при условии $URI[[http://libmeta.ru/fme/formula/aux/1501_4_LAGRANZhA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1501_5_LAGRANZhA]]/URI$ кинетическая и $URI[[http://libmeta.ru/fme/formula/aux/1501_6_LAGRANZhA]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2340_POTENTsIAL'NAJa">потенциальная энергии</a> системы.<BR/></P><P>Выполнение соотношения $URI[[http://libmeta.ru/fme/formula/aux/1501_7_LAGRANZhA]]/URI$ при фиксированном $URI[[http://libmeta.ru/fme/formula/aux/1501_8_LAGRANZhA]]/URI$ для всех сравниваемых в принципе Лагранжа движений налагает определенные ограничения на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорости</a> этих движений и время движения из положения $URI[[http://libmeta.ru/fme/formula/aux/1501_9_LAGRANZhA]]/URI$ в положение $URI[[http://libmeta.ru/fme/formula/aux/1501_10_LAGRANZhA]]/URI$ зависит от кривой, по которой совершается движение. Таким образом, принцип Лагранжа (*) с учетом <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4807">$$t-U=h$$</a> представляет собой условную вариационную задачу с верхним свободным концом.<BR/></P><P>Принцип предложен Ж. Лагранжем (j. Lagrange, 1760).<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#4804">В. В. Румянцев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[один из вариационных принципов классической механики: если заданы начальный момент времени $t_{0}$ и начальное и конечное положения голономной системы, для которой существует интеграл энергии, то для действительного движения
+
+\[
+\delta \int_{t_{0}}^{t} 2 T d t=0
+\]
+
+по сравнению с варьированными движениями между теми же начальным и конечным положениями и с той же энергией $h$, что и в действительном движении. С и м вол $\delta-$ вариация при условии $T-U=h$, где $T-$ кинетическая и $U-$ потенциальная энергии системы.
+
+Выполнение соотношения $T-U=h$ при фиксированном $h$ для всех сравниваемых в принципе Лагранжа движений налагает определенные ограничения на скорости этих движений и время движения из положения $P_{0}$ в положение $P_{1}$ зависит от кривой, по которой совершается движение. Таким образом, принцип Лагранжа (*) с учетом $T-U=h$ представляет собой условную вариационную задачу с верхним свободным концом.
+
+Принцип предложен Ж. Лагранжем (J. Lagrange, 1760).
+
+В. В. Румянцев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2340_POTENTsIAL'NAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1028_INTEGRAL"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1874_NAChAL'NYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_319_VARIATsIONNYE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

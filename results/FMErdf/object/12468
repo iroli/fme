@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12468">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><msub><mi>P</mi><mrow><mi>M</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>&#x003BB;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007C;</mo><mtable><mtr><mtd columnalign="left"><msub><mi>&#x003B5;</mi><mrow><mi>M</mi><mo>&#x02212;</mo><mi>N</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub></mtd><mtd columnalign="right"><msub><mi>&#x003B5;</mi><mrow><mi>M</mi><mo>&#x02212;</mo><mi>N</mi><mo>&#x0002B;</mo><mn>2</mn></mrow></msub></mtd><mtd columnalign="left"><mi>&#x02026;</mi></mtd><mtd columnalign="left"><msub><mi>&#x003B5;</mi><mrow><mi>M</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub></mtd></mtr><mtr><mtd columnalign="left"><mo>&#x022EF;</mo><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi><mi>&#x02026;</mi></mtd></mtr><mtr><mtd columnalign="left"><msub><mi>&#x003B5;</mi><mrow><mi>M</mi></mrow></msub></mtd><mtd columnalign="right"><msub><mi>&#x003B5;</mi><mrow><mi>M</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub></mtd><mtd columnalign="left"><mi>&#x02026;</mi></mtd><mtd columnalign="left"><msub><mi>&#x003B5;</mi><mrow><mi>M</mi><mo>&#x0002B;</mo><mi>N</mi></mrow></msub></mtd></mtr><mtr><mtd columnalign="left"><msubsup><mo>&#x02211;</mo><mrow><mi>j</mi><mo>&#x0003D;</mo><mi>N</mi></mrow><mrow><mi>M</mi></mrow></msubsup><msub><mi>&#x003B5;</mi><mrow><mi>j</mi><mo>&#x02212;</mo><mi>N</mi></mrow></msub><msup><mi>&#x003BB;</mi><mrow><mi>j</mi></mrow></msup></mtd><mtd columnalign="right"><mi>&#x02026;</mi></mtd><mtd columnalign="left"><msubsup><mo>&#x02211;</mo><mrow><mi>j</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mi>M</mi></mrow></msubsup><msub><mi>&#x003B5;</mi><mrow><mi>j</mi></mrow></msub><msup><mi>&#x003BB;</mi><mrow><mi>j</mi></mrow></msup></mtd></mtr></mtable><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mi>;</mi></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; P_{M}(\lambda)=\left|\begin{array}{lrll}\varepsilon_{M-N+1} &amp; \varepsilon_{M-N+2} &amp; \ldots &amp; \varepsilon_{M+1} \\\cdots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \\\varepsilon_{M} &amp; \varepsilon_{M+1} &amp; \ldots &amp; \varepsilon_{M+N} \\\sum_{j=N}^{M} \varepsilon_{j-N} \lambda^{j} &amp; \ldots &amp; \sum_{j=0}^{M} \varepsilon_{j} \lambda^{j}\end{array}\right| ;\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3324_FUR'E">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3324_FUR'E</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2582</core:url>
+    <lbm:descriptor><![CDATA[ФУРЬЕ ИНТЕГРАЛ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19589"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19590"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19591"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19592"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19593"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19594"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19595"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19596"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19597"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1115"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19598"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19599"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>формула для разложения непериодической функции на гармонические компоненты, частоты которых пробегают непрерывную совокупность значений. Если функция $URI[[http://libmeta.ru/fme/formula/aux/3324_1_FUR'E]]/URI$ абсолютно интегрируема на каждом конечном отрезке и если сходится<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19589">$$\int_{-\infty}^{\infty}|f(x)| d x$$</a><BR/></P><P>To<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19590">$$f(x)=\frac{1}{\pi} \int_{0}^{\infty} d u \int_{-\infty}^{\infty} f(t) \cos u(x-t) d t .$$</a><BR/></P><P>Эта формула впервые встречается при решении нек-рых задач теплопроводности у Ж. Фурье (j. Fourier, 1811), но еe доказательство было дано позже другими математиками. Формулу (1) можно представить также в виде:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19591">$$f(x)=\int_{0}^{\infty}[a(u) \cos u x+b(u) \sin u x] d u,$$</a><BR/></P><P>где<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19592">$$\begin{aligned}& a(u)=\frac{1}{\pi} \int_{-\infty}^{\infty} f(t) \cos u t d t, \\& b(u)=\frac{1}{\pi} \int_{-\infty}^{\infty} f(t) \sin u t d t .\end{aligned}$$</a><BR/></P><P>В частности, для четных функций<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19593">$$f(x)=\int_{0}^{\infty} a(u) \cos u x d x$$</a><BR/></P><P>где<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19594">$$a(u)=\frac{2}{\pi} \int_{0}^{\infty} f(t) \cos u t d t .$$</a><BR/></P><P>Формулу (2) можно рассматривать как предельную форму ряда Фурье для функций, имеющих период <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19597">$$2 T$$</a>, когда $URI[[http://libmeta.ru/fme/formula/aux/3324_3_FUR'E]]/URI$. При этом <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19598">$$a(u)$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19599">$$b(u)$$</a> аналогичны коэффициентам Фурье функции $URI[[http://libmeta.ru/fme/formula/aux/3324_6_FUR'E]]/URI$. Употребляя комплексные числа, можно за- менить формулу (1) формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19595">$$f(x)=\frac{1}{2 \pi} \int_{-\infty}^{\infty} d u \int_{-\infty}^{\infty} e^{i u(x-t)} f(t) d t .$$</a><BR/></P><P>Формулу (1) можно преобразовать также к виду:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19596">$$f(x)=\lim _{\lambda \rightarrow \infty} \frac{1}{\pi} \int_{-\infty}^{\infty} f(t) \frac{\sin \lambda(x-t)}{x-t} d t$$</a><BR/></P><P>(простой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3324_FUR'E">интеграл Фурье</a>).<BR/></P><P>Если интегралы в формулах (2), (3) расходятся, то во многих случаях их можно просуммировать к $URI[[http://libmeta.ru/fme/formula/aux/3324_7_FUR'E]]/URI$ при помощи того или иного метода суммирования. При решении многих задач используются формулы Ф. и. для функций двух и большего числа переменных.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[формула для разложения непериодичеєкой функции на гармонические компоненты, частоты которых пробегают непрерывную совокупность значений. Если функция $f(x)$ абсолютно интегрируема на каждом конечном отрезке и если сходится
+
+\[
+\int_{-\infty}^{\infty}|f(x)| d x
+\]
+
+To
+
+\[
+f(x)=\frac{1}{\pi} \int_{0}^{\infty} d u \int_{-\infty}^{\infty} f(t) \cos u(x-t) d t .
+\]
+
+Эта формула впервые встречается при решении нек-рых задач теплопроводности у Ж. Фурье (J. Fourier, 1811), но еe доказательство было дано позже другими математиками. Формулу (1) можно представить также в виде:
+
+\[
+f(x)=\int_{0}^{\infty}[a(u) \cos u x+b(u) \sin u x] d u,
+\]
+
+где
+
+\[
+\begin{aligned}
+& a(u)=\frac{1}{\pi} \int_{-\infty}^{\infty} f(t) \cos u t d t, \\
+& b(u)=\frac{1}{\pi} \int_{-\infty}^{\infty} f(t) \sin u t d t .
+\end{aligned}
+\]
+
+В частности, для четных функций
+
+\[
+f(x)=\int_{0}^{\infty} a(u) \cos u x d x
+\]
+
+где
+
+\[
+a(u)=\frac{2}{\pi} \int_{0}^{\infty} f(t) \cos u t d t .
+\]
+
+Формулу (2) можно рассматривать как предельную форму ряда Фурье для функций, имеюших период $2 T$, когда $T \rightarrow \infty$. При этом $a(u)$ и $b(u)$ аналогичны коэффициентам Фурье функции $f(x)$. Употребляя комплексные числа, можно за- менить формулу (1) формулой
+
+\[
+f(x)=\frac{1}{2 \pi} \int_{-\infty}^{\infty} d u \int_{-\infty}^{\infty} e^{i u(x-t)} f(t) d t .
+\]
+
+Формулу (1) можно преобразовать также к виду:
+
+\[
+f(x)=\lim _{\lambda \rightarrow \infty} \frac{1}{\pi} \int_{-\infty}^{\infty} f(t) \frac{\sin \lambda(x-t)}{x-t} d t
+\]
+
+(простой интеграл Фурье).
+
+Если интегралы в формулах (2), (3) расходятся, то во многих случаях их можно просуммировать к $f(x)$ при помощи того или иного метода суммирования. При решении многих задач используются формулы Ф. и. для функций двух и большего числа переменных.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3324_FUR'E"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

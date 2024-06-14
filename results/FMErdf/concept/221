@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_119_ASIMPTOTIChESKOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_119_ASIMPTOTIChESKOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/221</core:url>
+    <lbm:descriptor><![CDATA[АСИМПТОТИЧЕСКОЕ РЕШЕНИЕ, ФОРМАЛЬНО АСИМПТОТИЧЕСКОЕ РЕШЕНИЕ, УРАВНЕНИЯ $\hat{P} u=f$, ГДЕ $\hat{P}: E \rightarrow F$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#871"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#872"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2484"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2485"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2486"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2487"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1794"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2488"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_746"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2489"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2490"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2491"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2492"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>линейное отображение пространств, ассоциированное с фильтрациями <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2485">$$\left\{e_{k}\right\},\left\{f_{k}\right\}$$</a> (см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_117_ASIMPTOTIChESKOE">Асимптотическое разложение</a> элемента),- такое <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_117_ASIMPTOTIChESKOE">асимптотическое разложение</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2484">$$u \sim \sum_{k=k_{0}}^{\infty} u_{k}$$</a><BR/></P><P>что <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2486">$$\hat{p} \boldsymbol{u}-f$$</a> является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_112_ASIMPTOTIChESKI">асимптотически нулевым</a> в фильтрации <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2487">$$\left\{f_{k}\right\}$$</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">Оператор</a> $URI[[http://libmeta.ru/fme/formula/aux/119_4_ASIMPTOTIChESKOE]]/URI$ должен быть совместим с фильтрациями, то есть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2488">$$p\left(e_{k}\right) \subset F_{k-s}$$</a> для нек-рого $URI[[http://libmeta.ru/fme/formula/aux/119_6_ASIMPTOTIChESKOE]]/URI$. Следует отличать A. p. от асимптотики решения $URI[[http://libmeta.ru/fme/formula/aux/119_7_ASIMPTOTIChESKOE]]/URI$ уравнения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2489">$$\hat{p} u=f$$</a>, то есть от такого элемента <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2490">$$\tilde{u}$$</a>, для к-рого элемент <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2491">$$u-\tilde{u}$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_112_ASIMPTOTIChESKI">асимптотически нулевой</a> в фильтрации <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2492">$$\left\{e_{k}\right\}$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#871">Б. Ю. Стернин</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#872">В. Е. Шаталов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[линейное отображение пространств, ассоциированное с фильтрациями $\left\{E_{k}\right\},\left\{F_{k}\right\}$ (см. Acимптотическое разложение элемента),- такое асимптотическое разложение
+
+\[
+u \sim \sum_{k=k_{0}}^{\infty} u_{k}
+\]
+
+что $\hat{P} \boldsymbol{u}-f$ является асимптотически нулевым в фильтрации $\left\{F_{k}\right\}$. Оператор $\hat{P}$ должен быть совместим с фильтрациями, то есть $P\left(E_{k}\right) \subset F_{k-s}$ для нек-рого $s$. Следует отличать A. p. от асимптотики решения $u$ уравнения $\hat{P} u=f$, то есть от такого элемента $\tilde{u}$, для к-рого элемент $u-\tilde{u}$ асимптотически нулевой в фильтрации $\left\{E_{k}\right\}$ Б. Ю. Стернин, В. Е. Шаталов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_117_ASIMPTOTIChESKOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_112_ASIMPTOTIChESKI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_112_ASIMPTOTIChESKI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_117_ASIMPTOTIChESKOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

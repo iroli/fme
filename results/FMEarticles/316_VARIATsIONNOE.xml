@@ -1,0 +1,723 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/316_VARIATsIONNOE" alphabetic_pos="316">
+  <title>ВАРИАЦИОННОЕ ИСЧИСЛЕНИЕ В ЦЕЛОМ</title>
+  <authors>
+    <author>А. Т. Фоменко</author>
+  </authors>
+  <pages>
+    <start>67</start>
+    <end>70</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Дубровин Б. В., Новиков С. П., Фоменко А.Т., Современная геометрия, т. 1, 2 изд., М., 1986, т. 2, М., 1984; [2] М и л н о р Дж., Теория Морса, пер. с англ., М., 1965; [3] Теория солитонов, М., 1979; [4] Зе й ферт Т., Трель ьалль В., Вариационное исчисление в целом, пер. с англ., М., 1947; [5] Люс терникл.А., Шнирельман Л. Г., Топологические методы в вариационных задачах, Труды научно-исследовательского ин-та математики и механики, М., 1930; [6] Фоменк о А. Т., Вариационные методы в топологии, М., 1982; [7] С ме й л С., «успехи математич. наук», 1972, т. 27, в. 2, с. 77-133; [8] Ар нол ьд В. И., Матема-\section{0 Вариационное}тические методы классической механики, М., 1974; [9] Ф о ме н ко А. Т., Топологические вариационные задачи, М., 1984; [10] Л андау Л. Д., Лифшиц Е. М., Теория поля, 5 изд., М., 1967; [11] Фо м е н ко А. Т., Симплектическая топология. Методы и приложения, М., 1988; [12] Фомен ко А. Т., Фукс Д. Б., Курс гомотопической топологии, М., 1989.</literature_orig>
+    <unit>
+      <author>Дубровин Б. В.</author>
+      <author>Новиков С. П.</author>
+      <author>Фоменко А. Т.</author>
+      <title>Современная геометрия</title>
+      <publication>2 изд., М.</publication>
+      <year>1986</year>
+      <other>т. 1, т. 2, М., 1984</other>
+    </unit>
+    <unit>
+      <title>М и л н о р Дж., Теория Морса</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Теория солитонов</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Зейферт Т.</author>
+      <author>Трелььалль В.</author>
+      <title>Вариационное исчисление в целом</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1947</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Люстерникл. А.</author>
+      <author>Шнирельман Л. Г.</author>
+      <title>Топологические методы в вариационных задачах, Труды научно-исследовательского ин-та математики и механики</title>
+      <publication>М.</publication>
+      <year>1930</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Фоменко А. Т.</author>
+      <title>Вариационные методы в топологии</title>
+      <publication>М.</publication>
+      <year>1982</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Смейл С.</author>
+      <title>«успехи математич. наук»</title>
+      <publication/>
+      <year>1972</year>
+      <other>т. 27, в. 2, с. 77-133</other>
+    </unit>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <title>Матема-\section{0 Вариационное}тические методы классической механики</title>
+      <publication>М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Фоменко А. Т.</author>
+      <title>Топологические вариационные задачи</title>
+      <publication>М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Теория поля</title>
+      <publication>5 изд., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Фоменко А. Т.</author>
+      <title>Симплектическая топология. Методы и приложения</title>
+      <publication>М.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Фоменко А. Т.</author>
+      <author>Фукс Д. Б.</author>
+      <title>Курс гомотопической топологии</title>
+      <publication>М.</publication>
+      <year>1989</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_1_VARIATsIONNOE">d^{2} f(x)=\left\|\partial^{2} f / \partial x_{i} \partial x_{j}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_2_VARIATsIONNOE">\mu_{\lambda}(f) \geqslant \beta_{\lambda}(f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_3_VARIATsIONNOE">E(\gamma)=\int_{0}^{1}|d \gamma / d t|^{2} d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_4_VARIATsIONNOE">L(\gamma)=\int_{0}^{1}|d \gamma / d t| d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_5_VARIATsIONNOE">\left(\nabla_{\dot{\gamma}_{0}}\right)^{2} v+R\left(\dot{\gamma}_{0}, v\right) \dot{\gamma}_{0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_6_VARIATsIONNOE">S(\gamma)=\int_{p}^{q} L(x(t), \dot{x}(t), t) d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_7_VARIATsIONNOE">\left(\partial L / \partial \dot{x}^{i}\right)^{\prime}=\partial L / \partial x^{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_8_VARIATsIONNOE">S=\int\left(\frac{m}{z} \sum\left(\dot{x}^{i}\right)^{2}-U(x)\right) d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_9_VARIATsIONNOE">S_{1}=\frac{m c}{z} \int\langle\dot{x}, \dot{x}\rangle d \tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_10_VARIATsIONNOE">\begin{aligned}\langle\dot{x}, \dot{x}\rangle &amp; =\left(x^{0}\right)^{2}-\sum_{\alpha=1}^{3}\left(\dot{x}^{\alpha}\right)^{2} ; \\S_{2} &amp; =-m c \int\langle\dot{x}, \dot{x}\rangle^{1 / 2} d \tau .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_11_VARIATsIONNOE">\partial L / \partial x-\frac{d}{d t}(\partial L / \partial \dot{x})=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_12_VARIATsIONNOE">\dot{p}=-\partial H / \partial x, \quad \dot{x}=-\partial H / \partial p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_13_VARIATsIONNOE">\int[p \dot{x}-H(x, p)] d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_14_VARIATsIONNOE">I[f]=\int \ldots \int L\left(x^{k}, f^{i}\left(x^{k}\right), f_{x}^{i_{k}}\left(x^{p}\right)\right) d x^{1} \ldots d x^{n},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_15_VARIATsIONNOE">\partial L / \partial f^{i}-\sum_{\alpha=1}^{n} \partial / \partial x^{\alpha}\left(\partial L / \partial f_{x}^{i} \alpha\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_16_VARIATsIONNOE">S=S_{f}+S_{m}+S_{m f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_17_VARIATsIONNOE">S_{m}=-\sum m c \int_{a}^{b} d l,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_18_VARIATsIONNOE">S_{m f}=-\sum_{\langle j\rangle} \frac{e_{j}}{c} \int A_{k}^{\langle j\rangle} d x^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/316_19_VARIATsIONNOE">S_{g}=\int R d \Omega</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_1_VARIATsIONNOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_2_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_3_VARIATsIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_4_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_5_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_6_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_7_VARIATsIONNOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_8_VARIATsIONNOE">d f(x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_9_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_10_VARIATsIONNOE">d^{2} f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_11_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_12_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_13_VARIATsIONNOE">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_14_VARIATsIONNOE">x=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_15_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_16_VARIATsIONNOE">\lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_17_VARIATsIONNOE">\lambda=n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_18_VARIATsIONNOE">0&lt;\lambda&lt;n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_19_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_20_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_21_VARIATsIONNOE">x_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_22_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_23_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_24_VARIATsIONNOE">\left\{x_{\lambda}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_25_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_26_VARIATsIONNOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_27_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_28_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_29_VARIATsIONNOE">\mu_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_30_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_31_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_32_VARIATsIONNOE">\beta_{\lambda}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_33_VARIATsIONNOE">h_{\lambda}(m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_34_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_35_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_36_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_37_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_38_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_39_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_40_VARIATsIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_41_VARIATsIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_42_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_43_VARIATsIONNOE">(m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_44_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_45_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_46_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_47_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_48_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_49_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_50_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_51_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_52_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_53_VARIATsIONNOE">k \geqslant</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_54_VARIATsIONNOE">(m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_55_VARIATsIONNOE">k-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_56_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_57_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_58_VARIATsIONNOE">\operatorname{grad} f=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_59_VARIATsIONNOE">w_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_60_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_61_VARIATsIONNOE">d^{2} f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_62_VARIATsIONNOE">w_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_63_VARIATsIONNOE">w_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_64_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_65_VARIATsIONNOE">w_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_66_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_67_VARIATsIONNOE">d^{2} f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_68_VARIATsIONNOE">m^{\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_69_VARIATsIONNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_70_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_71_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_72_VARIATsIONNOE">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_73_VARIATsIONNOE">m^{\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_74_VARIATsIONNOE">f(\gamma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_75_VARIATsIONNOE">\gamma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_76_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_77_VARIATsIONNOE">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_78_VARIATsIONNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_79_VARIATsIONNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_80_VARIATsIONNOE">t_{\gamma} \Omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_81_VARIATsIONNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_82_VARIATsIONNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_83_VARIATsIONNOE">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_84_VARIATsIONNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_85_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_86_VARIATsIONNOE">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_87_VARIATsIONNOE">v(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_88_VARIATsIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_89_VARIATsIONNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_90_VARIATsIONNOE">\partial \gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_91_VARIATsIONNOE">\partial F / \partial \gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_92_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_93_VARIATsIONNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_94_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_95_VARIATsIONNOE">\partial F / \partial \gamma=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_96_VARIATsIONNOE">\partial \gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_97_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_98_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_99_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_100_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_101_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_102_VARIATsIONNOE">t_{\gamma} \Omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_103_VARIATsIONNOE">\partial^{2} F</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_104_VARIATsIONNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_105_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_106_VARIATsIONNOE">\partial F / \partial \gamma=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_107_VARIATsIONNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_108_VARIATsIONNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_109_VARIATsIONNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_110_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_111_VARIATsIONNOE">e(\gamma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_112_VARIATsIONNOE">\gamma_{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_113_VARIATsIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_114_VARIATsIONNOE">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_115_VARIATsIONNOE">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_116_VARIATsIONNOE">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_117_VARIATsIONNOE">\gamma(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_118_VARIATsIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_119_VARIATsIONNOE">v(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_120_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_121_VARIATsIONNOE">\nabla</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_122_VARIATsIONNOE">r-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_123_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_124_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_125_VARIATsIONNOE">\partial^{2} E</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_126_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_127_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_128_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_129_VARIATsIONNOE">p=\gamma_{0}(0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_130_VARIATsIONNOE">e(\gamma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_131_VARIATsIONNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_132_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_133_VARIATsIONNOE">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_134_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_135_VARIATsIONNOE">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_136_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_137_VARIATsIONNOE">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_138_VARIATsIONNOE">m-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_139_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_140_VARIATsIONNOE">q-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_141_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_142_VARIATsIONNOE">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_143_VARIATsIONNOE">\omega^{a}=\left(e \leqslant a^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_144_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_145_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_146_VARIATsIONNOE">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_147_VARIATsIONNOE">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_148_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_149_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_150_VARIATsIONNOE">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_151_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_152_VARIATsIONNOE">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_153_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_154_VARIATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_155_VARIATsIONNOE">(m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_156_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_157_VARIATsIONNOE">\pi(m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_158_VARIATsIONNOE">s^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_159_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_160_VARIATsIONNOE">\pi(m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_161_VARIATsIONNOE">s^{1} \rightarrow M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_162_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_163_VARIATsIONNOE">l-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_164_VARIATsIONNOE">\gamma_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_165_VARIATsIONNOE">\dot{x}^{i} \partial L / \partial \dot{x}^{i}-L ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_166_VARIATsIONNOE">p_{i}=\partial L / \partial \dot{x}^{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_167_VARIATsIONNOE">f_{i}=\partial L / \partial x^{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_168_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_169_VARIATsIONNOE">f=-\operatorname{grad} U-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_170_VARIATsIONNOE">m&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_171_VARIATsIONNOE">\left(x^{0}=c t, x^{1}, x^{2}, x^{3}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_172_VARIATsIONNOE">s_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_173_VARIATsIONNOE">s_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_174_VARIATsIONNOE">g_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_175_VARIATsIONNOE">(+---)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_176_VARIATsIONNOE">s_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_177_VARIATsIONNOE">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_178_VARIATsIONNOE">\operatorname{det}\left(\partial^{2} L / \partial \dot{x}^{i} \partial \dot{x}^{j}\right) \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_179_VARIATsIONNOE">p_{i}=\partial L(x, \dot{x}) / \partial \dot{x}^{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_180_VARIATsIONNOE">\dot{x}^{i}=v^{i}(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_181_VARIATsIONNOE">x, \dot{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_182_VARIATsIONNOE">h(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_183_VARIATsIONNOE">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_184_VARIATsIONNOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_185_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_186_VARIATsIONNOE">l(x, \dot{x})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_187_VARIATsIONNOE">h(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_188_VARIATsIONNOE">p=\partial L(x, \dot{x}) / \partial \dot{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_189_VARIATsIONNOE">\dot{x}=v(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_190_VARIATsIONNOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_191_VARIATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_192_VARIATsIONNOE">(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_193_VARIATsIONNOE">x^{1}, \ldots, x^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_194_VARIATsIONNOE">d, f^{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_195_VARIATsIONNOE">f_{x}^{i_{k}}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_196_VARIATsIONNOE">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_197_VARIATsIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_198_VARIATsIONNOE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_199_VARIATsIONNOE">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_200_VARIATsIONNOE">s_{m f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_201_VARIATsIONNOE">j, e_{j}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_202_VARIATsIONNOE">\left\{a_{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_203_VARIATsIONNOE">s_{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_204_VARIATsIONNOE">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_205_VARIATsIONNOE">m^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_206_VARIATsIONNOE">(+---)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/316_207_VARIATsIONNOE">d \Omega</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/316_1_VARIATsIONNOE">
+      <rel_text>Минимальная поверхность</rel_text>
+      <target>http://libmeta.ru/fme/article/1787_MINIMAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/316_2_VARIATsIONNOE">
+      <rel_text>теории многомерного В</rel_text>
+      <target>http://libmeta.ru/fme/article/3263_FERMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/316_3_VARIATsIONNOE">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/316_4_VARIATsIONNOE">
+      <rel_text>многомерного</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/316_5_VARIATsIONNOE">
+      <rel_text>экстремали</rel_text>
+      <target>http://libmeta.ru/fme/article/3502_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/316_6_VARIATsIONNOE">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/316_7_VARIATsIONNOE">
+      <rel_text>уравнение Эйлера-Лагранжа</rel_text>
+      <target>http://libmeta.ru/fme/article/3477_EJLERA-LAGRANZhA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/316_8_VARIATsIONNOE">
+      <rel_text>римановом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/2642_RIMANOVO</target>
+    </relation>
+  </relations>
+  <text>раздел современной математики и математической физики, изучающий глобальные свойства (свойства в целом) экстремалей различных функционалов. Каждая вариационная задача разбивается на следующие этапы: 1) поиск экстремалей, 2) описание геометрич. и аналитич. свойств отдельных экстремалей (как геометрич. объектов), 3) изучение взаимодействий между различными экстремалями, 4) связь между геометрией пространства, на к-ром определен данный функционал, и взаимным расположением экстремалей функционала в этом пространстве. В современном вариационном исчислении часто выделяют нульмерные, одномерные, двумерные и многомерные задачи, имея в виду число параметров, описывающих аргумент исследуемого функционала (функционал может быть определен на пространстве точек, кривых, поверхностей и т. д.).
+
+1. Нульмерные вариационные задачи в целом.
+
+1a. Классическа я те ор и я Морса. Здесь функционал - это скалярная функция $URI[[http://libmeta.ru/fme/formula/aux/316_1_VARIATsIONNOE]]/URI$, заданная на конечномерном пространстве, напр. на гладком многообразии $URI[[http://libmeta.ru/fme/formula/aux/316_2_VARIATsIONNOE]]/URI$ размерности $URI[[http://libmeta.ru/fme/formula/aux/316_3_VARIATsIONNOE]]/URI$. В качестве $URI[[http://libmeta.ru/fme/formula/aux/316_4_VARIATsIONNOE]]/URI$ может выступать конфигурационное или фазовое пространство той или иной физич. системы, тогда функция $URI[[http://libmeta.ru/fme/formula/aux/316_5_VARIATsIONNOE]]/URI$ может быть потенциалом или полной энергией данной системы. Здесь экстремали - это критические точки функции $URI[[http://libmeta.ru/fme/formula/aux/316_6_VARIATsIONNOE]]/URI$, то есть точки $URI[[http://libmeta.ru/fme/formula/aux/316_7_VARIATsIONNOE]]/URI$, в к-рых первый дифференциал функции обращается в нуль: $URI[[http://libmeta.ru/fme/formula/aux/316_8_VARIATsIONNOE]]/URI$. Во многих физич. задачах критич. точки потенциала соответствуют положениям равновесия данной системы (напр. в задаче о колебании маятника). Критич. точки могут быть изолированными и неизолированными. Изолированные критич. точки могут быть невырожденными и вырожденными. Если функция $URI[[http://libmeta.ru/fme/formula/aux/316_9_VARIATsIONNOE]]/URI$ имеет лишь невырожденные критич. точки, она называется функцией Морса (м о р с о в ско й фу н кц и е й). Критич. точка (экстремаль) невырождена в том и только в том случае, когда матрица второго дифференциала (гессиан) $URI[[http://libmeta.ru/fme/formula/aux/316_10_VARIATsIONNOE]]/URI$ невырождена в этой точке. Каждая невырожденная критич. точка характеризуется индексом $URI[[http://libmeta.ru/fme/formula/aux/316_11_VARIATsIONNOE]]/URI$. Индекс критич. точки - это число отрицательных собственных чисел у матрицы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_1_VARIATsIONNOE]]/URI
+\]
+
+составленной из вторых частных производных функции $URI[[http://libmeta.ru/fme/formula/aux/316_12_VARIATsIONNOE]]/URI$ по переменным $URI[[http://libmeta.ru/fme/formula/aux/316_13_VARIATsIONNOE]]/URI$, задающим положение точки $URI[[http://libmeta.ru/fme/formula/aux/316_14_VARIATsIONNOE]]/URI$. Критич. точки нулевого индекса соответствуют устойчивым положениям системы и задают локальные минимумы функции $URI[[http://libmeta.ru/fme/formula/aux/316_15_VARIATsIONNOE]]/URI$. Остальные критич. точки (то есть когда $URI[[http://libmeta.ru/fme/formula/aux/316_16_VARIATsIONNOE]]/URI$ ) отвечают неустойчивым положениям системы. Точки максимально возможного индекса (то есть $URI[[http://libmeta.ru/fme/formula/aux/316_17_VARIATsIONNOE]]/URI$ ) являются точками локальных максимумов функции, а точки с промежуточными значениями индекса (то есть $URI[[http://libmeta.ru/fme/formula/aux/316_18_VARIATsIONNOE]]/URI$ ) являются седловыми. Оказывается, количество и тип критич. точек функции, заданной на многообразии $URI[[http://libmeta.ru/fme/formula/aux/316_19_VARIATsIONNOE]]/URI$, в значительной мере определяют глобальную (топологическую) структуру этого многообразия. И наоборот, топологич. структура многообразия (напр. фазового пространства или пространства состояний физич. системы) накладывает серьезные ограничения на количество и тип экстремалей каждой функции Морса, областью определения к-рой является это многообразие (см. [1]).
+
+Т е о р е м а. Любое гладкое компактное связное замкнутое многообразие $URI[[http://libmeta.ru/fme/formula/aux/316_20_VARIATsIONNOE]]/URI$ имеет гомотопич. тип клеточного комплекса, в к-ром каждой критич. точке $URI[[http://libmeta.ru/fme/formula/aux/316_21_VARIATsIONNOE]]/URI$ индекса $URI[[http://libmeta.ru/fme/formula/aux/316_22_VARIATsIONNOE]]/URI$ соответствует клетка размерности $URI[[http://libmeta.ru/fme/formula/aux/316_23_VARIATsIONNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/316_24_VARIATsIONNOE]]/URI$ критич. точки нек-рой гладкой функции Морса на многообразии $URI[[http://libmeta.ru/fme/formula/aux/316_25_VARIATsIONNOE]]/URI$.
+
+В частности, имеется тесная связь между числом критич. (стационарных) точек функции $URI[[http://libmeta.ru/fme/formula/aux/316_26_VARIATsIONNOE]]/URI$ на гладком замкнутом многообразии $URI[[http://libmeta.ru/fme/formula/aux/316_27_VARIATsIONNOE]]/URI$ и топологич. инвариантами многообразия - группами гомологий, эйлеровой характеристикой (см. [2]). Пример такой связи - н е ра в енст в а М о р са. А именно, для любой гладкой функции, имеющей лишь невырожденные критич. точки на многообразии $URI[[http://libmeta.ru/fme/formula/aux/316_28_VARIATsIONNOE]]/URI$, выполняются неравенства:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_2_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/316_29_VARIATsIONNOE]]/URI$ - число критич. точек индекса $URI[[http://libmeta.ru/fme/formula/aux/316_30_VARIATsIONNOE]]/URI$ для функции $URI[[http://libmeta.ru/fme/formula/aux/316_31_VARIATsIONNOE]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/316_32_VARIATsIONNOE]]/URI$ ранг группы гомологий $URI[[http://libmeta.ru/fme/formula/aux/316_33_VARIATsIONNOE]]/URI$ многообразия $URI[[http://libmeta.ru/fme/formula/aux/316_34_VARIATsIONNOE]]/URI$ (так наз. число Бетти в размерности $URI[[http://libmeta.ru/fme/formula/aux/316_35_VARIATsIONNOE]]/URI$ ). О различных современных обобщениях неравенств Морса, связанных с математич. физикой, см., в частности, [1], [3].
+
+16. Точки бифуркации функции и теория Люстерника-Шнирельмана.
+
+Картина усложняется, если необходимо оценить число критич. точек для функции $URI[[http://libmeta.ru/fme/formula/aux/316_36_VARIATsIONNOE]]/URI$, не являющейся морсовской. Напр., при деформации функции $URI[[http://libmeta.ru/fme/formula/aux/316_37_VARIATsIONNOE]]/URI$ невырожденные особенности могут сливаться друг с другом, образуя вырожденные особенности (вырожденные критич. точки). Такие взаимные слияния уменьшают число критич. точек и прежние неравенства Морса уже не выполняются. Полезным обобщением понятия критич. точки функции является понятие бифуркации точки функции $URI[[http://libmeta.ru/fme/formula/aux/316_38_VARIATsIONNOE]]/URI$ на пространстве (многообразии) $URI[[http://libmeta.ru/fme/formula/aux/316_39_VARIATsIONNOE]]/URI$. В частности, такие стационарные состояния естественно возникают в небесной механике, в плоской задаче $URI[[http://libmeta.ru/fme/formula/aux/316_40_VARIATsIONNOE]]/URI$ тел (движение $URI[[http://libmeta.ru/fme/formula/aux/316_41_VARIATsIONNOE]]/URI$ материальных точек в одной плоскости, управляемое ньютоновским потенциалом согласно законам классич. механики) (см. [7]). Во многих конкретных примерах можно представлять себе точки бифуркации функции как результат слияния нескольких невырожденных особенностей (см., напр., [1]). Оказывается, существует топологич. инвариант многообразия $URI[[http://libmeta.ru/fme/formula/aux/316_42_VARIATsIONNOE]]/URI$, называемый ка те гори ей Люстерника-Шни рельмана cat $URI[[http://libmeta.ru/fme/formula/aux/316_43_VARIATsIONNOE]]/URI$, оценивающий снизу число точек бифуркации любой функции $URI[[http://libmeta.ru/fme/formula/aux/316_44_VARIATsIONNOE]]/URI$, заданной на данном многообразии $URI[[http://libmeta.ru/fme/formula/aux/316_45_VARIATsIONNOE]]/URI$ (см. [5]).
+
+Категорией пространства $URI[[http://libmeta.ru/fme/formula/aux/316_46_VARIATsIONNOE]]/URI$ называется наименьшее число замкнутых подмножеств в $URI[[http://libmeta.ru/fme/formula/aux/316_47_VARIATsIONNOE]]/URI$, стягиваемых по $URI[[http://libmeta.ru/fme/formula/aux/316_48_VARIATsIONNOE]]/URI$ в точку и образующих покрытие $URI[[http://libmeta.ru/fme/formula/aux/316_49_VARIATsIONNOE]]/URI$ (то есть объединение всех таких подмножеств покрывает все пространство).
+
+Т е о р е м а. Пусть $URI[[http://libmeta.ru/fme/formula/aux/316_50_VARIATsIONNOE]]/URI$ - гладкое компактное связное многообразие без границы и $URI[[http://libmeta.ru/fme/formula/aux/316_51_VARIATsIONNOE]]/URI$ - любая гладкая функция на $URI[[http://libmeta.ru/fme/formula/aux/316_52_VARIATsIONNOE]]/URI$. Тогда всегда $URI[[http://libmeta.ru/fme/formula/aux/316_53_VARIATsIONNOE]]/URI$ cat $URI[[http://libmeta.ru/fme/formula/aux/316_54_VARIATsIONNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/316_55_VARIATsIONNOE]]/URI$ число различных точек бифуркации функции $URI[[http://libmeta.ru/fme/formula/aux/316_56_VARIATsIONNOE]]/URI$.
+
+Теорема, в частности, оценивает снизу число различных критич. точек функции $URI[[http://libmeta.ru/fme/formula/aux/316_57_VARIATsIONNOE]]/URI$ (вообще говоря, вырожденных).
+
+1в. Критические многообразия. Важным случаем вырожденных критич. точек являются «невырожденные к р и т и ч ски е мн о го о б рази я». Это означает следующее: уравнение $URI[[http://libmeta.ru/fme/formula/aux/316_58_VARIATsIONNOE]]/URI$ задает набор гладких подмногообразий $URI[[http://libmeta.ru/fme/formula/aux/316_59_VARIATsIONNOE]]/URI$ в многообразии $URI[[http://libmeta.ru/fme/formula/aux/316_60_VARIATsIONNOE]]/URI$; кроме того, дифференциал $URI[[http://libmeta.ru/fme/formula/aux/316_61_VARIATsIONNOE]]/URI$ в любой точке подмногообразий $URI[[http://libmeta.ru/fme/formula/aux/316_62_VARIATsIONNOE]]/URI$ должен быть невырожден на векторном пространстве векторов, нормальных к $URI[[http://libmeta.ru/fme/formula/aux/316_63_VARIATsIONNOE]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/316_64_VARIATsIONNOE]]/URI$ относительно нек-рой римановой (положительной) метрики. И нде к с о м связного критич. многообразия $URI[[http://libmeta.ru/fme/formula/aux/316_65_VARIATsIONNOE]]/URI$ называется число $URI[[http://libmeta.ru/fme/formula/aux/316_66_VARIATsIONNOE]]/URI$ отрицательных квадратов формы $URI[[http://libmeta.ru/fme/formula/aux/316_67_VARIATsIONNOE]]/URI$. Функции такого типа естественно возникают в случае, если на пространстве действует группа Ли, и функция инвариантна относительно преобразований группы. Для функций с невырожденными критич. подмногообразиями справедливы аналоги теорем, сформулированных выше для функций Морса (выполняются также аналоги неравенств Морса).
+
+2. Одномерные вариационные задачи в целом. Естественный аналог теории Морса и Люстерника-Шнирельмана возникает на бесконечномерных гладких многообразиях $URI[[http://libmeta.ru/fme/formula/aux/316_68_VARIATsIONNOE]]/URI$. Одним из таких «многообразий» является, напр., пространство кусочно гладких путей $URI[[http://libmeta.ru/fme/formula/aux/316_69_VARIATsIONNOE]]/URI$, идущих на конечномерном многообразии $URI[[http://libmeta.ru/fme/formula/aux/316_70_VARIATsIONNOE]]/URI$ от точки $URI[[http://libmeta.ru/fme/formula/aux/316_71_VARIATsIONNOE]]/URI$ до точки $URI[[http://libmeta.ru/fme/formula/aux/316_72_VARIATsIONNOE]]/URI$. На «многообразии» $URI[[http://libmeta.ru/fme/formula/aux/316_73_VARIATsIONNOE]]/URI$ можно рассмотреть функцию $URI[[http://libmeta.ru/fme/formula/aux/316_74_VARIATsIONNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/316_75_VARIATsIONNOE]]/URI$ пути, соединяющие точки $URI[[http://libmeta.ru/fme/formula/aux/316_76_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_77_VARIATsIONNOE]]/URI$. Такие «функции» называются одномерными функционалами. С каждой точкой $URI[[http://libmeta.ru/fme/formula/aux/316_78_VARIATsIONNOE]]/URI$ из пространства $URI[[http://libmeta.ru/fme/formula/aux/316_79_VARIATsIONNOE]]/URI$ можно связать нек-рое бесконечномерное векторное пространство $URI[[http://libmeta.ru/fme/formula/aux/316_80_VARIATsIONNOE]]/URI$, к-рое можно естественно представлять себе как «касательное пространство» к $URI[[http://libmeta.ru/fme/formula/aux/316_81_VARIATsIONNOE]]/URI$ в «точке» $URI[[http://libmeta.ru/fme/formula/aux/316_82_VARIATsIONNOE]]/URI$. Это пространство состоит из всех кусочно гладких векторных полей $URI[[http://libmeta.ru/fme/formula/aux/316_83_VARIATsIONNOE]]/URI$ вдоль пути $URI[[http://libmeta.ru/fme/formula/aux/316_84_VARIATsIONNOE]]/URI$, обращающихся в нуль в точках $URI[[http://libmeta.ru/fme/formula/aux/316_85_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_86_VARIATsIONNOE]]/URI$. Поле $URI[[http://libmeta.ru/fme/formula/aux/316_87_VARIATsIONNOE]]/URI$ (где $URI[[http://libmeta.ru/fme/formula/aux/316_88_VARIATsIONNOE]]/URI$ - параметр вдоль кривой $URI[[http://libmeta.ru/fme/formula/aux/316_89_VARIATsIONNOE]]/URI$ ) в вариационном исчислении обычно обозначается через $URI[[http://libmeta.ru/fme/formula/aux/316_90_VARIATsIONNOE]]/URI$. Тогда, копируя «конечномерное» определение производной по направлению от гладкой функции на конечномерном многообразии, можно дать определение вариационной производной $URI[[http://libmeta.ru/fme/formula/aux/316_91_VARIATsIONNOE]]/URI$. Путь $URI[[http://libmeta.ru/fme/formula/aux/316_92_VARIATsIONNOE]]/URI$ из $URI[[http://libmeta.ru/fme/formula/aux/316_93_VARIATsIONNOE]]/URI$ называется к р и т и ч е с им для функционала $URI[[http://libmeta.ru/fme/formula/aux/316_94_VARIATsIONNOE]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/316_95_VARIATsIONNOE]]/URI$ для любой вариации $URI[[http://libmeta.ru/fme/formula/aux/316_96_VARIATsIONNOE]]/URI$ пути $URI[[http://libmeta.ru/fme/formula/aux/316_97_VARIATsIONNOE]]/URI$. При определенных предположениях о функционале $URI[[http://libmeta.ru/fme/formula/aux/316_98_VARIATsIONNOE]]/URI$ можно определить и нде к с $URI[[http://libmeta.ru/fme/formula/aux/316_99_VARIATsIONNOE]]/URI$ критич. пути $URI[[http://libmeta.ru/fme/formula/aux/316_100_VARIATsIONNOE]]/URI$, опять копируя «конечномерное» определение и беря в качестве $URI[[http://libmeta.ru/fme/formula/aux/316_101_VARIATsIONNOE]]/URI$ размерность максимального подпространства в пространстве $URI[[http://libmeta.ru/fme/formula/aux/316_102_VARIATsIONNOE]]/URI$, на к-ром гессиан $URI[[http://libmeta.ru/fme/formula/aux/316_103_VARIATsIONNOE]]/URI$ отрицательно определен. Таким образом, «критич. точки» $URI[[http://libmeta.ru/fme/formula/aux/316_104_VARIATsIONNOE]]/URI$ для функционала $URI[[http://libmeta.ru/fme/formula/aux/316_105_VARIATsIONNOE]]/URI$ находятся как решения дифференциального уравнения $URI[[http://libmeta.ru/fme/formula/aux/316_106_VARIATsIONNOE]]/URI$, называемого у р а н е н и ем Эй ле р а - Л а гр а н жа. Среди важнейших функционалов $URI[[http://libmeta.ru/fme/formula/aux/316_107_VARIATsIONNOE]]/URI$, естественно возникающих в механике, математич. физике, следует отметить: действие пути $URI[[http://libmeta.ru/fme/formula/aux/316_108_VARIATsIONNOE]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_3_VARIATsIONNOE]]/URI
+\]
+
+и длина пути $URI[[http://libmeta.ru/fme/formula/aux/316_109_VARIATsIONNOE]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_4_VARIATsIONNOE]]/URI
+\]
+
+Т е о рема. Путь $URI[[http://libmeta.ru/fme/formula/aux/316_110_VARIATsIONNOE]]/URI$ является критическим («критич. точкой») для функционала $URI[[http://libmeta.ru/fme/formula/aux/316_111_VARIATsIONNOE]]/URI$ тогда и только тогда, когда $URI[[http://libmeta.ru/fme/formula/aux/316_112_VARIATsIONNOE]]/URI$ это геодезическая (при этом параметром $URI[[http://libmeta.ru/fme/formula/aux/316_113_VARIATsIONNOE]]/URI$ вдоль геодезической служит длина дуги).
+
+Так как при определении функционалов $URI[[http://libmeta.ru/fme/formula/aux/316_114_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_115_VARIATsIONNOE]]/URI$ предполагается наличие на многообразии римановой метрики, то геодезические могут быть также охарактеризованы как кривые локально минимальной длины. Экс т р е ма л и (к р и тиче ские пут и) для функционала длины $URI[[http://libmeta.ru/fme/formula/aux/316_116_VARIATsIONNOE]]/URI$ - это пути, получающиеся из геодезических $URI[[http://libmeta.ru/fme/formula/aux/316_117_VARIATsIONNOE]]/URI$ гладкими заменами параметра $URI[[http://libmeta.ru/fme/formula/aux/316_118_VARIATsIONNOE]]/URI$. Векторное поле $URI[[http://libmeta.ru/fme/formula/aux/316_119_VARIATsIONNOE]]/URI$ вдоль геодезической $URI[[http://libmeta.ru/fme/formula/aux/316_120_VARIATsIONNOE]]/URI$ называется я к о б и вым, если оно удовлетворяет д и фференциальному уравнению Якоби:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_5_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/316_121_VARIATsIONNOE]]/URI$ - оператор ковариантного дифференцирования, $URI[[http://libmeta.ru/fme/formula/aux/316_122_VARIATsIONNOE]]/URI$ оператор, соответствующий тензору кривизны Римана. Две точки на геодезической $URI[[http://libmeta.ru/fme/formula/aux/316_123_VARIATsIONNOE]]/URI$ называются сопряженными, если существует ненулевое якобиево поле вдоль $URI[[http://libmeta.ru/fme/formula/aux/316_124_VARIATsIONNOE]]/URI$, обращающееся в нуль в обеих этих точках.
+
+Т е о р е ма. Индекс квадратичной формы $URI[[http://libmeta.ru/fme/formula/aux/316_125_VARIATsIONNOE]]/URI$ в критич. точке $URI[[http://libmeta.ru/fme/formula/aux/316_126_VARIATsIONNOE]]/URI$ равен числу точек на геодезической $URI[[http://libmeta.ru/fme/formula/aux/316_127_VARIATsIONNOE]]/URI$, сопряженных вдоль $URI[[http://libmeta.ru/fme/formula/aux/316_128_VARIATsIONNOE]]/URI$ начальной точке $URI[[http://libmeta.ru/fme/formula/aux/316_129_VARIATsIONNOE]]/URI$. При этом каждая сопряженная точка учитывается столько раз, какова ее кратность.
+
+Поступая по аналогии с конечномерным случаем, рассмотрим функционал действия $URI[[http://libmeta.ru/fme/formula/aux/316_130_VARIATsIONNOE]]/URI$ на пространстве $URI[[http://libmeta.ru/fme/formula/aux/316_131_VARIATsIONNOE]]/URI$. Этот функционал будет «функцией Морса», если все его критич. точки (то есть геодезические из точки $URI[[http://libmeta.ru/fme/formula/aux/316_132_VARIATsIONNOE]]/URI$ в точку $URI[[http://libmeta.ru/fme/formula/aux/316_133_VARIATsIONNOE]]/URI$ ) будут невырождены. Это будет в том и только в том случае, когда точки $URI[[http://libmeta.ru/fme/formula/aux/316_134_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_135_VARIATsIONNOE]]/URI$ не сопряжены друг другу (вдоль любой геодезической, соединяющей $URI[[http://libmeta.ru/fme/formula/aux/316_136_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_137_VARIATsIONNOE]]/URI$ ).
+
+Т е о р е м а. Пусть $URI[[http://libmeta.ru/fme/formula/aux/316_138_VARIATsIONNOE]]/URI$ компактное многообразие, $URI[[http://libmeta.ru/fme/formula/aux/316_139_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_140_VARIATsIONNOE]]/URI$ пара точек на $URI[[http://libmeta.ru/fme/formula/aux/316_141_VARIATsIONNOE]]/URI$, не сопряженных ни вдоль какой геодезической длины, не превосходящей $URI[[http://libmeta.ru/fme/formula/aux/316_142_VARIATsIONNOE]]/URI$. Тогда множество $URI[[http://libmeta.ru/fme/formula/aux/316_143_VARIATsIONNOE]]/URI$ гомотопически эквивалентно конечному клеточному комплексу, в к-ром каждая клетка размерности $URI[[http://libmeta.ru/fme/formula/aux/316_144_VARIATsIONNOE]]/URI$ взаимно однозначно соответствует геодезической индекса $URI[[http://libmeta.ru/fme/formula/aux/316_145_VARIATsIONNOE]]/URI$ (и длины, не превосходящей $URI[[http://libmeta.ru/fme/formula/aux/316_146_VARIATsIONNOE]]/URI$ ).
+
+Если теперь «устремить $URI[[http://libmeta.ru/fme/formula/aux/316_147_VARIATsIONNOE]]/URI$ в бесконечность», то в результате получим, что пространство всех непрерывных путей на $URI[[http://libmeta.ru/fme/formula/aux/316_148_VARIATsIONNOE]]/URI$, соединяющих $URI[[http://libmeta.ru/fme/formula/aux/316_149_VARIATsIONNOE]]/URI$ с $URI[[http://libmeta.ru/fme/formula/aux/316_150_VARIATsIONNOE]]/URI$, имеет гомотопич. тип счетного клеточного комплекса, в к-ром каждой геодезической из $URI[[http://libmeta.ru/fme/formula/aux/316_151_VARIATsIONNOE]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/316_152_VARIATsIONNOE]]/URI$ с индексом $URI[[http://libmeta.ru/fme/formula/aux/316_153_VARIATsIONNOE]]/URI$ соответствует в точности одна клетка размерности $URI[[http://libmeta.ru/fme/formula/aux/316_154_VARIATsIONNOE]]/URI$.
+
+Изложенная вариационная задача называется «3 а д а ч е й с закрепленными концами». Важное значение имеют «замкнутые экстремумы», возникающие в периодич. задаче В. и. в ц. Рассматривается пространство П $URI[[http://libmeta.ru/fme/formula/aux/316_155_VARIATsIONNOE]]/URI$ всех замкнутых гладких кривых на многообразии $URI[[http://libmeta.ru/fme/formula/aux/316_156_VARIATsIONNOE]]/URI$. Анализ периодич. задачи сложнее, чем изучение геодезических с закрепленными концами. Напр., задача о нахождении ко- личества простых (то есть некратных) замкнутых геодезических далеко не тривиальна (см. [1]). Каждая точка пространства $URI[[http://libmeta.ru/fme/formula/aux/316_157_VARIATsIONNOE]]/URI$ есть гладкое отображение окружности $URI[[http://libmeta.ru/fme/formula/aux/316_158_VARIATsIONNOE]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/316_159_VARIATsIONNOE]]/URI$. Множество линейно связных компонент пространства $URI[[http://libmeta.ru/fme/formula/aux/316_160_VARIATsIONNOE]]/URI$ - это, по определению, множество «свободных» гомотопич. классов отображений $URI[[http://libmeta.ru/fme/formula/aux/316_161_VARIATsIONNOE]]/URI$.
+
+Т е о р е м а. Если $URI[[http://libmeta.ru/fme/formula/aux/316_162_VARIATsIONNOE]]/URI$ - компактное риманово гладкое многообразие отрицательной кривизны, то в каждом свободном гомотопич. классе замкнутых путей существует единственная замкнутая геодезическая.
+
+Одномерная задача общего типа изучает величину (функционал)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_6_VARIATsIONNOE]]/URI
+\]
+
+и ее экстремали. Функция $URI[[http://libmeta.ru/fme/formula/aux/316_163_VARIATsIONNOE]]/URI$ лагранжиан. Экстремали $URI[[http://libmeta.ru/fme/formula/aux/316_164_VARIATsIONNOE]]/URI$ - это решения уравнений Эйлера-Лагранжа:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_7_VARIATsIONNOE]]/URI
+\]
+
+Энергия - это $URI[[http://libmeta.ru/fme/formula/aux/316_165_VARIATsIONNOE]]/URI$ импульс - это $URI[[http://libmeta.ru/fme/formula/aux/316_166_VARIATsIONNOE]]/URI$; сила - это $URI[[http://libmeta.ru/fme/formula/aux/316_167_VARIATsIONNOE]]/URI$.
+
+Приме р 1. Траектории движения частицы массы $URI[[http://libmeta.ru/fme/formula/aux/316_168_VARIATsIONNOE]]/URI$ в потенциальном силовом поле $URI[[http://libmeta.ru/fme/formula/aux/316_169_VARIATsIONNOE]]/URI$ это экстремали функционала
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_8_VARIATsIONNOE]]/URI
+\]
+
+(принцип наименьшего действия).
+
+П р и ме р 2. Движение релятивистской (свободной) частицы ненулевой массы $URI[[http://libmeta.ru/fme/formula/aux/316_170_VARIATsIONNOE]]/URI$ определяется в пространстве Минковского с координатами $URI[[http://libmeta.ru/fme/formula/aux/316_171_VARIATsIONNOE]]/URI$ одним из двух функционалов (действий) на времениподобных кривых:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_9_VARIATsIONNOE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_10_VARIATsIONNOE]]/URI
+\]
+
+Мировые линии массивных частиц в пространстве Минковского - это экстремали функционалов $URI[[http://libmeta.ru/fme/formula/aux/316_172_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_173_VARIATsIONNOE]]/URI$ (релятивистский принцип наименьшего действия). Основным постулатом общей теории относительности является тезис (или гипотеза) Эйнштейна, согласно к-рому гравитационное поле - это метрика $URI[[http://libmeta.ru/fme/formula/aux/316_174_VARIATsIONNOE]]/URI$ в 4-мерном пространстве-времени [в каждой точке к-рого метрика имеет тип $URI[[http://libmeta.ru/fme/formula/aux/316_175_VARIATsIONNOE]]/URI$ ]. При отсутствии других сил пробная частица в гравитационном поле движется по времениподобным геодезическим, определяемым функционалом $URI[[http://libmeta.ru/fme/formula/aux/316_176_VARIATsIONNOE]]/URI$. Частица нулевой массы движется по изотропным геодезическим.
+
+Лагранжиан $URI[[http://libmeta.ru/fme/formula/aux/316_177_VARIATsIONNOE]]/URI$ называется н е в ы ро жде н ны м, если $URI[[http://libmeta.ru/fme/formula/aux/316_178_VARIATsIONNOE]]/URI$, и называется с ильно невы рожд е н н ы М, если уравнения $URI[[http://libmeta.ru/fme/formula/aux/316_179_VARIATsIONNOE]]/URI$ можно взаимно однозначно и гладко решить в виде $URI[[http://libmeta.ru/fme/formula/aux/316_180_VARIATsIONNOE]]/URI$ для всех $URI[[http://libmeta.ru/fme/formula/aux/316_181_VARIATsIONNOE]]/URI$. Г а м и л ь т о н и а но м $URI[[http://libmeta.ru/fme/formula/aux/316_182_VARIATsIONNOE]]/URI$ (для сильно невырожденных лагранжианов) называется энергия $URI[[http://libmeta.ru/fme/formula/aux/316_183_VARIATsIONNOE]]/URI$, выраженная через $URI[[http://libmeta.ru/fme/formula/aux/316_184_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_185_VARIATsIONNOE]]/URI$.
+
+Т е о ре м а. Пусть $URI[[http://libmeta.ru/fme/formula/aux/316_186_VARIATsIONNOE]]/URI$ - сильно невырожденный лагранжиан и $URI[[http://libmeta.ru/fme/formula/aux/316_187_VARIATsIONNOE]]/URI$ - гамильтониан, где $URI[[http://libmeta.ru/fme/formula/aux/316_188_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_189_VARIATsIONNOE]]/URI$. Уравнения Эйлера-Лагранжа
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_11_VARIATsIONNOE]]/URI
+\]
+
+эквивалентны уравнениям Гамильтона, в к-рых $URI[[http://libmeta.ru/fme/formula/aux/316_190_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/316_191_VARIATsIONNOE]]/URI$ считаются независимыми переменными:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_12_VARIATsIONNOE]]/URI
+\] Уравнения Эйлера-Лагранжа для функционала
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_13_VARIATsIONNOE]]/URI
+\]
+
+в фазовом пространстве переменных $URI[[http://libmeta.ru/fme/formula/aux/316_192_VARIATsIONNOE]]/URI$ совпадают с уравнениями Гамильтона.
+
+Вариационное исчисление для указанных функционалов составляет важную часть гамильтоновой механики и симплектич. геометрии (см. [1], [8], [11]).
+
+3. Многомерные вариационные задачи в целом. Здесь рассматриваются функционалы вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_14_VARIATsIONNOE]]/URI
+\]
+
+где параметры $URI[[http://libmeta.ru/fme/formula/aux/316_193_VARIATsIONNOE]]/URI$ меняются в нек-рой области $URI[[http://libmeta.ru/fme/formula/aux/316_194_VARIATsIONNOE]]/URI$ функции от этих параметров и $URI[[http://libmeta.ru/fme/formula/aux/316_195_VARIATsIONNOE]]/URI$ частные производные. Общие ура внен и я Эйл е ра-Лагран жа имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_15_VARIATsIONNOE]]/URI
+\]
+
+Функция является стационарной (критической) для функционала $URI[[http://libmeta.ru/fme/formula/aux/316_196_VARIATsIONNOE]]/URI$ тогда и только тогда, когда она удовлетворяет этой системе уравнений.
+
+Пример 1. Уравнения электромагнитного поля. Уравнения Максвелла - это уравнения Эйлера-Лагранжа для функционала
+
+Здесь
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_16_VARIATsIONNOE]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_17_VARIATsIONNOE]]/URI
+\]
+
+где сумма берется по всем частицам, движущимся в поле, $URI[[http://libmeta.ru/fme/formula/aux/316_197_VARIATsIONNOE]]/URI$ - масса частицы, $URI[[http://libmeta.ru/fme/formula/aux/316_198_VARIATsIONNOE]]/URI$ - скорость света, интеграл берется вдоль мировой линии в пространстве Минковского между двумя фиксированными событиями, $URI[[http://libmeta.ru/fme/formula/aux/316_199_VARIATsIONNOE]]/URI$ - длина дуги. Слагаемое $URI[[http://libmeta.ru/fme/formula/aux/316_200_VARIATsIONNOE]]/URI$ - это та часть действия, к-рая обусловлена взаимодействием между частицей и полем, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_18_VARIATsIONNOE]]/URI
+\]
+
+где сумма берется по всем частицам $URI[[http://libmeta.ru/fme/formula/aux/316_201_VARIATsIONNOE]]/URI$ заряды, интеграл берется вдоль мировой линии частицы; свойства поля характеризуются 4-вектором $URI[[http://libmeta.ru/fme/formula/aux/316_202_VARIATsIONNOE]]/URI$, называемым 4-п о т е н ц и а ло м. Слагаемое $URI[[http://libmeta.ru/fme/formula/aux/316_203_VARIATsIONNOE]]/URI$ - это часть действия, зависящая лишь от свойств самого поля.
+
+П р и м е р 2. Уравнения гравитационного поля, то есть уравнения Эйнштейна, можно получить как уравнения Эйлера-Лагранжа при варьировании функционала
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/316_19_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/316_204_VARIATsIONNOE]]/URI$ - это скалярная кривизна 4-мерного многообразия $URI[[http://libmeta.ru/fme/formula/aux/316_205_VARIATsIONNOE]]/URI$, снабженного псевдоримановой метрикой типа $URI[[http://libmeta.ru/fme/formula/aux/316_206_VARIATsIONNOE]]/URI$, a $URI[[http://libmeta.ru/fme/formula/aux/316_207_VARIATsIONNOE]]/URI$ - стандартная 4-форма объема.
+
+П р и м е р 3. Уравнение минимальной поверхности (подмногообразия) в объемлющем URI[[http://libmeta.ru/fme/relation/316_8_VARIATsIONNOE]]/URI это URI[[http://libmeta.ru/fme/relation/316_7_VARIATsIONNOE]]/URI для URI[[http://libmeta.ru/fme/relation/316_6_VARIATsIONNOE]]/URI площади или объема (см. URI[[http://libmeta.ru/fme/relation/316_1_VARIATsIONNOE]]/URI).
+
+Пример 4. Гармонические поверхности (о тобр а жен и я) - это URI[[http://libmeta.ru/fme/relation/316_5_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/fme/relation/316_4_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/fme/relation/316_3_VARIATsIONNOE]]/URI Дирихле.
+
+Элементы общей URI[[http://libmeta.ru/fme/relation/316_2_VARIATsIONNOE]]/URI. и. в ц. и соответствующие примеры см. в [1], [6], [11].</text>
+  <text_orig>раЗДеЛ современной математики и математической физики, изучающий глобальные свойства (свойства в целом) экстремалей различных функционалов. Каждая вариационная задача разбивается на следующие этапы: 1) поиск экстремалей, 2) описание геометрич. и аналитич. свойств отдельных экстремалей (как геометрич. объектов), 3) изучение взаимодействий между различными экстремалями, 4) связь между геометрией пространства, на к-ром определен данный функционал, и взаимным расположением экстремалей функционала в этом пространстве. В современном вариационном исчислении часто выделяют нульмерные, одномерные, двумерные и многомерные задачи, имея в виду число параметров, описывающих аргумент исследуемого функционала (функционал может быть определен на пространстве точек, кривых, поверхностей и т. д.).
+
+1. Нульмерные вариационные задачи в целом.
+
+1a. Классическа я те ор и я Морса. Здесь функционал - это скалярная функция $f(x)$, заданная на конечномерном пространстве, напр. на гладком многообразии $M$ размерности $n$. В качестве $M$ может выступать конфигурационное или фазовое пространство той или иной физич. системы, тогда функция $f$ может быть потенциалом или полной энергией данной системы. Здесь экстремали - это критические точки функции $f$, то есть точки $x$, в к-рых первый дифференциал функции обращается в нуль: $d f(x)=0$. Во многих физич. задачах критич. точки потенциала соответствуют положениям равновесия данной системы (напр. в задаче о колебании маятника). Критич. точки могут быть изолированными и неизолированными. Изолированные критич. точки могут быть невырожденными и вырожденными. Если функция $f$ имеет лишь невырожденные критич. точки, она называется функцией Морса (м о р с о в ско й фу н кц и е й). Критич. точка (экстремаль) невырождена в том и только в том случае, когда матрица второго дифференциала (гессиан) $d^{2} f$ невырождена в этой точке. Каждая невырожденная критич. точка характеризуется индексом $\lambda$. Индекс критич. точки - это число отрицательных собственных чисел у матрицы
+
+\[
+d^{2} f(x)=\left\|\partial^{2} f / \partial x_{i} \partial x_{j}\right\|
+\]
+
+составленной из вторых частных производных функции $f$ по переменным $x_{1}, \ldots, x_{n}$, задающим положение точки $x=\left(x_{1}, \ldots, x_{n}\right)$. Критич. точки нулевого индекса соответствуют устойчивым положениям системы и задают локальные минимумы функции $f$. Остальные критич. точки (то есть когда $\lambda&gt;0$ ) отвечают неустойчивым положениям системы. Точки максимально возможного индекса (то есть $\lambda=n$ ) являются точками локальных максимумов функции, а точки с промежуточными значениями индекса (то есть $0&lt;\lambda&lt;n$ ) являются седловыми. Оказывается, количество и тип критич. точек функции, заданной на многообразии $M$, в значительной мере определяют глобальную (топологическую) структуру этого многообразия. И наоборот, топологич. структура многообразия (напр. фазового пространства или пространства состояний физич. системы) накладывает серьезные ограничения на количество и тип экстремалей каждой функции Морса, областью определения к-рой является это многообразие (см. [1]).
+
+Т е о р е м а. Любое гладкое компактное связное замкнутое многообразие $M$ имеет гомотопич. тип клеточного комплекса, в к-ром каждой критич. точке $x_{\lambda}$ индекса $\lambda$ соответствует клетка размерности $\lambda$, где $\left\{x_{\lambda}\right\}-$ критич. точки нек-рой гладкой функции Морса на многообразии $M$.
+
+В частности, имеется тесная связь между числом критич. (стационарных) точек функции $f(x)$ на гладком замкнутом многообразии $M$ и топологич. инвариантами многообразия - группами гомологий, эйлеровой характеристикой (см. [2]). Пример такой связи - н е ра в енст в а М о р са. А именно, для любой гладкой функции, имеющей лишь невырожденные критич. точки на многообразии $M$, выполняются неравенства:
+
+\[
+\mu_{\lambda}(f) \geqslant \beta_{\lambda}(f)
+\]
+
+где $\mu_{\lambda}$ - число критич. точек индекса $\lambda$ для функции $f$, а $\beta_{\lambda}-$ ранг группы гомологий $H_{\lambda}(M)$ многообразия $M$ (так наз. число Бетти в размерности $\lambda$ ). О различных современных обобщениях неравенств Морса, связанных с математич. физикой, см., в частности, [1], [3].
+
+16. Точки бифуркации функции и теория Люстерника-Шнирельмана.
+
+Картина усложняется, если необходимо оценить число критич. точек для функции $f$, не являющейся морсовской. Напр., при деформации функции $f$ невырожденные особенности могут сливаться друг с другом, образуя вырожденные особенности (вырожденные критич. точки). Такие взаимные слияния уменьшают число критич. точек и прежние неравенства Морса уже не выполняются. Полезным обобщением понятия критич. точки функции является понятие бифуркации точки функции $f$ на пространстве (многообразии) $M$. В частности, такие стационарные состояния естественно возникают в небесной механике, в плоской задаче $n$ тел (движение $n$ материальных точек в одной плоскости, управляемое ньютоновским потенциалом согласно законам классич. механики) (см. [7]). Во многих конкретных примеpax можно представлять себе точки бифуркации функщии как результат слияния нескольких невырожденных особенностей (см., напр., [1]). Оказывается, сушествует топологич. инвариант многообразия $M$, называемый ка те гори ей Люстерника-Шни рельмана cat $(M)$, оценивающий снизу число точек бифуркации любой функции $f$, заданной на данном многообразии $M$ (см. [5]).
+
+Категорией пространства $M$ называется наименьшее число замкнутых подмножеств в $M$, стягиваемых по $M$ в точку и образующих покрытие $M$ (то есть объединение всех таких подмножеств покрывает все пространство).
+
+Т е о р е м а. Пусть $M$ - гладкое компактное связное многообразие без границы и $f$ - любая гладкая функция на $M$. Тогда всегда $k \geqslant$ cat $(M)$, где $k-$ число различных точек бифуркации функшии $f$.
+
+Теорема, в частности, оценивает снизу число различных критич. точек функции $f$ (вообще говоря, вырожденных).
+
+1в. Критические многообразия. Важным случаем вырожденных критич. точек являются «невырожденные к р и т и ч ски е мн о го о б рази я». Это означает следующее: уравнение $\operatorname{grad} f=0$ задает набор гладких подмногообразий $W_{i}$ в многообразии $M$; кроме того, дифференциал $d^{2} f$ в любой точке подмногообразий $W_{i}$ должен быть невырожден на векторном пространстве векторов, нормальных к $W_{i}$ в $M$ относительно нек-рой римановой (положительной) метрики. И нде к с о м связного критич. многообразия $W_{i}$ называется число $\lambda$ отрицательных квадратов формы $d^{2} f$. Функции такого типа естественно возникают в случае, если на пространстве действует группа Ли, и функция инвариантна относительно преобразований группы. Для функций с невырожденными критич. подмногообразиями справедливы аналоги теорем, сформулированных выше для функций Морса (выполняются также аналоги неравенств Морса).
+
+2. Одномерные вариационные задачи в целом. Естественный аналог теории Морса и Люстерника-Шнирельмана возникает на бесконечномерных гладких многообразиях $M^{\infty}$. Одним из таких «многообразий» является, напр., пространство кусочно гладких путей $\Omega$, идущих на конечномерном многообразии $M$ от точки $p$ до точки $q$. На «многообразии» $M^{\infty}$ можно рассмотреть функцию $F(\gamma)$, где $\gamma-$ пути, соединяющие точки $p$ и $q$. Такие «функции» называются одномерными функционалами. С каждой точкой $\gamma$ из пространства $\Omega$ можно связать нек-рое бесконечномерное векторное пространство $T_{\gamma} \Omega$, к-рое можно естественно представлять себе как «касательное пространство» к $\Omega$ в «точке» $\gamma$. Это пространство состоит из всех кусочно гладких векторных полей $\boldsymbol{v}$ вдоль пути $\gamma$, обращающихся в нуль в точках $p$ и $q$. Поле $v(t)$ (где $t$ - параметр вдоль кривой $\gamma$ ) в вариационном исчислении обычно обозначается через $\partial \gamma$. Тогда, копируя «конечномерное» определение производной по направлению от гладкой функшии на конечномерном многообразии, можно дать определение вариационной производной $\partial F / \partial \gamma$. Путь $\gamma_{0}$ из $\Omega$ называется к р и т и ч е с им для функционала $F$, если $\partial F / \partial \gamma=0$ для любой вариации $\partial \gamma$ пути $\gamma_{0}$. При опрсделенных предположениях о функционале $F$ можно определить и нде к с $\lambda$ критич. пути $\gamma_{0}$, опять копируя «конечномерное» определение и беря в качестве $\lambda$ размерность максимального подпространства в пространстве $T_{\gamma} \Omega$, на к-ром гессиан $\partial^{2} F$ отрицательно определен. Таким образом, «критич. точки» $\gamma$ для функционала $F$ находятся как решения дифференциального уравнения $\partial F / \partial \gamma=0$, называемого у р а н е н и ем Эй ле р а - Л а гр а н жа. Среди важнейших функционалов $F$, естественно возникающих в механике, математич. физике, следует отметить: действие пути $\gamma$, то есть
+
+\[
+E(\gamma)=\int_{0}^{1}|d \gamma / d t|^{2} d t
+\]
+
+и длина пути $\gamma$, то есть
+
+\[
+L(\gamma)=\int_{0}^{1}|d \gamma / d t| d t
+\]
+
+Т е о рема. Путь $\gamma_{0}$ является критическим («критич. точкой») для функционала $E(\gamma)$ тогда и только тогда, когда $\gamma_{0}-$ это геодезическая (при этом параметром $t$ вдоль геодезической служит длина дуги).
+
+Так как при определении функционалов $E$ и $L$ предполагается наличие на многообразии римановой метрики, то геодезические могут быть также охарактеризованы как кривые локально минимальной длины. Экс т р е ма л и (к р и тиче ские пут и) для функционала длины $L$ - это пути, получающиеся из геодезических $\gamma(t)$ гладкими заменами параметра $t$. Векторное поле $v(t)$ вдоль геодезической $\gamma_{0}$ называется я к о б и вым, если оно удовлетворяет д и фференциальному уравнению Якоби:
+
+\[
+\left(\nabla_{\dot{\gamma}_{0}}\right)^{2} v+R\left(\dot{\gamma}_{0}, v\right) \dot{\gamma}_{0}=0
+\]
+
+где $\nabla$ - оператор ковариантного дифференцирования, $R-$ оператор, соответствующий тензору кривизны Римана. Две точки на геодезической $\gamma_{0}$ называются сопряженными, если существует ненулевое якобиево поле вдоль $\gamma_{0}$, обращающееся в нуль в обеих этих точках.
+
+Т е о р е ма. Индекс квадратичной формы $\partial^{2} E$ в критич. точке $\gamma_{0}$ равен числу точек на геодезической $\gamma_{0}$, сопряженных вдоль $\gamma_{0}$ начальной точке $p=\gamma_{0}(0)$. При этом каждая сопряженная точка учитывается столько раз, какова ее кратность.
+
+Поступая по аналогии с конечномерным случаем, рассмотрим функционал действия $E(\gamma)$ на пространстве $\Omega$. Этот функционал будет «функцией Морса», если все его критич. точки (то есть геодезические из точки $p$ в точку $q$ ) будут невырождены. Это будет в том и только в том случае, когда точки $p$ и $q$ не сопряжены друг другу (вдоль любой геодезической, соединяющей $p$ и $q$ ).
+
+Т е о р е м а. Пусть $M-$ компактное многообразие, $p$ и $q-$ пара точек на $M$, не сопряженных ни вдоль какой геодезической плины, не превосходящей $a$. Тогда множество $\Omega^{a}=\left(E \leqslant a^{2}\right)$ гомотопически эквивалентно конечному клеточному комплексу, в к-ром каждая клетка размерности $\lambda$ взаимно однозначно соответствует геодезической индекса $\lambda$ (и длины, не превосходящей $a$ ).
+
+Если теперь «устремить $a$ в бесконечность», то в результате получим, что пространство всех непрерывных путей на $M$, соединяющих $p$ с $q$, имеет гомотопич. тип счетного клеточного комплекса, в к-ром каждой геодезической из $p$ в $q$ с индексом $\lambda$ соответствует в точности одна клетка размерности $\lambda$.
+
+Изложенная вариационная задача называется «3 а д а ч е й с закрепленными концами». Важное значение имеют «замкнутые экстремумы», возникающие в периодич. задаче В. и. в ц. Рассматривается пространство П $(M)$ всех замкнутых гладких кривых на многообразии $M$. Анализ периодич. задачи сложнее, чем изучение геодезических с закрепленными концами. Напр., задача о нахождении ко- личества простых (то есть некратных) замкнутых геодезических далеко не тривиальна (см. [1]). Каждая точка пространства $\Pi(M)$ есть гладкое отображение окружности $S^{1}$ в $M$. Множество линейно связных компонент пространства $\Pi(M)$ - это, по определению, множество «свободных» гомотопич. классов отображений $S^{1} \rightarrow M$.
+
+Т е о р е м а. Если $M$ - компактное риманово гладкое многообразие отрицательной кривизны, то в каждом свободном гомотопич. классе замкнутых путей сушествует единственная замкнутая геодезическая.
+
+Одномерная задача общего типа изучает величину (функционал)
+
+\[
+S(\gamma)=\int_{p}^{q} L(x(t), \dot{x}(t), t) d t
+\]
+
+и ее экстремали. Функция $L-$ лагранжиан. Экстремали $\gamma_{0}$ - это решения уравнений Эйлера-Лагранжа:
+
+\[
+\left(\partial L / \partial \dot{x}^{i}\right)^{\prime}=\partial L / \partial x^{i}
+\]
+
+Энергия - это $\dot{x}^{i} \partial L / \partial \dot{x}^{i}-L ;$ импульс - это $p_{i}=\partial L / \partial \dot{x}^{i}$; сила - это $f_{i}=\partial L / \partial x^{i}$.
+
+Приме р 1. Траектории движения частицы массы $m$ в потенциальном силовом поле $f=-\operatorname{grad} U-$ это экстремали функционала
+
+\[
+S=\int\left(\frac{m}{z} \sum\left(\dot{x}^{i}\right)^{2}-U(x)\right) d x
+\]
+
+(принцип наименьшего действия).
+
+П р и ме р 2. Движение релятивистской (свободной) частицы ненулевой массы $m&gt;0$ определяется в пространстве Минковского с координатами $\left(x^{0}=c t, x^{1}, x^{2}, x^{3}\right)$ одним из двух функционалов (действий) на времениподобных кривых:
+
+\[
+S_{1}=\frac{m c}{z} \int\langle\dot{x}, \dot{x}\rangle d \tau
+\]
+
+где
+
+\[
+\begin{aligned}
+\langle\dot{x}, \dot{x}\rangle &amp; =\left(x^{0}\right)^{2}-\sum_{\alpha=1}^{3}\left(\dot{x}^{\alpha}\right)^{2} ; \\
+S_{2} &amp; =-m c \int\langle\dot{x}, \dot{x}\rangle^{1 / 2} d \tau .
+\end{aligned}
+\]
+
+Мировые линии массивных частиц в пространстве Минковского - это экстремали функционалов $S_{1}$ и $S_{2}$ (релятивистский принцип наименьшего действия). Основным постулатом общей теории относительности является тезис (или гипотеза) Эйнштейна, согласно к-рому гравитационное поле - это метрика $g_{i j}$ в 4-мерном пространстве-времени [в каждой точке к-рого метрика имеет тип $(+---)$ ]. При отсутствии других сил пробная частица в гравитационном поле движется по времениподобным геодезическим, определяемым функционалом $S_{1}$. Частица нулевой массы движется по изотропным геодезическим.
+
+Лагранжиан $L$ называется н е в ы ро жде н ны м, если $\operatorname{det}\left(\partial^{2} L / \partial \dot{x}^{i} \partial \dot{x}^{j}\right) \neq 0$, и называется с ильно невы рожд е н н ы М, если уравнения $p_{i}=\partial L(x, \dot{x}) / \partial \dot{x}^{i}$ можно взаимно однозначно и гладко решить в виде $\dot{x}^{i}=v^{i}(x, p)$ для всех $x, \dot{x}$. Г а м и л ь т о н и а но м $H(x, p)$ (для сильно невырожденных лагранжианов) называется энергия $E$, выраженная через $x$ и $p$.
+
+Т е о ре м а. Пусть $L(x, \dot{x})$ - сильно невырожденный лагранжиан и $H(x, p)$ - гамильтониан, где $p=\partial L(x, \dot{x}) / \partial \dot{x}$ и $\dot{x}=v(x, p)$. Уравнения Эйлера-Лагранжа
+
+\[
+\partial L / \partial x-\frac{d}{d t}(\partial L / \partial \dot{x})=0
+\]
+
+эквивалентны уравнениям Гамильтона, в к-рых $x$ и $p$ считаются независимыми переменными:
+
+\[
+\dot{p}=-\partial H / \partial x, \quad \dot{x}=-\partial H / \partial p
+\] Уравнения Эйлера-Лагранжа для функционала
+
+\[
+\int[p \dot{x}-H(x, p)] d t
+\]
+
+в фазовом пространстве переменных $(x, p)$ совпадают с уравнениями Гамильтона.
+
+Вариационное исчисление для указанных функционалов составляет важную часть гамильтоновой механики и симплектич. геометрии (см. [1], [8], [11]).
+
+3. Многомерные вариационные задачи в целом. Здесь рассматриваются функционалы вида
+
+\[
+I[f]=\int \ldots \int L\left(x^{k}, f^{i}\left(x^{k}\right), f_{x}^{i_{k}}\left(x^{p}\right)\right) d x^{1} \ldots d x^{n},
+\]
+
+где параметры $x^{1}, \ldots, x^{n}$ меняются в нек-рой области $D, f^{i}-$ функции от этих параметров и $f_{x}^{i_{k}}-$ частные производные. Общие ура внен и я Эйл е ра-Лагран жа имеют вид:
+
+\[
+\partial L / \partial f^{i}-\sum_{\alpha=1}^{n} \partial / \partial x^{\alpha}\left(\partial L / \partial f_{x}^{i} \alpha\right)=0
+\]
+
+Функция является стационарной (критической) для функционала $I$ тогда и только тогда, когда она удовлетворяет этой системе уравнений.
+
+Пример 1. Уравнения электромагнитного поля. Уравнения Максвелла - это уравнения Эйлера-Лагранжа для функционала
+
+Здесь
+
+\[
+S=S_{f}+S_{m}+S_{m f}
+\]
+
+\[
+S_{m}=-\sum m c \int_{a}^{b} d l,
+\]
+
+где сумма берется по всем частицам, движущимся в поле, $m$ - масса частицы, $c$ - скорость света, интеграл берется вдоль мировой линии в пространстве Минковского между двумя фиксированными событиями, $l$ - длина дуги. Слагаемое $S_{m f}$ - это та часть действия, к-рая обусловлена взаимодействием между частицей и полем, то есть
+
+\[
+S_{m f}=-\sum_{\langle j\rangle} \frac{e_{j}}{c} \int A_{k}^{\langle j\rangle} d x^{k}
+\]
+
+где сумма берется по всем частицам $j, e_{j}-$ заряды, интеграл берется вдоль мировой линии частицы; свойства поля характеризуются 4-вектором $\left\{A_{i}\right\}$, называемым 4-п о т е н ц и а ло м. Слагаемое $S_{f}$ - это часть действия, зависящая лишь от свойств самого поля.
+
+П р и м е р 2. Уравнения гравитационного поля, то есть уравнения Эйнштейна, можно получить как уравнения Эйлера-Лагранжа при варьировании функционала
+
+\[
+S_{g}=\int R d \Omega
+\]
+
+где $R$ - это скалярная кривизна 4-мерного многообразия $M^{4}$, снабженного псевдоримановой метрикой типа $(+---)$, a $d \Omega$ - стандартная 4-форма объема.
+
+П р и м е р 3. Уравнение минимальной поверхности (подмногообразия) в объемлеющем римановом пространстве это уравнение Эйлера-Лагранжа для функционала площади или объема (см. Минимальная поверхность).
+
+Пример 4. Гармонические поверхности (о тобр а жен и я) - это экстремали многомерного функционала Дирихле.
+
+Элементы общей теории многомерного В. и. в ц. и соответствующие примеры см. в [1], [6], [11].
+
+Лит.: [1] Дубровин Б. В., Новиков С. П., Фоменко А.Т., Современная геометрия, т. 1, 2 изд., М., 1986, т. 2, М., 1984; [2] М и л н о р Дж., Теория Морса, пер. с англ., М., 1965; [3] Теория солитонов, М., 1979; [4] Зе й ферт Т., Трель ьалль В., Вариационное исчисление в целом, пер. с англ., М., 1947; [5] Люс терникЛ.А., Шнирельман Л. Г., Топологические методы в вариационных задачах, Труды научно-исследовательского ин-та математики и механики, М., 1930; [6] Фоменк о А. Т., Вариационные методы в топологии, М., 1982; [7] С ме й л С., «Успехи математич. наук», 1972, т. 27, в. 2, с. 77-133; [8] Ар нол ьд В. И., Матема-
+
+\section{0 ВАРИАЦИОННОЕ}
+
+тические методы классической механики, М., 1974; [9] Ф о ме н ко А. Т., Топологические вариационные задачи, М., 1984; [10] Л андау Л. Д., Лифшиц Е. М., Теория поля, 5 изд., М., 1967; [11] Фо м е н ко А. Т., Симплектическая топология. Методы и приложения, М., 1988; [12] Фомен ко А. Т., Фукс Д. Б., Курс гомотопической топологии, М., 1989.
+
+А. Т. Фоменко.</text_orig>
+</article>

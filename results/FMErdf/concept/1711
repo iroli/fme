@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2540_RASPREDELENIJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2540_RASPREDELENIJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1711</core:url>
+    <lbm:descriptor><![CDATA[РАСПРЕДЕЛЕНИЯ ФУНКЦИЯ СЛУЧАЙНОЙ ВЕЛИЧИНЫ $X$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1473"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12836"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12837"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12838"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12839"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12840"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>функция действительного переменного $URI[[http://libmeta.ru/fme/formula/aux/2540_1_RASPREDELENIJa]]/URI$, принимающая при каждом $URI[[http://libmeta.ru/fme/formula/aux/2540_2_RASPREDELENIJa]]/URI$ значение, равное вероятности неравенства <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12836">$$x<x$$</a>.<BR/></P><P>Каждая Р. Ф. $URI[[http://libmeta.ru/fme/formula/aux/2540_4_RASPREDELENIJa]]/URI$ обладает следующими свойствами:<BR/></P><P>1) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12837">$$f\left(x^{\prime}\right) \leqslant F\left(x^{\prime \prime}\right)$$</a> при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12838">$$x^{\prime}<x^{\prime \prime}$$</a>;<BR/></P><P>2) $URI[[http://libmeta.ru/fme/formula/aux/2540_7_RASPREDELENIJa]]/URI$ непрерывна слева при каждом $URI[[http://libmeta.ru/fme/formula/aux/2540_8_RASPREDELENIJa]]/URI$;<BR/></P><P>3) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12839">$$\lim _{x \rightarrow-\infty} F(x)=0, \quad \lim _{x \rightarrow \infty} F(x)=1$$</a><BR/></P><P>(иногда Р. ф. определяют как вероятность неравенства <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12840">$$x \leqslant x$$</a>, и тогда она оказывается непрерывной справа). Каждая функция $URI[[http://libmeta.ru/fme/formula/aux/2540_11_RASPREDELENIJa]]/URI$, обладающая свойствами 1)-3), может рассматриваться как Р. Ф. нек-рой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa">случайной величины</a> $URI[[http://libmeta.ru/fme/formula/aux/2540_12_RASPREDELENIJa]]/URI$.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1473">В. И. Битюцков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[функция действительного переменного $x$, принимающая при каждом $x$ значение, равное вероятности неравенства $X<x$.
+
+Каждая Р. Ф. $F(x)$ обладает следующими свойствами:
+
+1) $F\left(x^{\prime}\right) \leqslant F\left(x^{\prime \prime}\right)$ при $x^{\prime}<x^{\prime \prime}$;
+
+2) $F(x)$ непрерывна слева при каждом $x$;
+
+3) $\lim _{x \rightarrow-\infty} F(x)=0, \quad \lim _{x \rightarrow \infty} F(x)=1$
+
+(иногда Р. ф. определяют как вероятность неравенства $X \leqslant x$, и тогда она оказывается непрерывной справа). Каждая функция $F$, обладающая свойствами 1)-3), может рассматриваться как Р. Ф. нек-рой случайной величины $X$.
+
+В. И. Битюцков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_8376">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003C6;</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>k</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><msub><mi>a</mi><mrow><mn>0</mn></mrow></msub></mrow><mrow><mn>4</mn><mi>&#x003C0;</mi></mrow></mfrac><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007C;</mo><mi>x</mi><mo>&#x02212;</mo><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mrow><mo>&#x02212;</mo><mn>1</mn></mrow></msup><mo>&#x0002B;</mo><mi>h</mi><msub><mi>a</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0002B;</mo><mi>o</mi><mo stretchy="false">&#x00028;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><msub><mi>a</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0003D;</mo><mtext>&#x000A0;const,&#x000A0;</mtext><mi>x</mi><mo>&#x02192;</mo><msub><mi>x</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\varphi(x, k)=\frac{a_{0}}{4 \pi}\left|x-x_{0}\right|^{-1}+h a_{0}+o(1), a_{0}=\text { const, } x \rightarrow x_{0},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

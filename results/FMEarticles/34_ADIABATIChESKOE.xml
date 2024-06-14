@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/34_ADIABATIChESKOE" alphabetic_pos="34">
+  <title>АДИАБАТИЧЕСКОЕ ПРИБЛИЖЕНИЕ В ТЕОРИИ РАССЕЯНИЯ</title>
+  <authors>
+    <author>С. П. Меркурьев</author>
+    <author>С. Л. Яковлев</author>
+  </authors>
+  <pages>
+    <start>12</start>
+    <end>12</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Мотт Н., Месс и Г., Теория атомных столкновений, пер. с англ., М., 1969; [2] В у Т. Ю., О м у р а Т., Квантовая теория рассеяния, пер. с англ., М., 1969.</literature_orig>
+    <unit>
+      <author>Мотт Н.</author>
+      <author>Месси Г.</author>
+      <title>Теория атомных столкновений</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ву Т. Ю.</author>
+      <author>Омура Т.</author>
+      <title>Квантовая теория рассеяния</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/34_1_ADIABATIChESKOE">\begin{aligned}&amp; \left\{-\frac{1}{M} \Delta_{R}-\frac{1}{\mu} \Delta_{x}+V_{1}\left(x-\frac{R}{2}\right)+\right. \\&amp; \left.+V_{2}\left(x+\frac{R}{2}\right)+V_{3}(R)-E\right\} \Psi(x, R)=0,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/34_2_ADIABATIChESKOE">\Psi(x, R)=\sum_{n} \varphi_{n}(x, R) f_{n}(R)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/34_3_ADIABATIChESKOE">\left\{-\frac{1}{\mu} \Delta_{x}+V_{1}\left(x-\frac{R}{2}\right)+V_{2}\left(x+\frac{R}{2}\right)\right\} \varphi_{n}(x, R)=\varepsilon_{n}(R) \varphi_{n}(x, R) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/34_4_ADIABATIChESKOE">C_{n m}(R)=\frac{1}{M}\left\{\left(\nabla_{R} \varphi_{n}, \varphi_{m}\right) \nabla_{R}+\left(\nabla_{R} \varphi_{n}, \varphi_{m}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/34_5_ADIABATIChESKOE">f_{n}(R)=\exp \left\{i k_{n} R\right\} \delta_{n n_{0}}+A_{n n_{0}}\left(\hat{R}, k_{n}\right) \frac{\exp \left\{i\left|k_{n}\right||R|\right\}}{|R|}(1+o(1)) \text {, (2) }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/34_6_ADIABATIChESKOE">k_{n}^{2}=M\left[E-\varepsilon_{n}(\infty)\right], \quad \varepsilon_{n}(\infty)=\lim _{|R| \rightarrow \infty} \varepsilon_{n}(R) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_1_ADIABATIChESKOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_2_ADIABATIChESKOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_3_ADIABATIChESKOE">\mu=2 m M(2 M+m)^{-1}, R-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_4_ADIABATIChESKOE">m, x-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_5_ADIABATIChESKOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_6_ADIABATIChESKOE">\varphi_{n}(x, R)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_7_ADIABATIChESKOE">f_{n}(r)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_8_ADIABATIChESKOE">\left\{-\frac{1}{M} \Delta_{R}+V_{3}(R)+\varepsilon_{n}(R)-E\right\} f_{n}(R)-\sum_{m} C_{n m}(R) f_{m}(R)=0,(1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_9_ADIABATIChESKOE">c_{n m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_10_ADIABATIChESKOE">o\left(\frac{1}{m}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_11_ADIABATIChESKOE">c_{n m}(R)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/34_12_ADIABATIChESKOE">c_{n n}(R) \delta_{m n}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/34_1_ADIABATIChESKOE">
+      <rel_text>Первое</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/34_2_ADIABATIChESKOE">
+      <rel_text>теории возмущений</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+  </relations>
+  <text>приближение, основанное на существовании в задаче переменных двух типов, имеющих различный масштаб изменения. В задаче рассеяния - это кинематич. переменные, описывающие движение тяжелых и легких частиц. Обычно А.П. используется в задаче рассеяния для системы, состоящей из легкой частицы массы $URI[[http://libmeta.ru/fme/formula/aux/34_1_ADIABATIChESKOE]]/URI$ и двух тяжелых частиц массы $URI[[http://libmeta.ru/fme/formula/aux/34_2_ADIABATIChESKOE]]/URI$. Решение уравнения Шредингера
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/34_1_ADIABATIChESKOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/34_3_ADIABATIChESKOE]]/URI$ относительная координата тяжелых частиц массы $URI[[http://libmeta.ru/fme/formula/aux/34_4_ADIABATIChESKOE]]/URI$ координата частицы массы $URI[[http://libmeta.ru/fme/formula/aux/34_5_ADIABATIChESKOE]]/URI$ относительно центра масс пары тяжелых частиц, представляется в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/34_2_ADIABATIChESKOE]]/URI
+\]
+
+здесь $URI[[http://libmeta.ru/fme/formula/aux/34_6_ADIABATIChESKOE]]/URI$ - собственные функции задачи двух центров:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/34_3_ADIABATIChESKOE]]/URI
+\]
+
+Для функций $URI[[http://libmeta.ru/fme/formula/aux/34_7_ADIABATIChESKOE]]/URI$ получается система связанных уравнений
+
+$URI[[http://libmeta.ru/fme/formula/aux/34_8_ADIABATIChESKOE]]/URI$ где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/34_4_ADIABATIChESKOE]]/URI
+\]
+
+с асимгтотич. условиями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/34_5_ADIABATIChESKOE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/34_6_ADIABATIChESKOE]]/URI
+\]
+
+Решение системы уравнений (1) по URI[[http://libmeta.ru/fme/relation/34_2_ADIABATIChESKOE]]/URI относительно операторов $URI[[http://libmeta.ru/fme/formula/aux/34_9_ADIABATIChESKOE]]/URI$, имеющих порядок $URI[[http://libmeta.ru/fme/formula/aux/34_10_ADIABATIChESKOE]]/URI$, называется асимптотическим приближением. URI[[http://libmeta.ru/fme/relation/34_1_ADIABATIChESKOE]]/URI приближение, соответствующее диагональному приближению в системе (1), то есть переходу от матрицы $URI[[http://libmeta.ru/fme/formula/aux/34_11_ADIABATIChESKOE]]/URI$ к матрице $URI[[http://libmeta.ru/fme/formula/aux/34_12_ADIABATIChESKOE]]/URI$, называется прибл ижен нем Борна - Оппенгеймера.</text>
+  <text_orig>приближение, основанное на существовании в задаче переменных двух типов, имеющих различный масштаб изменения. В задаче рассеяния - это кинематич. переменные, описывающие движение тяжелых и легких частиц. Обычно А.П. используется в задаче рассеяния для системы, состоящей из легкой частицы массы $m$ и двух тяжелых частиц массы $M$. Решение уравнения Шредингера
+
+\[
+\begin{aligned}
+&amp; \left\{-\frac{1}{M} \Delta_{R}-\frac{1}{\mu} \Delta_{x}+V_{1}\left(x-\frac{R}{2}\right)+\right. \\
+&amp; \left.+V_{2}\left(x+\frac{R}{2}\right)+V_{3}(R)-E\right\} \Psi(x, R)=0,
+\end{aligned}
+\]
+
+где $\mu=2 m M(2 M+m)^{-1}, R-$ относительная координата тяжелых частиц массы $M, x-$ координата частицы массы $m$ относительно центра масс пары тяжелых частиц, представляется в виде
+
+\[
+\Psi(x, R)=\sum_{n} \varphi_{n}(x, R) f_{n}(R)
+\]
+
+здесь $\varphi_{n}(x, R)$ - собственные функции задачи двух центров:
+
+\[
+\left\{-\frac{1}{\mu} \Delta_{x}+V_{1}\left(x-\frac{R}{2}\right)+V_{2}\left(x+\frac{R}{2}\right)\right\} \varphi_{n}(x, R)=\varepsilon_{n}(R) \varphi_{n}(x, R) .
+\]
+
+Для функший $f_{n}(R)$ получается система связанных уравнений
+
+$\left\{-\frac{1}{M} \Delta_{R}+V_{3}(R)+\varepsilon_{n}(R)-E\right\} f_{n}(R)-\sum_{m} C_{n m}(R) f_{m}(R)=0,(1)$ где
+
+\[
+C_{n m}(R)=\frac{1}{M}\left\{\left(\nabla_{R} \varphi_{n}, \varphi_{m}\right) \nabla_{R}+\left(\nabla_{R} \varphi_{n}, \varphi_{m}\right)\right\}
+\]
+
+с асимгтотич. условиями
+
+\[
+f_{n}(R)=\exp \left\{i k_{n} R\right\} \delta_{n n_{0}}+A_{n n_{0}}\left(\hat{R}, k_{n}\right) \frac{\exp \left\{i\left|k_{n}\right||R|\right\}}{|R|}(1+o(1)) \text {, (2) }
+\]
+
+где
+
+\[
+k_{n}^{2}=M\left[E-\varepsilon_{n}(\infty)\right], \quad \varepsilon_{n}(\infty)=\lim _{|R| \rightarrow \infty} \varepsilon_{n}(R) .
+\]
+
+Решение системы уравнений (1) по теории возмущений относительно операторов $c_{n m}$, имеющих порядок $O\left(\frac{1}{M}\right)$, называется асимптотическим приближением. Первое приближение, соответствующее диагональному приближению в системе (1), то есть переходу от матрицы $c_{n m}(R)$ к матрице $c_{n n}(R) \delta_{m n}$, называется прибл ижен нем Борна - Оппенгеймера.
+
+Лит.: [1] Мотт Н., Месс и Г., Теория атомных столкновений, пер. с англ., М., 1969; [2] В у Т. Ю., О м у р а Т., Квантовая теория рассеяния, пер. с англ., М., 1969. С. П. Меркурьев, С.Л. Яковлев.</text_orig>
+</article>

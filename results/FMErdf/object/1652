@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_1652">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x00393;</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003C4;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mi>H</mi><mo>&#x0002B;</mo><mo stretchy="false">&#x0007C;</mo><mi>&#x0039B;</mi><mo stretchy="false">&#x0007C;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>k</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>s</mi></mrow></msubsup><msub><mi>&#x003C4;</mi><mrow><mi>k</mi></mrow></msub><msub><mi>g</mi><mrow><mi>k</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>A</mi><mrow><mi>&#x0039B;</mi><mo>&#x0002C;</mo><mi>k</mi></mrow></msub><mo>&#x02212;</mo><msub><mover><mrow><mi>a</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mo>&#x0221E;</mo></mrow></msub><mo>&#x0002C;</mo><mi>k</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>A</mi><mrow><mi>&#x0039B;</mi><mo>&#x0002C;</mo><mi>k</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo>&#x02212;</mo><msubsup><mover><mrow><mi>a</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mo>&#x0221E;</mo><mo>&#x0002C;</mo><mi>k</mi></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\Gamma(\tau)=H+|\Lambda| \sum_{k=1}^{s} \tau_{k} g_{k}\left(A_{\Lambda, k}-\bar{a}_{\infty}, k\right)\left(A_{\Lambda, k}^{+}-\bar{a}_{\infty, k}^{*}\right) .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

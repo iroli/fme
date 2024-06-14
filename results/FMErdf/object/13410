@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_13410">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&#x00394;</mi><mi>x</mi><mo>&#x0003D;</mo><mi>&#x00394;</mi><mi>y</mi><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mspace width="1em" /><mi>&#x00394;</mi><mi>z</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x00394;</mi><mi>x</mi><mo>&#x02212;</mo><mi>u</mi><mi>&#x00394;</mi><mi>t</mi></mrow><mrow><msqrt><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>u</mi><mrow><mn>2</mn></mrow></msup><mo>&#x0002F;</mo><msup><mi>c</mi><mrow><mn>2</mn></mrow></msup></mrow></msqrt></mrow></mfrac><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>&#x00394;</mi><mi>t</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x00394;</mi><mi>t</mi><mo>&#x02212;</mo><mfrac><mrow><mi>u</mi></mrow><mrow><msup><mi>c</mi><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mi>&#x00394;</mi><mi>z</mi></mrow><mrow><msqrt><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>u</mi><mrow><mn>2</mn></mrow></msup><mo>&#x0002F;</mo><msup><mi>c</mi><mrow><mn>2</mn></mrow></msup></mrow></msqrt></mrow></mfrac><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\Delta x=\Delta y=0, \quad \Delta z=\frac{\Delta x-u \Delta t}{\sqrt{1-u^{2} / c^{2}}}, \\\Delta t=\frac{\Delta t-\frac{u}{c^{2}} \Delta z}{\sqrt{1-u^{2} / c^{2}}} .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

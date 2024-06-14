@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_4495">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003BB;</mi><mi>&#x003A6;</mi><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>j</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mi>m</mi></mrow></msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mi>a</mi><mrow><mi>j</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>t</mi><mrow><mn>0</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><msubsup><mi>&#x003A6;</mi><mrow><mi>t</mi></mrow><mrow><mo stretchy="false">&#x00028;</mo><mi>j</mi><mo stretchy="false">&#x00029;</mo></mrow></msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>t</mi><mrow><mn>0</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002B;</mo><msub><mo>&#x0222B;</mo><mrow><mi>L</mi></mrow></msub><msub><mi>h</mi><mrow><mi>j</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>t</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><msup><mi>&#x003A6;</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>j</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>s</mi><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\lambda \Phi=\sum_{j=0}^{m}\left\{a_{j}\left(t_{0}\right) \Phi_{t}^{(j)}\left(t_{0}\right)+\int_{L} h_{j}\left(t_{0}, t\right) \Phi^{(j)}(t) d s\right\},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

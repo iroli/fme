@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_207_BLOHA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_207_BLOHA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1199</core:url>
+    <lbm:descriptor><![CDATA[БЛОХА ВЕКТОР]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#9220"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#9221"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#9222"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#9226"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9227"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9228"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9229"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4839"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9230"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_729"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9231"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9232"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9233"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9234"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9235"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9236"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_818"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>1) операторный вектор<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9227">$$\hat{\boldsymbol{R}}=\left\{\left.\hat{R}^{\alpha}\right|_{\alpha=x, y, z}\right\}, \quad \hat{R}^{\alpha} \equiv \sum_{i=1}^{N} \lambda_{i} \hat{S}_{i}^{\alpha},$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4839">$$\lambda_{i}-$$</a> константы, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9230">$$\hat{s}_{i}^{\alpha}-$$</a> компоненты оператора спина $URI[[http://libmeta.ru/fme/formula/aux/207_3_BLOHA]]/URI$-й частицы;<BR/></P><P>2) классический вектор<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9228">$$\boldsymbol{R}=\langle\hat{\boldsymbol{R}}\rangle$$</a><BR/></P><P>являющийся средним значением операторного Б. в.<BR/></P><P>При <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9231">$$\lambda_{i} \equiv 1$$</a> Б. в. совпадает с полным спином системы $URI[[http://libmeta.ru/fme/formula/aux/207_5_BLOHA]]/URI$ частиц. При <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9232">$$\lambda_{i}=\mu_{i}$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9233">$$\mu_{i}$$</a> - магнитный момент $URI[[http://libmeta.ru/fme/formula/aux/207_8_BLOHA]]/URI$-й частицы, Б. в. имеет смысл вектора намагниченности системы. В теории конечноуровневых систем вектор <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9234">$$\hat{s}=\left\{\hat{s}_{i}^{\alpha}\right\}$$</a> называется вектором псевдоспина.<BR/></P><P>В большинстве случаев классич. Б. в. можно определить как решение уравнения Блоха<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9229">$$\frac{d}{d t} \boldsymbol{R}(t)=\Omega(t) \times \boldsymbol{R}(t)-\Gamma(t),$$</a><BR/></P><P>в к-ром $URI[[http://libmeta.ru/fme/formula/aux/207_10_BLOHA]]/URI$ - обобщенный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> вращательного момента, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9236">$$\gamma(t) \equiv\left\{R^{\alpha}(t) / T_{\alpha}\right\}, T_{\alpha}$$</a> - время <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2604_RELAKSATsI">релаксации</a> соответствующей компоненты Б. в. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_211_BLOHA">Уравнение Блоха</a> отличается от Ландау - Лифшица уравнения для магнитного момента учетом затухания.<BR/></P><P>$URI[[http://libmeta.ru/fme/formula/aux/207_12_BLOHA]]/URI$. Блох <a href="/object/show?uri=http://libmeta.ru/io/Publication#9221">[1]</a> рассматривал уравнения движения для ядерных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2898_SPINO">спинов</a>. В квантовой оптике уравнения движения для Б. в., имеющего смысл <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2440_PSEVDOVEKTO">псевдоспина</a>, называются о п т и ч е скими уравнениями Блоха.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#9221">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1574">Bloch F.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#9221">«phys. Rev.», 1946, v. 70, № 7, p. 460-74</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#9222">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Уайт Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#9222">Квантовая теория магнетизма, пер. с англ., 2 изд., М., 1985</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#9226">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#9223">Андреев А. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#9224">Емельянов В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#9225">Ильинский Ю. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#9226">Кооперативные явления в оптике, М., 1988</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#9220">В. И. Юкалов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[1) операторный вектор
+
+\[
+\hat{\boldsymbol{R}}=\left\{\left.\hat{R}^{\alpha}\right|_{\alpha=x, y, z}\right\}, \quad \hat{R}^{\alpha} \equiv \sum_{i=1}^{N} \lambda_{i} \hat{S}_{i}^{\alpha},
+\]
+
+где $\lambda_{i}-$ константы, $\hat{S}_{i}^{\alpha}-$ компоненты оператора спина $i$-й частицы;
+
+2) классический вектор
+
+\[
+\boldsymbol{R}=\langle\hat{\boldsymbol{R}}\rangle
+\]
+
+являющийся средним значением операторного Б. в.
+
+При $\lambda_{i} \equiv 1$ Б. в. совпадает с полным спином системы $N$ частиц. При $\lambda_{i}=\mu_{i}$, где $\mu_{i}$ - магнитный момент $i$-й частицы, Б. в. имеет смысл вектора намагниченности системы. В теории конечноуровневых систем вектор $\hat{S}=\left\{\hat{S}_{i}^{\alpha}\right\}$ называется вектором псевдоспина.
+
+В болышинстве случаев классич. Б. в. можно определить как решение уравнения Блоха
+
+\[
+\frac{d}{d t} \boldsymbol{R}(t)=\Omega(t) \times \boldsymbol{R}(t)-\Gamma(t),
+\]
+
+в к-ром $\Omega(t)$ - обобщенный вектор вращательного момента, $\Gamma(t) \equiv\left\{R^{\alpha}(t) / T_{\alpha}\right\}, T_{\alpha}$ - время релаксации соответствующей компоненты Б. в. Уравнение Блоха отличается от Ландау - Лифшица уравнения для магнитного момента учетом затухания.
+
+$\Phi$. Блох [1] рассматривал уравнения движения для ядерных спинов. В квантовой оптике уравнения движения для Б. в., имеющего смысл псевдоспина, называются о п т и ч е скими уравнениями Блоха.
+
+Лum.: [1] Bloch F., «Phys. Rev.», 1946, v. 70, № 7, p. 460-74; [2] У а й т Р., Квантовая теория магнетизма, пер. с англ., 2 изд., М., 1985; [3] Андреев А. В., Емельянов В. И., Ильинс к и й Ю. А., Кооперативные явления в оптике, М., 1988.
+
+В. И. Юкалов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2440_PSEVDOVEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2898_SPINO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_211_BLOHA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2604_RELAKSATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

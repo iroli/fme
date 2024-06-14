@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_6734">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>R</mi><mrow><mi>&#x003B3;</mi></mrow></msub><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x027E8;</mo><mi>&#x003C3;</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>q</mi><mrow><mi>I</mi></mrow></msup><mo>&#x0002B;</mo><msup><mi>z</mi><mrow><mi>I</mi></mrow></msup><mo>&#x0002C;</mo><msub><mi>p</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msub><mo>&#x0002B;</mo><msub><mi>w</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x027E9;</mo></mrow><mo>&#x0002B;</mo><mspace linebreak="newline" /><mo>&#x0002B;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">&#x027E8;</mo><mi>&#x003C3;</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mfrac><mrow><msup><mo>&#x02202;</mo><mrow><mn>2</mn></mrow></msup><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>q</mi><mrow><mi>I</mi></mrow></msup><mo>&#x0002B;</mo><msup><mi>z</mi><mrow><mi>I</mi></mrow></msup><mo>&#x0002C;</mo><msub><mi>p</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msub><mo>&#x0002B;</mo><msub><mi>w</mi><mrow><mover><mrow><mi>I</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac><mi>&#x003C3;</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">&#x027E9;</mo></mrow><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}R_{\gamma} f(\alpha)=f(\alpha)+\left\langle\sigma(\alpha), \frac{\partial f}{\partial\left(q^{I}+z^{I}, p_{\bar{I}}+w_{\bar{I}}\right)}\right\rangle+ \\+\frac{1}{2}\left\langle\sigma(\alpha), \frac{\partial^{2} f}{\partial\left(q^{I}+z^{I}, p_{\bar{I}}+w_{\bar{I}}\right)^{2}} \sigma(\alpha)\right\rangle .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

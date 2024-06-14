@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_506_GAMIL'TONA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_506_GAMIL'TONA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3038</core:url>
+    <lbm:descriptor><![CDATA[ГАМИЛЬТОНА ФУНКЦИЯ, ГАМИЛЬТОНИАН]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#513"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22545"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22546"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6843"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14656"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>произвольная гладкая функция на симплектическом многообразии <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6843">$$(m, \omega)$$</a>. Г. ф. Н задает динамич. систему на $URI[[http://libmeta.ru/fme/formula/aux/506_2_GAMIL'TONA]]/URI$ с помощью векторного поля <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14656">$$\boldsymbol{v}_{h}$$</a>, определяемого по правилу:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22545">$$\omega\left(\cdot, v_{H}\right)=d H .$$</a><BR/></P><P>Система <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">дифференциальных уравнений</a>, описывающая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA">гамильтонову систему</a>, в координатах Дарбу принимает вид <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_501_GAMIL'TONA">Гамильтона канонического уравнения</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22546">$$\dot{p}=-H_{q}^{\prime}, \quad \dot{q}=H_{p}^{\prime} .$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#513">М. Э. Казарян</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[произвольная гладкая функция на симплектическом многообразии $(M, \omega)$. Г. ф. Н задает динамич. систему на $M$ с помошью векторного поля $\boldsymbol{v}_{H}$, определяемого по правилу:
+
+\[
+\omega\left(\cdot, v_{H}\right)=d H .
+\]
+
+Система дифференциальных уравнений, описывающая гамильтонову систему, в координатах Дарбу принимает вид Гамильтона канонического уравнения
+
+\[
+\dot{p}=-H_{q}^{\prime}, \quad \dot{q}=H_{p}^{\prime} .
+\]
+
+М. Э. Казарян.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_501_GAMIL'TONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1542_LANZhEVENA" alphabetic_pos="1544">
+  <title>ЛАНЖЕВЕНА УРАВНЕНИЯ В ТЕОРИИ ТУРБУЛЕНТНОСТИ</title>
+  <authors>
+    <author>A. П. Мирабель</author>
+  </authors>
+  <pages>
+    <start>319</start>
+    <end>320</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Кля цк и н В. И., Т а т а рск и й В. И., «успехи физич. наук», 1973, т. 110, № 4, с. 499-536; [2] Монин А. С., Я гл о м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967; [3] Edwards S. F., «j. Fluid Mech.», 1964, v. 18, № 2, p. 239-73; [4] He rri ng J. H., &quot;phys. Fluids», 1965, v. 8, № 12, p. 2219-25; [5] Kraichnan R. H., «j. Fluid Mech.», 1971, v. 47, № 3, p. 513-24.</literature_orig>
+    <unit>
+      <author>Кляцкин В. И.</author>
+      <author>Татарский В. И.</author>
+      <title>«успехи физич. наук»</title>
+      <publication/>
+      <year>1973</year>
+      <other>т. 110, № 4, с. 499-536</other>
+    </unit>
+    <unit>
+      <author>Монин А. С.</author>
+      <author>Яглом А. М.</author>
+      <title>Статистическая гидромеханика. Механика турбулентности, ч. 2</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Edwards S. F.</author>
+      <title>«j. Fluid Mech.»</title>
+      <publication/>
+      <year>1964</year>
+      <other>v. 18, № 2, p. 239-73</other>
+    </unit>
+    <unit>
+      <author>Herring J. H.</author>
+      <title>&quot;phys. Fluids»</title>
+      <publication/>
+      <year>1965</year>
+      <other>v. 8, № 12, p. 2219-25</other>
+    </unit>
+    <unit>
+      <author>Kraichnan R. H.</author>
+      <title>«j. Fluid Mech.»</title>
+      <publication/>
+      <year>1971</year>
+      <other>v. 47, № 3, p. 513-24.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1542_1_LANZhEVENA">\frac{\partial}{\partial t} u_{i}(\boldsymbol{k}, t)=-\mu(k, t) u_{i}(\boldsymbol{k}, t)+f_{i}(\boldsymbol{k}, t), \quad i=1,2,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1542_2_LANZhEVENA">\left\langle f_{i}(\boldsymbol{k}, t) f_{j}\left(-k, t^{\prime}\right)\right\rangle=\delta\left(t-t^{\prime}\right) \Phi_{i j}(k, t) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1542_3_LANZhEVENA">\frac{\partial}{\partial t} u_{i}(k, t) u_{j}(-k, t)=u_{j}(-k, t) \frac{\partial}{\partial t} u_{i}(k, t)+u_{i}(k, t) \frac{\partial}{\partial t} u_{j}(-k, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1542_4_LANZhEVENA">\frac{\partial}{\partial t} F(k, t)=-2 \mu(k, t) F(k, t)+2 \Phi(k, t) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1542_1_LANZhEVENA">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1542_2_LANZhEVENA">k, \mu(k, t)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1542_3_LANZhEVENA">f_{i}(\boldsymbol{k}, \boldsymbol{t})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1542_4_LANZhEVENA">\phi_{i j}(\boldsymbol{k}, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1542_5_LANZhEVENA">\left\langle f_{i}(\boldsymbol{k}, t) u_{j}(-\boldsymbol{k}, t)\right\rangle=\int_{0}^{t} d t^{\prime}\left\langle f_{i}(\boldsymbol{k}, t) f_{l}\left(-\boldsymbol{k}, t^{\prime}\right)\right\rangle\left\langle\delta u_{j}(\boldsymbol{k}, t) / \delta f_{l}\left(-\boldsymbol{k}, t^{\prime}\right)\right\rangle</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/1542_1_LANZhEVENA">
+      <rel_text>турбулентности</rel_text>
+      <target>http://libmeta.ru/fme/article/3139_TURBULENTNOST</target>
+    </relation>
+  </relations>
+  <text>уравнения для фурье-компонент поля скорости:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1542_1_LANZhEVENA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1542_1_LANZhEVENA]]/URI$ - волновой вектор с модулем $URI[[http://libmeta.ru/fme/formula/aux/1542_2_LANZhEVENA]]/URI$ релаксационный коэффициент трения, $URI[[http://libmeta.ru/fme/formula/aux/1542_3_LANZhEVENA]]/URI$ - дельта-коррелированные по времени случайные силы, определяемые спектральным тензором $URI[[http://libmeta.ru/fme/formula/aux/1542_4_LANZhEVENA]]/URI$. Осреднение их произведения дает
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1542_2_LANZhEVENA]]/URI
+\]
+
+Условие (2) обеспечивает марковость случайного процесса (см. [1]).
+
+Подстановка выражения (1) в тождество
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1542_3_LANZhEVENA]]/URI
+\]
+
+и осреднение полученного при этом выражения с использованием формулы для корреляции случайной силы со скоростью
+
+$URI[[http://libmeta.ru/fme/formula/aux/1542_5_LANZhEVENA]]/URI$
+
+позволяют получить уравнение для изотропной спектральной функции поля скорости в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1542_4_LANZhEVENA]]/URI
+\]
+
+Уравнение (3) обнаруживает тесную связь с квазимарковскими схемами замыкания в теории URI[[http://libmeta.ru/fme/relation/1542_1_LANZhEVENA]]/URI (см. [3]-[5]).</text>
+  <text_orig>уравнения для фурье-компонент поля скорости:
+
+\[
+\frac{\partial}{\partial t} u_{i}(\boldsymbol{k}, t)=-\mu(k, t) u_{i}(\boldsymbol{k}, t)+f_{i}(\boldsymbol{k}, t), \quad i=1,2,
+\]
+
+где $\boldsymbol{k}$ - волновой вектор с модулем $k, \mu(k, t)-$ релаксационный коэффициент трения, $f_{i}(\boldsymbol{k}, \boldsymbol{t})$ - дельта-коррелированные по времени случайные силы, определяемые спектральным тензором $\Phi_{i j}(\boldsymbol{k}, t)$. Осреднение их произведения дает
+
+\[
+\left\langle f_{i}(\boldsymbol{k}, t) f_{j}\left(-k, t^{\prime}\right)\right\rangle=\delta\left(t-t^{\prime}\right) \Phi_{i j}(k, t) .
+\]
+
+Условие (2) обеспечивает марковость случайного процесса (см. [1]).
+
+Подстановка выражения (1) в тождество
+
+\[
+\frac{\partial}{\partial t} u_{i}(k, t) u_{j}(-k, t)=u_{j}(-k, t) \frac{\partial}{\partial t} u_{i}(k, t)+u_{i}(k, t) \frac{\partial}{\partial t} u_{j}(-k, t)
+\]
+
+и осреднение полученного при этом выражения с использованием формулы для корреляции случайной силы со скоростью
+
+$\left\langle f_{i}(\boldsymbol{k}, t) u_{j}(-\boldsymbol{k}, t)\right\rangle=\int_{0}^{t} d t^{\prime}\left\langle f_{i}(\boldsymbol{k}, t) f_{l}\left(-\boldsymbol{k}, t^{\prime}\right)\right\rangle\left\langle\delta u_{j}(\boldsymbol{k}, t) / \delta f_{l}\left(-\boldsymbol{k}, t^{\prime}\right)\right\rangle$
+
+позволяют получить уравнение для изотропной спектральной функции поля скорости в виде:
+
+\[
+\frac{\partial}{\partial t} F(k, t)=-2 \mu(k, t) F(k, t)+2 \Phi(k, t) .
+\]
+
+Уравнение (3) обнаруживает тесную связь с квазимарковскими схемами замыкания в теории турбулентности (см. [3]-[5]). Лum.: [1] Кля цк и н В. И., Т а т а рск и й В. И., «Успехи физич. наук», 1973, т. 110, № 4, с. 499-536; [2] Монин А. С., Я гл о м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967; [3] Edwards S. F., «J. Fluid Mech.», 1964, v. 18, № 2, p. 239-73; [4] He rri ng J. H., &quot;Phys. Fluids», 1965, v. 8, № 12, p. 2219-25; [5] Kraichnan R. H., «J. Fluid Mech.», 1971, v. 47, № 3, p. 513-24. A. П. Мирабель.</text_orig>
+</article>

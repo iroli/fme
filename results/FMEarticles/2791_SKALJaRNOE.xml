@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2791_SKALJaRNOE" alphabetic_pos="2793">
+  <title>СКАЛЯРНОЕ ПОЛЕ</title>
+  <authors>
+    <author>А. В. Ерремов</author>
+  </authors>
+  <pages>
+    <start>540</start>
+    <end>540</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2791_1_SKALJaRNOE">\left(\square+m^{2}\right) \varphi(x)=0, .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2791_2_SKALJaRNOE">\varphi(x)=\left(\frac{1}{2 \pi}\right)^{-3 / 2} \int \frac{d \boldsymbol{k}}{\sqrt{2 k_{0}}}\left[a^{+}(\boldsymbol{k}) e^{i k x}+a^{-}(\boldsymbol{k}) e^{-i k x}\right] .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_1_SKALJaRNOE">\boldsymbol{x}=(\boldsymbol{x}, \boldsymbol{t}), \square-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_2_SKALJaRNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_3_SKALJaRNOE">\hbar=c=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_4_SKALJaRNOE">\left(^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_5_SKALJaRNOE">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_6_SKALJaRNOE">k_{0}=\sqrt{\boldsymbol{k}^{2}+m^{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_7_SKALJaRNOE">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_8_SKALJaRNOE">a^{ \pm}(\boldsymbol{k})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_9_SKALJaRNOE">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_10_SKALJaRNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_11_SKALJaRNOE">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_12_SKALJaRNOE">g \varphi^{2}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2791_13_SKALJaRNOE">g-</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/2791_1_SKALJaRNOE">
+      <rel_text>константа взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/385_VZAIMODEJSTVIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2791_2_SKALJaRNOE">
+      <rel_text>спином</rel_text>
+      <target>http://libmeta.ru/fme/article/2898_SPINO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2791_3_SKALJaRNOE">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2791_4_SKALJaRNOE">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2791_5_SKALJaRNOE">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+  </relations>
+  <text>функция точки некоторого пространства, значениями которой являются действительные числа. Примеры С. п.: поле температуры внутри тела, поле плотности.
+
+Свободные (невзаимодействующие) поля подчиняются Клейна - Гордона уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2791_1_SKALJaRNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2791_1_SKALJaRNOE]]/URI$ оператор Д'аламбера, а параметр $URI[[http://libmeta.ru/fme/formula/aux/2791_2_SKALJaRNOE]]/URI$ называется массой (уравнение записано в системе $URI[[http://libmeta.ru/fme/formula/aux/2791_3_SKALJaRNOE]]/URI$ ). Общее решение уравнения $URI[[http://libmeta.ru/fme/formula/aux/2791_4_SKALJaRNOE]]/URI$ имеет вид суперпозиции плоских волн с волновым вектором $URI[[http://libmeta.ru/fme/formula/aux/2791_5_SKALJaRNOE]]/URI$ и частотой $URI[[http://libmeta.ru/fme/formula/aux/2791_6_SKALJaRNOE]]/URI$ (нулевой компонентой 4-вектора $URI[[http://libmeta.ru/fme/formula/aux/2791_7_SKALJaRNOE]]/URI$ ):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2791_2_SKALJaRNOE]]/URI
+\]
+
+В URI[[http://libmeta.ru/fme/relation/2791_5_SKALJaRNOE]]/URI функции $URI[[http://libmeta.ru/fme/formula/aux/2791_8_SKALJaRNOE]]/URI$ представляют собой URI[[http://libmeta.ru/fme/relation/2791_4_SKALJaRNOE]]/URI рождения и уничтожения свободных скалярных URI[[http://libmeta.ru/fme/relation/2791_3_SKALJaRNOE]]/URI с импульсом $URI[[http://libmeta.ru/fme/formula/aux/2791_9_SKALJaRNOE]]/URI$, массой $URI[[http://libmeta.ru/fme/formula/aux/2791_10_SKALJaRNOE]]/URI$ и нулевым URI[[http://libmeta.ru/fme/relation/2791_2_SKALJaRNOE]]/URI, являющихся квантами С. П. Для взаимодействующего С. П. в правой части уравнения (*) стоит выражение, нелинейно зависящее от самого поля $URI[[http://libmeta.ru/fme/formula/aux/2791_11_SKALJaRNOE]]/URI$ (случай самодействия, напр.: $URI[[http://libmeta.ru/fme/formula/aux/2791_12_SKALJaRNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2791_13_SKALJaRNOE]]/URI$ URI[[http://libmeta.ru/fme/relation/2791_1_SKALJaRNOE]]/URI) или от других физич. полей.</text>
+  <text_orig>функция точки некоторого пространства, значениями которой являются действительные числа. Примеры С. п.: поле температуры внутри тела, поле плотности.
+
+Свободные (невзаимодействующие) поля подчиняются Клейна - Гордона уравнению
+
+\[
+\left(\square+m^{2}\right) \varphi(x)=0, .
+\]
+
+где $\boldsymbol{x}=(\boldsymbol{x}, \boldsymbol{t}), \square-$ оператор Д'Аламбера, а параметр $m$ называется массой (уравнение записано в системе $\hbar=c=1$ ). Общее решение уравнения $\left(^{*}\right)$ имеет вид суперпозиции плоских волн с волновым вектором $\boldsymbol{k}$ и частотой $k_{0}=\sqrt{\boldsymbol{k}^{2}+m^{2}}$ (нулевой компонентой 4-вектора $\boldsymbol{k}$ ):
+
+\[
+\varphi(x)=\left(\frac{1}{2 \pi}\right)^{-3 / 2} \int \frac{d \boldsymbol{k}}{\sqrt{2 k_{0}}}\left[a^{+}(\boldsymbol{k}) e^{i k x}+a^{-}(\boldsymbol{k}) e^{-i k x}\right] .
+\]
+
+В квантовой теории поля функции $a^{ \pm}(\boldsymbol{k})$ представляют собой операторы рождения и уничтожения свободных скалярных частиц с импульсом $\boldsymbol{k}$, массой $m$ и нулевым спином, являющихся квантами С. П. Для взаимодействующего С. П. в правой части уравнения (*) стоит выражение, нелинейно зависяшее от самого поля $\varphi(x)$ (случай самодействия, напр.: $g \varphi^{2}(x)$, где $g-$ константа взаимодействия) или от других физич. полей. А. В. Ерремов.</text_orig>
+</article>

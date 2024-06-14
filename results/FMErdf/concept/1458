@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2312_POLUTEN</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1458</core:url>
+    <lbm:descriptor><![CDATA[ПОЛУТЕНЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#776"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_78"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4673"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11295"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">область</a> вне каустики в пространстве дополнительных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параметров</a> $URI[[http://libmeta.ru/fme/formula/aux/2312_1_POLUTEN]]/URI$ фазы $URI[[http://libmeta.ru/fme/formula/aux/2312_2_POLUTEN]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2127_OSTsILLIRUJuSchIJ">осциллирующего интеграла</a> по полупространству. Точка $URI[[http://libmeta.ru/fme/formula/aux/2312_3_POLUTEN]]/URI$ принадлежит П. тогда и только тогда, когда $URI[[http://libmeta.ru/fme/formula/aux/2312_4_POLUTEN]]/URI$ не имеет критических точек в полупространстве интегрирования, а ее ограничение на границу имеет хотя бы одну критич. точку. Главный член асимптотики в этом случае имеет порядок $URI[[http://libmeta.ru/fme/formula/aux/2312_5_POLUTEN]]/URI$.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#776">С. В. Чмутов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[область вне каустики в пространстве дополнительных параметров $\lambda$ фазы $F$ осциллирующего интеграла по полупространству. Точка $\lambda$ принадлежит П. тогда и только тогда, когда $F(\cdot, \lambda)$ не имеет критических точек в полупространстве интегрирования, а ее ограничение на границу имеет хотя бы одну критич. точку. Главный член асимптотики в этом случае имеет порядок $\tau^{-(n+1) / 2}$.
+
+С. В. Чмутов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2127_OSTsILLIRUJuSchIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/148_BELYH" alphabetic_pos="148">
+  <title>БЕЛЫХ АТТРАКТОР</title>
+  <authors/>
+  <pages>
+    <start>39</start>
+    <end>39</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б е л ы х В. Н., О качественных структурах и бифуркациях некоторых конкретных динамических систем. Ix Междунар. конф. по нелинейным колебаниям. Т. 2. Качественные методы теории нелинейных колебаний, Киев, 1984, с. 46-48; [2] Бун и мов и ч Л. А., П ес ин Я. Б., Синай Я.Г., Як обсон М. В., Эргодическая теория гладких динамических систем, в сб.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, М., 1985, с. 113-231.</literature_orig>
+    <unit>
+      <author>Белых В. Н.</author>
+      <title>О качественных структурах и бифуркациях некоторых конкретных динамических систем. Ix Междунар. конф. по нелинейным колебаниям. Т. 2. Качественные методы теории нелинейных колебаний, Киев</title>
+      <publication/>
+      <year>1984</year>
+      <other>с. 46-48</other>
+    </unit>
+    <unit>
+      <author>Бунимович Л. А.</author>
+      <author>Песин Я. Б.</author>
+      <author>Синай Я. Г.</author>
+      <author>Якобсон М. В.</author>
+      <title>Эргодическая теория гладких динамических систем, в сб.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other>с. 113-231.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/148_1_BELYH">(x, y) \mapsto \begin{cases}(\lambda x-\lambda+1, \gamma y-\gamma+1) &amp; \text { при } y&gt;k x, \\ (\lambda x+\lambda-1, \gamma y+\gamma-1) &amp; \text { при } y&lt;k x,\end{cases}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/148_1_BELYH">\{(x, y),|x|&lt;1,|y|&lt;1\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/148_2_BELYH">0&lt;\lambda&lt;1 / 2&lt;1&lt;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/148_3_BELYH">&lt;\gamma&lt;2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/148_4_BELYH">|k|&lt;(2-\gamma) / \gamma</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/148_1_BELYH">
+      <rel_text>хаусдорфовой размерности</rel_text>
+      <target>http://libmeta.ru/fme/article/3352_HAUSDORFOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/148_2_BELYH">
+      <rel_text>стохастического аттрактора</rel_text>
+      <target>http://libmeta.ru/fme/article/2967_STOHASTIChESKIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/148_3_BELYH">
+      <rel_text>динамической системы</rel_text>
+      <target>http://libmeta.ru/fme/article/826_DINAMIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/148_4_BELYH">
+      <rel_text>аттрактор</rel_text>
+      <target>http://libmeta.ru/fme/article/125_ATTRAKTO</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/148_4_BELYH]]/URI URI[[http://libmeta.ru/fme/relation/148_3_BELYH]]/URI, порождаемой разрывным отображением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/148_1_BELYH]]/URI
+\]
+
+квадрата $URI[[http://libmeta.ru/fme/formula/aux/148_1_BELYH]]/URI$ в себя при $URI[[http://libmeta.ru/fme/formula/aux/148_2_BELYH]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/148_3_BELYH]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/148_4_BELYH]]/URI$ (см. [1]). Б. а.- нетривиальный пример из приложений URI[[http://libmeta.ru/fme/relation/148_2_BELYH]]/URI нецелой URI[[http://libmeta.ru/fme/relation/148_1_BELYH]]/URI (см. [2]).</text>
+  <text_orig>аттрактор динамической системы, порождаемой разрывным отображением
+
+\[
+(x, y) \mapsto \begin{cases}(\lambda x-\lambda+1, \gamma y-\gamma+1) &amp; \text { при } y&gt;k x, \\ (\lambda x+\lambda-1, \gamma y+\gamma-1) &amp; \text { при } y&lt;k x,\end{cases}
+\]
+
+квадрата $\{(x, y),|x|&lt;1,|y|&lt;1\}$ в себя при $0&lt;\lambda&lt;1 / 2&lt;1&lt;$ $&lt;\gamma&lt;2$ и $|k|&lt;(2-\gamma) / \gamma$ (см. [1]). Б. а.- нетривиальный пример из приложений стохастического аттрактора нецелой хаусдорфовой размерности (см. [2]).
+
+Лum.: [1] Б е л ы х В. Н., О качественных структурах и бифуркациях некоторых конкретных динамических систем. IX Междунар. конф. по нелинейным колебаниям. Т. 2. Качественные методы теории нелинейных колебаний, Киев, 1984, с. 46-48; [2] Бун и мов и ч Л. А., П ес ин Я. Б., Синай Я.Г., Як обсон М. В., Эргодическая теория гладких динамических систем, в сб.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, М., 1985, с. 113-231.</text_orig>
+</article>

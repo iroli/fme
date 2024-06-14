@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3298_FRAGMENA-LINDELEFA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3298_FRAGMENA-LINDELEFA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2552</core:url>
+    <lbm:descriptor><![CDATA[ФРАГМЕНА-ЛИНДЕЛЕФА ПРИНЦИП]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#19294"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19295"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3814"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19296"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6377"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>семейство высказываний, распространяющих <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1700_MAKSIMUMA">максимума модуля принцип</a> для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голоморфной</a> функции на случай неограниченной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a>. Типичное утверждение такого рода: пусть функция $URI[[http://libmeta.ru/fme/formula/aux/3298_1_FRAGMENA-LINDELEFA]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голоморфна</a> в угле раствора <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19296">$$\pi / \alpha$$</a> и непрерывна вплоть до его сторон. Если $URI[[http://libmeta.ru/fme/formula/aux/3298_3_FRAGMENA-LINDELEFA]]/URI$ на сторонах угла, то либо $URI[[http://libmeta.ru/fme/formula/aux/3298_4_FRAGMENA-LINDELEFA]]/URI$ всюду внутри угла, либо<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19295">$$\lim _{\rho \rightarrow \infty} \rho^{-\alpha} \ln \max _{|z|=\rho}|f(z)|>0 .$$</a><BR/></P><P>Имеются обобщения Ф. - Л. п. для решений и субрешений <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">дифференциальных уравнений</a> эллиптич. типа, для пространственных отображений с ограниченным искажением.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#19294">В. М. Миклюков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[семейство высказываний, распространяющих максимума модуля принцип для голоморфной функции на случай неограниченной области. Типичное утверждение такого рода: пусть функция $f(z)$ голоморфна в угле раствора $\pi / \alpha$ и непрерывна вплоть до его сторон. Если $|f(z)| \leqslant M$ на сторонах угла, то либо $|f(z)| \leqslant M$ всюду внутри угла, либо
+
+\[
+\lim _{\rho \rightarrow \infty} \rho^{-\alpha} \ln \max _{|z|=\rho}|f(z)|>0 .
+\]
+
+Имеются обобщения Ф. - Л. п. для решений и субрешений дифференциальных уравнений эллиптич. типа, для пространственных отображений с ограниченным искажением.
+
+В. М. Миклюков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1700_MAKSIMUMA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

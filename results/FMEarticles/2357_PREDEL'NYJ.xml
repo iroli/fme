@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2357_PREDEL'NYJ" alphabetic_pos="2359">
+  <title>ПРЕДЕЛЬНЫЙ ЦИКЛ</title>
+  <authors>
+    <author>B. В. Немыикий</author>
+  </authors>
+  <pages>
+    <start>458</start>
+    <end>458</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2357_1_PREDEL'NYJ">\frac{d x}{d t}=P(x, y) ; \quad \frac{d y}{d t}=Q(x, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2357_2_PREDEL'NYJ">\frac{d r}{d t}=1-r, \quad \frac{d \varphi}{d t}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2357_3_PREDEL'NYJ">\begin{gathered}r=1-\left(1-r_{0}\right) e^{-t}, \\\varphi=\varphi_{0}+t\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_1_PREDEL'NYJ">o x y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_2_PREDEL'NYJ">t \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_3_PREDEL'NYJ">t \rightarrow-\infty \quad(н \mathrm{e}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_4_PREDEL'NYJ">t \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_5_PREDEL'NYJ">\quad t \rightarrow-\infty \quad</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_6_PREDEL'NYJ">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_7_PREDEL'NYJ">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_8_PREDEL'NYJ">r_{0} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_9_PREDEL'NYJ">r=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2357_10_PREDEL'NYJ">n</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/2357_1_PREDEL'NYJ">
+      <rel_text>теории нелинейных</rel_text>
+      <target>http://libmeta.ru/fme/article/1904_NELINEJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2357_2_PREDEL'NYJ">
+      <rel_text>механич</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2357_3_PREDEL'NYJ">
+      <rel_text>Устойчивый предельный цикл</rel_text>
+      <target>http://libmeta.ru/fme/article/3225_USTOJChIVYJ</target>
+    </relation>
+  </relations>
+  <text>системы дифференциальных уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2357_1_PREDEL'NYJ]]/URI
+\]
+
+- замкнутая траектория в фазовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/2357_1_PREDEL'NYJ]]/URI$, обладающая тем свойством, что все траектории, начинающиеся в достаточно узкой кольцеобразной ее окрестности, неограниченно приближаются к этой траектории или при $URI[[http://libmeta.ru/fme/formula/aux/2357_2_PREDEL'NYJ]]/URI$ (у с т о йч и в ый П. ц.), или при $URI[[http://libmeta.ru/fme/formula/aux/2357_3_PREDEL'NYJ]]/URI$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0ee55ce3606b31fdcd5fg-1.jpg?height=35&amp;width=331&amp;top_left_y=802&amp;top_left_x=934)
+или часть из них при $URI[[http://libmeta.ru/fme/formula/aux/2357_4_PREDEL'NYJ]]/URI$, а остальные при $URI[[http://libmeta.ru/fme/formula/aux/2357_5_PREDEL'NYJ]]/URI$ (полу ус т ойчивый П. ц.). Напр., система
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2357_2_PREDEL'NYJ]]/URI
+\]
+
+( $URI[[http://libmeta.ru/fme/formula/aux/2357_6_PREDEL'NYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2357_7_PREDEL'NYJ]]/URI$ - полярные координаты), общее решение к-рой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2357_3_PREDEL'NYJ]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0ee55ce3606b31fdcd5fg-1.jpg?height=443&amp;width=443&amp;top_left_y=764&amp;top_left_x=1295)
+
+URI[[http://libmeta.ru/fme/relation/2357_3_PREDEL'NYJ]]/URI. (где $URI[[http://libmeta.ru/fme/formula/aux/2357_8_PREDEL'NYJ]]/URI$ ), имеет устойчивый П. ц. $URI[[http://libmeta.ru/fme/formula/aux/2357_9_PREDEL'NYJ]]/URI$ (рис.). Понятие П. ц. переносится также на систему $URI[[http://libmeta.ru/fme/formula/aux/2357_10_PREDEL'NYJ]]/URI$-го порядка. С URI[[http://libmeta.ru/fme/relation/2357_2_PREDEL'NYJ]]/URI. точки зрения устойчивый П. Ц. соответствует устойчивому периодич. режиму системы. Поэтому разыскание П. ц. имеет важное значение в URI[[http://libmeta.ru/fme/relation/2357_1_PREDEL'NYJ]]/URI колебаний.</text>
+  <text_orig>системЫ дифференциальнЫх уравнений
+
+\[
+\frac{d x}{d t}=P(x, y) ; \quad \frac{d y}{d t}=Q(x, y)
+\]
+
+- замкнутая траектория в фазовом пространстве $O x y$, обладающая тем свойством, что все траектории, начинающиеся в достаточно узкой кольцеобразной ее окрестности, неограниченно приближаются к этой траектории или при $t \rightarrow+\infty$ (у с т о йч и в ый П. ц.), или при $t \rightarrow-\infty \quad(н \mathrm{e}-$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0ee55ce3606b31fdcd5fg-1.jpg?height=35&amp;width=331&amp;top_left_y=802&amp;top_left_x=934)
+или часть из них при $t \rightarrow+\infty$, а остальные при $\quad t \rightarrow-\infty \quad$ (полу ус т ойчивый П. ц.). Напр., система
+
+\[
+\frac{d r}{d t}=1-r, \quad \frac{d \varphi}{d t}=1
+\]
+
+( $r$ и $\varphi$ - полярные координаты), общее решение к-рой
+
+\[
+\begin{gathered}
+r=1-\left(1-r_{0}\right) e^{-t}, \\
+\varphi=\varphi_{0}+t
+\end{gathered}
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0ee55ce3606b31fdcd5fg-1.jpg?height=443&amp;width=443&amp;top_left_y=764&amp;top_left_x=1295)
+
+Устойчивый предельный цикл. (где $r_{0} \geqslant 0$ ), имеет устойчивый П. ц. $r=1$ (рис.). Понятие П. ц. переносится также на систему $n$-го порядка. С механич. точки зрения устойчивый П. Ц. соответствует устойчивому периодич. режиму системы. Поэтому разыскание П. ц. имеет важное значение в теории нелинейных колебаний.
+
+B. В. Немыикий.</text_orig>
+</article>

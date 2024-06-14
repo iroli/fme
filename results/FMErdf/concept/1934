@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2741_SIMMETRIZATsI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1934</core:url>
+    <lbm:descriptor><![CDATA[СИММЕТРИЗАЦИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14562"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>сопоставление каждому объекту $URI[[http://libmeta.ru/fme/formula/aux/2741_1_SIMMETRIZATsI]]/URI$ объекта $URI[[http://libmeta.ru/fme/formula/aux/2741_2_SIMMETRIZATsI]]/URI$ (того же класса), обладающего некоторой симметрией. Обычно С. подвергают <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_948_ZAMKNUTOE">замкнутые множества</a> $URI[[http://libmeta.ru/fme/formula/aux/2741_3_SIMMETRIZATsI]]/URI$ в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO">евклидовом пространстве</a> (или в пространстве постоянной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN">кривизны</a>), а также отображения, причем С. строится так, что <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14562">$$f^{*}$$</a> непрерывно зависит от $URI[[http://libmeta.ru/fme/formula/aux/2741_5_SIMMETRIZATsI]]/URI$. С. сохраняют одни и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1826_MONODROMI">монотонно</a> изменяют другие характеристики объекта. С. используются в геометрии, математич. физике, теории функций при решении экстремальных задач.<BR/></P><P>С.Л. Печерский.<BR/></P><P>34 Математическая физика<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[сопоставление каждому объекту $F$ объекта $F^{*}$ (того же класса), обладающего некоторой симметрией. Обычно С. подвергают замкнутые множества $F$ в евклидовом пространстве (или в пространстве постоянной кривизны), а также отображения, причем С. строится так, что $F^{*}$ непрерывно зависит от $F$. С. сохраняют одни и монотонно изменяют другие характеристики объекта. С. используются в геометрии, математич. физике, теории функций при решении экстремальных задач.
+
+С.Л. Печерский.
+
+34 Математическая физика]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1826_MONODROMI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_948_ZAMKNUTOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

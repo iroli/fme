@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_1506">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>H</mi><mrow><mi>k</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo>&#x0002C;</mo><mi>q</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">&#x027E8;</mo><mi>p</mi><mo>&#x0002C;</mo><msub><mi>A</mi><mrow><mi>k</mi></mrow></msub><msub><mi>L</mi><mrow><mi>p</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x027E9;</mo></mrow><mo>&#x0002B;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">&#x027E8;</mo><mi>q</mi><mo>&#x0002C;</mo><mi>L</mi><msub><mi>B</mi><mrow><mi>k</mi></mrow></msub><mi>q</mi><mo stretchy="true" fence="true" form="postfix">&#x027E9;</mo></mrow><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$H_{k}(p, q)=\frac{1}{2}\left\langle p, A_{k} L_{p}\right\rangle+\frac{1}{2}\left\langle q, L B_{k} q\right\rangle,$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

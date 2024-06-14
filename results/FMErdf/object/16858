@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_16858">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mi>x</mi><mrow><mi>L</mi></mrow><mrow><mi>&#x003BC;</mi></mrow></msubsup><mo>&#x0003D;</mo><msup><mi>x</mi><mrow><mi>&#x003BC;</mi></mrow></msup><mo>&#x0002B;</mo><mi>i</mi><mi>&#x003B8;</mi><msup><mi>&#x003C3;</mi><mrow><mi>&#x003BC;</mi></mrow></msup><mover><mrow><mi>&#x003B8;</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mo>&#x0002C;</mo><mspace width="1em" /><msubsup><mi>&#x003B8;</mi><mrow><mi>L</mi></mrow><mrow><mi>&#x003B1;</mi></mrow></msubsup><mo>&#x0003D;</mo><msup><mi>&#x003B8;</mi><mrow><mi>&#x003B1;</mi></mrow></msup><mo>&#x0002C;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>&#x003B8;</mi><mrow><mi>L</mi></mrow><mrow><mi>&#x003B1;</mi></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><msup><mover><mrow><mi>&#x003B8;</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mover><mrow><mi>&#x003B1;</mi></mrow><mo>&#x002D9;</mo></mover></mrow></msup><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$x_{L}^{\mu}=x^{\mu}+i \theta \sigma^{\mu} \bar{\theta}, \quad \theta_{L}^{\alpha}=\theta^{\alpha},\left(\theta_{L}^{\alpha}\right)=\bar{\theta}^{\dot{\alpha}} .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

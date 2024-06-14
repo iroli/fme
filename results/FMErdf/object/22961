@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_22961">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>S</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#x0222B;</mo><mi>a</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mi>K</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mi>a</mi><mo stretchy="false">&#x00028;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>x</mi><mi>d</mi><mi>y</mi><mo>&#x0002C;</mo><mspace linebreak="newline" /><msub><mi>S</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x0222B;</mo><mi>&#x003B7;</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mi>a</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>x</mi><mo>&#x0003D;</mo><mi>&#x003B7;</mi><mi>a</mi><mo>&#x0002C;</mo><mspace linebreak="newline" /><msub><mi>D</mi><mrow><mi>&#x003BC;</mi></mrow></msub><mo>&#x0003D;</mo><msub><mo>&#x0220F;</mo><mrow><mi>x</mi></mrow></msub><mi>d</mi><mi>a</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mi>;</mi></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}S_{2}=-\frac{1}{2} \int a(x) K(x, y) a(y) d x d y, \\S_{1}=\int \eta(x) a(x) d x=\eta a, \\D_{\mu}=\prod_{x} d a(x) ;\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

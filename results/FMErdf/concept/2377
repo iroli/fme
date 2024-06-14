@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_313_VARADANA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_313_VARADANA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2377</core:url>
+    <lbm:descriptor><![CDATA[ВАРАДАНА ТЕОРЕМА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2876"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#17893"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#17895"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17896"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17897"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_116"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17898"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13540"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17899"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17900"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>теорема, определяющая асимптотическое поведение интегралов по последовательности вероятностных мер, удовлетворяющих <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_261_BOL'ShIH">больших уклонений принципу</a>. Фактически она обобщает метод Лапласа на бесконечномерный случай. Наиболее удобным для различных приложений в физике является следующий <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI">вариант</a> В.т. Пусть последовательность вероятностных мер <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17897">$$\left\{\left.\mu_{n}[d x]\right|_{1} ^{\infty}\right.$$</a> на $URI[[http://libmeta.ru/fme/formula/aux/313_2_VARADANA]]/URI$ удовлетворяет <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_261_BOL'ShIH">принципу больших уклонений</a> с константами <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17898">$$\left\{\left.V_{n}\right|_{1} ^{\infty}\right.$$</a> и функцией уклонения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13540">$$i(x)$$</a>. И пусть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17899">$$g: E \rightarrow \mathbb{R}^{1}$$</a> является непрерывной функцией, к-рая ограничена сверху на множестве <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17900">$$u_{n} \operatorname{supp} \mu_{n}$$</a>. Тогда<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17896">$$\lim _{n \rightarrow \infty} \frac{1}{V_{n}} \ln \int_{E} \mu_{n}[d x] \exp \left\{V_{n} G(x)\right\}=\sup _{x \in E}[G(x)-I(x)] .$$</a><BR/></P><P>Подробное доказательство содержится в работе <a href="/object/show?uri=http://libmeta.ru/io/Publication#17893">[1]</a>. Физич. примеры, использующие В. т., наиболее полно приведены в <a href="/object/show?uri=http://libmeta.ru/io/Publication#17895">[2]</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#17893">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#17892">Varadhan S. R. S.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#17893">"comm. Pure Appl. Math.», 1966, v. 19, p. 261</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#17895">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#17894">E11is R. S.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#17895">Entropy, large deviations and statistical mechanics, B.- Hdlb.- N. Y., 1985</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2876">А. Л. Ребенко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[теорема, определяющая асимптотическое поведение интегралов по последовательности вероятностных мер, удовлетворяюших больших уклонений принципу. Фактически она обобщает метод Лапласа на бесконечномерный случай. Наиболее удобным для различных приложений в физике является следуюший вариант В.т. Пусть последовательность вероятностных мер $\left\{\left.\mu_{n}[d x]\right|_{1} ^{\infty}\right.$ на $E$ удовлетворяет принципу больших уклонений с константами $\left\{\left.V_{n}\right|_{1} ^{\infty}\right.$ и функцией уклонения $I(x)$. И пусть $G: E \rightarrow \mathbb{R}^{1}$ является непрерывной функцией, к-рая ограничена сверху на множестве $U_{n} \operatorname{supp} \mu_{n}$. Тогда
+
+\[
+\lim _{n \rightarrow \infty} \frac{1}{V_{n}} \ln \int_{E} \mu_{n}[d x] \exp \left\{V_{n} G(x)\right\}=\sup _{x \in E}[G(x)-I(x)] .
+\]
+
+Подробное доказательство содержится в работе [1]. Физич. примеры, использующие В. т., наиболее полно приведены в [2].
+
+Jum.: [1] Varadhan S. R. S., "Comm. Pure Appl. Math.», 1966, v. 19, p. 261; [2] E11is R.S., Entropy, large deviations and statistical mechanics, B.- Hdlb.- N. Y., $1985 . \quad$ А. Л. Ребенко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_261_BOL'ShIH"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_261_BOL'ShIH"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

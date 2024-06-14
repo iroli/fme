@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/565_GEL'DERA" alphabetic_pos="565">
+  <title>ГЕЛЬДЕРА НЕРАВЕНСТВО</title>
+  <authors>
+    <author>B. Н. Нескоромный</author>
+  </authors>
+  <pages>
+    <start>124</start>
+    <end>124</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Р ид М., С ай мон Б., Методы современной математической физики, т. 1, пер. с англ., М., 1977.</literature_orig>
+    <unit>
+      <author>Рид М.</author>
+      <author>Саймон Б.</author>
+      <title>Методы современной математической физики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1977</year>
+      <other>т. 1</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/565_1_GEL'DERA">\|f\|_{p}=\left(\int_{X}|f(x)|^{p} d \mu(x)\right)^{1 / p}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/565_2_GEL'DERA">\|f g\|_{r} \leqslant\|f\|_{p}\|g\|_{q}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/565_1_GEL'DERA">l^{p}(x, d \mu)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/565_2_GEL'DERA">f \in L^{p}(X, d \mu), g \in L^{q}(X, d \mu)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/565_3_GEL'DERA">p, q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/565_4_GEL'DERA">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/565_5_GEL'DERA">p, q, r \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/565_6_GEL'DERA">p^{-1}+q^{-1}=r^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/565_7_GEL'DERA">f g \in L^{r}(X, d \mu)</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/565_1_GEL'DERA">
+      <rel_text>банаховом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/135_BANAHOVO</target>
+    </relation>
+  </relations>
+  <text>в URI[[http://libmeta.ru/fme/relation/565_1_GEL'DERA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/565_1_GEL'DERA]]/URI$ измеримых функций с нормой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/565_1_GEL'DERA]]/URI
+\]
+
+для любых функций $URI[[http://libmeta.ru/fme/formula/aux/565_2_GEL'DERA]]/URI$ и чисел $URI[[http://libmeta.ru/fme/formula/aux/565_3_GEL'DERA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/565_4_GEL'DERA]]/URI$, удовлетворяющих условиям $URI[[http://libmeta.ru/fme/formula/aux/565_5_GEL'DERA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/565_6_GEL'DERA]]/URI$, имеет место $URI[[http://libmeta.ru/fme/formula/aux/565_7_GEL'DERA]]/URI$ с выполнением неравенства
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/565_2_GEL'DERA]]/URI
+\]</text>
+  <text_orig>в банаховом пространстве $L^{p}(X, d \mu)$ измеримых функций с нормой
+
+\[
+\|f\|_{p}=\left(\int_{X}|f(x)|^{p} d \mu(x)\right)^{1 / p}&lt;\infty
+\]
+
+для любых функций $f \in L^{p}(X, d \mu), g \in L^{q}(X, d \mu)$ и чисел $p, q$, $r$, удовлетворяющих условиям $p, q, r \geqslant 1$ и $p^{-1}+q^{-1}=r^{-1}$, имеет место $f g \in L^{r}(X, d \mu)$ с выполнением неравенства
+
+\[
+\|f g\|_{r} \leqslant\|f\|_{p}\|g\|_{q}
+\]
+
+Лит.: [1] Р ид М., С ай мон Б., Методы современной математической физики, т. 1, пер. с англ., М., 1977.
+
+B. Н. Нескоромный.</text_orig>
+</article>

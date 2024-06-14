@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_296_BYSTRYE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_296_BYSTRYE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2187</core:url>
+    <lbm:descriptor><![CDATA[БЫСТРЫЕ И МЕДЛЕННЫЕ ПЕРЕМЕННЫЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1740"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16662"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16663"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16664"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16665"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4044"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16666"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3903"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16667"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>переменные, возникающие в задачах с малым параметром $URI[[http://libmeta.ru/fme/formula/aux/296_1_BYSTRYE]]/URI$ в том случае, когда независимые переменные входят в дифференциальные (или псевдодифференциальные) операторы неравноправно - производные по части переменных $URI[[http://libmeta.ru/fme/formula/aux/296_2_BYSTRYE]]/URI$, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16664">$$\ldots, x_{n}$$</a> ) входят в уравнение в виде <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16665">$$h \partial / \partial x_{j}$$</a> (то есть с параметром), а по другой части переменных <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4044">$$y=\left(y_{1}, \ldots, y_{l}\right)$$</a> - в виде <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16666">$$\partial / \partial y_{k}$$</a> (то есть без параметра). Тогда переменные $URI[[http://libmeta.ru/fme/formula/aux/296_7_BYSTRYE]]/URI$ называются медленными, а $URI[[http://libmeta.ru/fme/formula/aux/296_8_BYSTRYE]]/URI$ быстрыми переменным и. Б. и м. п. возникают также при нахождении асимптотич. решений вида<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16662">$$\psi\left(S_{1}(x) / h, \ldots, S_{m}(x) / h, x\right)$$</a><BR/></P><P>в различных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI">вариантах</a> многомасштабных разложений. При <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2575_REGULJaRIZATsI">регуляризации</a> задачи возникают переменные <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16667">$$y_{j}=s_{j}(x) / h$$</a>, к-рые также называются 6 ы с т ры м и, в отличие от ме д л е н н ы х переменных $URI[[http://libmeta.ru/fme/formula/aux/296_10_BYSTRYE]]/URI$.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1740">С. Ю. Доброхотов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[переменные, возникающие в задачах с малым параметром $h$ в том случае, когда независимые переменные входят в дифференциальные (или псевдодифференциальные) операторы неравноправно - производные по части переменных $x=\left(x_{1}\right.$, $\ldots, x_{n}$ ) входят в уравнение в виде $h \partial / \partial x_{j}$ (то есть с параметром), а по другой части переменных $y=\left(y_{1}, \ldots, y_{l}\right)$ - в виде $\partial / \partial y_{k}$ (то есть без параметра). Тогда переменные $x$ называются медленными, а $y-$ быстрыми переменным и. Б. и м. п. возникают также при нахождении асимптотич. решений вида
+
+\[
+\psi\left(S_{1}(x) / h, \ldots, S_{m}(x) / h, x\right)
+\]
+
+в различных вариантах многомасштабных разложений. При регуляризации задачи возникают переменные $y_{j}=S_{j}(x) / h$, к-рые также называются 6 ы с т ры м и, в отличие от ме д л е н н ы х переменных $x$.
+
+С. Ю. Доброхотов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2575_REGULJaRIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

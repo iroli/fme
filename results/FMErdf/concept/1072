@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1966_NOVIKOVA-KRIChEVERA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1966_NOVIKOVA-KRIChEVERA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1072</core:url>
+    <lbm:descriptor><![CDATA[НОВИКОВА-КРИЧЕВЕРА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#8296"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8297"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8298"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>уравнение, описывающее <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1337_KONEChNOZONNOE">конечнозонные решения</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1073_KADOMTsEVA-PETVIAShVILI">Кадомцева-Петвиашвили уравнения</a>, отвечающие двумерным <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голоморфным</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">расслоениям</a> над эллиптической кривой. В алгебраич. форме имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8297">$$\begin{gathered}v_{t}=\frac{1}{4} v_{x x x}+\frac{3}{8 v_{x}}\left(v_{x x}^{2}-P_{3}(v)\right), \\P_{3}(v)=4 v^{3}-g_{2} v-g_{3} .\end{gathered}$$</a><BR/></P><P>\section{единственное уравнение вида}<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8298">$$v_{t}=\frac{1}{4} v_{x x x}+f\left(v, v_{x}, v_{x x}\right)$$</a><BR/></P><P>обладающее скрытой симметрией и не сводящееся к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1415_KORTEVEGA-DE">уравнению Кортевега-де Фриса</a> преобразованиями типа Миуры.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#8296">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1544">Кричевер И. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#3559">Новиков С. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#8296">«функциональный анализ и его прилож.», 1978, т. 42, № 4, с. 41-52.А. П. Веселов.</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[уравнение, описывающее конечнозонные решения Кадомцева-Петвиашвили уравнения, отвечающие двумерным голоморфным расслоениям над эллиптической кривой. В алгебраич. форме имеет вид:
+
+\[
+\begin{gathered}
+v_{t}=\frac{1}{4} v_{x x x}+\frac{3}{8 v_{x}}\left(v_{x x}^{2}-P_{3}(v)\right), \\
+P_{3}(v)=4 v^{3}-g_{2} v-g_{3} .
+\end{gathered}
+\]
+
+\section{Единственное уравнение вида}
+
+\[
+v_{t}=\frac{1}{4} v_{x x x}+f\left(v, v_{x}, v_{x x}\right)
+\]
+
+обладающее скрытой симметрией и не сводящееся к уравнению Кортевега-де Фриса преобразованиями типа Миуры.
+
+Лum.: [1] К р и ч е в е р И. М., Н о в и к о в С. П., «Функщиональный анализ и его прилож.», 1978, т. 42, № 4, с. 41-52.А. П. Веселов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1415_KORTEVEGA-DE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1073_KADOMTsEVA-PETVIAShVILI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1337_KONEChNOZONNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

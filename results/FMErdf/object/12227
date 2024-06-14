@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12227">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mover><mrow><mi>A</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>l</mi></mrow><mrow><mi>k</mi></mrow></msubsup><mo>&#x0003D;</mo><msubsup><mover><mrow><mi>a</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>k</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><msub><mover><mrow><mi>a</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>l</mi></mrow></msub><mi>;</mi><mspace width="1em" /><msub><mover><mrow><mi>a</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>l</mi></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>m</mi><mi>&#x003C9;</mi><msub><mover><mrow><mi>x</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>l</mi></mrow></msub><mo>&#x0002B;</mo><mi>i</mi><msub><mover><mrow><mi>p</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>l</mi></mrow></msub></mrow><mrow><msqrt><mrow><mn>2</mn><mi>m</mi><mi>&#x0210F;</mi><mi>&#x003C9;</mi></mrow></msqrt></mrow></mfrac><mi>;</mi><mspace width="1em" /><msubsup><mover><mrow><mi>a</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>k</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo>&#x0003D;</mo><mfrac><mrow><mi>m</mi><mi>&#x003C9;</mi><msub><mover><mrow><mi>x</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>k</mi></mrow></msub><mo>&#x02212;</mo><mi>i</mi><msub><mover><mrow><mi>p</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>k</mi></mrow></msub></mrow><mrow><msqrt><mrow><mn>2</mn><mi>m</mi><mi>&#x0210F;</mi><mi>&#x003C9;</mi></mrow></msqrt></mrow></mfrac><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\hat{A}_{l}^{k}=\hat{a}_{k}^{+} \hat{a}_{l} ; \quad \hat{a}_{l}=\frac{m \omega \hat{x}_{l}+i \hat{p}_{l}}{\sqrt{2 m \hbar \omega}} ; \quad \hat{a}_{k}^{+}=\frac{m \omega \hat{x}_{k}-i \hat{p}_{k}}{\sqrt{2 m \hbar \omega}},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

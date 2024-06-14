@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_684_GOMEOMORFIZ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_684_GOMEOMORFIZ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3235</core:url>
+    <lbm:descriptor><![CDATA[ГОМЕОМОРФИЗМ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_547"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7864"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_602"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_684_GOMEOMORFIZ">гомеоморфное</a> отображение, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3098_TOPOLOGIChESKOE">топологических пространств</a> $URI[[http://libmeta.ru/fme/formula/aux/684_1_GOMEOMORFIZ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/684_2_GOMEOMORFIZ]]/URI$ - взаимно однозначное и в обе стороны <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE">непрерывное отображение</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7864">$$f: X \rightarrow Y$$</a>. При $URI[[http://libmeta.ru/fme/formula/aux/684_4_GOMEOMORFIZ]]/URI$. открытые (замкнутые) множества из $URI[[http://libmeta.ru/fme/formula/aux/684_5_GOMEOMORFIZ]]/URI$ отображаются на открытые (замкнутые) множества из $URI[[http://libmeta.ru/fme/formula/aux/684_6_GOMEOMORFIZ]]/URI$. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_684_GOMEOMORFIZ">Гомеоморфные</a> пространства называются т о п о л о г и ч е с к и эк в и в а ле н т н ы м и, а объекты, не изменяющиеся при Г.,- т о п о л о г и ч е ск и м и и нв а и и а там и (таковы, напр., связность, компактность, размерность и т. д.).<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[гомеоморфное отображение, топологических пространств $X$ и $Y$ - взаимно однозначное и в обе стороны непрерывное отображение $f: X \rightarrow Y$. При $\Gamma$. открытые (замкнутые) множества из $X$ отображаются на открытые (замкнутые) множества из $Y$. Гомеоморфные пространства называются т о п о л о г и ч е с к и эк в и в а ле н т н ы м и, а объекты, не изменяющиеся при Г.,- т о п о л о г и ч е ск и м и и нв а и и а там и (таковы, напр., связность, компактность, размерность и т. д.). М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_684_GOMEOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3098_TOPOLOGIChESKOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_684_GOMEOMORFIZ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

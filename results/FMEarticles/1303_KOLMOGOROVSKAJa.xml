@@ -1,0 +1,708 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1303_KOLMOGOROVSKAJa" alphabetic_pos="1305">
+  <title>КОЛМОГОРОВСКАЯ АВТОМОДЕЛЬНОСТЬ ТУРБУЛЕНТНОСТИ</title>
+  <authors>
+    <author>А. С. Монин</author>
+  </authors>
+  <pages>
+    <start>278</start>
+    <end>280</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] К о л м о г о р о в А. Н., «доклады Ан СССР», 1941, т. 30, № 4, c. 299-303; [2] Обухо в А. М., там же, 1941, т. 32, № 1, с. 22-24; [3] е го же, «изв. Ан Ссср. Сер. геогр., геофиз.», 1949, т. 13, № 1, с. 58-73; [4] М о н и н А. С., там же, Сер. геофиз., 1962, № 3, с. 397-407; [5] Мон и н А. С., Я гло м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967.</literature_orig>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <title>«доклады Ан СССР»</title>
+      <publication/>
+      <year>1941</year>
+      <other>т. 30, № 4, c. 299-303</other>
+    </unit>
+    <unit>
+      <author>Обухов А. М.</author>
+      <title>там же</title>
+      <publication/>
+      <year>1941</year>
+      <other>т. 32, № 1, с. 22-24</other>
+    </unit>
+    <unit>
+      <title>е го же, «изв. Ан Ссср. Сер. геогр., геофиз.»</title>
+      <publication/>
+      <year>1949</year>
+      <other>т. 13, № 1, с. 58-73</other>
+    </unit>
+    <unit>
+      <author>Монин А. С.</author>
+      <title>там же, Сер. геофиз.</title>
+      <publication/>
+      <year>1962</year>
+      <other>№ 3, с. 397-407</other>
+    </unit>
+    <unit>
+      <author>Монин А. С.</author>
+      <author>Яглом А. М.</author>
+      <title>Статистическая гидромеханика. Механика турбулентности, ч. 2</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_1_KOLMOGOROVSKAJa">\operatorname{Re}=v^{-1} L \delta U&gt;\operatorname{Re}_{\text {кр }} \sim 3000</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_2_KOLMOGOROVSKAJa">\begin{gathered}\boldsymbol{v}\left(M_{k}\right)=\boldsymbol{u}\left(M_{k}\right)-\boldsymbol{u}\left(M_{0}\right), k=1,2, \ldots, N ; \\M_{k}=\left(\boldsymbol{r}_{k}, \tau_{k}\right) ; \tau_{k}=t_{k}-t_{0} ; \boldsymbol{r}_{k}=\boldsymbol{x}_{k}-\boldsymbol{x}_{0}-\boldsymbol{u}_{0} \tau_{k},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_3_KOLMOGOROVSKAJa">\left\langle(\delta u)^{2}\right\rangle=(\varepsilon r)^{2 / 3} \varphi(r / \lambda) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_4_KOLMOGOROVSKAJa">\left\langle(\delta u)^{2}\right\rangle=C(\varepsilon r)^{2 / 3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_5_KOLMOGOROVSKAJa">\langle\varepsilon\rangle=K(\delta U / L)^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_6_KOLMOGOROVSKAJa">K \sim \varepsilon^{1 / 3} L^{4 / 3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_7_KOLMOGOROVSKAJa">N=n L^{3} \sim\left(\operatorname{Re} / \operatorname{Re}_{\mathrm{Kp}}\right)^{9 / 4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_8_KOLMOGOROVSKAJa">E(k)=\varepsilon^{2 / 3} k^{-5 / 3} \varphi_{1}(\lambda k),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_9_KOLMOGOROVSKAJa">E(k)=C_{1} \varepsilon^{2 / 3} k^{-5 / 3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_10_KOLMOGOROVSKAJa">C_{1}=(55 / 27) \Gamma^{-1}(1 / 3) C .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_11_KOLMOGOROVSKAJa">\omega=A(t) \exp [i x k(t)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_12_KOLMOGOROVSKAJa">k_{3}(0) \exp \left(\left|a_{3}\right| t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_13_KOLMOGOROVSKAJa">\left|A_{1}(0)\right| \exp \left(a_{1} t-v \int_{0}^{t} k^{2} d t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_14_KOLMOGOROVSKAJa">E(k)=\left\langle\delta \omega \delta \omega^{*} / 2 k^{2} \delta k\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_15_KOLMOGOROVSKAJa">E(k) \sim \varepsilon^{2 / 3} k^{-5 / 3}(\lambda k)^{2 \sigma-4 / 3} \exp \left[-(\gamma \lambda k)^{2}\right],</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_16_KOLMOGOROVSKAJa">\lambda_{\theta}=\left(\chi^{3} / \varepsilon\right)^{1 / 4}=\lambda(\mathrm{Pr})^{-3 / 4},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_17_KOLMOGOROVSKAJa">\begin{aligned}&amp; \left\langle(\delta \theta)^{2}\right\rangle=\varepsilon_{\theta} \varepsilon^{-1 / 3} r^{2 / 3} \varphi_{\theta}\left(r / \lambda_{\theta}, \operatorname{Pr}\right) \\&amp; E_{\theta}(k)=\varepsilon_{\theta} \varepsilon^{-1 / 3} k^{-5 / 3} \varphi_{1 \theta}\left(\lambda_{\theta} k, \operatorname{Pr}\right),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_18_KOLMOGOROVSKAJa">l \gg \lambda_{\theta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_19_KOLMOGOROVSKAJa">l \gg\left(v \chi^{2} / \varepsilon\right)^{1 / 4}=\left(\lambda \lambda_{\theta}^{2}\right)^{1 / 3} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_20_KOLMOGOROVSKAJa">\min \left(L, L_{\theta}\right) \gg r \gg \max \left(\lambda, \lambda_{\theta}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_21_KOLMOGOROVSKAJa">\begin{gathered}\left\langle(\delta \theta)^{2}\right\rangle=C_{\theta} \varepsilon_{\theta} \varepsilon^{-1 / 3} r^{2 / 3}, \\E_{\theta}(k)=C_{1 \theta} \varepsilon_{\theta} \varepsilon^{-1 / 3} k^{-5 / 3}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_22_KOLMOGOROVSKAJa">1 \ll \lambda k \ll(\operatorname{Pr})^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_23_KOLMOGOROVSKAJa">E_{\theta}(k) \sim \varepsilon_{\theta} \tau k^{-1} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_24_KOLMOGOROVSKAJa">\lambda k \gg(\mathrm{Pr})^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_25_KOLMOGOROVSKAJa">k^{-1} \exp \left[-(\gamma \lambda k)^{2} / \operatorname{Pr}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_26_KOLMOGOROVSKAJa">\lambda_{\theta} \gg l \gg \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_27_KOLMOGOROVSKAJa">b_{\alpha} u_{\alpha} \approx \chi_{\Delta} \theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_28_KOLMOGOROVSKAJa">E_{\theta}(k) \sim \varepsilon_{\theta} \varepsilon^{2 / 3} \chi^{-3} k^{-17 / 3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_29_KOLMOGOROVSKAJa">L_{*}=(\alpha g)^{-3 / 2} \varepsilon^{5 / 4} \varepsilon_{T}^{-3 / 4},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_30_KOLMOGOROVSKAJa">C_{1}\left(L_{*} k\right) \sim\left(L_{*} k\right)^{-8 / 15} \text { и } C_{1 T}\left(L_{*} k\right) \sim\left(L_{*} k\right)^{4 / 15},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_31_KOLMOGOROVSKAJa">\begin{aligned}&amp; E(k) \sim \varepsilon_{T}^{2 / 5}(\alpha g)^{4 / 5} k^{-11 / 5} \\&amp; E_{T}(k) \sim \varepsilon_{T}^{4 / 5}(\alpha g)^{-2 / 5} k^{-7 / 5}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1303_32_KOLMOGOROVSKAJa">E(k) \sim\left\langle\varepsilon_{r}^{2 / 3}\right\rangle k^{-5 / 3}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_1_KOLMOGOROVSKAJa">v-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_2_KOLMOGOROVSKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_3_KOLMOGOROVSKAJa">\delta U-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_4_KOLMOGOROVSKAJa">l, \delta U</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_5_KOLMOGOROVSKAJa">\operatorname{re})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_6_KOLMOGOROVSKAJa">\boldsymbol{u}(m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_7_KOLMOGOROVSKAJa">\boldsymbol{u}_{0}=\boldsymbol{u}\left(m_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_8_KOLMOGOROVSKAJa">\left|x_{k}-x_{0}\right|(\ll L)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_9_KOLMOGOROVSKAJa">\left|t_{k}-t_{0}\right|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_10_KOLMOGOROVSKAJa">(\boldsymbol{x}, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_11_KOLMOGOROVSKAJa">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_12_KOLMOGOROVSKAJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_13_KOLMOGOROVSKAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_14_KOLMOGOROVSKAJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_15_KOLMOGOROVSKAJa">\operatorname{re}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_16_KOLMOGOROVSKAJa">\lambda=\left(v^{3} / \varepsilon\right)^{1 / 4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_17_KOLMOGOROVSKAJa">\delta u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_18_KOLMOGOROVSKAJa">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_19_KOLMOGOROVSKAJa">\boldsymbol{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_20_KOLMOGOROVSKAJa">\boldsymbol{x}+\boldsymbol{r}(</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_21_KOLMOGOROVSKAJa">\boldsymbol{l} \ll \boldsymbol{L})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_22_KOLMOGOROVSKAJa">\varphi(\xi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_23_KOLMOGOROVSKAJa">\xi \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_24_KOLMOGOROVSKAJa">\operatorname{re}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_25_KOLMOGOROVSKAJa">l \gg r \gg \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_26_KOLMOGOROVSKAJa">c-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_27_KOLMOGOROVSKAJa">\langle\varepsilon\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_28_KOLMOGOROVSKAJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_29_KOLMOGOROVSKAJa">\langle\varepsilon\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_30_KOLMOGOROVSKAJa">k \sim L \delta U-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_31_KOLMOGOROVSKAJa">k / v \sim \operatorname{Re} / \operatorname{Re}_{\text {кр }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_32_KOLMOGOROVSKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_33_KOLMOGOROVSKAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_34_KOLMOGOROVSKAJa">\left.\operatorname{Re}=\operatorname{Re}_{\text {кр }}\right) \quad</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_35_KOLMOGOROVSKAJa">\lambda / L \sim\left(\operatorname{Re} / \operatorname{Re}_{\mathrm{kp}}\right)^{-3 / 4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_36_KOLMOGOROVSKAJa">n \sim \lambda^{-3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_37_KOLMOGOROVSKAJa">l^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_38_KOLMOGOROVSKAJa">e(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_39_KOLMOGOROVSKAJa">k-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_40_KOLMOGOROVSKAJa">\varphi_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_41_KOLMOGOROVSKAJa">x \rightarrow \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_42_KOLMOGOROVSKAJa">l^{-1} \ll k \ll \lambda^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_43_KOLMOGOROVSKAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_44_KOLMOGOROVSKAJa">c_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_45_KOLMOGOROVSKAJa">l=\infty, \lambda=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_46_KOLMOGOROVSKAJa">c \approx 1,9</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_47_KOLMOGOROVSKAJa">c_{1} \approx 1,4</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_48_KOLMOGOROVSKAJa">\varphi_{1}(\lambda k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_49_KOLMOGOROVSKAJa">k\left(\gg \lambda^{-1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_50_KOLMOGOROVSKAJa">l \ll \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_51_KOLMOGOROVSKAJa">x_{\beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_52_KOLMOGOROVSKAJa">u_{\beta}=a_{\beta} x_{\beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_53_KOLMOGOROVSKAJa">0&lt;a_{1} \geqslant a_{2} \geqslant a_{3}&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_54_KOLMOGOROVSKAJa">\boldsymbol{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_55_KOLMOGOROVSKAJa">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_56_KOLMOGOROVSKAJa">x_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_57_KOLMOGOROVSKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_58_KOLMOGOROVSKAJa">x_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_59_KOLMOGOROVSKAJa">\sigma=\left\langle a_{1}\left|a_{3}\right|^{-1}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_60_KOLMOGOROVSKAJa">\gamma^{2}=\tau^{-1}\left\langle\left|a_{3}\right|^{-1}\right\rangle(\tau-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_61_KOLMOGOROVSKAJa">1 / 2&lt;\sigma&lt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_62_KOLMOGOROVSKAJa">\sigma=2 / 3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_63_KOLMOGOROVSKAJa">l \approx \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_64_KOLMOGOROVSKAJa">\varepsilon^{3 / 2} v^{-1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_65_KOLMOGOROVSKAJa">\varepsilon / v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_66_KOLMOGOROVSKAJa">c_{1} \varepsilon^{2 / 3} k^{1 / 3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_67_KOLMOGOROVSKAJa">\theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_68_KOLMOGOROVSKAJa">\mathrm{pe}=\chi^{-1} L_{\theta} \delta_{\theta} U</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_69_KOLMOGOROVSKAJa">\chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_70_KOLMOGOROVSKAJa">l_{\theta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_71_KOLMOGOROVSKAJa">\boldsymbol{\theta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_72_KOLMOGOROVSKAJa">\delta_{\theta} U-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_73_KOLMOGOROVSKAJa">l_{\theta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_74_KOLMOGOROVSKAJa">\varepsilon, \chi и \varepsilon_{\theta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_75_KOLMOGOROVSKAJa">\mathrm{p} \mathrm{e})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_76_KOLMOGOROVSKAJa">\varepsilon_{\theta}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_77_KOLMOGOROVSKAJa">(1 / 2)\left\langle\theta^{\prime 2}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_78_KOLMOGOROVSKAJa">\theta^{\prime}=\theta-\langle\theta\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_79_KOLMOGOROVSKAJa">\chi\left\langle\left|\nabla \theta^{\prime}\right|^{2}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_80_KOLMOGOROVSKAJa">\operatorname{pr}=v / \chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_81_KOLMOGOROVSKAJa">\theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_82_KOLMOGOROVSKAJa">r \ll L, L_{\theta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_83_KOLMOGOROVSKAJa">k \gg L^{-1}, L_{\theta}^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_84_KOLMOGOROVSKAJa">\varphi_{\theta}\left(x_{\theta}, \operatorname{Pr}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_85_KOLMOGOROVSKAJa">\varphi_{1 \theta}\left(x_{\theta}, \operatorname{Pr}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_86_KOLMOGOROVSKAJa">\mathrm{pe}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_87_KOLMOGOROVSKAJa">l, L_{\theta} \gg r \gg \lambda_{\theta}^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_88_KOLMOGOROVSKAJa">\chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_89_KOLMOGOROVSKAJa">\operatorname{pr} \ll 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_90_KOLMOGOROVSKAJa">\operatorname{pr} \gg 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_91_KOLMOGOROVSKAJa">\chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_92_KOLMOGOROVSKAJa">c_{1 \theta} \approx 1,1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_93_KOLMOGOROVSKAJa">\operatorname{pr} \gg 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_94_KOLMOGOROVSKAJa">k\left(\gg \lambda^{-1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_95_KOLMOGOROVSKAJa">e_{\theta}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_96_KOLMOGOROVSKAJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_97_KOLMOGOROVSKAJa">\tau^{-1}=(\varepsilon / v)^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_98_KOLMOGOROVSKAJa">\chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_99_KOLMOGOROVSKAJa">\operatorname{pr} \ll 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_100_KOLMOGOROVSKAJa">\left(\theta \approx b_{\alpha} x_{\alpha}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_101_KOLMOGOROVSKAJa">\alpha g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_102_KOLMOGOROVSKAJa">\alpha-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_103_KOLMOGOROVSKAJa">\boldsymbol{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_104_KOLMOGOROVSKAJa">\varepsilon, \varepsilon_{T}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_105_KOLMOGOROVSKAJa">\alpha g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_106_KOLMOGOROVSKAJa">c_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_107_KOLMOGOROVSKAJa">c_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_108_KOLMOGOROVSKAJa">l_{*} k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_109_KOLMOGOROVSKAJa">l_{*} k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_110_KOLMOGOROVSKAJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_111_KOLMOGOROVSKAJa">l_{*} k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_112_KOLMOGOROVSKAJa">l_{*} k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_113_KOLMOGOROVSKAJa">\theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_114_KOLMOGOROVSKAJa">\varepsilon_{t}^{4 / 5}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_115_KOLMOGOROVSKAJa">\varepsilon_{\theta} \varepsilon_{T}^{-1 / 5}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_116_KOLMOGOROVSKAJa">l_{*} k \sim 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_117_KOLMOGOROVSKAJa">1944)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_118_KOLMOGOROVSKAJa">\varepsilon(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_119_KOLMOGOROVSKAJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_120_KOLMOGOROVSKAJa">v\left(m_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_121_KOLMOGOROVSKAJa">\varepsilon_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_122_KOLMOGOROVSKAJa">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_123_KOLMOGOROVSKAJa">m_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_124_KOLMOGOROVSKAJa">\varepsilon_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_125_KOLMOGOROVSKAJa">\left(r \varepsilon_{r}\right)^{-1 / 3} v\left(M_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_126_KOLMOGOROVSKAJa">\operatorname{re}_{r}=v^{-1} \varepsilon_{r}^{1 / 3} r^{4 / 3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_127_KOLMOGOROVSKAJa">\operatorname{re}_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_128_KOLMOGOROVSKAJa">\varepsilon_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_129_KOLMOGOROVSKAJa">\mu \ln (L / r)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_130_KOLMOGOROVSKAJa">(l k)^{-\mu / 9}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1303_131_KOLMOGOROVSKAJa">\mu \approx 0,4</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/1303_1_KOLMOGOROVSKAJa">
+      <rel_text>поправка</rel_text>
+      <target>http://libmeta.ru/fme/article/2332_POPRAVK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1303_2_KOLMOGOROVSKAJa">
+      <rel_text>автомодельности</rel_text>
+      <target>http://libmeta.ru/fme/article/16_AVTOMODEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1303_3_KOLMOGOROVSKAJa">
+      <rel_text>дисперсией</rel_text>
+      <target>http://libmeta.ru/fme/article/857_DISPERSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1303_4_KOLMOGOROVSKAJa">
+      <rel_text>нормальное распределение</rel_text>
+      <target>http://libmeta.ru/fme/article/1975_NORMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1303_5_KOLMOGOROVSKAJa">
+      <rel_text>первом</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1303_6_KOLMOGOROVSKAJa">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1303_7_KOLMOGOROVSKAJa">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1303_8_KOLMOGOROVSKAJa">
+      <rel_text>скоростей</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1303_9_KOLMOGOROVSKAJa">
+      <rel_text>распределения вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+  </relations>
+  <text>независимость статистических характеристик мелкомасштабных компонент развитой (то есть имеющей достаточно большое число Рейнольдса
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_1_KOLMOGOROVSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1303_1_KOLMOGOROVSKAJa]]/URI$ кинематическая вязкость, а $URI[[http://libmeta.ru/fme/formula/aux/1303_2_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_3_KOLMOGOROVSKAJa]]/URI$ масштабы длины и перепадов скорости течения в целом) локально изотропной трехмерной турбулентности от особенностей крупномасштабного течения (в том числе от $URI[[http://libmeta.ru/fme/formula/aux/1303_4_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_5_KOLMOGOROVSKAJa]]/URI$.
+
+Развитая турбулентность, вообще говоря, должна быть (см. [1]) локально стационарной, локально однородной и локально изотропной, то есть все конечномерные распределения вероятности для разностей
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_2_KOLMOGOROVSKAJa]]/URI
+\]
+
+значений поля скорости $URI[[http://libmeta.ru/fme/formula/aux/1303_6_KOLMOGOROVSKAJa]]/URI$, при фиксированных $URI[[http://libmeta.ru/fme/formula/aux/1303_7_KOLMOGOROVSKAJa]]/URI$ и не слишком больших $URI[[http://libmeta.ru/fme/formula/aux/1303_8_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_9_KOLMOGOROVSKAJa]]/URI$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_101f64d7b809f2d078deg-1.jpg?height=37&amp;width=813&amp;top_left_y=1677&amp;top_left_x=78)
+ми относительно любых сдвигов в пространстве-времени $URI[[http://libmeta.ru/fme/formula/aux/1303_10_KOLMOGOROVSKAJa]]/URI$ и любых вращений и отражений в пространстве $URI[[http://libmeta.ru/fme/formula/aux/1303_11_KOLMOGOROVSKAJa]]/URI$. Однако в нек-рых специальных, но важных случаях локальная изотропность не имеет места и эти утверждения усложняются. Так, напр., в стратифицированных жидкостях, типичных для геофизич. течений, вертикальное направление оказывается выделенным во всех сколь угодно малых масштабах, так что изотропность заменяется осесимметричностью относительно вертикали, то есть инвариантностью относительно вращений лишь вокруг вертикальной оси и отражений лишь от плоскостей, содержащих эту ось, а в случае гидромагнитной турбулентности изотропность заменяется псевдоизотропностью, то есть инвариантностью относительно вращений, но не относительно отражений.
+
+Основой для статистич. описания мелкомасштабных компонент развитой трехмерной локально изотропной тур- булентности стали гипотезы подобия А. Н. Колмогорова, согласно к-рым, во-первых, при фиксированном значении $URI[[http://libmeta.ru/fme/formula/aux/1303_12_KOLMOGOROVSKAJa]]/URI$ скорости переноса удельной кинетич. энергии по спектру масштабов от больших масштабов к малым (равной удельной скорости вязкой диссипации кинетич. энергии) вышеуказанные конечномерные распределения вероятности полностью определяются двумя размерными параметрами $URI[[http://libmeta.ru/fme/formula/aux/1303_13_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_14_KOLMOGOROVSKAJa]]/URI$ (и не зависят от характеристик крупномасштабного течения, в частности, от $URI[[http://libmeta.ru/fme/formula/aux/1303_15_KOLMOGOROVSKAJa]]/URI$ а в томоде ль ность по Re). При этом возникает колмогоровский внутренний масштаб длины $URI[[http://libmeta.ru/fme/formula/aux/1303_16_KOLMOGOROVSKAJa]]/URI$, и, напр., пространственная структурная функция, то есть средний квадрат разности скоростей $URI[[http://libmeta.ru/fme/formula/aux/1303_17_KOLMOGOROVSKAJa]]/URI$ ( $URI[[http://libmeta.ru/fme/formula/aux/1303_18_KOLMOGOROVSKAJa]]/URI$ - любая из декартовых компонент скорости) в точках $URI[[http://libmeta.ru/fme/formula/aux/1303_19_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_20_KOLMOGOROVSKAJa]]/URI$ где $URI[[http://libmeta.ru/fme/formula/aux/1303_21_KOLMOGOROVSKAJa]]/URI$ оказывается равной
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_3_KOLMOGOROVSKAJa]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1303_22_KOLMOGOROVSKAJa]]/URI$ - нек-рая универсальная функция (быстро затухающая при $URI[[http://libmeta.ru/fme/formula/aux/1303_23_KOLMOGOROVSKAJa]]/URI$ ).
+
+Во-вторых, при очень больших $URI[[http://libmeta.ru/fme/formula/aux/1303_24_KOLMOGOROVSKAJa]]/URI$ появляется так наз. инерционный интервал масштабов $URI[[http://libmeta.ru/fme/formula/aux/1303_25_KOLMOGOROVSKAJa]]/URI$, в к-ром силы вязкости очень малы по сравнению с силами инерции, так что структурные функции (и другие статистич. характеристики компонент турбулентности с масштабами из инерционных интервалов длин и времен) перестают
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_101f64d7b809f2d078deg-1.jpg?height=37&amp;width=804&amp;top_left_y=783&amp;top_left_x=944)
+напр., в этом интервале
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_4_KOLMOGOROVSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1303_26_KOLMOGOROVSKAJa]]/URI$ универсальная числовая постоянная. Этот за кон д вух третей Колмогорова оказался важным законом природы с весьма широкими применениями. К. а. означает, что статистич. режим мелкомасштабных компонент турбулентности может зависеть от особенностей осредненного течения только через среднюю величину $URI[[http://libmeta.ru/fme/formula/aux/1303_27_KOLMOGOROVSKAJa]]/URI$ спектрального потока удельной кинетич. энергии, передаваемой от осредненного течения по спектру масштабов и в минимальных масштабах порядка $URI[[http://libmeta.ru/fme/formula/aux/1303_28_KOLMOGOROVSKAJa]]/URI$ диссипируемой в теплоту. При этом $URI[[http://libmeta.ru/fme/formula/aux/1303_29_KOLMOGOROVSKAJa]]/URI$ определяется характеристиками осредненного течения следующим образом:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_5_KOLMOGOROVSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1303_30_KOLMOGOROVSKAJa]]/URI$ эффективный коэффициент турбулентной вязкости. Отсюда получается закон четы ре х третей Рич а р д с о н а (1926)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_6_KOLMOGOROVSKAJa]]/URI
+\]
+
+а также соотношения $URI[[http://libmeta.ru/fme/formula/aux/1303_31_KOLMOGOROVSKAJa]]/URI$ (где учтено, что значения $URI[[http://libmeta.ru/fme/formula/aux/1303_32_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_33_KOLMOGOROVSKAJa]]/URI$ должны сравниваться при $URI[[http://libmeta.ru/fme/formula/aux/1303_34_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_35_KOLMOGOROVSKAJa]]/URI$. Используя число степеней свободы на единицу объема жидкости $URI[[http://libmeta.ru/fme/formula/aux/1303_36_KOLMOGOROVSKAJa]]/URI$, для полного числа степеней свободы турбулентности в объеме $URI[[http://libmeta.ru/fme/formula/aux/1303_37_KOLMOGOROVSKAJa]]/URI$ получается
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_7_KOLMOGOROVSKAJa]]/URI
+\]
+
+(л. Д. Ландау, Е. М. Лифшиц, 1953). Для спектральной плотности кинетич. энергии в единицы массы $URI[[http://libmeta.ru/fme/formula/aux/1303_38_KOLMOGOROVSKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1303_39_KOLMOGOROVSKAJa]]/URI$ волновое число, пе рвая гипотеза подобия Колм о г о р о в а записывается в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_8_KOLMOGOROVSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1303_40_KOLMOGOROVSKAJa]]/URI$ - новая универсальная функция (быстро затухающая при $URI[[http://libmeta.ru/fme/formula/aux/1303_41_KOLMOGOROVSKAJa]]/URI$. По в торой гипотезе подобия Колмогорова в инерционном интервале спектра $URI[[http://libmeta.ru/fme/formula/aux/1303_42_KOLMOGOROVSKAJa]]/URI$ спектральная плотность энергии перестает зависеть от $URI[[http://libmeta.ru/fme/formula/aux/1303_43_KOLMOGOROVSKAJa]]/URI$, и получается
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_9_KOLMOGOROVSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1303_44_KOLMOGOROVSKAJa]]/URI$ - новая универсальная числовая постоянная. Связав в идеализированном случае $URI[[http://libmeta.ru/fme/formula/aux/1303_45_KOLMOGOROVSKAJa]]/URI$, структурные и спектральные функции преобразованием Фурье, получаем
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_10_KOLMOGOROVSKAJa]]/URI
+\]
+
+По эмпирич. данным, $URI[[http://libmeta.ru/fme/formula/aux/1303_46_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_47_KOLMOGOROVSKAJa]]/URI$. Это - закон пяти третей Колмогорова-Обухова (а. М. Обу- хов, 1941, получил его из модельного уравнения для спектра турбулентности).
+
+Форму функции $URI[[http://libmeta.ru/fme/formula/aux/1303_48_KOLMOGOROVSKAJa]]/URI$ при больших $URI[[http://libmeta.ru/fme/formula/aux/1303_49_KOLMOGOROVSKAJa]]/URI$ можно определить, учитывая, что поле скорости в масштабах $URI[[http://libmeta.ru/fme/formula/aux/1303_50_KOLMOGOROVSKAJa]]/URI$ приблизительно линейно и в системе координат $URI[[http://libmeta.ru/fme/formula/aux/1303_51_KOLMOGOROVSKAJa]]/URI$, движущейся и вращающейся вместе с жидкой частицей и связанной с ее главными осями деформации, имеет вид $URI[[http://libmeta.ru/fme/formula/aux/1303_52_KOLMOGOROVSKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1303_53_KOLMOGOROVSKAJa]]/URI$ - главные скорости деформации. Тогда решение линеаризованного уравнения для вихря получается в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_11_KOLMOGOROVSKAJa]]/URI
+\]
+
+причем при больших $URI[[http://libmeta.ru/fme/formula/aux/1303_54_KOLMOGOROVSKAJa]]/URI$ вектор $URI[[http://libmeta.ru/fme/formula/aux/1303_55_KOLMOGOROVSKAJa]]/URI$ становится параллельным оси $URI[[http://libmeta.ru/fme/formula/aux/1303_56_KOLMOGOROVSKAJa]]/URI$ и имеющим длину
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_12_KOLMOGOROVSKAJa]]/URI
+\]
+
+a вектор $URI[[http://libmeta.ru/fme/formula/aux/1303_57_KOLMOGOROVSKAJa]]/URI$ - параллельным оси $URI[[http://libmeta.ru/fme/formula/aux/1303_58_KOLMOGOROVSKAJa]]/URI$ и имеющим длину
+
+Отсюда спектр энергии
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_13_KOLMOGOROVSKAJa]]/URI
+\]
+
+получается в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_14_KOLMOGOROVSKAJa]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_15_KOLMOGOROVSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1303_59_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_60_KOLMOGOROVSKAJa]]/URI$ колмогоровский внутренний масштаб времени), причем $URI[[http://libmeta.ru/fme/formula/aux/1303_61_KOLMOGOROVSKAJa]]/URI$, и можно положить $URI[[http://libmeta.ru/fme/formula/aux/1303_62_KOLMOGOROVSKAJa]]/URI$.
+
+Турбулентности ускорения мелкомасштабны (определяются в основном движениями масштабов $URI[[http://libmeta.ru/fme/formula/aux/1303_63_KOLMOGOROVSKAJa]]/URI$ ), имеют средний квадрат порядка $URI[[http://libmeta.ru/fme/formula/aux/1303_64_KOLMOGOROVSKAJa]]/URI$ и при движении жидкой частицы в инерционном интервале времен практически некоррелированы (а. М. Яглом, 1949). Поле вихря скорости также мелкомасштабно, имеет средний квадрат $URI[[http://libmeta.ru/fme/formula/aux/1303_65_KOLMOGOROVSKAJa]]/URI$ и спектр в инерционном интервале $URI[[http://libmeta.ru/fme/formula/aux/1303_66_KOLMOGOROVSKAJa]]/URI$.
+
+Концентрации $URI[[http://libmeta.ru/fme/formula/aux/1303_67_KOLMOGOROVSKAJa]]/URI$ пассивных примесей (в том числе, если архимедовы силы несущественны, то также и температуры) в поле локально изотропной турбулентности при достаточно больших числах Пекле $URI[[http://libmeta.ru/fme/formula/aux/1303_68_KOLMOGOROVSKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1303_69_KOLMOGOROVSKAJa]]/URI$ - кинематич. коэффициент диффузии, $URI[[http://libmeta.ru/fme/formula/aux/1303_70_KOLMOGOROVSKAJa]]/URI$ - типичный пространственный масштаб существенных изменений значений $URI[[http://libmeta.ru/fme/formula/aux/1303_71_KOLMOGOROVSKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1303_72_KOLMOGOROVSKAJa]]/URI$ типичный перепад скоростей на расстояниях $URI[[http://libmeta.ru/fme/formula/aux/1303_73_KOLMOGOROVSKAJa]]/URI$, допустимо считать локально изотропными. Для них первая гипотеза подобия должна быть заменена (а. М. Обухов, 1949) предположением, что конечномерные распределения вероятностей для разностей скоростей и разностей концентраций полностью определяются четырьмя размерными параметрами v, $URI[[http://libmeta.ru/fme/formula/aux/1303_74_KOLMOGOROVSKAJa]]/URI$ (автомодельность по Re и $URI[[http://libmeta.ru/fme/formula/aux/1303_75_KOLMOGOROVSKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1303_76_KOLMOGOROVSKAJa]]/URI$ скорость переноса удельной меры $URI[[http://libmeta.ru/fme/formula/aux/1303_77_KOLMOGOROVSKAJa]]/URI$ неоднородностей $URI[[http://libmeta.ru/fme/formula/aux/1303_78_KOLMOGOROVSKAJa]]/URI$ поля концентрации по спектру масштабов от больших масштабов к малым (равная удельной скорости $URI[[http://libmeta.ru/fme/formula/aux/1303_79_KOLMOGOROVSKAJa]]/URI$ выравнивания этих неоднородностей вследствие молекулярной диффузии). При этом возникает внутренний масштаб поля концентрации
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_16_KOLMOGOROVSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1303_80_KOLMOGOROVSKAJa]]/URI$ - число Прандтля. Согласно сформулированной гипотезе пространственная структурная функция поля $URI[[http://libmeta.ru/fme/formula/aux/1303_81_KOLMOGOROVSKAJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1303_82_KOLMOGOROVSKAJa]]/URI$ и спектр этого поля при $URI[[http://libmeta.ru/fme/formula/aux/1303_83_KOLMOGOROVSKAJa]]/URI$ должны иметь вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_17_KOLMOGOROVSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1303_84_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_85_KOLMOGOROVSKAJa]]/URI$ - нек-рые универсальные функции. При очень больших $URI[[http://libmeta.ru/fme/formula/aux/1303_86_KOLMOGOROVSKAJa]]/URI$ появляется конвективный интервал масштабов $URI[[http://libmeta.ru/fme/formula/aux/1303_87_KOLMOGOROVSKAJa]]/URI$, в к-ром сглаживающее влияние диффузии на поле концентрации мало по сравнению с ростом градиентов этого поля, создаваемым перено- сом примеси движущейся жидкостью (конвекцией), так что параметром $URI[[http://libmeta.ru/fme/formula/aux/1303_88_KOLMOGOROVSKAJa]]/URI$ в этом интервале можно пренебречь. Оказывается, что при $URI[[http://libmeta.ru/fme/formula/aux/1303_89_KOLMOGOROVSKAJa]]/URI$ конвективный интервал простирается только до масштабов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_18_KOLMOGOROVSKAJa]]/URI
+\]
+
+а при $URI[[http://libmeta.ru/fme/formula/aux/1303_90_KOLMOGOROVSKAJa]]/URI$ - до масштабов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_19_KOLMOGOROVSKAJa]]/URI
+\]
+
+На инерционно-конвективном интервале
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_20_KOLMOGOROVSKAJa]]/URI
+\]
+
+можно пренебречь обоими параметрами $URI[[http://libmeta.ru/fme/formula/aux/1303_91_KOLMOGOROVSKAJa]]/URI$ и v, и тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_21_KOLMOGOROVSKAJa]]/URI
+\]
+
+Первая из этих формул принадлежит А. М. Обухову (1949), вторая - закон пяти третей для температурного поля - С. Корpсину (s. Corrsin, 1951). По эмпирич. данным, $URI[[http://libmeta.ru/fme/formula/aux/1303_92_KOLMOGOROVSKAJa]]/URI$.
+
+В случае $URI[[http://libmeta.ru/fme/formula/aux/1303_93_KOLMOGOROVSKAJa]]/URI$ при больших $URI[[http://libmeta.ru/fme/formula/aux/1303_94_KOLMOGOROVSKAJa]]/URI$ форму спектра $URI[[http://libmeta.ru/fme/formula/aux/1303_95_KOLMOGOROVSKAJa]]/URI$ можно установить при помощи гипотезы Бэтчелора, по к-рой здесь этот спектр может зависеть от $URI[[http://libmeta.ru/fme/formula/aux/1303_96_KOLMOGOROVSKAJa]]/URI$ лишь через типичную величину $URI[[http://libmeta.ru/fme/formula/aux/1303_97_KOLMOGOROVSKAJa]]/URI$ скоростей деформации. В вязкоконвективном интервале
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_22_KOLMOGOROVSKAJa]]/URI
+\]
+
+коэффициент диффузии $URI[[http://libmeta.ru/fme/formula/aux/1303_98_KOLMOGOROVSKAJa]]/URI$ влиять на вид спектра еще не должен, и получается промежуточная асимптотика
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_23_KOLMOGOROVSKAJa]]/URI
+\]
+
+Лишь затем в вязкодиффузионном интервале
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_24_KOLMOGOROVSKAJa]]/URI
+\]
+
+из-за диффузионного сглаживания спектр резко спадает по закону
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_25_KOLMOGOROVSKAJa]]/URI
+\]
+
+В случае же $URI[[http://libmeta.ru/fme/formula/aux/1303_99_KOLMOGOROVSKAJa]]/URI$ в интервале масштабов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_26_KOLMOGOROVSKAJa]]/URI
+\]
+
+поле концентрации приблизительно линейно $URI[[http://libmeta.ru/fme/formula/aux/1303_100_KOLMOGOROVSKAJa]]/URI$, и уравнение диффузии достаточно брать в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_27_KOLMOGOROVSKAJa]]/URI
+\]
+
+откуда выводится формула
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_28_KOLMOGOROVSKAJa]]/URI
+\]
+
+В стратифицированных средах К. а. турбулентности усложняется: к определяющим параметрам добавляется параметр плавучести $URI[[http://libmeta.ru/fme/formula/aux/1303_101_KOLMOGOROVSKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1303_102_KOLMOGOROVSKAJa]]/URI$ коэффициент расширения жидкости (скажем, термического), а $URI[[http://libmeta.ru/fme/formula/aux/1303_103_KOLMOGOROVSKAJa]]/URI$ - ускорение силы тяжести. В мелкомасштабной части инерционно-конвективного интервала спектра турбулентности архимедовы силы малы по сравнению с силами инерции и действует обычная К. a. Но если в этот интервал попадает «масштаб плавучести»
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_29_KOLMOGOROVSKAJa]]/URI
+\]
+
+то, по гипотезе подобия Обухова-Болджиано (1959), статистич. характеристики компонент развитой турбулентности с масштабами из этого интервала будут полностью определяться параметрами $URI[[http://libmeta.ru/fme/formula/aux/1303_104_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_105_KOLMOGOROVSKAJa]]/URI$. Это означает, в частности, что константы $URI[[http://libmeta.ru/fme/formula/aux/1303_106_KOLMOGOROVSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1303_107_KOLMOGOROVSKAJa]]/URI$ в формулах законов пяти третей для спектров энергии и температурного поля теперь оказываются нек-рыми универсальными функциями от безразмерного волнового числа $URI[[http://libmeta.ru/fme/formula/aux/1303_108_KOLMOGOROVSKAJa]]/URI$ (стремящимися к вышеуказанным константам на мелкомасштабном конце инерционно-конвективного интервала спектра, то есть асимптотически при возрастании $URI[[http://libmeta.ru/fme/formula/aux/1303_109_KOLMOGOROVSKAJa]]/URI$ ).
+
+При устойчивой стратификации энергия турбулентности, передаваемая по спектру от больших масштабов к малым (колмогоровский каскадный процесс), затрачивается в основном на работу против архимедовых сил, и лишь очень небольшая ее доля доходит до малых масштабов и диссипируется в теплоту. При этом скорость вязкой диссипации энергии $URI[[http://libmeta.ru/fme/formula/aux/1303_110_KOLMOGOROVSKAJa]]/URI$ оказывается очень малой и, по гипотезе Болджиано, перестает быть определяющим параметром, а потому асимптотически при убывании $URI[[http://libmeta.ru/fme/formula/aux/1303_111_KOLMOGOROVSKAJa]]/URI$ должна выпадать из формул теории подобия. Для этого в инерционно-конвективном интервале спектра при малых $URI[[http://libmeta.ru/fme/formula/aux/1303_112_KOLMOGOROVSKAJa]]/URI$ должно быть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_30_KOLMOGOROVSKAJa]]/URI
+\]
+
+откуда получаются асимптотики для спектров
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_31_KOLMOGOROVSKAJa]]/URI
+\]
+
+(для пассивной примеси $URI[[http://libmeta.ru/fme/formula/aux/1303_113_KOLMOGOROVSKAJa]]/URI$ во второй из этих формул $URI[[http://libmeta.ru/fme/formula/aux/1303_114_KOLMOGOROVSKAJa]]/URI$ заменяется на $URI[[http://libmeta.ru/fme/formula/aux/1303_115_KOLMOGOROVSKAJa]]/URI$ ). Более полный расчет спектров турбулентности в инерционно-конвективном интервале и интервале плавучести при помощи динамич. уравнений с использованием нек-рых полуэмпирич. формул выполнен А. С. Мониным [4]; в частности, оказалось, что при неустойчивой стратификации спектры имеют максимум в области $URI[[http://libmeta.ru/fme/formula/aux/1303_116_KOLMOGOROVSKAJa]]/URI$.
+
+K. a. турбулентности по Re статистич. характеристик мелкомасштабных компонент развитой турбулентности, строго говоря, является неполной (л. Д. Ландау, Е. М. Лифшиц, $URI[[http://libmeta.ru/fme/formula/aux/1303_117_KOLMOGOROVSKAJa]]/URI$; флуктуации случайного поля $URI[[http://libmeta.ru/fme/formula/aux/1303_118_KOLMOGOROVSKAJa]]/URI$ скорости диссипации турбулентности энергии могут зависеть сами от свойств крупномасштабного движения, в том числе от Re, и создавать соответствующую зависимость и всего статистич. режима мелкомасштабных компонент турбулентности. Гипотезы подобия Колмогорова, строго говоря, относятся к условным распределениям вероятности для статистич. характеристик мелкомасштабных компонент при фиксированном $URI[[http://libmeta.ru/fme/formula/aux/1303_119_KOLMOGOROVSKAJa]]/URI$, напр. для разностей скоростей $URI[[http://libmeta.ru/fme/formula/aux/1303_120_KOLMOGOROVSKAJa]]/URI$ при фиксированном среднем значении $URI[[http://libmeta.ru/fme/formula/aux/1303_121_KOLMOGOROVSKAJa]]/URI$ поля скорости диссипации в области малого размера $URI[[http://libmeta.ru/fme/formula/aux/1303_122_KOLMOGOROVSKAJa]]/URI$, содержащей все точки $URI[[http://libmeta.ru/fme/formula/aux/1303_123_KOLMOGOROVSKAJa]]/URI$ (см. [4]). Безусловные же характеристики получаются осреднением условных по распределению вероятностей для $URI[[http://libmeta.ru/fme/formula/aux/1303_124_KOLMOGOROVSKAJa]]/URI$.
+
+А. Н. Колмогоров в 1962 сформулировал уточненные г и по те 3 ы подоб и я следующим образом: условные URI[[http://libmeta.ru/fme/relation/1303_9_KOLMOGOROVSKAJa]]/URI для безразмерных относительных URI[[http://libmeta.ru/fme/relation/1303_8_KOLMOGOROVSKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1303_125_KOLMOGOROVSKAJa]]/URI$ при фиксированном значении $URI[[http://libmeta.ru/fme/formula/aux/1303_126_KOLMOGOROVSKAJa]]/URI$ полностью определяются этим значением $URI[[http://libmeta.ru/fme/formula/aux/1303_127_KOLMOGOROVSKAJa]]/URI$; если же оно очень велико, то зависимость от него пропадает. В этом последнем случае, напр., безусловный спектр URI[[http://libmeta.ru/fme/relation/1303_7_KOLMOGOROVSKAJa]]/URI URI[[http://libmeta.ru/fme/relation/1303_6_KOLMOGOROVSKAJa]]/URI в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1303_32_KOLMOGOROVSKAJa]]/URI
+\]
+
+Для $URI[[http://libmeta.ru/fme/formula/aux/1303_128_KOLMOGOROVSKAJa]]/URI$ можно в URI[[http://libmeta.ru/fme/relation/1303_5_KOLMOGOROVSKAJa]]/URI приближении принять логарифмически URI[[http://libmeta.ru/fme/relation/1303_4_KOLMOGOROVSKAJa]]/URI с URI[[http://libmeta.ru/fme/relation/1303_3_KOLMOGOROVSKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1303_129_KOLMOGOROVSKAJa]]/URI$, тогда старый закон пяти третей приобретает типичный для неполной URI[[http://libmeta.ru/fme/relation/1303_2_KOLMOGOROVSKAJa]]/URI степенной множитель $URI[[http://libmeta.ru/fme/formula/aux/1303_130_KOLMOGOROVSKAJa]]/URI$. По данным ряда специальных измерений, $URI[[http://libmeta.ru/fme/formula/aux/1303_131_KOLMOGOROVSKAJa]]/URI$, так что неавтомодельная URI[[http://libmeta.ru/fme/relation/1303_1_KOLMOGOROVSKAJa]]/URI к показателю степени в законе пяти третей весьма невелика.</text>
+  <text_orig>независимость статистических характеристик мелкомасштабных компонент развитой (то есть имеющей достаточно большое число Рейнольдса
+
+\[
+\operatorname{Re}=v^{-1} L \delta U&gt;\operatorname{Re}_{\text {кр }} \sim 3000
+\]
+
+где $v-$ кинематическая вязкость, а $L$ и $\delta U-$ масштабы длины и перепадов скорости течения в целом) локально изотропной трехмерной турбулентности от особенностей крупномасштабного течения (в том числе от $L, \delta U$ и $\operatorname{Re})$.
+
+Развитая турбулентность, вообще говоря, должна быть (см. [1]) локально стационарной, локально однородной и локально изотропной, то есть все конечномерные распределения вероятности для разностей
+
+\[
+\begin{gathered}
+\boldsymbol{v}\left(M_{k}\right)=\boldsymbol{u}\left(M_{k}\right)-\boldsymbol{u}\left(M_{0}\right), k=1,2, \ldots, N ; \\
+M_{k}=\left(\boldsymbol{r}_{k}, \tau_{k}\right) ; \tau_{k}=t_{k}-t_{0} ; \boldsymbol{r}_{k}=\boldsymbol{x}_{k}-\boldsymbol{x}_{0}-\boldsymbol{u}_{0} \tau_{k},
+\end{gathered}
+\]
+
+значений поля скорости $\boldsymbol{u}(M)$, при фиксированных $\boldsymbol{u}_{0}=\boldsymbol{u}\left(M_{0}\right)$ и не слишком больших $\left|x_{k}-x_{0}\right|(\ll L)$ и $\left|t_{k}-t_{0}\right|$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_101f64d7b809f2d078deg-1.jpg?height=37&amp;width=813&amp;top_left_y=1677&amp;top_left_x=78)
+ми относительно любых сдвигов в пространстве-времени $(\boldsymbol{x}, t)$ и любых вращений и отражений в пространстве $\boldsymbol{r}$. Однако в нек-рых специальных, но важных случаях локальная изотропность не имеет места и эти утверждения усложняются. Так, напр., в стратифицированных жидкостях, типичных для геофизич. течений, вертикальное направление оказывается выделенным во всех сколь угодно малых масштабах, так что изотропность заменяется осесимметричностью относительно вертикали, то есть инвариантностью относительно вращений лишь вокруг вертикальной оси и отражений лишь от плоскостей, содержащих эту ось, а в случае гидромагнитной турбулентности изотропность заменяется псевдоизотропностью, то есть инвариантностью относительно вращений, но не относительно отражений.
+
+Основой для статистич. описания мелкомасштабных компонент развитой трехмерной локально изотропной тур- булентности стали гипотезы подобия А. Н. Колмогорова, согласно к-рым, во-первых, при фиксированном значении $\varepsilon$ скорости переноса удельной кинетич. энергии по спектру масштабов от больших масштабов к малым (равной удельной скорости вязкой диссипации кинетич. энергии) вышеуказанные конечномерные распределения вероятности полностью определяются двумя размерными параметрами $v$ и $\varepsilon$ (и не зависят от характеристик крупномасштабного течения, в частности, от $\operatorname{Re}-$ а в томоде ль ность по Re). При этом возникает колмогоровский внутренний масштаб длины $\lambda=\left(v^{3} / \varepsilon\right)^{1 / 4}$, и, напр., пространственная структурная функция, то есть средний квадрат разности скоростей $\delta u$ ( $u$ - любая из декартовых компонент скорости) в точках $\boldsymbol{x}$ и $\boldsymbol{x}+\boldsymbol{r}($ где $\boldsymbol{L} \ll \boldsymbol{L})$ оказывается равной
+
+\[
+\left\langle(\delta u)^{2}\right\rangle=(\varepsilon r)^{2 / 3} \varphi(r / \lambda) .
+\]
+
+Здесь $\varphi(\xi)$ - нек-рая универсальная функция (быстро затухающая при $\xi \rightarrow \infty$ ).
+
+Во-вторых, при очень больших $\operatorname{Re}$ появляется так наз. инерционный интервал масштабов $L \gg r \gg \lambda$, в к-ром силы вязкости очень малы по сравнению с силами инерции, так что структурные функции (и другие статистич. характеристики компонент турбулентности с масштабами из инерционных интервалов длин и времен) перестают
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_101f64d7b809f2d078deg-1.jpg?height=37&amp;width=804&amp;top_left_y=783&amp;top_left_x=944)
+напр., в этом интервале
+
+\[
+\left\langle(\delta u)^{2}\right\rangle=C(\varepsilon r)^{2 / 3}
+\]
+
+где $C-$ универсальная числовая постоянная. Этот за кон д вух третей Колмогорова оказался важным законом природы с весьма широкими применениями. К. а. означает, что статистич. режим мелкомасштабных компонент турбулентности может зависеть от особенностей осредненного течения только через среднюю величину $\langle\varepsilon\rangle$ спектрального потока удельной кинетич. энергии, передаваемой от осредненного течения по спектру масштабов и в минимальных масштабах порядка $\lambda$ диссипируемой в теплоту. При этом $\langle\varepsilon\rangle$ определяется характеристиками осредненного течения следующим образом:
+
+\[
+\langle\varepsilon\rangle=K(\delta U / L)^{2}
+\]
+
+где $K \sim L \delta U-$ эффективный коэффициент турбулентной вязкости. Отсюда получается закон четы ре х третей Рич а р д с о н а (1926)
+
+\[
+K \sim \varepsilon^{1 / 3} L^{4 / 3}
+\]
+
+а также соотношения $K / v \sim \operatorname{Re} / \operatorname{Re}_{\text {кр }}$ (где учтено, что значения $K$ и $v$ должны сравниваться при $\left.\operatorname{Re}=\operatorname{Re}_{\text {кр }}\right) \quad$ и $\lambda / L \sim\left(\operatorname{Re} / \operatorname{Re}_{\mathrm{kp}}\right)^{-3 / 4}$. Используя число степеней свободы на единицу объема жидкости $n \sim \lambda^{-3}$, для полного числа степеней свободы турбулентности в объеме $L^{3}$ получается
+
+\[
+N=n L^{3} \sim\left(\operatorname{Re} / \operatorname{Re}_{\mathrm{Kp}}\right)^{9 / 4}
+\]
+
+(Л. Д. Ландау, Е. М. Лифшиц, 1953). Для спектральной плотности кинетич. энергии в единицы массы $E(k)$, где $k-$ волновое число, пе рвая гипотеза подобия Колм о г о р о в а записывается в виде
+
+\[
+E(k)=\varepsilon^{2 / 3} k^{-5 / 3} \varphi_{1}(\lambda k),
+\]
+
+где $\varphi_{1}(x)$ - новая универсальная функция (быстро затухающая при $x \rightarrow \infty)$. По в торой гипотезе подобия Колмогорова в инерционном интервале спектра $L^{-1} \ll k \ll \lambda^{-1}$ спектральная плотность энергии перестает зависеть от $v$, и получается
+
+\[
+E(k)=C_{1} \varepsilon^{2 / 3} k^{-5 / 3}
+\]
+
+где $C_{1}$ - новая универсальная числовая постоянная. Связав в идеализированном случае $L=\infty, \lambda=0$, структурные и спектральные функции преобразованием Фурье, получаем
+
+\[
+C_{1}=(55 / 27) \Gamma^{-1}(1 / 3) C .
+\]
+
+По эмпирич. данным, $C \approx 1,9$ и $C_{1} \approx 1,4$. Это - закон пяти третей Колмогорова-Обухова (А. М. Обу- хов, 1941, получил его из модельного уравнения для спектра турбулентности).
+
+Форму функции $\varphi_{1}(\lambda k)$ при больших $k\left(\gg \lambda^{-1}\right)$ можно определить, учитывая, что поле скорости в масштабах $l \ll \lambda$ приблизительно линейно и в системе координат $x_{\beta}$, движущейся и вращающейся вместе с жидкой частицей и связанной с ее главными осями деформации, имеет вид $u_{\beta}=a_{\beta} x_{\beta}$, где $0&lt;a_{1} \geqslant a_{2} \geqslant a_{3}&lt;0$ - главные скорости деформации. Тогда решение линеаризованного уравнения для вихря получается в виде
+
+\[
+\omega=A(t) \exp [i x k(t)]
+\]
+
+причем при больших $\boldsymbol{t}$ вектор $\boldsymbol{k}$ становится параллельным оси $x_{3}$ и имеющим длину
+
+\[
+k_{3}(0) \exp \left(\left|a_{3}\right| t\right)
+\]
+
+a вектор $\omega$ - параллельным оси $x_{1}$ и имеющим длину
+
+Отсюда спектр энергии
+
+\[
+\left|A_{1}(0)\right| \exp \left(a_{1} t-v \int_{0}^{t} k^{2} d t\right)
+\]
+
+получается в виде
+
+\[
+E(k)=\left\langle\delta \omega \delta \omega^{*} / 2 k^{2} \delta k\right\rangle
+\]
+
+\[
+E(k) \sim \varepsilon^{2 / 3} k^{-5 / 3}(\lambda k)^{2 \sigma-4 / 3} \exp \left[-(\gamma \lambda k)^{2}\right],
+\]
+
+где $\sigma=\left\langle a_{1}\left|a_{3}\right|^{-1}\right\rangle$ и $\gamma^{2}=\tau^{-1}\left\langle\left|a_{3}\right|^{-1}\right\rangle(\tau-$ колмогоровский внутренний масштаб времени), причем $1 / 2&lt;\sigma&lt;1$, и можно положить $\sigma=2 / 3$.
+
+Турбулентности ускорения мелкомасштабны (определяются в основном движениями масштабов $l \approx \lambda$ ), имеют средний квадрат порядка $\varepsilon^{3 / 2} v^{-1 / 2}$ и при движении жидкой частицы в инерционном интервале времен практически некоррелированы (А. М. Яглом, 1949). Поле вихря скорости также мелкомасштабно, имеет средний квадрат $\varepsilon / v$ и спектр в инерционном интервале $C_{1} \varepsilon^{2 / 3} k^{1 / 3}$.
+
+Концентрации $\theta$ пассивных примесей (в том числе, если архимедовы силы несущественны, то также и температуры) в поле локально изотропной турбулентности при достаточно болыших числах Пекле $\mathrm{Pe}=\chi^{-1} L_{\theta} \delta_{\theta} U$, где $\chi$ - кинематич. коэффициент диффузии, $L_{\theta}$ - типичный пространственный масштаб существенных изменений значений $\boldsymbol{\theta}$, $\delta_{\theta} U-$ типичный перепад скоростей на расстояниях $L_{\theta}$, допустимо считать локально изотропными. Для них первая гипотеза подобия должна быть заменена (А. М. Обухов, 1949) предположением, что конечномерные распределения вероятностей для разностей скоростей и разностей концентраций полностью определяются четырьмя размерными параметрами v, $\varepsilon, \chi и \varepsilon_{\theta}$ (автомодельность по Re и $\mathrm{P} \mathrm{e})$, где $\varepsilon_{\theta}-$ скорость переноса удельной меры $(1 / 2)\left\langle\theta^{\prime 2}\right\rangle$ неоднородностей $\theta^{\prime}=\theta-\langle\theta\rangle$ поля концентрации по спектру масштабов от больших масштабов к малым (равная удельной скорости $\chi\left\langle\left|\nabla \theta^{\prime}\right|^{2}\right\rangle$ выравнивания этих неоднородностей вследствие молекулярной диффузии). При этом возникает внутренний масштаб поля концентрации
+
+\[
+\lambda_{\theta}=\left(\chi^{3} / \varepsilon\right)^{1 / 4}=\lambda(\mathrm{Pr})^{-3 / 4},
+\]
+
+где $\operatorname{Pr}=v / \chi$ - число Прандтля. Согласно сформулированной гипотезе пространственная структурная функщия поля $\theta$ при $r \ll L, L_{\theta}$ и спектр этого поля при $k \gg L^{-1}, L_{\theta}^{-1}$ должны иметь вид
+
+\[
+\begin{aligned}
+&amp; \left\langle(\delta \theta)^{2}\right\rangle=\varepsilon_{\theta} \varepsilon^{-1 / 3} r^{2 / 3} \varphi_{\theta}\left(r / \lambda_{\theta}, \operatorname{Pr}\right) \\
+&amp; E_{\theta}(k)=\varepsilon_{\theta} \varepsilon^{-1 / 3} k^{-5 / 3} \varphi_{1 \theta}\left(\lambda_{\theta} k, \operatorname{Pr}\right),
+\end{aligned}
+\]
+
+где $\varphi_{\theta}\left(x_{\theta}, \operatorname{Pr}\right)$ и $\varphi_{1 \theta}\left(x_{\theta}, \operatorname{Pr}\right)$ - нек-рые универсальные функции. При очень болыших $\mathrm{Pe}$ появляется конвективный интервал масштабов $L, L_{\theta} \gg r \gg \lambda_{\theta}^{*}$, в к-ром сглаживающее влияние диффузии на поле концентрации мало по сравнению с ростом градиентов этого поля, создаваемым перено- сом примеси движущейся жидкостью (конвекцией), так что параметром $\chi$ в этом интервале можно пренебречь. Оказывается, что при $\operatorname{Pr} \ll 1$ конвективный интервал простирается только до масштабов
+
+\[
+l \gg \lambda_{\theta}
+\]
+
+а при $\operatorname{Pr} \gg 1$ - до масштабов
+
+\[
+l \gg\left(v \chi^{2} / \varepsilon\right)^{1 / 4}=\left(\lambda \lambda_{\theta}^{2}\right)^{1 / 3} .
+\]
+
+На инерционно-конвективном интервале
+
+\[
+\min \left(L, L_{\theta}\right) \gg r \gg \max \left(\lambda, \lambda_{\theta}\right)
+\]
+
+можно пренебречь обоими параметрами $\chi$ и v, и тогда
+
+\[
+\begin{gathered}
+\left\langle(\delta \theta)^{2}\right\rangle=C_{\theta} \varepsilon_{\theta} \varepsilon^{-1 / 3} r^{2 / 3}, \\
+E_{\theta}(k)=C_{1 \theta} \varepsilon_{\theta} \varepsilon^{-1 / 3} k^{-5 / 3}
+\end{gathered}
+\]
+
+Первая из этих формул принадлежит А. М. Обухову (1949), вторая - закон пяти третей для температурного поля - С. Корpсину (S. Corrsin, 1951). По эмпирич. данным, $C_{1 \theta} \approx 1,1$.
+
+В случае $\operatorname{Pr} \gg 1$ при больших $k\left(\gg \lambda^{-1}\right)$ форму спектра $E_{\theta}(k)$ можно установить при помощи гипотезы Бэтчелора, по к-рой здесь этот спектр может зависеть от $\varepsilon$ лишь через типичную величину $\tau^{-1}=(\varepsilon / v)^{1 / 2}$ скоростей деформации. В вязкоконвективном интервале
+
+\[
+1 \ll \lambda k \ll(\operatorname{Pr})^{1 / 2}
+\]
+
+коэффициент диффузии $\chi$ влиять на вид спектра еще не должен, и получается промежуточная асимптотика
+
+\[
+E_{\theta}(k) \sim \varepsilon_{\theta} \tau k^{-1} .
+\]
+
+Лишь затем в вязкодиффузионном интервале
+
+\[
+\lambda k \gg(\mathrm{Pr})^{1 / 2}
+\]
+
+из-за диффузионного сглаживания спектр резко спадает по закону
+
+\[
+k^{-1} \exp \left[-(\gamma \lambda k)^{2} / \operatorname{Pr}\right]
+\]
+
+В случае же $\operatorname{Pr} \ll 1$ в интервале масштабов
+
+\[
+\lambda_{\theta} \gg l \gg \lambda
+\]
+
+поле концентрации приблизительно линейно $\left(\theta \approx b_{\alpha} x_{\alpha}\right)$, и уравнение диффузии достаточно брать в виде
+
+\[
+b_{\alpha} u_{\alpha} \approx \chi_{\Delta} \theta
+\]
+
+откуда выводится формула
+
+\[
+E_{\theta}(k) \sim \varepsilon_{\theta} \varepsilon^{2 / 3} \chi^{-3} k^{-17 / 3}
+\]
+
+В стратифицированных средах К. а. турбулентности усложняется: к определяющим параметрам добавляется параметр плавучести $\alpha g$, где $\alpha-$ коэффициент расширения жидкости (скажем, термического), а $\boldsymbol{g}$ - ускорение силы тяжести. В мелкомасштабной части инерционно-конвективного интервала спектра турбулентности архимедовы силы малы по сравнению с силами инерции и действует обычная К. a. Но если в этот интервал попадает «масштаб плавучести»
+
+\[
+L_{*}=(\alpha g)^{-3 / 2} \varepsilon^{5 / 4} \varepsilon_{T}^{-3 / 4},
+\]
+
+то, по гипотезе подобия Обухова-Болджиано (1959), статистич. характеристики компонент развитой турбулентности с масштабами из этого интервала будут полностью определяться параметрами $\varepsilon, \varepsilon_{T}$ и $\alpha g$. Это означает, в частности, что константы $C_{1}$ и $C_{1}$ в формулах законов пяти третей для спектров энергии и температурного поля теперь оказываются нек-рыми универсальными функциями от безразмерного волнового числа $L_{*} k$ (стремящимися к вышеуказанным константам на мелкомасштабном конце инерционно-конвективного интервала спектра, то есть асимптотически при возрастании $L_{*} k$ ).
+
+При устойчивой стратификации энергия турбулентности, передаваемая по спектру от болыших масштабов к малым (колмогоровский каскадный процесс), затрачивается в основном на работу против архимедовых сил, и лишь очень неболышая ее доля доходит до малых масштабов и диссипируется в теплоту. При этом скорость вязкой диссипации энергии $\varepsilon$ оказывается очень малой и, по гипотезе Болджиано, перестает быть определяющим параметром, а потому асимптотически при убывании $L_{*} k$ должна выпадать из формул теории подобия. Для этого в инерционно-конвективном интервале спектра при малых $L_{*} k$ должно быть
+
+\[
+C_{1}\left(L_{*} k\right) \sim\left(L_{*} k\right)^{-8 / 15} \text { и } C_{1 T}\left(L_{*} k\right) \sim\left(L_{*} k\right)^{4 / 15},
+\]
+
+откуда получаются асимптотики для спектров
+
+\[
+\begin{aligned}
+&amp; E(k) \sim \varepsilon_{T}^{2 / 5}(\alpha g)^{4 / 5} k^{-11 / 5} \\
+&amp; E_{T}(k) \sim \varepsilon_{T}^{4 / 5}(\alpha g)^{-2 / 5} k^{-7 / 5}
+\end{aligned}
+\]
+
+(для пассивной примеси $\theta$ во второй из этих формул $\varepsilon_{T}^{4 / 5}$ заменяется на $\varepsilon_{\theta} \varepsilon_{T}^{-1 / 5}$ ). Более полный расчет спектров турбулентности в инерционно-конвективном интервале и интервале плавучести при помощи динамич. уравнений с использованием нек-рых полуэмпирич. формул выполнен А. С. Мониным [4]; в частности, оказалось, что при неустойчивой стратификации спектры имеют максимум в области $L_{*} k \sim 1$.
+
+K. a. турбулентности по Re статистич. характеристик мелкомасштабных компонент развитой турбулентности, строго говоря, является неполной (Л. Д. Ландау, Е. М. Лифшиц, $1944)$; флуктуации случайного поля $\varepsilon(x, t)$ скорости диссипации турбулентности энергии могут зависеть сами от свойств крупномасштабного движения, в том числе от Re, и создавать соответствующую зависимость и всего статистич. режима мелкомасштабных компонент турбулентности. Гипотезы подобия Колмогорова, строго говоря, относятся к условным распределениям вероятности для статистич. характеристик мелкомасштабных компонент при фиксированном $\varepsilon$, напр. для разностей скоростей $v\left(M_{k}\right)$ при фиксированном среднем значении $\varepsilon_{r}$ поля скорости диссипации в области малого размера $r$, содержащей все точки $M_{k}$ (см. [4]). Безусловные же характеристики получаются осреднением условных по распределению вероятностей для $\varepsilon_{r}$.
+
+А. Н. Колмогоров в 1962 сформулировал уточненные г и по те 3 ы подоб и я следуюшим образом: условные распределения вероятностей для безразмерных относительных скоростей $\left(r \varepsilon_{r}\right)^{-1 / 3} v\left(M_{k}\right)$ при фиксированном значении $\operatorname{Re}_{r}=v^{-1} \varepsilon_{r}^{1 / 3} r^{4 / 3}$ полностью определяются этим значением $\operatorname{Re}_{r}$; если же оно очень велико, то зависимость от него пропадает. В этом последнем случае, напр., безусловный спектр энергии получается в виде
+
+\[
+E(k) \sim\left\langle\varepsilon_{r}^{2 / 3}\right\rangle k^{-5 / 3}
+\]
+
+Для $\varepsilon_{r}$ можно в первом приближении принять логарифмически нормальное распределение с дисперсией $\mu \ln (L / r)$, тогда старый закон пяти третей приобретает типичный для неполной автомодельности степенной множитель $(L k)^{-\mu / 9}$. По данным ряда специальных измерений, $\mu \approx 0,4$, так что неавтомодельная поправка к показателю степени в законе пяти третей весьма невелика.
+
+Лит.: [1] К о л м о г о р о в А. Н., «Доклады АН СССР», 1941, т. 30, № 4, c. 299-303; [2] Обухо в А. М., там же, 1941, т. 32, № 1, с. 22-24; [3] е го же, «Изв. АН СССР. Сер. геогр., геофиз.», 1949, т. 13, № 1, с. 58-73; [4] М о н и н А. С., там же, Сер. геофиз., 1962, № 3, с. 397-407; [5] Мон и н А. С., Я гло м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967.
+
+А. С. Монин.</text_orig>
+</article>

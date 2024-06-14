@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12847">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mi>n</mi><mrow><mi>&#x02032;</mi></mrow></msup><mo>&#x0003D;</mo><mo>&#x02212;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mn>1</mn><mo>&#x02212;</mo><mfrac><mrow><mi>i</mi></mrow><mrow><mi>k</mi></mrow></mfrac><mfrac><mrow><mo>&#x02202;</mo></mrow><mrow><mo>&#x02202;</mo><msub><mi>x</mi><mrow><mi>k</mi></mrow></msub></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><msubsup><mi>u</mi><mrow><mi>k</mi></mrow><mrow><mi>&#x02032;</mi></mrow></msubsup></mrow><mrow><msub><mi>c</mi><mrow><mn>0</mn></mrow></msub></mrow></mfrac><mo>&#x0002B;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mfrac><mrow><msup><mi>T</mi><mrow><mi>&#x02032;</mi></mrow></msup></mrow><mrow><msup><mi>T</mi><mrow><mn>0</mn></mrow></msup></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$n^{\prime}=-\left(1-\frac{i}{k} \frac{\partial}{\partial x_{k}}\right)\left(\frac{u_{k}^{\prime}}{c_{0}}+\frac{1}{2} \frac{T^{\prime}}{T^{0}}\right)$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

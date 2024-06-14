@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2873_SOSTOJaNIJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2873_SOSTOJaNIJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2080</core:url>
+    <lbm:descriptor><![CDATA[СОСТОЯНИЯ УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#707"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>уравнение, связывающее между собой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температуру</a>, внешние параметры и какой-либо внутренний параметр системы в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоянии</a> термодинамического равновесия. С. у. является математич. отражением второго постулата термодинамики, согласно к-рому все равновесные внутренние <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3216_USTOJChIVOSTI">параметры системы</a> есть функции внешних <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параметров</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температуры</a>. Кал о р и е ск о е С. у. выражает зависимость внутренней <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a> системы от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температуры</a> и внешних <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параметров</a>. Т е рм и ч е с кое С.у. связывает значения внутреннего параметра системы, являющегося обобщенной силой, сопряженной какому-либо внешнему параметру, со значениями внешних <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параметров</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температуры</a>. Калорич. и каждое термич. С.у. связаны <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">дифференциальным уравнением</a> с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частными</a> производными. Общее число С. у. определяется числом <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2955_STEPENI">степеней свободы</a> системы, то есть числом независимых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параметров</a>, характеризующих ее <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояние</a>. С.у. либо берутся из опыта, либо выводятся методами статистич. физики.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#707">А. В. Солдатов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[уравнение, связывающее между собой температуру, внешние параметры и какой-либо внутренний параметр системы в состоянии термодинамического равновесия. С. у. является математич. отражением второго постулата термодинамики, согласно к-рому все равновесные внутренние параметры системы есть функции внешних параметров и температуры. Кал о р и е ск о е С. у. выражает зависимость внутренней энергии системы от температуры и внешних параметров. Т е рм и ч е с кое С.у. связывает значения внутреннего параметра системы, являющегося обобщенной силой, сопряженной какому-либо внешнему параметру, со значениями внешних параметров и температуры. Калорич. и каждое термич. С.у. связаны дифференциальным уравнением с частными производными. Общее число С. у. определяется числом степеней свободы системы, то есть числом независимых параметров, характеризуюших ее состояние. С.у. либо берутся из опыта, либо выводятся методами статистич. физики. А. В. Солдатов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2955_STEPENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3216_USTOJChIVOSTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

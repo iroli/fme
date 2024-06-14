@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3169_UL'TRASFERIChESKIE" alphabetic_pos="3171">
+  <title>УЛЬТРАСФЕРИЧЕСКИЕ МНОГОЧЛЕНЫ, МНОГОЧЛЕНЫ ГЕГЕНБАУЭРА</title>
+  <authors>
+    <author>П. К. Суетин</author>
+  </authors>
+  <pages>
+    <start>620</start>
+    <end>620</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3169_1_UL'TRASFERIChESKIE">h(x)=\left(1-x^{2}\right)^{\lambda-1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3169_2_UL'TRASFERIChESKIE">\begin{aligned}P_{n}(\dot{x}, \lambda) \equiv C_{n}^{(\lambda)}(x) &amp; =\frac{(-2)^{n}}{n !} \frac{\Gamma(n+\lambda) \Gamma(n+2 \lambda)}{\Gamma(\lambda) \Gamma(2 n+2 \lambda)}\left(1-x^{2}\right)^{-\lambda+\frac{1}{2}} \times \\\times &amp; \frac{d^{n}}{d x^{n}}\left[\left(1-x^{2}\right)^{n+\lambda-\frac{1}{2}}\right]\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3169_3_UL'TRASFERIChESKIE">C_{n}^{(\lambda)}(x)=\sum_{k=0}^{[n / 2]}(-1)^{k} \frac{\Gamma(n-k+\lambda)}{\Gamma(\lambda) k !(n-2 k) !}(2 x)^{n-2 k} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3169_4_UL'TRASFERIChESKIE">\frac{1}{\left(1-2 x w+w^{2}\right)^{\lambda}}=\sum_{n=0}^{\infty} C_{n}^{(\lambda)}(x) w^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3169_5_UL'TRASFERIChESKIE">\left(1-x^{2}\right) y^{\prime \prime}-(2 \lambda+1) x y^{\prime}+n(n+2 \lambda) y=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3169_6_UL'TRASFERIChESKIE">\begin{gathered}(n+1) C_{n+1}^{(\lambda)}(x)=2(n+\lambda) x C_{n}^{(\lambda)}(x)-(n+2 \lambda-1) C_{n-1}^{(\lambda)}(x), \\C_{n}^{(\lambda)}(-x)=(-1)^{n} C_{n}^{(\lambda)}(x), \\\frac{d}{d x}\left[C_{n}^{(\lambda)}(x)\right]=2 \lambda C_{n-1}^{(\lambda+1)}(x), \\C_{n}^{(\lambda)}( \pm 1)=( \pm 1)^{n} \frac{2 \lambda(2 \lambda+1) \ldots(2 \lambda+n-1)}{n !} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3169_1_UL'TRASFERIChESKIE">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3169_2_UL'TRASFERIChESKIE">\alpha=\beta=\lambda-\frac{1}{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3169_3_UL'TRASFERIChESKIE">(\lambda&gt;-1 / 2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3169_4_UL'TRASFERIChESKIE">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3169_5_UL'TRASFERIChESKIE">p_{n}(x)=p_{n}(x, 1 / 2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3169_6_UL'TRASFERIChESKIE">c_{n}^{(\lambda)}(x)=y</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/3169_1_UL'TRASFERIChESKIE">
+      <rel_text>дифференциальному</rel_text>
+      <target>http://libmeta.ru/fme/article/879_DIFFERENTsIRUEMOST</target>
+    </relation>
+  </relations>
+  <text>многочлены, ортогональные на отрезке $URI[[http://libmeta.ru/fme/formula/aux/3169_1_UL'TRASFERIChESKIE]]/URI$ с весовой функцией
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3169_1_UL'TRASFERIChESKIE]]/URI
+\]
+
+частный случай Якоби многочленов при $URI[[http://libmeta.ru/fme/formula/aux/3169_2_UL'TRASFERIChESKIE]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/3169_3_UL'TRASFERIChESKIE]]/URI$; Лежандра многочлены $URI[[http://libmeta.ru/fme/formula/aux/3169_4_UL'TRASFERIChESKIE]]/URI$ - частный случай У. м.: $URI[[http://libmeta.ru/fme/formula/aux/3169_5_UL'TRASFERIChESKIE]]/URI$
+
+Для У.м. принята стандартизация
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3169_2_UL'TRASFERIChESKIE]]/URI
+\]
+
+и имеет место представление
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3169_3_UL'TRASFERIChESKIE]]/URI
+\]
+
+У. м. являются коэффициентами разложения в степенной ряд производящей функции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3169_4_UL'TRASFERIChESKIE]]/URI
+\]
+
+У. м. $URI[[http://libmeta.ru/fme/formula/aux/3169_6_UL'TRASFERIChESKIE]]/URI$ удовлетворяет URI[[http://libmeta.ru/fme/relation/3169_1_UL'TRASFERIChESKIE]]/URI уравнению:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3169_5_UL'TRASFERIChESKIE]]/URI
+\]
+
+Наиболее употребительны формулы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3169_6_UL'TRASFERIChESKIE]]/URI
+\]</text>
+  <text_orig>многочлены, ортогональные на отрезке $[-1,1]$ с весовой функцией
+
+\[
+h(x)=\left(1-x^{2}\right)^{\lambda-1 / 2}
+\]
+
+частный случай Якоби многочленов при $\alpha=\beta=\lambda-\frac{1}{2}$ $(\lambda&gt;-1 / 2)$; Лежандра многочлены $P_{n}(x)$ - частный случай У. м.: $P_{n}(x)=P_{n}(x, 1 / 2)$
+
+Для У.м. принята стандартизация
+
+\[
+\begin{aligned}
+P_{n}(\dot{x}, \lambda) \equiv C_{n}^{(\lambda)}(x) &amp; =\frac{(-2)^{n}}{n !} \frac{\Gamma(n+\lambda) \Gamma(n+2 \lambda)}{\Gamma(\lambda) \Gamma(2 n+2 \lambda)}\left(1-x^{2}\right)^{-\lambda+\frac{1}{2}} \times \\
+\times &amp; \frac{d^{n}}{d x^{n}}\left[\left(1-x^{2}\right)^{n+\lambda-\frac{1}{2}}\right]
+\end{aligned}
+\]
+
+и имеет место представление
+
+\[
+C_{n}^{(\lambda)}(x)=\sum_{k=0}^{[n / 2]}(-1)^{k} \frac{\Gamma(n-k+\lambda)}{\Gamma(\lambda) k !(n-2 k) !}(2 x)^{n-2 k} .
+\]
+
+У. м. являются коэффициентами разложения в степенной ряд производящей функции
+
+\[
+\frac{1}{\left(1-2 x w+w^{2}\right)^{\lambda}}=\sum_{n=0}^{\infty} C_{n}^{(\lambda)}(x) w^{n}
+\]
+
+У. м. $C_{n}^{(\lambda)}(x)=y$ удовлетворяет дифференциальному уравнению:
+
+\[
+\left(1-x^{2}\right) y^{\prime \prime}-(2 \lambda+1) x y^{\prime}+n(n+2 \lambda) y=0 .
+\]
+
+Наиболее употребительны формулы
+
+\[
+\begin{gathered}
+(n+1) C_{n+1}^{(\lambda)}(x)=2(n+\lambda) x C_{n}^{(\lambda)}(x)-(n+2 \lambda-1) C_{n-1}^{(\lambda)}(x), \\
+C_{n}^{(\lambda)}(-x)=(-1)^{n} C_{n}^{(\lambda)}(x), \\
+\frac{d}{d x}\left[C_{n}^{(\lambda)}(x)\right]=2 \lambda C_{n-1}^{(\lambda+1)}(x), \\
+C_{n}^{(\lambda)}( \pm 1)=( \pm 1)^{n} \frac{2 \lambda(2 \lambda+1) \ldots(2 \lambda+n-1)}{n !} .
+\end{gathered}
+\]
+
+П. К. Суетин.</text_orig>
+</article>

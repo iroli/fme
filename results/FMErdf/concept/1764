@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2589_REZONAN">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2589_REZONAN</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1764</core:url>
+    <lbm:descriptor><![CDATA[РЕЗОНАНС]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#13269"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13270"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13271"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13272"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_177"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4501"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13273"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13274"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13275"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_747"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13276"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7506"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>явление увеличения амплитуды вынужденных колебаний при приближении частоты внешнего воздействия к одной из частот собственных колебаний динамической системы. Явление Р. имеет наиболее простой характер в линейной динамич. системе. Дифференциальное уравнение движения линейной системы с одной степенью свободы в среде с вязким трением при гармонич. воздействии имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13270">$$a \ddot{q}+b \dot{q}+c q=H \sin (p t+\delta),$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2589_1_REZONAN]]/URI$ - обобщенная координата; <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4501">$$a, b, c$$</a> - постоянные параметры, характеризующие систему; <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13273">$$\boldsymbol{h}, \boldsymbol{p}, \boldsymbol{\delta}$$</a> - соответственно амплитуда, частота, начальная фаза внешнего воздействия. Установившиеся вынужденные колебания происходят по гармонич. закону с частотой $URI[[http://libmeta.ru/fme/formula/aux/2589_4_REZONAN]]/URI$ и амплитудой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13271">$$D=\frac{H}{a \sqrt{\left(k^{2}-p^{2}\right)^{2}+\frac{b^{2}}{a^{2}} p^{2}}},$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13274">$$k=\sqrt{c / a}-$$</a> частота собственных колебаний при отсутствии рассеивания энергии <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13275">$$(b=0)$$</a>. Амплитуда $URI[[http://libmeta.ru/fme/formula/aux/2589_7_REZONAN]]/URI$ имеет максимальное значение при<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13272">$$\frac{p}{k}=\sqrt{1-\frac{b^{2}}{2 a c}}$$</a><BR/></P><P>и при малом <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеивании</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a> близка к ее значению при $URI[[http://libmeta.ru/fme/formula/aux/2589_8_REZONAN]]/URI$. Принято называть ре з о на н с о м тот случай, когда $URI[[http://libmeta.ru/fme/formula/aux/2589_9_REZONAN]]/URI$. Если <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7506">$$b=0$$</a>, то при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13276">$$p=k$$</a> амплитуда <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_478_VYNUZhDENNOE">вынужденных колебаний</a> возрастает пропорционально времени.<BR/></P><P>Если линейная система имеет $URI[[http://libmeta.ru/fme/formula/aux/2589_12_REZONAN]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2955_STEPENI">степеней свободы</a>, то P. наступает при совпадении <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частоты</a> внешней силы с одной из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2840_SOBSTVENNAJa">собственных частот</a> системы. При негармонич. воздействии Р. может иметь место лишь при совпадении <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частот</a> его <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK">гармонич</a>. спектра с частотами собственных колебаний.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1705_MALYE">Малые знаменатели</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2011_OBMOTKA">Обмотка тора</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2129_OSTsILLJaTO">Осциллятор</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2587_REZOL'VENT">Резонансное</a> соотношение.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#13269">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#13268">Стрелков С. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#13269">Введение в теорию колебаний, М.$\begin{array}{ll}\text { Л., 1951</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[явление увеличения амплитуды вынужденных колебаний при приближении частоты внешнего воздействия к одной из частот собственных колебаний динамической системы. Явление Р. имеет наиболее простой характер в линейной динамич. системе. Дифференциальное уравнение движения линейной системы с одной степенью свободы в среде с вязким трением при гармонич. воздействии имеет вид:
+
+\[
+a \ddot{q}+b \dot{q}+c q=H \sin (p t+\delta),
+\]
+
+где $q$ - обобщенная координата; $a, b, c$ - постоянные параметры, характеризуюшие систему; $\boldsymbol{H}, \boldsymbol{p}, \boldsymbol{\delta}$ - соответственно амплитуда, частота, начальная фаза внешнего воздействия. Установившиеся вынужденные колебания происходят по гармонич. закону с частотой $p$ и амплитудой
+
+\[
+D=\frac{H}{a \sqrt{\left(k^{2}-p^{2}\right)^{2}+\frac{b^{2}}{a^{2}} p^{2}}},
+\]
+
+где $k=\sqrt{c / a}-$ частота собственных колебаний при отсутствии рассеивания энергии $(b=0)$. Амплитуда $D$ имеет максимальное значение при
+
+\[
+\frac{p}{k}=\sqrt{1-\frac{b^{2}}{2 a c}}
+\]
+
+и при малом рассеивании энергии близка к ее значению при $p=k$. Принято называть ре з о на н с о м тот случай, когда $p=k$. Если $b=0$, то при $p=k$ амплитуда вынужденных колебаний возрастает пропорционально времени.
+
+Если линейная система имеет $n$ степеней свободы, то P. наступает при совпадении частоты внешней силы с одной из собственных частот системы. При негармонич. воздействии Р. может иметь место лишь при совпадении частот его гармонич. спектра с частотами собственных колебаний.
+
+См. также Малые знаменатели, Обмотка тора, Осциллятор, Резонансное соотношение.
+
+Лит.: [1] С т ре л к о в С. П., Введение в теорию колебаний, М.$\begin{array}{ll}\text { Л., 1951. } & \text { Н. В. Бутенин. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2587_REZOL'VENT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2129_OSTsILLJaTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2011_OBMOTKA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1705_MALYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2840_SOBSTVENNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2955_STEPENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_478_VYNUZhDENNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

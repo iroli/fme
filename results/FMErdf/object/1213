@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_1213">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x003A8;</mi><mrow><mi>&#x003C3;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>f</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x0222B;</mo><msub><mi>&#x003A8;</mi><mrow><mi>&#x003C3;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>x</mi><mo>&#x0002C;</mo><mspace width="1em" /><msubsup><mi>&#x003A8;</mi><mrow><mi>&#x003C3;</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>f</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x0222B;</mo><msubsup><mi>&#x003A8;</mi><mrow><mi>&#x003C3;</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>x</mi><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\Psi_{\sigma}(f)=\int \Psi_{\sigma}(x) f(x) d x, \quad \Psi_{\sigma}^{+}(f)=\int \Psi_{\sigma}^{+}(x) f(x) d x,$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,567 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/615_GIDRODINAMIKI" alphabetic_pos="615">
+  <title>ГИДРОДИНАМИКИ УРАВНЕНИЯ</title>
+  <authors>
+    <author>В. В. Пухначев</author>
+  </authors>
+  <pages>
+    <start>133</start>
+    <end>135</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ж е р м е н П., Курс механики сплошных сред, пер. с франц., М., 1983; [2] С е до в Л. И., Механика сплошной среды, 4 изд., М., 1983; [3] О в с я н н и к о в Л. В., Лекции по основам газовой динамики, М., 1981; [4] Рождест венский Б.Л., Янен к о Н. Н., Системы квазилинейных уравнений и их приложения к газовой динамике, 2 изд., М., 1978; [5] А н то н ц е в С. Н., Ка ж и х о в А. В., Монах о в В. Н., Краевые задачи механики неоднородных жидкостей, Новосиб., 1983; [6] Лады жен ская О.А., Математические вопросы динамики вязкой несжимаемой жидкости, 2 изд., М., 1970; [7] Те м а м Р., Уравнения Навье-Стокса. Теория и численный анализ, пер. с англ., М., 1981; [8] Б этчел о р Дж., Введение в динамику жидкости, пер. с англ., М., 1973; [9] О в с я н н и ко в Л. В. [и др.], Нелинейные проблемы теории поверхностных и внутренних волн, Новосиб., $1985 . \quad$</literature_orig>
+    <unit>
+      <author>Жермен П.</author>
+      <title>Курс механики сплошных сред</title>
+      <publication>пер. с франц., М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Седов Л. И.</author>
+      <title>Механика сплошной среды</title>
+      <publication>4 изд., М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Овсянников Л. В.</author>
+      <title>Лекции по основам газовой динамики</title>
+      <publication>М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рождественский Б. Л.</author>
+      <author>Яненко Н. Н.</author>
+      <title>Системы квазилинейных уравнений и их приложения к газовой динамике</title>
+      <publication>2 изд., М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Антонцев С. Н.</author>
+      <author>Кажихов А. В.</author>
+      <author>Монахов В. Н.</author>
+      <title>Краевые задачи механики неоднородных жидкостей, Новосиб.</title>
+      <publication/>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ладыженская О. А.</author>
+      <title>Математические вопросы динамики вязкой несжимаемой жидкости</title>
+      <publication>2 изд., М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Темам Р.</author>
+      <title>Уравнения Навье-Стокса. Теория и численный анализ</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Б этчел о р Дж., Введение в динамику жидкости</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>О в с я н н и ко в Л. В. [и др.], Нелинейные проблемы теории поверхностных и внутренних волн, Новосиб.</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_1_GIDRODINAMIKI">\frac{d \rho}{d t}+\rho \operatorname{div} v=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_2_GIDRODINAMIKI">\frac{d}{d t}=\frac{\partial}{\partial t}+v \operatorname{grad}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_3_GIDRODINAMIKI">\boldsymbol{p}_{n}=P \boldsymbol{n},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_4_GIDRODINAMIKI">\rho \frac{d v}{d t}=\operatorname{div} P+\rho f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_5_GIDRODINAMIKI">P=K(D)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_6_GIDRODINAMIKI">D=\frac{1}{2}\left(\operatorname{grad} v+(\operatorname{grad} v)^{\top}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_7_GIDRODINAMIKI">P=K_{0} I+K_{1} D+K_{2} D^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_8_GIDRODINAMIKI">\rho \frac{d \varepsilon}{d t}=-\operatorname{div} q+P: D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_9_GIDRODINAMIKI">\varepsilon=E(T, \rho) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_10_GIDRODINAMIKI">\boldsymbol{q}=-x \operatorname{grad} T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_11_GIDRODINAMIKI">P=(-p+\lambda \operatorname{div} v) I+2 \mu D .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_12_GIDRODINAMIKI">\rho \frac{d v}{d t}=\operatorname{grad}(-p+\lambda \operatorname{div} v)+\operatorname{div}(2 \mu D)+\rho f .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_13_GIDRODINAMIKI">p=\rho R T,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_14_GIDRODINAMIKI">p=h(T, \rho) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_15_GIDRODINAMIKI">T d S=d \varepsilon+p d(1 / \rho) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_16_GIDRODINAMIKI">\rho T \frac{d S}{d t}=\operatorname{div}(x \operatorname{grad} T)+\Phi,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_17_GIDRODINAMIKI">\Phi=\lambda(\operatorname{div} v)^{2}+2 \mu D: D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_18_GIDRODINAMIKI">\mu \geqslant 0,3 \lambda+2 \mu \geqslant 0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_19_GIDRODINAMIKI">\begin{gathered}\rho \frac{d v}{d t}=-\operatorname{grad} p+\rho f, \\\frac{d S}{d t}=0 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_20_GIDRODINAMIKI">p=f(\rho, S) \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_21_GIDRODINAMIKI">\frac{d \rho}{d t}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_22_GIDRODINAMIKI">\begin{gathered}\operatorname{div} v=0, \\\rho \frac{d v}{d t}=-\operatorname{grad} p+\operatorname{div}(2 \mu D)+\rho f, \\\rho c \frac{d T}{d t}=\operatorname{div}(x \operatorname{grad} T)+2 \mu D: D .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/615_23_GIDRODINAMIKI">\begin{gathered}\frac{d v}{d t}=-\rho^{-1} \operatorname{grad} p+v \Delta v+\boldsymbol{f}, \\\frac{d T}{d t}=\chi \Delta T+2 c^{-1} v D: D .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_1_GIDRODINAMIKI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_2_GIDRODINAMIKI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_3_GIDRODINAMIKI">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_4_GIDRODINAMIKI">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_5_GIDRODINAMIKI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_6_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_7_GIDRODINAMIKI">\omega \subset \mathbb{R}^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_8_GIDRODINAMIKI">\rho(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_9_GIDRODINAMIKI">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_10_GIDRODINAMIKI">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_11_GIDRODINAMIKI">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_12_GIDRODINAMIKI">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_13_GIDRODINAMIKI">f(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_14_GIDRODINAMIKI">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_15_GIDRODINAMIKI">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_16_GIDRODINAMIKI">\partial \omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_17_GIDRODINAMIKI">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_18_GIDRODINAMIKI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_19_GIDRODINAMIKI">p_{n}(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_20_GIDRODINAMIKI">\boldsymbol{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_21_GIDRODINAMIKI">\partial \omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_22_GIDRODINAMIKI">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_23_GIDRODINAMIKI">\partial \omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_24_GIDRODINAMIKI">p-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_25_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_26_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_27_GIDRODINAMIKI">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_28_GIDRODINAMIKI">k-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_29_GIDRODINAMIKI">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_30_GIDRODINAMIKI">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_31_GIDRODINAMIKI">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_32_GIDRODINAMIKI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_33_GIDRODINAMIKI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_34_GIDRODINAMIKI">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_35_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_36_GIDRODINAMIKI">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_37_GIDRODINAMIKI">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_38_GIDRODINAMIKI">k_{0}, K_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_39_GIDRODINAMIKI">k_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_40_GIDRODINAMIKI">d_{\mathrm{i}}, D_{\mathrm{II}}, D_{\mathrm{III}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_41_GIDRODINAMIKI">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_42_GIDRODINAMIKI">\boldsymbol{q}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_43_GIDRODINAMIKI">p: D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_44_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_45_GIDRODINAMIKI">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_46_GIDRODINAMIKI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_47_GIDRODINAMIKI">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_48_GIDRODINAMIKI">\boldsymbol{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_49_GIDRODINAMIKI">\boldsymbol{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_50_GIDRODINAMIKI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_51_GIDRODINAMIKI">|\operatorname{grad} T|, T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_52_GIDRODINAMIKI">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_53_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_54_GIDRODINAMIKI">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_55_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_56_GIDRODINAMIKI">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_57_GIDRODINAMIKI">\mu-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_58_GIDRODINAMIKI">\operatorname{div} \boldsymbol{v}=D_{I}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_59_GIDRODINAMIKI">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_60_GIDRODINAMIKI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_61_GIDRODINAMIKI">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_62_GIDRODINAMIKI">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_63_GIDRODINAMIKI">\varepsilon=e(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_64_GIDRODINAMIKI">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_65_GIDRODINAMIKI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_66_GIDRODINAMIKI">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_67_GIDRODINAMIKI">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_68_GIDRODINAMIKI">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_69_GIDRODINAMIKI">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_70_GIDRODINAMIKI">\lambda \rightarrow 0, \mu \rightarrow 0, x \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_71_GIDRODINAMIKI">p=-p I</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_72_GIDRODINAMIKI">\lambda=\mu=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_73_GIDRODINAMIKI">x=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_74_GIDRODINAMIKI">0,5 \%</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_75_GIDRODINAMIKI">\operatorname{div} \boldsymbol{v}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_76_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_77_GIDRODINAMIKI">s p P</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_78_GIDRODINAMIKI">p=-S p P / 3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_79_GIDRODINAMIKI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_80_GIDRODINAMIKI">t d S=d \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_81_GIDRODINAMIKI">\varepsilon=e(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_82_GIDRODINAMIKI">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_83_GIDRODINAMIKI">\rho=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_84_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_85_GIDRODINAMIKI">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_86_GIDRODINAMIKI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_87_GIDRODINAMIKI">|\operatorname{grad} T|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_88_GIDRODINAMIKI">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_89_GIDRODINAMIKI">c=e_{t}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_90_GIDRODINAMIKI">\chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_91_GIDRODINAMIKI">\mu, c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_92_GIDRODINAMIKI">\chi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_93_GIDRODINAMIKI">v=\mu / \rho-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_94_GIDRODINAMIKI">\chi=x / \rho c-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_95_GIDRODINAMIKI">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_96_GIDRODINAMIKI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_97_GIDRODINAMIKI">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_98_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_99_GIDRODINAMIKI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/615_100_GIDRODINAMIKI">\rho=</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/615_1_GIDRODINAMIKI">
+      <rel_text>жидкости</rel_text>
+      <target>http://libmeta.ru/fme/article/939_ZhIDKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/615_2_GIDRODINAMIKI">
+      <rel_text>жидкости</rel_text>
+      <target>http://libmeta.ru/fme/article/939_ZhIDKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/615_3_GIDRODINAMIKI">
+      <rel_text>сжимаемости</rel_text>
+      <target>http://libmeta.ru/fme/article/2727_SZhIMAEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/615_4_GIDRODINAMIKI">
+      <rel_text>жидкости</rel_text>
+      <target>http://libmeta.ru/fme/article/939_ZhIDKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/615_5_GIDRODINAMIKI">
+      <rel_text>несжимаемой жидкости</rel_text>
+      <target>http://libmeta.ru/fme/article/1939_NESZhIMAEMAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/615_6_GIDRODINAMIKI">
+      <rel_text>динамики</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/615_7_GIDRODINAMIKI">
+      <rel_text>широко</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/615_8_GIDRODINAMIKI">
+      <rel_text>краевых условиях</rel_text>
+      <target>http://libmeta.ru/fme/article/1447_KRAEVYE</target>
+    </relation>
+  </relations>
+  <text>дифференциальные уравнения, описывающие движение жидкости или газа под действием внешних и внутренних сил и источников тепла. Независимыми переменными в системе Г.у. являются время $URI[[http://libmeta.ru/fme/formula/aux/615_1_GIDRODINAMIKI]]/URI$ и совокупность $URI[[http://libmeta.ru/fme/formula/aux/615_2_GIDRODINAMIKI]]/URI$ координат трехмерного евклидова пространства, а искомыми функциями - компоненты трехмерного вектора скорости $URI[[http://libmeta.ru/fme/formula/aux/615_3_GIDRODINAMIKI]]/URI$ и дополнительные переменные, характеризующие состояние жидкости (плотность $URI[[http://libmeta.ru/fme/formula/aux/615_4_GIDRODINAMIKI]]/URI$, температура $URI[[http://libmeta.ru/fme/formula/aux/615_5_GIDRODINAMIKI]]/URI$, давление $URI[[http://libmeta.ru/fme/formula/aux/615_6_GIDRODINAMIKI]]/URI$ и т. д.). Система координат, используемая ниже для записи Г. у., предполагается инерциальной.
+
+Г.у. выводятся на основе общих законов сохранения в механике сплошной среды (см. [1], [2]). Предположим, что в нек-рой трехмерной области $URI[[http://libmeta.ru/fme/formula/aux/615_7_GIDRODINAMIKI]]/URI$ (к-рая может изменяться со временем) имеется распределение масс с объемной плотностью $URI[[http://libmeta.ru/fme/formula/aux/615_8_GIDRODINAMIKI]]/URI$. Закон сохранения массы приводит к уравнению неразрывности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_1_GIDRODINAMIKI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_2_GIDRODINAMIKI]]/URI
+\]
+
+- оператор полного дифференцирования по времени.
+
+Для формулировки закона сохранения импульса следует ввести в рассмотрение силы, действующие на жидкость. Они могут быть как внутренними (то есть действовать на произвольную трехмерную подобласть $URI[[http://libmeta.ru/fme/formula/aux/615_9_GIDRODINAMIKI]]/URI$ области $URI[[http://libmeta.ru/fme/formula/aux/615_10_GIDRODINAMIKI]]/URI$ со стороны дополнения $URI[[http://libmeta.ru/fme/formula/aux/615_11_GIDRODINAMIKI]]/URI$ до $URI[[http://libmeta.ru/fme/formula/aux/615_12_GIDRODINAMIKI]]/URI$ ), так и внешними. Поле внешних сил, отнесенных к единице массы, обозначим через $URI[[http://libmeta.ru/fme/formula/aux/615_13_GIDRODINAMIKI]]/URI$. Функция $URI[[http://libmeta.ru/fme/formula/aux/615_14_GIDRODINAMIKI]]/URI$, как правило, считается заданной. Относительно внутренних сил будем предполагать, что в каждой точке $URI[[http://libmeta.ru/fme/formula/aux/615_15_GIDRODINAMIKI]]/URI$ границы $URI[[http://libmeta.ru/fme/formula/aux/615_16_GIDRODINAMIKI]]/URI$ области $URI[[http://libmeta.ru/fme/formula/aux/615_17_GIDRODINAMIKI]]/URI$ в каждый момент времени $URI[[http://libmeta.ru/fme/formula/aux/615_18_GIDRODINAMIKI]]/URI$ они могут быть представлены поверхностной плотностью $URI[[http://libmeta.ru/fme/formula/aux/615_19_GIDRODINAMIKI]]/URI$, зависящей от единичного вектора $URI[[http://libmeta.ru/fme/formula/aux/615_20_GIDRODINAMIKI]]/URI$ внешней нормали к $URI[[http://libmeta.ru/fme/formula/aux/615_21_GIDRODINAMIKI]]/URI$ в точке $URI[[http://libmeta.ru/fme/formula/aux/615_22_GIDRODINAMIKI]]/URI$ (поверхность $URI[[http://libmeta.ru/fme/formula/aux/615_23_GIDRODINAMIKI]]/URI$ считается гладкой).
+
+Из закона сохранения импульса вытекает, что поверхностные силы находятся в локальном равновесии. Это влечет представление
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_3_GIDRODINAMIKI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/615_24_GIDRODINAMIKI]]/URI$ нек-рый тензор, называемый тен норо м нап р я ж е н и й. С его помощью уравнение движения записывается в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_4_GIDRODINAMIKI]]/URI
+\]
+
+Далее постулируется симметричность тензора напряжений. Тогда из (2) будет вытекать закон сохранения момента количества движения. Уравнение (2) справедливо для любой сплошной среды, независимо от вида тензора напряжений $URI[[http://libmeta.ru/fme/formula/aux/615_25_GIDRODINAMIKI]]/URI$. Сплошная среда называется жидк остью, если $URI[[http://libmeta.ru/fme/formula/aux/615_26_GIDRODINAMIKI]]/URI$ является функцией тензора скоростей деформаций $URI[[http://libmeta.ru/fme/formula/aux/615_27_GIDRODINAMIKI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_5_GIDRODINAMIKI]]/URI
+\]
+
+(значения функции $URI[[http://libmeta.ru/fme/formula/aux/615_28_GIDRODINAMIKI]]/URI$ симметрич. тензоры 2-го ранга). Тензор скоростей деформаций $URI[[http://libmeta.ru/fme/formula/aux/615_29_GIDRODINAMIKI]]/URI$, по определению, есть симметричная часть тензора grad $URI[[http://libmeta.ru/fme/formula/aux/615_30_GIDRODINAMIKI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_6_GIDRODINAMIKI]]/URI
+\]
+
+Предположим, что функция $URI[[http://libmeta.ru/fme/formula/aux/615_31_GIDRODINAMIKI]]/URI$ не зависит явно от $URI[[http://libmeta.ru/fme/formula/aux/615_32_GIDRODINAMIKI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/615_33_GIDRODINAMIKI]]/URI$ и, сверх того, является изотропной функцией $URI[[http://libmeta.ru/fme/formula/aux/615_34_GIDRODINAMIKI]]/URI$ (последнее означает, что ни в пространстве, ни в жидкости не существует выделенных направлений). В этом случае зависимость $URI[[http://libmeta.ru/fme/formula/aux/615_35_GIDRODINAMIKI]]/URI$ от $URI[[http://libmeta.ru/fme/formula/aux/615_36_GIDRODINAMIKI]]/URI$ имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_7_GIDRODINAMIKI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/615_37_GIDRODINAMIKI]]/URI$ - единичный тензор, а $URI[[http://libmeta.ru/fme/formula/aux/615_38_GIDRODINAMIKI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/615_39_GIDRODINAMIKI]]/URI$ - скалярные функции, зависящие от главных инвариантов $URI[[http://libmeta.ru/fme/formula/aux/615_40_GIDRODINAMIKI]]/URI$ и, возможно, термодинамич. переменных состояния.
+
+Для замыкания системы Г.у. следует присоединить к (1)-(3) уравнение энергии:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_8_GIDRODINAMIKI]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/615_41_GIDRODINAMIKI]]/URI$ - удельная (то есть отнесенная к единице массы) внутренняя энергия, $URI[[http://libmeta.ru/fme/formula/aux/615_42_GIDRODINAMIKI]]/URI$ вектор потока тепла, $URI[[http://libmeta.ru/fme/formula/aux/615_43_GIDRODINAMIKI]]/URI$ означает свертку тензоров $URI[[http://libmeta.ru/fme/formula/aux/615_44_GIDRODINAMIKI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/615_45_GIDRODINAMIKI]]/URI$. Ниже ограничимся случаем двупараметрич. среды, в К-рой все термодинамич. функции зависят от двух термодинамич. параметров состояния. Если эти два параметра - температура $URI[[http://libmeta.ru/fme/formula/aux/615_46_GIDRODINAMIKI]]/URI$ и плотность $URI[[http://libmeta.ru/fme/formula/aux/615_47_GIDRODINAMIKI]]/URI$, то удельная внутренняя энергия должна выражаться через них:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_9_GIDRODINAMIKI]]/URI
+\]
+
+Относительно вектора потока тепла $URI[[http://libmeta.ru/fme/formula/aux/615_48_GIDRODINAMIKI]]/URI$ предположим, что $URI[[http://libmeta.ru/fme/formula/aux/615_49_GIDRODINAMIKI]]/URI$ является изотропной функцией от градиента температуры и термодинамич. переменных. Это означает, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_10_GIDRODINAMIKI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/615_50_GIDRODINAMIKI]]/URI$ - скалярная функция $URI[[http://libmeta.ru/fme/formula/aux/615_51_GIDRODINAMIKI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/615_52_GIDRODINAMIKI]]/URI$, называемая ко эфф и и ентом тепл о проводн ости. Уравнения (1) -(6) образуют замкнутую систему Г. у. сжимаемой жидкости или газа.
+
+Важный частный случай жидкостей составляют классические, или ньютоновские, жидкости (и газы). В этом случае зависимость $URI[[http://libmeta.ru/fme/formula/aux/615_53_GIDRODINAMIKI]]/URI$ от $URI[[http://libmeta.ru/fme/formula/aux/615_54_GIDRODINAMIKI]]/URI$ линейна,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_11_GIDRODINAMIKI]]/URI
+\]
+
+В соотношении (7) $URI[[http://libmeta.ru/fme/formula/aux/615_55_GIDRODINAMIKI]]/URI$ - давление, $URI[[http://libmeta.ru/fme/formula/aux/615_56_GIDRODINAMIKI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/615_57_GIDRODINAMIKI]]/URI$ скалярные функции термодинамич. переменных; $URI[[http://libmeta.ru/fme/formula/aux/615_58_GIDRODINAMIKI]]/URI$ первый инвариант тензора $URI[[http://libmeta.ru/fme/formula/aux/615_59_GIDRODINAMIKI]]/URI$. Уравнение движения ньютоновской жидкости получается из (2), (7) и носит название у р а в н е н и я Навье - Стокса:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_12_GIDRODINAMIKI]]/URI
+\]
+
+В случае сжимаемой жидкости (газа) давление является термодинамич. переменной и должно быть задано как функция $URI[[http://libmeta.ru/fme/formula/aux/615_60_GIDRODINAMIKI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/615_61_GIDRODINAMIKI]]/URI$ с помощью уравнения состояния. Для многих реальных газов указанная зависимость хорошо аппроксимируется уравнением Клапейрона:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_13_GIDRODINAMIKI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/615_62_GIDRODINAMIKI]]/URI$ - положительная постоянная, определяемая молекулярным составом газа (газовая постоянная). Газ, для к-рого выполнено уравнение состояния (9), называется с о в е рш е н н ы м. Внутренняя энергия совершенного газа зависит только от температуры, так что описание его термодинамики сводится к заданию функции $URI[[http://libmeta.ru/fme/formula/aux/615_63_GIDRODINAMIKI]]/URI$. В общем случае это описание характеризуется зависимостями (5) и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_14_GIDRODINAMIKI]]/URI
+\]
+
+Введем в рассмотрение еще одну термодинамич. переменную - удельную энтропию $URI[[http://libmeta.ru/fme/formula/aux/615_64_GIDRODINAMIKI]]/URI$ - с помощью равенства, выражающего первый закон термодинамики:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_15_GIDRODINAMIKI]]/URI
+\]
+
+Соотношения (1), (6) и (11) позволяют записать уравнение энергии (4) для ньютоновской жидкости в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_16_GIDRODINAMIKI]]/URI
+\]
+
+B K-ром
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_17_GIDRODINAMIKI]]/URI
+\]
+
+- диссипативная функция. Известно, что коэффициент теплопроводности $URI[[http://libmeta.ru/fme/formula/aux/615_65_GIDRODINAMIKI]]/URI$ неотрицателен (теплота всегда передается от тел с большей температурой к телам с меньшей температурой). Из второго закона термодинамики следует, что в процессе движения жидкости механич. энергия может перейти в тепловую, но не наоборот. Это влечет требование неотрицательности функции $URI[[http://libmeta.ru/fme/formula/aux/615_66_GIDRODINAMIKI]]/URI$ для произвольных $URI[[http://libmeta.ru/fme/formula/aux/615_67_GIDRODINAMIKI]]/URI$. Последнее, в силу (13), выполнено в том и только в том случае, когда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_18_GIDRODINAMIKI]]/URI
+\]
+
+Рассмотрим теперь уравнения, описывающие движения идеальной жидкости. Жидкость называют иде ал ь н о й, если поток тепла $URI[[http://libmeta.ru/fme/formula/aux/615_68_GIDRODINAMIKI]]/URI$ и диссипативная функция $URI[[http://libmeta.ru/fme/formula/aux/615_69_GIDRODINAMIKI]]/URI$ тождественно равны нулю. Идеальную жидкость можно рассматривать как предельный случай вязкой сжимаемой жидкости, когда $URI[[http://libmeta.ru/fme/formula/aux/615_70_GIDRODINAMIKI]]/URI$. Тензор напряжений в идеальной жидкости является шаровым: $URI[[http://libmeta.ru/fme/formula/aux/615_71_GIDRODINAMIKI]]/URI$. Полагая в (8), (12) $URI[[http://libmeta.ru/fme/formula/aux/615_72_GIDRODINAMIKI]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/615_73_GIDRODINAMIKI]]/URI$, получаем
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_19_GIDRODINAMIKI]]/URI
+\]
+
+Система (1), (14), (15) становится замкнутой, если к ней добавить термодинамич. уравнение состояния. Для случая идеальной жидкости это уравнение удобно выбрать в форме
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_20_GIDRODINAMIKI]]/URI
+\]
+
+Систему (1), (14)-(16) называют также системой у р а вн е н и й газ о в ой д и на м и к и. Она широко используется для описания быстропротекающих процессов в сжимаемых средах, когда характерные времена изменения состояния среды под действием вязкости и теплопроводности много больше времен изменений, обусловленных фактором сжимаемости (см. [3], [4]). Важной особенностью системы (1), (14)-(16) является наличие у нее разрывных решений, описывающих такие явления, как распространение ударных волн.
+
+Математич. модель газовой динамики, основанная на уравнениях (1), (14) - (16), изучена весьма подробно (см. [3], [4]). Что касается вопросов корректности начально-краевых задач для уравнений вязкого теплопроводного газа, то к настоящему времени здесь имеются лишь отдельные результаты. Исключение составляет теория одномерных движений с постоянными коэффициентами вязкости и теплопроводности, развитая с достаточной полнотой (см. [5]). Система соотношений (1)-(6) в равной мере применима к описанию движений как жидкости, так и газа. Однако если для газов свойство сжимаемости (то есть способность легко изменять плотность под действием изменений давления или температуры) является определяющим, то для собственно жидкостей это свойство выражено очень слабо. Так, если давление возрастает от одной до 100 атм при комнатной температуре, то плотность воды увеличивается всего на $URI[[http://libmeta.ru/fme/formula/aux/615_74_GIDRODINAMIKI]]/URI$. Поэтому большое распространение получила модель несжимаемой жидкости, основанная на предположении $URI[[http://libmeta.ru/fme/formula/aux/615_75_GIDRODINAMIKI]]/URI$. Формально уравнения этой модели могут быть получены из (1)-(6). Однако следует подчеркнуть, что для несжимаемой жидкости давление $URI[[http://libmeta.ru/fme/formula/aux/615_76_GIDRODINAMIKI]]/URI$ уже не является термодинамич. переменной, хотя и остается динамич. переменной. В частности, для ньютоновской несжимаемой жидкости вследствие (1), (7) давление может быть выражено через первый инвариант $URI[[http://libmeta.ru/fme/formula/aux/615_77_GIDRODINAMIKI]]/URI$ тензора напряжений по формуле $URI[[http://libmeta.ru/fme/formula/aux/615_78_GIDRODINAMIKI]]/URI$. С точки зрения термодинамики несжимаемая жидкость является однопараметрич. средой, в к-рой естественным параметром состояния является температура $URI[[http://libmeta.ru/fme/formula/aux/615_79_GIDRODINAMIKI]]/URI$, соотношение (11) принимает вид $URI[[http://libmeta.ru/fme/formula/aux/615_80_GIDRODINAMIKI]]/URI$, а зависимость (5) - вид $URI[[http://libmeta.ru/fme/formula/aux/615_81_GIDRODINAMIKI]]/URI$.
+
+В несжимаемой жидкости плотность $URI[[http://libmeta.ru/fme/formula/aux/615_82_GIDRODINAMIKI]]/URI$, согласно (1), удовлетворяет уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_21_GIDRODINAMIKI]]/URI
+\]
+
+Это уравнение всегда имеет решение $URI[[http://libmeta.ru/fme/formula/aux/615_83_GIDRODINAMIKI]]/URI$ const, что соответствует случаю однородной жидкости. (об исследовании уравнений неоднородной вязкой несжимаемой жидкости см. [5].) Уравнения динамики однородной несжимаемой жидкости в предположениях о линейной зависимости (7) между тензорами $URI[[http://libmeta.ru/fme/formula/aux/615_84_GIDRODINAMIKI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/615_85_GIDRODINAMIKI]]/URI$ и о независимости коэффициента $URI[[http://libmeta.ru/fme/formula/aux/615_86_GIDRODINAMIKI]]/URI$ в формуле (6) от $URI[[http://libmeta.ru/fme/formula/aux/615_87_GIDRODINAMIKI]]/URI$ имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_22_GIDRODINAMIKI]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/615_88_GIDRODINAMIKI]]/URI$ (динамич. коэффициент вязкости), $URI[[http://libmeta.ru/fme/formula/aux/615_89_GIDRODINAMIKI]]/URI$ (удельная теплоемкость) и $URI[[http://libmeta.ru/fme/formula/aux/615_90_GIDRODINAMIKI]]/URI$ (коэффициент теплопроводности) параметры, характеризующие данную жидкость. Они, вообще говоря, зависят от температуры.
+
+С математич. точки зрения система (18)-(20) мало изучена. При постоянных $URI[[http://libmeta.ru/fme/formula/aux/615_91_GIDRODINAMIKI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/615_92_GIDRODINAMIKI]]/URI$ уравнения (19), (20) принимают более простой вид и записываются так:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/615_23_GIDRODINAMIKI]]/URI
+\]
+
+Здесь введены обозначения: $URI[[http://libmeta.ru/fme/formula/aux/615_93_GIDRODINAMIKI]]/URI$ кинематич. коэффициент вязкости, $URI[[http://libmeta.ru/fme/formula/aux/615_94_GIDRODINAMIKI]]/URI$ коэффициент температуропроводности, $URI[[http://libmeta.ru/fme/formula/aux/615_95_GIDRODINAMIKI]]/URI$ - оператор Лапласа по переменным $URI[[http://libmeta.ru/fme/formula/aux/615_96_GIDRODINAMIKI]]/URI$.
+
+Уравнения (18), (21) образуют замкнутую систему для определения функций $URI[[http://libmeta.ru/fme/formula/aux/615_97_GIDRODINAMIKI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/615_98_GIDRODINAMIKI]]/URI$. Если ее решение известно, функция $URI[[http://libmeta.ru/fme/formula/aux/615_99_GIDRODINAMIKI]]/URI$ находится из линейного уравнения (22) при соответствующих начальных и URI[[http://libmeta.ru/fme/relation/615_8_GIDRODINAMIKI]]/URI. Система (18), (21) представляет наиболее изученную и URI[[http://libmeta.ru/fme/relation/615_7_GIDRODINAMIKI]]/URI используемую в приложениях модель URI[[http://libmeta.ru/fme/relation/615_6_GIDRODINAMIKI]]/URI вязкой URI[[http://libmeta.ru/fme/relation/615_5_GIDRODINAMIKI]]/URI. Теория начально-краевых задач для этой системы изложена в [6], [7].
+
+Если на движение URI[[http://libmeta.ru/fme/relation/615_4_GIDRODINAMIKI]]/URI факторы URI[[http://libmeta.ru/fme/relation/615_3_GIDRODINAMIKI]]/URI и вязкости не оказывают существенного влияния, то такое движение можно описывать с помощью уравнений (14), (17), (18), называемых уравнениям и идеальн й нес жимаемой URI[[http://libmeta.ru/fme/relation/615_2_GIDRODINAMIKI]]/URI. Система (14), (17), (18) и ее специализация при $URI[[http://libmeta.ru/fme/formula/aux/615_100_GIDRODINAMIKI]]/URI$ const лежат в основе многих pacсмотрений классич. и современной гидродинамики (см. [2], [8]), в частности теории волновых движений URI[[http://libmeta.ru/fme/relation/615_1_GIDRODINAMIKI]]/URI (см. [9]).</text>
+  <text_orig>дифференциальные уравнения, описывающие движение жидкости или газа под действием внешних и внутренних сил и источников тепла. Независимыми переменными в системе Г.у. являются время $t$ и совокупность $x$ координат трехмерного евклидова пространства, а искомыми функциями - компоненты трехмерного вектора скорости $\boldsymbol{v}$ и дополнительные переменные, характеризующие состояние жидкости (плотность $\rho$, температура $T$, давление $p$ и т. д.). Система координат, используемая ниже для записи Г. у., предполагается инерциальной.
+
+Г.у. выводятся на основе общих законов сохранения в механике сплошной среды (см. [1], [2]). Предположим, что в нек-рой трехмерной области $\Omega \subset \mathbb{R}^{3}$ (к-рая может изменяться со временем) имеется распределение масс с объемной плотностью $\rho(x, t)$. Закон сохранения массы приводит куравнению неразрывности
+
+\[
+\frac{d \rho}{d t}+\rho \operatorname{div} v=0
+\]
+
+где
+
+\[
+\frac{d}{d t}=\frac{\partial}{\partial t}+v \operatorname{grad}
+\]
+
+- оператор полного дифференцирования по времени.
+
+Для формулировки закона сохранения импульса следует ввести в рассмотрение силы, действующие на жидкость. Они могут быть как внутренними (то есть действовать на произвольную трехмерную подобласть $\omega$ области $\Omega$ со стороны дополнения $\omega$ до $\Omega$ ), так и внешними. Поле внешних сил, отнесенных к единице массы, обозначим через $f(x, t)$. Функция $f$, как правило, считается заданной. Относительно внутренних сил будем предполагать, что в каждой точке $M$ границы $\partial \omega$ области $\omega$ в каждый момент времени $t$ они могут быть представлены поверхностной плотностью $p_{n}(x, t)$, зависящей от единичного вектора $\boldsymbol{n}$ внешней нормали к $\partial \omega$ в точке $M$ (поверхность $\partial \omega$ считается гладкой).
+
+Из закона сохранения импульса вытекает, что поверхностные силы находятся в локальном равновесии. Это влечет представление
+
+\[
+\boldsymbol{p}_{n}=P \boldsymbol{n},
+\]
+
+где $P-$ нек-рый тензор, называемый тен норо м нап р я ж е н и й. С его помощью уравнение движения записывается в виде
+
+\[
+\rho \frac{d v}{d t}=\operatorname{div} P+\rho f
+\]
+
+Далее постулируется симметричность тензора напряжений. Тогда из (2) будет вытекать закон сохранения момента количества движения. Уравнение (2) справедливо для любой сплошной среды, независимо от вида тензора напряжений $P$. Сплошная среда называется жидк остью, если $P$ является функцией тензора скоростей деформаций $D$ :
+
+\[
+P=K(D)
+\]
+
+(значения функции $K-$ симметрич. тензоры 2-го ранга). Тензор скоростей деформаций $D$, по определению, есть симметричная часть тензора grad $v$ :
+
+\[
+D=\frac{1}{2}\left(\operatorname{grad} v+(\operatorname{grad} v)^{\top}\right) .
+\]
+
+Предположим, что функция $K$ не зависит явно от $x$ и $t$ и, сверх того, является изотропной функщией $D$ (последнее означает, что ни в пространстве, ни в жидкости не существует выделенных направлений). В этом случае зависимость $P$ от $D$ имеет вид
+
+\[
+P=K_{0} I+K_{1} D+K_{2} D^{2}
+\]
+
+где $I$ - единичный тензор, а $K_{0}, K_{1}$ и $K_{2}$ - скалярные функции, зависящие от главных инвариантов $D_{\mathrm{I}}, D_{\mathrm{II}}, D_{\mathrm{III}}$ и, возможно, термодинамич. переменных состояния.
+
+Для замыкания системы Г.у. следует присоединить к (1)-(3) уравнение энергии:
+
+\[
+\rho \frac{d \varepsilon}{d t}=-\operatorname{div} q+P: D
+\]
+
+Здесь $\varepsilon$ - удельная (то есть отнесенная к единице массы) внутренняя энергия, $\boldsymbol{q}-$ вектор потока тепла, $P: D$ означает свертку тензоров $P$ и $D$. Ниже ограничимся случаем двупараметрич. среды, в К-рой все термодинамич. функции зависят от двух термодинамич. параметров состояния. Если эти два параметра - температура $T$ и плотность $\rho$, то удельная внутренняя энергия должна выражаться через них:
+
+\[
+\varepsilon=E(T, \rho) .
+\]
+
+Относительно вектора потока тепла $\boldsymbol{q}$ предположим, что $\boldsymbol{q}$ является изотропной функцией от градиента температуры и термодинамич. переменных. Это означает, что
+
+\[
+\boldsymbol{q}=-x \operatorname{grad} T
+\]
+
+где $x$ - скалярная функция $|\operatorname{grad} T|, T$ и $\rho$, называемая ко эфф и и ентом тепл о проводн ости. Уравнения (1) -(6) образуют замкнутую систему Г. у. сжимаемой жидкости или газа.
+
+Важный частный случай жидкостей составляют классические, или ньютоновские, жидкости (и газы). В этом случае зависимость $P$ от $D$ линейна,
+
+\[
+P=(-p+\lambda \operatorname{div} v) I+2 \mu D .
+\]
+
+В соотношении (7) $p$ - давление, $\lambda$ и $\mu-$ скалярные функции термодинамич. переменных; $\operatorname{div} \boldsymbol{v}=D_{I}-$ первый инвариант тензора $D$. Уравнение движения ньютоновской жидкости получается из (2), (7) и носит название у р а в н е н и я Навье - Стокса:
+
+\[
+\rho \frac{d v}{d t}=\operatorname{grad}(-p+\lambda \operatorname{div} v)+\operatorname{div}(2 \mu D)+\rho f .
+\]
+
+В случае сжимаемой жидкости (газа) давление является термодинамич. переменной и должно быть задано как функция $T$ и $\rho$ с помощью уравнения состояния. Для многих реальных газов указанная зависимость хорошо аппроксимируется уравнением Клапейрона:
+
+\[
+p=\rho R T,
+\]
+
+где $R$ - положительная постоянная, определяемая молекулярным составом газа (газовая постоянная). Газ, для к-рого выполнено уравнение состояния (9), называется с о в е рш е н н ы м. Внутренняя энергия совершенного газа зависит только от температуры, так что описание его термодинамики сводится к заданию функции $\varepsilon=E(T)$. В общем случае это описание характеризуется зависимостями (5) и
+
+\[
+p=h(T, \rho) .
+\]
+
+Введем в рассмотрение еще одну термодинамич. переменную - удельную энтропию $S$ - с помощью равенства, выражающего первый закон термодинамики:
+
+\[
+T d S=d \varepsilon+p d(1 / \rho) .
+\]
+
+Соотношения (1), (6) и (11) позволяют записать уравнение энергии (4) для ньютоновской жидкости в виде
+
+\[
+\rho T \frac{d S}{d t}=\operatorname{div}(x \operatorname{grad} T)+\Phi,
+\]
+
+B K-ром
+
+\[
+\Phi=\lambda(\operatorname{div} v)^{2}+2 \mu D: D
+\]
+
+- диссипативная функция. Известно, что коэффициент теплопроводности $x$ неотрицателен (теплота всегда передается от тел с большей температурой к телам с меньшей температурой). Из второго закона термодинамики следует, что в процессе движения жидкости механич. энергия может перейти в тепловую, но не наоборот. Это влечет требование неотрицательности функции $\Phi$ для произвольных $D$. Последнее, в силу (13), выполнено в том и только в том случае, когда
+
+\[
+\mu \geqslant 0,3 \lambda+2 \mu \geqslant 0 .
+\]
+
+Рассмотрим теперь уравнения, описывающие движения идеальной жидкости. Жидкость называют иде ал ь н о й, если поток тепла $q$ и диссипативная функция $\Phi$ тождественно равны нулю. Идеальную жидкость можно рассматривать как предельный случай вязкой сжимаемой жидкости, когда $\lambda \rightarrow 0, \mu \rightarrow 0, x \rightarrow 0$. Тензор напряжений в идеальной жидкости является шаровым: $P=-p I$. Полагая в (8), (12) $\lambda=\mu=0$, $x=0$, получаем
+
+\[
+\begin{gathered}
+\rho \frac{d v}{d t}=-\operatorname{grad} p+\rho f, \\
+\frac{d S}{d t}=0 .
+\end{gathered}
+\]
+
+Система (1), (14), (15) становится замкнутой, если к ней добавить термодинамич. уравнение состояния. Для случая идеальной жидкости это уравнение удобно выбрать в форме
+
+\[
+p=f(\rho, S) \text {. }
+\]
+
+Систему (1), (14)-(16) называют также системой у р а вн е н и й газ о в ой д и на м и к и. Она широко используется для описания быстропротекающих процессов в сжимаемых средах, когда характерные времена изменения состояния среды под действием вязкости и теплопроводности много больше времен изменений, обусловленных фактором сжимаемости (см. [3], [4]). Важной особенностью системы (1), (14)-(16) является наличие у нее разрывных решений, описывающих такие явления, как распространение ударных волн.
+
+Математич. модель газовой динамики, основанная на уравнениях (1), (14) - (16), изучена весьма подробно (см. [3], [4]). Что касается вопросов корректности начально-краевых задач для уравнений вязкого теплопроводного газа, то к настоящему времени здесь имеются лишь отдельные результаты. Исключение составляет теория одномерных движений с постоянными коэффициентами вязкости и теплопроводности, развитая с достаточной полнотой (см. [5]). Система соотношений (1)-(6) в равной мере применима к описанию движений как жидкости, так и газа. Однако если для газов свойство сжимаемости (то есть способность легко изменять плотность под действием изменений давления или температуры) является определяющим, то для собственно жидкостей это свойство выражено очень слабо. Так, если давление возрастает от одной до 100 атм при комнатной температуре, то плотность воды увеличивается всего на $0,5 \%$. Поэтому большое распространение получила модель нестимаемой жидкости, основанная на предположении $\operatorname{div} \boldsymbol{v}=0$. Формально уравнения этой модели могут быть получены из (1)-(6). Однако следует подчеркнуть, что для несжимаемой жидкости давление $p$ уже не является термодинамич. переменной, хотя и остается динамич. переменной. В частности, для ньютоновской несжимаемой жидкости вследствие (1), (7) давление может быть выражено через первый инвариант $S p P$ тензора напряжений по формуле $p=-S p P / 3$. С точки зрения термодинамики несжимаемая жидкость является однопараметрич. средой, в к-рой естественным параметром состояния является температура $T$, соотношение (11) принимает вид $T d S=d \varepsilon$, а зависимость (5) - вид $\varepsilon=E(T)$.
+
+В несжимаемой жидкости плотность $\rho$, согласно (1), удовлетворяет уравнению
+
+\[
+\frac{d \rho}{d t}=0 .
+\]
+
+Это уравнение всегда имеет решение $\rho=$ const, что соответствует случаю однородной жидкости. (Об исследовании уравнений неоднородной вязкой несжимаемой жидкости см. [5].) Уравнения динамики однородной несжимаемой жидкости в предположениях о линейной зависимости (7) между тензорами $P$ и $D$ и о независимости коэффициента $x$ в формуле (6) от $|\operatorname{grad} T|$ имеют вид:
+
+\[
+\begin{gathered}
+\operatorname{div} v=0, \\
+\rho \frac{d v}{d t}=-\operatorname{grad} p+\operatorname{div}(2 \mu D)+\rho f, \\
+\rho c \frac{d T}{d t}=\operatorname{div}(x \operatorname{grad} T)+2 \mu D: D .
+\end{gathered}
+\]
+
+Здесь $\mu$ (динамич. коэффициент вязкости), $c=E_{T}^{\prime}$ (удельная теплоемкость) и $\chi$ (коэффициент теплопроводности) параметры, характеризующие данную жидкость. Они, вообще говоря, зависят от температуры.
+
+С математич. точки зрения система (18)-(20) мало изучена. При постоянных $\mu, c$ и $\chi$ уравнения (19), (20) принимают более простой вид и записываются так:
+
+\[
+\begin{gathered}
+\frac{d v}{d t}=-\rho^{-1} \operatorname{grad} p+v \Delta v+\boldsymbol{f}, \\
+\frac{d T}{d t}=\chi \Delta T+2 c^{-1} v D: D .
+\end{gathered}
+\]
+
+Здесь введены обозначения: $v=\mu / \rho-$ кинематич. коэффициент вязкости, $\chi=x / \rho c-$ коэффициент температуропроводности, $\Delta$ - оператор Лапласа по переменным $x$.
+
+Уравнения (18), (21) образуют замкнутую систему для определения функций $\boldsymbol{v}$ и $p$. Если ее решение известно, функция $T$ находится из линейного уравнения (22) при соответствуюших начальных и краевых условиях. Система (18), (21) представляет наиболее изученную и широко используемую в приложениях модель динамики вязкой несжимаемой жидкости. Теория начально-краевых задач для этой системы изложена в [6], [7].
+
+Если на движение жидкости факторы сжимаемости и вязкости не оказывают сушественного влияния, то такое движение можно описывать с помощью уравнений (14), (17), (18), называемых уравнениям и идеальн й нес жимаемой жидкости. Система (14), (17), (18) и ее специализация при $\rho=$ const лежат в основе многих pacсмотрений классич. и современной гидродинамики (см. [2], [8]), в частности теории волновых движений жидкости (см. [9]). Лит.: [1] Ж е р м е н П., Курс механики сплошных сред, пер. с франц., М., 1983; [2] С е до в Л. И., Механика сплошной среды, 4 изд., М., 1983; [3] О в с я н н и к о в Л. В., Лекции по основам газовой динамики, М., 1981; [4] Рождест венский Б.Л., Янен к о Н. Н., Системы квазилинейных уравнений и их приложения к газовой динамике, 2 изд., М., 1978; [5] А н то н ц е в С. Н., Ка ж и х о в А. В., Монах о в В. Н., Краевые задачи механики неоднородных жидкостей, Новосиб., 1983; [6] Лады жен ская О.А., Математические вопросы динамики вязкой несжимаемой жидкости, 2 изд., М., 1970; [7] Те м а м Р., Уравнения Навье-Стокса. Теория и численный анализ, пер. с англ., М., 1981; [8] Б этчел о р Дж., Введение в динамику жидкости, пер. с англ., М., 1973; [9] О в с я н н и ко в Л. В. [и др.], Нелинейные проблемы теории поверхностных и внутренних волн, Новосиб., $1985 . \quad$ В. В. Пухначев.</text_orig>
+</article>

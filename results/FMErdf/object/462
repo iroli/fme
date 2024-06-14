@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_462">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>erf</mo><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msqrt><mrow><mi>&#x003C0;</mi></mrow></msqrt></mrow></mfrac><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>x</mi></mrow></msubsup><msup><mi>e</mi><mrow><mo>&#x02212;</mo><msup><mi>t</mi><mrow><mn>2</mn></mrow></msup></mrow></msup><mi>d</mi><mi>t</mi><mo>&#x0002C;</mo><mspace width="1em" /><mo stretchy="false">&#x0007C;</mo><mi>x</mi><mo stretchy="false">&#x0007C;</mo><mo>&#x0003C;</mo><mo>&#x0221E;</mo><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\operatorname{erf}(x)=\frac{2}{\sqrt{\pi}} \int_{0}^{x} e^{-t^{2}} d t, \quad|x|&lt;\infty .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

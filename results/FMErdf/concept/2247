@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3022_SHOUTENA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3022_SHOUTENA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2247</core:url>
+    <lbm:descriptor><![CDATA[СХОУТЕНА СКОБКА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#513"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17010"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17011"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_86"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1400"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6357"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17012"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>дифференциальное выражение, определяющее поле 3-форм на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1286_KOKASATEL'NOE">кокасательном расслоении</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_654_GLADKOE">гладкого многообразия</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17010">$$[V, W](\alpha, \beta, \gamma)=V(\alpha, d W(\beta, \gamma))+W(\alpha, d V(\beta, \gamma))+\ldots,$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/3022_1_SHOUTENA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3022_2_SHOUTENA]]/URI$ - внешние 2-формы в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1286_KOKASATEL'NOE">кокасательном расслоении</a>; <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многоточием</a> обозначены члены с циклически переставленными 1-формами $URI[[http://libmeta.ru/fme/formula/aux/3022_3_SHOUTENA]]/URI$.<BR/></P><P>Гладкое поле $URI[[http://libmeta.ru/fme/formula/aux/3022_4_SHOUTENA]]/URI$ внешних 2-форм на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1286_KOKASATEL'NOE">кокасательном расслоении</a> задает <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2479_PUASSONOVA">пуассонову структуру</a> по формуле<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17011">$$\{F, G\}=W(d F, d G)$$</a><BR/></P><P>тогда и только тогда, когда <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17012">$$[w, W]=0$$</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#513">М. Э. Казарян</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[дифференциальное выражение, определяющее поле 3-форм на кокасательном расслоении гладкого многообразия:
+
+\[
+[V, W](\alpha, \beta, \gamma)=V(\alpha, d W(\beta, \gamma))+W(\alpha, d V(\beta, \gamma))+\ldots,
+\]
+
+где $V$ и $W$ - внешние 2-формы в кокасательном расслоении; многоточием обозначены члены с циклически переставленными 1-формами $\alpha, \beta, \gamma$.
+
+Гладкое поле $W$ внешних 2-форм на кокасательном расслоении задает пуассонову структуру по формуле
+
+\[
+\{F, G\}=W(d F, d G)
+\]
+
+тогда и только тогда, когда $[W, W]=0$.
+
+М. Э. Казарян.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2479_PUASSONOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1286_KOKASATEL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1286_KOKASATEL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_654_GLADKOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1286_KOKASATEL'NOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

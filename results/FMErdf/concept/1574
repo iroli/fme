@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2417_PROSTRANSTVENNOGO">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2417_PROSTRANSTVENNOGO</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1574</core:url>
+    <lbm:descriptor><![CDATA[ПРОСТРАНСТВЕННОГО ОСЛАБЛЕНИЯ КОРРЕЛЯЦИЙ ПРИНЦИП]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#8158"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11064"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11778"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11779"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8133"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11780"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11781"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_408"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11782"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5838"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>основное утверждение статистической <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механики</a>, согласно которому <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2934_STATISTIChESKIJ">статистический оператор</a> $URI[[http://libmeta.ru/fme/formula/aux/2417_1_PROSTRANSTVENNOGO]]/URI$, описывающий макроскопическое <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояние</a> физической системы, удовлетворяет соотношению<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11779">$$\operatorname{Sp} \rho \hat{a}(x) \hat{b}(y) \underset{|x-y| \rightarrow \infty}{\longrightarrow} \operatorname{Sp} \rho \hat{a}(x) \operatorname{Sp} \rho \hat{b}(y)$$</a><BR/></P><P>при произвольных квазилокальных операторах <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11780">$$\hat{a}(x), \hat{b}(y)$$</a>. [<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> $URI[[http://libmeta.ru/fme/formula/aux/2417_3_PROSTRANSTVENNOGO]]/URI$ - к в а з и л о кал ь н ы й, если аргументы $URI[[http://libmeta.ru/fme/formula/aux/2417_4_PROSTRANSTVENNOGO]]/URI$ полевых операторов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11782">$$\psi\left(x^{\prime}\right), \psi^{+}\left(x^{\prime}\right)$$</a>, из к-рых строится <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11781">$$\hat{a}(x)$$</a>, лежат вблизи точки $URI[[http://libmeta.ru/fme/formula/aux/2417_7_PROSTRANSTVENNOGO]]/URI$.] В этом соотношении предельный переход <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5838">$$|x-y| \rightarrow \infty$$</a> осуществляется после термодинамич. предельного перехода. Соотношение П. о. к. п.- нелинейно, что приводит к нелинейности урав- нений макроскопич. физики. П.о. к. П., в частности, удовлетворяет равновесный статистич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> Гиббса.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#11064">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11064">Избранные труды, Киев, 1971, т. 3</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#11778">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11778">Боголюбов Н.Н. (мл.), Введение в квантовую статистическую механику, М., 1984</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#8158">М. Ю. Ковалевский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[основное утверждение статистической механики, согласно которому статистический оператор $\hat{\rho}$, описывающий макроскопическое состояние физической системы, удовлетворяет соотношению
+
+\[
+\operatorname{Sp} \rho \hat{a}(x) \hat{b}(y) \underset{|x-y| \rightarrow \infty}{\longrightarrow} \operatorname{Sp} \rho \hat{a}(x) \operatorname{Sp} \rho \hat{b}(y)
+\]
+
+при произвольных квазилокальных операторах $\hat{a}(x), \hat{b}(y)$. [Оператор $\hat{a}(x)$ - к в а з и л о кал ь н ы й, если аргументы $x^{\prime}$ полевых операторов $\psi\left(x^{\prime}\right), \psi^{+}\left(x^{\prime}\right)$, из к-рых строится оператор $\hat{a}(x)$, лежат вблизи точки $x$.] В этом соотношении предельный переход $|x-y| \rightarrow \infty$ осуществляется после термодинамич. предельного перехода. Соотношение П. о. к. п.- нелинейно, что приводит к нелинейности урав- нений макроскопич. физики. П.о. к. П., в частности, удовлетворяет равновесный статистич. оператор Гиббса.
+
+Лит.: [1] Б о го л ю б о в Н. Н., Избранные труды, т. 3, Киев, 1971; [2] Боголюбов Н. Н., Боголюбов Н.Н. (мл.), Введение в квантовую статистическую механику, М., 1984. М.Ю. Ковалевский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2934_STATISTIChESKIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

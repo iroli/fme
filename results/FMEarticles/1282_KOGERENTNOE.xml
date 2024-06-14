@@ -1,0 +1,484 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1282_KOGERENTNOE" alphabetic_pos="1284">
+  <title>КОГЕРЕНТНОЕ СОСТОЯНИЕ КВАНТОВОГО ОСЦИЛЛЯТОРА</title>
+  <authors>
+    <author>В. И. Манько</author>
+  </authors>
+  <pages>
+    <start>274</start>
+    <end>275</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Glauber R. J., &quot;phys. Rev. Lett.», 1963, v. 10, p. 84; [2] S chrodinger E., &quot;naturwiss.», 1926, Bd 14, S. 664; [3] Малк и н И. А., М ан ько В. И., Динамические симметрии и когерентные состояния квантовых систем, М., 1979; [4] Когерентные состояния в квантовой теории. Сб. ст., пер. с англ., М., 1972.</literature_orig>
+    <unit>
+      <author>Glauber R. J.</author>
+      <title>&quot;phys. Rev. Lett.»</title>
+      <publication/>
+      <year>1963</year>
+      <other>v. 10, p. 84</other>
+    </unit>
+    <unit>
+      <author>Schrodinger E.</author>
+      <title>&quot;naturwiss.»</title>
+      <publication/>
+      <year>1926</year>
+      <other>Bd 14, S. 664</other>
+    </unit>
+    <unit>
+      <author>Малкин И. А.</author>
+      <author>Манько В. И.</author>
+      <title>Динамические симметрии и когерентные состояния квантовых систем</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Когерентные состояния в квантовой теории. Сб. ст.</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_1_KOGERENTNOE">\Psi_{\alpha}(x)=\pi^{-1 / 4} l^{-1 / 2} \exp \left(-\frac{x^{2}}{2 l^{2}}-\frac{|\alpha|^{2}}{2}+\frac{\sqrt{2} \alpha x}{l}-\frac{\alpha^{2}}{2}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_2_KOGERENTNOE">\operatorname{Re} \alpha=\langle\alpha|\hat{x}| \alpha\rangle / \sqrt{2} l \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_3_KOGERENTNOE">\operatorname{Im} \alpha=l\langle\alpha|\hat{p}| \alpha\rangle / \sqrt{2} \hbar</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_4_KOGERENTNOE">x_{c}=\sqrt{2} l \operatorname{Re} \alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_5_KOGERENTNOE">\Psi_{\alpha}(p)=\pi^{-1 / 4}\left(\frac{l}{\hbar}\right)^{1 / 2} \exp \left(-\frac{p^{2 / 2}}{2 \hbar^{2}}-\frac{|\alpha|^{2}}{2}+\frac{\sqrt{2} \alpha p l}{\hbar}-\frac{\alpha^{2}}{2}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_6_KOGERENTNOE">\hat{a}=\frac{1}{\sqrt{2}}\left(\frac{\hat{x}}{l}+\frac{i \hat{p} l}{\hbar}\right), \quad \hat{a}^{+}=\frac{1}{\sqrt{2}}\left(\frac{\hat{x}}{l}-\frac{i \hat{p} l}{\hbar}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_7_KOGERENTNOE">\hat{a}|\alpha\rangle=\alpha|\alpha\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_8_KOGERENTNOE">\langle\alpha \mid \beta\rangle=\exp \left(-\frac{|\alpha|^{2}}{2}-\frac{|\beta|^{2}}{2}+\alpha^{*} \beta\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_9_KOGERENTNOE">|\langle\alpha \mid \beta\rangle|^{2}=\exp \left(-|\alpha-\beta|^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_10_KOGERENTNOE">|\alpha\rangle=\exp \left(-\frac{|\alpha|^{2}}{2}\right) \sum_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{n !}}|n\rangle .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_11_KOGERENTNOE">\mathscr{E}_{\alpha}=\hbar \omega\left(|\alpha|^{2}+1 / 2\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_12_KOGERENTNOE">\mathscr{P}_{\alpha}(n)=\exp \left(-|\alpha|^{2}\right) \frac{|\alpha|^{2 n}}{n !}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_13_KOGERENTNOE">|a\rangle \rightarrow e^{-i \omega t / 2}\left|\alpha e^{-i \omega t}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_14_KOGERENTNOE">\hat{I}=\pi^{-1} \int_{-\infty}^{\infty} d(\operatorname{Re} \alpha) d(\operatorname{Im} \alpha)|\alpha\rangle\langle\alpha| .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_15_KOGERENTNOE">|\Psi\rangle=\pi^{-1} \int_{-\infty}^{\infty}|\alpha\rangle\langle\alpha \mid \Psi\rangle d(\operatorname{Re} \alpha) d(\operatorname{Im} \alpha) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_16_KOGERENTNOE">\hat{A}_{i}=\hat{U}(t) \hat{a}_{i} U^{-1}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_17_KOGERENTNOE">|\Psi(t)\rangle=\hat{U}(t)|\Psi(0)\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_18_KOGERENTNOE">|\alpha\rangle=\prod_{i=1}^{N} \exp \left(\alpha_{i} \hat{A}_{i}^{+}-\alpha_{i}^{*} \hat{A}_{i}\right)|0\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1282_19_KOGERENTNOE">\Delta x=l / \sqrt{2} \mu, \Delta p=\mu \hbar / \sqrt{2} l,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_1_KOGERENTNOE">|\alpha\rangle)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_2_KOGERENTNOE">\delta x=l / \sqrt{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_3_KOGERENTNOE">\delta p=\hbar / l \sqrt{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_4_KOGERENTNOE">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_5_KOGERENTNOE">\delta p \Delta x=\hbar / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_6_KOGERENTNOE">\delta x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_7_KOGERENTNOE">\delta p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_8_KOGERENTNOE">|\alpha\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_9_KOGERENTNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_10_KOGERENTNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_11_KOGERENTNOE">l=(\hbar / m \omega)^{1 / 2}, \alpha-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_12_KOGERENTNOE">(\hat{x})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_13_KOGERENTNOE">|\alpha\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_14_KOGERENTNOE">(\hat{p})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_15_KOGERENTNOE">x_{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_16_KOGERENTNOE">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_17_KOGERENTNOE">\hat{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_18_KOGERENTNOE">\hat{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_19_KOGERENTNOE">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_20_KOGERENTNOE">\hat{a}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_21_KOGERENTNOE">\hat{a}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_22_KOGERENTNOE">|n\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_23_KOGERENTNOE">\mathscr{e}_{n}=\omega(n+1 / 2), n=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_24_KOGERENTNOE">|n+1\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_25_KOGERENTNOE">\hbar \omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_26_KOGERENTNOE">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_27_KOGERENTNOE">|n\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_28_KOGERENTNOE">|\alpha\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_29_KOGERENTNOE">\hat{d}(\alpha)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_30_KOGERENTNOE">=\exp \left(\alpha a^{+}-a^{*} \hat{a}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_31_KOGERENTNOE">|0\rangle,|\alpha\rangle=\hat{d}(\alpha)|0\rangle, \hat{a}|0\rangle=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_32_KOGERENTNOE">\hat{d}(\alpha)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_33_KOGERENTNOE">\sqrt{2} \mathrm{al}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_34_KOGERENTNOE">\alpha \neq \beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_35_KOGERENTNOE">|\alpha-\beta| \gg 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_36_KOGERENTNOE">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_37_KOGERENTNOE">\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_38_KOGERENTNOE">|n\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_39_KOGERENTNOE">\exp \left(|\alpha|^{2} / 2\right)|a\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_40_KOGERENTNOE">|n\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_41_KOGERENTNOE">|a\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_42_KOGERENTNOE">|a\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_43_KOGERENTNOE">\hat{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_44_KOGERENTNOE">|\psi\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_45_KOGERENTNOE">\pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_46_KOGERENTNOE">|n\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_47_KOGERENTNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_48_KOGERENTNOE">\hbar \omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_49_KOGERENTNOE">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_50_KOGERENTNOE">\hat{a}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_51_KOGERENTNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_52_KOGERENTNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_53_KOGERENTNOE">\left[\hat{a}_{i}, \hat{A}_{k}^{+}\right]=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_54_KOGERENTNOE">=\delta_{i k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_55_KOGERENTNOE">\hat{u}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_56_KOGERENTNOE">|\psi(0)\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_57_KOGERENTNOE">\hat{a}_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_58_KOGERENTNOE">\left(\delta_{i k}-\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_59_KOGERENTNOE">\hat{a}_{i}|0\rangle=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_60_KOGERENTNOE">\hbar / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_61_KOGERENTNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_62_KOGERENTNOE">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1282_63_KOGERENTNOE">\delta p \Delta x=\hbar / 2</formula>
+  </formulas_aux>
+  <relations n="20">
+    <relation uri="http://libmeta.ru/fme/relation/1282_1_KOGERENTNOE">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_2_KOGERENTNOE">
+      <rel_text>состояниях</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_3_KOGERENTNOE">
+      <rel_text>параметрич</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_4_KOGERENTNOE">
+      <rel_text>осциллятора</rel_text>
+      <target>http://libmeta.ru/fme/article/2129_OSTsILLJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_5_KOGERENTNOE">
+      <rel_text>гармонич</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_6_KOGERENTNOE">
+      <rel_text>уровнями энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3191_UROVEN'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_7_KOGERENTNOE">
+      <rel_text>вероятности переходов</rel_text>
+      <target>http://libmeta.ru/fme/article/2216_PEREHODNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_8_KOGERENTNOE">
+      <rel_text>многочлены Эрмита</rel_text>
+      <target>http://libmeta.ru/fme/article/3551_ERMITA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_9_KOGERENTNOE">
+      <rel_text>многомерные</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_10_KOGERENTNOE">
+      <rel_text>теории возмущений</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_11_KOGERENTNOE">
+      <rel_text>квантового осциллятора</rel_text>
+      <target>http://libmeta.ru/fme/article/1206_KVANTOVYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_12_KOGERENTNOE">
+      <rel_text>энергией</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_13_KOGERENTNOE">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_14_KOGERENTNOE">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_15_KOGERENTNOE">
+      <rel_text>производящей функцией</rel_text>
+      <target>http://libmeta.ru/fme/article/2401_PROIZVODJaSchAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_16_KOGERENTNOE">
+      <rel_text>импульса</rel_text>
+      <target>http://libmeta.ru/fme/article/996_IMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_17_KOGERENTNOE">
+      <rel_text>начальный момент</rel_text>
+      <target>http://libmeta.ru/fme/article/1874_NAChAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_18_KOGERENTNOE">
+      <rel_text>волновые функции в</rel_text>
+      <target>http://libmeta.ru/fme/article/444_VOLNOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_19_KOGERENTNOE">
+      <rel_text>траекториям</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1282_20_KOGERENTNOE">
+      <rel_text>Для квантовых систем</rel_text>
+      <target>http://libmeta.ru/fme/article/3063_TERMODINAMIChESKIJ</target>
+    </relation>
+  </relations>
+  <text>состояние, максимально близкое к состоянию классического осциллятора в том смысле, что произведение неопределенностей (дисперсий) координаты и импульса в этом состоянии принимает минимально возможное в рамках неопределенностей соотношения значение. Термин введен Р. Глаубером [1]. С аналогичным свойством волновые пакеты строились в начале развития квантовой механики Э. Шредингером [2]. В К. с. гармонич. осциллятора волновой пакет не расплывается, а его центр движется по классич. траектории.
+
+Дисперсии координаты и импульса одномерного квантового гармонич. осциллятора в К. с. (с вектором состояния $URI[[http://libmeta.ru/fme/formula/aux/1282_1_KOGERENTNOE]]/URI$ равны соответственно $URI[[http://libmeta.ru/fme/formula/aux/1282_2_KOGERENTNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1282_3_KOGERENTNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1282_4_KOGERENTNOE]]/URI$ амплитуда нулевых колебаний, так что $URI[[http://libmeta.ru/fme/formula/aux/1282_5_KOGERENTNOE]]/URI$. При этом изменение во времени средних значений координаты и импульса соответствует классич. траекториям, а $URI[[http://libmeta.ru/fme/formula/aux/1282_6_KOGERENTNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1282_7_KOGERENTNOE]]/URI$ остаются постоянными, то есть эволюционируя, К. с. остается когерентным.
+
+K. с. $URI[[http://libmeta.ru/fme/formula/aux/1282_8_KOGERENTNOE]]/URI$ осциллятора массы $URI[[http://libmeta.ru/fme/formula/aux/1282_9_KOGERENTNOE]]/URI$ и частоты $URI[[http://libmeta.ru/fme/formula/aux/1282_10_KOGERENTNOE]]/URI$ описывается нормированной волновой функцией, имеющей в координатном представлении вид гауссова волнового пакета:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_1_KOGERENTNOE]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1282_11_KOGERENTNOE]]/URI$ любое комплексное число, действительная часть к-рого связана со средним значением оператора координаты $URI[[http://libmeta.ru/fme/formula/aux/1282_12_KOGERENTNOE]]/URI$ в состоянии $URI[[http://libmeta.ru/fme/formula/aux/1282_13_KOGERENTNOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_2_KOGERENTNOE]]/URI
+\]
+
+а мнимая - со средним значением оператора импульса $URI[[http://libmeta.ru/fme/formula/aux/1282_14_KOGERENTNOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_3_KOGERENTNOE]]/URI
+\]
+
+Таким образом, положение центра $URI[[http://libmeta.ru/fme/formula/aux/1282_15_KOGERENTNOE]]/URI$ гауссова пакета в К. с. определяется числом $URI[[http://libmeta.ru/fme/formula/aux/1282_16_KOGERENTNOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_4_KOGERENTNOE]]/URI
+\]
+
+В импульсном представлении волновая функция К. с. также имеет вид гауссова пакета:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_5_KOGERENTNOE]]/URI
+\]
+
+Вместо операторов $URI[[http://libmeta.ru/fme/formula/aux/1282_17_KOGERENTNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1282_18_KOGERENTNOE]]/URI$ удобно ввести операторы уничтожения $URI[[http://libmeta.ru/fme/formula/aux/1282_19_KOGERENTNOE]]/URI$ и рождения $URI[[http://libmeta.ru/fme/formula/aux/1282_20_KOGERENTNOE]]/URI$:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_6_KOGERENTNOE]]/URI
+\]
+
+Название операторов связано с тем, что действие $URI[[http://libmeta.ru/fme/formula/aux/1282_21_KOGERENTNOE]]/URI$на состояние $URI[[http://libmeta.ru/fme/formula/aux/1282_22_KOGERENTNOE]]/URI$ гармонич. осциллятора с заданной энергией $URI[[http://libmeta.ru/fme/formula/aux/1282_23_KOGERENTNOE]]/URI$, переводит осциллятор в возбужденное состояние $URI[[http://libmeta.ru/fme/formula/aux/1282_24_KOGERENTNOE]]/URI$, увеличивая его энергию на квант энергии $URI[[http://libmeta.ru/fme/formula/aux/1282_25_KOGERENTNOE]]/URI$, а действие $URI[[http://libmeta.ru/fme/formula/aux/1282_26_KOGERENTNOE]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1282_27_KOGERENTNOE]]/URI$ уменьшает его энергию на этот же квант.
+
+К. с. $URI[[http://libmeta.ru/fme/formula/aux/1282_28_KOGERENTNOE]]/URI$ является собственным состоянием оператора уничтожения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_7_KOGERENTNOE]]/URI
+\]
+
+Оно получается действием унитарного оператора $URI[[http://libmeta.ru/fme/formula/aux/1282_29_KOGERENTNOE]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1282_30_KOGERENTNOE]]/URI$ на вектор основного (вакуумного) состояния $URI[[http://libmeta.ru/fme/formula/aux/1282_31_KOGERENTNOE]]/URI$ (звездочкой помечено комплексное сопряжение). $URI[[http://libmeta.ru/fme/formula/aux/1282_32_KOGERENTNOE]]/URI$ называется опе ратором с д в и га, так как он смещает центр волнового пакета на величину $URI[[http://libmeta.ru/fme/formula/aux/1282_33_KOGERENTNOE]]/URI$.
+
+Скалярное произведение двух векторов К. с. (или матричный элемент единичного оператора в представлении К. с.) имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_8_KOGERENTNOE]]/URI
+\]
+
+и не равно нулю при $URI[[http://libmeta.ru/fme/formula/aux/1282_34_KOGERENTNOE]]/URI$, то есть К. с. неортогональны. Однако квадрат модуля скалярного произведения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_9_KOGERENTNOE]]/URI
+\]
+
+очень быстро стремится к нулю при $URI[[http://libmeta.ru/fme/formula/aux/1282_35_KOGERENTNOE]]/URI$, что физически отвечает уменьшению перекрытия двух волновых пакетов, центры к-рых раздвигаются (поскольку $URI[[http://libmeta.ru/fme/formula/aux/1282_36_KOGERENTNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1282_37_KOGERENTNOE]]/URI$ определяют центры этих пакетов).
+
+По состояниям $URI[[http://libmeta.ru/fme/formula/aux/1282_38_KOGERENTNOE]]/URI$ с заданной энергией К. с. разлагается в ряд:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_10_KOGERENTNOE]]/URI
+\]
+
+Это означает, что $URI[[http://libmeta.ru/fme/formula/aux/1282_39_KOGERENTNOE]]/URI$ является производящей функцией для состояний $URI[[http://libmeta.ru/fme/formula/aux/1282_40_KOGERENTNOE]]/URI$.
+
+Среднее значение энергии осциллятора в К. с. $URI[[http://libmeta.ru/fme/formula/aux/1282_41_KOGERENTNOE]]/URI$ определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_11_KOGERENTNOE]]/URI
+\]
+
+а распределение по уровням энергии является распределением Пуассона:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_12_KOGERENTNOE]]/URI
+\]
+
+При этом эволюция К. с. задается формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_13_KOGERENTNOE]]/URI
+\]
+
+K. с. $URI[[http://libmeta.ru/fme/formula/aux/1282_42_KOGERENTNOE]]/URI$ образуют полную, точнее переполненную, систему векторов состояний; разложение единичного оператора $URI[[http://libmeta.ru/fme/formula/aux/1282_43_KOGERENTNOE]]/URI$ имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_14_KOGERENTNOE]]/URI
+\]
+
+Произвольный вектор состояния $URI[[http://libmeta.ru/fme/formula/aux/1282_44_KOGERENTNOE]]/URI$ может быть разложен по К. с.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_15_KOGERENTNOE]]/URI
+\]
+
+В квантовой теории поля система частиц с целым спином - бозонов (фотонов, $URI[[http://libmeta.ru/fme/formula/aux/1282_45_KOGERENTNOE]]/URI$-мезонов и т. д.) - описывается как бесконечный набор квантовых гармонич. осцилляторов. Возбужденному состоянию осциллятора $URI[[http://libmeta.ru/fme/formula/aux/1282_46_KOGERENTNOE]]/URI$ отвечает при этом совокупность $URI[[http://libmeta.ru/fme/formula/aux/1282_47_KOGERENTNOE]]/URI$ бозонов с энергией $URI[[http://libmeta.ru/fme/formula/aux/1282_48_KOGERENTNOE]]/URI$. В этом случае оператор уничтожения $URI[[http://libmeta.ru/fme/formula/aux/1282_49_KOGERENTNOE]]/URI$ уменьшает, а оператор рождения $URI[[http://libmeta.ru/fme/formula/aux/1282_50_KOGERENTNOE]]/URI$увеличивает число частиц в системе на единицу.
+
+К. с. квантованного электромагнитного поля (и других бозе-полей) вводятся на основе представления гамильтониана поля в виде суммы гамильтонианов гармонич. осцилляторов, отвечающих различным модам колебаний поля. Для моды определенной частоты и поляризации электромагнитного поля К. с. описывается приведенными выше формулами, при этом в К. с. число фотонов неопределенно, а распределение по числу фотонов является распределением Пуассона. Если все осцилляторы поля находятся в К. с., то состояние квантового поля наиболее близко к классическому.
+
+Важность К. с. в физике обусловлена тем, что во многих случаях физич. квантованные поля находятся именно в таких состояниях. Напр., классич. ток, создаваемый движущимися электрич. зарядами, излучает фотоны, находящиеся в К. с. Инфракрасная расходимость в квантовой электродинамике объясняется и устраняется учетом того, что квантованное поле в случае малых частот находится в К. с. При точном квантово-механич. описании когерентных источников света с необходимостью возникают К. с. электромагнитного поля. Свойства сверхтекучести и сверхпроводимости также могут быть объяснены тем, что соответственно сверхтекучая компонента в жидком гелии и куперовские пары в сверхпроводниках находятся в К. с. Это же относится и к другим явлениям с упорядочением. Для произвольных квантовых систем с $URI[[http://libmeta.ru/fme/formula/aux/1282_51_KOGERENTNOE]]/URI$ степенями свободы К. с. вводятся по следующей схеме. Находятся $URI[[http://libmeta.ru/fme/formula/aux/1282_52_KOGERENTNOE]]/URI$ неэрмитовых интегралов движения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_16_KOGERENTNOE]]/URI
+\]
+
+с бозонными коммутационными соотношениями $URI[[http://libmeta.ru/fme/formula/aux/1282_53_KOGERENTNOE]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1282_54_KOGERENTNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1282_55_KOGERENTNOE]]/URI$ - оператор эволюции системы, переводящий вектор состояния, заданный в начальный момент времени, $URI[[http://libmeta.ru/fme/formula/aux/1282_56_KOGERENTNOE]]/URI$, в вектор состояния
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_17_KOGERENTNOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1282_57_KOGERENTNOE]]/URI$ - оператор уничтожения, действительная и мнимая части к-рого определяют начальную точку траектории системы в фазовом пространстве средних координат и импульсов $URI[[http://libmeta.ru/fme/formula/aux/1282_58_KOGERENTNOE]]/URI$ символ Кронекера). Затем находится нормированный вакуумный вектор (вектор основного состояния) из решения системы уравнений $URI[[http://libmeta.ru/fme/formula/aux/1282_59_KOGERENTNOE]]/URI$. Действием на этот вектор оператора сдвига строится К. с.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_18_KOGERENTNOE]]/URI
+\]
+
+удовлетворяющее временному уравнению Шредингера.
+
+URI[[http://libmeta.ru/fme/relation/1282_20_KOGERENTNOE]]/URI общего вида среднего изменения координат и импульсов, вообще говоря, не соответствуют классич. URI[[http://libmeta.ru/fme/relation/1282_19_KOGERENTNOE]]/URI, а URI[[http://libmeta.ru/fme/relation/1282_18_KOGERENTNOE]]/URI К. с. являются гауссовыми пакетами только в URI[[http://libmeta.ru/fme/relation/1282_17_KOGERENTNOE]]/URI времени - произведение неопределенностей координаты и URI[[http://libmeta.ru/fme/relation/1282_16_KOGERENTNOE]]/URI не остается со временем равным $URI[[http://libmeta.ru/fme/formula/aux/1282_60_KOGERENTNOE]]/URI$. Однако существенным для расчетов является свойство К. с. быть URI[[http://libmeta.ru/fme/relation/1282_15_KOGERENTNOE]]/URI для URI[[http://libmeta.ru/fme/relation/1282_14_KOGERENTNOE]]/URI - аналогов URI[[http://libmeta.ru/fme/relation/1282_13_KOGERENTNOE]]/URI с заданной URI[[http://libmeta.ru/fme/relation/1282_12_KOGERENTNOE]]/URI стационарного URI[[http://libmeta.ru/fme/relation/1282_11_KOGERENTNOE]]/URI. Как пример для квантовых систем, описываемых нестационарным гамильтонианом квадратичной формы по операторам координат и импульсов, это свойство позволяет найти точно (не по URI[[http://libmeta.ru/fme/relation/1282_10_KOGERENTNOE]]/URI) через URI[[http://libmeta.ru/fme/relation/1282_9_KOGERENTNOE]]/URI URI[[http://libmeta.ru/fme/relation/1282_8_KOGERENTNOE]]/URI URI[[http://libmeta.ru/fme/relation/1282_7_KOGERENTNOE]]/URI между URI[[http://libmeta.ru/fme/relation/1282_6_KOGERENTNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1282_61_KOGERENTNOE]]/URI$-мерного URI[[http://libmeta.ru/fme/relation/1282_5_KOGERENTNOE]]/URI. URI[[http://libmeta.ru/fme/relation/1282_4_KOGERENTNOE]]/URI при URI[[http://libmeta.ru/fme/relation/1282_3_KOGERENTNOE]]/URI. возбуждении самого общего типа [3].
+
+Особым видом К. с. являются так наз. сжатые К. с. В этих URI[[http://libmeta.ru/fme/relation/1282_2_KOGERENTNOE]]/URI волновые пакеты - гауссовы, по
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1282_19_KOGERENTNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1282_62_KOGERENTNOE]]/URI$ - любое положительное число; при этом по-прежнему $URI[[http://libmeta.ru/fme/formula/aux/1282_63_KOGERENTNOE]]/URI$. Такие URI[[http://libmeta.ru/fme/relation/1282_1_KOGERENTNOE]]/URI важны, напр., при попытках (пока не реализованных) построить детекторы гравитационных волн интерференционного типа.</text>
+  <text_orig>состояние, максимально близкое к состоянию классического осциллятора в том смысле, что произведение неопределенностей (дисперсий) координаты и импульса в этом состоянии принимает минимально возможное в рамках неопределенностей соотночения значение. Термин введен Р. Глаубером [1]. С аналогичным свойством волновые пакеты строились в начале развития квантовой механики Э. Шредингером [2]. В К. с. гармонич. осциллятора волновой пакет не расплывается, а его центр движется по классич. траектории.
+
+Дисперсии координаты и импульса одномерного квантового гармонич. осциллятора в К. с. (с вектором состояния $|\alpha\rangle)$ равны соответственно $\Delta x=l / \sqrt{2}$ и $\Delta p=\hbar / l \sqrt{2}$, где $l$ амплитуда нулевых колебаний, так что $\Delta p \Delta x=\hbar / 2$. При этом изменение во времени средних значений координаты и импульса соответствует классич. траекториям, а $\Delta x$ и $\Delta p$ остаются постоянными, то есть эволюционируя, К. с. остается когерентным.
+
+K. с. $|\alpha\rangle$ осциллятора массы $m$ и частоты $\omega$ описывается нормированной волновой функцией, имеющей в координатном представлении вид гауссова волнового пакета:
+
+\[
+\Psi_{\alpha}(x)=\pi^{-1 / 4} l^{-1 / 2} \exp \left(-\frac{x^{2}}{2 l^{2}}-\frac{|\alpha|^{2}}{2}+\frac{\sqrt{2} \alpha x}{l}-\frac{\alpha^{2}}{2}\right) .
+\]
+
+Здесь $l=(\hbar / m \omega)^{1 / 2}, \alpha-$ любое комплексное число, действительная часть к-рого связана со средним значением оператора координаты $(\hat{x})$ в состоянии $|\alpha\rangle$ :
+
+\[
+\operatorname{Re} \alpha=\langle\alpha|\hat{x}| \alpha\rangle / \sqrt{2} l \text {, }
+\]
+
+а мнимая - со средним значением оператора импульса $(\hat{p})$ :
+
+\[
+\operatorname{Im} \alpha=l\langle\alpha|\hat{p}| \alpha\rangle / \sqrt{2} \hbar
+\]
+
+Таким образом, положение центра $x_{c}$ гауссова пакета в К. с. определяется числом $\alpha$ :
+
+\[
+x_{c}=\sqrt{2} l \operatorname{Re} \alpha
+\]
+
+В импульсном представлении волновая функция К. с. также имеет вид гауссова пакета:
+
+\[
+\Psi_{\alpha}(p)=\pi^{-1 / 4}\left(\frac{l}{\hbar}\right)^{1 / 2} \exp \left(-\frac{p^{2 / 2}}{2 \hbar^{2}}-\frac{|\alpha|^{2}}{2}+\frac{\sqrt{2} \alpha p l}{\hbar}-\frac{\alpha^{2}}{2}\right) .
+\]
+
+Вместо операторов $\hat{x}$ и $\hat{p}$ удобно ввести операторы уничтожения $\hat{a}$ и рождения $\hat{a}^{+}$:
+
+\[
+\hat{a}=\frac{1}{\sqrt{2}}\left(\frac{\hat{x}}{l}+\frac{i \hat{p} l}{\hbar}\right), \quad \hat{a}^{+}=\frac{1}{\sqrt{2}}\left(\frac{\hat{x}}{l}-\frac{i \hat{p} l}{\hbar}\right) .
+\]
+
+Название операторов связано с тем, что действие $\hat{a}^{+}$на состояние $|n\rangle$ гармонич. осциллятора с заданной энергией $\mathscr{E}_{n}=\omega(n+1 / 2), n=0,1,2, \ldots$, переводит осциллятор в возбужденное состояние $|n+1\rangle$, увеличивая его энергию на квант энергии $\hbar \omega$, а действие $\hat{a}$ на $|n\rangle$ уменьшает его энергию на этот же квант.
+
+К. с. $|\alpha\rangle$ является собственным состоянием оператора уничтожения:
+
+\[
+\hat{a}|\alpha\rangle=\alpha|\alpha\rangle
+\]
+
+Оно получается действием унитарного оператора $\hat{D}(\alpha)=$ $=\exp \left(\alpha a^{+}-a^{*} \hat{a}\right)$ на вектор основного (вакуумного) состояния $|0\rangle,|\alpha\rangle=\hat{D}(\alpha)|0\rangle, \hat{a}|0\rangle=0$ (звездочкой помечено комплексное сопряжение). $\hat{D}(\alpha)$ называется опе ратором с д в и га, так как он смещает центр волнового пакета на величину $\sqrt{2} \mathrm{al}$.
+
+Скалярное произведение двух векторов К. с. (или матричный элемент единичного оператора в представлении К. с.) имеет вид:
+
+\[
+\langle\alpha \mid \beta\rangle=\exp \left(-\frac{|\alpha|^{2}}{2}-\frac{|\beta|^{2}}{2}+\alpha^{*} \beta\right)
+\]
+
+и не равно нулю при $\alpha \neq \beta$, то есть К. с. неортогональны. Однако квадрат модуля скалярного произведения
+
+\[
+|\langle\alpha \mid \beta\rangle|^{2}=\exp \left(-|\alpha-\beta|^{2}\right)
+\]
+
+очень быстро стремится к нулю при $|\alpha-\beta| \gg 1$, что физически отвечает уменьшению перекрытия двух волновых пакетов, центры к-рых раздвигаются (поскольку $\alpha$ и $\beta$ определяют центры этих пакетов).
+
+По состояниям $|n\rangle$ с заданной энергией К. с. разлагается в ряд:
+
+\[
+|\alpha\rangle=\exp \left(-\frac{|\alpha|^{2}}{2}\right) \sum_{n=0}^{\infty} \frac{\alpha^{n}}{\sqrt{n !}}|n\rangle .
+\]
+
+Это означает, что $\exp \left(|\alpha|^{2} / 2\right)|a\rangle$ является производящей функцией для состояний $|n\rangle$.
+
+Среднее значение энергии осциллятора в К. с. $|a\rangle$ определяется формулой
+
+\[
+\mathscr{E}_{\alpha}=\hbar \omega\left(|\alpha|^{2}+1 / 2\right)
+\]
+
+а распределение по уровням энергии является распределением Пуассона:
+
+\[
+\mathscr{P}_{\alpha}(n)=\exp \left(-|\alpha|^{2}\right) \frac{|\alpha|^{2 n}}{n !}
+\]
+
+При этом эволюция К. с. задается формулой
+
+\[
+|a\rangle \rightarrow e^{-i \omega t / 2}\left|\alpha e^{-i \omega t}\right\rangle
+\]
+
+K. с. $|a\rangle$ образуют полную, точнее переполненную, систему векторов состояний; разложение единичного оператора $\hat{I}$ имеет вид:
+
+\[
+\hat{I}=\pi^{-1} \int_{-\infty}^{\infty} d(\operatorname{Re} \alpha) d(\operatorname{Im} \alpha)|\alpha\rangle\langle\alpha| .
+\]
+
+Произвольный вектор состояния $|\Psi\rangle$ может быть разложен по К. с.:
+
+\[
+|\Psi\rangle=\pi^{-1} \int_{-\infty}^{\infty}|\alpha\rangle\langle\alpha \mid \Psi\rangle d(\operatorname{Re} \alpha) d(\operatorname{Im} \alpha) .
+\]
+
+В квантовой теории поля система частиц с целым спином - бозонов (фотонов, $\pi$-мезонов и т. д.) - описывается как бесконечный набор квантовых гармонич. осцилляторов. Возбужденному состоянию осциллятора $|n\rangle$ отвечает при этом совокупность $n$ бозонов с энергией $\hbar \omega$. В этом случае оператор уничтожения $\hat{a}$ уменьшает, а оператор рождения $\hat{a}^{+}$увеличивает число частиц в системе на единицу.
+
+К. с. квантованного электромагнитного поля (и других бозе-полей) вводятся на основе представления гамильтониана поля в виде суммы гамильтонианов гармонич. осцилляторов, отвечающих различным модам колебаний поля. Для моды определенной частоты и поляризации электромагнитного поля К. с. описывается приведенными выше формулами, при этом в К. с. число фотонов неопределенно, а распределение по числу фотонов является распределением Пуассона. Если все осцилляторы поля находятся в К. с., то состояние квантового поля наиболее близко к классическому.
+
+Важность К. с. в физике обусловлена тем, что во многих случаях физич. квантованные поля находятся именно в таких состояниях. Напр., классич. ток, создаваемый движущимися электрич. зарядами, излучает фотоны, находящиеся в К. с. Инфракрасная расходимость в квантовой электродинамике объясняется и устраняется учетом того, что квантованное поле в случае малых частот находится в К. с. При точном квантово-механич. описании когерентных источников света с необходимостью возникают К. с. электромагнитного поля. Свойства сверхтекучести и сверхпроводимости также могут быть объяснены тем, что соответственно сверхтекучая компонента в жидком гелии и куперовские пары в сверхпроводниках находятся в К. с. Это же относится и к другим явлениям с упорядочением. Для произвольных квантовых систем с $N$ степенями свободы К. с. вводятся по следующей схеме. Находятся $N$ неэрмитовых интегралов движения
+
+\[
+\hat{A}_{i}=\hat{U}(t) \hat{a}_{i} U^{-1}(t)
+\]
+
+с бозонными коммутационными соотношениями $\left[\hat{A}_{i}, \hat{A}_{k}^{+}\right]=$ $=\delta_{i k}$, где $\hat{U}(t)$ - оператор эволюции системы, переводящий вектор состояния, заданный в начальный момент времени, $|\Psi(0)\rangle$, в вектор состояния
+
+\[
+|\Psi(t)\rangle=\hat{U}(t)|\Psi(0)\rangle
+\]
+
+$\hat{a}_{i}$ - оператор уничтожения, действительная и мнимая части к-рого определяют начальную точку траектории системы в фазовом пространстве средних координат и импульсов $\left(\delta_{i k}-\right.$ символ Кронекера). Затем находится нормированный вакуумный вектор (вектор основного состояния) из решения системы уравнений $\hat{A}_{i}|0\rangle=0$. Действием на этот вектор оператора сдвига строится К. с.:
+
+\[
+|\alpha\rangle=\prod_{i=1}^{N} \exp \left(\alpha_{i} \hat{A}_{i}^{+}-\alpha_{i}^{*} \hat{A}_{i}\right)|0\rangle
+\]
+
+удовлетворяющее временному уравнению Шредингера.
+
+Для квантовых систем общего вида среднего изменения координат и импульсов, вообще говоря, не соответствуют классич. траекториям, а волновые функции в К. с. являются гауссовыми пакетами только в начальный момент времени - произведение неопределенностей координаты и импульса не остается со временем равным $\hbar / 2$. Однако существенным для расчетов является свойство К. с. быть производящей функцией для состояний - аналогов состояний с заданной энергией стационарного квантового осциллятора. Как пример для квантовых систем, описываемых нестационарным гамильтонианом квадратичной формы по операторам координат и импульсов, это свойство позволяет найти точно (не по теории возмущений) через многомерные многочлены Эрмита вероятности переходов между уровнями энергии $N$-мерного гармонич. осциллятора при параметрич. возбуждении самого общего типа [3].
+
+Особым видом К. с. являются так наз. сжатые К. с. В этих состояниях волновые пакеты - гауссовы, по
+
+\[
+\Delta x=l / \sqrt{2} \mu, \Delta p=\mu \hbar / \sqrt{2} l,
+\]
+
+где $\mu$ - любое положительное число; при этом по-прежнему $\Delta p \Delta x=\hbar / 2$. Такие состояния важны, напр., при попытках (пока не реализованных) построить детекторы гравитационных волн интерференционного типа.
+
+Jum.: [1] Glauber R. J., &quot;Phys. Rev. Lett.», 1963, v. 10, p. 84; [2] S chrodinger E., &quot;Naturwiss.», 1926, Bd 14, S. 664; [3] Малк и н И. А., М ан ько В. И., Динамические симметрии и когерентные состояния квантовых систем, М., 1979; [4] Когерентные состояния в квантовой теории. Сб. ст., пер. с англ., М., 1972.
+
+В. И. Манько.</text_orig>
+</article>

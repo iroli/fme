@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1784_MILNORA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1784_MILNORA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/870</core:url>
+    <lbm:descriptor><![CDATA[МИЛНОРА ЧИСЛО РОСТКА $f:\left(\mathbb{C}^{n}, 0\right) \rightarrow(\mathbb{C}, 0)$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#776"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7183"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7184"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_603"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_706"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>число $URI[[http://libmeta.ru/fme/formula/aux/1784_1_MILNORA]]/URI$, определяемое одним из трех эквивалентных способов:<BR/></P><P>1) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7183">$$\mu=\operatorname{dim}_{\mathbb{c}} \mathbb{C}\left\langle\left\langle x_{1}, \ldots, x_{n}\right\rangle\right\rangle /\left(\partial f / \partial x_{1}, \ldots, \partial f / \partial x_{n}\right)$$</a>.<BR/></P><P>2) Пусть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7184">$$\widetilde{f}$$</a> - малое шевеление $URI[[http://libmeta.ru/fme/formula/aux/1784_4_MILNORA]]/URI$, имеющее только морсовские критич. точки, $URI[[http://libmeta.ru/fme/formula/aux/1784_5_MILNORA]]/URI$ число критич. точек $URI[[http://libmeta.ru/fme/formula/aux/1784_6_MILNORA]]/URI$.<BR/></P><P>3) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2812_SLO">Слой</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1783_MILNORA">Милнора расслоения</a> имеет гомотопич. тип букета $URI[[http://libmeta.ru/fme/formula/aux/1784_7_MILNORA]]/URI$ сфер размерности $URI[[http://libmeta.ru/fme/formula/aux/1784_8_MILNORA]]/URI$.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#776">С. В. Чмутов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[число $\mu$, определяемое одним из трех эквивалентных способов:
+
+1) $\mu=\operatorname{dim}_{\mathbb{C}} \mathbb{C}\left\langle\left\langle x_{1}, \ldots, x_{n}\right\rangle\right\rangle /\left(\partial f / \partial x_{1}, \ldots, \partial f / \partial x_{n}\right)$.
+
+2) Пусть $\widetilde{f}$ - малое шевеление $f$, имеющее только морсовские критич. точки, $\mu-$ число критич. точек $f$.
+
+3) Слой Милнора расслоения имеет гомотопич. тип букета $\mu$ сфер размерности $n-1$. С. В. Чмутов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1783_MILNORA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2812_SLO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

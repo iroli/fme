@@ -1,0 +1,229 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/483_VYROZhDENNAJa" alphabetic_pos="483">
+  <title>ВЫРОЖДЕННАЯ ГИПЕРГЕОМЕТРИЧЕСКАЯ ФУНКЦИЯ</title>
+  <authors>
+    <author>В. Н. Битюиков</author>
+  </authors>
+  <pages>
+    <start>108</start>
+    <end>108</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Бе йтмен Г., Эрде й и А., Высшие трансцендентные функции, пер. с англ., 2 изд., т. 1, М., 1973; [2] Ники фор о в А. Ф., У в ар о в В. Б., Специальные функции математической физики, 2 изд., М., 1984.</literature_orig>
+    <unit>
+      <author>Бейтмен Г.</author>
+      <author>Эрдейи А.</author>
+      <title>Высшие трансцендентные функции</title>
+      <publication>пер. с англ., 2 изд., т. 1, М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Никифоров А. Ф.</author>
+      <author>Уваров В. Б.</author>
+      <title>Специальные функции математической физики</title>
+      <publication>2 изд., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/483_1_VYROZhDENNAJa">z u^{\prime \prime}+(\gamma-z) u^{\prime}-\alpha u=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/483_2_VYROZhDENNAJa">\begin{gathered}u_{2}(z)=G(\alpha, \gamma, z)=\frac{\Gamma(1-\gamma)}{\Gamma(\alpha-\gamma+1)} F(\alpha, \gamma, z)+ \\+\frac{\Gamma(\gamma-1)}{\Gamma(\alpha)} z^{1-\gamma} F(\alpha-\gamma+1,2-\gamma, z) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/483_3_VYROZhDENNAJa">F(\alpha, \gamma, z)=\frac{\Gamma(\gamma)}{\Gamma(\alpha) \Gamma(\gamma-\alpha)} \int_{0}^{1} d t e^{z t} t^{\alpha-1}(1-t)^{\gamma-\alpha-1},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/483_4_VYROZhDENNAJa">G(\alpha, \gamma, z)=\Gamma^{-1}(\alpha) \int_{0}^{\infty} d t e^{-z t} t^{\alpha-1}(1+t)^{\gamma-\alpha-1} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/483_5_VYROZhDENNAJa">F(\alpha, \gamma, z)=\lim _{\beta \rightarrow \infty} F(\alpha, \beta ; \gamma ; z / \beta) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/483_6_VYROZhDENNAJa">G \sim z^{-\alpha}, z \rightarrow \infty .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/483_7_VYROZhDENNAJa">\begin{aligned}&amp; \frac{d}{d z} F(\alpha, \gamma, z)=(\alpha / \gamma) F(\alpha+1, \gamma+1, z), \\&amp; \frac{d}{d z} G(\alpha, \gamma, z)=-\alpha G(\alpha+1, \gamma+1, z) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/483_8_VYROZhDENNAJa">\sum_{i=1}^{3} C_{i}(z) F\left(\alpha_{i}, \gamma_{i}, z\right)=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/483_9_VYROZhDENNAJa">\begin{gathered}F(\alpha, \gamma, z)=e^{z} F(\gamma-\alpha, \gamma,-z), \\G(\alpha, \gamma, z)=z^{1-\gamma} G(\alpha-\gamma+1,2-\gamma, z) .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_1_VYROZhDENNAJa">z=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_2_VYROZhDENNAJa">\gamma \neq 0,-1,-2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_3_VYROZhDENNAJa">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_4_VYROZhDENNAJa">u_{1}(z)=f(\alpha, \gamma, z)=1+\frac{\alpha}{\gamma} \frac{z}{1 !}+\frac{\alpha}{\gamma} \frac{\alpha+1}{\gamma+1} \frac{z^{2}}{2 !}+\ldots=\sum_{n=0}^{\infty} \frac{(\alpha)_{n}}{(\gamma)_{n}} \frac{z^{n}}{n !}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_5_VYROZhDENNAJa">(a)_{n}=a(a+1) \ldots(a+n-1)=\Gamma(a+n) / \Gamma(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_6_VYROZhDENNAJa">\gamma \neq 0, \pm 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_7_VYROZhDENNAJa">\pm 2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_8_VYROZhDENNAJa">\operatorname{re} \gamma&gt;\operatorname{Re} \alpha&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_9_VYROZhDENNAJa">\operatorname{re} \alpha&gt;0,|\arg z|&lt;\pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_10_VYROZhDENNAJa">f(\alpha, \gamma, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_11_VYROZhDENNAJa">z ; G(\alpha, \gamma, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_12_VYROZhDENNAJa">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_13_VYROZhDENNAJa">z&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_14_VYROZhDENNAJa">g(\alpha, \gamma, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_15_VYROZhDENNAJa">f\left(\alpha_{i}, \gamma_{i}, z\right), i=1,2,3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_16_VYROZhDENNAJa">\alpha_{i}-\alpha_{k}, \gamma_{i}-\gamma_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_17_VYROZhDENNAJa">c_{i}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_18_VYROZhDENNAJa">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_19_VYROZhDENNAJa">g(\alpha, \gamma, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_20_VYROZhDENNAJa">\alpha=-n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/483_21_VYROZhDENNAJa">n-</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/483_1_VYROZhDENNAJa">
+      <rel_text>Лагерра</rel_text>
+      <target>http://libmeta.ru/fme/article/1499_LAGERRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/483_2_VYROZhDENNAJa">
+      <rel_text>обобщенными многочленами</rel_text>
+      <target>http://libmeta.ru/fme/article/107_ASIMPTOTIKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/483_3_VYROZhDENNAJa">
+      <rel_text>многочленам</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/483_4_VYROZhDENNAJa">
+      <rel_text>интегральные функции</rel_text>
+      <target>http://libmeta.ru/fme/article/1034_INTEGRAL'NYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/483_5_VYROZhDENNAJa">
+      <rel_text>специальные функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2892_SPETsIAL'NYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/483_6_VYROZhDENNAJa">
+      <rel_text>дифференцирования</rel_text>
+      <target>http://libmeta.ru/fme/article/879_DIFFERENTsIRUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/483_7_VYROZhDENNAJa">
+      <rel_text>гипергеометрической функцией</rel_text>
+      <target>http://libmeta.ru/fme/article/633_GIPERGEOMETRIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/483_8_VYROZhDENNAJa">
+      <rel_text>функция в комплексной</rel_text>
+      <target>http://libmeta.ru/fme/article/491_VYChET</target>
+    </relation>
+  </relations>
+  <text>решение в ы ро жде н н о го (конфлюэнтного) ги пергеометрического уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/483_1_VYROZhDENNAJa]]/URI
+\]
+
+регулярное в окрестности точки $URI[[http://libmeta.ru/fme/formula/aux/483_1_VYROZhDENNAJa]]/URI$ комплексной плоскости при $URI[[http://libmeta.ru/fme/formula/aux/483_2_VYROZhDENNAJa]]/URI$ и любых значениях $URI[[http://libmeta.ru/fme/formula/aux/483_3_VYROZhDENNAJa]]/URI$. Впервые исследована Э. Куммером (е. Kummer, 1836). В круге любого конечного радиуса В. г. Ф. 1-го рода можно задать с помощью сходящегося ряда Куммера:
+
+$URI[[http://libmeta.ru/fme/formula/aux/483_4_VYROZhDENNAJa]]/URI$,
+
+где $URI[[http://libmeta.ru/fme/formula/aux/483_5_VYROZhDENNAJa]]/URI$. Вторым линейно независимым решением уравнения (1) при $URI[[http://libmeta.ru/fme/formula/aux/483_6_VYROZhDENNAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/483_7_VYROZhDENNAJa]]/URI$ является В. г. ф. 2-го рода:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/483_2_VYROZhDENNAJa]]/URI
+\]
+
+Для В. г. Ф. 1-го рода при $URI[[http://libmeta.ru/fme/formula/aux/483_8_VYROZhDENNAJa]]/URI$ справедливо интегральное представление
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/483_3_VYROZhDENNAJa]]/URI
+\]
+
+а для В. г. Ф. 2-го рода при $URI[[http://libmeta.ru/fme/formula/aux/483_9_VYROZhDENNAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/483_4_VYROZhDENNAJa]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/fme/formula/aux/483_10_VYROZhDENNAJa]]/URI$ - целая аналитич. функция $URI[[http://libmeta.ru/fme/formula/aux/483_11_VYROZhDENNAJa]]/URI$ - аналитич. URI[[http://libmeta.ru/fme/relation/483_8_VYROZhDENNAJa]]/URI плоскости $URI[[http://libmeta.ru/fme/formula/aux/483_12_VYROZhDENNAJa]]/URI$ с разрезом вдоль вещественной оси при $URI[[http://libmeta.ru/fme/formula/aux/483_13_VYROZhDENNAJa]]/URI$. В. г. ф. связаны с URI[[http://libmeta.ru/fme/relation/483_7_VYROZhDENNAJa]]/URI соотношением:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/483_5_VYROZhDENNAJa]]/URI
+\]
+
+Для функции $URI[[http://libmeta.ru/fme/formula/aux/483_14_VYROZhDENNAJa]]/URI$ справедливо асимптотич. разложение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/483_6_VYROZhDENNAJa]]/URI
+\]
+
+Справедливы формулы URI[[http://libmeta.ru/fme/relation/483_6_VYROZhDENNAJa]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/483_7_VYROZhDENNAJa]]/URI
+\]
+
+Любые три функции $URI[[http://libmeta.ru/fme/formula/aux/483_15_VYROZhDENNAJa]]/URI$, в случае, когда $URI[[http://libmeta.ru/fme/formula/aux/483_16_VYROZhDENNAJa]]/URI$ являются целыми числами, связаны соотношениями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/483_8_VYROZhDENNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/483_17_VYROZhDENNAJa]]/URI$ - нек-рые многочлены от переменного $URI[[http://libmeta.ru/fme/formula/aux/483_18_VYROZhDENNAJa]]/URI$. Аналогичное утверждение справедливо для функций $URI[[http://libmeta.ru/fme/formula/aux/483_19_VYROZhDENNAJa]]/URI$. Имеют место также функциональные соотношения, напр.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/483_9_VYROZhDENNAJa]]/URI
+\]
+
+Через В. г. ф. выражаются многие элементарные и URI[[http://libmeta.ru/fme/relation/483_5_VYROZhDENNAJa]]/URI, напр. цилиндрич. функции, URI[[http://libmeta.ru/fme/relation/483_4_VYROZhDENNAJa]]/URI. При $URI[[http://libmeta.ru/fme/formula/aux/483_20_VYROZhDENNAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/483_21_VYROZhDENNAJa]]/URI$ целое положительное число, В. г. Ф. сводятся к URI[[http://libmeta.ru/fme/relation/483_3_VYROZhDENNAJa]]/URI, к-рые с точностью до постоянного множителя совпадают с URI[[http://libmeta.ru/fme/relation/483_2_VYROZhDENNAJa]]/URI URI[[http://libmeta.ru/fme/relation/483_1_VYROZhDENNAJa]]/URI.</text>
+  <text_orig>решение в ы ро жде н н о го (конфлюэнтного) ги пергеометрического уравнения
+
+\[
+z u^{\prime \prime}+(\gamma-z) u^{\prime}-\alpha u=0,
+\]
+
+регулярное в окрестности точки $z=0$ комплексной плоскости при $\gamma \neq 0,-1,-2, \ldots$ и любых значениях $\alpha$. Впервые исследована Э. Куммером (Е. Kummer, 1836). В круге любого конечного радиуса В. г. Ф. 1-го рода можно задать с помощью сходящегося ряда Куммера:
+
+$u_{1}(z)=F(\alpha, \gamma, z)=1+\frac{\alpha}{\gamma} \frac{z}{1 !}+\frac{\alpha}{\gamma} \frac{\alpha+1}{\gamma+1} \frac{z^{2}}{2 !}+\ldots=\sum_{n=0}^{\infty} \frac{(\alpha)_{n}}{(\gamma)_{n}} \frac{z^{n}}{n !}$,
+
+где $(a)_{n}=a(a+1) \ldots(a+n-1)=\Gamma(a+n) / \Gamma(a)$. Вторым линейно независимым решением уравнения (1) при $\gamma \neq 0, \pm 1$, $\pm 2, \ldots$ является В. г. ф. 2-го рода:
+
+\[
+\begin{gathered}
+u_{2}(z)=G(\alpha, \gamma, z)=\frac{\Gamma(1-\gamma)}{\Gamma(\alpha-\gamma+1)} F(\alpha, \gamma, z)+ \\
++\frac{\Gamma(\gamma-1)}{\Gamma(\alpha)} z^{1-\gamma} F(\alpha-\gamma+1,2-\gamma, z) .
+\end{gathered}
+\]
+
+Для В. г. Ф. 1-го рода при $\operatorname{Re} \gamma&gt;\operatorname{Re} \alpha&gt;0$ справедливо интегральное представление
+
+\[
+F(\alpha, \gamma, z)=\frac{\Gamma(\gamma)}{\Gamma(\alpha) \Gamma(\gamma-\alpha)} \int_{0}^{1} d t e^{z t} t^{\alpha-1}(1-t)^{\gamma-\alpha-1},
+\]
+
+а для В. г. Ф. 2-го рода при $\operatorname{Re} \alpha&gt;0,|\arg z|&lt;\pi$ :
+
+\[
+G(\alpha, \gamma, z)=\Gamma^{-1}(\alpha) \int_{0}^{\infty} d t e^{-z t} t^{\alpha-1}(1+t)^{\gamma-\alpha-1} .
+\]
+
+Функция $F(\alpha, \gamma, z)$ - целая аналитич. функция $z ; G(\alpha, \gamma, z)$ - аналитич. функция в комплексной плоскости $z$ с разрезом вдоль вещественной оси при $z&lt;0$. В. г. ф. связаны с гипергеометрической функцией соотношением:
+
+\[
+F(\alpha, \gamma, z)=\lim _{\beta \rightarrow \infty} F(\alpha, \beta ; \gamma ; z / \beta) .
+\]
+
+Для функции $G(\alpha, \gamma, z)$ справедливо асимптотич. разложение
+
+\[
+G \sim z^{-\alpha}, z \rightarrow \infty .
+\]
+
+Справедливы формулы дифференцирования:
+
+\[
+\begin{aligned}
+&amp; \frac{d}{d z} F(\alpha, \gamma, z)=(\alpha / \gamma) F(\alpha+1, \gamma+1, z), \\
+&amp; \frac{d}{d z} G(\alpha, \gamma, z)=-\alpha G(\alpha+1, \gamma+1, z) .
+\end{aligned}
+\]
+
+Любые три функции $F\left(\alpha_{i}, \gamma_{i}, z\right), i=1,2,3$, в случае, когда $\alpha_{i}-\alpha_{k}, \gamma_{i}-\gamma_{k}$ являются целыми числами, связаны соотношениями
+
+\[
+\sum_{i=1}^{3} C_{i}(z) F\left(\alpha_{i}, \gamma_{i}, z\right)=0,
+\]
+
+где $C_{i}(z)$ - нек-рые многочлены от переменного $z$. Аналогичное утверждение справедливо для функций $G(\alpha, \gamma, z)$. Имеют место также функциональные соотношения, напр.
+
+\[
+\begin{gathered}
+F(\alpha, \gamma, z)=e^{z} F(\gamma-\alpha, \gamma,-z), \\
+G(\alpha, \gamma, z)=z^{1-\gamma} G(\alpha-\gamma+1,2-\gamma, z) .
+\end{gathered}
+\]
+
+Через В. г. ф. выражаются многие элементарные и специальные функции, напр. цилиндрич. функции, интегральные функции. При $\alpha=-n$, где $n-$ целое положительное число, В. г. Ф. сводятся к многочленам, к-рые с точностью до постоянного множителя совпадают с обобщенными многочленами Лагерра.
+
+Лит.: [1] Бе йтмен Г., Эрде й и А., Высшие трансцендентные функции, пер. с англ., 2 изд., т. 1, М., 1973; [2] Ники фор о в А. Ф., У в ар о в В. Б., Специальные функции математической физики, 2 изд., М., 1984.
+
+В. Н. Битюиков.</text_orig>
+</article>

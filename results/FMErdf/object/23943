@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_23943">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix" /><mtable><mtr><mtd columnalign="right"><mo>&#x02212;</mo><msub><mi>x</mi><mrow><mi>u</mi></mrow></msub></mtd><mtd columnalign="left"><mo>&#x0003D;</mo><mi>a</mi><mo stretchy="false">&#x00028;</mo><mi>u</mi><mo>&#x0002C;</mo><mi>v</mi><mo stretchy="false">&#x00029;</mo><msub><mi>t</mi><mrow><mi>v</mi></mrow></msub><mo>&#x02212;</mo><mi>b</mi><mo stretchy="false">&#x00028;</mo><mi>u</mi><mo>&#x0002C;</mo><mi>v</mi><mo stretchy="false">&#x00029;</mo><msub><mi>t</mi><mrow><mi>u</mi></mrow></msub></mtd></mtr><mtr><mtd columnalign="right"><msub><mi>x</mi><mrow><mi>v</mi></mrow></msub></mtd><mtd columnalign="left"><mo>&#x0003D;</mo><mi>c</mi><mo stretchy="false">&#x00028;</mo><mi>u</mi><mo>&#x0002C;</mo><mi>v</mi><mo stretchy="false">&#x00029;</mo><msub><mi>t</mi><mrow><mi>v</mi></mrow></msub><mo>&#x02212;</mo><mi>d</mi><mo stretchy="false">&#x00028;</mo><mi>u</mi><mo>&#x0002C;</mo><mi>v</mi><mo stretchy="false">&#x00029;</mo><msub><mi>t</mi><mrow><mi>u</mi></mrow></msub></mtd></mtr></mtable><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\left.\begin{array}{rl}-x_{u} &amp; =a(u, v) t_{v}-b(u, v) t_{u} \\x_{v} &amp; =c(u, v) t_{v}-d(u, v) t_{u}\end{array}\right\}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

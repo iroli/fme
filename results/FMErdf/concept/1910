@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_271_BORNA-GRINA-IVONA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_271_BORNA-GRINA-IVONA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1910</core:url>
+    <lbm:descriptor><![CDATA[БОРНА-ГРИНА-ИВОНА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#14261"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#3758"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14262"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14263"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14264"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_86"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14265"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1440"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14266"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>приближенное замкнутое нелинейное уравнение для парной функции распределения (см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2173_PARTO">Парная</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa">корреляционная функция</a>) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI">классической</a> равновесной системы. Система представляет собой ансамбль $URI[[http://libmeta.ru/fme/formula/aux/271_1_BORNA-GRINA-IVONA]]/URI$ тождественных точечных частиц массой $URI[[http://libmeta.ru/fme/formula/aux/271_2_BORNA-GRINA-IVONA]]/URI$ каждая, находящихся в ящике объема $URI[[http://libmeta.ru/fme/formula/aux/271_3_BORNA-GRINA-IVONA]]/URI$. Гамильтониан системы имеет вид<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14262">$$H=\sum_{j=1}^{N} \frac{p_{j}^{2}}{2 m}+\sum \sum_{1 \leqslant j<n \leqslant N} v\left(r_{j n}\right),$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14265">$$r_{j n}=\left|\overrightarrow{q_{j}}-\overrightarrow{q_{n}}\right|, \overrightarrow{q_{1}}, \ldots, \overrightarrow{q_{N}}, \overrightarrow{p_{1}}, \ldots, \overrightarrow{p_{N}}-$$</a> координаты и импульсы частиц системы. Б.- Г.- И. у. получается из цепочки уравнений для частичных функций распределения после применения феноменологич. суперпозиционного приближения Кирквуда, когда трехчастичную конфигурационную функцию распределения выражают через двухчастичную<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14263">$$n_{3}\left(\overrightarrow{q_{1}}, \overrightarrow{q_{2}}, \overrightarrow{q_{3}}\right)=n_{2}\left(\overrightarrow{q_{1}}, \overrightarrow{q_{3}}\right) n_{2}\left(\overrightarrow{q_{2}}, \overrightarrow{q_{3}}\right) n_{2}\left(\overrightarrow{q_{1}}, \overrightarrow{q_{2}}\right)$$</a><BR/></P><P>Б. - Г.- И. у. имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14264">$$\begin{aligned}& -\theta \vec{\nabla}_{1}\left[\ln n_{2}\left(r_{12}\right)\right]=\vec{\nabla}_{1} v\left(r_{12}\right)+ \\& +n \int d \vec{q}_{3}\left[\vec{\nabla}_{1} v\left(r_{13}\right)\right] n_{2}\left(r_{13}\right) n_{2}\left(r_{23}\right),\end{aligned}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/271_5_BORNA-GRINA-IVONA]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температура</a>, $URI[[http://libmeta.ru/fme/formula/aux/271_6_BORNA-GRINA-IVONA]]/URI$ - средняя <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотность</a> числа <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14266">$$\vec{\nabla}_{1} \equiv \partial / \partial \overrightarrow{q_{1}}$$</a>. Б.- Г.- И. у. впервые приведено в <a href="/object/show?uri=http://libmeta.ru/io/Publication#14261">[1]</a>..<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#14261">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#2117">Born M.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#9888">Green H. S.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#14261">«proc. Roy. Soc.», A 188, 1946, v. 10</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Балеску Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[приближенное замкнутое нелинейное уравнение для парной функции распределения (см. Парная корреляционная функция) классической равновесной системы. Система представляет собой ансамбль $N$ тождественных точечных частиц массой $m$ каждая, находящихся в ящике объема $V$. Гамильтониан системы имеет вид
+
+\[
+H=\sum_{j=1}^{N} \frac{p_{j}^{2}}{2 m}+\sum \sum_{1 \leqslant j<n \leqslant N} v\left(r_{j n}\right),
+\]
+
+где $r_{j n}=\left|\overrightarrow{q_{j}}-\overrightarrow{q_{n}}\right|, \overrightarrow{q_{1}}, \ldots, \overrightarrow{q_{N}}, \overrightarrow{p_{1}}, \ldots, \overrightarrow{p_{N}}-$ координаты и импульсы частиц системы. Б.- Г.- И. у. получается из цепочки уравнений для частичных функций распределения после применения феноменологич. суперпозиционного приближения Кирквуда, когда трехчастичную конфигурационную функцию распределения выражают через двухчастичную
+
+\[
+n_{3}\left(\overrightarrow{q_{1}}, \overrightarrow{q_{2}}, \overrightarrow{q_{3}}\right)=n_{2}\left(\overrightarrow{q_{1}}, \overrightarrow{q_{3}}\right) n_{2}\left(\overrightarrow{q_{2}}, \overrightarrow{q_{3}}\right) n_{2}\left(\overrightarrow{q_{1}}, \overrightarrow{q_{2}}\right)
+\]
+
+Б. - Г.- И. у. имеет вид:
+
+\[
+\begin{aligned}
+& -\theta \vec{\nabla}_{1}\left[\ln n_{2}\left(r_{12}\right)\right]=\vec{\nabla}_{1} v\left(r_{12}\right)+ \\
+& +n \int d \vec{q}_{3}\left[\vec{\nabla}_{1} v\left(r_{13}\right)\right] n_{2}\left(r_{13}\right) n_{2}\left(r_{23}\right),
+\end{aligned}
+\]
+
+где $\theta$ - температура, $n$ - средняя плотность числа частиц, $\vec{\nabla}_{1} \equiv \partial / \partial \overrightarrow{q_{1}}$. Б.- Г.- И. у. впервые приведено в [1]..
+
+Jum.: [1] B orn M., Gre e n H.S., «Proc. Roy. Soc.», A 188, 1946, v. 10; [2] Бале с ку Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2173_PARTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

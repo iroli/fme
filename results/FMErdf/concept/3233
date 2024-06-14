@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_682_GOLONOMII">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_682_GOLONOMII</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3233</core:url>
+    <lbm:descriptor><![CDATA[ГОЛОНОМИИ ГРУППА РАССЛОЕНИЯ С ГРУППОЙ $G$ И СВЯЗНОСТЬЮ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#24074"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#13005"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_28"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24075"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24076"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>совокупность элементов $URI[[http://libmeta.ru/fme/formula/aux/682_1_GOLONOMII]]/URI$ таких, что точки $URI[[http://libmeta.ru/fme/formula/aux/682_2_GOLONOMII]]/URI$ из базы <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> $URI[[http://libmeta.ru/fme/formula/aux/682_3_GOLONOMII]]/URI$ и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24075">$$x g^{-1}$$</a> могут быть соединены горизонтальным путем. Более наглядно: выберем <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> в пространстве, касательном к слою (он называется в е р т и ка л ь н ы М), с началом в точке $URI[[http://libmeta.ru/fme/formula/aux/682_5_GOLONOMII]]/URI$ фиксированного слоя и обнесем выбранный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2812_SLO">слой</a> по замкнутому пути в базе. При переносе слоя начало <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_364_VERTIKAL'NYJ">вертикального вектора</a> переносится по горизонтальному пути. В результате <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2812_SLO">слой</a> оказывается преобразованным, а точка $URI[[http://libmeta.ru/fme/formula/aux/682_6_GOLONOMII]]/URI$ исходного слоя переходит в точку <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24076">$$x^{1}=x g^{-1}$$</a>. Структура Г. г. отражает свойства пространства в нек-рой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a>, ее свойства тесно связаны с фундаментальной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группой</a> базы, при этом Г. г. в разных точках сопряжены. Различают: локаль ну ю Г. г., к-рая определяется путями, лежащими в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2064_OKRESTNOST'">окрестности точки</a> $URI[[http://libmeta.ru/fme/formula/aux/682_8_GOLONOMII]]/URI$ (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_47_ALGEBR">алгебра</a> Ли локальной Г. г. определяется тензором <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN">кривизны</a> и его <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1274_KOVARIANTNOST">ковариантными</a> производными); о граниченную Г. г. использующую пути, стягиваемые в точку $URI[[http://libmeta.ru/fme/formula/aux/682_9_GOLONOMII]]/URI$, ее элементы произведения конечного числа элементов локальной Г. г., а сама она - нормальный делитель в $URI[[http://libmeta.ru/fme/formula/aux/682_10_GOLONOMII]]/URI$; наконец, гл о б а л ь н у ю Г. г., использующую любые пути.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#24074">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#11">Лихнерович А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#24074">Теория связностей в целом и группы голономии, пер. с франц., М., 1960</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#13005">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#13004">Коноплева Н. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#651">Попов В. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#13005">Калибровочные поля, 2 изд., М., 1980</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[совокупность элементов $g \in G$ таких, что точки $x$ из базы группы $G$ и $x g^{-1}$ могут быть соединены горизонтальным путем. Более наглядно: выберем вектор в пространстве, касательном к слою (он называется в е р т и ка л ь н ы М), с началом в точке $x$ фиксированного слоя и обнесем выбранный слой по замкнутому пути в базе. При переносе слоя начало вертикального вектора переносится по горизонтальному пути. В результате слой оказывается преобразованным, а точка $x$ исходного слоя переходит в точку $x^{1}=x g^{-1}$. Структура Г. г. отражает свойства пространства в нек-рой области, ее свойства тесно связаны с фундаментальной группой базы, при этом Г. г. в разных точках сопряжены. Различают: локаль ну ю Г. г., к-рая определяется путями, лежащими в окрестности точки $x$ (алгебра Ли локальной Г. г. определяется тензором кривизны и его ковариантными производными); о граниченную Г. г. использующую пути, стягиваемые в точку $x$, ее элементы произведения конечного числа элементов локальной Г. г., а сама она - нормальный делитель в $G$; наконец, гл о б а л ь н у ю Г. г., использующую любые пути.
+
+Лит.: [1] Л и х н е р о в и ч А., Теория связностей в целом и группы голономии, пер. с франц., М., 1960; [2] Кон о пле в а Н. П., По по в В. Н., Калибровочные поля, 2 изд., М., 1980.
+
+М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1274_KOVARIANTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_47_ALGEBR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2064_OKRESTNOST'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2812_SLO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_364_VERTIKAL'NYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2812_SLO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

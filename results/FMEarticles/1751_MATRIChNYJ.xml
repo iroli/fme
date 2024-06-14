@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1751_MATRIChNYJ" alphabetic_pos="1753">
+  <title>МАТРИЧНЫЙ ЭЛЕМЕНТ УНИТАРНОГО ПРЕДСТАВЛЕНИЯ $T$ ГРУППЫ $G$ В ГИЛЬБЕРТОВОМ ПРОСТРАНСТВЕ $H$</title>
+  <authors>
+    <author>Ю. A. Неретин</author>
+  </authors>
+  <pages>
+    <start>356</start>
+    <end>356</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1751_1_MATRIChNYJ">t_{\xi \eta}^{T}(g)=\left\langle T_{g} \xi \mid \eta\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1751_2_MATRIChNYJ">\int t_{\xi_{1} \eta_{1}}^{T_{1}}(g) \overline{t_{\xi_{2} \eta_{2}}^{T_{2}}(g)} d g=\frac{1}{\operatorname{dim} T_{1}} \delta_{T_{1} T_{2}}\left\langle\xi_{1} \mid \xi_{2}\right\rangle \overline{\left\langle\eta_{1} \mid \eta_{2}\right\rangle}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1751_3_MATRIChNYJ">\delta_{T_{1} T_{2}}= \begin{cases}0, \text { если } &amp; T_{1} \neq T_{2}, \\ 1, \text { если } &amp; T_{1}=T_{2}\end{cases}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1751_1_MATRIChNYJ">t_{\xi \eta}^{T}(g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1751_2_MATRIChNYJ">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1751_3_MATRIChNYJ">\langle\cdot \mid \cdot\rangle-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1751_4_MATRIChNYJ">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1751_5_MATRIChNYJ">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1751_6_MATRIChNYJ">t_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1751_7_MATRIChNYJ">t_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1751_8_MATRIChNYJ">d g</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/1751_1_MATRIChNYJ">
+      <rel_text>скалярное произведение</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+  </relations>
+  <text>функция $URI[[http://libmeta.ru/fme/formula/aux/1751_1_MATRIChNYJ]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1751_2_MATRIChNYJ]]/URI$, определяемая равенством
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1751_1_MATRIChNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1751_3_MATRIChNYJ]]/URI$ URI[[http://libmeta.ru/fme/relation/1751_1_MATRIChNYJ]]/URI в $URI[[http://libmeta.ru/fme/formula/aux/1751_4_MATRIChNYJ]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/1751_5_MATRIChNYJ]]/URI$ компактна, а представления $URI[[http://libmeta.ru/fme/formula/aux/1751_6_MATRIChNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1751_7_MATRIChNYJ]]/URI$ неприводимы. Тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1751_2_MATRIChNYJ]]/URI
+\]
+
+где в левой части стоит интеграл по мере Хаара $URI[[http://libmeta.ru/fme/formula/aux/1751_8_MATRIChNYJ]]/URI$, через dim обозначена размерность представления, a
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1751_3_MATRIChNYJ]]/URI
+\]</text>
+  <text_orig>функция $t_{\xi \eta}^{T}(g)$ на $G$, определяемая равенством
+
+\[
+t_{\xi \eta}^{T}(g)=\left\langle T_{g} \xi \mid \eta\right\rangle
+\]
+
+где $\langle\cdot \mid \cdot\rangle-$ скалярное произведение в $H$.
+
+Пусть $G$ компактна, а представления $T_{1}$ и $T_{2}$ неприводимы. Тогда
+
+\[
+\int t_{\xi_{1} \eta_{1}}^{T_{1}}(g) \overline{t_{\xi_{2} \eta_{2}}^{T_{2}}(g)} d g=\frac{1}{\operatorname{dim} T_{1}} \delta_{T_{1} T_{2}}\left\langle\xi_{1} \mid \xi_{2}\right\rangle \overline{\left\langle\eta_{1} \mid \eta_{2}\right\rangle}
+\]
+
+где в левой части стоит интеграл по мере Хаара $d g$, через dim обозначена размерность представления, a
+
+\[
+\delta_{T_{1} T_{2}}= \begin{cases}0, \text { если } &amp; T_{1} \neq T_{2}, \\ 1, \text { если } &amp; T_{1}=T_{2}\end{cases}
+\]
+
+Ю. A. Неретин.</text_orig>
+</article>

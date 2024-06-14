@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1149_KVAZIODNORODNAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1149_KVAZIODNORODNAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/165</core:url>
+    <lbm:descriptor><![CDATA[КВАЗИОДНОРОДНАЯ ФУНКЦИЯ СТЕПЕНИ $d$ С ПОКАЗАТЕЛЯМИ $v_{1}, \ldots, v_{n}$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1622"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1623"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_768"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1624"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голоморфная</a> функция $URI[[http://libmeta.ru/fme/formula/aux/1149_1_KVAZIODNORODNAJa]]/URI$ такая, что при любом $URI[[http://libmeta.ru/fme/formula/aux/1149_2_KVAZIODNORODNAJa]]/URI$ :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1623">$$f\left(\lambda^{v^{1}} x_{1}, \ldots, \lambda^{v_{n}} x_{n}\right)=\lambda^{d} f\left(x_{1}, \ldots, x_{n}\right)$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1622">C. В. Чмутов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[голоморфная функция $f: \mathbb{C}^{n} \rightarrow \mathbb{C}$ такая, что при любом $\lambda>0$ :
+
+\[
+f\left(\lambda^{v^{1}} x_{1}, \ldots, \lambda^{v_{n}} x_{n}\right)=\lambda^{d} f\left(x_{1}, \ldots, x_{n}\right)
+\]
+
+C. В. Чмутов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

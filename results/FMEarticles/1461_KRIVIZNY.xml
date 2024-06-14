@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1461_KRIVIZNY" alphabetic_pos="1463">
+  <title>КРИВИЗНЫ ТЕНЗОР</title>
+  <authors/>
+  <pages>
+    <start>306</start>
+    <end>307</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1461_1_KRIVIZNY">R_{l i j}^{k}=\partial_{i} \Gamma_{j l}^{k}-\partial_{j} \Gamma_{i l}^{k}+\Gamma_{i p}^{k} \Gamma_{j l}^{p}-\Gamma_{j p}^{k} \Gamma_{l l}^{p} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1461_1_KRIVIZNY">(1,3)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1461_2_KRIVIZNY">m^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1461_3_KRIVIZNY">d x^{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1461_4_KRIVIZNY">i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1461_5_KRIVIZNY">r_{l i j}^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1461_6_KRIVIZNY">\gamma_{i j}^{k}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1461_1_KRIVIZNY">
+      <rel_text>Римана тензор</rel_text>
+      <target>http://libmeta.ru/fme/article/2628_RIMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1461_2_KRIVIZNY">
+      <rel_text>тензора</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1461_3_KRIVIZNY">
+      <rel_text>кривизне</rel_text>
+      <target>http://libmeta.ru/fme/article/1458_KRIVIZN</target>
+    </relation>
+  </relations>
+  <text>тензор типа $URI[[http://libmeta.ru/fme/formula/aux/1461_1_KRIVIZNY]]/URI$, получающийся в разложении кривизны формы в локальном кобазисе на многообразии $URI[[http://libmeta.ru/fme/formula/aux/1461_2_KRIVIZNY]]/URI$. В частности, в голономном кобазисе $URI[[http://libmeta.ru/fme/formula/aux/1461_3_KRIVIZNY]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1461_4_KRIVIZNY]]/URI$, компоненты К. т. $URI[[http://libmeta.ru/fme/formula/aux/1461_5_KRIVIZNY]]/URI$ аффинной связности выражаются через объекты связности $URI[[http://libmeta.ru/fme/formula/aux/1461_6_KRIVIZNY]]/URI$ и их производные:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1461_1_KRIVIZNY]]/URI
+\]
+
+О URI[[http://libmeta.ru/fme/relation/1461_3_KRIVIZNY]]/URI URI[[http://libmeta.ru/fme/relation/1461_2_KRIVIZNY]]/URI Римана см. URI[[http://libmeta.ru/fme/relation/1461_1_KRIVIZNY]]/URI.</text>
+  <text_orig>тензор типа $(1,3)$, получающийся в разложении кривизны формы в локальном кобазисе на многообразии $M^{n}$. В частности, в голономном кобазисе $d x^{i}$, $i=1, \ldots, n$, компоненты К. т. $R_{l i j}^{k}$ аффинной связности выражаются через объекты связности $\Gamma_{i j}^{k}$ и их производные:
+
+\[
+R_{l i j}^{k}=\partial_{i} \Gamma_{j l}^{k}-\partial_{j} \Gamma_{i l}^{k}+\Gamma_{i p}^{k} \Gamma_{j l}^{p}-\Gamma_{j p}^{k} \Gamma_{l l}^{p} .
+\]
+
+О кривизне тензора Римана см. Римана тензор.</text_orig>
+</article>

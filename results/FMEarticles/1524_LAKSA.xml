@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1524_LAKSA" alphabetic_pos="1526">
+  <title>ЛАКСА ПРЕДСТАВЛЕНМЕ</title>
+  <authors>
+    <author>О. И. Богоявленский</author>
+  </authors>
+  <pages>
+    <start>316</start>
+    <end>316</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Итоги науки и техники. Современные проблемы математики. Динамические системы, т. 7, М., 1987; [2] Лакс П. Д., «математика», 1969, т. 13, № 5, с. 128-150; [3] Б о го я в ле нс к и й О. И., Опрокидывающиеся солитоны. Нелинейные интегрируемые уравнения, М., 1990.</literature_orig>
+    <unit>
+      <title>Итоги науки и техники. Современные проблемы математики. Динамические системы</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other>т. 7</other>
+    </unit>
+    <unit>
+      <author>Лакс П. Д.</author>
+      <title>«математика»</title>
+      <publication/>
+      <year>1969</year>
+      <other>т. 13, № 5, с. 128-150</other>
+    </unit>
+    <unit>
+      <author>Богоявленский О. И.</author>
+      <title>Опрокидывающиеся солитоны. Нелинейные интегрируемые уравнения</title>
+      <publication>М.</publication>
+      <year>1990</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1524_1_LAKSA">\dot{u}_{i}=f_{i}\left(u_{1}, \ldots, u_{n}\right), i=1,2, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1524_2_LAKSA">\dot{L}=[L, A]=L A-A L .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1524_3_LAKSA">R(E, w)=\operatorname{det}(L(t, E)-w \cdot 1)=0 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_1_LAKSA">l, A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_2_LAKSA">u_{1}, \ldots, u_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_3_LAKSA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_4_LAKSA">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_5_LAKSA">l(e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_6_LAKSA">a(e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_7_LAKSA">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_8_LAKSA">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_9_LAKSA">\operatorname{tr}\left(l(e)^{k}\right), k=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1524_10_LAKSA">e</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1524_1_LAKSA">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1524_2_LAKSA">
+      <rel_text>динамики</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1524_3_LAKSA">
+      <rel_text>параметром</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+  </relations>
+  <text>представление динамической системы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1524_1_LAKSA]]/URI
+\]
+
+для которой существуют такие матрицы $URI[[http://libmeta.ru/fme/formula/aux/1524_1_LAKSA]]/URI$ (элементы которых являются функциями от $URI[[http://libmeta.ru/fme/formula/aux/1524_2_LAKSA]]/URI$ ), что система (1) эквивалентна уравнению Лакса
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1524_2_LAKSA]]/URI
+\]
+
+В этом случае собственные числа матрицы $URI[[http://libmeta.ru/fme/formula/aux/1524_3_LAKSA]]/URI$ являются первыми интегралами системы (1).
+
+Л. п. содержит спектральный параметр $URI[[http://libmeta.ru/fme/formula/aux/1524_4_LAKSA]]/URI$, если матрицы $URI[[http://libmeta.ru/fme/formula/aux/1524_5_LAKSA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1524_6_LAKSA]]/URI$ разлагаются в ряд по степеням $URI[[http://libmeta.ru/fme/formula/aux/1524_7_LAKSA]]/URI$ и уравнение (2) справедливо в силу системы (1) при всех значениях параметра $URI[[http://libmeta.ru/fme/formula/aux/1524_8_LAKSA]]/URI$. В этом случае все коэффициенты разложения функции $URI[[http://libmeta.ru/fme/formula/aux/1524_9_LAKSA]]/URI$, по степеням $URI[[http://libmeta.ru/fme/formula/aux/1524_10_LAKSA]]/URI$ являются первыми интегралами системы (1). Во многих случаях из Л. П. со спектральным параметром следует возможность явного интегрирования системы (1) в тета-функциях римановых поверхностей, заданных уравнением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1524_3_LAKSA]]/URI
+\]
+
+Первое Л. п. со спектральным параметром было указано Ф. Кеттером (f. Kötter, 1900) для интегрируемых случаев В. А. Стеклова и А. М. Ляпунова движения твердого тела в жидкости. В 1974 С. В. Манаков и Г. Флашка (h. Flaschka) нашли Л. П. для системы взаимодействующих частиц на прямой (экспоненциальная модель кристаллич. решетки це почка Тода).
+
+Л. П. со спектральным URI[[http://libmeta.ru/fme/relation/1524_3_LAKSA]]/URI построено для всех классич. интегрируемых случаев URI[[http://libmeta.ru/fme/relation/1524_2_LAKSA]]/URI твердого тела, имеющего неподвижную точку, и для ряда новых интегрируемых задач URI[[http://libmeta.ru/fme/relation/1524_1_LAKSA]]/URI и математич. физики.
+
+См. также Синус-Гордона уравнение.</text>
+  <text_orig>представление динамической системы
+
+\[
+\dot{u}_{i}=f_{i}\left(u_{1}, \ldots, u_{n}\right), i=1,2, \ldots, n,
+\]
+
+для которой сушествуют такие матрицы $L, A$ (элементы которых являются функциями от $u_{1}, \ldots, u_{n}$ ), что система (1) эквиватентна уравнению Лакса
+
+\[
+\dot{L}=[L, A]=L A-A L .
+\]
+
+В этом случае собственные числа матрицы $L$ являются первыми интегралами системы (1).
+
+Л. п. содержит спектральный параметр $E$, если матрицы $L(E)$ и $A(E)$ разлагаются в ряд по степеням $E$ и уравнение (2) справедливо в силу системы (1) при всех значениях параметра $E$. В этом случае все коэффициенты разложения функции $\operatorname{Tr}\left(L(E)^{k}\right), k=1,2, \ldots$, по степеням $E$ являются первыми интегралами системы (1). Во многих случаях из Л. П. со спектральным параметром следует возможность явного интегрирования системы (1) в тета-функциях римановых поверхностей, заданных уравнением
+
+\[
+R(E, w)=\operatorname{det}(L(t, E)-w \cdot 1)=0 .
+\]
+
+Первое Л. п. со спектральным параметром было указано Ф. Кеттером (F. Kötter, 1900) для интегрируемых случаев В. А. Стеклова и А. М. Ляпунова движения твердого тела в жидкости. В 1974 С. В. Манаков и Г. Флашка (H. Flaschka) нашли Л. П. для системы взаимодействующих частиц на прямой (экспоненциальная модель кристаллич. решетки це почка Тода).
+
+Л. П. со спектральным параметром построено для всех классич. интегрируемых случаев динамики твердого тела, имеющего неподвижную точку, и для ряда новых интегрируемых задач механики и математич. физики.
+
+См. также Синус-Гордона уравнение.
+
+Лит.: [1] Итоги науки и техники. Современные проблемы математики. Динамические системы, т. 7, М., 1987; [2] Лакс П. Д., «Математика», 1969, т. 13, № 5, с. 128-150; [3] Б о го я в ле нс к и й О. И., Опрокидывающиеся солитоны. Нелинейные интегрируемые уравнения, М., 1990.
+
+О. И. Богоявленский.</text_orig>
+</article>

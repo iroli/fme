@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3261_FEJNMANA-KATsA" alphabetic_pos="3263">
+  <title>ФЕЙНМАНА-КАЦА ФОРМУЛА</title>
+  <authors/>
+  <pages>
+    <start>638</start>
+    <end>639</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Са й мон Б., Модель $p[\varphi]_{2}$ евклидовой квантовой теории поля, пер. с англ., М., 1976; [2] Глимм Дж., Джаффе А., Математические методы квантовой физики, пер. с англ., М., 1984.</literature_orig>
+    <unit>
+      <author>Саймон Б.</author>
+      <title>Модель $p[\varphi]_{2}$ евклидовой квантовой теории поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Глимм Дж., Джаффе А., Математические методы квантовой физики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3261_1_FEJNMANA-KATsA">S_{\text {евкл }}(\varphi)=S_{\text {евКЛ }}^{\text {своб }}(\varphi)+S_{\text {евКЛ }}^{\inf },</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3261_2_FEJNMANA-KATsA">\frac{d \mu_{\Lambda}}{d \mu_{0}}=\frac{1}{Z_{\Lambda}} \exp \left\{-S_{\text {евкл пер }}^{\inf , \Lambda}(\varphi)\right\},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3261_3_FEJNMANA-KATsA">\mu=\lim _{\Lambda \nearrow \mathbb{R}^{v+1}} \mu_{\lambda} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_1_FEJNMANA-KATsA">\varphi(x), x \in \mathbb{R}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_2_FEJNMANA-KATsA">\mathbb{r}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_3_FEJNMANA-KATsA">\mathbb{r}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_4_FEJNMANA-KATsA">s_{\text {евкл }}^{\text {своб }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_5_FEJNMANA-KATsA">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_6_FEJNMANA-KATsA">s_{\text {евкл }}^{\mathrm{inf}}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_7_FEJNMANA-KATsA">s_{\text {евкЛ }}^{\text {своб }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_8_FEJNMANA-KATsA">\mu_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_9_FEJNMANA-KATsA">\mu_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_10_FEJNMANA-KATsA">\lambda \subset \mathbb{R}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_11_FEJNMANA-KATsA">\mu_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_12_FEJNMANA-KATsA">s_{\text {евкл пер }}^{\mathrm{inf} \Lambda}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_13_FEJNMANA-KATsA">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_14_FEJNMANA-KATsA">\mathbb{r}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_15_FEJNMANA-KATsA">\mathbb{r}^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3261_16_FEJNMANA-KATsA">\mathbb{r}^{4}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/3261_1_FEJNMANA-KATsA">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3261_2_FEJNMANA-KATsA">
+      <rel_text>перенормированное</rel_text>
+      <target>http://libmeta.ru/fme/article/2205_PERENORMIRUEMOST</target>
+    </relation>
+  </relations>
+  <text>собирательное название формул, выражающих те или иные средние (функции Грина, корреляционные функции) для квантовой системы в виде некоторого функционального интеграла по «классическим траекториям» этой системы.
+
+Ф. - К. Ф. применительно к бозонному евклидову квантовому полю $URI[[http://libmeta.ru/fme/formula/aux/3261_1_FEJNMANA-KATsA]]/URI$, в пространстве $URI[[http://libmeta.ru/fme/formula/aux/3261_2_FEJNMANA-KATsA]]/URI$ приводит к следующему рецепту построения марковского поля в $URI[[http://libmeta.ru/fme/formula/aux/3261_3_FEJNMANA-KATsA]]/URI$, описывающего бозонное поле. Классич. евклидово действие поля имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3261_1_FEJNMANA-KATsA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3261_4_FEJNMANA-KATsA]]/URI$ евклидово действие для «свободного поля», имеющее вид положительно определенной квадратичной формы от полевой переменной $URI[[http://libmeta.ru/fme/formula/aux/3261_5_FEJNMANA-KATsA]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/3261_6_FEJNMANA-KATsA]]/URI$ часть действия, соответствующая взаимодействию (самодействию) поля и имеющая обычно полиномиальный вид.
+
+С помощью квадратичной формы $URI[[http://libmeta.ru/fme/formula/aux/3261_7_FEJNMANA-KATsA]]/URI$ строится «свободная гауссова мера&quot; $URI[[http://libmeta.ru/fme/formula/aux/3261_8_FEJNMANA-KATsA]]/URI$, а истинная мера $URI[[http://libmeta.ru/fme/formula/aux/3261_9_FEJNMANA-KATsA]]/URI$ в конечном объеме $URI[[http://libmeta.ru/fme/formula/aux/3261_10_FEJNMANA-KATsA]]/URI$ задается как гиббсовская «перестройка» меры $URI[[http://libmeta.ru/fme/formula/aux/3261_11_FEJNMANA-KATsA]]/URI$ вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3261_2_FEJNMANA-KATsA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3261_12_FEJNMANA-KATsA]]/URI$ определенным образом URI[[http://libmeta.ru/fme/relation/3261_2_FEJNMANA-KATsA]]/URI взаимодействие, ограниченное на конечный объем $URI[[http://libmeta.ru/fme/formula/aux/3261_13_FEJNMANA-KATsA]]/URI$. Затем рассматривается предельная мера
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3261_3_FEJNMANA-KATsA]]/URI
+\]
+
+Эта программа в настоящее время полностью выполнена для полей в $URI[[http://libmeta.ru/fme/formula/aux/3261_14_FEJNMANA-KATsA]]/URI$ (и нек-рых полей в $URI[[http://libmeta.ru/fme/formula/aux/3261_15_FEJNMANA-KATsA]]/URI$ ), но наталкивается на значительные трудности для случая полей в $URI[[http://libmeta.ru/fme/formula/aux/3261_16_FEJNMANA-KATsA]]/URI$.
+
+См. также Термодинамический предел для равновесных URI[[http://libmeta.ru/fme/relation/3261_1_FEJNMANA-KATsA]]/URI.</text>
+  <text_orig>собирательное название формул, выражающих те или иные средние (функции Грина, корреляционные функции) для квантовой системы в виде некоторого функционального интеграла по «классическим траекториям» этой системы.
+
+Ф. - К. Ф. применительно к бозонному евклидову квантовому полю $\varphi(x), x \in \mathbb{R}^{v+1}$, в пространстве $\mathbb{R}^{v+1}$ приводит к следующему рецепту построения марковского поля в $\mathbb{R}^{v+1}$, описывающего бозонное поле. Классич. евклидово действие поля имеет вид
+
+\[
+S_{\text {евкл }}(\varphi)=S_{\text {евКЛ }}^{\text {своб }}(\varphi)+S_{\text {евКЛ }}^{\inf },
+\]
+
+где $S_{\text {евкл }}^{\text {своб }}$ евклидово действие для «свободного поля», имеюшее вид положительно определенной квадратичной формы от полевой переменной $\varphi$, а $S_{\text {евкл }}^{\mathrm{inf}}-$ часть действия, соответствующая взаимодействию (самодействию) поля и имеющая обычно полиномиальный вид.
+
+С помощью квадратичной формы $S_{\text {евкЛ }}^{\text {своб }}$ строится «свободная гауссова мера&quot; $\mu_{0}$, а истинная мера $\mu_{\Lambda}$ в конечном объеме $\Lambda \subset \mathbb{R}^{v+1}$ задается как гиббсовская «перестройка» меры $\mu_{0}$ вида:
+
+\[
+\frac{d \mu_{\Lambda}}{d \mu_{0}}=\frac{1}{Z_{\Lambda}} \exp \left\{-S_{\text {евкл пер }}^{\inf , \Lambda}(\varphi)\right\},
+\]
+
+где $S_{\text {евкл пер }}^{\mathrm{inf} \Lambda}-$ определенным образом перенормированное взаимодействие, ограниченное на конечный объем $\Lambda$. Затем рассматривается предельная мера
+
+\[
+\mu=\lim _{\Lambda \nearrow \mathbb{R}^{v+1}} \mu_{\lambda} .
+\]
+
+Эта программа в настоящее время полностью выполнена для полей в $\mathbb{R}^{2}$ (и нек-рых полей в $\mathbb{R}^{3}$ ), но наталкивается на значительные трудности для случая полей в $\mathbb{R}^{4}$.
+
+См. также Термодинамический предел для равновесных состояний.
+
+Лum.: [1] Са й мон Б., Модель $P[\varphi]_{2}$ евклидовой квантовой теории поля, пер. с англ., М., 1976; [2] Глимм Дж., Джаффе А., Математические методы квантовой физики, пер. с англ., М., 1984.</text_orig>
+</article>

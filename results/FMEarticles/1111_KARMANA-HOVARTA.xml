@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1111_KARMANA-HOVARTA" alphabetic_pos="1113">
+  <title>КАРМАНА-ХОВАРТА УРАВНЕНИЕ</title>
+  <authors>
+    <author>М. М. Любимцев</author>
+  </authors>
+  <pages>
+    <start>237</start>
+    <end>237</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М о н и н А. С., Я гл о м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967.</literature_orig>
+    <unit>
+      <author>Монин А. С.</author>
+      <author>Яглом А. М.</author>
+      <title>Статистическая гидромеханика. Механика турбулентности, ч. 2</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1111_1_KARMANA-HOVARTA">\begin{gathered}\frac{\partial B_{L L}}{\partial t}=\left(\frac{\partial}{\partial r}+\frac{4}{r}\right)\left(B_{L L, L}+2 v \frac{\partial B_{L L}}{\partial r}\right) ; \\B_{L L}(r, t)=\left\langle u_{L}(\boldsymbol{x}, t) u_{L}(\boldsymbol{x}+\boldsymbol{r}, t)\right\rangle ; \\B_{L L, L}(r, t)=\left\langle u_{L}^{2}(\boldsymbol{x}, t) u_{L}(\boldsymbol{x}+\boldsymbol{r}, t)\right\rangle .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1111_1_KARMANA-HOVARTA">u_{l}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1111_2_KARMANA-HOVARTA">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1111_3_KARMANA-HOVARTA">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1111_4_KARMANA-HOVARTA">v</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/1111_1_KARMANA-HOVARTA">
+      <rel_text>проверку</rel_text>
+      <target>http://libmeta.ru/fme/article/2926_STATISTIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1111_2_KARMANA-HOVARTA">
+      <rel_text>кинематич</rel_text>
+      <target>http://libmeta.ru/fme/article/1223_KINEMATIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1111_3_KARMANA-HOVARTA">
+      <rel_text>скорости</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1111_4_KARMANA-HOVARTA">
+      <rel_text>изотропной турбулентности</rel_text>
+      <target>http://libmeta.ru/fme/article/989_IZOTROPNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1111_5_KARMANA-HOVARTA">
+      <rel_text>скорости</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1111_6_KARMANA-HOVARTA">
+      <rel_text>корреляционные функции</rel_text>
+      <target>http://libmeta.ru/fme/article/1409_KORRELJaTsIONNAJa</target>
+    </relation>
+  </relations>
+  <text>уравнение, связывающее продольные URI[[http://libmeta.ru/fme/relation/1111_6_KARMANA-HOVARTA]]/URI второго и третьего порядка поля URI[[http://libmeta.ru/fme/relation/1111_5_KARMANA-HOVARTA]]/URI URI[[http://libmeta.ru/fme/relation/1111_4_KARMANA-HOVARTA]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1111_1_KARMANA-HOVARTA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1111_1_KARMANA-HOVARTA]]/URI$ продольная (вдоль $URI[[http://libmeta.ru/fme/formula/aux/1111_2_KARMANA-HOVARTA]]/URI$ ) компонента URI[[http://libmeta.ru/fme/relation/1111_3_KARMANA-HOVARTA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1111_3_KARMANA-HOVARTA]]/URI$ время, $URI[[http://libmeta.ru/fme/formula/aux/1111_4_KARMANA-HOVARTA]]/URI$ - URI[[http://libmeta.ru/fme/relation/1111_2_KARMANA-HOVARTA]]/URI. коэффициент вязкости, а угловые скобки означают осреднение. К.-Х.у. незамкнуто; оно, однако, имеет ряд следствий, допускающих экспериментальную URI[[http://libmeta.ru/fme/relation/1111_1_KARMANA-HOVARTA]]/URI.</text>
+  <text_orig>уравнение, связывающее продольные корреляционные функции второго и третьего порядка поля скорости изотропной турбулентности:
+
+\[
+\begin{gathered}
+\frac{\partial B_{L L}}{\partial t}=\left(\frac{\partial}{\partial r}+\frac{4}{r}\right)\left(B_{L L, L}+2 v \frac{\partial B_{L L}}{\partial r}\right) ; \\
+B_{L L}(r, t)=\left\langle u_{L}(\boldsymbol{x}, t) u_{L}(\boldsymbol{x}+\boldsymbol{r}, t)\right\rangle ; \\
+B_{L L, L}(r, t)=\left\langle u_{L}^{2}(\boldsymbol{x}, t) u_{L}(\boldsymbol{x}+\boldsymbol{r}, t)\right\rangle .
+\end{gathered}
+\]
+
+Здесь $u_{L}-$ продольная (вдоль $\boldsymbol{r}$ ) компонента скорости, $t-$ время, $v$ - кинематич. коэффициент вязкости, а угловые скобки означают осреднение. К.-Х.у. незамкнуто; оно, однако, имеет ряд следствий, допускающих экспериментальную проверку.
+
+Лит.: [1] М о н и н А. С., Я гл о м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967. М. М. Любимцев.</text_orig>
+</article>

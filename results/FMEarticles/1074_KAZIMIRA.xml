@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1074_KAZIMIRA" alphabetic_pos="1076">
+  <title>КАЗИМИРА ОПЕРАТОР</title>
+  <authors>
+    <author>В. П. Павлов</author>
+  </authors>
+  <pages>
+    <start>227</start>
+    <end>227</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Боголюбов Н. Н., Логунов А. А., Тодоров И.Т., Основы аксиоматического подхода в квантовой теории поля, М., 1969, гл. 2; [2] Эл л и о т Д ж., До б е р П., Симметрия в физике, пер. с англ., т. 1-2, М., 1983.</literature_orig>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <author>Логунов А. А.</author>
+      <author>Тодоров И. Т.</author>
+      <title>Основы аксиоматического подхода в квантовой теории поля</title>
+      <publication>М.</publication>
+      <year>1969</year>
+      <other>гл. 2</other>
+    </unit>
+    <unit>
+      <title>Эл л и о т Д ж., До б е р П., Симметрия в физике</title>
+      <publication>пер. с англ., т. 1-2, М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1074_1_KAZIMIRA">I^{2}=I_{1}^{2}+I_{2}^{2}+I_{3}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1074_2_KAZIMIRA">P^{2}=P_{\alpha}^{2}=P_{0}^{2}-P_{1}^{2}-P_{2}^{2}-P_{3}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1074_3_KAZIMIRA">W^{2}=W_{\alpha}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1074_4_KAZIMIRA">W_{\alpha}=\varepsilon_{\alpha \beta \gamma \delta} P_{\beta} M_{\gamma \delta} \text {, }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_1_KAZIMIRA">i_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_2_KAZIMIRA">i_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_3_KAZIMIRA">s O(3)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_4_KAZIMIRA">j(j+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_5_KAZIMIRA">i_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_6_KAZIMIRA">i^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_7_KAZIMIRA">i_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_8_KAZIMIRA">m_{\gamma \delta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_9_KAZIMIRA">p_{\beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_10_KAZIMIRA">m^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_11_KAZIMIRA">m^{2} j(j+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_12_KAZIMIRA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1074_13_KAZIMIRA">j</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1074_1_KAZIMIRA">
+      <rel_text>Лоренца преобразование</rel_text>
+      <target>http://libmeta.ru/fme/article/1660_LORENTsA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1074_2_KAZIMIRA">
+      <rel_text>Лоренца группа</rel_text>
+      <target>http://libmeta.ru/fme/article/1656_LORENTsA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1074_3_KAZIMIRA">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1074_4_KAZIMIRA">
+      <rel_text>масса</rel_text>
+      <target>http://libmeta.ru/fme/article/1728_MASS</target>
+    </relation>
+  </relations>
+  <text>оператор, составленный из генераторов $URI[[http://libmeta.ru/fme/formula/aux/1074_1_KAZIMIRA]]/URI$ представления группы Ли, коммутирующий со всеми $URI[[http://libmeta.ru/fme/formula/aux/1074_2_KAZIMIRA]]/URI$ и, следовательно, со всеми операторами представления. К. о. входят в полный набор П коммутирующих операторов, выделяемый из всевозможных эрмитовых функций генераторов, и составляют часть набора П, инвариантную относительно действия группы. Одновременные собственные значения К. о. классифицируют неприводимые представления группы.
+
+В квантовой теории физич. величинам соответствуют эрмитовы операторы, а одновременные собственные значения операторов полного набора П называются к в а нтов ы и и ч и с л а и состояния, преобразующегося по данному представлению группы. Напр., у группы вращений $URI[[http://libmeta.ru/fme/formula/aux/1074_3_KAZIMIRA]]/URI$ имеется К. о.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1074_1_KAZIMIRA]]/URI
+\]
+
+с собственным значением $URI[[http://libmeta.ru/fme/formula/aux/1074_4_KAZIMIRA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1074_5_KAZIMIRA]]/URI$ компоненты углового момента, а в качестве набора П можно взять $URI[[http://libmeta.ru/fme/formula/aux/1074_6_KAZIMIRA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1074_7_KAZIMIRA]]/URI$. У группы Пуанкаре два К. о.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1074_2_KAZIMIRA]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1074_3_KAZIMIRA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1074_4_KAZIMIRA]]/URI
+\]
+
+а $URI[[http://libmeta.ru/fme/formula/aux/1074_8_KAZIMIRA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1074_9_KAZIMIRA]]/URI$ - компоненты 4-момента и 4-импульса. Собственные значения К.о. равны соответственно $URI[[http://libmeta.ru/fme/formula/aux/1074_10_KAZIMIRA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1074_11_KAZIMIRA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1074_12_KAZIMIRA]]/URI$ - URI[[http://libmeta.ru/fme/relation/1074_4_KAZIMIRA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1074_13_KAZIMIRA]]/URI$ - полный момент URI[[http://libmeta.ru/fme/relation/1074_3_KAZIMIRA]]/URI.
+
+См. также URI[[http://libmeta.ru/fme/relation/1074_2_KAZIMIRA]]/URI, URI[[http://libmeta.ru/fme/relation/1074_1_KAZIMIRA]]/URI.</text>
+  <text_orig>оператор, составленный из генераторов $I_{\alpha}$ представления группы Ли, коммутирующий со всеми $I_{\alpha}$ и, следовательно, со всеми операторами представления. К. о. входят в полный набор П коммутирующих операторов, выделяемый из всевозможных эрмитовых функџий генераторов, и составляют часть набора П, инвариантную относительно действия группы. Одновременные собственные значения К. о. классифицируют неприводимые представления группы.
+
+В квантовой теории физич. величинам соответствуют эрмитовы операторы, а одновременные собственные значения операторов полного набора П называются к в а нтов ы и и ч и с л а и состояния, преобразующегося по данному представлению группы. Напр., у группы вращений $S O(3)$ имеется К. о.
+
+\[
+I^{2}=I_{1}^{2}+I_{2}^{2}+I_{3}^{2}
+\]
+
+с собственным значением $j(j+1)$, где $I_{i}-$ компоненты углового момента, а в качестве набора П можно взять $I^{2}$ и $I_{3}$. У группы Пуанкаре два К. о.:
+
+\[
+P^{2}=P_{\alpha}^{2}=P_{0}^{2}-P_{1}^{2}-P_{2}^{2}-P_{3}^{2}
+\]
+
+и
+
+\[
+W^{2}=W_{\alpha}^{2}
+\]
+
+где
+
+\[
+W_{\alpha}=\varepsilon_{\alpha \beta \gamma \delta} P_{\beta} M_{\gamma \delta} \text {, }
+\]
+
+а $M_{\gamma \delta}$ и $P_{\beta}$ - компоненты 4-момента и 4-импульса. Собственные значения К.о. равны соответственно $m^{2}$ и $m^{2} j(j+1)$, где $m$ - масса, $j$ - полный момент состояния.
+
+См. также Лоренца группа, Лоренца преобразование.
+
+Лит.: [1] Боголюбов Н. Н., Логунов А. А., Тодоров И.Т., Основы аксиоматического подхода в квантовой теории поля, М., 1969, гл. 2; [2] Эл л и о т Д ж., До б е р П., Симметрия в физике, пер. с англ., т. 1-2, М., 1983.
+
+В. П. Павлов.</text_orig>
+</article>

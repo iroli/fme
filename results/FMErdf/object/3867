@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_3867">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>d</mi><mi>l</mi><mo>&#x0003D;</mo><msqrt><mrow><msubsup><mi>L</mi><mrow><mi>u</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mi>d</mi><msup><mi>u</mi><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><msubsup><mi>L</mi><mrow><mi>v</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mi>d</mi><msup><mi>v</mi><mrow><mn>2</mn></mrow></msup><mo>&#x0002B;</mo><msubsup><mi>L</mi><mrow><mi>w</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mi>d</mi><msup><mi>w</mi><mrow><mn>2</mn></mrow></msup></mrow></msqrt><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$d l=\sqrt{L_{u}^{2} d u^{2}+L_{v}^{2} d v^{2}+L_{w}^{2} d w^{2}},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

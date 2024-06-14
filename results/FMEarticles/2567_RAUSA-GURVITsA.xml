@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2567_RAUSA-GURVITsA" alphabetic_pos="2569">
+  <title>РАУСА-ГУРВИЦА КРИТЕРИЙ, ГУРВИЦА КРИТЕРИЙ</title>
+  <authors/>
+  <pages>
+    <start>496</start>
+    <end>496</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Га н т мах е р Ф. Р., Теория матриц, 3 изд., М., 1967.Е. Н., Кузьмин.</literature_orig>
+    <unit>
+      <author>Гантмахер Ф. Р.</author>
+      <title>Теория матриц</title>
+      <publication>3 изд., М.</publication>
+      <year>1967</year>
+      <other>Кузьмин.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2567_1_RAUSA-GURVITsA">f(x)=a_{0} x^{n}+a_{1} x^{n-1}+\ldots+a_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2567_2_RAUSA-GURVITsA">a_{2-i}, a_{4-i}, \ldots, a_{2 n-i},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_1_RAUSA-GURVITsA">a_{0}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_2_RAUSA-GURVITsA">\delta_{i}, i=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_3_RAUSA-GURVITsA">2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_4_RAUSA-GURVITsA">г</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_5_RAUSA-GURVITsA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_6_RAUSA-GURVITsA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_7_RAUSA-GURVITsA">n, i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_8_RAUSA-GURVITsA">a_{k}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_9_RAUSA-GURVITsA">k&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_10_RAUSA-GURVITsA">k&gt;n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2567_11_RAUSA-GURVITsA">f(x)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/2567_1_RAUSA-GURVITsA">
+      <rel_text>теории устойчивости</rel_text>
+      <target>http://libmeta.ru/fme/article/1670_LJaPUNOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2567_2_RAUSA-GURVITsA">
+      <rel_text>многочленом</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2567_3_RAUSA-GURVITsA">
+      <rel_text>получен</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+  </relations>
+  <text>необходимое и достаточное условие того, чтобы все корни многочлена
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2567_1_RAUSA-GURVITsA]]/URI
+\]
+
+с действительными коэффициентами и $URI[[http://libmeta.ru/fme/formula/aux/2567_1_RAUSA-GURVITsA]]/URI$ имели отрицательные действительные части. Р.- Г. к. состоит в том, чтобы были положительными все главные миноры $URI[[http://libmeta.ru/fme/formula/aux/2567_2_RAUSA-GURVITsA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2567_3_RAUSA-GURVITsA]]/URI$, м а т р и цы $URI[[http://libmeta.ru/fme/formula/aux/2567_4_RAUSA-GURVITsA]]/URI$ у р в и ц $URI[[http://libmeta.ru/fme/formula/aux/2567_5_RAUSA-GURVITsA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2567_6_RAUSA-GURVITsA]]/URI$ - матрица порядка $URI[[http://libmeta.ru/fme/formula/aux/2567_7_RAUSA-GURVITsA]]/URI$-я строка к-рой имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2567_2_RAUSA-GURVITsA]]/URI
+\]
+
+и, по определению, $URI[[http://libmeta.ru/fme/formula/aux/2567_8_RAUSA-GURVITsA]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/2567_9_RAUSA-GURVITsA]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/2567_10_RAUSA-GURVITsA]]/URI$ (усло в и я Гурвица, условия Рауса - Гурвица). Этот критерий URI[[http://libmeta.ru/fme/relation/2567_3_RAUSA-GURVITsA]]/URI А. Гурвицем (a. Hurwitz, 1895) и является обобщением работы Э. Payca (e. Routh, 1877).
+
+Многочлен $URI[[http://libmeta.ru/fme/formula/aux/2567_11_RAUSA-GURVITsA]]/URI$, удовлетворяющий условиям Гурвица, называется URI[[http://libmeta.ru/fme/relation/2567_2_RAUSA-GURVITsA]]/URI Гурвица, или устойчивым м ногочле ном, что связано с применениями Р.Г. к. в URI[[http://libmeta.ru/fme/relation/2567_1_RAUSA-GURVITsA]]/URI колебательных систем.</text>
+  <text_orig>необходимое и достаточное условие того, чтобы все корни многочлена
+
+\[
+f(x)=a_{0} x^{n}+a_{1} x^{n-1}+\ldots+a_{n}
+\]
+
+с действительными коэффициентами и $a_{0}&gt;0$ имели отрицательные действительные части. Р.- Г. к. состоит в том, чтобы были положительными все главные миноры $\Delta_{i}, i=1$, $2, \ldots, n$, м а т р и цы $Г$ у р в и ц $H$, где $H$ - матрица порядка $n, i$-я строка к-рой имеет вид
+
+\[
+a_{2-i}, a_{4-i}, \ldots, a_{2 n-i},
+\]
+
+и, по определению, $a_{k}=0$, если $k&lt;0$ или $k&gt;n$ (усло в и я Гурвица, условия Рауса - Гурвица). Этот критерий получен А. Гурвицем (A. Hurwitz, 1895) и является обобщением работы Э. Payca (E. Routh, 1877).
+
+Многочлен $f(x)$, удовлетворяющий условиям Гурвица, называется многочленом Гурвица, или устойчивым м ногочле ном, что связано с применениями Р.Г. к. в теории устойчивости колебательных систем.
+
+Лит.: [1] Га н т мах е р Ф. Р., Теория матриц, 3 изд., М., 1967.
+
+Е. Н., Кузьмин.</text_orig>
+</article>

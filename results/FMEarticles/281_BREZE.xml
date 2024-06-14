@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/281_BREZE" alphabetic_pos="281">
+  <title>БРЕЗЕР</title>
+  <authors/>
+  <pages>
+    <start>63</start>
+    <end>63</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Т а х а а ж я н Л. А., Ф а дд е е в Л. Д., Гамильтонов подход в теории солитонов, М., 1986.</literature_orig>
+    <unit>
+      <author>Тахаажян Л. А.</author>
+      <author>Фаддеев Л. Д.</author>
+      <title>Гамильтонов подход в теории солитонов</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/281_1_BREZE">u_{t t}-u_{x x}+\sin u=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/281_2_BREZE">u(x, t)=4 \operatorname{arctg}\left\{\frac{v}{\mu} \frac{\sin \left[\left(\omega_{1}\left(1-v^{2}\right)^{-1 / 2}\right)\left(t-v x+\varphi_{0}\right)\right]}{\operatorname{ch}\left[\left(\omega_{2}\left(1-v^{2}\right)^{-1 / 2}\right)\left(x-v t-x_{0}\right)\right]}\right\},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/281_1_BREZE">\mu=\operatorname{re} E, \quad v=\operatorname{Im} E, \quad \omega_{1}=\operatorname{Re} E /|E|, \quad \omega_{2}=\operatorname{Im} E /|E|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/281_2_BREZE">v=\left(1-|E|^{2}\right) /\left(1+|E|^{2}\right), E-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/281_3_BREZE">(\operatorname{im} E&gt;0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/281_4_BREZE">\left({ }^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/281_5_BREZE">\left(^{*}\right)</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/281_1_BREZE">
+      <rel_text>Беклунда преобразование</rel_text>
+      <target>http://libmeta.ru/fme/article/145_BEKLUNDA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/281_2_BREZE">
+      <rel_text>заряд</rel_text>
+      <target>http://libmeta.ru/fme/article/953_ZARJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/281_3_BREZE">
+      <rel_text>антикинка</rel_text>
+      <target>http://libmeta.ru/fme/article/93_ANTIKVAR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/281_4_BREZE">
+      <rel_text>связанное состояние</rel_text>
+      <target>http://libmeta.ru/fme/article/2702_SVJaZANNOE</target>
+    </relation>
+  </relations>
+  <text>частицеподобное решение нелинейного эволюционного уравнения с внутренними степенями свободы. Напр., это решение уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/281_1_BREZE]]/URI
+\]
+
+к-рое имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/281_2_BREZE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/281_1_BREZE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/281_2_BREZE]]/URI$ комплексное число $URI[[http://libmeta.ru/fme/formula/aux/281_3_BREZE]]/URI$. Такое решение уравнения $URI[[http://libmeta.ru/fme/formula/aux/281_4_BREZE]]/URI$ называется также д в о й н ы м с о л и то н о м и интерпретируется как релятивистское URI[[http://libmeta.ru/fme/relation/281_4_BREZE]]/URI кинка и URI[[http://libmeta.ru/fme/relation/281_3_BREZE]]/URI. Топологический URI[[http://libmeta.ru/fme/relation/281_2_BREZE]]/URI Б. уравнения $URI[[http://libmeta.ru/fme/formula/aux/281_5_BREZE]]/URI$ равен нулю.
+
+См. также URI[[http://libmeta.ru/fme/relation/281_1_BREZE]]/URI.</text>
+  <text_orig>частицеподобное решение нелинейного эволюционного уравнения с внутренними степенями свободы. Напр., это решение уравнения
+
+\[
+u_{t t}-u_{x x}+\sin u=0
+\]
+
+к-рое имеет вид:
+
+\[
+u(x, t)=4 \operatorname{arctg}\left\{\frac{v}{\mu} \frac{\sin \left[\left(\omega_{1}\left(1-v^{2}\right)^{-1 / 2}\right)\left(t-v x+\varphi_{0}\right)\right]}{\operatorname{ch}\left[\left(\omega_{2}\left(1-v^{2}\right)^{-1 / 2}\right)\left(x-v t-x_{0}\right)\right]}\right\},
+\]
+
+где $\mu=\operatorname{Re} E, \quad v=\operatorname{Im} E, \quad \omega_{1}=\operatorname{Re} E /|E|, \quad \omega_{2}=\operatorname{Im} E /|E|$, $v=\left(1-|E|^{2}\right) /\left(1+|E|^{2}\right), E-$ комплексное число $(\operatorname{Im} E&gt;0)$. Такое решение уравнения $\left({ }^{*}\right)$ называется также д в о й н ы м с о л и то н о м и интерпретируется как релятивистское связанное состояние кинка и антикинка. Топологический заряд Б. уравнения $\left(^{*}\right)$ равен нулю.
+
+См. также Беклунда преобразование.
+
+Лит.: [1] Т а х а а ж я н Л. А., Ф а дд е е в Л. Д., Гамильтонов подход в теории солитонов, М., 1986.</text_orig>
+</article>

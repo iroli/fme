@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1898_NEJMANA" alphabetic_pos="1900">
+  <title>НЕЙМАНА ФУНКЦИИ</title>
+  <authors/>
+  <pages>
+    <start>377</start>
+    <end>377</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1898_1_NEJMANA">N_{p}(x)=\lim _{k \rightarrow p} \frac{J_{k}(x) \cos k \pi-J_{-k}(x)}{\sin k \pi} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1898_2_NEJMANA">N_{p}(x) \approx \sqrt{\frac{2}{\pi x}} \sin \left(x-\frac{1}{2} p \pi-\frac{\pi}{4}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1898_3_NEJMANA">\begin{gathered}N_{p-1}(x)+N_{p+1}(x)=(2 p / x) N_{p}(x), \\N_{p-1}(x)-N_{p+1}(x)=2 N_{p}^{\prime}(x) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1898_4_NEJMANA">N_{-n}(x)=(-1)^{n} N_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1898_5_NEJMANA">N_{0}(x) \approx-\frac{2}{\pi} \ln \left(\frac{2}{\gamma x}\right), \quad N_{n}(x) \approx-\frac{(n-1) !}{\pi}\left(\frac{2}{x}\right)^{n},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1898_6_NEJMANA">N_{1 / 2}(x)=-\sqrt{\frac{2}{\pi x}} \cos x, \quad N_{-1 / 2}(x)=\sqrt{\frac{2}{\pi x}} \sin x .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_1_NEJMANA">n_{p}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_2_NEJMANA">\left.Y_{p}(x)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_3_NEJMANA">j_{p}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_4_NEJMANA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_5_NEJMANA">x \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_6_NEJMANA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_7_NEJMANA">p=n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_8_NEJMANA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_9_NEJMANA">\ln \gamma=C=0,5772 \ldots-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_10_NEJMANA">p=n+1 / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1898_11_NEJMANA">\begin{array}{ll}\text { Лит. см. при ст. Цилиндрические функции. } &amp; \text { В. И. Битюиков. }\end{array}</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>цилиндрические функции 2-го рода. Н. ф. $URI[[http://libmeta.ru/fme/formula/aux/1898_1_NEJMANA]]/URI$ [иногда их называют также функци ям и Вебера и применяют обозначение $URI[[http://libmeta.ru/fme/formula/aux/1898_2_NEJMANA]]/URI$ могут быть определены через Бесселя функции $URI[[http://libmeta.ru/fme/formula/aux/1898_3_NEJMANA]]/URI$ следующим образом:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1898_1_NEJMANA]]/URI
+\]
+
+Н. ф. действительны при действительном положительном $URI[[http://libmeta.ru/fme/formula/aux/1898_4_NEJMANA]]/URI$ и стремятся к нулю при $URI[[http://libmeta.ru/fme/formula/aux/1898_5_NEJMANA]]/URI$. При больших $URI[[http://libmeta.ru/fme/formula/aux/1898_6_NEJMANA]]/URI$ справедливо асимптотич. представление:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1898_2_NEJMANA]]/URI
+\]
+
+Н. ф. связаны рекуррентными формулами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1898_3_NEJMANA]]/URI
+\]
+
+При $URI[[http://libmeta.ru/fme/formula/aux/1898_7_NEJMANA]]/URI$ целых:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1898_4_NEJMANA]]/URI
+\]
+
+для малых $URI[[http://libmeta.ru/fme/formula/aux/1898_8_NEJMANA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1898_5_NEJMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1898_9_NEJMANA]]/URI$ постоянная Эйлера.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_3332a03cf51956e92002g-1.jpg?height=629&amp;width=738&amp;top_left_y=850&amp;top_left_x=106)
+
+Графики функций Неймана.
+
+Н. ф. для «полуцелого» порядка $URI[[http://libmeta.ru/fme/formula/aux/1898_10_NEJMANA]]/URI$ выражаются через тригонометрич. функции, в частности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1898_6_NEJMANA]]/URI
+\]
+
+Н. ф. предложены К. Нейманом (к. Neumann, 1867).
+
+$URI[[http://libmeta.ru/fme/formula/aux/1898_11_NEJMANA]]/URI$</text>
+  <text_orig>цилиндрические функции 2-го рода. Н. ф. $N_{p}(x)$ [иногда их называют также функци ям и Вебера и применяют обозначение $\left.Y_{p}(x)\right]$ могут быть определены через Бесселя функции $J_{p}(x)$ следующим образом:
+
+\[
+N_{p}(x)=\lim _{k \rightarrow p} \frac{J_{k}(x) \cos k \pi-J_{-k}(x)}{\sin k \pi} .
+\]
+
+Н. ф. действительны при действительном положительном $x$ и стремятся к нулю при $x \rightarrow \infty$. При больших $x$ справедливо асимптотич. представление:
+
+\[
+N_{p}(x) \approx \sqrt{\frac{2}{\pi x}} \sin \left(x-\frac{1}{2} p \pi-\frac{\pi}{4}\right) .
+\]
+
+Н. ф. связаны рекуррентными формулами
+
+\[
+\begin{gathered}
+N_{p-1}(x)+N_{p+1}(x)=(2 p / x) N_{p}(x), \\
+N_{p-1}(x)-N_{p+1}(x)=2 N_{p}^{\prime}(x) .
+\end{gathered}
+\]
+
+При $p=n$ целых:
+
+\[
+N_{-n}(x)=(-1)^{n} N_{n}(x)
+\]
+
+для малых $x$ :
+
+\[
+N_{0}(x) \approx-\frac{2}{\pi} \ln \left(\frac{2}{\gamma x}\right), \quad N_{n}(x) \approx-\frac{(n-1) !}{\pi}\left(\frac{2}{x}\right)^{n},
+\]
+
+где $\ln \gamma=C=0,5772 \ldots-$ постоянная Эйлера.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_3332a03cf51956e92002g-1.jpg?height=629&amp;width=738&amp;top_left_y=850&amp;top_left_x=106)
+
+Графики функций Неймана.
+
+Н. ф. для «полуцелого» порядка $p=n+1 / 2$ выражаются через тригонометрич. функции, в частности
+
+\[
+N_{1 / 2}(x)=-\sqrt{\frac{2}{\pi x}} \cos x, \quad N_{-1 / 2}(x)=\sqrt{\frac{2}{\pi x}} \sin x .
+\]
+
+Н. ф. предложены К. Нейманом (К. Neumann, 1867).
+
+$\begin{array}{ll}\text { Лит. см. при ст. Цилиндрические функции. } &amp; \text { В. И. Битюиков. }\end{array}$</text_orig>
+</article>

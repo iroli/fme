@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3387_TsENTRA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3387_TsENTRA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2651</core:url>
+    <lbm:descriptor><![CDATA[ЦЕНТРА МАСС СИСТЕМА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#7018"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20024"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20025"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20026"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20027"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20028"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20029"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7428"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20030"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20031"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1539"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20032"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20033"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20034"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>система отсчета, в которой центр масс покоится. Конфигурационное пространство <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20029">$$\mathbb{r}^{3 N}$$</a> координат $URI[[http://libmeta.ru/fme/formula/aux/3387_2_TsENTRA]]/URI$ системы $URI[[http://libmeta.ru/fme/formula/aux/3387_3_TsENTRA]]/URI$ частиц представляется в виде ортогональной суммы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20030">$$\mathbb{r}_{\rho}^{3} \oplus \mathbb{R}_{x}^{3(N-1)}$$</a>, где<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20025">$$\rho=\left(\sum_{i=1}^{N} m_{i}\right)^{-1}\left(m_{1} r_{1}+m_{2} r_{2}+\ldots+m_{N} r_{N}\right)$$</a><BR/></P><P>- координаты центра масс, а <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20031">$$x \in \mathbb{R}^{3(N-1)}$$</a> - относительные координаты. Ц. м. с. обычно используется для описания систем нескольких частиц. Оператор энергии таких систем имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20026">$$H=-\sum_{i=1}^{N}\left(2 m_{i}\right)^{-1} \Delta_{r_{i}}+V\left(r_{1}, r_{2}, \ldots, r_{N}\right)$$</a><BR/></P><P>где функция $URI[[http://libmeta.ru/fme/formula/aux/3387_6_TsENTRA]]/URI$ трансляционно инвариантна, то есть<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20032">$$v\left(r_{1}+\lambda, r_{2}+\lambda, \ldots, r_{N}+\lambda\right)=V\left(r_{1}, r_{2}, r_{3}, \ldots, r_{N}\right), \lambda \in \mathbb{R}^{3}$$</a>.<BR/></P><P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">Оператор</a> $URI[[http://libmeta.ru/fme/formula/aux/3387_8_TsENTRA]]/URI$ приводится к виду<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20027">$$H=-\left(2 \sum_{i=1}^{N} m_{i}\right)^{-1} \Delta_{\rho}+H_{\mathrm{cm}},$$</a><BR/></P><P>где <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">первое</a> тривиальное слагаемое - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> кинетич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a> движения системы $URI[[http://libmeta.ru/fme/formula/aux/3387_9_TsENTRA]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> как целого, a <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20033">$$h_{\mathrm{cm}}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a> $URI[[http://libmeta.ru/fme/formula/aux/3387_11_TsENTRA]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> в Ц. м. с. Если в качестве координат $URI[[http://libmeta.ru/fme/formula/aux/3387_12_TsENTRA]]/URI$ взять набор приведенных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3568_JaKOBI">Якоби координат</a>, то <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20034">$$h_{\mathrm{cm}}$$</a> дается формулой:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20028">$$H_{\mathrm{cm}}=-\Delta_{x}+V(x), x \in \mathbb{R}^{3(N-1)} .$$</a><BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#7018">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#719">Гольдбергер М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#122">Ватсон К.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#7018">Теория столкновений, пер. с англ., М., 1967</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#20024">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#127">Ри Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#351">Саймон Б.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20024">Методы современной математической физики, пер. с англ., т. 3, Теория $\begin{array}{ll}\text { рассеяния, М., 1982, С.Л. Яковлев. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[система отсчета, в которой центр масс покоится. Конфигурационное пространство $\mathbb{R}^{3 N}$ координат $r_{i}$ системы $N$ частиц представляется в виде ортогональной суммы $\mathbb{R}_{\rho}^{3} \oplus \mathbb{R}_{x}^{3(N-1)}$, где
+
+\[
+\rho=\left(\sum_{i=1}^{N} m_{i}\right)^{-1}\left(m_{1} r_{1}+m_{2} r_{2}+\ldots+m_{N} r_{N}\right)
+\]
+
+- координаты центра масс, а $x \in \mathbb{R}^{3(N-1)}$ - относительные координаты. Ц. м. с. обычно используется для описания систем нескольких частиц. Оператор энергии таких систем имеет вид:
+
+\[
+H=-\sum_{i=1}^{N}\left(2 m_{i}\right)^{-1} \Delta_{r_{i}}+V\left(r_{1}, r_{2}, \ldots, r_{N}\right)
+\]
+
+где функция $V-$ трансляционно инвариантна, то есть
+
+$V\left(r_{1}+\lambda, r_{2}+\lambda, \ldots, r_{N}+\lambda\right)=V\left(r_{1}, r_{2}, r_{3}, \ldots, r_{N}\right), \lambda \in \mathbb{R}^{3}$.
+
+Оператор $H$ приводится к виду
+
+\[
+H=-\left(2 \sum_{i=1}^{N} m_{i}\right)^{-1} \Delta_{\rho}+H_{\mathrm{cm}},
+\]
+
+где первое тривиальное слагаемое - оператор кинетич. энергии движения системы $N$ частиц как целого, a $H_{\mathrm{cm}}-$ оператор энергии $N$ частиц в Ц. м. с. Если в качестве координат $x$ взять набор приведенных Якоби координат, то оператор $H_{\mathrm{cm}}$ дается формулой:
+
+\[
+H_{\mathrm{cm}}=-\Delta_{x}+V(x), x \in \mathbb{R}^{3(N-1)} .
+\]
+
+Лum.: [1] Гольдбергер М., Ватсон К., Теория столкновений, пер. с англ., М., 1967; [2] Р и Д., Са йм о н Б., Методы современной математической физики, пер. с англ., т. 3, Теория $\begin{array}{ll}\text { рассеяния, М., } 1982 . & \text { С. П. Меркурьев, С.Л. Яковлев. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3568_JaKOBI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_14929">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msup><mi>Q</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>i</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x0003D;</mo><mfrac><mrow><mn>3</mn><msup><mi>m</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>e</mi><mo stretchy="false">&#x00029;</mo></mrow></msup></mrow><mrow><msup><mi>m</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>i</mi><mo stretchy="false">&#x00029;</mo></mrow></msup></mrow></mfrac><mfrac><mrow><mi>n</mi></mrow><mrow><msup><mi>&#x003C4;</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>e</mi><mo stretchy="false">&#x00029;</mo></mrow></msup></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>T</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>e</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x02212;</mo><msup><mi>T</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>i</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace linebreak="newline" /><msup><mi>Q</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>e</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>e</mi><mi>n</mi></mrow></mfrac><mrow><mi mathvariant="bold-italic">R</mi><mi mathvariant="bold-italic">j</mi></mrow><mo>&#x02212;</mo><msup><mi>Q</mi><mrow><mo stretchy="false">&#x00028;</mo><mi>i</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}Q^{(i)}=\frac{3 m^{(e)}}{m^{(i)}} \frac{n}{\tau^{(e)}}\left(T^{(e)}-T^{(i)}\right), \\Q^{(e)}=\frac{1}{e n} \boldsymbol{R j}-Q^{(i)} .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1249_KLASSIChESKIJ" alphabetic_pos="1251">
+  <title>КЛАССИЧЕСКИЙ АНСАМБЛЬ</title>
+  <authors/>
+  <pages>
+    <start>270</start>
+    <end>270</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Р ю эл ь Д., Статистическая механика, пер. с англ., М., 1971.</literature_orig>
+    <unit>
+      <author>Рюэль Д.</author>
+      <title>Статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1249_1_KLASSIChESKIJ">F(t)=\int_{\Omega} \varphi(\omega ; 0) d \mu(\omega ; t) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1249_2_KLASSIChESKIJ">d \omega=\prod_{i=1}^{N} d x_{i} d p_{i}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_1_KLASSIChESKIJ">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_2_KLASSIChESKIJ">f(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_3_KLASSIChESKIJ">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_4_KLASSIChESKIJ">\varphi(\omega ; t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_5_KLASSIChESKIJ">\omega \in \Omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_6_KLASSIChESKIJ">\mathscr{d}(\omega ; t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_7_KLASSIChESKIJ">d \mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_8_KLASSIChESKIJ">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_9_KLASSIChESKIJ">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_10_KLASSIChESKIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_11_KLASSIChESKIJ">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_12_KLASSIChESKIJ">\mathbb{r}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_13_KLASSIChESKIJ">x_{i} \in \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_14_KLASSIChESKIJ">p_{i}, i=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_15_KLASSIChESKIJ">2, \ldots, N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1249_16_KLASSIChESKIJ">d \mu</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1249_1_KLASSIChESKIJ">
+      <rel_text>Эквивалентность ансамблей</rel_text>
+      <target>http://libmeta.ru/fme/article/3490_EKVIVALENTNOST'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1249_2_KLASSIChESKIJ">
+      <rel_text>эквивалентным</rel_text>
+      <target>http://libmeta.ru/fme/article/3492_EKVIDISTANT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1249_3_KLASSIChESKIJ">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>Совокупность Точек в фазовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/1249_1_KLASSIChESKIJ]]/URI$ (пространстве конфигур а ц и й) классической динамической системы, каждой из которых приписывается определенный вес (мера). Макроскопич. наблюдаемая $URI[[http://libmeta.ru/fme/formula/aux/1249_2_KLASSIChESKIJ]]/URI$ в момент времени $URI[[http://libmeta.ru/fme/formula/aux/1249_3_KLASSIChESKIJ]]/URI$, соответствующая динамич. функции $URI[[http://libmeta.ru/fme/formula/aux/1249_4_KLASSIChESKIJ]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1249_5_KLASSIChESKIJ]]/URI$, задается соотношением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1249_1_KLASSIChESKIJ]]/URI
+\]
+
+Плотность $URI[[http://libmeta.ru/fme/formula/aux/1249_6_KLASSIChESKIJ]]/URI$ меры $URI[[http://libmeta.ru/fme/formula/aux/1249_7_KLASSIChESKIJ]]/URI$ называется фун кц и е й р ac п ре де ле н ия. Функция распределения удовлетворяет Лиувилля уравнению и интерпретируется как плотность вероятности нахождения системы в точке $URI[[http://libmeta.ru/fme/formula/aux/1249_8_KLASSIChESKIJ]]/URI$ фазового пространства в момент времени $URI[[http://libmeta.ru/fme/formula/aux/1249_9_KLASSIChESKIJ]]/URI$. В случае классич. непрерывных систем из $URI[[http://libmeta.ru/fme/formula/aux/1249_10_KLASSIChESKIJ]]/URI$ точек в $URI[[http://libmeta.ru/fme/formula/aux/1249_11_KLASSIChESKIJ]]/URI$-мерном конфигурационном пространстве $URI[[http://libmeta.ru/fme/formula/aux/1249_12_KLASSIChESKIJ]]/URI$, положение к-рых $URI[[http://libmeta.ru/fme/formula/aux/1249_13_KLASSIChESKIJ]]/URI$, а импульсы $URI[[http://libmeta.ru/fme/formula/aux/1249_14_KLASSIChESKIJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1249_15_KLASSIChESKIJ]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1249_2_KLASSIChESKIJ]]/URI
+\]
+
+В равновесном случае мера $URI[[http://libmeta.ru/fme/formula/aux/1249_16_KLASSIChESKIJ]]/URI$ не зависит от времени. В современной статистич. URI[[http://libmeta.ru/fme/relation/1249_3_KLASSIChESKIJ]]/URI используют меры, соответствующие ансамблям Гиббса: микроканоническому, каноническому и большому каноническому. Принято считать, что в термодинамическом пределе все эти ансамбли приводят к URI[[http://libmeta.ru/fme/relation/1249_2_KLASSIChESKIJ]]/URI описаниям К. а. (см. URI[[http://libmeta.ru/fme/relation/1249_1_KLASSIChESKIJ]]/URI).</text>
+  <text_orig>СовоКУПНОСть ТОчеК в фазовом пространстве $\Omega$ (пространстве конфигур а ц и й) классической динамической системы, каждой из которых приписывается определенный вес (мера). Макроскопич. наблюдаемая $F(t)$ в момент времени $t$, соответствующая динамич. функции $\varphi(\omega ; t)$, где $\omega \in \Omega$, задается соотношением
+
+\[
+F(t)=\int_{\Omega} \varphi(\omega ; 0) d \mu(\omega ; t) .
+\]
+
+Плотность $\mathscr{D}(\omega ; t)$ меры $d \mu$ называется фун кц и е й р ac п ре де ле н ия. Функщия распределения удовлетворяет Лиувилля уравнению и интерпретируется как плотность вероятности нахождения системы в точке $\omega$ фазового пространства в момент времени $t$. В случае классич. непрерывных систем из $N$ точек в $v$-мерном конфигурационном пространстве $\mathbb{R}^{v}$, положение к-рых $x_{i} \in \mathbb{R}^{v}$, а импульсы $p_{i}, i=1$, $2, \ldots, N$,
+
+\[
+d \omega=\prod_{i=1}^{N} d x_{i} d p_{i}
+\]
+
+В равновесном случае мера $d \mu$ не зависит от времени. В современной статистич. механике используют меры, соответствующие ансамблям Гиббса: микроканоническому, каноническому и большому каноническому. Принято считать, что в термодинамическом пределе все эти ансамбли приводят к эквивалентным описаниям К. а. (см. Эквивалентность ансамблей).
+
+Лит.: [1] Р ю эл ь Д., Статистическая механика, пер. с англ., М., 1971.</text_orig>
+</article>

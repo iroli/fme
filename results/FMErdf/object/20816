@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_20816">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x003A0;</mi><mrow><mi>J</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>u</mi><mi>;</mi><mi>a</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msup><mi>k</mi><mrow><mn>2</mn></mrow></msup><mo>sn</mo><mi>a</mi><mi>&#x000B7;</mi><mo>cn</mo><mi>a</mi><mi>&#x000B7;</mi><mo>dn</mo><mi>a</mi><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>u</mi></mrow></msubsup><mfrac><mrow><msup><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">n</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>u</mi><mi>d</mi><mi>u</mi></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>k</mi><mrow><mn>2</mn></mrow></msup><msup><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">n</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>u</mi><msup><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">n</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>a</mi></mrow></mfrac><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\Pi_{J}(u ; a)=k^{2} \operatorname{sn} a \cdot \operatorname{cn} a \cdot \operatorname{dn} a \int_{0}^{u} \frac{\mathrm{sn}^{2} u d u}{1-k^{2} \mathrm{sn}^{2} u \mathrm{sn}^{2} a},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

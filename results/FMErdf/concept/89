@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1080_KALIBROVOChNO">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1080_KALIBROVOChNO</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/89</core:url>
+    <lbm:descriptor><![CDATA[КАЛИБРОВОЧНО ЭКВИВАЛЕНТНЫЕ УРАВНЕНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#877"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#880"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#881"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_882"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_883"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_884"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_885"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_886"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>уравнения нулевой кривизны:<BR/></P><P>\[
+URI[[http://libmeta.ru/fme/formula/main/1080_1_KALIBROVOChNO]]/URI
+\]<BR/></P><P>порождаемые калибровочно эквивалентными системами уравнений Захарова-Шабата. Наиболее известной парой К. э. у. являются уравнение Ландау-Лифшица с анизотропией типа «легкая ось»:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_883">$$\boldsymbol{S}_{t}=\boldsymbol{S} \times \boldsymbol{S}_{x x}+\beta(\boldsymbol{S}) \boldsymbol{S} \times n, \boldsymbol{S}^{2}=1, \beta \geqslant 0,$$</a><BR/></P><P>и нелинейное уравнение Шредингера (случай притяжения) (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#880">[1]</a>):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_884">$$i u_{t}+u_{x x}+2|u|^{2} u=0 .$$</a><BR/></P><P>Другой такой парой являются эллиптич. уравнение синусгордона<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_885">$$\varphi_{x x}+\varphi_{y y}=\sin \varphi$$</a><BR/></P><P>и уравнение ферромагнетика Гейзенберга вида (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#881">[2]</a>):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_886">$$S_{x x}+S_{y y}+\left(S_{x}^{2}+S_{y}^{2}\right) S=0, S^{2}=1 .$$</a><BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#880">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#878">Тахтаджян Л. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#879">Фаддеев Л. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#880">Гамильтонов подход в теории солитонов, М., 1986</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#881">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Додд Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#881">Эйл бек Дж., Гиббон Дж., Моррис Х., Солитоны и нелинейные волновые уравнения, пер. с англ., М., 1988</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#877">В. П. Котляров</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[уравнения нулевой кривизны:
+
+\[
+U_{t}-V_{x}+[U, V]=0
+\]
+
+порождаемые калибровочно эквивалентными системами уравнений Захарова-Шабата. Наиболее известной парой К. э. у. являются уравнение Ландау-Лифшица с анизотропией типа «легкая ось»:
+
+\[
+\boldsymbol{S}_{t}=\boldsymbol{S} \times \boldsymbol{S}_{x x}+\beta(\boldsymbol{S}) \boldsymbol{S} \times n, \boldsymbol{S}^{2}=1, \beta \geqslant 0,
+\]
+
+и нелинейное уравнение Шредингера (случай притяжения) (см. [1]):
+
+\[
+i u_{t}+u_{x x}+2|u|^{2} u=0 .
+\]
+
+Другой такой парой являются эллиптич. уравнение синусГордона
+
+\[
+\varphi_{x x}+\varphi_{y y}=\sin \varphi
+\]
+
+и уравнение ферромагнетика Гейзенберга вида (см. [2]):
+
+\[
+S_{x x}+S_{y y}+\left(S_{x}^{2}+S_{y}^{2}\right) S=0, S^{2}=1 .
+\]
+
+Лит.: [1] Тахтаджян Л. А., Фадде е в Л. Д., Гамильтонов подход в теории солитонов, М., 1986; [2] Додд Р., Эйл бек Дж., Гиббон Дж., Моррис Х., Солитоны и нелинейные волновые уравнения, пер. с англ., М., 1988.
+
+В. П. Котляров.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

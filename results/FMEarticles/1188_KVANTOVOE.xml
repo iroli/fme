@@ -1,0 +1,624 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1188_KVANTOVOE" alphabetic_pos="1190">
+  <title>КВАНТОВОЕ ИЗМЕРЕНИЕ</title>
+  <authors>
+    <author>А. С. Холево</author>
+  </authors>
+  <pages>
+    <start>256</start>
+    <end>258</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Нейман Дж., Математические основы квантовой механики, пер. с нем., М., 1964; [2] Проспери Дж., в сб.: Квантовые случайные процессы и открытые системы, пер. с англ., М., 1988; [3] Хе л с т ро м К., Квантовая теория проверки гипотез и оценивания, пер. с англ., М., 1979; [4] Хол е в о А. С., Вероятностные и статистические аспекты квантовой теории, М., 1980; [5] Davies E. B., Quantum theory of open sistems, L.- N.Y., 1976; [6] d'espagnat B., Conceptual foundation of quantum mechanics, 2 ed., L., 1976; [7] Hol e vo A. S., &quot;pros. Int. Congress of Math.», Berkeley, 1986, p. 1011-20; [8] Ludwig G., Foundations of quantum mechanics, v. 1, N. Y., 1983; [9] O za wa M., «j. Math. Phys.», 1984, v. 25, № 1, p. 79-87; [10] Quantum optics, experimental gravity and measurement theory, N. Y., 1983.</literature_orig>
+    <unit>
+      <title>Нейман Дж., Математические основы квантовой механики</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Проспери Дж., в сб.: Квантовые случайные процессы и открытые системы</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Хелстром К.</author>
+      <title>Квантовая теория проверки гипотез и оценивания</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Холево А. С.</author>
+      <title>Вероятностные и статистические аспекты квантовой теории</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Davies E. B.</author>
+      <title>Quantum theory of open sistems, L.- N.Y.</title>
+      <publication/>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>d'espagnat B.</author>
+      <title>Conceptual foundation of quantum mechanics, 2 ed., L.</title>
+      <publication/>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Holevo A. S.</author>
+      <title>&quot;pros. Int. Congress of Math.», Berkeley</title>
+      <publication/>
+      <year>1986</year>
+      <other>p. 1011-20</other>
+    </unit>
+    <unit>
+      <author>Ludwig G.</author>
+      <title>Foundations of quantum mechanics, v. 1, N. Y.</title>
+      <publication/>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ozawa M.</author>
+      <title>«j. Math. Phys.»</title>
+      <publication/>
+      <year>1984</year>
+      <other>v. 25, № 1, p. 79-87</other>
+    </unit>
+    <unit>
+      <title>Quantum optics, experimental gravity and measurement theory, N. Y.</title>
+      <publication/>
+      <year>1983</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_1_KVANTOVOE">\mu_{\rho}(B)=\operatorname{Tr} \rho \mathscr{\mu}(B), B \in \mathscr{B}(X),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_2_KVANTOVOE">\begin{gathered}\mathscr{M}(B)=\frac{m}{2 \pi \hbar} \iint_{B}|x, v\rangle\langle x, v| d x d v ; \\B \in \mathscr{B}\left(\mathbb{R}^{2}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_3_KVANTOVOE">\mu_{\rho}(d x d v)=\frac{m}{2 \pi \hbar}\langle x, v|\rho| x, v\rangle,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_4_KVANTOVOE">\mathscr{\mu}(B)[\rho] / \operatorname{Tr} \mathscr{\mu}(B)[\rho] .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_5_KVANTOVOE">\mu_{\rho}(B)=\operatorname{Tr} \mu(B)[\rho]=\operatorname{Tr} \rho \mu(B)^{*}[I],</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_6_KVANTOVOE">\mu(B)=\mu(B)^{*}[I] ; B \in \Re(X) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_7_KVANTOVOE">\mathscr{M}(B)[\rho]=\sum_{x \in B} E(x) \rho E(x) ; \quad B \in \mathscr{B}(\mathbb{R}),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_8_KVANTOVOE">E(B)=\sum_{x \in B} E(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_9_KVANTOVOE">\mathscr{M}(B)[\rho]=\frac{m}{2 \pi \hbar} \iint_{B}|x, v\rangle\langle x, v|\rho| x, v\rangle\langle x, v| d x d v ; \quad B \in \mathscr{B}\left(\mathbb{R}^{2}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_10_KVANTOVOE">\mu(B)[\rho]=\operatorname{Tr}_{0} U\left(\rho \otimes \rho_{0}\right) U^{*}\left(I \otimes \mu_{0}(B)\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_11_KVANTOVOE">\rho \rightarrow \rho_{g}=V_{g} \rho V_{g}^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_12_KVANTOVOE">V_{g}^{*} \cdot \mu(g B) V_{g}=\mu(B) ; g \in G, B \in \mathscr{B}(X) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_13_KVANTOVOE">\mu_{\rho_{g}}(g B)=\mu_{\rho}(B) ; g \in G, B \in \mathscr{B}(X),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_14_KVANTOVOE">(x, v) \rightarrow V_{x, v}=\exp \left[\frac{i}{\hbar}(m v Q-x P)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_15_KVANTOVOE">\mu(B)=\frac{m}{2 \pi \hbar} \iint_{B} V_{x, v} M_{0} V_{x, v}^{*} d x d v ; \quad B \in \mathscr{B}\left(\mathbb{R}^{2}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_16_KVANTOVOE">\begin{gathered}\mu_{\rho}\left(B_{1}, \ldots, B_{n}\right)=\operatorname{Tr} \mu_{n}\left(B_{n}\right)\left[\Phi_{n-1}\left[\ldots \Phi_{1}\left[\mu_{1}\left(B_{1}\right)[\rho]\right] \ldots\right]\right], \\B_{j} \in \mathscr{B}\left(X_{j}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1188_17_KVANTOVOE">\begin{gathered}\mathscr{M}_{b, c}(F)\left[\mathscr{M}_{a, b}(E)[\rho]\right]=\mathscr{M}_{a, c}(E \cap F)[\rho] ; \\E \in \mathscr{B}_{a, b}(Y), F \in \mathscr{B}_{b, c}(Y)\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_1_KVANTOVOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_2_KVANTOVOE">x-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_3_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_4_KVANTOVOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_5_KVANTOVOE">b(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_6_KVANTOVOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_7_KVANTOVOE">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_8_KVANTOVOE">\mu_{\rho}(b) ; B \in \mathscr{B}(X)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_9_KVANTOVOE">\left(\mu_{\rho}(b)\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_10_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_11_KVANTOVOE">b \subset X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_12_KVANTOVOE">\rho \rightarrow \mu_{\rho}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_13_KVANTOVOE">\sum_{j} p_{j} \rho_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_14_KVANTOVOE">\sum_{j} p_{j} \mu_{\rho_{j}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_15_KVANTOVOE">\mathscr{\mu}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_16_KVANTOVOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_17_KVANTOVOE">\rho \rightarrow \mu_{\rho}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_18_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_19_KVANTOVOE">x-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_20_KVANTOVOE">e(b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_21_KVANTOVOE">b \in \mathscr{B}(\mathbb{R}),-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_22_KVANTOVOE">\mathbb{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_23_KVANTOVOE">\mu(b) \equiv E(B)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_24_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_25_KVANTOVOE">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_26_KVANTOVOE">|x, v\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_27_KVANTOVOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_28_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_29_KVANTOVOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_30_KVANTOVOE">\left\{|x, v\rangle ;(x, v) \in \mathbb{R}^{2}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_31_KVANTOVOE">\hbar \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_32_KVANTOVOE">\mathscr{m}(b), B \in \Re(X)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_33_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_34_KVANTOVOE">b \in \mathscr{B}(X)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_35_KVANTOVOE">(b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_36_KVANTOVOE">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_37_KVANTOVOE">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_38_KVANTOVOE">\mathscr{a}(b)^{*}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_39_KVANTOVOE">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_40_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_41_KVANTOVOE">e(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_42_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_43_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_44_KVANTOVOE">h_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_45_KVANTOVOE">\rho_{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_46_KVANTOVOE">u-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_47_KVANTOVOE">h \otimes H_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_48_KVANTOVOE">\mu_{0}(b), B \in \mathscr{B}(X)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_49_KVANTOVOE">h_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_50_KVANTOVOE">\mu_{\rho}(b)=\operatorname{tr}\left(\rho \otimes \rho_{0}\right) U^{*}\left(I \otimes \mu_{0}(B)\right) U ; B \in \mathscr{B}(X)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_51_KVANTOVOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_52_KVANTOVOE">\operatorname{tr}_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_53_KVANTOVOE">h_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_54_KVANTOVOE">\mu_{0}(\cdot)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_55_KVANTOVOE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_56_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_57_KVANTOVOE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_58_KVANTOVOE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_59_KVANTOVOE">g \rightarrow V_{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_60_KVANTOVOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_61_KVANTOVOE">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_62_KVANTOVOE">\mu(b), B \in \mathscr{B}(X)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_63_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_64_KVANTOVOE">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_65_KVANTOVOE">\left(v_{(\cdot)}, \boldsymbol{\mu}(\cdot)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_66_KVANTOVOE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_67_KVANTOVOE">\boldsymbol{g}=x=\mathbb{r}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_68_KVANTOVOE">g=(x, v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_69_KVANTOVOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_70_KVANTOVOE">\mu_{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_71_KVANTOVOE">\mu_{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_72_KVANTOVOE">\mathscr{m}_{1}(\cdot), \ldots, \mathscr{M}_{n}(\cdot):</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_73_KVANTOVOE">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_74_KVANTOVOE">\phi_{j}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_75_KVANTOVOE">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_76_KVANTOVOE">(j+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_77_KVANTOVOE">x_{j}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_78_KVANTOVOE">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_79_KVANTOVOE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_80_KVANTOVOE">\left\{\mu_{a, b}(\cdot) ; a, b \in \mathbb{R}, a&lt;b\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_81_KVANTOVOE">\boldsymbol{\mu}_{a, b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_82_KVANTOVOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_83_KVANTOVOE">\mathscr{b}_{a, b}(Y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_84_KVANTOVOE">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_85_KVANTOVOE">\mathbb{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_86_KVANTOVOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_87_KVANTOVOE">a&lt;b&lt;c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_88_KVANTOVOE">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1188_89_KVANTOVOE">x</formula>
+  </formulas_aux>
+  <relations n="33">
+    <relation uri="http://libmeta.ru/fme/relation/1188_1_KVANTOVOE">
+      <rel_text>Воспроизводимости гипотеза</rel_text>
+      <target>http://libmeta.ru/fme/article/454_VOSPROIZVODIMOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_2_KVANTOVOE">
+      <rel_text>Локализуемость</rel_text>
+      <target>http://libmeta.ru/fme/article/1640_LOKALIZUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_3_KVANTOVOE">
+      <rel_text>Каноническая сопряженность в квантовой механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1092_KANONIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_4_KVANTOVOE">
+      <rel_text>Воспроизводимости гипотеза</rel_text>
+      <target>http://libmeta.ru/fme/article/454_VOSPROIZVODIMOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_5_KVANTOVOE">
+      <rel_text>совместимых наблюдаемых</rel_text>
+      <target>http://libmeta.ru/fme/article/2849_SOVMESTIMYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_6_KVANTOVOE">
+      <rel_text>неразрушающее измерение</rel_text>
+      <target>http://libmeta.ru/fme/article/1936_NERAZRUShAJuSchEE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_7_KVANTOVOE">
+      <rel_text>пуассоновского процесса</rel_text>
+      <target>http://libmeta.ru/fme/article/2482_PUASSONOVSKIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_8_KVANTOVOE">
+      <rel_text>наблюдаемой</rel_text>
+      <target>http://libmeta.ru/fme/article/1853_NABLJuDAEMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_9_KVANTOVOE">
+      <rel_text>винеровского процесса</rel_text>
+      <target>http://libmeta.ru/fme/article/406_VINEROVSKIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_10_KVANTOVOE">
+      <rel_text>первых</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_11_KVANTOVOE">
+      <rel_text>классификацию</rel_text>
+      <target>http://libmeta.ru/fme/article/1253_KLASTERIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_12_KVANTOVOE">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_13_KVANTOVOE">
+      <rel_text>траекторий</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_14_KVANTOVOE">
+      <rel_text>траекторий</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_15_KVANTOVOE">
+      <rel_text>подмножеств пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/1601_LINEJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_16_KVANTOVOE">
+      <rel_text>инструмент</rel_text>
+      <target>http://libmeta.ru/fme/article/1022_INSTANTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_17_KVANTOVOE">
+      <rel_text>вполне положительных</rel_text>
+      <target>http://libmeta.ru/fme/article/455_VPOLNE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_18_KVANTOVOE">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_19_KVANTOVOE">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_20_KVANTOVOE">
+      <rel_text>операция</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_21_KVANTOVOE">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_22_KVANTOVOE">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_23_KVANTOVOE">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_24_KVANTOVOE">
+      <rel_text>распределения вероятностных</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_25_KVANTOVOE">
+      <rel_text>Вигнера формулы для</rel_text>
+      <target>http://libmeta.ru/fme/article/395_VIGNERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_26_KVANTOVOE">
+      <rel_text>инструмента</rel_text>
+      <target>http://libmeta.ru/fme/article/1023_INSTRUMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_27_KVANTOVOE">
+      <rel_text>частицы</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_28_KVANTOVOE">
+      <rel_text>состоянием</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_29_KVANTOVOE">
+      <rel_text>парадоксальным</rel_text>
+      <target>http://libmeta.ru/fme/article/2170_PARASTATISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_30_KVANTOVOE">
+      <rel_text>протекающих</rel_text>
+      <target>http://libmeta.ru/fme/article/2426_PROTEKANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_31_KVANTOVOE">
+      <rel_text>проекционном постулате</rel_text>
+      <target>http://libmeta.ru/fme/article/2396_PROEKTsIONNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_32_KVANTOVOE">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1188_33_KVANTOVOE">
+      <rel_text>Проекционный постулат</rel_text>
+      <target>http://libmeta.ru/fme/article/2396_PROEKTsIONNYJ</target>
+    </relation>
+  </relations>
+  <text>процесс получения данных, несущих информацию о состоянии квантовой системы, в основе которого лежит физическое взаимодействие системы с измерительным прибором. Характерная черта К. и. состоит в принципиальной неустранимости воздействия измерительного прибора на наблюдаемую систему, в результате чего ее состояние изменяется в ходе измерения.
+
+Начала теории К. и. были заложены в монографии [1] Дж. Неймана (1932). В 1960-70-е гг. появление таких дисциплин, как квантовая оптика, оптич. связь, квантовая электроника, а также внутренние потребности квантовой теории вызвали новый интерес к вопросам измерений и привели к созданию последовательной статистич. теории К. и., являющейся логич. развитием вероятностной интерпретации квантовой механики и свободной от нек-рых трудностей и противоречий старого подхода (см. [4], [5], [7]).
+
+Математическое описание квантовых измерений. Пусть $URI[[http://libmeta.ru/fme/formula/aux/1188_1_KVANTOVOE]]/URI$ - гильбертово пространство квантовой системы, $URI[[http://libmeta.ru/fme/formula/aux/1188_2_KVANTOVOE]]/URI$ множество возможных исходов данного К. и. («шкала» измерительного прибора). Как правило, можно считать, что $URI[[http://libmeta.ru/fme/formula/aux/1188_3_KVANTOVOE]]/URI$ - стандартное измеримое пространство с $URI[[http://libmeta.ru/fme/formula/aux/1188_4_KVANTOVOE]]/URI$-алгеброй измеримых подмножеств $URI[[http://libmeta.ru/fme/formula/aux/1188_5_KVANTOVOE]]/URI$. Описание К. и. существенно зависит от уровня подробности задания процесса измерения. Имеется три основных уровня, каждому из к-рых отвечает определенный математич. объект в гильбертовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/1188_6_KVANTOVOE]]/URI$.
+
+1) Задана только статистика исходов измерения. Это означает, что для любого состояния системы, описываемого плотности оператором $URI[[http://libmeta.ru/fme/formula/aux/1188_7_KVANTOVOE]]/URI$, задано распределение вероятностей $URI[[http://libmeta.ru/fme/formula/aux/1188_8_KVANTOVOE]]/URI$, исходов данного измерения над системой, приготовленной в этом состоянии $URI[[http://libmeta.ru/fme/formula/aux/1188_9_KVANTOVOE]]/URI$ есть вероятность того, что исход измерения $URI[[http://libmeta.ru/fme/formula/aux/1188_10_KVANTOVOE]]/URI$ попадает в подмножество $URI[[http://libmeta.ru/fme/formula/aux/1188_11_KVANTOVOE]]/URI$ ). Естественно считать, что отображение $URI[[http://libmeta.ru/fme/formula/aux/1188_12_KVANTOVOE]]/URI$ обладает свойством аффинности: смесь операторов плотности $URI[[http://libmeta.ru/fme/formula/aux/1188_13_KVANTOVOE]]/URI$ переходит в такую же смесь $URI[[http://libmeta.ru/fme/formula/aux/1188_14_KVANTOVOE]]/URI$ соответствующих распределений. При этом условии имеет место формула
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_1_KVANTOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1188_15_KVANTOVOE]]/URI$ есть нек-рое разложение единицы в $URI[[http://libmeta.ru/fme/formula/aux/1188_16_KVANTOVOE]]/URI$. Обратно, всякое разложение единицы определяет по формуле (1) аффинное отображение $URI[[http://libmeta.ru/fme/formula/aux/1188_17_KVANTOVOE]]/URI$ множества операторов плотности в множество распределений вероятностей на $URI[[http://libmeta.ru/fme/formula/aux/1188_18_KVANTOVOE]]/URI$. Разложение единицы дает наиболее общее описание статистики исходов измерения, совместимое с вероятностной интерпретацией квантовой механики.
+
+П р име ры. a) Пусть $URI[[http://libmeta.ru/fme/formula/aux/1188_19_KVANTOVOE]]/URI$ наблюдаемая, а $URI[[http://libmeta.ru/fme/formula/aux/1188_20_KVANTOVOE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1188_21_KVANTOVOE]]/URI$ ее спектральная мера на вещественной прямой $URI[[http://libmeta.ru/fme/formula/aux/1188_22_KVANTOVOE]]/URI$. Формула (1) при $URI[[http://libmeta.ru/fme/formula/aux/1188_23_KVANTOVOE]]/URI$ дает распределение вероятностей исходов точного измерения наблюдаемой $URI[[http://libmeta.ru/fme/formula/aux/1188_24_KVANTOVOE]]/URI$ в состоянии $URI[[http://libmeta.ru/fme/formula/aux/1188_25_KVANTOVOE]]/URI$.
+
+б) Пусть $URI[[http://libmeta.ru/fme/formula/aux/1188_26_KVANTOVOE]]/URI$ есть вектор состояния наименьшей неопределенности (см. Волновой пакет) для нерелятивистской квантовой частицы массы $URI[[http://libmeta.ru/fme/formula/aux/1188_27_KVANTOVOE]]/URI$ со средними значениями коор- динаты $URI[[http://libmeta.ru/fme/formula/aux/1188_28_KVANTOVOE]]/URI$ и скорости $URI[[http://libmeta.ru/fme/formula/aux/1188_29_KVANTOVOE]]/URI$. Семейство $URI[[http://libmeta.ru/fme/formula/aux/1188_30_KVANTOVOE]]/URI$ образует переполненную систему, а соотношение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_2_KVANTOVOE]]/URI
+\]
+
+определяет неортогональное разложение единицы. При этом соотношение (1), переходящее в
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_3_KVANTOVOE]]/URI
+\]
+
+задает статистику неточного совместного измерения координаты и скорости. В классич. пределе при $URI[[http://libmeta.ru/fme/formula/aux/1188_31_KVANTOVOE]]/URI$ это измерение переходит в точное совместное измерение координаты и скорости частицы (см. [4]).
+
+Различают измерения 1-го и 2-го родов, соответственно сохраняющие и разрушающие наблюдаемую квантовую систему. Описание на уровне статистики исходов применимо ко всем измерениям; дальнейшее же относится только к измерениям 1-го рода, для к-рых определено состояние системы после измерения.
+
+2) Помимо статистики задан также закон преобразования состояния системы в зависимости от полученного исхода измерения. В этом случае адекватное описание К. и. дается понятием инструмента, то есть операционно-значной меры $URI[[http://libmeta.ru/fme/formula/aux/1188_32_KVANTOVOE]]/URI$, на множестве исходов измерения $URI[[http://libmeta.ru/fme/formula/aux/1188_33_KVANTOVOE]]/URI$. Каждому подмножеству $URI[[http://libmeta.ru/fme/formula/aux/1188_34_KVANTOVOE]]/URI$ соответствует операция . $URI[[http://libmeta.ru/fme/formula/aux/1188_35_KVANTOVOE]]/URI$, описывающая изменение состояния системы в случае, если исход измерения попадает в подмножество $URI[[http://libmeta.ru/fme/formula/aux/1188_36_KVANTOVOE]]/URI$. Если состояние системы перед измерением задавалось оператором плотности $URI[[http://libmeta.ru/fme/formula/aux/1188_37_KVANTOVOE]]/URI$, то после измерения оно будет задаваться оператором плотности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_4_KVANTOVOE]]/URI
+\]
+
+Величина
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_5_KVANTOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1188_38_KVANTOVOE]]/URI$ сопряженная операция, есть вероятность того, что исход измерения попадет в $URI[[http://libmeta.ru/fme/formula/aux/1188_39_KVANTOVOE]]/URI$. Таким образом, каждому инструменту отвечает разложение единицы по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_6_KVANTOVOE]]/URI
+\]
+
+С другой стороны, всякому разложению единицы .и(.) отвечает множество инструментов, для к-рых выполнено соотношение (3): инструмент дает более подробное описание К. и., нежели разложение единицы.
+
+П р и м е р ы. a) Пусть $URI[[http://libmeta.ru/fme/formula/aux/1188_40_KVANTOVOE]]/URI$ - наблюдаемая с чисто точечным спектром, $URI[[http://libmeta.ru/fme/formula/aux/1188_41_KVANTOVOE]]/URI$ - спектральный проектор, отвечающий собственному значению $URI[[http://libmeta.ru/fme/formula/aux/1188_42_KVANTOVOE]]/URI$. Соотношение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_7_KVANTOVOE]]/URI
+\]
+
+выражающее проекционный постулат Неймана, определяет вполне положительный инструмент, удовлетворяющий условию воспроизводимости (см. URI[[http://libmeta.ru/fme/relation/1188_4_KVANTOVOE]]/URI). Отвечающее ему разложение единицы есть спектральная мера
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_8_KVANTOVOE]]/URI
+\]
+
+наблюдаемой $URI[[http://libmeta.ru/fme/formula/aux/1188_43_KVANTOVOE]]/URI$.
+
+б) Соотношение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_9_KVANTOVOE]]/URI
+\]
+
+задает один из вполне положительных инструментов, к-рому соответствует разложение единицы (2).
+
+3) Задано динамич. описание взаимодействия системы с «пробной системой», составляющей часть измерительного прибора (схема косвенного измерения). Пусть $URI[[http://libmeta.ru/fme/formula/aux/1188_44_KVANTOVOE]]/URI$ - гильбертово пространство пробной системы, $URI[[http://libmeta.ru/fme/formula/aux/1188_45_KVANTOVOE]]/URI$ оператор плотности, описывающий начальное состояние этой системы, и $URI[[http://libmeta.ru/fme/formula/aux/1188_46_KVANTOVOE]]/URI$ унитарный оператор в $URI[[http://libmeta.ru/fme/formula/aux/1188_47_KVANTOVOE]]/URI$, задающий взаимодействие. Предполагается, что после взаимодействия над пробной системой проводится К. и., описываемое разложением единицы $URI[[http://libmeta.ru/fme/formula/aux/1188_48_KVANTOVOE]]/URI$, в $URI[[http://libmeta.ru/fme/formula/aux/1188_49_KVANTOVOE]]/URI$. При этом
+
+(') $URI[[http://libmeta.ru/fme/formula/aux/1188_50_KVANTOVOE]]/URI$.
+
+17 Математическая физика В гильбертовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/1188_51_KVANTOVOE]]/URI$ указанному процессу отвечает вполне положительный инструмент
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_10_KVANTOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1188_52_KVANTOVOE]]/URI$ - частичный след по пространству $URI[[http://libmeta.ru/fme/formula/aux/1188_53_KVANTOVOE]]/URI$. Обратно, всякий вполне положительный инструмент допускает, в общем неоднозначное, представление (5) через нек-рый процесс косвенного измерения, где $URI[[http://libmeta.ru/fme/formula/aux/1188_54_KVANTOVOE]]/URI$ нек-рая спектральная мера (см. [9]). Тем самым демонстрируется согласованность теории К. и. со стандартным формализмом квантовой механики.
+
+Физико-философские аспекты. При любом уровне подробности задания процедура К. и. содержит этап, К-рый не поддается исчерпывающему квантоводинамич. описанию. Если исходить из положения, что мир в целом подчиняется законам квантовой физики, то это приводит к проблеме измерения, до сих пор не получившей однозначного разрешения (обзор различных подходов см. в [6]). Ортодоксальная точка зрения, не имеющая в настоящее время конструктивной альтернативы, признает неизбежность дуализма, то есть сочетания квантовомеханич. представлений с элементами «классического» вероятностного описания, отражающими макроскопичность измерительного прибора. Не претендуя на окончательное разрешение гносеологич. вопросов, изложенная концепция К. и. дает ключ для последовательной постановки и решения ряда конкретных проблем квантовой теории.
+
+Применения статистической теории квантового измерения.
+
+1) Проблема соответствия. Одна из трудностей формулировки квантовой механики состоит в невозможности сопоставления нек-рым реально измеримым величинам квантовых наблюдаемых, то есть самосопряженных операторов в гильбертовом пространстве. К таковым относятся время, угол, фаза гармонич. осциллятора, пара координата-скорость, координаты фотона и т. п. (см. URI[[http://libmeta.ru/fme/relation/1188_3_KVANTOVOE]]/URI, URI[[http://libmeta.ru/fme/relation/1188_2_KVANTOVOE]]/URI). Во всех этих случаях множеством значений соответствующей классич. величины (набора величин) является однородное $URI[[http://libmeta.ru/fme/formula/aux/1188_55_KVANTOVOE]]/URI$-пространство $URI[[http://libmeta.ru/fme/formula/aux/1188_56_KVANTOVOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1188_57_KVANTOVOE]]/URI$ - группа геометрич. симметрий. Группа $URI[[http://libmeta.ru/fme/formula/aux/1188_58_KVANTOVOE]]/URI$ имеет (проективное) унитарное представление $URI[[http://libmeta.ru/fme/formula/aux/1188_59_KVANTOVOE]]/URI$ в гильбертовом пространстве системы $URI[[http://libmeta.ru/fme/formula/aux/1188_60_KVANTOVOE]]/URI$, к-рое задает соответствующее преобразование состояний системы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_11_KVANTOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1188_61_KVANTOVOE]]/URI$ - оператор плотности исходного состояния. Общая схема, позволяющая в этой ситуации решить проблему соответствия, такова. Разложение единицы $URI[[http://libmeta.ru/fme/formula/aux/1188_62_KVANTOVOE]]/URI$, описывающее статистику нек-рого измерения с исходами в $URI[[http://libmeta.ru/fme/formula/aux/1188_63_KVANTOVOE]]/URI$, называется ко в а р и н т ным, если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_12_KVANTOVOE]]/URI
+\]
+
+Это условие имеет прямой вероятностный смысл - оно эквивалентно тому, что распределение вероятностей исходов измерения преобразуется ковариантно по отношению к преобразованию состояния системы (6), то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_13_KVANTOVOE]]/URI
+\]
+
+для всех состояний $URI[[http://libmeta.ru/fme/formula/aux/1188_64_KVANTOVOE]]/URI$. Затруднения в стандартной схеме возникают в тех случаях, когда среди решений уравнения (7) нет ортогональных разложений единицы. Пара $URI[[http://libmeta.ru/fme/formula/aux/1188_65_KVANTOVOE]]/URI$ образует обобщенную систему импримитивности, к-рая исследуется методами теории представлений. Напр., для компактных групп $URI[[http://libmeta.ru/fme/formula/aux/1188_66_KVANTOVOE]]/URI$ уравнение (7) всегда разрешимо в классе произвольных разложений единицы и лишь в исключительных случаях - в классе ортогональных. С физич. точки зрения представляют интерес решения уравнения (7), описывающие экстремально точные измерения соответствующих величин. Эти решения, минимизирующие нек-рый функционал неопределенности, находятся среди крайних точек выпуклого множества всех ковариантных разложений етинищы.
+
+П ри ме р. Совместные измерения координаты и скорости в нерелятивистской квантовой механике. В этом случае $URI[[http://libmeta.ru/fme/formula/aux/1188_67_KVANTOVOE]]/URI$, причем преобразование $URI[[http://libmeta.ru/fme/formula/aux/1188_68_KVANTOVOE]]/URI$ описывает переход к другой инерциальной системе отсчета, а неприводимое представление
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_14_KVANTOVOE]]/URI
+\]
+
+- соответствующее преобразование векторов состояний частицы массы $URI[[http://libmeta.ru/fme/formula/aux/1188_69_KVANTOVOE]]/URI$. Ковариантные разложения единицы описываются формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_15_KVANTOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1188_70_KVANTOVOE]]/URI$ произвольный оператор плотности. Среди них нет ортогональных разложений единицы. Крайние точки получаются, когда $URI[[http://libmeta.ru/fme/formula/aux/1188_71_KVANTOVOE]]/URI$ одномерный проектор. При соответствующем выборе квадратичного функционала неопределенности экстремально точным является разложение единицы (2).
+
+2) Квантовая теория статистических решений фундаментальные пределы точнос т и и 3 м е р е н и й. В 40-50-е гг. было выдвинуто положение, что квантово-механич. природа канала связи должна налагать фундаментальные ограничения на скорость передачи и точность воспроизведения информации. Этот вопрос приобрел актуальность в 60-е гг. с появлением квантовых каналов связи - систем передачи информации, основанных на свойствах когерентного лазерного излучения. В 70-е гт. была создана последовательная квантовая теория статистич. решений, к-рая дает принципиальную основу для рассмотрения вопросов, касающихся предельной точности и информативности физич. измерений (см. [3], [4]). В этой теории решающие процедуры - измерения описываются разложениями единицы в гильбертовом пространстве системы и задача состоит в отыскании экстремума нек-рого функционала (неопределенности, шенноновской информации) в классе решающих процедур, обычно подчиненных нек-рым дополнительным ограничениям (ковариантности, несмещенности и т. Д.). На этом пути было обнаружено следующее важное свойство квантово-механич. систем: измерение над расширением исходной системы, включающим вспомогательную независимую систему (в частности, косвенное измерение), может дать больше информации о состоянии исходной системы, нежели любое прямое измерение (описываемое спектральной мерой). Геометрич. природа этого факта состоит в том, что крайние точки выпуклого множества разложений единицы, среди к-рых находится оптимальная решающая процедура, не исчерпывается ортогональными разложениями единицы.
+
+Получены квантовые аналоги неравенств Рао-Крамера в математич. статистике, уточняющие соотношения неопределенностей и дающие достижимые пределы точности измерений. Значительное внимание было уделено бозонным гауссовским каналам связи, для к-рых дано явное описание оптимальных решающих процедур. В 80-е гг. фундаментальные пределы точности измерений привлекли новое внимание в связи с проблемой обнаружения гравитационного излучения (см. [10]). Специфичным для этого круга вопросов является рассмотрение процедур измерения, протекающих во времени - последовательно или непрерывно, - что предполагает привлечение методов теории квантовых случайных процессов.
+
+3) Повторны е и непрерывны е измерения. URI[[http://libmeta.ru/fme/relation/1188_33_KVANTOVOE]]/URI (4) приводит к следующим трудностям, не находящим решения в рамках стандартной квантовой URI[[http://libmeta.ru/fme/relation/1188_32_KVANTOVOE]]/URI. Во-первых, он фактически исключает возможность описания повторных измерений величин с непрерывным спектром (см. URI[[http://libmeta.ru/fme/relation/1188_1_KVANTOVOE]]/URI). Далее, основывающаяся на URI[[http://libmeta.ru/fme/relation/1188_31_KVANTOVOE]]/URI попытка рас- смотрения измерений, URI[[http://libmeta.ru/fme/relation/1188_30_KVANTOVOE]]/URI непрерывно во времени, приводит к URI[[http://libmeta.ru/fme/relation/1188_29_KVANTOVOE]]/URI выводам, напр., непрерывное слежение за URI[[http://libmeta.ru/fme/relation/1188_28_KVANTOVOE]]/URI нестабильной URI[[http://libmeta.ru/fme/relation/1188_27_KVANTOVOE]]/URI «вынуждает» ее не распадаться (квантовый парадокс Зенона). Понятие URI[[http://libmeta.ru/fme/relation/1188_26_KVANTOVOE]]/URI, позволяющее включить в рассмотрение неточные измерения, позволяет снять эти затруднения. Имеет место следующее обобщение URI[[http://libmeta.ru/fme/relation/1188_25_KVANTOVOE]]/URI URI[[http://libmeta.ru/fme/relation/1188_24_KVANTOVOE]]/URI исходов последовательности измерений, задаваемых произвольными инструментами $URI[[http://libmeta.ru/fme/formula/aux/1188_72_KVANTOVOE]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_16_KVANTOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1188_73_KVANTOVOE]]/URI$ - URI[[http://libmeta.ru/fme/relation/1188_23_KVANTOVOE]]/URI URI[[http://libmeta.ru/fme/relation/1188_22_KVANTOVOE]]/URI URI[[http://libmeta.ru/fme/relation/1188_21_KVANTOVOE]]/URI системы перед измерениями, $URI[[http://libmeta.ru/fme/formula/aux/1188_74_KVANTOVOE]]/URI$ URI[[http://libmeta.ru/fme/relation/1188_20_KVANTOVOE]]/URI, описывающая изменение URI[[http://libmeta.ru/fme/relation/1188_19_KVANTOVOE]]/URI в результате эволюции между $URI[[http://libmeta.ru/fme/formula/aux/1188_75_KVANTOVOE]]/URI$-м и $URI[[http://libmeta.ru/fme/formula/aux/1188_76_KVANTOVOE]]/URI$-м измерениями, $URI[[http://libmeta.ru/fme/formula/aux/1188_77_KVANTOVOE]]/URI$ множество исходов $URI[[http://libmeta.ru/fme/formula/aux/1188_78_KVANTOVOE]]/URI$-го измерения (см. [5]). Надлежащий предельный переход при $URI[[http://libmeta.ru/fme/formula/aux/1188_79_KVANTOVOE]]/URI$ позволяет дать описание измерения, длящегося непрерывно во времени (см. [2]). Для URI[[http://libmeta.ru/fme/relation/1188_18_KVANTOVOE]]/URI нетривиального предела точность измерений должна убывать пропорционально числу членов последовательности.
+
+Предельный процесс непрерывного измерения описывается семейством URI[[http://libmeta.ru/fme/relation/1188_17_KVANTOVOE]]/URI инструментов $URI[[http://libmeta.ru/fme/formula/aux/1188_80_KVANTOVOE]]/URI$, где URI[[http://libmeta.ru/fme/relation/1188_16_KVANTOVOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1188_81_KVANTOVOE]]/URI$ определен на $URI[[http://libmeta.ru/fme/formula/aux/1188_82_KVANTOVOE]]/URI$-алгебре $URI[[http://libmeta.ru/fme/formula/aux/1188_83_KVANTOVOE]]/URI$ URI[[http://libmeta.ru/fme/relation/1188_15_KVANTOVOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1188_84_KVANTOVOE]]/URI$ всевозможных URI[[http://libmeta.ru/fme/relation/1188_14_KVANTOVOE]]/URI на $URI[[http://libmeta.ru/fme/formula/aux/1188_85_KVANTOVOE]]/URI$, порожденной приращениями URI[[http://libmeta.ru/fme/relation/1188_13_KVANTOVOE]]/URI на отрезке $URI[[http://libmeta.ru/fme/formula/aux/1188_86_KVANTOVOE]]/URI$, причем
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1188_17_KVANTOVOE]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/fme/formula/aux/1188_87_KVANTOVOE]]/URI$, и всевозможных операторов URI[[http://libmeta.ru/fme/relation/1188_12_KVANTOVOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1188_88_KVANTOVOE]]/URI$. Имеется параллель между процессами непрерывного измерения и процессами с независимыми приращениями в теории вероятностей, позволяющая дать полную URI[[http://libmeta.ru/fme/relation/1188_11_KVANTOVOE]]/URI URI[[http://libmeta.ru/fme/relation/1188_10_KVANTOVOE]]/URI в терминах некоммутативного обобщения формулы Леви-Хинчина (см. [7]). Важными примерами являются аналог URI[[http://libmeta.ru/fme/relation/1188_9_KVANTOVOE]]/URI - непрерывное неточное измерение URI[[http://libmeta.ru/fme/relation/1188_8_KVANTOVOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1188_89_KVANTOVOE]]/URI$ и аналог URI[[http://libmeta.ru/fme/relation/1188_7_KVANTOVOE]]/URI - считающий процесс (см. [2], [5]). Всякий процесс непрерывного измерения может быть представлен как косвенное измерение, при к-ром над «пробной системой» производится непрерывное URI[[http://libmeta.ru/fme/relation/1188_6_KVANTOVOE]]/URI нек-рого семейства URI[[http://libmeta.ru/fme/relation/1188_5_KVANTOVOE]]/URI.</text>
+  <text_orig>процесс получения данных, несущих информацию о состоянии квантовой системы, в основе которого лежит физическое взаимодействие системы с измерительным прибором. Характерная черта К. и. состоит в принципиальной неустранимости воздействия измерительного прибора на наблюдаемую систему, в результате чего ее состояние изменяется в ходе измерения.
+
+Начала теории К. и. были заложены в монографии [1] Дж. Неймана (1932). В 1960-70-е гг. появление таких дисциплин, как квантовая оптика, оптич. связь, квантовая электроника, а также внутренние потребности квантовой теории вызвали новый интерес к вопросам измерений и привели к созданию последовательной статистич. теории К. и., являющейся логич. развитием вероятностной интерпретации квантовой механики и свободной от нек-рых трудностей и противоречий старого подхода (см. [4], [5], [7]).
+
+Математическое описание квантовых измерений. Пусть $H$ - гильбертово пространство квантовой системы, $X-$ множество возможных исходов данного К. и. («шкала» измерительного прибора). Как правило, можно считать, что $X$ - стандартное измеримое пространство с $\sigma$-алгеброй измеримых подмножеств $B(X)$. Описание К. и. сушественно зависит от уровня подробности задания процесса измерения. Имеется три основных уровня, каждому из к-рых отвечает определенный математич. объект в гильбертовом пространстве $H$.
+
+1) Задана только статистика исходов измерения. Это означает, что для любого состояния системы, описываемого плотности оператором $\rho$, задано распределение вероятностей $\mu_{\rho}(B) ; B \in \mathscr{B}(X)$, исходов данного измерения над системой, приготовленной в этом состоянии $\left(\mu_{\rho}(B)\right.$ есть вероятность того, что исход измерения $x$ попадает в подмножество $B \subset X$ ). Естественно считать, что отображение $\rho \rightarrow \mu_{\rho}$ обладает свойством аффинности: смесь операторов плотности $\sum_{j} p_{j} \rho_{j}$ переходит в такую же смесь $\sum_{j} p_{j} \mu_{\rho_{j}}$ соответствующих распределений. При этом условии имеет место формула
+
+\[
+\mu_{\rho}(B)=\operatorname{Tr} \rho \mathscr{\mu}(B), B \in \mathscr{B}(X),
+\]
+
+где $\mathscr{\mu}(\cdot)$ есть нек-рое разложение единицы в $H$. Обратно, всякое разложение единицы определяет по формуле (1) аффинное отображение $\rho \rightarrow \mu_{\rho}$ множества операторов плотности в множество распределений вероятностей на $X$. Разложение единицы дает наиболее общее описание статистики исходов измерения, совместимое с вероятностной интерпретацией квантовой механики.
+
+П р име ры. a) Пусть $X-$ наблюдаемая, а $E(B)$, $B \in \mathscr{B}(\mathbb{R}),-$ ее спектральная мера на вещественной прямой $\mathbb{R}$. Формула (1) при $\mu(B) \equiv E(B)$ дает распределение вероятностей исходов точного измерения наблюдаемой $X$ в состоянии $\rho$.
+
+б) Пусть $|x, v\rangle$ есть вектор состояния наименьшей неопределенности (см. Волновой пакет) для нерелятивистской квантовой частицы массы $m$ со средними значениями коор- динаты $x$ и скорости $v$. Семейство $\left\{|x, v\rangle ;(x, v) \in \mathbb{R}^{2}\right\}$ образует переполненную систему, а соотношение
+
+\[
+\begin{gathered}
+\mathscr{M}(B)=\frac{m}{2 \pi \hbar} \iint_{B}|x, v\rangle\langle x, v| d x d v ; \\
+B \in \mathscr{B}\left(\mathbb{R}^{2}\right),
+\end{gathered}
+\]
+
+определяет неортогональное разложение единицы. При этом соотношение (1), переходяшее в
+
+\[
+\mu_{\rho}(d x d v)=\frac{m}{2 \pi \hbar}\langle x, v|\rho| x, v\rangle,
+\]
+
+задает статистику неточного совместного измерения координаты и скорости. В классич. пределе при $\hbar \rightarrow 0$ это измерение переходит в точное совместное измерение координаты и скорости частицы (см. [4]).
+
+Различают измерения 1-го и 2-го родов, соответственно сохраняющие и разрушающие наблюдаемую квантовую систему. Описание на уровне статистики исходов применимо ко всем измерениям; дальнейшее же относится только к измерениям 1-го рода, для к-рых определено состояние системы после измерения.
+
+2) Помимо статистики задан также закон преобразования состояния системы в зависимости от полученного исхода измерения. В этом случае адекватное описание К. и. дается понятием инструмента, то есть операционно-значной меры $\mathscr{M}(B), B \in \Re(X)$, на множестве исходов измерения $X$. Каждому подмножеству $B \in \mathscr{B}(X)$ соответствует операция . $(B)$, описывающая изменение состояния системы в случае, если исход измерения попадает в подмножество $B$. Если состояние системы перед измерением задавалось оператором плотности $\rho$, то после измерения оно будет задаваться оператором плотности
+
+\[
+\mathscr{\mu}(B)[\rho] / \operatorname{Tr} \mathscr{\mu}(B)[\rho] .
+\]
+
+Величина
+
+\[
+\mu_{\rho}(B)=\operatorname{Tr} \mu(B)[\rho]=\operatorname{Tr} \rho \mu(B)^{*}[I],
+\]
+
+где $\mathscr{A}(B)^{*}-$ сопряженная операция, есть вероятность того, что исход измерения попадет в $B$. Таким образом, каждому инструменту отвечает разложение единицы по формуле
+
+\[
+\mu(B)=\mu(B)^{*}[I] ; B \in \Re(X) .
+\]
+
+С другой стороны, всякому разложению единицы .и(.) отвечает множество инструментов, для к-рых выполнено соотношение (3): инструмент дает более подробное описание К. и., нежели разложение единицы.
+
+П р и м е р ы. a) Пусть $X$ - наблюдаемая с чисто точечным спектром, $E(x)$ - спектральный проектор, отвечающий собственному значению $x$. Соотношение
+
+\[
+\mathscr{M}(B)[\rho]=\sum_{x \in B} E(x) \rho E(x) ; \quad B \in \mathscr{B}(\mathbb{R}),
+\]
+
+выражающее проекционный постулат Неймана, определяет вполне положительный инструмент, удовлетворяющий условию воспроизводимости (см. Воспроизводимости гипотеза). Отвечающее ему разложение единицы есть спектральная мера
+
+\[
+E(B)=\sum_{x \in B} E(x)
+\]
+
+наблюдаемой $X$.
+
+б) Соотношение
+
+\[
+\mathscr{M}(B)[\rho]=\frac{m}{2 \pi \hbar} \iint_{B}|x, v\rangle\langle x, v|\rho| x, v\rangle\langle x, v| d x d v ; \quad B \in \mathscr{B}\left(\mathbb{R}^{2}\right),
+\]
+
+задает один из вполне положительных инструментов, к-рому соответствует разложение единицы (2).
+
+3) Задано динамич. описание взаимодействия системы с «пробной системой», составляющей часть измерительного прибора (схема косвенного измерения). Пусть $H_{0}$ - гильбертово пространство пробной системы, $\rho_{0}-$ оператор плотности, описывающий начальное состояние этой системы, и $U-$ унитарный оператор в $H \otimes H_{0}$, задающий взаимодействие. Предполагается, что после взаимодействия над пробной системой проводится К. и., описываемое разложением единицы $\mu_{0}(B), B \in \mathscr{B}(X)$, в $H_{0}$. При этом
+
+(') $\mu_{\rho}(B)=\operatorname{Tr}\left(\rho \otimes \rho_{0}\right) U^{*}\left(I \otimes \mu_{0}(B)\right) U ; B \in \mathscr{B}(X)$.
+
+17 Математическая физика В гильбертовом пространстве $H$ указанному процессу отвечает вполне положительный инструмент
+
+\[
+\mu(B)[\rho]=\operatorname{Tr}_{0} U\left(\rho \otimes \rho_{0}\right) U^{*}\left(I \otimes \mu_{0}(B)\right),
+\]
+
+где $\operatorname{Tr}_{0}$ - частичный след по пространству $H_{0}$. Обратно, всякий вполне положительный инструмент допускает, в общем неоднозначное, представление (5) через нек-рый процесс косвенного измерения, где $\mu_{0}(\cdot)-$ нек-рая спектральная мера (см. [9]). Тем самым демонстрируется согласованность теории К. и. со стандартным формализмом квантовой механики.
+
+Физико-философские аспекты. При любом уровне подробности задания процедура К. и. содержит этап, К-рый не поддается исчерпывающему квантоводинамич. описанию. Если исходить из положения, что мир в целом подчиняется законам квантовой физики, то это приводит к проблеме измерения, до сих пор не получившей однозначного разрешения (обзор различных подходов см. в [6]). Ортодоксальная точка зрения, не имеющая в настоящее время конструктивной альтернативы, признает неизбежность дуализма, то есть сочетания квантовомеханич. представлений с элементами «Классического» вероятностного описания, отражаюшими макроскопичность измерительного прибора. Не претендуя на окончательное разрешение гносеологич. вопросов, изложенная концепция К. и. дает ключ для последовательной постановки и решения ряда конкретных проблем квантовой теории.
+
+Применения статистической теории квантового измерения.
+
+1) Проблема соответствия. Одна из трудностей формулировки квантовой механики состоит в невозможности сопоставления нек-рым реально измеримым величинам квантовых наблюдаемых, то есть самосопряженных операторов в гильбертовом пространстве. К таковым относятся время, угол, фаза гармонич. осциллятора, пара координата-скорость, координаты фотона и т. п. (см. Каноническая сопряженность в квантовой механике, Локализуемость). Во всех этих случаях множеством значений соответствующей классич. величины (набора величин) является однородное $G$-пространство $X$, где $G$ - группа геометрич. симметрий. Группа $G$ имеет (проективное) унитарное представление $g \rightarrow V_{g}$ в гильбертовом пространстве системы $H$, к-рое задает соответствующее преобразование состояний системы
+
+\[
+\rho \rightarrow \rho_{g}=V_{g} \rho V_{g}^{*}
+\]
+
+где $\rho$ - оператор плотности исходного состояния. Общая схема, позволяющая в этой ситуации решить проблему соответствия, такова. Разложение единицы $\mu(B), B \in \mathscr{B}(X)$, описывающее статистику нек-рого измерения с исходами в $X$, называется ко в а р и н т ным, если
+
+\[
+V_{g}^{*} \cdot \mu(g B) V_{g}=\mu(B) ; g \in G, B \in \mathscr{B}(X) .
+\]
+
+Это условие имеет прямой вероятностный смысл - оно эквивалентно тому, что распределение вероятностей исходов измерения преобразуется ковариантно по отношению к преобразованию состояния системы (6), то есть
+
+\[
+\mu_{\rho_{g}}(g B)=\mu_{\rho}(B) ; g \in G, B \in \mathscr{B}(X),
+\]
+
+для всех состояний $\rho$. Затруднения в стандартной схеме возникают в тех случаях, когда среди решений уравнения (7) нет ортогональных разложений единицы. Пара $\left(V_{(\cdot)}, \boldsymbol{\mu}(\cdot)\right)$ образует обобщенную систему импримитивности, к-рая исследуется методами теории представлений. Напр., для компактных групп $G$ уравнение (7) всегда разрешимо в классе произвольных разложений единищы и лишь в исключительных случаях - в классе ортогональных. С физич. точки зрения представляют интерес решения уравнения (7), описывающие экстремально точные измерения соответствующих величин. Эти решения, минимизируюшие нек-рый функционал неопределенности, находятся среди крайних точек выпуклого множества всех ковариантных разложений етинищЫ.
+
+П ри ме р. Совместные измерения координаты и скорости в нерелятивистской квантовой механике. В этом случае $\boldsymbol{G}=X=\mathbb{R}^{2}$, причем преобразование $g=(x, v)$ описывает переход к другой инерциальной системе отсчета, а неприводимое представление
+
+\[
+(x, v) \rightarrow V_{x, v}=\exp \left[\frac{i}{\hbar}(m v Q-x P)\right]
+\]
+
+- соответствующее преобразование векторов состояний частицы массы $m$. Ковариантные разложения единицы описываются формулой
+
+\[
+\mu(B)=\frac{m}{2 \pi \hbar} \iint_{B} V_{x, v} M_{0} V_{x, v}^{*} d x d v ; \quad B \in \mathscr{B}\left(\mathbb{R}^{2}\right),
+\]
+
+где $\mu_{0}-$ произвольный оператор плотности. Среди них нет ортогональных разложений единицы. Крайние точки получаются, когда $\mu_{0}-$ одномерный проектор. При соответствующем выборе квадратичного функционала неопределенности экстремально точным является разложение единицы (2).
+
+2) Квантовая теория статистических решений фундаментальные пределы точнос т и и 3 м е р е н и й. В 40-50-е гг. было выдвинуто положение, что квантово-механич. природа канала связи должна налагать фундаментальные ограничения на скорость передачи и точность воспроизведения информации. Этот вопрос приобрел актуальность в 60-е гг. с появлением квантовых каналов связи - систем передачи информации, основанных на свойствах когерентного лазерного излучения. В 70-е гт. была создана последовательная квантовая теория статистич. решений, к-рая дает принципиальную основу для рассмотрения вопросов, касающихся предельной точности и информативности физич. измерений (см. [3], [4]). В этой теории решающие процедуры - измерения описываются разложениями единицы в гильбертовом пространстве системы и задача состоит в отыскании экстремума нек-рого функционала (неопределенности, шенноновской информации) в классе решающих процедур, обычно подчиненных нек-рым дополнительным ограничениям (ковариантности, несмещенности и т. Д.). На этом пути было обнаружено следующее важное свойство квантово-механич. систем: измерение над расширением исходной системы, включающим вспомогательную независимую систему (в частности, косвенное измерение), может дать больше информации о состоянии исходной системы, нежели любое прямое измерение (описываемое спектральной мерой). Геометрич. природа этого факта состоит в том, что крайние точки выпуклого множества разложений единицы, среди к-рых находится оптимальная решающая процедура, не исчерпывается ортогональными разложениями единицы.
+
+Получены квантовые аналоги неравенств Рао-Крамера в математич. статистике, уточняющие соотношения неопределенностей и дающие достижимые пределы точности измерений. Значительное внимание было уделено бозонным гауссовским каналам связи, для к-рых дано явное описание оптимальных решающих процедур. В 80-е гг. фундаментальные пределы точности измерений привлекли новое внимание в связи с проблемой обнаружения гравитационного излучения (см. [10]). Специфичным для этого круга вопросов является рассмотрение процедур измерения, протекающих во времени - последовательно или непрерывно, - что предполагает привлечение методов теории квантовых случайных процессов.
+
+3) Повторны е и непрерывны е измерения. Проекционный постулат (4) приводит к следующим трудностям, не находящим решения в рамках стандартной квантовой механики. Во-первых, он фактически исключает возможность описания повторных измерений величин с непрерывным спектром (см. Воспроизводимости гипотеза). Далее, основывающаяся на проекционном постулате попытка рас- смотрения измерений, протекающих непрерывно во времени, приводит к парадоксальным выводам, напр., непрерывное слежение за состоянием нестабильной частицы «вынуждает» ее не распадаться (квантовый парадокс Зенона). Понятие инструмента, позволяющее включить в рассмотрение неточные измерения, позволяет снять эти затруднения. Имеет место следующее обобщение Вигнера формулы для распределения вероятностных исходов последовательности измерений, задаваемых произвольными инструментами $\mathscr{M}_{1}(\cdot), \ldots, \mathscr{M}_{n}(\cdot):$
+
+\[
+\begin{gathered}
+\mu_{\rho}\left(B_{1}, \ldots, B_{n}\right)=\operatorname{Tr} \mu_{n}\left(B_{n}\right)\left[\Phi_{n-1}\left[\ldots \Phi_{1}\left[\mu_{1}\left(B_{1}\right)[\rho]\right] \ldots\right]\right], \\
+B_{j} \in \mathscr{B}\left(X_{j}\right),
+\end{gathered}
+\]
+
+где $\rho$ - оператор плотности состояния системы перед измерениями, $\Phi_{j}-$ операция, описывающая изменение состояния в результате эволюции между $j$-м и $(j+1)$-м измерениями, $X_{j}-$ множество исходов $j$-го измерения (см. [5]). Надлежащий предельный переход при $n \rightarrow \infty$ позволяет дать описание измерения, длящегося непрерывно во времени (см. [2]). Для получения нетривиального предела точность измерений должна убывать пропорционально числу членов последовательности.
+
+Предельный процесс непрерывного измерения описывается семейством вполне положительных инструментов $\left\{\mu_{a, b}(\cdot) ; a, b \in \mathbb{R}, a&lt;b\right\}$, где инструмент $\boldsymbol{\mu}_{a, b}$ определен на $\sigma$-алгебре $\mathscr{B}_{a, b}(Y)$ подмножеств пространства $Y$ всевозможных траекторий на $\mathbb{R}$, порожденной приращениями траекторий на отрезке $[a, b]$, причем
+
+\[
+\begin{gathered}
+\mathscr{M}_{b, c}(F)\left[\mathscr{M}_{a, b}(E)[\rho]\right]=\mathscr{M}_{a, c}(E \cap F)[\rho] ; \\
+E \in \mathscr{B}_{a, b}(Y), F \in \mathscr{B}_{b, c}(Y)
+\end{gathered}
+\]
+
+для всех $a&lt;b&lt;c$, и всевозможных операторов плотности $\rho$. Имеется параллель между процессами непрерывного измерения и процессами с независимыми приращениями в теории вероятностей, позволяющая дать полную классификацию первых в терминах некоммутативного обобщения формулы Леви-Хинчина (см. [7]). Важными примерами являются аналог винеровского процесса - непрерывное неточное измерение наблюдаемой $X$ и аналог пуассоновского процесса - считающий процесс (см. [2], [5]). Всякий процесс непрерывного измерения может быть представлен как косвенное измерение, при к-ром над «пробной системой» производится непрерывное неразрушающее измерение нек-рого семейства совместимых наблюдаемых.
+
+Лит.: [1] Нейман Дж., Математические основы квантовой механики, пер. с нем., М., 1964; [2] Проспери Дж., в сб.: Квантовые случайные процессы и открытые системы, пер. с англ., М., 1988; [3] Хе л с т ро м К., Квантовая теория проверки гипотез и оценивания, пер. с англ., М., 1979; [4] Хол е в о А. С., Вероятностные и статистические аспекты квантовой теории, М., 1980; [5] Davies E. B., Quantum theory of open sistems, L.- N.Y., 1976; [6] d'Espagnat B., Conceptual foundation of quantum mechanics, 2 ed., L., 1976; [7] Hol e vo A. S., &quot;Pros. Int. Congress of Math.», Berkeley, 1986, p. 1011-20; [8] Ludwig G., Foundations of quantum mechanics, v. 1, N. Y., 1983; [9] O za wa M., «J. Math. Phys.», 1984, v. 25, № 1, p. 79-87; [10] Quantum optics, experimental gravity and measurement theory, N. Y., 1983.
+
+А. С. Холево.</text_orig>
+</article>

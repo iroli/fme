@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3468_EJKONALA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3468_EJKONALA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2741</core:url>
+    <lbm:descriptor><![CDATA[ЭЙКОНАЛА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20554"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_747"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1176"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1053"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20555"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1937"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>уравнение<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20554">$$\left(\frac{\partial u}{\partial q}\right)^{2}=1$$</a><BR/></P><P>которое описывает распространение коротких световых волн в однородной среде. Его решение, равное нулю на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_632_GIPERBOLIChNOST">гиперповерхности</a> $URI[[http://libmeta.ru/fme/formula/aux/3468_1_EJKONALA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/3468_2_EJKONALA]]/URI$,- это оптич. длина кратчайшего пути от источника света $URI[[http://libmeta.ru/fme/formula/aux/3468_3_EJKONALA]]/URI$ до точки <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1053">$$q \in \mathbb{R}^{n}$$</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO">Проекция</a> в $URI[[http://libmeta.ru/fme/formula/aux/3468_5_EJKONALA]]/URI$ характеристик, составляющих график 1-струи функции <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20555">$$u,-$$</a> это нормальные прямые (лучи) к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3193_UROVNJa">поверхностям уровня</a> функции $URI[[http://libmeta.ru/fme/formula/aux/3468_7_EJKONALA]]/URI$ (фронтам).<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[уравнение
+
+\[
+\left(\frac{\partial u}{\partial q}\right)^{2}=1
+\]
+
+которое описывает распространение коротких световых волн в однородной среде. Его решение, равное нулю на гиперповерхности $D$ в $\mathbb{R}^{n}$,- это оптич. длина кратчайшего пути от источника света $D$ до точки $q \in \mathbb{R}^{n}$. Проекция в $\mathbb{R}^{n}$ характеристик, составляющих график 1-струи функции $u,-$ это нормальные прямые (лучи) к поверхностям уровня функции $и$ (фронтам).]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3193_UROVNJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_632_GIPERBOLIChNOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

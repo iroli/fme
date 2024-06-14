@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_10029">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mo>&#x02202;</mo></mrow><mrow><mo>&#x02202;</mo><mi>&#x003C4;</mi></mrow></mfrac><msub><mi>T</mi><mrow><mi>&#x003C4;</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>y</mi><mrow><mn>3</mn></mrow></msub><mo>&#x02223;</mo><msub><mi>y</mi><mrow><mn>1</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><mo>&#x0222B;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mi>W</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>y</mi><mo>&#x0002C;</mo><msup><mi>y</mi><mrow><mi>&#x02032;</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><msub><mi>T</mi><mrow><mi>&#x003C4;</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>y</mi><mrow><mi>&#x02032;</mi></mrow></msup><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x02212;</mo><mi>W</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>y</mi><mrow><mi>&#x02032;</mi></mrow></msup><mo>&#x02223;</mo><mi>y</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><msub><mi>T</mi><mrow><mi>&#x003C4;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>y</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mi>d</mi><msup><mi>y</mi><mrow><mi>&#x02032;</mi></mrow></msup><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{\partial}{\partial \tau} T_{\tau}\left(y_{3} \mid y_{1}\right)=\int\left\{W\left(y, y^{\prime}\right) T_{\tau}\left(y^{\prime}, t\right)-W\left(y^{\prime} \mid y\right) T_{\tau}(y, t)\right\} d y^{\prime} .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_16130">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo>&#x0222B;</mo><msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x02016;</mo><mo>&#x02202;</mo><mi>u</mi><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo>&#x0002C;</mo><mi>&#x000B7;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002F;</mo><mo>&#x02202;</mo><mi>t</mi><mo>&#x02223;</mo><msub><mi>K</mi><mrow><mi>N</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x02016;</mo></mrow><mrow><mo>&#x02212;</mo><mi>s</mi></mrow></msub><msub><mi>&#x00050;</mi><mrow><mi>l</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>d</mi><mi>u</mi><mo stretchy="false">&#x00029;</mo><mi>&#x02A7D;</mi><mi>C</mi><mo stretchy="false">&#x00028;</mo><mi>N</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>s</mi><mo>&#x0003E;</mo><mo>max</mo><mo stretchy="false">&#x00028;</mo><mn>1</mn><mo>&#x0002B;</mo><mn>3</mn><mi>n</mi><mo>&#x0002F;</mo><mn>2</mn><mo>&#x0002C;</mo><mn>3</mn><mo>&#x0002B;</mo><mi>n</mi><mo>&#x0002F;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\int\left\|\partial u(t, \cdot) / \partial t \mid K_{N}\right\|_{-s} \mathrm{P}_{l}(d u) \leqslant C(N), \\s&gt;\max (1+3 n / 2,3+n / 2),\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

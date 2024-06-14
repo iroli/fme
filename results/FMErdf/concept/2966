@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_441_VOZMOZhNYH">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_441_VOZMOZhNYH</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2966</core:url>
+    <lbm:descriptor><![CDATA[ВОЗМОЖНЫХ ПЕРЕМЕЩЕНИЙ ПРИНЦИП, ПРИНЦИП ВИРТУАЛЬНЫХ ПЕРЕМЕЩЕНИЙ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#4804"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21903"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21904"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21905"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21906"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7428"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_837"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21907"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>один из вариационных принципов классической механики: механическая система находится в равновесии в некотором положении тогда и только тогда, когда сумма элементарных (бесконечно малых) работ активных сил $URI[[http://libmeta.ru/fme/formula/aux/441_1_VOZMOZhNYH]]/URI$ на всяком возможном перемещении $URI[[http://libmeta.ru/fme/formula/aux/441_2_VOZMOZhNYH]]/URI$, выводящем систему из рассматриваемого положения $URI[[http://libmeta.ru/fme/formula/aux/441_3_VOZMOZhNYH]]/URI$, равна нулю<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21903">$$\sum_{i} F_{i} \delta r_{i}=0$$</a><BR/></P><P>в любой момент времени $URI[[http://libmeta.ru/fme/formula/aux/441_4_VOZMOZhNYH]]/URI$.<BR/></P><P>Уравнение $URI[[http://libmeta.ru/fme/formula/aux/441_5_VOZMOZhNYH]]/URI$ является общим уравнением <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2923_STATIK">статики</a>, сводящим любую задачу <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2923_STATIK">статики</a> к математич. задаче исследования этого уравнения. Для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частного</a> случая потенциальных сил<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21904">$$F_{i}=\operatorname{grad} r_{i} U\left(t, r_{1}, \ldots, r_{N}\right) ; U\left(t, r_{i}\right) \in C^{2}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/441_6_VOZMOZhNYH]]/URI$ - число точек системы, равенство $URI[[http://libmeta.ru/fme/formula/aux/441_7_VOZMOZhNYH]]/URI$ принимает вид <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21907">$$\delta U=0$$</a><BR/></P><P>при любом $URI[[http://libmeta.ru/fme/formula/aux/441_9_VOZMOZhNYH]]/URI$, то есть <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механич</a>. система, подверженная <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">действию</a> потенциальных сил, находится в равновесии тогда и только тогда, когда силовая функция имеет стационарное значение.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#4804">В. В. Румянцев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[один из вариационных принципов классической механики: механическая система находится в равновесии в некотором положении тогда и только тогда, когда сумма элементарных (бесконечно малых) работ активных сил $F_{i}\left(t, r_{j}, \dot{r}_{j}\right) \in C^{1}$ на всяком возможном перемещении $\delta r_{i}$, выводящем систему из рассматриваемого положения $r_{i}$, равна нулю
+
+\[
+\sum_{i} F_{i} \delta r_{i}=0
+\]
+
+в любой момент времени $t$.
+
+Уравнение $\left({ }^{*}\right)$ является обшим уравнением статики, сводящим любую задачу статики к математич. задаче исследования этого уравнения. Для частного случая потенциальных сил
+
+\[
+F_{i}=\operatorname{grad} r_{i} U\left(t, r_{1}, \ldots, r_{N}\right) ; U\left(t, r_{i}\right) \in C^{2}
+\]
+
+где $N$ - число точек системы, равенство $\left({ }^{*}\right)$ принимает вид $\delta U=0$
+
+при любом $t$, то есть механич. система, подверженная действию потенциальных сил, находится в равновесии тогда и только тогда, когда силовая функция имеет стационарное значение. В. В. Румянцев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2923_STATIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2923_STATIK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

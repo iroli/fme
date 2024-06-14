@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2576_REGULJaRIZATsIJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2576_REGULJaRIZATsIJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1750</core:url>
+    <lbm:descriptor><![CDATA[РЕГУЛЯРИЗАЦИЯ ОБОБЩЕННОЙ ФУНКЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#8365"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13133"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13134"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13135"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13136"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13137"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8673"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4953"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13138"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1728"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13139"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13140"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13141"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1009"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>представление ее в виде предела последовательности гладких функций. Именно, последовательность функций <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13136">$$f_{\mathbf{v}}(x)$$</a> класса <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13137">$$c^{(\infty)}, \quad v=1,2, \ldots$$</a>, называется регуля р и з а и е й об обще н но й функци и $URI[[http://libmeta.ru/fme/formula/aux/2576_3_REGULJaRIZATsIJa]]/URI$, если <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4953">$$f_{v}(x)$$</a> задают регулярные обобщенные функции <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13138">$$f_{\mathrm{v}} \in \mathscr{F}^{\prime}$$</a>, слабо сходящиеся к $URI[[http://libmeta.ru/fme/formula/aux/2576_6_REGULJaRIZATsIJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2576_7_REGULJaRIZATsIJa]]/URI$, то есть если<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13133">$$\lim _{v \rightarrow \infty} \int f_{v}(x) \varphi(x) d^{n} x=(f, \varphi), \quad \varphi \in \mathscr{F} .$$</a><BR/></P><P>Обычно используют Р. вида<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13134">$$f_{v}(x)=\left(f(y), \delta_{v}(x-y)\right) \equiv f * \delta_{v}(x),$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13139">$$f \in \mathscr{F}^{\prime}-$$</a> данная обобщенная функция, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13140">$$\delta_{v}(x) \in \mathscr{F}$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13141">$$v=1,2, \ldots,-$$</a> дельта-последовательность, то есть такая последовательность, что<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13135">$$\delta_{v^{*}} \varphi(x)=\int \delta_{v}(x-y) \varphi(y) d^{n} y \in \mathscr{F}$$</a><BR/></P><P>и сходится к $URI[[http://libmeta.ru/fme/formula/aux/2576_11_REGULJaRIZATsIJa]]/URI$ в топологии Ғ̈. В стандартных пространствах <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa">обобщенных функций</a> каждая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa">обобщенная функция</a> имеет Р. Этот факт лежит в основе секвенциального подхода к теории <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa">обобщенных функций</a>, где <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa">обобщенная функция</a> определяется как класс эквивалентности своих Р.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#8365">В. В. Жаринов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[представление ее в виде предела последовательности гладких функций. Именно, последовательность функций $f_{\mathbf{v}}(x)$ класca $C^{(\infty)}, \quad v=1,2, \ldots$, называется регуля р и з а и е й об обще н но й функци и $f \in \mathscr{F}^{\prime}$, если $f_{v}(x)$ задают регулярные обобщенные функции $f_{\mathrm{v}} \in \mathscr{F}^{\prime}$, слабо сходящиеся к $f$ при $v \rightarrow \infty$, то есть если
+
+\[
+\lim _{v \rightarrow \infty} \int f_{v}(x) \varphi(x) d^{n} x=(f, \varphi), \quad \varphi \in \mathscr{F} .
+\]
+
+Обычно используют Р. вида
+
+\[
+f_{v}(x)=\left(f(y), \delta_{v}(x-y)\right) \equiv f * \delta_{v}(x),
+\]
+
+где $f \in \mathscr{F}^{\prime}-$ данная обобщенная функция, $\delta_{v}(x) \in \mathscr{F}$, $v=1,2, \ldots,-$ дельта-последовательность, то есть такая последовательность, что
+
+\[
+\delta_{v^{*}} \varphi(x)=\int \delta_{v}(x-y) \varphi(y) d^{n} y \in \mathscr{F}
+\]
+
+и сходится к $\varphi$ в топологии Ғ̈. В стандартных пространствах обобщенных функций каждая обобщенная функция имеет Р. Этот факт лежит в основе секвенщиального подхода к теории обобщенных функций, где обобщенная функция определяется как класс эквивалентности своих Р. В. В. Жаринов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

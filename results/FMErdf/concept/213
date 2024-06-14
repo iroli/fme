@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1192_KVANTOVOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1192_KVANTOVOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/213</core:url>
+    <lbm:descriptor><![CDATA[КВАНТОВОЕ СУПЕРСИММЕТРИЧНОЕ УРАВНЕНИЕ ЛИУВИЛЛЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2416"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#2419"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2420"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_378"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2421"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2422"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_78"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2423"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1780"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>уравнение движения взаимодействующих квантовых скалярного $URI[[http://libmeta.ru/fme/formula/aux/1192_1_KVANTOVOE]]/URI$ и спинорного $URI[[http://libmeta.ru/fme/formula/aux/1192_2_KVANTOVOE]]/URI$ полей<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2420">$$\begin{gathered}\frac{\partial^{2} x}{\partial z_{+} \partial z_{-}}=\lambda\left(\exp 2 x+\omega^{+} \omega^{-} \exp x\right), \\\frac{\partial \omega^{+}}{\partial z_{-}}=\omega^{-} \exp x, \quad \frac{\partial \omega^{-}}{\partial z_{+}}=\omega^{+} \exp x,\end{gathered}$$</a><BR/></P><P>переходящее в соответствующее <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI">классическое</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2996_SUPERDETERMINAN">суперсимметричное</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa">уравнение Лиувилля</a> в компонентном виде при $URI[[http://libmeta.ru/fme/formula/aux/1192_3_KVANTOVOE]]/URI$. Их <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2044_OBSchEE">общее решение</a> построено в <a href="/object/show?uri=http://libmeta.ru/io/Publication#2419">[1]</a> и представимо, как и в классич. пределе, для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамич</a>. переменной <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2422">$$\exp (-x)$$</a> конечным <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многочленом</a> по $URI[[http://libmeta.ru/fme/formula/aux/1192_5_KVANTOVOE]]/URI$, если <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2423">$$\lambda=\hbar \operatorname{ctg} \hbar$$</a>, где $URI[[http://libmeta.ru/fme/formula/aux/1192_7_KVANTOVOE]]/URI$ постоянная Планка.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#2419">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#2417">Лезнов А. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2418">Хушев В. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#2419">«ядерная физика», 1983, т. 38, в. 2 (8), с. 537-40.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2416">М. В. Савельев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[уравнение движения взаимодействующих квантовых скалярного $x$ и спинорного $\omega$ полей
+
+\[
+\begin{gathered}
+\frac{\partial^{2} x}{\partial z_{+} \partial z_{-}}=\lambda\left(\exp 2 x+\omega^{+} \omega^{-} \exp x\right), \\
+\frac{\partial \omega^{+}}{\partial z_{-}}=\omega^{-} \exp x, \quad \frac{\partial \omega^{-}}{\partial z_{+}}=\omega^{+} \exp x,
+\end{gathered}
+\]
+
+переходящее в соответствующее классическое суперсимметричное уравнение Лиувиля в компонентном виде при $\lambda=1$. Их общее решение построено в [1] и представимо, как и в классич. пределе, для динамич. переменной $\exp (-x)$ конечным многочленом по $\lambda$, если $\lambda=\hbar \operatorname{ctg} \hbar$, где $\hbar-$ постоянная Планка.
+
+Лит.: [1] Лез н о в А. Н., Х у ше в В. В., «Ядерная физика», 1983, т. 38 , в. 2 (8), с. 537-40. М. В. Савельев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2044_OBSchEE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2996_SUPERDETERMINAN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

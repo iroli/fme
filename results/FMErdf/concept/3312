@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_753_DAJSONA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_753_DAJSONA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3312</core:url>
+    <lbm:descriptor><![CDATA[ДАЙСОНА УРАВНЕНИЯ В КВАНТОВОЙ ТЕОРИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#72"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#24701"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24702"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24703"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_747"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24704"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24705"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24706"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8251"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24707"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_602"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24709"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1607"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>уравнения движения для квантовой системы с бесконечным числом степеней свободы (напр., системы квантовых полей), записанные не для операторных полевых функций, а для пропагаторов (одночастичных Грина функций) и вершинных функций. Д.у. представляют собой бесконечную цепочку зацепляющихся нелинейных интегральных уравнений, аналогичную цепочке уравнений для корреляционных функций (многочастичных распределения функций) статистич. механики. Они могут быть получены либо из уравнений Швингера, либо графич. путем - суммированием вкладов Фейнмана диаграмм.<BR/></P><P>В квантовой электродинамике [где они впервые были получены Ф. Дайсоном (f. Dyson)] два первых Д. у. для «одетых взаимодействием» электронного $URI[[http://libmeta.ru/fme/formula/aux/753_1_DAJSONA]]/URI$ и фотонного $URI[[http://libmeta.ru/fme/formula/aux/753_2_DAJSONA]]/URI$ пропагаторов имеют вид<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24702">$$\begin{aligned}& G(x, y)=G^{0}(x-y)+e \int G^{0}(x-z) A_{v}(z) \gamma^{v} d z G(z, y)- \\& -i \boldsymbol{e} \iiint \boldsymbol{G}^{0}(x-z) d z \gamma^{\mu} G(z, \tau) d \tau \Gamma^{v}(\tau, y ; \eta) d \eta D_{\mu v}(\eta, z),\end{aligned}$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24703">$$\begin{gathered}D_{\mu \nu}(x, y)=D_{\mu \nu}^{0}(x-y)-i e \iiint D_{\mu \rho}^{0}(x-\zeta) d \zeta \times \\\quad \times \operatorname{Sp}\left[\gamma^{\rho} G(\zeta, \eta) d_{\eta} \Gamma_{v}(\eta, \theta ; y) d \theta G(\theta, \zeta)\right],\end{gathered}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24704">$$\gamma^{\nu}$$</a> - Дирака матрицы, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24705">$$v=0,1,2,3, G^{0}$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24706">$$d^{0}$$</a> - «голые» пропагаторы (то есть Грина функции свободных полей), <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8251">$$a(x)$$</a> - внешнее электромагнитное поле (если оно отлично от нуля), одетое радиационными поправками, а <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24707">$$\gamma_{v}$$</a> - вершинная функция квантовой электродинамики, для к-рой, в свою очередь, может быть выписано интегральное уравнение, содержащее наряду с <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24708">$$g, D$$</a> и $URI[[http://libmeta.ru/fme/formula/aux/753_9_DAJSONA]]/URI$ электронфотонную 4-концевую вершинную функцию <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24709">$$k_{\mu v}$$</a>, и т. Д. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1607">$$(x, y, z-$$</a> пространственно-временные точки). Таким образом, любая конечная система Д.у. является незамкнутой.<BR/></P><P>С распространением квантовополевых методов Д. у. стали использоваться в квантовой статистич. физике, теории <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST">турбулентности</a> и нек-рых других <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">областях</a> теоретич. физики.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#24701">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#72">Ширков Д. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#24701">Введение в теорию квантованных полей, 4 изд., М., 1984, § 38.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#72">Д. В. Ширков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[уравнения движения для квантовой системы с бесконечным числом степеней свободы (напр., системы квантовых полей), записанные не для операторных полевых функций, а для пропагаторов (одночастичных Грина функций) и вершинных функций. Д.у. представляют собой бесконечную цепочку зацепляющихся нелинейных интегральных уравнений, аналогичную цепочке уравнений для корреляционных функций (многочастичных распределения функций) статистич. механики. Они могут быть получены либо из уравнений Швингера, либо графич. путем - суммированием вкладов Фейнмана диаграмм.
+
+В квантовой электродинамике [где они впервые были получены Ф. Дайсоном (F. Dyson)] два первых Д. у. для «одетых взаимодействием» электронного $G$ и фотонного $D$ пропагаторов имеют вид
+
+\[
+\begin{aligned}
+& G(x, y)=G^{0}(x-y)+e \int G^{0}(x-z) A_{v}(z) \gamma^{v} d z G(z, y)- \\
+& -i \boldsymbol{e} \iiint \boldsymbol{G}^{0}(x-z) d z \gamma^{\mu} G(z, \tau) d \tau \Gamma^{v}(\tau, y ; \eta) d \eta D_{\mu v}(\eta, z),
+\end{aligned}
+\]
+
+\[
+\begin{gathered}
+D_{\mu \nu}(x, y)=D_{\mu \nu}^{0}(x-y)-i e \iiint D_{\mu \rho}^{0}(x-\zeta) d \zeta \times \\
+\quad \times \operatorname{Sp}\left[\gamma^{\rho} G(\zeta, \eta) d_{\eta} \Gamma_{v}(\eta, \theta ; y) d \theta G(\theta, \zeta)\right],
+\end{gathered}
+\]
+
+где $\gamma^{\nu}$ - Дирака матрицы, $v=0,1,2,3, G^{0}$ и $D^{0}$ - «голые» пропагаторы (то есть Грина функиии свободных полей), $A(x)$ - внешнее электромагнитное поле (если оно отлично от нуля), одетое радиационными поправками, а $\Gamma_{v}$ - вершинная функция квантовой электродинамики, для к-рой, в свою очередь, может быть выписано интегральное уравнение, содержащее наряду с $G, D$ и $\Gamma$ электронфотонную 4-концевую вершинную функцию $K_{\mu v}$, и т. Д. $(x, y, z-$ пространственно-временные точки). Таким образом, любая конечная система Д.у. является незамкнутой.
+
+С распространением квантовополевых методов Д. у. стали использоваться в квантовой статистич. физике, теории турбулентности и нек-рых других областях теоретич. физики.
+
+Лит.: [1] Боголюбов Н.Н., Ш ирков Д. В., Введение в теорию квантованных полей, 4 изд., М., 1984, § 38. Д. В. Ширков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

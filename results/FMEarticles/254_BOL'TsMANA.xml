@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/254_BOL'TsMANA" alphabetic_pos="254">
+  <title>БОЛЬЦМАНА УРАВНЕНИЕ</title>
+  <authors>
+    <author>М. А. Сташенко</author>
+  </authors>
+  <pages>
+    <start>58</start>
+    <end>58</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Больцман Л., Лекции по теории газов, пер. с нем., М., 1956; [2] Боголюбов Н. Н., Избранные труды, т. 2, Киев, 1970, с. 99-196; [3] Неравновесные явления. Уравнение Больцмана, пер. с англ., М., $1986 . \quad$</literature_orig>
+    <unit>
+      <author>Больцман Л.</author>
+      <title>Лекции по теории газов</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1956</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <title>Избранные труды</title>
+      <publication>Киев</publication>
+      <year>1970</year>
+      <other>т. 2, с. 99-196</other>
+    </unit>
+    <unit>
+      <title>Неравновесные явления. Уравнение Больцмана</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/254_1_BOL'TsMANA">\frac{\partial f(t, \vec{p}, \vec{q})}{\partial t}+\left(\vec{p} \circ \nabla_{\vec{q}} f\right)+\left(\vec{F} \circ \nabla_{\vec{p}} f\right)=j(f, f),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/254_2_BOL'TsMANA">\begin{gathered}j(f, f)=\int_{\mathbb{R}^{3} \times \Sigma}\left[f(t, \vec{p}, \vec{q}) f\left(t, \overrightarrow{p_{1}^{\prime}}, \vec{q}\right)-f(t, \vec{p}, \vec{q}) f\left(t, \overrightarrow{p_{1}}, \vec{q}\right)\right] \times \\\times B\left(\left|\vec{p}-\overrightarrow{p_{1}}\right|,\left|\vec{p}-\overrightarrow{p_{1}}\right|^{-1}\left(\left(\vec{p}-\overrightarrow{p_{1}}\right) \circ \vec{n}\right)\right) d \overrightarrow{p_{1}} d \vec{n}, \\\Sigma=\left\{\vec{n} \in \mathbb{R}^{3}|| \vec{n} \mid=1\right\}, \\\overrightarrow{p^{\prime}}=\vec{p}-\vec{n}\left(\left(\vec{p}-\overrightarrow{p_{1}}\right) \circ \vec{n}\right), \quad \overrightarrow{p_{1}^{\prime}}=\overrightarrow{p_{1}}+\vec{n}\left(\left(\vec{p}-\overrightarrow{p_{1}}\right) \circ \vec{n}\right) .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/254_1_BOL'TsMANA">(0, \infty) \times \mathbb{R}^{3} \times D_{\ni}(t, \vec{p}, \vec{q}) \rightarrow f(t, \vec{p}, \vec{q})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/254_2_BOL'TsMANA">\vec{p}, \vec{q}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/254_3_BOL'TsMANA">d \subset \mathbb{R}^{3}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/254_4_BOL'TsMANA">\vec{f}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/254_5_BOL'TsMANA">j(f, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/254_6_BOL'TsMANA">(t, \vec{p}, \vec{q})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/254_7_BOL'TsMANA">(0, \infty) \times(0,1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/254_8_BOL'TsMANA">b</formula>
+  </formulas_aux>
+  <relations n="13">
+    <relation uri="http://libmeta.ru/fme/relation/254_1_BOL'TsMANA">
+      <rel_text>Линеаризованное уравнение Больцмана</rel_text>
+      <target>http://libmeta.ru/fme/article/1597_LINEARIZOVANNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_2_BOL'TsMANA">
+      <rel_text>решения задачи</rel_text>
+      <target>http://libmeta.ru/fme/article/2547_RASSEJaNIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_3_BOL'TsMANA">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_4_BOL'TsMANA">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_5_BOL'TsMANA">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_6_BOL'TsMANA">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_7_BOL'TsMANA">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_8_BOL'TsMANA">
+      <rel_text>частицы</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_9_BOL'TsMANA">
+      <rel_text>импульс</rel_text>
+      <target>http://libmeta.ru/fme/article/996_IMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_10_BOL'TsMANA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_11_BOL'TsMANA">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_12_BOL'TsMANA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/254_13_BOL'TsMANA">
+      <rel_text>интегро-дифференциальное уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/1044_INTEGRO-DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>нелинейное URI[[http://libmeta.ru/fme/relation/254_13_BOL'TsMANA]]/URI, описывающее временную эволюцию URI[[http://libmeta.ru/fme/relation/254_12_BOL'TsMANA]]/URI разреженного газа. Б. у. имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/254_1_BOL'TsMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/254_1_BOL'TsMANA]]/URI$ - URI[[http://libmeta.ru/fme/relation/254_11_BOL'TsMANA]]/URI функции распределения числа URI[[http://libmeta.ru/fme/relation/254_10_BOL'TsMANA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/254_2_BOL'TsMANA]]/URI$ соответственно URI[[http://libmeta.ru/fme/relation/254_9_BOL'TsMANA]]/URI и координата URI[[http://libmeta.ru/fme/relation/254_8_BOL'TsMANA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/254_3_BOL'TsMANA]]/URI$ URI[[http://libmeta.ru/fme/relation/254_7_BOL'TsMANA]]/URI, в к-рой содержится газ, $URI[[http://libmeta.ru/fme/formula/aux/254_4_BOL'TsMANA]]/URI$ массовая URI[[http://libmeta.ru/fme/relation/254_6_BOL'TsMANA]]/URI внешних сил. Билинейный URI[[http://libmeta.ru/fme/relation/254_5_BOL'TsMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/254_5_BOL'TsMANA]]/URI$ - интеграл столкновений, задаваемый в точке $URI[[http://libmeta.ru/fme/formula/aux/254_6_BOL'TsMANA]]/URI$ формулами:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/254_2_BOL'TsMANA]]/URI
+\]
+
+Неотрицательная непрерывная на $URI[[http://libmeta.ru/fme/formula/aux/254_7_BOL'TsMANA]]/URI$ функция $URI[[http://libmeta.ru/fme/formula/aux/254_8_BOL'TsMANA]]/URI$, называемая диффере нци альным с ечением р а с с е я н и я, однозначно определяется межчастичным потенциалом взаимодействия. Б. у. URI[[http://libmeta.ru/fme/relation/254_4_BOL'TsMANA]]/URI при предельном переходе малой URI[[http://libmeta.ru/fme/relation/254_3_BOL'TsMANA]]/URI, называемом также пределом (предельным переходом) Больцмана Грэд а. Имеются строгие результаты для нек-рых классов взаимодействий URI[[http://libmeta.ru/fme/relation/254_2_BOL'TsMANA]]/URI Коши для Б. у. (см. [3]).
+
+См. также URI[[http://libmeta.ru/fme/relation/254_1_BOL'TsMANA]]/URI.</text>
+  <text_orig>нелинейНое интегро-дифференциальное уравнение, описывающее временную эволюцию частиц разреженного газа. Б. у. имеет вид:
+
+\[
+\frac{\partial f(t, \vec{p}, \vec{q})}{\partial t}+\left(\vec{p} \circ \nabla_{\vec{q}} f\right)+\left(\vec{F} \circ \nabla_{\vec{p}} f\right)=j(f, f),
+\]
+
+где $(0, \infty) \times \mathbb{R}^{3} \times D_{\ni}(t, \vec{p}, \vec{q}) \rightarrow f(t, \vec{p}, \vec{q})$ - плотность функции распределения числа частиц, $\vec{p}, \vec{q}-$ соответственно импульс и координата частицы, $D \subset \mathbb{R}^{3}-$ область, в к-рой содержится газ, $\vec{F}-$ массовая плотность внешних сил. Билинейный оператор $j(f, f)$ - интеграл столкновений, задаваемый в точке $(t, \vec{p}, \vec{q})$ формулами:
+
+\[
+\begin{gathered}
+j(f, f)=\int_{\mathbb{R}^{3} \times \Sigma}\left[f(t, \vec{p}, \vec{q}) f\left(t, \overrightarrow{p_{1}^{\prime}}, \vec{q}\right)-f(t, \vec{p}, \vec{q}) f\left(t, \overrightarrow{p_{1}}, \vec{q}\right)\right] \times \\
+\times B\left(\left|\vec{p}-\overrightarrow{p_{1}}\right|,\left|\vec{p}-\overrightarrow{p_{1}}\right|^{-1}\left(\left(\vec{p}-\overrightarrow{p_{1}}\right) \circ \vec{n}\right)\right) d \overrightarrow{p_{1}} d \vec{n}, \\
+\Sigma=\left\{\vec{n} \in \mathbb{R}^{3}|| \vec{n} \mid=1\right\}, \\
+\overrightarrow{p^{\prime}}=\vec{p}-\vec{n}\left(\left(\vec{p}-\overrightarrow{p_{1}}\right) \circ \vec{n}\right), \quad \overrightarrow{p_{1}^{\prime}}=\overrightarrow{p_{1}}+\vec{n}\left(\left(\vec{p}-\overrightarrow{p_{1}}\right) \circ \vec{n}\right) .
+\end{gathered}
+\]
+
+Неотрицательная непрерывная на $(0, \infty) \times(0,1)$ функция $B$, называемая диффере нци альным с ечением р а с с е я н и я, однозначно определяется межчастичным потенциалом взаимодействия. Б. у. получается при предельном переходе малой плотности, называемом также пределом (предельным переходом) Больцмана Грэд а. Имеются строгие результаты для нек-рых классов взаимодействий решения задачи Коши для Б. у. (см. [3]).
+
+См. также Линеаризованное уравнение Больцмана.
+
+Лит.: [1] Больцман Л., Лекции по теории газов, пер. с нем., М., 1956; [2] Боголюбов Н. Н., Избранные труды, т. 2, Киев, 1970, с. 99-196; [3] Неравновесные явления. Уравнение Больцмана, пер. с англ., М., $1986 . \quad$ М. А. Сташенко.</text_orig>
+</article>

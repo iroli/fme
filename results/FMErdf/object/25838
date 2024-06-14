@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_25838">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mover><mrow><mi>p</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>j</mi></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>i</mi><mi>&#x0210F;</mi><mo>&#x02202;</mo><mo>&#x0002F;</mo><mo>&#x02202;</mo><msub><mi>q</mi><mrow><mi>j</mi></mrow></msub><mo>&#x0002C;</mo><mspace width="1em" /><msub><mover><mrow><mi>M</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mi>j</mi></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>i</mi><mi>&#x0210F;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>q</mi><mrow><mi>k</mi></mrow></msub><mo>&#x02202;</mo><mo>&#x0002F;</mo><mo>&#x02202;</mo><msub><mi>q</mi><mrow><mi>l</mi></mrow></msub><mo>&#x02212;</mo><msub><mi>q</mi><mrow><mi>l</mi></mrow></msub><mo>&#x02202;</mo><mo>&#x0002F;</mo><mo>&#x02202;</mo><msub><mi>q</mi><mrow><mi>k</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace linebreak="newline" /><mover><mrow><mi>H</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mo>&#x0003D;</mo><mo>&#x02212;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>&#x0210F;</mi><mrow><mn>2</mn></mrow></msup><mo>&#x0002F;</mo><mn>2</mn><mi>m</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><msub><mo>&#x02211;</mo><mrow><mi>j</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mo>&#x02202;</mo><mrow><mn>2</mn></mrow></msup><mo>&#x0002F;</mo><mo>&#x02202;</mo><msubsup><mi>q</mi><mrow><mi>j</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002B;</mo><mi>V</mi><mo stretchy="false">&#x00028;</mo><mi>q</mi><mo stretchy="false">&#x00029;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\hat{p}_{j}=-i \hbar \partial / \partial q_{j}, \quad \hat{M}_{j}=-i \hbar\left(q_{k} \partial / \partial q_{l}-q_{l} \partial / \partial q_{k}\right), \\\hat{H}=-\left(\hbar^{2} / 2 m\right) \sum_{j}\left(\partial^{2} / \partial q_{j}^{2}\right)+V(q)\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12350">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix" /><mtable><mtr><mtd columnalign="left"><mo>&#x02211;</mo><msub><mi>F</mi><mrow><mi>k</mi><mi>x</mi></mrow></msub><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mspace width="1em" /><mo>&#x02211;</mo><msub><mi>F</mi><mrow><mi>k</mi><mi>y</mi></mrow></msub><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mspace width="1em" /><mo>&#x02211;</mo><msub><mi>F</mi><mrow><mi>k</mi><mi>z</mi></mrow></msub><mo>&#x0003D;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign="left"><mo>&#x02211;</mo><msub><mi>m</mi><mrow><mi>x</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>F</mi><mrow><mi>k</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mspace width="1em" /><mo>&#x02211;</mo><msub><mi>m</mi><mrow><mi>y</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>F</mi><mrow><mi>k</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo><mspace width="1em" /><mo>&#x02211;</mo><msub><mi>m</mi><mrow><mi>z</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>F</mi><mrow><mi>k</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002E;</mo></mtd></mtr></mtable><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\left.\begin{array}{l}\sum F_{k x}=0, \quad \sum F_{k y}=0, \quad \sum F_{k z}=0 \\\sum m_{x}\left(F_{k}\right)=0, \quad \sum m_{y}\left(F_{k}\right)=0, \quad \sum m_{z}\left(F_{k}\right)=0 .\end{array}\right\}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

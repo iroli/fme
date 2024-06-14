@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1530_LANDAU">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1530_LANDAU</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/589</core:url>
+    <lbm:descriptor><![CDATA[ЛАНДАУ ЗАТУХАНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5085"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5086"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5087"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_316"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4263"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4641"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Процесс затухания электромагнитного поля в бесстолкновительной плазме, описываемой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_420_VLASOVA">Власова уравнением</a> (предсказано Л. Д. Ландау, см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#5085">[1]</a>). В случае, когда электроны имеют равновесное максвелловское распределение по <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростям</a>, декремент затухания <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5087">$$\gamma_{k}$$</a> электромагнитного поля определяется формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5086">$$\gamma_{k}=\left(\frac{\pi}{8}\right)^{1 / 2} \frac{\omega_{0}}{\left(k r_{D}\right)^{3}} \exp \left\{-\frac{1}{2 k^{2} r_{D}^{2}}-\frac{3}{2}\right\}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1530_2_LANDAU]]/URI$ - волновой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4263">$$r_{d}$$</a> - радиус Дебая, $URI[[http://libmeta.ru/fme/formula/aux/1530_4_LANDAU]]/URI$ - плазменная <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частота</a>. При распространении электромагнитной волны электроны, движущиеся со <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростью</a> меньшей <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3236_FAZOVAJa">фазовой скорости</a> волны, отбирают у нее <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергию</a>, а электроны, опережающие волну, отдают ей <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергию</a>. Поэтому, если функция распределения электронов является убывающей функцией <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a>, то волна будет затухать. Этот <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механизм</a> и обуславливает Л. 3.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#5085">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#98">Ландау Л. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5085">«журнал эксперим. и теоретич. физики», 1946, т. 16, с. } 574 . & \text { В. В. Красильников. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[Процесс затухания электромагнитного поля в бесстолкновительной плазме, описываемой Власова уравнением (предсказано Л. Д. Ландау, см. [1]). В случае, когда электроны имеют равновесное максвелловское распределение по скоростям, декремент затухания $\gamma_{k}$ электромагнитного поля определяется формулой
+
+\[
+\gamma_{k}=\left(\frac{\pi}{8}\right)^{1 / 2} \frac{\omega_{0}}{\left(k r_{D}\right)^{3}} \exp \left\{-\frac{1}{2 k^{2} r_{D}^{2}}-\frac{3}{2}\right\}
+\]
+
+где $k$ - волновой вектор, $r_{D}$ - радиус Дебая, $\omega_{0}$ - плазменная частота. При распространении электромагнитной волны электроны, движушиеся со скоростью менышей фазовой скорости волны, отбирают у нее энергию, а электроны, опережающие волну, отдают ей энергию. Поэтому, если функция распределения электронов является убывающей функцией энергии, то волна будет затухать. Этот механизм и обуславливает Л. 3.
+
+Лит.: [1] Л а нд а у Л. Д., «Журнал эксперим. и теоретич. физики», $\begin{array}{ll}1946 \text {, т. 16, с. } 574 . & \text { В. В. Красильников. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3236_FAZOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_420_VLASOVA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

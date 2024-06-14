@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_23796">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>ln</mi><msub><mi>n</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>r</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>&#x003B2;</mi><mi>V</mi><mo stretchy="false">&#x00028;</mo><mi>r</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><mi>n</mi><mo>&#x0222B;</mo><mi>d</mi><mi>s</mi><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msub><mi>n</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>s</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><mn>1</mn><mo>&#x02212;</mo><mo stretchy="true" fence="true" form="postfix" /></mrow><mspace linebreak="newline" /><mrow><mo stretchy="true" fence="true" form="prefix" /><mo>&#x02212;</mo><mi>ln</mi><msub><mi>n</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>s</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><mi>&#x003B2;</mi><mi>V</mi><mo stretchy="false">&#x00028;</mo><mi>s</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msub><mi>n</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mo stretchy="false">&#x0007C;</mo><mrow><mi mathvariant="bold-italic">r</mi></mrow><mo>&#x02212;</mo><mi>s</mi><mo stretchy="false">&#x0007C;</mo><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><mn>1</mn><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\ln n_{2}(r)=-\beta V(r)+n \int d s\left[n_{2}(s)-1-\right. \\\left.-\ln n_{2}(s)-\beta V(s)\right]\left[n_{2}(|\boldsymbol{r}-s|)-1\right],\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

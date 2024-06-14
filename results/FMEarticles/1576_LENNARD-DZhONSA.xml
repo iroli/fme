@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1576_LENNARD-DZhONSA" alphabetic_pos="1578">
+  <title>ЛЕННАРД-ДЖОНСА ПОТЕНЦИАЛ ВЗАИМОДЕЙСТВИЯ</title>
+  <authors>
+    <author>П. В. Малышев</author>
+  </authors>
+  <pages>
+    <start>324</start>
+    <end>324</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Lennard - J ones J. E., «proc. Roy. Soc.», 1924, A 106, p. 463; [2] Бале ску Р., Равновесная и неравновесная статистическая механика, пер. с англ., М., 1978, т. 1, § 6.1; [3] Рюэль Д., Статистическая механика. Строгие результаты, пер. с англ., М., 1971, §3.2.10.</literature_orig>
+    <unit>
+      <author>Lennard-Jones J. E.</author>
+      <title>«proc. Roy. Soc.»</title>
+      <publication/>
+      <year>1924</year>
+      <other>A 106, p. 463</other>
+    </unit>
+    <unit>
+      <author>Балеску Р.</author>
+      <title>Равновесная и неравновесная статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1978</year>
+      <other>т. 1, § 6.1</other>
+    </unit>
+    <unit>
+      <author>Рюэль Д.</author>
+      <title>Статистическая механика. Строгие результаты</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other>§3.2.10.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1576_1_LENNARD-DZhONSA">\Phi=4 \varepsilon\left[\left(\frac{r_{0}}{r}\right)^{12}-\left(\frac{r_{0}}{r}\right)^{6}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1576_2_LENNARD-DZhONSA">\begin{gathered}\Phi(x)&gt;A_{1}|x|^{-\lambda_{1}}, \quad|x|&lt;a_{1}, \\\Phi(x)&gt;A_{2}|x|^{-\lambda 2}, \quad|x|&gt;a_{2}, \quad x \in \mathbb{R}^{v} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1576_1_LENNARD-DZhONSA">6-12</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1576_2_LENNARD-DZhONSA">\left(r^{-6}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1576_3_LENNARD-DZhONSA">\left(r^{-12}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1576_4_LENNARD-DZhONSA">-\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1576_5_LENNARD-DZhONSA">r=r_{0} \sqrt[6]{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1576_6_LENNARD-DZhONSA">0&lt;a_{1}&lt;a_{2}&lt;\infty, A_{1}, A_{2}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1576_7_LENNARD-DZhONSA">\lambda_{1}, \lambda_{2}&gt;v(v-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1576_8_LENNARD-DZhONSA">\phi(q)&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1576_9_LENNARD-DZhONSA">|q|&gt;a_{2}</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/1576_1_LENNARD-DZhONSA">
+      <rel_text>жидкостей</rel_text>
+      <target>http://libmeta.ru/fme/article/939_ZhIDKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1576_2_LENNARD-DZhONSA">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1576_3_LENNARD-DZhONSA">
+      <rel_text>быстро убывающими</rel_text>
+      <target>http://libmeta.ru/fme/article/290_BYSTRO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1576_4_LENNARD-DZhONSA">
+      <rel_text>сверхустойчивы</rel_text>
+      <target>http://libmeta.ru/fme/article/2687_SVERHIZLUChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1576_5_LENNARD-DZhONSA">
+      <rel_text>Потенциал взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/387_VZAIMODEJSTVIJa</target>
+    </relation>
+  </relations>
+  <text>взаимодействия потенциал вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1576_1_LENNARD-DZhONSA]]/URI
+\]
+
+Другое название - потен ц и ал $URI[[http://libmeta.ru/fme/formula/aux/1576_1_LENNARD-DZhONSA]]/URI$. Слагаемое $URI[[http://libmeta.ru/fme/formula/aux/1576_2_LENNARD-DZhONSA]]/URI$, описывающее притяжение частиц, обосновано квантовомеханически (дисперсные силы притяжения). Слагаемое $URI[[http://libmeta.ru/fme/formula/aux/1576_3_LENNARD-DZhONSA]]/URI$, описывающее отталкивание на малых расстояниях, не имеет надежного обоснования, но является хорошим приближением (отражает непроницаемость частиц друг для друга). Л.-Д. п. в. имеет минимум, равный $URI[[http://libmeta.ru/fme/formula/aux/1576_4_LENNARD-DZhONSA]]/URI$ в точке $URI[[http://libmeta.ru/fme/formula/aux/1576_5_LENNARD-DZhONSA]]/URI$
+
+URI[[http://libmeta.ru/fme/relation/1576_5_LENNARD-DZhONSA]]/URI принадлежит классу Л.Д. п.в., если он ограничен снизу и существуют такие $URI[[http://libmeta.ru/fme/formula/aux/1576_6_LENNARD-DZhONSA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1576_7_LENNARD-DZhONSA]]/URI$ размерность пространства), что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1576_2_LENNARD-DZhONSA]]/URI
+\]
+
+Потенциалы из этого класса URI[[http://libmeta.ru/fme/relation/1576_4_LENNARD-DZhONSA]]/URI и регулярны снизу. Если $URI[[http://libmeta.ru/fme/formula/aux/1576_8_LENNARD-DZhONSA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1576_9_LENNARD-DZhONSA]]/URI$, то Л.-Д. п. в. являются URI[[http://libmeta.ru/fme/relation/1576_3_LENNARD-DZhONSA]]/URI и регулярными. Использование Л.-Д. п. в. в различных задачах классич. статистич. URI[[http://libmeta.ru/fme/relation/1576_2_LENNARD-DZhONSA]]/URI и кинетич. теории газов и URI[[http://libmeta.ru/fme/relation/1576_1_LENNARD-DZhONSA]]/URI определяется тем, что он реалистично описывает межмолекулярные взаимодействия (взаимодействия Ван-дер-Ваальса).</text>
+  <text_orig>взаимодействия потенциал вида
+
+\[
+\Phi=4 \varepsilon\left[\left(\frac{r_{0}}{r}\right)^{12}-\left(\frac{r_{0}}{r}\right)^{6}\right]
+\]
+
+Другое название - потен ц и ал $6-12$. Слагаемое $\left(r^{-6}\right)$, описывающее притяжение частиц, обосновано квантовомеханически (дисперсные силы притяжения). Слагаемое $\left(r^{-12}\right)$, описывающее отталкивание на малых расстояниях, не имеет надежного обоснования, но является хорошим приближением (отражает непроницаемость частиц друг для друга). Л.-Д. п. в. имеет минимум, равный $-\varepsilon$ в точке $r=r_{0} \sqrt[6]{2}$
+
+Потенциал взаимодействия принадлежит классу Л.Д. п.в., если он ограничен снизу и существуют такие $0&lt;a_{1}&lt;a_{2}&lt;\infty, A_{1}, A_{2}&gt;0$ и $\lambda_{1}, \lambda_{2}&gt;v(v-$ размерность пространства), что
+
+\[
+\begin{gathered}
+\Phi(x)&gt;A_{1}|x|^{-\lambda_{1}}, \quad|x|&lt;a_{1}, \\
+\Phi(x)&gt;A_{2}|x|^{-\lambda 2}, \quad|x|&gt;a_{2}, \quad x \in \mathbb{R}^{v} .
+\end{gathered}
+\]
+
+Потенциалы из этого класса сверхустойчивы и регулярны снизу. Если $\Phi(q)&lt;0$ при $|q|&gt;a_{2}$, то Л.-Д. п. в. являются быстро убывающими и регулярными. Использование Л.-Д. п. в. в различных задачах классич. статистич. механики и кинетич. теории газов и жидкостей определяется тем, что он реалистично описывает межмолекулярные взаимодействия (взаимодействия Ван-дер-Ваальса).
+
+Jum.: [1] Lennard - J ones J. E., «Proc. Roy. Soc.», 1924, A 106, p. 463; [2] Бале ску Р., Равновесная и неравновесная статистическая механика, пер. с англ., М., 1978, т. 1, § 6.1; [3] Рюэль Д., Статистическая механика. Строгие результаты, пер. с англ., М., 1971, §3.2.10.
+
+П. В. Малышев.</text_orig>
+</article>

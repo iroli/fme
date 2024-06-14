@@ -1,0 +1,147 @@
+2) К. н.- неравенство для модуля $\left|f^{(k)}(a)\right|$ производной регулярной аналитич. функции $f(z)$ в фиксированной точке $a$ комплексной плоскости $\mathbb{C}$ или для модуля коәффициента $\left|c_{k}\right|$ разложения $f(z)$ в степенной ряд
+
+\[
+f(z)=\sum_{k=0}^{\infty} c_{k}(z-a)^{k} .
+\]
+
+К. н. имеют вид
+
+\[
+\left|f^{(k)}(a)\right| \leqslant k ! \frac{M(r)}{r^{k}}, \quad\left|c_{k}\right| \leqslant \frac{M(r)}{r^{k}},
+\]
+
+где $r$ - радиус любого круга $U=\{z \in \mathbb{C} ;|z-a| \leqslant r\}$, на к-ром функция $f(z)$ регулярна; $M(r)$ - максимум модуля $|f(z)|$ на окружности $|z-a|=r$. Неравенства $(*)$ встречаются в работах О. Коши (А. Cauchy, см., напр., [1]). Из них непосредственно вытекает н е р а в е нс т в о Ко шШ и - Ад а ма а (см. [2]):
+
+\[
+\lim _{k \rightarrow \infty} \sup \sqrt[k]{\frac{\left|f^{(k)}(a)\right|}{k !}} \leqslant \frac{1}{d(a, \partial D)}
+\]
+
+где $d(a, \partial D)-$ расстояние от точки $a$ до границы $\partial D$ области голоморфности функции $f(z)$. В частности, для целой функции $f(z)$ в любой точке $a \in \mathbb{C}$ имеем
+
+\[
+\lim _{k \rightarrow \infty} \sup \sqrt[k]{\frac{\left|f^{(k)}(a)\right|}{k !}}=0 .
+\]
+
+Для голоморфной функции $f(z)$ многих комплексных переменных $z=\left(z_{1}, \ldots, z_{n}\right), n>1$, К. н. имеют вид
+
+\[
+\left|\frac{\partial^{k_{1}+\ldots+k_{n}} f(a)}{\partial x_{1}^{k_{1}} \ldots \partial z_{n}^{k_{n}}}\right| \leqslant k_{1} ! \ldots k_{n} ! \frac{M\left(r_{1}, \ldots, r_{n}\right)}{r_{1}^{k_{1}} \ldots r_{n}^{k_{n}}}
+\]
+
+или
+
+\[
+\begin{gathered}
+\left|c_{k_{1}}, \ldots, k_{n}\right| \leqslant \frac{M\left(r_{1}, \ldots, r_{n}\right)}{r_{1}^{k_{1}} \ldots r_{n}^{k_{n}}}, \\
+a=\left(a_{1}, \ldots, a_{n}\right) \in \mathbb{C}^{n}, \quad k_{1}, \ldots, k_{n}=0,1, \ldots,
+\end{gathered}
+\]
+
+где $c_{k_{1}}, \ldots, k_{n}-$ коэффициенты разложения $f(z)$ в степенной ряд
+
+$f(z)=\sum_{k_{1}, \ldots, k_{n}=0}^{\infty} c_{k_{1}, \ldots, k_{n}}\left(z_{1}-a_{1}\right)^{k_{1}} \ldots\left(z_{n}-a_{n}\right)^{k_{n}} ;$
+
+$r_{1}, \ldots, r_{n}-$ радиусы поликруга $U^{n}=\left\{z \in \mathbb{C}^{n}: \mid z_{j}-\right.$ $\left.\frac{a_{j}}{} \mid \leqslant r_{j}, j=1, \ldots, n\right\}$, на к-ром $f(z)$ голоморфна; $M\left(r_{1}, \ldots, r_{n}\right)$ - максимум $|f(z)|$ на остове поликруга $U^{n}$
+
+Лит. см. при ст. Коши - Адамара теорема.
+
+Е. Д. Соломенчев. ренциальных уравнений
+
+\[
+\dot{x}=f(t, x), \quad x \in \mathbb{R}^{n},
+\]
+
+- зависящий от параметров $\theta$ и $\tau$ оператор $X(\theta, \tau)$ : $\mathbb{R}^{n} \rightarrow \mathbb{R}^{n}$, сопоставляющий значению всякого решения $x(t)$ системы (1) в точке $t=\tau$ значение этого же решения в точке $t=\theta$ :
+
+\[
+X(\theta, \tau) x(\tau)=x(\theta) .
+\]
+
+Если система (1) линейная, т. е.
+
+\[
+\dot{x}=A(t) x,
+\]
+
+где $A(\cdot)$-суммируемое на каждом отрезке отображение $(\alpha, \beta) \longrightarrow \operatorname{Hom}\left(\mathbb{R}^{n}, \mathbb{R}^{n}\right)$ (или $(\alpha, \beta) \longrightarrow \operatorname{Hom}\left(\mathbb{C}^{n}, \mathbb{C}^{n}\right)$ ), то $\kappa_{:}$о. при всяких $\theta, \tau \in(\alpha, \beta)$ есть невырожденное линейное отображение $\mathbb{R}^{n} \rightarrow \mathbb{R}^{n}$ (соответственно $\left.\mathbb{C}^{n} \rightarrow \mathbb{C}^{n}\right)$, удовлетворяющее при всяких $\theta, \tau, \eta \in$ $\in(\alpha, \beta)$ равенствам:
+
+\[
+\left.\begin{array}{c}
+X(\theta, \theta)=I, \quad X(\theta, \tau)=X^{-1}(\tau, \theta) \\
+X(\theta, \eta) X(\eta, \tau)=X(\theta, \tau)
+\end{array}\right\}
+\]
+
+$\mid \begin{gathered}\text { и неравенству } \\ \|X(\theta, \tau)\| \leqslant \exp \left|\int_{\tau}^{\theta}\|A(t)\| d t\right| .\end{gathered}$
+
+(Для нелинейной системы (1), удовлетворяющей условиям теоремы существования и единственности решения задачи Коши, равенства (3) тоже верны, с должными оговорками относительно областей определения входящих в них операторов.) Общее решение системы
+
+\[
+\dot{x}=A(t) x+h(t)
+\]
+
+где $h(\cdot)$ - суммируемое на каждом отрезке отображение
+
+\[
+\left.(\alpha, \beta) \longrightarrow \mathbb{R}^{n} \text { (или }(\alpha, \beta) \longrightarrow \mathbb{C}^{n}\right),
+\]
+
+записывается через К. о. $X(\theta, \tau)$ системы (2) формулой произвольных постоянных вариачии:
+
+\[
+x(t)=X(t, \tau) x(\tau)+\int_{\tau}^{t} X(t, \theta) h(\theta) d \theta .
+\]
+
+Для К. о. системы (2) имеет место Лиувилля-Остроградского бормула
+
+\[
+\operatorname{det} X(\theta, \tau)=\exp \int_{\tau}^{\theta} \operatorname{tr} A(\xi) d \xi
+\]
+
+где $\operatorname{tr} A(\xi)-$ след оператора $A(\xi)$.
+
+Производная К. о. $X(\theta, \tau)$ системы (1) в точке $x \in \mathbb{R}^{n}$ равна К. о. системы уравнений в вариациях вдоль решения $x(t)$ системы (1), равного $x$ при $t=\tau$ (предполагается, что график решения $x(t)$ при всех $t$, принадлежащих отрезку с концами $\theta$ и $\tau$, содержится в области $G \subset \mathbb{R}^{n+1}$ такой, что $f$ - непрерывное отображение $G \rightarrow \mathbb{R}^{n}$, имеющее непрерывную в $G$ производную $f_{x}^{\prime}$; әто - одна из формулировок т е о р е мы о д ифф еренцируемости решения по начальном у значен и ю).
+
+Для линейной системы (2) с постоянными коэффициентами $(A(t) \equiv A)$ К. о. задается формулой
+
+\[
+X(\theta, \tau)=\exp ((\theta-\tau) A)
+\]
+
+$(\exp B$ для линейного оператора $B$ определяется как $\sum_{k=0}^{\infty} \frac{1}{k !} B^{k}$; при другом подходе за определение $\exp A$ можно принять формулу (4), положив в ней $\theta=\tau+1$ ). Из формулы (4) видно, что К. о. зависит только от разности параметров $\theta-\tau$ :
+
+\[
+X(\theta+t, \tau+t)=X(\theta, \tau) .
+\]
+
+Это равенство - следствие автономности системы, имеющее место для всякой автономной системв
+
+\[
+\dot{x}=f(x), \quad x \in \mathbb{R}^{n},
+\]
+
+обозначив для системы (5) К. о. $X(\theta, \tau)$ через $f^{\theta-\tau}$, получают из формул (3) следующие формулы:
+
+\[
+f^{0}=I ;\left(f^{t}\right)^{-1}=f^{-t} ; f^{t} f^{\tau}=f^{t+\tau}
+\]
+
+(см. также Динамическая система, Действие группь).
+
+Для линейной системы (2) с периодическими коәффициентами:
+
+\[
+A(t+T)=A(t)
+\]
+
+при нек-ром $T>0$ и всех $t \in \mathbb{R}-$ выполняется тождество
+
+\[
+X(\theta+T, \tau+T)=X(\theta, \tau)
+\]
+
+при всех $\theta, \tau \in \mathbb{R} ;$ для такой системы оператор $X(\tau+T, \tau), \quad$ где $\tau \in \mathbb{R}-$ любое, наз. о п е р а т ор о м м о н о д р о м и и. Матрица, задающая оператор $X(\tau+T, \tau)$ (или, напр., $X(T, 0))$ в каком-либо базисе, наз. монодромии матрицей. Все операторы монодромии фиксированной линейной системы с периодическими коэффициентами подобны друг другу:
+
+\[
+X(\theta+T, \theta)=X(\theta, \tau) X(\tau+T, \tau) X^{-1}(\theta, \tau),
+\]

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2522_RAZREShIMAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2522_RAZREShIMAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1691</core:url>
+    <lbm:descriptor><![CDATA[РАЗРЕШИМАЯ ГРУППА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8283"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12669"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7035"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12670"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12671"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>группа, в которой существует цепочка подгрупп<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8283">$$G=G_{0} \supset G_{1} \supset \ldots \supset G_{k}=\{e\}$$</a><BR/></P><P>таких, что <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12669">$$g_{i+1}$$</a> является нормальной подгруппой в $URI[[http://libmeta.ru/fme/formula/aux/2522_2_RAZREShIMAJa]]/URI$ и факторгруппы $URI[[http://libmeta.ru/fme/formula/aux/2522_3_RAZREShIMAJa]]/URI$ абелевы. Для связных групп Ли обычно используется следующее эквивалентное определение: $URI[[http://libmeta.ru/fme/formula/aux/2522_4_RAZREShIMAJa]]/URI$ р аз реш и ма, если в ней существует цепочка замкнутых нормальных подгрупп (*) таких, что факторгруппы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12670">$$g_{i} / G_{i+1}$$</a> абелевы (через $URI[[http://libmeta.ru/fme/formula/aux/2522_6_RAZREShIMAJa]]/URI$ обозначена единица группы $URI[[http://libmeta.ru/fme/formula/aux/2522_7_RAZREShIMAJa]]/URI$ ). <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">Группа</a> Ли разрешима тогда и только тогда, когда ее <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1583_LI">Ли алгебра</a> разрешима. Любая подгруппа Р. г. Ли разрешима. Любое неприводимое конечномерное представление Р. г. Ли одномерно. Любое конечномерное представление Р. г. Ли в подходящем базисе задается верхнетреугольными матрицами.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[гpуnпа, в которой существует цепочка подгрупп
+
+\[
+G=G_{0} \supset G_{1} \supset \ldots \supset G_{k}=\{e\}
+\]
+
+таких, что $G_{i+1}$ является нормальной подгруппой в $G_{i}$ и факторгруппы $G_{i} / G_{i+1}$ абелевы. Для связных групп Ли обычно используется следующее эквивалентное определение: $G$ р аз реш и ма, если в ней существует цепочка замкнутых нормальных подгрупп (*) таких, что факторгруппы $G_{i} / G_{i+1}$ абелевы (через $е$ обозначена единица группы $G$ ). Группа Ли разрешима тогда и только тогда, когда ее Ли алгебра разрешима. Любая подгруппа Р. г. Ли разрешима. Любое неприводимое конечномерное представление Р. г. Ли одномерно. Любое конечномерное представление Р. г. Ли в подходящем базисе задается верхнетреугольными матрицами.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1583_LI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

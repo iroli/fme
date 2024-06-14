@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_587_GEOMETRODINAMIK">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_587_GEOMETRODINAMIK</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3127</core:url>
+    <lbm:descriptor><![CDATA[ГЕОМЕТРОДИНАМИКА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23264"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23265"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI">вариант</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_922_EDINAJa">единой теории поля</a>, сводящей (не всегда последовательно) все физические объекты к геометрическим. Г.- чисто геометрич. описание гравитации, электромагнетизма, неквантованного заряда и долгоживущих <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, как чисто классич. концентраций массы-энергии. В настоящее время Г. не является еще последовательно развитой теорией, многие части ее не имеют достаточного математич. обоснования.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#23264">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#23263">Уилер Дж. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#23264">Гравитация, нейтрино и Вселенная, пер. с англ., М., 1962</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#23265">[2]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#23265">е го же, Предвидение Эйнштейна, пер. с англ., М., 1970</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[вариант единой теории поля, сводящей (не всегда последовательно) все физические объекты к геометрическим. Г.- чисто геометрич. описание гравитации, электромагнетизма, неквантованного заряда и долгоживущих частиц, как чисто классич. концентраций массы-энергии. В настоящее время Г. не является еще последовательно развитой теорией, многие части ее не имеют достаточного математич. обоснования.
+
+Лuт.: [1] Уиле р Дж.А., Гравитация, нейтрино и Вселенная, пер. с англ., М., 1962; [2] е го же, Предвидение Эйнштейна, пер. с англ., М., 1970. М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_922_EDINAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

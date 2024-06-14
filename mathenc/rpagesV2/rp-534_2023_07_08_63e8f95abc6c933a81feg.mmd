@@ -1,0 +1,85 @@
+функция; эта же задача приводится к разрепимому в замкнутом виде сингулярному интегральному уравнению.
+
+В общей постановке к. з. формулируются следующим образом.
+
+3 a д а ч a I. Пусть в бесконечном изотропном упругом теле с постоянными Ламе $\lambda_{0}, \mu_{0}$ имеются $m$ упругих пзотропных изолированных включений с постоянными $\lambda_{k}, \mu_{k}, k=1, \ldots, m$, ограниченных гладкими поверхностями $S_{k}$ произвольной конфигурации. Считая включения жестко сцепленными c основной средой вдоль контактных поверхностей $S_{k}$, требуется определить напряженное состояние тела под влиянием заданных объемных сил.
+
+3 а д а ч a II. В конечном изотропном упругом теле с прогзвольной гладкой границей $S_{0}$ и постоянными $\lambda_{0}, \mu_{0}$ имеется $m$ упругих изотропных изолированных включений, ограниченных поверхностями $S_{k}, k=1$, $\ldots . m$, жестко сцепленных с несущей средой вдоль $S_{k}$. Требуется найти упругое состояние тела, возникающее под действием заданных объемных сил и заданных граничных условий на $S_{0}$.
+
+Этіг же задачи ставятся для анизотропных тел, а также при других допущениях относительно характера контактов вдоль $S_{k}, k=1, \ldots, m$. Для указанных задач доказаны теоремы существования, в изотропном случае - методом сингулярных потенциалов и сингулярных інтегральных уравнений, для анизотропных тел методами функционального анализа.
+
+В пзотропном случае найдены также способы приближенного решения в квадратурах. Пусть $x, y-$ точкі трехмерного пространства $E_{3}, D_{k}-$ область, ограниченная поверхностью $S_{k}, D^{+}=\bigcup_{k=1}^{m} D_{k}, D^{-}=$ $=E_{3} \backslash \bar{D}^{+}, \quad \Gamma^{k}(x-y)$ - матрица размера $3 \times 3$ фундаментальных решений для области $D_{k}, k=1, \ldots, m$, $\Gamma^{0}(x-y)$ - та же матрица для области $D^{-}, u(x)-$ вектор смещения в точке $x, T$ - оператор напряжения, $T u(x)$ - вектор напряжения, соответствующий смещению $u$ в точке $x, T \Gamma_{p}^{k}(x-y), p=1,2,3$, - вектор напряжения, соответствующий смещенію $\Gamma_{p}^{k}(x-y)$ в области $D_{k}$ для $x \neq y, T \Gamma^{k}(x-y)$ - матрица размера $3 \times 3$, составленная из $T \Gamma_{p}^{k}(x-y), p=1,2,3$, как из столбцов, $\left(T \Gamma^{k}(x-y)\right)^{\prime}-$ союзная матрица; $M^{k}(x, y)$ и $M^{0}(x, y)$ - прямоугольные матрицы размера $3 \times 6$, определенные следующим образом
+
+\[
+M^{k}(x, y)=
+\]
+
+$=\left\{\begin{array}{cl}\|\left(T \Gamma^{k}(x-y)\right)^{\prime}, & -\Gamma^{k}(x-y) \|_{3 \times 6}, \\ 0 & y \in S_{k}, k=1, \ldots, m, x \in E_{3}, \\ y \in S_{j}, j=1, \ldots, m, j \neq k, x \in E_{3},\end{array}\right.$ $M^{0}(x, y)=\left\|\left(T \Gamma^{0}(x-y)\right)^{\prime},-\Gamma^{0}(x-y)\right\|_{3 \times 6}$,
+
+\[
+y \in \mathrm{U}_{k=1}^{m} S_{k}, x \in E_{3} \text {. }
+\]
+
+Задача I, без ограничения общности, есть задача об определении смещения из условий
+
+$\forall x \in D_{k}: \mu_{k} \Delta u+\left(\lambda_{k}+\mu_{k}\right) \operatorname{grad} \operatorname{div} u=0$, $\forall x \in D-: \mu_{0} \Delta u+\left(\lambda_{0}+\mu_{0}\right) \operatorname{grad} \operatorname{div} u=\Phi^{0}(x)$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_63e8f95abc6c933a81feg-1.jpg?height=77&width=585&top_left_y=2080&top_left_x=251)
+
+$\lim _{D^{+} \ni x \rightarrow y} T u(x)=\lim _{D^{-} \ni x \rightarrow y} T u(x), k=1, \ldots, m$.
+
+Пусть значения пределов с обеих сторон контактных границ для $u(x)$ и $T u(x)$ обозначены через $u(y), T u(y)$, $y \in \bigcup_{k=1}^{m} S_{k}$, тогда для регулярного решения:
+
+$\delta_{k}(x) u(x)=\int_{S_{k}} \Gamma^{k}(x-y) T u(y) d_{y} S-$ $-\int_{S_{k}}\left(T \Gamma^{k}(x-y)\right)^{\prime} u(y) d_{y} S, k=1, \ldots, m$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_63e8f95abc6c933a81feg-1.jpg?height=74&width=653&top_left_y=385&top_left_x=1053)
+
+\[
+-\int \cup_{i=1}^{m} s_{i}\left(T \Gamma^{0}(x-y)\right)^{\prime} u(y) d_{y} S-F(x), \quad
+\]
+
+где
+
+\[
+F(x)=\int_{D} \Gamma^{0}(x-y) \Phi^{0}(y) d y, \delta_{k}(x)=2
+\]
+
+для $x \in D_{k}$ п $\delta_{k}(x)=0$ для $x \in E_{3} \backslash \bar{D}_{k}$, a $\delta(x)=0$ для $x \in$ $\in \bigcup_{i=1}^{m} D_{i}$ и $\delta(x)=2$ для $x \in D^{-}$.
+
+Формулы (1) могут быть записаны в виде:
+
+$\forall x \in E_{3} \backslash \overline{D_{k}}: \int_{\bigcup_{i=1}^{m}}^{m} s_{i} M^{k}(x, y) \lambda(y) d_{y} S=0, k=1, \ldots, m ;$
+
+$\forall x \in \bigcup_{i=1}^{m} D_{i}: \int_{U_{i=1}^{m} s_{i}} M^{0}(x, y) \lambda(y) d_{y} S=F(x)$,
+
+где $\lambda(y)=(u(y), T u(y))$ - пестимерный вектор. Первое из этих равенств верно для всех $x$, принадлежащих $E_{3} \backslash \bar{D}_{k}, \quad$ а второе - для всех $x, \quad$ принадлежащих $\bigcup_{i=1}^{m} D_{i}$. Соответствующие произвольно заданные значения переменной $x$ приводят к бесконечному множеству равенств
+
+\[
+\begin{aligned}
+& \int \bigcup_{i=1}^{m} s_{i} M^{k}\left(\xi_{j}, \quad y\right) \lambda(y) d_{y} S=0, \\
+& k=1, \ldots, m ; \xi_{j} \in E_{3} \backslash \bar{D}_{k}, i=1,2, \ldots, \\
+& \int \cup_{i=1}^{m} s_{i} M^{0}\left(\xi_{j}^{1}, y\right) \lambda(y) d_{y} S=F\left(\xi_{j}^{1}\right), \ldots \\
+& \ldots, \int_{U_{i=1}^{m} s_{i}} M^{0}\left(\xi_{j}^{m}, y\right) \lambda(y) d_{y} S=F\left(\xi_{j}^{m}\right) \text {, } \\
+& \xi_{j}^{h} \in D_{h}, h=1, \ldots, m ; j=1,2, \ldots .
+\end{aligned}
+\]
+
+Пусть $\left\{\varphi^{n}(y)\right\}_{0}^{\infty}$ - множество пестимерных векторов $\left(T \Gamma_{p}^{1}\left(\xi_{j}-y\right),-\Gamma_{p}^{1}\left(\xi_{j}-y\right)\right), \ldots,\left(T \Gamma_{p}^{m}\left(\xi_{j}-y\right)\right.$, $\left.-\Gamma_{p}^{m}\left(\xi_{j}-y\right)\right)$ $\left(T \Gamma_{p}^{0}\left(\xi_{j}^{1}-y\right),-\Gamma_{p}^{\bullet}\left(\xi_{j}^{1}-y\right)\right), \ldots$\[
+\ldots,\left(T \Gamma_{p}^{0}\left(\xi_{j}^{m}-y\right),-\Gamma_{p}^{0}\left(\xi_{j}^{m}-y\right)\right) \text {, }
+\]\[
+y \in \bigcup_{i=1}^{m} S_{i}, \quad p=1,2,3,
+\]
+
+соответственно пронумерованное, напр., по диагональному правилу. Это множество линейно независимо и полно в $\mathscr{L}_{2}\left(\bigcup_{i=1}^{m} S_{i}\right)$. В левых частях равенств (2) стоят скалярные произведения $\left(\lambda, \varphi^{n}\right)$ для любого значения индекса $n$ в качестве составляющих заданных векторов и, следовательно, эти произведения также заданы. Вследствие полноты $\left\{\varphi^{n}(y)\right\}_{0}^{\infty}$ в $\mathscr{L}_{2}\left(\bigcup_{i=1}^{m} S_{i}\right)$ неизвестный вектор $\lambda=(u, T u)$ может быть аппроксимирован линейной комбинапией $\sum_{n=1}^{N} a_{n}^{N} \varphi^{n}(y)$, өсли постоянные $a_{n}^{N}$ найдены из условия минимума нормы
+
+\[
+\left\|\lambda(y)-\sum_{n=1}^{N} a_{n}^{N} \varphi^{n}\right\|_{L_{2}}\left(\bigcup_{i=1}^{m} s_{i}\right) .
+\]
+
+Это приводит к системе линейных алгебраич. уравнений
+
+\[
+\sum_{s=1}^{N} a_{\mathrm{s}}^{N}\left(\varphi^{s}, \varphi^{n}\right)=\left(\hat{\lambda}, \varphi^{n}\right), n=1, \ldots, N,
+\]
+
+к-рая разрепима. $N$-е - приближение $\lambda N(y)$ для вектора $\lambda(y)$ выражается формулой $\lambda N(y)=\sum_{n=1}^{N} a_{n}^{N} \varphi^{n}(y)$.

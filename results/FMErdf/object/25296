@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_25296">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix" /><mtable><mtr><mtd columnalign="right"><msub><mi>P</mi><mrow><mi>&#x003BC;</mi></mrow></msub></mtd><mtd columnalign="left"><mo>&#x0003D;</mo><mo>&#x0222B;</mo><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msubsup><mi>a</mi><mrow><mi>&#x003BB;</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><msub><mi>a</mi><mrow><mi>&#x003BB;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><msubsup><mover><mrow><mi>a</mi></mrow><mo stretchy="false">&#x0007E;</mo></mover><mrow><mi>&#x003BB;</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><msub><mover><mrow><mi>a</mi></mrow><mo stretchy="false">&#x0007E;</mo></mover><mrow><mi>&#x003BB;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><msub><mi>p</mi><mrow><mi>&#x003BC;</mi></mrow></msub><mi>d</mi><mi>p</mi><mo>&#x0002C;</mo></mtd></mtr><mtr><mtd columnalign="right"><mi>Q</mi></mtd><mtd columnalign="left"><mo>&#x0003D;</mo><mi>e</mi><mo>&#x0222B;</mo><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msubsup><mi>a</mi><mrow><mi>&#x003BB;</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><msub><mi>a</mi><mrow><mi>&#x003BB;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><msubsup><mover><mrow><mi>a</mi></mrow><mo stretchy="false">&#x0007E;</mo></mover><mrow><mi>&#x003BB;</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><msub><mover><mrow><mi>a</mi></mrow><mo stretchy="false">&#x0007E;</mo></mover><mrow><mi>&#x003BB;</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mrow><mi mathvariant="bold-italic">d</mi><mi mathvariant="bold-italic">p</mi></mrow></mtd></mtr></mtable><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\left.\begin{array}{rl}P_{\mu} &amp; =\int\left[a_{\lambda}^{+}(p) a_{\lambda}(p)+\tilde{a}_{\lambda}^{+}(p) \tilde{a}_{\lambda}(p)\right] p_{\mu} d p, \\Q &amp; =e \int\left[a_{\lambda}^{+}(p) a_{\lambda}(p)-\tilde{a}_{\lambda}^{+}(p) \tilde{a}_{\lambda}(p)\right] \boldsymbol{d p}\end{array}\right\}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

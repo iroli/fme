@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2238_PIRSI" alphabetic_pos="2240">
+  <title>ПИРСИ ИНТЕГРАЛ</title>
+  <authors>
+    <author>С. В. Чмутов</author>
+  </authors>
+  <pages>
+    <start>439</start>
+    <end>439</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2238_1_PIRSI">\operatorname{Pe}\left(\lambda_{1}, \lambda_{2}\right)=\int_{-\infty}^{\infty} e^{i\left(x^{4} / 8-\lambda_{1} x^{2} / 2+\lambda_{2} x\right)} d x</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2238_1_PIRSI">x^{4} / 8</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2238_2_PIRSI">\left.A_{3}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2238_3_PIRSI">\left(\lambda_{1}, \lambda_{2}\right)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/2238_1_PIRSI">
+      <rel_text>каустики</rel_text>
+      <target>http://libmeta.ru/fme/article/1125_KAUSTIKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2238_2_PIRSI">
+      <rel_text>версальная деформация</rel_text>
+      <target>http://libmeta.ru/fme/article/362_VERSAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2238_3_PIRSI">
+      <rel_text>Фаза</rel_text>
+      <target>http://libmeta.ru/fme/article/3230_FAZ</target>
+    </relation>
+  </relations>
+  <text>интеграл вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2238_1_PIRSI]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/2238_3_PIRSI]]/URI П.и.- URI[[http://libmeta.ru/fme/relation/2238_2_PIRSI]]/URI критич. точки $URI[[http://libmeta.ru/fme/formula/aux/2238_1_PIRSI]]/URI$ (типа $URI[[http://libmeta.ru/fme/formula/aux/2238_2_PIRSI]]/URI$. Функция Pe $URI[[http://libmeta.ru/fme/formula/aux/2238_3_PIRSI]]/URI$ называется функци е й П и рс и и возникает при исследовании волнового поля вблизи точки возврата URI[[http://libmeta.ru/fme/relation/2238_1_PIRSI]]/URI.</text>
+  <text_orig>интеграл вида
+
+\[
+\operatorname{Pe}\left(\lambda_{1}, \lambda_{2}\right)=\int_{-\infty}^{\infty} e^{i\left(x^{4} / 8-\lambda_{1} x^{2} / 2+\lambda_{2} x\right)} d x
+\]
+
+Фаза П.и.- версальная деформация критич. точки $x^{4} / 8$ (типа $\left.A_{3}\right)$. Функция Pe $\left(\lambda_{1}, \lambda_{2}\right)$ называется функци е й П и рс и и возникает при исследовании волнового поля вблизи точки возврата каустики. С. В. Чмутов.</text_orig>
+</article>

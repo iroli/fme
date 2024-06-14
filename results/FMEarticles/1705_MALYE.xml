@@ -1,0 +1,309 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1705_MALYE" alphabetic_pos="1707">
+  <title>МАЛЫЕ ЗНАМЕНАТЕЛИ</title>
+  <authors>
+    <author>H. H. Hexopouee</author>
+  </authors>
+  <pages>
+    <start>341</start>
+    <end>342</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Арнольд В. И., Ильяшенко Ю. С., в кн.: Итоги науки и техники, Современные проблемы математики. Фундаментальные направления, т. 1, М., 1985; [2] Б р ю н о А. Д., Локальный метод нелинейного анализа дифференциальных уравнений, М., 1979; [3] Арнольд В. И., Козлов В. В., Нейштадт А. И., в кн.: Итоги науки и техники, Современные проблемы математики. Фундаментальные направления, т. 3, М., 1985; [4] Нехо ор ш е в Н. Н., «успехи математич. наук», 1977, т. 32, в. 6, с. 5-66.</literature_orig>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <author>Ильяшенко Ю. С.</author>
+      <title>в кн.: Итоги науки и техники, Современные проблемы математики. Фундаментальные направления</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other>т. 1</other>
+    </unit>
+    <unit>
+      <author>Брюно А. Д.</author>
+      <title>Локальный метод нелинейного анализа дифференциальных уравнений</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <author>Козлов В. В.</author>
+      <author>Нейштадт А. И.</author>
+      <title>в кн.: Итоги науки и техники, Современные проблемы математики. Фундаментальные направления</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other>т. 3</other>
+    </unit>
+    <unit>
+      <author>Нехооршев Н. Н.</author>
+      <title>«успехи математич. наук»</title>
+      <publication/>
+      <year>1977</year>
+      <other>т. 32, в. 6, с. 5-66.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1705_1_MALYE">\left.\begin{array}{l}\dot{x}=\Lambda x+R_{2}(x, \varphi), \\\dot{\varphi}=\omega+S_{1}(x, \varphi),\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1705_2_MALYE">\lambda=\left(\lambda_{1}, \ldots, \lambda_{n}\right) \neq 0, \omega=\left(\omega_{1}, \ldots, \omega_{m}\right)=\text { const } \neq 0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1705_3_MALYE">R^{j}=x_{j} \sum r_{j k l} x^{k} \exp i(l, \varphi),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1705_4_MALYE">d_{k l}=i(l, \omega)+(k, \lambda)=i l_{1} \omega_{1}+\ldots+i l_{m} \omega_{m}+k_{1} \lambda_{1}+\ldots+k_{n} \lambda_{n},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1705_5_MALYE">H=H_{0}(I)+\varepsilon H_{1}(I, \varphi),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1705_6_MALYE">|l|=\left|l_{1}\right|+\ldots+\left|l_{m}\right| \leqslant N</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_1_MALYE">x=\left(x_{1}, \ldots, x_{n}\right), \varphi=\left(\varphi_{1}, \ldots, \varphi_{m}\right), \Lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_2_MALYE">r_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_3_MALYE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_4_MALYE">s_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_5_MALYE">\quad R_{2} \sim|x|^{2}, \quad S_{1} \sim|x|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_6_MALYE">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_7_MALYE">r_{2}=\left(r_{2}^{1}, \ldots, R_{2}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_8_MALYE">s_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_9_MALYE">(m=0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_10_MALYE">(m=1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_11_MALYE">r_{2} \equiv 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_12_MALYE">s_{1} \equiv \mathbf{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_13_MALYE">l \in \mathbb{Z}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_14_MALYE">|k|=k_{1}+\ldots+k_{n} \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_15_MALYE">k+e_{j} \in \mathbb{Z}_{+}^{n}, j=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_16_MALYE">k+e_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_17_MALYE">\left(e_{j}=(0, \ldots, 0,1,0, \ldots, 0)-\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_18_MALYE">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_19_MALYE">d_{k l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_20_MALYE">r_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_21_MALYE">s_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_22_MALYE">k, l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_23_MALYE">i(l, \omega)+(k, \lambda)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_24_MALYE">k, l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_25_MALYE">\varepsilon \ll 1, I=\left(I_{1}, \ldots, I_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_26_MALYE">h_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_27_MALYE">\left(\varphi_{1}, \ldots, \varphi_{m}\right)=\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_28_MALYE">2 \pi(I, \varphi-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_29_MALYE">i=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_30_MALYE">(\varepsilon=0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_31_MALYE">(l, \omega(I))</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_32_MALYE">l \in \mathbb{Z}^{m} \backslash\{0\}, \omega(I)=\partial H_{0}(I) / \partial I</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_33_MALYE">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_34_MALYE">|(l, \omega(I))|&gt;c|l|^{-v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_35_MALYE">l \in \mathbb{Z}^{m} \backslash\{0\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_36_MALYE">v \geqslant m+1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_37_MALYE">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_38_MALYE">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_39_MALYE">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_40_MALYE">n(\varepsilon) \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_41_MALYE">\varepsilon \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_42_MALYE">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1705_43_MALYE">1 / \varepsilon</formula>
+  </formulas_aux>
+  <relations n="26">
+    <relation uri="http://libmeta.ru/fme/relation/1705_1_MALYE">
+      <rel_text>Обмотка тора</rel_text>
+      <target>http://libmeta.ru/fme/article/2011_OBMOTKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_2_MALYE">
+      <rel_text>Кам-теория</rel_text>
+      <target>http://libmeta.ru/fme/article/1088_KAM-TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_3_MALYE">
+      <rel_text>параллельные</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_4_MALYE">
+      <rel_text>интегральных многообразий</rel_text>
+      <target>http://libmeta.ru/fme/article/1032_INTEGRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_5_MALYE">
+      <rel_text>параметров</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_6_MALYE">
+      <rel_text>получать</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_7_MALYE">
+      <rel_text>начальных условий</rel_text>
+      <target>http://libmeta.ru/fme/article/1873_NAChAL'NYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_8_MALYE">
+      <rel_text>экспоненциально</rel_text>
+      <target>http://libmeta.ru/fme/article/3496_EKSPANSIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_9_MALYE">
+      <rel_text>переменным действиям</rel_text>
+      <target>http://libmeta.ru/fme/article/2199_PEREMENNOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_10_MALYE">
+      <rel_text>гармоники</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_11_MALYE">
+      <rel_text>резонансной</rel_text>
+      <target>http://libmeta.ru/fme/article/2587_REZOL'VENT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_12_MALYE">
+      <rel_text>функция Гамильтона</rel_text>
+      <target>http://libmeta.ru/fme/article/505_GAMIL'TONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_13_MALYE">
+      <rel_text>фазовое пространство</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_14_MALYE">
+      <rel_text>множество инвариантных</rel_text>
+      <target>http://libmeta.ru/fme/article/1004_INVARIANTNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_15_MALYE">
+      <rel_text>фазовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_16_MALYE">
+      <rel_text>нерезонансной нормальной</rel_text>
+      <target>http://libmeta.ru/fme/article/1938_NEREZONANSNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_17_MALYE">
+      <rel_text>Расслоенная</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_18_MALYE">
+      <rel_text>действие</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_19_MALYE">
+      <rel_text>функциями</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_20_MALYE">
+      <rel_text>гамильтоновых систем</rel_text>
+      <target>http://libmeta.ru/fme/article/517_GAMIL'TONOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_21_MALYE">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_22_MALYE">
+      <rel_text>резонансной</rel_text>
+      <target>http://libmeta.ru/fme/article/2587_REZOL'VENT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_23_MALYE">
+      <rel_text>резонансные</rel_text>
+      <target>http://libmeta.ru/fme/article/2587_REZOL'VENT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_24_MALYE">
+      <rel_text>резонансных</rel_text>
+      <target>http://libmeta.ru/fme/article/2587_REZOL'VENT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_25_MALYE">
+      <rel_text>резонансном</rel_text>
+      <target>http://libmeta.ru/fme/article/2587_REZOL'VENT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1705_26_MALYE">
+      <rel_text>Резонанс</rel_text>
+      <target>http://libmeta.ru/fme/article/2589_REZONAN</target>
+    </relation>
+  </relations>
+  <text>выражения, стоящие в знаменателях дробей, в виде которых получаются коэффициенты рядов, используемых для отыскания решений разного рода уравнений. Чаще всего это либо дифференциальные уравнения, либо уравнения, к-рым удовлетворяют замены, нормализующие дифференциальные уравнения. М. з. образуют многоиндексную, вообще говоря, последовательность с теми же индексами, что и у членов соответствующих рядов. М. з. действительно часто малы, что приводит к расходимости получаемых рядов (проблема малых знамен ателе й), к-рые называются формальными решениями задачи. Несмотря на расходимость, и формальные решения позволяют получать определенную информацию о настоящих решениях. Равенство нулю М. 3. (указывающее на резонанс) является препятствием к построению даже формального решения в данном виде.
+
+В основном используются либо степенные ряды (ряды Тейлора), либо ряды Фурье, либо ряды Пуассона - «смеси» рядов Тейлора и Фурье. Одна из основных ситуаций отыскание замены, приводящей к нормальной форме систему дифференциальных уравнений в окрестности индивидуального «приведенного» инвариантного тора с условно периодич. движением, точнее, систему
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1705_1_MALYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1705_1_MALYE]]/URI$ - постоянная диагональная матрица с набором собственных значений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1705_2_MALYE]]/URI
+\]
+
+Возмущение $URI[[http://libmeta.ru/fme/formula/aux/1705_2_MALYE]]/URI$ имеет второй порядок малости по $URI[[http://libmeta.ru/fme/formula/aux/1705_3_MALYE]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1705_4_MALYE]]/URI$ первый: $URI[[http://libmeta.ru/fme/formula/aux/1705_5_MALYE]]/URI$. Разлагая $URI[[http://libmeta.ru/fme/formula/aux/1705_6_MALYE]]/URI$-ю компоненту $URI[[http://libmeta.ru/fme/formula/aux/1705_7_MALYE]]/URI$ в ряд Пуассона, удобно записывать ее в виде произведения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1705_3_MALYE]]/URI
+\]
+
+a c $URI[[http://libmeta.ru/fme/formula/aux/1705_8_MALYE]]/URI$ этого делать не нужно. Частным случаем такой ситуации является окрестность особой точки $URI[[http://libmeta.ru/fme/formula/aux/1705_9_MALYE]]/URI$ и замкнутой траектории $URI[[http://libmeta.ru/fme/formula/aux/1705_10_MALYE]]/URI$. Нерезонансной нормал ь н ой фор м о й называется система вида (1) с $URI[[http://libmeta.ru/fme/formula/aux/1705_11_MALYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1705_12_MALYE]]/URI$ М. з. для такой формы имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1705_4_MALYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1705_13_MALYE]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1705_14_MALYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1705_15_MALYE]]/URI$, то есть компоненты векторов $URI[[http://libmeta.ru/fme/formula/aux/1705_16_MALYE]]/URI$ целые и неотрицательные $URI[[http://libmeta.ru/fme/formula/aux/1705_17_MALYE]]/URI$ единичный вектор с 1 на $URI[[http://libmeta.ru/fme/formula/aux/1705_18_MALYE]]/URI$-м месте).
+
+URI[[http://libmeta.ru/fme/relation/1705_26_MALYE]]/URI (то есть равенство нулю хотя бы одного $URI[[http://libmeta.ru/fme/formula/aux/1705_19_MALYE]]/URI$ ) является препятствием к формальному приведению системы к такой нормальной форме. В URI[[http://libmeta.ru/fme/relation/1705_25_MALYE]]/URI случае эти препятствия снимаются рассмотрением более сложных URI[[http://libmeta.ru/fme/relation/1705_24_MALYE]]/URI нормальных форм. Эти формы имеют вид (1), в к-ром разложения $URI[[http://libmeta.ru/fme/formula/aux/1705_20_MALYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1705_21_MALYE]]/URI$ Пуассона содержат лишь URI[[http://libmeta.ru/fme/relation/1705_23_MALYE]]/URI мономы, то есть слагаемые рядов с индексами $URI[[http://libmeta.ru/fme/formula/aux/1705_22_MALYE]]/URI$, для к-рых $URI[[http://libmeta.ru/fme/formula/aux/1705_23_MALYE]]/URI$. В замене, приводящей к URI[[http://libmeta.ru/fme/relation/1705_22_MALYE]]/URI нормальной форме, слагаемые с такими индексами $URI[[http://libmeta.ru/fme/formula/aux/1705_24_MALYE]]/URI$ перестают быть нужными.
+
+Для сходимости опасным является случай, когда многоиндексная последовательность М. з. имеет нуль предельной точкой. Он называется случаем 3 и геля, а противоположный - с л у ч а е м П у а нка ре. В зигелевом случае для обеспечения сходимости нужно дополнительно накладывать условия сильной несоизмеримости Зигеля. Вопросы, связанные со сходимостью, подробно исследованы в [2], [1].
+
+Проблема М. з. появилась в небесной URI[[http://libmeta.ru/fme/relation/1705_21_MALYE]]/URI при изучении URI[[http://libmeta.ru/fme/relation/1705_20_MALYE]]/URI, близких к интегрируемым, то есть систем с URI[[http://libmeta.ru/fme/relation/1705_19_MALYE]]/URI Гамильтона вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1705_5_MALYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1705_25_MALYE]]/URI$, а функция $URI[[http://libmeta.ru/fme/formula/aux/1705_26_MALYE]]/URI$ периодична по $URI[[http://libmeta.ru/fme/formula/aux/1705_27_MALYE]]/URI$ с периодом $URI[[http://libmeta.ru/fme/formula/aux/1705_28_MALYE]]/URI$ переменные URI[[http://libmeta.ru/fme/relation/1705_18_MALYE]]/URI - угол). URI[[http://libmeta.ru/fme/relation/1705_17_MALYE]]/URI на инвариантные торы $URI[[http://libmeta.ru/fme/formula/aux/1705_29_MALYE]]/URI$ const невозмущенная система $URI[[http://libmeta.ru/fme/formula/aux/1705_30_MALYE]]/URI$ служит URI[[http://libmeta.ru/fme/relation/1705_16_MALYE]]/URI формой. В этой ситуации М. з. имеют вид $URI[[http://libmeta.ru/fme/formula/aux/1705_31_MALYE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1705_32_MALYE]]/URI$. Таким образом, в отличие от более простого случая систем (1), М. з. здесь не константы, а функции, зависящие от переменных $URI[[http://libmeta.ru/fme/formula/aux/1705_33_MALYE]]/URI$. В общем случае они обращаются в нуль на всюду плотном множестве. Выход, предложенный А. Н. Колмогоровым, В. И. Арнольдом и Ю. Мозером (см. URI[[http://libmeta.ru/fme/relation/1705_2_MALYE]]/URI и [3]), грубо говоря, состоит в наложении условия Зигеля сильной несоизмеримости: $URI[[http://libmeta.ru/fme/formula/aux/1705_34_MALYE]]/URI$ для всех $URI[[http://libmeta.ru/fme/formula/aux/1705_35_MALYE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1705_36_MALYE]]/URI$. Это условие выделяет в URI[[http://libmeta.ru/fme/relation/1705_15_MALYE]]/URI системы при малых $URI[[http://libmeta.ru/fme/formula/aux/1705_37_MALYE]]/URI$ URI[[http://libmeta.ru/fme/relation/1705_14_MALYE]]/URI торов с нерезонансными условно периодич. движениями (см. URI[[http://libmeta.ru/fme/relation/1705_1_MALYE]]/URI), называемое колм ого р о в ск им, мера дополнения к к-рому мала вместе с $URI[[http://libmeta.ru/fme/formula/aux/1705_38_MALYE]]/URI$.
+
+Другой подход к исследованию таких систем предложен в [4]. Все URI[[http://libmeta.ru/fme/relation/1705_13_MALYE]]/URI разбивается на зависящие от $URI[[http://libmeta.ru/fme/formula/aux/1705_39_MALYE]]/URI$ блоки, в каждом из к-рых URI[[http://libmeta.ru/fme/relation/1705_12_MALYE]]/URI приводится к почти нормальной URI[[http://libmeta.ru/fme/relation/1705_11_MALYE]]/URI, вообще говоря, форме. В такой форме отсутствуют нерезонансные URI[[http://libmeta.ru/fme/relation/1705_10_MALYE]]/URI лишь не очень больших порядков
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1705_6_MALYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1705_40_MALYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1705_41_MALYE]]/URI$. Это снимает проблему М. з., так как обычная нормализующая замена как бы не доводится до конца. Такое разбиение позволяет проводить оценки устойчивости по URI[[http://libmeta.ru/fme/relation/1705_9_MALYE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1705_42_MALYE]]/URI$ в течение URI[[http://libmeta.ru/fme/relation/1705_8_MALYE]]/URI больших по сравнению с $URI[[http://libmeta.ru/fme/formula/aux/1705_43_MALYE]]/URI$ промежутков времени для всех URI[[http://libmeta.ru/fme/relation/1705_7_MALYE]]/URI, и, в целом, URI[[http://libmeta.ru/fme/relation/1705_6_MALYE]]/URI информацию о поведении решений и их устойчивости.
+
+Существует много ситуаций, весьма похожих на приведенные выше, напр. исследование окрестности неподвижной точки отображения, окрестности индивидуального тора гамильтоновой либо общей системы, не зависящей либо зависящей от URI[[http://libmeta.ru/fme/relation/1705_5_MALYE]]/URI, отыскание URI[[http://libmeta.ru/fme/relation/1705_4_MALYE]]/URI и т. д. Имеются и URI[[http://libmeta.ru/fme/relation/1705_3_MALYE]]/URI теории (см. [1] [4]). Эти уравнения и отображения можно охарактеризовать как близкие к интегрируемым.</text>
+  <text_orig>вЫражения, стоящие в знаменателях дробей, в виде которых получаются коэффициенты рядов, используемых для отыскания решений разного рода уравнений. Чаще всего это либо дифференциальные уравнения, либо уравнения, к-рым удовлетворяют замены, нормализующие дифференциальные уравнения. М. з. образуют многоиндексную, вообще говоря, последовательность с теми же индексами, что и у членов соответствующих рядов. М. з. действительно часто малы, что приводит к расходимости получаемых рядов (проблема малых знамен ателе й), к-рые называются формальными решениями задачи. Несмотря на расходимость, и формальные решения позволяют получать определенную информацию о настоящих решениях. Равенство нулю М. 3. (указывающее на резонанс) является препятствием к построению даже формального решения в данном виде.
+
+В основном используются либо степенные ряды (ряды Тейлора), либо ряды Фурье, либо ряды Пуассона - «смеси» рядов Тейлора и Фурье. Одна из основных ситуаций отыскание замены, приводящей к нормальной форме систему дифференциальных уравнений в окрестности индивидуального «приведенного» инвариантного тора с условно периодич. движением, точнее, систему
+
+\[
+\left.\begin{array}{l}
+\dot{x}=\Lambda x+R_{2}(x, \varphi), \\
+\dot{\varphi}=\omega+S_{1}(x, \varphi),
+\end{array}\right\}
+\]
+
+где $x=\left(x_{1}, \ldots, x_{n}\right), \varphi=\left(\varphi_{1}, \ldots, \varphi_{m}\right), \Lambda$ - постоянная диагональная матрица с набором собственных значений
+
+\[
+\lambda=\left(\lambda_{1}, \ldots, \lambda_{n}\right) \neq 0, \omega=\left(\omega_{1}, \ldots, \omega_{m}\right)=\text { const } \neq 0 .
+\]
+
+Возмущение $R_{2}$ имеет второй порядок малости по $x$, а $S_{1}$ первый: $\quad R_{2} \sim|x|^{2}, \quad S_{1} \sim|x|$. Разлагая $j$-ю компоненту $R_{2}=\left(R_{2}^{1}, \ldots, R_{2}^{n}\right)$ в ряд Пуассона, удобно записывать ее в виде произведения
+
+\[
+R^{j}=x_{j} \sum r_{j k l} x^{k} \exp i(l, \varphi),
+\]
+
+a c $S_{1}$ этого делать не нужно. Частным случаем такой ситуации является окрестность особой точки $(m=0)$ и замкнутой траектории $(m=1)$. Нерезонансной нормал ь н ой фор м о й называется система вида (1) с $R_{2} \equiv 0$ и $S_{1} \equiv \mathbf{0}$ М. з. для такой формы имеют вид:
+
+\[
+d_{k l}=i(l, \omega)+(k, \lambda)=i l_{1} \omega_{1}+\ldots+i l_{m} \omega_{m}+k_{1} \lambda_{1}+\ldots+k_{n} \lambda_{n},
+\]
+
+где $l \in \mathbb{Z}^{m}$, а $|k|=k_{1}+\ldots+k_{n} \geqslant 1$ и $k+e_{j} \in \mathbb{Z}_{+}^{n}, j=1, \ldots, n$, то есть компоненты векторов $k+e_{j}$ целые и неотрицательные $\left(e_{j}=(0, \ldots, 0,1,0, \ldots, 0)-\right.$ единичный вектор с 1 на $j$-м месте).
+
+Резонанс (то есть равенство нулю хотя бы одного $d_{k l}$ ) является препятствием к формальному приведению системы к такой нормальной форме. В резонансном случае эти препятствия снимаются рассмотрением более сложных резонансных нормальных форм. Эти формы имеют вид (1), в к-ром разложения $R_{2}$ и $S_{1}$ Пуассона содержат лишь резонансные мономы, то есть слагаемые рядов с индексами $k, l$, для к-рых $i(l, \omega)+(k, \lambda)=0$. В замене, приводящей к резонансной нормальной форме, слагаемые с такими индексами $k, l$ перестают быть нужными.
+
+Для сходимости опасным является случай, когда многоиндексная последовательность М. з. имеет нуль предельной точкой. Он называется случаем 3 и геля, а противоположный - с л у ч а е м П у а нка ре. В зигелевом случае для обеспечения сходимости нужно дополнительно накладывать условия сильной несоизмеримости Зигеля. Вопросы, связанные со сходимостыю, подробно исследованы в [2], [1].
+
+Проблема М. з. появилась в небесной механике при изучении гамильтоновых систем, близких к интегрируемым, то есть систем с функщиями Гамильтона вида
+
+\[
+H=H_{0}(I)+\varepsilon H_{1}(I, \varphi),
+\]
+
+где $\varepsilon \ll 1, I=\left(I_{1}, \ldots, I_{m}\right)$, а функция $H_{1}$ периодична по $\left(\varphi_{1}, \ldots, \varphi_{m}\right)=\varphi$ с периодом $2 \pi(I, \varphi-$ переменные действие - угол). Расслоенная на инвариантные торы $I=$ const невозмущенная система $(\varepsilon=0)$ служит нерезонансной нормальной формой. В этой ситуации М. з. имеют вид $(l, \omega(I))$, где $l \in \mathbb{Z}^{m} \backslash\{0\}, \omega(I)=\partial H_{0}(I) / \partial I$. Таким образом, в отличие от более простого случая систем (1), М. з. здесь не константы, а функции, зависящие от переменных $I$. В общем случае они обращаются в нуль на всюду плотном множестве. Выход, предложенный А. Н. Колмогоровым, В. И. Арнольдом и Ю. Мозером (см. КАМ-теория и [3]), грубо говоря, состоит в наложении условия Зигеля сильной несоизмеримости: $|(l, \omega(I))|&gt;c|l|^{-v}$ для всех $l \in \mathbb{Z}^{m} \backslash\{0\}$, где $v \geqslant m+1$. Это условие выделяет в фазовом пространстве системы при малых $\varepsilon$ множество инвариантных торов с нерезонансными условно периодич. движениями (см. Обмотка тора), называемое колм ого р о в ск им, мера дополнения к к-рому мала вместе с $\varepsilon$.
+
+Другой подход к исследованию таких систем предложен в [4]. Все фазовое пространство разбивается на зависящие от $\varepsilon$ блоки, в каждом из к-рых функция Гамильтона приводится к почти нормальной резонансной, вообще говоря, форме. В такой форме отсутствуют нерезонансные гармоники лишь не очень больших порядков
+
+\[
+|l|=\left|l_{1}\right|+\ldots+\left|l_{m}\right| \leqslant N
+\]
+
+где $N(\varepsilon) \rightarrow \infty$ при $\varepsilon \rightarrow \infty$. Это снимает проблему М. з., так как обычная нормализующая замена как бы не доводится до конца. Такое разбиение позволяет проводить оценки устойчивости по переменным действиям $I$ в течение экспоненциально болыших по сравнению с $1 / \varepsilon$ промежутков времени для всех начальных условий, и, в целом, получать информацию о поведении решений и их устойчивости.
+
+Существует много ситуаций, весьма похожих на приведенные выше, напр. исследование окрестности неподвижной точки отображения, окрестности индивидуального тора гамильтоновой либо общей системы, не зависящей либо зависящей от параметров, отыскание интегральных многообразий и т. д. Имеются и параллельные теории (см. [1] [4]). Эти уравнения и отображения можно охарактеризовать как близкие к интегрируемым.
+
+Лит.: [1] Арнольд В. И., Ильяшенко Ю. С., в кн.: Итоги науки и техники, Современные проблемы математики. Фундаментальные направления, т. 1, М., 1985; [2] Б р ю н о А. Д., Локальный метод нелинейного анализа дифференциальных уравнений, М., 1979; [3] Арнольд В. И., Козлов В. В., Нейштадт А. И., в кн.: Итоги науки и техники, Современные проблемы математики. Фундаментальные направления, т. 3, М., 1985; [4] Нехо ор ш е в Н. Н., «Успехи математич. наук», 1977, т. 32, в. 6, с. 5-66.
+
+H. H. Hexopouee.</text_orig>
+</article>

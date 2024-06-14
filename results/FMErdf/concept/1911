@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2720_SEPARABEL'NOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2720_SEPARABEL'NOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1911</core:url>
+    <lbm:descriptor><![CDATA[СЕПАРАБЕЛЬНОЕ ПРИБЛИЖЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#793"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#794"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#14267"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>приближение, используемое при решении <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3462_ShREDINGERA">уравнения Шредингера</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоящее</a> в замене <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1403_KOROTKODEJSTVUJuSchIJ">короткодействующего потенциала</a> взаимодействия на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2721_SEPARABEL'NYJ">сепарабельный потенциал</a>. С.п.эффективно при <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa">решении задачи</a> на собственные значения для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> Шредингера.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#14267">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#326">Шмид Э.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#828">Цигельман Х.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#14267">проблема трех тел в квантовой механике, пер. с англ., М., 1979</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#793">С. П. Меркурьев</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#794">С. Л. Яковлев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[прИбЛИЖеНИе, используемое при решении уравнения Шредингера, состоящее в замене короткодействующего потенциала взаимодействия на сепарабельный потенциал. С.п.эффективно при решении задачи на собственные значения для оператора Шредингера.
+
+Лит.: [1] Шмид Э., Цигельман Х.,Проблема трех тел в квантовой механике, пер. с англ., М., 1979.
+
+С.П. Меркурьев, С. Л. Яковлев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2721_SEPARABEL'NYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1403_KOROTKODEJSTVUJuSchIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3462_ShREDINGERA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/539_GAUSSA" alphabetic_pos="539">
+  <title>ГАУССА РАСПРЕДЕЛЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>120</start>
+    <end>121</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ширяев А. Н., Вероятность, М., 1980; [2] Боровков А. А., Теория вероятностей, 2 изд., М., 1986; [3] Фелле р В., Введение в теорию вероятностей и ее приложения, пер. с англ., т. 1-2, 2 изд., М., 1984.</literature_orig>
+    <unit>
+      <author>Ширяев А. Н.</author>
+      <title>Вероятность</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Боровков А. А.</author>
+      <title>Теория вероятностей</title>
+      <publication>2 изд., М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Феллер В.</author>
+      <title>Введение в теорию вероятностей и ее приложения</title>
+      <publication>пер. с англ., т. 1-2, 2 изд., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/539_1_GAUSSA">p(x, a, \sigma)=\frac{1}{\sqrt{2 \pi} \sigma} \exp \left[-\frac{(x-a)^{2}}{\sigma^{2}}\right],</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/539_2_GAUSSA">\varphi(t)=E e^{i t \xi}=\exp \left\{i a t-\frac{\sigma^{2} t^{2}}{2}\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/539_3_GAUSSA">\mathrm{P}\left\{s_{n}=m\right\} \sim \frac{1}{\sqrt{n q(1-q)}} p(x ; 0,1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/539_4_GAUSSA">\varphi_{\xi}(t)=\exp \left\{i \mathrm{E}(t, \xi)-\frac{1}{2} \mathrm{E}(t, \xi-\mathrm{E} \xi)^{2}\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/539_5_GAUSSA">\mathrm{E}(t, \xi-\mathrm{E} \xi)^{2}=\sum_{k, l=1}^{n} \sigma_{k l} t_{k} t_{l},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/539_6_GAUSSA">p(X)=\left[(2 \pi)^{n} \operatorname{det}\|\sigma\|\right]^{-1 / 2} \exp \left\{-\frac{1}{2}\left(X-E \xi, \sigma^{-1}(X-E \xi)\right)\right\},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_1_GAUSSA">\xi \in(-\infty, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_2_GAUSSA">a=\mathrm{e} \xi, \sigma^{2}=\mathrm{D} \xi-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_3_GAUSSA">s_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_4_GAUSSA">q, 0&lt;q&lt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_5_GAUSSA">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_6_GAUSSA">x=[n q(1-q)]^{-1 / 2}(m-n q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_7_GAUSSA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_8_GAUSSA">\xi=\left(\xi_{1}, \xi_{2}, \ldots, \xi_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_9_GAUSSA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_10_GAUSSA">a \in \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_11_GAUSSA">(a, \xi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_12_GAUSSA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_13_GAUSSA">t \in \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_14_GAUSSA">\left\|\sigma_{k l}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_15_GAUSSA">\xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/539_16_GAUSSA">x=\left(x_{1}, x_{2}, \ldots, x_{n}\right) \in \mathbb{R}^{n}</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/539_1_GAUSSA">
+      <rel_text>Максвелла распределение</rel_text>
+      <target>http://libmeta.ru/fme/article/1693_MAKSVELLA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/539_2_GAUSSA">
+      <rel_text>Орнштейна-Уленбека процесс</rel_text>
+      <target>http://libmeta.ru/fme/article/2096_ORNShTEJNA-ULENBEKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/539_3_GAUSSA">
+      <rel_text>Винеровский процесс</rel_text>
+      <target>http://libmeta.ru/fme/article/406_VINEROVSKIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/539_4_GAUSSA">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/539_5_GAUSSA">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/539_6_GAUSSA">
+      <rel_text>ковариационная</rel_text>
+      <target>http://libmeta.ru/fme/article/1274_KOVARIANTNOST</target>
+    </relation>
+  </relations>
+  <text>распределение вероятностей случайной величины $URI[[http://libmeta.ru/fme/formula/aux/539_1_GAUSSA]]/URI$, определяемое плотностью
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/539_1_GAUSSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/539_2_GAUSSA]]/URI$ параметры распределения. Характеристич. функция Г.р. имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/539_2_GAUSSA]]/URI
+\]
+
+Синонимы термина «г. р.»: Гау с с а закон, нормальное распределение, Гаусса - Лапласа распределение.
+
+Г. p. возникло в сочинении К. Гаусса (c. Gauss, 1809) «теория движения небесных тел» как решение задачи о распределении ошибок наблюдений в астрономии и геодезии, а также в работе П. Лапласа (p. Laplace, 1812). В последней было показано, что распределение вероятностей числа «успехов» $URI[[http://libmeta.ru/fme/formula/aux/539_3_GAUSSA]]/URI$ в схеме Бернулли с вероятностью успеха $URI[[http://libmeta.ru/fme/formula/aux/539_4_GAUSSA]]/URI$, асимптотически точно при $URI[[http://libmeta.ru/fme/formula/aux/539_5_GAUSSA]]/URI$ приближается Г.p.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/539_3_GAUSSA]]/URI
+\] с $URI[[http://libmeta.ru/fme/formula/aux/539_6_GAUSSA]]/URI$ равномерно лля всех $URI[[http://libmeta.ru/fme/formula/aux/539_7_GAUSSA]]/URI$ из ограниченного интервала (ранее в частном случае это было сделано А. Муавром (a. de Moivre, 1730). Это утверждение является простейшим среди п ре де л ьных те о ре м теории вероятностей, к-рые обуславливают фундаментальную роль Г. р. в приложениях. Общий смысл предельных теорем состоит в том, что при широких предположениях суммы случайных величин асимптотически с ростом числа слагаемых ведут себя согласно Г.р.
+
+Г. р. является единственным типом устойчивого распределения с конечным вторым моментом. Оно может появляться как точное решение нек-рых задач (в рамках принятой математич. модели) (см. URI[[http://libmeta.ru/fme/relation/539_3_GAUSSA]]/URI, URI[[http://libmeta.ru/fme/relation/539_2_GAUSSA]]/URI).
+
+Г. p. часто встречается в физич. приложениях: Г. р. описывает малые флуктуации термодинамич. величин вблизи положения равновесия, распределение молекул по скоростям (см. URI[[http://libmeta.ru/fme/relation/539_1_GAUSSA]]/URI), распределение ошибок наблюдения и др.
+
+Многомер ное Г. р. случайного вектора $URI[[http://libmeta.ru/fme/formula/aux/539_8_GAUSSA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/539_9_GAUSSA]]/URI$ определяется таким образом, что при любом $URI[[http://libmeta.ru/fme/formula/aux/539_10_GAUSSA]]/URI$ скалярное произведение $URI[[http://libmeta.ru/fme/formula/aux/539_11_GAUSSA]]/URI$ имеет $URI[[http://libmeta.ru/fme/formula/aux/539_12_GAUSSA]]/URI$. р. или неслучайно. Характеристич. функция многомерного Г. р. при $URI[[http://libmeta.ru/fme/formula/aux/539_13_GAUSSA]]/URI$ имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/539_4_GAUSSA]]/URI
+\]
+
+В случае, если квадратичная форма
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/539_5_GAUSSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/539_14_GAUSSA]]/URI$ - URI[[http://libmeta.ru/fme/relation/539_6_GAUSSA]]/URI матрица URI[[http://libmeta.ru/fme/relation/539_5_GAUSSA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/539_15_GAUSSA]]/URI$, строго положительна, то соответствующая URI[[http://libmeta.ru/fme/relation/539_4_GAUSSA]]/URI Г. р. имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/539_6_GAUSSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/539_16_GAUSSA]]/URI$.</text>
+  <text_orig>распределение вероятностей случайной величины $\xi \in(-\infty, \infty)$, определяемое плотностью
+
+\[
+p(x, a, \sigma)=\frac{1}{\sqrt{2 \pi} \sigma} \exp \left[-\frac{(x-a)^{2}}{\sigma^{2}}\right],
+\]
+
+где $a=\mathrm{E} \xi, \sigma^{2}=\mathrm{D} \xi-$ параметры распределения. Характеристич. функция Г.р. имеет вид
+
+\[
+\varphi(t)=E e^{i t \xi}=\exp \left\{i a t-\frac{\sigma^{2} t^{2}}{2}\right\} .
+\]
+
+Синонимы термина «Г. р.»: Гау с с а закон, нормальное распределение, Гаусса - Лапласа распределение.
+
+Г. p. возникло в сочинении К. Гаусcа (C. Gauss, 1809) «Теория движения небесных тел» как решение задачи о распределении ошибок наблюдений в астрономии и геодезии, а также в работе П. Лапласа (P. Laplace, 1812). В последней было показано, что распределение вероятностей числа «успехов» $s_{n}$ в схеме Бернулли с вероятностью успеха $q, 0&lt;q&lt;1$, асимптотически точно при $n \rightarrow \infty$ приближается Г.p.:
+
+\[
+\mathrm{P}\left\{s_{n}=m\right\} \sim \frac{1}{\sqrt{n q(1-q)}} p(x ; 0,1)
+\] с $x=[n q(1-q)]^{-1 / 2}(m-n q)$ равномерно лля всех $x$ из ограниченного интервала (ранее в частном случае это было сделано А. Муавром (A. de Moivre, 1730). Это утверждение является простейшим среди п ре де л ьных те о ре м теории вероятностей, к-рые обуславливают фундаментальную роль Г. р. в приложениях. Общий смысл предельных теорем состоит в том, что при широких предположениях суммы случайных величин асимптотически с ростом числа слагаемых ведут себя согласно Г.р.
+
+Г. р. является единственным типом устойчивого распределения с конечным вторым моментом. Оно может появляться как точное решение нек-рых задач (в рамках принятой математич. модели) (см. Винеровский процесс, ОрнштейнаУленбека процесс).
+
+Г. p. часто встречается в физич. приложениях: Г. р. описывает малые флуктуации термодинамич. величин вблизи положения равновесия, распределение молекул по скоростям (см. Максвелла распределение), распределение ошибок наблюдения и др.
+
+Многомер ное Г. р. случайного вектора $\xi=\left(\xi_{1}, \xi_{2}, \ldots, \xi_{n}\right)$ в $\mathbb{R}^{n}$ определяется таким образом, что при любом $a \in \mathbb{R}^{n}$ скалярное произведение $(a, \xi)$ имеет $\Gamma$. р. или неслучайно. Характеристич. функция многомерного Г. р. при $t \in \mathbb{R}^{n}$ имеет вид:
+
+\[
+\varphi_{\xi}(t)=\exp \left\{i \mathrm{E}(t, \xi)-\frac{1}{2} \mathrm{E}(t, \xi-\mathrm{E} \xi)^{2}\right\} .
+\]
+
+В случае, если квадратичная форма
+
+\[
+\mathrm{E}(t, \xi-\mathrm{E} \xi)^{2}=\sum_{k, l=1}^{n} \sigma_{k l} t_{k} t_{l},
+\]
+
+где $\left\|\sigma_{k l}\right\|$ - ковариационная матрица вектора $\xi$, строго положительна, то соответствующая плотность Г. р. имеет вид
+
+\[
+p(X)=\left[(2 \pi)^{n} \operatorname{det}\|\sigma\|\right]^{-1 / 2} \exp \left\{-\frac{1}{2}\left(X-E \xi, \sigma^{-1}(X-E \xi)\right)\right\},
+\]
+
+где $X=\left(x_{1}, x_{2}, \ldots, x_{n}\right) \in \mathbb{R}^{n}$.
+
+Лит.: [1] Ширяев А. Н., Вероятность, М., 1980; [2] Боровков А. А., Теория вероятностей, 2 изд., М., 1986; [3] Фелле р В., Введение в теорию вероятностей и ее приложения, пер. с англ., т. 1-2, 2 изд., М., 1984.</text_orig>
+</article>

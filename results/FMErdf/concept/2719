@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3448_ShVINGERA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3448_ShVINGERA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2719</core:url>
+    <lbm:descriptor><![CDATA[ШВИНГЕРА ВАРИАЦИОННЫЙ ПРИНЦИП]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#793"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#794"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20402"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20404"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20405"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20406"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20407"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20408"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20409"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20410"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20411"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20412"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20413"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20414"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20415"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>вариационный принцип для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2546_RASSEJaNIJa">амплитуды рассеяния</a>, использующий Липпмана - Швингера уравнение. Основан на эквивалентности условия стационарности для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функционала</a> Швингера $URI[[http://libmeta.ru/fme/formula/aux/3448_1_ShVINGERA]]/URI$<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20406">$$\delta t\left(\psi_{1}^{-}, \psi_{2}^{+}\right)=0$$</a><BR/></P><P>уравнению Липпмана - Швингера для функций <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20412">$$\psi_{i}^{ \pm}$$</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20407">$$\psi_{i}^{ \pm}=\varphi_{i}-R_{0}(E \pm i 0) V \psi_{i}^{ \pm}$$</a><BR/></P><P>Здесь<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20408">$$\begin{gathered}t\left(\psi_{1}^{-}, \psi_{2}^{+}\right)=\left\langle V \varphi_{2}, \psi_{1}^{-}\right\rangle+\left\langle V \psi_{2}^{+}, \varphi_{1}\right\rangle-\left\langle\left[V+V R_{0}(E+i 0)\right] \psi_{2}^{+}, \psi_{1}^{-}\right\rangle, \\E=k_{n}^{2}, \quad n=1,2, \\\varphi_{n}=\varphi_{n}\left(x, k_{n}\right)=\exp \left\{i\left(x, k_{n}\right)\right\}, \\\langle U, V\rangle=\int d x u(x) \bar{v}(x),\end{gathered}$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20413">$$r_{0}(z)$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1038_INTEGRAL'NYJ">интегральный оператор</a> с ядром<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20409">$$\left(4 \pi\left|x-x^{\prime}\right|\right)^{-1} \exp \left\{i \sqrt{z}\left|x-x^{\prime}\right|\right\}$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20414">$$v=v(x)-\quad$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1403_KOROTKODEJSTVUJuSchIJ">короткодействующий потенциал</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2546_RASSEJaNIJa">Амплитуда рассеяния</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20415">$$f\left(k_{1}, k_{2}\right),\left|k_{1}\right|=\left|k_{2}\right|$$</a>, выражается через стационарное значение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функционала</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20411">$$t\left(\psi_{1}^{-}, \psi_{2}^{+}\right)$$</a>формулой:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20410">$$f\left(k_{1}, k_{2}\right)=-2 \pi t\left(\psi_{1}^{-}, \psi_{2}^{+}\right)$$</a><BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#20402">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#571">Schwinger J.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20402">«phys. Rev.», 1947, v. 72, p. 742</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#20404">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#20403">Lippman B. A.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#571">Schwinger J.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20404">там же, 1950, v. 79, p. 469</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#20405">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1984">Мотт Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#828">Месси Х.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20405">Теория атомных столкновений, пер. с англ., М., 1969</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#793">С. П. Меркурьев</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#794">С. Л. Яковлев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[вариационный принцип для амплитуды рассеяния, использующий Липпмана - Швингера уравнение. Основан на эквивалентности условия стационарности для функционала Швингера $t\left(\psi_{1}^{-}, \psi_{2}^{+}\right)$
+
+\[
+\delta t\left(\psi_{1}^{-}, \psi_{2}^{+}\right)=0
+\]
+
+уравнению Липпмана - Швингера для функций $\psi_{i}^{ \pm}$:
+
+\[
+\psi_{i}^{ \pm}=\varphi_{i}-R_{0}(E \pm i 0) V \psi_{i}^{ \pm}
+\]
+
+Здесь
+
+\[
+\begin{gathered}
+t\left(\psi_{1}^{-}, \psi_{2}^{+}\right)=\left\langle V \varphi_{2}, \psi_{1}^{-}\right\rangle+\left\langle V \psi_{2}^{+}, \varphi_{1}\right\rangle-\left\langle\left[V+V R_{0}(E+i 0)\right] \psi_{2}^{+}, \psi_{1}^{-}\right\rangle, \\
+E=k_{n}^{2}, \quad n=1,2, \\
+\varphi_{n}=\varphi_{n}\left(x, k_{n}\right)=\exp \left\{i\left(x, k_{n}\right)\right\}, \\
+\langle U, V\rangle=\int d x u(x) \bar{v}(x),
+\end{gathered}
+\]
+
+$R_{0}(z)$ - интегральный оператор с ядром
+
+\[
+\left(4 \pi\left|x-x^{\prime}\right|\right)^{-1} \exp \left\{i \sqrt{z}\left|x-x^{\prime}\right|\right\}
+\]
+
+$V=v(x)-\quad$ короткодействующий потенциал. Амплитуда рассеяния $f\left(k_{1}, k_{2}\right),\left|k_{1}\right|=\left|k_{2}\right|$, выражается через стационарное значение функционала $t\left(\psi_{1}^{-}, \psi_{2}^{+}\right)$формулой:
+
+\[
+f\left(k_{1}, k_{2}\right)=-2 \pi t\left(\psi_{1}^{-}, \psi_{2}^{+}\right)
+\]
+
+Jum.: [1] Schwinger J., «Phys. Rev.», 1947, v. 72, p. 742; [2] Lippman B. A., Schwinger J., там же, 1950, v. 79, p. 469; [3] Мотт Н., Месс и Х., Теория атомных столкновений, пер. с англ., М., 1969.
+
+С. П. Меркурьев, С.Л. Яковлев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2546_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1403_KOROTKODEJSTVUJuSchIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1038_INTEGRAL'NYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2546_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2242_PLANKA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2242_PLANKA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1380</core:url>
+    <lbm:descriptor><![CDATA[ПЛАНКА МАССА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#10627"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10628"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10629"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1791"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_389"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10630"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10631"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10632"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10633"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1728_MASS">масса</a>, определяемая соотношением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10629">$$M_{P l}=\sqrt{\frac{\hbar c}{G}}=1,22 \cdot 10^{19} \mathrm{Gev} / c^{2}=2,17 \cdot 10^{17}{ }_{\Gamma} \text {, }$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2242_1_PLANKA]]/URI$ - гравитационная постоянная, $URI[[http://libmeta.ru/fme/formula/aux/2242_2_PLANKA]]/URI$ - постоянная Планка, $URI[[http://libmeta.ru/fme/formula/aux/2242_3_PLANKA]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорость</a> света. П. м.- одна из фундаментальных физич. величин. Ее значение в физике определяется тем, что это единственная величина размерности массы, к-рую можно <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">составить</a> из фундаментальных констант, описывающих три главных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> физики: <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3142_TJaGOTENIJa">теорию тяготения</a> $URI[[http://libmeta.ru/fme/formula/aux/2242_4_PLANKA]]/URI$, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2144_OTNOSITEL'NOSTI">теорию относительности</a> $URI[[http://libmeta.ru/fme/formula/aux/2242_5_PLANKA]]/URI$ и квантовую <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механику</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10632">$$(\hbar)$$</a>. Поэтому следует ожидать, что, во-первых, при описании <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_359_VELIKOE">взаимодействия элементарных частиц</a> с энергиями, превышающими <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10633">$$m_{p l} c^{2}$$</a>, нельзя пренебрегать гравитационными эффектами и, во-вторых, что при таких <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергиях</a> гравитационные взаимодействия нельзя описывать классич. теорией, а нужно использовать <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1176_KVANTOVAJa">квантовую теорию гравитации</a>. Последовательное построение последней - одна из важнейших задач современной теоретич. физики. Одним из шагов в этом направлении является теория <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2995_SUPERGRUPP">суперструн</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#10628">[1]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#10628">Proceedings of the fourth seminar on quantum gravity, 1984, Мау 25-29, М., 1987.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#10627">А. Ю. Иенатьев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[масса, определяемая соотношением
+
+\[
+M_{P l}=\sqrt{\frac{\hbar c}{G}}=1,22 \cdot 10^{19} \mathrm{Gev} / c^{2}=2,17 \cdot 10^{17}{ }_{\Gamma} \text {, }
+\]
+
+где $G$ - гравитационная постоянная, $\hbar$ - постоянная Планка, $c$ - скорость света. П. м.- одна из фундаментальных физич. величин. Ее значение в физике определяется тем, что это единственная величина размерности массы, к-рую можно составить из фундаментальных констант, описывающих три главных области физики: теорию тяготения $(G)$, теорию относительности $(c)$ и квантовую механику $(\hbar)$. Поэтому следует ожидать, что, во-первых, при описании взаимодействия элементарных частиц с энергиями, превышающими $M_{P l} c^{2}$, нельзя пренебрегать гравитационными эффектами и, во-вторых, что при таких энергиях гравитационные взаимодействия нельзя описывать классич. теорией, а нужно использовать квантовую теорию гравитации. Последовательное построение последней - одна из важнейших задач современной теоретич. физики. Одним из шагов в этом направлении является теория суперструн.
+
+Jum.: [1] Proceedings of the fourth seminar on quantum gravity, 1984, Мау 25-29, М., 1987. А. Ю. Иенатьев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2995_SUPERGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1176_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_359_VELIKOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2144_OTNOSITEL'NOSTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3142_TJaGOTENIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1728_MASS"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

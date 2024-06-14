@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_22445">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>u</mi><mrow><mn>1</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo>&#x0002C;</mo><mi>&#x003B3;</mi><mo>&#x0002C;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002B;</mo><mfrac><mrow><mi>&#x003B1;</mi></mrow><mrow><mi>&#x003B3;</mi></mrow></mfrac><mfrac><mrow><mi>z</mi></mrow><mrow><mn>1</mn><mo>&#x00021;</mo></mrow></mfrac><mo>&#x0002B;</mo><mfrac><mrow><mi>&#x003B1;</mi></mrow><mrow><mi>&#x003B3;</mi></mrow></mfrac><mfrac><mrow><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mi>&#x003B3;</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></mfrac><mfrac><mrow><msup><mi>z</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn><mo>&#x00021;</mo></mrow></mfrac><mo>&#x0002B;</mo><mi>&#x02026;</mi><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>n</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mfrac><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><msub><mo stretchy="false">&#x00029;</mo><mrow><mi>n</mi></mrow></msub></mrow><mrow><mo stretchy="false">&#x00028;</mo><mi>&#x003B3;</mi><msub><mo stretchy="false">&#x00029;</mo><mrow><mi>n</mi></mrow></msub></mrow></mfrac><mfrac><mrow><msup><mi>z</mi><mrow><mi>n</mi></mrow></msup></mrow><mrow><mi>n</mi><mo>&#x00021;</mo></mrow></mfrac></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$u_{1}(z)=f(\alpha, \gamma, z)=1+\frac{\alpha}{\gamma} \frac{z}{1 !}+\frac{\alpha}{\gamma} \frac{\alpha+1}{\gamma+1} \frac{z^{2}}{2 !}+\ldots=\sum_{n=0}^{\infty} \frac{(\alpha)_{n}}{(\gamma)_{n}} \frac{z^{n}}{n !}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,546 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1022_INSTANTO" alphabetic_pos="1024">
+  <title>ИНСТАНТОН</title>
+  <authors>
+    <author>А. С. Швари</author>
+  </authors>
+  <pages>
+    <start>215</start>
+    <end>217</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Раджа раман Р., Солитоны и инстантоны в квантовой теории поля, пер. с англ., М., 1985; [2] Х у а нг К., Кварки, лептоны и калибровочные поля, пер. с англ., М., 1985; [3] Ра йде р Л., Квантовая теория поля, пер. с англ., М., 1987; [4] Геометрические идеи в физике, пер. с англ., М., 1983; [5] Ф р и д Д., Ул е н 6 е к К., Инстантоны и четырехмерные многообразия, пер. с англ., М., 1988; [6] Ш в а рц А. С., Квантовая теория поля и топология, М., 1989; [7] Соколо в А.А. и др., Калибровочные поля, М., 1986.</literature_orig>
+    <unit>
+      <author>Раджараман Р.</author>
+      <title>Солитоны и инстантоны в квантовой теории поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1985</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Хуанг К.</author>
+      <title>Кварки, лептоны и калибровочные поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1985</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Райдер Л.</author>
+      <title>Квантовая теория поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1987</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Геометрические идеи в физике</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Фрид Д.</author>
+      <author>Улен6ек К.</author>
+      <title>Инстантоны и четырехмерные многообразия</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Шварц А. С.</author>
+      <title>Квантовая теория поля и топология</title>
+      <publication>М.</publication>
+      <year>1989</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Соколо в А.А. и др., Калибровочные поля</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_1_INSTANTO">U(q)=\lambda\left(q^{2}-a^{2}\right)^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_2_INSTANTO">S=\int\left(\frac{1}{2} \dot{q}^{2}+\lambda\left(q^{2}-a^{2}\right)^{2}\right) d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_3_INSTANTO">q(t)= \pm \operatorname{arth}(a \sqrt{2 \lambda}(t-c)),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_4_INSTANTO">S(A)=\frac{1}{4 e^{2}} \int \sqrt{g}\left\langle F_{\mu v}, F^{\mu v}\right\rangle d^{4} x,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_5_INSTANTO">q(A)=\frac{1}{64 \pi^{2}} \int d^{4} x \varepsilon^{\mu v \rho \sigma}\left\langle F_{\mu \nu}, F_{\rho \sigma}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_6_INSTANTO">\begin{gathered}8 \pi^{2} e^{-2}|q(A)| \\S(A)=8 \pi^{2} e^{-2}|q(A)|\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_7_INSTANTO">F_{\alpha \beta}= \pm \tilde{F}_{\alpha \beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_8_INSTANTO">F=\frac{1}{2} F_{\alpha \beta} d x^{\alpha} \wedge d x^{\beta},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_9_INSTANTO">(F \pm * F, F \pm * F)=2(F, F) \pm 2(F, * F) \geqslant 0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_10_INSTANTO">A_{\mu}(x)=\frac{\lambda^{2}}{(x-a)^{2}+\lambda^{2}} u^{-1}\left(\frac{x-a}{|x-a|}\right) d_{\mu} u\left(\frac{x-a}{|x-a|}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_11_INSTANTO">A_{\mu}(x)=V_{i} \lambda_{i}^{2}\left(\left(x-a_{i}\right)^{2}+\lambda_{i}^{2}\right)^{-1} u^{-1}\left(\frac{x-a_{i}}{\left|x-a_{i}\right|}\right) d_{\mu} u\left(\frac{x-a_{i}}{\left|x-a_{i}\right|}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_12_INSTANTO">A_{\mu}=\bar{\sigma}_{\mu \nu} \partial_{v} \rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_13_INSTANTO">\rho=\sum_{i=1}^{q+1} \lambda_{i}^{2}\left|x-a_{i}\right|^{-2}, \quad \bar{\sigma}_{\mu \nu}=\sigma^{a}\left(\varepsilon_{0 \alpha \mu \nu}-\delta_{a \mu} \delta_{0 v}+\delta_{a v} \delta_{0 \mu}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_14_INSTANTO">A_{\mu}(x)=N^{+}(x) \partial_{\mu} N(x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_15_INSTANTO">N^{+}(x) M(x)=0, N^{+}(x) N(x)=1 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_16_INSTANTO">S(\boldsymbol{n})=\int \partial_{\mu} n^{a} \partial_{\mu} n^{a} d^{2} x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_17_INSTANTO">d \mu=\prod_{f} m_{f}^{3} \exp \left(-\frac{8 \pi^{2}}{e^{2}(\lambda)}\right) \frac{d \lambda d^{4} a}{\lambda^{5}},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1022_18_INSTANTO">e^{-2}(\lambda)=e_{0}^{-2}-\left(8 \pi^{2}\right)^{-1}\left(11-\frac{2}{3} n_{f}\right) \ln \frac{\lambda}{\lambda_{0}}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_1_INSTANTO">q= \pm a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_2_INSTANTO">a_{\mu}(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_3_INSTANTO">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_4_INSTANTO">s(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_5_INSTANTO">f_{\mu \nu}=\partial_{\mu} A_{v}-\partial_{v} A_{\mu}+\left[A_{\mu}, A_{v}\right]-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_6_INSTANTO">a_{\mu}, F_{\alpha \beta}=g_{\alpha \mu} g_{\beta v} F^{\mu v}, g_{\alpha \beta}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_7_INSTANTO">g=\operatorname{det} g_{\alpha \beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_8_INSTANTO">\langle\cdot, \cdot\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_9_INSTANTO">g_{\alpha \beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_10_INSTANTO">\delta_{\alpha \beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_11_INSTANTO">f_{\mu \nu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_12_INSTANTO">a_{\mu}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_13_INSTANTO">g^{-1}(x) \partial_{\mu} g(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_14_INSTANTO">\mathrm{g}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_15_INSTANTO">a_{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_16_INSTANTO">q(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_17_INSTANTO">\pi_{3}(g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_18_INSTANTO">g(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_19_INSTANTO">s^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_20_INSTANTO">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_21_INSTANTO">s^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_22_INSTANTO">g(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_23_INSTANTO">q(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_24_INSTANTO">a_{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_25_INSTANTO">a_{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_26_INSTANTO">q(a) \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_27_INSTANTO">g-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_28_INSTANTO">\pi_{3}(g)=\mathbb{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_29_INSTANTO">q(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_30_INSTANTO">g=s U(n)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_31_INSTANTO">\langle a, b\rangle=-\mathrm{Sp} a b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_32_INSTANTO">s(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_33_INSTANTO">\tilde{f}_{\alpha \beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_34_INSTANTO">f_{\alpha \beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_35_INSTANTO">q(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_36_INSTANTO">q&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_37_INSTANTO">q&lt;0-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_38_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_39_INSTANTO">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_40_INSTANTO">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_41_INSTANTO">q(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_42_INSTANTO">f= \pm * F</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_43_INSTANTO">s(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_44_INSTANTO">(f, F)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_45_INSTANTO">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_46_INSTANTO">s(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_47_INSTANTO">q(a)=\left(32 \pi^{2}\right)^{-1}(F, * F)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_48_INSTANTO">\mathbb{r}^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_49_INSTANTO">s^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_50_INSTANTO">s^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_51_INSTANTO">\mathbb{r}^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_52_INSTANTO">s U(N), N \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_53_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_54_INSTANTO">4 N|q|-\left(N^{2}-1\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_55_INSTANTO">|q| \geqslant \frac{N}{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_56_INSTANTO">4 q^{2}+1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_57_INSTANTO">1 \leqslant|q| \leqslant \frac{N}{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_58_INSTANTO">g=s U(2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_59_INSTANTO">q=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_60_INSTANTO">u(n)=n^{0}+i \sigma \boldsymbol{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_61_INSTANTO">s^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_62_INSTANTO">s U(2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_63_INSTANTO">n^{0^{2}}=n^{2}=1, \sigma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_64_INSTANTO">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_65_INSTANTO">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_66_INSTANTO">s U(2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_67_INSTANTO">s U(N)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_68_INSTANTO">s U(N)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_69_INSTANTO">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_70_INSTANTO">s U(2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_71_INSTANTO">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_72_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_73_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_74_INSTANTO">g=s U(N)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_75_INSTANTO">a_{1}, \ldots, a_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_76_INSTANTO">a_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_77_INSTANTO">v_{i} \in S U(N),\left|x-a_{i}\right| \ll\left|a_{i}-a_{j}\right|, \lambda_{i} \ll\left|a_{i}-a_{j}\right|, i \neq j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_78_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_79_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_80_INSTANTO">s U(2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_81_INSTANTO">5 q+4</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_82_INSTANTO">q \geqslant 3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_83_INSTANTO">q=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_84_INSTANTO">s O(4)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_85_INSTANTO">s U(2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_86_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_87_INSTANTO">g=s U(2)=S p(1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_88_INSTANTO">m(x)=a+b \hat{x}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_89_INSTANTO">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_90_INSTANTO">b-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_91_INSTANTO">((1+q) \times q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_92_INSTANTO">\hat{x}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_93_INSTANTO">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_94_INSTANTO">r(x)=m^{+}(x) M(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_95_INSTANTO">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_96_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_97_INSTANTO">n(x)-(q+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_98_INSTANTO">(2+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_99_INSTANTO">(3+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_100_INSTANTO">(2+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_101_INSTANTO">(3+2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_102_INSTANTO">n=\left(n^{1}, n^{2}, n^{3}\right), n^{2}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_103_INSTANTO">z=x^{0}+i x^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_104_INSTANTO">\bar{z}=x^{0}-i x^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_105_INSTANTO">s^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_106_INSTANTO">|\boldsymbol{n}|=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_107_INSTANTO">(1+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_108_INSTANTO">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_109_INSTANTO">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_110_INSTANTO">s^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_111_INSTANTO">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_112_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_113_INSTANTO">n_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_114_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_115_INSTANTO">n_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_116_INSTANTO">n_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_117_INSTANTO">n_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_118_INSTANTO">q=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_119_INSTANTO">e(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_120_INSTANTO">m_{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_121_INSTANTO">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_122_INSTANTO">n_{f}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_123_INSTANTO">q= \pm 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_124_INSTANTO">u(1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_125_INSTANTO">\psi \rightarrow \exp \left(\alpha \gamma^{5}\right) \psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_126_INSTANTO">u(1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_127_INSTANTO">u(1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_128_INSTANTO">n_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_129_INSTANTO">q=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_130_INSTANTO">m_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_131_INSTANTO">g=s U(2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_132_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_133_INSTANTO">n_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_134_INSTANTO">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_135_INSTANTO">n_{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_136_INSTANTO">n_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1022_137_INSTANTO">n_{q}</formula>
+  </formulas_aux>
+  <relations n="19">
+    <relation uri="http://libmeta.ru/fme/relation/1022_1_INSTANTO">
+      <rel_text>Алгебро-геометрические методы в теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/56_ALGEBRO-GEOMETRIChESKIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_2_INSTANTO">
+      <rel_text>частью</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_3_INSTANTO">
+      <rel_text>многообразия</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_4_INSTANTO">
+      <rel_text>параметров</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_5_INSTANTO">
+      <rel_text>конформных преобразованиях</rel_text>
+      <target>http://libmeta.ru/fme/article/1379_KONFORMNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_6_INSTANTO">
+      <rel_text>распада протона</rel_text>
+      <target>http://libmeta.ru/fme/article/2531_RASPAD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_7_INSTANTO">
+      <rel_text>топологически нетривиальных</rel_text>
+      <target>http://libmeta.ru/fme/article/3093_TOPOLOGIChESKI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_8_INSTANTO">
+      <rel_text>аромат</rel_text>
+      <target>http://libmeta.ru/fme/article/105_AROMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_9_INSTANTO">
+      <rel_text>масса</rel_text>
+      <target>http://libmeta.ru/fme/article/1728_MASS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_10_INSTANTO">
+      <rel_text>квантовой хромодинамики</rel_text>
+      <target>http://libmeta.ru/fme/article/1180_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_11_INSTANTO">
+      <rel_text>евклидовым действием</rel_text>
+      <target>http://libmeta.ru/fme/article/917_EVKLIDOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_12_INSTANTO">
+      <rel_text>флуктуаций</rel_text>
+      <target>http://libmeta.ru/fme/article/3283_FLUKTUATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_13_INSTANTO">
+      <rel_text>фермионы</rel_text>
+      <target>http://libmeta.ru/fme/article/3268_FERMIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_14_INSTANTO">
+      <rel_text>многообразию</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_15_INSTANTO">
+      <rel_text>ортогональным</rel_text>
+      <target>http://libmeta.ru/fme/article/2110_ORTOPROEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_16_INSTANTO">
+      <rel_text>эквивалентные</rel_text>
+      <target>http://libmeta.ru/fme/article/3492_EKVIDISTANT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_17_INSTANTO">
+      <rel_text>первом</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_18_INSTANTO">
+      <rel_text>получаем</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1022_19_INSTANTO">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+  </relations>
+  <text>экстремаль евклидова действия (см. ниже). Точнее говоря, обычно этот термин относят к топологически нетривиальным экстремалям (поле называется т о пол о г и ески нет р и в и а льны м, если его нельзя соединить с классич. вакуумом непрерывным семейством полей, каждое из которых имеет конечное евклидово действие).
+
+Топологически нетривиальная экстремаль евклидова действия описывает туннельный переход между двумя классич. вакуумами. Напр., в задаче о квантовом движении одномерной частицы в поле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_1_INSTANTO]]/URI
+\]
+
+топологически нетривиальными экстремалями е в кл и д о в а де й с т в и я:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_2_INSTANTO]]/URI
+\]
+
+являются поля
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_3_INSTANTO]]/URI
+\]
+
+описывающие туннельный переход между классич. вакуумами $URI[[http://libmeta.ru/fme/formula/aux/1022_1_INSTANTO]]/URI$.
+
+Наиболее важный пример - И. в калибровочных теориях (кали бровочные инстантоны). Если $URI[[http://libmeta.ru/fme/formula/aux/1022_2_INSTANTO]]/URI$ калибровочное поле, определенное на пространстве Минковского и принимающее значения в алгебре Ли \&amp; компактной группы Ли $URI[[http://libmeta.ru/fme/formula/aux/1022_3_INSTANTO]]/URI$, то функционал действия $URI[[http://libmeta.ru/fme/formula/aux/1022_4_INSTANTO]]/URI$ записывается в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_4_INSTANTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1022_5_INSTANTO]]/URI$ тензор напряженности поля $URI[[http://libmeta.ru/fme/formula/aux/1022_6_INSTANTO]]/URI$ метрич. тензор, $URI[[http://libmeta.ru/fme/formula/aux/1022_7_INSTANTO]]/URI$, символ $URI[[http://libmeta.ru/fme/formula/aux/1022_8_INSTANTO]]/URI$ означает инвариантное скалярное произведение в алгебре Ли \&amp;. Евклидово действие задается той же формулой, в к-рой метрич. тензор пространства Минковского $URI[[http://libmeta.ru/fme/formula/aux/1022_9_INSTANTO]]/URI$ заменен на метрич. тензор евклидова пространства $URI[[http://libmeta.ru/fme/formula/aux/1022_10_INSTANTO]]/URI$. Для того чтобы евклидово действие было конечно, нужно, чтобы поле $URI[[http://libmeta.ru/fme/formula/aux/1022_11_INSTANTO]]/URI$ убывало на бесконечности. Накладывая естественные условия на скорость его убывания, можно доказать, что $URI[[http://libmeta.ru/fme/formula/aux/1022_12_INSTANTO]]/URI$ на бесконечности близко чисто калибровочному полю $URI[[http://libmeta.ru/fme/formula/aux/1022_13_INSTANTO]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1022_14_INSTANTO]]/URI$ - функция, принимающая значения в группе и определенная вне нек-рого шара. Это позволяет сопоставить полю $URI[[http://libmeta.ru/fme/formula/aux/1022_15_INSTANTO]]/URI$ элемент $URI[[http://libmeta.ru/fme/formula/aux/1022_16_INSTANTO]]/URI$ гомотопич. группы $URI[[http://libmeta.ru/fme/formula/aux/1022_17_INSTANTO]]/URI$, определяемый функцией $URI[[http://libmeta.ru/fme/formula/aux/1022_18_INSTANTO]]/URI$, рассматриваемой как отображение сферы большого радиуса $URI[[http://libmeta.ru/fme/formula/aux/1022_19_INSTANTO]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1022_20_INSTANTO]]/URI$ (точнее, следует потребовать, чтобы сфера $URI[[http://libmeta.ru/fme/formula/aux/1022_21_INSTANTO]]/URI$ содержала внутри себя шар, вне к-рого определена функция $URI[[http://libmeta.ru/fme/formula/aux/1022_22_INSTANTO]]/URI$ ). Элемент $URI[[http://libmeta.ru/fme/formula/aux/1022_23_INSTANTO]]/URI$ определяет топологич. тип поля $URI[[http://libmeta.ru/fme/formula/aux/1022_24_INSTANTO]]/URI$; поле $URI[[http://libmeta.ru/fme/formula/aux/1022_25_INSTANTO]]/URI$ топологически нетривиально, если $URI[[http://libmeta.ru/fme/formula/aux/1022_26_INSTANTO]]/URI$. Пусть для определенности $URI[[http://libmeta.ru/fme/formula/aux/1022_27_INSTANTO]]/URI$ простая компактная некоммутативная группа Ли; тогда $URI[[http://libmeta.ru/fme/formula/aux/1022_28_INSTANTO]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1022_29_INSTANTO]]/URI$ можно рассматривать как целое число. Его можно аналитически выразить в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_5_INSTANTO]]/URI
+\]
+
+при соответствующей нормировке скалярного произведения в \&amp;s (в случае $URI[[http://libmeta.ru/fme/formula/aux/1022_30_INSTANTO]]/URI$, (s)=su(n) нормированное нужным образом скалярное произведение дается формулой $URI[[http://libmeta.ru/fme/formula/aux/1022_31_INSTANTO]]/URI$; в общем случае следует наложить условие: наибольшая длина простого корня равна двум). Доказывается, что евклидово действие $URI[[http://libmeta.ru/fme/formula/aux/1022_32_INSTANTO]]/URI$ оценивается снизу числом
+
+и что равенство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_6_INSTANTO]]/URI
+\]
+
+достигается при условии
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_7_INSTANTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1022_33_INSTANTO]]/URI$ - тензор, двойственный к $URI[[http://libmeta.ru/fme/formula/aux/1022_34_INSTANTO]]/URI$, знак определяется знаком числа $URI[[http://libmeta.ru/fme/formula/aux/1022_35_INSTANTO]]/URI$. Уравнение (3) носит название у ра в нения самодуальности (автодуальности) или антисамодуальности (антиавтодуальности) (в зависимости от знака); его решения являются экстремалями евклидова действия. При $URI[[http://libmeta.ru/fme/formula/aux/1022_36_INSTANTO]]/URI$ эти решения называются инст антонами, а при $URI[[http://libmeta.ru/fme/formula/aux/1022_37_INSTANTO]]/URI$ антиинстантонам и с топологич. числом $URI[[http://libmeta.ru/fme/formula/aux/1022_38_INSTANTO]]/URI$ (конечно, все они являются И. в смысле данного выше общего определения). Если калибровочное поле $URI[[http://libmeta.ru/fme/formula/aux/1022_39_INSTANTO]]/URI$ определено на четырехмерном ориентированном римановом многообразии, то (1) можно по-прежнему рассматривать как определение евклидова действия, а (2) - как определение топологич. числа поля $URI[[http://libmeta.ru/fme/formula/aux/1022_40_INSTANTO]]/URI$. Сформулированные выше результаты остаются справедливыми; калибровочное поле на многообразии можно интерпретировать как связность на главном расслоении над этим многообразием. Если многообразие замкнуто, то $URI[[http://libmeta.ru/fme/formula/aux/1022_41_INSTANTO]]/URI$ отождествляется с характеристич. числом расслоения. Напряженность поля удобно рассматривать как 2-форму
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_8_INSTANTO]]/URI
+\]
+
+принимающую значения в слоях ассоциированного расслоения со слоем (s; она отождествляется с кривизной связности. Уравнение (3) приобретает вид $URI[[http://libmeta.ru/fme/formula/aux/1022_42_INSTANTO]]/URI$, где * означает переход к двойственной форме. Евклидово действие $URI[[http://libmeta.ru/fme/formula/aux/1022_43_INSTANTO]]/URI$ с точностью до множителя записывается как скалярный квадрат $URI[[http://libmeta.ru/fme/formula/aux/1022_44_INSTANTO]]/URI$ формы $URI[[http://libmeta.ru/fme/formula/aux/1022_45_INSTANTO]]/URI$. Исследование минимума $URI[[http://libmeta.ru/fme/formula/aux/1022_46_INSTANTO]]/URI$ при фиксированном топологич. числе $URI[[http://libmeta.ru/fme/formula/aux/1022_47_INSTANTO]]/URI$ проводится с помощью тождества
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_9_INSTANTO]]/URI
+\]
+
+Уравнение (3) конформно инвариантно. Это позволяет свести изучение И. в $URI[[http://libmeta.ru/fme/formula/aux/1022_48_INSTANTO]]/URI$ к изучению И. на сфере $URI[[http://libmeta.ru/fme/formula/aux/1022_49_INSTANTO]]/URI$. Переход
+
+216 Инстантон к изучению И. на компактном многообразии можно рассматривать также как пространственное обрезание. Изучение числа решений уравнения (3) на сфере $URI[[http://libmeta.ru/fme/formula/aux/1022_50_INSTANTO]]/URI$ (и, следовательно, в $URI[[http://libmeta.ru/fme/formula/aux/1022_51_INSTANTO]]/URI$ ) проводится с помощью теории индекса эллиптич. операторов (см. [3]-[5]). В частности, для группы $URI[[http://libmeta.ru/fme/formula/aux/1022_52_INSTANTO]]/URI$, решения с топологич. числом $URI[[http://libmeta.ru/fme/formula/aux/1022_53_INSTANTO]]/URI$ образуют семейство, зависящее от $URI[[http://libmeta.ru/fme/formula/aux/1022_54_INSTANTO]]/URI$ параметров при $URI[[http://libmeta.ru/fme/formula/aux/1022_55_INSTANTO]]/URI$ и от $URI[[http://libmeta.ru/fme/formula/aux/1022_56_INSTANTO]]/URI$ параметров при $URI[[http://libmeta.ru/fme/formula/aux/1022_57_INSTANTO]]/URI$. Калибровочно эквивалентные решения при этом отождествляются. Решения уравнения самодуальности для случая $URI[[http://libmeta.ru/fme/formula/aux/1022_58_INSTANTO]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1022_59_INSTANTO]]/URI$ получены в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_10_INSTANTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1022_60_INSTANTO]]/URI$ осуществляет топологич. эквивалентность $URI[[http://libmeta.ru/fme/formula/aux/1022_61_INSTANTO]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1022_62_INSTANTO]]/URI$; здесь $URI[[http://libmeta.ru/fme/formula/aux/1022_63_INSTANTO]]/URI$ матрицы Паули. Параметр $URI[[http://libmeta.ru/fme/formula/aux/1022_64_INSTANTO]]/URI$ в (4) характеризует размер И., $URI[[http://libmeta.ru/fme/formula/aux/1022_65_INSTANTO]]/URI$ - его положение. Считая, что группа $URI[[http://libmeta.ru/fme/formula/aux/1022_66_INSTANTO]]/URI$ стандартным способом вложена в $URI[[http://libmeta.ru/fme/formula/aux/1022_67_INSTANTO]]/URI$, можно рассматривать (4) как одноинстантонное решение для группы $URI[[http://libmeta.ru/fme/formula/aux/1022_68_INSTANTO]]/URI$; одноинстантонные решения для произвольной группы $URI[[http://libmeta.ru/fme/formula/aux/1022_69_INSTANTO]]/URI$ также могут быть получены с помощью вложения группы $URI[[http://libmeta.ru/fme/formula/aux/1022_70_INSTANTO]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1022_71_INSTANTO]]/URI$. Приближенное решение уравнения самодуальности с топологич. числом $URI[[http://libmeta.ru/fme/formula/aux/1022_72_INSTANTO]]/URI$ можно получить, склеивая $URI[[http://libmeta.ru/fme/formula/aux/1022_73_INSTANTO]]/URI$ далеких друг от друга одноинстантонных решений. Напр., для $URI[[http://libmeta.ru/fme/formula/aux/1022_74_INSTANTO]]/URI$ следует рассмотреть поле, к-рое вдали от точек $URI[[http://libmeta.ru/fme/formula/aux/1022_75_INSTANTO]]/URI$ является чисто калибровочным, а в случае, если точка близка к $URI[[http://libmeta.ru/fme/formula/aux/1022_76_INSTANTO]]/URI$, имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_11_INSTANTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1022_77_INSTANTO]]/URI$. Можно доказать, что вблизи от построенных только что приближенных решений уравнения самодуальности лежат точные $URI[[http://libmeta.ru/fme/formula/aux/1022_78_INSTANTO]]/URI$-инстантонные решения; это позволяет придать наглядный смысл параметрам И. Семейство точных $URI[[http://libmeta.ru/fme/formula/aux/1022_79_INSTANTO]]/URI$-инстантонных решений для группы $URI[[http://libmeta.ru/fme/formula/aux/1022_80_INSTANTO]]/URI$, зависящее от $URI[[http://libmeta.ru/fme/formula/aux/1022_81_INSTANTO]]/URI$ параметров при $URI[[http://libmeta.ru/fme/formula/aux/1022_82_INSTANTO]]/URI$ и от 13 параметров при $URI[[http://libmeta.ru/fme/formula/aux/1022_83_INSTANTO]]/URI$, можно получить с помощью подстановки:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_12_INSTANTO]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_13_INSTANTO]]/URI
+\]
+
+- матрица, определяющая гомоморфизм алгебры Ли группы $URI[[http://libmeta.ru/fme/formula/aux/1022_84_INSTANTO]]/URI$ в алгебру Ли группы $URI[[http://libmeta.ru/fme/formula/aux/1022_85_INSTANTO]]/URI$. Было получено полное (но не очень явное) семейство $URI[[http://libmeta.ru/fme/formula/aux/1022_86_INSTANTO]]/URI$-инстантонных решений. Для группы $URI[[http://libmeta.ru/fme/formula/aux/1022_87_INSTANTO]]/URI$ их конструкция имеет следующий вид. Пусть $URI[[http://libmeta.ru/fme/formula/aux/1022_88_INSTANTO]]/URI$ матричная функция, где $URI[[http://libmeta.ru/fme/formula/aux/1022_89_INSTANTO]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1022_90_INSTANTO]]/URI$ постоянные $URI[[http://libmeta.ru/fme/formula/aux/1022_91_INSTANTO]]/URI$-мерные кватернионные матрицы, $URI[[http://libmeta.ru/fme/formula/aux/1022_92_INSTANTO]]/URI$ кватернион, отвечающий вектору $URI[[http://libmeta.ru/fme/formula/aux/1022_93_INSTANTO]]/URI$. Если матрица $URI[[http://libmeta.ru/fme/formula/aux/1022_94_INSTANTO]]/URI$ действительна и обратима для каждой точки $URI[[http://libmeta.ru/fme/formula/aux/1022_95_INSTANTO]]/URI$, то можно построить $URI[[http://libmeta.ru/fme/formula/aux/1022_96_INSTANTO]]/URI$-инстантонное поле по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_14_INSTANTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1022_97_INSTANTO]]/URI$-мерный кватернионный вектор-столбец, удовлетворяющий уравнениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_15_INSTANTO]]/URI
+\]
+
+Следует отметить, что изучение экстремалей функционала евклидова действия $URI[[http://libmeta.ru/fme/formula/aux/1022_98_INSTANTO]]/URI$-мерной теории сводится к изучению экстремалей функционала энергии $URI[[http://libmeta.ru/fme/formula/aux/1022_99_INSTANTO]]/URI$-мерной теории. Это позволяет отождествить И. $URI[[http://libmeta.ru/fme/formula/aux/1022_100_INSTANTO]]/URI$-мерной калибровочной теории с магнитными монополями ее $URI[[http://libmeta.ru/fme/formula/aux/1022_101_INSTANTO]]/URI$-мерного аналога. И. (1+1)-мерной модели с евклидовым действием
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_16_INSTANTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1022_102_INSTANTO]]/URI$, можно отождествить с рациональными функциями комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/1022_103_INSTANTO]]/URI$ или комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/1022_104_INSTANTO]]/URI$. Всякая такая функция может рассматриваться как отображение в расширенную комплексную плоскость - сферу Римана $URI[[http://libmeta.ru/fme/formula/aux/1022_105_INSTANTO]]/URI$, к-рая с помощью стереографич. проекции отождествляется со сферой $URI[[http://libmeta.ru/fme/formula/aux/1022_106_INSTANTO]]/URI$. Аналогично, И. более общей $URI[[http://libmeta.ru/fme/formula/aux/1022_107_INSTANTO]]/URI$-мерной $URI[[http://libmeta.ru/fme/formula/aux/1022_108_INSTANTO]]/URI$-модели, описывающей поля, принимающие значения в кэлеровом многообразии $URI[[http://libmeta.ru/fme/formula/aux/1022_109_INSTANTO]]/URI$, даются голоморфными и антиголоморфными отображениями сферы $URI[[http://libmeta.ru/fme/formula/aux/1022_110_INSTANTO]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1022_111_INSTANTO]]/URI$.
+
+И. естественно возникают при попытке вычислить методом Лапласа функциональные интегралы, возникающие в евклидовом подходе к URI[[http://libmeta.ru/fme/relation/1022_19_INSTANTO]]/URI. При вычислении этим методом вклада в статистич. сумму или в функцию Грина от множества полей с данным топологич. числом $URI[[http://libmeta.ru/fme/formula/aux/1022_112_INSTANTO]]/URI$ мы URI[[http://libmeta.ru/fme/relation/1022_18_INSTANTO]]/URI (в URI[[http://libmeta.ru/fme/relation/1022_17_INSTANTO]]/URI приближении) интеграл по множеству $URI[[http://libmeta.ru/fme/formula/aux/1022_113_INSTANTO]]/URI$ И. с топологич. числом $URI[[http://libmeta.ru/fme/formula/aux/1022_114_INSTANTO]]/URI$. Если мы имеем дело с калибровочной теорией, то при определении $URI[[http://libmeta.ru/fme/formula/aux/1022_115_INSTANTO]]/URI$ калибровочно URI[[http://libmeta.ru/fme/relation/1022_16_INSTANTO]]/URI И. следует считать тождественными. На $URI[[http://libmeta.ru/fme/formula/aux/1022_116_INSTANTO]]/URI$ возникает мера, выраженная через бесконечномерные детерминанты. Дело в том, что при применении метода Лапласа необходимо вычислять гауссов интеграл по направлениям, URI[[http://libmeta.ru/fme/relation/1022_15_INSTANTO]]/URI к URI[[http://libmeta.ru/fme/relation/1022_14_INSTANTO]]/URI И. Это сводится к вычислению детерминанта. Другой детерминант возникает в случае калибровочной теории при применении трюка Фаддеева-Попова. Наконец, если в теории есть URI[[http://libmeta.ru/fme/relation/1022_13_INSTANTO]]/URI, то еще один детерминант возникает при интегрировании по фермионным полям. Задача о вычислении меры на $URI[[http://libmeta.ru/fme/formula/aux/1022_117_INSTANTO]]/URI$ носит название задачи о вычислении квантовых URI[[http://libmeta.ru/fme/relation/1022_12_INSTANTO]]/URI И. Эта задача полностью решена для теории с URI[[http://libmeta.ru/fme/relation/1022_11_INSTANTO]]/URI (6), те же методы позволяют исследовать ее для других двумерных теорий. В 4-мерном случае результаты менее полны; однако случай $URI[[http://libmeta.ru/fme/formula/aux/1022_118_INSTANTO]]/URI$ легко исследуется различными путями (напр., исходя из требования ренорминвариантности). Ответ в наиболее важном случае URI[[http://libmeta.ru/fme/relation/1022_10_INSTANTO]]/URI выглядит следующим образом:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_17_INSTANTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1022_119_INSTANTO]]/URI$ - эффективная константа связи, определяемая формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1022_18_INSTANTO]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1022_120_INSTANTO]]/URI$ - URI[[http://libmeta.ru/fme/relation/1022_9_INSTANTO]]/URI кварка, индекс $URI[[http://libmeta.ru/fme/formula/aux/1022_121_INSTANTO]]/URI$ характеризует URI[[http://libmeta.ru/fme/relation/1022_8_INSTANTO]]/URI кварка, $URI[[http://libmeta.ru/fme/formula/aux/1022_122_INSTANTO]]/URI$ число ароматов. Если массы кварков предполагаются равными нулю, то вклад URI[[http://libmeta.ru/fme/relation/1022_7_INSTANTO]]/URI полей в статистич. сумму обращается в нуль, однако их вклад в фермионные функции Грина может быть ненулевым (в частности, в шеститочечную функцию Грина вносят вклад И. с $URI[[http://libmeta.ru/fme/formula/aux/1022_123_INSTANTO]]/URI$ ). Учет инстантонного вклада при нулевых массах кварков приводит к нарушению киральной $URI[[http://libmeta.ru/fme/formula/aux/1022_124_INSTANTO]]/URI$-симметрии $URI[[http://libmeta.ru/fme/formula/aux/1022_125_INSTANTO]]/URI$ и решению так наз. $URI[[http://libmeta.ru/fme/formula/aux/1022_126_INSTANTO]]/URI$-проблемы (проблемы отсутствия голдстоуновского бозона, отвечающего киральной $URI[[http://libmeta.ru/fme/formula/aux/1022_127_INSTANTO]]/URI$-симметрии). Инстантонные вычисления приводят также к предсказанию URI[[http://libmeta.ru/fme/relation/1022_6_INSTANTO]]/URI. Одним из способов вычисления меры на $URI[[http://libmeta.ru/fme/formula/aux/1022_128_INSTANTO]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1022_129_INSTANTO]]/URI$ является использование диктуемого конформной аномалией закона изменения меры при URI[[http://libmeta.ru/fme/relation/1022_5_INSTANTO]]/URI. Этот же способ позволяет почти полностью вычислить меру на $URI[[http://libmeta.ru/fme/formula/aux/1022_130_INSTANTO]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1022_131_INSTANTO]]/URI$ (он дает зависимость от 12 из 13 инстантонных URI[[http://libmeta.ru/fme/relation/1022_4_INSTANTO]]/URI). При больших $URI[[http://libmeta.ru/fme/formula/aux/1022_132_INSTANTO]]/URI$ приходится прибегать к более сложным методам и ответы становятся менее явными. Для той же части URI[[http://libmeta.ru/fme/relation/1022_3_INSTANTO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1022_133_INSTANTO]]/URI$, к-рая отвечает $URI[[http://libmeta.ru/fme/formula/aux/1022_134_INSTANTO]]/URI$ далеким друг от друга одноинстантонным решениям, можно записать меру на $URI[[http://libmeta.ru/fme/formula/aux/1022_135_INSTANTO]]/URI$ как произведение мер на $URI[[http://libmeta.ru/fme/formula/aux/1022_136_INSTANTO]]/URI$; предпринимались также попытки ограничиться в инстантонных вычислениях только этой URI[[http://libmeta.ru/fme/relation/1022_2_INSTANTO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1022_137_INSTANTO]]/URI$ приближенно разреженного инстантонного газа; однако это приближение во многих вопросах оказывается некорректным.
+
+См. также URI[[http://libmeta.ru/fme/relation/1022_1_INSTANTO]]/URI.</text>
+  <text_orig>эКстремаль евклидова действия (см. ниже). Точнее говоря, обычно этот термин относят к топологически нетривиальным экстремалям (поле называется т о пол о г и ески нет р и в и а льны м, если его нельзя соединить с классич. вакуумом непрерывным семейством полей, каждое из которых имеет конечное евклидово действие).
+
+Топологически нетривиальная экстремаль евклидова действия описывает туннельный переход между двумя классич. вакуумами. Напр., в задаче о квантовом движении одномерной частицы в поле
+
+\[
+U(q)=\lambda\left(q^{2}-a^{2}\right)^{2}
+\]
+
+топологически нетривиальными экстремалями е в кл и д о в а де й с т в и я:
+
+\[
+S=\int\left(\frac{1}{2} \dot{q}^{2}+\lambda\left(q^{2}-a^{2}\right)^{2}\right) d t
+\]
+
+являются поля
+
+\[
+q(t)= \pm \operatorname{arth}(a \sqrt{2 \lambda}(t-c)),
+\]
+
+описывающие туннельный переход между классич. вакуумами $q= \pm a$.
+
+Наиболее важный пример - И. в калибровочных теориях (кали бровочные инстантоны). Если $A_{\mu}(x)-$ калибровочное поле, определенное на пространстве Минковского и принимающее значения в алгебре Ли \&amp; компактной группы Ли $G$, то функционал действия $S(A)$ записывается в виде
+
+\[
+S(A)=\frac{1}{4 e^{2}} \int \sqrt{g}\left\langle F_{\mu v}, F^{\mu v}\right\rangle d^{4} x,
+\]
+
+где $F_{\mu \nu}=\partial_{\mu} A_{v}-\partial_{v} A_{\mu}+\left[A_{\mu}, A_{v}\right]-$ тензор напряженности поля $A_{\mu}, F_{\alpha \beta}=g_{\alpha \mu} g_{\beta v} F^{\mu v}, g_{\alpha \beta}-$ метрич. тензор, $g=\operatorname{det} g_{\alpha \beta}$, символ $\langle\cdot, \cdot\rangle$ означает инвариантное скалярное произведение в алгебре Ли \&amp;. Евклидово действие задается той же формулой, в к-рой метрич. тензор пространства Минковского $g_{\alpha \beta}$ заменен на метрич. тензор евклидова пространства $\delta_{\alpha \beta}$. Для того чтобы евклидово действие было конечно, нужно, чтобы поле $F_{\mu \nu}$ убывало на бесконечности. Накладывая естественные условия на скорость его убывания, можно доказать, что $A_{\mu}(x)$ на бесконечности близко чисто калибровочному полю $g^{-1}(x) \partial_{\mu} g(x)$, где $\mathrm{g}(x)$ - функция, принимающая значения в группе и определенная вне нек-рого шара. Это позволяет сопоставить полю $A_{\mu}$ элемент $q(A)$ гомотопич. группы $\pi_{3}(G)$, определяемый функцией $g(x)$, рассматриваемой как отображение сферы большого радиуса $S^{3}$ в $G$ (точнее, следует потребовать, чтобы сфера $S^{3}$ содержала внутри себя шар, вне к-рого определена функция $g(x)$ ). Элемент $q(A)$ определяет топологич. тип поля $A_{\mu}$; поле $A_{\mu}$ топологически нетривиально, если $q(A) \neq 0$. Пусть для определенности $G-$ простая компактная некоммутативная группа Ли; тогда $\pi_{3}(G)=\mathbb{Z}$ и $q(A)$ можно рассматривать как целое число. Его можно аналитически выразить в виде:
+
+\[
+q(A)=\frac{1}{64 \pi^{2}} \int d^{4} x \varepsilon^{\mu v \rho \sigma}\left\langle F_{\mu \nu}, F_{\rho \sigma}\right\rangle
+\]
+
+при соответствующей нормировке скалярного произведения в \&amp;s (в случае $G=S U(n)$, (S)=su(n) нормированное нужным образом скалярное произведение дается формулой $\langle a, b\rangle=-\mathrm{Sp} a b$; в общем случае следует наложить условие: наибольшая длина простого корня равна двум). Доказывается, что евклидово действие $S(A)$ оценивается снизу числом
+
+и что равенство
+
+\[
+\begin{gathered}
+8 \pi^{2} e^{-2}|q(A)| \\
+S(A)=8 \pi^{2} e^{-2}|q(A)|
+\end{gathered}
+\]
+
+достигается при условии
+
+\[
+F_{\alpha \beta}= \pm \tilde{F}_{\alpha \beta}
+\]
+
+где $\tilde{F}_{\alpha \beta}$ - тензор, двойственный к $F_{\alpha \beta}$, знак определяется знаком числа $q(A)$. Уравнение (3) носит название у ра в нения самодуальности (автодуальности) или антисамодуальности (антиавтодуальности) (в зависимости от знака); его решения являются экстремалями евклидова действия. При $q&gt;0$ эти решения называются инст антонами, а при $q&lt;0-$ антиинстантонам и с топологич. числом $q$ (конечно, все они являются И. в смысле данного выше общего определения). Если калибровочное поле $A$ определено на четырехмерном ориентированном римановом многообразии, то (1) можно по-прежнему рассматривать как определение евклидова действия, а (2) - как определение топологич. числа поля $A$. Сформулированные выше результаты остаются справедливыми; калибровочное поле на многообразии можно интерпретировать как связность на главном расслоении над этим многообразием. Если многообразие замкнуто, то $q(A)$ отождествляется с характеристич. числом расслоения. Напряженность поля удобно рассматривать как 2-форму
+
+\[
+F=\frac{1}{2} F_{\alpha \beta} d x^{\alpha} \wedge d x^{\beta},
+\]
+
+принимаюшую значения в слоях ассоциированного расслоения со слоем (S; она отождествляется с кривизной связности. Уравнение (3) приобретает вид $F= \pm * F$, где * означает переход к двойственной форме. Евклидово действие $S(A)$ с точностью до множителя записывается как скалярный квадрат $(F, F)$ формы $F$. Исследование минимума $S(A)$ при фиксированном топологич. числе $q(A)=\left(32 \pi^{2}\right)^{-1}(F, * F)$ проводится с помощью тождества
+
+\[
+(F \pm * F, F \pm * F)=2(F, F) \pm 2(F, * F) \geqslant 0 .
+\]
+
+Уравнение (3) конформно инвариантно. Это позволяет свести изучение И. в $\mathbb{R}^{4}$ к изучению И. на сфере $S^{4}$. Переход
+
+216 ИHCTAHTOH к изучению И. на компактном многообразии можно рассматривать также как пространственное обрезание. Изучение числа решений уравнения (3) на сфере $S^{4}$ (и, следовательно, в $\mathbb{R}^{4}$ ) проводится с помощью теории индекса эллиптич. операторов (см. [3]-[5]). В частности, для группы $S U(N), N \geqslant 2$, решения с топологич. числом $q$ образуют семейство, зависящее от $4 N|q|-\left(N^{2}-1\right)$ параметров при $|q| \geqslant \frac{N}{2}$ и от $4 q^{2}+1$ параметров при $1 \leqslant|q| \leqslant \frac{N}{2}$. Калибровочно эквивалентные решения при этом отождествляются. Решения уравнения самодуальности для случая $G=S U(2)$, $q=1$ получены в виде:
+
+\[
+A_{\mu}(x)=\frac{\lambda^{2}}{(x-a)^{2}+\lambda^{2}} u^{-1}\left(\frac{x-a}{|x-a|}\right) d_{\mu} u\left(\frac{x-a}{|x-a|}\right),
+\]
+
+где $u(n)=n^{0}+i \sigma \boldsymbol{n}$ осуществляет топологич. эквивалентность $S^{3}$ и $S U(2)$; здесь $n^{0^{2}}=n^{2}=1, \sigma-$ матрицы Паули. Параметр $\lambda$ в (4) характеризует размер И., $a$ - его положение. Считая, что группа $S U(2)$ стандартным способом вложена в $S U(N)$, можно рассматривать (4) как одноинстантонное решение для группы $S U(N)$; одноинстантонные решения для произвольной группы $G$ также могут быть получены с помощью вложения группы $S U(2)$ в $G$. Приближенное решение уравнения самодуальности с топологич. числом $q$ можно получить, склеивая $q$ далеких друг от друга одноинстантонных решений. Напр., для $G=S U(N)$ следует рассмотреть поле, к-рое вдали от точек $a_{1}, \ldots, a_{q}$ является чисто калибровочным, а в случае, если точка близка к $a_{i}$, имеет вид:
+
+\[
+A_{\mu}(x)=V_{i} \lambda_{i}^{2}\left(\left(x-a_{i}\right)^{2}+\lambda_{i}^{2}\right)^{-1} u^{-1}\left(\frac{x-a_{i}}{\left|x-a_{i}\right|}\right) d_{\mu} u\left(\frac{x-a_{i}}{\left|x-a_{i}\right|}\right),
+\]
+
+где $V_{i} \in S U(N),\left|x-a_{i}\right| \ll\left|a_{i}-a_{j}\right|, \lambda_{i} \ll\left|a_{i}-a_{j}\right|, i \neq j$. Можно доказать, что вблизи от построенных только что приближенных решений уравнения самодуальности лежат точные $q$-инстантонные решения; это позволяет придать наглядный смысл параметрам И. Семейство точных $q$-инстантонных решений для группы $S U(2)$, зависящее от $5 q+4$ параметров при $q \geqslant 3$ и от 13 параметров при $q=2$, можно получить с помощью подстановки:
+
+\[
+A_{\mu}=\bar{\sigma}_{\mu \nu} \partial_{v} \rho
+\]
+
+где
+
+\[
+\rho=\sum_{i=1}^{q+1} \lambda_{i}^{2}\left|x-a_{i}\right|^{-2}, \quad \bar{\sigma}_{\mu \nu}=\sigma^{a}\left(\varepsilon_{0 \alpha \mu \nu}-\delta_{a \mu} \delta_{0 v}+\delta_{a v} \delta_{0 \mu}\right)
+\]
+
+- матрица, определяющая гомоморфизм алгебры Ли группы $S O(4)$ в алгебру Ли группы $S U(2)$. Было получено полное (но не очень явное) семейство $q$-инстантонных решений. Для группы $G=S U(2)=S p(1)$ их конструкция имеет следующий вид. Пусть $M(x)=a+b \hat{x}-$ матричная функция, где $a$ и $b-$ постоянные $((1+q) \times q)$-мерные кватернионные матрицы, $\hat{x}-$ кватернион, отвечающий вектору $x$. Если матрица $R(x)=M^{+}(x) M(x)$ действительна и обратима для каждой точки $x$, то можно построить $q$-инстантонное поле по формуле
+
+\[
+A_{\mu}(x)=N^{+}(x) \partial_{\mu} N(x),
+\]
+
+где $N(x)-(q+1)$-мерный кватернионный вектор-столбец, удовлетворяющий уравнениям
+
+\[
+N^{+}(x) M(x)=0, N^{+}(x) N(x)=1 .
+\]
+
+Следует отметить, что изучение экстремалей функционала евклидова действия $(2+1)$-мерной теории сводится к изучению экстремалей функционала энергии $(3+1)$-мерной теории. Это позволяет отождествить И. $(2+1)$-мерной калибровочной теории с магнитными монополями ее $(3+2)$-мерного аналога. И. (1+1)-мерной модели с евклидовым действием
+
+\[
+S(\boldsymbol{n})=\int \partial_{\mu} n^{a} \partial_{\mu} n^{a} d^{2} x
+\]
+
+где $n=\left(n^{1}, n^{2}, n^{3}\right), n^{2}=1$, можно отождествить с рациональными функщиями комплексного переменного $z=x^{0}+i x^{1}$ или комплексного переменного $\bar{z}=x^{0}-i x^{1}$. Всякая такая функция может рассматриваться как отображение в расширенную комплексную плоскость - сферу Римана $S^{2}$, к-рая с помошью стереографич. проекции отождествляется со сферой $|\boldsymbol{n}|=1$. Аналогично, И. более общей $(1+1)$-мерной $\sigma$-модели, описывающей поля, принимающие значения в кэлеровом многообразии $M$, даются голоморфными и антиголоморфными отображениями сферы $S^{2}$ в $M$.
+
+И. естественно возникают при попытке вычислить методом Лапласа функциональные интегралы, возникаюшие в евклидовом подходе к квантовой теории поля. При вычислении этим методом вклада в статистич. сумму или в функцию Грина от множества полей с данным топологич. числом $q$ мы получаем (в первом приближении) интеграл по множеству $N_{q}$ И. с топологич. числом $q$. Если мы имеем дело с калибровочной теорией, то при определении $N_{q}$ калибровочно эквивалентные И. следует считать тождественными. На $N_{q}$ возникает мера, выраженная через бесконечномерные детерминанты. Дело в том, что при применении метода Лапласа необходимо вычислять гауссов интеграл по направлениям, ортогональным к многообразию И. Это сводится к вычислению детерминанта. Другой детерминант возникает в случае калибровочной теории при применении трюка Фаддеева-Попова. Наконец, если в теории есть фермионы, то еще один детерминант возникает при интегрировании по фермионным полям. Задача о вычислении меры на $N_{q}$ носит название задачи о вычислении квантовых флуктуаций И. Эта задача полностью решена для теории с евклидовым действием (6), те же методы позволяют исследовать ее для других двумерных теорий. В 4-мерном случае результаты менее полны; однако случай $q=1$ легко исследуется различными путями (напр., исходя из требования ренорминвариантности). Ответ в наиболее важном случае квантовой хромодинамики выглядит следующим образом:
+
+\[
+d \mu=\prod_{f} m_{f}^{3} \exp \left(-\frac{8 \pi^{2}}{e^{2}(\lambda)}\right) \frac{d \lambda d^{4} a}{\lambda^{5}},
+\]
+
+где $e(\lambda)$ - эффективная константа связи, определяемая формулой
+
+\[
+e^{-2}(\lambda)=e_{0}^{-2}-\left(8 \pi^{2}\right)^{-1}\left(11-\frac{2}{3} n_{f}\right) \ln \frac{\lambda}{\lambda_{0}}
+\]
+
+$m_{f}$ - масса кварка, индекс $f$ характеризует аромат кварка, $n_{f}-$ число ароматов. Если массы кварков предполагаются равными нулю, то вклад топологически нетривиальных полей в статистич. сумму обрашается в нуль, однако их вклад в фермионные функции Грина может быть ненулевым (в частности, в шеститочечную функцию Грина вносят вклад И. с $q= \pm 1$ ). Учет инстантонного вклада при нулевых массах кварков приводит к нарушению киральной $U(1)$-симметрии $\psi \rightarrow \exp \left(\alpha \gamma^{5}\right) \psi$ и решению так наз. $U(1)$-проблемы (проблемы отсутствия голдстоуновского бозона, отвечающего киральной $U(1)$-симметрии). Инстантонные вычисления приводят также к предсказанию распада протона. Одним из способов вычисления меры на $N_{q}$ при $q=1$ является использование диктуемого конформной аномалией закона изменения меры при конформных преобразованиях. Этот же способ позволяет почти полностью вычислить меру на $M_{q}$ при $G=S U(2)$ (он дает зависимость от 12 из 13 инстантонных параметров). При больших $q$ приходится прибегать к более сложным методам и ответы становятся менее явными. Для той же части многообразия $N_{q}$, к-рая отвечает $q$ далеким друг от друга одноинстантонным решениям, можно записать меру на $N_{q}$ как произведение мер на $N_{1}$; предпринимались также попытки ограничиться в инстантонных вычислениях только этой частью $N_{q}$ приближенно разреженного инстантонного газа; однако это приближение во многих вопросах оказывается некорректным.
+
+См. также Алгебро-геометрические методы в теории поля.
+
+Лит.: [1] Раджа раман Р., Солитоны и инстантоны в квантовой теории поля, пер. с англ., М., 1985; [2] Х у а нг К., Кварки, лептоны и калибровочные поля, пер. с англ., М., 1985; [3] Ра йде р Л., Квантовая теория поля, пер. с англ., М., 1987; [4] Геометрические идеи в физике, пер. с англ., М., 1983; [5] Ф р и д Д., Ул е н 6 е к К., Инстантоны и четырехмерные многообразия, пер. с англ., М., 1988; [6] Ш в а рц А. С., Квантовая теория поля и топология, М., 1989; [7] Соколо в А.А. и др., Калибровочные поля, М., 1986. А. С. Швари.</text_orig>
+</article>

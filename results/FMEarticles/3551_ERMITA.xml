@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3551_ERMITA" alphabetic_pos="3553">
+  <title>ЭРМИТА МНОГОЧЛЕНЫ, МНОГОЧЛЕНЫ ЧЕБЫШЕВА-ЭРМИТА</title>
+  <authors>
+    <author>П. К. Суетин</author>
+  </authors>
+  <pages>
+    <start>685</start>
+    <end>685</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Суетин П.К., Классические ортогональные многочлены, 2 изд., М., $1979 . \quad$</literature_orig>
+    <unit>
+      <author>Суетин П. К.</author>
+      <title>Классические ортогональные многочлены</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3551_1_ERMITA">H_{n}(x)=(-1)^{n} e^{x^{2}}\left(e^{-x^{2}}\right)^{(n)} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3551_2_ERMITA">\begin{gathered}H_{n+1}(x)=2 x H_{n}(x)-2 n H_{n-1}(x), \\H_{n}^{\prime}(x)=2 n H_{n-1}(x), \\H_{n}(x)=\sum_{k=0}^{\left[\frac{n}{2}\right]} \frac{(-1)^{k} n !}{k !(n-2 k) !}(2 x)^{n-2 k}, \\\exp \left(2 x w-w^{2}\right)=\sum_{n=0}^{\infty} \frac{H_{n}(x)}{n !} w^{n}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3551_3_ERMITA">\begin{gathered}H_{0}(x)=1, H_{1}(x)=2 x, H_{2}(x)=4 x^{2}-2, \\H_{3}(x)=8 x^{3}-12 x, \\H_{4}(x)=16 x^{4}-48 x^{2}+12, H_{5}(x)=32 x^{5}-160 x^{3}+120 x, \ldots\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3551_4_ERMITA">y^{\prime \prime}-2 x y^{\prime}+2 n y=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3551_5_ERMITA">\hat{H}_{n}(x)=\frac{H_{n}(x)}{\sqrt{n ! 2^{n} \sqrt{\pi}}} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3551_6_ERMITA">\tilde{H}_{n}(x)=\frac{1}{2^{n}} H_{n}(x)=\frac{(-1)^{n}}{2^{n}} e^{x^{2}}\left(e^{-x^{2}}\right)^{(n)} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3551_7_ERMITA">h(x)=\exp \left(-x^{2} / 2\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3551_1_ERMITA">(-\infty, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3551_2_ERMITA">h(x)=\exp \left(-x^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3551_3_ERMITA">h_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3551_4_ERMITA">(-\infty, \infty)</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/3551_1_ERMITA">
+      <rel_text>многочленов</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>многочлены, ортогональные на интервале $URI[[http://libmeta.ru/fme/formula/aux/3551_1_ERMITA]]/URI$ с весовой функцией $URI[[http://libmeta.ru/fme/formula/aux/3551_2_ERMITA]]/URI$. Стандартизованные Э. м. определяются формулой Родрига:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3551_1_ERMITA]]/URI
+\]
+
+Наиболее употребительны формулы:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3551_2_ERMITA]]/URI
+\]
+
+Первые Э. м. имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3551_3_ERMITA]]/URI
+\]
+
+Многочлен $URI[[http://libmeta.ru/fme/formula/aux/3551_3_ERMITA]]/URI$ удовлетворяет дифференциальному уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3551_4_ERMITA]]/URI
+\]
+
+Ортонормированные Э. м. определяются равенством
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3551_5_ERMITA]]/URI
+\]
+
+Э. м. с единичным старшим коэффициентом имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3551_6_ERMITA]]/URI
+\]
+
+Ряды Фурье по Э. м. внутри интервала $URI[[http://libmeta.ru/fme/formula/aux/3551_4_ERMITA]]/URI$ аналогичны тригонометрич. рядам Фурье.
+
+В математич. статистике и теории вероятностей применяются Э. м., соответствующие весовой функции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3551_7_ERMITA]]/URI
+\]
+
+Определение Э. м. встречается у П. Лапласа (p. Laplace, 1810). Подробное исследование этих URI[[http://libmeta.ru/fme/relation/3551_1_ERMITA]]/URI опубликовал П. Л. Чебышев в 1859 (см. [2]). Затем эти многочлены изучал Ш. Эрмит (ch. Hermite, 1864).</text>
+  <text_orig>многочлены, ортогональные на интервале $(-\infty, \infty)$ с весовой функшией $h(x)=\exp \left(-x^{2}\right)$. Стандартизованные Э. м. определяются формулой Родрига:
+
+\[
+H_{n}(x)=(-1)^{n} e^{x^{2}}\left(e^{-x^{2}}\right)^{(n)} .
+\]
+
+Наиболее употребительны формулы:
+
+\[
+\begin{gathered}
+H_{n+1}(x)=2 x H_{n}(x)-2 n H_{n-1}(x), \\
+H_{n}^{\prime}(x)=2 n H_{n-1}(x), \\
+H_{n}(x)=\sum_{k=0}^{\left[\frac{n}{2}\right]} \frac{(-1)^{k} n !}{k !(n-2 k) !}(2 x)^{n-2 k}, \\
+\exp \left(2 x w-w^{2}\right)=\sum_{n=0}^{\infty} \frac{H_{n}(x)}{n !} w^{n}
+\end{gathered}
+\]
+
+Первые Э. м. имеют вид:
+
+\[
+\begin{gathered}
+H_{0}(x)=1, H_{1}(x)=2 x, H_{2}(x)=4 x^{2}-2, \\
+H_{3}(x)=8 x^{3}-12 x, \\
+H_{4}(x)=16 x^{4}-48 x^{2}+12, H_{5}(x)=32 x^{5}-160 x^{3}+120 x, \ldots
+\end{gathered}
+\]
+
+Многочлен $H_{n}(x)$ удовлетворяет дифференциальному уравнению
+
+\[
+y^{\prime \prime}-2 x y^{\prime}+2 n y=0
+\]
+
+Ортонормированные Э. м. определяются равенством
+
+\[
+\hat{H}_{n}(x)=\frac{H_{n}(x)}{\sqrt{n ! 2^{n} \sqrt{\pi}}} .
+\]
+
+Э. м. с единичным старшим коэффициентом имеют вид:
+
+\[
+\tilde{H}_{n}(x)=\frac{1}{2^{n}} H_{n}(x)=\frac{(-1)^{n}}{2^{n}} e^{x^{2}}\left(e^{-x^{2}}\right)^{(n)} .
+\]
+
+Ряды Фурье по Э. м. внутри интервала $(-\infty, \infty)$ аналогичны тригонометрич. рядам Фурье.
+
+В математич. статистике и теории вероятностей применяются Э. м., соответствующие весовой функции
+
+\[
+h(x)=\exp \left(-x^{2} / 2\right)
+\]
+
+Определение Э. м. встречается у П. Лапласа (P. Laplace, 1810). Подробное исследование этих многочленов опубликовал П. Л. Чебышев в 1859 (см. [2]). Затем эти многочлены изучал Ш. Эрмит (Ch. Hermite, 1864).
+
+Лит.: [1] Суетин П.К., Классические ортогональные многочлены, 2 изд., М., $1979 . \quad$ П. К. Суетин.</text_orig>
+</article>

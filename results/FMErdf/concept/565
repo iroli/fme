@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1509_LAGRANZhEV">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1509_LAGRANZhEV</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/565</core:url>
+    <lbm:descriptor><![CDATA[ЛАГРАНЖЕВ АНАЛИЗ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4909"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4910"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_78"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1009"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4911"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>теория, интерпретирующая конструкции <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1099_KANONIChESKIJ">Маслова канонического оператора</a> вне связи с асимптотиками. Основное понятие Л. а.- лагранжева <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1505_LAGRANZhA">функция на лагранжевом многообразии</a> $URI[[http://libmeta.ru/fme/formula/aux/1509_1_LAGRANZhEV]]/URI$, локально задаваемая выражением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4910">$$\sum_{j=0}^{\infty} h^{j} a_{j} \exp (i \varphi / h)$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1509_2_LAGRANZhEV]]/URI$ - лагранжева <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3230_FAZ">фаза</a> на <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4911">$$\lambda, h>0$$</a> - фиксированное число, преобразующимся аналогично <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_444_VOLNOVAJa">волновой функции в</a> Вкб-приближении, поднятой на $URI[[http://libmeta.ru/fme/formula/aux/1509_4_LAGRANZhEV]]/URI$.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4909">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1163">Лере Ж.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4909">Лагранжев анализ и квантовая механика, пер. $\begin{array}{ll}\text { с франц., М., 1981</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[теория, интерпретирующая конструкции Маслова канонического оператора вне связи с асимптотиками. Основное понятие Л. а.- лагранжева функция на лагранжевом многообразии $\Lambda$, локально задаваемая выражением
+
+\[
+\sum_{j=0}^{\infty} h^{j} a_{j} \exp (i \varphi / h)
+\]
+
+где $\varphi$ - лагранжева фаза на $\Lambda, h>0$ - фиксированное число, преобразующимся аналогично волновой функции в ВКБ-приближении, поднятой на $\Lambda$.
+
+Лит.: [1] Л е р е Ж., Лагранжев анализ и квантовая механика, пер. $\begin{array}{ll}\text { с франц., М., } 1981 . & \text { В. Л. Дубнов. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_444_VOLNOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3230_FAZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1505_LAGRANZhA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1099_KANONIChESKIJ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_18387">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mo>&#x02212;</mo><mi>&#x003B2;</mi><mi>U</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>X</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>k</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></msubsup><msub><mo>&#x02211;</mo><mrow><msubsup><mo>&#x022C3;</mo><mrow><mn>1</mn></mrow><mrow><mi>k</mi></mrow></msubsup><msub><mi>X</mi><mrow><mi>j</mi></mrow></msub><mo>&#x0003D;</mo><msub><mi>X</mi><mrow><mi>n</mi></mrow></msub></mrow></msub><msubsup><mo>&#x0220F;</mo><mrow><mi>j</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>k</mi></mrow></msubsup><mi>&#x003C6;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>X</mi><mrow><mi>j</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\exp \left\{-\beta U\left(X_{n}\right)\right\}=\sum_{k=1}^{n} \sum_{\bigcup_{1}^{k} X_{j}=X_{n}} \prod_{j=1}^{k} \varphi\left(X_{j}\right),$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

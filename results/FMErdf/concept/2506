@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3256_FEJGENBAUMA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3256_FEJGENBAUMA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2506</core:url>
+    <lbm:descriptor><![CDATA[ФЕЙГЕНБАУМА СЦЕНАРИЙ СТОХАСТИЗАЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1353"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Появление <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2973_STRANNYJ">странного аттрактора</a> в результате бесконечной последовательности <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI">бифуркаций</a> удвоения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">периода</a>. M. Фейгенбаумом (m. Feigenbaum, 1978) доказано, что последовательности <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI">бифуркаций</a> удвоения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">периода</a> у конечномерных диссипативных фазовых потоков удовлетворяют нек-рым универсальным законам <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2277_PODOBI">подобия</a>, связывающим последовательные бифуркационные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2491_RAVNOVESNYE">значения параметра</a> неравновесности, а также конфигурации соответствующих периодич. точек в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазовом пространстве</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамич</a>. системы.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1353">А. С. Монин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[Появление странного аттрактора в результате бесконечной последовательности бифуркаций удвоения периода. M. Фейгенбаумом (M. Feigenbaum, 1978) доказано, что последовательности бифуркаций удвоения периода у конечномерных диссипативных фазовых потоков удовлетворяют нек-рым универсальным законам подобия, связывающим последовательные бифуркационные значения параметра неравновесности, а также конфигурации соответствующих периодич. точек в фазовом пространстве динамич. системы. А. С. Монин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2491_RAVNOVESNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2277_PODOBI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2973_STRANNYJ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

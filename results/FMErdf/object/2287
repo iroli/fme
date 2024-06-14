@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_2287">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003BC;</mi><mo stretchy="false">&#x00028;</mo><mi>B</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><mi>m</mi></mrow><mrow><mn>2</mn><mi>&#x003C0;</mi><mi>&#x0210F;</mi></mrow></mfrac><msub><mo>&#x0222C;</mo><mrow><mi>B</mi></mrow></msub><msub><mi>V</mi><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>v</mi></mrow></msub><msub><mi>M</mi><mrow><mn>0</mn></mrow></msub><msubsup><mi>V</mi><mrow><mi>x</mi><mo>&#x0002C;</mo><mi>v</mi></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><mi>d</mi><mi>x</mi><mi>d</mi><mi>v</mi><mi>;</mi><mspace width="1em" /><mi>B</mi><mo>&#x02208;</mo><mrow><mi mathvariant="script">B</mi></mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>&#x0211D;</mi><mrow><mn>2</mn></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\mu(B)=\frac{m}{2 \pi \hbar} \iint_{B} V_{x, v} M_{0} V_{x, v}^{*} d x d v ; \quad B \in \mathscr{B}\left(\mathbb{R}^{2}\right),$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,316 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/248_BOL'TsMANA" alphabetic_pos="248">
+  <title>БОЛЬЦМАНА КИНЕТИЧЕСКОЕ УРАВНЕНИЕ</title>
+  <authors>
+    <author>Д. Н. Зубарев</author>
+  </authors>
+  <pages>
+    <start>55</start>
+    <end>56</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Больцм ан Л., Лекции по теории газов, пер. с нем., М., 1953; [2] Б о го лю бо в Н. Н., Проблемы динамической теории в статистической физике, М.- Л., 1946; [3] З у б ар е в Д. Н., Неравновесная статистическая термодинамика, М., 1971.</literature_orig>
+    <unit>
+      <author>Больцман Л.</author>
+      <title>Лекции по теории газов</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1953</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <title>Проблемы динамической теории в статистической физике, М.- Л.</title>
+      <publication/>
+      <year>1946</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Зубарев Д. Н.</author>
+      <title>Неравновесная статистическая термодинамика</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_1_BOL'TsMANA">\frac{\partial f}{\partial t}+\left(v \frac{\partial f}{\partial \boldsymbol{r}}\right)+\frac{1}{m}\left(\boldsymbol{F} \frac{\partial f}{\partial \boldsymbol{v}}\right)=\left(\frac{\partial f}{\partial t}\right)_{\mathrm{cT}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_2_BOL'TsMANA">\left(\frac{\partial f}{\partial t}\right)_{\mathrm{cT}}=\int\left(f^{\prime} f_{1}^{\prime}-f f_{1}\right) u \sigma(u, \vartheta) d \Omega d v_{1} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_3_BOL'TsMANA">\begin{aligned}f &amp; =f(\boldsymbol{v}, \boldsymbol{r}, t), &amp; f_{1}=f\left(\boldsymbol{v}_{1}, \boldsymbol{r}, t\right), \\f^{\prime} &amp; =f\left(\boldsymbol{v}^{\prime}, \boldsymbol{r}, t\right), &amp; f_{1}^{\prime}=f\left(\boldsymbol{v}_{1}^{\prime}, \boldsymbol{r}, t\right) ;\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_4_BOL'TsMANA">\sigma=4 \pi R^{2} \cos \vartheta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_5_BOL'TsMANA">\sigma d \Omega=b d b d \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_6_BOL'TsMANA">\begin{aligned}&amp; \left(\frac{\partial f}{\partial t}\right)_{\mathrm{cT}}=\frac{g}{h^{2}} \int\left\{f^{\prime} f_{1}^{\prime}(1 \mp f)\left(1 \mp f_{1}\right)-\right. \\&amp; \left.-f f_{1}\left(1 \mp f^{\prime}\right)\left(1 \mp f_{1}^{\prime}\right)\right\} u \sigma(u, \vartheta) d \Omega d p_{1},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_7_BOL'TsMANA">\boldsymbol{F}=e\left\{\boldsymbol{E}+c^{-1}[\boldsymbol{v}, \boldsymbol{H}]\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_8_BOL'TsMANA">\begin{aligned}\left(\frac{\partial n}{\partial t}\right)_{\mathrm{cT}} &amp; =\sum_{\boldsymbol{k}^{\prime}, l^{\prime}, s}\left|\left(\boldsymbol{k}^{\prime} l^{\prime}|A| \boldsymbol{k} l, s\right)\right|^{2} \delta\left(\mathscr{E}^{\prime}-\mathscr{E}-\hbar \omega\right) \times \\\times &amp; \left\{(N+1) n^{\prime}(1-n)-N n\left(1-n^{\prime}\right)\right\},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_9_BOL'TsMANA">\begin{gathered}\frac{\partial N}{\partial t}+\left(\frac{\partial \omega}{\partial f} \frac{\partial N}{\partial r}\right)=\left(\frac{\partial N}{\partial t}\right)_{\mathrm{cr}}, \\\left(\frac{\partial N}{\partial t}\right)_{\mathrm{cT}}=\frac{\hbar}{32 \pi^{2} \rho} \int d f\left\{\sum_{s^{\prime}, s^{\prime \prime}}\left|b\left(f s ; f^{\prime} s^{\prime} ; s^{\prime \prime}\right)\right|^{2} \omega \omega^{\prime} \omega^{\prime \prime} \times\right. \\\times \delta\left(\omega+\omega^{\prime}-\omega^{\prime \prime}\right)\left[(N+1)\left(N^{\prime}+1\right) N^{\prime \prime}-N N^{\prime}\left(N^{\prime \prime}+1\right)\right]+ \\+\sum_{s^{\prime}, s^{\prime \prime}} \frac{1}{2}\left|b\left(f s ; f^{\prime} s^{\prime} ; s^{\prime \prime}\right)\right|^{2} \omega \omega^{\prime} \omega^{\prime \prime} \delta\left(\omega-\omega^{\prime}-\omega^{\prime \prime}\right) \times \\\left.\times\left[(N+1) N^{\prime} N^{\prime \prime}-N\left(N^{\prime}+1\right)\left(N^{\prime \prime}+1\right)\right]\right\},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/248_10_BOL'TsMANA">\begin{aligned}N=N(f, s), N^{\prime}= &amp; N\left(f^{\prime}, s^{\prime}\right), N^{\prime \prime}=N\left(f^{\prime \prime}, s^{\prime \prime}\right), \\&amp; \omega=\omega(f, s), \\\omega^{\prime}=\omega\left(f^{\prime}, s^{\prime}\right), \omega^{\prime \prime} &amp; =\omega\left(f^{\prime \prime}, s^{\prime \prime}\right), b\left(f s ; f^{\prime} s^{\prime} ; s^{\prime \prime}\right)\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_1_BOL'TsMANA">f(\boldsymbol{v}, \boldsymbol{r}, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_2_BOL'TsMANA">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_3_BOL'TsMANA">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_4_BOL'TsMANA">d \boldsymbol{v} d \boldsymbol{r}\left(\boldsymbol{v}=d v_{x} d v_{y} d v_{z} ; d \boldsymbol{r}=d x d y d z\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_5_BOL'TsMANA">f(\boldsymbol{v}, \boldsymbol{r}, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_6_BOL'TsMANA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_7_BOL'TsMANA">\partial f / \partial t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_8_BOL'TsMANA">d v d r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_9_BOL'TsMANA">\boldsymbol{f}=\boldsymbol{f}(\boldsymbol{r}, t)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_10_BOL'TsMANA">(\partial f / \partial t)_{\text {ст }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_11_BOL'TsMANA">v, v_{1}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_12_BOL'TsMANA">\boldsymbol{v}^{\prime}, \boldsymbol{v}_{1}^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_13_BOL'TsMANA">u=\left|\boldsymbol{v}-\boldsymbol{v}_{1}\right|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_14_BOL'TsMANA">\sigma(u, \vartheta)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_15_BOL'TsMANA">d \Omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_16_BOL'TsMANA">\vartheta-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_17_BOL'TsMANA">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_18_BOL'TsMANA">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_19_BOL'TsMANA">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_20_BOL'TsMANA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_21_BOL'TsMANA">g=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_22_BOL'TsMANA">g=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_23_BOL'TsMANA">1 / 2), p-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_24_BOL'TsMANA">f(p, r, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_25_BOL'TsMANA">(\boldsymbol{p}, \boldsymbol{r})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_26_BOL'TsMANA">\boldsymbol{f}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_27_BOL'TsMANA">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_28_BOL'TsMANA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_29_BOL'TsMANA">n(k, l, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_30_BOL'TsMANA">\boldsymbol{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_31_BOL'TsMANA">\boldsymbol{h}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_32_BOL'TsMANA">e-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_33_BOL'TsMANA">n=n(\boldsymbol{k}, l), n^{\prime}=n\left(\boldsymbol{k}^{\prime}, l^{\prime}\right) ; \boldsymbol{k}, l, \boldsymbol{k}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_34_BOL'TsMANA">l^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_35_BOL'TsMANA">n=n(f, s)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_36_BOL'TsMANA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_37_BOL'TsMANA">s-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_38_BOL'TsMANA">\mathscr{e}, \mathscr{E}^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_39_BOL'TsMANA">\hbar \omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_40_BOL'TsMANA">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_41_BOL'TsMANA">\left(\boldsymbol{k}^{\prime} l^{\prime}|\boldsymbol{A}| \boldsymbol{k} l, s\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_42_BOL'TsMANA">\boldsymbol{k}, l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_43_BOL'TsMANA">\boldsymbol{k}^{\prime}, l^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_44_BOL'TsMANA">n(f, s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_45_BOL'TsMANA">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/248_46_BOL'TsMANA">\partial \omega / \partial f</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/248_1_BOL'TsMANA">
+      <rel_text>уравнений основана</rel_text>
+      <target>http://libmeta.ru/fme/article/2117_OSNOVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/248_2_BOL'TsMANA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/248_3_BOL'TsMANA">
+      <rel_text>рассеяния</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/248_4_BOL'TsMANA">
+      <rel_text>импульса</rel_text>
+      <target>http://libmeta.ru/fme/article/996_IMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/248_5_BOL'TsMANA">
+      <rel_text>интервале энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/1028_INTEGRAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/248_6_BOL'TsMANA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/248_7_BOL'TsMANA">
+      <rel_text>уравнений баланса</rel_text>
+      <target>http://libmeta.ru/fme/article/133_BALANSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/248_8_BOL'TsMANA">
+      <rel_text>энергий</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/248_9_BOL'TsMANA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/248_10_BOL'TsMANA">
+      <rel_text>частицы</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+  </relations>
+  <text>Интегро-дифференциальное уравнение, которому удовлетворяют неравновесные одночастичные распределения функции системы из большого числа частиц, например функция распределения $URI[[http://libmeta.ru/fme/formula/aux/248_1_BOL'TsMANA]]/URI$ молекул газа по скоростям $URI[[http://libmeta.ru/fme/formula/aux/248_2_BOL'TsMANA]]/URI$ и координатам $URI[[http://libmeta.ru/fme/formula/aux/248_3_BOL'TsMANA]]/URI$, функции распределения электронов в металле, фононов в кристалле. Б. к.у.- основное уравнение микроскопич. теории неравновесных процессов (физич. кинетики), в частности кинетич. теории газов. Б. К. у. в узком смысле называют выведенное Л. Больцманом (l. Boltzmann) кинетич. уравнение для газов малой плотности, молекулы к-рых подчиняются классич. механике. Б.к.у. для квазичастиц в кристаллах, напр. для электронов в металле, называют также кинетическими уравнениями, или уравне ниями переноса.
+
+Б. к. у. представляет собой уравнение баланса числа частиц (точнее, точек, изображающих состояние частиц) в элементе фазового объема $URI[[http://libmeta.ru/fme/formula/aux/248_4_BOL'TsMANA]]/URI$ и выражает тот факт, что изменение функции распределения частиц $URI[[http://libmeta.ru/fme/formula/aux/248_5_BOL'TsMANA]]/URI$ со временем $URI[[http://libmeta.ru/fme/formula/aux/248_6_BOL'TsMANA]]/URI$ происходит вследствие движения частиц под действием внешних сил и столкновений между ними. Для газа, состоящего из частиц одного сорта, Б. к. у. имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_1_BOL'TsMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/248_7_BOL'TsMANA]]/URI$ - изменение плотности числа частиц в элементе фазового объема $URI[[http://libmeta.ru/fme/formula/aux/248_8_BOL'TsMANA]]/URI$ за единицу времени, $URI[[http://libmeta.ru/fme/formula/aux/248_9_BOL'TsMANA]]/URI$ скта, действующая на частицу (может зависеть также и от скорости), $URI[[http://libmeta.ru/fme/formula/aux/248_10_BOL'TsMANA]]/URI$ - изменение функции распределения вследствие столкновений (интеграл столкновений). Второй и третий члены уравнения (1) характеризуют соответствую- щие изменения функции распределения в результате перемещения частиц в пространстве и действия внешних сил. Ее изменение, обусловленное столкновениями частиц, связано с уходом частиц из элемента фазового объема при так наз. прямых столкновениях и пополнением объема частицами, испытавшими «обратные» столкновения. Если рассчитывать столкновения по законам классич. механики и считать, что нет корреляции между динамич. состояниями сталкивающихся молекул, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_2_BOL'TsMANA]]/URI
+\]
+
+Здесь
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_3_BOL'TsMANA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/248_11_BOL'TsMANA]]/URI$ скорости частиц до столкновения, $URI[[http://libmeta.ru/fme/formula/aux/248_12_BOL'TsMANA]]/URI$ скорости тех же частиц после столкновения, $URI[[http://libmeta.ru/fme/formula/aux/248_13_BOL'TsMANA]]/URI$ - величина относительной скорости сталкивающихся частиц, $URI[[http://libmeta.ru/fme/formula/aux/248_14_BOL'TsMANA]]/URI$ дифференциальное эффективное сечение рассеяния частиц в телесный угол $URI[[http://libmeta.ru/fme/formula/aux/248_15_BOL'TsMANA]]/URI$ в лабораторной системе координат, $URI[[http://libmeta.ru/fme/formula/aux/248_16_BOL'TsMANA]]/URI$ угол между относительной скоростью и линией центров. Напр., для жестких упругих сфер, имеющих радиус $URI[[http://libmeta.ru/fme/formula/aux/248_17_BOL'TsMANA]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_4_BOL'TsMANA]]/URI
+\]
+
+для частиц, взаимодействующих по закону центральных сил,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_5_BOL'TsMANA]]/URI
+\]
+
+( $URI[[http://libmeta.ru/fme/formula/aux/248_18_BOL'TsMANA]]/URI$ - прицельный параметр, $URI[[http://libmeta.ru/fme/formula/aux/248_19_BOL'TsMANA]]/URI$ - азимутальный угол линии центров).
+
+Б. к.у. учитывает только парные столкновения между молекулами; оно справедливо при условии, что длина свободного пробега молекул значительно больше линейных размеров области, в к-рой происходит столкновение (для газа из упругих частиц это область порядка диаметра частиц). Поэтому Б. К. у. применимо для не слишком плотных газов. Иначе будет несправедливо основное предположение об отсутствии корреляции между состояниями сталкивающихся частиц (гипотеза молекулярного хаоса). Если система находится в статистич. равновесии, то интеграл столкновений (2) обращается в нуль и решением Б. К. у. является Максвелла распределение.
+
+При более строгом подходе для построения Б. к. у. исходят из Лиувилля уравнения для плотности распределения всех молекул газа в фазовом пространстве, из к-рого получают систему уравнений лля функций распределения одной, двух и т. д. молекул (Боголюбова уравнения). Эту цепочку уравнений решают с помощью разложения по степеням плотности частиц с использованием граничного условия ослабления корреляций, заменяющего гипотезу молекулярного хаоса.
+
+Решение Б. к.у. при различных предположениях о силах взаимодействия между частицами - предмет кинетич. теории газов, к-рая позволяет вычислить кинетич. коэффициенты и получить макроскопич. уравнения для процессов переноса (вязкости, диффузии, теплопроводности).
+
+Для квантовых газов значения эффективных сечений рассчитывают на основе квантовой механики с учетом неразличимости одинаковых частиц и того факта, что вероятность столкновения зависит не только от произведения функций распределения сталкивающихся частиц, но и от функций распределения частиц после столкновения. Для фермионов в результате этого вероятность столкновения будет уменьшаться, а для бозонов - увеличиваться. Оператор столкновения в квантовом случае принимает вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_6_BOL'TsMANA]]/URI
+\]
+
+где знак минус соответствует Ферми - Дирака статистике, а знак плюс - Бозе - Эйнштейна статистике, $URI[[http://libmeta.ru/fme/formula/aux/248_20_BOL'TsMANA]]/URI$ - статистич. вес состояния ( $URI[[http://libmeta.ru/fme/formula/aux/248_21_BOL'TsMANA]]/URI$ для частиц со спином, равным нулю, и $URI[[http://libmeta.ru/fme/formula/aux/248_22_BOL'TsMANA]]/URI$ для частиц со спином $URI[[http://libmeta.ru/fme/formula/aux/248_23_BOL'TsMANA]]/URI$ импульс частицы. Функции $URI[[http://libmeta.ru/fme/formula/aux/248_24_BOL'TsMANA]]/URI$ нормированы так, что представляют среднее число частиц в точке $URI[[http://libmeta.ru/fme/formula/aux/248_25_BOL'TsMANA]]/URI$. Равновесные функции распределения Ферми и Бозе обращают в нуль оператор столкновения (3).
+
+Важным частным случаем Б. к. у. является кинетич. уравнение для нейтронов, к-рые рассеиваются и замедляются ядрами среды. В этом случае внешних сил нет и в уравнении (1) надо положить $URI[[http://libmeta.ru/fme/formula/aux/248_26_BOL'TsMANA]]/URI$. Плотность числа нейтронов обычно мала, так что можно пренебречь столкновениями между ними и учитывать лишь их столкновения с ядрами среды.
+
+Процессы переноса, связанные с движением электронов в металле, также можно исследовать с помощью Б. К. у. В отсутствие колебаний решетки электроны свободно распространяются в металле и описываются плоскими волнами, модулированными с периодом решетки и зависящими от волнового вектора $URI[[http://libmeta.ru/fme/formula/aux/248_27_BOL'TsMANA]]/URI$ и номера энергетич. зоны $URI[[http://libmeta.ru/fme/formula/aux/248_28_BOL'TsMANA]]/URI$. Тепловое движение атомов решетки нарушает периодичность и приводит к рассеянию электронов (столкновениям между электронами и фононами). Функция распределения электронов $URI[[http://libmeta.ru/fme/formula/aux/248_29_BOL'TsMANA]]/URI$ удовлетворяет Б. к. у. типа (1), в к-ром
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_7_BOL'TsMANA]]/URI
+\]
+
+( $URI[[http://libmeta.ru/fme/formula/aux/248_30_BOL'TsMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/248_31_BOL'TsMANA]]/URI$ напряженности электрич. и магнитных полей, $URI[[http://libmeta.ru/fme/formula/aux/248_32_BOL'TsMANA]]/URI$ заряд электрона), а интеграл столкновений имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_8_BOL'TsMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/248_33_BOL'TsMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/248_34_BOL'TsMANA]]/URI$ волновые векторы и номера зон до и после столкновения, $URI[[http://libmeta.ru/fme/formula/aux/248_35_BOL'TsMANA]]/URI$ функция распределения фононов, $URI[[http://libmeta.ru/fme/formula/aux/248_36_BOL'TsMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/248_37_BOL'TsMANA]]/URI$ волновой вектор и поляризация фононов, $URI[[http://libmeta.ru/fme/formula/aux/248_38_BOL'TsMANA]]/URI$ начальная и конечная энергии электрона при возбуждении фонона с энергией $URI[[http://libmeta.ru/fme/formula/aux/248_39_BOL'TsMANA]]/URI$; $URI[[http://libmeta.ru/fme/formula/aux/248_40_BOL'TsMANA]]/URI$ - дельта-функция, $URI[[http://libmeta.ru/fme/formula/aux/248_41_BOL'TsMANA]]/URI$ - матричные элементы перехода электрона из состояния $URI[[http://libmeta.ru/fme/formula/aux/248_42_BOL'TsMANA]]/URI$ в состояние $URI[[http://libmeta.ru/fme/formula/aux/248_43_BOL'TsMANA]]/URI$, к-рые оценивают, исходя из определенных гипотез о механизме взаимодействия электронов с решеткой. Выражение (4) получено в предположении, что время свободного пробега электронов значительно больше неопределенности для времени столкновения. Теория электропроводности, термоэлектрич. и гальваномагнитных явлений в металлах и полупроводниках основана на решении Б. К. у.
+
+В нек-рых случаях конденсированных систем, когда известен характер теплового движения, можно построить Б. к. у. для элементарных возбуждений (квазичастиц). Напр., теория процессов переноса энергии в кристаллич. решетке основана на уравнении такого типа. Если в выражении для потенциальной энергии решетки ограничиться квадратичными относительно смещений атомов членами, то тепловое движение атомов в кристалле описывается свободно распространяющимися фононами - квантами нормальных колебаний решетки. Учет членов 3-й степени приводит к возможности столкновений между фононами. В результате функция распределения фононов $URI[[http://libmeta.ru/fme/formula/aux/248_44_BOL'TsMANA]]/URI$ будет изменяться во времени согласно кинетич. уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_9_BOL'TsMANA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/248_10_BOL'TsMANA]]/URI
+\]
+
+- коэффициенты при кубич. членах в разложении потенциальной энергии кристалла по отклонениям атомов из положения равновесия, $URI[[http://libmeta.ru/fme/formula/aux/248_45_BOL'TsMANA]]/URI$ - плотность. Уравнение (5) описывает тройные столкновения фононов с гибелью двух фононов и рождением одного (и обратные им процессы). Оно является уравнением баланса фононов, движущихся в волновом пакете с групповой скоростью $URI[[http://libmeta.ru/fme/formula/aux/248_46_BOL'TsMANA]]/URI$ и сталкивающихся между собой. Теория теплопроводности непроводящих кристаллов основана на решении уравнения (5) при малых отклонениях от статистич. равновесия.
+
+Б. к. у. применимо также к процессам, в к-рых URI[[http://libmeta.ru/fme/relation/248_10_BOL'TsMANA]]/URI испытывают взаимные превращения, напр. в теории ливней, образующихся при попадании космич. URI[[http://libmeta.ru/fme/relation/248_9_BOL'TsMANA]]/URI больших URI[[http://libmeta.ru/fme/relation/248_8_BOL'TsMANA]]/URI в атмосферу. В этом случае кинетич. уравнения составляются как система URI[[http://libmeta.ru/fme/relation/248_7_BOL'TsMANA]]/URI для заряженных URI[[http://libmeta.ru/fme/relation/248_6_BOL'TsMANA]]/URI и фотонов в данном URI[[http://libmeta.ru/fme/relation/248_5_BOL'TsMANA]]/URI и URI[[http://libmeta.ru/fme/relation/248_4_BOL'TsMANA]]/URI. Эти уравнения выражают тот факт, что изменение функции распределения (кроме эффектов URI[[http://libmeta.ru/fme/relation/248_3_BOL'TsMANA]]/URI) происходит вследствие образования пар заряженных URI[[http://libmeta.ru/fme/relation/248_2_BOL'TsMANA]]/URI фотонами и испускания заряженных частицами фотонов в виде тормозного излучения в поле ядер. На решении этих URI[[http://libmeta.ru/fme/relation/248_1_BOL'TsMANA]]/URI каскадная теория ливней.</text>
+  <text_orig>ИНТеГро-дифференциальное уравнение, которому удовлетворяют неравновесные одночастичные распределения функции системы из большого числа частиц, например функция распределения $f(\boldsymbol{v}, \boldsymbol{r}, t)$ молекул газа по скоростям $\boldsymbol{v}$ и координатам $\boldsymbol{r}$, функции распределения электронов в металле, фононов в кристалле. Б. к.у.- основное уравнение микроскопич. теории неравновесных процессов (физич. кинетики), в частности кинетич. теории газов. Б. К. у. в узком смысле называют выведенное Л. Больцманом (L. Boltzmann) кинетич. уравнение для газов малой плотности, молекулы к-рых подчиняются классич. механике. Б.к.у. для квазичастиц в кристаллах, напр. для электронов в металле, называют также кинетическими уравнениями, или уравне ниями переноса.
+
+Б. к. у. представляет собой уравнение баланса числа частиц (точнее, точек, изображающих состояние частиц) в элементе фазового объема $d \boldsymbol{v} d \boldsymbol{r}\left(\boldsymbol{v}=d v_{x} d v_{y} d v_{z} ; d \boldsymbol{r}=d x d y d z\right)$ и выражает тот факт, что изменение функции распределения частиц $f(\boldsymbol{v}, \boldsymbol{r}, t)$ со временем $t$ происходит вследствие движения частиц под действием внешних сил и столкновений между ними. Для газа, состоящего из частиц одного сорта, Б. к. у. имеет вид
+
+\[
+\frac{\partial f}{\partial t}+\left(v \frac{\partial f}{\partial \boldsymbol{r}}\right)+\frac{1}{m}\left(\boldsymbol{F} \frac{\partial f}{\partial \boldsymbol{v}}\right)=\left(\frac{\partial f}{\partial t}\right)_{\mathrm{cT}}
+\]
+
+где $\partial f / \partial t$ - изменение плотности числа частиц в элементе фазового объема $d v d r$ за единицу времени, $\boldsymbol{F}=\boldsymbol{F}(\boldsymbol{r}, t)-$ скта, действуюшая на частицу (может зависеть также и от скорости), $(\partial f / \partial t)_{\text {ст }}$ - изменение функции распределения встедствие столкновений (интеграл столкновений). Второй и третий члены уравнения (1) характеризуют соответствую- щие изменения функшии распределения в результате перемещения частиц в пространстве и действия внешних сил. Ее изменение, обусловленное столкновениями частиц, связано с уходом частиц из элемента фазового объема при так наз. прямых столкновениях и пополнением объема частицами, испытавшими «обратные» столкновения. Если рассчитывать столкновения по законам классич. механики и считать, что нет корреляции между динамич. состояниями сталкивающихся молекул, то
+
+\[
+\left(\frac{\partial f}{\partial t}\right)_{\mathrm{cT}}=\int\left(f^{\prime} f_{1}^{\prime}-f f_{1}\right) u \sigma(u, \vartheta) d \Omega d v_{1} .
+\]
+
+Здесь
+
+\[
+\begin{aligned}
+f &amp; =f(\boldsymbol{v}, \boldsymbol{r}, t), &amp; f_{1}=f\left(\boldsymbol{v}_{1}, \boldsymbol{r}, t\right), \\
+f^{\prime} &amp; =f\left(\boldsymbol{v}^{\prime}, \boldsymbol{r}, t\right), &amp; f_{1}^{\prime}=f\left(\boldsymbol{v}_{1}^{\prime}, \boldsymbol{r}, t\right) ;
+\end{aligned}
+\]
+
+$v, v_{1}-$ скорости частиц до столкновения, $\boldsymbol{v}^{\prime}, \boldsymbol{v}_{1}^{\prime}-$ скорости тех же частиц после столкновения, $u=\left|\boldsymbol{v}-\boldsymbol{v}_{1}\right|$ - величина относительной скорости сталкивающихся частиц, $\sigma(u, \vartheta)-$ дифференциальное эффективное сечение рассеяния частиц в телесный угол $d \Omega$ в лабораторной системе координат, $\vartheta-$ угол между относительной скоростью и линией центров. Напр., для жестких упругих сфер, имеющих радиус $R$,
+
+\[
+\sigma=4 \pi R^{2} \cos \vartheta
+\]
+
+для частиц, взаимодействуюших по закону центральных сил,
+
+\[
+\sigma d \Omega=b d b d \varepsilon
+\]
+
+( $b$ - прицельный параметр, $\varepsilon$ - азимутальный угол линии центров).
+
+Б. к.у. учитывает только парные столкновения между молекулами; оно справедливо при условии, что длина свободного пробега молекул значительно больше линейных размеров области, в к-рой происходит столкновение (для газа из упругих частиц это область порядка диаметра частиц). Поэтому Б. К. у. применимо для не слишком плотных газов. Иначе будет несправедливо основное предположение об отсутствии корреляции между состояниями сталкивающихся частиц (гипотеза молекулярного хаоса). Если система находится в статистич. равновесии, то интеграл столкновений (2) обрашается в нуль и решением Б. К. у. является Максвелла распределение.
+
+При более строгом подходе для построения Б. к. у. исходят из Лиувилля уравнения для плотности распределения всех молекул газа в фазовом пространстве, из к-рого получают систему уравнений лля функций распределения одной, двух и т. д. молекул (Боголюбова уравнения). Эту цепочку уравнений решают с помощью разложения по степеням плотности частиц с использованием граничного условия ослабления корреляций, заменяющего гипотезу молекулярного хаоса.
+
+Решение Б. к.у. при различных предположениях о силах взаимодействия между частицами - предмет кинетич. теории газов, к-рая позволяет вычислить кинетич. коэффициенты и получить макроскопич. уравнения для процессов переноса (вязкости, диффузии, теплопроводности).
+
+Для квантовых газов значения эффективных сечений рассчитывают на основе квантовой механики с учетом неразличимости одинаковых частиц и того факта, что вероятность столкновения зависит не только от произведения функций распределения сталкивающихся частиц, но и от функций распределения частиц после столкновения. Для фермионов в результате этого вероятность столкновения будет уменьшаться, а для бозонов - увеличиваться. Оператор столкновения в квантовом случае принимает вид
+
+\[
+\begin{aligned}
+&amp; \left(\frac{\partial f}{\partial t}\right)_{\mathrm{cT}}=\frac{g}{h^{2}} \int\left\{f^{\prime} f_{1}^{\prime}(1 \mp f)\left(1 \mp f_{1}\right)-\right. \\
+&amp; \left.-f f_{1}\left(1 \mp f^{\prime}\right)\left(1 \mp f_{1}^{\prime}\right)\right\} u \sigma(u, \vartheta) d \Omega d p_{1},
+\end{aligned}
+\]
+
+где знак минус соответствует Ферми - Дирака статистике, а знак плюс - Бозе - Эйнштейна статистике, $g$ - статистич. вес состояния ( $g=1$ для частиц со спином, равным нулю, и $g=2$ для частиц со спином $1 / 2), p-$ импульс частицы. Функции $f(p, r, t)$ нормированы так, что представляют среднее число частиц в точке $(\boldsymbol{p}, \boldsymbol{r})$. Равновесные функции распределения Ферми и Бозе обращают в нуль оператор столкновения (3).
+
+Важным частным случаем Б. к. у. является кинетич. уравнение для нейтронов, к-рые рассеиваются и замедляются ядрами среды. В этом случае внешних сил нет и в уравнении (1) надо положить $\boldsymbol{F}=0$. Плотность числа нейтронов обычно мала, так что можно пренебречь столкновениями между ними и учитывать лишь их столкновения с ядрами среды.
+
+Процессы переноса, связанные с движением электронов в металле, также можно исследовать с помощью Б. К. у. В отсутствие колебаний решетки электроны свободно распространяются в металле и описываются плоскими волнами, модулированными с периодом решетки и зависящими от волнового вектора $\boldsymbol{k}$ и номера энергетич. зоны $l$. Тепловое движение атомов решетки нарушает периодичность и приводит к рассеянию электронов (столкновениям между электронами и фононами). Функция распределения электронов $n(k, l, t)$ удовлетворяет Б. к. у. типа (1), в к-ром
+
+\[
+\boldsymbol{F}=e\left\{\boldsymbol{E}+c^{-1}[\boldsymbol{v}, \boldsymbol{H}]\right\}
+\]
+
+( $\boldsymbol{E}$ и $\boldsymbol{H}-$ напряженности электрич. и магнитных полей, $e-$ заряд электрона), а интеграл столкновений имеет вид
+
+\[
+\begin{aligned}
+\left(\frac{\partial n}{\partial t}\right)_{\mathrm{cT}} &amp; =\sum_{\boldsymbol{k}^{\prime}, l^{\prime}, s}\left|\left(\boldsymbol{k}^{\prime} l^{\prime}|A| \boldsymbol{k} l, s\right)\right|^{2} \delta\left(\mathscr{E}^{\prime}-\mathscr{E}-\hbar \omega\right) \times \\
+\times &amp; \left\{(N+1) n^{\prime}(1-n)-N n\left(1-n^{\prime}\right)\right\},
+\end{aligned}
+\]
+
+где $n=n(\boldsymbol{k}, l), n^{\prime}=n\left(\boldsymbol{k}^{\prime}, l^{\prime}\right) ; \boldsymbol{k}, l, \boldsymbol{k}^{\prime}$ и $l^{\prime}-$ волновые векторы и номера зон до и после столкновения, $N=N(f, s)-$ функция распределения фононов, $f$ и $s-$ волновой вектор и поляризация фононов, $\mathscr{E}, \mathscr{E}^{\prime}-$ начальная и конечная энергии электрона при возбуждении фонона с энергией $\hbar \omega$; $\delta$ - дельта-функция, $\left(\boldsymbol{k}^{\prime} l^{\prime}|\boldsymbol{A}| \boldsymbol{k} l, s\right)$ - матричные элементы перехода электрона из состояния $\boldsymbol{k}, l$ в состояние $\boldsymbol{k}^{\prime}, l^{\prime}$, к-рые оценивают, исходя из определенных гипотез о механизме взаимодействия электронов с решеткой. Выражение (4) получено в предположении, что время свободного пробега электронов значительно больше неопределенности для времени столкновения. Теория электропроводности, термоэлектрич. и гальваномагнитных явлений в металлах и полупроводниках основана на решении Б. К. у.
+
+В нек-рых случаях конденсированных систем, когда известен характер теплового движения, можно построить Б. к. у. для элементарных возбуждений (квазичастиц). Напр., теория процессов переноса энергии в кристаллич. решетке основана на уравнении такого типа. Если в выражении для потенциальной энергии решетки ограничиться квадратичными относительно смещений атомов членами, то тепловое движение атомов в кристалле описывается свободно распространяющимися фононами - квантами нормальных колебаний решетки. Учет членов 3-й степени приводит к возможности столкновений между фононами. В результате функция распределения фононов $N(f, s)$ будет изменяться во времени согласно кинетич. уравнению
+
+\[
+\begin{gathered}
+\frac{\partial N}{\partial t}+\left(\frac{\partial \omega}{\partial f} \frac{\partial N}{\partial r}\right)=\left(\frac{\partial N}{\partial t}\right)_{\mathrm{cr}}, \\
+\left(\frac{\partial N}{\partial t}\right)_{\mathrm{cT}}=\frac{\hbar}{32 \pi^{2} \rho} \int d f\left\{\sum_{s^{\prime}, s^{\prime \prime}}\left|b\left(f s ; f^{\prime} s^{\prime} ; s^{\prime \prime}\right)\right|^{2} \omega \omega^{\prime} \omega^{\prime \prime} \times\right. \\
+\times \delta\left(\omega+\omega^{\prime}-\omega^{\prime \prime}\right)\left[(N+1)\left(N^{\prime}+1\right) N^{\prime \prime}-N N^{\prime}\left(N^{\prime \prime}+1\right)\right]+ \\
++\sum_{s^{\prime}, s^{\prime \prime}} \frac{1}{2}\left|b\left(f s ; f^{\prime} s^{\prime} ; s^{\prime \prime}\right)\right|^{2} \omega \omega^{\prime} \omega^{\prime \prime} \delta\left(\omega-\omega^{\prime}-\omega^{\prime \prime}\right) \times \\
+\left.\times\left[(N+1) N^{\prime} N^{\prime \prime}-N\left(N^{\prime}+1\right)\left(N^{\prime \prime}+1\right)\right]\right\},
+\end{gathered}
+\]
+
+где
+
+\[
+\begin{aligned}
+N=N(f, s), N^{\prime}= &amp; N\left(f^{\prime}, s^{\prime}\right), N^{\prime \prime}=N\left(f^{\prime \prime}, s^{\prime \prime}\right), \\
+&amp; \omega=\omega(f, s), \\
+\omega^{\prime}=\omega\left(f^{\prime}, s^{\prime}\right), \omega^{\prime \prime} &amp; =\omega\left(f^{\prime \prime}, s^{\prime \prime}\right), b\left(f s ; f^{\prime} s^{\prime} ; s^{\prime \prime}\right)
+\end{aligned}
+\]
+
+- коэффициенты при кубич. членах в разложении потенциальной энергии кристалла по отклонениям атомов из положения равновесия, $\rho$ - плотность. Уравнение (5) описывает тройные столкновения фононов с гибелью двух фононов и рождением одного (и обратные им процессы). Оно является уравнением баланса фононов, движущихся в волновом пакете с групповой скоростью $\partial \omega / \partial f$ и сталкивающихся между собой. Теория теплопроводности непроводящих кристаллов основана на решении уравнения (5) при малых отклонениях от статистич. равновесия.
+
+Б. к. у. применимо также к процессам, в к-рых частицы испытывают взаимные превращения, напр. в теории ливней, образующихся при попадании космич. частиц больших энергий в атмосферу. В этом случае кинетич. уравнения составляются как система уравнений баланса для заряженных частиц и фотонов в данном интервале энергии и импульса. Эти уравнения выражают тот факт, что изменение функции распределения (кроме эффектов рассеяния) происходит вследствие образования пар заряженных частиц фотонами и испускания заряженных частицами фотонов в виде тормозного излучения в поле ядер. На решении этих уравнений основана каскадная теория ливней.
+
+Лит.: [1] Больцм ан Л., Лекции по теории газов, пер. с нем., М., 1953; [2] Б о го лю бо в Н. Н., Проблемы динамической теории в статистической физике, М.- Л., 1946; [3] З у б ар е в Д. Н., Неравновесная статистическая термодинамика, М., 1971. Д. Н. Зубарев.</text_orig>
+</article>

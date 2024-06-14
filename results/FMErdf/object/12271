@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12271">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msup><mi>&#x00393;</mi><mrow><mi>j</mi><mi>k</mi><mi>m</mi></mrow></msup><mo>&#x0003D;</mo><msub><mo>&#x02211;</mo><mrow><mi>j</mi><mo>&#x0002C;</mo><mi>k</mi><mo>&#x0002C;</mo><mi>m</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>12</mn></mrow></mfrac><msubsup><mi>&#x003A8;</mi><mrow><mn>0</mn></mrow><mrow><mi>i</mi><mi>&#x003B1;</mi></mrow></msubsup><msub><mo>&#x02202;</mo><mrow><mi>&#x003B1;</mi></mrow></msub><msubsup><mi>&#x003A8;</mi><mrow><mn>0</mn></mrow><mrow><mi>p</mi><mi>n</mi></mrow></msubsup><msubsup><mo>&#x02202;</mo><mrow><msub><mi>l</mi><mrow><mi>n</mi></mrow></msub></mrow><mrow><mn>2</mn></mrow></msubsup><msubsup><mi>&#x003A8;</mi><mrow><mn>0</mn></mrow><mrow><mi>q</mi><mi>m</mi></mrow></msubsup><msubsup><mo>&#x02202;</mo><mrow><mi>p</mi><mi>q</mi></mrow><mrow><mn>2</mn></mrow></msubsup><msubsup><mi>&#x003A8;</mi><mrow><mn>0</mn></mrow><mrow><mi>j</mi><mi>k</mi></mrow></msubsup><mo>&#x0002B;</mo><mo stretchy="true" fence="true" form="postfix" /></mrow><mspace linebreak="newline" /><mrow><mo stretchy="true" fence="true" form="prefix" /><mo>&#x0002B;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>24</mn></mrow></mfrac><msubsup><mi>&#x003A8;</mi><mrow><mn>0</mn></mrow><mrow><mi>i</mi><mi>&#x003B1;</mi></mrow></msubsup><msubsup><mi>&#x003A8;</mi><mrow><mn>0</mn></mrow><mrow><mi>p</mi><mi>n</mi></mrow></msubsup><msubsup><mo>&#x02202;</mo><mrow><mi>l</mi><mi>n</mi></mrow><mrow><mn>2</mn></mrow></msubsup><msubsup><mi>&#x003A8;</mi><mrow><mn>0</mn></mrow><mrow><mi>q</mi><mi>m</mi></mrow></msubsup><msubsup><mo>&#x02202;</mo><mrow><mi>p</mi><mi>q</mi><mi>&#x003B1;</mi></mrow><mrow><mn>3</mn></mrow></msubsup><msubsup><mi>&#x003A8;</mi><mrow><mn>0</mn></mrow><mrow><mi>j</mi><mi>k</mi></mrow></msubsup><mo>&#x02212;</mo><msup><mi>&#x003A6;</mi><mrow><mi>j</mi><mi>&#x003B1;</mi></mrow></msup><msub><mo>&#x02202;</mo><mrow><mi>&#x003B1;</mi></mrow></msub><msup><mi>&#x003A6;</mi><mrow><mi>k</mi><mi>m</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\Gamma^{j k m}=\sum_{j, k, m}\left(\frac{1}{12} \Psi_{0}^{i \alpha} \partial_{\alpha} \Psi_{0}^{p n} \partial_{l_{n}}^{2} \Psi_{0}^{q m} \partial_{p q}^{2} \Psi_{0}^{j k}+\right. \\\left.+\frac{1}{24} \Psi_{0}^{i \alpha} \Psi_{0}^{p n} \partial_{l n}^{2} \Psi_{0}^{q m} \partial_{p q \alpha}^{3} \Psi_{0}^{j k}-\Phi^{j \alpha} \partial_{\alpha} \Phi^{k m}\right) .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

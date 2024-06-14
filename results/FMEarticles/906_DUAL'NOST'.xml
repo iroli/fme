@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/906_DUAL'NOST'" alphabetic_pos="908">
+  <title>ДУАЛЬНОСТЬ АНТИСИММЕТРИЧНЫХ ТЕНЗОРОВ</title>
+  <authors>
+    <author>М. А. Соловьев</author>
+  </authors>
+  <pages>
+    <start>197</start>
+    <end>197</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/906_1_DUAL'NOST'">\tilde{F}_{j_{1} \ldots j_{n-k}}=\frac{1}{k !} \sqrt{g} \varepsilon_{j_{1} \ldots j_{n-k} i_{1} \ldots i_{k}} F^{i_{1} \ldots i_{k}},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/906_2_DUAL'NOST'">F=d A+\frac{1}{2}[A \wedge A]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/906_3_DUAL'NOST'">q=\left(1 / 32 \pi^{2}\right)\langle F, * F\rangle</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/906_1_DUAL'NOST'">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/906_2_DUAL'NOST'">\boldsymbol{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/906_3_DUAL'NOST'">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/906_4_DUAL'NOST'">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/906_5_DUAL'NOST'">\left\langle\omega, \omega^{\prime}\right\rangle=\int_{M} \omega \Lambda * \omega^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/906_6_DUAL'NOST'">* F= \pm F</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/906_7_DUAL'NOST'">1989 . \quad</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/906_1_DUAL'NOST'">
+      <rel_text>Квантовая теория поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/906_2_DUAL'NOST'">
+      <rel_text>инстантоны</rel_text>
+      <target>http://libmeta.ru/fme/article/1022_INSTANTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/906_3_DUAL'NOST'">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/906_4_DUAL'NOST'">
+      <rel_text>многообразии</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>на $URI[[http://libmeta.ru/fme/formula/aux/906_1_DUAL'NOST']]/URI$-мерном ориентированном римановом многообразии $URI[[http://libmeta.ru/fme/formula/aux/906_2_DUAL'NOST']]/URI$ задается формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/906_1_DUAL'NOST']]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/906_3_DUAL'NOST']]/URI$ - детерминант метрического тензора, $URI[[http://libmeta.ru/fme/formula/aux/906_4_DUAL'NOST']]/URI$ - полностью антисимметричный символ Леви-Чивиты. Иначе говоря, переход к дуальному тензору осуществляется поднятием индексов и последующей сверткой с тензором, соответствующим форме объема. Это же преобразование, рассматриваемое как операция на дифференциальных формах, обозначается * и называется о п е р а т о р о м Х оджа. Естественным скалярным произведением двух форм одинаковой степени служит
+
+$URI[[http://libmeta.ru/fme/formula/aux/906_5_DUAL'NOST']]/URI$.
+
+Эти определения применимы и к алгеброзначным тензорам и формам. Если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/906_2_DUAL'NOST']]/URI
+\]
+
+- напряженность калибровочного поля на 4-мерном URI[[http://libmeta.ru/fme/relation/906_4_DUAL'NOST']]/URI, то решения уравнений дуальности $URI[[http://libmeta.ru/fme/formula/aux/906_6_DUAL'NOST']]/URI$ называются самодуальным и и антисамодуальным и п о л я м и. В случае неабелевой калибровочной URI[[http://libmeta.ru/fme/relation/906_3_DUAL'NOST']]/URI имеются решения с нетривиальным целочисленным топологич. зарядом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/906_3_DUAL'NOST']]/URI
+\]
+
+\section{- URI[[http://libmeta.ru/fme/relation/906_2_DUAL'NOST']]/URI.}
+
+Jlum.: [1] Ш ут ц Б., Геометрические методы математической физики, пер. с англ., М., 1984; [2] Ш в ар ц А. С., URI[[http://libmeta.ru/fme/relation/906_1_DUAL'NOST']]/URI и топология, М., $URI[[http://libmeta.ru/fme/formula/aux/906_7_DUAL'NOST']]/URI$</text>
+  <text_orig>на $n$-мерном ориентированном римановом многообразии $\boldsymbol{M}$ задается формулой
+
+\[
+\tilde{F}_{j_{1} \ldots j_{n-k}}=\frac{1}{k !} \sqrt{g} \varepsilon_{j_{1} \ldots j_{n-k} i_{1} \ldots i_{k}} F^{i_{1} \ldots i_{k}},
+\]
+
+где $g$ - детерминант метрического тензора, $\varepsilon$ - полностью антисимметричный символ Леви-Чивиты. Иначе говоря, переход к дуальному тензору осуществляется поднятием индексов и последующей сверткой с тензором, соответствуюшим форме объема. Это же преобразование, рассматриваемое как операция на дифференциальных формах, обозначается * и называется о п е р а т о р о м Х оджа. Естественным скалярным произведением двух форм одинаковой степени служит
+
+$\left\langle\omega, \omega^{\prime}\right\rangle=\int_{M} \omega \Lambda * \omega^{\prime}$.
+
+Эти определения применимы и к алгеброзначным тензорам и формам. Если
+
+\[
+F=d A+\frac{1}{2}[A \wedge A]
+\]
+
+- напряженность калибровочного поля на 4-мерном многообразии, то решения уравнений дуальности $* F= \pm F$ называются самодуальным и и антисамодуальным и п о л я м и. В случае неабелевой калибровочной группы имеются решения с нетривиальным целочисленным топологич. зарядом
+
+\[
+q=\left(1 / 32 \pi^{2}\right)\langle F, * F\rangle
+\]
+
+\section{- инстантоны.}
+
+Jlum.: [1] Ш ут ц Б., Геометрические методы математической физики, пер. с англ., М., 1984; [2] Ш в ар ц А. С., Квантовая теория поля и топология, М., $1989 . \quad$ М. А. Соловьев.</text_orig>
+</article>

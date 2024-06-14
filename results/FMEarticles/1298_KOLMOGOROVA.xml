@@ -1,0 +1,266 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1298_KOLMOGOROVA" alphabetic_pos="1300">
+  <title>КОЛМОГОРОВА УРАВНЕНИЕ</title>
+  <authors>
+    <author>А. Н. Ширяев</author>
+  </authors>
+  <pages>
+    <start>277</start>
+    <end>278</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Колмогоро в А. Н., Теория вероятностей и математическая статистика, М., 1986, с. 60-105; [2] Ги х ма н И. И., Скоро хо д А. В., Теория случайных процессов, т. 2, М., 1973.</literature_orig>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <title>Теория вероятностей и математическая статистика</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other>с. 60-105</other>
+    </unit>
+    <unit>
+      <author>Гихман И. И.</author>
+      <author>Скороход А. В.</author>
+      <title>Теория случайных процессов</title>
+      <publication>М.</publication>
+      <year>1973</year>
+      <other>т. 2</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_1_KOLMOGOROVA">\frac{\partial f}{\partial s}=-A_{s} f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_2_KOLMOGOROVA">\frac{\partial f}{\partial t}=A_{t}^{*} f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_3_KOLMOGOROVA">f=P(s, x ; t, \Gamma), 0 \leqslant s \leqslant t&lt;\infty, x \in E, \Gamma \in \mathfrak{H},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_4_KOLMOGOROVA">f=p(s, x ; t, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_5_KOLMOGOROVA">\lim _{s \uparrow t} P(s, x ; t, \Gamma)=I_{\Gamma}(x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_6_KOLMOGOROVA">\lim _{t \downarrow_{s}} P(s, x ; t, \Gamma)=I_{\Gamma}(x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_7_KOLMOGOROVA">p_{i j}(s, t)=P(s, i ; t,\{j\})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_8_KOLMOGOROVA">\begin{array}{ll}\frac{\partial p_{i j}(s, t)}{\partial s}=\sum_{k} \alpha_{i k}(s) p_{k j}(s, t), \quad s&lt;t, \\\frac{\partial p_{i j}(s, t)}{\partial t}=\sum_{k} p_{i k}(s, t) \alpha_{k j}(t), \quad t&gt;s,\end{array}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_9_KOLMOGOROVA">\alpha_{i j}(s)=\lim _{s_{1} \uparrow s, s_{2} \uparrow s} \frac{p_{i j}\left(s_{1}, s_{2}\right)-\delta_{i j}}{s_{2}-s_{1}} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_10_KOLMOGOROVA">P(s, x ; t, \Gamma), x \in \mathbb{R}, \Gamma \in \mathfrak{W}(\mathbb{R}),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_11_KOLMOGOROVA">\int_{|x-y|&gt;\varepsilon} P(s, x ; t, d y)=o(t-s),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_12_KOLMOGOROVA">\begin{aligned}&amp; \int_{|x-y| \leqslant \varepsilon}(y-x) P(s, x ; t, d y)=a(s, x)(t-s)+o(t-s), \\&amp; \int_{|x-y| \leqslant \varepsilon}(y-x)^{2} P(s, x ; t, d y)=b(s, x)(t-s)+o(t-s) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_13_KOLMOGOROVA">\frac{\partial p}{\partial t}=-\frac{\partial}{\partial y}(a p)+\frac{1}{2} \frac{\partial^{2}}{\partial y^{2}}(b p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1298_14_KOLMOGOROVA">-\frac{\partial p}{\partial s}=a \frac{\partial p}{\partial x}+\frac{1}{2} b^{2} \frac{\partial^{2} p}{\partial x^{2}} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_1_KOLMOGOROVA">s&lt;t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_2_KOLMOGOROVA">t&gt;s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_3_KOLMOGOROVA">(e, \mathfrak{g})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_4_KOLMOGOROVA">p(s, x ; t, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_5_KOLMOGOROVA">i_{\gamma}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_6_KOLMOGOROVA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_7_KOLMOGOROVA">a_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_8_KOLMOGOROVA">a_{t}^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_9_KOLMOGOROVA">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_10_KOLMOGOROVA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_11_KOLMOGOROVA">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_12_KOLMOGOROVA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_13_KOLMOGOROVA">x \in \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_14_KOLMOGOROVA">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_15_KOLMOGOROVA">s, s&lt;t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_16_KOLMOGOROVA">a(s, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_17_KOLMOGOROVA">b(s, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_18_KOLMOGOROVA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_19_KOLMOGOROVA">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_20_KOLMOGOROVA">s, s&lt;t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_21_KOLMOGOROVA">p=p(s, x ; t, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_22_KOLMOGOROVA">t&gt;s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_23_KOLMOGOROVA">y \in \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_24_KOLMOGOROVA">s&lt;t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1298_25_KOLMOGOROVA">x \in \mathbb{R}</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/1298_1_KOLMOGOROVA">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+  </relations>
+  <text>уравнение вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_1_KOLMOGOROVA]]/URI
+\]
+
+(обратное, или первое, уравнение Колмогоров а; $URI[[http://libmeta.ru/fme/formula/aux/1298_1_KOLMOGOROVA]]/URI$ ) или вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_2_KOLMOGOROVA]]/URI
+\]
+
+(прямое, или второе, уравнение Колмогорова; $URI[[http://libmeta.ru/fme/formula/aux/1298_2_KOLMOGOROVA]]/URI$ ) для переходной функции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_3_KOLMOGOROVA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1298_3_KOLMOGOROVA]]/URI$ - измеримое пространство, или ее плотности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_4_KOLMOGOROVA]]/URI
+\]
+
+если она существует; к уравнению (1) для переходной функции $URI[[http://libmeta.ru/fme/formula/aux/1298_4_KOLMOGOROVA]]/URI$ присоединяется условие
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_5_KOLMOGOROVA]]/URI
+\]
+
+а к уравнению (2) - условие
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_6_KOLMOGOROVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1298_5_KOLMOGOROVA]]/URI$ - индикатор множества $URI[[http://libmeta.ru/fme/formula/aux/1298_6_KOLMOGOROVA]]/URI$; в этом случае оператор $URI[[http://libmeta.ru/fme/formula/aux/1298_7_KOLMOGOROVA]]/URI$ - оператор, действующий в пространстве функций, а $URI[[http://libmeta.ru/fme/formula/aux/1298_8_KOLMOGOROVA]]/URI$ - в пространстве обобщенных мер.
+
+Для марковских процессов со счетным множеством состояний переходная функция полностью определяется вероятностями перехода
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_7_KOLMOGOROVA]]/URI
+\]
+
+(из состояния $URI[[http://libmeta.ru/fme/formula/aux/1298_9_KOLMOGOROVA]]/URI$ в момент $URI[[http://libmeta.ru/fme/formula/aux/1298_10_KOLMOGOROVA]]/URI$ в состояние $URI[[http://libmeta.ru/fme/formula/aux/1298_11_KOLMOGOROVA]]/URI$ в момент $URI[[http://libmeta.ru/fme/formula/aux/1298_12_KOLMOGOROVA]]/URI$ ), для к-рой обратное и прямое К. у. имеют (при нек-рых дополнительных предположениях) следующий вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_8_KOLMOGOROVA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_9_KOLMOGOROVA]]/URI
+\]
+
+В случае конечного числа состояний уравнения (3), (4) справедливы, если только предположить существование пределов в (5).
+
+Другой важный класс процессов, для к-рых детально изучен вопрос о справедливости уравнений (1) и (2),- это процессы диффузионного типа, определяемые тем, что их переходная функция
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_10_KOLMOGOROVA]]/URI
+\]
+
+удовлетворяет следующим условиям:
+
+a) для всякого $URI[[http://libmeta.ru/fme/formula/aux/1298_13_KOLMOGOROVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1298_14_KOLMOGOROVA]]/URI$ равномерно по $URI[[http://libmeta.ru/fme/formula/aux/1298_15_KOLMOGOROVA]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_11_KOLMOGOROVA]]/URI
+\]
+
+б) существуют функции $URI[[http://libmeta.ru/fme/formula/aux/1298_16_KOLMOGOROVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1298_17_KOLMOGOROVA]]/URI$ такие, что цля всякого $URI[[http://libmeta.ru/fme/formula/aux/1298_18_KOLMOGOROVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1298_19_KOLMOGOROVA]]/URI$ равномерно по $URI[[http://libmeta.ru/fme/formula/aux/1298_20_KOLMOGOROVA]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_12_KOLMOGOROVA]]/URI
+\]
+
+Тогда, если существует URI[[http://libmeta.ru/fme/relation/1298_1_KOLMOGOROVA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1298_21_KOLMOGOROVA]]/URI$, то (при нек-рых дополнительных предположениях) справедливо (по $URI[[http://libmeta.ru/fme/formula/aux/1298_22_KOLMOGOROVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1298_23_KOLMOGOROVA]]/URI$ ) прямое уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_13_KOLMOGOROVA]]/URI
+\]
+
+(называемое также уравнением Фоккера-План к а), а обратное уравнение (по $URI[[http://libmeta.ru/fme/formula/aux/1298_24_KOLMOGOROVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1298_25_KOLMOGOROVA]]/URI$ ) имеет следующий вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1298_14_KOLMOGOROVA]]/URI
+\]</text>
+  <text_orig>уравнение вида:
+
+\[
+\frac{\partial f}{\partial s}=-A_{s} f
+\]
+
+(обратное, или первое, уравнение Колмогоров а; $s&lt;t$ ) или вида:
+
+\[
+\frac{\partial f}{\partial t}=A_{t}^{*} f
+\]
+
+(прямое, или второе, уравнение Колмогорова; $t&gt;s$ ) для переходной функции
+
+\[
+f=P(s, x ; t, \Gamma), 0 \leqslant s \leqslant t&lt;\infty, x \in E, \Gamma \in \mathfrak{H},
+\]
+
+$(E, \mathfrak{g})$ - измеримое пространство, или ее плотности
+
+\[
+f=p(s, x ; t, \Gamma)
+\]
+
+если она существует; к уравнению (1) для переходной функщии $P(s, x ; t, \Gamma)$ присоединяется условие
+
+\[
+\lim _{s \uparrow t} P(s, x ; t, \Gamma)=I_{\Gamma}(x),
+\]
+
+а к уравнению (2) - условие
+
+\[
+\lim _{t \downarrow_{s}} P(s, x ; t, \Gamma)=I_{\Gamma}(x),
+\]
+
+где $I_{\Gamma}(x)$ - индикатор множества $\Gamma$; в этом случае оператор $A_{s}$ - оператор, действующий в пространстве функций, а $A_{t}^{*}$ - в пространстве обобщенных мер.
+
+Для марковских процессов со счетным множеством состояний переходная функщия полностью определяется вероятностями перехода
+
+\[
+p_{i j}(s, t)=P(s, i ; t,\{j\})
+\]
+
+(из состояния $i$ в момент $s$ в состояние $j$ в момент $t$ ), для к-рой обратное и прямое К. у. имеют (при нек-рых дополнительных предположениях) следуюший вид:
+
+\[
+\begin{array}{ll}
+\frac{\partial p_{i j}(s, t)}{\partial s}=\sum_{k} \alpha_{i k}(s) p_{k j}(s, t), \quad s&lt;t, \\
+\frac{\partial p_{i j}(s, t)}{\partial t}=\sum_{k} p_{i k}(s, t) \alpha_{k j}(t), \quad t&gt;s,
+\end{array}
+\]
+
+где
+
+\[
+\alpha_{i j}(s)=\lim _{s_{1} \uparrow s, s_{2} \uparrow s} \frac{p_{i j}\left(s_{1}, s_{2}\right)-\delta_{i j}}{s_{2}-s_{1}} .
+\]
+
+В случае конечного числа состояний уравнения (3), (4) справедливы, если только предположить существование пределов в (5).
+
+Другой важный класс процессов, для к-рых детально изучен вопрос о справедливости уравнений (1) и (2),- это процессы диффузионного типа, определяемые тем, что их переходная функция
+
+\[
+P(s, x ; t, \Gamma), x \in \mathbb{R}, \Gamma \in \mathfrak{W}(\mathbb{R}),
+\]
+
+удовлетворяет следующим условиям:
+
+a) для всякого $x \in \mathbb{R}$ и $\varepsilon&gt;0$ равномерно по $s, s&lt;t$,
+
+\[
+\int_{|x-y|&gt;\varepsilon} P(s, x ; t, d y)=o(t-s),
+\]
+
+б) существуют функции $a(s, x)$ и $b(s, x)$ такие, что цля всякого $x$ и $\varepsilon&gt;0$ равномерно по $s, s&lt;t$,
+
+\[
+\begin{aligned}
+&amp; \int_{|x-y| \leqslant \varepsilon}(y-x) P(s, x ; t, d y)=a(s, x)(t-s)+o(t-s), \\
+&amp; \int_{|x-y| \leqslant \varepsilon}(y-x)^{2} P(s, x ; t, d y)=b(s, x)(t-s)+o(t-s) .
+\end{aligned}
+\]
+
+Тогда, если существует плотность $p=p(s, x ; t, y)$, то (при нек-рых дополнительных предположениях) справедливо (по $t&gt;s$ и $y \in \mathbb{R}$ ) прямое уравнение
+
+\[
+\frac{\partial p}{\partial t}=-\frac{\partial}{\partial y}(a p)+\frac{1}{2} \frac{\partial^{2}}{\partial y^{2}}(b p)
+\]
+
+(называемое также уравнением Фоккера-План к а), а обратное уравнение (по $s&lt;t$ и $x \in \mathbb{R}$ ) имеет следуюший вид
+
+\[
+-\frac{\partial p}{\partial s}=a \frac{\partial p}{\partial x}+\frac{1}{2} b^{2} \frac{\partial^{2} p}{\partial x^{2}} .
+\]
+
+Лит.: [1] Колмогоро в А. Н., Теория вероятностей и математическая статистика, М., 1986, с. 60-105; [2] Ги х ма н И. И., Скоро хо д А. В., Теория случайных процессов, т. 2, М., 1973.
+
+А. Н. Ширяев.</text_orig>
+</article>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_14997">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mrow><mi mathvariant="script">L</mi></mrow><mrow><mo>&#x0220B;</mo><mi>&#x003A6;</mi></mrow></msub><mo>&#x0003D;</mo><mo>tr</mo><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>8</mn></mrow></mfrac><msub><mi>F</mi><mrow><mi>&#x003BC;</mi><mi>&#x003BD;</mi></mrow></msub><msub><mi>F</mi><mrow><mi>&#x003BC;</mi><mi>&#x003BD;</mi></mrow></msub><mo>&#x02212;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn><mi>&#x003B1;</mi></mrow></mfrac><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mo>&#x02202;</mo><mrow><mi>&#x003BC;</mi></mrow></msub><msub><mi>A</mi><mrow><mi>&#x003BC;</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup><mo>&#x02212;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mover><mrow><mi>c</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>&#x025FB;</mi><mi>c</mi><mo>&#x02212;</mo><mi>g</mi><msub><mo>&#x02202;</mo><mrow><mi>&#x003BC;</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>A</mi><mrow><mi>&#x003BC;</mi></mrow></msub><mo>&#x0002C;</mo><mi>c</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\mathscr{L}_{\ni \Phi}=\operatorname{tr}\left[\frac{1}{8} F_{\mu \nu} F_{\mu \nu}-\frac{1}{4 \alpha}\left(\partial_{\mu} A_{\mu}\right)^{2}-\frac{1}{2} \bar{c}\left(\square c-g \partial_{\mu}\left(A_{\mu}, c\right)\right)\right] .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

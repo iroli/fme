@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1869_NAPRJaZhENIJ" alphabetic_pos="1871">
+  <title>НАПРЯЖЕНИЙ ТЕНЗОР</title>
+  <authors>
+    <author>И. В. Барьяхтар</author>
+  </authors>
+  <pages>
+    <start>375</start>
+    <end>375</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1869_1_NAPRJaZhENIJ">\frac{\partial \Pi_{i}}{\partial t}+\frac{\partial \sigma_{i k}}{\partial x_{k}}=0, \quad i, k=1,2,3,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1869_2_NAPRJaZhENIJ">\int F_{i} d v=\int \sigma_{i k} d f_{k},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1869_3_NAPRJaZhENIJ">\sigma_{i k}=-p \delta_{i k}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1869_1_NAPRJaZhENIJ">\sigma_{i k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1869_2_NAPRJaZhENIJ">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1869_3_NAPRJaZhENIJ">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1869_4_NAPRJaZhENIJ">\boldsymbol{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1869_5_NAPRJaZhENIJ">d v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1869_6_NAPRJaZhENIJ">d f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1869_7_NAPRJaZhENIJ">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1869_8_NAPRJaZhENIJ">\delta_{i k}</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/1869_1_NAPRJaZhENIJ">
+      <rel_text>давлением</rel_text>
+      <target>http://libmeta.ru/fme/article/750_DAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1869_2_NAPRJaZhENIJ">
+      <rel_text>импульса</rel_text>
+      <target>http://libmeta.ru/fme/article/996_IMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1869_3_NAPRJaZhENIJ">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1869_4_NAPRJaZhENIJ">
+      <rel_text>поток</rel_text>
+      <target>http://libmeta.ru/fme/article/2345_POTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1869_5_NAPRJaZhENIJ">
+      <rel_text>импульса</rel_text>
+      <target>http://libmeta.ru/fme/article/996_IMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1869_6_NAPRJaZhENIJ">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1869_7_NAPRJaZhENIJ">
+      <rel_text>импульса</rel_text>
+      <target>http://libmeta.ru/fme/article/996_IMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1869_8_NAPRJaZhENIJ">
+      <rel_text>закона сохранения</rel_text>
+      <target>http://libmeta.ru/fme/article/2877_SOHRANENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1869_9_NAPRJaZhENIJ">
+      <rel_text>тензор</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/1869_9_NAPRJaZhENIJ]]/URI, определяющий распределение внутренних сил деформированного твердого тела. В силу URI[[http://libmeta.ru/fme/relation/1869_8_NAPRJaZhENIJ]]/URI URI[[http://libmeta.ru/fme/relation/1869_7_NAPRJaZhENIJ]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1869_1_NAPRJaZhENIJ]]/URI
+\]
+
+где П - URI[[http://libmeta.ru/fme/relation/1869_6_NAPRJaZhENIJ]]/URI URI[[http://libmeta.ru/fme/relation/1869_5_NAPRJaZhENIJ]]/URI, Н. т. $URI[[http://libmeta.ru/fme/formula/aux/1869_1_NAPRJaZhENIJ]]/URI$ может быть определен как URI[[http://libmeta.ru/fme/relation/1869_4_NAPRJaZhENIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1869_2_NAPRJaZhENIJ]]/URI$-й составляющей URI[[http://libmeta.ru/fme/relation/1869_3_NAPRJaZhENIJ]]/URI URI[[http://libmeta.ru/fme/relation/1869_2_NAPRJaZhENIJ]]/URI через единичную площадку, перпендикулярную $URI[[http://libmeta.ru/fme/formula/aux/1869_3_NAPRJaZhENIJ]]/URI$-й оси.
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/1869_4_NAPRJaZhENIJ]]/URI$ - суммарная сила, действующая на единицу объема тела, то Н. т. определяется соотношением, являющимся следствием (1):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1869_2_NAPRJaZhENIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1869_5_NAPRJaZhENIJ]]/URI$ - элемент объема, $URI[[http://libmeta.ru/fme/formula/aux/1869_6_NAPRJaZhENIJ]]/URI$ - элемент площади.
+
+Наиболее простой вид Н. т. имеет в случае равномерного всестороннего сжатия тела URI[[http://libmeta.ru/fme/relation/1869_1_NAPRJaZhENIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1869_7_NAPRJaZhENIJ]]/URI$, а именно:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1869_3_NAPRJaZhENIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1869_8_NAPRJaZhENIJ]]/URI$ - символ Кронекера.</text>
+  <text_orig>тензор, определяющиЙ распределение внутренних сил деформированного твердого тела. В силу закона сохранения импульса:
+
+\[
+\frac{\partial \Pi_{i}}{\partial t}+\frac{\partial \sigma_{i k}}{\partial x_{k}}=0, \quad i, k=1,2,3,
+\]
+
+где П - плотность импульса, Н. т. $\sigma_{i k}$ может быть определен как поток $i$-й составляющей плотности импульса через единичную площадку, перпендикулярную $k$-й оси.
+
+Если $\boldsymbol{F}$ - суммарная сила, действующая на единицу объема тела, то Н. т. определяется соотношением, являющимся следствием (1):
+
+\[
+\int F_{i} d v=\int \sigma_{i k} d f_{k},
+\]
+
+где $d v$ - элемент объема, $d f$ - элемент площади.
+
+Наиболее простой вид Н. т. имеет в случае равномерного всестороннего сжатия тела давлением $p$, а именно:
+
+\[
+\sigma_{i k}=-p \delta_{i k}
+\]
+
+где $\delta_{i k}$ - символ Кронекера.
+
+И. В. Барьяхтар.</text_orig>
+</article>

@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1042_INTEGRIRUEMAJa" alphabetic_pos="1044">
+  <title>ИНТЕГРИРУЕМАЯ ГАМИЛЬТОНОВА СИСТЕМА; НЕВЫРОЖДЕННОСТЬ</title>
+  <authors/>
+  <pages>
+    <start>224</start>
+    <end>224</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1042_1_INTEGRIRUEMAJa">\dot{I}=0, \dot{\varphi}=\partial H(I) / \partial I,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1042_2_INTEGRIRUEMAJa">\omega_{i}(I)=\partial H(I) / \partial I_{i}, \quad i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1042_3_INTEGRIRUEMAJa">\operatorname{det}\left(\frac{\partial \omega}{\partial I}\right)=\operatorname{det}\left(\frac{\partial^{2} H}{\partial I^{2}}\right) \neq 0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1042_4_INTEGRIRUEMAJa">\operatorname{det}\left(\begin{array}{cc}\partial \omega / \partial I &amp; \omega \\\omega &amp; 0\end{array}\right)=\operatorname{det}\left(\begin{array}{cc}\partial^{2} H / \partial I^{2} &amp; \partial H / \partial I \\\partial H / \partial I &amp; 0\end{array}\right) \neq 0 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1042_1_INTEGRIRUEMAJa">i=\left(i_{1}, \ldots, I_{n}\right) \in \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1042_2_INTEGRIRUEMAJa">\varphi=\left(\varphi_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1042_3_INTEGRIRUEMAJa">\left.\varphi_{n}\right) \in T^{n}=(\mathbb{R} / 2 \pi \mathbb{Z})^{n}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1042_4_INTEGRIRUEMAJa">\{i=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1042_5_INTEGRIRUEMAJa">\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1042_6_INTEGRIRUEMAJa">\omega_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1042_7_INTEGRIRUEMAJa">n-1</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1042_1_INTEGRIRUEMAJa">
+      <rel_text>теории возмущений</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1042_2_INTEGRIRUEMAJa">
+      <rel_text>частот</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1042_3_INTEGRIRUEMAJa">
+      <rel_text>частот</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+  </relations>
+  <text>для системы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1042_1_INTEGRIRUEMAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1042_1_INTEGRIRUEMAJa]]/URI$ - переменные действия, а $URI[[http://libmeta.ru/fme/formula/aux/1042_2_INTEGRIRUEMAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1042_3_INTEGRIRUEMAJa]]/URI$ угловые переменные,- функциональная независимость частот
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1042_2_INTEGRIRUEMAJa]]/URI
+\]
+
+условно-периодического движения по инвариантным торам $URI[[http://libmeta.ru/fme/formula/aux/1042_4_INTEGRIRUEMAJa]]/URI$ const $URI[[http://libmeta.ru/fme/formula/aux/1042_5_INTEGRIRUEMAJa]]/URI$. Условие не вы рожден ност и имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1042_3_INTEGRIRUEMAJa]]/URI
+\]
+
+Система (*) называется и з о э не р ге т и ческ и не в ыро жд е н н о й, если одна из URI[[http://libmeta.ru/fme/relation/1042_3_INTEGRIRUEMAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1042_6_INTEGRIRUEMAJa]]/URI$ не обращается в нуль, а отношения к ней остальных $URI[[http://libmeta.ru/fme/formula/aux/1042_7_INTEGRIRUEMAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/1042_2_INTEGRIRUEMAJa]]/URI функционально независимы на гиперповерхностях уровня гамильтониана H. Условие изоэнергетич. невырожденности имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1042_4_INTEGRIRUEMAJa]]/URI
+\]
+
+Понятия невырожденности и изоэнергетич. невырожденности имеют локальные аналоги (для гамильтоновых сис- тем в окрестности эллиптич. положения равновесия). Соответствующие формулировки, а также сведения о значении невырожденности для URI[[http://libmeta.ru/fme/relation/1042_1_INTEGRIRUEMAJa]]/URI и теории малых колебаний см. в ст. Каm-теория.</text>
+  <text_orig>для системы
+
+\[
+\dot{I}=0, \dot{\varphi}=\partial H(I) / \partial I,
+\]
+
+где $I=\left(I_{1}, \ldots, I_{n}\right) \in \mathbb{R}^{n}$ - переменные действия, а $\varphi=\left(\varphi_{1}, \ldots\right.$, $\left.\varphi_{n}\right) \in T^{n}=(\mathbb{R} / 2 \pi \mathbb{Z})^{n}-$ угловые переменные,- функциональная независимость частот
+
+\[
+\omega_{i}(I)=\partial H(I) / \partial I_{i}, \quad i=1, \ldots, n,
+\]
+
+условно-периодического движения по инвариантным торам $\{I=$ const $\}$. Условие не вы рожден ност и имеет вид
+
+\[
+\operatorname{det}\left(\frac{\partial \omega}{\partial I}\right)=\operatorname{det}\left(\frac{\partial^{2} H}{\partial I^{2}}\right) \neq 0 .
+\]
+
+Система (*) называется и з о э не р ге т и ческ и не в ыро жд е н н о й, если одна из частот $\omega_{i}$ не обрашается в нуль, а отношения к ней остальных $n-1$ частот функционально независимы на гиперповерхностях уровня гамильтониана H. Условие изоэнергетич. невырожденности имеет вид
+
+\[
+\operatorname{det}\left(\begin{array}{cc}
+\partial \omega / \partial I &amp; \omega \\
+\omega &amp; 0
+\end{array}\right)=\operatorname{det}\left(\begin{array}{cc}
+\partial^{2} H / \partial I^{2} &amp; \partial H / \partial I \\
+\partial H / \partial I &amp; 0
+\end{array}\right) \neq 0 .
+\]
+
+Понятия невырожденности и изоэнергетич. невырожденности имеют локальные аналоги (для гамильтоновых сис- тем в окрестности эллиптич. положения равновесия). Соответствующие формулировки, а также сведения о значении невырожденности для теории возмущений и теории малых колебаний см. в ст. КАM-теория.</text_orig>
+</article>

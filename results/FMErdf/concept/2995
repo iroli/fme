@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_468_VTORAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_468_VTORAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2995</core:url>
+    <lbm:descriptor><![CDATA[ВТОРАЯ КВАДРАТИЧНАЯ ФОРМА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1366"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22257"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22258"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22259"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22260"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22261"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14825"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22262"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>пове рхности, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2504_RADIUS-VEKTO">радиус-вектор</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2188_PERVAJa">текущей точки которой задан параметрически</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22261">$$\boldsymbol{r}=\boldsymbol{r}\left(u^{1}, u^{2}\right),-$$</a> форма вида<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22257">$$d \boldsymbol{r} d \boldsymbol{m}=b_{i j} d u^{i} d u^{j}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/468_2_VTORAJa]]/URI$ единичная нормаль к поверхности. В качестве нормали обычно берут<BR/></P><P>то есть<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22258">$$\boldsymbol{m}=\left[\frac{\partial \boldsymbol{r}}{\partial u^{1}}, \frac{\partial \boldsymbol{r}}{\partial u^{2}}\right] /\left|\left[\frac{\partial \boldsymbol{r}}{\partial u^{1}}, \frac{\partial \boldsymbol{r}}{\partial u^{2}}\right]\right|,$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22259">$$b_{i j}=\left(\frac{\partial \boldsymbol{r}}{\partial u^{1}}, \frac{\partial \boldsymbol{r}}{\partial u^{2}}, \frac{\partial^{2} \boldsymbol{r}}{\partial u^{i} \partial u^{j}}\right) \gamma^{-1 / 2},$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22262">$$\gamma=\operatorname{det}\left\|g_{i j}\right\|, g_{i j}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">первая</a> квадратичная форма.<BR/></P><P>Часто используют классич. обозначения:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22260">$$b_{11}=L, b_{12}=M, b_{22}=N .$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1366">В. В. Трофимов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[пове рхности, радиус-вектор текущей точки которой задан параметрически $\boldsymbol{r}=\boldsymbol{r}\left(u^{1}, u^{2}\right),-$ форма вида
+
+\[
+d \boldsymbol{r} d \boldsymbol{m}=b_{i j} d u^{i} d u^{j}
+\]
+
+где $\boldsymbol{m}-$ единичная нормаль к поверхности. В качестве нормали обычно берут
+
+то есть
+
+\[
+\boldsymbol{m}=\left[\frac{\partial \boldsymbol{r}}{\partial u^{1}}, \frac{\partial \boldsymbol{r}}{\partial u^{2}}\right] /\left|\left[\frac{\partial \boldsymbol{r}}{\partial u^{1}}, \frac{\partial \boldsymbol{r}}{\partial u^{2}}\right]\right|,
+\]
+
+\[
+b_{i j}=\left(\frac{\partial \boldsymbol{r}}{\partial u^{1}}, \frac{\partial \boldsymbol{r}}{\partial u^{2}}, \frac{\partial^{2} \boldsymbol{r}}{\partial u^{i} \partial u^{j}}\right) \gamma^{-1 / 2},
+\]
+
+где $\gamma=\operatorname{det}\left\|g_{i j}\right\|, g_{i j}-$ первая квадратичная форма.
+
+Часто используют классич. обозначения:
+
+\[
+b_{11}=L, b_{12}=M, b_{22}=N .
+\]
+
+В. В. Трофимов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2188_PERVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2504_RADIUS-VEKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

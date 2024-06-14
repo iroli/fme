@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/404_VINERA" alphabetic_pos="404">
+  <title>ВИНЕРА МЕРА</title>
+  <authors>
+    <author>C. A. Федотов</author>
+  </authors>
+  <pages>
+    <start>89</start>
+    <end>89</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Wien e r N., «j. Math. Phys.», 1923, v. 2, № 3, p. 131-74; [2] К о вальчч и к И.М., «успехи математич. наук», 1963, т. 18, в. 1, c. 97-134; [3] Гельфанд И. М., Я глом А. М., там же, 1956, т. 11, B. 1 , c. $77-114$.</literature_orig>
+    <unit>
+      <author>Wiener N.</author>
+      <title>«j. Math. Phys.»</title>
+      <publication/>
+      <year>1923</year>
+      <other>v. 2, № 3, p. 131-74</other>
+    </unit>
+    <unit>
+      <author>Ковальччик И. М.</author>
+      <title>«успехи математич. наук»</title>
+      <publication/>
+      <year>1963</year>
+      <other>т. 18, в. 1, c. 97-134</other>
+    </unit>
+    <unit>
+      <author>Гельфанд И. М.</author>
+      <author>Яглом А. М.</author>
+      <title>там же</title>
+      <publication/>
+      <year>1956</year>
+      <other>т. 11, B. 1, c. $77-114$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/404_1_VINERA">\rho(x, y)=\max _{0 \leqslant t \leqslant 1}|x(t)-y(t)|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/404_2_VINERA">S:\left\{x(t) ; a_{1}&lt;x\left(t_{1}\right)&lt;b_{1}, \ldots, a_{n}&lt;x\left(t_{n}\right)&lt;b_{n}\right\},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/404_3_VINERA">\begin{gathered}\mu(S)=\left\{\pi^{n} t_{1} \prod_{i=1}^{n-1}\left(t_{i+1}-t_{i}\right)\right\}^{-1 / 2} \times \\\times \int_{a_{1}}^{b_{1}} \ldots \int_{a_{n}}^{b_{n}} \exp \left\{-\frac{x_{1}^{2}}{t_{1}}-\sum_{i=1}^{n-1} \frac{\left(x_{i+1}-x_{i}\right)^{2}}{t_{i+1}-t_{i}}\right\} d x_{1} \ldots d x_{n} ;\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_1_VINERA">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_2_VINERA">t \in[0,1]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_3_VINERA">x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_4_VINERA">x(0)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_5_VINERA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_6_VINERA">t_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_7_VINERA">0&lt;t_{1}&lt;t_{2}&lt;\ldots&lt;t_{n}&lt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_8_VINERA">\mu(s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_9_VINERA">d_{w}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_10_VINERA">\mu(s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_11_VINERA">x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_12_VINERA">x_{n}=x, t_{n}=t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_13_VINERA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/404_14_VINERA">d_{w[x, t]}(x)</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/404_1_VINERA">
+      <rel_text>полученная</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>вероятностная мера, определенная на множестве $URI[[http://libmeta.ru/fme/formula/aux/404_1_VINERA]]/URI$-непрерывных при $URI[[http://libmeta.ru/fme/formula/aux/404_2_VINERA]]/URI$ функций $URI[[http://libmeta.ru/fme/formula/aux/404_3_VINERA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/404_4_VINERA]]/URI$, с равномерной метрикой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/404_1_VINERA]]/URI
+\]
+
+Схема построения В. м. следующая:
+
+1) определяется мера на цилиндрич. множествах $URI[[http://libmeta.ru/fme/formula/aux/404_5_VINERA]]/URI$ вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/404_2_VINERA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/404_6_VINERA]]/URI$ заданы и удовлетворяют условию $URI[[http://libmeta.ru/fme/formula/aux/404_7_VINERA]]/URI$, по правилу
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/404_3_VINERA]]/URI
+\]
+
+2) $URI[[http://libmeta.ru/fme/formula/aux/404_8_VINERA]]/URI$, продолженная на борелевское замыкание цилиндрич. множеств, называется ме рой В ине ра и обозначается $URI[[http://libmeta.ru/fme/formula/aux/404_9_VINERA]]/URI$.
+
+Если при определении $URI[[http://libmeta.ru/fme/formula/aux/404_10_VINERA]]/URI$ не проводить интегрирование по $URI[[http://libmeta.ru/fme/formula/aux/404_11_VINERA]]/URI$, положив $URI[[http://libmeta.ru/fme/formula/aux/404_12_VINERA]]/URI$, то URI[[http://libmeta.ru/fme/relation/404_1_VINERA]]/URI после продолжения с $URI[[http://libmeta.ru/fme/formula/aux/404_13_VINERA]]/URI$ мера называется ус ловной ме рой В ине ра и обозначается $URI[[http://libmeta.ru/fme/formula/aux/404_14_VINERA]]/URI$. В. м. введена Н. Винером [1].</text>
+  <text_orig>вероятностная мера, определенная на множестве $C$-непрерывных при $t \in[0,1]$ функций $x(t)$, $x(0)=0$, с равномерной метрикой
+
+\[
+\rho(x, y)=\max _{0 \leqslant t \leqslant 1}|x(t)-y(t)|
+\]
+
+Схема построения В. м. следующая:
+
+1) определяется мера на цилиндрич. множествах $S$ вида
+
+\[
+S:\left\{x(t) ; a_{1}&lt;x\left(t_{1}\right)&lt;b_{1}, \ldots, a_{n}&lt;x\left(t_{n}\right)&lt;b_{n}\right\},
+\]
+
+где $t_{i}$ заданы и удовлетворяют условию $0&lt;t_{1}&lt;t_{2}&lt;\ldots&lt;t_{n}&lt;1$, по правилу
+
+\[
+\begin{gathered}
+\mu(S)=\left\{\pi^{n} t_{1} \prod_{i=1}^{n-1}\left(t_{i+1}-t_{i}\right)\right\}^{-1 / 2} \times \\
+\times \int_{a_{1}}^{b_{1}} \ldots \int_{a_{n}}^{b_{n}} \exp \left\{-\frac{x_{1}^{2}}{t_{1}}-\sum_{i=1}^{n-1} \frac{\left(x_{i+1}-x_{i}\right)^{2}}{t_{i+1}-t_{i}}\right\} d x_{1} \ldots d x_{n} ;
+\end{gathered}
+\]
+
+2) $\mu(S)$, продолженная на борелевское замыкание цилиндрич. множеств, называется ме рой В ине ра и обозначается $D_{W}(x)$.
+
+Если при определении $\mu(S)$ не проводить интегрирование по $x_{n}$, положив $x_{n}=x, t_{n}=t$, то полученная после продолжения с $S$ мера называется ус ловной ме рой В ине ра и обозначается $D_{W[x, t]}(x)$. В. м. введена Н. Винером [1].
+
+Jum.: [1] Wien e r N., «J. Math. Phys.», 1923, v. 2, № 3, p. 131-74; [2] К о вальчч и к И.М., «Успехи математич. наук», 1963, т. 18, в. 1, c. 97-134; [3] Гельфанд И. М., Я глом А. М., там же, 1956, т. 11, B. 1 , c. $77-114$.
+
+C. A. Федотов.</text_orig>
+</article>

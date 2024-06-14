@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1551_LAPLASA-BEL'TRAMI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1551_LAPLASA-BEL'TRAMI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/612</core:url>
+    <lbm:descriptor><![CDATA[ЛАПЛАСА-БЕЛЬТРАМИ УРАВНЕНИЕ, БЕЛЬТРАМИ УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#4516"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5332"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5333"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_746"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_986"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5334"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5335"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5336"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5337"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4521"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1358"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1547_LAPLASA">обобщение Лапласа</a> уравнения для функций на плоскости на случай функций $URI[[http://libmeta.ru/fme/formula/aux/1551_1_LAPLASA-BEL'TRAMI]]/URI$ на произвольном двумерном <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2641_RIMANOVO">римановом многообразии</a> $URI[[http://libmeta.ru/fme/formula/aux/1551_2_LAPLASA-BEL'TRAMI]]/URI$ класса $URI[[http://libmeta.ru/fme/formula/aux/1551_3_LAPLASA-BEL'TRAMI]]/URI$. Для поверхности $URI[[http://libmeta.ru/fme/formula/aux/1551_4_LAPLASA-BEL'TRAMI]]/URI$ с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT">локальными координатами</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5335">$$\xi, \eta$$</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">первой</a> квадратичной формой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5332">$$d s^{2}=E d \xi^{2}+2 F d \xi d \eta+G d \eta^{2}$$</a><BR/></P><P>Л.-Б. у. имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5333">$$\Delta u \equiv \frac{\partial}{\partial \xi}\left(\frac{F \frac{\partial u}{\partial \eta}-G \frac{\partial u}{\partial \xi}}{\sqrt{E G-F^{2}}}\right)+\frac{\partial}{\partial \eta}\left(\frac{F \frac{\partial u}{\partial \xi}-E \frac{\partial u}{\partial \eta}}{\sqrt{E G-F^{2}}}\right)=0 .$$</a><BR/></P><P>При $URI[[http://libmeta.ru/fme/formula/aux/1551_6_LAPLASA-BEL'TRAMI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1551_7_LAPLASA-BEL'TRAMI]]/URI$ уравнение $URI[[http://libmeta.ru/fme/formula/aux/1551_8_LAPLASA-BEL'TRAMI]]/URI$ переходит в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1548_LAPLASA">уравнение Лапласа</a>. Л.-Б. у. было введено Э. Бельтрами (е. Beltrami, 1864-65).<BR/></P><P>Регулярные решения $URI[[http://libmeta.ru/fme/formula/aux/1551_9_LAPLASA-BEL'TRAMI]]/URI$ Л.-Б. у. являются обобщениями <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK">гармонич</a>. функций и называются обычно гарм о н и е скими <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функциями</a> на поверхности $URI[[http://libmeta.ru/fme/formula/aux/1551_10_LAPLASA-BEL'TRAMI]]/URI$. Физически эти решения интерпретируются <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2277_PODOBI">подобно</a> обычным <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK">гармонич</a>. функциям, напр. как потенциал <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростей</a> потока <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1939_NESZhIMAEMAJa">несжимаемой жидкости</a>, текущего по поверхности $URI[[http://libmeta.ru/fme/formula/aux/1551_11_LAPLASA-BEL'TRAMI]]/URI$, или как потенциал электростатич. поля на $URI[[http://libmeta.ru/fme/formula/aux/1551_12_LAPLASA-BEL'TRAMI]]/URI$, и т. п. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK">Гармонич</a>. функции на поверхности сохраняют свойства обычных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK">гармонич</a>. функций.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#4516">Е. Д. Соломенцев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[обобшение Лапласа уравнения для функций на плоскости на случай функций $u$ на произвольном двумерном римановом многообразии $R$ класса $C^{2}$. Для поверхности $R$ с локальными координатами $\xi, \eta$ и первой квадратичной формой
+
+\[
+d s^{2}=E d \xi^{2}+2 F d \xi d \eta+G d \eta^{2}
+\]
+
+Л.-Б. у. имеет вид:
+
+\[
+\Delta u \equiv \frac{\partial}{\partial \xi}\left(\frac{F \frac{\partial u}{\partial \eta}-G \frac{\partial u}{\partial \xi}}{\sqrt{E G-F^{2}}}\right)+\frac{\partial}{\partial \eta}\left(\frac{F \frac{\partial u}{\partial \xi}-E \frac{\partial u}{\partial \eta}}{\sqrt{E G-F^{2}}}\right)=0 .
+\]
+
+При $E=G$ и $F=0$ уравнение $(*)$ переходит в уравнение Лапласа. Л.-Б. у. было введено Э. Бельтрами (Е. Beltrami, 1864-65).
+
+Регулярные решения $u$ Л.-Б. у. являются обобщениями гармонич. функций и называются обычно гарм о н и е скими функциями на поверхности $R$. Физически эти решения интерпретируются подобно обычным гармонич. функциям, напр. как потенциал скоростей потока несжимаемой жидкости, текущего по поверхности $\boldsymbol{R}$, или как потенциал электростатич. поля на $R$, и т. п. Гармонич. функции на поверхности сохраняют свойства обычных гармонич. функций.
+
+Е. Д. Соломенцев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1939_NESZhIMAEMAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2277_PODOBI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1548_LAPLASA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2641_RIMANOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1547_LAPLASA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

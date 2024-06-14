@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1794_MIURY" alphabetic_pos="1796">
+  <title>МИУРЫ ПРЕОБРАЗОВАНИЕ</title>
+  <authors>
+    <author>В. П. Котляров</author>
+  </authors>
+  <pages>
+    <start>362</start>
+    <end>362</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Солитоны в действии, пер. с англ., М., 1981.</literature_orig>
+    <unit>
+      <title>Солитоны в действии</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1794_1_MIURY">u(x, t)=v_{x}^{\prime}(x, t)+v^{2}(x, t),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1794_2_MIURY">v_{t}-6 v^{2} v_{x}+v_{x x x}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1794_3_MIURY">u_{t}-6 u u_{x}+u_{x x x}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1794_4_MIURY">u_{t}-6 u u_{x}+u_{x x x}=\left(\frac{\partial}{\partial x}+2 v\right)\left(v_{t}-6 v^{2} v_{x}+v_{x x x}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1794_5_MIURY">v_{t}-6 v^{2} v_{x}+v_{x x x}=c(t) \exp \left[-2 \int_{0}^{x} v(\xi, t) d \xi\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1794_6_MIURY">\Psi_{x x}^{\prime \prime}-u \psi=0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1794_1_MIURY">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1794_2_MIURY">v(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1794_3_MIURY">c(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1794_4_MIURY">v=\psi_{x}^{\prime} / \psi</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>преобразование
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1794_1_MIURY]]/URI
+\]
+
+которое любое решение уравнения Миуры-Кор тевега-де Фриса
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1794_2_MIURY]]/URI
+\]
+
+переводит в решение Кортевега - де Фриса уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1794_3_MIURY]]/URI
+\]
+
+Обратное, вообще говоря, неверно, но справедливо тождество
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1794_4_MIURY]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/1794_1_MIURY]]/URI$ - решение уравнения Кортевега - де Фриса, то $URI[[http://libmeta.ru/fme/formula/aux/1794_2_MIURY]]/URI$ удовлетворяет обобщенному уравнению Миуры Кортевега - де Фриса
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1794_5_MIURY]]/URI
+\]
+
+с нек-рой функцией $URI[[http://libmeta.ru/fme/formula/aux/1794_3_MIURY]]/URI$.
+
+Обращение М. п. сводится к решению уравнения Риккати, к-рое подстановкой $URI[[http://libmeta.ru/fme/formula/aux/1794_4_MIURY]]/URI$ преобразуется в уравнение Штурма - Лиувилля
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1794_6_MIURY]]/URI
+\]</text>
+  <text_orig>преобразование
+
+\[
+u(x, t)=v_{x}^{\prime}(x, t)+v^{2}(x, t),
+\]
+
+которое любое решение уравнения Миуры-Кор тевега-де Фриса
+
+\[
+v_{t}-6 v^{2} v_{x}+v_{x x x}=0
+\]
+
+переводит в решение Кортевега - де Фриса уравнения
+
+\[
+u_{t}-6 u u_{x}+u_{x x x}=0
+\]
+
+Обратное, вообще говоря, неверно, но справедливо тождество
+
+\[
+u_{t}-6 u u_{x}+u_{x x x}=\left(\frac{\partial}{\partial x}+2 v\right)\left(v_{t}-6 v^{2} v_{x}+v_{x x x}\right)
+\]
+
+Если $u(x, t)$ - решение уравнения Кортевега - де Фриса, то $v(x, t)$ удовлетворяет обобщенному уравнению Миуры Кортевега - де Фриса
+
+\[
+v_{t}-6 v^{2} v_{x}+v_{x x x}=c(t) \exp \left[-2 \int_{0}^{x} v(\xi, t) d \xi\right]
+\]
+
+с нек-рой функцией $c(t)$.
+
+Обращение М. п. сводится к решению уравнения Риккати, к-рое подстановкой $v=\psi_{x}^{\prime} / \psi$ преобразуется в уравнение Штурма - Лиувилля
+
+\[
+\Psi_{x x}^{\prime \prime}-u \psi=0
+\]
+
+Лит.: [1] Солитоны в действии, пер. с англ., М., 1981.
+
+В. П. Котляров.</text_orig>
+</article>

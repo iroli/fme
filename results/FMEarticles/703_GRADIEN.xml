@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/703_GRADIEN" alphabetic_pos="705">
+  <title>ГРАДИЕНТ</title>
+  <authors>
+    <author>В. И. Битюцков</author>
+  </authors>
+  <pages>
+    <start>154</start>
+    <end>154</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/703_1_GRADIEN">\operatorname{grad} \varphi=\frac{\partial \varphi}{\partial x} \boldsymbol{i}+\frac{\partial \varphi}{\partial y} \boldsymbol{j}+\frac{\partial \varphi}{\partial z} \boldsymbol{k},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/703_2_GRADIEN">\begin{gathered}\operatorname{grad}(\varphi+\psi)=\operatorname{grad} \varphi+\operatorname{grad} \psi \\\operatorname{grad}(\varphi \psi)=\varphi \operatorname{grad} \psi+\psi \operatorname{grad} \varphi \\\operatorname{grad} f(\varphi)=f^{\prime}(\varphi) \operatorname{grad} \varphi\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/703_1_GRADIEN">\varphi(x, y, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/703_2_GRADIEN">\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/703_3_GRADIEN">\sqrt{(\partial \varphi / \partial x)^{2}+(\partial \varphi / \partial y)^{2}+(\partial \varphi / \partial z)^{2}}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/703_1_GRADIEN">
+      <rel_text>Векторный анализ</rel_text>
+      <target>http://libmeta.ru/fme/article/352_VEKTORNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/703_2_GRADIEN">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/703_2_GRADIEN]]/URI, показывающий направление наибольшего роста скалярной функции $URI[[http://libmeta.ru/fme/formula/aux/703_1_GRADIEN]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/703_1_GRADIEN]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/703_2_GRADIEN]]/URI$ - координатные орты. Г. в нек-рой точке направлен по нормали к поверхности (линии) уровня в этой точке, длина Г. $URI[[http://libmeta.ru/fme/formula/aux/703_3_GRADIEN]]/URI$.
+
+Свойства Г.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/703_2_GRADIEN]]/URI
+\]
+
+См. также URI[[http://libmeta.ru/fme/relation/703_1_GRADIEN]]/URI.</text>
+  <text_orig>вектор, показывающий направление наибольшего роста скалярной функции $\varphi(x, y, z)$ :
+
+\[
+\operatorname{grad} \varphi=\frac{\partial \varphi}{\partial x} \boldsymbol{i}+\frac{\partial \varphi}{\partial y} \boldsymbol{j}+\frac{\partial \varphi}{\partial z} \boldsymbol{k},
+\]
+
+где $\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}$ - координатные орты. Г. в нек-рой точке направлен по нормали к поверхности (линии) уровня в этой точке, длина Г. $\sqrt{(\partial \varphi / \partial x)^{2}+(\partial \varphi / \partial y)^{2}+(\partial \varphi / \partial z)^{2}}$.
+
+Свойства Г.:
+
+\[
+\begin{gathered}
+\operatorname{grad}(\varphi+\psi)=\operatorname{grad} \varphi+\operatorname{grad} \psi \\
+\operatorname{grad}(\varphi \psi)=\varphi \operatorname{grad} \psi+\psi \operatorname{grad} \varphi \\
+\operatorname{grad} f(\varphi)=f^{\prime}(\varphi) \operatorname{grad} \varphi
+\end{gathered}
+\]
+
+См. также Векторный анализ.
+
+В. И. Битюцков.</text_orig>
+</article>

@@ -1,7 +1,7 @@
 # 9. Парсер ссылок типа "смотри также"
 
 # -------------------------- VARS --------------------------------
-ARTICLES_DIR = "./results/FMEarticles/"
+ARTICLES_DIR = "./results/MEarticles/"
 STRICT_SEQUENCING = False  # DEFAULT: False; Links with changed order of words will also be found if False
 BRUTE_FORCE_MODE = True  # Maximum amount of links to find, but takes more time (very slow)
 USE_MULTIPROCESSING = True  # WARNING: Does not work inside Jupyter!!!; Significantly speeds up scanning process

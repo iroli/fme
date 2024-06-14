@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1280_KOVARIATsI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1280_KOVARIATsI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/311</core:url>
+    <lbm:descriptor><![CDATA[КОВАРИАЦИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#3164"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3165"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3166"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3167"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3168"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3169"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3170"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3171"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3172"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3173"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3174"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3175"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3176"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>числовая характеристика совместного распределения двух случайных величин, равная математическому ожиданию произведения отклонений случайных величин от их математических ожиданий. К. определяется для случайных величин $URI[[http://libmeta.ru/fme/formula/aux/1280_1_KOVARIATsI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1280_2_KOVARIATsI]]/URI$ с конечными дисперсиями и обычно обозначается <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3171">$$\operatorname{cov}\left(x_{1}, X_{2}\right)$$</a>. Таким образом,<BR/></P><P>при этом <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3172">$$\operatorname{cov}\left(x_{1}, X_{2}\right)=\mathrm{E}\left[\left(X_{1}-\mathrm{E} X_{1}\right)\left(X_{2}-\mathrm{E} X_{2}\right)\right]$$</a>,<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3173">$$\operatorname{cov}\left(x_{1}, X_{2}\right)=\operatorname{cov}\left(X_{2}, X_{1}\right) ; \operatorname{cov}(X, X)=\mathrm{D} X$$</a>.<BR/></P><P>K. естественным образом появляется в выражении для дисперсии суммы случайных величин:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3165">$$\mathrm{D}\left(X_{1}+X_{2}\right)=\mathrm{D} X_{1}+\mathrm{D} X_{2}+2 \operatorname{cov}\left(X_{1}, X_{2}\right)$$</a><BR/></P><P>Если величины $URI[[http://libmeta.ru/fme/formula/aux/1280_6_KOVARIATsI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1280_7_KOVARIATsI]]/URI$ независимы, то<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3166">$$\operatorname{cov}\left(X_{1}, X_{2}\right)=0$$</a><BR/></P><P>К. служит характеристикой взаимозависимости случайных величин, с помощью К. определяется корреляции коэффициент:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3167">$$\rho\left(X_{1}, X_{2}\right)=\frac{\operatorname{cov}\left(X_{1}, X_{2}\right)}{\sqrt{\mathrm{D} X_{1} \mathrm{D} X_{2}}}$$</a><BR/></P><P>В математич. статистике оценкой К. служит выборочная К., вычисляемая по формуле<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3168">$$\frac{1}{n-1} \sum_{i=1}^{n}\left(X_{1}^{(i)}-\bar{X}_{1}\right)\left(X_{2}^{(i)}-\bar{X}_{2}\right)$$</a><BR/></P><P>274 Kobapианthoctb где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3174">$$\left(x_{1}^{(i)}, X_{2}^{(i)}\right), i=1, \ldots, n,-$$</a> независимые величины, а <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3175">$$\bar{x}_{1}$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3176">$$\bar{x}_{2}$$</a> - арифметич. средние.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#3164">A. В. Прохоров</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[числовая характеристика совместного распределения двух случайных величин, равная математическому ожиданию произведения отклонений случайных величин от их математических ожиданий. К. определяется для случайных величин $X_{1}$ и $X_{2}$ с конечными дисперсиями и обычно обозначается $\operatorname{cov}\left(X_{1}, X_{2}\right)$. Таким образом,
+
+при этом $\operatorname{cov}\left(X_{1}, X_{2}\right)=\mathrm{E}\left[\left(X_{1}-\mathrm{E} X_{1}\right)\left(X_{2}-\mathrm{E} X_{2}\right)\right]$,
+
+$\operatorname{cov}\left(X_{1}, X_{2}\right)=\operatorname{cov}\left(X_{2}, X_{1}\right) ; \operatorname{cov}(X, X)=\mathrm{D} X$.
+
+K. естественным образом появляется в выражении для дисперсии суммы случайных величин:
+
+\[
+\mathrm{D}\left(X_{1}+X_{2}\right)=\mathrm{D} X_{1}+\mathrm{D} X_{2}+2 \operatorname{cov}\left(X_{1}, X_{2}\right)
+\]
+
+Если величины $X_{1}$ и $X_{2}$ независимы, то
+
+\[
+\operatorname{cov}\left(X_{1}, X_{2}\right)=0
+\]
+
+К. служит характеристикой взаимозависимости случайных величин, с помощью К. определяется корреляции коэффиииент:
+
+\[
+\rho\left(X_{1}, X_{2}\right)=\frac{\operatorname{cov}\left(X_{1}, X_{2}\right)}{\sqrt{\mathrm{D} X_{1} \mathrm{D} X_{2}}}
+\]
+
+В математич. статистике оценкой К. служит выборочная К., вычисляемая по формуле
+
+\[
+\frac{1}{n-1} \sum_{i=1}^{n}\left(X_{1}^{(i)}-\bar{X}_{1}\right)\left(X_{2}^{(i)}-\bar{X}_{2}\right)
+\]
+
+274 KOBAPИАНTHOCTb где $\left(X_{1}^{(i)}, X_{2}^{(i)}\right), i=1, \ldots, n,-$ независимые величины, а $\bar{X}_{1}$ и $\bar{X}_{2}$ - арифметич. средние.
+
+A. В. Прохоров.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

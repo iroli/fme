@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_2132">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msubsup><mi>G</mi><mrow><mi>&#x003BC;</mi><mi>&#x003BD;</mi></mrow><mrow><mi>a</mi></mrow></msubsup><mo>&#x0003D;</mo><msub><mo>&#x02202;</mo><mrow><mi>&#x003BC;</mi></mrow></msub><msubsup><mi>A</mi><mrow><mi>v</mi></mrow><mrow><mi>q</mi></mrow></msubsup><mo>&#x02212;</mo><msub><mo>&#x02202;</mo><mrow><mi>v</mi></mrow></msub><msubsup><mi>A</mi><mrow><mi>&#x003BC;</mi></mrow><mrow><mi>q</mi></mrow></msubsup><mo>&#x0002B;</mo><mi>i</mi><mi>g</mi><msup><mi>f</mi><mrow><mi>a</mi><mi>b</mi><mi>c</mi></mrow></msup><msubsup><mi>A</mi><mrow><mi>&#x003BC;</mi></mrow><mrow><mi>b</mi></mrow></msubsup><msubsup><mi>A</mi><mrow><mi>v</mi></mrow><mrow><mi>c</mi></mrow></msubsup><mo>&#x0002C;</mo><mspace linebreak="newline" /><msub><mi>D</mi><mrow><mi>&#x003BC;</mi></mrow></msub><mo>&#x0003D;</mo><msup><mi>&#x003B4;</mi><mrow><mi>i</mi><msub><mi>j</mi><mrow><mo>&#x02202;</mo></mrow></msub></mrow></msup><mo>&#x02212;</mo><mi>i</mi><mi>g</mi><msubsup><mi>A</mi><mrow><mi>&#x003BC;</mi></mrow><mrow><mi>a</mi></mrow></msubsup><msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>&#x0039B;</mi><mrow><mi>a</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}G_{\mu \nu}^{a}=\partial_{\mu} A_{v}^{q}-\partial_{v} A_{\mu}^{q}+i g f^{a b c} A_{\mu}^{b} A_{v}^{c}, \\D_{\mu}=\delta^{i j_{\partial}}-i g A_{\mu}^{a}\left(\Lambda^{a}\right)_{i j}\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

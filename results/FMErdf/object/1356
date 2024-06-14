@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_1356">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mfrac><mrow><mo>&#x02202;</mo><msub><mi>B</mi><mrow><mi>L</mi><mi>L</mi></mrow></msub></mrow><mrow><mo>&#x02202;</mo><mi>t</mi></mrow></mfrac><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mo>&#x02202;</mo></mrow><mrow><mo>&#x02202;</mo><mi>r</mi></mrow></mfrac><mo>&#x0002B;</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mi>r</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>B</mi><mrow><mi>L</mi><mi>L</mi><mo>&#x0002C;</mo><mi>L</mi></mrow></msub><mo>&#x0002B;</mo><mn>2</mn><mi>v</mi><mfrac><mrow><mo>&#x02202;</mo><msub><mi>B</mi><mrow><mi>L</mi><mi>L</mi></mrow></msub></mrow><mrow><mo>&#x02202;</mo><mi>r</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>;</mi><mspace linebreak="newline" /><msub><mi>B</mi><mrow><mi>L</mi><mi>L</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>r</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x027E8;</mo><msub><mi>u</mi><mrow><mi>L</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><msub><mi>u</mi><mrow><mi>L</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo>&#x0002B;</mo><mrow><mi mathvariant="bold-italic">r</mi></mrow><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">&#x027E9;</mo></mrow><mi>;</mi><mspace linebreak="newline" /><msub><mi>B</mi><mrow><mi>L</mi><mi>L</mi><mo>&#x0002C;</mo><mi>L</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>r</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x027E8;</mo><msubsup><mi>u</mi><mrow><mi>L</mi></mrow><mrow><mn>2</mn></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><msub><mi>u</mi><mrow><mi>L</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo>&#x0002B;</mo><mrow><mi mathvariant="bold-italic">r</mi></mrow><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">&#x027E9;</mo></mrow><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\frac{\partial B_{L L}}{\partial t}=\left(\frac{\partial}{\partial r}+\frac{4}{r}\right)\left(B_{L L, L}+2 v \frac{\partial B_{L L}}{\partial r}\right) ; \\B_{L L}(r, t)=\left\langle u_{L}(\boldsymbol{x}, t) u_{L}(\boldsymbol{x}+\boldsymbol{r}, t)\right\rangle ; \\B_{L L, L}(r, t)=\left\langle u_{L}^{2}(\boldsymbol{x}, t) u_{L}(\boldsymbol{x}+\boldsymbol{r}, t)\right\rangle .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_7039">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x003B4;</mi><mrow><msub><mi>T</mi><mrow><mn>1</mn></mrow></msub><msub><mi>T</mi><mrow><mn>2</mn></mrow></msub></mrow></msub><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mtable><mtr><mtd columnalign="left"><mn>0</mn><mo>&#x0002C;</mo><mtext>&#x000A0;если&#x000A0;</mtext></mtd><mtd columnalign="left"><msub><mi>T</mi><mrow><mn>1</mn></mrow></msub><mo>&#x02260;</mo><msub><mi>T</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0002C;</mo></mtd></mtr><mtr><mtd columnalign="left"><mn>1</mn><mo>&#x0002C;</mo><mtext>&#x000A0;если&#x000A0;</mtext></mtd><mtd columnalign="left"><msub><mi>T</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><msub><mi>T</mi><mrow><mn>2</mn></mrow></msub></mtd></mtr></mtable></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\delta_{T_{1} T_{2}}= \begin{cases}0, \text { если } &amp; T_{1} \neq T_{2}, \\ 1, \text { если } &amp; T_{1}=T_{2}\end{cases}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

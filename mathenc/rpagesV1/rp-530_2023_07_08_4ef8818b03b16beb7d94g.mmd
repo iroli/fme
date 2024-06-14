@@ -1,0 +1,78 @@
+у мн о же ния м пг:
+
+$T: \operatorname{Tor}_{p}^{R}\left(A, A^{\prime}\right) \otimes \operatorname{Tor}_{q}^{\mathrm{s}}\left(C, C^{\prime}\right) \longrightarrow \operatorname{Tor}_{p+q}^{T}\left(A \otimes C, A^{\prime} \otimes C^{\prime}\right)$, $\perp: \operatorname{Ext}_{T}^{p+q}\left(A \otimes C, \operatorname{Hom}\left(A^{\prime}, C^{\prime}\right)\right) \longrightarrow$
+
+$\longrightarrow \operatorname{Hom}\left(\operatorname{Tor}_{p}^{R}\left(A^{\prime}, A\right), \operatorname{Ext}_{s}^{q}\left(C, C^{\prime}\right)\right)$,
+
+$\vee: \operatorname{Ext}_{R}^{p}\left(A, A^{\prime}\right) \otimes \operatorname{Ext}_{s}^{q}\left(C, C^{\prime}\right) \longrightarrow \operatorname{Ext}_{T}^{p^{+}+q}\left(A \otimes C, A^{\prime} \otimes C^{\prime}\right)$, $\wedge: \operatorname{Tor}_{p+q}^{T}\left(\operatorname{Hom}(A, C), A^{\prime} \otimes C^{\prime}\right) \longrightarrow$
+
+$\longrightarrow \operatorname{Hom}\left(\operatorname{Ext}_{R}^{p}\left(A, A^{\prime}\right), \operatorname{Tor}_{q}^{\mathrm{s}}\left(C, C^{\prime}\right)\right)$.
+
+Здесь $A$ и $A^{\prime}$ правые или левые $R$-модули, $C$ и $C^{\prime}$ правые или левые $S$-модули, а символ $K$ опущен при всех функторах. Последние два гомоморфизма определены только, если алгебры $R$ и $S$ проективны над $K$ и $\operatorname{Tor}_{n}^{K}(A, C)=0$ для всех $n>0$. При нек-рых дополнительных ограничениях можно определить внутренние умножения, связывающие Tor и Ext над одним и тем же кольцом.
+
+Все четыре умножения могут быть получены из формул, переставляющих функторы $\bigotimes$ и Hom с помощью замены аргументов соответствующими резольвентами (см. [1]). Умножение $\vee$ допускает следующую интерпретацию в терминах умножений Ионеда. Пусть
+
+\[
+\begin{gathered}
+0 \longrightarrow A^{\prime} \longrightarrow X_{1} \longrightarrow \ldots \longrightarrow X_{p} \longrightarrow A \longrightarrow 0, \\
+0 \longrightarrow C^{\prime} \longrightarrow Y_{1} \longrightarrow \ldots \rightarrow Y_{q} \rightarrow C \longrightarrow 0
+\end{gathered}
+\]
+
+- точные последовательности $R$ - и $S$-модулей, соответственно, являющиеся представителями классов конгруәнтности в $\operatorname{Ext}_{R}^{p}\left(A, A^{\prime}\right)$ и $\operatorname{Ext}_{S}^{q}\left(C, C^{\prime}\right)$. Умножая первую из них тензорно справа на $C^{\prime}$, а вторую - слева на $A$, получают точные последовательности
+
+$0 \longrightarrow A^{\prime} \otimes C^{\prime} \longrightarrow X_{1} \otimes C^{\prime} \longrightarrow \ldots \longrightarrow X_{p} \otimes C^{\prime} \rightarrow A \otimes C^{\prime} \rightarrow 0$\[
+\longrightarrow A \otimes C^{\prime} \longrightarrow 0
+\]
+
+$0 \longrightarrow A \otimes C^{\prime} \longrightarrow A \otimes Y_{1} \longrightarrow \ldots \rightarrow A \otimes Y_{q} \rightarrow A \otimes C \longrightarrow 0$, объедіняемые в точную последовательность
+
+$0 \longrightarrow A^{\prime} \otimes C^{\prime} \longrightarrow X_{1} \otimes C^{\prime} \longrightarrow \ldots \rightarrow A \otimes Y_{q} \longrightarrow A \otimes C \longrightarrow 0$ к-рую можно рассматривать в качестве представителя класса конгруэнтности в группе
+
+\[
+\operatorname{Exp} \underset{R}{p+q} S_{S}\left(A \otimes C, A^{\prime} \otimes C^{\prime}\right) .
+\]
+
+Умножение $\vee$ в когомологии $H(X, \mathbb{Z})$ топологич. пространства $X$ с коэффициентами в кольце целых чисел $\mathbb{Z}$ носит название умножения Колмогорова - Александера или Ц-умножения.
+
+Лит.: [1] К а р т а н А., Э й л е н б е р г С., Гомологическая алтебра, пер. с англ., М., 1960; [2] М а к ле й н С.,
+Гомология, пер. с англ., М., 1966.
+В. Говоров.
+
+ГОМоЛОГИЧЕсКИЙ ФУНКТОР - функтор на абелевой категории, определяющий нек-рую гомологич. конструкцию на этой категории. Система $H=\left(H_{i}\right)_{i} \in \mathbb{Z}$ ковариантных аддитивных функторов из абелевой категории $\mathcal{C}$ в абелеву категорию $\mathcal{A}^{\prime}$ наз. г о м о л о г и ч ес к и м ф ун к т о р о м, если выполняются следующие аксиомы.
+
+1) Для всякой точной последовательности
+
+\[
+0 \rightarrow A^{\prime} \rightarrow A \rightarrow A^{\prime \prime} \rightarrow 0
+\]
+
+в категориік $\mathcal{A}$ задан морфизм $\partial_{i}: H_{i+1}\left(A^{\prime \prime}\right) \rightarrow H_{i}\left(A^{\prime}\right)$, к-рый наз. с в я зы в а ю щ и, или гр аничны м, м о р ф и $з$ м о м.
+
+2) Последовательность
+
+$\ldots \longrightarrow H_{i+1}\left(A^{\prime}\right) \longrightarrow H_{i+1}(A) \longrightarrow H_{i+1}\left(A^{\prime \prime}\right) \stackrel{\partial_{i}}{\longrightarrow}$ $\stackrel{\partial_{i}}{\longrightarrow} H_{i}\left(A^{\prime}\right) \longrightarrow \ldots$,
+
+34 Математическая әнц., т. 1 наз. гомол огиче с ко й по сл н о с т ь ю, является точной.
+
+Пусть, напр., $\mathcal{A}=K(A b)$ - категория цепных комплексов абелевых групп, $(A b)$ - категория абелевых групп. Функторы $H_{i}: K(A b) \rightarrow(A b)$, ставящие в соответствие комплексу $K$. соответствующие группы гомологий $H_{i}(K$.$) , определяют \Gamma$. ф.
+
+Пусть $F: \mathcal{A} \mapsto \mathcal{A}^{\prime}-$ нек-рый аддитивный ковариантный функтор, для к-рого определены левые производные функторы $R_{i} F\left(R_{i} F=0, \quad i<0\right)$. Тогда система $\left(R_{i} F\right)_{i \in J}$ определяет $\Gamma$. ф. из $\mathcal{A}$ в $\mathcal{A}^{\prime}$.
+
+Еще одним примером Г. ф. может служить аипергомологий бунктор.
+
+Двойственным образом определяется когомолог и ч е с ки й ф у нк т о р.
+
+Лum.: [1] Г р о те н д и к А., О некоторых вопросах гомологической алгебры, пер. с франц., М., 1961. И. В. Долгачсв.
+
+ГОМОЈОГИЧЕСКОЕ МНОГООБРАЗИЕ, 0 б о бщ е н н о е м н о г о о б р а 3 и е,- локально компактное топологич. пространство, локальная гомологич. структура к-рого аналогична локальной структуре обычных топологич. многообразий, в том числе многообразий с краем. Более точно, г о м о л о г и ч е с к и м $n$-м но г о о б р а 3 И е м (о б о б щ ен ны м $n$-мн ог о о б р а з и е м) над группой или модулем $G$ коэффициентов наз. локально компактное топологич. пространство $X$, имеющее конечную гомологическую размерность над $G$ и такое, что все его локальные гомологий гpyпnы $H_{p}^{x}$ при $p \neq n$ тривиальны, а при $p=n$ либо изоморфны $G$, либо равны нулю. Здесь $H_{p}^{x}$ есть прямой предел групп $H_{p}(X, X \backslash U ; G)$, взятый по всем окрестностям $U$ точки $x \in X$, причем под $H$ понимается теория гомологий, удовлетворяющая всем Стинрода - Эйленберга аксиомам, включая аксиому точности; в категории локально стягиваемых пространств теория $H$, рассматриваемая с компактными носителями, изоморфна сингулярной (см. Сингулярные гомологии). Группы $H_{n}^{x}$ автоматически оказываются слоями нек-рого пучка $\mathscr{H}_{n}$ (см. Пучков теория), называемого о р и е н т и р у юш и м п у ч к о м многообразия $X$. Г. м. $X$ наз. о р іге н т и р у е м ы м, если пучок $\mathscr{H}_{n}$ изоморфен постоянному пучку $X \times G$, и ло к а льн о о ри ент и р у ем ы м, если $\mathscr{H}_{n}$ является локально постоянным в точках, где $H_{n}^{x} \neq 0$. Если $G$ - кольцо главных идеалов и все $H_{n}^{x}$ отличны от нуля, то $\Gamma$. м. над $G$ всегда локально ориентируемо. Если Г. м. над группой $G$ локально ориентируемо, то множество всех $x \in X$, в к-рых $H_{n}^{x}=0$, замкнуто, нигде не плотно и образует край $\Gamma$. м. $X$. Локально ориентируемое $\Gamma$. м. $X$ имеет те же гомологич. свойства, что и обычные многообразия.
+
+Например, для $X$ верна теорема об инвариантности области, $h \operatorname{dim}_{G} X=n$, множество $A^{\prime}$ нигде не плотно в $X$ в том и только в том случае, если $h \operatorname{dim}_{G} A \leqslant n-1$, И т. Д.
+
+Для всякого Г. м. над $G$ имеют место естественные изоморфизмы (Пуанкаре двойственность)
+
+\[
+H_{p}(X ; G)=H^{n-p}\left(X ; \mathscr{H}_{n}\right)
+\]
+
+(когомологии с коэффициентами в пучке). Здесь $p-$ любое целое число, но гомологич. размерность Г. м. $X$ над $G$ равна $n$, и потому изоморфизмы имеют нетривиальное содержание только при $0 \leqslant p \leqslant n$. Аналогичные изоморфизмы имеют место для гомологий и когомологий с носителями в любом паракомпактифицирующем семействе (в частности, для гомологий и когомологий с компактными носителями). Условие изоморфизма между ненулевыми слоями $H_{n}^{x}$ пучка $\mathscr{H}_{n}$ и группой $G$ не является существенным. Можно также вместо группы $G$ рассматривать любой локально постоянный пучок коэффициентов $\mathscr{G}$ со слоем $G$ (при этом $\mathscr{H}_{n}$ изменится). Лю-

@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/733_GRIFFITSA" alphabetic_pos="735">
+  <title>ГРИФФИТСА НЕРАВЕНСТВА</title>
+  <authors>
+    <author>Д. П. Санкович</author>
+  </authors>
+  <pages>
+    <start>161</start>
+    <end>161</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Griffiths R. B., «j. Math. Phys.», 1967, t. 8, p. 478;[2] Kelly D. G., Scherman S., там же, 1968, t. 9, p. 466; [3] Р юэль Д., Статистическая механика, пер. с англ., М., 1971.</literature_orig>
+    <unit>
+      <author>Griffiths R. B.</author>
+      <title>«j. Math. Phys.»</title>
+      <publication/>
+      <year>1967</year>
+      <other>t. 8, p. 478</other>
+    </unit>
+    <unit>
+      <author>Kelly D. G.</author>
+      <author>Scherman S.</author>
+      <title>там же</title>
+      <publication/>
+      <year>1968</year>
+      <other>t. 9, p. 466</other>
+    </unit>
+    <unit>
+      <author>Рюэль Д.</author>
+      <title>Статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/733_1_GRIFFITSA">\sigma^{X}=\prod_{x \in X} \sigma_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/733_2_GRIFFITSA">\begin{gathered}U^{\prime}\left(\sigma_{x_{1}}, \ldots, \sigma_{x_{V}}\right)=-\sum_{X \subset \Lambda} J_{X} \sigma^{X}, \\Z=\sum_{\sigma} \exp \left[-U^{\prime}\left(\sigma_{x_{1}}, \ldots, \sigma_{x_{V}}\right)\right]\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/733_3_GRIFFITSA">\left\langle\sigma^{X}\right\rangle=Z^{-1} \sum_{\sigma} \sigma^{X} \exp \left[-U^{\prime}\left(\sigma_{x_{1}}, \ldots, \sigma_{x_{V}}\right)\right] .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/733_4_GRIFFITSA">\left\langle\sigma^{X}\right\rangle \geqslant 0 ;\left\langle\sigma^{X} \sigma^{Y}\right\rangle \geqslant\left\langle\sigma^{X} X \sigma^{Y}\right\rangle .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_1_GRIFFITSA">\lambda=\left\{x_{1}, \ldots, x_{V}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_2_GRIFFITSA">\mathbb{z}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_3_GRIFFITSA">\sigma_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_4_GRIFFITSA">x \in \Lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_5_GRIFFITSA">x \subset \Lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_6_GRIFFITSA">j_{x} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_7_GRIFFITSA">j_{x}=+\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_8_GRIFFITSA">j_{\varnothing}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_9_GRIFFITSA">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_10_GRIFFITSA">2^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/733_11_GRIFFITSA">\sigma_{x_{1}}, \ldots, \sigma_{x_{V}}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/733_1_GRIFFITSA">
+      <rel_text>произвольные значения</rel_text>
+      <target>http://libmeta.ru/fme/article/2491_RAVNOVESNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/733_2_GRIFFITSA">
+      <rel_text>фазового перехода</rel_text>
+      <target>http://libmeta.ru/fme/article/3249_FAZOVYJ</target>
+    </relation>
+  </relations>
+  <text>неравенства для корреляторов классической спиновой системы Изинга. Пусть $URI[[http://libmeta.ru/fme/formula/aux/733_1_GRIFFITSA]]/URI$ конечное множество гиперкубич. решетки $URI[[http://libmeta.ru/fme/formula/aux/733_2_GRIFFITSA]]/URI$ и пусть $URI[[http://libmeta.ru/fme/formula/aux/733_3_GRIFFITSA]]/URI$ равно 1 или -1 для каждого узла $URI[[http://libmeta.ru/fme/formula/aux/733_4_GRIFFITSA]]/URI$. Для всякого подмножества $URI[[http://libmeta.ru/fme/formula/aux/733_5_GRIFFITSA]]/URI$ положим
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/733_1_GRIFFITSA]]/URI
+\]
+
+и пусть $URI[[http://libmeta.ru/fme/formula/aux/733_6_GRIFFITSA]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/733_7_GRIFFITSA]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/733_8_GRIFFITSA]]/URI$. Введем обозначения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/733_2_GRIFFITSA]]/URI
+\]
+
+коррелятор
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/733_3_GRIFFITSA]]/URI
+\]
+Сумма по $URI[[http://libmeta.ru/fme/formula/aux/733_9_GRIFFITSA]]/URI$ производится по всем $URI[[http://libmeta.ru/fme/formula/aux/733_10_GRIFFITSA]]/URI$ наборам $URI[[http://libmeta.ru/fme/formula/aux/733_11_GRIFFITSA]]/URI$.
+В этих обозначениях Г. н. имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/733_4_GRIFFITSA]]/URI
+\]
+
+Г. н. используются для доказательства существования URI[[http://libmeta.ru/fme/relation/733_2_GRIFFITSA]]/URI 1-го рода для решеток Изинга. Г. Н. перенесены на URI[[http://libmeta.ru/fme/relation/733_1_GRIFFITSA]]/URI спина, а также обобщены на некоммутативные системы.</text>
+  <text_orig>неравенства для корреляторов классической спиновой системы Изинга. Пусть $\Lambda=\left\{x_{1}, \ldots, x_{V}\right\}-$ конечное множество гиперкубич. решетки $\mathbb{Z}^{v}$ и пусть $\sigma_{x}$ равно 1 или -1 для каждого узла $x \in \Lambda$. Для всякого подмножества $X \subset \Lambda$ положим
+
+\[
+\sigma^{X}=\prod_{x \in X} \sigma_{x}
+\]
+
+и пусть $J_{X} \geqslant 0$ или $J_{X}=+\infty$, а $J_{\varnothing}=0$. Введем обозначения
+
+\[
+\begin{gathered}
+U^{\prime}\left(\sigma_{x_{1}}, \ldots, \sigma_{x_{V}}\right)=-\sum_{X \subset \Lambda} J_{X} \sigma^{X}, \\
+Z=\sum_{\sigma} \exp \left[-U^{\prime}\left(\sigma_{x_{1}}, \ldots, \sigma_{x_{V}}\right)\right]
+\end{gathered}
+\]
+
+коррелятор
+
+\[
+\left\langle\sigma^{X}\right\rangle=Z^{-1} \sum_{\sigma} \sigma^{X} \exp \left[-U^{\prime}\left(\sigma_{x_{1}}, \ldots, \sigma_{x_{V}}\right)\right] .
+\]
+Сумма по $\sigma$ производится по всем $2^{V}$ наборам $\sigma_{x_{1}}, \ldots, \sigma_{x_{V}}$.
+В этих обозначениях Г. н. имеют вид:
+
+\[
+\left\langle\sigma^{X}\right\rangle \geqslant 0 ;\left\langle\sigma^{X} \sigma^{Y}\right\rangle \geqslant\left\langle\sigma^{X} X \sigma^{Y}\right\rangle .
+\]
+
+Г. н. используются для доказательства сушествования фазового перехода 1-го рода для решеток Изинга. Г. Н. перенесены на произвольные значения спина, а также обобщены на некоммутативные системы.
+
+Jum.: [1] Griffiths R. B., «J. Math. Phys.», 1967, t. 8, p. 478;
+
+[2] Kelly D. G., Scherman S., там же, 1968, t. 9, p. 466; [3] Р юэль Д., Статистическая механика, пер. с англ., М., 1971.
+
+Д. П. Санкович.</text_orig>
+</article>

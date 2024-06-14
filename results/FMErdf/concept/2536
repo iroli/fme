@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3283_FLUKTUATsI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3283_FLUKTUATsI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2536</core:url>
+    <lbm:descriptor><![CDATA[ФЛУКТУАЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5629"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10856"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19179"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19180"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19181"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17014"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5612"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>отклонения значений <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3273_FIZIChESKIE">физических величин</a> (зависящих от случайных факторов) от их средних значений. Количественной характеристикой Ф. величины $URI[[http://libmeta.ru/fme/formula/aux/3283_1_FLUKTUATsI]]/URI$ является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI">дисперсия</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19179">$$\sigma_{X}^{2}=\overline{(X-\bar{X})^{2}}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17014">$$\bar{x}$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2915_SREDNEE">среднее значение величины</a> $URI[[http://libmeta.ru/fme/formula/aux/3283_3_FLUKTUATsI]]/URI$, а черта сверху означает статистич. усреднение; среднеквадратич. отклонение:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19180">$$\sigma_{X}=\sqrt{(X-\bar{X})^{2}}$$</a><BR/></P><P>его относительная величина<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19181">$$\delta_{X}=\sigma_{X} / \bar{X}$$</a><BR/></P><P>Существует связь между $URI[[http://libmeta.ru/fme/formula/aux/3283_4_FLUKTUATsI]]/URI$. физич. величины в равновесном <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоянии</a> (к-рая при этом выражается через равновесные термодинамич. параметры) и неравновесными свойствами статистич. системы при внешних возмущениях. Она определяется флуктуационно-диссипативной теоремой.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#10856">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1714">Зубарев Д. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10856">Неравновесная статистическая термодинамика, М., 1971</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#5629">M. A. Сташенко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[отклонения значений физических величин (зависящих от случайных факторов) от их средних значений. Количественной характеристикой Ф. величины $X$ является дисперсия:
+
+\[
+\sigma_{X}^{2}=\overline{(X-\bar{X})^{2}}
+\]
+
+где $\bar{X}$ - среднее значение величины $X$, а черта сверху означает статистич. усреднение; среднеквадратич. отклонение:
+
+\[
+\sigma_{X}=\sqrt{(X-\bar{X})^{2}}
+\]
+
+его относительная величина
+
+\[
+\delta_{X}=\sigma_{X} / \bar{X}
+\]
+
+Существует связь между $Ф$. физич. величины в равновесном состоянии (к-рая при этом выражается через равновесные термодинамич. параметры) и неравновесными свойствами статистич. системы при внешних возмущениях. Она определяется флуктуационно-диссипативной теоремой. Лит.: [1] Зу б а р е в Д. Н., Неравновесная статистическая термодинамика, М., 1971. M. A. Сташенко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2915_SREDNEE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3273_FIZIChESKIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

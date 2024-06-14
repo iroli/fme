@@ -1,0 +1,277 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/518_GAMMA-FUNKTsIJa," alphabetic_pos="518">
+  <title>ГАММА-ФУНКЦИЯ, Г-ФУНКЦИЯ</title>
+  <authors>
+    <author>Л. П. Купцов</author>
+  </authors>
+  <pages>
+    <start>117</start>
+    <end>118</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] У и т т е к е р Э. Т., В а т с о н Дж. Н., Курс современного анализа, пер. с англ., т. 2, 2 изд., М., 1963; [2] Бе йт ме н Г., Эрде й и А., Высшие трансцендентные функции. Гипергеометрическая функция. Функции Лежандра, пер. с англ., М., 1965; [3] N ie 1 sen N., Handbuch der Theorie der Gammafunktion, Lpz., 1906; [4] Я н ке Е., Эмде Ф., Л е ш Ф., Специальные функции. Формулы, графики, таблицы, пер. с нем., 2 изд., М., 1968.</literature_orig>
+    <unit>
+      <author>Уиттекер Э. Т.</author>
+      <author>Ватсон Дж. Н.</author>
+      <title>Курс современного анализа</title>
+      <publication>пер. с англ., т. 2, 2 изд., М.</publication>
+      <year>1963</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бейтмен Г.</author>
+      <author>Эрдейи А.</author>
+      <title>Высшие трансцендентные функции. Гипергеометрическая функция. Функции Лежандра</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Nie1sen N.</author>
+      <title>Handbuch der Theorie der Gammafunktion, Lpz.</title>
+      <publication/>
+      <year>1906</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Янке Е.</author>
+      <author>Эмде Ф.</author>
+      <author>Леш Ф.</author>
+      <title>Специальные функции. Формулы, графики, таблицы</title>
+      <publication>пер. с нем., 2 изд., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_1_GAMMA-FUNKTsIJa,">\Gamma(z)=\lim _{n \rightarrow \infty} \frac{n ! n^{z}}{z(z+1) \ldots(z+n)}=\lim _{n \rightarrow \infty} \frac{n^{z}}{z(1+z)\left(1+\frac{z}{2}\right) \ldots\left(1+\frac{z}{n}\right)},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_2_GAMMA-FUNKTsIJa,">\Gamma(z)=\int_{0}^{\infty} x^{z-1} e^{-x} d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_3_GAMMA-FUNKTsIJa,">z \Gamma(z)=\Gamma(z+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_4_GAMMA-FUNKTsIJa,">\Gamma(z)=\frac{1}{z(z+1) \ldots(z+n)} \Gamma(z+n+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_5_GAMMA-FUNKTsIJa,">\Gamma(z) \Gamma(1-z)=\frac{\pi}{\sin \pi z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_6_GAMMA-FUNKTsIJa,">\Gamma\left(\frac{1}{2}\right)=\sqrt{\pi} ; \quad \Gamma\left(n+\frac{1}{2}\right)=\frac{1 \cdot 3 \cdot 5 \cdot \ldots \cdot(2 n-1)}{2^{n}} \sqrt{\pi},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_7_GAMMA-FUNKTsIJa,">\left|\Gamma\left(\frac{1}{2}+i y\right)\right|^{2}=\frac{\pi}{\operatorname{ch} y \pi}, \quad y \text {-действительное. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_8_GAMMA-FUNKTsIJa,">\begin{gathered}\prod_{k=0}^{m-1} \Gamma\left(z+\frac{k}{m}\right)=(2 \pi)^{(m-1) / 2} m^{1 / 2-m z} \Gamma(m z), \\m=2,3,4, \ldots .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_9_GAMMA-FUNKTsIJa,">\Gamma \Gamma^{\prime \prime}&gt;\Gamma^{2} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_10_GAMMA-FUNKTsIJa,">\Gamma(1+x)=x \Gamma(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/518_11_GAMMA-FUNKTsIJa,">\lim _{|\operatorname{Im} z| \rightarrow \infty}|\Gamma(z)||\operatorname{Im} z|^{\frac{1}{2}-\operatorname{Re} z} e^{\frac{\pi}{2}|\operatorname{Im} z|}=\sqrt{2 \pi} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_1_GAMMA-FUNKTsIJa,">\gamma(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_2_GAMMA-FUNKTsIJa,">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_3_GAMMA-FUNKTsIJa,">z \neq 0,-1,-2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_4_GAMMA-FUNKTsIJa,">\operatorname{re} z&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_5_GAMMA-FUNKTsIJa,">x^{z-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_6_GAMMA-FUNKTsIJa,">x^{z-1}=e^{(z-1) \ln x} \mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_7_GAMMA-FUNKTsIJa,">\ln x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_8_GAMMA-FUNKTsIJa,">\gamma(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_9_GAMMA-FUNKTsIJa,">\gamma(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_10_GAMMA-FUNKTsIJa,">z_{n}=-n, n=0,1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_11_GAMMA-FUNKTsIJa,">2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_12_GAMMA-FUNKTsIJa,">(-1)^{n} / n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_13_GAMMA-FUNKTsIJa,">\gamma(1)=1, \Gamma(n+1)=n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_14_GAMMA-FUNKTsIJa,">n&gt;0-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_15_GAMMA-FUNKTsIJa,">0 !=\Gamma(1)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_16_GAMMA-FUNKTsIJa,">n&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_17_GAMMA-FUNKTsIJa,">m=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_18_GAMMA-FUNKTsIJa,">\gamma(x)&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_19_GAMMA-FUNKTsIJa,">x&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_20_GAMMA-FUNKTsIJa,">(-1)^{k+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_21_GAMMA-FUNKTsIJa,">-k-1&lt;x&lt;-k, k=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_22_GAMMA-FUNKTsIJa,">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_23_GAMMA-FUNKTsIJa,">|\gamma(x)|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_24_GAMMA-FUNKTsIJa,">\ln |\Gamma(x)|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_25_GAMMA-FUNKTsIJa,">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_26_GAMMA-FUNKTsIJa,">x=1,4616321 \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_27_GAMMA-FUNKTsIJa,">0,885603 \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_28_GAMMA-FUNKTsIJa,">|\gamma(x)|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_29_GAMMA-FUNKTsIJa,">x \rightarrow-\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_30_GAMMA-FUNKTsIJa,">\operatorname{re} z&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/518_31_GAMMA-FUNKTsIJa,">|\operatorname{im} z| \rightarrow \infty</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/518_1_GAMMA-FUNKTsIJa,">
+      <rel_text>специальных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/2892_SPETsIAL'NYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/518_2_GAMMA-FUNKTsIJa,">
+      <rel_text>широкие</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/518_3_GAMMA-FUNKTsIJa,">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>трансцендентная функция $URI[[http://libmeta.ru/fme/formula/aux/518_1_GAMMA-FUNKTsIJa,]]/URI$, распространяющая значения факториала $URI[[http://libmeta.ru/fme/formula/aux/518_2_GAMMA-FUNKTsIJa,]]/URI$ ! на случай любого комплексного $URI[[http://libmeta.ru/fme/formula/aux/518_3_GAMMA-FUNKTsIJa,]]/URI$. Г.-ф. введена Л. Эйлером [l. Euler, 1729, письмо к Х. Гольдбаху (ch. Goldbach)] при помощи бесконечного произведения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_1_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+из к-рого Л. Эйлер получил интегральное представление
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_2_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+верное для $URI[[http://libmeta.ru/fme/formula/aux/518_4_GAMMA-FUNKTsIJa,]]/URI$. Многозначность функции $URI[[http://libmeta.ru/fme/formula/aux/518_5_GAMMA-FUNKTsIJa,]]/URI$ устраняется формулой $URI[[http://libmeta.ru/fme/formula/aux/518_6_GAMMA-FUNKTsIJa,]]/URI$ действительным $URI[[http://libmeta.ru/fme/formula/aux/518_7_GAMMA-FUNKTsIJa,]]/URI$. Обозначение $URI[[http://libmeta.ru/fme/formula/aux/518_8_GAMMA-FUNKTsIJa,]]/URI$ и название Г.-ф. были предложены А. Лежандром (a. Legendre, 1814).
+
+$URI[[http://libmeta.ru/fme/formula/aux/518_9_GAMMA-FUNKTsIJa,]]/URI$ - мероморфная функция. В точках $URI[[http://libmeta.ru/fme/formula/aux/518_10_GAMMA-FUNKTsIJa,]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/518_11_GAMMA-FUNKTsIJa,]]/URI$, она имеет простые полюсы с вычетами $URI[[http://libmeta.ru/fme/formula/aux/518_12_GAMMA-FUNKTsIJa,]]/URI$ !
+
+Основные соотношения и свойства Г. - ф.
+
+1) Функциональное уравнение Эйлера:
+
+или
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_3_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_4_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/518_13_GAMMA-FUNKTsIJa,]]/URI$ !, если $URI[[http://libmeta.ru/fme/formula/aux/518_14_GAMMA-FUNKTsIJa,]]/URI$ целое, при этом считают $URI[[http://libmeta.ru/fme/formula/aux/518_15_GAMMA-FUNKTsIJa,]]/URI$. 2) Формула дополнения Эйлера:
+
+В частности,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_5_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_6_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+если $URI[[http://libmeta.ru/fme/formula/aux/518_16_GAMMA-FUNKTsIJa,]]/URI$ - целое, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_7_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+3) Формула умножения Гаусса:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_8_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+При $URI[[http://libmeta.ru/fme/formula/aux/518_17_GAMMA-FUNKTsIJa,]]/URI$ это есть формула удвоения Лежандра.
+
+4) В действительной области $URI[[http://libmeta.ru/fme/formula/aux/518_18_GAMMA-FUNKTsIJa,]]/URI$ для $URI[[http://libmeta.ru/fme/formula/aux/518_19_GAMMA-FUNKTsIJa,]]/URI$ и принимает знак $URI[[http://libmeta.ru/fme/formula/aux/518_20_GAMMA-FUNKTsIJa,]]/URI$ на участках $URI[[http://libmeta.ru/fme/formula/aux/518_21_GAMMA-FUNKTsIJa,]]/URI$ (см. рис.). Для всех действительных $URI[[http://libmeta.ru/fme/formula/aux/518_22_GAMMA-FUNKTsIJa,]]/URI$ справедливо неравенство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_9_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+то есть все ветви как $URI[[http://libmeta.ru/fme/formula/aux/518_23_GAMMA-FUNKTsIJa,]]/URI$, так и $URI[[http://libmeta.ru/fme/formula/aux/518_24_GAMMA-FUNKTsIJa,]]/URI$ - выпуклые функции. Свойство логарифмич. выпуклости определяет Г.-ф. среди всех решений функционального уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_10_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+с точностью до постоянного множителя.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b7abfec461838860d5b1g-1.jpg?height=783&amp;width=710&amp;top_left_y=908&amp;top_left_x=127)
+
+Для положительных $URI[[http://libmeta.ru/fme/formula/aux/518_25_GAMMA-FUNKTsIJa,]]/URI$ Г.-ф. имеет единственный минимум при $URI[[http://libmeta.ru/fme/formula/aux/518_26_GAMMA-FUNKTsIJa,]]/URI$, равный $URI[[http://libmeta.ru/fme/formula/aux/518_27_GAMMA-FUNKTsIJa,]]/URI$. Локальные минимумы функции $URI[[http://libmeta.ru/fme/formula/aux/518_28_GAMMA-FUNKTsIJa,]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/518_29_GAMMA-FUNKTsIJa,]]/URI$ образуют последовательность, стремящуюся к нулю.
+
+5) В комплексной URI[[http://libmeta.ru/fme/relation/518_3_GAMMA-FUNKTsIJa,]]/URI, при $URI[[http://libmeta.ru/fme/formula/aux/518_30_GAMMA-FUNKTsIJa,]]/URI$, Г.-ф. быстро убывает при $URI[[http://libmeta.ru/fme/formula/aux/518_31_GAMMA-FUNKTsIJa,]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/518_11_GAMMA-FUNKTsIJa,]]/URI
+\]
+
+Исключительная роль Г.-ф. в математич. анализе определяется тем, что при помощи Г.-ф. выражается большое количество определенных интегралов, бесконечных произведений и сумм рядов (см., напр., Бета-функция). Кроме того, Г.-ф. находит URI[[http://libmeta.ru/fme/relation/518_2_GAMMA-FUNKTsIJa,]]/URI применения в теории URI[[http://libmeta.ru/fme/relation/518_1_GAMMA-FUNKTsIJa,]]/URI.
+
+118 Tamma</text>
+  <text_orig>трансцендентная функция $\Gamma(z)$, распространяющая значения факториала $z$ ! на случай любого комплексного $z \neq 0,-1,-2, \ldots$. Г.-ф. введена Л. Эйлером [L. Euler, 1729, письмо к Х. Гольдбаху (Ch. Goldbach)] при помоши бесконечного произведения
+
+\[
+\Gamma(z)=\lim _{n \rightarrow \infty} \frac{n ! n^{z}}{z(z+1) \ldots(z+n)}=\lim _{n \rightarrow \infty} \frac{n^{z}}{z(1+z)\left(1+\frac{z}{2}\right) \ldots\left(1+\frac{z}{n}\right)},
+\]
+
+из к-рого Л. Эйлер получил интегральное представление
+
+\[
+\Gamma(z)=\int_{0}^{\infty} x^{z-1} e^{-x} d x
+\]
+
+верное для $\operatorname{Re} z&gt;0$. Многозначность функции $x^{z-1}$ устраняется формулой $x^{z-1}=e^{(z-1) \ln x} \mathrm{c}$ действительным $\ln x$. Обозначение $\Gamma(z)$ и название Г.-ф. были предложены А. Лежандром (A. Legendre, 1814).
+
+$\Gamma(z)$ - мероморфная функция. В точках $z_{n}=-n, n=0,1$, $2, \ldots$, она имеет простые полюсы с вычетами $(-1)^{n} / n$ !
+
+Основные соотношения и свойства Г. - ф.
+
+1) Функциональное уравнение Эйлера:
+
+или
+
+\[
+z \Gamma(z)=\Gamma(z+1)
+\]
+
+\[
+\Gamma(z)=\frac{1}{z(z+1) \ldots(z+n)} \Gamma(z+n+1)
+\]
+
+$\Gamma(1)=1, \Gamma(n+1)=n$ !, если $n&gt;0-$ целое, при этом считают $0 !=\Gamma(1)=1$. 2) Формула дополнения Эйлера:
+
+В частности,
+
+\[
+\Gamma(z) \Gamma(1-z)=\frac{\pi}{\sin \pi z}
+\]
+
+\[
+\Gamma\left(\frac{1}{2}\right)=\sqrt{\pi} ; \quad \Gamma\left(n+\frac{1}{2}\right)=\frac{1 \cdot 3 \cdot 5 \cdot \ldots \cdot(2 n-1)}{2^{n}} \sqrt{\pi},
+\]
+
+если $n&gt;0$ - целое, то
+
+\[
+\left|\Gamma\left(\frac{1}{2}+i y\right)\right|^{2}=\frac{\pi}{\operatorname{ch} y \pi}, \quad y \text {-действительное. }
+\]
+
+3) Формула умножения Гаусса:
+
+\[
+\begin{gathered}
+\prod_{k=0}^{m-1} \Gamma\left(z+\frac{k}{m}\right)=(2 \pi)^{(m-1) / 2} m^{1 / 2-m z} \Gamma(m z), \\
+m=2,3,4, \ldots .
+\end{gathered}
+\]
+
+При $m=2$ это есть формула удвоения Лежандра.
+
+4) В действительной области $\Gamma(x)&gt;0$ для $x&gt;0$ и принимает знак $(-1)^{k+1}$ на участках $-k-1&lt;x&lt;-k, k=0,1,2, \ldots$ (см. рис.). Для всех действительных $x$ справедливо неравенство
+
+\[
+\Gamma \Gamma^{\prime \prime}&gt;\Gamma^{2} \geqslant 0
+\]
+
+то есть все ветви как $|\Gamma(x)|$, так и $\ln |\Gamma(x)|$ - выпуклые функции. Свойство логарифмич. выпуклости определяет Г.-ф. среди всех решений функционального уравнения
+
+\[
+\Gamma(1+x)=x \Gamma(x)
+\]
+
+с точностью до постоянного множителя.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b7abfec461838860d5b1g-1.jpg?height=783&amp;width=710&amp;top_left_y=908&amp;top_left_x=127)
+
+Для положительных $x$ Г.-ф. имеет единственный минимум піри $x=1,4616321 \ldots$, равный $0,885603 \ldots$. Локальные минимумы функции $|\Gamma(x)|$ при $x \rightarrow-\infty$ образуют последовательность, стремящуюся к нулю.
+
+5) В комплексной области, при $\operatorname{Re} z&gt;0$, Г.-ф. быстро убывает при $|\operatorname{Im} z| \rightarrow \infty$ :
+
+\[
+\lim _{|\operatorname{Im} z| \rightarrow \infty}|\Gamma(z)||\operatorname{Im} z|^{\frac{1}{2}-\operatorname{Re} z} e^{\frac{\pi}{2}|\operatorname{Im} z|}=\sqrt{2 \pi} .
+\]
+
+Исключительная роль Г.-ф. в математич. анализе определяется тем, что при помощи Г.-ф. выражается большое количество определенных интегралов, бесконечных произведений и сумм рядов (см., напр., Бета-функиия). Кроме того, Г.-ф. находит широкие применения в теории специальных функций.
+
+118 TAMMA Лит.: [1] У и т т е к е р Э. Т., В а т с о н Дж. Н., Курс современного анализа, пер. с англ., т. 2, 2 изд., М., 1963; [2] Бе йт ме н Г., Эрде й и А., Высшие трансцендентные функции. Гипергеометрическая функция. Функции Лежандра, пер. с англ., М., 1965; [3] N ie 1 sen N., Handbuch der Theorie der Gammafunktion, Lpz., 1906; [4] Я н ке Е., Эмде Ф., Л е ш Ф., Специальные функции. Формулы, графики, таблицы, пер. с нем., 2 изд., М., 1968.
+
+Л. П. Купцов.</text_orig>
+</article>

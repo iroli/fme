@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1130_KVADRATIChNOE" alphabetic_pos="1132">
+  <title>КВАДРАТИЧНОЕ ОТКЛОНЕНИЕ, СТАНДАРТНОЕ ОТКЛОНЕНИЕ, КВАДРАТИЧНОЕ УКЛОНЕНИЕ ВЕЛИЧИН $x_{1}, x_{2}, \ldots, x_{n}$ ОТ $a$</title>
+  <authors>
+    <author>В. И. Битюцков</author>
+  </authors>
+  <pages>
+    <start>239</start>
+    <end>240</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1130_1_KVADRATIChNOE">\frac{\left(x_{1}-a\right)^{2}+\left(x_{2}-a\right)^{2}+\ldots+\left(x_{n}-a\right)^{2}}{n} \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1130_2_KVADRATIChNOE">\bar{x}=\frac{x_{1}+x_{2}+\ldots+x_{n}}{n} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1130_3_KVADRATIChNOE">\sigma_{x}=\sqrt{\mathrm{D} X}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_1_KVADRATIChNOE">a=\bar{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_2_KVADRATIChNOE">\bar{x}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_3_KVADRATIChNOE">x_{1}, x_{2}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_4_KVADRATIChNOE">\sigma_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_5_KVADRATIChNOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_6_KVADRATIChNOE">\mathrm{d} X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_7_KVADRATIChNOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_8_KVADRATIChNOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_9_KVADRATIChNOE">m_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_10_KVADRATIChNOE">\sigma_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_11_KVADRATIChNOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_12_KVADRATIChNOE">m_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_13_KVADRATIChNOE">k \sigma_{X}, k&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_14_KVADRATIChNOE">1 / k^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_15_KVADRATIChNOE">k=3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1130_16_KVADRATIChNOE">3 \sigma_{X}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/1130_1_KVADRATIChNOE">
+      <rel_text>ошибкой</rel_text>
+      <target>http://libmeta.ru/fme/article/2154_OShIBK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1130_2_KVADRATIChNOE">
+      <rel_text>погрешностью</rel_text>
+      <target>http://libmeta.ru/fme/article/2269_POGREShNOST</target>
+    </relation>
+  </relations>
+  <text>квадратный корень из выражения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1130_1_KVADRATIChNOE]]/URI
+\]
+
+Наименьшее значение К. о. имеет при $URI[[http://libmeta.ru/fme/formula/aux/1130_1_KVADRATIChNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1130_2_KVADRATIChNOE]]/URI$ среднее арифметическое величин $URI[[http://libmeta.ru/fme/formula/aux/1130_3_KVADRATIChNOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1130_2_KVADRATIChNOE]]/URI
+\]
+
+В теории вероятностей квадратичное отклонение $URI[[http://libmeta.ru/fme/formula/aux/1130_4_KVADRATIChNOE]]/URI$ случайной величины $URI[[http://libmeta.ru/fme/formula/aux/1130_5_KVADRATIChNOE]]/URI$ (от ее математич. ожидания) опре- деляют как квадратный корень из дисперсии $URI[[http://libmeta.ru/fme/formula/aux/1130_6_KVADRATIChNOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1130_3_KVADRATIChNOE]]/URI
+\]
+
+и называют также с т а д а р т ны м отклоне ние м величины $URI[[http://libmeta.ru/fme/formula/aux/1130_7_KVADRATIChNOE]]/URI$. Для любой случайной величины $URI[[http://libmeta.ru/fme/formula/aux/1130_8_KVADRATIChNOE]]/URI$ с математич. ожиданием $URI[[http://libmeta.ru/fme/formula/aux/1130_9_KVADRATIChNOE]]/URI$ и К. о. $URI[[http://libmeta.ru/fme/formula/aux/1130_10_KVADRATIChNOE]]/URI$ вероятность отклонений $URI[[http://libmeta.ru/fme/formula/aux/1130_11_KVADRATIChNOE]]/URI$ от $URI[[http://libmeta.ru/fme/formula/aux/1130_12_KVADRATIChNOE]]/URI$, больших по абсолютной величине $URI[[http://libmeta.ru/fme/formula/aux/1130_13_KVADRATIChNOE]]/URI$, не превосходит $URI[[http://libmeta.ru/fme/formula/aux/1130_14_KVADRATIChNOE]]/URI$ (не равенство Чебышева). В случае нормального распределения указанная вероятность при $URI[[http://libmeta.ru/fme/formula/aux/1130_15_KVADRATIChNOE]]/URI$ равна 0,0027. В практич. задачах, приводящих к нормальному распределению, чаше всего пренебрегают возможностью отклонений от среднего, больших $URI[[http://libmeta.ru/fme/formula/aux/1130_16_KVADRATIChNOE]]/URI$ (п ра в ило т рех с И Г М).
+
+В математич. статистике К. о. употребляют как меру качества статистич. оценок и называют в этом случае к в а д ратичной URI[[http://libmeta.ru/fme/relation/1130_2_KVADRATIChNOE]]/URI (URI[[http://libmeta.ru/fme/relation/1130_1_KVADRATIChNOE]]/URI).</text>
+  <text_orig>квадратный корень из выражения
+
+\[
+\frac{\left(x_{1}-a\right)^{2}+\left(x_{2}-a\right)^{2}+\ldots+\left(x_{n}-a\right)^{2}}{n} \text {. }
+\]
+
+Наименьшее значение К. о. имеет при $a=\bar{x}$, где $\bar{x}-$ среднее арифметическое величин $x_{1}, x_{2}, \ldots, x_{n}$ :
+
+\[
+\bar{x}=\frac{x_{1}+x_{2}+\ldots+x_{n}}{n} .
+\]
+
+В теории вероятностей квадратичное отклонение $\sigma_{X}$ случайной величины $X$ (от ее математич. ожидания) опре- деляют как квадратный корень из дисперсии $\mathrm{D} X$ :
+
+\[
+\sigma_{x}=\sqrt{\mathrm{D} X}
+\]
+
+и называют также с т а д а р т ны м отклоне ние м величины $X$. Для любой случайной величины $X$ с математич. ожиданием $m_{X}$ и К. о. $\sigma_{X}$ вероятность отклонений $X$ от $m_{X}$, больших по абсолютной величине $k \sigma_{X}, k&gt;0$, не превосходит $1 / k^{2}$ (не равенство Чебышева). В случае нормального распределения указанная вероятность при $k=3$ равна 0,0027. В практич. задачах, приводящих к нормальному распределению, чаше всего пренебрегают возможностью отклонений от среднего, больших $3 \sigma_{X}$ (п ра в ило т рех с И Г М).
+
+В математич. статистике К. о. употребляют как меру качества статистич. оценок и называют в этом случае к в а д ратичной погрешностью (ошибкой).
+
+В. И. Битюцков.</text_orig>
+</article>

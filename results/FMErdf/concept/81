@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1073_KADOMTsEVA-PETVIAShVILI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1073_KADOMTsEVA-PETVIAShVILI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/81</core:url>
+    <lbm:descriptor><![CDATA[КАДОМЦЕВА-ПЕТВИАШВИЛИ УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#825"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#826"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#827"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#829"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_830"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_831"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_832"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_833"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_834"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_835"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_836"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_837"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_838"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>уравнение<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_830">$$\frac{\partial}{\partial x}\left(u_{t}-6 u u_{x}-u_{x x x}\right)=3 \alpha^{2} u_{y y},$$</a><BR/></P><P>описывающее нелинейные волны в двумерных средах со слабой дисперсией. Обладает той же степенью универсальности, что и Кортевега - де Фриса уравнение в одномерном случае (отсюда и второе название: двумерное уравнение Кортевега - де Фриса). Получено Б. Б. Кадомцевым и В. И. Петвиашвили в 1970 . К. - П. у. представляет собой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA">гамильтонову систему</a>, имеющую бесконечный набор интегралов движения; входящие в этот набор интегралы<BR/></P><P>r旦e<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_831">$$\begin{gathered}\frac{\partial}{\partial t} \iint u^{2} d x d y=0, \\\frac{\partial}{\partial t} \iint\left[\frac{u_{x}^{2}}{2}-u^{3}-\frac{3 \alpha^{2}}{2} w^{2}\right] d x d y=0,\end{gathered}$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_832">$$w=\int_{\infty}^{x} u_{y} d x$$</a><BR/></P><P>имеют смысл <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2877_SOHRANENIJa">законов сохранения</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульса</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a> для среды, описываемой этим уравнением. К. - П. у. связано со многими известными уравнениями: обычным и радиальным уравнением Кортевега - де Фриса, стационарным К. - П. у. и др. Для К. - П. у. найдено несколько точных решений различного вида, в том числе одномерный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2855_SOLITO">солитон</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_833">$$u=2 x^{2} / \operatorname{ch}^{2} x\left(x-4 x^{2} t-x_{0}\right),$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_834">$$x, x_{0}$$</a> - постоянные.<BR/></P><P>Свойства К. - П. у. зависят от знака величины $URI[[http://libmeta.ru/fme/formula/aux/1073_2_KADOMTsEVA-PETVIAShVILI]]/URI$, к-рый определяется характером <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI">дисперсии</a>. В среде с положительной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI">дисперсией</a>, когда <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_836">$$\alpha^{2}>0$$</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2855_SOLITO">солитон</a> $URI[[http://libmeta.ru/fme/formula/aux/1073_4_KADOMTsEVA-PETVIAShVILI]]/URI$ неустойчив по отношению к двумерным возмущениям. При <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_838">$$\alpha^{2}<0$$</a> одномерный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2855_SOLITO">солитон</a> устойчив.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_56_ALGEBRO-GEOMETRIChESKIE">Алгебро-геометрические методы в теории поля</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#826">[1]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#826">Теория солитонов. Метод обратной задачи, М., 1980</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#827">[2]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#827">Солитоны, пер. с англ., М., 1983</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#829">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#719">Абловиц М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#828">Сигур Х.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#829">Солитоны и метод обратной задачи, пер. с англ., М., 1987</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#825">Ю. А. Данилов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[уравнение
+
+\[
+\frac{\partial}{\partial x}\left(u_{t}-6 u u_{x}-u_{x x x}\right)=3 \alpha^{2} u_{y y},
+\]
+
+описывающее нелинейные волны в двумерных средах со слабой дисперсией. Обладает той же степенью универсальности, что и Кортевега - де Фриса уравнение в одномерном случае (отсюда и второе название: двумерное уравнение Кортевега - де Фриса). Получено Б. Б. Кадомцевым и В. И. Петвиашвили в 1970 . К. - П. у. представляет собой гамильтонову систему, имеющую бесконечный набор интегралов движения; входящие в этот набор интегралы
+
+r旦e
+
+\[
+\begin{gathered}
+\frac{\partial}{\partial t} \iint u^{2} d x d y=0, \\
+\frac{\partial}{\partial t} \iint\left[\frac{u_{x}^{2}}{2}-u^{3}-\frac{3 \alpha^{2}}{2} w^{2}\right] d x d y=0,
+\end{gathered}
+\]
+
+\[
+w=\int_{\infty}^{x} u_{y} d x
+\]
+
+имеют смысл законов сохранения импульса и энергии для среды, описываемой этим уравнением. К. - П. у. связано со многими известными уравнениями: обычным и радиальным уравнением Кортевега - де Фриса, стационарным К. - П. у. и др. Для К. - П. у. найдено несколько точных решений различного вида, в том числе одномерный солитон
+
+\[
+u=2 x^{2} / \operatorname{ch}^{2} x\left(x-4 x^{2} t-x_{0}\right),
+\]
+
+где $x, x_{0}$ - постоянные.
+
+Свойства К. - П. у. зависят от знака величины $\alpha^{2}$, к-рый определяется характером дисперсии. В среде с положительной дисперсией, когда $\alpha^{2}>0$, солитон $\left({ }^{*}\right)$ неустойчив по отношению к двумерным возмущениям. При $\alpha^{2}<0$ одномерный солитон устойчив.
+
+См. также Алгебро-геометрические методы в теории поля.
+
+Лит.: [1] Теория солитонов. Метод обратной задачи, М., 1980; [2] Солитоны, пер. с англ., М., 1983; [3] Абл о в и ц М., С и гу р Х., Солитоны и метод обратной задачи, пер. с англ., М., 1987.
+
+Ю. А. Данилов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_56_ALGEBRO-GEOMETRIChESKIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2855_SOLITO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2855_SOLITO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2855_SOLITO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2877_SOHRANENIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

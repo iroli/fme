@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/666_GODOGRAFA" alphabetic_pos="668">
+  <title>ГОДОГРАФА МЕТОД, ПРЕОБРАЗОВАНИЕ ГОДОГРАФА</title>
+  <authors/>
+  <pages>
+    <start>146</start>
+    <end>147</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] М и з с Р., Математическая теория течений сжимаемой жидкости, пер. с англ., М., 1961; [2] Куран т Р., Уравнения с частными производными, пер. с англ., М., 1964; [3] Дубров и н Б. А., Н о в и ко в С. П., &quot;успехи математич. наук», 1989, т. 44, $\begin{array}{ll}\text { в. 6, с. 29-98. } &amp; \text { С. П. Царев. }\end{array}$</literature_orig>
+    <unit>
+      <author>Мизс Р.</author>
+      <title>Математическая теория течений сжимаемой жидкости</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1961</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Курант Р.</author>
+      <title>Уравнения с частными производными</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Новиков С. П.</author>
+      <title>&quot;успехи математич. наук»</title>
+      <publication/>
+      <year>1989</year>
+      <other>т. 44, $\begin{array}{ll}\text { в. 6, с. 29-98. } &amp; \text { С. П. Царев. }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/666_1_GODOGRAFA">\left.\begin{array}{l}u_{t}=a(u, v) u_{x}+b(u, v) v_{x} \\v_{t}=c(u, v) u_{x}+d(u, v) v_{x}\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/666_2_GODOGRAFA">\left.\begin{array}{rl}-x_{u} &amp; =a(u, v) t_{v}-b(u, v) t_{u} \\x_{v} &amp; =c(u, v) t_{v}-d(u, v) t_{u}\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/666_3_GODOGRAFA">u_{t}^{i}=v_{i}\left(u^{1}, \ldots, u^{n}\right) u_{x}^{i}, u^{i}=u^{i}(x, t), i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/666_4_GODOGRAFA">\partial_{i} w_{k}=\frac{\partial_{i} v_{k}}{\left(v_{i}-v_{k}\right)}\left(w_{i}-w_{k}\right), \quad \partial_{i}=\frac{\partial}{\partial u^{i}}, \quad i \neq k,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/666_5_GODOGRAFA">\partial_{i}=\left(\frac{\partial_{j} v_{k}}{v_{j}-v_{k}}\right)=\partial_{j}\left(\frac{\partial_{i} v_{k}}{v_{i}-v_{k}}\right), \quad i \neq j \neq k .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/666_6_GODOGRAFA">w_{i}(u)=v_{i}(u) t+x</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/666_1_GODOGRAFA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/666_2_GODOGRAFA">v(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/666_3_GODOGRAFA">t(u, v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/666_4_GODOGRAFA">x(u, v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/666_5_GODOGRAFA">w_{i}\left(u^{1}, \ldots, u^{n}\right)</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/666_1_GODOGRAFA">
+      <rel_text>преобразования годографа</rel_text>
+      <target>http://libmeta.ru/fme/article/667_GODOGRAFA</target>
+    </relation>
+  </relations>
+  <text>метод, позволяющий свести однородную систему двух квазилинейных уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/666_1_GODOGRAFA]]/URI
+\]
+
+относительно двух функций $URI[[http://libmeta.ru/fme/formula/aux/666_1_GODOGRAFA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/666_2_GODOGRAFA]]/URI$ к линейной системе
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/666_2_GODOGRAFA]]/URI
+\]
+
+от соответствующих обратных функций $URI[[http://libmeta.ru/fme/formula/aux/666_3_GODOGRAFA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/666_4_GODOGRAFA]]/URI$.
+
+Впервые Г.м. был применен к интегрированию уравнений движения идеального газа (см. [1]). Г. М. позволяет линеаризовать дифференциальные уравнения с частными производными 2-го порядка, сводимые к системе (1), и совпадает в этом случае с линеаризацией уравнений Лежсандра преобразованием (см. [2]). Обобще н ны й ме тод годографа - метод, применимый к системам гидродинамич. типа с диагональной матрицей
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/666_3_GODOGRAFA]]/URI
+\]
+
+и позволяющий свести систему (2) к линейной системе уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/666_4_GODOGRAFA]]/URI
+\]
+
+относительно коэффициентов $URI[[http://libmeta.ru/fme/formula/aux/666_5_GODOGRAFA]]/URI$ коммутирующих с (2) потоков (то есть симметрий (2)) того же вида при выполнении условий «полугамильтоновости» (см. [1]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/666_5_GODOGRAFA]]/URI
+\]
+
+Связь решений (2) и (3) дает формула обобщенного URI[[http://libmeta.ru/fme/relation/666_1_GODOGRAFA]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/666_6_GODOGRAFA]]/URI
+\]</text>
+  <text_orig>метод, позволяющий свести однородную систему двух квазилинейных уравнений
+
+\[
+\left.\begin{array}{l}
+u_{t}=a(u, v) u_{x}+b(u, v) v_{x} \\
+v_{t}=c(u, v) u_{x}+d(u, v) v_{x}
+\end{array}\right\}
+\]
+
+относительно двух функций $u(x, t)$ и $v(x, t)$ к линейной системе
+
+\[
+\left.\begin{array}{rl}
+-x_{u} &amp; =a(u, v) t_{v}-b(u, v) t_{u} \\
+x_{v} &amp; =c(u, v) t_{v}-d(u, v) t_{u}
+\end{array}\right\}
+\]
+
+от соответствующих обратных функций $t(u, v)$ и $x(u, v)$.
+
+Впервые Г.м. был применен к интегрированию уравнений движения идеального газа (см. [1]). Г. М. позволяет линеаризовать дифференциальные уравнения с частными производными 2-го порядка, сводимые к системе (1), и совпадает в этом случае с линеаризацией уравнений Лежсандра преобразованием (см. [2]). Обобще н ны й ме тод годографа - метод, применимый к системам гидродинамич. типа с диагональной матрицей
+
+\[
+u_{t}^{i}=v_{i}\left(u^{1}, \ldots, u^{n}\right) u_{x}^{i}, u^{i}=u^{i}(x, t), i=1, \ldots, n,
+\]
+
+и позволяющий свести систему (2) к линейной системе уравнений
+
+\[
+\partial_{i} w_{k}=\frac{\partial_{i} v_{k}}{\left(v_{i}-v_{k}\right)}\left(w_{i}-w_{k}\right), \quad \partial_{i}=\frac{\partial}{\partial u^{i}}, \quad i \neq k,
+\]
+
+относительно коэффициентов $w_{i}\left(u^{1}, \ldots, u^{n}\right)$ коммутирующих с (2) потоков (то есть симметрий (2)) того же вида при выполнении условий «полугамильтоновости» (см. [1]):
+
+\[
+\partial_{i}=\left(\frac{\partial_{j} v_{k}}{v_{j}-v_{k}}\right)=\partial_{j}\left(\frac{\partial_{i} v_{k}}{v_{i}-v_{k}}\right), \quad i \neq j \neq k .
+\]
+
+Связь решений (2) и (3) дает формула обобщенного преобразования годографа
+
+\[
+w_{i}(u)=v_{i}(u) t+x
+\]
+
+Jum.: [1] М и з с Р., Математическая теория течений сжимаемой жидкости, пер. с англ., М., 1961; [2] Куран т Р., Уравнения с частными производными, пер. с англ., М., 1964; [3] Дубров и н Б. А., Н о в и ко в С. П., &quot;Успехи математич. наук», 1989, т. 44, $\begin{array}{ll}\text { в. 6, с. 29-98. } &amp; \text { С. П. Царев. }\end{array}$</text_orig>
+</article>

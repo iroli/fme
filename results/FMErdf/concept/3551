@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_969_IZGIBANIE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_969_IZGIBANIE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3551</core:url>
+    <lbm:descriptor><![CDATA[ИЗГИБАНИЕ ПОВЕРХНОСТИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#26292"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#26293"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#26295"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#26296"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#26297"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12858"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_313"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26298"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26299"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3677"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26300"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>непрерывная <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI">деформация</a> поверхности, при которой длины кривых на ней не изменяются. Следовательно, И. п. является непрерывным семейством так наз. изометрических преобразов а н и й поверхности, то есть таких отображений поверхности в пространство, для к-рых поверхность-образ имеет ту же <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1767_METRIK">метрику</a>, что и исходная поверхность-прообраз. Если поверхность допускает только тривиальное (то есть сводящееся к движению <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2188_PERVAJa">поверхности в пространстве</a> как твердого тела) изгибание, то она называется н е и з г и б а e м о й. Если для данной поверхности $URI[[http://libmeta.ru/fme/formula/aux/969_1_IZGIBANIE]]/URI$ любая изометричная ей поверхность <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">получается</a> из $URI[[http://libmeta.ru/fme/formula/aux/969_2_IZGIBANIE]]/URI$ движением с возможным добавлением зеркального отражения, то говорят, что $URI[[http://libmeta.ru/fme/formula/aux/969_3_IZGIBANIE]]/URI$ однозначно определяется своей <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1767_METRIK">метрикой</a>. Если поверхность $URI[[http://libmeta.ru/fme/formula/aux/969_4_IZGIBANIE]]/URI$, изометричная $URI[[http://libmeta.ru/fme/formula/aux/969_5_IZGIBANIE]]/URI$, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">получается</a> из $URI[[http://libmeta.ru/fme/formula/aux/969_6_IZGIBANIE]]/URI$ в процессе нек-рого ее изгибания, то говорят, что $URI[[http://libmeta.ru/fme/formula/aux/969_7_IZGIBANIE]]/URI$ наложима на <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12858">$$s^{*}$$</a>. Если поверхность $URI[[http://libmeta.ru/fme/formula/aux/969_9_IZGIBANIE]]/URI$ рассматривается как <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ">изометрич</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2269_POGREShNOST">погружение</a> в пространство нек-рого <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2641_RIMANOVO">риманова многообразия</a>, то вопрос об однозначной определенности $URI[[http://libmeta.ru/fme/formula/aux/969_10_IZGIBANIE]]/URI$ сводится к вопросу о единственности решения нек-рой системы <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">дифференциальных уравнений</a>, а вопрос об изгибаемости <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_313">$$s-$$</a> к существованию для этой системы непрерывного семейства решений, включающего $URI[[http://libmeta.ru/fme/formula/aux/969_12_IZGIBANIE]]/URI$. Пример нетривиального изгибания процесс сворачивания листа бумаги «в трубочку», без разрывов и растяжения материалов.<BR/></P><P>Начальное <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2799_SKOROSTEJ">поле скоростей</a> гладкого (относительно нек-рого параметра $URI[[http://libmeta.ru/fme/formula/aux/969_13_IZGIBANIE]]/URI$, принимаемого за время) И. п. порождает <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI">деформацию</a>, называемую бе сконечно малым и з г и б а н и е м. При нетривиальных (то есть не являющихся начальным полем <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростей</a> нек-рого движения) бесконечно малых И. п. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">расстояния</a> на поверхности изменяются на порядок <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26298">$$o(t), t \rightarrow 0$$</a>, в то время как пространственные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">расстояния</a> между точками поверхности изменяются, вообще говоря, на порядок <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26299">$$o(t)$$</a>. Поверхность, не допускающая нетривиальных бесконечно малых изгибаний, называется же с т к о й, в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2426_PROTEKANI">противном</a> случае - не же с т к о й.<BR/></P><P>Существование и свойства изгибаний и бесконечно малых И. п. существенно зависят от топологич. типа поверхности, от знака ее <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN">кривизны</a>, от степени гладкости поверхности ее <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI">деформаций</a> и т. д. Наиболее подробно эти вопросы изучены для поверхностей положительной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN">кривизны</a> в <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3677">$$\mathbb{r}^{3}$$</a>. Напр., доказано, что замкнутая выпуклая поверхность является неизгибаемой и жесткой. Примеров замкнутых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_969_IZGIBANIE">изгибаемых поверхностей</a> (в классе гладкости <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26300">$$c^{n}, n \geqslant 2$$</a> ) пока неизвестно (1997), хотя замкнутые <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1886_NEZhESTKAJa">нежесткие поверхности</a> существуют даже в аналитич. классе гладкости.<BR/></P><P>Изгибания и, особенно, бесконечно малые изгибания, тесно связаны с теорией упругих оболочек, так как при упругих <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI">деформациях</a> растяжения в материале малы по сравнению с возможными изменениями внешней формы оболочки. Геометрич. жесткость или неизгибаемость поверхности означает устойчивость <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояния</a> равновесия оболочки в нек-ром диапазоне внутренних напряжений.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#26293">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#10732">Векуа И. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#26293">Обобщенные аналитические функции, М., 1988</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#26295">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#26294">Погорелов А. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#26295">Геометрические методы в нелинейной теории упругих оболочек, М., 1967</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#26296">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#26292">Сабитов И. Х.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#26296">Локальная теория изгибаний поверхностей, в кн.: Современные проблемы математики. Фундаментальные направления, М., 1989, т. 48</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#26297">[4]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#708">Войцеховский М. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#26297">в кн.: «математическая энциклопедия», М., 1979, т. 2, с. $491 . \quad$</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#26292">И. Х. Сабитов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[непрерывная деформация поверхности, при которой длины кривых на ней не изменяются. Следовательно, И. п. является непрерывным семейством так наз. изометрических преобразов а н и й поверхности, то есть таких отображений поверхности в пространство, для к-рых поверхность-образ имеет ту же метрику, что и исходная поверхность-прообраз. Если поверхность допускает только тривиальное (то есть сводящееся к движению поверхности в пространстве как твердого тела) изгибание, то она называется н е и з г и б а e м о й. Если для данной поверхности $S$ любая изометричная ей поверхность получается из $S$ движением с возможным добавлением зеркального отражения, то говорят, что $S$ однозначно определяется своей метрикой. Если поверхность $S^{*}$, изометричная $S$, получается из $S$ в процессе нек-рого ее изгибания, то говорят, что $S$ наложима на $S^{*}$. Если поверхность $S$ рассматривается как изометрич. погружение в пространство нек-рого риманова многообразия, то вопрос об однозначной определенности $S$ сводится к вопросу о единственности решения нек-рой системы дифференциальных уравнений, а вопрос об изгибаемости $S-$ к сушествованию для этой системы непрерывного семейства решений, включающего $S$. Пример нетривиального изгибания процесс сворачивания листа бумаги «в трубочку», без разрывов и растяжения материалов.
+
+Начальное поле скоростей гладкого (относительно нек-рого параметра $t$, принимаемого за время) И. п. порождает деформацию, называемую бе сконечно малым и з г и б а н и е м. При нетривиальных (то есть не являющихся начальным полем скоростей нек-рого движения) бесконечно малых И. п. расстояния на поверхности изменяются на порядок $o(t), t \rightarrow 0$, в то время как пространственные расстояния между точками поверхности изменяются, вообще говоря, на порядок $O(t)$. Поверхность, не допускающая нетривиальных бесконечно малых изгибаний, называется же с т к о й, в противном случае - не же с т к о й.
+
+Существование и свойства изгибаний и бесконечно малых И. п. существенно зависят от топологич. типа поверхности, от знака ее кривизны, от степени гладкости поверхности ее деформаций и т. д. Наиболее подробно эти вопросы изучены для поверхностей положительной кривизны в $\mathbb{R}^{3}$. Напр., доказано, что замкнутая выпуклая поверхность является неизгибаемой и жесткой. Примеров замкнутых изгибаемых поверхностей (в классе гладкости $C^{n}, n \geqslant 2$ ) пока неизвестно (1997), хотя замкнутые нежесткие поверхности существуют даже в аналитич. классе гладкости.
+
+Изгибания и, особенно, бесконечно малые изгибания, тесно связаны с теорией упругих оболочек, так как при упругих деформациях растяжения в материале малы по сравнению с возможными изменениями внешней формы оболочки. Геометрич. жесткость или неизгибаемость поверхности означает устойчивость состояния равновесия оболочки в нек-ром диапазоне внутренних напряжений.
+
+Лит.: [1] Векуа И.Н., Обобщенные аналитические функции, М., 1988; [2] По горело в А. В., Геометрические методы в нелинейной теории упругих оболочек, М., 1967; [3] Саби тов И.Х., Локальная теория изгибаний поверхностей, в кн.: Современные проблемы математики. Фундаментальные направления, т. 48, М., 1989; [4] В ой це хо в ск и й М. И., в кн.: «Математическая энциклопедия», т. 2, М., 1979, с. $491 . \quad$ И. Х. Сабитов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1886_NEZhESTKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_969_IZGIBANIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1458_KRIVIZN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2426_PROTEKANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2799_SKOROSTEJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2641_RIMANOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2269_POGREShNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1767_METRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2188_PERVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1767_METRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

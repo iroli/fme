@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12206">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x0007B;</mo><mi>f</mi><mo>&#x0002C;</mo><mi>g</mi><mo stretchy="false">&#x0007D;</mo><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>k</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><msub><mi>p</mi><mrow><mi>k</mi></mrow></msub></mrow></mfrac><mfrac><mrow><mo>&#x02202;</mo><mi>g</mi></mrow><mrow><mo>&#x02202;</mo><msub><mi>q</mi><mrow><mi>k</mi></mrow></msub></mrow></mfrac><mo>&#x02212;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>f</mi></mrow><mrow><mo>&#x02202;</mo><msub><mi>q</mi><mrow><mi>k</mi></mrow></msub></mrow></mfrac><mfrac><mrow><mo>&#x02202;</mo><mi>g</mi></mrow><mrow><mo>&#x02202;</mo><msub><mi>p</mi><mrow><mi>k</mi></mrow></msub></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\{f, g\}=\sum_{k=1}^{n}\left(\frac{\partial f}{\partial p_{k}} \frac{\partial g}{\partial q_{k}}-\frac{\partial f}{\partial q_{k}} \frac{\partial g}{\partial p_{k}}\right)$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

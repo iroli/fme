@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2804_SLABAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2804_SLABAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2004</core:url>
+    <lbm:descriptor><![CDATA[СЛАБАЯ НЕЛИНЕЙНОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#7263"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#14983"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14984"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14985"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14986"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14987"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14988"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14989"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14990"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14991"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14992"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14993"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14994"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Термин, Означающий, что нелинейные члены уравнения (формулы) являются в некотором смысле младшими по сравнению с линейными. Уравнение с параметрами <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14986">$$\delta, h \rightarrow 0$$</a> :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14984">$$L\left(x, u, \delta \frac{\partial u}{\partial x}, \ldots, \partial^{|m|} \frac{\partial^{|m|_{u}}}{\partial x^{m}}, \delta, h\right)=0, \quad x=\left(x_{0}, x_{1}, \ldots, x_{n}\right),$$</a> имеет С. н. на функциях вида <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14987">$$u=\gamma f(S(x) / h, x)$$</a>, если старший член разложения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14988">$$l\left(x, \gamma f(\tau, x), \gamma \frac{\delta}{h} \frac{\partial S}{\partial x} \frac{\partial f(\tau, x)}{\partial \tau}, \ldots, \gamma\left(\frac{\delta}{h}\right)^{|m|}\left(\frac{\partial S}{\partial x}\right)^{m} \frac{\partial^{|m|} f(\tau, x)}{\partial \tau^{|m|}}, \delta, h\right)$$</a><BR/></P><P>в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1654_LORANA">ряд Лорана</a> по $URI[[http://libmeta.ru/fme/formula/aux/2804_4_SLABAJa]]/URI$ линеен относительно <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14989">$$f, \ldots, \partial^{|m|} f / \partial \tau^{|m|}$$</a>. В зависимости от соотношения между <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14990">$$\delta, \gamma$$</a> и $URI[[http://libmeta.ru/fme/formula/aux/2804_7_SLABAJa]]/URI$ одно и то же уравнение может быть нелинейным или С. н. Напр., <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3189_UPRUGOSTI">уравнения теории упругости</a> (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#14983">[1]</a>):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14985">$$\delta^{2} \frac{\partial^{2} u_{i}}{\partial t^{2}}=\delta^{2} \frac{\partial}{\partial x_{k}} \lambda_{i k l m}\left(\frac{\partial u_{l}}{\partial x_{m}}+\frac{\partial u_{m}}{\partial x_{l}}+\delta \frac{\partial u_{j}}{\partial x_{l}} \frac{\partial u_{j}}{\partial x_{m}}\right)$$</a><BR/></P><P>слабо нелинейны на <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14991">$$u=\gamma f(S(x, t) / h, x, t)$$</a> при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14992">$$\delta=\gamma=h$$</a> и нелинейны при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14993">$$\delta=h, \gamma=1$$</a> или <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14994">$$\delta=1, \gamma=h$$</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#14983">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#98">Ландау Л. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1093">Лифшиц Е. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#14983">Теория упругости, М., 1987</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#7263">Г. А. Омельянов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[ТермИН, ОЗНачающИЙ, что нелинейные члены уравнения (формулы) являются в некотором смысле младшими по сравнению с линейными. Уравнение с параметрами $\delta, h \rightarrow 0$ :
+
+\[
+L\left(x, u, \delta \frac{\partial u}{\partial x}, \ldots, \partial^{|m|} \frac{\partial^{|m|_{u}}}{\partial x^{m}}, \delta, h\right)=0, \quad x=\left(x_{0}, x_{1}, \ldots, x_{n}\right),
+\] имеет С. н. на функциях вида $u=\gamma f(S(x) / h, x)$, если старший член разложения
+
+$L\left(x, \gamma f(\tau, x), \gamma \frac{\delta}{h} \frac{\partial S}{\partial x} \frac{\partial f(\tau, x)}{\partial \tau}, \ldots, \gamma\left(\frac{\delta}{h}\right)^{|m|}\left(\frac{\partial S}{\partial x}\right)^{m} \frac{\partial^{|m|} f(\tau, x)}{\partial \tau^{|m|}}, \delta, h\right)$
+
+в ряд Лорана по $h$ линеен относительно $f, \ldots, \partial^{|m|} f / \partial \tau^{|m|}$. В зависимости от соотношения между $\delta, \gamma$ и $h$ одно и то же уравнение может быть нелинейным или С. н. Напр., уравнения теории упругости (см. [1]):
+
+\[
+\delta^{2} \frac{\partial^{2} u_{i}}{\partial t^{2}}=\delta^{2} \frac{\partial}{\partial x_{k}} \lambda_{i k l m}\left(\frac{\partial u_{l}}{\partial x_{m}}+\frac{\partial u_{m}}{\partial x_{l}}+\delta \frac{\partial u_{j}}{\partial x_{l}} \frac{\partial u_{j}}{\partial x_{m}}\right)
+\]
+
+слабо нелинейны на $u=\gamma f(S(x, t) / h, x, t)$ при $\delta=\gamma=h$ и нелинейны при $\delta=h, \gamma=1$ или $\delta=1, \gamma=h$.
+
+Лит.: [1] Л а нда у Л. Д., Л и фш и ц Е. М., Теория упругости, М., 1987.
+Г. А. Омельянов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3189_UPRUGOSTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1654_LORANA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

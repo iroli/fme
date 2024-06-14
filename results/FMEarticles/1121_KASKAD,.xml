@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1121_KASKAD," alphabetic_pos="1123">
+  <title>КАСКАД, ДИНАМИЧЕСКАЯ СИСТЕМА С ДИСКРЕТНЫМ ВРЕМЕНЕМ</title>
+  <authors/>
+  <pages>
+    <start>237</start>
+    <end>238</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1121_1_KASKAD,">S_{n+m}(w)=S_{n}\left(S_{m}(w)\right), w \in W</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1121_2_KASKAD,">S_{n}=(S)^{n} \text { при } n&gt;0, S_{n}=\left(S^{-1}\right)^{n} \text { при } n&lt;0 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1121_1_KASKAD,">\mathbb{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1121_2_KASKAD,">\mathbb{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1121_3_KASKAD,">w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1121_4_KASKAD,">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1121_5_KASKAD,">s_{n}: W \rightarrow W</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1121_6_KASKAD,">s_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1121_7_KASKAD,">s=s_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1121_8_KASKAD,">n&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1121_9_KASKAD,">s</formula>
+  </formulas_aux>
+  <relations n="13">
+    <relation uri="http://libmeta.ru/fme/relation/1121_1_KASKAD,">
+      <rel_text>Символическая динамика</rel_text>
+      <target>http://libmeta.ru/fme/article/2737_SIMVOLIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_2_KASKAD,">
+      <rel_text>полученные</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_3_KASKAD,">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_4_KASKAD,">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_5_KASKAD,">
+      <rel_text>получаются</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_6_KASKAD,">
+      <rel_text>полугруппы</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_7_KASKAD,">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_8_KASKAD,">
+      <rel_text>действия</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_9_KASKAD,">
+      <rel_text>фазовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_10_KASKAD,">
+      <rel_text>полугруппы</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_11_KASKAD,">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_12_KASKAD,">
+      <rel_text>действием</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1121_13_KASKAD,">
+      <rel_text>динамическая система</rel_text>
+      <target>http://libmeta.ru/fme/article/826_DINAMIChESKAJa</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/1121_13_KASKAD,]]/URI, определяемая URI[[http://libmeta.ru/fme/relation/1121_12_KASKAD,]]/URI аддитивной URI[[http://libmeta.ru/fme/relation/1121_11_KASKAD,]]/URI целых чисел $URI[[http://libmeta.ru/fme/formula/aux/1121_1_KASKAD,]]/URI$ (или аддитивной URI[[http://libmeta.ru/fme/relation/1121_10_KASKAD,]]/URI натуральных чисел $URI[[http://libmeta.ru/fme/formula/aux/1121_2_KASKAD,]]/URI$ ) на некотором URI[[http://libmeta.ru/fme/relation/1121_9_KASKAD,]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1121_3_KASKAD,]]/URI$. Согласно общему определению URI[[http://libmeta.ru/fme/relation/1121_8_KASKAD,]]/URI URI[[http://libmeta.ru/fme/relation/1121_7_KASKAD,]]/URI (URI[[http://libmeta.ru/fme/relation/1121_6_KASKAD,]]/URI), это означает, что каждому целому (натуральному) числу $URI[[http://libmeta.ru/fme/formula/aux/1121_4_KASKAD,]]/URI$ сопоставлено нек-рое преобразование $URI[[http://libmeta.ru/fme/formula/aux/1121_5_KASKAD,]]/URI$, причем
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1121_1_KASKAD,]]/URI
+\]
+
+Поэтому все преобразования $URI[[http://libmeta.ru/fme/formula/aux/1121_6_KASKAD,]]/URI$ URI[[http://libmeta.ru/fme/relation/1121_5_KASKAD,]]/URI из одного преобразования $URI[[http://libmeta.ru/fme/formula/aux/1121_7_KASKAD,]]/URI$ посредством итерирования и (если $URI[[http://libmeta.ru/fme/formula/aux/1121_8_KASKAD,]]/URI$ ) обращения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1121_2_KASKAD,]]/URI
+\]
+
+Тем самым изучение К. по существу сводится к изучению свойств порождающего его преобразования $URI[[http://libmeta.ru/fme/formula/aux/1121_9_KASKAD,]]/URI$, и в этом смысле К. являются простейшими URI[[http://libmeta.ru/fme/relation/1121_4_KASKAD,]]/URI. системами. Поэтому К. исследуются весьма интенсивно, хотя в приложениях чаще всего встречаются URI[[http://libmeta.ru/fme/relation/1121_3_KASKAD,]]/URI. системы с непрерывным временем (потоки). Принципиальная сторона дела для потоков и К. обычно одинакова, но случай К. несколько проще технически, и в то же время URI[[http://libmeta.ru/fme/relation/1121_2_KASKAD,]]/URI для них результаты часто без особого труда удается перенести на потоки - иногда путем формальной редукции свойств потоков к свойствам К., но чаще путем нек-рого видоизменения доказательств.
+
+См. также URI[[http://libmeta.ru/fme/relation/1121_1_KASKAD,]]/URI.</text>
+  <text_orig>динамическая система, определяемая действием аддитивной группы целых чисел $\mathbb{Z}$ (или аддитивной полугруппы натуральных чисел $\mathbb{N}$ ) на некотором фазовом пространстве $W$. Согласно общему определению действия группы (полугруппы), это означает, что каждому целому (натуральному) числу $n$ сопоставлено нек-рое преобразование $S_{n}: W \rightarrow W$, причем
+
+\[
+S_{n+m}(w)=S_{n}\left(S_{m}(w)\right), w \in W
+\]
+
+Поэтому все преобразования $S_{n}$ получаются из одного преобразования $S=S_{1}$ посредством итерирования и (если $n&lt;0$ ) обращения:
+
+\[
+S_{n}=(S)^{n} \text { при } n&gt;0, S_{n}=\left(S^{-1}\right)^{n} \text { при } n&lt;0 .
+\]
+
+Тем самым изучение К. по существу сводится к изучению свойств порождающего его преобразования $S$, и в этом смысле К. являются простейшими динамич. системами. Поэтому К. исследуются весьма интенсивно, хотя в приложениях чаще всего встречаются динамич. системы с непрерывным временем (потоки). Принципиальная сторона дела для потоков и К. обычно одинакова, но случай К. несколько проще технически, и в то же время полученные для них результаты часто без особого труда удается перенести на потоки - иногда путем формальной редукции свойств потоков к свойствам К., но чаще путем нек-рого видоизменения доказательств.
+
+См. также Символическая динамика.</text_orig>
+</article>

@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2884_SPEKTRAL'NAJa" alphabetic_pos="2886">
+  <title>СПЕКТРАЛЬНАЯ ПЛОТНОСТЬ СТАЦИОНАРНОЙ СЛУЧАЙНОЙ ФУНКЦИИ $\left\{\xi_{t}, t \in T\right\}$</title>
+  <authors>
+    <author>Р. А. Минлос</author>
+  </authors>
+  <pages>
+    <start>561</start>
+    <end>561</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Гихман И. И., Скороход А. В., Введение в теорию случайных процессов, 2 изд., М., $1977 . \quad$</literature_orig>
+    <unit>
+      <author>Гихман И. И.</author>
+      <author>Скороход А. В.</author>
+      <title>Введение в теорию случайных процессов</title>
+      <publication>2 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2884_1_SPEKTRAL'NAJa">\xi_{t}=\int_{\Lambda} \exp \{i(t, \lambda)\} Z(d \lambda) \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2884_2_SPEKTRAL'NAJa">(t, \lambda)=\sum_{i=2}^{v} t^{(i)} \lambda^{(i)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2884_3_SPEKTRAL'NAJa">\begin{gathered}D\left(t_{1}, t_{2}\right) \equiv\left\langle\left(\xi_{t_{1}}-\left\langle\xi_{t_{1}}\right\rangle\right)\left(\xi_{t_{2}}-\left\langle\xi_{t_{2}}\right\rangle\right)\right\rangle= \\=\int_{\Lambda} \exp \left\{i\left[\lambda,\left(t_{1}-t_{2}\right)\right]\right\} p(\lambda) d \lambda,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2884_4_SPEKTRAL'NAJa">\left\langle|Z(d \lambda)-\langle Z(d \lambda)\rangle|^{2}\right\rangle=p(\lambda) d \lambda+O(d \lambda),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2884_5_SPEKTRAL'NAJa">p(\lambda)=\frac{1}{(2 \pi)^{v}} \int_{\mathbb{R}^{v}} \exp \{-i(t, \lambda)\} D(t, 0) d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2884_6_SPEKTRAL'NAJa">p(\lambda)=\frac{1}{2 \pi} \sum_{t=-\infty}^{\infty} \exp \{-i t \lambda\} D(t, 0)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_1_SPEKTRAL'NAJa">\xi_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_2_SPEKTRAL'NAJa">\left(t=\mathbb{r}^{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_3_SPEKTRAL'NAJa">\left(t=\mathbb{r}^{v}, v&gt;1\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_4_SPEKTRAL'NAJa">\left\{\xi_{t}, t \in T\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_5_SPEKTRAL'NAJa">\lambda=(-\pi, \pi) \subset \mathbb{R}^{1}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_6_SPEKTRAL'NAJa">\lambda=\mathbb{r}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_7_SPEKTRAL'NAJa">\lambda=\mathbb{r}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_8_SPEKTRAL'NAJa">z(d \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_9_SPEKTRAL'NAJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_10_SPEKTRAL'NAJa">\langle Z(A) \bar{Z}(B)\rangle=0, A, B \subseteq \Lambda ; A \cap B=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_11_SPEKTRAL'NAJa">\quad(t, \lambda)=t \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_12_SPEKTRAL'NAJa">d\left(t_{1}, t_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_13_SPEKTRAL'NAJa">\xi_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_14_SPEKTRAL'NAJa">t_{1}, t_{2} \in T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_15_SPEKTRAL'NAJa">p(\lambda) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_16_SPEKTRAL'NAJa">\xi_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_17_SPEKTRAL'NAJa">(v=1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_18_SPEKTRAL'NAJa">(v&gt;1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2884_19_SPEKTRAL'NAJa">p(\lambda)</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2884_1_SPEKTRAL'NAJa">
+      <rel_text>случайной последовательности</rel_text>
+      <target>http://libmeta.ru/fme/article/2815_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2884_2_SPEKTRAL'NAJa">
+      <rel_text>случайного процесса</rel_text>
+      <target>http://libmeta.ru/fme/article/2823_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2884_3_SPEKTRAL'NAJa">
+      <rel_text>случайной функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2817_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2884_4_SPEKTRAL'NAJa">
+      <rel_text>спектральной плотностью URI[[http://libme</rel_text>
+      <target>http://libmeta.ru/fme/article/2884_SPEKTRAL'NAJa</target>
+    </relation>
+  </relations>
+  <text>дисперсия случайной амплитуды той или иной гармоники, входящей в спектральное (гармоническое) разложение $URI[[http://libmeta.ru/fme/formula/aux/2884_1_SPEKTRAL'NAJa]]/URI$. Для более точного определения С. п. рассмотрим случаи, когда случайная функция представляет собой: а) стационарную случайную последовательность (t- множество целых чисел), б) стационарный случайный процесс $URI[[http://libmeta.ru/fme/formula/aux/2884_2_SPEKTRAL'NAJa]]/URI$, в) стационарное случайное поле $URI[[http://libmeta.ru/fme/formula/aux/2884_3_SPEKTRAL'NAJa]]/URI$. Во всех случаях функция $URI[[http://libmeta.ru/fme/formula/aux/2884_4_SPEKTRAL'NAJa]]/URI$ при довольно общих условиях допускает следующее разложение на гармоники (спектральное представление):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2884_1_SPEKTRAL'NAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2884_5_SPEKTRAL'NAJa]]/URI$ для случайной последовательности, $URI[[http://libmeta.ru/fme/formula/aux/2884_6_SPEKTRAL'NAJa]]/URI$ - для случайного процесса и $URI[[http://libmeta.ru/fme/formula/aux/2884_7_SPEKTRAL'NAJa]]/URI$ - для случайного поля; $URI[[http://libmeta.ru/fme/formula/aux/2884_8_SPEKTRAL'NAJa]]/URI$ - случайная мера (вообще говоря, комплекснозначная), определенная на подмножествах из $URI[[http://libmeta.ru/fme/formula/aux/2884_9_SPEKTRAL'NAJa]]/URI$, и ее значения на непересекающихся множествах не коррелированы:
+
+$URI[[http://libmeta.ru/fme/formula/aux/2884_10_SPEKTRAL'NAJa]]/URI$
+
+в формуле (1) $URI[[http://libmeta.ru/fme/formula/aux/2884_11_SPEKTRAL'NAJa]]/URI$
+
+для случаев а) и б) и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2884_2_SPEKTRAL'NAJa]]/URI
+\]
+
+для случая в). Из представления (1) и соотношения (2) вытекает, что корреляция $URI[[http://libmeta.ru/fme/formula/aux/2884_12_SPEKTRAL'NAJa]]/URI$ значений $URI[[http://libmeta.ru/fme/formula/aux/2884_13_SPEKTRAL'NAJa]]/URI$ в двух точках $URI[[http://libmeta.ru/fme/formula/aux/2884_14_SPEKTRAL'NAJa]]/URI$ равна:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2884_3_SPEKTRAL'NAJa]]/URI
+\]
+
+где функция $URI[[http://libmeta.ru/fme/formula/aux/2884_15_SPEKTRAL'NAJa]]/URI$, определяемая соотношением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2884_4_SPEKTRAL'NAJa]]/URI
+\]
+
+называется URI[[http://libmeta.ru/fme/relation/2884_4_SPEKTRAL'NAJa]]/URIta.ru/fme/relation/2884_3_SPEKTRAL'NAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2884_16_SPEKTRAL'NAJa]]/URI$ Из формулы (3) следует, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2884_5_SPEKTRAL'NAJa]]/URI
+\]
+
+для URI[[http://libmeta.ru/fme/relation/2884_2_SPEKTRAL'NAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2884_17_SPEKTRAL'NAJa]]/URI$ или случайного поля $URI[[http://libmeta.ru/fme/formula/aux/2884_18_SPEKTRAL'NAJa]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2884_6_SPEKTRAL'NAJa]]/URI
+\]
+
+для URI[[http://libmeta.ru/fme/relation/2884_1_SPEKTRAL'NAJa]]/URI.
+
+Заметим, что формулы (4) и (5) дают способ непосредственного нахождения С. п. $URI[[http://libmeta.ru/fme/formula/aux/2884_19_SPEKTRAL'NAJa]]/URI$, не использующего разложение (1).</text>
+  <text_orig>дисперсия случайной амплитуды той или иной гармоники, входяшей в спектральное (гармоническое) разложение $\xi_{t}$. Для более точного определения С. п. рассмотрим случаи, когда случайная функция представляет собой: а) стационарную случайную последовательность (T- множество целых чисел), б) стационарный случайный процесс $\left(T=\mathbb{R}^{1}\right)$, в) стационарное случайное поле $\left(T=\mathbb{R}^{v}, v&gt;1\right)$. Во всех случаях функция $\left\{\xi_{t}, t \in T\right\}$ при довольно общих условиях допускает следуюшее разложение на гармоники (спектральное представление):
+
+\[
+\xi_{t}=\int_{\Lambda} \exp \{i(t, \lambda)\} Z(d \lambda) \text {, }
+\]
+
+где $\Lambda=(-\pi, \pi) \subset \mathbb{R}^{1}-$ для случайной последовательности, $\Lambda=\mathbb{R}^{1}$ - для случайного процесса и $\Lambda=\mathbb{R}^{v}$ - для случайного поля; $Z(d \lambda)$ - случайная мера (вообще говоря, комплекснозначная), определенная на подмножествах из $\Lambda$, и ее значения на непересекающихся множествах не коррелированы:
+
+$\langle Z(A) \bar{Z}(B)\rangle=0, A, B \subseteq \Lambda ; A \cap B=0$
+
+в формуле (1) $\quad(t, \lambda)=t \lambda$
+
+для случаев а) и б) и
+
+\[
+(t, \lambda)=\sum_{i=2}^{v} t^{(i)} \lambda^{(i)}
+\]
+
+для случая в). Из представления (1) и соотношения (2) вытекает, что корреляция $D\left(t_{1}, t_{2}\right)$ значений $\xi_{t}$ в двух точках $t_{1}, t_{2} \in T$ равна:
+
+\[
+\begin{gathered}
+D\left(t_{1}, t_{2}\right) \equiv\left\langle\left(\xi_{t_{1}}-\left\langle\xi_{t_{1}}\right\rangle\right)\left(\xi_{t_{2}}-\left\langle\xi_{t_{2}}\right\rangle\right)\right\rangle= \\
+=\int_{\Lambda} \exp \left\{i\left[\lambda,\left(t_{1}-t_{2}\right)\right]\right\} p(\lambda) d \lambda,
+\end{gathered}
+\]
+
+где функция $p(\lambda) \geqslant 0$, определяемая соотношением
+
+\[
+\left\langle|Z(d \lambda)-\langle Z(d \lambda)\rangle|^{2}\right\rangle=p(\lambda) d \lambda+O(d \lambda),
+\]
+
+называется спектральной плотностью случайной функции $\xi_{t}$ Из формулы (3) следует, что
+
+\[
+p(\lambda)=\frac{1}{(2 \pi)^{v}} \int_{\mathbb{R}^{v}} \exp \{-i(t, \lambda)\} D(t, 0) d t
+\]
+
+для случайного процесса $(v=1)$ или случайного поля $(v&gt;1)$ и
+
+\[
+p(\lambda)=\frac{1}{2 \pi} \sum_{t=-\infty}^{\infty} \exp \{-i t \lambda\} D(t, 0)
+\]
+
+для случайной последовательности.
+
+Заметим, что формулы (4) и (5) дают способ непосредственного нахождения С. п. $p(\lambda)$, не использующего разложение (1).
+
+Лит.: [1] Гихман И. И., Скороход А. В., Введение в теорию случайных процессов, 2 изд., М., $1977 . \quad$ Р. А. Минлос.</text_orig>
+</article>

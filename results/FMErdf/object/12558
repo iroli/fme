@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12558">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo>&#x0222C;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">p</mi></mrow><mo>&#x0002C;</mo><mrow><mi mathvariant="bold-italic">r</mi></mrow><mo stretchy="false">&#x00029;</mo><msup><mi>d</mi><mrow><mn>3</mn></mrow></msup><mrow><mi mathvariant="bold-italic">v</mi></mrow><msup><mi>d</mi><mrow><mn>3</mn></mrow></msup><mrow><mi mathvariant="bold-italic">r</mi></mrow><mo>&#x0003D;</mo><mi>N</mi><mo>&#x0002C;</mo><mspace linebreak="newline" /><mrow><mi mathvariant="bold-italic">v</mi></mrow><mo>&#x0003D;</mo><mrow><mi mathvariant="bold-italic">p</mi></mrow><mo>&#x0002F;</mo><mi>m</mi><mo>&#x0002C;</mo><mspace width="1em" /><msup><mi>d</mi><mrow><mn>3</mn></mrow></msup><mrow><mi mathvariant="bold-italic">v</mi></mrow><mo>&#x0003D;</mo><mi>d</mi><msub><mi>v</mi><mrow><mi>x</mi></mrow></msub><mi>d</mi><msub><mi>v</mi><mrow><mi>y</mi></mrow></msub><mi>d</mi><msub><mi>v</mi><mrow><mi>z</mi></mrow></msub><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\iint f(\boldsymbol{p}, \boldsymbol{r}) d^{3} \boldsymbol{v} d^{3} \boldsymbol{r}=N, \\\boldsymbol{v}=\boldsymbol{p} / m, \quad d^{3} \boldsymbol{v}=d v_{x} d v_{y} d v_{z} .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

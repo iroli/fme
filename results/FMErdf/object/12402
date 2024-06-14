@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12402">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>d</mi><mo>&#x0003C;</mo><msub><mi>d</mi><mrow><mn>0</mn></mrow></msub><mo>&#x02261;</mo><mfrac><mrow><mi>ln</mi><mn>2</mn></mrow><mrow><mi>k</mi><msup><mi>&#x003BB;</mi><mrow><mo>&#x02212;</mo><mn>1</mn></mrow></msup></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mi>v</mi><mfrac><mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mi>v</mi></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#x02212;</mo><mn>1</mn><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x00021;</mo></mrow><mrow><mn>2</mn><msup><mi>&#x003C0;</mi><mrow><mi>v</mi><mo>&#x0002F;</mo><mn>2</mn></mrow></msup></mrow></mfrac><mo stretchy="true" fence="true" form="postfix" /></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$d&lt;d_{0} \equiv \frac{\ln 2}{k \lambda^{-1}}\left\{v \frac{\left(\frac{v}{2}-1\right) !}{2 \pi^{v / 2}}\right.$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,229 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2956_STEPENNOJ" alphabetic_pos="2958">
+  <title>СТЕПЕННОЙ РЯД</title>
+  <authors/>
+  <pages>
+    <start>580</start>
+    <end>581</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б и цадзе А. Б., Основы теории аналитических функций комплексного переменного, 2 изд., М., 1972; [2] М а р куш е в и ч А. И., Теория аналитических функций, 2 изд., т. 1, М., 1967; [3] Владим и ров В. С., Методы теории функций многих комплексных переменных, М., 1964; [4] Ш а бат Б. В., Введение в комплексный анализ, 2 изд., ч. 1-2, М., 1976.</literature_orig>
+    <unit>
+      <author>Бицадзе А. Б.</author>
+      <title>Основы теории аналитических функций комплексного переменного</title>
+      <publication>2 изд., М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маркушевич А. И.</author>
+      <title>Теория аналитических функций</title>
+      <publication>2 изд., т. 1, М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Методы теории функций многих комплексных переменных</title>
+      <publication>М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Шабат Б. В.</author>
+      <title>Введение в комплексный анализ</title>
+      <publication>2 изд., ч. 1-2, М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2956_1_STEPENNOJ">s(z)=\sum_{k=0}^{\infty} b_{k}(z-a)^{k},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2956_2_STEPENNOJ">r=\frac{1}{\limsup _{k \rightarrow \infty} \sqrt[k]{\left|b_{k}\right|}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2956_3_STEPENNOJ">\sum_{k=0}^{\infty} k !(z-a)^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2956_4_STEPENNOJ">\sum_{k=0}^{\infty} \frac{1}{k !}(z-a)^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2956_5_STEPENNOJ">s(z)=\sum_{k=0}^{m} b_{k}(z-a)^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2956_6_STEPENNOJ">f(z)=\sum_{k=0}^{\infty} b_{k}(z-a)^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2956_7_STEPENNOJ">b_{k}=\frac{f^{(k)}(a)}{k !}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2956_8_STEPENNOJ">\begin{gathered}s(z)=\sum_{|k|=0}^{\infty} b_{k}(z-a)^{k}= \\=\sum_{k_{1}=0}^{\infty} \cdots \sum_{k_{n}=0}^{\infty} b_{k_{1} \ldots k_{n}}\left(z_{1}-a_{1}\right)^{k_{1}} \ldots\left(z_{n}-a_{n}\right)^{k_{n}},\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_1_STEPENNOJ">z-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_2_STEPENNOJ">a-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_3_STEPENNOJ">b_{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_4_STEPENNOJ">b_{k}(z-a)^{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_5_STEPENNOJ">r, 0 \leqslant r \leqslant \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_6_STEPENNOJ">|z-a|&lt;r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_7_STEPENNOJ">|z-a|&gt;r-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_8_STEPENNOJ">d=\{z \in \mathbb{C}:|z-a|&lt;r\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_9_STEPENNOJ">\mathbb{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_10_STEPENNOJ">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_11_STEPENNOJ">r=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_12_STEPENNOJ">z=a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_13_STEPENNOJ">r&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_14_STEPENNOJ">r=\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_15_STEPENNOJ">\mathbb{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_16_STEPENNOJ">\mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_17_STEPENNOJ">0&lt;r&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_18_STEPENNOJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_19_STEPENNOJ">s=\{z \in \mathbb{C}:|z-a|=r\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_20_STEPENNOJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_21_STEPENNOJ">k \subset D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_22_STEPENNOJ">s(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_23_STEPENNOJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_24_STEPENNOJ">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_25_STEPENNOJ">s(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_26_STEPENNOJ">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_27_STEPENNOJ">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_28_STEPENNOJ">r=\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_29_STEPENNOJ">s(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_30_STEPENNOJ">\mathbb{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_31_STEPENNOJ">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_32_STEPENNOJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_33_STEPENNOJ">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_34_STEPENNOJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_35_STEPENNOJ">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_36_STEPENNOJ">s(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_37_STEPENNOJ">e \subset D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_38_STEPENNOJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_39_STEPENNOJ">s(z) \equiv 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_40_STEPENNOJ">b_{k}=0, k=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_41_STEPENNOJ">s(z)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_42_STEPENNOJ">z_{0} \in D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_43_STEPENNOJ">s(z) \equiv 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_44_STEPENNOJ">b_{k}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_45_STEPENNOJ">z=\left(z_{1}, \ldots, z_{n}\right), n&gt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_46_STEPENNOJ">b_{k}=b_{k_{1}} \ldots k_{n},(z-a)^{k}=\left(z_{1}-a_{1}\right)^{k_{1}} \ldots\left(z_{n}-a_{n}\right)^{k_{n}},|k|=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_47_STEPENNOJ">=k_{1}+\ldots+k_{n}, a=\left(a_{1}, \ldots, a_{n}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_48_STEPENNOJ">\mathbb{c}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_49_STEPENNOJ">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_50_STEPENNOJ">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_51_STEPENNOJ">n&gt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2956_52_STEPENNOJ">n=1</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/2956_1_STEPENNOJ">
+      <rel_text>центр</rel_text>
+      <target>http://libmeta.ru/fme/article/3381_TsENT</target>
+    </relation>
+  </relations>
+  <text>1) С. р. по о дном у компле кс ному переменному $URI[[http://libmeta.ru/fme/formula/aux/2956_1_STEPENNOJ]]/URI$ функциональный ряд вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2956_1_STEPENNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2956_2_STEPENNOJ]]/URI$ центр ряда, $URI[[http://libmeta.ru/fme/formula/aux/2956_3_STEPENNOJ]]/URI$ его коэффициенты, $URI[[http://libmeta.ru/fme/formula/aux/2956_4_STEPENNOJ]]/URI$ чле ны ряда. Существует число $URI[[http://libmeta.ru/fme/formula/aux/2956_5_STEPENNOJ]]/URI$, называемое радиусом сходимости С. p. (1) и определяемое по формуле Коши - Адамара:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2956_2_STEPENNOJ]]/URI
+\]
+
+такое, что при $URI[[http://libmeta.ru/fme/formula/aux/2956_6_STEPENNOJ]]/URI$ ряд (1) абсолютно сходится, а при $URI[[http://libmeta.ru/fme/formula/aux/2956_7_STEPENNOJ]]/URI$ расходится (теорема Коши - Адамара). В связи с этим круг $URI[[http://libmeta.ru/fme/formula/aux/2956_8_STEPENNOJ]]/URI$ на плоскости $URI[[http://libmeta.ru/fme/formula/aux/2956_9_STEPENNOJ]]/URI$ комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/2956_10_STEPENNOJ]]/URI$ называется кругом сход и м о с т и С. p. В случае $URI[[http://libmeta.ru/fme/formula/aux/2956_11_STEPENNOJ]]/URI$ круг сходимости вырождается в единственную точку $URI[[http://libmeta.ru/fme/formula/aux/2956_12_STEPENNOJ]]/URI$, напр. для С. p.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2956_3_STEPENNOJ]]/URI
+\]
+
+(этот случай интереса не представляет, и всюду в дальнейшем предполагается, что $URI[[http://libmeta.ru/fme/formula/aux/2956_13_STEPENNOJ]]/URI$ ). В случае $URI[[http://libmeta.ru/fme/formula/aux/2956_14_STEPENNOJ]]/URI$ круг сходимости совпадает со всей плоскостью $URI[[http://libmeta.ru/fme/formula/aux/2956_15_STEPENNOJ]]/URI$, напр. для $URI[[http://libmeta.ru/fme/formula/aux/2956_16_STEPENNOJ]]/URI$. p.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2956_4_STEPENNOJ]]/URI
+\]
+
+Множество сходимости, то есть совокупность всех точек сходимости С. р. (1), в случае $URI[[http://libmeta.ru/fme/formula/aux/2956_17_STEPENNOJ]]/URI$, кроме точек круга сходимости $URI[[http://libmeta.ru/fme/formula/aux/2956_18_STEPENNOJ]]/URI$ может включать все или нек-рые точки, или ни одной точки окружности сходимости $URI[[http://libmeta.ru/fme/formula/aux/2956_19_STEPENNOJ]]/URI$ К Круг сходимости в этом случае есть внутренность множества точек абсолютной сходимости C. p.
+
+Внутри круга $URI[[http://libmeta.ru/fme/formula/aux/2956_20_STEPENNOJ]]/URI$, то есть на любом компакте $URI[[http://libmeta.ru/fme/formula/aux/2956_21_STEPENNOJ]]/URI$, C. p. (1) сходится абсолютно и равномерно. Таким образом, с ум ма р яда $URI[[http://libmeta.ru/fme/formula/aux/2956_22_STEPENNOJ]]/URI$ определена и является регулярной аналитич. функцией по крайней мере в круге $URI[[http://libmeta.ru/fme/formula/aux/2956_23_STEPENNOJ]]/URI$. При этом на окружности $URI[[http://libmeta.ru/fme/formula/aux/2956_24_STEPENNOJ]]/URI$ она имеет по меньшей мере одну особую точку, аналитическое продолжение в к-рую суммы $URI[[http://libmeta.ru/fme/formula/aux/2956_25_STEPENNOJ]]/URI$ невозможно. Существуют С. р., имеющие на $URI[[http://libmeta.ru/fme/formula/aux/2956_26_STEPENNOJ]]/URI$ в точности одну особую точку, равно как и С. р., у к-рых вся окружность $URI[[http://libmeta.ru/fme/formula/aux/2956_27_STEPENNOJ]]/URI$ состоит из особых точек.
+
+В случае $URI[[http://libmeta.ru/fme/formula/aux/2956_28_STEPENNOJ]]/URI$ ряд (1) либо обрывается, то есть представляет собой многочлен
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2956_5_STEPENNOJ]]/URI
+\]
+
+либо его сумма $URI[[http://libmeta.ru/fme/formula/aux/2956_29_STEPENNOJ]]/URI$ есть целая трансцендентная функция, регулярная во всей плоскости $URI[[http://libmeta.ru/fme/formula/aux/2956_30_STEPENNOJ]]/URI$ и имеющая в бесконечности существенно особую точку.
+
+Обратно, само понятие аналитичности функции $URI[[http://libmeta.ru/fme/formula/aux/2956_31_STEPENNOJ]]/URI$ в точке $URI[[http://libmeta.ru/fme/formula/aux/2956_32_STEPENNOJ]]/URI$ состоит в том, что $URI[[http://libmeta.ru/fme/formula/aux/2956_33_STEPENNOJ]]/URI$ в нек-рой окрестности $URI[[http://libmeta.ru/fme/formula/aux/2956_34_STEPENNOJ]]/URI$ разлагается в С. p.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2956_6_STEPENNOJ]]/URI
+\]
+
+К-рый является для $URI[[http://libmeta.ru/fme/formula/aux/2956_35_STEPENNOJ]]/URI$ рядом Те йлора, то есть его коэффициенты определяются формулами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2956_7_STEPENNOJ]]/URI
+\]
+
+В связи с этим важно с войст во еди нст венности C. р.: если сумма $URI[[http://libmeta.ru/fme/formula/aux/2956_36_STEPENNOJ]]/URI$ ряда (1) обращается в нуль на бесконечном множестве $URI[[http://libmeta.ru/fme/formula/aux/2956_37_STEPENNOJ]]/URI$, имеющем предельную точку внутри $URI[[http://libmeta.ru/fme/formula/aux/2956_38_STEPENNOJ]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2956_39_STEPENNOJ]]/URI$ и все $URI[[http://libmeta.ru/fme/formula/aux/2956_40_STEPENNOJ]]/URI$ В частности, если $URI[[http://libmeta.ru/fme/formula/aux/2956_41_STEPENNOJ]]/URI$ в окрестности нек-рой точки $URI[[http://libmeta.ru/fme/formula/aux/2956_42_STEPENNOJ]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2956_43_STEPENNOJ]]/URI$ и все $URI[[http://libmeta.ru/fme/formula/aux/2956_44_STEPENNOJ]]/URI$. Таким образом, всякий С. р. есть ряд Тейлора для своей суммы.
+
+2) С. р. по многим комплексным перемен ным $URI[[http://libmeta.ru/fme/formula/aux/2956_45_STEPENNOJ]]/URI$, или крат ны й С. р.- функциональный ряд вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2956_8_STEPENNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2956_46_STEPENNOJ]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2956_47_STEPENNOJ]]/URI$ URI[[http://libmeta.ru/fme/relation/2956_1_STEPENNOJ]]/URI ряда, точка комплекс- ного пространства $URI[[http://libmeta.ru/fme/formula/aux/2956_48_STEPENNOJ]]/URI$. Обл а с тью с ходи мост и $URI[[http://libmeta.ru/fme/formula/aux/2956_49_STEPENNOJ]]/URI$ С. $URI[[http://libmeta.ru/fme/formula/aux/2956_50_STEPENNOJ]]/URI$. (3) называется внутренность множества точек абсолютной сходимости, но при $URI[[http://libmeta.ru/fme/formula/aux/2956_51_STEPENNOJ]]/URI$ она не имеет столь простого вида, как при $URI[[http://libmeta.ru/fme/formula/aux/2956_52_STEPENNOJ]]/URI$.</text>
+  <text_orig>1) С. р. по о дном у компле кс ному переменному $z-$ функциональный ряд вида:
+
+\[
+s(z)=\sum_{k=0}^{\infty} b_{k}(z-a)^{k},
+\]
+
+где $a-$ центр ряда, $b_{k}-$ его коэффициенты, $b_{k}(z-a)^{k}-$ чле ны ряда. Существует число $r, 0 \leqslant r \leqslant \infty$, называемое радиусом сходимости С. p. (1) и определяемое по формуле Коши - Адамара:
+
+\[
+r=\frac{1}{\limsup _{k \rightarrow \infty} \sqrt[k]{\left|b_{k}\right|}}
+\]
+
+такое, что при $|z-a|&lt;r$ ряд (1) абсолютно сходится, а при $|z-a|&gt;r-$ расходится (теорема Коши - Адамара). В связи с этим круг $D=\{z \in \mathbb{C}:|z-a|&lt;r\}$ на плоскости $\mathbb{C}$ комплексного переменного $z$ называется кругом сход и м о с т и С. p. В случае $r=0$ круг сходимости вырождается в единственную точку $z=a$, напр. для С. p.
+
+\[
+\sum_{k=0}^{\infty} k !(z-a)^{k}
+\]
+
+(этот случай интереса не представляет, и всюду в дальнейшем предполагается, что $r&gt;0$ ). В случае $r=\infty$ круг сходимости совпадает со всей плоскостью $\mathbb{C}$, напр. для $\mathrm{C}$. p.
+
+\[
+\sum_{k=0}^{\infty} \frac{1}{k !}(z-a)^{k}
+\]
+
+Множество сходимости, то есть совокупность всех точек сходимости С. р. (1), в случае $0&lt;r&lt;\infty$, кроме точек круга сходимости $D$ может включать все или нек-рые точКИ, или ни одной точки окружности сходимости $S=\{z \in \mathbb{C}:|z-a|=r\}$ К Круг сходимости в этом случае есть внутренность множества точек абсолютной сходимости C. p.
+
+Внутри круга $D$, то есть на любом компакте $K \subset D$, C. p. (1) сходится абсолютно и равномерно. Таким образом, с ум ма р яда $s(z)$ определена и является регулярной аналитич. функцией по крайней мере в круге $D$. При этом на окружности $S$ она имеет по меньшей мере одну особую точку, аналитическое продолжение в к-рую суммы $s(z)$ невозможно. Существуют С. р., имеющие на $S$ в точности одну особую точку, равно как и С. р., у к-рых вся окружность $S$ состоит из особых точек.
+
+В случае $r=\infty$ ряд (1) либо обрывается, то есть представляет собой многочлен
+
+\[
+s(z)=\sum_{k=0}^{m} b_{k}(z-a)^{k}
+\]
+
+либо его сумма $s(z)$ есть целая трансцендентная функция, регулярная во всей плоскости $\mathbb{C}$ и имеюшая в бесконечности суцественно особую точку.
+
+Обратно, само понятие аналитичности функции $f(z)$ в точке $a$ состоит в том, что $f(z)$ в нек-рой окрестности $a$ разлагается в С. p.:
+
+\[
+f(z)=\sum_{k=0}^{\infty} b_{k}(z-a)^{k}
+\]
+
+К-рый является для $f(z)$ рядом Те йлора, то есть его коэффициенты определяются формулами
+
+\[
+b_{k}=\frac{f^{(k)}(a)}{k !}
+\]
+
+В связи с этим важно с войст во еди нст венности C. р.: если сумма $s(z)$ ряда (1) обращается в нуль на бесконечном множестве $E \subset D$, имеющем предельную точку внутри $D$, то $s(z) \equiv 0$ и все $b_{k}=0, k=0,1, \ldots$ В частности, если $s(z)=0$ в окрестности нек-рой точки $z_{0} \in D$, то $s(z) \equiv 0$ и все $b_{k}=0$. Таким образом, всякий С. р. есть ряд Тейлора для своей суммы.
+
+2) С. р. по многим комплексным перемен ным $z=\left(z_{1}, \ldots, z_{n}\right), n&gt;1$, или крат ны й С. р.- функциональный ряд вида:
+
+\[
+\begin{gathered}
+s(z)=\sum_{|k|=0}^{\infty} b_{k}(z-a)^{k}= \\
+=\sum_{k_{1}=0}^{\infty} \cdots \sum_{k_{n}=0}^{\infty} b_{k_{1} \ldots k_{n}}\left(z_{1}-a_{1}\right)^{k_{1}} \ldots\left(z_{n}-a_{n}\right)^{k_{n}},
+\end{gathered}
+\]
+
+где $b_{k}=b_{k_{1}} \ldots k_{n},(z-a)^{k}=\left(z_{1}-a_{1}\right)^{k_{1}} \ldots\left(z_{n}-a_{n}\right)^{k_{n}},|k|=$ $=k_{1}+\ldots+k_{n}, a=\left(a_{1}, \ldots, a_{n}\right)-$ центр ряда, точка комплекс- ного пространства $\mathbb{C}^{n}$. Обл а с тью с ходи мост и $D$ С. $\mathrm{p}$. (3) называется внутренность множества точек абсолютной сходимости, но при $n&gt;1$ она не имеет столь простого вида, как при $n=1$.
+
+Лит.: [1] Б и цадзе А. Б., Основы теории аналитических функций комплексного переменного, 2 изд., М., 1972; [2] М а р куш е в и ч А. И., Теория аналитических функций, 2 изд., т. 1, М., 1967; [3] Владим и ров В. С., Методы теории функций многих комплексных переменных, М., 1964; [4] Ш а бат Б. В., Введение в комплексный анализ, 2 изд., ч. 1-2, М., 1976.</text_orig>
+</article>

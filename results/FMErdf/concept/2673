@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3406_ChAPLYGINA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3406_ChAPLYGINA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2673</core:url>
+    <lbm:descriptor><![CDATA[ЧАПЛЫГИНА ЗАДАЧА О ДВИЖЕНИИ ТВЕРДОГО ТЕЛА В ЖИДКОСТИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#20144"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20145"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20146"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20147"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20148"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20149"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7323"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>задача, решение которой найдено С. А. Чаплыгиным в 1903 (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#20145">[1]</a>). Ч. з. отвечает случаю, когда живая сила имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20146">$$T=\frac{a}{2}\left(P_{1}^{2}+P_{2}^{2}+2 P_{3}^{2}+(b+c) R_{1}^{2}+(b-c) R_{2}^{2}+b R_{3}^{2}\right),$$</a> где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20149">$$r_{i}, P_{i}-$$</a> проекции главного вектора и главного момента импульсов на оси, связанные с телом. Уравнения Кирхгофа - Клебша в этом случае помимо интегралов<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20147">$$F_{1}=R_{1}^{2}+R_{2}^{2}+R_{3}^{2}, \quad F_{2}=T, \quad F_{3}=P_{1} R_{1}+P_{2} R_{2}+P_{3} R_{3}$$</a><BR/></P><P>при выполнении условия <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7323">$$f_{3}=0$$</a> допускают интеграл<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20148">$$F_{4}=\left(P_{1}^{2}-P_{2}^{2}+c R_{3}^{2}\right)^{2}+4 P_{1}^{2} P_{2}^{2}$$</a><BR/></P><P>и интегрируются.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#20145">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#7907">Чаплыгин С. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20145">Собрание сочинений, М.-Л., 1948, т. 1, c. 337-46.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#20144">A. А. Буров</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[задача, решение которой найдено С. А. Чаплыгиным в 1903 (см. [1]). Ч. з. отвечает случаю, когда живая сила имеет вид:
+
+\[
+T=\frac{a}{2}\left(P_{1}^{2}+P_{2}^{2}+2 P_{3}^{2}+(b+c) R_{1}^{2}+(b-c) R_{2}^{2}+b R_{3}^{2}\right),
+\] где $R_{i}, P_{i}-$ проекции главного вектора и главного момента импульсов на оси, связанные с телом. Уравнения Кирхгофа - Клебша в этом случае помимо интегралов
+
+\[
+F_{1}=R_{1}^{2}+R_{2}^{2}+R_{3}^{2}, \quad F_{2}=T, \quad F_{3}=P_{1} R_{1}+P_{2} R_{2}+P_{3} R_{3}
+\]
+
+при выполнении условия $F_{3}=0$ допускают интеграл
+
+\[
+F_{4}=\left(P_{1}^{2}-P_{2}^{2}+c R_{3}^{2}\right)^{2}+4 P_{1}^{2} P_{2}^{2}
+\]
+
+и интегрируются.
+
+Лит.: [1] Ч аплы г и н С. А., Собрание сочинений, т. 1, М.-Л., 1948, c. 337-46. A. А. Буров.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

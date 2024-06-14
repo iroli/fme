@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1449_KRASNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1449_KRASNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/498</core:url>
+    <lbm:descriptor><![CDATA[КРАСНОЕ СМЕЩЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4562"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4563"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4564"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_477"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3266"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4565"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4566"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4567"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>смешение к красному концу спектра спектральных линий <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдаемого</a> излучения. К. с. обусловлено сильными гравитационными полями (гравитационное К. с.) или эффектом Доплера и описывается величиной $URI[[http://libmeta.ru/fme/formula/aux/1449_1_KRASNOE]]/URI$, определяемой по формуле<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4563">$$1+z=v_{1} / v_{2}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1449_2_KRASNOE]]/URI$ - излучаемая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частота</a>, a <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4565">$$v_{2}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдаемая</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частота</a>. К. с. можно измерить также исходя из формулы<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4564">$$1+z=\Delta \tau_{2} / \Delta \tau_{1},$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4566">$$\delta \tau_{1}-$$</a> промежуток собственного времени на мировой линии источника между отправлением двух последовательных сигналов, а <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4567">$$\delta \tau_{2}-$$</a> промежуток собственного времени <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдателя</a> между приемом им этих сигналов. Совместное влияние сильных полей и эффекта Доплера на К. с. проявляется при коллапсе массивных тел. При этом <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергия</a> излучения, уходящего с поверхности тела (напр., звезды), уменьшается как за счет удаления поверхности от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдателя</a>, так и за счет влияния сильного поля. В <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1420_KOSMOLOGIChESKIE">космологических моделях</a>, где вещество всегда находится в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоянии</a> расширения, свет, достигший нек-рого <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдателя</a>, испытывает К. с. относительно источника. Во многих случаях величина $URI[[http://libmeta.ru/fme/formula/aux/1449_6_KRASNOE]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1826_MONODROMI">монотонно</a> зависит от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">расстояния</a> от источника до <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдателя</a> (в моделях Фридмана для не слишком больших <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">расстояний</a> линейным образом), так что в этих случаях имеет смысл говорить об объекте, расположенном на К. с. z. Современные астрофизич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдения</a> указывают на «разбегание» галактик в связи с наличием К. с. в их спектрах.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4562">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#98">Ландау Л. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1093">Лифшиц Е. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4562">Теория поля, 7 изд., $\begin{array}{ll}\text { М., 1988</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[смешение к красномУ концу спектра спектральных линий наблюдаемого излучения. К. с. обусловлено сильными гравитационными полями (гравитационное К. с.) или эффектом Доплера и описывается величиной $z$, определяемой по формуле
+
+\[
+1+z=v_{1} / v_{2}
+\]
+
+где $v_{1}$ - излучаемая частота, a $v_{2}-$ наблюдаемая частота. К. с. можно измерить также исходя из формулы
+
+\[
+1+z=\Delta \tau_{2} / \Delta \tau_{1},
+\]
+
+где $\Delta \tau_{1}-$ промежуток собственного времени на мировой линии источника между отправлением двух последовательных сигналов, а $\Delta \tau_{2}-$ промежуток собственного времени наблюдателя между приемом им этих сигналов. Совместное влияние сильных полей и эффекта Доплера на К. с. проявляется при коллапсе массивных тел. При этом энергия излучения, уходящего с поверхности тела (напр., звезды), уменьшается как за счет удаления поверхности от наблюдателя, так и за счет влияния сильного поля. В космологических моделях, где вещество всегда находится в состоянии расширения, свет, достигший нек-рого наблюдателя, испытывает К. с. относительно источника. Во многих случаях величина $z$ монотонно зависит от расстояния от источника до наблюдателя (в моделях Фридмана для не слишком больших расстояний линейным образом), так что в этих случаях имеет смысл говорить об объекте, расположенном на К. с. z. Современные астрофизич. наблюдения указывают на «разбегание» галактик в связи с наличием К. с. в их спектрах.
+
+Лит.: [1] Л а ндау Л. Д., Л и фш и ц Е. М., Теория поля, 7 изд., $\begin{array}{ll}\text { М., 1988. } & \text { А.Т. Ильичев. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1826_MONODROMI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1420_KOSMOLOGIChESKIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

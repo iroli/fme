@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/918_EVKLIDOVO" alphabetic_pos="920">
+  <title>ЕВКЛИДОВО КВАНТОВОЕ ПОЛЕ</title>
+  <authors/>
+  <pages>
+    <start>199</start>
+    <end>199</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] С ай мо н Б., Модель $p[\varphi]_{2}$ евклидовой квантовой теории поля, пер. с англ., М., 1976; [2] Гл и м м Дж., Дж а ффе А., Математические методы квантовой физики, пер. с англ., М., 1984; [3] Ге л ьфа н д И. М., В и л е н к и н Н. Я., Оснащенные гильбертовы пространства, М., 1961; [4] Малыш е в В. А., М инлос Р. А., Гиббсовские случайные поля, М., 1985; [5] Добруш и н Р. Л.,, М и н л о с Р. А., “успехи математич. наук», 1977, т. 32, в. 2, с. 67122; [6] Малыш е в В. А., Ультрафиолетовые проблемы в теории поля, в кн.: Итоги науки и техники. Сер. Теория вероятн. и ма$\begin{array}{ll}\text { тематич. статистика, т. 24, М., 1986. } &amp; \text { Р. A. Минлос. }\end{array}$</literature_orig>
+    <unit>
+      <author>Саймон Б.</author>
+      <title>Модель $p[\varphi]_{2}$ евклидовой квантовой теории поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Гл и м м Дж., Дж а ффе А., Математические методы квантовой физики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гельфанд И. М.</author>
+      <author>Виленкин Н. Я.</author>
+      <title>Оснащенные гильбертовы пространства</title>
+      <publication>М.</publication>
+      <year>1961</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Малышев В. А.</author>
+      <author>Минлос Р. А.</author>
+      <title>Гиббсовские случайные поля</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Добрушин Р. Л.</author>
+      <author>Минлос Р. А.</author>
+      <title>“успехи математич. наук»</title>
+      <publication/>
+      <year>1977</year>
+      <other>т. 32, в. 2, с. 67122</other>
+    </unit>
+    <unit>
+      <author>Малышев В. А.</author>
+      <title>Ультрафиолетовые проблемы в теории поля, в кн.: Итоги науки и техники. Сер. Теория вероятн. и ма$\begin{array}{ll}\text { тематич. статистика</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other>т. 24</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/918_1_EVKLIDOVO">S(\xi)=\int_{\mathbb{R}^{\mathrm{v}+1}}\left[(\nabla \xi)^{2}(x)+m^{2} \xi^{2}(x)+\lambda P(\xi(x))\right] d x,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/918_2_EVKLIDOVO">\prod_{x \in \mathbb{R}^{2}} d \xi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/918_3_EVKLIDOVO">\text { const } \exp (-S(\xi)) \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/918_4_EVKLIDOVO">S_{\lambda=0}(\xi)=\left(\left(-\Delta+m^{2}\right) \xi, \xi\right)_{L_{2}\left(\mathbb{R}^{2}\right)},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/918_5_EVKLIDOVO">\begin{gathered}\left\langle\xi\left(\varphi_{1}\right), \xi\left(\varphi_{2}\right)\right\rangle=\left(\left(-\Delta+m^{2}\right)^{-1} \varphi_{1}, \varphi_{2}\right)_{L_{2}\left(\mathbb{R}^{2}\right)}= \\=\int_{\mathbb{R}^{2}} \frac{\tilde{\varphi}_{1}(k) \overline{\tilde{\varphi}_{2}(k)} d^{2} k}{k^{2}+m^{2}},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/918_6_EVKLIDOVO">d \mu_{\Lambda}=\frac{1}{z_{\Lambda}} \exp \left\{-\lambda: \int_{\Lambda} P(\xi(x)) d x:\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/918_7_EVKLIDOVO">: \int_{\Lambda} P(\xi(x)) d x:</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/918_8_EVKLIDOVO">\int_{\Lambda} P(\xi(x)) d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/918_9_EVKLIDOVO">\mu=\lim _{\Lambda \rightarrow \mathbb{R}^{2}} \mu_{\Lambda}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_1_EVKLIDOVO">p[\varphi]_{v+1}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_2_EVKLIDOVO">\mathbb{r}^{v+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_3_EVKLIDOVO">\left\{\xi(x), x \in \mathbb{R}^{v+1}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_4_EVKLIDOVO">p(\cdot)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_5_EVKLIDOVO">\lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_6_EVKLIDOVO">\mathrm{v}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_7_EVKLIDOVO">\{\xi(x)\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_8_EVKLIDOVO">\mathbb{r}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_9_EVKLIDOVO">\{\xi(x)\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_10_EVKLIDOVO">p[\varphi]_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_11_EVKLIDOVO">\lambda=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_12_EVKLIDOVO">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_13_EVKLIDOVO">l_{2}\left(\mathbb{r}^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_14_EVKLIDOVO">(\cdot, \cdot)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_15_EVKLIDOVO">\{\xi(x)\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_16_EVKLIDOVO">\varphi_{1}, \varphi_{2} \in S\left(\mathbb{R}^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_17_EVKLIDOVO">\widetilde{\varphi}_{1}, \widetilde{\varphi}_{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_18_EVKLIDOVO">\xi \in S\left(\mathbb{R}^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_19_EVKLIDOVO">\langle\cdot, \cdot\rangle-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_20_EVKLIDOVO">\mu_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_21_EVKLIDOVO">\lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_22_EVKLIDOVO">\lambda P[\varphi]_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_23_EVKLIDOVO">\lambda \subset \mathbb{R}^{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_24_EVKLIDOVO">z_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_25_EVKLIDOVO">\lambda-\mathbb{R}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_26_EVKLIDOVO">\mathbb{r}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_27_EVKLIDOVO">\mu_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_28_EVKLIDOVO">\lambda \ll 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_29_EVKLIDOVO">\lambda \gg 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_30_EVKLIDOVO">v=3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_31_EVKLIDOVO">p(\cdot)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/918_32_EVKLIDOVO">\left.\int_{\Lambda} P(\xi(x)) d x\right)</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/918_1_EVKLIDOVO">
+      <rel_text>ренормализационной группь</rel_text>
+      <target>http://libmeta.ru/fme/article/2615_RENORMALIZATsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/918_2_EVKLIDOVO">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/918_3_EVKLIDOVO">
+      <rel_text>регуляризации</rel_text>
+      <target>http://libmeta.ru/fme/article/2575_REGULJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/918_4_EVKLIDOVO">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/918_5_EVKLIDOVO">
+      <rel_text>полученное</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>$URI[[http://libmeta.ru/fme/formula/aux/918_1_EVKLIDOVO]]/URI$ М О д е Л и класс моделей скалярного нейтрального поля в пространстве $URI[[http://libmeta.ru/fme/formula/aux/918_2_EVKLIDOVO]]/URI$, формальное евклидово действие которых имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/918_1_EVKLIDOVO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/918_3_EVKLIDOVO]]/URI$ - поле, $URI[[http://libmeta.ru/fme/formula/aux/918_4_EVKLIDOVO]]/URI$ - ограниченный снизу полином, $URI[[http://libmeta.ru/fme/formula/aux/918_5_EVKLIDOVO]]/URI$ - параметр.
+
+Полное и математически корректное определение и построение таких полей (в рамках так наз. марковского подхода, см. [1]) в случае $URI[[http://libmeta.ru/fme/formula/aux/918_6_EVKLIDOVO]]/URI$ исходят из следующих посылок.
+
+1) Поле $URI[[http://libmeta.ru/fme/formula/aux/918_7_EVKLIDOVO]]/URI$, соответствующее действию (1), задается как обобщенное марковское случайное поле в $URI[[http://libmeta.ru/fme/formula/aux/918_8_EVKLIDOVO]]/URI$, инвариантное относительно движений и обладающее рядом дополнительных свойств [общая редукция построения квантового евклидова поля к построению марковского поля (см. [1]) составляет основу упомянутого выше «марковского подхода»].
+
+2) На интуитивно-эвристическом уровне «плотность» распределения вводимого марковского поля $URI[[http://libmeta.ru/fme/formula/aux/918_9_EVKLIDOVO]]/URI$ относительно (несуществующей) меры
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/918_2_EVKLIDOVO]]/URI
+\]
+
+имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/918_3_EVKLIDOVO]]/URI
+\]
+
+Такой вид возникает как обобщение фейнмановского подхода в квантовой механике с помощью функциональных интегралов, хорошо изученного для систем с конечным числом степеней свободы (см. [2]).
+
+Определение (и одновременно построение) моделей $URI[[http://libmeta.ru/fme/formula/aux/918_10_EVKLIDOVO]]/URI$ состоит в придании точного математич. смысла формуле (2). Для этого сначала рассматривается случай $URI[[http://libmeta.ru/fme/formula/aux/918_11_EVKLIDOVO]]/URI$ («свободное» поле), при к-ром действие (1) имеет вид положительной квадратичной формы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/918_4_EVKLIDOVO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/918_12_EVKLIDOVO]]/URI$ - оператор Лапласа в $URI[[http://libmeta.ru/fme/formula/aux/918_13_EVKLIDOVO]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/918_14_EVKLIDOVO]]/URI$ - скалярное произведение в этом пространстве. Формула (2) подсказывает, что в этом случае поле $URI[[http://libmeta.ru/fme/formula/aux/918_15_EVKLIDOVO]]/URI$ следует считать обобщенным гауссовым случайным полем со средним нуль и ковариационным функционалом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/918_5_EVKLIDOVO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/918_16_EVKLIDOVO]]/URI$ - гладкие быстро убывающие функции, $URI[[http://libmeta.ru/fme/formula/aux/918_17_EVKLIDOVO]]/URI$ их преобразования Фурье, а $URI[[http://libmeta.ru/fme/formula/aux/918_18_EVKLIDOVO]]/URI$ - обобщенная функция умеренного роста, $URI[[http://libmeta.ru/fme/formula/aux/918_19_EVKLIDOVO]]/URI$ среднее по распределению $URI[[http://libmeta.ru/fme/formula/aux/918_20_EVKLIDOVO]]/URI$ гауссова поля. Далее, в случае $URI[[http://libmeta.ru/fme/formula/aux/918_21_EVKLIDOVO]]/URI$ распределение поля $URI[[http://libmeta.ru/fme/formula/aux/918_22_EVKLIDOVO]]/URI$ задается в виде так наз. гиббсовской перестройки (см. [4]) гауссова поля, а именно, сначала строится так наз. локальное возмущение этого поля с распределением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/918_6_EVKLIDOVO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/918_23_EVKLIDOVO]]/URI$ ограниченная область,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/918_7_EVKLIDOVO]]/URI
+\]
+
+- так наз. виковская регуляризация функционала
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/918_8_EVKLIDOVO]]/URI
+\]
+
+а $URI[[http://libmeta.ru/fme/formula/aux/918_24_EVKLIDOVO]]/URI$ - нормирующий множитель. Глобальное возмущение получается как термодинамич. предел
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/918_9_EVKLIDOVO]]/URI
+\]
+
+где предельный переход $URI[[http://libmeta.ru/fme/formula/aux/918_25_EVKLIDOVO]]/URI$ означает предел по любой расширяющейся последовательности областей, заполняющих все пространство $URI[[http://libmeta.ru/fme/formula/aux/918_26_EVKLIDOVO]]/URI$, а сходимость (6) понимается как слабая сходимость конечномерных распределений мер $URI[[http://libmeta.ru/fme/formula/aux/918_27_EVKLIDOVO]]/URI$.
+
+В случае $URI[[http://libmeta.ru/fme/formula/aux/918_28_EVKLIDOVO]]/URI$ все шаги описанного построения обоснованы, URI[[http://libmeta.ru/fme/relation/918_5_EVKLIDOVO]]/URI поле является марковским и URI[[http://libmeta.ru/fme/relation/918_4_EVKLIDOVO]]/URI всеми нужными свойствами. В случае $URI[[http://libmeta.ru/fme/formula/aux/918_29_EVKLIDOVO]]/URI$ также удается провести эти построения, но при этом может возникнуть несколько предельных полей (фазовый переход). В случае $URI[[http://libmeta.ru/fme/formula/aux/918_30_EVKLIDOVO]]/URI$ описанный подход применим только к нек-рым полиномам $URI[[http://libmeta.ru/fme/formula/aux/918_31_EVKLIDOVO]]/URI$, а при построении локального возмущения (5) требуется введение так наз. контрчленов (то есть более сложной URI[[http://libmeta.ru/fme/relation/918_3_EVKLIDOVO]]/URI URI[[http://libmeta.ru/fme/relation/918_2_EVKLIDOVO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/918_32_EVKLIDOVO]]/URI$. Другой близкий к этому подход связан с применением методов и идей URI[[http://libmeta.ru/fme/relation/918_1_EVKLIDOVO]]/URI.</text>
+  <text_orig>$P[\varphi]_{v+1}-$ М О д е Л и класс моделей скалярного нейтрального поля в пространстве $\mathbb{R}^{v+1}$, формальное евклидово действие которых имеет вид
+
+\[
+S(\xi)=\int_{\mathbb{R}^{\mathrm{v}+1}}\left[(\nabla \xi)^{2}(x)+m^{2} \xi^{2}(x)+\lambda P(\xi(x))\right] d x,
+\]
+
+где $\left\{\xi(x), x \in \mathbb{R}^{v+1}\right\}$ - поле, $P(\cdot)$ - ограниченный снизу полином, $\lambda&gt;0$ - параметр.
+
+Полное и математически корректное определение и построение таких полей (в рамках так наз. марковского подхода, см. [1]) в случае $\mathrm{v}=1$ исходят из следующих посылок.
+
+1) Поле $\{\xi(x)\}$, соответствующее действию (1), задается как обобщенное марковское случайное поле в $\mathbb{R}^{2}$, инвариантное относительно движений и обладающее рядом дополнительных свойств [обшая редукция построения квантового евклидова поля к построению марковского поля (см. [1]) составляет основу упомянутого выше «марковского подхода»].
+
+2) На интуитивно-эвристическом уровне «плотность» распределения вводимого марковского поля $\{\xi(x)\}$ относительно (несуществующей) меры
+
+\[
+\prod_{x \in \mathbb{R}^{2}} d \xi(x)
+\]
+
+имеет вид
+
+\[
+\text { const } \exp (-S(\xi)) \text {. }
+\]
+
+Такой вид возникает как обобщение фейнмановского подхода в квантовой механике с помощью функциональных интегралов, хорошо изученного для систем с конечным числом степеней свободы (см. [2]).
+
+Определение (и одновременно построение) моделей $P[\varphi]_{2}$ состоит в придании точного математич. смысла формуле (2). Для этого сначала рассматривается случай $\lambda=0$ («свободное» поле), при к-ром действие (1) имеет вид положительной квадратичной формы
+
+\[
+S_{\lambda=0}(\xi)=\left(\left(-\Delta+m^{2}\right) \xi, \xi\right)_{L_{2}\left(\mathbb{R}^{2}\right)},
+\]
+
+где $\Delta$ - опсратор Лапласа в $L_{2}\left(\mathbb{R}^{2}\right)$, а $(\cdot, \cdot)$ - скалярное произведение в этом пространстве. Формула (2) подсказывает, что в этом случае поле $\{\xi(x)\}$ следует считать обобщенным гауссовым случайным полем со средним нуль и ковариационным функционалом
+
+\[
+\begin{gathered}
+\left\langle\xi\left(\varphi_{1}\right), \xi\left(\varphi_{2}\right)\right\rangle=\left(\left(-\Delta+m^{2}\right)^{-1} \varphi_{1}, \varphi_{2}\right)_{L_{2}\left(\mathbb{R}^{2}\right)}= \\
+=\int_{\mathbb{R}^{2}} \frac{\tilde{\varphi}_{1}(k) \overline{\tilde{\varphi}_{2}(k)} d^{2} k}{k^{2}+m^{2}},
+\end{gathered}
+\]
+
+где $\varphi_{1}, \varphi_{2} \in S\left(\mathbb{R}^{2}\right)$ - гладкие быстро убываюшие функции, $\widetilde{\varphi}_{1}, \widetilde{\varphi}_{2}-$ их преобразования Фурье, а $\xi \in S\left(\mathbb{R}^{2}\right)$ - обобщенная функция умеренного роста, $\langle\cdot, \cdot\rangle-$ среднее по распределению $\mu_{0}$ гауссова поля. Далее, в случае $\lambda&gt;0$ распределение поля $\lambda P[\varphi]_{2}$ задается в виде так наз. гиббсовской перестройки (см. [4]) гауссова поля, а именно, сначала строится так наз. локальное возмущение этого поля с распределением
+
+\[
+d \mu_{\Lambda}=\frac{1}{z_{\Lambda}} \exp \left\{-\lambda: \int_{\Lambda} P(\xi(x)) d x:\right\}
+\]
+
+где $\Lambda \subset \mathbb{R}^{2}-$ ограниченная область,
+
+\[
+: \int_{\Lambda} P(\xi(x)) d x:
+\]
+
+- так наз. виковская регуляризация функционала
+
+\[
+\int_{\Lambda} P(\xi(x)) d x
+\]
+
+а $Z_{\Lambda}$ - нормирующий множитель. Глобальное возмущение получается как термодинамич. предел
+
+\[
+\mu=\lim _{\Lambda \rightarrow \mathbb{R}^{2}} \mu_{\Lambda}
+\]
+
+где предельный переход $\Lambda-\mathbb{R}^{2}$ означает предел по любой расширяющейся последовательности областей, заполняюших все пространство $\mathbb{R}^{2}$, а сходимость (6) понимается как слабая сходимость конечномерных распределений мер $\mu_{\Lambda}$.
+
+В случае $\lambda \ll 1$ все шаги описанного построения обоснованы, полученное поле является марковским и обладает всеми нужными свойствами. В случае $\lambda \gg 1$ также удается провести эти построения, но при этом может возникнуть несколько предельных полей (фазовый переход). В случае $v=3$ описанный подход применим только к нек-рым полиномам $P(\cdot)$, а при построении локального возмущения (5) требуется введение так наз. контрчленов (то есть более сложной регуляризации функционала $\left.\int_{\Lambda} P(\xi(x)) d x\right)$. Другой близкий к этому подход связан с применением методов и идей ренормализационной группь.
+
+Лит.: [1] С ай мо н Б., Модель $P[\varphi]_{2}$ евклидовой квантовой теории поля, пер. с англ., М., 1976; [2] Гл и м м Дж., Дж а ффе А., Математические методы квантовой физики, пер. с англ., М., 1984; [3] Ге л ьфа н д И. М., В и л е н к и н Н. Я., Оснашенные гильбертовы пространства, М., 1961; [4] Малыш е в В. А., М инлос Р. А., Гиббсовские случайные поля, М., 1985; [5] Добруш и н Р. Л.,, М и н л о с Р. А., “Успехи математич. наук», 1977, т. 32, в. 2, с. 67122; [6] Малыш е в В. А., Ультрафиолетовые проблемы в теории поля, в кн.: Итоги науки и техники. Сер. Теория вероятн. и ма$\begin{array}{ll}\text { тематич. статистика, т. 24, М., 1986. } &amp; \text { Р. A. Минлос. }\end{array}$</text_orig>
+</article>

@@ -1,0 +1,252 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2979_STRUKTURNAJa" alphabetic_pos="2981">
+  <title>СТРУКТУРНАЯ ФУНКЦИЯ ДЕЙСТВИТЕЛЬНОГО СЛУЧАЙНОГО ПРОЦЕССА ИЛИ СЛУЧАЙНОГО ПОЛЯ $X(t)$</title>
+  <authors>
+    <author>А. М. Яглом</author>
+  </authors>
+  <pages>
+    <start>584</start>
+    <end>584</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Кол м о го р о в А. Н., Математика и механика. Избранные труды, М., 1985, с. 269-73, 274-77; [2] е го же, там же, c. 281-87, 290-93; [3] Ne u mann J., Schoenberg I. J., «trans. Amer. Math. Soc.», 1941, v. 50, № 2, p. 226-51; [4] Обухов А. M., «известия Ан Ссср. Сер. географическая и геофизическая», 1949, т. 13, № 1, с. 58-69; [5] е го ж е, &quot;доклады Ан СССР», 1949, т. 67, № 4, с. 643-46; [6] Я гл о м А. М., «теория вероятн. и ее примен.», 1957, т. 2, № 3, с. 292-337; [7] Мони н А. С., Я глом А. М., Статистическая гидромеханика, ч. 2, М., 1967, § $13 . \quad$</literature_orig>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <title>Математика и механика. Избранные труды</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other>с. 269-73, 274-77</other>
+    </unit>
+    <unit>
+      <title/>
+      <publication/>
+      <year/>
+      <other>е го же, там же, c. 281-87, 290-93</other>
+    </unit>
+    <unit>
+      <author>Neumann J.</author>
+      <author>Schoenberg I. J.</author>
+      <title>«trans. Amer. Math. Soc.»</title>
+      <publication/>
+      <year>1941</year>
+      <other>v. 50, № 2, p. 226-51</other>
+    </unit>
+    <unit>
+      <author>Обухов А. M.</author>
+      <title>«известия Ан Ссср. Сер. географическая и геофизическая»</title>
+      <publication/>
+      <year>1949</year>
+      <other>т. 13, № 1, с. 58-69</other>
+    </unit>
+    <unit>
+      <title>е го ж е, &quot;доклады Ан СССР»</title>
+      <publication/>
+      <year>1949</year>
+      <other>т. 67, № 4, с. 643-46</other>
+    </unit>
+    <unit>
+      <author>Яглом А. М.</author>
+      <title>«теория вероятн. и ее примен.»</title>
+      <publication/>
+      <year>1957</year>
+      <other>т. 2, № 3, с. 292-337</other>
+    </unit>
+    <unit>
+      <author>Монин А. С.</author>
+      <author>Яглом А. М.</author>
+      <title>Статистическая гидромеханика, ч. 2</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other>§ $13 . \quad$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2979_1_STRUKTURNAJa">D(t, s)=\mathrm{E}[X(t)-X(s)]^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2979_2_STRUKTURNAJa">D(t, s)=B(t, t)+B(s, s)-2 B(t, s),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2979_3_STRUKTURNAJa">\mathrm{E} \Delta_{u} X(t) \Delta_{v} X(s)=D(t-s, u, v)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2979_4_STRUKTURNAJa">D(t)=\int_{-\infty}^{\infty}(1-\cos t \lambda) d F(\lambda)+a t^{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2979_5_STRUKTURNAJa">\int_{-\infty}^{-\lambda_{0}} d F(\lambda)+\int_{-\lambda_{0}}^{\lambda_{0}} \lambda^{2} d F(\lambda)+\int_{\lambda_{0}}^{\infty} d F(\lambda)&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2979_6_STRUKTURNAJa">D(t)=\left\|D_{j k}(t)\right\|_{1}^{n}=\left\|\mathrm{E}\left[X_{j}(t+s)-X_{j}(s)\right]\left[X_{k}(t+s)-X_{k}(t)\right]\right\|_{1}^{n} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2979_7_STRUKTURNAJa">D_{j k}(t ; u, v)=\mathrm{E}\left[X_{j}(t+s+u)-X_{j}(t+s)\right]\left[X_{k}(s+v)-X_{k}(s)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2979_8_STRUKTURNAJa">D_{j k}(t ; u, v)=D_{k j}(t ; u, v),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_1_STRUKTURNAJa">x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_2_STRUKTURNAJa">\left(t \in \mathbb{R}^{1}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_3_STRUKTURNAJa">\left.t \in \mathbb{R}^{k}, k&gt;1\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_4_STRUKTURNAJa">]^{2}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_5_STRUKTURNAJa">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_6_STRUKTURNAJa">b(t, s)=\mathrm{E} X(t) X(s)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_7_STRUKTURNAJa">x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_8_STRUKTURNAJa">d(t, s)=D(t-s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_9_STRUKTURNAJa">x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_10_STRUKTURNAJa">\delta_{u} X(t)=X(t+u)-X(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_11_STRUKTURNAJa">x(t))</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_12_STRUKTURNAJa">d(t ; u, v)=1 / 2[D(t+u)+D(t-v)-D(t+u-v)-D(t),(1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_13_STRUKTURNAJa">\phi . D(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_14_STRUKTURNAJa">d(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_15_STRUKTURNAJa">a \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_16_STRUKTURNAJa">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_17_STRUKTURNAJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_18_STRUKTURNAJa">\lambda_{0}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_19_STRUKTURNAJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_20_STRUKTURNAJa">\left.\lambda=\left(\lambda_{1}, \ldots, \lambda_{k}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_21_STRUKTURNAJa">\mathbb{r}^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_22_STRUKTURNAJa">x(t)=\left\{x_{1}(t), \ldots, X_{n}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_23_STRUKTURNAJa">d(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_24_STRUKTURNAJa">\phi . D_{j k}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2979_25_STRUKTURNAJa">d_{j k}(t)</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/2979_1_STRUKTURNAJa">
+      <rel_text>локально изотропной турбулентности</rel_text>
+      <target>http://libmeta.ru/fme/article/1645_LOKAL'NO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2979_2_STRUKTURNAJa">
+      <rel_text>однородных случайных</rel_text>
+      <target>http://libmeta.ru/fme/article/2060_ODNORODNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2979_3_STRUKTURNAJa">
+      <rel_text>широко</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2979_4_STRUKTURNAJa">
+      <rel_text>случайного процесса</rel_text>
+      <target>http://libmeta.ru/fme/article/2823_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2979_5_STRUKTURNAJa">
+      <rel_text>спектральное разложение</rel_text>
+      <target>http://libmeta.ru/fme/article/2887_SPEKTRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2979_6_STRUKTURNAJa">
+      <rel_text>получено</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2979_7_STRUKTURNAJa">
+      <rel_text>структурная функция</rel_text>
+      <target>http://libmeta.ru/fme/article/2979_STRUKTURNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2979_8_STRUKTURNAJa">
+      <rel_text>многомерном</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2979_9_STRUKTURNAJa">
+      <rel_text>структурная матрица</rel_text>
+      <target>http://libmeta.ru/fme/article/2977_STRUKTURNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2979_10_STRUKTURNAJa">
+      <rel_text>многомерному</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>средний квадрат разности значений $URI[[http://libmeta.ru/fme/formula/aux/2979_1_STRUKTURNAJa]]/URI$ в двух точках, то есть функция
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2979_1_STRUKTURNAJa]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2979_2_STRUKTURNAJa]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/2979_3_STRUKTURNAJa]]/URI$. Если Е[x(t) $URI[[http://libmeta.ru/fme/formula/aux/2979_4_STRUKTURNAJa]]/URI$ при всех $URI[[http://libmeta.ru/fme/formula/aux/2979_5_STRUKTURNAJa]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2979_2_STRUKTURNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2979_6_STRUKTURNAJa]]/URI$ корреляционная функция $URI[[http://libmeta.ru/fme/formula/aux/2979_7_STRUKTURNAJa]]/URI$. С. ф. часто используются при изучении случайных процессов со стационарными приращениями первого порядка и локально однородных случайных полей (то есть случайных полей с однородными приращениями), для к-рых $URI[[http://libmeta.ru/fme/formula/aux/2979_8_STRUKTURNAJa]]/URI$. В корреляционной теории случайных процессов со стационарными в широком смысле приращениями и локально однородных в широком смысле случайных полей основной статистич. характеристикой случайной функции $URI[[http://libmeta.ru/fme/formula/aux/2979_9_STRUKTURNAJa]]/URI$ является корреляционная функция ее приращений $URI[[http://libmeta.ru/fme/formula/aux/2979_10_STRUKTURNAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2979_3_STRUKTURNAJa]]/URI
+\]
+
+(иногда называемая общей структурной функц и е й функции $URI[[http://libmeta.ru/fme/formula/aux/2979_11_STRUKTURNAJa]]/URI$. Она может быть представлена в виде: $URI[[http://libmeta.ru/fme/formula/aux/2979_12_STRUKTURNAJa]]/URI$ так что здесь достаточно рассматривать лишь простейшую C. $URI[[http://libmeta.ru/fme/formula/aux/2979_13_STRUKTURNAJa]]/URI$.
+
+Класс С. Ф. $URI[[http://libmeta.ru/fme/formula/aux/2979_14_STRUKTURNAJa]]/URI$ процессов со стационарными приращениями совпадает с классом функций, допускающих спектральное разложение вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2979_4_STRUKTURNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2979_15_STRUKTURNAJa]]/URI$, a $URI[[http://libmeta.ru/fme/formula/aux/2979_16_STRUKTURNAJa]]/URI$ - монотонно неубывающая функция от $URI[[http://libmeta.ru/fme/formula/aux/2979_17_STRUKTURNAJa]]/URI$ такая, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2979_5_STRUKTURNAJa]]/URI
+\]
+
+при любом $URI[[http://libmeta.ru/fme/formula/aux/2979_18_STRUKTURNAJa]]/URI$. Воспользовавшись теоремой Карунена об ортогональном представлении случайных функций, из (1) и (2) легко вывести спектральное разложение самого процесса со стационарными приращениями. Аналогичные (2) и (3) формулы (но с заменой интегрирования по скалярной переменной $URI[[http://libmeta.ru/fme/formula/aux/2979_19_STRUKTURNAJa]]/URI$ интегрированием по векторной переменной $URI[[http://libmeta.ru/fme/formula/aux/2979_20_STRUKTURNAJa]]/URI$ справедливы и для С. ф. локально однородных случайных полей в пространстве $URI[[http://libmeta.ru/fme/formula/aux/2979_21_STRUKTURNAJa]]/URI$ (см. [6], [7]).
+
+В применении к URI[[http://libmeta.ru/fme/relation/2979_10_STRUKTURNAJa]]/URI процессу со стационарными приращениями или к локально однородному полю $URI[[http://libmeta.ru/fme/formula/aux/2979_22_STRUKTURNAJa]]/URI$ роль С. ф. $URI[[http://libmeta.ru/fme/formula/aux/2979_23_STRUKTURNAJa]]/URI$ играет матрица взаимных структурных функций (иначе, URI[[http://libmeta.ru/fme/relation/2979_9_STRUKTURNAJa]]/URI)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2979_6_STRUKTURNAJa]]/URI
+\]
+
+Взаимные С. $URI[[http://libmeta.ru/fme/formula/aux/2979_24_STRUKTURNAJa]]/URI$ также допускают спектральное разложение, родственное разложению (2). Однако в URI[[http://libmeta.ru/fme/relation/2979_8_STRUKTURNAJa]]/URI случае общая взаимная URI[[http://libmeta.ru/fme/relation/2979_7_STRUKTURNAJa]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2979_7_STRUKTURNAJa]]/URI
+\]
+
+уже может быть выражена через более простые функции $URI[[http://libmeta.ru/fme/formula/aux/2979_25_STRUKTURNAJa]]/URI$ лишь при дополнительном условии:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2979_8_STRUKTURNAJa]]/URI
+\]
+
+часто выполняющемся в приложениях (см., напр., [6], [7]).
+
+Понятие С. ф. было введено А. Н. Колмогоровым в 1940 (см. [1]); им же URI[[http://libmeta.ru/fme/relation/2979_6_STRUKTURNAJa]]/URI URI[[http://libmeta.ru/fme/relation/2979_5_STRUKTURNAJa]]/URI С. Ф. URI[[http://libmeta.ru/fme/relation/2979_4_STRUKTURNAJa]]/URI со стационарными приращениями формулы (2)-(3). В другой связи этот результат был найден в 1941 Дж. Нейманом и И. Шенбергом (см. [3]). В 1941 А. Н. Колмогоров (см. [2]) URI[[http://libmeta.ru/fme/relation/2979_3_STRUKTURNAJa]]/URI использовал С. ф. векторных локально URI[[http://libmeta.ru/fme/relation/2979_2_STRUKTURNAJa]]/URI полей в развитой им теории URI[[http://libmeta.ru/fme/relation/2979_1_STRUKTURNAJa]]/URI. Термин «с. ф.» был введен А. М. Обуховым (см. [4], [5]).</text>
+  <text_orig>средний квадрат разности значений $X(t)$ в двух точках, то есть функция
+
+\[
+D(t, s)=\mathrm{E}[X(t)-X(s)]^{2}
+\]
+
+$\left(t \in \mathbb{R}^{1}\right.$ или $\left.t \in \mathbb{R}^{k}, k&gt;1\right)$. Если Е[X(t) $]^{2}&lt;\infty$ при всех $t$, то
+
+\[
+D(t, s)=B(t, t)+B(s, s)-2 B(t, s),
+\]
+
+где $B(t, s)=\mathrm{E} X(t) X(s)-$ корреляционная функция $X(t)$. С. ф. часто используются при изучении случайных процессов со стационарными приращениями первого порядка и локально однородных случайных полей (то есть случайных полей с однородными приращениями), для к-рых $D(t, s)=D(t-s)$. В корреляционной теории случайных процессов со стационарными в широком смысле приращениями и локально однородных в широком смысле случайных полей основной статистич. характеристикой случайной функшии $X(t)$ является корреляционная функция ее приращений $\Delta_{u} X(t)=X(t+u)-X(t)$ :
+
+\[
+\mathrm{E} \Delta_{u} X(t) \Delta_{v} X(s)=D(t-s, u, v)
+\]
+
+(иногда называемая общей структурной функц и е й функции $X(t))$. Она может быть представлена в виде: $D(t ; u, v)=1 / 2[D(t+u)+D(t-v)-D(t+u-v)-D(t),(1)$ так что здесь достаточно рассматривать лишь простейшую C. $\phi . D(t)$.
+
+Класс С. Ф. $D(t)$ процессов со стационарными приращениями совпадает с классом функций, доғускающих спектральное разложение вида
+
+\[
+D(t)=\int_{-\infty}^{\infty}(1-\cos t \lambda) d F(\lambda)+a t^{2},
+\]
+
+где $a \geqslant 0$, a $F(\lambda)$ - монотонно неубывающая функция от $\lambda$ такая, что
+
+\[
+\int_{-\infty}^{-\lambda_{0}} d F(\lambda)+\int_{-\lambda_{0}}^{\lambda_{0}} \lambda^{2} d F(\lambda)+\int_{\lambda_{0}}^{\infty} d F(\lambda)&lt;\infty
+\]
+
+при любом $\lambda_{0}&gt;0$. Воспользовавшись теоремой Карунена об ортогональном представлении случайных функций, из (1) и (2) легко вывести спектральное разложение самого процесса со стационарными приращениями. Аналогичные (2) и (3) формулы (но с заменой интегрирования по скалярной переменной $\lambda$ интегрированием по векторной переменной $\left.\lambda=\left(\lambda_{1}, \ldots, \lambda_{k}\right)\right)$ справедливы и для С. ф. локально однородных случайных полей в пространстве $\mathbb{R}^{k}$ (см. [6], [7]).
+
+В применении к многомерному процессу со стационарными приращениями или к локально однородному полю $X(t)=\left\{X_{1}(t), \ldots, X_{n}(t)\right\}$ роль С. ф. $D(t)$ играет матрица взаимных структурных функций (иначе, структурная матрица)
+
+\[
+D(t)=\left\|D_{j k}(t)\right\|_{1}^{n}=\left\|\mathrm{E}\left[X_{j}(t+s)-X_{j}(s)\right]\left[X_{k}(t+s)-X_{k}(t)\right]\right\|_{1}^{n} .
+\]
+
+Взаимные С. $\phi . D_{j k}(t)$ также допускают спектральное разложение, родственное разложению (2). Однако в многомерном случае общая взаимная структурная функция
+
+\[
+D_{j k}(t ; u, v)=\mathrm{E}\left[X_{j}(t+s+u)-X_{j}(t+s)\right]\left[X_{k}(s+v)-X_{k}(s)\right]
+\]
+
+уже может быть выражена через более простые функции $D_{j k}(t)$ лишь при дополнительном условии:
+
+\[
+D_{j k}(t ; u, v)=D_{k j}(t ; u, v),
+\]
+
+часто выполняющемся в приложениях (см., напр., [6], [7]).
+
+Понятие С. ф. было введено А. Н. Колмогоровым в 1940 (см. [1]); им же получено спектральное разложение С. Ф. случайного процесса со стационарными приращениями формулы (2)-(3). В другой связи этот результат был найден в 1941 Дж. Нейманом и И. Шенбергом (см. [3]). В 1941 А. Н. Колмогоров (см. [2]) широко использовал С. ф. векторных локально однородных случайных полей в развитой им теории локально изотропной турбулентности. Термин «С. ф.» был введен А. М. Обуховым (см. [4], [5]). Лum.: [1] Кол м о го р о в А. Н., Математика и механика. Избранные труды, М., 1985, с. 269-73, 274-77; [2] е го же, там же, c. 281-87, 290-93; [3] Ne u mann J., Schoenberg I. J., «Trans. Amer. Math. Soc.», 1941, v. 50, № 2, p. 226-51; [4] Обухов А. M., «Известия АН СССР. Сер. географическая и геофизическая», 1949, т. 13, № 1, с. 58-69; [5] е го ж е, &quot;Доклады АН СССР», 1949, т. 67, № 4, с. 643-46; [6] Я гл о м А. М., «Теория вероятн. и ее примен.», 1957, т. 2, № 3, с. 292-337; [7] Мони н А. С., Я глом А. М., Статистическая гидромеханика, ч. 2, М., 1967, § $13 . \quad$ А. М. Яглом.</text_orig>
+</article>

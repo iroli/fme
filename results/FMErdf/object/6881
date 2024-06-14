@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_6881">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>n</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><msub><mi>c</mi><mrow><mi>n</mi></mrow></msub><msub><mi>J</mi><mrow><mi>v</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>&#x003BC;</mi><mrow><mi>n</mi></mrow><mrow><mi>v</mi></mrow></msubsup><mi>x</mi><mo>&#x0002F;</mo><mi>l</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo><mspace linebreak="newline" /><msub><mi>c</mi><mrow><mi>n</mi></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mi>l</mi><mrow><mn>2</mn></mrow></msup><msubsup><mi>J</mi><mrow><mi>v</mi><mo>&#x0002B;</mo><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>&#x003BC;</mi><mrow><mi>n</mi></mrow><mrow><mi>v</mi></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow></mrow></mfrac><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>l</mi></mrow></msubsup><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><msub><mi>J</mi><mrow><mi>v</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>&#x003BC;</mi><mrow><mi>n</mi></mrow><mrow><mi>v</mi></mrow></msubsup><mi>x</mi><mo>&#x0002F;</mo><mi>l</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>&#x0002C;</mo><mspace width="1em" /><mn>0</mn><mo>&#x0003C;</mo><mi>x</mi><mo>&#x0003C;</mo><mi>l</mi><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}f(x)=\sum_{n=1}^{\infty} c_{n} J_{v}\left(\mu_{n}^{v} x / l\right), \\c_{n}=\frac{2}{l^{2} J_{v+1}^{2}\left(\mu_{n}^{v}\right)} \int_{0}^{l} f(x) J_{v}\left(\mu_{n}^{v} x / l\right) x d x, \quad 0&lt;x&lt;l .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

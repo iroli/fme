@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2369_PRETsESSI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2369_PRETsESSI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1520</core:url>
+    <lbm:descriptor><![CDATA[ПРЕЦЕССИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#9775"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_378"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7505"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10726"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11561"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4903"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частный</a> тип движения твердого тела около неподвижной точки, при котором <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> $URI[[http://libmeta.ru/fme/formula/aux/2369_1_PRETsESSI]]/URI$ его <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3145_UGLOVAJa">угловой скорости</a> может быть представлен в виде суммы двух векторов $URI[[http://libmeta.ru/fme/formula/aux/2369_2_PRETsESSI]]/URI$ и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10726">$$\omega_{2}$$</a>, обладающих следующим свойством: <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> $URI[[http://libmeta.ru/fme/formula/aux/2369_4_PRETsESSI]]/URI$ сохраняет свое направление в неподвижной системе координат, а <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> $URI[[http://libmeta.ru/fme/formula/aux/2369_5_PRETsESSI]]/URI$ в связанной системе координат. Величины этих векторов могут изменяться, но угол $URI[[http://libmeta.ru/fme/formula/aux/2369_6_PRETsESSI]]/URI$ между ними остается постоянным. Величину $URI[[http://libmeta.ru/fme/formula/aux/2369_7_PRETsESSI]]/URI$ называют угл овой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростью</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2369_PRETsESSI">прецессии</a>, а величину $URI[[http://libmeta.ru/fme/formula/aux/2369_8_PRETsESSI]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3145_UGLOVAJa">угловой скоростью</a> собственного врашения. П.- последовательность двух простых вращений: тело вращается вокруг своей оси, а последняя вращается вокруг другой (неподвижной оси). В нек-рых задачах полезно выделение и более сложных комбинаций простых движений.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_641_GIROSKO">Гироскопа</a> математическая теория, Лагранжа - Пуассона случай, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3472_EJLERA">Эйлера углы</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#9775">В. А. Самсонов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[частный тип движения твердого тела около неподвижной точки, при котором вектор $\Omega$ его угловой скорости может быть представлен в виде суммы двух векторов $\Omega_{1}$ и $\Omega_{2}$, обладающих следующим свойством: вектор $\Omega_{1}$ сохраняет свое направление в неподвижной системе координат, а вектор $\Omega_{2}-$ в связанной системе координат. Величины этих векторов могут изменяться, но угол $\vartheta$ между ними остается постоянным. Величину $\Omega_{1}$ называют угл овой скоростью прецессии, а величину $\Omega_{2}-$ угловой скоростью собственного врашения. П.- последовательность двух простых врашений: тело вращается вокруг своей оси, а последняя вращается вокруг другой (неподвижной оси). В нек-рых задачах полезно выделение и более сложных комбинаций простых движений.
+
+См. также Гироскопа математическая теория, Лагранжа - Пуассона случай, Эйлера углы.
+
+В. А. Самсонов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3472_EJLERA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_641_GIROSKO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3145_UGLOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2369_PRETsESSI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3145_UGLOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2928_STATISTIChESKAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2928_STATISTIChESKAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2141</core:url>
+    <lbm:descriptor><![CDATA[СТАТИСТИЧЕСКАЯ ТЕОРИЯ ОТСЧЕТОВ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16277"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6480"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16278"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16279"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6484"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4887"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16280"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13204"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16281"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16282"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>раздел квантовой оптики и статистической радиофизики. Матема- тич. задачи С. т. о. возникают при интерпретации <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3496_EKSPANSIVNOST">экспериментов</a>, чувствительных к квантовым особенностям регистрируемого низкоинтенсивного излучения, в частности явления фотоэффекта. В силу случайной природы фотоэффекта, а также стохастич. свойств полей излучения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдаемое</a> за интервал регистрации $URI[[http://libmeta.ru/fme/formula/aux/2928_1_STATISTIChESKAJa]]/URI$ число отсчетов $URI[[http://libmeta.ru/fme/formula/aux/2928_2_STATISTIChESKAJa]]/URI$ является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa">случайной величиной</a>. Типичной задачей С.т.о. является: по известным статистич. свойствам <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2823_SLUChAJNYJ">случайного процесса</a> $URI[[http://libmeta.ru/fme/formula/aux/2928_3_STATISTIChESKAJa]]/URI$ - комплексной амплитуды поля излучения - осуществить вычисление как <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотности</a> распределения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4887">$$p(u)$$</a> поглощенной детектором <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6480">$$U=\int_{0}^{T}|\alpha(t)|^{2} d t$$</a><BR/></P><P>так и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2533_RASPREDELENIE">распределение вероятностей</a> $URI[[http://libmeta.ru/fme/formula/aux/2928_5_STATISTIChESKAJa]]/URI$ случайного числа отсчетов $URI[[http://libmeta.ru/fme/formula/aux/2928_6_STATISTIChESKAJa]]/URI$ (см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1709_MANDELJa">Манделя распределение</a>). При модельном описании процесса <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6484">$$\{\alpha(t)\}$$</a> используется представление, в к-ром <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI">траектории</a> $URI[[http://libmeta.ru/fme/formula/aux/2928_8_STATISTIChESKAJa]]/URI$ являются решениями стохастич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST">дифференциального</a> уравнения. Напр., для уравнения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16278">$$d \alpha(t)=-v \alpha(t) d t+\sqrt{\sigma} d w(t),$$</a><BR/></P><P>$URI[[http://libmeta.ru/fme/formula/aux/2928_9_STATISTIChESKAJa]]/URI$ const, $URI[[http://libmeta.ru/fme/formula/aux/2928_10_STATISTIChESKAJa]]/URI$ стандартный комплекснозначный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_406_VINEROVSKIJ">винеровский процесс</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2401_PROIZVODJaSchAJa">производящая функция</a> отсчетов равна<BR/></P><P>![](https://cdn.mathpix.com/cropped/2023_07_08_74b9469ca3d754030933g-1.jpg?height=63&width=806&top_left_y=770&top_left_x=86)<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16279">$$r=\left(v^{2}+2 \lambda \sigma\right)^{1 / 2} \text {. }$$</a><BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#16277">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#719">Лэкс М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16277">Флуктуации и когерентные явления, пер. с англ., М., 1974</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[разДеЛ квантовой оптики и статистической радиофизики. Матема- тич. задачи С. т. о. возникают при интерпретации экспериментов, чувствительных к квантовым особенностям регистрируемого низкоинтенсивного излучения, в частности явления фотоэффекта. В силу случайной природы фотоэффекта, а также стохастич. свойств полей излучения наблюдаемое за интервал регистрации $T$ число отсчетов $N$ является случайной величиной. Типичной задачей С.т.о. является: по известным статистич. свойствам случайного процесса $\{\alpha(t)\}$ - комплексной амплитуды поля излучения - осуществить вычисление как плотности распределения $p(U)$ поглощенной детектором энергии
+
+\[
+U=\int_{0}^{T}|\alpha(t)|^{2} d t
+\]
+
+так и распределение вероятностей $P(n)=\mathrm{P}\{N=n\}$ случайного числа отсчетов $N$ (см. Манделя распределение). При модельном описании процесса $\{\alpha(t)\}$ используется представление, в к-ром траектории $\alpha(t)$ являются решениями стохастич. дифференциального уравнения. Напр., для уравнения
+
+\[
+d \alpha(t)=-v \alpha(t) d t+\sqrt{\sigma} d w(t),
+\]
+
+$v, \sigma=$ const, $w(t)-$ стандартный комплекснозначный винеровский процесс, производящая функция отсчетов равна
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_74b9469ca3d754030933g-1.jpg?height=63&width=806&top_left_y=770&top_left_x=86)
+
+\[
+r=\left(v^{2}+2 \lambda \sigma\right)^{1 / 2} \text {. }
+\]
+
+Лит.: [1] Л экс М., Флуктуации и когерентные явления, пер. с англ., М., 1974.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1709_MANDELJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2401_PROIZVODJaSchAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_406_VINEROVSKIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2533_RASPREDELENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2823_SLUChAJNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3496_EKSPANSIVNOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

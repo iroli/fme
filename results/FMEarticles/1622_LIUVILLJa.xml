@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1622_LIUVILLJa" alphabetic_pos="1624">
+  <title>ЛИУВИЛЛЯ КЛАССИЧЕСКИЙ ОПЕРАТОР</title>
+  <authors/>
+  <pages>
+    <start>329</start>
+    <end>329</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1622_1_LIUVILLJa">i \frac{\partial f}{\partial t}=-L f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1622_2_LIUVILLJa">\begin{gathered}i L f=\{H, f\}, \\\left.\{H, f\}=\sum_{k=1}^{N}\left(\frac{\partial H}{\partial \vec{q}_{k}} \frac{\partial f}{\partial \vec{p}_{k}}-\frac{\partial H}{\partial \vec{p}_{k}} \frac{\partial f}{\partial \vec{q}_{k}}\right)\right\},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1622_3_LIUVILLJa">\begin{gathered}f(p, q, t)=\exp (i L t) f(p, q, 0), \\(p, q)=\left(\vec{p}_{1}, \ldots, \vec{p}_{N} ; \vec{q}_{1}, \ldots, \vec{q}_{N}\right),\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1622_1_LIUVILLJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1622_2_LIUVILLJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1622_3_LIUVILLJa">\mathrm{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1622_4_LIUVILLJa">6 \mathrm{~N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1622_5_LIUVILLJa">\vec{q}_{1}, \ldots, \vec{q}_{N} ; \vec{p}_{1}, \ldots, \vec{p}_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1622_6_LIUVILLJa">f(p, q, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1622_7_LIUVILLJa">\begin{array}{ll}\text { и } L \text { не зависит явно от времени. } &amp; \text { A. B. Солдатов. }\end{array}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1622_1_LIUVILLJa">
+      <rel_text>функция Гамильтона</rel_text>
+      <target>http://libmeta.ru/fme/article/505_GAMIL'TONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1622_2_LIUVILLJa">
+      <rel_text>функции распределения классической</rel_text>
+      <target>http://libmeta.ru/fme/article/2538_RASPREDELENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1622_3_LIUVILLJa">
+      <rel_text>уравнении Лиувилля</rel_text>
+      <target>http://libmeta.ru/fme/article/1627_LIUVILLJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1622_4_LIUVILLJa">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+  </relations>
+  <text>Линейный URI[[http://libmeta.ru/fme/relation/1622_4_LIUVILLJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1622_1_LIUVILLJa]]/URI$ в URI[[http://libmeta.ru/fme/relation/1622_3_LIUVILLJa]]/URI для URI[[http://libmeta.ru/fme/relation/1622_2_LIUVILLJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1622_2_LIUVILLJa]]/URI$-частичной системы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1622_1_LIUVILLJa]]/URI
+\]
+
+определяемый соотношением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1622_2_LIUVILLJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1622_3_LIUVILLJa]]/URI$ - URI[[http://libmeta.ru/fme/relation/1622_1_LIUVILLJa]]/URI системы, зависящая от $URI[[http://libmeta.ru/fme/formula/aux/1622_4_LIUVILLJa]]/URI$ переменных $URI[[http://libmeta.ru/fme/formula/aux/1622_5_LIUVILLJa]]/URI$, а также, возможно, явно зависящая от времени. Л. к. о., заданный в форме (2), эрмитов. С его помощью можно формально записать решение уравнения (1) в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1622_3_LIUVILLJa]]/URI
+\]
+
+если известна начальная функция распределения $URI[[http://libmeta.ru/fme/formula/aux/1622_6_LIUVILLJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1622_7_LIUVILLJa]]/URI$</text>
+  <text_orig>ЛИНеЙНЫЙ оператор $L$ в уравнении Лиувилля для функции распределения классической $N$-частичной системы
+
+\[
+i \frac{\partial f}{\partial t}=-L f
+\]
+
+определяемый соотношением
+
+\[
+\begin{gathered}
+i L f=\{H, f\}, \\
+\left.\{H, f\}=\sum_{k=1}^{N}\left(\frac{\partial H}{\partial \vec{q}_{k}} \frac{\partial f}{\partial \vec{p}_{k}}-\frac{\partial H}{\partial \vec{p}_{k}} \frac{\partial f}{\partial \vec{q}_{k}}\right)\right\},
+\end{gathered}
+\]
+
+где $\mathrm{H}$ - функция Гамильтона системы, зависящая от $6 \mathrm{~N}$ переменных $\vec{q}_{1}, \ldots, \vec{q}_{N} ; \vec{p}_{1}, \ldots, \vec{p}_{N}$, а также, возможно, явно зависящая от времени. Л. к. о., заданный в форме (2), эрмитов. С его помощью можно формально записать решение уравнения (1) в виде
+
+\[
+\begin{gathered}
+f(p, q, t)=\exp (i L t) f(p, q, 0), \\
+(p, q)=\left(\vec{p}_{1}, \ldots, \vec{p}_{N} ; \vec{q}_{1}, \ldots, \vec{q}_{N}\right),
+\end{gathered}
+\]
+
+если известна начальная функция распределения $f(p, q, 0)$ $\begin{array}{ll}\text { и } L \text { не зависит явно от времени. } &amp; \text { A. B. Солдатов. }\end{array}$</text_orig>
+</article>

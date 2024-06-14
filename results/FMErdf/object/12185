@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_12185">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>P</mi><mrow><mi>n</mi></mrow></msub><mo>&#x0003D;</mo><mi>&#x00050;</mi><mo stretchy="false">&#x0007B;</mo><mi>N</mi><mo>&#x0003D;</mo><mi>n</mi><mo stretchy="false">&#x0007D;</mo><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi><mo>&#x00021;</mo></mrow></mfrac><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mi>d</mi><mi>x</mi><mi>p</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><msup><mi>x</mi><mrow><mi>n</mi></mrow></msup><msup><mi>e</mi><mrow><mo>&#x02212;</mo><mi>x</mi></mrow></msup><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$P_{n}=\mathrm{P}\{N=n\}=\frac{1}{n !} \int_{0}^{\infty} d x p(x) x^{n} e^{-x},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

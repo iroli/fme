@@ -1,0 +1,845 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1726_MASLOVA" alphabetic_pos="1728">
+  <title>МАСЛОВА КАНОНИЧЕСКИЙ ОПЕРАТОР</title>
+  <authors/>
+  <pages>
+    <start>347</start>
+    <end>350</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М а с л о в В. П., Теория возмущений и асимптотические методы, М., 1965; [2] М ищенко А. С., С тернин Б. Ю., Шата л о в В. Е., Лагранжевы многообразия и метод канонического оператора, М., 1978; [3] М а с л о в В. П., Операторные методы, М., 1973; [4] Ми щенко А. С., Стерни н Б. Ю., Шаталов В. Е., Метод канонического оператора Маслова. Комплексная теория, М., 1974; [5] С т е р н и н Б. Ю., в сб.: &quot;труды семинара С. Л. Соболева», Новосибирск, 1976, с. 141-56; [6] Куче ре н к о В. В., «математич. сб.», 1974, т. 95, № 2, с. 163-213; [7] Назайкинский В. Е. [и др.], «успехи математич. наук», 1981, т. 36, в. 2, с. 81-140; [8] Карасе в М. В., Маслов В. П., «известия Ан Ссср. Сер. математическая», 1983, т. 47, № 5, с. 999-1029; [9] С т е рн и н Б. Ю., Ш а т а л о в В. Е., «успехи математич. наук», 1988, т. 43, $\begin{array}{ll}\text { в. 3, с. 99-124. } &amp; \text { Б. Ю. Стернин, В. Е. Шаталов. }\end{array}$</literature_orig>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>Теория возмущений и асимптотические методы</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Мищенко А. С.</author>
+      <author>Стернин Б. Ю.</author>
+      <author>Шаталов В. Е.</author>
+      <title>Лагранжевы многообразия и метод канонического оператора</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>Операторные методы</title>
+      <publication>М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Мищенко А. С.</author>
+      <author>Стернин Б. Ю.</author>
+      <author>Шаталов В. Е.</author>
+      <title>Метод канонического оператора Маслова. Комплексная теория</title>
+      <publication>М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Стернин Б. Ю.</author>
+      <title>в сб.: &quot;труды семинара С. Л. Соболева», Новосибирск</title>
+      <publication/>
+      <year>1976</year>
+      <other>с. 141-56</other>
+    </unit>
+    <unit>
+      <author>Кучеренко В. В.</author>
+      <title>«математич. сб.»</title>
+      <publication/>
+      <year>1974</year>
+      <other>т. 95, № 2, с. 163-213</other>
+    </unit>
+    <unit>
+      <title>Назайкинский В. Е. [и др.], «успехи математич. наук»</title>
+      <publication/>
+      <year>1981</year>
+      <other>т. 36, в. 2, с. 81-140</other>
+    </unit>
+    <unit>
+      <author>Карасев М. В.</author>
+      <author>Маслов В. П.</author>
+      <title>«известия Ан Ссср. Сер. математическая»</title>
+      <publication/>
+      <year>1983</year>
+      <other>т. 47, № 5, с. 999-1029</other>
+    </unit>
+    <unit>
+      <author>Стернин Б. Ю.</author>
+      <author>Шаталов В. Е.</author>
+      <title>«успехи математич. наук»</title>
+      <publication/>
+      <year>1988</year>
+      <other>т. 43, $\begin{array}{ll}\text { в. 3, с. 99-124. } &amp; \text { Б. Ю. Стернин, В. Е. Шаталов. }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_1_MASLOVA">(x, p)=\left(x^{1}, \ldots, x^{n} ; p_{1}, \ldots, p_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_2_MASLOVA">d x \wedge d p=d x^{1} \wedge d p_{1}+\ldots+d x^{n} \wedge d p_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_3_MASLOVA">\left(x^{I}, p_{\bar{I}}\right)=\left(x^{i_{1}}, \ldots, x^{i_{m}}, p_{i_{m+1}}, \ldots, p_{i_{n}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_4_MASLOVA">k_{I}: C_{0}^{\infty}\left(U_{1}\right) \rightarrow C^{\infty}\left(\mathbb{R}_{x}^{n} \times \mathbb{R}_{+, h}^{1}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_5_MASLOVA">k_{I} \varphi=F_{p_{\bar{I}} \rightarrow x^{1 / h}}^{\bar{I}}\left\{e^{\frac{i}{h} S_{I}\left(x^{I}, p_{\bar{I}}\right)} \sqrt{\mu_{I}\left(x^{I}, p_{\bar{I}}^{-}\right)} \varphi\left(x^{I}, p_{I}^{-}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_6_MASLOVA">F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}^{1 / h}(f)=\left(\frac{i}{2 \pi h}\right)^{|\bar{I}| / 2} \int_{\mathbb{R}_{\bar{I}}} e^{\frac{i}{h} x^{\bar{I}} p_{\bar{I}}} f\left(p_{\bar{I}}\right) d p_{\bar{I}},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_7_MASLOVA">k_{I} \varphi=e^{\frac{i}{h} c_{I J}^{(1)}+i \pi c_{I J}^{(2)}} k_{J} \varphi+O(h), \quad \varphi \in C_{0}^{\infty}\left(U_{I} \cap U_{J}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_8_MASLOVA">\begin{gathered}c_{I J}^{(1)}=S_{I}+x^{\bar{I}} p_{\bar{I}}-S_{J}-\left.x^{\bar{J}} p_{J}\right|_{L}, \\c_{I J}^{(2)}=\frac{1}{2 \pi}\left[\arg \mu_{I}-\arg \mu_{J}-\sum_{k} \arg \lambda_{I J}^{k}-\left|I_{2}\right| \pi\right],\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_9_MASLOVA">-\frac{3 \pi}{2}&lt;\arg \lambda_{I J}^{k} \leqslant \frac{\pi}{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_10_MASLOVA">k: C_{0}^{\infty}(L) \rightarrow C^{\infty}\left(\mathbb{R}_{x}^{n} \times \mathbb{R}_{+, h}^{1}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_11_MASLOVA">\hat{H} \circ k(\varphi)=k\left(\left.H_{0}(x, p)\right|_{L} \varphi\right)+O(h) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_12_MASLOVA">\hat{H} \circ k(\varphi)=-i h k(\mathscr{P} \varphi)+O\left(h^{2}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_13_MASLOVA">\mathscr{P}=\frac{d}{d t}+\frac{1}{2} \frac{L_{d / d t} \mu}{\mu}+H^{\text {sub }},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_14_MASLOVA">H^{\mathrm{sub}}(x, p)=i H_{1}(x, p)-\frac{1}{2} \frac{\partial^{2} H_{0}}{\partial x \partial p}(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_15_MASLOVA">\begin{gathered}c^{(1)}: \omega^{(1)}=p d x, \\c^{(2)}: \omega^{(2)}=\frac{1}{2 \pi i} d \ln \frac{\mu}{\sigma},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_16_MASLOVA">S_{\gamma} \varphi(t)=(\sigma+\mu) \varphi(t)+\frac{\sigma-\mu}{\pi i} \int_{\gamma} \frac{\varphi(\tau) d \tau}{\tau-t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_17_MASLOVA">E_{k}=\left\{f \in C^{\infty}\left(\mathbb{R}^{n}, H\right) \mid f \in \mathscr{D}\left(A^{k}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_18_MASLOVA">k_{I} \varphi=F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}^{A}\left\{e^{i S_{I}\left(x^{I}, p_{\bar{I}}\right) A} \sqrt{\mu_{I}\left(x^{I}, p_{\bar{I}}\right)} \varphi\left(x^{I}, p_{\bar{I}}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_19_MASLOVA">F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}^{A}(f)=\left(\frac{i|A|}{2 \pi}\right)^{n / 2} \int_{\mathbb{R}_{\bar{I}}} e^{i \bar{I}^{\bar{I}} p_{\bar{I}} A} f\left(p_{\bar{I}}\right) d p_{\bar{I}},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_20_MASLOVA">S_{I}\left(x^{I}, \xi_{\bar{I}}\right)=\left.R_{\gamma}\left(W-\left(p_{\bar{I}}+w_{\bar{I}}\right)\left(q^{\bar{I}}+z^{\bar{I}}\right)\right)\right|_{\alpha}=\alpha\left(x^{I}, \xi_{\bar{I}}\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_21_MASLOVA">\begin{gathered}R_{\gamma} f(\alpha)=f(\alpha)+\left\langle\sigma(\alpha), \frac{\partial f}{\partial\left(q^{I}+z^{I}, p_{\bar{I}}+w_{\bar{I}}\right)}\right\rangle+ \\+\frac{1}{2}\left\langle\sigma(\alpha), \frac{\partial^{2} f}{\partial\left(q^{I}+z^{I}, p_{\bar{I}}+w_{\bar{I}}\right)^{2}} \sigma(\alpha)\right\rangle .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_22_MASLOVA">\operatorname{Im} S\left(x^{I}, \xi_{\bar{I}}\right) \geqslant c \mathscr{D}\left(\alpha\left(x^{I}, \xi_{\bar{I}}\right)\right), c&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_23_MASLOVA">\frac{\partial \alpha_{i}}{\partial \bar{\alpha}_{j}} \equiv 0\left(\bmod ^{s} I\left(M, \rho_{M}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_24_MASLOVA">\mu_{I}=\frac{\partial \mu}{\partial\left(z^{I}, \zeta_{\bar{I}}\right)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_25_MASLOVA">\arg \mu_{I}-\arg \mu_{J}=\sum \arg \lambda_{k}+\left|I_{2}\right| \pi .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_26_MASLOVA">\text { Hess }_{z}^{I_{2}, \zeta_{I_{3}}}\left(-S_{I}(\alpha)\right), \quad \alpha \in \Omega, \quad-\frac{3 \pi}{2}&lt;\arg \lambda_{k} \leqslant \frac{\pi}{2} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_27_MASLOVA">k_{I}: O_{0}^{l}\left(U_{1}\right) \rightarrow H_{\operatorname{loc}}^{s}\left(\mathbb{R}^{n}\right), \quad s&lt;-l-\frac{m}{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_28_MASLOVA">k_{I} \varphi=\zeta_{\varphi}(x) F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}\left\{e^{i S_{I}\left(x^{I}, p_{\bar{I}}\right)} \sqrt{\mu_{I}\left(x^{I}, p_{\bar{I}}\right)} \varphi\left(x^{I}, p_{\bar{I}}\right)\right\},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_29_MASLOVA">S_{I}=-\left.x^{\bar{I}} p_{\bar{I}}\right|_{L}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_30_MASLOVA">k_{I} \varphi=F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}^{1 / h}\left\{e^{\frac{i}{h} S_{I}\left(x^{I}, p_{\bar{I}}\right)} \sqrt{\frac{\mu_{I}\left(x^{I}, p_{\bar{I}}\right)}{v_{x}\left(x^{I}, x^{\bar{I}}\left(x^{I}, p_{\bar{I}}\right)\right)}} \varphi\left(x^{I}, p_{\bar{I}}\right)\right\},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_31_MASLOVA">H^{\mathrm{sub}}(x, p)=i H_{1}(x, p)-\frac{1}{2} \frac{\partial^{2} H_{0}}{\partial x \partial p}(x, p)-\frac{1}{2} \frac{d}{d t} \ln v_{x}(x) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_32_MASLOVA">T_{\alpha \beta} \circ T_{\beta \gamma}=T_{\alpha \gamma} \exp \left[\frac{i}{h} c_{\alpha \beta \gamma}^{(1)}+i \pi c_{\alpha \beta \gamma}^{(2)}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1726_33_MASLOVA">k: C_{0}^{\infty}(L) \rightarrow \Gamma(M, J)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_1_MASLOVA">l \subset T^{*} M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_2_MASLOVA">\mu \in \Lambda^{n}(L)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_3_MASLOVA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_4_MASLOVA">h&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_5_MASLOVA">m=\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_6_MASLOVA">t^{*} \mathbb{R}^{n}=\mathbb{R}^{n} \oplus \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_7_MASLOVA">l, \operatorname{dim} L=n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_8_MASLOVA">\left.d x_{\wedge} d p\right|_{L}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_9_MASLOVA">u_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_10_MASLOVA">i=\left\{i_{1}, \ldots, i_{m}\right\}, \bar{I}=\left\{i_{m+1}, \ldots, i_{n}\right\}, I \cup \bar{I}=\{1,2, \ldots, n\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_11_MASLOVA">\varphi \in C_{0}^{\infty}\left(U_{I}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_12_MASLOVA">f_{p_{\bar{i}}}^{1 / h} \rightarrow x^{\bar{I}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_13_MASLOVA">1 / h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_14_MASLOVA">\operatorname{hыm} p_{\bar{I}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_15_MASLOVA">|\vec{i}|=n-m, \quad S_{I}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_16_MASLOVA">u_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_17_MASLOVA">d S_{I}=p_{I} d x^{I}-\left.x^{\bar{I}} d p_{\bar{I}}\right|_{L} ; \mu_{I}\left(x^{I}, p_{\bar{I}}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_18_MASLOVA">\mu \in \Lambda^{n}(L)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_19_MASLOVA">\left(x^{i}, p_{\bar{I}}\right): \mu=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_20_MASLOVA">=\mu_{i} d x^{I}{ }^{\wedge} d p_{\bar{I}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_21_MASLOVA">\arg \mu_{I}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_22_MASLOVA">\lambda_{i J}^{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_23_MASLOVA">c_{i J}^{(1)}, c_{I J}^{(2)}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_24_MASLOVA">c^{(1)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_25_MASLOVA">c^{(2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_26_MASLOVA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_27_MASLOVA">u_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_28_MASLOVA">c^{(1)}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_29_MASLOVA">c^{(2)}=0(\bmod 2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_30_MASLOVA">1 / h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_31_MASLOVA">\hat{h}=\hat{h}\left(x,-i h \frac{\partial}{\partial x}, h\right)-1 / h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_32_MASLOVA">h_{0}(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_33_MASLOVA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_34_MASLOVA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_35_MASLOVA">\mathscr{p}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_36_MASLOVA">\frac{d}{d t}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_37_MASLOVA">h_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_38_MASLOVA">h^{\text {sub }}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_39_MASLOVA">\hat{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_40_MASLOVA">h_{1}(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_41_MASLOVA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_42_MASLOVA">k_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_43_MASLOVA">o\left(h^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_44_MASLOVA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_45_MASLOVA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_46_MASLOVA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_47_MASLOVA">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_48_MASLOVA">c^{(1)}, c^{(2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_49_MASLOVA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_50_MASLOVA">\mathrm{pa}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_51_MASLOVA">c^{(1)}, c^{(2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_52_MASLOVA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_53_MASLOVA">\sigma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_54_MASLOVA">\sigma=d\left(x^{1}-i p_{1}\right) \wedge \ldots \wedge d\left(x^{n}-i p_{n}\right) ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_55_MASLOVA">(l, \sigma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_56_MASLOVA">c^{(2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_57_MASLOVA">c^{(2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_58_MASLOVA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_59_MASLOVA">l_{2}(\gamma, \mathbb{C})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_60_MASLOVA">l_{2}\left(\gamma, \Lambda^{n}(L)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_61_MASLOVA">\mu / \sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_62_MASLOVA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_63_MASLOVA">a-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_64_MASLOVA">a: H \rightarrow H-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_65_MASLOVA">h ; C^{\infty}\left(\mathbb{R}^{n}, H\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_66_MASLOVA">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_67_MASLOVA">h=l_{2}(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_68_MASLOVA">a=i \frac{\partial}{\partial \tau}, A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_69_MASLOVA">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_70_MASLOVA">l \subset \mathbb{R}_{q}^{n} \oplus \mathbb{R}_{n, p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_71_MASLOVA">\mathscr{d} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_72_MASLOVA">2 n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_73_MASLOVA">r^{2 n}=(w, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_74_MASLOVA">r^{2 n}=O(\sqrt{\mathscr{D}}), \quad \operatorname{rank}_{\mathbb{C}}\{d(p+w), \quad d(q+z)\}=n \quad</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_75_MASLOVA">\gamma=\{\alpha \in</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_76_MASLOVA">\in L \mid \mathscr{D}(\alpha)=0\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_77_MASLOVA">w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_78_MASLOVA">d W=(p+w) d(q+</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_79_MASLOVA">+z)+o(\sqrt{d})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_80_MASLOVA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_81_MASLOVA">\left\{u_{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_82_MASLOVA">\mathscr{d}\left(q^{i^{\prime}}+z^{i}, p_{\bar{I}}+w_{\bar{I}}\right) / \mathscr{D} \alpha \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_83_MASLOVA">\gamma: U_{I} \rightarrow \mathbb{R}_{x}^{I} \times \mathbb{R}_{\bar{I} \xi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_84_MASLOVA">\mathscr{i} \gamma / \mathscr{\mathscr { N } \alpha \neq 0}(\alpha-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_85_MASLOVA">\left.U_{I}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_86_MASLOVA">\gamma=\left(q^{i}+z^{i}, p_{\bar{I}}+w_{\bar{I}}\right)+\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_87_MASLOVA">\sigma=o(\sqrt{\mathscr{d}})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_88_MASLOVA">u_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_89_MASLOVA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_90_MASLOVA">m, \operatorname{dim}_{\mathbb{R}} M=2 n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_91_MASLOVA">\left\{u_{j}, \alpha_{j}\right\}, \alpha_{j}: U_{j} \rightarrow \mathbb{C}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_92_MASLOVA">u_{i} \cap U_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_93_MASLOVA">s-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_94_MASLOVA">\rho_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_95_MASLOVA">m, \rho_{M}^{2} \in C^{\infty}(M)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_96_MASLOVA">{ }^{s} I\left(M, \rho_{M}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_97_MASLOVA">\left|\mathscr{d}^{\gamma} f\right| \leqslant c \rho^{s-|\gamma|}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_98_MASLOVA">\omega=\{\alpha \in M \mid \rho(\alpha)=0\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_99_MASLOVA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_100_MASLOVA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_101_MASLOVA">\phi=\mathbb{c}^{n} \oplus \mathbb{C}_{n}-2 n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_102_MASLOVA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_103_MASLOVA">\left(z^{1}, \ldots, z^{n}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_104_MASLOVA">\left.\zeta_{1}, \ldots, \zeta_{n}\right)=(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_105_MASLOVA">\rho_{\phi}=\left\{|\operatorname{im} z|^{2}+\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_106_MASLOVA">\left.+|\operatorname{Im} \zeta|^{2}\right\}^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_107_MASLOVA">d z \wedge d \zeta=d z^{1} \wedge d \zeta_{1}+\ldots+</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_108_MASLOVA">+d z^{n} \wedge d \zeta_{n} .(s+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_109_MASLOVA">i:\left(m, \rho_{M}\right) \rightarrow\left(\Phi, \rho_{\Phi}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_110_MASLOVA">i^{*}(d z \wedge d \zeta) \equiv 0\left(\bmod ^{s} I\left(M, \rho_{M}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_111_MASLOVA">(s+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_112_MASLOVA">\left\{u_{1}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_113_MASLOVA">(s+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_114_MASLOVA">(s+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_115_MASLOVA">(s+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_116_MASLOVA">\left\{s_{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_117_MASLOVA">\left\{\arg \mu_{I}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_118_MASLOVA">\left\{u_{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_119_MASLOVA">\arg \mu_{I}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_120_MASLOVA">i_{2}=i \backslash J, I_{3}=J \backslash I, \lambda_{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_121_MASLOVA">u_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_122_MASLOVA">c_{1} \rho_{M}^{2}\left(x^{I}, p_{\bar{I}}\right) \leqslant \operatorname{Im} S_{I}\left(x^{I}, p_{\bar{I}}\right) \leqslant c_{2} \rho_{M}^{2}\left(x^{I}, p_{\bar{I}}\right) ; \quad c_{1}, c_{2}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_123_MASLOVA">\mathbb{r}_{+}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_124_MASLOVA">\mathscr{l}^{\prime}\left(\mathbb{r}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_125_MASLOVA">h^{s}\left(\mathbb{r}^{n}\right), s \in \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_126_MASLOVA">l \subset T_{0}^{*} \mathbb{R}^{n}=\mathbb{R}^{n} \times\left(\mathbb{R}_{n} \backslash\{O\}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_127_MASLOVA">\mathbb{r}_{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_128_MASLOVA">\lambda(x, p)=(x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_129_MASLOVA">\lambda p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_130_MASLOVA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_131_MASLOVA">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_132_MASLOVA">o^{l}(l)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_133_MASLOVA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_134_MASLOVA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_135_MASLOVA">u_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_136_MASLOVA">o_{0}^{l}\left(u_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_137_MASLOVA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_138_MASLOVA">u_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_139_MASLOVA">\left.\varphi / \mathbb{R}_{+} \Subset U_{I} / \mathbb{R}_{+}\right), S_{I}\left(x^{I}, p_{\bar{I}}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_140_MASLOVA">1, \zeta_{\varphi}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_141_MASLOVA">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_142_MASLOVA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_143_MASLOVA">k_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_144_MASLOVA">k_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_145_MASLOVA">u_{i} \cap U_{J}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_146_MASLOVA">h^{s+1}\left(\mathbb{r}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_147_MASLOVA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_148_MASLOVA">v \in \Lambda^{n}(M)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_149_MASLOVA">v_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_150_MASLOVA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_151_MASLOVA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_152_MASLOVA">\left\{x^{\bar{i}}\left(x^{i}, p_{\bar{I}}\right), p_{I}\left(x^{I}, p_{\bar{I}}\right)\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_153_MASLOVA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_154_MASLOVA">u_{i} ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_155_MASLOVA">(m, \omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_156_MASLOVA">\left\{u_{\alpha}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_157_MASLOVA">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_158_MASLOVA">d p \wedge d q, g_{\alpha \beta}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_159_MASLOVA">t_{\alpha \beta}=T\left(g_{\alpha \beta}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_160_MASLOVA">c^{(1)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_161_MASLOVA">c^{(2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_162_MASLOVA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_163_MASLOVA">c^{(1)}=[\omega]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_164_MASLOVA">c^{(2)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_165_MASLOVA">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_166_MASLOVA">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_167_MASLOVA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_168_MASLOVA">c^{(1)}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_169_MASLOVA">c^{(2)} \equiv 0(\bmod 2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_170_MASLOVA">t_{\alpha \beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_171_MASLOVA">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_172_MASLOVA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1726_173_MASLOVA">l \subset M</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/1726_1_MASLOVA">
+      <rel_text>Многообразие</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1726_2_MASLOVA">
+      <rel_text>Двумерных пленок индекс</rel_text>
+      <target>http://libmeta.ru/fme/article/771_DVUMERNYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1726_3_MASLOVA">
+      <rel_text>задачи Коши</rel_text>
+      <target>http://libmeta.ru/fme/article/1430_KOShI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1726_4_MASLOVA">
+      <rel_text>многообразиях</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1726_5_MASLOVA">
+      <rel_text>многозначных</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1726_6_MASLOVA">
+      <rel_text>лагранжевом многообразии</rel_text>
+      <target>http://libmeta.ru/fme/article/1517_LAGRANZhEVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1726_7_MASLOVA">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1726_8_MASLOVA">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1726_9_MASLOVA">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1726_10_MASLOVA">
+      <rel_text>многообразие</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>Оператор, сопоставляющий функции на лагранжевом многообразии $URI[[http://libmeta.ru/fme/formula/aux/1726_1_MASLOVA]]/URI$ с невырожденной мерой $URI[[http://libmeta.ru/fme/formula/aux/1726_2_MASLOVA]]/URI$ (обобщенную) функцию на «физическом» пространстве - многообразии $URI[[http://libmeta.ru/fme/formula/aux/1726_3_MASLOVA]]/URI$; применяется для построения асимптотических разложений решений (псевдо) дифференциальных уравнений.
+
+Ниже приводится конструкция М. к. о. для случая асимптотич. разложений по малому параметру $URI[[http://libmeta.ru/fme/formula/aux/1726_4_MASLOVA]]/URI$. 1. Локальная теория. Пусть $URI[[http://libmeta.ru/fme/formula/aux/1726_5_MASLOVA]]/URI$. Л а гр а нже в ы м м ногообразием в гамильтоновом (симплектическом) пространстве $URI[[http://libmeta.ru/fme/formula/aux/1726_6_MASLOVA]]/URI$ с координатами
+
+и формой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_1_MASLOVA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_2_MASLOVA]]/URI
+\]
+
+называется такое подмногообразие $URI[[http://libmeta.ru/fme/formula/aux/1726_7_MASLOVA]]/URI$, для к-рого $URI[[http://libmeta.ru/fme/formula/aux/1726_8_MASLOVA]]/URI$. На лагранжевом многообразии всегда существует канонич. атлас, состоящий из карт $URI[[http://libmeta.ru/fme/formula/aux/1726_9_MASLOVA]]/URI$ с координатами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_3_MASLOVA]]/URI
+\]
+
+здесь
+
+$URI[[http://libmeta.ru/fme/formula/aux/1726_10_MASLOVA]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/1726_11_MASLOVA]]/URI$. Локальный М. к. о. есть отображение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_4_MASLOVA]]/URI
+\]
+
+определяемое формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_5_MASLOVA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1726_12_MASLOVA]]/URI$ есть $URI[[http://libmeta.ru/fme/formula/aux/1726_13_MASLOVA]]/URI$-преобразование Фурье по перемен$URI[[http://libmeta.ru/fme/formula/aux/1726_14_MASLOVA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_6_MASLOVA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1726_15_MASLOVA]]/URI$ действие в карте $URI[[http://libmeta.ru/fme/formula/aux/1726_16_MASLOVA]]/URI$, то есть нек-рое решение уравнения $URI[[http://libmeta.ru/fme/formula/aux/1726_17_MASLOVA]]/URI$ плотность меры $URI[[http://libmeta.ru/fme/formula/aux/1726_18_MASLOVA]]/URI$ в координатах $URI[[http://libmeta.ru/fme/formula/aux/1726_19_MASLOVA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1726_20_MASLOVA]]/URI$ с нек-рым выбором аргумента $URI[[http://libmeta.ru/fme/formula/aux/1726_21_MASLOVA]]/URI$.
+
+2. Глобальная теория. Имеет место соотношение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_7_MASLOVA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_8_MASLOVA]]/URI
+\]
+
+причем $URI[[http://libmeta.ru/fme/formula/aux/1726_22_MASLOVA]]/URI$ собственные значения матрицы
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_69a53b41a3ee340109b6g-1.jpg?height=80&amp;width=567&amp;top_left_y=1469&amp;top_left_x=236)
+
+I
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_9_MASLOVA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1726_23_MASLOVA]]/URI$ константы. Набор этих констант определяет одномерные классы когомологий $URI[[http://libmeta.ru/fme/formula/aux/1726_24_MASLOVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1726_25_MASLOVA]]/URI$, к-рые являются препятствиями к существованию глобального канонич. оператора $URI[[http://libmeta.ru/fme/formula/aux/1726_26_MASLOVA]]/URI$, совпадающего с операторами (1) в картах $URI[[http://libmeta.ru/fme/formula/aux/1726_27_MASLOVA]]/URI$. Лагранжево многообразие с мерой, на к-ром $URI[[http://libmeta.ru/fme/formula/aux/1726_28_MASLOVA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1726_29_MASLOVA]]/URI$, называется к в а н т о в а н н ы м. На квантованном лагранжевом многообразии определен (с точностью до мультипликативной константы) оператор
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_10_MASLOVA]]/URI
+\]
+
+к-рый и называется каноническим оператором Маслова.
+
+3. Формула коммутации с $URI[[http://libmeta.ru/fme/formula/aux/1726_30_MASLOVA]]/URI$-псевдодифференциальным оператором. Пусть $URI[[http://libmeta.ru/fme/formula/aux/1726_31_MASLOVA]]/URI$-псевдодифференциальный оператор с главным символом (гамильто- нианом) $URI[[http://libmeta.ru/fme/formula/aux/1726_32_MASLOVA]]/URI$. Тогда имеет место формула
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_11_MASLOVA]]/URI
+\]
+
+Если же потребовать дополнительно, чтобы гамильтониан $URI[[http://libmeta.ru/fme/formula/aux/1726_33_MASLOVA]]/URI$ обращался в нуль на лагранжевом многообразии $URI[[http://libmeta.ru/fme/formula/aux/1726_34_MASLOVA]]/URI$, то формула (4) может быть уточнена:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_12_MASLOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1726_35_MASLOVA]]/URI$ оператор переноса:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_13_MASLOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1726_36_MASLOVA]]/URI$ дифференцирование вдоль гамильтонова векторного поля, отвечающего гамильтониану $URI[[http://libmeta.ru/fme/formula/aux/1726_37_MASLOVA]]/URI$, a $URI[[http://libmeta.ru/fme/formula/aux/1726_38_MASLOVA]]/URI$ субглавный символ оператора $URI[[http://libmeta.ru/fme/formula/aux/1726_39_MASLOVA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_14_MASLOVA]]/URI
+\]
+
+причем $URI[[http://libmeta.ru/fme/formula/aux/1726_40_MASLOVA]]/URI$ - коэффициент при $URI[[http://libmeta.ru/fme/formula/aux/1726_41_MASLOVA]]/URI$ в разложении полного символа (см. 1/h-псевдодифференциальный оператор).
+
+Операторы $URI[[http://libmeta.ru/fme/formula/aux/1726_42_MASLOVA]]/URI$ могут быть модифицированы так, чтобы равенство (2) выполнялось с точностью до $URI[[http://libmeta.ru/fme/formula/aux/1726_43_MASLOVA]]/URI$ при любом $URI[[http://libmeta.ru/fme/formula/aux/1726_44_MASLOVA]]/URI$. В этом случае может быть получена формула коммутации до любой степени $URI[[http://libmeta.ru/fme/formula/aux/1726_45_MASLOVA]]/URI$.
+
+4. Условия квантования Маслова - условия существования М. к. о. на лагранжевом многообразии $URI[[http://libmeta.ru/fme/formula/aux/1726_46_MASLOVA]]/URI$ с мерой $URI[[http://libmeta.ru/fme/formula/aux/1726_47_MASLOVA]]/URI$. Они были введены как условия обращения в нуль двух классов $URI[[http://libmeta.ru/fme/formula/aux/1726_48_MASLOVA]]/URI$ когомологий Чеха канонич. покрытия многообразия $URI[[http://libmeta.ru/fme/formula/aux/1726_49_MASLOVA]]/URI$ (первое и второе условия квантования). Имеется эквивалентная форма условий квантования в терминах когомологий де $URI[[http://libmeta.ru/fme/formula/aux/1726_50_MASLOVA]]/URI$ ма. Классы $URI[[http://libmeta.ru/fme/formula/aux/1726_51_MASLOVA]]/URI$ могут быть заданы следующими замкнутыми дифференциальными формами на $URI[[http://libmeta.ru/fme/formula/aux/1726_52_MASLOVA]]/URI$ (см. [3]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_15_MASLOVA]]/URI
+\]
+
+где мера $URI[[http://libmeta.ru/fme/formula/aux/1726_53_MASLOVA]]/URI$ канонич. мера на лагранжевом многообразии, равная $URI[[http://libmeta.ru/fme/formula/aux/1726_54_MASLOVA]]/URI$ в частности, пара $URI[[http://libmeta.ru/fme/formula/aux/1726_55_MASLOVA]]/URI$ всегда удовлетворяет второму условию квантования. Класс $URI[[http://libmeta.ru/fme/formula/aux/1726_56_MASLOVA]]/URI$ называется и нде кс ным клас с ом Маслов а. Значение класса $URI[[http://libmeta.ru/fme/formula/aux/1726_57_MASLOVA]]/URI$ на замкнутой кривой называется и нде ксом Масло в а этой кривой. Индекс Маслова кривой $URI[[http://libmeta.ru/fme/formula/aux/1726_58_MASLOVA]]/URI$ может быть представлен различными способами, как, напр.:
+
+1) индекс эллиптич. оператора на кривой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_16_MASLOVA]]/URI
+\]
+
+действующего из пространства $URI[[http://libmeta.ru/fme/formula/aux/1726_59_MASLOVA]]/URI$ в пространство $URI[[http://libmeta.ru/fme/formula/aux/1726_60_MASLOVA]]/URI$
+
+2) вариация аргумента функции $URI[[http://libmeta.ru/fme/formula/aux/1726_61_MASLOVA]]/URI$ вдоль кривой $URI[[http://libmeta.ru/fme/formula/aux/1726_62_MASLOVA]]/URI$.
+
+Для других типов асимптотических разложений имеются следующие конструкции М. к. о.
+
+I. $URI[[http://libmeta.ru/fme/formula/aux/1726_63_MASLOVA]]/URI$ а нонический оператор Маслова (см. [1]). Пусть $URI[[http://libmeta.ru/fme/formula/aux/1726_64_MASLOVA]]/URI$ неограниченный самосопряженный оператор в (гильбертовом) пространстве $URI[[http://libmeta.ru/fme/formula/aux/1726_65_MASLOVA]]/URI$ пространство функций; фильтрация в этом пространстве определяется оператором $URI[[http://libmeta.ru/fme/formula/aux/1726_66_MASLOVA]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_17_MASLOVA]]/URI
+\]
+
+Локальный М. к. о., отвечающий этой фильтрации:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_18_MASLOVA]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_69a53b41a3ee340109b6g-1.jpg?height=87&amp;width=816&amp;top_left_y=2057&amp;top_left_x=931)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_19_MASLOVA]]/URI
+\]
+
+где последний интеграл есть интеграл в смысле Бохнера. В случае, когда пространство $URI[[http://libmeta.ru/fme/formula/aux/1726_67_MASLOVA]]/URI$, а оператор $URI[[http://libmeta.ru/fme/formula/aux/1726_68_MASLOVA]]/URI$-канонич. оператор Маслова доставляет асимптотич. разложения по гладкости и, в частности, решает задачу о метаморфозе разрыва при прохождении через каустику (cм. [1]).
+
+Теория $URI[[http://libmeta.ru/fme/formula/aux/1726_69_MASLOVA]]/URI$-канонич. оператора Маслова также распространяется на неограниченные операторы в банаховом пространстве.
+
+Ii. Комплексная теория М.к.о. Для построения М. к. о. на лагранжевом многообразии с комплексным ростком вводятся: лагранжево многообразие $URI[[http://libmeta.ru/fme/formula/aux/1726_70_MASLOVA]]/URI$ с гладкой функцией $URI[[http://libmeta.ru/fme/formula/aux/1726_71_MASLOVA]]/URI$ (диссипацией) на нем, $URI[[http://libmeta.ru/fme/formula/aux/1726_72_MASLOVA]]/URI$-мерная комплексная функция $URI[[http://libmeta.ru/fme/formula/aux/1726_73_MASLOVA]]/URI$ (комплексный росток), $URI[[http://libmeta.ru/fme/formula/aux/1726_74_MASLOVA]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1726_75_MASLOVA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1726_76_MASLOVA]]/URI$; энтальпия $URI[[http://libmeta.ru/fme/formula/aux/1726_77_MASLOVA]]/URI$, для к-рой $URI[[http://libmeta.ru/fme/formula/aux/1726_78_MASLOVA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1726_79_MASLOVA]]/URI$. Множество $URI[[http://libmeta.ru/fme/formula/aux/1726_80_MASLOVA]]/URI$ покрывается канонич. картами $URI[[http://libmeta.ru/fme/formula/aux/1726_81_MASLOVA]]/URI$, на к-рых $URI[[http://libmeta.ru/fme/formula/aux/1726_82_MASLOVA]]/URI$ и существует отображение $URI[[http://libmeta.ru/fme/formula/aux/1726_83_MASLOVA]]/URI$, для к-рого $URI[[http://libmeta.ru/fme/formula/aux/1726_84_MASLOVA]]/URI$ локальные координаты в $URI[[http://libmeta.ru/fme/formula/aux/1726_85_MASLOVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1726_86_MASLOVA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1726_87_MASLOVA]]/URI$. Действие в $URI[[http://libmeta.ru/fme/formula/aux/1726_88_MASLOVA]]/URI$ определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_20_MASLOVA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_21_MASLOVA]]/URI
+\]
+
+Лагранжево многообразие с комплексным ростком называется дисс и пати вны м, если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_22_MASLOVA]]/URI
+\]
+
+(неравенство диссипативности).
+
+Локальный М.к. о. на диссипативном лагранжевом многообразии с комплексным ростком определяется теперь формулой (1).
+
+Альтернативным вариантом теории М.к. о. на лагранжевом многообразии с комплексным ростком является М. к. о. на $URI[[http://libmeta.ru/fme/formula/aux/1726_89_MASLOVA]]/URI$-аналитическом (почти аналитическом) лагранжевом многообразии (см. [4]-[6]). Ниже приведены соответствующие конструкции.
+
+Гладкое многообразие $URI[[http://libmeta.ru/fme/formula/aux/1726_90_MASLOVA]]/URI$, вместе с таким атласом $URI[[http://libmeta.ru/fme/formula/aux/1726_91_MASLOVA]]/URI$, что в $URI[[http://libmeta.ru/fme/formula/aux/1726_92_MASLOVA]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_23_MASLOVA]]/URI
+\]
+
+называется $URI[[http://libmeta.ru/fme/formula/aux/1726_93_MASLOVA]]/URI$ н н а л и т и ч е с к и м. Здесь $URI[[http://libmeta.ru/fme/formula/aux/1726_94_MASLOVA]]/URI$ (весовая функция) - неотрицательная функция на $URI[[http://libmeta.ru/fme/formula/aux/1726_95_MASLOVA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1726_96_MASLOVA]]/URI$ множество функций, для к-рых $URI[[http://libmeta.ru/fme/formula/aux/1726_97_MASLOVA]]/URI$, и все рассмотрения проводятся в нек-рой окрестности множества $URI[[http://libmeta.ru/fme/formula/aux/1726_98_MASLOVA]]/URI$. Вводятся понятия $URI[[http://libmeta.ru/fme/formula/aux/1726_99_MASLOVA]]/URI$-аналитич. функций, вложений, форм и векторных полей на $URI[[http://libmeta.ru/fme/formula/aux/1726_100_MASLOVA]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/1726_101_MASLOVA]]/URI$-мерное $URI[[http://libmeta.ru/fme/formula/aux/1726_102_MASLOVA]]/URI$-аналитич. гамильтоново (симплектическое) пространство с координатами $URI[[http://libmeta.ru/fme/formula/aux/1726_103_MASLOVA]]/URI$; $URI[[http://libmeta.ru/fme/formula/aux/1726_104_MASLOVA]]/URI$, весовой функцией $URI[[http://libmeta.ru/fme/formula/aux/1726_105_MASLOVA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1726_106_MASLOVA]]/URI$ и структурной формой $URI[[http://libmeta.ru/fme/formula/aux/1726_107_MASLOVA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1726_108_MASLOVA]]/URI$-аналитич. вложение $URI[[http://libmeta.ru/fme/formula/aux/1726_109_MASLOVA]]/URI$ считается лагранжевым, если $URI[[http://libmeta.ru/fme/formula/aux/1726_110_MASLOVA]]/URI$.
+
+На $URI[[http://libmeta.ru/fme/formula/aux/1726_111_MASLOVA]]/URI$-аналитич. лагранжевом многообразии существует атлас $URI[[http://libmeta.ru/fme/formula/aux/1726_112_MASLOVA]]/URI$-канонич. карт. $URI[[http://libmeta.ru/fme/formula/aux/1726_113_MASLOVA]]/URI$-аналитич. лагранжево многообразие с $URI[[http://libmeta.ru/fme/formula/aux/1726_114_MASLOVA]]/URI$-аналитич. невырожденной мерой называется п рави л ьн о квант о ван ны м, если:
+
+А. Существует такая $URI[[http://libmeta.ru/fme/formula/aux/1726_115_MASLOVA]]/URI$-аналитич. коцепь $URI[[http://libmeta.ru/fme/formula/aux/1726_116_MASLOVA]]/URI$ и веще- ственная коцепь $URI[[http://libmeta.ru/fme/formula/aux/1726_117_MASLOVA]]/URI$ канонич. покрытия $URI[[http://libmeta.ru/fme/formula/aux/1726_118_MASLOVA]]/URI$, что
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fcf2af0821ac84965a22g-1.jpg?height=65&amp;width=650&amp;top_left_y=98&amp;top_left_x=970)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fcf2af0821ac84965a22g-1.jpg?height=61&amp;width=724&amp;top_left_y=163&amp;top_left_x=970)
+
+2) $URI[[http://libmeta.ru/fme/formula/aux/1726_119_MASLOVA]]/URI$ - одно из значений аргумента функции
+
+и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_24_MASLOVA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_25_MASLOVA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1726_120_MASLOVA]]/URI$ собственные значения матрицы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_26_MASLOVA]]/URI
+\]
+
+Б. В каждой канонич. карте $URI[[http://libmeta.ru/fme/formula/aux/1726_121_MASLOVA]]/URI$ имеют место неравенства: $URI[[http://libmeta.ru/fme/formula/aux/1726_122_MASLOVA]]/URI$.
+
+Локальный М.к. о. может быть теперь задан формулой (1). Комплексный М.к.о. применяется для построения асимптотик псевдодифференциальных уравнений с комплексным главным символом.
+
+Iii. $URI[[http://libmeta.ru/fme/formula/aux/1726_123_MASLOVA]]/URI$эквивариантная теория М.к.о. (см. [7]) связана с фильтрацией пространства $URI[[http://libmeta.ru/fme/formula/aux/1726_124_MASLOVA]]/URI$ с помощью шкалы Соболева $URI[[http://libmeta.ru/fme/formula/aux/1726_125_MASLOVA]]/URI$. Здесь рассматривается лагранжево многообразие $URI[[http://libmeta.ru/fme/formula/aux/1726_126_MASLOVA]]/URI$, однородное относительно действия группы $URI[[http://libmeta.ru/fme/formula/aux/1726_127_MASLOVA]]/URI$положительных чисел $URI[[http://libmeta.ru/fme/formula/aux/1726_128_MASLOVA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1726_129_MASLOVA]]/URI$, а также однородная степени $URI[[http://libmeta.ru/fme/formula/aux/1726_130_MASLOVA]]/URI$ мера $URI[[http://libmeta.ru/fme/formula/aux/1726_131_MASLOVA]]/URI$ и пространства $URI[[http://libmeta.ru/fme/formula/aux/1726_132_MASLOVA]]/URI$ однородных функций степени $URI[[http://libmeta.ru/fme/formula/aux/1726_133_MASLOVA]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1726_134_MASLOVA]]/URI$. Л окаль ны й канонический оператор Маслова
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_27_MASLOVA]]/URI
+\]
+
+имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_28_MASLOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1726_135_MASLOVA]]/URI$ - однородная канонич. карта, $URI[[http://libmeta.ru/fme/formula/aux/1726_136_MASLOVA]]/URI$ - пространство однородных степени $URI[[http://libmeta.ru/fme/formula/aux/1726_137_MASLOVA]]/URI$ функций в $URI[[http://libmeta.ru/fme/formula/aux/1726_138_MASLOVA]]/URI$ с конически компактным носителем (то есть supp $URI[[http://libmeta.ru/fme/formula/aux/1726_139_MASLOVA]]/URI$ ) однородна степени $URI[[http://libmeta.ru/fme/formula/aux/1726_140_MASLOVA]]/URI$ финитная функция, равная тождественно 1 на проекции носителя $URI[[http://libmeta.ru/fme/formula/aux/1726_141_MASLOVA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1726_142_MASLOVA]]/URI$.
+
+Согласование операторов $URI[[http://libmeta.ru/fme/formula/aux/1726_143_MASLOVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1726_144_MASLOVA]]/URI$ в пересечении карт $URI[[http://libmeta.ru/fme/formula/aux/1726_145_MASLOVA]]/URI$ происходит с точностью до элементов пространства $URI[[http://libmeta.ru/fme/formula/aux/1726_146_MASLOVA]]/URI$ (ср. (2)); при этом в силу однородности первое из условий квантования выполнено автоматически. Более того, имеет место формула
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_29_MASLOVA]]/URI
+\]
+
+Iv. M.K.о. на гладком многообразии (см., напр., [7]). Теория М.к.о. распространяется на случай, когда в качестве «физического» пространства выступает гладкое многообразие $URI[[http://libmeta.ru/fme/formula/aux/1726_147_MASLOVA]]/URI$ с фиксированной формой объема $URI[[http://libmeta.ru/fme/formula/aux/1726_148_MASLOVA]]/URI$. Ниже приведена необходимая модификация формул (1), (6):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_30_MASLOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1726_149_MASLOVA]]/URI$ - плотность меры $URI[[http://libmeta.ru/fme/formula/aux/1726_150_MASLOVA]]/URI$ относительно координат $URI[[http://libmeta.ru/fme/formula/aux/1726_151_MASLOVA]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1726_152_MASLOVA]]/URI$ уравнения $URI[[http://libmeta.ru/fme/formula/aux/1726_153_MASLOVA]]/URI$ в карте $URI[[http://libmeta.ru/fme/formula/aux/1726_154_MASLOVA]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_31_MASLOVA]]/URI
+\] V. М.к.о. в случае произвольного симплектич. м но гообразия (см. [8]). Пусть $URI[[http://libmeta.ru/fme/formula/aux/1726_155_MASLOVA]]/URI$ - симплектич. URI[[http://libmeta.ru/fme/relation/1726_10_MASLOVA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1726_156_MASLOVA]]/URI$ атлас, в картах к-рого форма $URI[[http://libmeta.ru/fme/formula/aux/1726_157_MASLOVA]]/URI$ имеет вид $URI[[http://libmeta.ru/fme/formula/aux/1726_158_MASLOVA]]/URI$ (канонические) диффеоморфизмы перехода, $URI[[http://libmeta.ru/fme/formula/aux/1726_159_MASLOVA]]/URI$ соответствующие URI[[http://libmeta.ru/fme/relation/1726_9_MASLOVA]]/URI канонич. преобразований URI[[http://libmeta.ru/fme/relation/1726_8_MASLOVA]]/URI проективного представления. Соотношение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_32_MASLOVA]]/URI
+\]
+
+определяет двумерные классы когомологий $URI[[http://libmeta.ru/fme/formula/aux/1726_160_MASLOVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1726_161_MASLOVA]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1726_162_MASLOVA]]/URI$, при этом $URI[[http://libmeta.ru/fme/formula/aux/1726_163_MASLOVA]]/URI$, а значение $URI[[http://libmeta.ru/fme/formula/aux/1726_164_MASLOVA]]/URI$ на цикле $URI[[http://libmeta.ru/fme/formula/aux/1726_165_MASLOVA]]/URI$ равно индексу $URI[[http://libmeta.ru/fme/formula/aux/1726_166_MASLOVA]]/URI$ (см. URI[[http://libmeta.ru/fme/relation/1726_2_MASLOVA]]/URI). URI[[http://libmeta.ru/fme/relation/1726_1_MASLOVA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1726_167_MASLOVA]]/URI$ называется квантованны м, если $URI[[http://libmeta.ru/fme/formula/aux/1726_168_MASLOVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1726_169_MASLOVA]]/URI$. В этом случае URI[[http://libmeta.ru/fme/relation/1726_7_MASLOVA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1726_170_MASLOVA]]/URI$ (после умножения на подходящие константы) задают алгебраич. пучок $URI[[http://libmeta.ru/fme/formula/aux/1726_171_MASLOVA]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/1726_172_MASLOVA]]/URI$. М. к. о. на квантованном URI[[http://libmeta.ru/fme/relation/1726_6_MASLOVA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1726_173_MASLOVA]]/URI$ определяется как отображение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1726_33_MASLOVA]]/URI
+\]
+
+Развита также теория М.к. о. для случая URI[[http://libmeta.ru/fme/relation/1726_5_MASLOVA]]/URI аналитич. функций на комплексно-аналитич. URI[[http://libmeta.ru/fme/relation/1726_4_MASLOVA]]/URI (см. [9]). Эта теория позволила найти асимптотику «в большом» характеристич. URI[[http://libmeta.ru/fme/relation/1726_3_MASLOVA]]/URI.</text>
+  <text_orig>ОПераТОр, сопоставляющий функции на лагранжевом многообразии $L \subset T^{*} M$ с невырожденной мерой $\mu \in \Lambda^{n}(L)$ (обобщенную) функцию на «физическом» пространстве - многообразии $M$; применяется для построения асимптотических разложений решений (псевдо) дифференциальных уравнений.
+
+Ниже приводится конструкция М. к. о. для случая асимптотич. разложений по малому параметру $h&gt;0$. 1. Локальная теория. Пусть $M=\mathbb{R}^{n}$. Л а гр а нже в ы м м ногообразием в гамильтоновом (симплектическом) пространстве $T^{*} \mathbb{R}^{n}=\mathbb{R}^{n} \oplus \mathbb{R}^{n}$ с координатами
+
+и формой
+
+\[
+(x, p)=\left(x^{1}, \ldots, x^{n} ; p_{1}, \ldots, p_{n}\right)
+\]
+
+\[
+d x \wedge d p=d x^{1} \wedge d p_{1}+\ldots+d x^{n} \wedge d p_{n}
+\]
+
+называется такое подмногообразие $L, \operatorname{dim} L=n$, для к-рого $\left.d x_{\wedge} d p\right|_{L}=0$. На лагранжевом многообразии всегда существует канонич. атлас, состоящий из карт $U_{I}$ с координатами
+
+\[
+\left(x^{I}, p_{\bar{I}}\right)=\left(x^{i_{1}}, \ldots, x^{i_{m}}, p_{i_{m+1}}, \ldots, p_{i_{n}}\right)
+\]
+
+здесь
+
+$I=\left\{i_{1}, \ldots, i_{m}\right\}, \bar{I}=\left\{i_{m+1}, \ldots, i_{n}\right\}, I \cup \bar{I}=\{1,2, \ldots, n\}$.
+
+Пусть $\varphi \in C_{0}^{\infty}\left(U_{I}\right)$. Локальный М. к. о. есть отображение
+
+\[
+k_{I}: C_{0}^{\infty}\left(U_{1}\right) \rightarrow C^{\infty}\left(\mathbb{R}_{x}^{n} \times \mathbb{R}_{+, h}^{1}\right),
+\]
+
+определяемое формулой
+
+\[
+k_{I} \varphi=F_{p_{\bar{I}} \rightarrow x^{1 / h}}^{\bar{I}}\left\{e^{\frac{i}{h} S_{I}\left(x^{I}, p_{\bar{I}}\right)} \sqrt{\mu_{I}\left(x^{I}, p_{\bar{I}}^{-}\right)} \varphi\left(x^{I}, p_{I}^{-}\right)\right\}
+\]
+
+Здесь $F_{p_{\bar{I}}}^{1 / h} \rightarrow x^{\bar{I}}$ есть $1 / h$-преобразование Фурье по перемен$\operatorname{HЫM} p_{\bar{I}}$ :
+
+\[
+F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}^{1 / h}(f)=\left(\frac{i}{2 \pi h}\right)^{|\bar{I}| / 2} \int_{\mathbb{R}_{\bar{I}}} e^{\frac{i}{h} x^{\bar{I}} p_{\bar{I}}} f\left(p_{\bar{I}}\right) d p_{\bar{I}},
+\]
+
+$|\vec{I}|=n-m, \quad S_{I}-$ действие в карте $U_{I}$, то есть нек-рое решение уравнения $d S_{I}=p_{I} d x^{I}-\left.x^{\bar{I}} d p_{\bar{I}}\right|_{L} ; \mu_{I}\left(x^{I}, p_{\bar{I}}\right)-$ плотность меры $\mu \in \Lambda^{n}(L)$ в координатах $\left(x^{I}, p_{\bar{I}}\right): \mu=$ $=\mu_{I} d x^{I}{ }^{\wedge} d p_{\bar{I}}$ с нек-рым выбором аргумента $\arg \mu_{I}$.
+
+2. Глобальная теория. Имеет место соотношение
+
+\[
+k_{I} \varphi=e^{\frac{i}{h} c_{I J}^{(1)}+i \pi c_{I J}^{(2)}} k_{J} \varphi+O(h), \quad \varphi \in C_{0}^{\infty}\left(U_{I} \cap U_{J}\right)
+\]
+
+где
+
+\[
+\begin{gathered}
+c_{I J}^{(1)}=S_{I}+x^{\bar{I}} p_{\bar{I}}-S_{J}-\left.x^{\bar{J}} p_{J}\right|_{L}, \\
+c_{I J}^{(2)}=\frac{1}{2 \pi}\left[\arg \mu_{I}-\arg \mu_{J}-\sum_{k} \arg \lambda_{I J}^{k}-\left|I_{2}\right| \pi\right],
+\end{gathered}
+\]
+
+причем $\lambda_{I J}^{k}-$ собственные значения матрицы
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_69a53b41a3ee340109b6g-1.jpg?height=80&amp;width=567&amp;top_left_y=1469&amp;top_left_x=236)
+
+I
+
+\[
+-\frac{3 \pi}{2}&lt;\arg \lambda_{I J}^{k} \leqslant \frac{\pi}{2}
+\]
+
+$c_{I J}^{(1)}, c_{I J}^{(2)}-$ константы. Набор этих констант определяет одномерные классы когомологий $c^{(1)}$ и $c^{(2)}$, к-рые являются препятствиями к существованию глобального канонич. оператора $k$, совпадающего с операторами (1) в картах $U_{I}$. Лагранжево многообразие с мерой, на к-ром $c^{(1)}=0$, $c^{(2)}=0(\bmod 2)$, называется к в а н т о в а н н ы м. На квантованном лагранжевом многообразии определен (с точностью до мультипликативной константы) оператор
+
+\[
+k: C_{0}^{\infty}(L) \rightarrow C^{\infty}\left(\mathbb{R}_{x}^{n} \times \mathbb{R}_{+, h}^{1}\right),
+\]
+
+к-рый и называется каноническим оператором Маслова.
+
+3. Формула коммутации с $1 / h$-псевдодифференциальным оператором. Пусть $\hat{H}=\hat{H}\left(x,-i h \frac{\partial}{\partial x}, h\right)-1 / h$-псевдодифференциальный оператор с главным символом (гамильто- нианом) $H_{0}(x, p)$. Тогда имеет место формула
+
+\[
+\hat{H} \circ k(\varphi)=k\left(\left.H_{0}(x, p)\right|_{L} \varphi\right)+O(h) .
+\]
+
+Если же потребовать дополнительно, чтобы гамильтониан $H$ обрашался в нуль на лагранжевом многообразии $L$, то формула (4) может быть уточнена:
+
+\[
+\hat{H} \circ k(\varphi)=-i h k(\mathscr{P} \varphi)+O\left(h^{2}\right),
+\]
+
+где $\mathscr{P}-$ оператор переноса:
+
+\[
+\mathscr{P}=\frac{d}{d t}+\frac{1}{2} \frac{L_{d / d t} \mu}{\mu}+H^{\text {sub }},
+\]
+
+где $\frac{d}{d t}-$ дифференцирование вдоль гамильтонова векторного поля, отвечающего гамильтониану $H_{0}$, a $H^{\text {sub }}-$ cyбглавный символ оператора $\hat{H}$ :
+
+\[
+H^{\mathrm{sub}}(x, p)=i H_{1}(x, p)-\frac{1}{2} \frac{\partial^{2} H_{0}}{\partial x \partial p}(x, p)
+\]
+
+причем $H_{1}(x, p)$ - коэффициент при $h$ в разложении полного символа (см. 1/h-псевдодифференциальный оператор).
+
+Операторы $k_{I}$ могут быть модифицированы так, чтобы равенство (2) выполнялось с точностью до $O\left(h^{N}\right)$ при любом $N$. В этом случае может быть получена формула коммутации до любой степени $h$.
+
+4. Условия квантования Маслова - условия существования М. к. о. на лагранжевом многообразии $L$ с мерой $\mu$. Они были введены как условия обрашения в нуль двух классов $c^{(1)}, c^{(2)}$ когомологий Чеха канонич. покрытия многообразия $L$ (первое и второе условия квантования). Имеется эквивалентная форма условий квантования в терминах когомологий де $\mathrm{Pa}-$ ма. Классы $c^{(1)}, c^{(2)}$ могут быть заданы следующими замкнутыми дифференциальными формами на $L$ (см. [3]):
+
+\[
+\begin{gathered}
+c^{(1)}: \omega^{(1)}=p d x, \\
+c^{(2)}: \omega^{(2)}=\frac{1}{2 \pi i} d \ln \frac{\mu}{\sigma},
+\end{gathered}
+\]
+
+где мера $\sigma-$ канонич. мера на лагранжевом многообразии, равная $\sigma=d\left(x^{1}-i p_{1}\right) \wedge \ldots \wedge d\left(x^{n}-i p_{n}\right) ;$ в частности, пара $(L, \sigma)$ всегда удовлетворяет второму условию квантования. Класс $c^{(2)}$ называется и нде кс ным клас с ом Маслов а. Значение класса $c^{(2)}$ на замкнутой кривой называется и нде ксом Масло в а этой кривой. Индекс Маслова кривой $\gamma$ может быть представлен различными способами, как, напр.:
+
+1) индекс эллиптич. оператора на кривой
+
+\[
+S_{\gamma} \varphi(t)=(\sigma+\mu) \varphi(t)+\frac{\sigma-\mu}{\pi i} \int_{\gamma} \frac{\varphi(\tau) d \tau}{\tau-t}
+\]
+
+действующего из пространства $L_{2}(\gamma, \mathbb{C})$ в пространство $L_{2}\left(\gamma, \Lambda^{n}(L)\right)$
+
+2) вариация аргумента функции $\mu / \sigma$ вдоль кривой $l$.
+
+Для других типов асимптотических разложений имеются следуюшие конструкции М. к. о.
+
+I. $A-$ а нонический оператор Маслова (см. [1]). Пусть $A: H \rightarrow H-$ неограниченный самосопряженный оператор в (гильбертовом) пространстве $H ; C^{\infty}\left(\mathbb{R}^{n}, H\right)-$ пространство функций; фильтрация в этом пространстве определяется оператором $A$, то есть
+
+\[
+E_{k}=\left\{f \in C^{\infty}\left(\mathbb{R}^{n}, H\right) \mid f \in \mathscr{D}\left(A^{k}\right)\right\}
+\]
+
+Локальный М. к. о., отвечаюший этой фильтрации:
+
+\[
+k_{I} \varphi=F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}^{A}\left\{e^{i S_{I}\left(x^{I}, p_{\bar{I}}\right) A} \sqrt{\mu_{I}\left(x^{I}, p_{\bar{I}}\right)} \varphi\left(x^{I}, p_{\bar{I}}\right)\right\}
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_69a53b41a3ee340109b6g-1.jpg?height=87&amp;width=816&amp;top_left_y=2057&amp;top_left_x=931)
+
+\[
+F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}^{A}(f)=\left(\frac{i|A|}{2 \pi}\right)^{n / 2} \int_{\mathbb{R}_{\bar{I}}} e^{i \bar{I}^{\bar{I}} p_{\bar{I}} A} f\left(p_{\bar{I}}\right) d p_{\bar{I}},
+\]
+
+где последний интеграл есть интеграл в смысле Бохнера. В случае, когда пространство $H=L_{2}(\mathbb{R})$, а оператор $A=i \frac{\partial}{\partial \tau}, A$-канонич. оператор Маслова доставляет асимптотич. разложения по гладкости и, в частности, решает задачу о метаморфозе разрыва при прохождении через каустику (cм. [1]).
+
+Теория $A$-канонич. оператора Маслова также распространяется на неограниченные операторы в банаховом пространстве.
+
+II. Комплексная теория М.к.о. Для построения М. к. о. на лагранжевом многообразии с комплексным ростком вводятся: лагранжево многообразие $L \subset \mathbb{R}_{q}^{n} \oplus \mathbb{R}_{n, p}$ с гладкой функцией $\mathscr{D} \geqslant 0$ (диссипацией) на нем, $2 n$-мерная комплексная функция $r^{2 n}=(w, z)$ (комплексный росток), $r^{2 n}=O(\sqrt{\mathscr{D}}), \quad \operatorname{rank}_{\mathbb{C}}\{d(p+w), \quad d(q+z)\}=n \quad$ на $\Gamma=\{\alpha \in$ $\in L \mid \mathscr{D}(\alpha)=0\}$; энтальпия $W$, для к-рой $d W=(p+w) d(q+$ $+z)+O(\sqrt{D})$. Множество $\Gamma$ покрывается канонич. картами $\left\{U_{I}\right\}$, на к-рых $\mathscr{D}\left(q^{I^{\prime}}+z^{I}, p_{\bar{I}}+w_{\bar{I}}\right) / \mathscr{D} \alpha \neq 0$ и сушествует отображение $\gamma: U_{I} \rightarrow \mathbb{R}_{x}^{I} \times \mathbb{R}_{\bar{I} \xi}$, для к-рого $\mathscr{I} \gamma / \mathscr{\mathscr { N } \alpha \neq 0}(\alpha-$ локальные координаты в $\left.U_{I}\right)$ и $\gamma=\left(q^{I}+z^{I}, p_{\bar{I}}+w_{\bar{I}}\right)+\sigma$, $\sigma=O(\sqrt{\mathscr{D}})$. Действие в $U_{I}$ определяется формулой
+
+\[
+S_{I}\left(x^{I}, \xi_{\bar{I}}\right)=\left.R_{\gamma}\left(W-\left(p_{\bar{I}}+w_{\bar{I}}\right)\left(q^{\bar{I}}+z^{\bar{I}}\right)\right)\right|_{\alpha}=\alpha\left(x^{I}, \xi_{\bar{I}}\right) \text {, }
+\]
+
+где
+
+\[
+\begin{gathered}
+R_{\gamma} f(\alpha)=f(\alpha)+\left\langle\sigma(\alpha), \frac{\partial f}{\partial\left(q^{I}+z^{I}, p_{\bar{I}}+w_{\bar{I}}\right)}\right\rangle+ \\
++\frac{1}{2}\left\langle\sigma(\alpha), \frac{\partial^{2} f}{\partial\left(q^{I}+z^{I}, p_{\bar{I}}+w_{\bar{I}}\right)^{2}} \sigma(\alpha)\right\rangle .
+\end{gathered}
+\]
+
+Лагранжево многообразие с комплексным ростком называется дисс и пати вны м, если
+
+\[
+\operatorname{Im} S\left(x^{I}, \xi_{\bar{I}}\right) \geqslant c \mathscr{D}\left(\alpha\left(x^{I}, \xi_{\bar{I}}\right)\right), c&gt;0
+\]
+
+(неравенство диссипативности).
+
+Локальный М.к. о. на диссипативном лагранжевом многообразии с комплексным ростком определяется теперь формулой (1).
+
+Альтернативным вариантом теории М.к. о. на лагранжевом многообразии с комплексным ростком является М. к. о. на $s$-аналитическом (почти аналитическом) лагранжевом многообразии (см. [4]-[6]). Ниже приведены соответствующие конструкции.
+
+Гладкое многообразие $M, \operatorname{dim}_{\mathbb{R}} M=2 n$, вместе с таким атласом $\left\{U_{j}, \alpha_{j}\right\}, \alpha_{j}: U_{j} \rightarrow \mathbb{C}^{n}$, что в $U_{i} \cap U_{j}$
+
+\[
+\frac{\partial \alpha_{i}}{\partial \bar{\alpha}_{j}} \equiv 0\left(\bmod ^{s} I\left(M, \rho_{M}\right)\right)
+\]
+
+называется $s-$ н н а л и т и ч е с к и м. Здесь $\rho_{M}$ (весовая функция) - неотрицательная функция на $M, \rho_{M}^{2} \in C^{\infty}(M)$, ${ }^{s} I\left(M, \rho_{M}\right)-$ множество функший, для к-рых $\left|\mathscr{D}^{\gamma} f\right| \leqslant c \rho^{s-|\gamma|}$, и все рассмотрения проводятся в нек-рой окрестности множества $\Omega=\{\alpha \in M \mid \rho(\alpha)=0\}$. Вводятся понятия $s$-аналитич. функций, вложений, форм и векторных полей на $M$.
+
+Пусть $\Phi=\mathbb{C}^{n} \oplus \mathbb{C}_{n}-2 n$-мерное $s$-аналитич. гамильтоново (симплектическое) пространство с координатами $\left(z^{1}, \ldots, z^{n}\right.$; $\left.\zeta_{1}, \ldots, \zeta_{n}\right)=(z, \zeta)$, весовой функцией $\rho_{\Phi}=\left\{|\operatorname{Im} z|^{2}+\right.$ $\left.+|\operatorname{Im} \zeta|^{2}\right\}^{1 / 2}$ и структурной формой $d z \wedge d \zeta=d z^{1} \wedge d \zeta_{1}+\ldots+$ $+d z^{n} \wedge d \zeta_{n} .(s+1)$-аналитич. вложение $i:\left(M, \rho_{M}\right) \rightarrow\left(\Phi, \rho_{\Phi}\right)$ считается лагранжевым, если $i^{*}(d z \wedge d \zeta) \equiv 0\left(\bmod ^{s} I\left(M, \rho_{M}\right)\right)$.
+
+На $(s+1)$-аналитич. лагранжевом многообразии существует атлас $\left\{U_{1}\right\}$-канонич. карт. $(s+1)$-аналитич. лагранжево многообразие с $(s+1)$-аналитич. невырожденной мерой называется п рави л ьн о квант о ван ны м, если:
+
+А. Существует такая $(s+1)$-аналитич. коцепь $\left\{S_{I}\right\}$ и веще- ственная коцепь $\left\{\arg \mu_{I}\right\}$ канонич. покрытия $\left\{U_{I}\right\}$, что
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fcf2af0821ac84965a22g-1.jpg?height=65&amp;width=650&amp;top_left_y=98&amp;top_left_x=970)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fcf2af0821ac84965a22g-1.jpg?height=61&amp;width=724&amp;top_left_y=163&amp;top_left_x=970)
+
+2) $\arg \mu_{I}$ - одно из значений аргумента функции
+
+и
+
+\[
+\mu_{I}=\frac{\partial \mu}{\partial\left(z^{I}, \zeta_{\bar{I}}\right)}
+\]
+
+\[
+\arg \mu_{I}-\arg \mu_{J}=\sum \arg \lambda_{k}+\left|I_{2}\right| \pi .
+\]
+
+Здесь $I_{2}=I \backslash J, I_{3}=J \backslash I, \lambda_{k}-$ собственные значения матрицы
+
+\[
+\text { Hess }_{z}^{I_{2}, \zeta_{I_{3}}}\left(-S_{I}(\alpha)\right), \quad \alpha \in \Omega, \quad-\frac{3 \pi}{2}&lt;\arg \lambda_{k} \leqslant \frac{\pi}{2} .
+\]
+
+Б. В каждой канонич. карте $U_{I}$ имеют место неравенства: $c_{1} \rho_{M}^{2}\left(x^{I}, p_{\bar{I}}\right) \leqslant \operatorname{Im} S_{I}\left(x^{I}, p_{\bar{I}}\right) \leqslant c_{2} \rho_{M}^{2}\left(x^{I}, p_{\bar{I}}\right) ; \quad c_{1}, c_{2}&gt;0$.
+
+Локальный М.к. о. может быть теперь задан формулой (1). Комплексный М.к.о. применяется для построения асимптотик псевдодифференциальных уравнений с комплексным главным символом.
+
+III. $\mathbb{R}_{+}-$эвивариантная теория М.к.о. (см. [7]) связана с фильтрацией пространства $\mathscr{L}^{\prime}\left(\mathbb{R}^{n}\right)$ с помошью шкалы Соболева $H^{s}\left(\mathbb{R}^{n}\right), s \in \mathbb{R}$. Здесь рассматривается лагранжево многообразие $L \subset T_{0}^{*} \mathbb{R}^{n}=\mathbb{R}^{n} \times\left(\mathbb{R}_{n} \backslash\{O\}\right)$, однородное относительно действия группы $\mathbb{R}_{+}$положительных чисел $\lambda(x, p)=(x$, $\lambda p)$, а также однородная степени $m$ мера $\mu$ и пространства $O^{l}(L)$ однородных функций степени $l$ на $L$. Л окаль ны й канонический оператор Маслова
+
+\[
+k_{I}: O_{0}^{l}\left(U_{1}\right) \rightarrow H_{\operatorname{loc}}^{s}\left(\mathbb{R}^{n}\right), \quad s&lt;-l-\frac{m}{2},
+\]
+
+имеет вид
+
+\[
+k_{I} \varphi=\zeta_{\varphi}(x) F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}\left\{e^{i S_{I}\left(x^{I}, p_{\bar{I}}\right)} \sqrt{\mu_{I}\left(x^{I}, p_{\bar{I}}\right)} \varphi\left(x^{I}, p_{\bar{I}}\right)\right\},
+\]
+
+где $U_{I}$ - однородная канонич. карта, $O_{0}^{l}\left(U_{I}\right)$ - пространство однородных степени $l$ функщий в $U_{I}$ с конически компактным носителем (то есть supp $\left.\varphi / \mathbb{R}_{+} \Subset U_{I} / \mathbb{R}_{+}\right), S_{I}\left(x^{I}, p_{\bar{I}}\right.$ ) однородна степени $1, \zeta_{\varphi}-$ финитная функция, равная тождественно 1 на проекции носителя $\varphi$ в $\mathbb{R}^{n}$.
+
+Согласование операторов $k_{I}$ и $k_{J}$ в пересечении карт $U_{I} \cap U_{J}$ происходит с точностью до элементов пространства $H^{s+1}\left(\mathbb{R}^{n}\right)$ (ср. (2)); при этом в силу однородности первое из условий квантования выполнено автоматически. Более того, имеет место формула
+
+\[
+S_{I}=-\left.x^{\bar{I}} p_{\bar{I}}\right|_{L}
+\]
+
+IV. M.K.о. на гладком многообразии (см., напр., [7]). Теория М.к.о. распространяется на случай, когда в качестве «физического» пространства выступает гладкое многообразие $M$ с фиксированной формой объема $v \in \Lambda^{n}(M)$. Ниже приведена необходимая модификация формул (1), (6):
+
+\[
+k_{I} \varphi=F_{p_{\bar{I}} \rightarrow x^{\bar{I}}}^{1 / h}\left\{e^{\frac{i}{h} S_{I}\left(x^{I}, p_{\bar{I}}\right)} \sqrt{\frac{\mu_{I}\left(x^{I}, p_{\bar{I}}\right)}{v_{x}\left(x^{I}, x^{\bar{I}}\left(x^{I}, p_{\bar{I}}\right)\right)}} \varphi\left(x^{I}, p_{\bar{I}}\right)\right\},
+\]
+
+где $v_{x}$ - плотность меры $v$ относительно координат $x$, а $\left\{x^{\bar{I}}\left(x^{I}, p_{\bar{I}}\right), p_{I}\left(x^{I}, p_{\bar{I}}\right)\right\}-$ уравнения $L$ в карте $U_{I} ;$
+
+\[
+H^{\mathrm{sub}}(x, p)=i H_{1}(x, p)-\frac{1}{2} \frac{\partial^{2} H_{0}}{\partial x \partial p}(x, p)-\frac{1}{2} \frac{d}{d t} \ln v_{x}(x) .
+\] V. М.к.о. вслучае произвольного симплектич. м но гообразия (см. [8]). Пусть $(M, \omega)$ - симплектич. многообразие, $\left\{U_{\alpha}\right\}-$ атлас, в картах к-рого форма $\omega$ имеет вид $d p \wedge d q, g_{\alpha \beta}-$ (канонические) диффеоморфизмы перехода, $T_{\alpha \beta}=T\left(g_{\alpha \beta}\right)-$ соответствующие операторы канонич. преобразований группы проективного представления. Соотношение
+
+\[
+T_{\alpha \beta} \circ T_{\beta \gamma}=T_{\alpha \gamma} \exp \left[\frac{i}{h} c_{\alpha \beta \gamma}^{(1)}+i \pi c_{\alpha \beta \gamma}^{(2)}\right]
+\]
+
+определяет двумерные классы когомологий $c^{(1)}$ и $c^{(2)}$ на $M$, при этом $c^{(1)}=[\omega]$, а значение $c^{(2)}$ на цикле $\Sigma$ равно индексу $\Sigma$ (см. Двумерных пленок индекс). Многообразие $M$ называется квантованны м, если $c^{(1)}=0$ и $c^{(2)} \equiv 0(\bmod 2)$. В этом случае операторы $T_{\alpha \beta}$ (после умножения на подходяшие константы) задают алгебраич. пучок $J$ на $M$. М. к. о. на квантованном лагранжевом многообразии $L \subset M$ определяется как отображение
+
+\[
+k: C_{0}^{\infty}(L) \rightarrow \Gamma(M, J)
+\]
+
+Развита также теория М.к. о. для случая многозначных аналитич. функций на комплексно-аналитич. многообразиях (см. [9]). Эта теория позволила найти асимптотику «в болышом» характеристич. задачи Коши.
+
+Лит.: [1] М а с л о в В. П., Теория возмущений и асимптотические методы, М., 1965; [2] М ищенко А. С., С тернин Б. Ю., Шата л о в В. Е., Лагранжевы многообразия и метод канонического оператора, М., 1978; [3] М а с л о в В. П., Операторные методы, М., 1973; [4] Ми щенко А. С., Стерни н Б. Ю., Шаталов В. Е., Метод канонического оператора Маслова. Комплексная теория, М., 1974; [5] С т е р н и н Б. Ю., в сб.: &quot;Труды семинара С. Л. Соболева», Новосибирск, 1976, с. 141-56; [6] Куче ре н к о В. В., «Математич. сб.», 1974, т. 95, № 2, с. 163-213; [7] Назайкинский В. Е. [и др.], «Успехи математич. наук», 1981, т. 36, в. 2, с. 81-140; [8] Карасе в М. В., Маслов В. П., «Известия АН СССР. Сер. математическая», 1983, т. 47, № 5, с. 999-1029; [9] С т е рн и н Б. Ю., Ш а т а л о в В. Е., «Успехи математич. наук», 1988, т. 43, $\begin{array}{ll}\text { в. 3, с. 99-124. } &amp; \text { Б. Ю. Стернин, В. Е. Шаталов. }\end{array}$</text_orig>
+</article>

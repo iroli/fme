@@ -1,0 +1,537 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2129_OSTsILLJaTO" alphabetic_pos="2131">
+  <title>ОСЦИЛЛЯТОР</title>
+  <authors>
+    <author>В. И. Манько</author>
+  </authors>
+  <pages>
+    <start>417</start>
+    <end>418</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ланд а у Л. Д., Л ифш иц Е. М., Квантовая механика, 4 изд., М., 1989; [2] их же, Механика, 4 изд., М., 1988, с. 207; [3] Малкин И.А., Манько В. И., Динамические симметрии и когерентные состояния квантовых систем, М., 1979.</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Квантовая механика</title>
+      <publication>4 изд., М.</publication>
+      <year>1989</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>их же, Механика</title>
+      <publication>4 изд., М.</publication>
+      <year>1988</year>
+      <other>с. 207</other>
+    </unit>
+    <unit>
+      <author>Малкин И. А.</author>
+      <author>Манько В. И.</author>
+      <title>Динамические симметрии и когерентные состояния квантовых систем</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_1_OSTsILLJaTO">U=k x^{2} / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_2_OSTsILLJaTO">\ddot{x}+\omega^{2} x=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_3_OSTsILLJaTO">x(t)=A \cos (\omega t+\varphi)=\operatorname{Re}[A \exp i(\omega t+\varphi)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_4_OSTsILLJaTO">\mathscr{E}=\frac{m \dot{x}^{2}}{2}+\frac{k x^{2}}{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_5_OSTsILLJaTO">\mathscr{E}=m \omega^{2} A^{2} / 2 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_6_OSTsILLJaTO">p(t)=m \omega A \cos (\omega t+\varphi+\pi / 2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_7_OSTsILLJaTO">\frac{x^{2}}{A^{2}}+\frac{p^{2}}{(m \omega A)^{2}}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_8_OSTsILLJaTO">\hat{H}=\frac{\hat{p}^{2}}{2 m}+\frac{m \omega^{2} \hat{x}^{2}}{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_9_OSTsILLJaTO">\hat{p}=-i \hbar \partial / \partial x, \hat{x}=x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_10_OSTsILLJaTO">\mathscr{E}_{n}=\hbar \omega(n+1 / 2), n=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_11_OSTsILLJaTO">-\frac{\hbar^{2}}{2 m} \frac{\partial^{2} \psi_{n}(x, t)}{\partial x^{2}}+\frac{m \omega^{2} x^{2} \psi_{n}(x, t)}{2}=i \hbar \frac{\partial \psi_{n}}{\partial t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_12_OSTsILLJaTO">\begin{gathered}\Psi_{n}(x, t)= \\=\left(l \sqrt{\pi} 2^{n} n !\right)^{-1 / 2} \exp \left(-x^{2} / 2 l^{2}\right) H_{n}(x / l) \exp \left(-i \mho_{n} t / \hbar\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_13_OSTsILLJaTO">\psi_{0}(x)=(l \sqrt{\pi})^{-1 / 2} \exp \left(-x^{2} / 2 l^{2}\right) \exp (-i \omega t / 2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_14_OSTsILLJaTO">\begin{aligned}&amp; \Psi_{\alpha}(x, t)=(m \omega / \hbar \pi)^{1 / 4} \exp \left\{-\frac{\alpha^{2}}{2}-\frac{i \omega t}{2}-\frac{x^{2}}{2 \hbar} m \omega+\right. \\&amp; \left.+\exp (-i \omega t) \alpha x(2 m \omega / \hbar)^{1 / 2}-1 / 2 \alpha^{2} \exp (-2 i \omega t)\right\},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_15_OSTsILLJaTO">\hat{A}(t)=\frac{\exp (i \omega t)}{\sqrt{2}}\left(\frac{\hat{x}}{l}+l \frac{i \hat{p}}{\hbar}\right), \quad\left[\hat{A}, \hat{A}^{+}\right]=1,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_16_OSTsILLJaTO">\hat{A} \psi_{n}=\sqrt{n} \psi_{n-1}, \quad \hat{A}^{+} \psi_{n}=\sqrt{n+1} \psi_{n+1},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_17_OSTsILLJaTO">\hat{H}=\hbar \omega\left(\hat{A}^{+}+\hat{A}+1 / 2\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_18_OSTsILLJaTO">\hat{H}=\sum_{i} \hbar \omega_{i}\left(\hat{A}_{i}^{+} \hat{A}_{i}+1 / 2\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_19_OSTsILLJaTO">\ddot{x}+2 \gamma \dot{x}+\omega^{2} x=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_20_OSTsILLJaTO">x(t)=A \exp (-\gamma t) \cos (\omega t+\varphi) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_21_OSTsILLJaTO">\hat{H}=\frac{\hat{p}^{2}}{2 m \exp (2 \gamma t)}+\frac{m \omega^{2} \hat{x}^{2} \exp (2 \gamma t)}{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_22_OSTsILLJaTO">x(t)=\frac{f \cos (\Omega t+\tilde{\varphi})}{m \sqrt{\left(\Omega^{2}-\omega^{2}\right)^{2}+4 \gamma^{2} \Omega^{2}}}, \quad \operatorname{tg} \tilde{\varphi}=\frac{2 \gamma \Omega}{\Omega^{2}-\omega^{2}} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_23_OSTsILLJaTO">W_{n m}(t)=\frac{n !}{m !}|\delta|^{2(n-m)} \exp \left(-|\delta|^{2}\right)\left\{L_{n}^{m-n}\left(|\delta|^{2}\right)\right\}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2129_24_OSTsILLJaTO">\delta(t)=-i l \hbar^{-1} \int_{0}^{t} f(\tau) \exp (i \omega \tau) d \tau</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_1_OSTsILLJaTO">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_2_OSTsILLJaTO">\mathrm{o}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_3_OSTsILLJaTO">x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_4_OSTsILLJaTO">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_5_OSTsILLJaTO">k-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_6_OSTsILLJaTO">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_7_OSTsILLJaTO">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_8_OSTsILLJaTO">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_9_OSTsILLJaTO">\omega=\sqrt{k / m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_10_OSTsILLJaTO">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_11_OSTsILLJaTO">(\omega=2 \pi / T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_12_OSTsILLJaTO">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_13_OSTsILLJaTO">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_14_OSTsILLJaTO">0 ., \varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_15_OSTsILLJaTO">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_16_OSTsILLJaTO">f=-\partial U / \partial x=-k x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_17_OSTsILLJaTO">m x^{2} / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_18_OSTsILLJaTO">k x^{2} / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_19_OSTsILLJaTO">p=m \dot{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_20_OSTsILLJaTO">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_21_OSTsILLJaTO">\pi / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_22_OSTsILLJaTO">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_23_OSTsILLJaTO">m \omega A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_24_OSTsILLJaTO">\hat{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_25_OSTsILLJaTO">\hat{x}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_26_OSTsILLJaTO">\psi_{n}(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_27_OSTsILLJaTO">h_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_28_OSTsILLJaTO">l-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_29_OSTsILLJaTO">l=\sqrt{\hbar / m \omega}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_30_OSTsILLJaTO">\varepsilon_{0}=\hbar \omega / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_31_OSTsILLJaTO">\alpha: \hat{A} \psi_{\alpha}=\alpha \psi_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_32_OSTsILLJaTO">\psi_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_33_OSTsILLJaTO">\langle\hat{x}\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_34_OSTsILLJaTO">\langle\hat{p}\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_35_OSTsILLJaTO">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_36_OSTsILLJaTO">\hat{a}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_37_OSTsILLJaTO">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_38_OSTsILLJaTO">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_39_OSTsILLJaTO">\hat{a}_{i}^{+}, \hat{A}_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_40_OSTsILLJaTO">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_41_OSTsILLJaTO">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_42_OSTsILLJaTO">f \cos (\Omega t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_43_OSTsILLJaTO">\mathrm{o}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_44_OSTsILLJaTO">\tilde{\varphi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_45_OSTsILLJaTO">\pi / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_46_OSTsILLJaTO">f(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_47_OSTsILLJaTO">(n)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_48_OSTsILLJaTO">(m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_49_OSTsILLJaTO">w_{n m}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_50_OSTsILLJaTO">l_{n}^{m-n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_51_OSTsILLJaTO">\omega=\sqrt{k / m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_52_OSTsILLJaTO">\alpha x^{4}, \beta x^{6}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2129_53_OSTsILLJaTO">\mathrm{o}</formula>
+  </formulas_aux>
+  <relations n="23">
+    <relation uri="http://libmeta.ru/fme/relation/2129_1_OSTsILLJaTO">
+      <rel_text>резонанс</rel_text>
+      <target>http://libmeta.ru/fme/article/2589_REZONAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_2_OSTsILLJaTO">
+      <rel_text>параметрич</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_3_OSTsILLJaTO">
+      <rel_text>гармонич</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_4_OSTsILLJaTO">
+      <rel_text>частота</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_5_OSTsILLJaTO">
+      <rel_text>потенциальная энергия</rel_text>
+      <target>http://libmeta.ru/fme/article/2340_POTENTsIAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_6_OSTsILLJaTO">
+      <rel_text>классической</rel_text>
+      <target>http://libmeta.ru/fme/article/1253_KLASTERIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_7_OSTsILLJaTO">
+      <rel_text>частоте</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_8_OSTsILLJaTO">
+      <rel_text>дипольное приближение</rel_text>
+      <target>http://libmeta.ru/fme/article/835_DIPOL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_9_OSTsILLJaTO">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_10_OSTsILLJaTO">
+      <rel_text>матричными элементами</rel_text>
+      <target>http://libmeta.ru/fme/article/2886_SPEKTRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_11_OSTsILLJaTO">
+      <rel_text>Правила отбора</rel_text>
+      <target>http://libmeta.ru/fme/article/2136_OTBORA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_12_OSTsILLJaTO">
+      <rel_text>многочлены Лагерра</rel_text>
+      <target>http://libmeta.ru/fme/article/1499_LAGERRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_13_OSTsILLJaTO">
+      <rel_text>уровня энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3191_UROVEN'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_14_OSTsILLJaTO">
+      <rel_text>резонанс</rel_text>
+      <target>http://libmeta.ru/fme/article/2589_REZONAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_15_OSTsILLJaTO">
+      <rel_text>резонансе</rel_text>
+      <target>http://libmeta.ru/fme/article/2589_REZONAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_16_OSTsILLJaTO">
+      <rel_text>гармонич</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_17_OSTsILLJaTO">
+      <rel_text>частоты</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_18_OSTsILLJaTO">
+      <rel_text>собственной частоты</rel_text>
+      <target>http://libmeta.ru/fme/article/2840_SOBSTVENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_19_OSTsILLJaTO">
+      <rel_text>вынужденных колебаний</rel_text>
+      <target>http://libmeta.ru/fme/article/478_VYNUZhDENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_20_OSTsILLJaTO">
+      <rel_text>частоте</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_21_OSTsILLJaTO">
+      <rel_text>вынужденные колебания</rel_text>
+      <target>http://libmeta.ru/fme/article/478_VYNUZhDENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_22_OSTsILLJaTO">
+      <rel_text>частотой</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2129_23_OSTsILLJaTO">
+      <rel_text>действует</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+  </relations>
+  <text>физическая система (или материальная точка), совершающая колебательное периодическое движение около положения устойчивого равновесия. Термин «о.» применим к любой системе, если описывающие ее величины периодически изменяются со временем. Простейшие ,примеры О. в классич. механике - грузик на пружинке, зятник.
+
+Важнейший тип O.- л ине й ны й гармон и ч еск и й ; ц и л л я т о р, колебания к-рого являются основной молью движения частиц в атомах, атомных ядрах, молеку$URI[[http://libmeta.ru/fme/formula/aux/2129_1_OSTsILLJaTO]]/URI$, твердых телах. Потенциальная энергия линейного гарэнич. $URI[[http://libmeta.ru/fme/formula/aux/2129_2_OSTsILLJaTO]]/URI$.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_1_OSTsILLJaTO]]/URI
+\]
+
+е $URI[[http://libmeta.ru/fme/formula/aux/2129_3_OSTsILLJaTO]]/URI$ - отклонение от положения равновесия, $URI[[http://libmeta.ru/fme/formula/aux/2129_4_OSTsILLJaTO]]/URI$ - постоянный коэффициент (в случае груза на пружинке $URI[[http://libmeta.ru/fme/formula/aux/2129_5_OSTsILLJaTO]]/URI$ жесткость пружины). Она представляет собой первый член разложения в ряд по $URI[[http://libmeta.ru/fme/formula/aux/2129_6_OSTsILLJaTO]]/URI$ потенциальной энергии $URI[[http://libmeta.ru/fme/formula/aux/2129_7_OSTsILLJaTO]]/URI$ при иных $URI[[http://libmeta.ru/fme/formula/aux/2129_8_OSTsILLJaTO]]/URI$.
+
+Уравнение движения линейного гармонич. О. имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_2_OSTsILLJaTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2129_9_OSTsILLJaTO]]/URI$ - частота О., $URI[[http://libmeta.ru/fme/formula/aux/2129_10_OSTsILLJaTO]]/URI$ - масса $URI[[http://libmeta.ru/fme/formula/aux/2129_11_OSTsILLJaTO]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2129_12_OSTsILLJaTO]]/URI$ период колебаний; точки означают дифференцирование по времени). Общее решение уравнения (1):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_3_OSTsILLJaTO]]/URI
+\]
+
+( $URI[[http://libmeta.ru/fme/formula/aux/2129_13_OSTsILLJaTO]]/URI$ - амплитуда колебаний $URI[[http://libmeta.ru/fme/formula/aux/2129_14_OSTsILLJaTO]]/URI$ - начальная фаза). Движение О., описываемое зависимостью (2), происходит под влиянием возвращающей силы $URI[[http://libmeta.ru/fme/formula/aux/2129_15_OSTsILLJaTO]]/URI$, направленной к положению равновесия и пропорциональной величине отклонения от положения равновесия: $URI[[http://libmeta.ru/fme/formula/aux/2129_16_OSTsILLJaTO]]/URI$. При движении О. в пренебрежении силами трения его полная энергия
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_4_OSTsILLJaTO]]/URI
+\]
+
+сохраняется. Кинетич. энергия $URI[[http://libmeta.ru/fme/formula/aux/2129_17_OSTsILLJaTO]]/URI$ и потенциальная энергия $URI[[http://libmeta.ru/fme/formula/aux/2129_18_OSTsILLJaTO]]/URI$ в процессе движения изменяются от нуля до ๕. Энергия колебаний О. может быть выражена через амплитуду и частоту:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_5_OSTsILLJaTO]]/URI
+\]
+
+Импульс О. $URI[[http://libmeta.ru/fme/formula/aux/2129_19_OSTsILLJaTO]]/URI$ меняется по тому же закону (2), что и $URI[[http://libmeta.ru/fme/formula/aux/2129_20_OSTsILLJaTO]]/URI$, но со сдвигом по фазе на $URI[[http://libmeta.ru/fme/formula/aux/2129_21_OSTsILLJaTO]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_6_OSTsILLJaTO]]/URI
+\]
+
+(соответственно кинетич. и потенциальной энергии О. изменяются в противофазе). Если изобразить движение О. на фазовой плоскости, по оси абсцисс к-рой отложена координата, а по оси ординат - импульс, то его периодич. движение происходит по эллипсу
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_7_OSTsILLJaTO]]/URI
+\]
+
+с полуосями соответственно $URI[[http://libmeta.ru/fme/formula/aux/2129_22_OSTsILLJaTO]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2129_23_OSTsILLJaTO]]/URI$.
+
+Понятие «о.» распространяется и на немеханич. системы: колебания тока и напряжения в колебательном контуре, колебания векторов напряженностей электрич. и магнитного полей в электромагнитной волне и т. д.
+
+Квантовый осциллятор описывается гамильтонианом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_8_OSTsILLJaTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2129_24_OSTsILLJaTO]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2129_25_OSTsILLJaTO]]/URI$ операторы импульса и координаты; в конфигурационном представлении
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_9_OSTsILLJaTO]]/URI
+\]
+
+Уровни энергии квантового О. эквидистантны:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_10_OSTsILLJaTO]]/URI
+\]
+
+Они определяются из Шредингера уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_11_OSTsILLJaTO]]/URI
+\]
+
+и изображаются обычно на кривой потенциальной энергии O., а волновые функции $URI[[http://libmeta.ru/fme/formula/aux/2129_26_OSTsILLJaTO]]/URI$ стационарных состояний O. выражаются через многочлены Эрмита $URI[[http://libmeta.ru/fme/formula/aux/2129_27_OSTsILLJaTO]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_12_OSTsILLJaTO]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/2129_28_OSTsILLJaTO]]/URI$ амплитуда нулевых колебаний, $URI[[http://libmeta.ru/fme/formula/aux/2129_29_OSTsILLJaTO]]/URI$. В основном состоянии О. с волновой функцией
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_13_OSTsILLJaTO]]/URI
+\]
+
+его энергия (энергия нулевых колебаний) имеет наинизшее возможное значение $URI[[http://libmeta.ru/fme/formula/aux/2129_30_OSTsILLJaTO]]/URI$. В стационарных состояниях О. средние значения координаты и импульса равны нулю. Согласно теореме Эренфеста, средние значения координаты и импульса гармонич. О. изменяются в соответствии с классич. траекториями. Наглядно это движение проявляется в нормированных когерентных состояниях О.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_14_OSTsILLJaTO]]/URI
+\]
+
+удовлетворяющих нестационарному уравнению Шредингера и являющихся собственными состояниями для неэрмитового интеграла движения (оператора уничтожения)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_15_OSTsILLJaTO]]/URI
+\]
+
+с комплексным собственным значением $URI[[http://libmeta.ru/fme/formula/aux/2129_31_OSTsILLJaTO]]/URI$. В когерентном состоянии $URI[[http://libmeta.ru/fme/formula/aux/2129_32_OSTsILLJaTO]]/URI$ средние значения координаты $URI[[http://libmeta.ru/fme/formula/aux/2129_33_OSTsILLJaTO]]/URI$ и импульса $URI[[http://libmeta.ru/fme/formula/aux/2129_34_OSTsILLJaTO]]/URI$, как и в классич. механике, описывают в фазовом пространстве эллипс. Оператор уничтожения $URI[[http://libmeta.ru/fme/formula/aux/2129_35_OSTsILLJaTO]]/URI$ и оператор рождения $URI[[http://libmeta.ru/fme/formula/aux/2129_36_OSTsILLJaTO]]/URI$действуют на $URI[[http://libmeta.ru/fme/formula/aux/2129_37_OSTsILLJaTO]]/URI$-е состояние следующим образом:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_16_OSTsILLJaTO]]/URI
+\]
+
+то есть соответственно уничтожают и рождают квант энергии О. Через операторы рождения и уничтожения гамильтониан гармонич. О. выражается так:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_17_OSTsILLJaTO]]/URI
+\]
+
+Важность модели О. заключается в том, что все современные модели квантовой теории поля базируются на многомерном (бесконечномерном) обобщении этого выражения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_18_OSTsILLJaTO]]/URI
+\]
+
+где индекс $URI[[http://libmeta.ru/fme/formula/aux/2129_38_OSTsILLJaTO]]/URI$ трактуется как характеристика моды поля (электромагнитного, акустического и т. д., то есть фотона, фонона и т. п.), а операторы $URI[[http://libmeta.ru/fme/formula/aux/2129_39_OSTsILLJaTO]]/URI$ как операторы рождения и уничтожения кванта бозонного поля. К этой же модели сводятся движение заряда в магнитном поле, изменение тока и напряжения в колебательном контуре, колебания ядер в многоатомных молекулах и атомов и молекул в твердых телах, колебательное движение нуклонов в ядрах и т. Д.
+
+При учете затухания уравнение движения (1) О. принимает вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_19_OSTsILLJaTO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2129_40_OSTsILLJaTO]]/URI$ - коэффициент затухания, а движение О. представляет собой затухающие колебания около положения равновесия:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_20_OSTsILLJaTO]]/URI
+\]
+
+В квантовой картине затухание колебаний О. описывается несколькими моделями, одна из к-рых базируется на гамильтониане
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_21_OSTsILLJaTO]]/URI
+\]
+
+причем во всех моделях средние значения координаты О. описываются формулой (18), а для других величин в рамках разных моделей имеются различия. Если на О. URI[[http://libmeta.ru/fme/relation/2129_23_OSTsILLJaTO]]/URI внешняя периодическая (с URI[[http://libmeta.ru/fme/relation/2129_22_OSTsILLJaTO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2129_41_OSTsILLJaTO]]/URI$ ) сила $URI[[http://libmeta.ru/fme/formula/aux/2129_42_OSTsILLJaTO]]/URI$, то возникают URI[[http://libmeta.ru/fme/relation/2129_21_OSTsILLJaTO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2129_43_OSTsILLJaTO]]/URI$. на URI[[http://libmeta.ru/fme/relation/2129_20_OSTsILLJaTO]]/URI вынуждающей силы, описываемые формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_22_OSTsILLJaTO]]/URI
+\]
+
+Резкое возрастание амплитуды URI[[http://libmeta.ru/fme/relation/2129_19_OSTsILLJaTO]]/URI при сближении URI[[http://libmeta.ru/fme/relation/2129_18_OSTsILLJaTO]]/URI О. и URI[[http://libmeta.ru/fme/relation/2129_17_OSTsILLJaTO]]/URI вынуждающей силы называется рез о на н с о м URI[[http://libmeta.ru/fme/relation/2129_16_OSTsILLJaTO]]/URI. О. Коэффициент затухания определяет сдвиг фазы $URI[[http://libmeta.ru/fme/formula/aux/2129_44_OSTsILLJaTO]]/URI$ колебаний O. по отношению к вынуждающей силе, равный 0 при отсутствии затухания и $URI[[http://libmeta.ru/fme/formula/aux/2129_45_OSTsILLJaTO]]/URI$ в URI[[http://libmeta.ru/fme/relation/2129_15_OSTsILLJaTO]]/URI. Для квантового аналога О. с затуханием также существует URI[[http://libmeta.ru/fme/relation/2129_14_OSTsILLJaTO]]/URI.
+
+Под влиянием внешней силы $URI[[http://libmeta.ru/fme/formula/aux/2129_46_OSTsILLJaTO]]/URI$ квантовый О. может переходить с одного URI[[http://libmeta.ru/fme/relation/2129_13_OSTsILLJaTO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2129_47_OSTsILLJaTO]]/URI$ на другие $URI[[http://libmeta.ru/fme/formula/aux/2129_48_OSTsILLJaTO]]/URI$. Вероятность этого перехода $URI[[http://libmeta.ru/fme/formula/aux/2129_49_OSTsILLJaTO]]/URI$ для О. без затухания дается формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_23_OSTsILLJaTO]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2129_24_OSTsILLJaTO]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2129_50_OSTsILLJaTO]]/URI$ - URI[[http://libmeta.ru/fme/relation/2129_12_OSTsILLJaTO]]/URI. URI[[http://libmeta.ru/fme/relation/2129_11_OSTsILLJaTO]]/URI для О. определяются ненулевыми URI[[http://libmeta.ru/fme/relation/2129_10_OSTsILLJaTO]]/URI URI[[http://libmeta.ru/fme/relation/2129_9_OSTsILLJaTO]]/URI координаты (URI[[http://libmeta.ru/fme/relation/2129_8_OSTsILLJaTO]]/URI). Согласно формулам (13), (14), эти элементы отличны от нуля только для переходов между соседними уровнями, поэтому излучение О. происходит на одной URI[[http://libmeta.ru/fme/relation/2129_7_OSTsILLJaTO]]/URI (совпадающей с URI[[http://libmeta.ru/fme/relation/2129_6_OSTsILLJaTO]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/2129_51_OSTsILLJaTO]]/URI$ ).
+
+Если URI[[http://libmeta.ru/fme/relation/2129_5_OSTsILLJaTO]]/URI О. содержит члены типа $URI[[http://libmeta.ru/fme/formula/aux/2129_52_OSTsILLJaTO]]/URI$ и т. Д., то О. называется ангармон иче ским (н е л и не й ны м) и характер его движения радикально отличается от даваемого формулой (2). Если URI[[http://libmeta.ru/fme/relation/2129_4_OSTsILLJaTO]]/URI URI[[http://libmeta.ru/fme/relation/2129_3_OSTsILLJaTO]]/URI. О. меняется со временем, то О. называется п а р а м е т р и ч е с к и м, для к-рого также характер колебаний отличен от (2), причем существуют новые явления, напр. URI[[http://libmeta.ru/fme/relation/2129_2_OSTsILLJaTO]]/URI. URI[[http://libmeta.ru/fme/relation/2129_1_OSTsILLJaTO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2129_53_OSTsILLJaTO]]/URI$.</text>
+  <text_orig>физическая система (или материальная ччка), совершающая колебательное периодическое движеґе около положения устойчивого равновесия. Термин «О.» јименим к любой системе, если описываюшие ее величиI периодически изменяются со временем. Простейшие ,имеры О. в классич. механике - грузик на пружинке, зятник.
+
+Важнейший тип O.- л ине й ны й гармон и ч еск и й ; ц и л л я т о р, колебания к-рого являются основной молью движения частиц в атомах, атомных ядрах, молеку$\mathbf{x}$, твердых телах. Потенциальная энергия линейного гарэнич. $\mathrm{O}$.
+
+\[
+U=k x^{2} / 2
+\]
+
+е $x(t)$ - отклонение от положения равновесия, $k$ - постоIный коэффициент (в случае груза на пружинке $k-$ жестссть пружины). Она представляет собой первый член зложения в ряд по $x$ потенциальной энергии $U(x)$ при илых $x$.
+
+Уравнение движения линейного гармонич. О. имеет вид:
+
+\[
+\ddot{x}+\omega^{2} x=0
+\]
+
+где $\omega=\sqrt{k / m}$ - частота О., $m$ - масса $(\omega=2 \pi / T$, где $T-$ период колебаний; точки означают дифференцирование по времени). Общее решение уравнения (1):
+
+\[
+x(t)=A \cos (\omega t+\varphi)=\operatorname{Re}[A \exp i(\omega t+\varphi)]
+\]
+
+( $A$ - амплитуда колебаний $0 ., \varphi$ - начальная фаза). Движение О., описываемое зависимостью (2), происходит под влиянием возвращающей силы $F$, направленной к положению равновесия и пропорциональной величине отклонения от положения равновесия: $F=-\partial U / \partial x=-k x$. При движении О. в пренебрежении силами трения его полная энергия
+
+\[
+\mathscr{E}=\frac{m \dot{x}^{2}}{2}+\frac{k x^{2}}{2}
+\]
+
+сохраняется. Кинетич. энергия $m x^{2} / 2$ и потенциальная энергия $k x^{2} / 2$ в процессе движения изменяются от нуля до ๕. Энергия колебаний О. может быть выражена через амплитуду и частоту:
+
+\[
+\mathscr{E}=m \omega^{2} A^{2} / 2 .
+\]
+
+Импульс О. $p=m \dot{x}$ меняется по тому же закону (2), что и $x$, но со сдвигом по фазе на $\pi / 2$ :
+
+\[
+p(t)=m \omega A \cos (\omega t+\varphi+\pi / 2)
+\]
+
+(соответственно кинетич. и потенциальной энергии О. изменяются в противофазе). Если изобразить движение О. на фазовой плоскости, по оси абсцисс к-рой отложена координата, а по оси ординат - импульс, то его периодич. движение происходит по эллипсу
+
+\[
+\frac{x^{2}}{A^{2}}+\frac{p^{2}}{(m \omega A)^{2}}=1
+\]
+
+с полуосями соответственно $A$ и $m \omega A$.
+
+Понятие «О.» распространяется и на немеханич. системы: колебания тока и напряжения в колебательном контуре, колебания векторов напряженностей электрич. и магнитного полей в электромагнитной волне и т. д.
+
+Квантовый осциллятор описывается гамильтонианом
+
+\[
+\hat{H}=\frac{\hat{p}^{2}}{2 m}+\frac{m \omega^{2} \hat{x}^{2}}{2},
+\]
+
+где $\hat{p}$ и $\hat{x}-$ операторы импульса и координаты; в конфигурационном представлении
+
+\[
+\hat{p}=-i \hbar \partial / \partial x, \hat{x}=x
+\]
+
+Уровни энергии квантового О. эквидистантны:
+
+\[
+\mathscr{E}_{n}=\hbar \omega(n+1 / 2), n=0,1,2, \ldots
+\]
+
+Они определяются из Шредингера уравнения
+
+\[
+-\frac{\hbar^{2}}{2 m} \frac{\partial^{2} \psi_{n}(x, t)}{\partial x^{2}}+\frac{m \omega^{2} x^{2} \psi_{n}(x, t)}{2}=i \hbar \frac{\partial \psi_{n}}{\partial t}
+\]
+
+и изображаются обычно на кривой потенциальной энергии O., а волновые функции $\psi_{n}(x, t)$ стационарных состояний O. выражаются через многочлены Эрмита $H_{n}$ :
+
+\[
+\begin{gathered}
+\Psi_{n}(x, t)= \\
+=\left(l \sqrt{\pi} 2^{n} n !\right)^{-1 / 2} \exp \left(-x^{2} / 2 l^{2}\right) H_{n}(x / l) \exp \left(-i \mho_{n} t / \hbar\right) .
+\end{gathered}
+\]
+
+Здесь $l-$ амплитуда нулевых колебаний, $l=\sqrt{\hbar / m \omega}$. В основном состоянии О. с волновой функщией
+
+\[
+\psi_{0}(x)=(l \sqrt{\pi})^{-1 / 2} \exp \left(-x^{2} / 2 l^{2}\right) \exp (-i \omega t / 2)
+\]
+
+его энергия (энергия нулевых колебаний) имеет наинизшее возможное значение $\varepsilon_{0}=\hbar \omega / 2$. В стационарных состояниях О. средние значения координаты и импульса равны нулю. Согласно теореме Эренфеста, средние значения координаты и импульса гармонич. О. изменяются в соответствии с классич. траекториями. Наглядно это движение проявляется в нормированных когерентных состояниях О.:
+
+\[
+\begin{aligned}
+&amp; \Psi_{\alpha}(x, t)=(m \omega / \hbar \pi)^{1 / 4} \exp \left\{-\frac{\alpha^{2}}{2}-\frac{i \omega t}{2}-\frac{x^{2}}{2 \hbar} m \omega+\right. \\
+&amp; \left.+\exp (-i \omega t) \alpha x(2 m \omega / \hbar)^{1 / 2}-1 / 2 \alpha^{2} \exp (-2 i \omega t)\right\},
+\end{aligned}
+\]
+
+удовлетворяющих нестационарному уравнению Шредингера и являющихся собственными состояниями для неэрмитового интеграла движения (оператора уничтожения)
+
+\[
+\hat{A}(t)=\frac{\exp (i \omega t)}{\sqrt{2}}\left(\frac{\hat{x}}{l}+l \frac{i \hat{p}}{\hbar}\right), \quad\left[\hat{A}, \hat{A}^{+}\right]=1,
+\]
+
+с комплексным собственным значением $\alpha: \hat{A} \psi_{\alpha}=\alpha \psi_{\alpha}$. В когерентном состоянии $\psi_{\alpha}$ средние значения координаты $\langle\hat{x}\rangle$ и импульса $\langle\hat{p}\rangle$, как и в классич. механике, описывают в фазовом пространстве эллипс. Оператор уничтожения $\hat{A}$ и оператор рождения $\hat{A}^{+}$действуют на $n$-е состояние следующим образом:
+
+\[
+\hat{A} \psi_{n}=\sqrt{n} \psi_{n-1}, \quad \hat{A}^{+} \psi_{n}=\sqrt{n+1} \psi_{n+1},
+\]
+
+то есть соответственно уничтожают и рождают квант энергии О. Через операторы рождения и уничтожения гамильтониан гармонич. О. выражается так:
+
+\[
+\hat{H}=\hbar \omega\left(\hat{A}^{+}+\hat{A}+1 / 2\right) .
+\]
+
+Важность модели О. заключается в том, что все современные модели квантовой теории поля базируются на многомерном (бесконечномерном) обобщении этого выражения:
+
+\[
+\hat{H}=\sum_{i} \hbar \omega_{i}\left(\hat{A}_{i}^{+} \hat{A}_{i}+1 / 2\right)
+\]
+
+где индекс $i$ трактуется как характеристика моды поля (электромагнитного, акустического и т. д., то есть фотона, фонона и т. п.), а операторы $\hat{A}_{i}^{+}, \hat{A}_{i}-$ как операторы рождения и уничтожения кванта бозонного поля. К этой же модели сводятся движение заряда в магнитном поле, изменение тока и напряжения в колебательном контуре, колебания ядер в многоатомных молекулах и атомов и молекул в твердых телах, колебательное движение нуклонов в ядрах и т. Д.
+
+При учете затухания уравнение движения (1) О. принимает вид
+
+\[
+\ddot{x}+2 \gamma \dot{x}+\omega^{2} x=0,
+\]
+
+где $\gamma$ - коэффициент затухания, а движение О. представляет собой затухающие колебания около положения равновесия:
+
+\[
+x(t)=A \exp (-\gamma t) \cos (\omega t+\varphi) .
+\]
+
+В квантовой картине затухание колебаний О. описывается несколькими моделями, одна из к-рых базируется на гамильтониане
+
+\[
+\hat{H}=\frac{\hat{p}^{2}}{2 m \exp (2 \gamma t)}+\frac{m \omega^{2} \hat{x}^{2} \exp (2 \gamma t)}{2},
+\]
+
+причем во всех моделях средние значения координаты О. описываются формулой (18), а для других величин в рамках разных моделей имеются различия. Если на О. действует внешняя периодическая (с частотой $\Omega$ ) сила $f \cos (\Omega t)$, то возникают вынужденные колебания $\mathrm{O}$. на частоте вынуждающей силы, описываемые формулой
+
+\[
+x(t)=\frac{f \cos (\Omega t+\tilde{\varphi})}{m \sqrt{\left(\Omega^{2}-\omega^{2}\right)^{2}+4 \gamma^{2} \Omega^{2}}}, \quad \operatorname{tg} \tilde{\varphi}=\frac{2 \gamma \Omega}{\Omega^{2}-\omega^{2}} .
+\]
+
+Резкое возрастание амплитуды вынужденных колебаний при сближении собственной частоты О. и частоты вынуждающей силы называется рез о на н с о м гармонич. О. Коэффициент затухания определяет сдвиг фазы $\tilde{\varphi}$ колебаний O. по отношению к вынуждающей силе, равный 0 при отсутствии затухания и $\pi / 2$ в резонансе. Для квантового аналога О. с затуханием также существует резонанс.
+
+Под влиянием внешней силы $f(t)$ квантовый О. может переходить с одного уровня энергии $(n)$ на другие $(m)$. Вероятность этого перехода $W_{n m}(t)$ для О. без затухания дается формулой
+
+\[
+W_{n m}(t)=\frac{n !}{m !}|\delta|^{2(n-m)} \exp \left(-|\delta|^{2}\right)\left\{L_{n}^{m-n}\left(|\delta|^{2}\right)\right\}^{2}
+\]
+
+где
+
+\[
+\delta(t)=-i l \hbar^{-1} \int_{0}^{t} f(\tau) \exp (i \omega \tau) d \tau
+\]
+
+$L_{n}^{m-n}$ - многочлены Лагерра. Правила отбора для О. определяются ненулевыми матричными элементами оператора координаты (дипольное приближение). Согласно формулам (13), (14), эти элементы отличны от нуля только для переходов между соседними уровнями, поэтому излучение О. происходит на одной частоте (совпадающей с классической, $\omega=\sqrt{k / m}$ ).
+
+Если потенциальная энергия О. содержит члены типа $\alpha x^{4}, \beta x^{6}$ и т. Д., то О. называется ангармон иче ским (н е л и не й ны м) и характер его движения радикально отличается от даваемого формулой (2). Если частота гармонич. О. меняется со временем, то О. называется п а р а м е т р и ч е с к и м, для к-рого также характер колебаний отличен от (2), причем существуют новые явления, напр. параметрич. резонанс $\mathrm{O}$.
+
+Лит.: [1] Ланд а у Л. Д., Л ифш иц Е. М., Квантовая механика, 4 изд., М., 1989; [2] их же, Механика, 4 изд., М., 1988, с. 207; [3] Малкин И.А., Манько В. И., Динамические симметрии и когерентные состояния квантовых систем, М., 1979. В. И. Манько.</text_orig>
+</article>

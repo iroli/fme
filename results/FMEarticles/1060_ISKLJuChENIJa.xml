@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1060_ISKLJuChENIJa" alphabetic_pos="1062">
+  <title>ИСКЛЮЧЕНИЯ БОЗОННЫХ ПЕРЕМЕННЫХ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>225</start>
+    <end>226</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Боголюбов Н.Н., Боголюбов Н.Н. (мл.), «физика элементарных частиц и атомного ядра», 1980, т. 11, в. 2, с. 245-300; [2] Боголюбов Н. Н. (мл.), Садовников Б. И., Ш у м о в с к и й А. С., Математические методы статистической ме$\begin{array}{ll}\text { ханики модельных систем, М., } 1989 . &amp; \text { A. С. Шумовский. }\end{array}$</literature_orig>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <title>Боголюбов Н.Н. (мл.), «физика элементарных частиц и атомного ядра»</title>
+      <publication/>
+      <year>1980</year>
+      <other>т. 11, в. 2, с. 245-300</other>
+    </unit>
+    <unit>
+      <title>Боголюбов Н. Н. (мл.), Садовников Б. И., Ш у м о в с к и й А. С., Математические методы статистической ме$\begin{array}{ll}\text { ханики модельных систем</title>
+      <publication>М.</publication>
+      <year>1989</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1060_1_ISKLJuChENIJa">H=\sum_{k} \omega_{k} a_{k}^{+} a_{k}+H_{M}+\sum_{k} e^{\varepsilon t}\left(M_{k} a_{k}+a_{k}^{+} M_{k}^{+}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1060_2_ISKLJuChENIJa">i \frac{\delta O}{\delta t}=[O, H]=\left[O, H_{M}\right]+\left[0, \sum_{k}\left(M_{k} a_{k}+a_{k}^{+} M_{k}^{+}\right)\right],</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1060_3_ISKLJuChENIJa">\begin{gathered}a_{k}(t)=a_{k}\left(t_{0}\right) \exp \left\{-i \omega_{k}\left(t-t_{0}\right)\right\}-i m_{k}^{+}(t), \\m_{k}^{+}=\int_{t_{0}}^{t} \exp \left\{i \omega_{k}(\tau-t)\right\} M_{k}^{+}(\tau) d \tau,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1060_4_ISKLJuChENIJa">\left.\begin{array}{l}\left\langle O, \tilde{a}_{k}\right\rangle_{t}=N_{k}\left\langle\left[\tilde{a}_{k}, O\right]\right\rangle_{t}, \\\left\langle\tilde{a}_{k}, O\right\rangle_{t}=\left(1+N_{k}\right)\left\langle\left[\tilde{a}_{k}, O\right]\right\rangle_{t},\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1060_5_ISKLJuChENIJa">\begin{gathered}\langle\ldots\rangle_{t} \equiv \operatorname{Sp}\left\{\ldots \rho\left(t_{0}\right)\right\}, \tilde{a}_{k} \equiv a_{k}\left(t_{0}\right) \exp \left\{-i \omega_{k}\left(t-t_{0}\right)\right\}, \\N_{k} \equiv \exp \left\{-\beta \omega_{k}\right\} /\left(1-\exp \left\{-\beta \omega_{k}\right\}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1060_6_ISKLJuChENIJa">\begin{gathered}\frac{\delta}{\delta t}\langle 0\rangle_{t}+i\left\langle\left[O, H_{M}\right]\right\rangle_{t}= \\=\sum_{k} \int_{-\infty}^{t} d \tau \exp \left\{i \omega_{k}(\tau-t)\right\}\left\{N_{k}\left\langle M_{k}^{+}(\tau)\left[O(t), M_{k}(t)\right]\right\rangle_{t}+\right. \\\left.+\left(1+N_{k}\right)\left\langle\left[M_{k}(t), O(t)\right] M_{k}^{+}(\tau)\right\rangle_{t}\right\}+ \\+\sum_{k} \int_{-\infty}^{t} d \tau \exp \left\{-i \omega_{k}(\tau-t)\right\}\left\{N_{k}\left\langle\left[M_{k}^{+}(t), O(t)\right] M_{k}(\tau)\right\rangle_{t}^{+}\right. \\\left.+\left(1+N_{k}\right)\left\langle M_{k}(\tau)\left[O(t), M_{k}^{+}(t)\right]\right\rangle_{t}\right\} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1060_1_ISKLJuChENIJa">a^{+}, a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1060_2_ISKLJuChENIJa">h_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1060_3_ISKLJuChENIJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1060_4_ISKLJuChENIJa">o</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1060_5_ISKLJuChENIJa">[a, B]=A B-B A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1060_6_ISKLJuChENIJa">\rho\left(t_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1060_7_ISKLJuChENIJa">\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1060_8_ISKLJuChENIJa">t_{0} \rightarrow-\infty, \varepsilon \rightarrow 0</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1060_1_ISKLJuChENIJa">
+      <rel_text>Вторичное квантование</rel_text>
+      <target>http://libmeta.ru/fme/article/470_VTORIChNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1060_2_ISKLJuChENIJa">
+      <rel_text>динамики</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1060_3_ISKLJuChENIJa">
+      <rel_text>получаемое</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>метод построения иерархий операторных уравнений для модельных задач статистической механики, описывающих взаимодействия вещества с бозонными полями. К таким задачам относятся Дикке модель в теории сверхизлучения, Фрелиха модель в теории полярона и др.
+
+Пусть модельная задача характеризуется гамильтонианом вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1060_1_ISKLJuChENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1060_1_ISKLJuChENIJa]]/URI$ - бозе-операторы рождения и гибели (см. URI[[http://libmeta.ru/fme/relation/1060_1_ISKLJuChENIJa]]/URI), $URI[[http://libmeta.ru/fme/formula/aux/1060_2_ISKLJuChENIJa]]/URI$ - гамильтониан вещества; последнее слагаемое описывает взаимодействие вещества, задаваемого операторами $URI[[http://libmeta.ru/fme/formula/aux/1060_3_ISKLJuChENIJa]]/URI$, с полем. Предполагается, что в начальный момент времени бозе-поле находится в равновесном состоянии и что включение взаимодействия между полем и веществом совершается адиабатически. Уравнение движения для произвольного оператора $URI[[http://libmeta.ru/fme/formula/aux/1060_4_ISKLJuChENIJa]]/URI$, относящегося к веществу, имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1060_2_ISKLJuChENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1060_5_ISKLJuChENIJa]]/URI$. Подставляя сюда формальное решение уравнений движения для бозе-операторов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1060_3_ISKLJuChENIJa]]/URI
+\]
+
+переходя к усреднению с матрицей плотности начального состояния $URI[[http://libmeta.ru/fme/formula/aux/1060_6_ISKLJuChENIJa]]/URI$, используя равенства
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1060_4_ISKLJuChENIJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1060_5_ISKLJuChENIJa]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1060_7_ISKLJuChENIJa]]/URI$ - обратная температура начального равновесного состояния бозе-поля, и переходя к пределу $URI[[http://libmeta.ru/fme/formula/aux/1060_8_ISKLJuChENIJa]]/URI$, можно получить иерархич. интегро-дифференциальное уравнение вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1060_6_ISKLJuChENIJa]]/URI
+\]
+
+Соотношения (3) носят название ле м м ы Б о го л ю б о в а. Иерархич. уравнение (4) содержит только операторы, относящиеся к веществу, причем средние в правой части представляют собой двухвременные корреляционные функции, содержащие произведения операторов более высокого порядка, чем средние в левой части. Для получения из (4) замкнутой системы уравнений необходимо провести расцепление высших корреляторов, обусловленное физич. соображениями.
+
+И. б. п. м. и URI[[http://libmeta.ru/fme/relation/1060_3_ISKLJuChENIJa]]/URI на его основе иерархич. уравнение (4) применяются для описания URI[[http://libmeta.ru/fme/relation/1060_2_ISKLJuChENIJa]]/URI сверхизлу- чения, кинетики полярона и в ряде других физич. задач с гамильтонианами, представимыми в виде (1). Метод развит Н.Н. Боголюбовым и Н. Н. Боголюбовым (мл.) (cm. [1]).</text>
+  <text_orig>метод построения иерархий операторных уравнений для модельных задач статистической механики, описывающих взаимодействия вещества с бозонными полями. К таким задачам относятся Дикке модель в теории сверхизлучения, Фрелиха модель в теории полярона и др.
+
+Пусть модельная задача характеризуется гамильтонианом вида
+
+\[
+H=\sum_{k} \omega_{k} a_{k}^{+} a_{k}+H_{M}+\sum_{k} e^{\varepsilon t}\left(M_{k} a_{k}+a_{k}^{+} M_{k}^{+}\right),
+\]
+
+где $a^{+}, a$ - бозе-операторы рождения и гибели (см. Вторичное квантование), $H_{M}$ - гамильтониан вещества; последнее слагаемое описывает взаимодействие вешества, задаваемого операторами $M$, с полем. Предполагается, что в начальный момент времени бозе-поле находится в равновесном состоянии и что включение взаимодействия между полем и веществом совершается адиабатически. Уравнение движения для произвольного оператора $O$, относящегося к веществу, имеет вид
+
+\[
+i \frac{\delta O}{\delta t}=[O, H]=\left[O, H_{M}\right]+\left[0, \sum_{k}\left(M_{k} a_{k}+a_{k}^{+} M_{k}^{+}\right)\right],
+\]
+
+где $[A, B]=A B-B A$. Подставляя сюда формальное решение уравнений движения для бозе-операторов
+
+\[
+\begin{gathered}
+a_{k}(t)=a_{k}\left(t_{0}\right) \exp \left\{-i \omega_{k}\left(t-t_{0}\right)\right\}-i m_{k}^{+}(t), \\
+m_{k}^{+}=\int_{t_{0}}^{t} \exp \left\{i \omega_{k}(\tau-t)\right\} M_{k}^{+}(\tau) d \tau,
+\end{gathered}
+\]
+
+переходя к усреднению с матрицей плотности начального состояния $\rho\left(t_{0}\right)$, используя равенства
+
+\[
+\left.\begin{array}{l}
+\left\langle O, \tilde{a}_{k}\right\rangle_{t}=N_{k}\left\langle\left[\tilde{a}_{k}, O\right]\right\rangle_{t}, \\
+\left\langle\tilde{a}_{k}, O\right\rangle_{t}=\left(1+N_{k}\right)\left\langle\left[\tilde{a}_{k}, O\right]\right\rangle_{t},
+\end{array}\right\}
+\]
+
+где
+
+\[
+\begin{gathered}
+\langle\ldots\rangle_{t} \equiv \operatorname{Sp}\left\{\ldots \rho\left(t_{0}\right)\right\}, \tilde{a}_{k} \equiv a_{k}\left(t_{0}\right) \exp \left\{-i \omega_{k}\left(t-t_{0}\right)\right\}, \\
+N_{k} \equiv \exp \left\{-\beta \omega_{k}\right\} /\left(1-\exp \left\{-\beta \omega_{k}\right\}\right),
+\end{gathered}
+\]
+
+$\beta$ - обратная температура начального равновесного состояния бозе-поля, и переходя к пределу $t_{0} \rightarrow-\infty, \varepsilon \rightarrow 0$, можно получить иерархич. интегро-дифференциальное уравнение вида
+
+\[
+\begin{gathered}
+\frac{\delta}{\delta t}\langle 0\rangle_{t}+i\left\langle\left[O, H_{M}\right]\right\rangle_{t}= \\
+=\sum_{k} \int_{-\infty}^{t} d \tau \exp \left\{i \omega_{k}(\tau-t)\right\}\left\{N_{k}\left\langle M_{k}^{+}(\tau)\left[O(t), M_{k}(t)\right]\right\rangle_{t}+\right. \\
+\left.+\left(1+N_{k}\right)\left\langle\left[M_{k}(t), O(t)\right] M_{k}^{+}(\tau)\right\rangle_{t}\right\}+ \\
++\sum_{k} \int_{-\infty}^{t} d \tau \exp \left\{-i \omega_{k}(\tau-t)\right\}\left\{N_{k}\left\langle\left[M_{k}^{+}(t), O(t)\right] M_{k}(\tau)\right\rangle_{t}^{+}\right. \\
+\left.+\left(1+N_{k}\right)\left\langle M_{k}(\tau)\left[O(t), M_{k}^{+}(t)\right]\right\rangle_{t}\right\} .
+\end{gathered}
+\]
+
+Соотношения (3) носят название ле м м ы Б о го л ю б о в а. Иерархич. уравнение (4) содержит только операторы, относящиеся к веществу, причем средние в правой части представляют собой двухвременные корреляционные функции, содержашие произведения операторов более высокого порядка, чем средние в левой части. Для получения из (4) замкнутой системы уравнений необходимо провести расцепление высших корреляторов, обусловленное физич. соображениями.
+
+И. б. п. м. и получаемое на его основе иерархич. уравнение (4) применяются для описания динамики сверхизлу- чения, кинетики полярона и в ряде других физич. задач с гамильтонианами, представимыми в виде (1). Метод развит Н.Н. Боголюбовым и Н. Н. Боголюбовым (мл.) (cM. [1]).
+
+Jum.: [1] Боголюбов Н.Н., Боголюбов Н.Н. (мл.), «Физика элементарных частиц и атомного ядра», 1980, т. 11, в. 2, с. 245-300; [2] Боголюбов Н. Н. (мл.), Садовников Б. И., Ш у м о в с к и й А. С., Математические методы статистической ме$\begin{array}{ll}\text { ханики модельных систем, М., } 1989 . &amp; \text { A. С. Шумовский. }\end{array}$</text_orig>
+</article>

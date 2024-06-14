@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1356_KONTAKTNYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1356_KONTAKTNYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/395</core:url>
+    <lbm:descriptor><![CDATA[КОНТАКТНЫЙ КОБОРДИЗМ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#3724"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3733"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3734"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1029"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3735"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3736"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_78"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3675"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>отношение эквивалентности между контактными структурами на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразиях</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1353_KONTAKTNOE">Контактные многообразия</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3733">$$m_{1}^{2 n+1}$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3734">$$m_{2}^{2 n+1}$$</a> связаны К. к., если существует <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразие</a> $URI[[http://libmeta.ru/fme/formula/aux/1356_3_KONTAKTNYJ]]/URI$ с распределением $URI[[http://libmeta.ru/fme/formula/aux/1356_4_KONTAKTNYJ]]/URI$ коразмерности 1 , край к-рого - объединение $URI[[http://libmeta.ru/fme/formula/aux/1356_5_KONTAKTNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1356_6_KONTAKTNYJ]]/URI$; $URI[[http://libmeta.ru/fme/formula/aux/1356_7_KONTAKTNYJ]]/URI$ трансверсально краю и высекает из $URI[[http://libmeta.ru/fme/formula/aux/1356_8_KONTAKTNYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1356_9_KONTAKTNYJ]]/URI$ заданные на них <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1350_KONTAKTNAJa">контактные структуры</a>. При этом распределение $URI[[http://libmeta.ru/fme/formula/aux/1356_10_KONTAKTNYJ]]/URI$ должно быть максимально неинтегрируемым, то есть если задать его 1-формой $URI[[http://libmeta.ru/fme/formula/aux/1356_11_KONTAKTNYJ]]/URI$, то <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3675">$$\lambda \wedge(d \lambda)^{n} \neq 0$$</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#3724">С. А. Табачников</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[отношение эквивалентности между контактными структурами на многообразиях. Контактные многообразия $M_{1}^{2 n+1}$ и $M_{2}^{2 n+1}$ связаны К. к., если сушествует многообразие $N$ с распределением $\xi$ коразмерности 1 , край к-рого - объединение $M_{1}$ и $M_{2}$; $\xi$ трансверсально краю и высекает из $M_{1}$ и $M_{2}$ заданные на них контактные структуры. При этом распределение $\xi$ должно быть максимально неинтегрируемым, то есть если задать его 1-формой $\lambda$, то $\lambda \wedge(d \lambda)^{n} \neq 0$.
+
+С. А. Табачников.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1350_KONTAKTNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1353_KONTAKTNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

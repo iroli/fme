@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_148_BELYH">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_148_BELYH</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/543</core:url>
+    <lbm:descriptor><![CDATA[БЕЛЫХ АТТРАКТОР]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4733"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4737"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4738"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4739"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4740"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4741"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4742"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_125_ATTRAKTO">аттрактор</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa">динамической системы</a>, порождаемой разрывным отображением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4738">$$(x, y) \mapsto \begin{cases}(\lambda x-\lambda+1, \gamma y-\gamma+1) & \text { при } y>k x, \\ (\lambda x+\lambda-1, \gamma y+\gamma-1) & \text { при } y<k x,\end{cases}$$</a><BR/></P><P>квадрата <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4739">$$\{(x, y),|x|<1,|y|<1\}$$</a> в себя при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4740">$$0<\lambda<1 / 2<1<$$</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4741">$$<\gamma<2$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4742">$$|k|<(2-\gamma) / \gamma$$</a> (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#4733">[1]</a>). Б. а.- нетривиальный пример из приложений <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2967_STOHASTIChESKIJ">стохастического аттрактора</a> нецелой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3352_HAUSDORFOVA">хаусдорфовой размерности</a> (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#4737">[2]</a>).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4733">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4732">Белых В. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4733">О качественных структурах и бифуркациях некоторых конкретных динамических систем. Ix Междунар. конф. по нелинейным колебаниям. Т. 2. Качественные методы теории нелинейных колебаний, Киев, 1984, с. 46-48</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#4737">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4734">Бунимович Л. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4735">Песин Я. Б.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4572">Синай Я. Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4736">Якобсон М. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4737">Эргодическая теория гладких динамических систем, в сб.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, М., 1985, с. 113-231.</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[аттрактор динамической системы, порождаемой разрывным отображением
+
+\[
+(x, y) \mapsto \begin{cases}(\lambda x-\lambda+1, \gamma y-\gamma+1) & \text { при } y>k x, \\ (\lambda x+\lambda-1, \gamma y+\gamma-1) & \text { при } y<k x,\end{cases}
+\]
+
+квадрата $\{(x, y),|x|<1,|y|<1\}$ в себя при $0<\lambda<1 / 2<1<$ $<\gamma<2$ и $|k|<(2-\gamma) / \gamma$ (см. [1]). Б. а.- нетривиальный пример из приложений стохастического аттрактора нецелой хаусдорфовой размерности (см. [2]).
+
+Лum.: [1] Б е л ы х В. Н., О качественных структурах и бифуркациях некоторых конкретных динамических систем. IX Междунар. конф. по нелинейным колебаниям. Т. 2. Качественные методы теории нелинейных колебаний, Киев, 1984, с. 46-48; [2] Бун и мов и ч Л. А., П ес ин Я. Б., Синай Я.Г., Як обсон М. В., Эргодическая теория гладких динамических систем, в сб.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, М., 1985, с. 113-231.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3352_HAUSDORFOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2967_STOHASTIChESKIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_125_ATTRAKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

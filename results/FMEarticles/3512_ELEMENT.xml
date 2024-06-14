@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3512_ELEMENT" alphabetic_pos="3514">
+  <title>ЭЛЕМЕНТ АНАЛИТИЧЕСКОЙ ФУНКЦИИ</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>675</start>
+    <end>676</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3512_1_ELEMENT">f(z)=\sum_{k=0}^{\infty} c_{k}(z-a)^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3512_2_ELEMENT">\begin{gathered}f(z)=\sum_{n=0}^{\infty} d_{n}(z-b)^{n}=c_{0}+ \\+\left[c_{1}(b-a)+c_{1}(z-b)\right]+\left[c_{2}(b-a)^{2}+\right. \\\left.+2 c_{2}(b-a)(z-b)+c_{2}(z-b)^{2}\right]+\ldots .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3512_3_ELEMENT">f(z)=\sum_{k=0}^{\infty} c_{k} z^{-k}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_1_ELEMENT">(d, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_2_ELEMENT">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_3_ELEMENT">\mathbb{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_4_ELEMENT">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_5_ELEMENT">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_6_ELEMENT">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_7_ELEMENT">d=\{z \in \mathbf{C}:|z-a|&lt;R\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_8_ELEMENT">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_9_ELEMENT">r&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_10_ELEMENT">b,|b-a| \leqslant R</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_11_ELEMENT">(d, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_12_ELEMENT">a \in D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_13_ELEMENT">a=\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3512_14_ELEMENT">d=\{z \in \mathbb{C}:|z|&gt;R\} . \quad</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/3512_1_ELEMENT">
+      <rel_text>областью</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>совокупность $URI[[http://libmeta.ru/fme/formula/aux/3512_1_ELEMENT]]/URI$ области $URI[[http://libmeta.ru/fme/formula/aux/3512_2_ELEMENT]]/URI$ на плоскости комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/3512_3_ELEMENT]]/URI$ и аналитической функции $URI[[http://libmeta.ru/fme/formula/aux/3512_4_ELEMENT]]/URI$, заданной в $URI[[http://libmeta.ru/fme/formula/aux/3512_5_ELEMENT]]/URI$ при помощи некоторого аналитического аппарата, позволяющего эффективно осуществить аналитическое продолжение $URI[[http://libmeta.ru/fme/formula/aux/3512_6_ELEMENT]]/URI$ во всю ее область существования как полной аналитической функции. Наиболее простой и чаше всего применяемой формой Э.а.ф. является кру го в ой эле мент в виде совокупности степенного ряда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3512_1_ELEMENT]]/URI
+\]
+
+и его круга сходимости $URI[[http://libmeta.ru/fme/formula/aux/3512_7_ELEMENT]]/URI$ с центром $URI[[http://libmeta.ru/fme/formula/aux/3512_8_ELEMENT]]/URI$ (ц е н т р эле ме н т а) и радиусом сходимости $URI[[http://libmeta.ru/fme/formula/aux/3512_9_ELEMENT]]/URI$. Аналитич. продолжение здесь достигается (быть может, много- кратным) переразложением ряда (1) для различных центров $URI[[http://libmeta.ru/fme/formula/aux/3512_10_ELEMENT]]/URI$, по формулам вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3512_2_ELEMENT]]/URI
+\]
+
+Любой из элементов $URI[[http://libmeta.ru/fme/formula/aux/3512_11_ELEMENT]]/URI$ полной аналитич. функции определяет ее однозначно и может быть представлен посредством круговых элементов с центрами $URI[[http://libmeta.ru/fme/formula/aux/3512_12_ELEMENT]]/URI$. В случае бесконечно удаленного центра $URI[[http://libmeta.ru/fme/formula/aux/3512_13_ELEMENT]]/URI$ круговой элемент принимает вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3512_3_ELEMENT]]/URI
+\]
+
+с URI[[http://libmeta.ru/fme/relation/3512_1_ELEMENT]]/URI сходимости $URI[[http://libmeta.ru/fme/formula/aux/3512_14_ELEMENT]]/URI$</text>
+  <text_orig>совокУПность $(D, f)$ области $D$ на плоскости комплексного переменного $\mathbb{C}$ и аналитической функции $f(z)$, заданной в $D$ при помощи некоторого аналитического аппарата, позволяющего эффективно осуществить аналитическое продалжение $f(z)$ во всю ее область существования как полной аналитической функции. Наиболее простой и чаше всего применяемой формой Э.а.ф. является кру го в ой эле мент в виде совокупности степенного ряда
+
+\[
+f(z)=\sum_{k=0}^{\infty} c_{k}(z-a)^{k}
+\]
+
+и его круга сходимости $D=\{z \in \mathbf{C}:|z-a|&lt;R\}$ с центром $a$ (ц е н т р эле ме н т а) и радиусом сходимости $R&gt;0$. Аналитич. продолжение здесь достигается (быть может, много- кратным) переразложением ряда (1) для различных центров $b,|b-a| \leqslant R$, по формулам вида
+
+\[
+\begin{gathered}
+f(z)=\sum_{n=0}^{\infty} d_{n}(z-b)^{n}=c_{0}+ \\
++\left[c_{1}(b-a)+c_{1}(z-b)\right]+\left[c_{2}(b-a)^{2}+\right. \\
+\left.+2 c_{2}(b-a)(z-b)+c_{2}(z-b)^{2}\right]+\ldots .
+\end{gathered}
+\]
+
+Любой из элементов $(D, f)$ полной аналитич. функции определяет ее однозначно и может быть представлен посредством круговых элементов с центрами $a \in D$. В случае бесконечно удаленного центра $a=\infty$ круговой элемент принимает вид:
+
+\[
+f(z)=\sum_{k=0}^{\infty} c_{k} z^{-k}
+\]
+
+с областью сходимости $D=\{z \in \mathbb{C}:|z|&gt;R\} . \quad$ Е.Д. Соломенцев.</text_orig>
+</article>

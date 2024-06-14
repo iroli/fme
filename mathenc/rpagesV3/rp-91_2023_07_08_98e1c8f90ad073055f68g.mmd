@@ -1,0 +1,120 @@
+для к-рых ограничения (7) в точке $x$ * выполняются как строгие неравенства. Тогда существует такой вектор $\lambda^{*}=\left(\lambda_{1}^{*}, \ldots, \lambda_{m}^{*}\right)$
+
+\[
+\left.\begin{array}{c}
+\lambda_{i}^{*} \geqslant 0 \text { при } i=1, \ldots, m_{1}, \\
+\lambda_{i}^{*} \leqslant 0 \text { при } i=m_{1}+1, \ldots, m_{2}, \\
+\lambda_{i}^{*} \text { любого знака при } i=m_{2}+1, \ldots, m, \\
+\lambda_{i}^{*}=0 \text { при } i \in I,
+\end{array}\right\}
+\]
+
+что
+
+\[
+\begin{aligned}
+& \frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}= \\
+& =\frac{\partial f\left(x^{*}\right)}{\partial x_{j}}-\sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial g_{i}\left(x^{*}\right)}{\partial x_{j}}\left\{\begin{array}{l}
+=0 \text { при } j \in J, \\
+\leqslant 0 \text { при } j \in J_{0},
+\end{array}\right. \\
+& \frac{\partial F\left(x^{*} \cdot \lambda^{*}\right)}{\partial \lambda_{i}}= \\
+& =b_{i}-g_{i}\left(x^{*}\right)\left\{\begin{array}{lll}
+\geqslant 0 & \text { при } & i=1, \ldots, m_{1}, \\
+\leqslant 0 & \text { при } & i=m_{1}+1, \ldots, m_{2}, \\
+=0 & \text { при } & i=m_{2}+1, \ldots, m .
+\end{array}\right.
+\end{aligned}
+\]
+
+Сформулированные необходимые условия обобщают условия (4), (5). Эти условия можно интерпретировать, используя понятие седловой точки функции $F(x, \lambda)$. В седловой точке ' $\left(x^{*}, \lambda^{*}\right)$ функция $F(x, \lambda)$ удовлетворяет неравенствам
+
+\[
+F\left(x, \lambda^{*}\right) \leqslant F\left(x^{*}, \lambda^{*}\right) \leqslant F\left(x^{*}, \lambda\right) .
+\]
+
+Точка $\left(x^{*}, \lambda^{*}\right)$, в к-рой выполняются условия (10) (12), удовлетворяет необходимым условиям существования седловой точки Л. ф. $F(x, \lambda)$ на множестве $x \geqslant 0$ и $\lambda$, удовлетворяющем ограничениям (10). В том случае, когда $f(x)$ - вогнутая при $x \geqslant 0$ функция, а $g_{i}(x)-$ выпуклая, если $\lambda_{i}^{*}>0$, и вогнутая, если $\lambda_{i}^{*}<0, i=1, \ldots$, $m$, сформулированные необходимые условия оказываются и достаточными, т. е. найденная из необходимых условий точка $\left(x^{*}, \lambda *\right)$ является седловой точкой Л. ф. $F(x, \lambda)$ при $x \geqslant 0$ и $\lambda$, удовлетворяющем ограничениям (10), и $f\left(x^{*}\right)$ является абсолютным максимумом $f(x)$ при ограничениях (7), (8).
+
+Наряду с Л. Ф., записываемой в виде (9), используется и другая форма записи Л. ф., отличающаяся знаком множителей Лагранжа. При этом изменяется и форма записи необходимых условий. Пусть поставлена задача нелинейного программирования: найти максимум
+
+\[
+f(x)
+\]
+
+при ограничениях
+
+\[
+\begin{gathered}
+g_{i}(x) \geqslant 0, \quad i=1, \ldots, m, \\
+x \geqslant 0 .
+\end{gathered}
+\]
+
+Ограничения (7) при $i=1, . ., m_{2}$ сводятся к (14) простым переобозначением. Условия типа равенства $g_{i}(x)=b_{i}, \quad i \triangleright m_{2}$, заменяются неравенствами $g_{i}(x)-$ - $b_{i} \geqslant 0$ и $b_{i}-g_{i}(x) \geqslant 0$ и также приводятся к виду (14). Пусть Л.ф. записана в виде
+
+\[
+F(x, \lambda)=f(x)+\sum_{i=1}^{m} \lambda_{i} g_{i}(x)
+\]
+
+и пусть $I$ - множество индексов $i$ из $i=1, \ldots, m$, для к-рых ограничения (14) выполняются как строгие неравенства. Тогда если $x^{*} \geqslant 0-$ оптимальное решение задачи (13) - (15), то при выполнении требования регулярности ограничений существует такой вектор $\lambda *=\left(\lambda_{1}^{*}, \ldots, \lambda_{m}^{*}\right)$ :
+
+\[
+\lambda_{i}^{*} \geqslant 0, \quad i=1, \ldots, m ; \lambda_{i}^{*}=0, i \in I
+\]
+
+\[
+\begin{gathered}
+\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}= \\
+=\frac{\partial f\left(x^{*}\right)}{\partial x_{j}}+\sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial g_{i}\left(x^{*}\right)}{\partial x_{j}}\left\{\begin{array}{l}
+=0 \text { при } j \in J, \\
+\leqslant 0 \text { при } j \in J_{0},
+\end{array}\right. \\
+\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial \lambda_{i}}=g_{i}\left(x^{*}\right) \geqslant 0, \quad i=1, \ldots, m
+\end{gathered}
+\]
+
+(см. [2], [3]). Условия (17) - (19) с учетом положительных и нулевых значений $x_{j}^{*}$ и $\lambda_{i}^{*}$ иногда записывают следующим образом:
+
+\[
+\begin{aligned}
+& \sum_{j=1}^{n} x_{j}^{*} \frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}=0, \\
+& \sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial \lambda_{i}}=0 .
+\end{aligned}
+\]
+
+Если ограничения (7) или (14) линейны, то упоминаемое выше условие регулярности ограничений всегда выполнено. Поэтому для линейных ограничений единственным предположением при выводе необходимых условий является дифференцируемость функции $f(x)$.
+
+Если в задаче (13) - (15) функции $f(x)$ и $g_{i}(x)$, $i=1, \ldots, m$, вогнутые, то точка $\left(x^{*}, \lambda^{*}\right)$, удовлетворяющая необходимым условиям (17) - (19), является селловой точкой Л. ф. (16) и $x^{*}$ доставляет абсолютный максимум. То что Л. ф. имеет в этом случае седловую точку, может быть доказано и без предположений о дифференцируемости функций $f(x)$ и $g_{i}(x)$.
+
+Аналог Л. ф. применяется и в вариационном исчислении при рассмотрении задач на условный әкстремум функционалов. Здесь также необходимые условия оптимальности в задаче на условный әкстремум оказывается удобным записывать как необходимые условия для некрого составного функционала (аналога Л. ф.), построенного с помощью множителей Лагранжа. Пусть, напр., поставлена Больца задача: найти минимум функционала
+
+\[
+J(x)=\int_{t_{1}}^{t_{2}} f(t, x, \dot{x}) d t+g\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right),
+\]\[
+f: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{n} \longrightarrow \mathbb{R}, \quad g: \mathbb{R} \times \mathbb{R} \boldsymbol{n}^{n} \times \mathbb{R} \times \mathbb{R} \boldsymbol{n} \longrightarrow \mathbb{R}
+\]
+
+при наличии дифференциальных ограничений типа равенств
+
+$\varphi(t, x, \dot{x})=0, \quad \varphi: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{n} \longrightarrow \mathbb{R}^{m}, \quad m<n$,
+
+и граничных условий
+
+$\psi\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)=0, \quad \psi: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R} \times \mathbb{R}^{n} \rightarrow \mathbb{R} p$,
+
+\[
+p \leqslant 2 n+2 \text {. }
+\]
+
+Необходимые условия в этой условноәкстремальной задаче получаются как необходимые условия безусловного экстремума функционала (см. [4])
+
+$I(x, \lambda, e)=\int_{t_{\mathbf{1}}}^{t_{2}}\left(\lambda_{0} f(t, x, \dot{x})+\sum_{i=1}^{m} \lambda_{i}(t) \varphi_{i}(t, x, \dot{x})\right) d t+$ $+\lambda_{0} g\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)+\sum_{\mu=1}^{p} e_{\mu} \psi_{\mu}\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)$, составленного с помощью множителей Лагранжа
+
+\[
+\lambda_{0}, \quad \lambda_{i}(t), \quad i=1, \ldots, m, e_{\mu}, \mu=1, \ldots, p .
+\]
+
+Эти необходимые условия, представляющие собой замкнутую систему соотношений для определения оптимального решения $x^{*}(t)$ и соответствующих множителей Лагранжа $\lambda_{i}^{*}(t)$ и $e_{\mu}^{*}$, в конкретных постановках записы-. ваются в виде Эйлера уравнения, Вейеритрасса условия п трансверсальности условия.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_98e1c8f90ad073055f68g-1.jpg?height=44&width=802&top_left_y=2228&top_left_x=1023)
+ческое программирование, пер. с англ., М., 1967; [3] K и h n H.

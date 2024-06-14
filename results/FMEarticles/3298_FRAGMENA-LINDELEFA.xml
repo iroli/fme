@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3298_FRAGMENA-LINDELEFA" alphabetic_pos="3300">
+  <title>ФРАГМЕНА-ЛИНДЕЛЕФА ПРИНЦИП</title>
+  <authors>
+    <author>В. М. Миклюков</author>
+  </authors>
+  <pages>
+    <start>644</start>
+    <end>644</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3298_1_FRAGMENA-LINDELEFA">\lim _{\rho \rightarrow \infty} \rho^{-\alpha} \ln \max _{|z|=\rho}|f(z)|&gt;0 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3298_1_FRAGMENA-LINDELEFA">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3298_2_FRAGMENA-LINDELEFA">\pi / \alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3298_3_FRAGMENA-LINDELEFA">|f(z)| \leqslant M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3298_4_FRAGMENA-LINDELEFA">|f(z)| \leqslant M</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/3298_1_FRAGMENA-LINDELEFA">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3298_2_FRAGMENA-LINDELEFA">
+      <rel_text>голоморфна</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3298_3_FRAGMENA-LINDELEFA">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3298_4_FRAGMENA-LINDELEFA">
+      <rel_text>голоморфной</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3298_5_FRAGMENA-LINDELEFA">
+      <rel_text>максимума модуля принцип</rel_text>
+      <target>http://libmeta.ru/fme/article/1700_MAKSIMUMA</target>
+    </relation>
+  </relations>
+  <text>семейство высказываний, распространяющих URI[[http://libmeta.ru/fme/relation/3298_5_FRAGMENA-LINDELEFA]]/URI для URI[[http://libmeta.ru/fme/relation/3298_4_FRAGMENA-LINDELEFA]]/URI функции на случай неограниченной URI[[http://libmeta.ru/fme/relation/3298_3_FRAGMENA-LINDELEFA]]/URI. Типичное утверждение такого рода: пусть функция $URI[[http://libmeta.ru/fme/formula/aux/3298_1_FRAGMENA-LINDELEFA]]/URI$ URI[[http://libmeta.ru/fme/relation/3298_2_FRAGMENA-LINDELEFA]]/URI в угле раствора $URI[[http://libmeta.ru/fme/formula/aux/3298_2_FRAGMENA-LINDELEFA]]/URI$ и непрерывна вплоть до его сторон. Если $URI[[http://libmeta.ru/fme/formula/aux/3298_3_FRAGMENA-LINDELEFA]]/URI$ на сторонах угла, то либо $URI[[http://libmeta.ru/fme/formula/aux/3298_4_FRAGMENA-LINDELEFA]]/URI$ всюду внутри угла, либо
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3298_1_FRAGMENA-LINDELEFA]]/URI
+\]
+
+Имеются обобщения Ф. - Л. п. для решений и субрешений URI[[http://libmeta.ru/fme/relation/3298_1_FRAGMENA-LINDELEFA]]/URI эллиптич. типа, для пространственных отображений с ограниченным искажением.</text>
+  <text_orig>семейство высказываний, распространяющих максимума модуля принцип для голоморфной функции на случай неограниченной области. Типичное утверждение такого рода: пусть функция $f(z)$ голоморфна в угле раствора $\pi / \alpha$ и непрерывна вплоть до его сторон. Если $|f(z)| \leqslant M$ на сторонах угла, то либо $|f(z)| \leqslant M$ всюду внутри угла, либо
+
+\[
+\lim _{\rho \rightarrow \infty} \rho^{-\alpha} \ln \max _{|z|=\rho}|f(z)|&gt;0 .
+\]
+
+Имеются обобщения Ф. - Л. п. для решений и субрешений дифференциальных уравнений эллиптич. типа, для пространственных отображений с ограниченным искажением.
+
+В. М. Миклюков.</text_orig>
+</article>

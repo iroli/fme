@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/708_GRANIChNOE" alphabetic_pos="710">
+  <title>ГРАНИЧНОЕ ЗНАЧЕНИЕ В КЛАССЕ РАСПРЕДЕЛЕНИЙ</title>
+  <authors>
+    <author>В. В. Жаринов</author>
+  </authors>
+  <pages>
+    <start>155</start>
+    <end>155</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/708_1_GRANIChNOE">|f(x+i y)| \leqslant M|y|^{-m}, x+i y \in \omega+i C_{R}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_1_GRANIChNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_2_GRANIChNOE">d(o)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_3_GRANIChNOE">g^{\prime}(o)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_4_GRANIChNOE">y \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_5_GRANIChNOE">o-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_6_GRANIChNOE">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_7_GRANIChNOE">г</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_8_GRANIChNOE">f(x+i y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_9_GRANIChNOE">y \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_10_GRANIChNOE">x \in O</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_11_GRANIChNOE">\omega \subset O</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_12_GRANIChNOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_13_GRANIChNOE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/708_14_GRANIChNOE">r, M, m&gt;0</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/708_1_GRANIChNOE">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/708_2_GRANIChNOE">
+      <rel_text>Шварца распределений</rel_text>
+      <target>http://libmeta.ru/fme/article/3442_ShVARTsA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/708_3_GRANIChNOE">
+      <rel_text>тубоиде</rel_text>
+      <target>http://libmeta.ru/fme/article/3130_TUBOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/708_4_GRANIChNOE">
+      <rel_text>обобщенное граничное значение функции</rel_text>
+      <target>http://libmeta.ru/fme/article/712_GRANIChNOE</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/708_4_GRANIChNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/708_1_GRANIChNOE]]/URI$, аналитической в URI[[http://libmeta.ru/fme/relation/708_3_GRANIChNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/708_2_GRANIChNOE]]/URI$, в пространстве URI[[http://libmeta.ru/fme/relation/708_2_GRANIChNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/708_3_GRANIChNOE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/708_4_GRANIChNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/708_5_GRANIChNOE]]/URI$ URI[[http://libmeta.ru/fme/relation/708_1_GRANIChNOE]]/URI в $URI[[http://libmeta.ru/fme/formula/aux/708_6_GRANIChNOE]]/URI$. Такое $URI[[http://libmeta.ru/fme/formula/aux/708_7_GRANIChNOE]]/URI$.. существует тогда и только тогда, когда $URI[[http://libmeta.ru/fme/formula/aux/708_8_GRANIChNOE]]/URI$ имеет локально медленный рост при $URI[[http://libmeta.ru/fme/formula/aux/708_9_GRANIChNOE]]/URI$, то есть когда справедлива оценка: для каждого $URI[[http://libmeta.ru/fme/formula/aux/708_10_GRANIChNOE]]/URI$ существуют подобласть $URI[[http://libmeta.ru/fme/formula/aux/708_11_GRANIChNOE]]/URI$, содержащая $URI[[http://libmeta.ru/fme/formula/aux/708_12_GRANIChNOE]]/URI$, непустой открытый конус $URI[[http://libmeta.ru/fme/formula/aux/708_13_GRANIChNOE]]/URI$ и числа $URI[[http://libmeta.ru/fme/formula/aux/708_14_GRANIChNOE]]/URI$ такие, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/708_1_GRANIChNOE]]/URI
+\]</text>
+  <text_orig>обобщенное граничное значение функции $f$, аналитической в тубоиде $D(O)$, в пространстве Шварца распределений $g^{\prime}(O)$ при $y \rightarrow 0$, где $O-$ область в $\mathbb{R}^{n}$. Такое $Г$.. существует тогда и только тогда, когда $f(x+i y)$ имеет локально медленный рост при $y \rightarrow 0$, то есть когда справедлива оценка: для каждого $x \in O$ существуют подобласть $\omega \subset O$, содержащая $x$, непустой открытый конус $C$ и числа $R, M, m&gt;0$ такие, что
+
+\[
+|f(x+i y)| \leqslant M|y|^{-m}, x+i y \in \omega+i C_{R}
+\]
+
+В. В. Жаринов.</text_orig>
+</article>

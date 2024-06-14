@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1258_KLASTERY">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1258_KLASTERY</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/286</core:url>
+    <lbm:descriptor><![CDATA[КЛАСТЕРЫ СОБСТВЕННЫХ ЗНАЧЕНИЙ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#2956"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2957"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2958"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2959"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2960"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2958">$$\left\{\lambda_{k, j}, 1 \leqslant j \leqslant \mu_{k}\right\}, k=1,2, \ldots$$</a>, собственных значений, лежа- щих в интервале, не содержащем других точек спектра, причем <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2959">$$\mu_{k} \rightarrow \infty$$</a> и<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2957">$$\max _{i, j}\left|\lambda_{k, i}-\lambda_{k, j}\right| / \min _{i, j, l \neq k} \mid \lambda_{k, i}-\lambda_{l, j} \rightarrow 0$$</a><BR/></P><P>при $URI[[http://libmeta.ru/fme/formula/aux/1258_3_KLASTERY]]/URI$. Наиболее изучены К. с. з. у эллиптич. операторов на компактных замкнутых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразиях</a> с периодич. гамильтоновым потоком <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_651_GLAVNYJ">главного символа</a> и нек-рым условием на субглавный символ. Изучено асимптотич. распределение собственных значений внутри кластеров.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#2956">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#124">Хёрмандер Л.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#2956">Анализ линейных дифференциальных операторов с частными производными, пер. с англ., т. 4, М., 1988</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[гРУППЫ $\left\{\lambda_{k, j}, 1 \leqslant j \leqslant \mu_{k}\right\}, k=1,2, \ldots$, собственных значений, лежа- щих в интервале, не содержащем других точек спектра, причем $\mu_{k} \rightarrow \infty$ и
+
+\[
+\max _{i, j}\left|\lambda_{k, i}-\lambda_{k, j}\right| / \min _{i, j, l \neq k} \mid \lambda_{k, i}-\lambda_{l, j} \rightarrow 0
+\]
+
+при $k \rightarrow \infty$. Наиболее изучены К. с. з. у эллиптич. операторов на компактных замкнутых многообразиях с периодич. гамильтоновым потоком главного символа и нек-рым условием на субглавный символ. Изучено асимптотич. распределение собственных значений внутри кластеров.
+
+Лum.: [1] Хё р м а н де р Л., Анализ линейных дифференциальных операторов с частными производными, пер. с англ., т. 4, М., 1988.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_651_GLAVNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3358_HIMIChESKIJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3358_HIMIChESKIJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2619</core:url>
+    <lbm:descriptor><![CDATA[ХИМИЧЕСКИЙ ПОТЕНЦИАЛ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1464"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#3758"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19889"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1730"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_764"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_64"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>термодинамический параметр, задающий вместе с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температурой</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояние</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_265_BOL'ShOJ">большого канонического ансамбля</a>. Х. п.- интенсивная величина, определяемая соотношением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19889">$$\mu=\left(\frac{\partial F}{\partial N}\right)_{\beta, V}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/3358_1_HIMIChESKIJ]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2696_SVOBODNAJa">свободная энергия</a>, $URI[[http://libmeta.ru/fme/formula/aux/3358_2_HIMIChESKIJ]]/URI$ число <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, $URI[[http://libmeta.ru/fme/formula/aux/3358_3_HIMIChESKIJ]]/URI$ - обратная <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температура</a>, $URI[[http://libmeta.ru/fme/formula/aux/3358_4_HIMIChESKIJ]]/URI$ - объем. X. п. тела, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоящего</a> из одинаковых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, есть удельная (в расчете на одну <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частицу</a>) свободная <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3535_ENTAL'PI">энтальпия</a> (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергия</a> Гиббса).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Балеску Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1464">Д. П. Санкович</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[термодинамическИЙ параметр, задающий вместе с температурой состояние большого канонического ансамбля. Х. п.- интенсивная величина, определяемая соотношением
+
+\[
+\mu=\left(\frac{\partial F}{\partial N}\right)_{\beta, V}
+\]
+
+где $F$ - свободная энергия, $N-$ число частиц, $\beta$ - обратная температура, $\boldsymbol{V}$ - объем. X. п. тела, состоящего из одинаковых частиц, есть удельная (в расчете на одну частицу) свободная энтальпия (энергия Гиббса).
+
+Лит.: [1] Б але с к у Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., $1978 . \quad$ Д. П. Санкович.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3535_ENTAL'PI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2696_SVOBODNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_265_BOL'ShOJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

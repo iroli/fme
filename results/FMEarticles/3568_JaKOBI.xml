@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3568_JaKOBI" alphabetic_pos="3570">
+  <title>ЯКОБИ КООРДИНАТЫ</title>
+  <authors>
+    <author>С. П. Меркурьев</author>
+    <author>С. Л. Яковлев</author>
+  </authors>
+  <pages>
+    <start>688</start>
+    <end>688</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Блохинце в Д. И., Основы квантовой механики, 6 изд., М., 1983; [2] М е ркурье в С. П., Фадде е в Л. Д., Квантовая теория рассеяния для систем нескольких частиц, М., 1985; [3] Р и Д М., С аймон Б., Методы современной математической физики, т. 3, Теория рассеяния, пер. с англ., М., 1982.</literature_orig>
+    <unit>
+      <author>Блохинцев Д. И.</author>
+      <title>Основы квантовой механики</title>
+      <publication>6 изд., М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Меркурьев С. П.</author>
+      <author>Фаддеев Л. Д.</author>
+      <title>Квантовая теория рассеяния для систем нескольких частиц</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ри Д М.</author>
+      <author>Саймон Б.</author>
+      <title>Методы современной математической физики</title>
+      <publication>Теория рассеяния, пер. с англ., М.</publication>
+      <year>1982</year>
+      <other>т. 3</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3568_1_JaKOBI">\begin{gathered}y_{\omega_{l}}=\frac{1}{m_{\omega_{l}}} \sum_{s=1}^{l} m_{i_{s}} r_{i_{s}}, \\m_{\omega_{l}}=\sum_{s=1}^{l} m_{i_{s}},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3568_2_JaKOBI">\begin{aligned}\xi_{\omega_{l} i_{l+1}} &amp; =y_{\omega_{l}}-r_{i_{l+1}}, \\\xi_{i_{1} i_{2}} &amp; =r_{i_{1}}-r_{i_{2}},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3568_3_JaKOBI">x_{\omega_{l} i_{l+1}}=\left(2 \frac{m_{\omega_{l}} m_{i_{l+1}}}{m_{\omega_{l}}+m_{i_{l+1}}}\right)^{1 / 2} \xi_{\omega_{l} i_{l+1}} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3568_4_JaKOBI">H_{0}=-\sum_{i=1}^{N} \frac{1}{2 m_{i}} \Delta_{r_{i}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3568_5_JaKOBI">\begin{gathered}H_{0}=-\Delta_{X}, \\X=\left\{x_{\omega_{l} i_{l+1}}\right\} \in \mathbb{R}^{3(N-1)} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_1_JaKOBI">i_{1}, i_{2}, \ldots, i_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_2_JaKOBI">\omega_{2}, \omega_{3}, \ldots, \omega_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_3_JaKOBI">\omega_{l}=\left\{i_{1}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_4_JaKOBI">\left.i_{2}, \ldots, i_{l}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_5_JaKOBI">y_{\omega_{l}} \in \mathbb{R}^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_6_JaKOBI">\omega_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_7_JaKOBI">m_{\omega_{l}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_8_JaKOBI">\boldsymbol{r}_{i_{s}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_9_JaKOBI">\boldsymbol{m}_{\boldsymbol{i}_{s}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_10_JaKOBI">i_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_11_JaKOBI">\omega_{2}, \omega_{3}, \ldots, \omega_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_12_JaKOBI">l=2,3, \ldots, N-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_13_JaKOBI">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_14_JaKOBI">\xi_{\omega_{l} i_{l+1}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3568_15_JaKOBI">n</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/3568_1_JaKOBI">
+      <rel_text>системе центра масс</rel_text>
+      <target>http://libmeta.ru/fme/article/3387_TsENTRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3568_2_JaKOBI">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3568_3_JaKOBI">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3568_4_JaKOBI">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+  </relations>
+  <text>относительные координаты, используемые для описания многочастичных систем в центра масс системе отсчета. Сопоставим нек-рой упорядоченной последовательности номеров частиц $URI[[http://libmeta.ru/fme/formula/aux/3568_1_JaKOBI]]/URI$ последовательность подсистем $URI[[http://libmeta.ru/fme/formula/aux/3568_2_JaKOBI]]/URI$ такую, что $URI[[http://libmeta.ru/fme/formula/aux/3568_3_JaKOBI]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3568_4_JaKOBI]]/URI$. Пусть $URI[[http://libmeta.ru/fme/formula/aux/3568_5_JaKOBI]]/URI$ - координата центра масс подсистемы $URI[[http://libmeta.ru/fme/formula/aux/3568_6_JaKOBI]]/URI$ массы $URI[[http://libmeta.ru/fme/formula/aux/3568_7_JaKOBI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3568_1_JaKOBI]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3568_8_JaKOBI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3568_9_JaKOBI]]/URI$ - координаты и масса частиц с номером $URI[[http://libmeta.ru/fme/formula/aux/3568_10_JaKOBI]]/URI$. Коо р д и наты Якоби, соответствующие последовательности подсистем $URI[[http://libmeta.ru/fme/formula/aux/3568_11_JaKOBI]]/URI$, строятся по формулам
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3568_2_JaKOBI]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3568_12_JaKOBI]]/URI$. Существует $URI[[http://libmeta.ru/fme/formula/aux/3568_13_JaKOBI]]/URI$ ! различных систем Я. к., отвечающих всевозможным перестановкам частиц. Наряду с Я. к. часто используются приведенные Я.к. связанные с $URI[[http://libmeta.ru/fme/formula/aux/3568_14_JaKOBI]]/URI$ соотношениями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3568_3_JaKOBI]]/URI
+\]
+
+В этих координатах особенно просто выглядит URI[[http://libmeta.ru/fme/relation/3568_4_JaKOBI]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3568_4_JaKOBI]]/URI
+\]
+
+кинетич. URI[[http://libmeta.ru/fme/relation/3568_3_JaKOBI]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3568_15_JaKOBI]]/URI$ URI[[http://libmeta.ru/fme/relation/3568_2_JaKOBI]]/URI в URI[[http://libmeta.ru/fme/relation/3568_1_JaKOBI]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3568_5_JaKOBI]]/URI
+\]</text>
+  <text_orig>относительные координаты, используемые для описания многочастичных систем в центра масс системе отсчета. Сопоставим нек-рой упорядоченной последовательности номеров частиц $i_{1}, i_{2}, \ldots, i_{N}$ последовательность подсистем $\omega_{2}, \omega_{3}, \ldots, \omega_{N}$ такую, что $\omega_{l}=\left\{i_{1}\right.$, $\left.i_{2}, \ldots, i_{l}\right\}$. Пусть $y_{\omega_{l}} \in \mathbb{R}^{3}$ - координата центра масс подсистемы $\omega_{l}$ массы $m_{\omega_{l}}$ :
+
+\[
+\begin{gathered}
+y_{\omega_{l}}=\frac{1}{m_{\omega_{l}}} \sum_{s=1}^{l} m_{i_{s}} r_{i_{s}}, \\
+m_{\omega_{l}}=\sum_{s=1}^{l} m_{i_{s}},
+\end{gathered}
+\]
+
+$\boldsymbol{r}_{i_{s}}$ и $\boldsymbol{m}_{\boldsymbol{i}_{s}}$ - координаты и масса частиц с номером $i_{s}$. Коо р д и наты Якоби, соответствующие последовательности подсистем $\omega_{2}, \omega_{3}, \ldots, \omega_{N}$, строятся по формулам
+
+\[
+\begin{aligned}
+\xi_{\omega_{l} i_{l+1}} &amp; =y_{\omega_{l}}-r_{i_{l+1}}, \\
+\xi_{i_{1} i_{2}} &amp; =r_{i_{1}}-r_{i_{2}},
+\end{aligned}
+\]
+
+$l=2,3, \ldots, N-1$. Сушествует $N$ ! различных систем Я. к., отвечающих всевозможным перестановкам частиц. Наряду с Я. к. часто используются приведенные Я.к. связанные с $\xi_{\omega_{l} i_{l+1}}$ соотношениями
+
+\[
+x_{\omega_{l} i_{l+1}}=\left(2 \frac{m_{\omega_{l}} m_{i_{l+1}}}{m_{\omega_{l}}+m_{i_{l+1}}}\right)^{1 / 2} \xi_{\omega_{l} i_{l+1}} .
+\]
+
+В этих координатах особенно просто выглядит оператор
+
+\[
+H_{0}=-\sum_{i=1}^{N} \frac{1}{2 m_{i}} \Delta_{r_{i}}
+\]
+
+кинетич. энергии $N$ частиц в системе центра масс:
+
+\[
+\begin{gathered}
+H_{0}=-\Delta_{X}, \\
+X=\left\{x_{\omega_{l} i_{l+1}}\right\} \in \mathbb{R}^{3(N-1)} .
+\end{gathered}
+\]
+
+Лит.: [1] Блохинце в Д. И., Основы квантовой механики, 6 изд., М., 1983; [2] М е ркурье в С. П., Фадде е в Л. Д., Квантовая теория рассеяния для систем нескольких частиц, М., 1985; [3] Р и Д М., С аймон Б., Методы современной математической физики, т. 3, Теория рассеяния, пер. с англ., М., 1982.
+
+С. П. Меркурьев, С.Л. Яковлев.</text_orig>
+</article>

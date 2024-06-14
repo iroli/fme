@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/276_BORNOVSKOE" alphabetic_pos="276">
+  <title>БОРНОВСКОЕ ПРИБЛИЖЕНИЕ В КВАНТОВОЙ МЕХАНИКЕ И КВАНТОВОЙ ТЕОРИИ ПОЛЯ</title>
+  <authors>
+    <author>Л. И. Лапидус</author>
+    <author>М. В. Терентьев</author>
+  </authors>
+  <pages>
+    <start>62</start>
+    <end>62</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/276_1_BORNOVSKOE">f=-\frac{m}{2 \pi \hbar^{2}} \int U(\boldsymbol{r}) e^{-i k \boldsymbol{r}} d V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/276_2_BORNOVSKOE">\delta_{l}=-\frac{\pi m}{2 \hbar} \int_{0}^{\infty} U(\boldsymbol{r})\left[J_{l+1 / 2}(k r)\right]^{2} \boldsymbol{r} d \boldsymbol{r}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_1_BORNOVSKOE">u R / \hbar v \ll 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_2_BORNOVSKOE">r-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_3_BORNOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_4_BORNOVSKOE">\bar{u}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_5_BORNOVSKOE">\sim R</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_6_BORNOVSKOE">\sim R / v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_7_BORNOVSKOE">\sim \hbar / U</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_8_BORNOVSKOE">z \alpha / \hbar v \ll 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_9_BORNOVSKOE">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_10_BORNOVSKOE">\alpha \approx 1 / 137</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_11_BORNOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_12_BORNOVSKOE">v_{\mathrm{k}}=z \alpha / \hbar</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_13_BORNOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_14_BORNOVSKOE">|u(r)| \ll \hbar^{2} / m R^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_15_BORNOVSKOE">\hbar \boldsymbol{k}=\boldsymbol{p}_{\boldsymbol{i}}-\boldsymbol{p}_{f}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_16_BORNOVSKOE">\boldsymbol{p}_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_17_BORNOVSKOE">\boldsymbol{p}_{f}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_18_BORNOVSKOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_19_BORNOVSKOE">u(\boldsymbol{r})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_20_BORNOVSKOE">d V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_21_BORNOVSKOE">\delta_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_22_BORNOVSKOE">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/276_23_BORNOVSKOE">j_{l+1 / 2}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/276_1_BORNOVSKOE">
+      <rel_text>Борновский ряд</rel_text>
+      <target>http://libmeta.ru/fme/article/275_BORNOVSKIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/276_2_BORNOVSKOE">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/276_3_BORNOVSKOE">
+      <rel_text>рассеяния</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/276_4_BORNOVSKOE">
+      <rel_text>широко</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+  </relations>
+  <text>приближенный метод вычисления амплитуд упругого рассеяния и неупругого взаимодействия микрочастиц в рамках возмущений теории в первом приближении по потенциалу взаимодействия. Метод сформулирован М. Борном (m. Born, 1926). Применимость Б. п. для короткодействующих потенциалов определяется условием $URI[[http://libmeta.ru/fme/formula/aux/276_1_BORNOVSKOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/276_2_BORNOVSKOE]]/URI$ размер области действия потенциала, $URI[[http://libmeta.ru/fme/formula/aux/276_3_BORNOVSKOE]]/URI$ - относительная скорость рассеиваемых частиц, $URI[[http://libmeta.ru/fme/formula/aux/276_4_BORNOVSKOE]]/URI$ - среднее значение потенциала (в случае квантовой теории поля - энергии взаимодействия) в области с размером $URI[[http://libmeta.ru/fme/formula/aux/276_5_BORNOVSKOE]]/URI$. Это условие означает, что время $URI[[http://libmeta.ru/fme/formula/aux/276_6_BORNOVSKOE]]/URI$, к-рое частицы проводят в области взаимодействия, мало по сравнению со временем $URI[[http://libmeta.ru/fme/formula/aux/276_7_BORNOVSKOE]]/URI$, за к-рое взаимодействие успевает сильно изменить состояние частиц. Для кулоновского поля Б. П. справедливо при условии $URI[[http://libmeta.ru/fme/formula/aux/276_8_BORNOVSKOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/276_9_BORNOVSKOE]]/URI$ - атомный номер, $URI[[http://libmeta.ru/fme/formula/aux/276_10_BORNOVSKOE]]/URI$ - постоянная тонкой структуры. Это означает, что скорость $URI[[http://libmeta.ru/fme/formula/aux/276_11_BORNOVSKOE]]/URI$ частиц должна превышать скорость $URI[[http://libmeta.ru/fme/formula/aux/276_12_BORNOVSKOE]]/URI$ движения электрона на первой боровской орбите. Б. П. лучше выполняется при больших скоростях частиц. При произвольных $URI[[http://libmeta.ru/fme/formula/aux/276_13_BORNOVSKOE]]/URI$ оно справедливо, если $URI[[http://libmeta.ru/fme/formula/aux/276_14_BORNOVSKOE]]/URI$.
+
+В нерелятивистской квантовой механике при справедливости Б. п. амплитуда упругого рассеяния действительна и равна
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/276_1_BORNOVSKOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/276_15_BORNOVSKOE]]/URI$ изменение импульса в процессе рассеяния, $URI[[http://libmeta.ru/fme/formula/aux/276_16_BORNOVSKOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/276_17_BORNOVSKOE]]/URI$ импульсы рассеиваемых частиц до и после рассеяния, $URI[[http://libmeta.ru/fme/formula/aux/276_18_BORNOVSKOE]]/URI$ - масса рассеиваемой частицы, $URI[[http://libmeta.ru/fme/formula/aux/276_19_BORNOVSKOE]]/URI$ - потенциал взаимодействия ( $URI[[http://libmeta.ru/fme/formula/aux/276_20_BORNOVSKOE]]/URI$ - элемент объема).
+
+Поскольку в общем случае амплитуда рассеяния является комплексной величиной, ее действительность в Б. п. означает, что фазы рассеяния $URI[[http://libmeta.ru/fme/formula/aux/276_21_BORNOVSKOE]]/URI$ в состоянии с орбитальным квантовым числом $URI[[http://libmeta.ru/fme/formula/aux/276_22_BORNOVSKOE]]/URI$ должны быть малы. Для них в Б. П. справедливо выражение:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/276_2_BORNOVSKOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/276_23_BORNOVSKOE]]/URI$ - функция Бесселя.
+
+Б. п. URI[[http://libmeta.ru/fme/relation/276_4_BORNOVSKOE]]/URI используется при анализе упругого и неупругого URI[[http://libmeta.ru/fme/relation/276_3_BORNOVSKOE]]/URI и служит основным методом извлече- ния информации о формфакторах элементарных URI[[http://libmeta.ru/fme/relation/276_2_BORNOVSKOE]]/URI, атомов и атомных ядер.
+
+См. также URI[[http://libmeta.ru/fme/relation/276_1_BORNOVSKOE]]/URI.</text>
+  <text_orig>приближенный метод вычисления амплитуд упругого рассеяния и неупругого взаимодействия микрочастиц в рамках возмущений теории в первом приближении по потенциалу взаимодействия. Метод сформулирован М. Борном (M. Born, 1926). Применимость Б. п. для короткодействующих потенциалов определяется условием $U R / \hbar v \ll 1$, где $R-$ размер области действия потенциала, $v$ - относительная скорость рассеиваемых частиц, $\bar{U}$ - среднее значение потенциала (в случае квантовой теории поля - энергии взаимодействия) в области с размером $\sim R$. Это условие означает, что время $\sim R / v$, к-рое частицы проводят в области взаимодействия, мало по сравнению со временем $\sim \hbar / U$, за к-рое взаимодействие успевает сильно изменить состояние частиц. Для кулоновского поля Б. П. справедливо при условии $Z \alpha / \hbar v \ll 1$, где $Z$ - атомный номер, $\alpha \approx 1 / 137$ - постоянная тонкой структуры. Это означает, что скорость $v$ частиц должна превышать скорость $v_{\mathrm{K}}=Z \alpha / \hbar$ движения электрона на первой боровской орбите. Б. П. лучше выполняется при больших скоростях частиц. При произвольных $v$ оно справедливо, если $|U(R)| \ll \hbar^{2} / m R^{2}$.
+
+В нерелятивистской квантовой механике при справедливости Б. п. амплитуда упругого рассеяния действительна и равна
+
+\[
+f=-\frac{m}{2 \pi \hbar^{2}} \int U(\boldsymbol{r}) e^{-i k \boldsymbol{r}} d V
+\]
+
+где $\hbar \boldsymbol{k}=\boldsymbol{p}_{\boldsymbol{i}}-\boldsymbol{p}_{f}-$ изменение импульса в процессе рассеяния, $\boldsymbol{p}_{i}$ и $\boldsymbol{p}_{f}-$ импульсы рассеиваемых частиц до и после рассеяния, $m$ - масса рассеиваемой частицы, $U(\boldsymbol{r})$ - потенциал взаимодействия ( $d V$ - элемент объема).
+
+Поскольку в общем случае амплитуда рассеяния является комплексной величиной, ее действительность в Б. п. означает, что фазы рассеяния $\delta_{l}$ в состоянии с орбитальным квантовым числом $l$ должны быть малы. Для них в Б. П. справедливо выражение:
+
+\[
+\delta_{l}=-\frac{\pi m}{2 \hbar} \int_{0}^{\infty} U(\boldsymbol{r})\left[J_{l+1 / 2}(k r)\right]^{2} \boldsymbol{r} d \boldsymbol{r}
+\]
+
+где $J_{l+1 / 2}$ - функция Бесселя.
+
+Б. п. широко используется при анализе упругого и неупругого рассеяния и служит основным методом извлече- ния информации о формфакторах элементарных частиц, атомов и атомных ядер.
+
+См. также Борновский ряд. Л. И. Лапидус, М. В. Терентьев.</text_orig>
+</article>

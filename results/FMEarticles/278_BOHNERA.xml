@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/278_BOHNERA" alphabetic_pos="278">
+  <title>БОХНЕРА ИНТЕГРАЛ</title>
+  <authors>
+    <author>В. И. Скрипник</author>
+  </authors>
+  <pages>
+    <start>62</start>
+    <end>62</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/278_1_BOHNERA">\int_{S} x(s) m(d s)=s t \lim _{n \rightarrow \infty} \int_{S} x_{n}(s) m(d s) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/278_1_BOHNERA">\left\{x_{n}(s)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/278_2_BOHNERA">(s, \mathfrak{B}, m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/278_3_BOHNERA">x(s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/278_4_BOHNERA">x(s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/278_5_BOHNERA">m(d s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/278_6_BOHNERA">x_{n}(s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/278_7_BOHNERA">m(d s)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/278_1_BOHNERA">
+      <rel_text>банаховом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/135_BANAHOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/278_2_BOHNERA">
+      <rel_text>на измеримом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/2882_SPEKTRAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/278_3_BOHNERA">
+      <rel_text>банаховом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/135_BANAHOVO</target>
+    </relation>
+  </relations>
+  <text>интеграл от функции со значениями в URI[[http://libmeta.ru/fme/relation/278_3_BOHNERA]]/URI по скалярной мере. Пусть $URI[[http://libmeta.ru/fme/formula/aux/278_1_BOHNERA]]/URI$ - последовательность функций URI[[http://libmeta.ru/fme/relation/278_2_BOHNERA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/278_2_BOHNERA]]/URI$, принимающих конечное число значений, со значением в URI[[http://libmeta.ru/fme/relation/278_1_BOHNERA]]/URI, сильно сходящаяся к функции $URI[[http://libmeta.ru/fme/formula/aux/278_3_BOHNERA]]/URI$ почти всюду. Й т т грал Бохн е ра функции $URI[[http://libmeta.ru/fme/formula/aux/278_4_BOHNERA]]/URI$ по мере $URI[[http://libmeta.ru/fme/formula/aux/278_5_BOHNERA]]/URI$ определен как сильный предел последовательности интегралов $URI[[http://libmeta.ru/fme/formula/aux/278_6_BOHNERA]]/URI$ по мере $URI[[http://libmeta.ru/fme/formula/aux/278_7_BOHNERA]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/278_1_BOHNERA]]/URI
+\]</text>
+  <text_orig>интеграл от функции со значениями в банаховом пространстве по скалярной мере. Пусть $\left\{x_{n}(s)\right\}$ - последовательность функций на измеримом пространстве $(S, \mathfrak{B}, m)$, принимающих конечное число значений, со значением в банаховом пространстве, сильно сходящаяся к функции $x(s)$ почти всюду. Й т т грал Бохн е ра функции $x(s)$ по мере $m(d s)$ определен как сильный предел последовательности интегралов $x_{n}(s)$ по мере $m(d s)$, то есть
+
+\[
+\int_{S} x(s) m(d s)=s t \lim _{n \rightarrow \infty} \int_{S} x_{n}(s) m(d s) .
+\]
+
+В. И. Скрипник.</text_orig>
+</article>

@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3169_UL'TRASFERIChESKIE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3169_UL'TRASFERIChESKIE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2409</core:url>
+    <lbm:descriptor><![CDATA[УЛЬТРАСФЕРИЧЕСКИЕ МНОГОЧЛЕНЫ, МНОГОЧЛЕНЫ ГЕГЕНБАУЭРА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#4788"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18161"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18162"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18163"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18164"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18165"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18166"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3826"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18167"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18168"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9475"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18169"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18170"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>многочлены, ортогональные на отрезке $URI[[http://libmeta.ru/fme/formula/aux/3169_1_UL'TRASFERIChESKIE]]/URI$ с весовой функцией<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18161">$$h(x)=\left(1-x^{2}\right)^{\lambda-1 / 2}$$</a><BR/></P><P>частный случай Якоби многочленов при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18167">$$\alpha=\beta=\lambda-\frac{1}{2}$$</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18168">$$(\lambda>-1 / 2)$$</a>; Лежандра многочлены $URI[[http://libmeta.ru/fme/formula/aux/3169_4_UL'TRASFERIChESKIE]]/URI$ - частный случай У. м.: <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18169">$$p_{n}(x)=p_{n}(x, 1 / 2)$$</a><BR/></P><P>Для У.м. принята стандартизация<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18162">$$\begin{aligned}P_{n}(\dot{x}, \lambda) \equiv C_{n}^{(\lambda)}(x) & =\frac{(-2)^{n}}{n !} \frac{\Gamma(n+\lambda) \Gamma(n+2 \lambda)}{\Gamma(\lambda) \Gamma(2 n+2 \lambda)}\left(1-x^{2}\right)^{-\lambda+\frac{1}{2}} \times \\\times & \frac{d^{n}}{d x^{n}}\left[\left(1-x^{2}\right)^{n+\lambda-\frac{1}{2}}\right]\end{aligned}$$</a><BR/></P><P>и имеет место представление<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18163">$$C_{n}^{(\lambda)}(x)=\sum_{k=0}^{[n / 2]}(-1)^{k} \frac{\Gamma(n-k+\lambda)}{\Gamma(\lambda) k !(n-2 k) !}(2 x)^{n-2 k} .$$</a><BR/></P><P>У. м. являются коэффициентами разложения в степенной ряд производящей функции<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18164">$$\frac{1}{\left(1-2 x w+w^{2}\right)^{\lambda}}=\sum_{n=0}^{\infty} C_{n}^{(\lambda)}(x) w^{n}$$</a><BR/></P><P>У. м. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18170">$$c_{n}^{(\lambda)}(x)=y$$</a> удовлетворяет <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST">дифференциальному</a> уравнению:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18165">$$\left(1-x^{2}\right) y^{\prime \prime}-(2 \lambda+1) x y^{\prime}+n(n+2 \lambda) y=0 .$$</a><BR/></P><P>Наиболее употребительны формулы<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18166">$$\begin{gathered}(n+1) C_{n+1}^{(\lambda)}(x)=2(n+\lambda) x C_{n}^{(\lambda)}(x)-(n+2 \lambda-1) C_{n-1}^{(\lambda)}(x), \\C_{n}^{(\lambda)}(-x)=(-1)^{n} C_{n}^{(\lambda)}(x), \\\frac{d}{d x}\left[C_{n}^{(\lambda)}(x)\right]=2 \lambda C_{n-1}^{(\lambda+1)}(x), \\C_{n}^{(\lambda)}( \pm 1)=( \pm 1)^{n} \frac{2 \lambda(2 \lambda+1) \ldots(2 \lambda+n-1)}{n !} .\end{gathered}$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#4788">П. К. Суетин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[многочлены, ортогональные на отрезке $[-1,1]$ с весовой функцией
+
+\[
+h(x)=\left(1-x^{2}\right)^{\lambda-1 / 2}
+\]
+
+частный случай Якоби многочленов при $\alpha=\beta=\lambda-\frac{1}{2}$ $(\lambda>-1 / 2)$; Лежандра многочлены $P_{n}(x)$ - частный случай У. м.: $P_{n}(x)=P_{n}(x, 1 / 2)$
+
+Для У.м. принята стандартизация
+
+\[
+\begin{aligned}
+P_{n}(\dot{x}, \lambda) \equiv C_{n}^{(\lambda)}(x) & =\frac{(-2)^{n}}{n !} \frac{\Gamma(n+\lambda) \Gamma(n+2 \lambda)}{\Gamma(\lambda) \Gamma(2 n+2 \lambda)}\left(1-x^{2}\right)^{-\lambda+\frac{1}{2}} \times \\
+\times & \frac{d^{n}}{d x^{n}}\left[\left(1-x^{2}\right)^{n+\lambda-\frac{1}{2}}\right]
+\end{aligned}
+\]
+
+и имеет место представление
+
+\[
+C_{n}^{(\lambda)}(x)=\sum_{k=0}^{[n / 2]}(-1)^{k} \frac{\Gamma(n-k+\lambda)}{\Gamma(\lambda) k !(n-2 k) !}(2 x)^{n-2 k} .
+\]
+
+У. м. являются коэффициентами разложения в степенной ряд производящей функции
+
+\[
+\frac{1}{\left(1-2 x w+w^{2}\right)^{\lambda}}=\sum_{n=0}^{\infty} C_{n}^{(\lambda)}(x) w^{n}
+\]
+
+У. м. $C_{n}^{(\lambda)}(x)=y$ удовлетворяет дифференциальному уравнению:
+
+\[
+\left(1-x^{2}\right) y^{\prime \prime}-(2 \lambda+1) x y^{\prime}+n(n+2 \lambda) y=0 .
+\]
+
+Наиболее употребительны формулы
+
+\[
+\begin{gathered}
+(n+1) C_{n+1}^{(\lambda)}(x)=2(n+\lambda) x C_{n}^{(\lambda)}(x)-(n+2 \lambda-1) C_{n-1}^{(\lambda)}(x), \\
+C_{n}^{(\lambda)}(-x)=(-1)^{n} C_{n}^{(\lambda)}(x), \\
+\frac{d}{d x}\left[C_{n}^{(\lambda)}(x)\right]=2 \lambda C_{n-1}^{(\lambda+1)}(x), \\
+C_{n}^{(\lambda)}( \pm 1)=( \pm 1)^{n} \frac{2 \lambda(2 \lambda+1) \ldots(2 \lambda+n-1)}{n !} .
+\end{gathered}
+\]
+
+П. К. Суетин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

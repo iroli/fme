@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3409_ChAPLYGINA" alphabetic_pos="3411">
+  <title>ЧАПЛЫГИНА УРАВНЕНИЯ ДИНАМИКИ</title>
+  <authors>
+    <author>C. M. Tapz</author>
+  </authors>
+  <pages>
+    <start>663</start>
+    <end>663</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ч а пл ы г и н С. А., О движении тяжелого тела вращения на горизонтальной плоскости, Собрание сочинений, т. 1, М.- Л., 1948; [2] Л у р е А. И., Аналитическая механика, М., 1961, гл. 8.</literature_orig>
+    <unit>
+      <author>Чаплыгин С. А.</author>
+      <title>О движении тяжелого тела вращения на горизонтальной плоскости, Собрание сочинений</title>
+      <publication>М.- Л.</publication>
+      <year>1948</year>
+      <other>т. 1</other>
+    </unit>
+    <unit>
+      <author>Луре А. И.</author>
+      <title>Аналитическая механика</title>
+      <publication>М.</publication>
+      <year>1961</year>
+      <other>гл. 8.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3409_1_ChAPLYGINA">A_{1, \rho} \dot{q}_{1}+A_{2, \rho} \dot{q}_{2}+\ldots+A_{s, \rho} \dot{q}_{s}, \rho=1,2, \ldots, r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3409_2_ChAPLYGINA">\dot{q}_{i}=B_{i, r+1} \dot{q}_{r+1}+\ldots+B_{i, s} \dot{q}_{s}, i=1,2, \ldots, r,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3409_3_ChAPLYGINA">\begin{aligned}&amp; \frac{d}{d t}\left(\frac{\partial T}{\partial \dot{q}_{\sigma}}\right)-\frac{\partial T}{\partial q_{\sigma}}=-\frac{\partial U}{\partial q_{\sigma}}+\sum_{i=1}^{r} \frac{\partial T}{\partial \dot{q}_{i}} \sum_{k=r+1}^{s}\left(\frac{\partial B_{i, \sigma}}{\partial q_{k}}-\frac{\partial B_{i, k}}{\partial q_{\sigma}}\right), \\&amp; \sigma=r+1, \ldots, s,\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_1_ChAPLYGINA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_2_ChAPLYGINA">q_{j}, j=1,2, \ldots, s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_3_ChAPLYGINA">\dot{q}_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_4_ChAPLYGINA">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_5_ChAPLYGINA">a_{j, \rho}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_6_ChAPLYGINA">s-r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_7_ChAPLYGINA">q_{r+1}, q_{r+2}, \ldots, q_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_8_ChAPLYGINA">\dot{q}_{1}, \dot{q}_{2}, \ldots, \dot{q}_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_9_ChAPLYGINA">\dot{q}_{r+1}, \dot{q}_{r+2}, \ldots, \dot{q}_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_10_ChAPLYGINA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_11_ChAPLYGINA">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_12_ChAPLYGINA">q_{1}, q_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_13_ChAPLYGINA">\ldots, q_{r}, \mathbf{a} \widetilde{T}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_14_ChAPLYGINA">\dot{q}_{1}, \dot{q}_{2}, \ldots, \dot{q}_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_15_ChAPLYGINA">-\partial U / \partial q_{\sigma}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_16_ChAPLYGINA">q_{\sigma}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_17_ChAPLYGINA">\dot{q}_{1}, \dot{q}_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_18_ChAPLYGINA">\ldots, \dot{q}_{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3409_19_ChAPLYGINA">t</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/3409_1_ChAPLYGINA">
+      <rel_text>ошибке</rel_text>
+      <target>http://libmeta.ru/fme/article/2154_OShIBK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3409_2_ChAPLYGINA">
+      <rel_text>уравнений Лагранжа</rel_text>
+      <target>http://libmeta.ru/fme/article/1503_LAGRANZhA</target>
+    </relation>
+  </relations>
+  <text>дифференциальные уравнения движения неголономной механической системы, предложенные С. А. Чаплыгиным в 1897 (см. [1]). Ч. у. имеют место для механич. системы со стационарными неголономными связями, положение к-рой определяется $URI[[http://libmeta.ru/fme/formula/aux/3409_1_ChAPLYGINA]]/URI$ обобщенными координатами $URI[[http://libmeta.ru/fme/formula/aux/3409_2_ChAPLYGINA]]/URI$, а обобщенные скорости $URI[[http://libmeta.ru/fme/formula/aux/3409_3_ChAPLYGINA]]/URI$ связаны $URI[[http://libmeta.ru/fme/formula/aux/3409_4_ChAPLYGINA]]/URI$ неинтегрируемыми дифференциальными соотношениями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3409_1_ChAPLYGINA]]/URI
+\]
+
+с коэффициентами $URI[[http://libmeta.ru/fme/formula/aux/3409_5_ChAPLYGINA]]/URI$, зависящими только от $URI[[http://libmeta.ru/fme/formula/aux/3409_6_ChAPLYGINA]]/URI$ обобщенных координат, напр. от $URI[[http://libmeta.ru/fme/formula/aux/3409_7_ChAPLYGINA]]/URI$. Тогда, если, пользуясь равенствами (1), выразить $URI[[http://libmeta.ru/fme/formula/aux/3409_8_ChAPLYGINA]]/URI$ через $URI[[http://libmeta.ru/fme/formula/aux/3409_9_ChAPLYGINA]]/URI$ в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3409_2_ChAPLYGINA]]/URI
+\]
+
+то Ч. у. для рассматриваемой системы будут иметь вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3409_3_ChAPLYGINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3409_10_ChAPLYGINA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3409_11_ChAPLYGINA]]/URI$ - кинетич. и потенциальная энергии системы, к-рые также считаются не зависящими явно от $URI[[http://libmeta.ru/fme/formula/aux/3409_12_ChAPLYGINA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3409_13_ChAPLYGINA]]/URI$ - выражение кинетич. энергии, в к-ром скорости $URI[[http://libmeta.ru/fme/formula/aux/3409_14_ChAPLYGINA]]/URI$ исключены с помощью равенств (2). Если действующие силы не потенциальны, то $URI[[http://libmeta.ru/fme/formula/aux/3409_15_ChAPLYGINA]]/URI$ в правых частях Ч. у. заменяется на обобщенные силы $URI[[http://libmeta.ru/fme/formula/aux/3409_16_ChAPLYGINA]]/URI$.
+
+Ч. у. указывают, что предварительное исключение $URI[[http://libmeta.ru/fme/formula/aux/3409_17_ChAPLYGINA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3409_18_ChAPLYGINA]]/URI$ из выражения $URI[[http://libmeta.ru/fme/formula/aux/3409_19_ChAPLYGINA]]/URI$ при составлении URI[[http://libmeta.ru/fme/relation/3409_2_ChAPLYGINA]]/URI приведет к URI[[http://libmeta.ru/fme/relation/3409_1_ChAPLYGINA]]/URI - к потере членов с двойными суммами.</text>
+  <text_orig>дифференЦИальные уравнения движения неголономной механической системы, предложенные С. А. Чаплыгиным в 1897 (см. [1]). Ч. у. имеют место для механич. системы со стационарными неголономными связями, положение к-рой определяется $s$ обобщенными координатами $q_{j}, j=1,2, \ldots, s$, а обобщенные скорости $\dot{q}_{j}$ связаны $r$ неинтегрируемыми дифференциальными соотношениями
+
+\[
+A_{1, \rho} \dot{q}_{1}+A_{2, \rho} \dot{q}_{2}+\ldots+A_{s, \rho} \dot{q}_{s}, \rho=1,2, \ldots, r
+\]
+
+с коэффициентами $A_{j, \rho}$, зависящими только от $s-r$ обобщенных координат, напр. от $q_{r+1}, q_{r+2}, \ldots, q_{s}$. Тогда, если, пользуясь равенствами (1), выразить $\dot{q}_{1}, \dot{q}_{2}, \ldots, \dot{q}_{r}$ через $\dot{q}_{r+1}, \dot{q}_{r+2}, \ldots, \dot{q}_{s}$ в виде:
+
+\[
+\dot{q}_{i}=B_{i, r+1} \dot{q}_{r+1}+\ldots+B_{i, s} \dot{q}_{s}, i=1,2, \ldots, r,
+\]
+
+то Ч. у. для рассматриваемой системы будут иметь вид:
+
+\[
+\begin{aligned}
+&amp; \frac{d}{d t}\left(\frac{\partial T}{\partial \dot{q}_{\sigma}}\right)-\frac{\partial T}{\partial q_{\sigma}}=-\frac{\partial U}{\partial q_{\sigma}}+\sum_{i=1}^{r} \frac{\partial T}{\partial \dot{q}_{i}} \sum_{k=r+1}^{s}\left(\frac{\partial B_{i, \sigma}}{\partial q_{k}}-\frac{\partial B_{i, k}}{\partial q_{\sigma}}\right), \\
+&amp; \sigma=r+1, \ldots, s,
+\end{aligned}
+\]
+
+где $T$ и $U$ - кинетич. и потенциальная энергии системы, к-рые также считаются не зависящими явно от $q_{1}, q_{2}$, $\ldots, q_{r}, \mathbf{a} \widetilde{T}$ - выражение кинетич. энергии, в к-ром скорости $\dot{q}_{1}, \dot{q}_{2}, \ldots, \dot{q}_{r}$ исключены с помощью равенств (2). Если действующие силы не потенциальны, то $-\partial U / \partial q_{\sigma}$ в правых частях Ч. у. заменяется на обобщенные силы $Q_{\sigma}^{\prime}$.
+
+Ч. у. указывают, что предварительное исключение $\dot{q}_{1}, \dot{q}_{2}$, $\ldots, \dot{q}_{r}$ из выражения $T$ при составлении уравнений Лагранжа приведет к ошибке - к потере членов с двойными суммами.
+
+Лит.: [1] Ч а пл ы г и н С. А., О движении тяжелого тела вращения на горизонтальной плоскости, Собрание сочинений, т. 1, М.- Л., 1948; [2] Л у р е А. И., Аналитическая механика, М., 1961, гл. 8.
+
+C. M. Tapz.</text_orig>
+</article>

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2184_PENLEVE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2184_PENLEVE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1315</core:url>
+    <lbm:descriptor><![CDATA[ПЕНЛЕВЕ СВОЙСТВО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10048"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10049"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10050"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10051"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10052"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1009"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>свойство дифференциального уравнения, определяющего функцию <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10052">$$w=w(\boldsymbol{x}), \boldsymbol{x}=\left(x_{1}, \ldots, x_{n}\right)$$</a>, которым обладает его решение, если оно представимо в виде формального ряда:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10050">$$w=\sum_{k=-m}^{\infty} \varphi^{k}(x) w_{k}(x), \quad m>0,$$</a><BR/></P><P>где множество нулей функции $URI[[http://libmeta.ru/fme/formula/aux/2184_2_PENLEVE]]/URI$ не зависит от коэффициентов уравнения, то есть содержит произвольные параметры, и<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10051">$$\left.\operatorname{grad} \varphi\right|_{\varphi=0} \neq 0, \infty .$$</a><BR/></P><P>П. с. было введено П. Пенлеве <a href="/object/show?uri=http://libmeta.ru/io/Publication#10048">[1]</a> в связи с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI">классификацией</a> обыкновенных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">дифференциальных уравнений</a> 2-го порядка (см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2186_PENLEVE">Пенлеве уравнения</a>). Наличие П.с., как правило, указывает на интегрируемость <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST">дифференциального</a> уравнения в том или ином смысле.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#10048">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#573">Painleve P.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10048">«acta math.», 1902, t. 25, p. 1-86</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#10049">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#719">A6ловиц М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#828">Сигур Х.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10049">Солитоны и метод обратной задачи, пер. с $\begin{array}{ll}\text { англ., М., 1987</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[свойство дифференциального уравнения, определяющего функцию $w=w(\boldsymbol{x}), \boldsymbol{x}=\left(x_{1}, \ldots, x_{n}\right)$, которым обладает его решение, если оно представимо в виде формального ряда:
+
+\[
+w=\sum_{k=-m}^{\infty} \varphi^{k}(x) w_{k}(x), \quad m>0,
+\]
+
+где множество нулей функции $\varphi$ не зависит от коэффициентов уравнения, то есть содержит произвольные параметры, и
+
+\[
+\left.\operatorname{grad} \varphi\right|_{\varphi=0} \neq 0, \infty .
+\]
+
+П. с. было введено П. Пенлеве [1] в связи с классификацией обыкновенных дифференциальных уравнений 2-го порядка (см. Пенлеве уравнения). Наличие П.с., как правило, указывает на интегрируемость дифференциального уравнения в том или ином смысле.
+
+Jum.: [1] Pa inleve P., «Acta math.», 1902, t. 25, p. 1-86; [2] A6л о в и ц М., С и гур Х., Солитоны и метод обратной задачи, пер. с $\begin{array}{ll}\text { англ., М., } 1987 . & \text { В.Ю. Новокшенов. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2186_PENLEVE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

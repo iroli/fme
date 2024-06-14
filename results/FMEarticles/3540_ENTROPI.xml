@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3540_ENTROPI" alphabetic_pos="3542">
+  <title>ЭНТРОПИЯ</title>
+  <authors>
+    <author>М. А. Сташенко</author>
+  </authors>
+  <pages>
+    <start>678</start>
+    <end>679</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3540_1_ENTROPI">H=H\left(p_{1}, \ldots, p_{n}\right)=\sum_{i=1}^{n} p_{i} \log \left(1 / p_{i}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3540_1_ENTROPI">\xi \in(\Omega, \sqrt{,}, \mathrm{P})-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3540_2_ENTROPI">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3540_3_ENTROPI">p_{1}, \ldots, p_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3540_4_ENTROPI">\left.p_{i}=\mathrm{P}\left\{\xi=x_{i}\right\}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3540_5_ENTROPI">0 \cdot \log 0=0</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/3540_1_ENTROPI">
+      <rel_text>распределением вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3540_2_ENTROPI">
+      <rel_text>случайная величина</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3540_3_ENTROPI">
+      <rel_text>случайной величины</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+  </relations>
+  <text>теоретико-информационная мера степени неопределенности URI[[http://libmeta.ru/fme/relation/3540_3_ENTROPI]]/URI. Если $URI[[http://libmeta.ru/fme/formula/aux/3540_1_ENTROPI]]/URI$ дискретная URI[[http://libmeta.ru/fme/relation/3540_2_ENTROPI]]/URI, принимающая значения $URI[[http://libmeta.ru/fme/formula/aux/3540_2_ENTROPI]]/URI$ с URI[[http://libmeta.ru/fme/relation/3540_1_ENTROPI]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3540_3_ENTROPI]]/URI$ (где $URI[[http://libmeta.ru/fme/formula/aux/3540_4_ENTROPI]]/URI$, то энт ропия определяется выражением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3540_1_ENTROPI]]/URI
+\]
+
+(считается, что $URI[[http://libmeta.ru/fme/formula/aux/3540_5_ENTROPI]]/URI$ ).</text>
+  <text_orig>теоретико-информационная мера степени неопределенности случайной величины. Если $\xi \in(\Omega, \sqrt{,}, \mathrm{P})-$ дискретная случайная величина, принимающая значения $x_{1}, \ldots, x_{n}$ с распределением вероятностей $p_{1}, \ldots, p_{n}$ (где $\left.p_{i}=\mathrm{P}\left\{\xi=x_{i}\right\}\right)$, то энт ропия определяется выражением
+
+\[
+H=H\left(p_{1}, \ldots, p_{n}\right)=\sum_{i=1}^{n} p_{i} \log \left(1 / p_{i}\right)
+\]
+
+(считается, что $0 \cdot \log 0=0$ ).
+
+М. А. Сташенко</text_orig>
+</article>

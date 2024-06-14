@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1280_KOVARIATsI" alphabetic_pos="1282">
+  <title>КОВАРИАЦИЯ</title>
+  <authors>
+    <author>A. В. Прохоров</author>
+  </authors>
+  <pages>
+    <start>274</start>
+    <end>274</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1280_1_KOVARIATsI">\mathrm{D}\left(X_{1}+X_{2}\right)=\mathrm{D} X_{1}+\mathrm{D} X_{2}+2 \operatorname{cov}\left(X_{1}, X_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1280_2_KOVARIATsI">\operatorname{cov}\left(X_{1}, X_{2}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1280_3_KOVARIATsI">\rho\left(X_{1}, X_{2}\right)=\frac{\operatorname{cov}\left(X_{1}, X_{2}\right)}{\sqrt{\mathrm{D} X_{1} \mathrm{D} X_{2}}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1280_4_KOVARIATsI">\frac{1}{n-1} \sum_{i=1}^{n}\left(X_{1}^{(i)}-\bar{X}_{1}\right)\left(X_{2}^{(i)}-\bar{X}_{2}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_1_KOVARIATsI">x_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_2_KOVARIATsI">x_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_3_KOVARIATsI">\operatorname{cov}\left(x_{1}, X_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_4_KOVARIATsI">\operatorname{cov}\left(x_{1}, X_{2}\right)=\mathrm{E}\left[\left(X_{1}-\mathrm{E} X_{1}\right)\left(X_{2}-\mathrm{E} X_{2}\right)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_5_KOVARIATsI">\operatorname{cov}\left(x_{1}, X_{2}\right)=\operatorname{cov}\left(X_{2}, X_{1}\right) ; \operatorname{cov}(X, X)=\mathrm{D} X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_6_KOVARIATsI">x_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_7_KOVARIATsI">x_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_8_KOVARIATsI">\left(x_{1}^{(i)}, X_{2}^{(i)}\right), i=1, \ldots, n,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_9_KOVARIATsI">\bar{x}_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1280_10_KOVARIATsI">\bar{x}_{2}</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>числовая характеристика совместного распределения двух случайных величин, равная математическому ожиданию произведения отклонений случайных величин от их математических ожиданий. К. определяется для случайных величин $URI[[http://libmeta.ru/fme/formula/aux/1280_1_KOVARIATsI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1280_2_KOVARIATsI]]/URI$ с конечными дисперсиями и обычно обозначается $URI[[http://libmeta.ru/fme/formula/aux/1280_3_KOVARIATsI]]/URI$. Таким образом,
+
+при этом $URI[[http://libmeta.ru/fme/formula/aux/1280_4_KOVARIATsI]]/URI$,
+
+$URI[[http://libmeta.ru/fme/formula/aux/1280_5_KOVARIATsI]]/URI$.
+
+K. естественным образом появляется в выражении для дисперсии суммы случайных величин:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1280_1_KOVARIATsI]]/URI
+\]
+
+Если величины $URI[[http://libmeta.ru/fme/formula/aux/1280_6_KOVARIATsI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1280_7_KOVARIATsI]]/URI$ независимы, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1280_2_KOVARIATsI]]/URI
+\]
+
+К. служит характеристикой взаимозависимости случайных величин, с помощью К. определяется корреляции коэффициент:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1280_3_KOVARIATsI]]/URI
+\]
+
+В математич. статистике оценкой К. служит выборочная К., вычисляемая по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1280_4_KOVARIATsI]]/URI
+\]
+
+274 Kobapианthoctb где $URI[[http://libmeta.ru/fme/formula/aux/1280_8_KOVARIATsI]]/URI$ независимые величины, а $URI[[http://libmeta.ru/fme/formula/aux/1280_9_KOVARIATsI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1280_10_KOVARIATsI]]/URI$ - арифметич. средние.</text>
+  <text_orig>числовая характеристика совместного распределения двух случайных величин, равная математическому ожиданию произведения отклонений случайных величин от их математических ожиданий. К. определяется для случайных величин $X_{1}$ и $X_{2}$ с конечными дисперсиями и обычно обозначается $\operatorname{cov}\left(X_{1}, X_{2}\right)$. Таким образом,
+
+при этом $\operatorname{cov}\left(X_{1}, X_{2}\right)=\mathrm{E}\left[\left(X_{1}-\mathrm{E} X_{1}\right)\left(X_{2}-\mathrm{E} X_{2}\right)\right]$,
+
+$\operatorname{cov}\left(X_{1}, X_{2}\right)=\operatorname{cov}\left(X_{2}, X_{1}\right) ; \operatorname{cov}(X, X)=\mathrm{D} X$.
+
+K. естественным образом появляется в выражении для дисперсии суммы случайных величин:
+
+\[
+\mathrm{D}\left(X_{1}+X_{2}\right)=\mathrm{D} X_{1}+\mathrm{D} X_{2}+2 \operatorname{cov}\left(X_{1}, X_{2}\right)
+\]
+
+Если величины $X_{1}$ и $X_{2}$ независимы, то
+
+\[
+\operatorname{cov}\left(X_{1}, X_{2}\right)=0
+\]
+
+К. служит характеристикой взаимозависимости случайных величин, с помощью К. определяется корреляции коэффиииент:
+
+\[
+\rho\left(X_{1}, X_{2}\right)=\frac{\operatorname{cov}\left(X_{1}, X_{2}\right)}{\sqrt{\mathrm{D} X_{1} \mathrm{D} X_{2}}}
+\]
+
+В математич. статистике оценкой К. служит выборочная К., вычисляемая по формуле
+
+\[
+\frac{1}{n-1} \sum_{i=1}^{n}\left(X_{1}^{(i)}-\bar{X}_{1}\right)\left(X_{2}^{(i)}-\bar{X}_{2}\right)
+\]
+
+274 KOBAPИАНTHOCTb где $\left(X_{1}^{(i)}, X_{2}^{(i)}\right), i=1, \ldots, n,-$ независимые величины, а $\bar{X}_{1}$ и $\bar{X}_{2}$ - арифметич. средние.
+
+A. В. Прохоров.</text_orig>
+</article>

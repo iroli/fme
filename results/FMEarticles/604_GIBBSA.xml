@@ -1,0 +1,497 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/604_GIBBSA" alphabetic_pos="604">
+  <title>ГИББСА РАСПРЕДЕЛЕНИЯ</title>
+  <authors/>
+  <pages>
+    <start>130</start>
+    <end>132</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ги б б с Дж., Термодинамика, статистическая механика, пер. с англ., М., 1982; [2] Ландау Л.Д., Лифшиц Е. М., Статистическая физика, 3 изд., ч. 1, М., 1976; [3] М айе р Дж., Ге п п е р т - М ай е р М., Статистическая механика, пер. с англ., 2 изд., М., 1980; [4] Х и л л Т., Статистическая механика, пер. с англ., М., 1960, гл. 1-3; [5] Х уан г К., Статистическая механика, пер. с англ., М., 1966, гл. 7-9; [6] И с и х а р а А., Статистическая физика, пер. с англ., М., 1973, гл. 2-3.</literature_orig>
+    <unit>
+      <title>Ги б б с Дж., Термодинамика, статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1982</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Статистическая физика</title>
+      <publication>3 изд., ч. 1, М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>М айе р Дж., Ге п п е р т - М ай е р М., Статистическая механика</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Хилл Т.</author>
+      <title>Статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1960</year>
+      <other>гл. 1-3</other>
+    </unit>
+    <unit>
+      <author>Хуанг К.</author>
+      <title>Статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1966</year>
+      <other>гл. 7-9</other>
+    </unit>
+    <unit>
+      <author>Исихара А.</author>
+      <title>Статистическая физика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1973</year>
+      <other>гл. 2-3.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_1_GIBBSA">p=\left(p_{1}, \ldots, p_{n}\right), q=\left(q_{1}, \ldots, q_{n}\right), n=3 N,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_2_GIBBSA">f(p, q)= \begin{cases}W(\mathscr{E}, N, V)^{-1} &amp; \text { при } \mathscr{E} \leqslant H(p, q) \leqslant \mathscr{E}+\Delta \mathscr{E}, \\ 0 &amp; \text { вне слоя } \Delta \mathscr{E},\end{cases}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_3_GIBBSA">\int f(p, q) d \Gamma_{N}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_4_GIBBSA">d \Gamma_{N}=d p d q / N ! h^{3 N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_5_GIBBSA">W(\mathscr{E}, N, V)=\int \frac{d p d q}{N ! h^{3 N}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_6_GIBBSA">\nsucc \leqslant H_{N}(p, q) \leqslant \mathscr{E}+\Delta \mathscr{E}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_7_GIBBSA">f(p, q)=A \delta\left(H_{N}(p, q)-\check{\varepsilon}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_8_GIBBSA">\sigma\left(H_{N}\right)=\operatorname{const}\left|\operatorname{grad} H_{N}\right|^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_9_GIBBSA">\int \sigma\left(H_{N}\right) d \Gamma=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_10_GIBBSA">S=R \ln W(\mathscr{\varepsilon}, N, V)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_11_GIBBSA">f(p, q)=Z^{-1} \exp \left(-H_{N}(p, q) / k T\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_12_GIBBSA">Z=\int \exp \left[-H_{N}(p, q) / k T\right] d \Gamma_{N},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_13_GIBBSA">w_{i}=Z^{-1} \exp \left(-\mathscr{E}_{i} / k T\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_14_GIBBSA">\sum_{i} w_{i}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_15_GIBBSA">Z=\sum_{i} \exp \left(-\varkappa_{i} / k T\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_16_GIBBSA">\hat{\rho}=Z^{-1} \exp (-H / k T)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_17_GIBBSA">F=-k T \ln Z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_18_GIBBSA">f_{N}(p, q)=Z^{-1} \exp \left(-\left(H_{N}(p, q)-\mu N\right) / k T\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_19_GIBBSA">\sum_{N \geqslant 0} \int f_{N} d \Gamma_{N}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_20_GIBBSA">Z=\sum_{N \geqslant 0} \int \exp (-(H(p, q)-\mu N) / k T) d \Gamma_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_21_GIBBSA">w_{i N}=Z^{-1} \exp \left(-\left(\varkappa_{i}-\mu N\right) / k T\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_22_GIBBSA">\sum_{i, N} w_{i n}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_23_GIBBSA">Z=\sum_{i, N \geqslant 0} \exp \left(-\left(\varkappa_{i}-\mu N\right) / k T\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_24_GIBBSA">\hat{\rho}=Z^{-1} \exp (-(H-\mu N) / k T) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/604_25_GIBBSA">\Omega=-k T \ln Z</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_1_GIBBSA">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_2_GIBBSA">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_3_GIBBSA">h(p, q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_4_GIBBSA">6 N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_5_GIBBSA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_6_GIBBSA">p, q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_7_GIBBSA">f(p, q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_8_GIBBSA">\xi_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_9_GIBBSA">\hat{\rho}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_10_GIBBSA">f(p, q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_11_GIBBSA">\hat{\rho}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_12_GIBBSA">\mathscr{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_13_GIBBSA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_14_GIBBSA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_15_GIBBSA">(\delta \mathscr{E} \ll \mathscr{E})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_16_GIBBSA">\mathscr{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_17_GIBBSA">w(\mathscr{e}, N, V)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_18_GIBBSA">, N, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_19_GIBBSA">\mathscr{e}, \mathscr{E}+\Delta \mathscr{E}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_20_GIBBSA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_21_GIBBSA">h=6,626 \cdot 10^{-27}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_22_GIBBSA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_23_GIBBSA">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_24_GIBBSA">a-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_25_GIBBSA">\operatorname{grad} H_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_26_GIBBSA">w(*, N, V)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_27_GIBBSA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_28_GIBBSA">n, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_29_GIBBSA">z=\mathrm{z}(t, V, N)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_30_GIBBSA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_31_GIBBSA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_32_GIBBSA">w_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_33_GIBBSA">\varepsilon_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_34_GIBBSA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_35_GIBBSA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_36_GIBBSA">t, V, N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_37_GIBBSA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_38_GIBBSA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_39_GIBBSA">\mu-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_40_GIBBSA">z=z(t, \mu, V)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_41_GIBBSA">t, \mu, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_42_GIBBSA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/604_43_GIBBSA">n^{-1 / 2}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/604_1_GIBBSA">
+      <rel_text>граничные условия</rel_text>
+      <target>http://libmeta.ru/fme/article/713_GRANIChNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/604_2_GIBBSA">
+      <rel_text>уравнения Лиувилля</rel_text>
+      <target>http://libmeta.ru/fme/article/1627_LIUVILLJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/604_3_GIBBSA">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>равновесные распределения вероятностей пребывания систем из большого числа частиц в состояниях, реализуемых в различных физических условиях. Г. р.- фундаментальные законы статистич. механики; установлены Дж. Гиббсом (j. Gibbs, 1901) для случая классич. механики и обобщены Дж. Нейманом (j. Neumann, 1927) для квантовой механики.
+
+Статистический ансамбль Гиббса. Для получения Г. р. вводится статистический ансамбль Гиббса: совокупность большого (в пределе бесконечно большого) числа копий данной системы (классической или квантовой), соответствующих заданным макроскопич. условиям. Рассматривается распределение систем (членов ансамбля) в фазовом пространстве координат $URI[[http://libmeta.ru/fme/formula/aux/604_1_GIBBSA]]/URI$ и импульсов $URI[[http://libmeta.ru/fme/formula/aux/604_2_GIBBSA]]/URI$ частиц или по квантовым состояниям всей системы.
+
+Г. р. имеют место для классич. системы с функцией Гамильтона $URI[[http://libmeta.ru/fme/formula/aux/604_3_GIBBSA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/604_4_GIBBSA]]/URI$-мерном фазовом пространстве всех $URI[[http://libmeta.ru/fme/formula/aux/604_5_GIBBSA]]/URI$ частиц системы $URI[[http://libmeta.ru/fme/formula/aux/604_6_GIBBSA]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_1_GIBBSA]]/URI
+\]
+
+с функцией распределения плотности вероятности $URI[[http://libmeta.ru/fme/formula/aux/604_7_GIBBSA]]/URI$ и для квантовых состояний системы с квантовыми уровнями $URI[[http://libmeta.ru/fme/formula/aux/604_8_GIBBSA]]/URI$, к-рая описывается статистическим оператором $URI[[http://libmeta.ru/fme/formula/aux/604_9_GIBBSA]]/URI$ или плотности матрицей.
+
+Функция распределения $URI[[http://libmeta.ru/fme/formula/aux/604_10_GIBBSA]]/URI$ удовлетворяет Лиувилля уравнению, а статистич. оператор $URI[[http://libmeta.ru/fme/formula/aux/604_11_GIBBSA]]/URI$ квантовому уравнению Лиувилля - Неймана уравнению.
+
+Микроканоническое распределение. В случае статистич. равновесия совокупность энергетически изолированных от окружающей среды систем с энергией $URI[[http://libmeta.ru/fme/formula/aux/604_12_GIBBSA]]/URI$ при постоянном объеме $URI[[http://libmeta.ru/fme/formula/aux/604_13_GIBBSA]]/URI$ с заданным числом частиц $URI[[http://libmeta.ru/fme/formula/aux/604_14_GIBBSA]]/URI$ (м икроканонический ансамбль Гиббс а) описывается Гиббса микроканоническим распределением, согласно к-рому все состояния системы в узкой области энергий $URI[[http://libmeta.ru/fme/formula/aux/604_15_GIBBSA]]/URI$ вблизи $URI[[http://libmeta.ru/fme/formula/aux/604_16_GIBBSA]]/URI$ равновероятны (основная гипотеза статистич. механики):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_2_GIBBSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/604_17_GIBBSA]]/URI$ статистич. вес макроскопич. состояния с заданными \&amp; $URI[[http://libmeta.ru/fme/formula/aux/604_18_GIBBSA]]/URI$, то есть число микроскопич. состояний в энергетич. слое $URI[[http://libmeta.ru/fme/formula/aux/604_19_GIBBSA]]/URI$. Статистич. вес определяется из условия, что полная вероятность пребывания системы в любом из возможных состояний равна 1 (условие нормировки вероятности):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_3_GIBBSA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_4_GIBBSA]]/URI
+\]
+
+- плотность состояний, множитель $URI[[http://libmeta.ru/fme/formula/aux/604_20_GIBBSA]]/URI$ ! учитывает неразличимость частиц, $URI[[http://libmeta.ru/fme/formula/aux/604_21_GIBBSA]]/URI$ эрг·с - постоянная Планка. Следовательно,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_5_GIBBSA]]/URI
+\] где интегрирование ведется в пределах
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_6_GIBBSA]]/URI
+\]
+
+Появление $URI[[http://libmeta.ru/fme/formula/aux/604_22_GIBBSA]]/URI$ связано с тем, что классич. Г. р. рассматривается как предельный случай квантового (см. Квазиклассическое приближение).
+
+Микроканонич. Г. р. не чувствительно к выбору величи-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b2ff8eefc813d5310b00g-1.jpg?height=39&amp;width=647&amp;top_left_y=260&amp;top_left_x=77)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_7_GIBBSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/604_23_GIBBSA]]/URI$ - дельта-функция, $URI[[http://libmeta.ru/fme/formula/aux/604_24_GIBBSA]]/URI$ постоянная, определяемая из условия нормировки. Распределение вероятностей, соответствующее однородному распределению внутри слоя,микроканонич. Г. р. по энергетич. поверхности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_8_GIBBSA]]/URI
+\]
+
+константа определяется из условия нормировки
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_9_GIBBSA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/604_25_GIBBSA]]/URI$ берется в фазовом пространстве.
+
+Статистич. вес $URI[[http://libmeta.ru/fme/formula/aux/604_26_GIBBSA]]/URI$ определяет энтропию системы $URI[[http://libmeta.ru/fme/formula/aux/604_27_GIBBSA]]/URI$ как функцию \&amp;, $URI[[http://libmeta.ru/fme/formula/aux/604_28_GIBBSA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_10_GIBBSA]]/URI
+\]
+
+а следовательно, и все другие термодинамич. функции системы, определяемой заданной формой гамильтониана.
+
+Каноническое распределение Гиббса - распределение вероятностей состояний статистич. ансамбля систем, к-рые находятся в тепловом равновесии со средой (термостатом) и могут обмениваться с ней энергией при постоянном объеме и постоянном числе частиц, соответствует каноническому ансамблю Гиббса:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_11_GIBBSA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/604_29_GIBBSA]]/URI$ статистич. интеграл, определяемый из условия нормировки $URI[[http://libmeta.ru/fme/formula/aux/604_30_GIBBSA]]/URI$.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_12_GIBBSA]]/URI
+\]
+
+где интегрирование ведется по фазовому пространству всех $URI[[http://libmeta.ru/fme/formula/aux/604_31_GIBBSA]]/URI$ частиц. Канонич. Г. р. можно получить, если рассматривать совокупность данной системы и термостата как одну замкнутую изолированную систему и применить к ней микроканонич. Г. р. Тогда малая подсистема, функцию распределения к-рой можно найти интегрированием по фазовым переменным термостата, описывается канонич. Г.р. (те о рем а Гиббс а).
+
+В квантовой статистич. физике статистич. ансамбль характеризуется распределением вероятностей $URI[[http://libmeta.ru/fme/formula/aux/604_32_GIBBSA]]/URI$ Квантовых состояний с энергией $URI[[http://libmeta.ru/fme/formula/aux/604_33_GIBBSA]]/URI$. Канонич. Г. р. для квантовой системы имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_13_GIBBSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/604_34_GIBBSA]]/URI$ - статистич. сумма, определяемая из условия нормировки
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_14_GIBBSA]]/URI
+\]
+
+равна
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_15_GIBBSA]]/URI
+\]
+
+где суммирование ведется по всем квантовым состояниям допустимой симметрии. В квантовом случае канонич. Г. р. можно представить с помощью статистич. оператора (матрицы плотности)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_16_GIBBSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/604_35_GIBBSA]]/URI$ - гамильтониан системы. Такая форма удобна для приложений с использованием представления вторичного квантования для гамильтониана. Канонич. Г. р. как в классическом, так и в квантовом случаях определяет с в о 6 о дную энергию (энергию Гельмгольца) в переменных $URI[[http://libmeta.ru/fme/formula/aux/604_36_GIBBSA]]/URI$, равную
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_17_GIBBSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/604_37_GIBBSA]]/URI$ - статистич. интеграл или статистич. сумма. Канонич. Г. р. соответствует максимуму информационной энтропии при заданной средней энергии и при сохранении нормировки.
+
+Большое каноническое распределение Гиббса - распределение вероятностей состояний статистич. ансамбля систем, к-рые находятся в тепловом и материальном равновесии со средой (термостатом и резервуаром частиц) и могут обмениваться с ними при постоянном объеме $URI[[http://libmeta.ru/fme/formula/aux/604_38_GIBBSA]]/URI$, соответствует большому каноническому ансамблю Гиббса
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_18_GIBBSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/604_39_GIBBSA]]/URI$ химич. потенциал, $URI[[http://libmeta.ru/fme/formula/aux/604_40_GIBBSA]]/URI$ статистич. интеграл, определяемый из условия нормировки
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_19_GIBBSA]]/URI
+\]
+
+равен
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_20_GIBBSA]]/URI
+\]
+
+Большое канонич. Г. р. можно вывести, если рассматривать совокупность данной системы вместе с термостатом и резервуаром частиц как большую изолированную и замкнутую систему и применить к ней микроканонич. Г. р. Тогда малая подсистема описывается большим канонич. Г.р., к-рое можно найти интегрированием по фазовым переменным термостата и резервуара частиц и суммированием по числу частиц (т е о р е ма Ги б б с а).
+
+В квантовой статистике для большого канонич. Г. р.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_21_GIBBSA]]/URI
+\]
+
+где условие нормировки
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_22_GIBBSA]]/URI
+\]
+
+И
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_23_GIBBSA]]/URI
+\]
+
+а статистич. оператор
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_24_GIBBSA]]/URI
+\]
+
+Большое канонич. Г. р. как в классическом, так и в квантовом случае определяет термодинамич. потенциал
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/604_25_GIBBSA]]/URI
+\]
+
+в переменных $URI[[http://libmeta.ru/fme/formula/aux/604_41_GIBBSA]]/URI$, к-рый наиболее удобен для приложений, так как содержит лишь один экстенсивный параметр $URI[[http://libmeta.ru/fme/formula/aux/604_42_GIBBSA]]/URI$. Большое канонич. Г. р. можно получить, если рассматривать совокупность данной системы, являющейся также резервуаром частиц, как одну замкнутую изолированную систему (т е о е ма Гиббса для большого канонич. Г.р.).
+
+Большое канонич. распределение соответствует максимуму информационной энтропии при заданных средней энергии и среднего числа частиц, а канонич. распределение при заданной средней энтропии. В обоих случаях нормировка предполагается фиксированной (теоремы об экстремальных свойствах канонич. распределений, доказанные Дж. Гиббсом, 1901).
+
+Термодинамическая эквивалентность распределений Гиббca. Все Г. р. вдали от областей сосуществования фаз и критич. точек, вследствие малости относительных флуктуаций, пропорциональных $URI[[http://libmeta.ru/fme/formula/aux/604_43_GIBBSA]]/URI$, термодинамически эквивалентны, то есть приводят к одинаковым термодинамич. функциям, после приведения их к одинаковым переменным с помощью преобразования Лежандра. В области фазовых переходов, вообще говоря, нет эквивалентности Г.р. относительно вычисления корреляционных функций и функций распределения флуктуаций.
+
+В неравновесной статистич. URI[[http://libmeta.ru/fme/relation/604_3_GIBBSA]]/URI возможно также использование идей статистич. ансамблей Гиббса, напр. с помощью отбора запаздывающих решений URI[[http://libmeta.ru/fme/relation/604_2_GIBBSA]]/URI через URI[[http://libmeta.ru/fme/relation/604_1_GIBBSA]]/URI.
+
+Гиббса 131</text>
+  <text_orig>равновесные распределения вероятностей пребывания систем из большого числа частиц в состояниях, реализуемых в различных физических условиях. Г. р.- фундаментальные законы статистич. механики; установлены Дж. Гиббсом (J. Gibbs, 1901) для случая классич. механики и обобщены Дж. Нейманом (J. Neumann, 1927) для квантовой механики.
+
+Статистический ансамбль Гиббса. Для получения Г. р. вводится статистический ансамбль Гиббса: совокупность большого (в пределе бесконечно большого) числа копий данной системы (классической или квантовой), соответствующих заданным макроскопич. условиям. Рассматривается распределение систем (членов ансамбля) в фазовом пространстве координат $q$ и импульсов $p$ частиц или по квантовым состояниям всей системы.
+
+Г. р. имеют место для классич. системы с функцией Гамильтона $H(p, q)$ в $6 N$-мерном фазовом пространстве всех $N$ частиц системы $p, q$, где
+
+\[
+p=\left(p_{1}, \ldots, p_{n}\right), q=\left(q_{1}, \ldots, q_{n}\right), n=3 N,
+\]
+
+с функцией распределения плотности вероятности $f(p, q)$ и для квантовых состояний системы с квантовыми уровнями $\xi_{i}$, к-рая описывается статистическим оператором $\hat{\rho}$ или плотности матрицей.
+
+Функция распределения $f(p, q)$ удовлетворяет Лиувилля уравнению, а статистич. оператор $\hat{\rho}-$ квантовому уравнению Лиувилля - Неймана уравнению.
+
+Микроканоническое распределение. В случае статистич. равновесия совокупность энергетически изолированных от окружающей среды систем с энергией $\mathscr{E}$ при постоянном объеме $V$ с заданным числом частиц $N$ (м икроканонический ансамбль Гиббс а) описывается Гиббса микроканоническим распределением, согласно к-рому все состояния системы в узкой области энергий $(\Delta \mathscr{E} \ll \mathscr{E})$ вблизи $\mathscr{E}$ равновероятны (основная гипотеза статистич. мехаНИКИ):
+
+\[
+f(p, q)= \begin{cases}W(\mathscr{E}, N, V)^{-1} &amp; \text { при } \mathscr{E} \leqslant H(p, q) \leqslant \mathscr{E}+\Delta \mathscr{E}, \\ 0 &amp; \text { вне слоя } \Delta \mathscr{E},\end{cases}
+\]
+
+где $W(\mathscr{E}, N, V)-$ статистич. вес макроскопич. состояния с заданными \&amp; $, N, V$, то есть число микроскопич. состояний в энергетич. слое $\mathscr{E}, \mathscr{E}+\Delta \mathscr{E}$. Статистич. вес определяется из условия, что полная вероятность пребывания системы в любом из возможных состояний равна 1 (условие нормировки вероятности):
+
+\[
+\int f(p, q) d \Gamma_{N}=1
+\]
+
+где
+
+\[
+d \Gamma_{N}=d p d q / N ! h^{3 N}
+\]
+
+- плотность состояний, множитель $N$ ! учитывает неразличимость частиц, $h=6,626 \cdot 10^{-27}$ эрг·с - постоянная Планка. Следовательно,
+
+\[
+W(\mathscr{E}, N, V)=\int \frac{d p d q}{N ! h^{3 N}}
+\] где интегрирование ведется в пределах
+
+\[
+\nsucc \leqslant H_{N}(p, q) \leqslant \mathscr{E}+\Delta \mathscr{E}
+\]
+
+Появление $h$ связано с тем, что классич. Г. р. рассматривается как предельный случай квантового (см. Квазиклассическое приближение).
+
+Микроканонич. Г. р. не чувствительно к выбору величи-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b2ff8eefc813d5310b00g-1.jpg?height=39&amp;width=647&amp;top_left_y=260&amp;top_left_x=77)
+
+\[
+f(p, q)=A \delta\left(H_{N}(p, q)-\check{\varepsilon}\right)
+\]
+
+где $\delta$ - дельта-функция, $A-$ постоянная, определяемая из условия нормировки. Распределение вероятностей, соответствующее однородному распределению внутри слоя,микроканонич. Г. р. по энергетич. поверхности
+
+\[
+\sigma\left(H_{N}\right)=\operatorname{const}\left|\operatorname{grad} H_{N}\right|^{-1}
+\]
+
+константа определяется из условия нормировки
+
+\[
+\int \sigma\left(H_{N}\right) d \Gamma=1
+\]
+
+$\operatorname{grad} H_{N}$ берется в фазовом пространстве.
+
+Статистич. вес $W(*, N, V)$ определяет энтропию системы $S$ как функцию \&amp;, $N, V$ :
+
+\[
+S=R \ln W(\mathscr{\varepsilon}, N, V)
+\]
+
+а следовательно, и все другие термодинамич. функции системы, определяемой заданной формой гамильтониана.
+
+Каноническое распределение Гиббса - распределение вероятностей состояний статистич. ансамбля систем, к-рые находятся в тепловом равновесии со средой (термостатом) и могут обмениваться с ней энергией при постоянном объеме и постоянном числе частиц, соответствует каноническому ансамблю Гиббса:
+
+\[
+f(p, q)=Z^{-1} \exp \left(-H_{N}(p, q) / k T\right),
+\]
+
+$Z=\mathrm{Z}(T, V, N)-$ статистич. интеграл, определяемый из условия нормировки $f$.
+
+\[
+Z=\int \exp \left[-H_{N}(p, q) / k T\right] d \Gamma_{N},
+\]
+
+где интегрирование ведется по фазовому пространству всех $N$ частиц. Канонич. Г. р. можно получить, если рассматривать совокупность данной системы и термостата как одну замкнутую изолированную систему и применить к ней микроканонич. Г. р. Тогда малая подсистема, функцию распределения к-рой можно найти интегрированием по фазовым переменным термостата, описывается канонич. Г.р. (те о рем а Гиббс а).
+
+В квантовой статистич. физике статистич. ансамбль характеризуется распределением вероятностей $w_{i}$ Квантовых состояний с энергией $\varepsilon_{i}$. Канонич. Г. р. для квантовой системы имеет вид
+
+\[
+w_{i}=Z^{-1} \exp \left(-\mathscr{E}_{i} / k T\right)
+\]
+
+где $Z$ - статистич. сумма, определяемая из условия нормировки
+
+\[
+\sum_{i} w_{i}=1
+\]
+
+равна
+
+\[
+Z=\sum_{i} \exp \left(-\varkappa_{i} / k T\right)
+\]
+
+где суммирование ведется по всем квантовым состояниям допустимой симметрии. В квантовом случае канонич. Г. р. можно представить с помощью статистич. оператора (матрицы плотности)
+
+\[
+\hat{\rho}=Z^{-1} \exp (-H / k T)
+\]
+
+где $H$ - гамильтониан системы. Такая форма удобна для приложений с использованием представления вторичного квантования для гамильтониана. Канонич. Г. р. как в классическом, так и в квантовом случаях определяет с в о 6 о дную энергию (энергию Гельмгольца) в переменных $T, V, N$, равную
+
+\[
+F=-k T \ln Z
+\]
+
+где $Z$ - статистич. интеграл или статистич. сумма. Канонич. Г. р. соответствует максимуму информационной энтропии при заданной средней энергии и при сохранении нормировки.
+
+Большое каноническое распределение Гиббса - распределение вероятностей состояний статистич. ансамбля систем, к-рые находятся в тепловом и материальном равновесии со средой (термостатом и резервуаром частиц) и могут обмениваться с ними при постоянном объеме $V$, соответствует большому каноническому ансамблюГиббса
+
+\[
+f_{N}(p, q)=Z^{-1} \exp \left(-\left(H_{N}(p, q)-\mu N\right) / k T\right)
+\]
+
+где $\mu-$ химич. потенциал, $Z=Z(T, \mu, V)-$ статистич. интеграл, определяемый из условия нормировки
+
+\[
+\sum_{N \geqslant 0} \int f_{N} d \Gamma_{N}=1
+\]
+
+равен
+
+\[
+Z=\sum_{N \geqslant 0} \int \exp (-(H(p, q)-\mu N) / k T) d \Gamma_{N}
+\]
+
+Болышое канонич. Г. р. можно вывести, если рассматривать совокупность данной системы вместе с термостатом и резервуаром частиц как большую изолированную и замкнутую систему и применить к ней микроканонич. Г. р. Тогда малая подсистема описывается болышим канонич. Г.р., к-рое можно найти интегрированием по фазовым переменным термостата и резервуара частиц и суммированием по числу частиц (т е о р е ма Ги б б с а).
+
+В квантовой статистике для большого канонич. Г. р.
+
+\[
+w_{i N}=Z^{-1} \exp \left(-\left(\varkappa_{i}-\mu N\right) / k T\right)
+\]
+
+где условие нормировки
+
+\[
+\sum_{i, N} w_{i n}=1
+\]
+
+И
+
+\[
+Z=\sum_{i, N \geqslant 0} \exp \left(-\left(\varkappa_{i}-\mu N\right) / k T\right)
+\]
+
+а статистич. оператор
+
+\[
+\hat{\rho}=Z^{-1} \exp (-(H-\mu N) / k T) .
+\]
+
+Большое канонич. Г. р. как в классическом, так и в квантовом случае определяет термодинамич. потенциал
+
+\[
+\Omega=-k T \ln Z
+\]
+
+в переменных $T, \mu, V$, к-рый наиболее удобен для приложений, так как содержит лишь один экстенсивный параметр $V$. Большое канонич. Г. р. можно получить, если рассматривать совокупность данной системы, являющейся также резервуаром частиц, как одну замкнутую изолированную систему (т е о е ма Гиббса для большого канонич. Г.р.).
+
+Большое канонич. распределение соответствует максимуму информационной энтропии при заданных средней энергии и среднего числа частиц, а канонич. распределение при заданной средней энтропии. В обоих случаях нормировка предполагается фиксированной (теоремы об экстремальных свойствах канонич. распределений, доказанные Дж. Гиббсом, 1901).
+
+Термодинамическая эквивалентность распределений Гиббca. Все Г. р. вдали от областей сосуществования фаз и критич. точек, вследствие малости относительных флуктуаций, пропорциональных $N^{-1 / 2}$, термодинамически эквивалентны, то есть приводят к одинаковым термодинамич. функциям, после приведения их к одинаковым переменным с помощью преобразования Лежандра. В области фазовых переходов, вообще говоря, нет эквивалентности Г.р. относительно вычисления корреляционных функщий и функций распределения флуктуаций.
+
+В неравновесной статистич. механике возможно также использование идей статистич. ансамблей Гиббса, напр. с помощью отбора запаздывающих решений уравнения Лиувилля через граничные условия.
+
+ГИББСА 131 Лит.: [1] Ги б б с Дж., Термодинамика, статистическая механика, пер. с англ., М., 1982; [2] Ландау Л.Д., Лифшиц Е. М., Статистическая физика, 3 изд., ч. 1, М., 1976; [3] М айе р Дж., Ге п п е р т - М ай е р М., Статистическая механика, пер. с англ., 2 изд., М., 1980; [4] Х и л л Т., Статистическая механика, пер. с англ., М., 1960, гл. 1-3; [5] Х уан г К., Статистическая механика, пер. с англ., М., 1966, гл. 7-9; [6] И с и х а р а А., Статистическая физика, пер. с англ., М., 1973, гл. 2-3.</text_orig>
+</article>

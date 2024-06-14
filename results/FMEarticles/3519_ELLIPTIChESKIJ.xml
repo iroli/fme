@@ -1,0 +1,388 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3519_ELLIPTIChESKIJ" alphabetic_pos="3521">
+  <title>ЭЛЛИПТИЧЕСКИЙ ИНТЕГРАЛ</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>676</start>
+    <end>677</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Беляков В. М., Кравцова Р.И., Раппопор т М. Г., Таблицы эллиптических интегралов, т. 1-2, М., 1962-63; [2] Я н ке Е., Э м д е Ф., Л е ш Ф., Специальные функшии. Формулы, графики, таблицы, пер. с нем., 3 изд., М., 1977.</literature_orig>
+    <unit>
+      <author>Беляков В. М.</author>
+      <author>Кравцова Р. И.</author>
+      <author>Раппопорт М. Г.</author>
+      <title>Таблицы эллиптических интегралов</title>
+      <publication>М.</publication>
+      <year>1962</year>
+      <other>т. 1-2</other>
+    </unit>
+    <unit>
+      <author>Янке Е.</author>
+      <author>Эмде Ф.</author>
+      <author>Леш Ф.</author>
+      <title>Специальные функшии. Формулы, графики, таблицы</title>
+      <publication>пер. с нем., 3 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_1_ELLIPTIChESKIJ">\int_{z_{0}}^{z_{1}} R(z, w) d z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_2_ELLIPTIChESKIJ">w^{2}=f(z) \equiv a_{0} z^{4}+a_{1} z^{3}+a_{2} z^{2}+a_{3} z+a_{4},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_3_ELLIPTIChESKIJ">I_{1}=\int \frac{d z}{w}, \quad I_{2}=\int \frac{z d z}{w}, \quad I_{3}=\int \frac{d z}{(z-c) w},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_4_ELLIPTIChESKIJ">w^{2}=4 z^{3}-g_{2} z-g_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_5_ELLIPTIChESKIJ">u=-\int_{z}^{\infty} \frac{d z}{w}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_6_ELLIPTIChESKIJ">\int \frac{z d z}{w}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_7_ELLIPTIChESKIJ">\int \frac{z d z}{w}=-\zeta(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_8_ELLIPTIChESKIJ">I\left(z, w ; z_{0}, w_{0}\right)=\frac{1}{2} \int \frac{\left(w+w_{0}\right) d z}{\left(z-z_{0}\right) w}=\log \frac{\sigma\left(u-u_{0}\right)}{\sigma(u) \sigma\left(u_{0}\right)}+u \frac{\sigma^{\prime}\left(u_{0}\right)}{\sigma\left(u_{0}\right)},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_9_ELLIPTIChESKIJ">\begin{aligned}&amp; I\left(z, w ; z_{0}, w_{0}\right)-I\left(z_{0}, w_{0} ; z, w\right)= \\&amp; =\frac{\sigma^{\prime}\left(u_{0}\right)}{\sigma\left(u_{0}\right)} u-\frac{\sigma^{\prime}(u)}{\sigma(u)} u_{0}+(2 n+1) \pi i,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_10_ELLIPTIChESKIJ">\begin{aligned}&amp; -u_{0} \eta_{1}+\zeta\left(u_{0}\right) \omega_{1}+2 n_{1} \pi i, \\&amp; -u_{0} \eta_{3}+\zeta\left(u_{0}\right) \omega_{3}+2 n_{3} \pi i,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_11_ELLIPTIChESKIJ">w^{2}=\left(1-z^{2}\right)\left(1-k^{2} z^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_12_ELLIPTIChESKIJ">u=\int_{0}^{z} \frac{d x}{\sqrt{\left(1-x^{2}\right)\left(1-k^{2} x^{2}\right)}}=\int_{0}^{\varphi} \frac{d t}{\sqrt{1-k^{2} \sin ^{2} t}}=F(\varphi, k) ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_13_ELLIPTIChESKIJ">\int_{0}^{z} \frac{\sqrt{1-k^{2} x^{2}}}{\sqrt{1-x^{2}}} d x=\int_{0}^{\varphi} \sqrt{1-k^{2} \sin ^{2} t} d t=E(\varphi, k)=E(u) ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_14_ELLIPTIChESKIJ">\begin{aligned}&amp; F\left(\frac{\pi}{2}, k\right)=K(k)=K, \\&amp; F\left(\frac{\pi}{2}, k^{\prime}\right)=K^{\prime}(k)=K^{\prime}, \\&amp; E\left(\frac{\pi}{2}, k\right)=E(k)=E, \\&amp; E\left(\frac{\pi}{2}, k^{\prime}\right)=E^{\prime}(k)=E^{\prime}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_15_ELLIPTIChESKIJ">\begin{gathered}\int_{0}^{z} \frac{d x}{\left(1-n^{2} x^{2}\right) \sqrt{\left(1-x^{2}\right)\left(1-k^{2} x^{2}\right)}}=\int_{0}^{\varphi} \frac{d t}{\left(1-n^{2} \sin ^{2} t\right) \sqrt{1-k^{2} \sin ^{2} t}}= \\=\Pi\left(\varphi ; n^{2}, k\right)=\Pi\left(u ; n^{2}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_16_ELLIPTIChESKIJ">\Pi_{J}(u ; a)=k^{2} \operatorname{sn} a \cdot \operatorname{cn} a \cdot \operatorname{dn} a \int_{0}^{u} \frac{\mathrm{sn}^{2} u d u}{1-k^{2} \mathrm{sn}^{2} u \mathrm{sn}^{2} a},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3519_17_ELLIPTIChESKIJ">\Pi\left(u ; n^{2}\right)=u+\frac{\operatorname{sn} a}{\operatorname{cn} a \operatorname{dn} a} \Pi_{J}(u ; a)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_1_ELLIPTIChESKIJ">r(z, w)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_2_ELLIPTIChESKIJ">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_3_ELLIPTIChESKIJ">w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_4_ELLIPTIChESKIJ">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_5_ELLIPTIChESKIJ">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_6_ELLIPTIChESKIJ">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_7_ELLIPTIChESKIJ">w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_8_ELLIPTIChESKIJ">2 \omega_{1}, 2 \omega_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_9_ELLIPTIChESKIJ">\wp(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_10_ELLIPTIChESKIJ">2 \omega_{1}, 2 \omega_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_11_ELLIPTIChESKIJ">g_{2}, g_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_12_ELLIPTIChESKIJ">\kappa ц и и)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_13_ELLIPTIChESKIJ">2 \omega_{1}, 2 \omega_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_14_ELLIPTIChESKIJ">j(\tau)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_15_ELLIPTIChESKIJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_16_ELLIPTIChESKIJ">\zeta(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_17_ELLIPTIChESKIJ">-2 \eta_{1}=-2 \zeta\left(\omega_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_18_ELLIPTIChESKIJ">-2 \eta_{3}=-2 \zeta\left(\omega_{3}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_19_ELLIPTIChESKIJ">\sigma(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_20_ELLIPTIChESKIJ">z_{0}=\wp\left(u_{0}\right), w_{0}=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_21_ELLIPTIChESKIJ">=\wp^{\prime}\left(u_{0}\right), \quad u_{0} \not 0\left(\bmod \left(2 \omega_{1}, 2 \omega_{3}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_22_ELLIPTIChESKIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_23_ELLIPTIChESKIJ">n_{1}, n_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_24_ELLIPTIChESKIJ">2 \pi i-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_25_ELLIPTIChESKIJ">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_26_ELLIPTIChESKIJ">k^{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_27_ELLIPTIChESKIJ">k^{\prime}=\sqrt{1-k^{2}}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_28_ELLIPTIChESKIJ">0&lt;k&lt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_29_ELLIPTIChESKIJ">z=x=\sin t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_30_ELLIPTIChESKIJ">\varphi=\operatorname{am} u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_31_ELLIPTIChESKIJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_32_ELLIPTIChESKIJ">z=\operatorname{sn} u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_33_ELLIPTIChESKIJ">4 K</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_34_ELLIPTIChESKIJ">2 i K^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_35_ELLIPTIChESKIJ">4 E</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_36_ELLIPTIChESKIJ">2 i\left(K^{\prime}-E^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_37_ELLIPTIChESKIJ">n^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_38_ELLIPTIChESKIJ">-\infty&lt;n^{2}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_39_ELLIPTIChESKIJ">-\infty&lt;u^{2}&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_40_ELLIPTIChESKIJ">k^{2}&lt;u^{2}&lt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_41_ELLIPTIChESKIJ">0&lt;n^{2}&lt;k^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_42_ELLIPTIChESKIJ">1&lt;n^{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_43_ELLIPTIChESKIJ">n^{2}=k^{2} \mathrm{sn}^{2} a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_44_ELLIPTIChESKIJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3519_45_ELLIPTIChESKIJ">a</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/3519_1_ELLIPTIChESKIJ">
+      <rel_text>Якоби эллиптические функции</rel_text>
+      <target>http://libmeta.ru/fme/article/3577_JaKOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3519_2_ELLIPTIChESKIJ">
+      <rel_text>Составлены</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3519_3_ELLIPTIChESKIJ">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3519_4_ELLIPTIChESKIJ">
+      <rel_text>функциями</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3519_5_ELLIPTIChESKIJ">
+      <rel_text>гиперболический</rel_text>
+      <target>http://libmeta.ru/fme/article/632_GIPERBOLIChNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3519_6_ELLIPTIChESKIJ">
+      <rel_text>циркулярный</rel_text>
+      <target>http://libmeta.ru/fme/article/3404_TsIRKULJaTsI</target>
+    </relation>
+  </relations>
+  <text>интеграл от алгебраической функции I рода, то есть интеграл вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_1_ELLIPTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3519_1_ELLIPTIChESKIJ]]/URI$ - рациональная функция от переменных $URI[[http://libmeta.ru/fme/formula/aux/3519_2_ELLIPTIChESKIJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3519_3_ELLIPTIChESKIJ]]/URI$, связанных алгебраическим уравнением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_2_ELLIPTIChESKIJ]]/URI
+\]
+
+в котором $URI[[http://libmeta.ru/fme/formula/aux/3519_4_ELLIPTIChESKIJ]]/URI$ - многочлен 3-й или 4-й степени без кратных корней. При этом обычно подразумевается, что интеграл (1) нельзя выразить через одни только элементарные функции. В том случае, когда такое выражение возможно, интеграл (1) называется п с е в д о эл л и п т и ч е с к и м и нтегралом.
+
+Название Э. и. связано с тем, что впервые они появились при спрямлении дуги эллипса и других кривых 2-го порядка в работах конца 17 - начала 18 вв. Я. Бернулли (j. Ber- noulli), И. Бернулли (j. Bernoulli), Дж. К. Фаньяно деи Тоски (g. C. Fagnano dei Toschi), Л. Эйлер (l. Euler) заложили основы теории Э. и. и эллиптических функций, возникающих при обращении Э. и.
+
+Любой Э. и. можно выразить в виде суммы элементарных функций и линейной комбинации ка но н и ч е с к и х Э. и. I, Ii и Iii рода. Последние записываются, напр., следующим образом:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_3_ELLIPTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3519_5_ELLIPTIChESKIJ]]/URI$ - параметр Э. и. Iii рода.
+
+Подвергая переменное $URI[[http://libmeta.ru/fme/formula/aux/3519_6_ELLIPTIChESKIJ]]/URI$ нек-рым преобразованиям, можно привести функцию $URI[[http://libmeta.ru/fme/formula/aux/3519_7_ELLIPTIChESKIJ]]/URI$ и основные Э. и. к нормаль ным формам.
+
+В нормальной форме Вейерштрасса выполняется соотношение
+
+и интеграл
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_4_ELLIPTIChESKIJ]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_5_ELLIPTIChESKIJ]]/URI
+\]
+
+имеет периоды $URI[[http://libmeta.ru/fme/formula/aux/3519_8_ELLIPTIChESKIJ]]/URI$. Обращение этого Э. и. дает эллиптич. функцию Вейерштрасса $URI[[http://libmeta.ru/fme/formula/aux/3519_9_ELLIPTIChESKIJ]]/URI$ с периодами $URI[[http://libmeta.ru/fme/formula/aux/3519_10_ELLIPTIChESKIJ]]/URI$ и инвариантами $URI[[http://libmeta.ru/fme/formula/aux/3519_11_ELLIPTIChESKIJ]]/URI$ (см. Вейерштрасса эллиптические фун$URI[[http://libmeta.ru/fme/formula/aux/3519_12_ELLIPTIChESKIJ]]/URI$. Вычисление периодов $URI[[http://libmeta.ru/fme/formula/aux/3519_13_ELLIPTIChESKIJ]]/URI$ по заданным инвариантам производится при помощи модулярной функции $URI[[http://libmeta.ru/fme/formula/aux/3519_14_ELLIPTIChESKIJ]]/URI$. Если в нормальном интеграле Ii рода
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_6_ELLIPTIChESKIJ]]/URI
+\]
+
+принять нормальный интеграл I рода $URI[[http://libmeta.ru/fme/formula/aux/3519_15_ELLIPTIChESKIJ]]/URI$ в качестве переменной интегрирования, то при надлежащем выборе постоянной интегрирования будет выполняться равенство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_7_ELLIPTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3519_16_ELLIPTIChESKIJ]]/URI$ - дзета-функция Вейерштрасса. При этом периоды нормального интеграла Ii рода равны $URI[[http://libmeta.ru/fme/formula/aux/3519_17_ELLIPTIChESKIJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3519_18_ELLIPTIChESKIJ]]/URI$. Нормальный интеграл Iii рода по Вейе рш т рас с у имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_8_ELLIPTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3519_19_ELLIPTIChESKIJ]]/URI$ - сигма-функция Вейерштрасса, $URI[[http://libmeta.ru/fme/formula/aux/3519_20_ELLIPTIChESKIJ]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/3519_21_ELLIPTIChESKIJ]]/URI$. При этом справедливо правило перестановки:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_9_ELLIPTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3519_22_ELLIPTIChESKIJ]]/URI$ - целое число. Периоды нормального интеграла Iii рода имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_10_ELLIPTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3519_23_ELLIPTIChESKIJ]]/URI$ - целые, $URI[[http://libmeta.ru/fme/formula/aux/3519_24_ELLIPTIChESKIJ]]/URI$ лога р и фм ичес к ий период.
+
+В приложениях чаще встречается нормальная фор ма Ле жандра. При этом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_11_ELLIPTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3519_25_ELLIPTIChESKIJ]]/URI$ называется модулем Э. и., $URI[[http://libmeta.ru/fme/formula/aux/3519_26_ELLIPTIChESKIJ]]/URI$ иногда называемый лежандровым модулем, $URI[[http://libmeta.ru/fme/formula/aux/3519_27_ELLIPTIChESKIJ]]/URI$ дополнительным модулем. Чаще всего имеет место нормальный случай, когда $URI[[http://libmeta.ru/fme/formula/aux/3519_28_ELLIPTIChESKIJ]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/3519_29_ELLIPTIChESKIJ]]/URI$ действительное переменное. Э. и. I рода в нормальной форме Лежандра имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_12_ELLIPTIChESKIJ]]/URI
+\]
+
+он называется также неполным Э. и. I рода; $URI[[http://libmeta.ru/fme/formula/aux/3519_30_ELLIPTIChESKIJ]]/URI$ называется амплитудой Э. и. I рода. Амплитуда есть бесконечнозначная функция от $URI[[http://libmeta.ru/fme/formula/aux/3519_31_ELLIPTIChESKIJ]]/URI$. Обращение нормального интеграла I рода приводит к эллиптич. функции Якоби $URI[[http://libmeta.ru/fme/formula/aux/3519_32_ELLIPTIChESKIJ]]/URI$ (см. URI[[http://libmeta.ru/fme/relation/3519_1_ELLIPTIChESKIJ]]/URI).
+
+Нормальный интеграл Ii рода в нормальной форме Лежандра имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_13_ELLIPTIChESKIJ]]/URI
+\]
+
+он называется неполным Э. и. Ii рода.
+
+Интегралы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_14_ELLIPTIChESKIJ]]/URI
+\]
+
+называются полным и Э. и. соответственно I и Ii рода. Лежандровы интегралы I рода имеют периоды $URI[[http://libmeta.ru/fme/formula/aux/3519_33_ELLIPTIChESKIJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3519_34_ELLIPTIChESKIJ]]/URI$, Ii рода - периоды $URI[[http://libmeta.ru/fme/formula/aux/3519_35_ELLIPTIChESKIJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3519_36_ELLIPTIChESKIJ]]/URI$.
+
+Нормальный интеграл Iii рода в нормальной форме Лежандра имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_15_ELLIPTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3519_37_ELLIPTIChESKIJ]]/URI$ - параметр, чаше всего $URI[[http://libmeta.ru/fme/formula/aux/3519_38_ELLIPTIChESKIJ]]/URI$. При $URI[[http://libmeta.ru/fme/formula/aux/3519_39_ELLIPTIChESKIJ]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/3519_40_ELLIPTIChESKIJ]]/URI$ он называется циркулярным интегралом, а при $URI[[http://libmeta.ru/fme/formula/aux/3519_41_ELLIPTIChESKIJ]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/3519_42_ELLIPTIChESKIJ]]/URI$ гипе рболиче ским интегралом.
+
+Нормальный интеграл Iii рода по Якоби определяется несколько иначе:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_16_ELLIPTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3519_43_ELLIPTIChESKIJ]]/URI$. Связь между интегралами Iii рода Якоби и Лежандра выражается формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3519_17_ELLIPTIChESKIJ]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/3519_6_ELLIPTIChESKIJ]]/URI характер соответствует мнимым $URI[[http://libmeta.ru/fme/formula/aux/3519_44_ELLIPTIChESKIJ]]/URI$, URI[[http://libmeta.ru/fme/relation/3519_5_ELLIPTIChESKIJ]]/URI - действительным $URI[[http://libmeta.ru/fme/formula/aux/3519_45_ELLIPTIChESKIJ]]/URI$.
+
+Наряду с эллиптич. URI[[http://libmeta.ru/fme/relation/3519_4_ELLIPTIChESKIJ]]/URI, Э. и. находят многочисленные и важные применения в различных вопросах анализа и геометрии, физики, в частности URI[[http://libmeta.ru/fme/relation/3519_3_ELLIPTIChESKIJ]]/URI, астрономии и геодезии. URI[[http://libmeta.ru/fme/relation/3519_2_ELLIPTIChESKIJ]]/URI таблицы Э. и., подробные руководства по теории Э. и. и эллиптич. функций, а также сводки формул.</text>
+  <text_orig>интеграл от алгебрачческой функции I рода, то есть интеграл вида
+
+\[
+\int_{z_{0}}^{z_{1}} R(z, w) d z
+\]
+
+где $R(z, w)$ - рациональная функция от переменных $z$ и $w$, связанных алгебраическим уравнением
+
+\[
+w^{2}=f(z) \equiv a_{0} z^{4}+a_{1} z^{3}+a_{2} z^{2}+a_{3} z+a_{4},
+\]
+
+в котором $f(z)$ - многочлен 3-й или 4-й степени без кратных корней. При этом обычно подразумевается, что интеграл (1) нельзя выразить через одни только элементарные функции. В том случае, когда такое выражение возможно, интеграл (1) называется п с е в д о эл л и п т и ч е с к и м и нтегралом.
+
+Название Э. и. связано с тем, что впервые они появились при спрямлении дуги эллипса и других кривых 2-го порядка в работах конца 17 - начала 18 вв. Я. Бернулли (J. Ber- noulli), И. Бернулли (J. Bernoulli), Дж. К. Фаньяно деи Тоски (G. C. Fagnano dei Toschi), Л. Эйлер (L. Euler) заложили основы теории Э. и. и эллиптических функций, возникающих при обращении Э. и.
+
+Любой Э. и. можно выразить в виде суммы элементарных функций и линейной комбинации ка но н и ч е с к и х Э. и. I, II и III рода. Последние записываются, напр., следующим образом:
+
+\[
+I_{1}=\int \frac{d z}{w}, \quad I_{2}=\int \frac{z d z}{w}, \quad I_{3}=\int \frac{d z}{(z-c) w},
+\]
+
+где $c$ - параметр Э. и. III рода.
+
+Подвергая переменное $z$ нек-рым преобразованиям, можно привести функцию $w$ и основные Э. и. к нормаль ным формам.
+
+В нормальной форме Вейерштрасса выполняется соотношение
+
+и интеграл
+
+\[
+w^{2}=4 z^{3}-g_{2} z-g_{3}
+\]
+
+\[
+u=-\int_{z}^{\infty} \frac{d z}{w}
+\]
+
+имеет периоды $2 \omega_{1}, 2 \omega_{3}$. Обрашение этого Э. и. дает эллиптич. функцию Вейерштрасса $\wp(z)$ с периодами $2 \omega_{1}, 2 \omega_{3}$ и инвариантами $g_{2}, g_{3}$ (см. Вейеритрасса эллиптические фун$\kappa ц и и)$. Вычисление периодов $2 \omega_{1}, 2 \omega_{3}$ по заданным инвариантам производится при помоши модулярной функции $J(\tau)$. Если в нормальном интеграле II рода
+
+\[
+\int \frac{z d z}{w}
+\]
+
+принять нормальный интеграл I рода $u$ в качестве переменной интегрирования, то при надлежащем выборе постоянной интегрирования будет выполняться равенство
+
+\[
+\int \frac{z d z}{w}=-\zeta(u)
+\]
+
+где $\zeta(u)$ - дзета-функция Вейерштрасса. При этом периоды нормального интеграла II рода равны $-2 \eta_{1}=-2 \zeta\left(\omega_{1}\right)$, $-2 \eta_{3}=-2 \zeta\left(\omega_{3}\right)$. Нормальный интеграл III рода по Вейе рш т рас с у имеет вид:
+
+\[
+I\left(z, w ; z_{0}, w_{0}\right)=\frac{1}{2} \int \frac{\left(w+w_{0}\right) d z}{\left(z-z_{0}\right) w}=\log \frac{\sigma\left(u-u_{0}\right)}{\sigma(u) \sigma\left(u_{0}\right)}+u \frac{\sigma^{\prime}\left(u_{0}\right)}{\sigma\left(u_{0}\right)},
+\]
+
+где $\sigma(u)$ - сигма-функшия Вейерштрасса, $z_{0}=\wp\left(u_{0}\right), w_{0}=$ $=\wp^{\prime}\left(u_{0}\right), \quad u_{0} \not 0\left(\bmod \left(2 \omega_{1}, 2 \omega_{3}\right)\right)$. При этом справедливо правило перестановки:
+
+\[
+\begin{aligned}
+&amp; I\left(z, w ; z_{0}, w_{0}\right)-I\left(z_{0}, w_{0} ; z, w\right)= \\
+&amp; =\frac{\sigma^{\prime}\left(u_{0}\right)}{\sigma\left(u_{0}\right)} u-\frac{\sigma^{\prime}(u)}{\sigma(u)} u_{0}+(2 n+1) \pi i,
+\end{aligned}
+\]
+
+где $n$ - целое число. Периоды нормального интеграла III рода имеют вид:
+
+\[
+\begin{aligned}
+&amp; -u_{0} \eta_{1}+\zeta\left(u_{0}\right) \omega_{1}+2 n_{1} \pi i, \\
+&amp; -u_{0} \eta_{3}+\zeta\left(u_{0}\right) \omega_{3}+2 n_{3} \pi i,
+\end{aligned}
+\]
+
+где $n_{1}, n_{3}$ - целые, $2 \pi i-$ лога р и фм ичес к ий период.
+
+В приложениях чаще встречается нормальная фор ма Ле жандра. При этом
+
+\[
+w^{2}=\left(1-z^{2}\right)\left(1-k^{2} z^{2}\right)
+\]
+
+где $k$ называется модулем Э. и., $k^{2}-$ иногда называемый лежандровым модулем, $k^{\prime}=\sqrt{1-k^{2}}-$ дополнительным модулем. Чаще всего имеет место нормальный случай, когда $0&lt;k&lt;1$, а $z=x=\sin t-$ действительное переменное. Э. и. I рода в нормальной форме Лежандра имеет вид:
+
+\[
+u=\int_{0}^{z} \frac{d x}{\sqrt{\left(1-x^{2}\right)\left(1-k^{2} x^{2}\right)}}=\int_{0}^{\varphi} \frac{d t}{\sqrt{1-k^{2} \sin ^{2} t}}=F(\varphi, k) ;
+\]
+
+он называется также неполным Э. и. I рода; $\varphi=\operatorname{am} u$ называется амплитудой Э. и. I рода. Амплитуда есть бесконечнозначная функция от $u$. Обращение нормального интеграла I рода приводит к эллиптич. функции Якоби $z=\operatorname{sn} u$ (см. Якоби эллиптические функции).
+
+Нормальный интеграл II рода в нормальной форме Лежандра имеет вид:
+
+\[
+\int_{0}^{z} \frac{\sqrt{1-k^{2} x^{2}}}{\sqrt{1-x^{2}}} d x=\int_{0}^{\varphi} \sqrt{1-k^{2} \sin ^{2} t} d t=E(\varphi, k)=E(u) ;
+\]
+
+он называется неполным Э. и. II рода.
+
+Интегралы
+
+\[
+\begin{aligned}
+&amp; F\left(\frac{\pi}{2}, k\right)=K(k)=K, \\
+&amp; F\left(\frac{\pi}{2}, k^{\prime}\right)=K^{\prime}(k)=K^{\prime}, \\
+&amp; E\left(\frac{\pi}{2}, k\right)=E(k)=E, \\
+&amp; E\left(\frac{\pi}{2}, k^{\prime}\right)=E^{\prime}(k)=E^{\prime}
+\end{aligned}
+\]
+
+называются полным и Э. и. соответственно I и II рода. Лежандровы интегралы I рода имеют периоды $4 K$ и $2 i K^{\prime}$, II рода - периоды $4 E$ и $2 i\left(K^{\prime}-E^{\prime}\right)$.
+
+Нормальный интеграл III рода в нормальной форме Лежандра имеет вид:
+
+\[
+\begin{gathered}
+\int_{0}^{z} \frac{d x}{\left(1-n^{2} x^{2}\right) \sqrt{\left(1-x^{2}\right)\left(1-k^{2} x^{2}\right)}}=\int_{0}^{\varphi} \frac{d t}{\left(1-n^{2} \sin ^{2} t\right) \sqrt{1-k^{2} \sin ^{2} t}}= \\
+=\Pi\left(\varphi ; n^{2}, k\right)=\Pi\left(u ; n^{2}\right),
+\end{gathered}
+\]
+
+где $n^{2}$ - параметр, чаше всего $-\infty&lt;n^{2}&lt;\infty$. При $-\infty&lt;u^{2}&lt;0$ или $k^{2}&lt;u^{2}&lt;1$ он называется циркулярным интегралом, а при $0&lt;n^{2}&lt;k^{2}$ или $1&lt;n^{2}-$ гипе рболиче ским интегралом.
+
+Нормальный интеграл III рода по Якоби определяется несколько иначе:
+
+\[
+\Pi_{J}(u ; a)=k^{2} \operatorname{sn} a \cdot \operatorname{cn} a \cdot \operatorname{dn} a \int_{0}^{u} \frac{\mathrm{sn}^{2} u d u}{1-k^{2} \mathrm{sn}^{2} u \mathrm{sn}^{2} a},
+\]
+
+где $n^{2}=k^{2} \mathrm{sn}^{2} a$. Связь между интегралами III рода Якоби и Лежандра выражается формулой
+
+\[
+\Pi\left(u ; n^{2}\right)=u+\frac{\operatorname{sn} a}{\operatorname{cn} a \operatorname{dn} a} \Pi_{J}(u ; a)
+\]
+
+циркулярный характер соответствует мнимым $a$, гиперболический - действительным $a$.
+
+Наряду с эллиптич. функщиями, Э. и. находят многочисленные и важные применения в различных вопросах анализа и геометрии, физики, в частности механики, астрономии и геодезии. Составлены таблицы Э. и., подробные руководства по теории Э. и. и эллиптич. функций, а также сводки формул.
+
+Лит.: [1] Беляков В. М., Кравцова Р.И., Раппопор т М. Г., Таблицы эллиптических интегралов, т. 1-2, М., 1962-63; [2] Я н ке Е., Э м д е Ф., Л е ш Ф., Специальные функшии. Формулы, графики, таблицы, пер. с нем., 3 изд., М., 1977.
+
+Е. Д. Соломенцев.</text_orig>
+</article>

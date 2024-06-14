@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_18438">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>d</mi><msub><mi>q</mi><mrow><mi>i</mi></mrow></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>H</mi></mrow><mrow><mo>&#x02202;</mo><msub><mi>p</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac><mo>&#x0002C;</mo><mspace width="1em" /><mfrac><mrow><mi>d</mi><msub><mi>p</mi><mrow><mi>i</mi></mrow></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><mo>&#x02202;</mo><mi>H</mi></mrow><mrow><mo>&#x02202;</mo><msub><mi>q</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac><mo>&#x0002C;</mo><mspace width="1em" /><mi>i</mi><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><mi>n</mi><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{d q_{i}}{d t}=\frac{\partial H}{\partial p_{i}}, \quad \frac{d p_{i}}{d t}=-\frac{\partial H}{\partial q_{i}}, \quad i=1, \ldots, n .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

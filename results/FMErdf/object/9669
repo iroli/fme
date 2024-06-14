@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_9669">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>&#x003A8;</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mspace linebreak="newline" /><mo>&#x0003D;</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>l</mi><msqrt><mrow><mi>&#x003C0;</mi></mrow></msqrt><msup><mn>2</mn><mrow><mi>n</mi></mrow></msup><mi>n</mi><mo>&#x00021;</mo><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></msup><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mo>&#x02212;</mo><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup><mo>&#x0002F;</mo><mn>2</mn><msup><mi>l</mi><mrow><mn>2</mn></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><msub><mi>H</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002F;</mo><mi>l</mi><mo stretchy="false">&#x00029;</mo><mi>exp</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mo>&#x02212;</mo><mi>i</mi><msub><mi>&#x02127;</mi><mrow><mi>n</mi></mrow></msub><mi>t</mi><mo>&#x0002F;</mo><mi>&#x0210F;</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\Psi_{n}(x, t)= \\=\left(l \sqrt{\pi} 2^{n} n !\right)^{-1 / 2} \exp \left(-x^{2} / 2 l^{2}\right) H_{n}(x / l) \exp \left(-i \mho_{n} t / \hbar\right) .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

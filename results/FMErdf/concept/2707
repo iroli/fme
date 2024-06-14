@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3437_ShARKOVSKOGO">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3437_ShARKOVSKOGO</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2707</core:url>
+    <lbm:descriptor><![CDATA[ШАРКОВСКОГО ТЕОРЕМА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#20318"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20322"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20323"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4163"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20324"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20325"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20326"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20327"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16306"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20328"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20329"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>теорема, устанавливающая закономерности сосуществования циклов различных периодов для одномерных отображений (цикл <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">периода</a> $URI[[http://libmeta.ru/fme/formula/aux/3437_1_ShARKOVSKOGO]]/URI$ отображения $URI[[http://libmeta.ru/fme/formula/aux/3437_2_ShARKOVSKOGO]]/URI$ - множество, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоящее</a> из $URI[[http://libmeta.ru/fme/formula/aux/3437_3_ShARKOVSKOGO]]/URI$ различных точек $URI[[http://libmeta.ru/fme/formula/aux/3437_4_ShARKOVSKOGO]]/URI$, для которых <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20324">$$x_{i+1}=f\left(x_{i}\right), i=1, \ldots, m-1$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20325">$$\left.x_{1}=f\left(x_{m}\right)\right)$$</a>. Если <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE">непрерывное отображение</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20326">$$f: \mathbb{R}^{1} \rightarrow \mathbb{R}^{1}$$</a> имеет цикл нек-рого <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">периода</a> $URI[[http://libmeta.ru/fme/formula/aux/3437_8_ShARKOVSKOGO]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/3437_9_ShARKOVSKOGO]]/URI$ имеет циклы всех других периодов, предшествующих $URI[[http://libmeta.ru/fme/formula/aux/3437_10_ShARKOVSKOGO]]/URI$ в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3436_ShARKOVSKOTO">Шарковского порядке</a>. Из Ш.т. вытекает простой критерий сложного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамич</a>. поведения: если у отображения $URI[[http://libmeta.ru/fme/formula/aux/3437_11_ShARKOVSKOGO]]/URI$ есть цикл нек-рого <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">периода</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20327">$$m_{0} \neq 2^{n}, n=0$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16306">$$1, \ldots$$</a> (напр., <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">периода</a> 3 ), то у этого отображения есть бесконечное число циклов других, в том числе сколь угодно больших периодов. В этом (и только в этом) случае <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3091_TOPOLOGIChESKAJa">топологическая энтропия</a> рассматриваемой системы положительна.<BR/></P><P>Имеются многочисленные обобщения Ш. т., учитывающие понятие типа <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI">траектории</a> (порядка, в к-ром точки цикла <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">переставляются</a> под <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">действием</a> $URI[[http://libmeta.ru/fme/formula/aux/3437_14_ShARKOVSKOGO]]/URI$ ). На нек-рые классы отображений Ш. т. переносится без изменений. Это отображения окружности <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20328">$$f: S^{1} \rightarrow S^{1}$$</a> с нулевым числом вращения, и отображения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20329">$$f: \mathbb{R}^{k} \rightarrow \mathbb{R}^{k}$$</a> вида<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20323">$$\begin{gathered}f:\left(x^{(1)}, x^{(2)}, \ldots, x^{(k)}\right) \mapsto\left(f_{1}\left(x^{(1)}\right), f_{2}\left(x^{(1)}, x^{(2)}\right), \ldots,\right. \\\left.\ldots, f_{k}\left(x^{(1)}, x^{(2)}, \ldots, x^{(k)}\right)\right),\end{gathered}$$</a><BR/></P><P>называемые треугольными.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#20322">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#20321">Шарковский А. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20322">«украинский математич. журнал», 1964, № 1, с. 61-71.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#20318">Ю. Л. Майстренко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[теорема, устанавливающая закономерности сосушествования циклов различных периодов для одномерных отображений (цикл периода $m$ отображения $f$ - множество, состоящее из $m$ различных точек $x_{i}$, для которых $x_{i+1}=f\left(x_{i}\right), i=1, \ldots, m-1$ и $\left.x_{1}=f\left(x_{m}\right)\right)$. Если непрерывное отображение $f: \mathbb{R}^{1} \rightarrow \mathbb{R}^{1}$ имеет цикл нек-рого периода $m$, то $f$ имеет циклы всех других периодов, предшествующих $m$ в Шарковского порядке. Из Ш.т. вытекает простой критерий сложного динамич. поведения: если у отображения $f$ есть цикл нек-рого периода $m_{0} \neq 2^{n}, n=0$, $1, \ldots$ (напр., периода 3 ), то у этого отображения есть бесконечное число циклов других, в том числе сколь угодно больших периодов. В этом (и только в этом) случае топологическая энтропия рассматриваемой системы положительна.
+
+Имеются многочисленные обобщения Ш. т., учитывающие понятие типа траектории (порядка, в к-ром точки цикла переставляются под действием $f$ ). На нек-рые классы отображений Ш. т. переносится без изменений. Это отображения окружности $f: S^{1} \rightarrow S^{1}$ с нулевым числом врашения, и отображения $f: \mathbb{R}^{k} \rightarrow \mathbb{R}^{k}$ вида
+
+\[
+\begin{gathered}
+f:\left(x^{(1)}, x^{(2)}, \ldots, x^{(k)}\right) \mapsto\left(f_{1}\left(x^{(1)}\right), f_{2}\left(x^{(1)}, x^{(2)}\right), \ldots,\right. \\
+\left.\ldots, f_{k}\left(x^{(1)}, x^{(2)}, \ldots, x^{(k)}\right)\right),
+\end{gathered}
+\]
+
+называемые треугольными.
+
+Лum.: [1] Шарко в ск и й А. Н., «Украинский математич. журнал», 1964, № 1, с. 61-71. Ю.Л. Майстренко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3091_TOPOLOGIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3436_ShARKOVSKOTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

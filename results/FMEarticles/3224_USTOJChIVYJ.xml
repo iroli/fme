@@ -1,0 +1,294 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3224_USTOJChIVYJ" alphabetic_pos="3226">
+  <title>УСТОЙЧИВЫЙ ПОТЕНЦИАЛ ВЗАИМОДЕЙСТВИЯ</title>
+  <authors>
+    <author>П. В. Малышев</author>
+  </authors>
+  <pages>
+    <start>632</start>
+    <end>633</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Рю эл ь Д., Статистическая механика. Строгие результаты, пер. с англ., М., 1971; [2] Петринад.Я., Герасименко В. И., Малыше в П. В., Математические основы классической статистической механики, Киев, 1985; [3] O nsager L., «j. Phys. Chem.», 1939, v. 43, p. 189; [4] Fisher M. E., Ruelle D., «j. Math. Phys.», 1966, v. 7, p. 67; [5] Ruelle D., «comm. Math. Phys.», 1970, v. 18, p. 127.</literature_orig>
+    <unit>
+      <author>Рюэль Д.</author>
+      <title>Статистическая механика. Строгие результаты</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Петринад. Я.</author>
+      <author>Герасименко В. И.</author>
+      <author>Малышев П. В.</author>
+      <title>Математические основы классической статистической механики, Киев</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Onsager L.</author>
+      <title>«j. Phys. Chem.»</title>
+      <publication/>
+      <year>1939</year>
+      <other>v. 43, p. 189</other>
+    </unit>
+    <unit>
+      <author>Fisher M. E.</author>
+      <author>Ruelle D.</author>
+      <title>«j. Math. Phys.»</title>
+      <publication/>
+      <year>1966</year>
+      <other>v. 7, p. 67</other>
+    </unit>
+    <unit>
+      <author>Ruelle D.</author>
+      <title>«comm. Math. Phys.»</title>
+      <publication/>
+      <year>1970</year>
+      <other>v. 18, p. 127.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3224_1_USTOJChIVYJ">U\left(x_{1}, \ldots, x_{n}\right)=\sum_{1 \leqslant i&lt;j \leqslant n} \Phi\left(q_{i}-q_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3224_2_USTOJChIVYJ">U\left(x_{1}, \ldots, x_{n}\right) \geqslant-B n .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3224_3_USTOJChIVYJ">H_{n} \geqslant-n B I,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3224_4_USTOJChIVYJ">U\left(x_{1}, x_{2}\right)=U\left(x_{1}-x_{2}\right) \geqslant-2 B</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3224_5_USTOJChIVYJ">\Phi=\Phi_{1}+\Phi_{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3224_6_USTOJChIVYJ">\Phi(x) \geqslant\left\{\begin{array}{l}\varphi_{1}(|x|), \quad|x| \leqslant a_{1}, \\-A_{3}, \quad a_{1} \leqslant|x|&lt;\infty, \\-\varphi_{2}(|x|), \quad|x| \geqslant a_{2},\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3224_7_USTOJChIVYJ">\int_{0}^{a_{1}} d r r^{\nu-1} \varphi_{1}(r)=\infty, \quad \int_{a_{2}}^{\infty} d r r^{v-1} \varphi_{2}(r)&lt;\infty,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3224_8_USTOJChIVYJ">\begin{gathered}U_{N}\left(x_{1}^{(1)}, \ldots, x_{N_{1}}^{(1)} ; x_{1}^{(2)}, \ldots, x_{N_{2}}^{(2)} ; \ldots ; x_{1}^{(s)}, \ldots, x_{N_{s}}^{(s)}\right)= \\\quad=\sum_{\alpha=1}^{s} \sum_{1&lt;i_{\alpha}&lt;j_{\alpha}=N_{\alpha}} \Phi_{\alpha \alpha}\left(x_{i_{\alpha}}-x_{j_{\alpha}}\right)+ \\+\sum_{1=\alpha&lt;\beta=s} \sum_{i_{\alpha}=1}^{N_{\alpha}} \sum_{i_{\beta}=1}^{N_{\beta}} \Phi_{\alpha \beta}\left(x_{i_{\alpha}}-x_{i_{\beta}}\right) .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_1_USTOJChIVYJ">b \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_2_USTOJChIVYJ">n \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_3_USTOJChIVYJ">x_{1}, \ldots, x_{n} \in \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_4_USTOJChIVYJ">v=1,2,3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_5_USTOJChIVYJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_6_USTOJChIVYJ">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_7_USTOJChIVYJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_8_USTOJChIVYJ">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_9_USTOJChIVYJ">\left(\phi^{k}\right)_{k \geqslant 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_10_USTOJChIVYJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_11_USTOJChIVYJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_12_USTOJChIVYJ">b&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_13_USTOJChIVYJ">h_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_14_USTOJChIVYJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_15_USTOJChIVYJ">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_16_USTOJChIVYJ">n=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_17_USTOJChIVYJ">\phi_{1} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_18_USTOJChIVYJ">\phi_{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_19_USTOJChIVYJ">x \in \mathbb{R}^{v}, \quad \mathrm{v}=1,2,3, \quad 0&lt;a_{1}&lt;a_{2}&lt;\infty, A_{1}, A_{2}, A_{3}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_20_USTOJChIVYJ">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_21_USTOJChIVYJ">\varphi_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_22_USTOJChIVYJ">\varphi_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_23_USTOJChIVYJ">\left(0, a_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_24_USTOJChIVYJ">\left(a_{2}, \infty\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_25_USTOJChIVYJ">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_26_USTOJChIVYJ">\phi_{\alpha \beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_27_USTOJChIVYJ">\lambda \subset \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_28_USTOJChIVYJ">\phi-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_29_USTOJChIVYJ">\mathbb{r}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3224_30_USTOJChIVYJ">\phi(-x)=\Phi(x)</formula>
+  </formulas_aux>
+  <relations n="14">
+    <relation uri="http://libmeta.ru/fme/relation/3224_1_USTOJChIVYJ">
+      <rel_text>Регулярный потенциал взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/2581_REGULJaRNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_2_USTOJChIVYJ">
+      <rel_text>потенциал взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/387_VZAIMODEJSTVIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_3_USTOJChIVYJ">
+      <rel_text>Сверхустойчивый</rel_text>
+      <target>http://libmeta.ru/fme/article/2687_SVERHIZLUChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_4_USTOJChIVYJ">
+      <rel_text>регулярности</rel_text>
+      <target>http://libmeta.ru/fme/article/2575_REGULJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_5_USTOJChIVYJ">
+      <rel_text>сверхустойчивости</rel_text>
+      <target>http://libmeta.ru/fme/article/2688_SVERHLJuMINESTsENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_6_USTOJChIVYJ">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_7_USTOJChIVYJ">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_8_USTOJChIVYJ">
+      <rel_text>потенциала взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/387_VZAIMODEJSTVIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_9_USTOJChIVYJ">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_10_USTOJChIVYJ">
+      <rel_text>твердые сердцевины</rel_text>
+      <target>http://libmeta.ru/fme/article/3028_TVERDAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_11_USTOJChIVYJ">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_12_USTOJChIVYJ">
+      <rel_text>системах точечных</rel_text>
+      <target>http://libmeta.ru/fme/article/828_DINAMIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_13_USTOJChIVYJ">
+      <rel_text>потенциал взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/387_VZAIMODEJSTVIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3224_14_USTOJChIVYJ">
+      <rel_text>кулоновский потенциал взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/1489_KULONOVSKIJ</target>
+    </relation>
+  </relations>
+  <text>парный взаимодействия потенциал Ф, для которого существует такое число $URI[[http://libmeta.ru/fme/formula/aux/3224_1_USTOJChIVYJ]]/URI$, что при всех $URI[[http://libmeta.ru/fme/formula/aux/3224_2_USTOJChIVYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3224_3_USTOJChIVYJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3224_4_USTOJChIVYJ]]/URI$, потенциальная энергия парного взаимодействия $URI[[http://libmeta.ru/fme/formula/aux/3224_5_USTOJChIVYJ]]/URI$ частиц
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3224_1_USTOJChIVYJ]]/URI
+\]
+
+удовлетворяет неравенству
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3224_2_USTOJChIVYJ]]/URI
+\]
+
+Постоянная $URI[[http://libmeta.ru/fme/formula/aux/3224_6_USTOJChIVYJ]]/URI$ имеет смысл минимальной удельной потенциальной энергии.
+
+Если потенциальная энергия $URI[[http://libmeta.ru/fme/formula/aux/3224_7_USTOJChIVYJ]]/URI$ определяется через набор $URI[[http://libmeta.ru/fme/formula/aux/3224_8_USTOJChIVYJ]]/URI$-частичных потенциалов взаимодействия $URI[[http://libmeta.ru/fme/formula/aux/3224_9_USTOJChIVYJ]]/URI$, то взаимодействие, задаваемое этим набором, называется у сто й ч и в ы м, если для $URI[[http://libmeta.ru/fme/formula/aux/3224_10_USTOJChIVYJ]]/URI$ выполняется неравенство (*).
+
+В квантовом случае взаимодействие называется у с т о й ч и в ы м, если для всех $URI[[http://libmeta.ru/fme/formula/aux/3224_11_USTOJChIVYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3224_12_USTOJChIVYJ]]/URI$ гамильтониан $URI[[http://libmeta.ru/fme/formula/aux/3224_13_USTOJChIVYJ]]/URI$ системы $URI[[http://libmeta.ru/fme/formula/aux/3224_14_USTOJChIVYJ]]/URI$ частиц удовлетворяет неравенству
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3224_3_USTOJChIVYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3224_15_USTOJChIVYJ]]/URI$ - тождественный оператор.
+
+Условие устойчивости означает, что удельная потенциальная энергия ограничена снизу. Парный У. п. в. также ограничен снизу, так как при $URI[[http://libmeta.ru/fme/formula/aux/3224_16_USTOJChIVYJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3224_4_USTOJChIVYJ]]/URI
+\]
+
+Отрицательные в нек-рой окрестности начала координат потенциалы не являются устойчивыми (см. Неустойчивый потенциал взаимодействия). Неотрицательные (отталкивательные) потенциалы устойчивы. Сумма двух У. п. в. устойчива.
+
+Если парный потенциал представим в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3224_5_USTOJChIVYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3224_17_USTOJChIVYJ]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/3224_18_USTOJChIVYJ]]/URI$ действительная непрерывная положительно определенная функция, то потенциал Ф устойчив (положительно определенной функцией является, в частности, преобразование Фурье неотрицательной суммируемой функции).
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/3224_19_USTOJChIVYJ]]/URI$. Парный потенциал $URI[[http://libmeta.ru/fme/formula/aux/3224_20_USTOJChIVYJ]]/URI$ является У. п. в., если он удовлетворяет условию
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3224_6_USTOJChIVYJ]]/URI
+\]
+
+причем
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3224_7_USTOJChIVYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3224_21_USTOJChIVYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3224_22_USTOJChIVYJ]]/URI$ - положительно убывающие функции на $URI[[http://libmeta.ru/fme/formula/aux/3224_23_USTOJChIVYJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3224_24_USTOJChIVYJ]]/URI$ соответственно. Отсюда следует, что Леннард-Джонса потенциалы взаимодействия устойчивы. Быстро убывающие взаимодействия потенциалы с твердой сердцевиной также устойчивы.
+
+Для системы частиц $URI[[http://libmeta.ru/fme/formula/aux/3224_25_USTOJChIVYJ]]/URI$ видов потенциальная энергия такова:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3224_8_USTOJChIVYJ]]/URI
+\]
+
+В этом случае взаимодействие устойчиво, если матрица, составленная из фурье-образов минорант потенциалов $URI[[http://libmeta.ru/fme/formula/aux/3224_26_USTOJChIVYJ]]/URI$, не имеет отрицательных собственных значений. Отсюда следует, что URI[[http://libmeta.ru/fme/relation/3224_14_USTOJChIVYJ]]/URI и Юкавы URI[[http://libmeta.ru/fme/relation/3224_13_USTOJChIVYJ]]/URI в URI[[http://libmeta.ru/fme/relation/3224_12_USTOJChIVYJ]]/URI URI[[http://libmeta.ru/fme/relation/3224_11_USTOJChIVYJ]]/URI неустойчивы, но становятся У. П. В., если ввести URI[[http://libmeta.ru/fme/relation/3224_10_USTOJChIVYJ]]/URI или рассматривать заряды, распределенные в нек-рой URI[[http://libmeta.ru/fme/relation/3224_9_USTOJChIVYJ]]/URI пространства.
+
+Устойчивость URI[[http://libmeta.ru/fme/relation/3224_8_USTOJChIVYJ]]/URI влечет сходимость большой статистич. суммы для любой ограниченной измеримой URI[[http://libmeta.ru/fme/relation/3224_7_USTOJChIVYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3224_27_USTOJChIVYJ]]/URI$. Обратное справедливо, если $URI[[http://libmeta.ru/fme/formula/aux/3224_28_USTOJChIVYJ]]/URI$ действительная полунепрерывная сверху функция на $URI[[http://libmeta.ru/fme/formula/aux/3224_29_USTOJChIVYJ]]/URI$ такая, что $URI[[http://libmeta.ru/fme/formula/aux/3224_30_USTOJChIVYJ]]/URI$. Таким образом, невыполнение условия устойчивости для широкого класса потенциалов означает расходимость большой статистич. суммы, то есть система не может быть описана термодинамически. Это одна из причин широкого использования У. п. в. в статистич. URI[[http://libmeta.ru/fme/relation/3224_6_USTOJChIVYJ]]/URI. В частности, оно существенно используется при обосновании термодинамич. предельного перехода наряду с условиями URI[[http://libmeta.ru/fme/relation/3224_5_USTOJChIVYJ]]/URI и URI[[http://libmeta.ru/fme/relation/3224_4_USTOJChIVYJ]]/URI (см. URI[[http://libmeta.ru/fme/relation/3224_3_USTOJChIVYJ]]/URI URI[[http://libmeta.ru/fme/relation/3224_2_USTOJChIVYJ]]/URI, URI[[http://libmeta.ru/fme/relation/3224_1_USTOJChIVYJ]]/URI).
+
+Понятие У. п. в. восходит к работе Л. Онзагера (l. Onsager, 1939).</text>
+  <text_orig>парный взаимодействия потенциал Ф, для которого существует такое число $B \geqslant 0$, что при всех $n \geqslant 2$ и $x_{1}, \ldots, x_{n} \in \mathbb{R}^{v}$, $v=1,2,3$, потенциальная энергия парного взаимодействия $n$ частиц
+
+\[
+U\left(x_{1}, \ldots, x_{n}\right)=\sum_{1 \leqslant i&lt;j \leqslant n} \Phi\left(q_{i}-q_{j}\right)
+\]
+
+удовлетворяет неравенству
+
+\[
+U\left(x_{1}, \ldots, x_{n}\right) \geqslant-B n .
+\]
+
+Постоянная $B$ имеет смысл минимальной удельной потенциальной энергии.
+
+Если потенциальная энергия $U$ определяется через набор $k$-частичных потенциалов взаимодействия $\left(\Phi^{k}\right)_{k \geqslant 2}$, то взаимодействие, задаваемое этим набором, называется у сто й ч и в ы м, если для $U$ выполняется неравенство (*).
+
+В квантовом случае взаимодействие называется у с т о й ч и в ы м, если для всех $n$ и $B&gt;0$ гамильтониан $H_{n}$ системы $n$ частиц удовлетворяет неравенству
+
+\[
+H_{n} \geqslant-n B I,
+\]
+
+где $I$ - тождественный оператор.
+
+Условие устойчивости означает, что удельная потенциальная энергия ограничена снизу. Парный У. п. в. также ограничен снизу, так как при $n=2$
+
+\[
+U\left(x_{1}, x_{2}\right)=U\left(x_{1}-x_{2}\right) \geqslant-2 B
+\]
+
+Отрицательные в нек-рой окрестности начала координат потенциалы не являются устойчивыми (см. Неустойчивый потенциал взаимодействия). Неотрицательные (отталкивательные) потенциалы устойчивы. Сумма двух У. п. в. устойчива.
+
+Если парный потенциал представим в виде
+
+\[
+\Phi=\Phi_{1}+\Phi_{2},
+\]
+
+где $\Phi_{1} \geqslant 0$, а $\Phi_{2}-$ действительная непрерывная положительно определенная функция, то потенциал Ф устойчив (положительно определенной функцией является, в частности, преобразование Фурье неотрицательной суммируемой функции).
+
+Пусть $x \in \mathbb{R}^{v}, \quad \mathrm{v}=1,2,3, \quad 0&lt;a_{1}&lt;a_{2}&lt;\infty, A_{1}, A_{2}, A_{3}&gt;0$. Парный потенциал $\Phi$ является У. п. в., если он удовлетворяет условию
+
+\[
+\Phi(x) \geqslant\left\{\begin{array}{l}
+\varphi_{1}(|x|), \quad|x| \leqslant a_{1}, \\
+-A_{3}, \quad a_{1} \leqslant|x|&lt;\infty, \\
+-\varphi_{2}(|x|), \quad|x| \geqslant a_{2},
+\end{array}\right.
+\]
+
+причем
+
+\[
+\int_{0}^{a_{1}} d r r^{\nu-1} \varphi_{1}(r)=\infty, \quad \int_{a_{2}}^{\infty} d r r^{v-1} \varphi_{2}(r)&lt;\infty,
+\]
+
+где $\varphi_{1}$ и $\varphi_{2}$ - положительно убывающие функции на $\left(0, a_{1}\right)$ и $\left(a_{2}, \infty\right)$ соответственно. Отсюда следует, что Леннард-Джонса потенциалы взаимодействия устойчивы. Быстро убывающие взаимодействия потенциалы с твердой сердцевиной также устойчивы.
+
+Для системы частиц $s$ видов потенциальная энергия такова:
+
+\[
+\begin{gathered}
+U_{N}\left(x_{1}^{(1)}, \ldots, x_{N_{1}}^{(1)} ; x_{1}^{(2)}, \ldots, x_{N_{2}}^{(2)} ; \ldots ; x_{1}^{(s)}, \ldots, x_{N_{s}}^{(s)}\right)= \\
+\quad=\sum_{\alpha=1}^{s} \sum_{1&lt;i_{\alpha}&lt;j_{\alpha}=N_{\alpha}} \Phi_{\alpha \alpha}\left(x_{i_{\alpha}}-x_{j_{\alpha}}\right)+ \\
++\sum_{1=\alpha&lt;\beta=s} \sum_{i_{\alpha}=1}^{N_{\alpha}} \sum_{i_{\beta}=1}^{N_{\beta}} \Phi_{\alpha \beta}\left(x_{i_{\alpha}}-x_{i_{\beta}}\right) .
+\end{gathered}
+\]
+
+В этом случае взаимодействие устойчиво, если матрица, составленная из фурье-образов минорант потенциалов $\Phi_{\alpha \beta}$, не имеет отрицательных собственных значений. Отсюда следует, что кулоновский потенциал взаимодействия и Юкавы потенциал взаимодействия в системах точечных частиц неустойчивы, но становятся У. П. В., если ввести твердые сердцевины или рассматривать заряды, распределенные в нек-рой области пространства.
+
+Устойчивость потенциала взаимодействия влечет сходимость большой статистич. суммы для любой ограниченной измеримой области $\Lambda \subset \mathbb{R}^{v}$. Обратное справедливо, если $\Phi-$ действительная полунепрерывная сверху функция на $\mathbb{R}^{V}$ такая, что $\Phi(-x)=\Phi(x)$. Таким образом, невыполнение условия устойчивости для широкого класса потенциалов означает расходимость большой статистич. суммы, то есть система не может быть описана термодинамически. Это одна из причин широкого использования У. п. в. в статистич. механике. В частности, оно существенно используется при обосновании термодинамич. предельного перехода наряду с условиями сверхустойчивости и регулярности (см. Сверхустойчивый потенциал взаимодействия, Регулярный потенциал взаимодействия).
+
+Понятие У. п. в. восходит к работе Л. Онзагера (L. Onsager, 1939).
+
+Лит.: [1] Рю эл ь Д., Статистическая механика. Строгие результаты, пер. с англ., М., 1971; [2] ПетринаД.Я., Герасименко В. И., Малыше в П. В., Математические основы классической статистической механики, Киев, 1985; [3] O nsager L., «J. Phys. Chem.», 1939, v. 43, p. 189; [4] Fisher M. E., Ruelle D., «J. Math. Phys.», 1966, v. 7, p. 67; [5] Ruelle D., «Comm. Math. Phys.», 1970, v. 18, p. 127.
+
+П. В. Малышев.</text_orig>
+</article>

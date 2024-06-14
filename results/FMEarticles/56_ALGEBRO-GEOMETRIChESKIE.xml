@@ -1,0 +1,734 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/56_ALGEBRO-GEOMETRIChESKIE" alphabetic_pos="56">
+  <title>АЛГЕБРО-ГЕОМЕТРИЧЕСКИЕ МЕТОДЫ В ТЕОРИИ ПОЛЯ</title>
+  <authors>
+    <author>Ю. И. Манин</author>
+  </authors>
+  <pages>
+    <start>16</start>
+    <end>19</end>
+  </pages>
+  <literature>
+    <literature_orig>лит.: [1] Белавин А. А., Дринфельд В. Г., «функциональный анализ и его приложения», 1982, т. 16, в. 3, с. 1-29; [2] Дубро в и н Б. А., «успехи математических наук», 1981, т. 36, в. 2, c. 11-80; [3] Дубровин Б. А., Матвеев В. Б., Новиков С. П., там же, 1976, т. 31, в. 1, с. 55-136; [4] Захаров В. Е., Манако в С. В., Нов и ков С. П., П итаевск й Й Л. П., Теория солито- нов. Метод обратной задачи, М., 1980; [5] Кап р а но в М. М., М ан и н Ю. И., “успехи математических наук», 1986, т. 41, в. 5, с. 85-107; [6] К р ичевер И. М., там же, 1977, т. 32, в. 6, с. 183208; [7] Кри чев р И. М., Нов и ков С. П., «функциональный анализ и его приложения», 1978 , т. 12, в. 4, с. $42-52$; [8] и х же, «успехи математических наук», 1980, т. 35, в. 6, с. 47-68; [9] К р и ч евер И. М., в сб.: Современные проблемы математики (итоги науки и техники, винити), М., 1983, т. 23, с. 79-136; [10] Ман и н Ю. И., Калибровочные поля и комплексная геометрия, М., 1984; [11] Н о в и ко в С. П., «функциональный анализ и его приложения», 1974, т. 8, в. 3, с. 54-76; [12] Т ах т а д жя н Л. А., Ф а д де е е в Л. Д., &quot;успехи математических наук», 1979, т. 34, в. 5, с. 13-63; [13] их же, Гамильтонов подход в теории солитонов, М., 1986; [14] Твисторы и калибровочные поля, пер. с англ., М., 1983; [15] Atiyah M. F., Drinfeld V. G., Hitchin N. G., Manin Yu.I., «phys. Lett.», 1978, v. 65a, № 3, p. 185-87; [16] A t i y a h M. F., Hitchin N.G., The geometry and dynamics of magnetic monopoles, Princeton, 1988; [17] B e ilins on A. A., M an in Yu. I., &quot;comm. Math. Phys.», 1986, v. 107, p. 359-76; [18] B e la v in A. A., K n iz hnik V. A., &quot;phys. Lett.&quot;, 1986, v. 168b, p. 201-206; [19] G a we dzk i K., «sem. Bourbaki», 1988-89, № 704; [20] Fri edan D., Shenker S., &quot;nucl. Phys.», 1987, v. 281b, p. 509-45; [21] Polyak ov A. M., «phys. Lett.&quot;, 1981, v. 103b, p. 207-10; [22] Ward R., «phys. Lett.», 1977, v. 61a, p. 81-82; [23] W it e n E., «phys. Lett.&quot;, 1978, v. 78b, № 4, p. 394-98.</literature_orig>
+    <unit>
+      <author>Белавин А. А.</author>
+      <author>Дринфельд В. Г.</author>
+      <title>«функциональный анализ и его приложения»</title>
+      <publication/>
+      <year>1982</year>
+      <other>т. 16, в. 3, с. 1-29</other>
+    </unit>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <title>«успехи математических наук»</title>
+      <publication/>
+      <year>1981</year>
+      <other>т. 36, в. 2, c. 11-80</other>
+    </unit>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Матвеев В. Б.</author>
+      <author>Новиков С. П.</author>
+      <title>там же</title>
+      <publication/>
+      <year>1976</year>
+      <other>т. 31, в. 1, с. 55-136</other>
+    </unit>
+    <unit>
+      <author>Захаров В. Е.</author>
+      <author>Манаков С. В.</author>
+      <author>Новиков С. П.</author>
+      <author>Питаевскй Й Л. П.</author>
+      <title>Теория солито- нов. Метод обратной задачи</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Капранов М. М.</author>
+      <author>Манин Ю. И.</author>
+      <title>“успехи математических наук»</title>
+      <publication/>
+      <year>1986</year>
+      <other>т. 41, в. 5, с. 85-107</other>
+    </unit>
+    <unit>
+      <author>Кричевер И. М.</author>
+      <title>там же</title>
+      <publication/>
+      <year>1977</year>
+      <other>т. 32, в. 6, с. 183208</other>
+    </unit>
+    <unit>
+      <author>Кричевр И. М.</author>
+      <author>Новиков С. П.</author>
+      <title>«функциональный анализ и его приложения»</title>
+      <publication/>
+      <year>1978</year>
+      <other>т. 12, в. 4, с. $42-52$</other>
+    </unit>
+    <unit>
+      <title>и х же, «успехи математических наук»</title>
+      <publication/>
+      <year>1980</year>
+      <other>т. 35, в. 6, с. 47-68</other>
+    </unit>
+    <unit>
+      <author>Кричевер И. М.</author>
+      <title>в сб.: Современные проблемы математики (итоги науки и техники, винити)</title>
+      <publication>М.</publication>
+      <year>1983</year>
+      <other>т. 23, с. 79-136</other>
+    </unit>
+    <unit>
+      <author>Манин Ю. И.</author>
+      <title>Калибровочные поля и комплексная геометрия</title>
+      <publication>М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Новиков С. П.</author>
+      <title>«функциональный анализ и его приложения»</title>
+      <publication/>
+      <year>1974</year>
+      <other>т. 8, в. 3, с. 54-76</other>
+    </unit>
+    <unit>
+      <author>Тахтаджян Л. А.</author>
+      <author>Фаддееев Л. Д.</author>
+      <title>&quot;успехи математических наук»</title>
+      <publication/>
+      <year>1979</year>
+      <other>т. 34, в. 5, с. 13-63</other>
+    </unit>
+    <unit>
+      <title>их же, Гамильтонов подход в теории солитонов</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Твисторы и калибровочные поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Atiyah M. F.</author>
+      <author>Drinfeld V. G.</author>
+      <author>Hitchin N. G.</author>
+      <author>Manin Yu. I.</author>
+      <title>«phys. Lett.»</title>
+      <publication/>
+      <year>1978</year>
+      <other>v. 65a, № 3, p. 185-87</other>
+    </unit>
+    <unit>
+      <author>Atiyah M. F.</author>
+      <author>Hitchin N. G.</author>
+      <title>The geometry and dynamics of magnetic monopoles, Princeton</title>
+      <publication/>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Beilinson A. A.</author>
+      <author>Manin Yu. I.</author>
+      <title>&quot;comm. Math. Phys.»</title>
+      <publication/>
+      <year>1986</year>
+      <other>v. 107, p. 359-76</other>
+    </unit>
+    <unit>
+      <author>Belavin A. A.</author>
+      <author>Knizhnik V. A.</author>
+      <title>&quot;phys. Lett.&quot;</title>
+      <publication/>
+      <year>1986</year>
+      <other>v. 168b, p. 201-206</other>
+    </unit>
+    <unit>
+      <author>Gawedzki K.</author>
+      <title>«sem. Bourbaki»</title>
+      <publication/>
+      <year>1988</year>
+      <other>№ 704</other>
+    </unit>
+    <unit>
+      <author>Friedan D.</author>
+      <author>Shenker S.</author>
+      <title>&quot;nucl. Phys.»</title>
+      <publication/>
+      <year>1987</year>
+      <other>v. 281b, p. 509-45</other>
+    </unit>
+    <unit>
+      <author>Polyakov A. M.</author>
+      <title>«phys. Lett.&quot;</title>
+      <publication/>
+      <year>1981</year>
+      <other>v. 103b, p. 207-10</other>
+    </unit>
+    <unit>
+      <author>Ward R.</author>
+      <title>«phys. Lett.»</title>
+      <publication/>
+      <year>1977</year>
+      <other>v. 61a, p. 81-82</other>
+    </unit>
+    <unit>
+      <author>Witen E.</author>
+      <title>«phys. Lett.&quot;</title>
+      <publication/>
+      <year>1978</year>
+      <other>v. 78b, № 4, p. 394-98.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_1_ALGEBRO-GEOMETRIChESKIE">u_{t}-6 u u_{x}-u_{x x x}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_2_ALGEBRO-GEOMETRIChESKIE">(3 / 4) u_{y y}+u_{x t}+(1 / 4)\left(u_{x x x}+6 u u_{x}\right)_{t}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_3_ALGEBRO-GEOMETRIChESKIE">u(x, t)=U(x-v t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_4_ALGEBRO-GEOMETRIChESKIE">U^{\prime 2}=2 U^{3}+v U^{2}+a U+b .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_5_ALGEBRO-GEOMETRIChESKIE">U(x-v t)=c_{1} \wp(x-v t)+c_{2} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_6_ALGEBRO-GEOMETRIChESKIE">L_{t}=[P, L]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_7_ALGEBRO-GEOMETRIChESKIE">\begin{gathered}L=-\partial^{2} / \partial x^{2}+u(x, t) \\P=-4 \partial^{3} / \partial x^{3}+3(u \partial / \partial x+\partial / \partial x \circ u) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_8_ALGEBRO-GEOMETRIChESKIE">\theta(p)=\sum_{k \in \mathbb{Z}^{g}} \exp (\pi i\langle B k, k\rangle+2 \pi i\langle p, k\rangle), \quad p \in \mathbb{C}^{g} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_9_ALGEBRO-GEOMETRIChESKIE">D=\sum_{i=1}^{g} P_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_10_ALGEBRO-GEOMETRIChESKIE">\begin{gathered}\Psi(x, y, t, P)= \\=\frac{\theta(\omega(P)-e(x, y, t)) \theta(-e(0,0,0))}{\theta(\omega(P)-e(0,0,0)) \theta(-e(x, y, t))} \exp \left(\int_{P_{0}}^{P} \omega_{1} x+\omega_{2} y+\omega_{3} t\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_11_ALGEBRO-GEOMETRIChESKIE">\partial_{y} P-\partial_{t} L=[L, P]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_12_ALGEBRO-GEOMETRIChESKIE">-2 \partial_{x}^{2} \log \theta(a x+b t+c)+d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_13_ALGEBRO-GEOMETRIChESKIE">-\int \operatorname{Tr} F_{a b} F^{a b} \text { vol. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/56_14_ALGEBRO-GEOMETRIChESKIE">\partial_{a} F^{a b}+\left[A_{a}, F^{a b}\right]=0,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_1_ALGEBRO-GEOMETRIChESKIE">y^{2}=f(x)(f-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_2_ALGEBRO-GEOMETRIChESKIE">l_{t}=[p, L]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_3_ALGEBRO-GEOMETRIChESKIE">[q, L]=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_4_ALGEBRO-GEOMETRIChESKIE">q-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_5_ALGEBRO-GEOMETRIChESKIE">[q, L]=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_6_ALGEBRO-GEOMETRIChESKIE">c_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_7_ALGEBRO-GEOMETRIChESKIE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_8_ALGEBRO-GEOMETRIChESKIE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_9_ALGEBRO-GEOMETRIChESKIE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_10_ALGEBRO-GEOMETRIChESKIE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_11_ALGEBRO-GEOMETRIChESKIE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_12_ALGEBRO-GEOMETRIChESKIE">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_13_ALGEBRO-GEOMETRIChESKIE">(q, l)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_14_ALGEBRO-GEOMETRIChESKIE">c_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_15_ALGEBRO-GEOMETRIChESKIE">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_16_ALGEBRO-GEOMETRIChESKIE">(q, L)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_17_ALGEBRO-GEOMETRIChESKIE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_18_ALGEBRO-GEOMETRIChESKIE">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_19_ALGEBRO-GEOMETRIChESKIE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_20_ALGEBRO-GEOMETRIChESKIE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_21_ALGEBRO-GEOMETRIChESKIE">h_{1}(c, \mathbb{Z})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_22_ALGEBRO-GEOMETRIChESKIE">\left(a_{i}, b_{j}\right), i, j=1, \ldots, g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_23_ALGEBRO-GEOMETRIChESKIE">\left\langle a_{i}, b_{j}\right\rangle=\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_24_ALGEBRO-GEOMETRIChESKIE">\omega_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_25_ALGEBRO-GEOMETRIChESKIE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_26_ALGEBRO-GEOMETRIChESKIE">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_27_ALGEBRO-GEOMETRIChESKIE">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_28_ALGEBRO-GEOMETRIChESKIE">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_29_ALGEBRO-GEOMETRIChESKIE">p_{0} \in C</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_30_ALGEBRO-GEOMETRIChESKIE">k^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_31_ALGEBRO-GEOMETRIChESKIE">r, Q \in \mathbb{C}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_32_ALGEBRO-GEOMETRIChESKIE">\psi(x, y, t, P)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_33_ALGEBRO-GEOMETRIChESKIE">\mathbb{c}^{3}\left(c-P_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_34_ALGEBRO-GEOMETRIChESKIE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_35_ALGEBRO-GEOMETRIChESKIE">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_36_ALGEBRO-GEOMETRIChESKIE">x, y, t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_37_ALGEBRO-GEOMETRIChESKIE">p_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_38_ALGEBRO-GEOMETRIChESKIE">\psi(x, y, t, P)=\exp [x k(P)+y R(k(P))+t Q(k(P))]\left(1+O\left(k^{-1}(P)\right)\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_39_ALGEBRO-GEOMETRIChESKIE">\psi(0,0,0, P)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_40_ALGEBRO-GEOMETRIChESKIE">\theta(\cdot)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_41_ALGEBRO-GEOMETRIChESKIE">e-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_42_ALGEBRO-GEOMETRIChESKIE">\omega_{1}, \omega_{2}, \omega_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_43_ALGEBRO-GEOMETRIChESKIE">p_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_44_ALGEBRO-GEOMETRIChESKIE">d(k+c \log k), d R(k), d Q(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_45_ALGEBRO-GEOMETRIChESKIE">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_46_ALGEBRO-GEOMETRIChESKIE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_47_ALGEBRO-GEOMETRIChESKIE">p_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_48_ALGEBRO-GEOMETRIChESKIE">f \in A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_49_ALGEBRO-GEOMETRIChESKIE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_50_ALGEBRO-GEOMETRIChESKIE">l_{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_51_ALGEBRO-GEOMETRIChESKIE">l_{f} \Psi=f \Psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_52_ALGEBRO-GEOMETRIChESKIE">l_{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_53_ALGEBRO-GEOMETRIChESKIE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_54_ALGEBRO-GEOMETRIChESKIE">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_55_ALGEBRO-GEOMETRIChESKIE">l=-\partial^{2}+u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_56_ALGEBRO-GEOMETRIChESKIE">c-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_57_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_58_ALGEBRO-GEOMETRIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_59_ALGEBRO-GEOMETRIChESKIE">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_60_ALGEBRO-GEOMETRIChESKIE">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_61_ALGEBRO-GEOMETRIChESKIE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_62_ALGEBRO-GEOMETRIChESKIE">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_63_ALGEBRO-GEOMETRIChESKIE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_64_ALGEBRO-GEOMETRIChESKIE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_65_ALGEBRO-GEOMETRIChESKIE">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_66_ALGEBRO-GEOMETRIChESKIE">a_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_67_ALGEBRO-GEOMETRIChESKIE">f_{a b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_68_ALGEBRO-GEOMETRIChESKIE">s^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_69_ALGEBRO-GEOMETRIChESKIE">\mathbb{r}^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_70_ALGEBRO-GEOMETRIChESKIE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_71_ALGEBRO-GEOMETRIChESKIE">\hat{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_72_ALGEBRO-GEOMETRIChESKIE">s^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_73_ALGEBRO-GEOMETRIChESKIE">\mathbb{r}^{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_74_ALGEBRO-GEOMETRIChESKIE">\hat{e}_{\text {называется т о полог иче - }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_75_ALGEBRO-GEOMETRIChESKIE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_76_ALGEBRO-GEOMETRIChESKIE">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_77_ALGEBRO-GEOMETRIChESKIE">c P^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_78_ALGEBRO-GEOMETRIChESKIE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_79_ALGEBRO-GEOMETRIChESKIE">c P^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_80_ALGEBRO-GEOMETRIChESKIE">c P^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_81_ALGEBRO-GEOMETRIChESKIE">f(u, x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_82_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_83_ALGEBRO-GEOMETRIChESKIE">x-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_84_ALGEBRO-GEOMETRIChESKIE">g(u, x, \Psi, \lambda)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_85_ALGEBRO-GEOMETRIChESKIE">\psi-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_86_ALGEBRO-GEOMETRIChESKIE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_87_ALGEBRO-GEOMETRIChESKIE">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_88_ALGEBRO-GEOMETRIChESKIE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_89_ALGEBRO-GEOMETRIChESKIE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_90_ALGEBRO-GEOMETRIChESKIE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_91_ALGEBRO-GEOMETRIChESKIE">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_92_ALGEBRO-GEOMETRIChESKIE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_93_ALGEBRO-GEOMETRIChESKIE">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_94_ALGEBRO-GEOMETRIChESKIE">e(\lambda)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_95_ALGEBRO-GEOMETRIChESKIE">\psi(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_96_ALGEBRO-GEOMETRIChESKIE">g(u, x, \Psi, \lambda)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_97_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_98_ALGEBRO-GEOMETRIChESKIE">e=\cup_{\lambda \in L} E(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_99_ALGEBRO-GEOMETRIChESKIE">p_{1}: Z \rightarrow X, p_{2}: Z \rightarrow U-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_100_ALGEBRO-GEOMETRIChESKIE">u \in U</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_101_ALGEBRO-GEOMETRIChESKIE">y(u)=p_{1} p_{2}^{-1}(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_102_ALGEBRO-GEOMETRIChESKIE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_103_ALGEBRO-GEOMETRIChESKIE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_104_ALGEBRO-GEOMETRIChESKIE">y(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_105_ALGEBRO-GEOMETRIChESKIE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_106_ALGEBRO-GEOMETRIChESKIE">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_107_ALGEBRO-GEOMETRIChESKIE">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_108_ALGEBRO-GEOMETRIChESKIE">p_{1}^{*}(e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_109_ALGEBRO-GEOMETRIChESKIE">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_110_ALGEBRO-GEOMETRIChESKIE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_111_ALGEBRO-GEOMETRIChESKIE">\nabla_{z / X}(\Psi)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_112_ALGEBRO-GEOMETRIChESKIE">\nabla_{z / X}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_113_ALGEBRO-GEOMETRIChESKIE">p_{1}^{*}(e)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_114_ALGEBRO-GEOMETRIChESKIE">g(u, x, \Psi, \lambda)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_115_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_116_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_117_ALGEBRO-GEOMETRIChESKIE">\nabla_{z / X}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_118_ALGEBRO-GEOMETRIChESKIE">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_119_ALGEBRO-GEOMETRIChESKIE">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_120_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_121_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_122_ALGEBRO-GEOMETRIChESKIE">p_{2}^{*}\left(\nabla_{z / X}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_123_ALGEBRO-GEOMETRIChESKIE">p_{2}^{*} p_{1}^{*}(E)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_124_ALGEBRO-GEOMETRIChESKIE">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_125_ALGEBRO-GEOMETRIChESKIE">p_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_126_ALGEBRO-GEOMETRIChESKIE">f(u, x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_127_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_128_ALGEBRO-GEOMETRIChESKIE">\nabla^{2} Z / X=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_129_ALGEBRO-GEOMETRIChESKIE">p_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_130_ALGEBRO-GEOMETRIChESKIE">g(2, T)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_131_ALGEBRO-GEOMETRIChESKIE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_132_ALGEBRO-GEOMETRIChESKIE">x=c P^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_133_ALGEBRO-GEOMETRIChESKIE">y(u)=c P^{1}, U=G(2, T)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_134_ALGEBRO-GEOMETRIChESKIE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_135_ALGEBRO-GEOMETRIChESKIE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_136_ALGEBRO-GEOMETRIChESKIE">z-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_137_ALGEBRO-GEOMETRIChESKIE">f(1,2 ; T)(1,2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_138_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_139_ALGEBRO-GEOMETRIChESKIE">y(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_140_ALGEBRO-GEOMETRIChESKIE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_141_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_142_ALGEBRO-GEOMETRIChESKIE">x \subset P(T) \times P\left(T^{*}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_143_ALGEBRO-GEOMETRIChESKIE">f(1,3 ; T), \quad Y(u)=P^{1} \times P^{1}, U=G(2 ; T), \quad Z=F(1,2,3 ; T)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_144_ALGEBRO-GEOMETRIChESKIE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_145_ALGEBRO-GEOMETRIChESKIE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_146_ALGEBRO-GEOMETRIChESKIE">y(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_147_ALGEBRO-GEOMETRIChESKIE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_148_ALGEBRO-GEOMETRIChESKIE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_149_ALGEBRO-GEOMETRIChESKIE">3 \mathrm{~g}-3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_150_ALGEBRO-GEOMETRIChESKIE">g=1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_151_ALGEBRO-GEOMETRIChESKIE">m_{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/56_152_ALGEBRO-GEOMETRIChESKIE">d</formula>
+  </formulas_aux>
+  <relations n="26">
+    <relation uri="http://libmeta.ru/fme/relation/56_1_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>Пенлеве уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/2186_PENLEVE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_2_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>варианты</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_3_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>представлений комплексных</rel_text>
+      <target>http://libmeta.ru/fme/article/2922_STARShEGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_4_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_5_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>алгебр</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_6_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>алгебры</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_7_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>комплексная алгебра</rel_text>
+      <target>http://libmeta.ru/fme/article/1322_KOMPLEKSNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_8_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>действует</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_9_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_10_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>корреляционных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/1409_KORRELJaTsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_11_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>тета-функцию Римана</rel_text>
+      <target>http://libmeta.ru/fme/article/2630_RIMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_12_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>голоморфной</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_13_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>многообразию</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_14_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>теории возмущений</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_15_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>функционального пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/2839_SOBSTVENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_16_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>квантовые аномалии</rel_text>
+      <target>http://libmeta.ru/fme/article/81_ANOMALIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_17_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>метрики</rel_text>
+      <target>http://libmeta.ru/fme/article/1767_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_18_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>конформных преобразований</rel_text>
+      <target>http://libmeta.ru/fme/article/1379_KONFORMNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_19_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>группу</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_20_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>группу</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_21_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_22_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>действие</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_23_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>функциональному пространству</rel_text>
+      <target>http://libmeta.ru/fme/article/2839_SOBSTVENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_24_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>континуальном</rel_text>
+      <target>http://libmeta.ru/fme/article/1347_KONTAKTIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_25_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>варианте</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/56_26_ALGEBRO-GEOMETRIChESKIE">
+      <rel_text>Статистическая сумма</rel_text>
+      <target>http://libmeta.ru/fme/article/2927_STATISTIChESKAJa</target>
+    </relation>
+  </relations>
+  <text>методы, связанные с работами по вполне интегрируемым системам и методу обратной задачи рассеяния (см. [11], [8]), а также твисторного преобразования Пенроуза - Уорда (см. [14], [10]), сохраняющие многообразные связи и с классическими работами. Алгебраические аспекты методов связаны с унификацией и прояснением классич. приемов конструкций точных решений (напр., кноидальных волн и волчка Ковалевской). В этом они согласованы с методами теории симметрий, теории представлений, интегральных преобразований типа Радона, Гильберта и др. Геометрич. аспекты можно рассматривать как вариант методики качественной теории дифференциальных уравне- ний, в к-ром - и это характерно - вещественная и локальная ситуация заменяется на комплексную и глобальную. Если первые успехи А.-г. м. были связаны с более или менее явным описанием больших классов точных решений классич. нелинейных уравнений солитонного, квазипериодического, инстантонного или монопольного типа, то в последнее десятилетие к этому кругу вопросов добавились квантовый метод обратной задачи ([12], [13]) и проблематика квантовой теории струн и суперструн и двумерной квантовой теории поля ([17], [18]). В последнем круге вопросов язык алгебраич. геометрии является не просто технич. средством, но отвечает существу дела: основные величины теории (статсумма и корреляторы) пишутся в терминах пространств модулей алгебраич. кривых (комплексных римановых поверхностей). Наконец, запросы физики оказали серьезное обратное влияние на саму алгебраич. геометрию, а также топологию: была сформулирована и доказана ги потеза Новикова ([3], [2]), дающая новый подход к классич. задаче о выделении якобианов среди всех абелевых многообразий; произошли заметные сдвиги в проблеме классификации алгебраич. векторных расслоений; были построены новые инварианты в топологии трех- и четырехмерных многообразий.
+
+Нелинейные волны. Кортевега - де Фриса уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_1_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+описывает волны в одномерной среде со слабой дисперсией и слабой нелинейностью. Учет слабых трансверсальных возмущений приводит к Кадомцева - Петвиашвили уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_2_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+А.-г. м. получения точных решений иллюстрируются на этих двух классич. примерах.
+
+Простейшие решения уравнения Кортевега - де Фриса имеют вид бегущей волны:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_3_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+после подстановки в уравнение Кортевега - де Фриса и интегрирования (дважды) получают
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_4_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+Общее решение этого уравнения задается §-функцией Вейерштрасса:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_5_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+Функция Вейерштрасса мероморфна на комплексной плоскости и имеет два независимых периода. Она и ее производная порождают поле мероморфных функций на одномерном комплексном торе или, что то же, на комплексной алгебраич. кривой рода единица. Оказывается, аналогичные решения уравнения Кортевега - де Фриса можно строить по любой гиперэллиптич. кривой, задаваемой уравнением $URI[[http://libmeta.ru/fme/formula/aux/56_1_ALGEBRO-GEOMETRIChESKIE]]/URI$ многочлен). Причина этого в том, что данное уравнение допускает представление Лакса
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_6_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_7_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+Алгебро-геометрич. решения уравнения Кортевега - де Фриса суть совместные решения уравнений $URI[[http://libmeta.ru/fme/formula/aux/56_2_ALGEBRO-GEOMETRIChESKIE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/56_3_ALGEBRO-GEOMETRIChESKIE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/56_4_ALGEBRO-GEOMETRIChESKIE]]/URI$ вспомогательный оператор (это дополнительное условие играет роль нетривиального обобщения условия «бегущей волны»). Уравнение $URI[[http://libmeta.ru/fme/formula/aux/56_5_ALGEBRO-GEOMETRIChESKIE]]/URI$ является стационарным: время в него не входит. Два коммутирующих линейных одномерных дифференциальных оператора связаны полиномиальным соотношением с постоянными коэффишиентами. Это соотношение определяет аффинную алгебракч. кривую $URI[[http://libmeta.ru/fme/formula/aux/56_6_ALGEBRO-GEOMETRIChESKIE]]/URI$. Пусть $URI[[http://libmeta.ru/fme/formula/aux/56_7_ALGEBRO-GEOMETRIChESKIE]]/URI$ - род ее неособой модели $URI[[http://libmeta.ru/fme/formula/aux/56_8_ALGEBRO-GEOMETRIChESKIE]]/URI$. По $URI[[http://libmeta.ru/fme/formula/aux/56_9_ALGEBRO-GEOMETRIChESKIE]]/URI$ определяется $URI[[http://libmeta.ru/fme/formula/aux/56_10_ALGEBRO-GEOMETRIChESKIE]]/URI$-мерный комплексный тор - якобиан $URI[[http://libmeta.ru/fme/formula/aux/56_11_ALGEBRO-GEOMETRIChESKIE]]/URI$, являющийся обобщением эллиптич. кривой. Во многих важных случаях эволюция $URI[[http://libmeta.ru/fme/formula/aux/56_12_ALGEBRO-GEOMETRIChESKIE]]/URI$ со временем в силу уравнения Кортевега - де Фриса может быть описана как линейное движение точки по якобиану. Именно, для точки $URI[[http://libmeta.ru/fme/formula/aux/56_13_ALGEBRO-GEOMETRIChESKIE]]/URI$ кривой $URI[[http://libmeta.ru/fme/formula/aux/56_14_ALGEBRO-GEOMETRIChESKIE]]/URI$ рассматривается пространство функций $URI[[http://libmeta.ru/fme/formula/aux/56_15_ALGEBRO-GEOMETRIChESKIE]]/URI$, собственных для $URI[[http://libmeta.ru/fme/formula/aux/56_16_ALGEBRO-GEOMETRIChESKIE]]/URI$ с этими собственными значениями. Пусть оно одномерно. Получающаяся система линейных пространств в благоприятных условиях продолжается до линейного одномерного расслоения над $URI[[http://libmeta.ru/fme/formula/aux/56_17_ALGEBRO-GEOMETRIChESKIE]]/URI$. Но такое расслоение и есть точка якобиана; остается включить пространственно-временную зависимость и показать, что она линейна. Функция $URI[[http://libmeta.ru/fme/formula/aux/56_18_ALGEBRO-GEOMETRIChESKIE]]/URI$, записанная в подходящей тривиализации, называется функцией Бейкера - Ахие з е р a.
+
+Аналитич. описание ситуации требует введения классич. функций, необходимых также в теории струн и конформной теории поля на римановых поверхностях. На компактной римановой поверхности $URI[[http://libmeta.ru/fme/formula/aux/56_19_ALGEBRO-GEOMETRIChESKIE]]/URI$ рода $URI[[http://libmeta.ru/fme/formula/aux/56_20_ALGEBRO-GEOMETRIChESKIE]]/URI$ можно выбрать базис группы гомологий $URI[[http://libmeta.ru/fme/formula/aux/56_21_ALGEBRO-GEOMETRIChESKIE]]/URI$ вида $URI[[http://libmeta.ru/fme/formula/aux/56_22_ALGEBRO-GEOMETRIChESKIE]]/URI$, так, что $URI[[http://libmeta.ru/fme/formula/aux/56_23_ALGEBRO-GEOMETRIChESKIE]]/URI$ (классич. система разрезов). Голоморфные формы $URI[[http://libmeta.ru/fme/formula/aux/56_24_ALGEBRO-GEOMETRIChESKIE]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/56_25_ALGEBRO-GEOMETRIChESKIE]]/URI$ образуют базис Римана, если их $URI[[http://libmeta.ru/fme/formula/aux/56_26_ALGEBRO-GEOMETRIChESKIE]]/URI$-периоды образуют единичную матрицу. Пусть $URI[[http://libmeta.ru/fme/formula/aux/56_27_ALGEBRO-GEOMETRIChESKIE]]/URI$ - матрица соответствующих $URI[[http://libmeta.ru/fme/formula/aux/56_28_ALGEBRO-GEOMETRIChESKIE]]/URI$-периодов. По ней строится тета-функция Римана
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_8_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+Фиксируем теперь точку на бесконечности $URI[[http://libmeta.ru/fme/formula/aux/56_29_ALGEBRO-GEOMETRIChESKIE]]/URI$, локальный параметр $URI[[http://libmeta.ru/fme/formula/aux/56_30_ALGEBRO-GEOMETRIChESKIE]]/URI$ в ее окрестности, два многочлена $URI[[http://libmeta.ru/fme/formula/aux/56_31_ALGEBRO-GEOMETRIChESKIE]]/URI$ и неспециальный дивизор
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_9_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+По определению, функция Бейкера - Ахиезера $URI[[http://libmeta.ru/fme/formula/aux/56_32_ALGEBRO-GEOMETRIChESKIE]]/URI$ это единственная мероморфная функция на $URI[[http://libmeta.ru/fme/formula/aux/56_33_ALGEBRO-GEOMETRIChESKIE]]/URI$, у к-рой дивизор полюсов по $URI[[http://libmeta.ru/fme/formula/aux/56_34_ALGEBRO-GEOMETRIChESKIE]]/URI$ совпадает с $URI[[http://libmeta.ru/fme/formula/aux/56_35_ALGEBRO-GEOMETRIChESKIE]]/URI$ при любых $URI[[http://libmeta.ru/fme/formula/aux/56_36_ALGEBRO-GEOMETRIChESKIE]]/URI$ и К-рая в $URI[[http://libmeta.ru/fme/formula/aux/56_37_ALGEBRO-GEOMETRIChESKIE]]/URI$ имеет существенную особенность вида
+
+$URI[[http://libmeta.ru/fme/formula/aux/56_38_ALGEBRO-GEOMETRIChESKIE]]/URI$, причем $URI[[http://libmeta.ru/fme/formula/aux/56_39_ALGEBRO-GEOMETRIChESKIE]]/URI$. Она допускает следующее выражение через тета-функцию Римана $URI[[http://libmeta.ru/fme/formula/aux/56_40_ALGEBRO-GEOMETRIChESKIE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_10_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/56_41_ALGEBRO-GEOMETRIChESKIE]]/URI$ нек-рая линейная функция, к-рую можно выписать явно; $URI[[http://libmeta.ru/fme/formula/aux/56_42_ALGEBRO-GEOMETRIChESKIE]]/URI$ - нормированные дифференциалы второго рода с единственным полюсом в $URI[[http://libmeta.ru/fme/formula/aux/56_43_ALGEBRO-GEOMETRIChESKIE]]/URI$ и главными частями $URI[[http://libmeta.ru/fme/formula/aux/56_44_ALGEBRO-GEOMETRIChESKIE]]/URI$ соответственно.
+
+М т д К р иче ве р а конструкции алгебро-геометрич. решений уравнений типа Лакса состоит в серии следующих замечаний. Пусть $URI[[http://libmeta.ru/fme/formula/aux/56_45_ALGEBRO-GEOMETRIChESKIE]]/URI$ - кольцо мероморфных функций на $URI[[http://libmeta.ru/fme/formula/aux/56_46_ALGEBRO-GEOMETRIChESKIE]]/URI$ с полюсом в $URI[[http://libmeta.ru/fme/formula/aux/56_47_ALGEBRO-GEOMETRIChESKIE]]/URI$. Тогда по любой $URI[[http://libmeta.ru/fme/formula/aux/56_48_ALGEBRO-GEOMETRIChESKIE]]/URI$ однозначно определяется дифференциальный оператор (по $URI[[http://libmeta.ru/fme/formula/aux/56_49_ALGEBRO-GEOMETRIChESKIE]]/URI$ ) $URI[[http://libmeta.ru/fme/formula/aux/56_50_ALGEBRO-GEOMETRIChESKIE]]/URI$ такой, что $URI[[http://libmeta.ru/fme/formula/aux/56_51_ALGEBRO-GEOMETRIChESKIE]]/URI$. Это следует из сравнения сингулярностей в левой и правой частях и теоремы единственности. Все операторы $URI[[http://libmeta.ru/fme/formula/aux/56_52_ALGEBRO-GEOMETRIChESKIE]]/URI$ попарно коммутируют, что доставляет решения серии стационарных уравнений Лакса. Исследование эволюции этих решений по $URI[[http://libmeta.ru/fme/formula/aux/56_53_ALGEBRO-GEOMETRIChESKIE]]/URI$ показывает, что они удовлетворяют нестационарным уравнениям Лакса. Наконец, включение $URI[[http://libmeta.ru/fme/formula/aux/56_54_ALGEBRO-GEOMETRIChESKIE]]/URI$ приводит к уравнению 3 ахарова - Шабата
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_11_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+частным случаем к-рого является уравнение Кадомцева Петвиашвили. Условие $URI[[http://libmeta.ru/fme/formula/aux/56_55_ALGEBRO-GEOMETRIChESKIE]]/URI$ приводит к тому, что $URI[[http://libmeta.ru/fme/formula/aux/56_56_ALGEBRO-GEOMETRIChESKIE]]/URI$ гиперэллиптич. кривая, а потенциал $URI[[http://libmeta.ru/fme/formula/aux/56_57_ALGEBRO-GEOMETRIChESKIE]]/URI$ выражается в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_12_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/56_58_ALGEBRO-GEOMETRIChESKIE]]/URI$ - тета-функция Римана этой кривой. Метод Кричевера применим к большому количеству других уравнений. Центральная роль функции $URI[[http://libmeta.ru/fme/formula/aux/56_59_ALGEBRO-GEOMETRIChESKIE]]/URI$ связывает его с методом обратной задачи теории рассеяния, где аналогом $URI[[http://libmeta.ru/fme/formula/aux/56_60_ALGEBRO-GEOMETRIChESKIE]]/URI$ является решение уравнения Шредингера, имеющее на бесконечности асимптотику плоской волны. Далее показано, что и твисторное преобразование может быть описано по параллельной схеме.
+
+Поля Янга - Миллса и инстантоны. Поле Янга М иллс а над римановым многообразием $URI[[http://libmeta.ru/fme/formula/aux/56_61_ALGEBRO-GEOMETRIChESKIE]]/URI$ - это связность в векторном расслоении $URI[[http://libmeta.ru/fme/formula/aux/56_62_ALGEBRO-GEOMETRIChESKIE]]/URI$ над $URI[[http://libmeta.ru/fme/formula/aux/56_63_ALGEBRO-GEOMETRIChESKIE]]/URI$ со структурной группой $URI[[http://libmeta.ru/fme/formula/aux/56_64_ALGEBRO-GEOMETRIChESKIE]]/URI$. Выбрав систему координат и тривиализацию $URI[[http://libmeta.ru/fme/formula/aux/56_65_ALGEBRO-GEOMETRIChESKIE]]/URI$, можно задать поле коэффициентами формы связности $URI[[http://libmeta.ru/fme/formula/aux/56_66_ALGEBRO-GEOMETRIChESKIE]]/URI$ и формы кривизны $URI[[http://libmeta.ru/fme/formula/aux/56_67_ALGEBRO-GEOMETRIChESKIE]]/URI$. Действие этого поля есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_13_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+Соответствующие динамич. уравнения имеют вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/56_14_ALGEBRO-GEOMETRIChESKIE]]/URI
+\]
+
+то есть представляют собой некоммутативное обобщение уравнений Максвелла. В отличие от последних, классич. поля Янга - Миллса физически не интерпретируются и интересны главным образом с точки зрения квантовой теории поля. Один из математически интересных классов решений уравнения Янга - Миллса - инстантоны; это поля на $URI[[http://libmeta.ru/fme/formula/aux/56_68_ALGEBRO-GEOMETRIChESKIE]]/URI$ (или на более общем компактном римановом многообразии). Поскольку 2-формы на четырехмерном римановом многообразии распадаются в прямую сумму правых и левых, из тождества Бианки видно, что поле с чисто левой (автодуальное) или чисто правой (антиавтодуальное) формой кривизны является экстремумом действия. И н с т а н т о н о м называется автодуальное поле Янга - Миллса на $URI[[http://libmeta.ru/fme/formula/aux/56_69_ALGEBRO-GEOMETRIChESKIE]]/URI$ со следующими свойствами: a) группа $URI[[http://libmeta.ru/fme/formula/aux/56_70_ALGEBRO-GEOMETRIChESKIE]]/URI$ простая компактная; б) поле Янга - Миллса продолжается до связности на расслоении $URI[[http://libmeta.ru/fme/formula/aux/56_71_ALGEBRO-GEOMETRIChESKIE]]/URI$ на компактификации $URI[[http://libmeta.ru/fme/formula/aux/56_72_ALGEBRO-GEOMETRIChESKIE]]/URI$ пространства $URI[[http://libmeta.ru/fme/formula/aux/56_73_ALGEBRO-GEOMETRIChESKIE]]/URI$. Число Понтрягина $URI[[http://libmeta.ru/fme/formula/aux/56_74_ALGEBRO-GEOMETRIChESKIE]]/URI$ с к и м за рядом инстантона. С точностью до множителя оно совпадает с его действием. Инстантоны доставляют минимумы евклидова действия и потому, возможно, дают существенный вклад в континуальный интеграл.
+
+Описание инстантонов состоит из двух частей - редукции к алгебро-геометрич. задаче и решения этой задачи. Первая часть сводится к теореме Атьи - Уорда: инстантоны с группой $URI[[http://libmeta.ru/fme/formula/aux/56_75_ALGEBRO-GEOMETRIChESKIE]]/URI$ и топологич. зарядом $URI[[http://libmeta.ru/fme/formula/aux/56_76_ALGEBRO-GEOMETRIChESKIE]]/URI$ взаимно однозначно отвечают голоморфным векторным расслоениям над $URI[[http://libmeta.ru/fme/formula/aux/56_77_ALGEBRO-GEOMETRIChESKIE]]/URI$, структурная группа к-рых редуцирована до $URI[[http://libmeta.ru/fme/formula/aux/56_78_ALGEBRO-GEOMETRIChESKIE]]/URI$ (посредством голоморфной билинейной формы и вещественной либо кватернионной структуры, продолжающей стандартную структуру без неподвижных точек на $URI[[http://libmeta.ru/fme/formula/aux/56_79_ALGEBRO-GEOMETRIChESKIE]]/URI$ ) и к-рые тривиальны на всех вещественных прямых $URI[[http://libmeta.ru/fme/formula/aux/56_80_ALGEBRO-GEOMETRIChESKIE]]/URI$. Вторая часть состоит в классификации соответствующих голоморфных расслоений. Они автоматически оказываются алгебраич. многообразиями, и методы алгебраич. геометрии позволяют явно описать их, сведя к данным линейной алгебры: нескольким числовым матрицам, связанным квадратными уравнениями.
+
+K описанию автодуальных решений уравнений Янга Миллса, но с другими условиями на бесконечности, сводятся также уравнения Богомольного для магнитных монополей с неабелевой структурной группой. Их решение алгебро-геометрич. средствами также включает в качестве первого шага редукцию к алгебро-геометрич. задаче методами типа Радона - Пенроуза - Уорда. Ниже описана общая схема этого метода, родственного методам Кричевера и обратной задачи теории рассеяния.
+
+Метод обратной задачи теории рассеяния известен во многих вариантах; общие черты большинства из них состоят в следующем. Пусть задана нек-рая нелинейная система уравнений $URI[[http://libmeta.ru/fme/formula/aux/56_81_ALGEBRO-GEOMETRIChESKIE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/56_82_ALGEBRO-GEOMETRIChESKIE]]/URI$ - поля, $URI[[http://libmeta.ru/fme/formula/aux/56_83_ALGEBRO-GEOMETRIChESKIE]]/URI$ простран- ственно-временные координаты. Эта система прежде всего представляется в виде необходимого (часто и достаточного) условия интегрируемости вспомогательной линейной системы $URI[[http://libmeta.ru/fme/formula/aux/56_84_ALGEBRO-GEOMETRIChESKIE]]/URI$. Здесь $URI[[http://libmeta.ru/fme/formula/aux/56_85_ALGEBRO-GEOMETRIChESKIE]]/URI$ неизвестные функции линейной задачи (скажем, функция Бейкера - Ахиезера), а $URI[[http://libmeta.ru/fme/formula/aux/56_86_ALGEBRO-GEOMETRIChESKIE]]/URI$ означает нек-рое семейство параметров, часто называемых спектральными. Когда такое представление установлено, решения вспомогательной линейной системы либо строятся явно, либо характеризуются своими свойствами, напр. асимптотиками или сингулярностями. При такой характеризации на первый план выступает зависимость $URI[[http://libmeta.ru/fme/formula/aux/56_87_ALGEBRO-GEOMETRIChESKIE]]/URI$ от параметров $URI[[http://libmeta.ru/fme/formula/aux/56_88_ALGEBRO-GEOMETRIChESKIE]]/URI$; более того, область значений $URI[[http://libmeta.ru/fme/formula/aux/56_89_ALGEBRO-GEOMETRIChESKIE]]/URI$ обычно комплексифицируется. Типичный пример - данные рассеяния в обратной задаче теории рассеяния или точка кривой $URI[[http://libmeta.ru/fme/formula/aux/56_90_ALGEBRO-GEOMETRIChESKIE]]/URI$ в методе Кричевера.
+
+Однако и для теории твисторного преобразования и для геометрич. описания метода Кричевера полезнее другой способ описания зависимости $URI[[http://libmeta.ru/fme/formula/aux/56_91_ALGEBRO-GEOMETRIChESKIE]]/URI$ от $URI[[http://libmeta.ru/fme/formula/aux/56_92_ALGEBRO-GEOMETRIChESKIE]]/URI$, в терминах голоморфной геометрии векторного расслоения пространств решений линейной задачи над пространством спектральных параметров $URI[[http://libmeta.ru/fme/formula/aux/56_93_ALGEBRO-GEOMETRIChESKIE]]/URI$. Точнее, пусть $URI[[http://libmeta.ru/fme/formula/aux/56_94_ALGEBRO-GEOMETRIChESKIE]]/URI$ векторное пространство решений $URI[[http://libmeta.ru/fme/formula/aux/56_95_ALGEBRO-GEOMETRIChESKIE]]/URI$ системы $URI[[http://libmeta.ru/fme/formula/aux/56_96_ALGEBRO-GEOMETRIChESKIE]]/URI$ при фиксированных $URI[[http://libmeta.ru/fme/formula/aux/56_97_ALGEBRO-GEOMETRIChESKIE]]/URI$. Тогда $URI[[http://libmeta.ru/fme/formula/aux/56_98_ALGEBRO-GEOMETRIChESKIE]]/URI$ есть нек-рое векторное расслоение, к-рое естественно назвать «обобщенными данными рассеяния». Теперь на геометрич. языке получается следующая схема.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/56_99_ALGEBRO-GEOMETRIChESKIE]]/URI$ двойное расслоение комплексных многообразий (или даже супермногообразий). Точки $URI[[http://libmeta.ru/fme/formula/aux/56_100_ALGEBRO-GEOMETRIChESKIE]]/URI$ параметризуют нек-рое семейство подмногообразий $URI[[http://libmeta.ru/fme/formula/aux/56_101_ALGEBRO-GEOMETRIChESKIE]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/56_102_ALGEBRO-GEOMETRIChESKIE]]/URI$, обычно компактных. Ставится задача: построить голоморфные векторные расслоения на $URI[[http://libmeta.ru/fme/formula/aux/56_103_ALGEBRO-GEOMETRIChESKIE]]/URI$, к-рые при ограничении на каждое $URI[[http://libmeta.ru/fme/formula/aux/56_104_ALGEBRO-GEOMETRIChESKIE]]/URI$ изоморфны расслоениям данного типа (обычно тривиальным). Связь с предыдущим описанием такова.
+
+a) $URI[[http://libmeta.ru/fme/formula/aux/56_105_ALGEBRO-GEOMETRIChESKIE]]/URI$ играет роль спектрального пространства, а допустимые расслоения $URI[[http://libmeta.ru/fme/formula/aux/56_106_ALGEBRO-GEOMETRIChESKIE]]/URI$ на нем суть обобщенные данные рассеяния.
+
+б) Решения линейной задачи - это сечения $URI[[http://libmeta.ru/fme/formula/aux/56_107_ALGEBRO-GEOMETRIChESKIE]]/URI$ расслоения $URI[[http://libmeta.ru/fme/formula/aux/56_108_ALGEBRO-GEOMETRIChESKIE]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/56_109_ALGEBRO-GEOMETRIChESKIE]]/URI$, поднятые с $URI[[http://libmeta.ru/fme/formula/aux/56_110_ALGEBRO-GEOMETRIChESKIE]]/URI$. Необходимое, а локально и достаточное, условие этого - уравнение горизонтальности $URI[[http://libmeta.ru/fme/formula/aux/56_111_ALGEBRO-GEOMETRIChESKIE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/56_112_ALGEBRO-GEOMETRIChESKIE]]/URI$ канонич. относительная связность на $URI[[http://libmeta.ru/fme/formula/aux/56_113_ALGEBRO-GEOMETRIChESKIE]]/URI$, то есть дифференцирование вдоль слоев. Это и есть уравнение $URI[[http://libmeta.ru/fme/formula/aux/56_114_ALGEBRO-GEOMETRIChESKIE]]/URI$.
+
+в) Поля $URI[[http://libmeta.ru/fme/formula/aux/56_115_ALGEBRO-GEOMETRIChESKIE]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/56_116_ALGEBRO-GEOMETRIChESKIE]]/URI$ кодируются коэффициентами связности $URI[[http://libmeta.ru/fme/formula/aux/56_117_ALGEBRO-GEOMETRIChESKIE]]/URI$, а также, возможно, глобальными характеристиками расслоения $URI[[http://libmeta.ru/fme/formula/aux/56_118_ALGEBRO-GEOMETRIChESKIE]]/URI$. Априори они определены на $URI[[http://libmeta.ru/fme/formula/aux/56_119_ALGEBRO-GEOMETRIChESKIE]]/URI$, а не на $URI[[http://libmeta.ru/fme/formula/aux/56_120_ALGEBRO-GEOMETRIChESKIE]]/URI$, так что на этом этапе появляется операция спуска на $URI[[http://libmeta.ru/fme/formula/aux/56_121_ALGEBRO-GEOMETRIChESKIE]]/URI$, к-рая может быть не вполне тривиальной. В применении к полям Янга - Миллса это переход к $URI[[http://libmeta.ru/fme/formula/aux/56_122_ALGEBRO-GEOMETRIChESKIE]]/URI$; тот факт, что при этом получается поле Янга - Миллса, то есть связность на $URI[[http://libmeta.ru/fme/formula/aux/56_123_ALGEBRO-GEOMETRIChESKIE]]/URI$, не очевиден и верен лишь для расслоений, допустимых на $URI[[http://libmeta.ru/fme/formula/aux/56_124_ALGEBRO-GEOMETRIChESKIE]]/URI$, в данном случае тривиальных на слоях $URI[[http://libmeta.ru/fme/formula/aux/56_125_ALGEBRO-GEOMETRIChESKIE]]/URI$.
+
+г) Наконец, нелинейная система $URI[[http://libmeta.ru/fme/formula/aux/56_126_ALGEBRO-GEOMETRIChESKIE]]/URI$ есть спуск на $URI[[http://libmeta.ru/fme/formula/aux/56_127_ALGEBRO-GEOMETRIChESKIE]]/URI$ условия интегрируемости $URI[[http://libmeta.ru/fme/formula/aux/56_128_ALGEBRO-GEOMETRIChESKIE]]/URI$. То обстоятельство, что при таком спуске получаются физически интересные уравнения, и является замечательным свойством метода твисторного преобразования. Слои проекции $URI[[http://libmeta.ru/fme/formula/aux/56_129_ALGEBRO-GEOMETRIChESKIE]]/URI$, возможно, имеют физич. смысл. В другом контексте они появились (под названием гармонич. пространств) в теории супергравитации (в работах В. И. Огиевецкого с сотрудниками).
+
+Далее описана геометрия тех двойных расслоений, к-рые приводят к физически интересным задачам над комплексифицированным пространством-временем - грассманианом $URI[[http://libmeta.ru/fme/formula/aux/56_130_ALGEBRO-GEOMETRIChESKIE]]/URI$ двумерных плоскостей в четырехмерном пространстве твисторов $URI[[http://libmeta.ru/fme/formula/aux/56_131_ALGEBRO-GEOMETRIChESKIE]]/URI$.
+
+1) Уравнения автодуальности. Здесь $URI[[http://libmeta.ru/fme/formula/aux/56_132_ALGEBRO-GEOMETRIChESKIE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/56_133_ALGEBRO-GEOMETRIChESKIE]]/URI$ или область в этом пространстве. Реализуя $URI[[http://libmeta.ru/fme/formula/aux/56_134_ALGEBRO-GEOMETRIChESKIE]]/URI$ как пространство прямых в $URI[[http://libmeta.ru/fme/formula/aux/56_135_ALGEBRO-GEOMETRIChESKIE]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/56_136_ALGEBRO-GEOMETRIChESKIE]]/URI$ как пространство $URI[[http://libmeta.ru/fme/formula/aux/56_137_ALGEBRO-GEOMETRIChESKIE]]/URI$-флагов, получают двойное расслоение. Голоморфным решениям уравнения автодуальности в $URI[[http://libmeta.ru/fme/formula/aux/56_138_ALGEBRO-GEOMETRIChESKIE]]/URI$ отвечают допустимые, то есть тривиальные вдоль $URI[[http://libmeta.ru/fme/formula/aux/56_139_ALGEBRO-GEOMETRIChESKIE]]/URI$ расслоения на части $URI[[http://libmeta.ru/fme/formula/aux/56_140_ALGEBRO-GEOMETRIChESKIE]]/URI$, параметризуемой $URI[[http://libmeta.ru/fme/formula/aux/56_141_ALGEBRO-GEOMETRIChESKIE]]/URI$.
+
+2) Полные вакуумные уравнения Янга М иллса. Здесь $URI[[http://libmeta.ru/fme/formula/aux/56_142_ALGEBRO-GEOMETRIChESKIE]]/URI$ график отношения инцидентности, изоморфный пространству флагов $URI[[http://libmeta.ru/fme/formula/aux/56_143_ALGEBRO-GEOMETRIChESKIE]]/URI$. Локально по $URI[[http://libmeta.ru/fme/formula/aux/56_144_ALGEBRO-GEOMETRIChESKIE]]/URI$ голоморфные поля Янга - Миллса взаимно однозначно соответствуют расслоениям на $URI[[http://libmeta.ru/fme/formula/aux/56_145_ALGEBRO-GEOMETRIChESKIE]]/URI$, тривиальным вдоль $URI[[http://libmeta.ru/fme/formula/aux/56_146_ALGEBRO-GEOMETRIChESKIE]]/URI$. Решения вакуумных уравнений Янга - Миллса отвечают расслоениям, продолжаемым на третью инфинитезимальную окрестность $URI[[http://libmeta.ru/fme/formula/aux/56_147_ALGEBRO-GEOMETRIChESKIE]]/URI$. Этот результат допускает серию важных обобщений на различные системы уравнений для полей Янга - Миллса с полями Хиггса, для суперсимметричных полей Янга - Миллса и др.
+
+Аналогичное описание допускают поля Янга - Миллса в десятимерном пространстве, а также нек-рые поля, взаимодействующие с супергравитацией.
+
+Кроме редукции к алгебро-геометрич. задаче конструкции расслоений определенного типа методы алгебраич. геометрии применяются и к решению этой задачи. Известно несколько подходов. Метод монад, строящий расслоение в виде когомологий трехчленного комплекса простого вида, оказался весьма успешным в задаче описания инстантонов. Метод расширений применялся к исследованию монополей. Метод многомерных функций Бейкера применим ко всем рассмотренным выше системам уравнений. Метод задачи Римана наиболее близок к исходной идеологии обратной задачи теории рассеяния и эффективен во многих двумерных задачах.
+
+URI[[http://libmeta.ru/fme/relation/56_26_ALGEBRO-GEOMETRIChESKIE]]/URI бозонной струны. Квантовая теория бозонных струн в URI[[http://libmeta.ru/fme/relation/56_25_ALGEBRO-GEOMETRIChESKIE]]/URI Полякова основана на URI[[http://libmeta.ru/fme/relation/56_24_ALGEBRO-GEOMETRIChESKIE]]/URI интегрировании по URI[[http://libmeta.ru/fme/relation/56_23_ALGEBRO-GEOMETRIChESKIE]]/URI метризованных поверхностей в пространстве-времени. Учет взаимодействия струн происходит путем суммирования по поверхностям всех родов. При фиксированном роде классич. URI[[http://libmeta.ru/fme/relation/56_22_ALGEBRO-GEOMETRIChESKIE]]/URI инвариантно относительно бесконечномерной калибровочной URI[[http://libmeta.ru/fme/relation/56_21_ALGEBRO-GEOMETRIChESKIE]]/URI, включающей URI[[http://libmeta.ru/fme/relation/56_20_ALGEBRO-GEOMETRIChESKIE]]/URI репараметризаций поверхности и URI[[http://libmeta.ru/fme/relation/56_19_ALGEBRO-GEOMETRIChESKIE]]/URI URI[[http://libmeta.ru/fme/relation/56_18_ALGEBRO-GEOMETRIChESKIE]]/URI URI[[http://libmeta.ru/fme/relation/56_17_ALGEBRO-GEOMETRIChESKIE]]/URI. Все URI[[http://libmeta.ru/fme/relation/56_16_ALGEBRO-GEOMETRIChESKIE]]/URI исчезают, если размерность пространства-времени принимает классич. значение 26. Факторизация URI[[http://libmeta.ru/fme/relation/56_15_ALGEBRO-GEOMETRIChESKIE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/56_148_ALGEBRO-GEOMETRIChESKIE]]/URI$-петлевого вклада в ряд URI[[http://libmeta.ru/fme/relation/56_14_ALGEBRO-GEOMETRIChESKIE]]/URI приводит К алгебраич. URI[[http://libmeta.ru/fme/relation/56_13_ALGEBRO-GEOMETRIChESKIE]]/URI конечной размерности $URI[[http://libmeta.ru/fme/formula/aux/56_149_ALGEBRO-GEOMETRIChESKIE]]/URI$ (1 при $URI[[http://libmeta.ru/fme/formula/aux/56_150_ALGEBRO-GEOMETRIChESKIE]]/URI$, к-рое является классич. пространством модулей Римана $URI[[http://libmeta.ru/fme/formula/aux/56_151_ALGEBRO-GEOMETRIChESKIE]]/URI$. Сам этот вклад оказывается интегралом от квадрата модуля URI[[http://libmeta.ru/fme/relation/56_12_ALGEBRO-GEOMETRIChESKIE]]/URI формы, к-рая однозначно определяется своими полюсами на границе (см. [18]) и была ранее построена Д. Мамфордом (d. Mumford) из чисто алгебро-геометрич. соображений. В явном виде форму Мамфорда можно записать через URI[[http://libmeta.ru/fme/relation/56_11_ALGEBRO-GEOMETRIChESKIE]]/URI.
+
+Аналогичная теория существует для URI[[http://libmeta.ru/fme/relation/56_10_ALGEBRO-GEOMETRIChESKIE]]/URI двумерной конформной URI[[http://libmeta.ru/fme/relation/56_9_ALGEBRO-GEOMETRIChESKIE]]/URI. Весьма важным развитием алгебро-геометрич. методов являются недавние работы нескольких групп исследователей, установивших связь геометрич. картины с операторной техникой. В общих чертах эта связь состоит в том, что на подходящие пространства модулей URI[[http://libmeta.ru/fme/relation/56_8_ALGEBRO-GEOMETRIChESKIE]]/URI URI[[http://libmeta.ru/fme/relation/56_7_ALGEBRO-GEOMETRIChESKIE]]/URI Вирасоро (а также URI[[http://libmeta.ru/fme/relation/56_6_ALGEBRO-GEOMETRIChESKIE]]/URI Каца - Муди) и между представлениями этих URI[[http://libmeta.ru/fme/relation/56_5_ALGEBRO-GEOMETRIChESKIE]]/URI в пространствах URI[[http://libmeta.ru/fme/relation/56_4_ALGEBRO-GEOMETRIChESKIE]]/URI, с одной стороны, и пучками $URI[[http://libmeta.ru/fme/formula/aux/56_152_ALGEBRO-GEOMETRIChESKIE]]/URI$-модулей на пространстве модулей, с другой, существует соответствие того же типа, как соответствие Бореля - Вейля в теории URI[[http://libmeta.ru/fme/relation/56_3_ALGEBRO-GEOMETRIChESKIE]]/URI групп Ли и его современные URI[[http://libmeta.ru/fme/relation/56_2_ALGEBRO-GEOMETRIChESKIE]]/URI.
+
+Другие приложения. Алгебро-геометрич. методы применяются также к интегрированию многих конкретных физически важных уравнений, развитию теории URI[[http://libmeta.ru/fme/relation/56_1_ALGEBRO-GEOMETRIChESKIE]]/URI с неподвижными особенностями, точно решаемым в эллиптич. функциях статистич. моделям и всей проблематике уравнений Янга - Бакстера и др.</text>
+  <text_orig>методы, связанные с работами по вполне интегрируемым системам и методу обратной задачи рассеяния (см. [11], [8]), а также твисторного преобразования Пенроуза - Уорда (см. [14], [10]), сохраняющие многообразные связи и с классическими работами. Алгебраические аспекты методов связаны с унификацией и прояснением классич. приемов конструкций точных решений (напр., кноидальных волн и волчка Ковалевской). В этом они согласованы с методами теории симметрий, теории представлений, интегральных преобразований типа Радона, Гильберта и др. Геометрич. аспекты можно рассматривать как вариант методики качественной теории дифференциальных уравне- ний, в к-ром - и это характерно - вещественная и локальная ситуация заменяется на комплексную и глобальную. Если первые успехи А.-г. м. были связаны с более или менее явным описанием больших классов точных решений классич. нелинейных уравнений солитонного, квазипериодического, инстантонного или монопольного типа, то в последнее десятилетие к этому кругу вопросов добавились квантовый метод обратной задачи ([12], [13]) и проблематика квантовой теории струн и суперструн и двумерной квантовой теории поля ([17], [18]). В последнем круге вопросов язык алгебраич. геометрии является не просто технич. средством, но отвечает существу дела: основные величины теории (статсумма и корреляторы) пишутся в терминах пространств модулей алгебраич. кривых (комплексных римановых поверхностей). Наконец, запросы физики оказали серьезное обратное влияние на саму алгебраич. геометрию, а также топологию: была сформулирована и доказана ги потеза Новикова ([3], [2]), дающая новый подход к классич. задаче о выделении якобианов среди всех абелевых многообразий; произошли заметные сдвиги в проблеме классификации алгебраич. векторных расслоений; были построены новые инварианты в топологии трех- и четырехмерных многообразий.
+
+Нелинейные волны. Кортевега - де Фриса уравнение
+
+\[
+u_{t}-6 u u_{x}-u_{x x x}=0
+\]
+
+описывает волны в одномерной среде со слабой дисперсией и слабой нелинейностью. Учет слабых трансверсальных возмущений приводит к Кадомцева - Петвиашвили уравнению
+
+\[
+(3 / 4) u_{y y}+u_{x t}+(1 / 4)\left(u_{x x x}+6 u u_{x}\right)_{t}=0 .
+\]
+
+А.-г. м. получения точных решений иллюстрируются на этих двух классич. примерах.
+
+Простейшие решения уравнения Кортевега - де Фриса имеют вид бегушей волны:
+
+\[
+u(x, t)=U(x-v t)
+\]
+
+после подстановки в уравнение Кортевега - де Фриса и интегрирования (дважды) получают
+
+\[
+U^{\prime 2}=2 U^{3}+v U^{2}+a U+b .
+\]
+
+Общее решение этого уравнения задается §-функщией Вейерштрасса:
+
+\[
+U(x-v t)=c_{1} \wp(x-v t)+c_{2} .
+\]
+
+Функция Вейерштрасса мероморфна на комплексной плоскости и имеет два независимых периода. Она и ее производная порождают поле мероморфных функций на одномерном комплексном торе или, что то же, на комплексной алгебраич. кривой рода единица. Оказывается, аналогичные решения уравнения Кортевега - де Фриса можно строить по любой гиперэллиптич. кривой, задаваемой уравнением $y^{2}=F(x)(F-$ многочлен). Причина этого в том, что данное уравнение допускает представление Лакса
+
+где
+
+\[
+L_{t}=[P, L]
+\]
+
+\[
+\begin{gathered}
+L=-\partial^{2} / \partial x^{2}+u(x, t) \\
+P=-4 \partial^{3} / \partial x^{3}+3(u \partial / \partial x+\partial / \partial x \circ u) .
+\end{gathered}
+\]
+
+Алгебро-геометрич. решения уравнения Кортевега - де Фриса суть совместные решения уравнений $L_{t}=[P, L]$ и $[Q, L]=0$, где $Q-$ вспомогательный оператор (это дополнительное условие играет роль нетривиального обобщения условия «бегущей волны»). Уравнение $[Q, L]=0$ является стационарным: время в него не входит. Два коммутирующих линейных одномерных дифференциальных оператора связаны полиномиальным соотношением с постоянными коэффишиентами. Это соотношение определяет аффинную алгебракч. кривую $C_{0}$. Пусть $g$ - род ее неособой модели $C$. По $C$ определяется $g$-мерный комплексный тор - якобиан $C$, являюшийся обобщением эллиптич. кривой. Во многих важных случаях эволюция $L$ со временем в силу уравнения Кортевега - де Фриса может быть описана как линейное движение точки по якобиану. Именно, для точки $(q, l)$ кривой $C_{0}$ рассматривается пространство функций $\Psi(x)$, собственных для $(Q, L)$ с этими собственными значениями. Пусть оно одномерно. Получающаяся система линейных пространств в благоприятных условиях продолжается до линейного одномерного расслоения над $C$. Но такое расслоение и есть точка якобиана; остается включить пространственно-временную зависимость и показать, что она линейна. Функция $\Psi$, записанная в подходящей тривиализации, называется функцией Бейкера - Ахие з е р a.
+
+Аналитич. описание ситуации требует введения классич. функций, необходимых также в теории струн и конформной теории поля на римановых поверхностях. На компактной римановой поверхности $C$ рода $g$ можно выбрать базис группы гомологий $H_{1}(C, \mathbb{Z})$ вида $\left(a_{i}, b_{j}\right), i, j=1, \ldots, g$, так, что $\left\langle a_{i}, b_{j}\right\rangle=\delta_{i j}$ (классич. система разрезов). Голоморфные формы $\omega_{j}$ на $C$ образуют базис Римана, если их $a$-периоды образуют единичную матрицу. Пусть $B$ - матрица соответствующих $b$-периодов. По ней строится тета-функция Римана
+
+\[
+\theta(p)=\sum_{k \in \mathbb{Z}^{g}} \exp (\pi i\langle B k, k\rangle+2 \pi i\langle p, k\rangle), \quad p \in \mathbb{C}^{g} .
+\]
+
+Фиксируем теперь точку на бесконечности $P_{0} \in C$, локальный параметр $k^{-1}$ в ее окрестности, два многочлена $R, Q \in \mathbb{C}(k)$ и неспециальный дивизор
+
+\[
+D=\sum_{i=1}^{g} P_{i}
+\]
+
+По определению, функция Бейкера - Ахиезера $\Psi(x, y, t, P)-$ это единственная мероморфная функция на $\mathbb{C}^{3}\left(C-P_{0}\right)$, у к-рой дивизор полюсов по $P$ совпадает с $D$ при любых $x, y, t$ и К-рая в $P_{0}$ имеет существенную особенность вида
+
+$\Psi(x, y, t, P)=\exp [x k(P)+y R(k(P))+t Q(k(P))]\left(1+O\left(k^{-1}(P)\right)\right.$, причем $\Psi(0,0,0, P)=1$. Она допускает следующее выражение через тета-функцию Римана $\theta(\cdot)$ :
+
+\[
+\begin{gathered}
+\Psi(x, y, t, P)= \\
+=\frac{\theta(\omega(P)-e(x, y, t)) \theta(-e(0,0,0))}{\theta(\omega(P)-e(0,0,0)) \theta(-e(x, y, t))} \exp \left(\int_{P_{0}}^{P} \omega_{1} x+\omega_{2} y+\omega_{3} t\right) .
+\end{gathered}
+\]
+
+Здесь $e-$ нек-рая линейная функция, к-рую можно выписать явно; $\omega_{1}, \omega_{2}, \omega_{3}$ - нормированные дифференциалы второго рода с единственным полюсом в $P_{0}$ и главными частями $d(k+c \log k), d R(k), d Q(k)$ соответственно.
+
+М т д К р иче ве р а конструкции алгебро-геометрич. решений уравнений типа Лакса состоит в серии следующих замечаний. Пусть $A$ - кольцо мероморфных функций на $C$ с полюсом в $P_{0}$. Тогда по любой $f \in A$ однозначно определяется дифференциальный оператор (по $x$ ) $L_{f}$ такой, что $L_{f} \Psi=f \Psi$. Это следует из сравнения сингулярностей в левой и правой частях и теоремы единственности. Все операторы $L_{f}$ попарно коммутируют, что доставляет решения серии стационарных уравнений Лакса. Исследование эволюции этих решений по $t$ показывает, что они удовлетворяют нестационарным уравнениям Лакса. Наконец, включение $y$ приводит к уравнению 3 ахарова - Шабата
+
+\[
+\partial_{y} P-\partial_{t} L=[L, P]
+\]
+
+частным случаем к-рого является уравнение Кадомцева Петвиашвили. Условие $L=-\partial^{2}+u$ приводит к тому, что $C-$ гиперэллиптич. кривая, а потенциал $u$ выражается в виде
+
+\[
+-2 \partial_{x}^{2} \log \theta(a x+b t+c)+d
+\]
+
+где $\theta$ - тета-функция Римана этой кривой. Метод Кричевера применим к болышому количеству других уравнений. Центральная роль функции $\Psi$ связывает его с методом обратной задачи теории рассеяния, где аналогом $\Psi$ является решение уравнения Шредингера, имеюшее на бесконечности асимптотику плоской волны. Далее показано, что и твисторное преобразование может быть описано по параллельной схеме.
+
+Поля Янга - Миллса и инстантоны. Поле Янга М иллс а над римановым многообразием $M$ - это связность в векторном расслоении $E$ над $M$ со структурной группой $G$. Выбрав систему координат и тривиализацию $E$, можно задать поле коэффициентами формы связности $A_{a}$ и формы кривизны $F_{a b}$. Действие этого поля есть
+
+\[
+-\int \operatorname{Tr} F_{a b} F^{a b} \text { vol. }
+\]
+
+Соответствующие динамич. уравнения имеют вид
+
+\[
+\partial_{a} F^{a b}+\left[A_{a}, F^{a b}\right]=0,
+\]
+
+то есть представляют собой некоммутативное обобщение уравнений Максвелла. В отличие от последних, классич. поля Янга - Миллса физически не интерпретируются и интересны главным образом с точки зрения квантовой теории поля. Один из математически интересных классов решений уравнения Янга - Миллса - инстантоны; это поля на $S^{4}$ (или на более общем компактном римановом многообразии). Поскольку 2-формы на четырехмерном римановом многообразии распадаются в прямую сумму правых и левых, из тождества Бианки видно, что поле с чисто левой (автодуальное) или чисто правой (антиавтодуальное) формой кривизны является экстремумом действия. И н с т а н т о н о м называется автодуальное поле Янга - Миллса на $\mathbb{R}^{4}$ со следуюшими свойствами: a) группа $G$ простая компактная; б) поле Янга - Миллса продолжается до связности на расслоении $\hat{E}$ на компактификации $S^{4}$ пространства $\mathbb{R}^{4}$. Число Понтрягина $\hat{E}_{\text {называется т о полог иче - }}$ с к и м за рядом инстантона. С точностью до множителя оно совпадает с его действием. Инстантоны доставляют минимумы евклидова действия и потому, возможно, дают существенный вклад в континуальный интеграл.
+
+Описание инстантонов состоит из двух частей - редукции к алгебро-геометрич. задаче и решения этой задачи. Первая часть сводится к теореме Атьи - Уорда: инстантоны с группой $G$ и топологич. зарядом $k$ взаимно однозначно отвечают голоморфным векторным расслоениям над $C P^{3}$, структурная группа к-рых редуцирована до $G$ (посредством голоморфной билинейной формы и вещественной либо кватернионной структуры, продолжающей стандартную структуру без неподвижных точек на $C P^{3}$ ) и к-рые тривиальны на всех вещественных прямых $C P^{3}$. Вторая часть состоит в классификации соответствующих голоморфных расслоений. Они автоматически оказываются алгебраич. многообразиями, и методы алгебраич. геометрии позволяют явно описать их, сведя к данным линейной aлгебры: нескольким числовым матрицам, связанным квадратными уравнениями.
+
+K описанию автодуальных решений уравнений Янга Миллса, но с другими условиями на бесконечности, сводятся также уравнения Богомольного для магнитных монополей с неабелевой структурной группой. Их решение алгебро-геометрич. средствами также включает в качестве первого шага редукцию к алгебро-геометрич. задаче методами типа Радона - Пенроуза - Уорда. Ниже описана общая схема этого метода, родственного методам Кричевера и обратной задачи теории рассеяния.
+
+Метод обратной задачи теории рассеяния известен во многих вариантах; общие черты большинства из них состоят в следующем. Пусть задана нек-рая нелинейная система уравнений $F(u, x)=0$, где $u$ - поля, $x-$ простран- ственно-временные координаты. Эта система прежде всего представляется в виде необходимого (часто и достаточного) условия интегрируемости вспомогательной линейной системы $G(u, x, \Psi, \lambda)=0$. Здесь $\Psi-$ неизвестные функции линейной задачи (скажем, функция Бейкера - Ахиезера), а $\lambda$ означает нек-рое семейство параметров, часто называемых спектральными. Когда такое представление установлено, решения вспомогательной линейной системы либо строятся явно, либо характеризуются своими свойствами, напр. асимптотиками или сингулярностями. При такой характеризации на первый план выступает зависимость $\Psi$ от параметров $\lambda$; более того, область значений $\lambda$ обычно комплексифицируется. Типичный пример - данные рассеяния в обратной задаче теории рассеяния или точка кривой $C$ в методе Кричевера.
+
+Однако и для теории твисторного преобразования и для геометрич. описания метода Кричевера полезнее другой способ описания зависимости $\Psi$ от $\lambda$, в терминах голоморфной геометрии векторного расслоения пространств решений линейной задачи над пространством спектральных параметров $L$. Точнее, пусть $E(\lambda)-$ векторное пространство решений $\Psi(x, \lambda)$ системы $G(u, x, \Psi, \lambda)=0$ при фиксированных $u$. Тогда $E=\cup_{\lambda \in L} E(\lambda)$ есть нек-рое векторное расслоение, к-рое естественно назвать «обобщенными данными рассеяния». Теперь на геометрич. языке получается следующая схема.
+
+Пусть $p_{1}: Z \rightarrow X, p_{2}: Z \rightarrow U-$ двойное расслоение комплексных многообразий (или даже супермногообразий). Точки $u \in U$ параметризуют нек-рое семейство подмногообразий $Y(u)=p_{1} p_{2}^{-1}(u)$ в $X$, обычно компактных. Ставится задача: построить голоморфные векторные расслоения на $X$, к-рые при ограничении на каждое $Y(u)$ изоморфны расслоениям данного типа (обычно тривиальным). Связь с предыдущим описанием такова.
+
+a) $X$ играет роль спектрального пространства, а допустимые расслоения $E$ на нем суть обобщенные данные рассеяния.
+
+б) Решения линейной задачи - это сечения $\Psi$ расслоения $p_{1}^{*}(E)$ на $Z$, поднятые с $X$. Необходимое, а локально и достаточное, условие этого - уравнение горизонтальности $\nabla_{Z / X}(\Psi)=0$, где $\nabla_{Z / X}-$ канонич. относительная связность на $p_{1}^{*}(E)$, то есть дифференцирование вдоль слоев. Это и есть уравнение $G(u, x, \Psi, \lambda)=0$.
+
+в) Поля $u$ на $U$ кодируются коэффициентами связности $\nabla_{Z / X}$, а также, возможно, глобальными характеристиками расслоения $E$. Априори они определены на $Z$, а не на $U$, так что на этом этапе появляется операция спуска на $U$, к-рая может быть не вполне тривиальной. В применении к полям Янга - Миллса это переход к $p_{2}^{*}\left(\nabla_{Z / X}\right)$; тот факт, что при этом получается поле Янга - Миллса, то есть связность на $p_{2}^{*} p_{1}^{*}(E)$, не очевиден и верен лишь для расслоений, допустимых на $Z$, в данном случае тривиальных на слоях $p_{1}$.
+
+г) Наконец, нелинейная система $F(u, x)=0$ есть спуск на $U$ условия интегрируемости $\nabla^{2} Z / X=0$. То обстоятельство, что при таком спуске получаются физически интересные уравнения, и является замечательным свойством метода твисторного преобразования. Слои проекции $p_{2}$, возможно, имеют физич. смысл. В другом контексте они появились (под названием гармонич. пространств) в теории супергравитации (в работах В. И. Огиевецкого с сотрудниками).
+
+Далее описана геометрия тех двойных расслоений, к-рые приводят к физически интересным задачам над комплексифицированным пространством-временем - грассманианом $G(2, T)$ двумерных плоскостей в четырехмерном пространстве твисторов $T$.
+
+1) Уравнения автодуальности. Здесь $X=C P^{3}$, $Y(u)=C P^{1}, U=G(2, T)$ или область в этом пространстве. Реализуя $X$ как пространство прямых в $T$, а $Z-$ как пространство $F(1,2 ; T)(1,2)$-флагов, получают двойное расслоение. Голоморфным решениям уравнения автодуальности в $U$ отвечают допустимые, то есть тривиальные вдоль $Y(u)$ расслоения на части $X$, параметризуемой $U$.
+
+2) Полные вакуумные уравнения Янга М иллса. Здесь $X \subset P(T) \times P\left(T^{*}\right)-$ график отношения инцидентности, изоморфный пространству флагов $F(1,3 ; T), \quad Y(u)=P^{1} \times P^{1}, U=G(2 ; T), \quad Z=F(1,2,3 ; T)$. Локально по $U$ голоморфные поля Янга - Миллса взаимно однозначно соответствуют расслоениям на $X$, тривиальным вдоль $Y(u)$. Решения вакуумных уравнений Янга - Миллса отвечают расслоениям, продолжаемым на третью инфинитезимальную окрестность $X$. Этот результат допускает серию важных обобщений на различные системы уравнений для полей Янга - Миллса с полями Хиггса, для суперсимметричных полей Янга - Миллса и др.
+
+Аналогичное описание допускают поля Янга - Миллса в десятимерном пространстве, а также нек-рые поля, взаимодействующие с супергравитацией.
+
+Кроме редукции к алгебро-геометрич. задаче конструкции расслоений определенного типа методы алгебраич. геометрии применяются и к решению этой задачи. Известно несколько подходов. Метод монад, строящий расслоение в виде когомологий трехчленного комплекса простого вида, оказался весьма успешным в задаче описания инстантонов. Метод расширений применялся к исследованию монополей. Метод многомерных функций Бейкера применим ко всем рассмотренным выше системам уравнений. Метод задачи Римана наиболее близок к исходной идеологии обратной задачи теории рассеяния и эффективен во многих двумерных задачах.
+
+Статистическая сумма бозонной струны. Квантовая теория бозонных струн в варианте Полякова основана на континуальном интегрировании по функциональному пространству метризованных поверхностей в пространстве-времени. Учет взаимодействия струн происходит путем суммирования по поверхностям всех родов. При фиксированном роде классич. действие инвариантно относительно бесконечномерной калибровочной группы, включающей группу репараметризаций поверхности и группу конформных преобразований метрики. Все квантовые аномалии исчезают, если размерность пространства-времени принимает классич. значение 26. Факторизация функционального пространства $g$-петлевого вклада в ряд теории возмущений приводит К алгебраич. многообразию конечной размерности $3 \mathrm{~g}-3$ (1 при $g=1)$, к-рое является классич. пространством модулей Римана $M_{g}$. Сам этот вклад оказывается интегралом от квадрата модуля голоморфной формы, к-рая однозначно определяется своими полюсами на границе (см. [18]) и была ранее построена Д. Мамфордом (D. Mumford) из чисто алгебро-геометрич. соображений. В явном виде форму Мамфорда можно записать через тета-функцию Римана.
+
+Аналогичная теория существует для корреляционных функций двумерной конформной квантовой теории поля. Весьма важным развитием алгебро-геометрич. методов являются недавние работы нескольких групп исследователей, установивших связь геометрич. картины с операторной техникой. В общих чертах эта связь состоит в том, что на подходящие пространства модулей действует комплексная алгебра Вирасоро (а также алгебры Каца - Муди) и между представлениями этих алгебр в пространствах состояний, с одной стороны, и пучками $D$-модулей на пространстве модулей, с другой, существует соответствие того же типа, как соответствие Бореля - Вейля в теории представлений комплексных групп Ли и его современные варианты.
+
+Другие приложения. Алгебро-геометрич. методы применяются также к интегрированию многих конкретных физически важных уравнений, развитию теории Пенлеве уравнений с неподвижными особенностями, точно решаемым в эллиптич. функциях статистич. моделям и всей проблематике уравнений Янга - Бакстера и др.
+
+лит.: [1] Белавин А. А., Дринфельд В. Г., «Функциональный анализ и его приложения», 1982, т. 16, в. 3, с. 1-29; [2] Дубро в и н Б. А., «Успехи математических наук», 1981, т. 36, в. 2, c. 11-80; [3] Дубровин Б. А., Матвеев В. Б., Новиков С. П., там же, 1976, т. 31, в. 1, с. 55-136; [4] Захаров В. Е., Манако в С. В., Нов и ков С. П., П итаевск й Й Л. П., Теория солито- нов. Метод обратной задачи, М., 1980; [5] Кап р а но в М. М., М ан и н Ю. И., “Успехи математических наук», 1986, т. 41, в. 5, с. 85-107; [6] К р ичевер И. М., там же, 1977, т. 32, в. 6, с. 183208; [7] Кри чев р И. М., Нов и ков С. П., «Функциональный анализ и его приложения», 1978 , т. 12, в. 4, с. $42-52$; [8] и х же, «Успехи математических наук», 1980, т. 35, в. 6, с. 47-68; [9] К р и ч евер И. М., в сб.: Современные проблемы математики (Итоги науки и техники, вИНИТИ), М., 1983, т. 23, с. 79-136; [10] Ман и н Ю. И., Калибровочные поля и комплексная геометрия, М., 1984; [11] Н о в и ко в С. П., «Функциональный анализ и его приложения», 1974, т. 8, в. 3, с. 54-76; [12] Т ах т а д жя н Л. А., Ф а д де е е в Л. Д., &quot;Успехи математических наук», 1979, т. 34, в. 5, с. 13-63; [13] их же, Гамильтонов подход в теории солитонов, М., 1986; [14] Твисторы и калибровочные поля, пер. с англ., М., 1983; [15] Atiyah M. F., Drinfeld V. G., Hitchin N. G., Manin Yu.I., «Phys. Lett.», 1978, v. 65A, № 3, p. 185-87; [16] A t i y a h M. F., Hitchin N.G., The geometry and dinamics of magnetic monopoles, Princeton, 1988; [17] B e ilins on A. A., M an in Yu. I., &quot;Comm. Math. Phys.», 1986, v. 107, p. 359-76; [18] B e la v in A. A., K n iz hnik V. A., &quot;Phys. Lett.&quot;, 1986, v. 168B, p. 201-206; [19] G a we dzk i K., «Sem. Bourbaki», 1988-89, № 704; [20] Fri edan D., Shenker S., &quot;Nucl. Phys.», 1987, v. 281B, p. 509-45; [21] Polyak ov A. M., «Phys. Lett.&quot;, 1981, v. 103B, p. 207-10; [22] Ward R., «Phys. Lett.», 1977, v. 61A, p. 81-82; [23] W it e n E., «Phys. Lett.&quot;, 1978, v. 78B, № 4, p. 394-98. Ю. И. Манин.</text_orig>
+</article>

@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1490_KULONOVSKOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1490_KULONOVSKOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/544</core:url>
+    <lbm:descriptor><![CDATA[КУЛОНОВСКОЕ РАССЕЯНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4743"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4744"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4745"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4746"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4747"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4748"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4749"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4750"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4751"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4752"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4753"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4754"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4755"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4756"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4757"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>рассеяние в системе двух частиц с потенциалом<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4745">$$v_{c}(x)=n /|x| .$$</a><BR/></P><P>Для оператора Шредингера<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4746">$$H=-\Delta_{x}+v_{c}(x)$$</a> с кулоновским потенциалом <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4751">$$v_{c}(x)$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa">решения задачи рассеяния</a> определяются с помощью модифицированных волновых операторов:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4747">$$W_{ \pm}^{c}=\underset{t \rightarrow \mp \infty}{\operatorname{sim}} \exp \{i t H\} \exp \left\{-i t H_{0}-i W_{t}\left(H_{0}\right)\right\}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4752">$$w_{t}\left(h_{0}\right)=\operatorname{sign} t \cdot n /\left[2\left(H_{0}\right)^{1 / 2}\right] \ln 4|t| H_{0}, H_{0}=-\Delta_{x}$$</a>. Ядра операторов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4753">$$w_{ \pm}^{c}$$</a> после <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3326_FUR'E">преобразования Фурье</a> по второму аргументу выражаются через решения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3462_ShREDINGERA">уравнения Шредингера</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4754">$$\psi_{c}^{( \pm)}(x, k)$$</a> формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4748">$$W_{ \pm}^{c}(x, k)=(2 \pi)^{-3 / 2} \psi_{c}^{( \pm)}(x, k) .$$</a><BR/></P><P>Функция <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4755">$$\psi_{c}(x, k)$$</a>, удовлетворяющая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3462_ShREDINGERA">уравнению Шредингера</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4749">$$\left\{-\Delta_{x}+v_{c}(x)-k^{2}\right\} \psi_{c(x, k)}=0$$</a><BR/></P><P>может быть явно выражена через вырожденную <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_632_GIPERBOLIChNOST">гипергеометрич</a>. функцию <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4756">$$\phi(a, c, x)$$</a> формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4750">$$\psi_{c}(x, k)=e^{-\pi \eta / 2} \Gamma(1+i \eta) \Phi(-i \eta, 1, i|k| \xi) e^{i(x, k)},$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4757">$$\eta=n / 2|k|, \xi=|x|-(k /|k|, x)$$</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4743">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#571">Do1lard J.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4743">«j. Math. Phys.», 1964, v. 5, p. 729-38</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#4744">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Ньютон Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4744">Теория рассеяния волн и частиц, пер. с англ., М., 1969, С. Л. Яковлев. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[рассеяние в системе двух частиц с потенциалом
+
+\[
+v_{c}(x)=n /|x| .
+\]
+
+Для оператора Шредингера
+
+\[
+H=-\Delta_{x}+v_{c}(x)
+\] с кулоновским потенциалом $v_{c}(x)$ решения задачи рассеяния определяются с помощью модифицированных волновых операторов:
+
+\[
+W_{ \pm}^{c}=\underset{t \rightarrow \mp \infty}{\operatorname{sim}} \exp \{i t H\} \exp \left\{-i t H_{0}-i W_{t}\left(H_{0}\right)\right\}
+\]
+
+где $W_{t}\left(H_{0}\right)=\operatorname{sign} t \cdot n /\left[2\left(H_{0}\right)^{1 / 2}\right] \ln 4|t| H_{0}, H_{0}=-\Delta_{x}$. Ядра операторов $W_{ \pm}^{c}$ после преобразования Фурье по второму аргументу выражаются через решения уравнения Шредингера $\psi_{c}^{( \pm)}(x, k)$ формулой
+
+\[
+W_{ \pm}^{c}(x, k)=(2 \pi)^{-3 / 2} \psi_{c}^{( \pm)}(x, k) .
+\]
+
+Функция $\psi_{c}(x, k)$, удовлетворяющая уравнению Шредингера:
+
+\[
+\left\{-\Delta_{x}+v_{c}(x)-k^{2}\right\} \psi_{c(x, k)}=0
+\]
+
+может быть явно выражена через вырожденную гипергеометрич. функцию $\Phi(a, c, x)$ формулой
+
+\[
+\psi_{c}(x, k)=e^{-\pi \eta / 2} \Gamma(1+i \eta) \Phi(-i \eta, 1, i|k| \xi) e^{i(x, k)},
+\]
+
+где $\eta=n / 2|k|, \xi=|x|-(k /|k|, x)$.
+
+Jum.: [1] Do1lard J., «J. Math. Phys.», 1964, v. 5, p. 729-38; [2] Н ь ю то н Р., Теория рассеяния волн и частиц, пер. с англ., М., $\begin{array}{ll}1969 . & \text { С. П. Меркурьев, С. Л. Яковлев. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_632_GIPERBOLIChNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3462_ShREDINGERA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3462_ShREDINGERA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3326_FUR'E"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

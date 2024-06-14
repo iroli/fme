@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2522_RAZREShIMAJa" alphabetic_pos="2524">
+  <title>РАЗРЕШИМАЯ ГРУППА</title>
+  <authors/>
+  <pages>
+    <start>485</start>
+    <end>485</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2522_1_RAZREShIMAJa">G=G_{0} \supset G_{1} \supset \ldots \supset G_{k}=\{e\}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2522_1_RAZREShIMAJa">g_{i+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2522_2_RAZREShIMAJa">g_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2522_3_RAZREShIMAJa">g_{i} / G_{i+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2522_4_RAZREShIMAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2522_5_RAZREShIMAJa">g_{i} / G_{i+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2522_6_RAZREShIMAJa">е</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2522_7_RAZREShIMAJa">g</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/2522_1_RAZREShIMAJa">
+      <rel_text>Ли алгебра</rel_text>
+      <target>http://libmeta.ru/fme/article/1583_LI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2522_2_RAZREShIMAJa">
+      <rel_text>Группа</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+  </relations>
+  <text>группа, в которой существует цепочка подгрупп
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2522_1_RAZREShIMAJa]]/URI
+\]
+
+таких, что $URI[[http://libmeta.ru/fme/formula/aux/2522_1_RAZREShIMAJa]]/URI$ является нормальной подгруппой в $URI[[http://libmeta.ru/fme/formula/aux/2522_2_RAZREShIMAJa]]/URI$ и факторгруппы $URI[[http://libmeta.ru/fme/formula/aux/2522_3_RAZREShIMAJa]]/URI$ абелевы. Для связных групп Ли обычно используется следующее эквивалентное определение: $URI[[http://libmeta.ru/fme/formula/aux/2522_4_RAZREShIMAJa]]/URI$ р аз реш и ма, если в ней существует цепочка замкнутых нормальных подгрупп (*) таких, что факторгруппы $URI[[http://libmeta.ru/fme/formula/aux/2522_5_RAZREShIMAJa]]/URI$ абелевы (через $URI[[http://libmeta.ru/fme/formula/aux/2522_6_RAZREShIMAJa]]/URI$ обозначена единица группы $URI[[http://libmeta.ru/fme/formula/aux/2522_7_RAZREShIMAJa]]/URI$ ). URI[[http://libmeta.ru/fme/relation/2522_2_RAZREShIMAJa]]/URI Ли разрешима тогда и только тогда, когда ее URI[[http://libmeta.ru/fme/relation/2522_1_RAZREShIMAJa]]/URI разрешима. Любая подгруппа Р. г. Ли разрешима. Любое неприводимое конечномерное представление Р. г. Ли одномерно. Любое конечномерное представление Р. г. Ли в подходящем базисе задается верхнетреугольными матрицами.</text>
+  <text_orig>гpуnпа, в которой существует цепочка подгрупп
+
+\[
+G=G_{0} \supset G_{1} \supset \ldots \supset G_{k}=\{e\}
+\]
+
+таких, что $G_{i+1}$ является нормальной подгруппой в $G_{i}$ и факторгруппы $G_{i} / G_{i+1}$ абелевы. Для связных групп Ли обычно используется следующее эквивалентное определение: $G$ р аз реш и ма, если в ней существует цепочка замкнутых нормальных подгрупп (*) таких, что факторгруппы $G_{i} / G_{i+1}$ абелевы (через $е$ обозначена единица группы $G$ ). Группа Ли разрешима тогда и только тогда, когда ее Ли алгебра разрешима. Любая подгруппа Р. г. Ли разрешима. Любое неприводимое конечномерное представление Р. г. Ли одномерно. Любое конечномерное представление Р. г. Ли в подходящем базисе задается верхнетреугольными матрицами.</text_orig>
+</article>

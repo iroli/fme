@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_497_GALILEJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_497_GALILEJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3027</core:url>
+    <lbm:descriptor><![CDATA[ГАЛИЛЕЯ ПРЕОБРАЗОВАНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#22484"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22485"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22486"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22487"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22488"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_389"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3270"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>преобразование, определяющее в классической механике переход от одной инерциальной системы отсчета к другой, движущейся относительно первой прямолинейно и равномерно. При этом система отсчета понимается как четырехмерная, позволяющая фиксировать три пространственные координаты и отсчет часов (время). Если задана инерциальная система отсчета $URI[[http://libmeta.ru/fme/formula/aux/497_1_GALILEJa]]/URI$, то во всякой другой инерциальной системе $URI[[http://libmeta.ru/fme/formula/aux/497_2_GALILEJa]]/URI$, движущейся относительно нее прямолинейно и равномерно, координаты $URI[[http://libmeta.ru/fme/formula/aux/497_3_GALILEJa]]/URI$ связаны (с точностью до начала и поворота осей) с координатами $URI[[http://libmeta.ru/fme/formula/aux/497_4_GALILEJa]]/URI$ преобразованиями Галилея<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22485">$$x^{\prime}=x-v_{x} t, y^{\prime}=y-v_{y} t, z^{\prime}=z-v_{z} t,$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22488">$$v_{x}, v_{y}, v_{z}$$</a> - компоненты скорости движения системы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22487">$$\left(x^{\prime}, y^{\prime}, z^{\prime}, t^{\prime}\right)$$</a> относительно системы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22486">$$(x, y, z, t)$$</a>.<BR/></P><P>Основные законы классич. механики инвариантны относительно Г. П., но, напр., уравнение распространения фронта световой волны (со скоростью $URI[[http://libmeta.ru/fme/formula/aux/497_8_GALILEJa]]/URI$ ) (электромагнитное явление) не инвариантно относительно Г. П. По этой при- чине Г. П. были обобщены X. Лоренцем (h. Lorentz), см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1660_LORENTsA">Лоренца преобразование</a>. Эти преобразования легли в основу специальной теории относительности. Преобразования Лоренца переходят в Г. п. при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3270">$$v \ll c$$</a>.<BR/></P><P>Г. п. образуют <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группу</a>, являющуюся <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1968_NORMALIZATOR">подгруппой группы</a> неоднородных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_497_GALILEJa">преобразований Галилея</a>, называемой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_496_GALILEJa">Галилея группой</a>, к-рая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">получается</a> из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> Г. п. добавлением смещения начала координат в трехмерном пространстве и начала отсчета времени.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#22484">A. З. Петров</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[преобразование, определяющее в классической механике переход от одной инерциальной системы отсчета к другой, движущейся относительно первой прямолинейно и равномерно. При этом система отсчета понимается как четырехмерная, позволяюшая фиксировать три пространственные координаты и отсчет часов (время). Если задана инерциальная система отсчета $(x, y, z, t)$, то во всякой другой инерциальной системе $\left(x^{\prime}, y^{\prime}, z^{\prime}, t^{\prime}\right)$, движущейся относительно нее прямолинейно и равномерно, координаты $\left(x^{\prime}, y^{\prime}, z^{\prime}, t^{\prime}\right)$ связаны (с точностью до начала и поворота осей) с координатами $(x, y, z, t)$ преобразованиями Галилея
+
+\[
+x^{\prime}=x-v_{x} t, y^{\prime}=y-v_{y} t, z^{\prime}=z-v_{z} t,
+\]
+
+где $v_{x}, v_{y}, v_{z}$ - компоненты скорости движения системы $\left(x^{\prime}, y^{\prime}, z^{\prime}, t^{\prime}\right)$ относительно системы $(x, y, z, t)$.
+
+Основные законы классич. механики инвариантны относительно Г. П., но, напр., уравнение распространения фронта световой волны (со скоростью $c$ ) (электромагнитное явление) не инвариантно относительно Г. П. По этой при- чине Г. П. были обобщены X. Лоренцем (H. Lorentz), см. Лоренца преобразование. Эти преобразования легли в основу специальной теории относительности. Преобразования Лоренца переходят в Г. п. при $v \ll c$.
+
+Г. п. образуют группу, являющуюся подгруппой группы неоднородных преобразований Галилея, называемой Галилея группой, к-рая получается из группы Г. п. добавлением смещения начала координат в трехмерном пространстве и начала отсчета времени.
+
+A. 3. Петров]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1660_LORENTsA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_496_GALILEJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_497_GALILEJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1968_NORMALIZATOR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3242_FAZOVOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2491</core:url>
+    <lbm:descriptor><![CDATA[ФАЗОВОЕ ПРОСТРАНСТВО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#57"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4371"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#19004"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#19005"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19006"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18991"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_818"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_61"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3317"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19007"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19008"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19009"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>множество всевозможных мгновенных состояний некоторой системы, эволюционирующей во времени. При этом обычно предполагается, что эволюционный процесс детерминирован, то есть состояние системы в начальный момент времени однозначно определяет ее будущее (а иногда и прошлое). Напр., Ф. п. механич. системы есть совокупность всех наборов (обобщенных) координат и импульсов. Если <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18991">$$d x / d t=V(x, t)-$$</a> обыкновенное дифференциальное уравнение, заданное на многообразии $URI[[http://libmeta.ru/fme/formula/aux/3242_2_FAZOVOE]]/URI$, то под $URI[[http://libmeta.ru/fme/formula/aux/3242_3_FAZOVOE]]/URI$. п. этого уравнения понимается многообразие $URI[[http://libmeta.ru/fme/formula/aux/3242_4_FAZOVOE]]/URI$. Аналогично, если эволюция системы задана отображением <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_61">$$a: M \rightarrow M$$</a> множества $URI[[http://libmeta.ru/fme/formula/aux/3242_6_FAZOVOE]]/URI$, то оно является Ф. п. этой системы. Ф. п. уравнения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19006">$$x^{(n)}=V\left(x^{(n-1)}, \ldots, x^{\prime}, x, t\right),$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/3242_7_FAZOVOE]]/URI$, есть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19007">$$m n$$</a>-мерное пространство наборов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19008">$$\left(x^{(n-1)}, \ldots\right.$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19009">$$\left.x^{\prime}, x\right)$$</a>.<BR/></P><P>Элементы Ф. П. называются фаз о в м и точ кам и.<BR/></P><P>В зависимости от рассматриваемой задачи Ф. п. может быть наделено структурой топологич. или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1767_METRIK">метрич</a>. пространства, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST">дифференцируемого</a> или симплектич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразия</a>, пространства с мерой, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> Ли и т. д.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa">Динамическая система</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2823_SLUChAJNYJ">Случайный процесс</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4371">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#716">Арнольд В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4371">Обыкновенные дифференциальные уравнения, 3 изд., М., 1984</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#19004">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#716">Арнольд В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2963">Ильяшенко Ю. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#19004">в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, М., 1985, т. 1, с. 7-149</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#19005">[3]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#19005">А н о с о в Д. В. [и др.], там же, с. 151-242.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#57">М. Б. Севрюк</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[множество всевозможных мгновенных состояний некоторой системы, эволюционирующей во времени. При этом обычно предполагается, что эволюционный процесс детерминирован, то есть состояние системы в начальный момент времени однозначно определяет ее будущее (а иногда и прошлое). Напр., Ф. п. механич. системы есть совокупность всех наборов (обобщенных) координат и импульсов. Если $d x / d t=V(x, t)-$ обыкновенное дифференциальное уравнение, заданное на многообразии $M$, то под $\Phi$. п. этого уравнения понимается многообразие $M$. Аналогично, если эволюция системы задана отображением $A: M \rightarrow M$ множества $M$, то оно является Ф. п. этой системы. Ф. п. уравнения
+
+\[
+x^{(n)}=V\left(x^{(n-1)}, \ldots, x^{\prime}, x, t\right),
+\]
+
+где $x \in \mathbb{R}$, есть $m n$-мерное пространство наборов $\left(x^{(n-1)}, \ldots\right.$, $\left.x^{\prime}, x\right)$.
+
+Элементы Ф. П. называются фаз о в м и точ кам и.
+
+В зависимости от рассматриваемой задачи Ф. п. может быть наделено структурой топологич. или метрич. пространства, дифференцируемого или симплектич. многообразия, пространства с мерой, группы Ли и т. д.
+
+См. также Динамическая система, Случайный процесс.
+
+Лит.: [1] Арнольд В. И., Обыкновенные дифференциальные уравнения, 3 изд., М., 1984; [2] Арнольд В. И., Ильяшенко Ю. С., в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 1, М., 1985, с. 7-149; [3] А н о с о в Д. В. [и др.], там же, с. 151-242. М. Б. Севрюк.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2823_SLUChAJNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1767_METRIK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

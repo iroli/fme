@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_906_DUAL'NOST'">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_906_DUAL'NOST'</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3482</core:url>
+    <lbm:descriptor><![CDATA[ДУАЛЬНОСТЬ АНТИСИММЕТРИЧНЫХ ТЕНЗОРОВ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#13374"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_25995"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_25996"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_25997"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1723"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_383"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_25998"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_25999"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26000"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>на $URI[[http://libmeta.ru/fme/formula/aux/906_1_DUAL'NOST']]/URI$-мерном ориентированном римановом многообразии <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1723">$$\boldsymbol{m}$$</a> задается формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_25995">$$\tilde{F}_{j_{1} \ldots j_{n-k}}=\frac{1}{k !} \sqrt{g} \varepsilon_{j_{1} \ldots j_{n-k} i_{1} \ldots i_{k}} F^{i_{1} \ldots i_{k}},$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/906_3_DUAL'NOST']]/URI$ - детерминант метрического тензора, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_383">$$\varepsilon$$</a> - полностью антисимметричный символ Леви-Чивиты. Иначе говоря, переход к дуальному тензору осуществляется поднятием индексов и последующей сверткой с тензором, соответствующим форме объема. Это же преобразование, рассматриваемое как операция на дифференциальных формах, обозначается * и называется о п е р а т о р о м Х оджа. Естественным скалярным произведением двух форм одинаковой степени служит<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_25998">$$\left\langle\omega, \omega^{\prime}\right\rangle=\int_{M} \omega \Lambda * \omega^{\prime}$$</a>.<BR/></P><P>Эти определения применимы и к алгеброзначным тензорам и формам. Если<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_25996">$$F=d A+\frac{1}{2}[A \wedge A]$$</a><BR/></P><P>- напряженность калибровочного поля на 4-мерном <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразии</a>, то решения уравнений дуальности <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_25999">$$* F= \pm F$$</a> называются самодуальным и и антисамодуальным и п о л я м и. В случае неабелевой калибровочной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> имеются решения с нетривиальным целочисленным топологич. зарядом<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_25997">$$q=\left(1 / 32 \pi^{2}\right)\langle F, * F\rangle$$</a><BR/></P><P>\section{- <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1022_INSTANTO">инстантоны</a>.}<BR/></P><P>Jlum.: [1] Ш ут ц Б., Геометрические методы математической физики, пер. с англ., М., 1984; [2] Ш в ар ц А. С., <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa">Квантовая теория поля</a> и топология, М., <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26000">$$1989 . \quad$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#13374">М. А. Соловьев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[на $n$-мерном ориентированном римановом многообразии $\boldsymbol{M}$ задается формулой
+
+\[
+\tilde{F}_{j_{1} \ldots j_{n-k}}=\frac{1}{k !} \sqrt{g} \varepsilon_{j_{1} \ldots j_{n-k} i_{1} \ldots i_{k}} F^{i_{1} \ldots i_{k}},
+\]
+
+где $g$ - детерминант метрического тензора, $\varepsilon$ - полностью антисимметричный символ Леви-Чивиты. Иначе говоря, переход к дуальному тензору осуществляется поднятием индексов и последующей сверткой с тензором, соответствуюшим форме объема. Это же преобразование, рассматриваемое как операция на дифференциальных формах, обозначается * и называется о п е р а т о р о м Х оджа. Естественным скалярным произведением двух форм одинаковой степени служит
+
+$\left\langle\omega, \omega^{\prime}\right\rangle=\int_{M} \omega \Lambda * \omega^{\prime}$.
+
+Эти определения применимы и к алгеброзначным тензорам и формам. Если
+
+\[
+F=d A+\frac{1}{2}[A \wedge A]
+\]
+
+- напряженность калибровочного поля на 4-мерном многообразии, то решения уравнений дуальности $* F= \pm F$ называются самодуальным и и антисамодуальным и п о л я м и. В случае неабелевой калибровочной группы имеются решения с нетривиальным целочисленным топологич. зарядом
+
+\[
+q=\left(1 / 32 \pi^{2}\right)\langle F, * F\rangle
+\]
+
+\section{- инстантоны.}
+
+Jlum.: [1] Ш ут ц Б., Геометрические методы математической физики, пер. с англ., М., 1984; [2] Ш в ар ц А. С., Квантовая теория поля и топология, М., $1989 . \quad$ М. А. Соловьев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1022_INSTANTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

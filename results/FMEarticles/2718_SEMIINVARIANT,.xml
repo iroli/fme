@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2718_SEMIINVARIANT," alphabetic_pos="2720">
+  <title>СЕМИИНВАРИАНТ, ПОЛУИНВАРИАНТ, $n$-ГО ПОРЯДКА</title>
+  <authors>
+    <author>Ю. П. Вирченко</author>
+  </authors>
+  <pages>
+    <start>524</start>
+    <end>525</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ш и ряе в А. Н., Вероятность, М., 1980.</literature_orig>
+    <unit>
+      <author>Ширяев А. Н.</author>
+      <title>Вероятность</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_1_SEMIINVARIANT,">\varphi(t)=E e^{i t \xi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_2_SEMIINVARIANT,">\chi_{n}=\left.(-i)^{n} \frac{d^{n}}{d t^{n}} \ln \varphi(t)\right|_{t=0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_3_SEMIINVARIANT,">\begin{aligned}\varphi_{\xi}(t) &amp; =\mathrm{E} e^{i(t, \xi)}, \\t=\left(t_{1}, \ldots, t_{k}\right), \quad t_{j} &amp; \in \mathbb{R}, \quad(\xi, t)=\sum_{s=1}^{k} \xi_{s} t_{s},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_4_SEMIINVARIANT,">\chi_{n}\left(\xi ; l_{1}, \ldots, l_{k}\right)=\left.(-i)^{n} \frac{\partial^{n} \ln \varphi_{\xi}(t)}{\partial t_{1}^{l_{1}} \ldots \partial t_{k}^{l_{k}}}\right|_{t=0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_5_SEMIINVARIANT,">\chi_{n}\left(\xi+\eta ; l_{1}, \ldots, l_{k}\right)=\chi_{n}\left(\xi ; l_{1}, \ldots, l_{k}\right)+\chi_{n}\left(\eta ; l_{1}, \ldots, l_{k}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_6_SEMIINVARIANT,">\mathrm{E} \xi_{1}^{l_{1}} \ldots \xi_{k}^{l_{k}}=\sum^{*} \frac{n !}{s !} \prod_{j=1}^{s} \frac{1}{l^{(j)} !} \chi_{m}\left(l^{(j)}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_7_SEMIINVARIANT,">\chi_{n}(l)=\sum^{*} \frac{(-1)^{s-1}}{s} n ! \prod_{j=1}^{s} \frac{1}{l^{(j)} !} \mathrm{E} \prod_{i=1}^{k} \xi_{i}^{l_{i}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_8_SEMIINVARIANT,">\begin{gathered}\chi_{1}=E \xi, \chi_{2}=E \xi^{2}-(E \xi)^{2}=D \xi, \\\chi_{3}=E \xi^{3}-3 E \xi E \xi^{2}+2(E \xi)^{3}, \\\chi_{4}=E \xi^{4}-3\left(E \xi^{2}\right)^{2}-4 E \xi E \xi^{3}+12 E \xi^{2}(E \xi)^{2}-6(E \xi)^{4} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_9_SEMIINVARIANT,">K\left(t_{1}, \ldots, t_{n}\right)=\left.(-i)^{n} \frac{\delta^{n} \varphi_{\xi}\{u\}}{\delta u\left(t_{1}\right) \ldots \delta u\left(t_{n}\right)}\right|_{u(t) \equiv 0},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2718_10_SEMIINVARIANT,">\varphi_{\xi}(u)=\operatorname{Eexp}\left\{i \int_{-\infty}^{\infty} u(\tau) \xi(\tau) d \tau\right\}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_1_SEMIINVARIANT,">\chi_{n} n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_2_SEMIINVARIANT,">\xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_3_SEMIINVARIANT,">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_4_SEMIINVARIANT,">\xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_5_SEMIINVARIANT,">\ln \varphi(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_6_SEMIINVARIANT,">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_7_SEMIINVARIANT,">t=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_8_SEMIINVARIANT,">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_9_SEMIINVARIANT,">\xi=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_10_SEMIINVARIANT,">=\left(\xi_{1}, \ldots, \xi_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_11_SEMIINVARIANT,">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_12_SEMIINVARIANT,">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_13_SEMIINVARIANT,">\mathrm{e}\left|\xi_{j}\right|^{n}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_14_SEMIINVARIANT,">j=1, \ldots, k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_15_SEMIINVARIANT,">l_{j} \geqslant 0,|l|=l_{1}+\ldots+l_{k}=n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_16_SEMIINVARIANT,">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_17_SEMIINVARIANT,">\xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_18_SEMIINVARIANT,">\xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_19_SEMIINVARIANT,">\eta=\left(\eta_{1}, \ldots, \eta_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_20_SEMIINVARIANT,">m \leqslant n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_21_SEMIINVARIANT,">\sigma^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_22_SEMIINVARIANT,">l^{(j)}=\left(l_{1}^{(j)}, \ldots, l_{k}^{(j)}\right), l_{i}^{(j)} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_23_SEMIINVARIANT,">\left|l^{(j)}\right|&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_24_SEMIINVARIANT,">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_25_SEMIINVARIANT,">l=\sum_{j} l^{(j)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_26_SEMIINVARIANT,">\left.l^{(j)} !=l_{1}^{(j)}\right)_{1 . . l_{k}^{(j)}}^{!}, \chi_{m}\left(l^{(j)}\right) \equiv \chi_{m}\left(\xi ; l_{1}^{(j)}, \ldots, l_{k}^{(j)}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_27_SEMIINVARIANT,">m=\left|l^{(j)}\right|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_28_SEMIINVARIANT,">k=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_29_SEMIINVARIANT,">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_30_SEMIINVARIANT,">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_31_SEMIINVARIANT,">t \in \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2718_32_SEMIINVARIANT,">k\left(t_{1}, \ldots, t_{n}\right) n</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/2718_1_SEMIINVARIANT,">
+      <rel_text>Кумулянтное разложение</rel_text>
+      <target>http://libmeta.ru/fme/article/1493_KUMULJaNTNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2718_2_SEMIINVARIANT,">
+      <rel_text>финитных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/3278_FINITNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2718_3_SEMIINVARIANT,">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+  </relations>
+  <text>коэффициент $URI[[http://libmeta.ru/fme/formula/aux/2718_1_SEMIINVARIANT,]]/URI$-го члена разложения в степенной ряд логарифма характеристической функции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_1_SEMIINVARIANT,]]/URI
+\]
+
+случайной величины $URI[[http://libmeta.ru/fme/formula/aux/2718_2_SEMIINVARIANT,]]/URI$ (см. URI[[http://libmeta.ru/fme/relation/2718_1_SEMIINVARIANT,]]/URI). Более точно, если абсолютный момент порядка $URI[[http://libmeta.ru/fme/formula/aux/2718_3_SEMIINVARIANT,]]/URI$ случайной величины $URI[[http://libmeta.ru/fme/formula/aux/2718_4_SEMIINVARIANT,]]/URI$ существует, то производные функции $URI[[http://libmeta.ru/fme/formula/aux/2718_5_SEMIINVARIANT,]]/URI$ вплоть до порядка $URI[[http://libmeta.ru/fme/formula/aux/2718_6_SEMIINVARIANT,]]/URI$ непрерывны в нек-рой окрестности точки $URI[[http://libmeta.ru/fme/formula/aux/2718_7_SEMIINVARIANT,]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_2_SEMIINVARIANT,]]/URI
+\]
+
+называется семиинвариантом порядка $URI[[http://libmeta.ru/fme/formula/aux/2718_8_SEMIINVARIANT,]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/2718_9_SEMIINVARIANT,]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2718_10_SEMIINVARIANT,]]/URI$ является случайным $URI[[http://libmeta.ru/fme/formula/aux/2718_11_SEMIINVARIANT,]]/URI$-мерным вектором и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_3_SEMIINVARIANT,]]/URI
+\] а абсолютные моменты порядка $URI[[http://libmeta.ru/fme/formula/aux/2718_12_SEMIINVARIANT,]]/URI$ существуют, $URI[[http://libmeta.ru/fme/formula/aux/2718_13_SEMIINVARIANT,]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2718_14_SEMIINVARIANT,]]/URI$, то коэффициенты
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_4_SEMIINVARIANT,]]/URI
+\]
+
+при $URI[[http://libmeta.ru/fme/formula/aux/2718_15_SEMIINVARIANT,]]/URI$, называются с м е ш а н н м и С. порядка $URI[[http://libmeta.ru/fme/formula/aux/2718_16_SEMIINVARIANT,]]/URI$ случайного вектора $URI[[http://libmeta.ru/fme/formula/aux/2718_17_SEMIINVARIANT,]]/URI$. Для независимых случайных векторов $URI[[http://libmeta.ru/fme/formula/aux/2718_18_SEMIINVARIANT,]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2718_19_SEMIINVARIANT,]]/URI$ выполняется свойство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_5_SEMIINVARIANT,]]/URI
+\]
+
+к-рое и послужило основанием для термина «семиинвариант».
+
+С. являются многочленами от моментов порядка $URI[[http://libmeta.ru/fme/formula/aux/2718_20_SEMIINVARIANT,]]/URI$. Их явный вид может быть найден из уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_6_SEMIINVARIANT,]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2718_21_SEMIINVARIANT,]]/URI$ означает суммирование по всем упорядоченным наборам целочисленных векторов $URI[[http://libmeta.ru/fme/formula/aux/2718_22_SEMIINVARIANT,]]/URI$, положительной длины, $URI[[http://libmeta.ru/fme/formula/aux/2718_23_SEMIINVARIANT,]]/URI$, дающих в сумме вектор $URI[[http://libmeta.ru/fme/formula/aux/2718_24_SEMIINVARIANT,]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2718_25_SEMIINVARIANT,]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2718_26_SEMIINVARIANT,]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2718_27_SEMIINVARIANT,]]/URI$. Тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_7_SEMIINVARIANT,]]/URI
+\]
+
+В частности, при $URI[[http://libmeta.ru/fme/formula/aux/2718_28_SEMIINVARIANT,]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_8_SEMIINVARIANT,]]/URI
+\]
+
+Обобщением понятия C. $URI[[http://libmeta.ru/fme/formula/aux/2718_29_SEMIINVARIANT,]]/URI$-го порядка на случай, когда $URI[[http://libmeta.ru/fme/formula/aux/2718_30_SEMIINVARIANT,]]/URI$ - случайный процесс, $URI[[http://libmeta.ru/fme/formula/aux/2718_31_SEMIINVARIANT,]]/URI$, является понятие корреляционной функции $URI[[http://libmeta.ru/fme/formula/aux/2718_32_SEMIINVARIANT,]]/URI$-го порядка, к-рая определяется формулой, аналогичной (1):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_9_SEMIINVARIANT,]]/URI
+\]
+
+в к-рой обычные производные заменяются на вариационные и роль характеристич. функции выполняет характеристич. URI[[http://libmeta.ru/fme/relation/2718_3_SEMIINVARIANT,]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2718_10_SEMIINVARIANT,]]/URI
+\]
+
+на классе URI[[http://libmeta.ru/fme/relation/2718_2_SEMIINVARIANT,]]/URI достаточной степени гладкости.</text>
+  <text_orig>коэффициент $\chi_{n} n$-го члена разложения в степенной ряд логарифма характеристической функции
+
+\[
+\varphi(t)=E e^{i t \xi}
+\]
+
+случайной величины $\xi$ (см. Куммулянтное разложение). Более точно, если абсолютный момент порядка $n$ случайной величины $\xi$ существует, то производные функции $\ln \varphi(t)$ вплоть до порядка $n$ непрерывны в нек-рой окрестности точки $t=0$ и
+
+\[
+\chi_{n}=\left.(-i)^{n} \frac{d^{n}}{d t^{n}} \ln \varphi(t)\right|_{t=0}
+\]
+
+называется семиинвариантом порядка $n$. Если $\xi=$ $=\left(\xi_{1}, \ldots, \xi_{k}\right)$ является случайным $k$-мерным вектором и
+
+\[
+\begin{aligned}
+\varphi_{\xi}(t) &amp; =\mathrm{E} e^{i(t, \xi)}, \\
+t=\left(t_{1}, \ldots, t_{k}\right), \quad t_{j} &amp; \in \mathbb{R}, \quad(\xi, t)=\sum_{s=1}^{k} \xi_{s} t_{s},
+\end{aligned}
+\] а абсолютные моменты порядка $n$ существуют, $\mathrm{E}\left|\xi_{j}\right|^{n}&lt;\infty$, $j=1, \ldots, k$, то коэффициенты
+
+\[
+\chi_{n}\left(\xi ; l_{1}, \ldots, l_{k}\right)=\left.(-i)^{n} \frac{\partial^{n} \ln \varphi_{\xi}(t)}{\partial t_{1}^{l_{1}} \ldots \partial t_{k}^{l_{k}}}\right|_{t=0}
+\]
+
+при $l_{j} \geqslant 0,|l|=l_{1}+\ldots+l_{k}=n$, называются с м е ш а н н м и С. порядка $n$ случайного вектора $\xi$. Для независимых случайных векторов $\xi$ и $\eta=\left(\eta_{1}, \ldots, \eta_{k}\right)$ выполняется свойство
+
+\[
+\chi_{n}\left(\xi+\eta ; l_{1}, \ldots, l_{k}\right)=\chi_{n}\left(\xi ; l_{1}, \ldots, l_{k}\right)+\chi_{n}\left(\eta ; l_{1}, \ldots, l_{k}\right),
+\]
+
+к-рое и послужило основанием для термина «семиинвариант».
+
+С. являются многочленами от моментов порядка $m \leqslant n$. Их явный вид может быть найден из уравнений
+
+\[
+\mathrm{E} \xi_{1}^{l_{1}} \ldots \xi_{k}^{l_{k}}=\sum^{*} \frac{n !}{s !} \prod_{j=1}^{s} \frac{1}{l^{(j)} !} \chi_{m}\left(l^{(j)}\right)
+\]
+
+где $\Sigma^{*}$ означает суммирование по всем упорядоченным наборам целочисленных векторов $l^{(j)}=\left(l_{1}^{(j)}, \ldots, l_{k}^{(j)}\right), l_{i}^{(j)} \geqslant 0$, положительной длины, $\left|l^{(j)}\right|&gt;0$, дающих в сумме вектор $l$, $l=\sum_{j} l^{(j)}$ и $\left.l^{(j)} !=l_{1}^{(j)}\right)_{1 . . l_{k}^{(j)}}^{!}, \chi_{m}\left(l^{(j)}\right) \equiv \chi_{m}\left(\xi ; l_{1}^{(j)}, \ldots, l_{k}^{(j)}\right)$, $m=\left|l^{(j)}\right|$. Тогда
+
+\[
+\chi_{n}(l)=\sum^{*} \frac{(-1)^{s-1}}{s} n ! \prod_{j=1}^{s} \frac{1}{l^{(j)} !} \mathrm{E} \prod_{i=1}^{k} \xi_{i}^{l_{i}}
+\]
+
+В частности, при $k=1$
+
+\[
+\begin{gathered}
+\chi_{1}=E \xi, \chi_{2}=E \xi^{2}-(E \xi)^{2}=D \xi, \\
+\chi_{3}=E \xi^{3}-3 E \xi E \xi^{2}+2(E \xi)^{3}, \\
+\chi_{4}=E \xi^{4}-3\left(E \xi^{2}\right)^{2}-4 E \xi E \xi^{3}+12 E \xi^{2}(E \xi)^{2}-6(E \xi)^{4} .
+\end{gathered}
+\]
+
+Обобщением понятия C. $n$-го порядка на случай, когда $\xi(t)$ - случайный процесс, $t \in \mathbb{R}$, является понятие корреляционной функции $K\left(t_{1}, \ldots, t_{n}\right) n$-го порядка, к-рая определяется формулой, аналогичной (1):
+
+\[
+K\left(t_{1}, \ldots, t_{n}\right)=\left.(-i)^{n} \frac{\delta^{n} \varphi_{\xi}\{u\}}{\delta u\left(t_{1}\right) \ldots \delta u\left(t_{n}\right)}\right|_{u(t) \equiv 0},
+\]
+
+в к-рой обычные производные заменяются на вариационные и роль характеристич. функции выполняет характеристич. функционал
+
+\[
+\varphi_{\xi}(u)=\operatorname{Eexp}\left\{i \int_{-\infty}^{\infty} u(\tau) \xi(\tau) d \tau\right\}
+\]
+
+на классе финитных функций достаточной степени гладкости.
+
+Лит.: [1] Ш и ряе в А. Н., Вероятность, М., 1980.
+
+Ю. П. Вирченко.</text_orig>
+</article>

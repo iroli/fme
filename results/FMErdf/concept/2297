@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3068_TETA-VAKUUM,">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3068_TETA-VAKUUM,</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2297</core:url>
+    <lbm:descriptor><![CDATA[ТЕТА-ВАКУУМ, $\theta$-ВАКУУМ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#7689"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#123"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17468"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17469"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17470"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17471"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3216"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1736"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1440"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>истинное вакуумное состояние, представляющее собой суперпозицию вакуумных состояний <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3216">$$|n\rangle$$</a>, соответствующих различным топологическим зарядам. Они разделены барьерами конечной энергии, и между ними происходят туннельные переходы. При калибровочном преобразовании $URI[[http://libmeta.ru/fme/formula/aux/3068_2_TETA-VAKUUM,]]/URI$, соответствующем топологич. индексу, равному 1 , топологич. индекс состояния увеличивается на 1 , то есть<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17468">$$T_{1}|n\rangle=|n+1\rangle$$</a><BR/></P><P>а <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1076_KALIBROVOChNAJa">калибровочная инвариантность</a> означает, что <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> $URI[[http://libmeta.ru/fme/formula/aux/3068_3_TETA-VAKUUM,]]/URI$ коммутирует с гамильтонианом<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17469">$$\left[T_{1}, H\right]=0 .$$</a><BR/></P><P>Эта ситуация аналогична известной задаче о периодич. потенциале, где роль $URI[[http://libmeta.ru/fme/formula/aux/3068_4_TETA-VAKUUM,]]/URI$ играет <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3110_TRANSLJaTsI">трансляций</a>, истинным <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоянием</a> является блоховская волна и, кроме того, существует сохраняющийся <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'">квазиимпульс</a>. Т.-в. может быть построен следующим образом:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17470">$$|\theta\rangle=\sum_{n} e^{-i n \theta}|n\rangle$$</a><BR/></P><P>он является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2844_SOBSTVENNOE">собственным вектором оператора</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1082_KALIBROVOChNOE">калибровочного преобразования</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17471">$$T_{1}|\theta\rangle=e^{i n}|\theta\rangle$$</a><BR/></P><P>Так же, как и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'">квазиимпульс</a> в случае периодич. потенциала, $URI[[http://libmeta.ru/fme/formula/aux/3068_5_TETA-VAKUUM,]]/URI$ отмечает физически неэквивалентные секторы: внутри каждого сектора можно исследовать распространение калибровочно-инвариантных возмушений. Так как секторы, соответствующие различным значениям $URI[[http://libmeta.ru/fme/formula/aux/3068_6_TETA-VAKUUM,]]/URI$, никак не связаны друг с другом, то не существует никакого метода для определения значения $URI[[http://libmeta.ru/fme/formula/aux/3068_7_TETA-VAKUUM,]]/URI$.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#7689">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#7687">Ченг Т.- П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#7688">Ли Л.- Ф.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#7689">Калибровочные теории в физике элементарных частиц, пер. с англ., М., 1987</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#123">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#122">Хуанг К.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#123">Кварки, лептоны и калибровочные поля, пер. с англ., М., 1985</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[истинное вакуумное состояние, представляющее собой суперпозицию вакуумных состояний $|n\rangle$, соответствуюших различным топологическим зарядам. Они разделены барьерами конечной энергии, и между ними происходят туннельные переходы. При калибровочном преобразовании $T_{1}$, соответствующем топологич. индексу, равному 1 , топологич. индекс состояния увеличивается на 1 , то есть
+
+\[
+T_{1}|n\rangle=|n+1\rangle
+\]
+
+а калибровочная инвариантность означает, что оператор $T_{1}$ коммутирует с гамильтонианом
+
+\[
+\left[T_{1}, H\right]=0 .
+\]
+
+Эта ситуация аналогична известной задаче о периодич. потенциале, где роль $T$ играет оператор трансляций, истинным состоянием является блоховская волна и, кроме того, существует сохраняющийся квазиимпульс. Т.-в. может быть построен следующим образом:
+
+\[
+|\theta\rangle=\sum_{n} e^{-i n \theta}|n\rangle
+\]
+
+он является собственным вектором оператора калибровочного преобразования
+
+\[
+T_{1}|\theta\rangle=e^{i n}|\theta\rangle
+\]
+
+Так же, как и квазиимпульс в случае периодич. потенциала, $\theta$ отмечает физически неэквивалентные секторы: внутри каждого сектора можно исследовать распространение калибровочно-инвариантных возмушений. Так как секторы, соответствующие различным значениям $\theta$, никак не связаны друг с другом, то не существует никакого метода для определения значения $\theta$.
+
+Лит.: [1] Ч е н г Т.-П., Л и Л.-Ф., Калибровочные теории в физике элементарных частиц, пер. с англ., М., 1987; [2] Ху а нг К., Кварки, лептоны и калибровочные поля, пер. с англ., М., 1985. М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1082_KALIBROVOChNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2844_SOBSTVENNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3110_TRANSLJaTsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1076_KALIBROVOChNAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

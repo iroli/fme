@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3173_UMNOZhENIE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3173_UMNOZhENIE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2414</core:url>
+    <lbm:descriptor><![CDATA[УМНОЖЕНИЕ ОБОБЩЕННЫХ ФУНКЦИЙ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6361"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#73"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18276"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18277"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18278"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18279"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6685"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18280"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>операция над обобщенными функциями, сохраняющая основные свойства поточечного умножения функций (коммутативность. ассоциативность, дистрибутивность и т. д.) и в случае регулярных обобщенных функций совпадающая с поточечным умножением. Такое У. противоречит определению обобщенной функции как линейного функционала и в большинстве стандартных пространств невозможно.<BR/></P><P>П р и м е р Л. Шварца (l. Schwartz):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18277">$$0=0 \cdot p \frac{1}{x}=(x \cdot \delta(x)) \cdot p \frac{1}{x} \neq \delta(x) \cdot\left(x \cdot p \frac{1}{x}\right)=\delta(x) \cdot 1=\delta(x)$$</a> показывает, что У. обобщенных функций не определено в пространстве распределений Шварца <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18278">$$\mathscr{d}^{\prime}$$</a>. Многочисленные попытки построения У. обобщенных функций мотивируются нуждами приложений в квантовой теории поля, в теории нелинейных дифференциальных уравнений, при описании ударных волн и т. д. Основной способ определения У. обобщенных функций - использование регуляризации обобщенной функции, когда произведение <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18279">$$f \cdot g$$</a> обобщенных функций $URI[[http://libmeta.ru/fme/formula/aux/3173_4_UMNOZhENIE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3173_5_UMNOZhENIE]]/URI$ определяется как предел произведений их регуляризаций <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6685">$$f_{v}$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18280">$$g_{v}$$</a>, то есть полагают, по определению,<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18276">$$(f \cdot g, \Phi)=\lim _{v \rightarrow \infty}\left(f_{v} g_{v}, \Phi\right), \quad \Phi \in \mathscr{F} .$$</a><BR/></P><P>В специальных классах <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa">обобщенных функций</a> такой предел существует и приводит к корректной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операции</a> умножения (наиболее известный пример - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_491_VYChET">одночастотные функции в</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa">квантовой теории поля</a>, и его развитие - граничные значения аналитич. функций из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_418_VLADIMIROVA">Владимирова алгебр</a>). В большинстве случаев такой предел существует лишь на нек-ром <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2279_PODPREDSTAVLENI">подпространстве</a> из $URI[[http://libmeta.ru/fme/formula/aux/3173_8_UMNOZhENIE]]/URI$ и требует доопределения на всем $URI[[http://libmeta.ru/fme/formula/aux/3173_9_UMNOZhENIE]]/URI$. Такое доопределение целиком диктуется решаемой прикладной задачей и может быть далеко <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3093_TOPOLOGIChESKI">нетривиальным</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#6361">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#537">Владимиров В. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6361">Методы теории функций многих комплексных переменных, М., 1964</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#73">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#72">Ширков Д. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#73">Введение в теорию квантованных полей, 4 изд., М., 1984</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[операция над обобщенными функциями, сохраняющая основные свойства поточечного умножения функций (коммутативность. ассоциативность, дистрибутивность и т. д.) и в случае регулярных обобщенных функций совпадающая с поточечным умножением. Такое У. противоречит определению обобщенной функции как линейного функционала и в большинстве стандартных пространств невозможно.
+
+П р и м е р Л. Шварца (L. Schwartz):
+
+$0=0 \cdot p \frac{1}{x}=(x \cdot \delta(x)) \cdot p \frac{1}{x} \neq \delta(x) \cdot\left(x \cdot p \frac{1}{x}\right)=\delta(x) \cdot 1=\delta(x)$ показывает, что У. обобщенных функций не определено в пространстве распределений Шварца $\mathscr{D}^{\prime}$. Многочисленные попытки построения У. обобщенных функций мотивируются нуждами приложений в квантовой теории поля, в теории нелинейных дифференциальных уравнений, при описании ударных волн и т. д. Основной способ определения У. обобщенных функций - использование регуляризации обобщенной функции, когда произведение $f \cdot g$ обобщенных функций $f$ и $g$ определяется как предел произведений их регуляризаций $f_{v}$ и $g_{v}$, то есть полагают, по определению,
+
+\[
+(f \cdot g, \Phi)=\lim _{v \rightarrow \infty}\left(f_{v} g_{v}, \Phi\right), \quad \Phi \in \mathscr{F} .
+\]
+
+В специальных классах обобщенных функций такой предел существует и приводит к корректной операции умножения (наиболее известный пример - одночастотные функции в квантовой теории поля, и его развитие - граничные значения аналитич. функций из Владимирова алгебр). В большинстве случаев такой предел существует лишь на нек-ром подпространстве из $\mathscr{F}$ и требует доопределения на всем $\mathscr{F}$. Такое доопределение целиком диктуется решаемой прикладной задачей и может быть далеко нетривиальным.
+
+Лит.: [1] В л а д и м и р о в В. С., Методы теории функций многих комплексных переменных, М., 1964; [2] Бо голюбов Н. Н., Ш и р к о в Д. В., Введение в теорию квантованных полей, 4 изд., М., $\begin{array}{ll}1984 . & \text { В. В. Жаринов. } \\ & \end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3093_TOPOLOGIChESKI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2279_PODPREDSTAVLENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_418_VLADIMIROVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_491_VYChET"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

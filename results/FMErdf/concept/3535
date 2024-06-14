@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_954_ZARJaDOVOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_954_ZARJaDOVOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3535</core:url>
+    <lbm:descriptor><![CDATA[ЗАРЯДОВОЕ ПРОСТРАНСТВО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_862"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_378"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26224"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_191"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26225"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>пространство, вводимое для описания внутренних (то есть не связанных со свойствами пространства-времени) симметрий. Поля $URI[[http://libmeta.ru/fme/formula/aux/954_1_ZARJaDOVOE]]/URI$, реализующие нек-рое <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2359_PREDSTAVLENIE">представление группы</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_437_VNUTRENNJaJa">внутренней симметрии</a> $URI[[http://libmeta.ru/fme/formula/aux/954_2_ZARJaDOVOE]]/URI$, принимают значения в 3. п., к-рое является пространством <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2359_PREDSTAVLENIE">представления группы</a> $URI[[http://libmeta.ru/fme/formula/aux/954_3_ZARJaDOVOE]]/URI$. Будучи разложено по нек-рому базису в 3. п., поле $URI[[http://libmeta.ru/fme/formula/aux/954_4_ZARJaDOVOE]]/URI$ представляется в виде набора компонент <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26224">$$\psi(x)=\left\{\psi_{1}, \ldots, \Psi_{m}\right\}$$</a>, отвечающих различным значениям заряда. Примерами 3. п. могут служить пространство изотопич. спина (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группа</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_437_VNUTRENNJaJa">внутренней симметрии</a> $URI[[http://libmeta.ru/fme/formula/aux/954_6_ZARJaDOVOE]]/URI$ ), пространство цвета (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группа</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_437_VNUTRENNJaJa">внутренней симметрии</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26225">$$s U(3))$$</a> и т.д.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[пространство, вводИмое для описания внутренних (то есть не связанных со свойствами пространства-времени) симметрий. Поля $\Psi(x)$, реализующие нек-рое представление группы внутренней симметрии $\Omega$, принимают значения в 3. п., к-рое является пространством представления группы $\Omega$. Будучи разложено по нек-рому базису в 3. п., поле $\Psi(x)$ представляется в виде набора компонент $\Psi(x)=\left\{\Psi_{1}, \ldots, \Psi_{m}\right\}$, отвечающих различным значениям заряда. Примерами 3. п. могут служить пространство изотопич. спина (группа внутренней симметрии $S U(2)$ ), пространство цвета (группа внутренней симметрии $S U(3))$ и т.д.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_437_VNUTRENNJaJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_437_VNUTRENNJaJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2359_PREDSTAVLENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_437_VNUTRENNJaJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2359_PREDSTAVLENIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

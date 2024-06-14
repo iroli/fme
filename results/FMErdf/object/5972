@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_5972">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>N</mi><mrow><mi>i</mi></mrow></msub><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>I</mi><mrow><mi>i</mi></mrow></msub><mo>&#x0002B;</mo><mi>i</mi><msub><mi>K</mi><mrow><mi>i</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002F;</mo><mn>2</mn><mo>&#x0002C;</mo><msubsup><mi>N</mi><mrow><mi>i</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>I</mi><mrow><mi>i</mi></mrow></msub><mo>&#x02212;</mo><mi>i</mi><msub><mi>K</mi><mrow><mi>i</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002F;</mo><mn>2</mn><mo>&#x0002C;</mo><mspace linebreak="newline" /><msub><mi>I</mi><mrow><mi>i</mi></mrow></msub><mo>&#x0003D;</mo><msub><mi>&#x003B5;</mi><mrow><mi>i</mi><mi>j</mi><mi>k</mi></mrow></msub><msup><mi>M</mi><mrow><mi>j</mi><mi>k</mi></mrow></msup><mo>&#x0002F;</mo><mn>2</mn><mo>&#x0002C;</mo><msub><mi>K</mi><mrow><mi>i</mi></mrow></msub><mo>&#x0003D;</mo><msub><mi>M</mi><mrow><mn>0</mn><mi>i</mi></mrow></msub><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}N_{i}=\left(I_{i}+i K_{i}\right) / 2, N_{i}^{+}=\left(I_{i}-i K_{i}\right) / 2, \\I_{i}=\varepsilon_{i j k} M^{j k} / 2, K_{i}=M_{0 i},\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2835_SOBOLEVA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2835_SOBOLEVA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2038</core:url>
+    <lbm:descriptor><![CDATA[СОБОЛЕВА ОБОБЩЕННАЯ ПРОИЗВОДНАЯ ПО $x_{j}$, $j=1, \ldots, n$, ЛОКАЛЬНО СУММИРУЕМОЙ ФУНКЦИИ $f(x)$ В ОБЛАСТИ $O \subset \mathbb{R}^{n}$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#8365"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15311"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15312"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_761"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15313"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15314"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15315"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15316"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2835_SOBOLEVA">локально суммируемая функция</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15312">$$f_{j}(x)$$</a> в $URI[[http://libmeta.ru/fme/formula/aux/2835_2_SOBOLEVA]]/URI$ такая, что <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15313">$$d_{j} f=f_{j}$$</a> в пространстве <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3442_ShVARTsA">Шварца распределений</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15314">$$\mathscr{i}^{\prime}(o)$$</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15315">$$\left(d_{j}=\partial / \partial x_{j}, f\right.$$</a> и $URI[[http://libmeta.ru/fme/formula/aux/2835_6_SOBOLEVA]]/URI$ рассматриваются как <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2014_OBOBSchENNAJa">регулярные обобщенные функции</a>), то есть такая, что<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15311">$$\int_{O} f_{j}(x) \Phi(x) d^{n} x=-\int_{O} f(x) D_{j} \Phi(x) d^{n} x, \quad \Phi \in \mathscr{Z}(O) .$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#8365">В. В. Жаринов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[локально суммируемая функция $f_{j}(x)$ в $O$ такая, что $D_{j} f=f_{j}$ в пространстве Шварца распределений $\mathscr{I}^{\prime}(O)$ $\left(D_{j}=\partial / \partial x_{j}, f\right.$ и $f_{j}$ рассматриваются как регулярные обобщенные функции), то есть такая, что
+
+\[
+\int_{O} f_{j}(x) \Phi(x) d^{n} x=-\int_{O} f(x) D_{j} \Phi(x) d^{n} x, \quad \Phi \in \mathscr{Z}(O) .
+\]
+
+В. В. Жаринов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2014_OBOBSchENNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3442_ShVARTsA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2835_SOBOLEVA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

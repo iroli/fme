@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2451_PSEVDORIMANOVA" alphabetic_pos="2453">
+  <title>ПСЕВДОРИМАНОВА МЕТРИКА СИГНАТУРЫ $(p, q)$ НА ГЛАДКОМ МНОГООБРАЗИИ $M^{n}$ РАЗМЕРНОСТИ $n=p+q$</title>
+  <authors/>
+  <pages>
+    <start>470</start>
+    <end>470</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2451_1_PSEVDORIMANOVA">g_{i j}=g_{j i}, \operatorname{det} g_{i j} \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2451_2_PSEVDORIMANOVA">g=\sum_{s=1}^{p}\left(x_{i}\right)^{2}-\sum_{s=p+1}^{p+q}\left(x_{i}\right)^{2}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_1_PSEVDORIMANOVA">g_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_2_PSEVDORIMANOVA">(0,2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_3_PSEVDORIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_4_PSEVDORIMANOVA">g_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_5_PSEVDORIMANOVA">(p, q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_6_PSEVDORIMANOVA">\left(m^{n}, g_{i j}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_7_PSEVDORIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_8_PSEVDORIMANOVA">(p, q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_9_PSEVDORIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_10_PSEVDORIMANOVA">q=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_11_PSEVDORIMANOVA">p=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_12_PSEVDORIMANOVA">q&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_13_PSEVDORIMANOVA">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2451_14_PSEVDORIMANOVA">\left(m^{n}, g_{i j}\right)</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/2451_1_PSEVDORIMANOVA">
+      <rel_text>метрика</rel_text>
+      <target>http://libmeta.ru/fme/article/1767_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2451_2_PSEVDORIMANOVA">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>тензорное поле $URI[[http://libmeta.ru/fme/formula/aux/2451_1_PSEVDORIMANOVA]]/URI$ типа $URI[[http://libmeta.ru/fme/formula/aux/2451_2_PSEVDORIMANOVA]]/URI$ на многообразии $URI[[http://libmeta.ru/fme/formula/aux/2451_3_PSEVDORIMANOVA]]/URI$ такое, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2451_1_PSEVDORIMANOVA]]/URI
+\]
+
+и квадратичная форма с коэффициентами $URI[[http://libmeta.ru/fme/formula/aux/2451_4_PSEVDORIMANOVA]]/URI$ имеет сигнатуру $URI[[http://libmeta.ru/fme/formula/aux/2451_5_PSEVDORIMANOVA]]/URI$. Пара $URI[[http://libmeta.ru/fme/formula/aux/2451_6_PSEVDORIMANOVA]]/URI$ называется п с е в до р и м а н ов ы м м но го об раз и е м. Форма $URI[[http://libmeta.ru/fme/formula/aux/2451_7_PSEVDORIMANOVA]]/URI$ имеет сигнатуру $URI[[http://libmeta.ru/fme/formula/aux/2451_8_PSEVDORIMANOVA]]/URI$, если существует такая система координат, что $URI[[http://libmeta.ru/fme/formula/aux/2451_9_PSEVDORIMANOVA]]/URI$ в ней имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2451_2_PSEVDORIMANOVA]]/URI
+\]
+
+при этом, если $URI[[http://libmeta.ru/fme/formula/aux/2451_10_PSEVDORIMANOVA]]/URI$, то URI[[http://libmeta.ru/fme/relation/2451_2_PSEVDORIMANOVA]]/URI риманова URI[[http://libmeta.ru/fme/relation/2451_1_PSEVDORIMANOVA]]/URI. Если $URI[[http://libmeta.ru/fme/formula/aux/2451_11_PSEVDORIMANOVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2451_12_PSEVDORIMANOVA]]/URI$, то форма $URI[[http://libmeta.ru/fme/formula/aux/2451_13_PSEVDORIMANOVA]]/URI$ называется ло е нце во й мет рикой, а пара $URI[[http://libmeta.ru/fme/formula/aux/2451_14_PSEVDORIMANOVA]]/URI$ - лоренцевым многообра зием.</text>
+  <text_orig>тензорное поле $g_{i j}$ типа $(0,2)$ на многообразии $M^{n}$ такое, что
+
+\[
+g_{i j}=g_{j i}, \operatorname{det} g_{i j} \neq 0
+\]
+
+и квадратичная форма с коэффициентами $g_{i j}$ имеет сигнатуру $(p, q)$. Пара $\left(M^{n}, g_{i j}\right)$ называется п с е в до р и м а н ов ы м м но го об раз и е м. Форма $g$ имеет сигнатуру $(p, q)$, если существует такая система координат, что $g$ в ней имеет вид:
+
+\[
+g=\sum_{s=1}^{p}\left(x_{i}\right)^{2}-\sum_{s=p+1}^{p+q}\left(x_{i}\right)^{2}
+\]
+
+при этом, если $q=0$, то получается риманова метрика. Если $p=1$ и $q&gt;0$, то форма $q$ называется ло е нце во й мет рикой, а пара $\left(M^{n}, g_{i j}\right)$ - лоренцевым многообра зием.</text_orig>
+</article>

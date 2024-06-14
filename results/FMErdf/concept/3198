@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_650_GLAVNYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_650_GLAVNYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3198</core:url>
+    <lbm:descriptor><![CDATA[ГЛАВНЫЙ МОМЕНТ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2923_STATIK">Статика</a>.<BR/></P><P>144 <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_641_GIROSKO">Гироскопа</a><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[см. Статика.
+
+144 ГИРОСкOПА]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2923_STATIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_641_GIROSKO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2784_SISTEMA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2784_SISTEMA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1981</core:url>
+    <lbm:descriptor><![CDATA[СИСТЕМА В ИНВОЛЮЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14844"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_517"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14845"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14846"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14847"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>набор функций <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14844">$$f_{1}, \ldots, F_{s}$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_787_DEJSTVIE">на симплектическом URI[[http://</a>libmeta.ru/fme/relation/2784_7_SISTEMA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2784_2_SISTEMA]]/URI$, попарная <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2471_PUASSONA">Пуассона скобка</a> которых равна нулю: <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14845">$$\left\{f_{i}, F_{j}\right\}=0$$</a>. Если гамильтонова <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2356_PREDEL'NOE">система с гамильтонианом</a> $URI[[http://libmeta.ru/fme/formula/aux/2784_4_SISTEMA]]/URI$ имеет $URI[[http://libmeta.ru/fme/formula/aux/2784_5_SISTEMA]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">первых</a> интегралов в инволюции, то она сводится к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA">гамильтоновой системе</a> на <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14846">$$2(n-s)$$</a>-мерном <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразии</a>. Если <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14847">$$s=n$$</a>, то говорят о полной инте гр и руемости системы (см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1626_LIUVILLJa">Лиувилля теорема</a> об интегрируемости).<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[набор функций $F_{1}, \ldots, F_{s}$ на симплектическом многообразии $\left(M^{2 n}, \omega\right)$, попарная Пуассона скобка которых равна нулю: $\left\{F_{i}, F_{j}\right\}=0$. Если гамильтонова система с гамильтонианом $H$ имеет $s$ первых интегралов в инволюции, то она сводится к гамильтоновой системе на $2(n-s)$-мерном многообразии. Если $s=n$, то говорят о полной инте гр и руемости системы (см. Лиувилля теорема об интегрируемости).]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1626_LIUVILLJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2356_PREDEL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2471_PUASSONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_787_DEJSTVIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

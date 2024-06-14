@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2536_RASPREDELENIJa" alphabetic_pos="2538">
+  <title>РАСПРЕДЕЛЕНИЯ ВЕРОЯТНОСТЕЙ ЧАСТИЧНЫЕ ФУНКЦИИ</title>
+  <authors>
+    <author>В. И. Герасименко</author>
+  </authors>
+  <pages>
+    <start>488</start>
+    <end>488</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Петринад.Я., Герасименков.И., Малыш е в П. В., Математические основы классической статистической механики, Киев, $1985 . \quad$</literature_orig>
+    <unit>
+      <author>Петринад. Я.</author>
+      <author>Герасименков. И.</author>
+      <author>Малышев П. В.</author>
+      <title>Математические основы классической статистической механики, Киев</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2536_1_RASPREDELENIJa">F(t)=\left\{F_{s}\left(t, x_{1}, \ldots, x_{s}\right)\right\}_{s \geqslant 1},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2536_2_RASPREDELENIJa">D(t)=\left\{D_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right\}_{n \geqslant 1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2536_3_RASPREDELENIJa">\begin{aligned}&amp; \quad F_{s}\left(t, x_{1}, \ldots, x_{s}\right)= \\&amp; =\left(\sum_{n=0}^{\infty} \frac{1}{n !} \int d x_{1} \ldots d x_{n} D_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right)^{-1} \times \\&amp; \times \sum_{n=0}^{\infty} \frac{1}{n !} \int d x_{s+1} \ldots d x_{s+n} D_{s+n}\left(t, x_{1}, \ldots, x_{s+n}\right) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2536_4_RASPREDELENIJa">D(t)=\left\{0, \ldots, 0, D_{N}\left(t, x_{1}, \ldots, x_{N}\right), 0, \ldots\right\} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2536_1_RASPREDELENIJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2536_2_RASPREDELENIJa">d(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2536_3_RASPREDELENIJa">d_{n}\left(x_{1}, \ldots, x_{n}\right)=\exp \left\{-\beta \sum_{i=1}^{n}\left(\frac{p_{i}^{2}}{2}-\mu\right)-\beta \sum_{i&lt;j=1}^{N} \Phi\left(q_{i}-q_{j}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2536_4_RASPREDELENIJa">\mu, \beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2536_5_RASPREDELENIJa">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2536_6_RASPREDELENIJa">f_{s}\left(t, x_{1}, \ldots, x_{s}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2536_7_RASPREDELENIJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2536_8_RASPREDELENIJa">x_{1}, \ldots, x_{s}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2536_1_RASPREDELENIJa">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2536_2_RASPREDELENIJa">
+      <rel_text>систем бесконечного</rel_text>
+      <target>http://libmeta.ru/fme/article/168_BESKONEChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2536_3_RASPREDELENIJa">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2536_4_RASPREDELENIJa">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>последовательность функций
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2536_1_RASPREDELENIJa]]/URI
+\]
+
+которая определяется по решениям Лиувилля уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2536_2_RASPREDELENIJa]]/URI
+\]
+
+формулой (см. [1]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2536_3_RASPREDELENIJa]]/URI
+\]
+
+Для системы фиксированного $URI[[http://libmeta.ru/fme/formula/aux/2536_1_RASPREDELENIJa]]/URI$ числа частиц $URI[[http://libmeta.ru/fme/formula/aux/2536_2_RASPREDELENIJa]]/URI$ - однокомпонентная последовательность:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2536_4_RASPREDELENIJa]]/URI
+\]
+
+Р. в. ч. Ф. удовлетворяют Боголюбова уравнениям.
+
+Равновесные Р. в.ч.Ф. определяются по стационарным решениям уравнения Лиувилля - функциям Бо льцмана:
+
+$URI[[http://libmeta.ru/fme/formula/aux/2536_3_RASPREDELENIJa]]/URI$,
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2536_4_RASPREDELENIJa]]/URI$ - параметры равновесного состояния, $URI[[http://libmeta.ru/fme/formula/aux/2536_5_RASPREDELENIJa]]/URI$ - потенциал взаимодействия частиц. Такие функции удовлетворяют уравнениям для равновесных состояний Кирквуда Зальцбурга, Боголюбова, Майера - Монтролла и т. п.
+
+Р. в. ч. ф. $URI[[http://libmeta.ru/fme/formula/aux/2536_6_RASPREDELENIJa]]/URI$ интерпретируются как плотность вероятности (по лебеговой мере) нахождения $URI[[http://libmeta.ru/fme/formula/aux/2536_7_RASPREDELENIJa]]/URI$ различных частиц в фазовых точках $URI[[http://libmeta.ru/fme/formula/aux/2536_8_RASPREDELENIJa]]/URI$ независимо от фазовых состояний остальных частиц.
+
+Для квантовых систем Р. в. ч. ф. определяются аналогичным образом по решениям уравнений для плотности матрицы.
+
+В терминах Р. в. ч. ф. в статистич. URI[[http://libmeta.ru/fme/relation/2536_4_RASPREDELENIJa]]/URI описываются URI[[http://libmeta.ru/fme/relation/2536_3_RASPREDELENIJa]]/URI URI[[http://libmeta.ru/fme/relation/2536_2_RASPREDELENIJa]]/URI числа URI[[http://libmeta.ru/fme/relation/2536_1_RASPREDELENIJa]]/URI.</text>
+  <text_orig>последовательность функций
+
+\[
+F(t)=\left\{F_{s}\left(t, x_{1}, \ldots, x_{s}\right)\right\}_{s \geqslant 1},
+\]
+
+которая определяется по решениям Лиувиля уравнения
+
+\[
+D(t)=\left\{D_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right\}_{n \geqslant 1}
+\]
+
+формулой (см. [1]):
+
+\[
+\begin{aligned}
+&amp; \quad F_{s}\left(t, x_{1}, \ldots, x_{s}\right)= \\
+&amp; =\left(\sum_{n=0}^{\infty} \frac{1}{n !} \int d x_{1} \ldots d x_{n} D_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right)^{-1} \times \\
+&amp; \times \sum_{n=0}^{\infty} \frac{1}{n !} \int d x_{s+1} \ldots d x_{s+n} D_{s+n}\left(t, x_{1}, \ldots, x_{s+n}\right) .
+\end{aligned}
+\]
+
+Для системы фиксированного $N$ числа частиц $D(t)$ - однокомпонентная последовательность:
+
+\[
+D(t)=\left\{0, \ldots, 0, D_{N}\left(t, x_{1}, \ldots, x_{N}\right), 0, \ldots\right\} .
+\]
+
+Р. в. ч. Ф. удовлетворяют Боголюбова уравнениям.
+
+Равновесные Р. в.ч.Ф. определяются по стационарным решениям уравнения Лиувилля - функциям Бо льцмана:
+
+$D_{n}\left(x_{1}, \ldots, x_{n}\right)=\exp \left\{-\beta \sum_{i=1}^{n}\left(\frac{p_{i}^{2}}{2}-\mu\right)-\beta \sum_{i&lt;j=1}^{N} \Phi\left(q_{i}-q_{j}\right)\right\}$,
+
+где $\mu, \beta$ - параметры равновесного состояния, $\Phi$ - потенциал взаимодействия частиц. Такие функции удовлетворяют уравнениям для равновесных состояний Кирквуда Зальцбурга, Боголюбова, Майера - Монтролла и т. п.
+
+Р. в. ч. ф. $F_{s}\left(t, x_{1}, \ldots, x_{s}\right)$ интерпретируются как плотность вероятности (по лебеговой мере) нахождения $s$ различных частиц в фазовых точках $x_{1}, \ldots, x_{s}$ независимо от фазовых состояний остальных частиц.
+
+Для квантовых систем Р. в. ч. ф. определяются аналогичным образом по решениям уравнений для плотности матрицы.
+
+В терминах Р. в. ч. ф. в статистич. механике описываются состояния систем бесконечного числа частиц.
+
+Лum.: [1] ПетринаД.Я., ГерасименкоВ.И., Малыш е в П. В., Математические основы классической статистической механики, Киев, $1985 . \quad$ В. И. Герасименко.</text_orig>
+</article>

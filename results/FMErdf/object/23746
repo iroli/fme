@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_23746">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>d</mi></mrow><mrow><mi>d</mi><mi>z</mi></mrow></mfrac><mi>F</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi><mi>;</mi><mi>&#x003B3;</mi><mi>;</mi><mi>z</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x003B1;</mi><mi>&#x003B2;</mi></mrow><mrow><mi>&#x003B3;</mi></mrow></mfrac><mi>F</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003B1;</mi><mo>&#x0002B;</mo><mn>1</mn><mo>&#x0002C;</mo><mi>&#x003B2;</mi><mo>&#x0002B;</mo><mn>1</mn><mi>;</mi><mi>&#x003B3;</mi><mo>&#x0002B;</mo><mn>1</mn><mi>;</mi><mi>z</mi><mo stretchy="false">&#x00029;</mo><mtext>.&#x000A0;</mtext></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\frac{d}{d z} F(\alpha, \beta ; \gamma ; z)=\frac{\alpha \beta}{\gamma} F(\alpha+1, \beta+1 ; \gamma+1 ; z) \text {. }$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

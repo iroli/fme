@@ -1,0 +1,520 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/114_ASIMPTOTIChESKIE" alphabetic_pos="114">
+  <title>АСИМПТОТИЧЕСКИЕ ОЦЕНКИ В МЕТОДЕ АППРОКСИМИРУЮЩЕГО ГАМИЛЬТОНИАНА</title>
+  <authors>
+    <author>Й. Г. Бранков</author>
+  </authors>
+  <pages>
+    <start>33</start>
+    <end>35</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Богол юбов Н. Н., Избранные труды в трех томах, т. 3, Киев, 1971; [2] Б о го л юбо в Н. Н. (мл.), Метод исследования модельных гамильтонианов, М., 1974; [3] Бо го л юбо в Н. Н. (м л.) и д р., Метод аппроксимирующего гамильтониана в статистической физике, София, 1981; [4] П л е ч к о В. Н., «теоретич. и математич. физика», 1976, т. 28, с. 127; [5] Бо го л ю 6 о в Н. Н. (мл.), Плеч к о В. Н., «докл. Ан СССР», 1976, т. 228 , № 5, с. $1061-64$.</literature_orig>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <title>Избранные труды в трех томах</title>
+      <publication>Киев</publication>
+      <year>1971</year>
+      <other>т. 3</other>
+    </unit>
+    <unit>
+      <title>Б о го л юбо в Н. Н. (мл.), Метод исследования модельных гамильтонианов</title>
+      <publication>М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Бо го л юбо в Н. Н. (м л.) и д р., Метод аппроксимирующего гамильтониана в статистической физике, София</title>
+      <publication/>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Плечко В. Н.</author>
+      <title>«теоретич. и математич. физика»</title>
+      <publication/>
+      <year>1976</year>
+      <other>т. 28, с. 127</other>
+    </unit>
+    <unit>
+      <title>Бо го л ю 6 о в Н. Н. (мл.), Плеч к о В. Н., «докл. Ан СССР»</title>
+      <publication/>
+      <year>1976</year>
+      <other>т. 228, № 5, с. $1061-64$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_1_ASIMPTOTIChESKIE">f_{\Lambda}[\Gamma]=-(\beta|\Lambda|)^{-1} \ln \operatorname{Tr} \exp (-\beta \Gamma), \quad \Gamma=H, H_{0},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_2_ASIMPTOTIChESKIE">|\Lambda|^{-1}\left\langle H_{1}\right\rangle_{H} \leqslant f_{\Lambda}[H]-f_{\Lambda}\left[H_{0}\right] \leqslant|\Lambda|^{-1}\left\langle H_{1}\right\rangle_{H_{0}},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_3_ASIMPTOTIChESKIE">H(h)=T_{\Lambda}-\frac{1}{2} J|\Lambda| A_{\Lambda}^{2}-h|\Lambda| A_{\Lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_4_ASIMPTOTIChESKIE">H_{0}(c, h)=T_{\Lambda}-|\Lambda|(J c+h) A_{\Lambda}+\frac{1}{2} J|\Lambda| c^{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_5_ASIMPTOTIChESKIE">\begin{gathered}0 \leqslant \frac{1}{2} J\left\langle\left(A_{\Lambda}-c\right)^{2}\right\rangle_{H_{0}(c, h)} \leqslant \\\leqslant f_{\Lambda}\left[H_{0}(c, h)\right]-f_{\Lambda}[H(h)] \leqslant \frac{1}{2} J\left\langle\left(A_{\Lambda}-c\right)^{2}\right\rangle_{H(h)} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_6_ASIMPTOTIChESKIE">\begin{gathered}0 \leqslant \inf _{c \in \mathbb{R}^{1}} f_{\Lambda}\left[H_{0}(c, h)\right]-f_{\Lambda}[H(h)] \leqslant \\\leqslant \frac{1}{2} J\left\langle\left(A_{\Lambda}-\left\langle A_{\Lambda}\right\rangle_{H(h)}\right)^{2}\right\rangle_{H(h)}=-\frac{\beta J}{2|\Lambda|} \frac{\partial^{2} f_{\Lambda}[H(h)]}{\partial h^{2}} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_7_ASIMPTOTIChESKIE">\inf _{c} f_{\Lambda}\left[H_{0}(c, h)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_8_ASIMPTOTIChESKIE">\Delta_{\Lambda}(h) \equiv f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}(h), h\right)\right]-f_{\Lambda}[H(h)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_9_ASIMPTOTIChESKIE">\left|\frac{\partial}{\partial h} f_{\Lambda}[H(h)]\right|=\left|\left\langle A_{\Lambda}\right\rangle_{H(h)}\right| \leqslant M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_10_ASIMPTOTIChESKIE">0 \leqslant \Delta_{\Lambda}(\xi)=l^{-1} \int_{h_{1}}^{h_{1}+l} d h \Delta_{\Lambda}(h) \leqslant \frac{\beta J}{|\Lambda| l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_11_ASIMPTOTIChESKIE">\begin{gathered}f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}\left(h_{1}\right), h_{1}\right)\right]-f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}(\xi), \xi\right)\right] \leqslant \\\leqslant f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}(\xi), h_{1}\right)\right]-f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}(\xi), \xi\right)\right] \leqslant M\left|h_{1}-\xi\right|,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_12_ASIMPTOTIChESKIE">\Delta_{\Lambda}\left(h_{1}\right) \leqslant \Delta_{\Lambda}(\xi)+2 M\left|h_{1}-\xi\right| \leqslant \frac{\beta J}{|\Lambda| l}+2 M l .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_13_ASIMPTOTIChESKIE">\left|\Delta_{\Lambda}(h)\right| \leqslant 2^{3 / 2}(M \beta J)^{1 / 2}|\Lambda|^{-1 / 2} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_14_ASIMPTOTIChESKIE">H(h)=T_{\Lambda}+\frac{1}{2} g|\Lambda| A_{\Lambda}^{2}-h|\Lambda| A_{\Lambda},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_15_ASIMPTOTIChESKIE">0 \leqslant f_{\Lambda}[H(h)]-f_{\Lambda}\left[H_{0}(c, h)\right] \leqslant \frac{1}{2} g\left\langle\left(A_{\Lambda}-c\right)^{2}\right\rangle_{H_{0}(c, h)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_16_ASIMPTOTIChESKIE">\sup _{c} f_{\Lambda}\left[H_{0}(c, h)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_17_ASIMPTOTIChESKIE">H=T_{\Lambda}-|\Lambda| \sum_{k=1}^{s} g_{k} A_{\Lambda, k} A_{\Lambda, k}^{+},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_18_ASIMPTOTIChESKIE">0 \leqslant f_{\Lambda}\left[H_{0}\left(\bar{a}_{\Lambda}\right)\right]-f_{\Lambda}[H] \leqslant \varepsilon_{\Lambda} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_19_ASIMPTOTIChESKIE">\left|f_{\Lambda}\left[H_{0}(a)\right]-t-\lim f_{\Lambda}\left[H_{0}(a)\right]\right| \leqslant \delta_{\Lambda},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_20_ASIMPTOTIChESKIE">\left|t-\lim f_{\Lambda}\left[H_{0}\left(\bar{a}_{\infty}\right)\right]-f_{\Lambda}[H]\right| \leqslant \delta_{\Lambda}+\varepsilon_{\Lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_21_ASIMPTOTIChESKIE">\Gamma(\tau)=H+|\Lambda| \sum_{k=1}^{s} \tau_{k} g_{k}\left(A_{\Lambda, k}-\bar{a}_{\infty}, k\right)\left(A_{\Lambda, k}^{+}-\bar{a}_{\infty, k}^{*}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_22_ASIMPTOTIChESKIE">f_{\Lambda}[H] \leqslant f_{\Lambda}[\Gamma(\tau)] \leqslant f_{\Lambda}\left[H_{0}\left(\bar{a}_{\infty}\right)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_23_ASIMPTOTIChESKIE">0 \leqslant f_{\Lambda}\left[H_{0}\left(\bar{a}_{\infty}\right)\right]-f_{\Lambda}[H] \leqslant 2 \delta_{\Lambda}+\varepsilon_{\Lambda},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_24_ASIMPTOTIChESKIE">f_{\Lambda}[\Gamma(\tau)]-f_{\Lambda}[H] \leqslant 2 \delta_{\Lambda}+\varepsilon_{\Lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_25_ASIMPTOTIChESKIE">|\Lambda|^{-1}\langle\Gamma(\tau)-H\rangle_{\Gamma(\tau)} \leqslant f_{\Lambda}[\Gamma(\tau)]-f_{\Lambda}[H]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/114_26_ASIMPTOTIChESKIE">\left\langle\left(A_{\Lambda, k}-\bar{a}_{\infty, k}\right)\left(A_{\Lambda, k}^{+}-\bar{a}_{\infty, k}^{*}\right)\right\rangle_{\Gamma(\tau)} \leqslant \frac{2 \delta_{\Lambda}+\varepsilon_{\Lambda}}{g_{k} \tau_{k}} \rightarrow 0, \quad|\Lambda| \rightarrow \infty,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_1_ASIMPTOTIChESKIE">h=h_{0}+h_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_2_ASIMPTOTIChESKIE">h_{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_3_ASIMPTOTIChESKIE">\beta=\left(k_{\mathrm{б}} T\right)^{-1}, k_{\mathrm{Б}}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_4_ASIMPTOTIChESKIE">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_5_ASIMPTOTIChESKIE">|\lambda|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_6_ASIMPTOTIChESKIE">\lambda \subset \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_7_ASIMPTOTIChESKIE">\lambda \subset \mathbb{Z}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_8_ASIMPTOTIChESKIE">\langle\cdot\rangle_{\gamma}=\operatorname{tr}\left(\cdot e^{-\beta \Gamma}\right) / \operatorname{Tr} e^{-\beta \Gamma}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_9_ASIMPTOTIChESKIE">\operatorname{tr}(\cdot)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_10_ASIMPTOTIChESKIE">j&gt;0, h \in \mathbb{R}^{1}, T_{\Lambda}=T_{\Lambda}^{+}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_11_ASIMPTOTIChESKIE">\left|f_{\lambda}\left[t_{\lambda}\right]\right|&lt;\infty, A_{\Lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_12_ASIMPTOTIChESKIE">\left\|a_{\lambda}\right\| \leqslant M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_13_ASIMPTOTIChESKIE">t_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_14_ASIMPTOTIChESKIE">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_15_ASIMPTOTIChESKIE">f_{\lambda}[h(h)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_16_ASIMPTOTIChESKIE">h \in \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_17_ASIMPTOTIChESKIE">c=\bar{c}_{\lambda}(h)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_18_ASIMPTOTIChESKIE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_19_ASIMPTOTIChESKIE">\left[h_{1}, h_{1}+l\right] \in \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_20_ASIMPTOTIChESKIE">\xi \in\left(h_{1}, h_{1}+l\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_21_ASIMPTOTIChESKIE">h_{1} \in \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_22_ASIMPTOTIChESKIE">l&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_23_ASIMPTOTIChESKIE">l&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_24_ASIMPTOTIChESKIE">h_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_25_ASIMPTOTIChESKIE">|\lambda| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_26_ASIMPTOTIChESKIE">t_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_27_ASIMPTOTIChESKIE">a_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_28_ASIMPTOTIChESKIE">\left\langle\left(\delta A_{\Lambda}\right)^{2}\right\rangle_{H(h)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_29_ASIMPTOTIChESKIE">\delta A_{\Lambda}=A_{\Lambda}-\left\langle A_{\Lambda}\right\rangle_{H(h)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_30_ASIMPTOTIChESKIE">f_{\lambda}[h(h)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_31_ASIMPTOTIChESKIE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_32_ASIMPTOTIChESKIE">g&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_33_ASIMPTOTIChESKIE">0 \leqslant f_{\Lambda}[H(h)]-\sup _{c \in \mathbb{R}^{1}} f_{\Lambda}\left[H_{0}(c, h)\right] \leqslant \frac{1}{2} g\left\langle A_{\Lambda}-\bar{c}_{\Lambda}(h)^{2}\right\rangle_{H_{0}\left(\bar{c}_{\Lambda}(h), h\right)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_34_ASIMPTOTIChESKIE">c=\bar{c}_{\lambda}(h)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_35_ASIMPTOTIChESKIE">f_{\lambda}[h(h)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_36_ASIMPTOTIChESKIE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_37_ASIMPTOTIChESKIE">g_{k}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_38_ASIMPTOTIChESKIE">t_{\lambda}, A_{\Lambda, k}, A_{\Lambda, k}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_39_ASIMPTOTIChESKIE">h_{0}(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_40_ASIMPTOTIChESKIE">a=\left(a_{1}, \ldots, a_{s}\right) \in \mathbb{C}^{S}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_41_ASIMPTOTIChESKIE">|\lambda| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_42_ASIMPTOTIChESKIE">\bar{a}_{\lambda}=\left(\bar{a}_{\lambda, 1}, \ldots, \bar{a}_{\Lambda, s}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_43_ASIMPTOTIChESKIE">\inf f_{\Lambda}\left[H_{0}(a)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_44_ASIMPTOTIChESKIE">t-\lim f_{\Lambda}\left[H_{0}(a)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_45_ASIMPTOTIChESKIE">\left|a_{k}\right| \leqslant 2 M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_46_ASIMPTOTIChESKIE">k=1, \ldots, s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_47_ASIMPTOTIChESKIE">a \in \mathbb{C}^{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_48_ASIMPTOTIChESKIE">\bar{a}_{\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_49_ASIMPTOTIChESKIE">\left|\bar{a}_{\infty, k}\right| \leqslant 2 M_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_50_ASIMPTOTIChESKIE">a_{k}:\left|a_{k}\right| \leqslant 2 M_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_51_ASIMPTOTIChESKIE">\delta_{\lambda} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_52_ASIMPTOTIChESKIE">|\lambda| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_53_ASIMPTOTIChESKIE">\gamma\left(\left\{\tau_{k}=1\right\}\right)=h_{0}\left(\bar{a}_{\infty}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_54_ASIMPTOTIChESKIE">0&lt;\tau_{k}&lt;1, k=1, \ldots, s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/114_55_ASIMPTOTIChESKIE">k=1, \ldots, s</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/114_1_ASIMPTOTIChESKIE">
+      <rel_text>квазисредних</rel_text>
+      <target>http://libmeta.ru/fme/article/1138_KVAZIIMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/114_2_ASIMPTOTIChESKIE">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>используемые для доказательства термодинамической (или статистической) эквивалентности модельного гамильтониана и аппроксимирующего гамильтониана оценки, мажорирующие разность соответствующих плотностей термодинамических потенциалов (корреляционных функций) величинами, исчезающими в термодинамическом пределе. Впервые применялись Н. Н. Боголюбовым в 1960 (см. [1]) для оценки разности плотностей энергий основных состояний модельного и аппроксимирующего гамильтонианов Бкш - Боголюбова модели (см. БКШ-модель), а также и для оценки разностей соответствующих функций Грина и корреляционных средних при нулевой температуре. В общем случае ненулевой температуры специальная техника А. о. развита Н. Н. Боголюбовым (мл.) (см. [2]) для целого класса модельных систем, гамильтониан к-рых содержит квадратичную форму, построенную на ограниченных операторах. В дальнейшем техника А. о. развивалась в двух направлениях: 1) обобщения с целью применения к другим классам систем, напр. с неполиномиальным взаимодействием или взаимодействием, содержащим неограниченные (бозе) операторы (см. [3]); 2) получение более быстро сходящихся мажорационных оценок (см. [4]).
+
+A. о. для разности плотностей термодина мических потенциалов. В основе А. о. этого типа
+
+Acиmitotичeckaя 33 лежит Боголюбова неравенство для плотностей свободных энергий, соответствующих модельному и аппроксимирующему гамильтонианам. Пусть $URI[[http://libmeta.ru/fme/formula/aux/114_1_ASIMPTOTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/114_2_ASIMPTOTIChESKIE]]/URI$ произвольные самосопряженные операторы, удовлетворяющие условию существования плотности термодинамич. потенциала
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_1_ASIMPTOTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/114_3_ASIMPTOTIChESKIE]]/URI$ постоянная Больцмана, $URI[[http://libmeta.ru/fme/formula/aux/114_4_ASIMPTOTIChESKIE]]/URI$ абсолютная температура, $URI[[http://libmeta.ru/fme/formula/aux/114_5_ASIMPTOTIChESKIE]]/URI$ - объем области $URI[[http://libmeta.ru/fme/formula/aux/114_6_ASIMPTOTIChESKIE]]/URI$ (или $URI[[http://libmeta.ru/fme/formula/aux/114_7_ASIMPTOTIChESKIE]]/URI$ в случае решеточной системы), занимаемой частицами системы. Тогда:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_2_ASIMPTOTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/114_8_ASIMPTOTIChESKIE]]/URI$ гиббсовское среднее, $URI[[http://libmeta.ru/fme/formula/aux/114_9_ASIMPTOTIChESKIE]]/URI$ след оператора. Технику А. о. проще всего проиллюстрировать на примере модельной системы с гамильтонианом вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_3_ASIMPTOTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/114_10_ASIMPTOTIChESKIE]]/URI$самосопряженный оператор, для к-рого существует $URI[[http://libmeta.ru/fme/formula/aux/114_11_ASIMPTOTIChESKIE]]/URI$ - самосопряженный и ограниченный оператор, $URI[[http://libmeta.ru/fme/formula/aux/114_12_ASIMPTOTIChESKIE]]/URI$, коммутирующий с $URI[[http://libmeta.ru/fme/formula/aux/114_13_ASIMPTOTIChESKIE]]/URI$. В этом случае аппроксимирующий гамильтониан имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_4_ASIMPTOTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/114_14_ASIMPTOTIChESKIE]]/URI$ - действительный параметр. Применение неравенства Боголюбова приводит к цепочке неравенств
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_5_ASIMPTOTIChESKIE]]/URI
+\]
+
+Из условия наилучшей аппроксимации $URI[[http://libmeta.ru/fme/formula/aux/114_15_ASIMPTOTIChESKIE]]/URI$ получают вариационный принцип минимума свободной энергии:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_6_ASIMPTOTIChESKIE]]/URI
+\]
+
+Можно показать, что при любом $URI[[http://libmeta.ru/fme/formula/aux/114_16_ASIMPTOTIChESKIE]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_7_ASIMPTOTIChESKIE]]/URI
+\]
+
+достигается в нек-рой конечной точке $URI[[http://libmeta.ru/fme/formula/aux/114_17_ASIMPTOTIChESKIE]]/URI$. Обозначим
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_8_ASIMPTOTIChESKIE]]/URI
+\]
+
+и проинтегрируем это неравенство по $URI[[http://libmeta.ru/fme/formula/aux/114_18_ASIMPTOTIChESKIE]]/URI$ в интервале $URI[[http://libmeta.ru/fme/formula/aux/114_19_ASIMPTOTIChESKIE]]/URI$. Применяя теорему о средней точке и учитывая, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_9_ASIMPTOTIChESKIE]]/URI
+\]
+
+получают оценку
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_10_ASIMPTOTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/114_20_ASIMPTOTIChESKIE]]/URI$, справедливую при любых $URI[[http://libmeta.ru/fme/formula/aux/114_21_ASIMPTOTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/114_22_ASIMPTOTIChESKIE]]/URI$. Далее, принимая во внимание, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_11_ASIMPTOTIChESKIE]]/URI
+\]
+
+можно вывести неравенства
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_12_ASIMPTOTIChESKIE]]/URI
+\]
+
+Оптимальную мажорационную оценку получают, минимизируя правую часть по $URI[[http://libmeta.ru/fme/formula/aux/114_23_ASIMPTOTIChESKIE]]/URI$, что, в силу произвольности $URI[[http://libmeta.ru/fme/formula/aux/114_24_ASIMPTOTIChESKIE]]/URI$,
+
+\section{асимптотические}
+
+приводит к окончательной А. о.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_13_ASIMPTOTIChESKIE]]/URI
+\]
+
+при $URI[[http://libmeta.ru/fme/formula/aux/114_25_ASIMPTOTIChESKIE]]/URI$.
+
+В случае, когда операторы $URI[[http://libmeta.ru/fme/formula/aux/114_26_ASIMPTOTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/114_27_ASIMPTOTIChESKIE]]/URI$ не коммутируют, среднее $URI[[http://libmeta.ru/fme/formula/aux/114_28_ASIMPTOTIChESKIE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/114_29_ASIMPTOTIChESKIE]]/URI$ мажорируется выражением, содержащим вторую производную функции $URI[[http://libmeta.ru/fme/formula/aux/114_30_ASIMPTOTIChESKIE]]/URI$ по параметру $URI[[http://libmeta.ru/fme/formula/aux/114_31_ASIMPTOTIChESKIE]]/URI$ (см. [2], [3]).
+
+Случай наличия в гамильтониане члена со взаимодействием типа отталкивания:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_14_ASIMPTOTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/114_32_ASIMPTOTIChESKIE]]/URI$, принципиально отличается от рассмотренного выше случая притяжения тем, что неравенство Боголюбова дает
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_15_ASIMPTOTIChESKIE]]/URI
+\]
+
+и предыдущая техника А. о. становится неприменимой. Условие наилучшей аппроксимации приводит теперь к принципу максимума
+
+$URI[[http://libmeta.ru/fme/formula/aux/114_33_ASIMPTOTIChESKIE]]/URI$,
+
+где $URI[[http://libmeta.ru/fme/formula/aux/114_34_ASIMPTOTIChESKIE]]/URI$ точка, в к-рой достигается
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_16_ASIMPTOTIChESKIE]]/URI
+\]
+
+Условие асимптотич. малости коррелятора в правой части последнего неравенства (условие кластеризации) необходимо для асимптотически точной аппроксимации $URI[[http://libmeta.ru/fme/formula/aux/114_35_ASIMPTOTIChESKIE]]/URI$.
+
+Технику получения А. о. в более общем случае, приводящем к принципу минимакса, а также для других классов модельных гамильтонианов см. в [3] и в приведенной там литературе.
+
+A. о. для разности корреляционных функц и й. С появлением метода аппроксимирующего гамильтониана был поставлен вопрос о возможности асимптотически точного вычисления термодинамич. средних величин и корреляционных функций для модельной системы, усредняя не по исходному, а по более простому аппроксимирующему гамильтониану. Положительный ответ на этот вопрос следовал бы из более сильной, статистич. Эквивалентности модельного и аппроксимирующего гамильтонианов, к-рая в общем виде пока не установлена. Большинство полученных А. о. позволяет доказать совпадение в термодинамич. пределе только определенного типа средних или квазисредних величин.
+
+В одной из наиболее общих постановок задачи исследуемые корреляционные функции представляются как производные от плотности термодинамич. потенциала по нек-рым, специально введенным в гамильтониан системы, внешним полям. При условии, что имеется А. о. для близости плотностей термодинамич. потенциалов для модельного и аппроксимирующего гамильтонианов, и что нек-рые высшие производные ограничены, А. о. для близости соответствующих корреляционных функций можно получить с помощью Колмогорова теоремы. В случае, когда задача сводится к изучению сходимости первых производных, более сильный результат можно получить с помощью леммы (см. [2], [3]), основанной на односторонней ограниченности (сверху, либо снизу) второй производной от разности плотностей термодинамич. потенциалов.
+
+Другая общая методика получения А. о. для одно- и многовременных корреляционных функций, $URI[[http://libmeta.ru/fme/formula/aux/114_36_ASIMPTOTIChESKIE]]/URI$-произведений и функций Грина была развита в [2]. Ее идею можно проиллюстрировать на примере модельной системы с гамильтонианом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_17_ASIMPTOTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/114_37_ASIMPTOTIChESKIE]]/URI$ и операторы $URI[[http://libmeta.ru/fme/formula/aux/114_38_ASIMPTOTIChESKIE]]/URI$удовлетворяют условиям термодинамич. эквивалентности аппроксимирующего гамильтониана $URI[[http://libmeta.ru/fme/formula/aux/114_39_ASIMPTOTIChESKIE]]/URI$, зависящего от комплексных парамет- ров $URI[[http://libmeta.ru/fme/formula/aux/114_40_ASIMPTOTIChESKIE]]/URI$. Тогда имеет место оценка
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_18_ASIMPTOTIChESKIE]]/URI
+\]
+
+при $URI[[http://libmeta.ru/fme/formula/aux/114_41_ASIMPTOTIChESKIE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/114_42_ASIMPTOTIChESKIE]]/URI$ точка, в к-рой достигается $URI[[http://libmeta.ru/fme/formula/aux/114_43_ASIMPTOTIChESKIE]]/URI$. Предположим еще существование предельной функции $URI[[http://libmeta.ru/fme/formula/aux/114_44_ASIMPTOTIChESKIE]]/URI$ для всех $URI[[http://libmeta.ru/fme/formula/aux/114_45_ASIMPTOTIChESKIE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/114_46_ASIMPTOTIChESKIE]]/URI$. Можно показать, что эта функция достигает абсолютного минимума по $URI[[http://libmeta.ru/fme/formula/aux/114_47_ASIMPTOTIChESKIE]]/URI$ в нек-рой точке $URI[[http://libmeta.ru/fme/formula/aux/114_48_ASIMPTOTIChESKIE]]/URI$ такой, что все $URI[[http://libmeta.ru/fme/formula/aux/114_49_ASIMPTOTIChESKIE]]/URI$. Пусть имеет место равномерная по всем $URI[[http://libmeta.ru/fme/formula/aux/114_50_ASIMPTOTIChESKIE]]/URI$ оценка
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_19_ASIMPTOTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/114_51_ASIMPTOTIChESKIE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/114_52_ASIMPTOTIChESKIE]]/URI$. Из уже сделанных предположений следует, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_20_ASIMPTOTIChESKIE]]/URI
+\]
+
+Рассмотрим теперь гамильтониан
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_21_ASIMPTOTIChESKIE]]/URI
+\]
+
+Заметим, что $URI[[http://libmeta.ru/fme/formula/aux/114_53_ASIMPTOTIChESKIE]]/URI$ и при $URI[[http://libmeta.ru/fme/formula/aux/114_54_ASIMPTOTIChESKIE]]/URI$, имеют место неравенства
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_22_ASIMPTOTIChESKIE]]/URI
+\]
+
+Поэтому
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_23_ASIMPTOTIChESKIE]]/URI
+\]
+
+откуда следует, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_24_ASIMPTOTIChESKIE]]/URI
+\]
+
+Применяя неравенство Боголюбова
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_25_ASIMPTOTIChESKIE]]/URI
+\]
+
+получают окончательно А. о.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/114_26_ASIMPTOTIChESKIE]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/fme/formula/aux/114_55_ASIMPTOTIChESKIE]]/URI$.
+
+О методах URI[[http://libmeta.ru/fme/relation/114_2_ASIMPTOTIChESKIE]]/URI А. о. для разностей URI[[http://libmeta.ru/fme/relation/114_1_ASIMPTOTIChESKIE]]/URI в моделях систем, взаимодействующих с бозонным полем, см. [3], [5].</text>
+  <text_orig>используемые для доказательства термодинамической (или статистической) эквивалентности модельного гамильтониана и annроксимирующего гамильтониана оценки, мажорирующие разность соответствующих плотностей термодинамических потенциалов (корреляционных функций) величинами, исчезающими в термодинамическом пределе. Впервые применялись Н. Н. Боголюбовым в 1960 (см. [1]) для оценки разности плотностей энергий основных состояний модельного и аппроксимирующего гамильтонианов БКШ - Боголюбова модели (см. БКШI-модель), а также и для оценки разностей соответствуюших функций Грина и корреляционных средних при нулевой температуре. В общем случае ненулевой температуры специальная техника А. о. развита Н. Н. Боголюбовым (мл.) (см. [2]) для целого класса модельных систем, гамильтониан к-рых содержит квадратичную форму, построенную на ограниченных операторах. В дальнейшем техника А. о. развивалась в двух направлениях: 1) обобщения с целью применения к другим классам систем, напр. с неполиномиальным взаимодействием или взаимодействием, содержашим неограниченные (Бозе) операторы (см. [3]); 2) получение более быстро сходящихся мажорационных оценок (см. [4]).
+
+A. о. для разности плотностей термодина мических потенциалов. В основе А. о. этого типа
+
+ACИMITOTИЧECKAЯ 33 лежит Боголюбова неравенство для плотностей свободных энергий, соответствуюших модельному и аппроксимирующему гамильтонианам. Пусть $H=H_{0}+H_{1}$ и $H_{0}-$ произвольные самосопряженные операторы, удовлетворяюшие условию существования плотности термодинамич. потенциала
+
+\[
+f_{\Lambda}[\Gamma]=-(\beta|\Lambda|)^{-1} \ln \operatorname{Tr} \exp (-\beta \Gamma), \quad \Gamma=H, H_{0},
+\]
+
+где $\beta=\left(k_{\mathrm{Б}} T\right)^{-1}, k_{\mathrm{Б}}-$ постоянная Больцмана, $T-$ абсолютная температура, $|\Lambda|$ - объем области $\Lambda \subset \mathbb{R}^{v}$ (или $\Lambda \subset \mathbb{Z}^{v}$ в случае решеточной системы), занимаемой частицами системы. Тогда:
+
+\[
+|\Lambda|^{-1}\left\langle H_{1}\right\rangle_{H} \leqslant f_{\Lambda}[H]-f_{\Lambda}\left[H_{0}\right] \leqslant|\Lambda|^{-1}\left\langle H_{1}\right\rangle_{H_{0}},
+\]
+
+где $\langle\cdot\rangle_{\Gamma}=\operatorname{Tr}\left(\cdot e^{-\beta \Gamma}\right) / \operatorname{Tr} e^{-\beta \Gamma}-$ гиббсовское среднее, $\operatorname{Tr}(\cdot)-$ след оператора. Технику А. о. проще всего проиллюстрировать на примере модельной системы с гамильтонианом вида
+
+\[
+H(h)=T_{\Lambda}-\frac{1}{2} J|\Lambda| A_{\Lambda}^{2}-h|\Lambda| A_{\Lambda}
+\]
+
+где $J&gt;0, h \in \mathbb{R}^{1}, T_{\Lambda}=T_{\Lambda}^{+}-$самосопряженный оператор, для к-рого сушествует $\left|f_{\Lambda}\left[T_{\Lambda}\right]\right|&lt;\infty, A_{\Lambda}$ - самосопряженный и ограниченный оператор, $\left\|A_{\Lambda}\right\| \leqslant M$, коммутирующий с $T_{\Lambda}$. В этом случае аппроксимирующий гамильтониан имеет вид
+
+\[
+H_{0}(c, h)=T_{\Lambda}-|\Lambda|(J c+h) A_{\Lambda}+\frac{1}{2} J|\Lambda| c^{2},
+\]
+
+где $c$ - действительный параметр. Применение неравенства Боголюбова приводит к цепочке неравенств
+
+\[
+\begin{gathered}
+0 \leqslant \frac{1}{2} J\left\langle\left(A_{\Lambda}-c\right)^{2}\right\rangle_{H_{0}(c, h)} \leqslant \\
+\leqslant f_{\Lambda}\left[H_{0}(c, h)\right]-f_{\Lambda}[H(h)] \leqslant \frac{1}{2} J\left\langle\left(A_{\Lambda}-c\right)^{2}\right\rangle_{H(h)} .
+\end{gathered}
+\]
+
+Из условия наилучшей аппроксимации $f_{\Lambda}[H(h)]$ получают вариационный принцип минимума свободной энергии:
+
+\[
+\begin{gathered}
+0 \leqslant \inf _{c \in \mathbb{R}^{1}} f_{\Lambda}\left[H_{0}(c, h)\right]-f_{\Lambda}[H(h)] \leqslant \\
+\leqslant \frac{1}{2} J\left\langle\left(A_{\Lambda}-\left\langle A_{\Lambda}\right\rangle_{H(h)}\right)^{2}\right\rangle_{H(h)}=-\frac{\beta J}{2|\Lambda|} \frac{\partial^{2} f_{\Lambda}[H(h)]}{\partial h^{2}} .
+\end{gathered}
+\]
+
+Можно показать, что при любом $h \in \mathbb{R}^{1}$
+
+\[
+\inf _{c} f_{\Lambda}\left[H_{0}(c, h)\right]
+\]
+
+достигается в нек-рой конечной точке $c=\bar{c}_{\Lambda}(h)$. Обозначим
+
+\[
+\Delta_{\Lambda}(h) \equiv f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}(h), h\right)\right]-f_{\Lambda}[H(h)]
+\]
+
+и проинтегрируем это неравенство по $h$ в интервале $\left[h_{1}, h_{1}+l\right] \in \mathbb{R}^{1}$. Применяя теорему о средней точке и учитывая, что
+
+\[
+\left|\frac{\partial}{\partial h} f_{\Lambda}[H(h)]\right|=\left|\left\langle A_{\Lambda}\right\rangle_{H(h)}\right| \leqslant M
+\]
+
+получают оценку
+
+\[
+0 \leqslant \Delta_{\Lambda}(\xi)=l^{-1} \int_{h_{1}}^{h_{1}+l} d h \Delta_{\Lambda}(h) \leqslant \frac{\beta J}{|\Lambda| l}
+\]
+
+где $\xi \in\left(h_{1}, h_{1}+l\right)$, справедливую при любых $h_{1} \in \mathbb{R}^{1}$ и $l&gt;0$. Далее, принимая во внимание, что
+
+\[
+\begin{gathered}
+f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}\left(h_{1}\right), h_{1}\right)\right]-f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}(\xi), \xi\right)\right] \leqslant \\
+\leqslant f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}(\xi), h_{1}\right)\right]-f_{\Lambda}\left[H_{0}\left(\bar{c}_{\Lambda}(\xi), \xi\right)\right] \leqslant M\left|h_{1}-\xi\right|,
+\end{gathered}
+\]
+
+можно вывести неравенства
+
+\[
+\Delta_{\Lambda}\left(h_{1}\right) \leqslant \Delta_{\Lambda}(\xi)+2 M\left|h_{1}-\xi\right| \leqslant \frac{\beta J}{|\Lambda| l}+2 M l .
+\]
+
+Оптимальную мажорационную оценку получают, минимизируя правую часть по $l&gt;0$, что, в силу произвольности $h_{1}$,
+
+\section{AсИмптотИЧЕСКИЕ}
+
+приводит к окончательной А. о.:
+
+\[
+\left|\Delta_{\Lambda}(h)\right| \leqslant 2^{3 / 2}(M \beta J)^{1 / 2}|\Lambda|^{-1 / 2} \rightarrow 0
+\]
+
+при $|\Lambda| \rightarrow \infty$.
+
+В случае, когда операторы $T_{\Lambda}$ и $A_{\Lambda}$ не коммутируют, среднее $\left\langle\left(\delta A_{\Lambda}\right)^{2}\right\rangle_{H(h)}$, где $\delta A_{\Lambda}=A_{\Lambda}-\left\langle A_{\Lambda}\right\rangle_{H(h)}$ мажорируется выражением, содержащим вторую производную функции $f_{\Lambda}[H(h)]$ по параметру $h$ (см. [2], [3]).
+
+Случай наличия в гамильтониане члена со взаимодействием типа отталкивания:
+
+\[
+H(h)=T_{\Lambda}+\frac{1}{2} g|\Lambda| A_{\Lambda}^{2}-h|\Lambda| A_{\Lambda},
+\]
+
+где $g&gt;0$, принципиально отличается от рассмотренного выше случая притяжения тем, что неравенство Боголюбова дает
+
+\[
+0 \leqslant f_{\Lambda}[H(h)]-f_{\Lambda}\left[H_{0}(c, h)\right] \leqslant \frac{1}{2} g\left\langle\left(A_{\Lambda}-c\right)^{2}\right\rangle_{H_{0}(c, h)}
+\]
+
+и предыдущая техника А. о. становится неприменимой. Условие наилучшей аппроксимации приводит теперь к принципу максимума
+
+$0 \leqslant f_{\Lambda}[H(h)]-\sup _{c \in \mathbb{R}^{1}} f_{\Lambda}\left[H_{0}(c, h)\right] \leqslant \frac{1}{2} g\left\langle A_{\Lambda}-\bar{c}_{\Lambda}(h)^{2}\right\rangle_{H_{0}\left(\bar{c}_{\Lambda}(h), h\right)}$,
+
+где $c=\bar{c}_{\Lambda}(h)-$ точка, в к-рой достигается
+
+\[
+\sup _{c} f_{\Lambda}\left[H_{0}(c, h)\right]
+\]
+
+Условие асимптотич. малости коррелятора в правой части последнего неравенства (условие кластеризации) необходимо для асимптотически точной аппроксимации $f_{\Lambda}[H(h)]$.
+
+Технику получения А. о. в более общем случае, приводящем к принципу минимакса, а также для других классов модельных гамильтонианов см. в [3] и в приведенной там литературе.
+
+A. о. для разности корреляционных функц и й. С появлением метода аппроксимирующего гамильтониана был поставлен вопрос о возможности асимптотически точного вычисления термодинамич. средних величин и корреляционных функций для модельной системы, усредняя не по исходному, а по более простому аппроксимирующему гамильтониану. Положительный ответ на этот вопрос следовал бы из более сильной, статистич. ЭКвивалентности модельного и аппроксимирующего гамильтонианов, к-рая в общем виде пока не установлена. Большинство полученных А. о. позволяет доказать совпадение в термодинамич. пределе только определенного типа средних или квазисредних величин.
+
+В одной из наиболее общих постановок задачи исследуемые корреляционные функции представляются как производные от плотности термодинамич. потенциала по нек-рым, специально введенным в гамильтониан системы, внешним полям. При условии, что имеется А. о. для близости плотностей термодинамич. потенциалов для модельного и аппроксимирующего гамильтонианов, и что нек-рые высшие производные ограничены, А. о. для близости соответствующих корреляционных функций можно получить с помошью Колмогорова теоремы. В случае, когда задача сводится к изучению сходимости первых производных, более сильный результат можно получить с помощью леммы (см. [2], [3]), основанной на односторонней ограниченности (сверху, либо снизу) второй производной от разности плотностей термодинамич. потенциалов.
+
+Другая общая методика получения А. о. для одно- и многовременных корреляционных функций, $T$-произведений и функций Грина была развита в [2]. Ее идею можно проиллюстрировать на примере модельной системы с гамильтонианом
+
+\[
+H=T_{\Lambda}-|\Lambda| \sum_{k=1}^{s} g_{k} A_{\Lambda, k} A_{\Lambda, k}^{+},
+\]
+
+где $g_{k}&gt;0$ и операторы $T_{\Lambda}, A_{\Lambda, k}, A_{\Lambda, k}^{+}$удовлетворяют условиям термодинамич. эквивалентности аппроксимирующего гамильтониана $H_{0}(a)$, зависяшего от комплексных парамет- ров $a=\left(a_{1}, \ldots, a_{s}\right) \in \mathbb{C}^{S}$. Тогда имеет место оценка
+
+\[
+0 \leqslant f_{\Lambda}\left[H_{0}\left(\bar{a}_{\Lambda}\right)\right]-f_{\Lambda}[H] \leqslant \varepsilon_{\Lambda} \rightarrow 0
+\]
+
+при $|\Lambda| \rightarrow \infty$, где $\bar{a}_{\Lambda}=\left(\bar{a}_{\Lambda, 1}, \ldots, \bar{a}_{\Lambda, s}\right)-$ точка, в к-рой достигается $\inf f_{\Lambda}\left[H_{0}(a)\right]$. Предположим еще существование предельной функции $t-\lim f_{\Lambda}\left[H_{0}(a)\right]$ для всех $\left|a_{k}\right| \leqslant 2 M$, $k=1, \ldots, s$. Можно показать, что эта функция достигает абсолютного минимума по $a \in \mathbb{C}^{s}$ в нек-рой точке $\bar{a}_{\infty}$ такой, что все $\left|\bar{a}_{\infty, k}\right| \leqslant 2 M_{1}$. Пусть имеет место равномерная по всем $a_{k}:\left|a_{k}\right| \leqslant 2 M_{1}$ оценка
+
+\[
+\left|f_{\Lambda}\left[H_{0}(a)\right]-t-\lim f_{\Lambda}\left[H_{0}(a)\right]\right| \leqslant \delta_{\Lambda},
+\]
+
+где $\delta_{\Lambda} \rightarrow 0$ при $|\Lambda| \rightarrow \infty$. Из уже сделанных предположений следует, что
+
+\[
+\left|t-\lim f_{\Lambda}\left[H_{0}\left(\bar{a}_{\infty}\right)\right]-f_{\Lambda}[H]\right| \leqslant \delta_{\Lambda}+\varepsilon_{\Lambda}
+\]
+
+Рассмотрим теперь гамильтониан
+
+\[
+\Gamma(\tau)=H+|\Lambda| \sum_{k=1}^{s} \tau_{k} g_{k}\left(A_{\Lambda, k}-\bar{a}_{\infty}, k\right)\left(A_{\Lambda, k}^{+}-\bar{a}_{\infty, k}^{*}\right) .
+\]
+
+Заметим, что $\Gamma\left(\left\{\tau_{k}=1\right\}\right)=H_{0}\left(\bar{a}_{\infty}\right)$ и при $0&lt;\tau_{k}&lt;1, k=1, \ldots, s$, имеют место неравенства
+
+\[
+f_{\Lambda}[H] \leqslant f_{\Lambda}[\Gamma(\tau)] \leqslant f_{\Lambda}\left[H_{0}\left(\bar{a}_{\infty}\right)\right]
+\]
+
+Поэтому
+
+\[
+0 \leqslant f_{\Lambda}\left[H_{0}\left(\bar{a}_{\infty}\right)\right]-f_{\Lambda}[H] \leqslant 2 \delta_{\Lambda}+\varepsilon_{\Lambda},
+\]
+
+откуда следует, что
+
+\[
+f_{\Lambda}[\Gamma(\tau)]-f_{\Lambda}[H] \leqslant 2 \delta_{\Lambda}+\varepsilon_{\Lambda}
+\]
+
+Применяя неравенство Боголюбова
+
+\[
+|\Lambda|^{-1}\langle\Gamma(\tau)-H\rangle_{\Gamma(\tau)} \leqslant f_{\Lambda}[\Gamma(\tau)]-f_{\Lambda}[H]
+\]
+
+получают окончательно А. о.:
+
+\[
+\left\langle\left(A_{\Lambda, k}-\bar{a}_{\infty, k}\right)\left(A_{\Lambda, k}^{+}-\bar{a}_{\infty, k}^{*}\right)\right\rangle_{\Gamma(\tau)} \leqslant \frac{2 \delta_{\Lambda}+\varepsilon_{\Lambda}}{g_{k} \tau_{k}} \rightarrow 0, \quad|\Lambda| \rightarrow \infty,
+\]
+
+для всех $k=1, \ldots, s$.
+
+О методах получения А. о. для разностей квазисредних в моделях систем, взаимодействующих с бозонным полем, см. [3], [5].
+
+Лum.: [1] Богол юбов Н. Н., Избранные труды в трех томах, т. 3, Киев, 1971; [2] Б о го л юбо в Н. Н. (мл.), Метод исследования модельных гамильтонианов, М., 1974; [3] Бо го л юбо в Н. Н. (м л.) и д р., Метод аппроксимируюшего гамильтониана в статистической физике, София, 1981; [4] П л е ч к о В. Н., «Теоретич. и математич. физика», 1976, т. 28, с. 127; [5] Бо го л ю 6 о в Н. Н. (мл.), Плеч к о В. Н., «Докл. АН СССР», 1976, т. 228 , № 5, с. $1061-64$.
+
+Й.Г. Бранков.</text_orig>
+</article>

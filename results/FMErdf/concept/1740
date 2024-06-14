@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2567_RAUSA-GURVITsA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2567_RAUSA-GURVITsA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1740</core:url>
+    <lbm:descriptor><![CDATA[РАУСА-ГУРВИЦА КРИТЕРИЙ, ГУРВИЦА КРИТЕРИЙ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#13090"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13091"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13092"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13093"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13094"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13095"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13096"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13097"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13098"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4355"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13099"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>необходимое и достаточное условие того, чтобы все корни многочлена<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13091">$$f(x)=a_{0} x^{n}+a_{1} x^{n-1}+\ldots+a_{n}$$</a><BR/></P><P>с действительными коэффициентами и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13093">$$a_{0}>0$$</a> имели отрицательные действительные части. Р.- Г. к. состоит в том, чтобы были положительными все главные миноры <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13094">$$\delta_{i}, i=1$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13095">$$2, \ldots, n$$</a>, м а т р и цы $URI[[http://libmeta.ru/fme/formula/aux/2567_4_RAUSA-GURVITsA]]/URI$ у р в и ц $URI[[http://libmeta.ru/fme/formula/aux/2567_5_RAUSA-GURVITsA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2567_6_RAUSA-GURVITsA]]/URI$ - матрица порядка <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13097">$$n, i$$</a>-я строка к-рой имеет вид<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13092">$$a_{2-i}, a_{4-i}, \ldots, a_{2 n-i},$$</a><BR/></P><P>и, по определению, $URI[[http://libmeta.ru/fme/formula/aux/2567_8_RAUSA-GURVITsA]]/URI$, если <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4355">$$k<0$$</a> или <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13099">$$k>n$$</a> (усло в и я Гурвица, условия Рауса - Гурвица). Этот критерий <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получен</a> А. Гурвицем (a. Hurwitz, 1895) и является обобщением работы Э. Payca (e. Routh, 1877).<BR/></P><P>Многочлен $URI[[http://libmeta.ru/fme/formula/aux/2567_11_RAUSA-GURVITsA]]/URI$, удовлетворяющий условиям Гурвица, называется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многочленом</a> Гурвица, или устойчивым м ногочле ном, что связано с применениями Р.Г. к. в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1670_LJaPUNOVA">теории устойчивости</a> колебательных систем.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#13090">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#328">Гантмахер Ф. Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#13090">Теория матриц, 3 изд., М., 1967, Кузьмин.</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[необходимое и достаточное условие того, чтобы все корни многочлена
+
+\[
+f(x)=a_{0} x^{n}+a_{1} x^{n-1}+\ldots+a_{n}
+\]
+
+с действительными коэффициентами и $a_{0}>0$ имели отрицательные действительные части. Р.- Г. к. состоит в том, чтобы были положительными все главные миноры $\Delta_{i}, i=1$, $2, \ldots, n$, м а т р и цы $Г$ у р в и ц $H$, где $H$ - матрица порядка $n, i$-я строка к-рой имеет вид
+
+\[
+a_{2-i}, a_{4-i}, \ldots, a_{2 n-i},
+\]
+
+и, по определению, $a_{k}=0$, если $k<0$ или $k>n$ (усло в и я Гурвица, условия Рауса - Гурвица). Этот критерий получен А. Гурвицем (A. Hurwitz, 1895) и является обобщением работы Э. Payca (E. Routh, 1877).
+
+Многочлен $f(x)$, удовлетворяющий условиям Гурвица, называется многочленом Гурвица, или устойчивым м ногочле ном, что связано с применениями Р.Г. к. в теории устойчивости колебательных систем.
+
+Лит.: [1] Га н т мах е р Ф. Р., Теория матриц, 3 изд., М., 1967.
+
+Е. Н., Кузьмин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1670_LJaPUNOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

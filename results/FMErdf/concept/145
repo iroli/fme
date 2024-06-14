@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1130_KVADRATIChNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1130_KVADRATIChNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/145</core:url>
+    <lbm:descriptor><![CDATA[КВАДРАТИЧНОЕ ОТКЛОНЕНИЕ, СТАНДАРТНОЕ ОТКЛОНЕНИЕ, КВАДРАТИЧНОЕ УКЛОНЕНИЕ ВЕЛИЧИН $x_{1}, x_{2}, \ldots, x_{n}$ ОТ $a$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1473"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1474"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1475"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1476"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1477"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1478"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1479"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1480"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1481"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1482"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1483"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1484"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1485"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1486"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>квадратный корень из выражения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1474">$$\frac{\left(x_{1}-a\right)^{2}+\left(x_{2}-a\right)^{2}+\ldots+\left(x_{n}-a\right)^{2}}{n} \text {. }$$</a><BR/></P><P>Наименьшее значение К. о. имеет при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1477">$$a=\bar{x}$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1478">$$\bar{x}-$$</a> среднее арифметическое величин $URI[[http://libmeta.ru/fme/formula/aux/1130_3_KVADRATIChNOE]]/URI$ :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1475">$$\bar{x}=\frac{x_{1}+x_{2}+\ldots+x_{n}}{n} .$$</a><BR/></P><P>В теории вероятностей квадратичное отклонение $URI[[http://libmeta.ru/fme/formula/aux/1130_4_KVADRATIChNOE]]/URI$ случайной величины $URI[[http://libmeta.ru/fme/formula/aux/1130_5_KVADRATIChNOE]]/URI$ (от ее математич. ожидания) опре- деляют как квадратный корень из дисперсии <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1481">$$\mathrm{d} X$$</a> :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1476">$$\sigma_{x}=\sqrt{\mathrm{D} X}$$</a><BR/></P><P>и называют также с т а д а р т ны м отклоне ние м величины $URI[[http://libmeta.ru/fme/formula/aux/1130_7_KVADRATIChNOE]]/URI$. Для любой случайной величины $URI[[http://libmeta.ru/fme/formula/aux/1130_8_KVADRATIChNOE]]/URI$ с математич. ожиданием $URI[[http://libmeta.ru/fme/formula/aux/1130_9_KVADRATIChNOE]]/URI$ и К. о. $URI[[http://libmeta.ru/fme/formula/aux/1130_10_KVADRATIChNOE]]/URI$ вероятность отклонений $URI[[http://libmeta.ru/fme/formula/aux/1130_11_KVADRATIChNOE]]/URI$ от <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1482">$$m_{x}$$</a>, больших по абсолютной величине <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1483">$$k \sigma_{X}, k>0$$</a>, не превосходит <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1484">$$1 / k^{2}$$</a> (не равенство Чебышева). В случае нормального распределения указанная вероятность при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1485">$$k=3$$</a> равна 0,0027. В практич. задачах, приводящих к нормальному распределению, чаше всего пренебрегают возможностью отклонений от среднего, больших <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1486">$$3 \sigma_{X}$$</a> (п ра в ило т рех с И Г М).<BR/></P><P>В математич. статистике К. о. употребляют как меру качества статистич. оценок и называют в этом случае к в а д ратичной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2269_POGREShNOST">погрешностью</a> (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2154_OShIBK">ошибкой</a>).<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1473">В. И. Битюцков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[квадратный корень из выражения
+
+\[
+\frac{\left(x_{1}-a\right)^{2}+\left(x_{2}-a\right)^{2}+\ldots+\left(x_{n}-a\right)^{2}}{n} \text {. }
+\]
+
+Наименьшее значение К. о. имеет при $a=\bar{x}$, где $\bar{x}-$ среднее арифметическое величин $x_{1}, x_{2}, \ldots, x_{n}$ :
+
+\[
+\bar{x}=\frac{x_{1}+x_{2}+\ldots+x_{n}}{n} .
+\]
+
+В теории вероятностей квадратичное отклонение $\sigma_{X}$ случайной величины $X$ (от ее математич. ожидания) опре- деляют как квадратный корень из дисперсии $\mathrm{D} X$ :
+
+\[
+\sigma_{x}=\sqrt{\mathrm{D} X}
+\]
+
+и называют также с т а д а р т ны м отклоне ние м величины $X$. Для любой случайной величины $X$ с математич. ожиданием $m_{X}$ и К. о. $\sigma_{X}$ вероятность отклонений $X$ от $m_{X}$, больших по абсолютной величине $k \sigma_{X}, k>0$, не превосходит $1 / k^{2}$ (не равенство Чебышева). В случае нормального распределения указанная вероятность при $k=3$ равна 0,0027. В практич. задачах, приводящих к нормальному распределению, чаше всего пренебрегают возможностью отклонений от среднего, больших $3 \sigma_{X}$ (п ра в ило т рех с И Г М).
+
+В математич. статистике К. о. употребляют как меру качества статистич. оценок и называют в этом случае к в а д ратичной погрешностью (ошибкой).
+
+В. И. Битюцков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2154_OShIBK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2269_POGREShNOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

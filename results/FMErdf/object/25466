@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_25466">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mover><mrow><mi>w</mi></mrow><mo>&#x002D9;</mo></mover><mo>&#x0003D;</mo><mo>&#x02212;</mo><msubsup><mi>&#x003BB;</mi><mrow><mi>x</mi><mi>p</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>r</mi><mrow><mi>t</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>&#x003BE;</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>w</mi><mo>&#x02212;</mo><msubsup><mi>&#x003BB;</mi><mrow><mi>x</mi><mi>x</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>r</mi><mrow><mi>t</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>&#x003BE;</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>z</mi><mo>&#x0002C;</mo><mi>w</mi><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>w</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><msub><mi>w</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0002C;</mo><msub><mi>w</mi><mrow><mn>3</mn></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x02208;</mo><msup><mi>&#x02102;</mi><mrow><mn>3</mn></mrow></msup></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\dot{w}=-\lambda_{x p}^{+}\left(r_{t}^{+}(\xi)\right) w-\lambda_{x x}^{+}\left(r_{t}^{+}(\xi)\right) z, w=\left(w_{1}, w_{2}, w_{3}\right) \in \mathbb{C}^{3}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

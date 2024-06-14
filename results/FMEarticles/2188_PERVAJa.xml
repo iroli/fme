@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2188_PERVAJa" alphabetic_pos="2190">
+  <title>ПЕРВАЯ КВАДРАТИЧНАЯ ФОРМА ПОВЕРХНОСТИ $M^{k}$ В $n$-МЕРНОМ ЕВКЛИДОВОМ ПРОСТРАНСТВЕ $\mathbb{R}^{n}$, РАДИУС-ВЕКТОР ТЕКУЩЕЙ ТОЧКИ КОТОРОЙ ЗАДАН ПАРАМЕТРИЧЕСКИ $\boldsymbol{r}=\boldsymbol{r}\left(u^{1}, \ldots\right.$, $\left.u^{k}\right)$</title>
+  <authors>
+    <author>В. В. Трофимов</author>
+  </authors>
+  <pages>
+    <start>427</start>
+    <end>427</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2188_1_PERVAJa">(d \boldsymbol{r}, d \boldsymbol{r})=g_{a b} d u^{a} d u^{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2188_2_PERVAJa">g_{a b}=\left(\frac{\partial \boldsymbol{r}}{\partial u^{a}}, \frac{\partial \boldsymbol{r}}{\partial u^{b}}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2188_3_PERVAJa">E=g_{11}, F=g_{12}, G=g_{22} \text {. }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2188_1_PERVAJa">m \in M^{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2188_2_PERVAJa">d s^{2}=d x_{1}^{2}+\ldots+d x_{n}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2188_3_PERVAJa">t_{m} M^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2188_4_PERVAJa">n=3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2188_5_PERVAJa">g_{i j}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2188_1_PERVAJa">
+      <rel_text>Риманова геометрия</rel_text>
+      <target>http://libmeta.ru/fme/article/2637_RIMANOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2188_2_PERVAJa">
+      <rel_text>тензор</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2188_3_PERVAJa">
+      <rel_text>касательное пространство</rel_text>
+      <target>http://libmeta.ru/fme/article/1117_KASATEL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2188_4_PERVAJa">
+      <rel_text>евклидовой метрики</rel_text>
+      <target>http://libmeta.ru/fme/article/915_EVKLIDOVA</target>
+    </relation>
+  </relations>
+  <text>форма вида
+
+то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2188_1_PERVAJa]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2188_2_PERVAJa]]/URI
+\]
+
+В инвариантной форме П. к. Ф. в точке $URI[[http://libmeta.ru/fme/formula/aux/2188_1_PERVAJa]]/URI$ это ограничение URI[[http://libmeta.ru/fme/relation/2188_4_PERVAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2188_2_PERVAJa]]/URI$ на URI[[http://libmeta.ru/fme/relation/2188_3_PERVAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2188_3_PERVAJa]]/URI$. В случае когда $URI[[http://libmeta.ru/fme/formula/aux/2188_4_PERVAJa]]/URI$, часто используют классич. обозначения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2188_3_PERVAJa]]/URI
+\]
+
+Коэффициенты $URI[[http://libmeta.ru/fme/formula/aux/2188_5_PERVAJa]]/URI$ образуют URI[[http://libmeta.ru/fme/relation/2188_2_PERVAJa]]/URI, называемый м е т рическим тензором.
+
+См. также URI[[http://libmeta.ru/fme/relation/2188_1_PERVAJa]]/URI.</text>
+  <text_orig>форма вида
+
+то есть
+
+\[
+(d \boldsymbol{r}, d \boldsymbol{r})=g_{a b} d u^{a} d u^{b}
+\]
+
+\[
+g_{a b}=\left(\frac{\partial \boldsymbol{r}}{\partial u^{a}}, \frac{\partial \boldsymbol{r}}{\partial u^{b}}\right) \text {. }
+\]
+
+В инвариантной форме П. к. Ф. в точке $m \in M^{k}-$ это ограничение евклидовой метрики $d s^{2}=d x_{1}^{2}+\ldots+d x_{n}^{2}$ на касательное пространство $T_{m} M^{k}$. В случае когда $n=3$, часто используют классич. обозначения
+
+\[
+E=g_{11}, F=g_{12}, G=g_{22} \text {. }
+\]
+
+Коэффициенты $g_{i j}$ образуют тензор, называемый м е т рическим тензором.
+
+См. также Риманова геометрия.
+
+В. В. Трофимов.</text_orig>
+</article>

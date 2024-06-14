@@ -1,0 +1,366 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/819_DINAMIKA" alphabetic_pos="821">
+  <title>ДИНАМИКА ТВЕРДОГО ТЕЛА; ИНТЕГРИРУЕМЫЕ И НЕИНТЕГРИРУЕМЫЕ ЗАДАЧИ</title>
+  <authors>
+    <author>П. В. Харламов</author>
+  </authors>
+  <pages>
+    <start>171</start>
+    <end>172</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Горр Г.В., Кудряшова Л. В., Степанова Л.А., Классические задачи динамики твердого тела, Киев, 1978; [2] Х ар лам о в М. П., Топологический анализ интегрируемых задач динамики твердого тела, Л., 1988; [3] Харл ам о ва Е. И., Мозале вск а я Г. В., Интегродифференциальное уравнение динамики твердого тела, Киев, 1986; [4] Ча плыги н С. А., Исследования по динамике неголономных систем, М.- Л., 1949; [5] К озл о в В. В., Методы качественного анализа в динамике твердого тела, М., 1980 .</literature_orig>
+    <unit>
+      <author>Горр Г. В.</author>
+      <author>Кудряшова Л. В.</author>
+      <author>Степанова Л. А.</author>
+      <title>Классические задачи динамики твердого тела, Киев</title>
+      <publication/>
+      <year>1978</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Харламов М. П.</author>
+      <title>Топологический анализ интегрируемых задач динамики твердого тела</title>
+      <publication>Л.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Харламова Е. И.</author>
+      <author>Мозалевская Г. В.</author>
+      <title>Интегродифференциальное уравнение динамики твердого тела, Киев</title>
+      <publication/>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Чаплыгин С. А.</author>
+      <title>Исследования по динамике неголономных систем, М.- Л.</title>
+      <publication/>
+      <year>1949</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Козлов В. В.</author>
+      <title>Методы качественного анализа в динамике твердого тела</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_1_DINAMIKA">\left.\begin{array}{c}G_{1}^{\bullet}+\omega_{2} G_{3}-\omega_{3} G_{2}=M_{1}, \quad v_{1}^{\bullet}=\omega_{3} v_{2}-\omega_{2} v_{3}, \\G_{1}=J_{1 i} \omega_{i}, \quad M_{1}=\left(v_{2} F+\frac{\partial f}{\partial v_{2}}\right) \omega_{3}- \\-\left(v_{3} F+\frac{\partial f}{\partial v_{3}}\right) \omega_{2}+v_{2} \frac{\partial \Pi}{\partial v_{3}}-v_{3} \frac{\partial \Pi}{\partial v_{2}},\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_2_DINAMIKA">\Pi\left(v_{1}, v_{2}, v_{3}\right), f\left(v_{1}, v_{2}, v_{3}\right), F\left(v_{1}, v_{2}, v_{3}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_3_DINAMIKA">v_{1}^{2}+v_{2}^{2}+v_{3}^{2}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_4_DINAMIKA">\Pi=\frac{1}{2} N_{i j} v_{i} v_{j}-\mu_{i} v_{i}, \quad f=\lambda_{i} v_{i}-\frac{1}{2} E_{i j} v_{i} v_{j}, \quad F=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_5_DINAMIKA">G_{i}=J_{i j} \omega_{j}-\rho v^{-1} P_{i j} \omega_{j}^{\bullet}, \quad P_{i j}=-\int_{D}{ }^{\ni_{j}}\left(\boldsymbol{r} \times z_{i}\right) d v,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_6_DINAMIKA">\begin{gathered}G_{i}=J_{i j} \omega_{j}+\rho \sqrt{\frac{v}{\pi}} E_{i j} \int_{t_{0}}^{t} \frac{\omega_{j}(\tau) d \tau}{\sqrt{t-\tau}} \\E_{i j}=\oint_{\partial D}\left(r \times \vartheta_{i}+\nabla \Phi_{i}\right)\left(r \times \vartheta_{j}+\nabla \Phi_{j}\right) d s,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_7_DINAMIKA">\left[P^{0} H^{\infty}(t)+\frac{\varepsilon}{\sqrt{\pi}} P^{1} \int_{0}^{t} \frac{H^{\infty}(\tau) d \tau}{\sqrt{t-\tau}}\right] \times H^{\infty},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_8_DINAMIKA">\frac{d \lambda}{d \tau}-\mu \xi \operatorname{ctg}^{2} \tau=\Lambda, \quad \frac{d \mu}{d \tau}+\lambda \xi \operatorname{tg}^{2} \tau=\mathbf{M},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_9_DINAMIKA">\begin{aligned}&amp; \left(J \omega+\varphi^{\bullet} \sum_{k=1}^{n} j_{k} C^{k}+\sum_{k=0}^{n} H^{k}\right)^{\bullet}=M, \\&amp; \left(\frac{\partial T}{\partial \varphi^{\bullet}}\right)^{\bullet}-\frac{\partial T}{\partial \varphi}=Q-\frac{\partial \Pi}{\partial \varphi} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/819_10_DINAMIKA">\begin{gathered}\omega_{\zeta}=\omega_{1} v_{1}+\omega_{2} v_{2}+\omega_{3} v_{3}, \omega_{\rho}^{2}=\omega_{1}^{2}+\omega_{2}^{2}+\omega_{3}^{2}-\omega_{\zeta}^{2}, \\\omega_{\rho}^{2} d \alpha=\left(\omega_{3} v_{2}-\omega_{2} v_{3}\right) d \omega_{1}+\left(\omega_{1} v_{3}-\omega_{3} v_{1}\right) d \omega_{2}+ \\+\left(\omega_{2} v_{1}-\omega_{1} v_{2}\right) d \omega_{3} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_1_DINAMIKA">\omega_{i} G_{i}+\Pi=2 h, v_{i} G_{i}+f=k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_2_DINAMIKA">n_{i j}=0, E_{i j}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_3_DINAMIKA">\omega_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_4_DINAMIKA">v_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_5_DINAMIKA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_6_DINAMIKA">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_7_DINAMIKA">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_8_DINAMIKA">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_9_DINAMIKA">z_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_10_DINAMIKA">\phi_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_11_DINAMIKA">h^{\infty}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_12_DINAMIKA">p^{0}, P^{1}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_13_DINAMIKA">\varepsilon-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_14_DINAMIKA">\lambda(\tau), \mu(\tau)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_15_DINAMIKA">\frac{d \tau}{d t}=-x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_16_DINAMIKA">t(\tau)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_17_DINAMIKA">s^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_18_DINAMIKA">l^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_19_DINAMIKA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_20_DINAMIKA">x_{i}^{\bullet}=x_{i}(x, a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_21_DINAMIKA">x=\left(x_{1}, \ldots, x_{n}\right), i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_22_DINAMIKA">a=\left(a_{1}, \ldots, a_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_23_DINAMIKA">c=\left(c_{1}, \ldots, c_{p}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_24_DINAMIKA">f^{(0)}(x, a, c)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_25_DINAMIKA">f^{(k)}(x, a, c)=X_{i} \partial f^{(k-1)} / \partial x_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_26_DINAMIKA">j_{j}(x, a)=C_{j}, j=1, \ldots, s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_27_DINAMIKA">f^{(k)}(x, a, c)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_28_DINAMIKA">a_{*}, c_{*}, C_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_29_DINAMIKA">n-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_30_DINAMIKA">x_{i}^{\bullet}=x_{i}\left(x, a_{*}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_31_DINAMIKA">j_{j}\left(x, a_{*}\right)=C_{* j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_32_DINAMIKA">f^{(0)}\left(x, a_{*}, c_{*}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_33_DINAMIKA">f^{(1)}(x, a, c) \equiv 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/819_34_DINAMIKA">x_{i}(x, a)</formula>
+  </formulas_aux>
+  <relations n="20">
+    <relation uri="http://libmeta.ru/fme/relation/819_1_DINAMIKA">
+      <rel_text>подвижного аксоида</rel_text>
+      <target>http://libmeta.ru/fme/article/2274_PODVIZhNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_2_DINAMIKA">
+      <rel_text>получении</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_3_DINAMIKA">
+      <rel_text>годограф</rel_text>
+      <target>http://libmeta.ru/fme/article/664_GODOGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_4_DINAMIKA">
+      <rel_text>угловой скорости</rel_text>
+      <target>http://libmeta.ru/fme/article/3145_UGLOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_5_DINAMIKA">
+      <rel_text>годографы</rel_text>
+      <target>http://libmeta.ru/fme/article/664_GODOGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_6_DINAMIKA">
+      <rel_text>аксоиды</rel_text>
+      <target>http://libmeta.ru/fme/article/45_AKSOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_7_DINAMIKA">
+      <rel_text>подвижный аксоид</rel_text>
+      <target>http://libmeta.ru/fme/article/2274_PODVIZhNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_8_DINAMIKA">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_9_DINAMIKA">
+      <rel_text>решение задачи</rel_text>
+      <target>http://libmeta.ru/fme/article/2547_RASSEJaNIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_10_DINAMIKA">
+      <rel_text>получено</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_11_DINAMIKA">
+      <rel_text>неподвижному аксоиду</rel_text>
+      <target>http://libmeta.ru/fme/article/1925_NEPODVIZhNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_12_DINAMIKA">
+      <rel_text>подвижного аксоида</rel_text>
+      <target>http://libmeta.ru/fme/article/2274_PODVIZhNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_13_DINAMIKA">
+      <rel_text>получен</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_14_DINAMIKA">
+      <rel_text>алгебре</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_15_DINAMIKA">
+      <rel_text>инвариантного</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_16_DINAMIKA">
+      <rel_text>многочленами</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_17_DINAMIKA">
+      <rel_text>составляют</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_18_DINAMIKA">
+      <rel_text>параметрами</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_19_DINAMIKA">
+      <rel_text>параметрами</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/819_20_DINAMIKA">
+      <rel_text>инвариантного</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+  </relations>
+  <text>Представление о реальном теле как сплошном недеформируемом (абсолютно твердом), используют при изучении движения и естественных, и технических объектов, чем и определяется роль динамики твердого тела (см. [1]). В сохраняющейся до настоящего времени форме динамич. и кинематич. уравнения созданы Л. Эйлером (l. Euler) в 1749-58; работы были начаты в связи с анализом движения оси Земли, выполнявшимся одновременно с Ж. Д'аламбером (j. D'alembert). Формализовал вывод уравнений Ж. Лагранж (ј. Lagrange, 1813). В так наз. классич. задачах Д. т. т. уравнения допускают интегралы энергии и момента количества движения, известен интегрирующий множитель (константа). Обладающие таким свойством задачи охвачены уравнениями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_1_DINAMIKA]]/URI
+\]
+
+в к-рых функции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_2_DINAMIKA]]/URI
+\]
+
+определены на сфере
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_3_DINAMIKA]]/URI
+\]
+
+Дополняют последнее соотношение интегралы
+
+$URI[[http://libmeta.ru/fme/formula/aux/819_1_DINAMIKA]]/URI$.
+
+В частности, при
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_4_DINAMIKA]]/URI
+\]
+
+имеем уравнения задачи о движении в жидкости тела с циркуляционными течениями через имеющиеся в нем отверстия и с циркулирующей жидкостью в полостях тела. При дополнительных условиях $URI[[http://libmeta.ru/fme/formula/aux/819_2_DINAMIKA]]/URI$ получаются уравнения задачи о движении тяжелого гиростата. Алгебраичность (1), (4) по отношению к $URI[[http://libmeta.ru/fme/formula/aux/819_3_DINAMIKA]]/URI$ обеспечила возможность понижения порядка системы уравнений. В задаче о гиростате использована алгебраичность (1), (4) по отношению к $URI[[http://libmeta.ru/fme/formula/aux/819_4_DINAMIKA]]/URI$, что позволило свести задачу к одному интегродифференциальному уравнению (см. [3]).
+
+В исследованиях технич. направленности важен учет непотенциальных взаимодействий тел. Уточняя постановку задачи о взаимодействии тела с жидкостью, учитывают ее вязкость. Разделение задач гидродинамики и Д. т. т. достигнуто введением малого параметра и осреднением. Если кинематич. вязкость $URI[[http://libmeta.ru/fme/formula/aux/819_5_DINAMIKA]]/URI$ велика, то компоненты момента количества системы могут быть взяты в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_5_DINAMIKA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/819_6_DINAMIKA]]/URI$ - плотность жидкости, вектор $URI[[http://libmeta.ru/fme/formula/aux/819_7_DINAMIKA]]/URI$ указывает частицу жидкости в полости $URI[[http://libmeta.ru/fme/formula/aux/819_8_DINAMIKA]]/URI$ тела, а $URI[[http://libmeta.ru/fme/formula/aux/819_9_DINAMIKA]]/URI$ - зависящие лишь от формы полости функции, определяемые как решения трех стационарных линейных краевых задач. Для малой вязкости найдено другое выражение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_6_DINAMIKA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/819_10_DINAMIKA]]/URI$ - потенциалы Жуковского. В теории движения проводящего тела в электромагнитном поле отделяют взаимодейст- вия, существенно отличающиеся временными масштабами. Напр., при малой глубине проникновения магнитного поля момент сил, действующих на проводящее тело, представлен в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_7_DINAMIKA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/819_11_DINAMIKA]]/URI$ - напряженность однородного магнитного поля; $URI[[http://libmeta.ru/fme/formula/aux/819_12_DINAMIKA]]/URI$ зависящие лишь от формы тела тензоры, $URI[[http://libmeta.ru/fme/formula/aux/819_13_DINAMIKA]]/URI$ малый параметр.
+
+Трудности математич. моделирования движения систем тел побудили принимать дополнительные ограничения не только в постановках задач, в большинстве к-рых изучают лишь простейшие стационарные движения и, в лучшем случае,- их окрестности (устойчивость, малые колебания). Традиционно здесь использование лагранжева или гамильтонова формализмов.
+
+В строгой постановке задачи о движении систем связанных тел обстоятельно изучали для конкретных объектов, таких как гироскоп в кардановом подвесе, спутник с двойным вращением. Последний представлен системой двух гироскопов Лагранжа, сочлененных упругим сферич. шарниром, и задача сведена к двум уравнениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_8_DINAMIKA]]/URI
+\]
+
+из к-рых определяют $URI[[http://libmeta.ru/fme/formula/aux/819_14_DINAMIKA]]/URI$, после чего из $URI[[http://libmeta.ru/fme/formula/aux/819_15_DINAMIKA]]/URI$ находят $URI[[http://libmeta.ru/fme/formula/aux/819_16_DINAMIKA]]/URI$. Более общие модели включают гиросистемы с возможными конструктивными несовершенствами. Система состоит из гиростатов $URI[[http://libmeta.ru/fme/formula/aux/819_17_DINAMIKA]]/URI$, корпусы к-рых закреплены на осях $URI[[http://libmeta.ru/fme/formula/aux/819_18_DINAMIKA]]/URI$ в корпусе гиростата $URI[[http://libmeta.ru/fme/formula/aux/819_19_DINAMIKA]]/URI$. Вот одна из полученных математич. моделей:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_9_DINAMIKA]]/URI
+\]
+
+Уравнения движения системы гиростатов, корпусы к-рых последовательно сочленены сферич. или цилиндрич. шарнирами, записаны в наиболее естественных для задач Д. т. т. переменных - компонентах угловой скорости каждого из тел в неизменно связанных с ним осях и компонентах в тех же осях векторов фиксированного в пространстве базиса. Новые постановки задач для систем тел, относительные движения к-рых подчинены неголономным связям, появились как обобщения классич. задач, рассмотренных С. А. Чаплыгиным [4].
+
+Интегрируемость (неинтегрируемость) задач Д. т. т. интересовала многих крупнейших ученых. Обнаруженные Л. Эйлером и Ж. Лагранжем точные решения изучали C. Пуассон (s. Poisson), Л. Пуансо (l. Poinsot) и др. Необходимость расширения математич. аппарата стимулировала развитие теории эллиптич. и абелевых интегралов и их обращающих функций. Установлено, что в обоих случаях интегрирование производится посредством тета-функций, аргумент к-рых - линейная функция времени, и основные переменные задачи являются однозначными функциями времени, не имеющими для всех его конечных значений других особенностей, кроме полюсов. Именно это математич. свойство послужило исходным при построении С. В. Ковалевской решения задачи о движении тяжелого твердого тела, имеющего неподвижную точку. Оно связано с условием существования четвертого алгебраич. интеграла, и, как оказалось, других таких случаев интегрируемости в этой задаче нет. В. В. Козлов (см. [5]) доказал, что при различных значениях главных моментов инерции для неподвижной точки и при отличном от нуля значении параметра Пуанкаре не существует и аналитического по этому
+
+\section{2 Динамка}
+
+параметру интеграла. Эти теоремы существенно используют предположение, что все постоянные интегрирования произвольны. Они не отрицают существования решений с алгебраич. инвариантными соотношениями.
+
+В отличие от предлагавшихся ранее определений URI[[http://libmeta.ru/fme/relation/819_20_DINAMIKA]]/URI соотношения, следующее определение содержит и алгоритм его построения. Системе уравнений $URI[[http://libmeta.ru/fme/formula/aux/819_20_DINAMIKA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/819_21_DINAMIKA]]/URI$, с URI[[http://libmeta.ru/fme/relation/819_19_DINAMIKA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/819_22_DINAMIKA]]/URI$ сопоставлен характеризуемый URI[[http://libmeta.ru/fme/relation/819_18_DINAMIKA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/819_23_DINAMIKA]]/URI$ класс функций $URI[[http://libmeta.ru/fme/formula/aux/819_24_DINAMIKA]]/URI$, порождающий последовательность $URI[[http://libmeta.ru/fme/formula/aux/819_25_DINAMIKA]]/URI$. Вместе с интегралами $URI[[http://libmeta.ru/fme/formula/aux/819_26_DINAMIKA]]/URI$ (если таковые имеются) соотношения $URI[[http://libmeta.ru/fme/formula/aux/819_27_DINAMIKA]]/URI$ URI[[http://libmeta.ru/fme/relation/819_17_DINAMIKA]]/URI систему уже конечных уравнений. Если будут найдены значения $URI[[http://libmeta.ru/fme/formula/aux/819_28_DINAMIKA]]/URI$, при к-рых в этой системе имеется не более чем $URI[[http://libmeta.ru/fme/formula/aux/819_29_DINAMIKA]]/URI$ функционально независимых соотношений, то уравнения $URI[[http://libmeta.ru/fme/formula/aux/819_30_DINAMIKA]]/URI$ в дополнение к интегралам $URI[[http://libmeta.ru/fme/formula/aux/819_31_DINAMIKA]]/URI$ имеют инвариантное соотношение $URI[[http://libmeta.ru/fme/formula/aux/819_32_DINAMIKA]]/URI$; при $URI[[http://libmeta.ru/fme/formula/aux/819_33_DINAMIKA]]/URI$ это интеграл. Так как в большинстве задач Д. т. т. $URI[[http://libmeta.ru/fme/formula/aux/819_34_DINAMIKA]]/URI$ могут быть выбором переменных представлены URI[[http://libmeta.ru/fme/relation/819_16_DINAMIKA]]/URI, то построение алгебраич. URI[[http://libmeta.ru/fme/relation/819_15_DINAMIKA]]/URI соотношения сводится к последовательному использованию известного в URI[[http://libmeta.ru/fme/relation/819_14_DINAMIKA]]/URI метода исключения. Во всех найденных к настоящему времени случаях интегрируемости классич. задач инвариантные соотношения - многочлены (см. [1]).
+
+Хотя переход от одного тела к системе связанных тел существенно усложняет задачу, однако и здесь найдены случаи интегрируемости. Ряд новых решений URI[[http://libmeta.ru/fme/relation/819_13_DINAMIKA]]/URI и в задаче о движении тела, подчиненного неголономной связи.
+
+Движение тела воспроизводится качением неизменно связанной с ним линейчатой поверхности (URI[[http://libmeta.ru/fme/relation/819_12_DINAMIKA]]/URI) по неподвижной в пространстве линейчатой поверхности (URI[[http://libmeta.ru/fme/relation/819_11_DINAMIKA]]/URI), и если эти поверхности найдены, движение тела представлено в наглядной форме со всеми его особенностями и, тем самым, URI[[http://libmeta.ru/fme/relation/819_10_DINAMIKA]]/URI полное URI[[http://libmeta.ru/fme/relation/819_9_DINAMIKA]]/URI URI[[http://libmeta.ru/fme/relation/819_8_DINAMIKA]]/URI. Поскольку в Д.т. т. основные переменные отнесены к осям, связанным с телом, то в каждом решении они определяют URI[[http://libmeta.ru/fme/relation/819_7_DINAMIKA]]/URI. В задаче о движении тела, имеющего неподвижную точку, URI[[http://libmeta.ru/fme/relation/819_6_DINAMIKA]]/URI - конусы. Их направляющие линии - соответственно подвижный и неподвижный URI[[http://libmeta.ru/fme/relation/819_5_DINAMIKA]]/URI URI[[http://libmeta.ru/fme/relation/819_4_DINAMIKA]]/URI. Неподвижный URI[[http://libmeta.ru/fme/relation/819_3_DINAMIKA]]/URI определяется уравнениями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/819_10_DINAMIKA]]/URI
+\]
+
+Полные решения построены для большинства найденных случаев интегрируемости задач Д. т. т. (см. [1], [2]). Высокая наглядность результатов достигается при URI[[http://libmeta.ru/fme/relation/819_2_DINAMIKA]]/URI необходимого объема информации на основе созданных алгоритмов средствами Эвм и вынесении ее на экран дисплея (или лист графопостроителя). Новая форма представления результата - компьютерный фильм, представляющий движение тела качением URI[[http://libmeta.ru/fme/relation/819_1_DINAMIKA]]/URI по неподвижному.</text>
+  <text_orig>Представление о реальном теле как сплошном недеформируемом (абсолютно твердом), используют при изучении движения и естественных, и технических объектов, чем и определяется роль динамики твердого тела (см. [1]). В сохраняющейся до настояшего времени форме динамич. и кинематич. уравнения созданы Л. Эйлером (L. Euler) в 1749-58; работы были начаты в связи с анализом движения оси Земли, выполнявшимся одновременно с Ж. Д'Аламбером (J. D'Alembert). Формализовал вывод уравнений Ж. Лагранж (Ј. Lagrange, 1813). В так наз. классич. задачах Д. т. т. уравнения допускают интегралы энергии и момента количества движения, известен интегрирующий множитель (константа). Обладаюшие таким свойством задачи охвачены уравнениями
+
+\[
+\left.\begin{array}{c}
+G_{1}^{\bullet}+\omega_{2} G_{3}-\omega_{3} G_{2}=M_{1}, \quad v_{1}^{\bullet}=\omega_{3} v_{2}-\omega_{2} v_{3}, \\
+G_{1}=J_{1 i} \omega_{i}, \quad M_{1}=\left(v_{2} F+\frac{\partial f}{\partial v_{2}}\right) \omega_{3}- \\
+-\left(v_{3} F+\frac{\partial f}{\partial v_{3}}\right) \omega_{2}+v_{2} \frac{\partial \Pi}{\partial v_{3}}-v_{3} \frac{\partial \Pi}{\partial v_{2}},
+\end{array}\right\}
+\]
+
+в к-рых функции
+
+\[
+\Pi\left(v_{1}, v_{2}, v_{3}\right), f\left(v_{1}, v_{2}, v_{3}\right), F\left(v_{1}, v_{2}, v_{3}\right)
+\]
+
+определены на сфере
+
+\[
+v_{1}^{2}+v_{2}^{2}+v_{3}^{2}=1
+\]
+
+Дополняют последнее соотношение интегралы
+
+$\omega_{i} G_{i}+\Pi=2 h, v_{i} G_{i}+f=k$.
+
+В частности, при
+
+\[
+\Pi=\frac{1}{2} N_{i j} v_{i} v_{j}-\mu_{i} v_{i}, \quad f=\lambda_{i} v_{i}-\frac{1}{2} E_{i j} v_{i} v_{j}, \quad F=0
+\]
+
+имеем уравнения задачи о движении в жидкости тела с циркуляционными течениями через имеющиеся в нем отверстия и с циркулирующей жидкостью в полостях тела. При дополнительных условиях $N_{i j}=0, E_{i j}=0$ получаются уравнения задачи о движении тяжелого гиростата. Алгебраичность (1), (4) по отношению к $\omega_{i}$ обеспечила возможность понижения порядка системы уравнений. В задаче о гиростате использована алгебраичность (1), (4) по отношению к $v_{i}$, что позволило свести задачу к одному интегродифференциальному уравнению (см. [3]).
+
+В исследованиях технич. направленности важен учет непотенциальных взаимодействий тел. Уточняя постановку задачи о взаимодействии тела с жидкостью, учитывают ее вязкость. Разделение задач гидродинамики и Д. т. т. достигнуто введением малого параметра и осреднением. Если кинематич. вязкость $v$ велика, то компоненты момента количества системы могут быть взяты в виде
+
+\[
+G_{i}=J_{i j} \omega_{j}-\rho v^{-1} P_{i j} \omega_{j}^{\bullet}, \quad P_{i j}=-\int_{D}{ }^{\ni_{j}}\left(\boldsymbol{r} \times z_{i}\right) d v,
+\]
+
+где $\rho$ - плотность жидкости, вектор $\boldsymbol{r}$ указывает частицу жидкости в полости $D$ тела, а $z_{i}$ - зависящие лишь от формы полости функции, определяемые как решения трех стационарных линейных краевых задач. Для малой вязкости найдено другое выражение
+
+\[
+\begin{gathered}
+G_{i}=J_{i j} \omega_{j}+\rho \sqrt{\frac{v}{\pi}} E_{i j} \int_{t_{0}}^{t} \frac{\omega_{j}(\tau) d \tau}{\sqrt{t-\tau}} \\
+E_{i j}=\oint_{\partial D}\left(r \times \vartheta_{i}+\nabla \Phi_{i}\right)\left(r \times \vartheta_{j}+\nabla \Phi_{j}\right) d s,
+\end{gathered}
+\]
+
+$\Phi_{i}$ - потенциалы Жуковского. В теории движения проводящего тела в электромагнитном поле отделяют взаимодейст- вия, существенно отличающиеся временными масштабами. Напр., при малой глубине проникновения магнитного поля момент сил, действующих на проводящее тело, представлен в виде
+
+\[
+\left[P^{0} H^{\infty}(t)+\frac{\varepsilon}{\sqrt{\pi}} P^{1} \int_{0}^{t} \frac{H^{\infty}(\tau) d \tau}{\sqrt{t-\tau}}\right] \times H^{\infty},
+\]
+
+где $H^{\infty}(t)$ - напряженность однородного магнитного поля; $P^{0}, P^{1}-$ зависящие лишь от формы тела тензоры, $\varepsilon-$ малый параметр.
+
+Трудности математич. моделирования движения систем тел побудили принимать дополнительные ограничения не только в постановках задач, в большинстве к-рых изучают лишь простейшие стационарные движения и, в лучшем случае,- их окрестности (устойчивость, малые колебания). Традиционно здесь использование лагранжева или гамильтонова формализмов.
+
+В строгой постановке задачи о движении систем связанных тел обстоятельно изучали для конкретных объектов, таких как гироскоп в кардановом подвесе, спутник с двойным вращением. Последний представлен системой двух гироскопов Лагранжа, сочлененных упругим сферич. шарниром, и задача сведена к двум уравнениям
+
+\[
+\frac{d \lambda}{d \tau}-\mu \xi \operatorname{ctg}^{2} \tau=\Lambda, \quad \frac{d \mu}{d \tau}+\lambda \xi \operatorname{tg}^{2} \tau=\mathbf{M},
+\]
+
+из к-рых определяют $\lambda(\tau), \mu(\tau)$, после чего из $\frac{d \tau}{d t}=-x$ находят $t(\tau)$. Более общие модели включают гиросистемы с возможными конструктивными несовершенствами. Система состоит из гиростатов $S^{k}$, корпусы к-рых закреплены на осях $l^{k}$ в корпусе гиростата $S^{0}$. Вот одна из полученных математич. моделей:
+
+\[
+\begin{aligned}
+&amp; \left(J \omega+\varphi^{\bullet} \sum_{k=1}^{n} j_{k} C^{k}+\sum_{k=0}^{n} H^{k}\right)^{\bullet}=M, \\
+&amp; \left(\frac{\partial T}{\partial \varphi^{\bullet}}\right)^{\bullet}-\frac{\partial T}{\partial \varphi}=Q-\frac{\partial \Pi}{\partial \varphi} .
+\end{aligned}
+\]
+
+Уравнения движения системы гиростатов, корпусы к-рых последовательно сочленены сферич. или цилиндрич. шарнирами, записаны в наиболее естественных для задач Д. т. т. переменных - компонентах угловой скорости каждого из тел в неизменно связанных с ним осях и компонентах в тех же осях векторов фиксированного в пространстве базиса. Новые постановки задач для систем тел, относительные движения к-рых подчинены неголономным связям, появились как обобщения классич. задач, рассмотренных С. А. Чаплыгиным [4].
+
+Интегрируемость (неинтегрируемость) задач Д. т. т. интересовала многих крупнейших ученых. Обнаруженные Л. Эйлером и Ж. Лагранжем точные решения изучали C. Пуассон (S. Poisson), Л. Пуансо (L. Poinsot) и др. Необходимость расширения математич. аппарата стимулировала развитие теории эллиптич. и абелевых интегралов и их обращающих функций. Установлено, что в обоих случаях интегрирование производится посредством тета-функций, аргумент к-рых - линейная функция времени, и основные переменные задачи являются однозначными функциями времени, не имеющими для всех его конечных значений других особенностей, кроме полюсов. Именно это математич. свойство послужило исходным при построении С. В. Ковалевской решения задачи о движении тяжелого твердого тела, имеющего неподвижную точку. Оно связано с условием существования четвертого алгебраич. интеграла, и, как оказалось, других таких случаев интегрируемости в этой задаче нет. В. В. Козлов (см. [5]) доказал, что при различных значениях главных моментов инерции для неподвижной точки и при отличном от нуля значении параметра Пуанкаре не существует и аналитического по этому
+
+\section{2 ДМНАММКА}
+
+параметру интеграла. Эти теоремы существенно используют предположение, что все постоянные интегрирования произвольны. Они не отрицают существования решений с алгебраич. инвариантными соотношениями.
+
+В отличие от предлагавшихся ранее определений инвариантного соотношения, следующее определение содержит и алгоритм его построения. Системе уравнений $x_{i}^{\bullet}=X_{i}(x, a)$, $x=\left(x_{1}, \ldots, x_{n}\right), i=1, \ldots, n$, с параметрами $a=\left(a_{1}, \ldots, a_{m}\right)$ сопоставлен характеризуемый параметрами $c=\left(c_{1}, \ldots, c_{p}\right)$ класс функций $f^{(0)}(x, a, c)$, порождающий последовательность $f^{(k)}(x, a, c)=X_{i} \partial f^{(k-1)} / \partial x_{i}$. Вместе с интегралами $J_{j}(x, a)=C_{j}, j=1, \ldots, s$ (если таковые имеются) соотношения $f^{(k)}(x, a, c)=0$ составляют систему уже конечных уравнений. Если будут найдены значения $a_{*}, c_{*}, C_{*}$, при к-рых в этой системе имеется не более чем $n-1$ функционально независимых соотношений, то уравнения $x_{i}^{\bullet}=X_{i}\left(x, a_{*}\right)$ в дополнение к интегралам $J_{j}\left(x, a_{*}\right)=C_{* j}$ имеют инвариантное соотношение $f^{(0)}\left(x, a_{*}, c_{*}\right)=0$; при $f^{(1)}(x, a, c) \equiv 0$ это интеграл. Так как в большинстве задач Д. т. т. $X_{i}(x, a)$ могут быть выбором переменных представлены многочленами, то построение алгебраич. инвариантного соотношения сводится к последовательному использованию известного в алгебре метода исключения. Во всех найденных к настоящему времени случаях интегрируемости классич. задач инвариантные соотношения - многочлены (см. [1]).
+
+Хотя переход от одного тела к системе связанных тел существенно усложняет задачу, однако и здесь найдены случаи интегрируемости. Ряд новых решений получен и в задаче о движении тела, подчиненного неголономной связи.
+
+Движение тела воспроизводится качением неизменно связанной с ним линейчатой поверхности (подвижного аксоида) по неподвижной в пространстве линейчатой поверхности (неподвижному аксоиду), и если эти поверхности найдены, движение тела представлено в наглядной форме со всеми его особенностями и, тем самым, получено полное решение задачи механики. Поскольку в Д.т. т. основные переменные отнесены к осям, связанным с телом, то в каждом решении они определяют подвижный аксоид. В задаче о движении тела, имеющего неподвижную точку, аксоиды - конусы. Их направляющие линии - соответственно подвижный и неподвижный годографы угловой скорости. Неподвижный годограф определяется уравнениями
+
+\[
+\begin{gathered}
+\omega_{\zeta}=\omega_{1} v_{1}+\omega_{2} v_{2}+\omega_{3} v_{3}, \omega_{\rho}^{2}=\omega_{1}^{2}+\omega_{2}^{2}+\omega_{3}^{2}-\omega_{\zeta}^{2}, \\
+\omega_{\rho}^{2} d \alpha=\left(\omega_{3} v_{2}-\omega_{2} v_{3}\right) d \omega_{1}+\left(\omega_{1} v_{3}-\omega_{3} v_{1}\right) d \omega_{2}+ \\
++\left(\omega_{2} v_{1}-\omega_{1} v_{2}\right) d \omega_{3} .
+\end{gathered}
+\]
+
+Полные решения построены для большинства найденных случаев интегрируемости задач Д. т. т. (см. [1], [2]). Высокая наглядность результатов достигается при получении необходимого объема информации на основе созданных алгоритмов средствами ЭВМ и вынесении ее на экран дисплея (или лист графопостроителя). Новая форма представления результата - компьютерный фильм, представляющий движение тела качением подвижного аксоида по неподвижному.
+
+Лит.: [1] Горр Г.В., Кудряшова Л. В., Степанова Л.А., Классические задачи динамики твердого тела, Киев, 1978; [2] Х ар лам о в М. П., Топологический анализ интегрируемых задач динамики твердого тела, Л., 1988; [3] Харл ам о ва Е. И., Мозале вск а я Г. В., Интегродифференциальное уравнение динамики твердого тела, Киев, 1986; [4] Ча плыги н С. А., Исследования по динамике неголономных систем, М.- Л., 1949; [5] К озл о в В. В., Методы качественного анализа в динамике твердого тела, М., 1980 .
+
+П. В. Харламов.</text_orig>
+</article>

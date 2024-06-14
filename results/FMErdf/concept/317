@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1286_KOKASATEL'NOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1286_KOKASATEL'NOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/317</core:url>
+    <lbm:descriptor><![CDATA[КОКАСАТЕЛЬНОЕ РАССЛОЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3241"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1383"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3242"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3243"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_95"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>естественная <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO">проекция</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3241">$$t^{*} M \rightarrow M$$</a>, где $URI[[http://libmeta.ru/fme/formula/aux/1286_2_KOKASATEL'NOE]]/URI$ гладкое $URI[[http://libmeta.ru/fme/formula/aux/1286_3_KOKASATEL'NOE]]/URI$-мерное <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразие</a>, а $URI[[http://libmeta.ru/fme/formula/aux/1286_4_KOKASATEL'NOE]]/URI$ - объединение пространств, двойственных касатель- ным к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразию</a> $URI[[http://libmeta.ru/fme/formula/aux/1286_5_KOKASATEL'NOE]]/URI$ в разных точках <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3243">$$\bigcup_{x \in M} T^{*} M_{x}$$</a>, снабженное естественной структурой гладкого $URI[[http://libmeta.ru/fme/formula/aux/1286_7_KOKASATEL'NOE]]/URI$-мерного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразия</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[естественная проекция $T^{*} M \rightarrow M$, где $M-$ гладкое $n$-мерное многообразие, а $T^{*} M$ - объединение пространств, двойственных касатель- ным к многообразию $M$ в разных точках $\bigcup_{x \in M} T^{*} M_{x}$, снабженное естественной структурой гладкого $2 n$-мерного многообразия.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

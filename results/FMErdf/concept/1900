@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2710_SVJaZNOST'">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2710_SVJaZNOST'</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1900</core:url>
+    <lbm:descriptor><![CDATA[СВЯЗНОСТЬ НА РАССЛОЕНИИ $p: X \rightarrow B$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13242"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14225"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1019"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>геометрическая структура, необходимая для согласованного отождествления (называемого паралле льным п ере н о сом) слоев вдоль некоторого пути.<BR/></P><P>В физике обычно используются С. на главном расслоении и на ассоциированном с ним расслоении. При этом слои «пронизаны» семейством кривых, инвариантных относительно действия группы $URI[[http://libmeta.ru/fme/formula/aux/2710_1_SVJaZNOST']]/URI$ (они называются го р изонта л ь ны м и п ут я м и). Результаты параллельного переноса по двум различным путям, соединяющим точки <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13242">$$b_{0}$$</a> и $URI[[http://libmeta.ru/fme/formula/aux/2710_3_SVJaZNOST']]/URI$, отличаются нек-рым гомеоморфизмом слоев в точке <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14225">$$b_{1}$$</a> умножением на нек-рый элемент группы. Это можно рассматривать как «сдвиг фазы» (в физике обычно интерпретируемый как результат воздействия внешнего поля), а в геометрич. терминологии как кривизну, «искривление» расслоения.<BR/></P><P>Переходом к бесконечно малым получается и н ф и н и тез и мальн а я с в я з ность (или С. в инфинитезимальной форме в точке $URI[[http://libmeta.ru/fme/formula/aux/2710_5_SVJaZNOST']]/URI$ ) в данном направлении $URI[[http://libmeta.ru/fme/formula/aux/2710_6_SVJaZNOST']]/URI$ (инфинитезимальный сдвиг слоя в соседний слой). Ин ф и н и т е 3 и мальная кривизна зависит от пары направлений в точке $URI[[http://libmeta.ru/fme/formula/aux/2710_7_SVJaZNOST']]/URI$ и принимает значения в алгебре Ли группы $URI[[http://libmeta.ru/fme/formula/aux/2710_8_SVJaZNOST']]/URI$. Эту инфинитезимальную С. можно проинтегрировать и получить глобальную картину параллельного переноса вдоль кривых.<BR/></P><P>С. на многообразиях можно разделить на в н у т р е н н и е и в неш н и е. К первым относятся те С., К-рые определя- ются структурами, непосредственно связанными с многообразием. К ним относятся, напр., афф и н на я С. и л и н е й н а я С. (соответствующие аффинной и линейной группам), определенные в главном расслоении реперов на касательном (или кокасательном) пространстве; к ним же можно отнести С., к-рые сохраняют нек-рые геометрич. величины - объем, конформную структуру (Вейля связность), метрику.<BR/></P><P>Пример. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1770_METRIChESKAJa">Метрическая связность-</a> это С., при <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параллельном</a> переносе к-рой сохраняется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1775_METRIChESKIJ">метрический тензор</a>. Эта С. находит применение в представлениях об упругой среде с непрерывным распределением источников внутренних напряжений.<BR/></P><P>Ко второй <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группе</a> С. относятся С., определяемые надстроенными над <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразием</a> структурами; напр., <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_421_VLOZhENIE">вложением многообразия в</a> более обширное пространство, пристройкой к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразию</a> калибровочных потенциалов, описывающих внутренние симметрии, и т. Д.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[геометрическая структура, необходимая для согласованного отождествления (называемого паралле льным п ере н о сом) слоев вдоль некоторого пути.
+
+В физике обычно используются С. на главном расслоении и на ассоциированном с ним расслоении. При этом слои «пронизаны» семейством кривых, инвариантных относительно действия группы $G$ (они называются го р изонта л ь ны м и п ут я м и). Результаты параллельного переноса по двум различным путям, соединяющим точки $b_{0}$ и $b_{1}$, отличаются нек-рым гомеоморфизмом слоев в точке $b_{1}$ умножением на нек-рый элемент группы. Это можно рассматривать как «сдвиг фазы» (в физике обычно интерпретируемый как результат воздействия внешнего поля), а в геометрич. терминологии как кривизну, «искривление» расслоения.
+
+Переходом к бесконечно малым получается и н ф и н и тез и мальн а я с в я з ность (или С. в инфинитезимальной форме в точке $x$ ) в данном направлении $l$ (инфинитезимальный сдвиг слоя в соседний слой). Ин ф и н и т е 3 и мальная кривизна зависит от пары направлений в точке $x$ и принимает значения в алгебре Ли группы $G$. Эту инфинитезимальную С. можно проинтегрировать и получить глобальную картину параллельного переноса вдоль кривых.
+
+С. на многообразиях можно разделить на в н у т р е н н и е и в неш н и е. К первым относятся те С., К-рые определя- ются структурами, непосредственно связанными с многообразием. К ним относятся, напр., афф и н на я С. и л и н е й н а я С. (соответствующие аффинной и линейной группам), определенные в главном расслоении реперов на касательном (или кокасательном) пространстве; к ним же можно отнести С., к-рые сохраняют нек-рые геометрич. величины - объем, конформную структуру (Вейля связность), метрику.
+
+Пример. Метрическая связность- это С., при параллельном переносе к-рой сохраняется метрический тензор. Эта С. находит применение в представлениях об упругой среде с непрерывным распределением источников внутренних напряжений.
+
+Ко второй группе С. относятся С., определяемые надстроенными над многообразием структурами; напр., вложением многообразия в более обширное пространство, пристройкой к многообразию калибровочных потенциалов, описывающих внутренние симметрии, и т. Д.
+
+М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_421_VLOZhENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1775_METRIChESKIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1770_METRIChESKAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

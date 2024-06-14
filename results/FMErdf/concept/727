@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1655_LORENTsA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1655_LORENTsA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/727</core:url>
+    <lbm:descriptor><![CDATA[ЛОРЕНЦА ГАЗ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5948"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5949"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5950"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa">динамическая система</a>, порожденная движением точечной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частицы</a> в пространстве <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5949">$$\mathbb{r}^{d}, d \geqslant 2$$</a>, из которого удалено бесконечное число попарно непересекающихся шаров. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">Частица</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2439_PRJaMOLINEJNOE">движется прямолинейно</a> и равномерно до столкновения с шарами и отражается от них по закону упругого удара. Шары (рассеиватели) неподвижны и могут быть расположены как периодически, так и случайно.<BR/></P><P>Эта модель введена Г. Лоренцем (h. Lorentz, 1905) для описания <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамики</a> электронного газа в металлах. Естественная гипотеза состоит в том, что <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa">корреляционная функция</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростей</a> для Л. г. убывает как const <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5950">$$t^{-(d / 2+1)}(t-$$</a> время). Л. г. является эргодич. биллиардной системой.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#5948">Н. И. Чернов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[динамическая система, порожденная движением точечной частицы в пространстве $\mathbb{R}^{d}, d \geqslant 2$, из которого удалено бесконечное число попарно непересекающихся шаров. Частица движется прямолинейно и равномерно до столкновения с шарами и отражается от них по закону упругого удара. Шары (рассеиватели) неподвижны и могут быть расположены как периодически, так и случайно.
+
+Эта модель введена Г. Лоренцом (H. Lorentz, 1905) для описания динамики электронного газа в металлах. Естественная гипотеза состоит в том, что корреляционная функция скоростей для Л. г. убывает как const $t^{-(d / 2+1)}(t-$ время). Л. г. является эргодич. биллиардной системой.
+
+Н. И. Чернов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2439_PRJaMOLINEJNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_826_DINAMIChESKAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

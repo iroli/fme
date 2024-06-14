@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2575_REGULJaRIZATsI" alphabetic_pos="2577">
+  <title>РЕГУЛЯРИЗАЦИЯ</title>
+  <authors>
+    <author>B. В. Жаринов</author>
+  </authors>
+  <pages>
+    <start>496</start>
+    <end>497</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Боголюбов Н. Н., Ширков Д. В., Введение в теорию квантованных полей, 4 изд., М., 1984; [2] В ла а и м и ро в В. С., Обобщенные функции в математической физике, 2 изд., М., 1979.</literature_orig>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <author>Ширков Д. В.</author>
+      <title>Введение в теорию квантованных полей</title>
+      <publication>4 изд., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Влааимиров В. С.</author>
+      <title>Обобщенные функции в математической физике</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2575_1_REGULJaRIZATsI">(f, \varphi)=\int f(x) \varphi(x) d^{n} x, \quad \varphi \in D(O)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2575_2_REGULJaRIZATsI">\begin{gathered}\left(p \frac{1}{x}, \varphi\right)=\text { v.p. } \int \frac{\varphi(x)}{x} d x=\lim _{\varepsilon \rightarrow+0}\left\{\int_{-\infty}^{-\varepsilon}+\int_{+\varepsilon}^{+\infty} \frac{\varphi(x)}{x} d x\right\}, \\\left(\frac{1}{x+i 0}, \varphi\right)=\lim _{\varepsilon \rightarrow+0} \int \frac{\varphi(x)}{x+i 0} d x, \quad \varphi \in D\left(\mathbb{R}^{1}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2575_3_REGULJaRIZATsI">(\delta(x), \varphi(x))=\varphi(0)=\lim _{\varepsilon \rightarrow+0} \frac{1}{\pi} \int \frac{\varepsilon}{x^{2}+\varepsilon^{2}} \varphi(x) d x, \quad \varphi \in D\left(\mathbb{R}^{1}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2575_4_REGULJaRIZATsI">\left(\frac{1}{x+i 0} \frac{1}{x+i 0}, \varphi\right)=\left(\frac{1}{(x+i 0)^{2}}, \varphi\right)=\lim _{\varepsilon \rightarrow+0} \int \frac{\varphi(x) d x}{(x+i \varepsilon)^{2}}, \quad \varphi \in D\left(\mathbb{R}^{1}\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2575_1_REGULJaRIZATsI">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2575_2_REGULJaRIZATsI">o \subset \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2575_3_REGULJaRIZATsI">f \in D^{\prime}(O)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2575_4_REGULJaRIZATsI">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2575_5_REGULJaRIZATsI">x^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2575_6_REGULJaRIZATsI">\mathbb{r}^{\mathrm{i}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2575_7_REGULJaRIZATsI">p x^{-1},(x+i O)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2575_8_REGULJaRIZATsI">(x-i 0)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2575_9_REGULJaRIZATsI">x^{-1}</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/2575_1_REGULJaRIZATsI">
+      <rel_text>расходимостей в квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/2561_RASHODIMOST'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2575_2_REGULJaRIZATsI">
+      <rel_text>Регуляризация</rel_text>
+      <target>http://libmeta.ru/fme/article/2575_REGULJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2575_3_REGULJaRIZATsI">
+      <rel_text>Перенормировка</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2575_4_REGULJaRIZATsI">
+      <rel_text>Ультрафиолетовая расходимость</rel_text>
+      <target>http://libmeta.ru/fme/article/3170_UL'TRAFIOLETOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2575_5_REGULJaRIZATsI">
+      <rel_text>перемножении</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2575_6_REGULJaRIZATsI">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2575_7_REGULJaRIZATsI">
+      <rel_text>одночастотных функций в</rel_text>
+      <target>http://libmeta.ru/fme/article/491_VYChET</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2575_8_REGULJaRIZATsI">
+      <rel_text>перемножение</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2575_9_REGULJaRIZATsI">
+      <rel_text>перемножении</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2575_10_REGULJaRIZATsI">
+      <rel_text>дельта-функция Дирака</rel_text>
+      <target>http://libmeta.ru/fme/article/837_DIRAKA</target>
+    </relation>
+  </relations>
+  <text>придание смысла расходящимся выражениям с помощью подходящего предельного процесса. Р. тесно связана с классич. методами суммирования расходящихся рядов и интегралов: применяется в теории обобщенных функций, в квантовой теории поля и в других областях теоретич. физики.
+
+Каждая локально суммируемая функция $URI[[http://libmeta.ru/fme/formula/aux/2575_1_REGULJaRIZATsI]]/URI$ в области $URI[[http://libmeta.ru/fme/formula/aux/2575_2_REGULJaRIZATsI]]/URI$ задает распределение (обобщенную функцию) $URI[[http://libmeta.ru/fme/formula/aux/2575_3_REGULJaRIZATsI]]/URI$ по правилу
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2575_1_REGULJaRIZATsI]]/URI
+\]
+
+(такое распределение называется ре гулярным). Если же $URI[[http://libmeta.ru/fme/formula/aux/2575_4_REGULJaRIZATsI]]/URI$ не является локально суммируемой, то интеграл справа расходится и для придания ему смысла используется Р. При этом различные Р. порождают различные распределения, и выбор конкретной Р. диктуется решаемой физич. задачей.
+
+Пр и мер Функция $URI[[http://libmeta.ru/fme/formula/aux/2575_5_REGULJaRIZATsI]]/URI$ не является локально суммируемой в $URI[[http://libmeta.ru/fme/formula/aux/2575_6_REGULJaRIZATsI]]/URI$. Она имеет регуляризации $URI[[http://libmeta.ru/fme/formula/aux/2575_7_REGULJaRIZATsI]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2575_8_REGULJaRIZATsI]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2575_2_REGULJaRIZATsI]]/URI
+\]
+
+(v.p. означает главное значение интеграла). Остальные Р. функции $URI[[http://libmeta.ru/fme/formula/aux/2575_9_REGULJaRIZATsI]]/URI$ получаются линейными комбинациями приведенных.
+
+Р. применяется также для представления данного распределения в виде предела последовательности регулярных распределений. Напр., URI[[http://libmeta.ru/fme/relation/2575_10_REGULJaRIZATsI]]/URI имеет Р.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2575_3_REGULJaRIZATsI]]/URI
+\]
+
+Обычно Р. распределений используется при URI[[http://libmeta.ru/fme/relation/2575_9_REGULJaRIZATsI]]/URI распределений. Напр.,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2575_4_REGULJaRIZATsI]]/URI
+\]
+
+Известный физич. пример - URI[[http://libmeta.ru/fme/relation/2575_8_REGULJaRIZATsI]]/URI URI[[http://libmeta.ru/fme/relation/2575_7_REGULJaRIZATsI]]/URI URI[[http://libmeta.ru/fme/relation/2575_6_REGULJaRIZATsI]]/URI. Часто, напр. при URI[[http://libmeta.ru/fme/relation/2575_5_REGULJaRIZATsI]]/URI причинных функций, такая процедура не приводит к однозначному ответу и требует доопределения, согласованного с физич. контекстом задачи (см. URI[[http://libmeta.ru/fme/relation/2575_4_REGULJaRIZATsI]]/URI, URI[[http://libmeta.ru/fme/relation/2575_3_REGULJaRIZATsI]]/URI). Пример подобного доопределения - Боголюбова - Парасюка R-операция. O других конкретных приемах Р., применяемых в физич. приложениях, см. в ст. URI[[http://libmeta.ru/fme/relation/2575_2_REGULJaRIZATsI]]/URI URI[[http://libmeta.ru/fme/relation/2575_1_REGULJaRIZATsI]]/URI.</text>
+  <text_orig>придание смысла расходяшимся выражениям с помощью подходящего предельного процесса. Р. тесно связана с классич. методами суммирования расходяшихся рядов и интегралов: применяется в теории обобщенных функций, в квантовой теории поля и в других областях теоретич. физики.
+
+Каждая локально суммируемая функция $f(x)$ в области $O \subset \mathbb{R}^{n}$ задает распределение (обобщенную функцию) $f \in D^{\prime}(O)$ по правилу
+
+\[
+(f, \varphi)=\int f(x) \varphi(x) d^{n} x, \quad \varphi \in D(O)
+\]
+
+(такое распределение называется ре гулярным). Если же $f(x)$ не является локально суммируемой, то интеграл справа расходится и для придания ему смысла используется Р. При этом различные Р. порождают различные распределения, и выбор конкретной Р. диктуется решаемой физич. задачей.
+
+Пр и мер Функция $x^{-1}$ не является локально суммируемой в $\mathbb{R}^{\mathrm{i}}$. Она имеет регуляризации $p x^{-1},(x+i O)^{-1}$, $(x-i 0)^{-1}$, где
+
+\[
+\begin{gathered}
+\left(p \frac{1}{x}, \varphi\right)=\text { v.p. } \int \frac{\varphi(x)}{x} d x=\lim _{\varepsilon \rightarrow+0}\left\{\int_{-\infty}^{-\varepsilon}+\int_{+\varepsilon}^{+\infty} \frac{\varphi(x)}{x} d x\right\}, \\
+\left(\frac{1}{x+i 0}, \varphi\right)=\lim _{\varepsilon \rightarrow+0} \int \frac{\varphi(x)}{x+i 0} d x, \quad \varphi \in D\left(\mathbb{R}^{1}\right),
+\end{gathered}
+\]
+
+(v.p. означает главное значение интеграла). Остальные Р. функции $x^{-1}$ получаются линейными комбинациями приведенных.
+
+Р. применяется также для представления данного распределения в виде предела последовательности регулярных распределений. Напр., дельта-функция Дирака имеет Р.
+
+\[
+(\delta(x), \varphi(x))=\varphi(0)=\lim _{\varepsilon \rightarrow+0} \frac{1}{\pi} \int \frac{\varepsilon}{x^{2}+\varepsilon^{2}} \varphi(x) d x, \quad \varphi \in D\left(\mathbb{R}^{1}\right) .
+\]
+
+Обычно Р. распределений используется при перемножении распределений. Напр.,
+
+\[
+\left(\frac{1}{x+i 0} \frac{1}{x+i 0}, \varphi\right)=\left(\frac{1}{(x+i 0)^{2}}, \varphi\right)=\lim _{\varepsilon \rightarrow+0} \int \frac{\varphi(x) d x}{(x+i \varepsilon)^{2}}, \quad \varphi \in D\left(\mathbb{R}^{1}\right) .
+\]
+
+Известный физич. пример - перемножение одночастотных функций в квантовой теории поля. Часто, напр. при перемножении причинных функций, такая процедура не приводит к однозначному ответу и требует доопределения, согласованного с физич. контекстом задачи (см. Ультрафиолетовал расходимость, Перенормировка). Пример подобного доопределения - Боголюбова - Парасюка R-операция. O других конкретных приемах Р., применяемых в физич. приложениях, см. в ст. Регуляризация расходимостей в квантовой теории поля.
+
+Лит.: [1] Боголюбов Н. Н., Ширков Д. В., Введение в теорию квантованных полей, 4 изд., М., 1984; [2] В ла а и м и ро в В. С., Обобщенные функции в математической физике, 2 изд., М., 1979. B. В. Жаринов.</text_orig>
+</article>

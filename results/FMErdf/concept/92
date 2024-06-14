@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1083_KALIBROVOChNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1083_KALIBROVOChNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/92</core:url>
+    <lbm:descriptor><![CDATA[КАЛИБРОВОЧНОЕ УСЛОВИЕ, КАЛИБРОВКИ УСЛОВИЕ, КАЛИБРОВКА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#14"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#887"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_940"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_941"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_942"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_378"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_915"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_943"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>дополнительное условие, накладываемое на поля для выделения однозначных представителей в каждом классе калибровочно <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3492_EKVIDISTANT">эквивалентных</a> конфигураций. К. У. в общем случае имеет вид<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_940">$$\Phi\left(A_{\mu}, \Psi, x\right)=0$$</a><BR/></P><P>Здесь Ф - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функционал</a> от полей <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_942">$$a_{\mu}, \Psi$$</a> и точки $URI[[http://libmeta.ru/fme/formula/aux/1083_2_KALIBROVOChNOE]]/URI$, К-рый представляет собой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2880_SPEKTR">элемент алгебры</a> Ли калибровочной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> $URI[[http://libmeta.ru/fme/formula/aux/1083_3_KALIBROVOChNOE]]/URI$. Поэтому число независимых К. у. совпадает с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2514_RAZMERNOST'">размерностью группы</a> $URI[[http://libmeta.ru/fme/formula/aux/1083_4_KALIBROVOChNOE]]/URI$. К. у. должно быть таким, чтобы система уравнений<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_941">$$\Phi\left(A_{\mu}^{\omega}, \Psi^{\omega}, x\right)=0$$</a><BR/></P><P>имела однозначное решение <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_915">$$\omega(x)$$</a>. В общем случае для произвольных полей это условие не выполняется, что приводит к так наз. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_719_GRIBOVA">неоднозначности Грибова</a> (в. Н. Грибов, 1978). Обычно квантовая теория строится как <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ">теория возмущений</a> вблизи какого-либо <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2119_OSNOVNOE">основного состояния</a>. В частности, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ">теория возмущений</a> по константе связи $URI[[http://libmeta.ru/fme/formula/aux/1083_6_KALIBROVOChNOE]]/URI$ предполагает условие <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_943">$$\left|g A_{\mu}\right| \ll 1$$</a>. В этом случае уравнения (1) имеют единственное решение, и К. у. выделяет единственного представителя в каждом калибровочном классе. Наиболее употребительными являются <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1488_KULONOVSKAJa">кулоновская калибровка</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1661_LORENTsEVA">лоренцева калибровка</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_516_GAMIL'TONOVA">гамильтонова калибровка</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_40_AKSIAL'NAJa">аксиальная калибровка</a> и светового конуса <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1075_KALIBROVK">калибровка</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#887">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#14">Славнов А. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#879">Фаддеев Л. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#887">Введение в квантовую теорию калибровочных полей, 2 изд., М., 1988</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#14">А. А. Славнов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[дополнительное условие, накладываемое на поля для выделения однозначных представителей в каждом классе калибровочно эквивалентных конфигураций. К. У. в общем случае имеет вид
+
+\[
+\Phi\left(A_{\mu}, \Psi, x\right)=0
+\]
+
+Здесь Ф - функционал от полей $A_{\mu}, \Psi$ и точки $x$, К-рый представляет собой элемент алгебры Ли калибровочной группы $\Omega$. Поэтому число независимых К. у. совпадает с размерностью группы $\Omega$. К. у. должно быть таким, чтобы система уравнений
+
+\[
+\Phi\left(A_{\mu}^{\omega}, \Psi^{\omega}, x\right)=0
+\]
+
+имела однозначное решение $\omega(x)$. В общем случае для произвольных полей это условие не выполняется, что приводит к так наз. неоднозначности Грибова (В. Н. Грибов, 1978). Обычно квантовая теория строится как теория возмушений вблизи какого-либо основного состояния. В частности, теория возмущений по константе связи $g$ предполагает условие $\left|g A_{\mu}\right| \ll 1$. В этом случае уравнения (1) имеют единственное решение, и К. у. выделяет единственного представителя в каждом калибровочном классе. Наиболее употребительными являются кулоновская калибровка, лоренцева калибровка, гамильтонова калибровка, аксиальная калибровка и светового конуса калибровка.
+
+Лит.: [1] Сла в н о в А. А., Ф а дд е е в Л. Д., Введение в квантовую теорию калибровочных полей, 2 изд., М., 1988. А. А. Славнов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1075_KALIBROVK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_40_AKSIAL'NAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_516_GAMIL'TONOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1661_LORENTsEVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1488_KULONOVSKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2119_OSNOVNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_719_GRIBOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2514_RAZMERNOST'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2880_SPEKTR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3492_EKVIDISTANT"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

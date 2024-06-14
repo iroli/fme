@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1539_LANDAU-HOPFA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1539_LANDAU-HOPFA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/598</core:url>
+    <lbm:descriptor><![CDATA[ЛАНДАУ-ХОПФА СЦЕНАРИЙ СТОХАСТИЗАЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5202"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4045"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5203"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5204"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5205"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5206"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>последовательность нормальных бифуркаций Андронова Хопфа, порождающая квазипериодическое течение жидкости<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5202">$$u\left[x, \varphi_{1}(t), \ldots, \varphi_{N}(t)\right]$$</a><BR/></P><P>с периодом $URI[[http://libmeta.ru/fme/formula/aux/1539_1_LANDAU-HOPFA]]/URI$ по каждому из аргументов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5203">$$\varphi_{n}(t)=\omega_{n}(t)+\alpha_{n}$$</a>, вообще говоря, несоизмеримыми частотами $URI[[http://libmeta.ru/fme/formula/aux/1539_3_LANDAU-HOPFA]]/URI$, занимающее в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазовом пространстве</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">область</a>, соответствующую всевозможным наборам начальных фаз <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5205">$$\alpha_{1}, \ldots, \alpha_{N}$$</a> так, что <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3238_FAZOVAJa">фазовая траектория</a> с течением времени проходит сколь угодно близко от любой точки этой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a>. Результирующее движение не <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладает</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2978_STRUKTURNAJa">структурной устойчивостью</a>, но приобретает ее, если перейти к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI">бифуркациям</a> $URI[[http://libmeta.ru/fme/formula/aux/1539_5_LANDAU-HOPFA]]/URI$-мерных торов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5206">$$t^{n} \rightarrow T^{n+1}$$</a> без требования квазипериодичности течений на них.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[последовательность нормальных бифуркаций Андронова Хопфа, порождающая квазипериодическое течение жидкости
+
+\[
+u\left[x, \varphi_{1}(t), \ldots, \varphi_{N}(t)\right]
+\]
+
+с периодом $2 \pi$ по каждому из аргументов $\varphi_{n}(t)=\omega_{n}(t)+\alpha_{n}$, вообще говоря, несоизмеримыми частотами $\omega_{n}$, занимающее в фазовом пространстве область, соответствующую всевозможным наборам начальных фаз $\alpha_{1}, \ldots, \alpha_{N}$ так, что фазовая траектория с течением времени проходит сколь угодно близко от любой точки этой области. Результирующее движение не обладает структурной устойчивостью, но приобретает ее, если перейти к бифуркациям $n$-мерных торов $T^{n} \rightarrow T^{n+1}$ без требования квазипериодичности течений на них.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2978_STRUKTURNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3238_FAZOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

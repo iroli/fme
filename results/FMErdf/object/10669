@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_10669">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mn>2</mn><mi>G</mi><msub><mover><mrow><mi>&#x003B5;</mi></mrow><mo>&#x002D9;</mo></mover><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>&#x0003D;</mo><msub><mover><mrow><mi>&#x003C3;</mi></mrow><mo>&#x002D9;</mo></mover><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>&#x02212;</mo><mover><mrow><mi>&#x003C3;</mi></mrow><mo>&#x002D9;</mo></mover><msub><mi>&#x003B4;</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>&#x0002B;</mo><mi>R</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>&#x003C3;</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>&#x02212;</mo><mi>&#x003C3;</mi><msub><mi>&#x003B4;</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002B;</mo><mfrac><mrow><mn>2</mn><mi>G</mi></mrow><mrow><mn>3</mn><mi>K</mi></mrow></mfrac><mover><mrow><mi>&#x003C3;</mi></mrow><mo>&#x002D9;</mo></mover><msub><mi>&#x003B4;</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$2 G \dot{\varepsilon}_{i j}=\dot{\sigma}_{i j}-\dot{\sigma} \delta_{i j}+R\left(\sigma_{i j}-\sigma \delta_{i j}\right)+\frac{2 G}{3 K} \dot{\sigma} \delta_{i j},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

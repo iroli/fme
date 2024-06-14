@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_968_IENSENA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_968_IENSENA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3550</core:url>
+    <lbm:descriptor><![CDATA[ИЕНСЕНА ФОРМУЛА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26283"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26284"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26285"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8560"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9823"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26286"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26287"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3814"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26288"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26289"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9030"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26290"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26291"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>соотношение, связывающее значения мероморфной функции внутри круга с ее граничными значениями на окружности и с ее нулями и полюсами. Пусть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8560">$$f(z)-$$</a> мероморфная функция в круге <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9823">$$|z| \leqslant R$$</a>; <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26286">$$a_{\mu},\left|a_{\mu}\right| \leqslant R$$</a>, и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26287">$$b_{v},\left|b_{v}\right| \leqslant R$$</a>,- соответственно, все нули и полюсы $URI[[http://libmeta.ru/fme/formula/aux/968_5_IENSENA]]/URI$, причем каждый нуль или полюс считается столько раз, какова его кратность или порядок. Если <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26288">$$f(0) \neq 0$$</a>, то справедлива форм ула Иен сена:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26283">$$\begin{aligned}& \ln |f(0)|=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| d \varphi+ \\& +\sum_{\left|b_{v}\right|<R} \ln \frac{R}{\left|b_{v}\right|}-\sum_{\left|a_{\mu}\right|<R} \ln \frac{R}{\left|a_{\mu}\right|},\end{aligned}$$</a><BR/></P><P>в к-рой суммы распространены на все нули и полюсы $URI[[http://libmeta.ru/fme/formula/aux/968_7_IENSENA]]/URI$ внутри круга <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26289">$$|z|<r$$</a>. Небольшое видоизменение позволяет приспособить формулу (1) и для случая <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9030">$$f(0)=0$$</a>.<BR/></P><P>Справедлива и более общая формула, названная фо p мулой Пуассона - Иенсена и дающая значения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26290">$$\operatorname{in}|f(z)|$$</a> в любой точке <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26291">$$z=r e^{i \theta}$$</a>, отличной от нулей и полюсов:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26284">$$\begin{gathered}\ln |f(z)|=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| P\left(z, R e^{i \varphi}\right) d \varphi+ \\+\sum_{\left|b_{v}\right|<R} \ln \left|\frac{R^{2}-\bar{b}_{v} z}{R\left(z-b_{v}\right)}\right|-\sum_{\left|a_{\mu}\right|<R} \ln \left|\frac{R^{2}-\bar{a}_{\mu} z}{R\left(z-a_{\mu}\right)}\right|, \\P\left(z, \operatorname{Re}^{i \varphi}\right)=\frac{R^{2}-r^{2}}{R^{2}+r^{2}-2 R \cos (\theta-\varphi)}, \quad r<R .\end{gathered}$$</a><BR/></P><P>Формулу (2) можно рассматривать как обобщение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2469_PUASSONA">Пуассона интеграла</a> для круга. Точно так же, обобщая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3439_ShVARTsA">Шварца интеграл</a> для круга, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получают</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3445_ShVARTsA-IENSENA">формулу Шварца-Йенсена</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26285">$$\begin{gathered}\ln f(z)=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| \frac{R e^{i \varphi}+z}{R e^{i \varphi}-z} d \varphi+ \\+\sum_{\left|b_{v}\right|<R} \ln \frac{R^{2}-\bar{b}_{v} z}{R\left(z-b_{v}\right)}-\sum_{\left|a_{\mu}\right|<R} \ln \frac{R^{2}-\bar{a}_{\mu} z}{R\left(z-a_{\mu}\right)} .\end{gathered}$$</a><BR/></P><P>Возможно также построение формул типа (1)-(3) для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2306_POLUINVARIAN">полуплоскости</a> и других <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">областей</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[соотношение, связывающее значения мероморфной функции внутри круга с ее граничными значениями на окружности и с ее нулями и полюсами. Пусть $f(z)-$ мероморфная функция в круге $|z| \leqslant R$; $a_{\mu},\left|a_{\mu}\right| \leqslant R$, и $b_{v},\left|b_{v}\right| \leqslant R$,- соответственно, все нули и полюсы $f(z)$, причем каждый нуль или полюс считается столько раз, какова его кратность или порядок. Если $f(0) \neq 0$, то справедлива форм ула Иен сена:
+
+\[
+\begin{aligned}
+& \ln |f(0)|=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| d \varphi+ \\
+& +\sum_{\left|b_{v}\right|<R} \ln \frac{R}{\left|b_{v}\right|}-\sum_{\left|a_{\mu}\right|<R} \ln \frac{R}{\left|a_{\mu}\right|},
+\end{aligned}
+\]
+
+в к-рой суммы распространены на все нули и полюсы $f(z)$ внутри круга $|z|<R$. Небольшое видоизменение позволяет приспособить формулу (1) и для случая $f(0)=0$.
+
+Справедлива и более общая формула, названная фо p мулой Пуассона - Иенсена и дающая значения $\operatorname{In}|f(z)|$ в любой точке $z=r e^{i \theta}$, отличной от нулей и полюсов:
+
+\[
+\begin{gathered}
+\ln |f(z)|=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| P\left(z, R e^{i \varphi}\right) d \varphi+ \\
++\sum_{\left|b_{v}\right|<R} \ln \left|\frac{R^{2}-\bar{b}_{v} z}{R\left(z-b_{v}\right)}\right|-\sum_{\left|a_{\mu}\right|<R} \ln \left|\frac{R^{2}-\bar{a}_{\mu} z}{R\left(z-a_{\mu}\right)}\right|, \\
+P\left(z, \operatorname{Re}^{i \varphi}\right)=\frac{R^{2}-r^{2}}{R^{2}+r^{2}-2 R \cos (\theta-\varphi)}, \quad r<R .
+\end{gathered}
+\]
+
+Формулу (2) можно рассматривать как обобщение Пуассона интеграла для круга. Точно так же, обобщая Швариа интеграл для круга, получают формулу ШварцаИенсена:
+
+\[
+\begin{gathered}
+\ln f(z)=\frac{1}{2 \pi} \int_{0}^{2 \pi} \ln \left|f\left(R e^{i \varphi}\right)\right| \frac{R e^{i \varphi}+z}{R e^{i \varphi}-z} d \varphi+ \\
++\sum_{\left|b_{v}\right|<R} \ln \frac{R^{2}-\bar{b}_{v} z}{R\left(z-b_{v}\right)}-\sum_{\left|a_{\mu}\right|<R} \ln \frac{R^{2}-\bar{a}_{\mu} z}{R\left(z-a_{\mu}\right)} .
+\end{gathered}
+\]
+
+Возможно также построение формул типа (1)-(3) для полуплоскости и других областей.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2306_POLUINVARIAN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3445_ShVARTsA-IENSENA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3439_ShVARTsA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2469_PUASSONA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

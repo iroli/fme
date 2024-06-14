@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1524_LAKSA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1524_LAKSA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/582</core:url>
+    <lbm:descriptor><![CDATA[ЛАКСА ПРЕДСТАВЛЕНМЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5020"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5021"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5023"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5024"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5025"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5026"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5027"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5028"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5029"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1019"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_116"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5030"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5031"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5032"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>представление динамической системы<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5025">$$\dot{u}_{i}=f_{i}\left(u_{1}, \ldots, u_{n}\right), i=1,2, \ldots, n,$$</a><BR/></P><P>для которой существуют такие матрицы $URI[[http://libmeta.ru/fme/formula/aux/1524_1_LAKSA]]/URI$ (элементы которых являются функциями от <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5029">$$u_{1}, \ldots, u_{n}$$</a> ), что система (1) эквивалентна уравнению Лакса<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5026">$$\dot{L}=[L, A]=L A-A L .$$</a><BR/></P><P>В этом случае собственные числа матрицы $URI[[http://libmeta.ru/fme/formula/aux/1524_3_LAKSA]]/URI$ являются первыми интегралами системы (1).<BR/></P><P>Л. п. содержит спектральный параметр $URI[[http://libmeta.ru/fme/formula/aux/1524_4_LAKSA]]/URI$, если матрицы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5030">$$l(e)$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5031">$$a(e)$$</a> разлагаются в ряд по степеням $URI[[http://libmeta.ru/fme/formula/aux/1524_7_LAKSA]]/URI$ и уравнение (2) справедливо в силу системы (1) при всех значениях параметра $URI[[http://libmeta.ru/fme/formula/aux/1524_8_LAKSA]]/URI$. В этом случае все коэффициенты разложения функции <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5032">$$\operatorname{tr}\left(l(e)^{k}\right), k=1,2, \ldots$$</a>, по степеням $URI[[http://libmeta.ru/fme/formula/aux/1524_10_LAKSA]]/URI$ являются первыми интегралами системы (1). Во многих случаях из Л. П. со спектральным параметром следует возможность явного интегрирования системы (1) в тета-функциях римановых поверхностей, заданных уравнением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5027">$$R(E, w)=\operatorname{det}(L(t, E)-w \cdot 1)=0 .$$</a><BR/></P><P>Первое Л. п. со спектральным параметром было указано Ф. Кеттером (f. Kötter, 1900) для интегрируемых случаев В. А. Стеклова и А. М. Ляпунова движения твердого тела в жидкости. В 1974 С. В. Манаков и Г. Флашка (h. Flaschka) нашли Л. П. для системы взаимодействующих частиц на прямой (экспоненциальная модель кристаллич. решетки це почка Тода).<BR/></P><P>Л. П. со спектральным <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параметром</a> построено для всех классич. интегрируемых случаев <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамики</a> твердого тела, имеющего неподвижную точку, и для ряда новых интегрируемых задач <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механики</a> и математич. физики.<BR/></P><P>См. также Синус-Гордона уравнение.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#5021">[1]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#5021">Итоги науки и техники. Современные проблемы математики. Динамические системы, М., 1987, т. 7</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#5023">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#5022">Лакс П. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5023">«математика», 1969, т. 13, № 5, с. 128-150</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#5024">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#5020">Богоявленский О. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5024">Опрокидывающиеся солитоны. Нелинейные интегрируемые уравнения, М., 1990</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#5020">О. И. Богоявленский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[представление динамической системы
+
+\[
+\dot{u}_{i}=f_{i}\left(u_{1}, \ldots, u_{n}\right), i=1,2, \ldots, n,
+\]
+
+для которой сушествуют такие матрицы $L, A$ (элементы которых являются функциями от $u_{1}, \ldots, u_{n}$ ), что система (1) эквиватентна уравнению Лакса
+
+\[
+\dot{L}=[L, A]=L A-A L .
+\]
+
+В этом случае собственные числа матрицы $L$ являются первыми интегралами системы (1).
+
+Л. п. содержит спектральный параметр $E$, если матрицы $L(E)$ и $A(E)$ разлагаются в ряд по степеням $E$ и уравнение (2) справедливо в силу системы (1) при всех значениях параметра $E$. В этом случае все коэффициенты разложения функции $\operatorname{Tr}\left(L(E)^{k}\right), k=1,2, \ldots$, по степеням $E$ являются первыми интегралами системы (1). Во многих случаях из Л. П. со спектральным параметром следует возможность явного интегрирования системы (1) в тета-функциях римановых поверхностей, заданных уравнением
+
+\[
+R(E, w)=\operatorname{det}(L(t, E)-w \cdot 1)=0 .
+\]
+
+Первое Л. п. со спектральным параметром было указано Ф. Кеттером (F. Kötter, 1900) для интегрируемых случаев В. А. Стеклова и А. М. Ляпунова движения твердого тела в жидкости. В 1974 С. В. Манаков и Г. Флашка (H. Flaschka) нашли Л. П. для системы взаимодействующих частиц на прямой (экспоненциальная модель кристаллич. решетки це почка Тода).
+
+Л. П. со спектральным параметром построено для всех классич. интегрируемых случаев динамики твердого тела, имеющего неподвижную точку, и для ряда новых интегрируемых задач механики и математич. физики.
+
+См. также Синус-Гордона уравнение.
+
+Лит.: [1] Итоги науки и техники. Современные проблемы математики. Динамические системы, т. 7, М., 1987; [2] Лакс П. Д., «Математика», 1969, т. 13, № 5, с. 128-150; [3] Б о го я в ле нс к и й О. И., Опрокидывающиеся солитоны. Нелинейные интегрируемые уравнения, М., 1990.
+
+О. И. Богоявленский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

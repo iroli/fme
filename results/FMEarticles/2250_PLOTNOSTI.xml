@@ -1,0 +1,499 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2250_PLOTNOSTI" alphabetic_pos="2252">
+  <title>ПЛОТНОСТИ МАТРИЦА, СТАТИСТИЧЕСКИЙ ОПЕРАТОР</title>
+  <authors>
+    <author>Д. Н. Зубарев</author>
+  </authors>
+  <pages>
+    <start>445</start>
+    <end>447</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Л а нда у Л. Д., Л и фш и ц Е. М., Квантовая механика, 4 изд., М., 1989, § 4; [2] их же, Статистическая физика, ч. 1, 3 изд., М., 1976, § 5; [3] Зубарев Д. Н., Неравновесная статистическая термодинамика, М., 1971; [4] Б л у м К., Теория матрицы плотности и ее приложения, пер. с англ., М., $1983 . \quad$</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Квантовая механика</title>
+      <publication>4 изд., М.</publication>
+      <year>1989</year>
+      <other>§ 4</other>
+    </unit>
+    <unit>
+      <title>их же, Статистическая физика, ч. 1</title>
+      <publication>3 изд., М.</publication>
+      <year>1976</year>
+      <other>§ 5</other>
+    </unit>
+    <unit>
+      <author>Зубарев Д. Н.</author>
+      <title>Неравновесная статистическая термодинамика</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Блум К.</author>
+      <title>Теория матрицы плотности и ее приложения</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_1_PLOTNOSTI">\bar{A}=\left(\psi^{*}, \hat{A} \psi\right)=\int \psi^{*}(x) \hat{A} \psi(x) d x,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_2_PLOTNOSTI">\bar{A}=\sum_{k} w_{k}\left(\psi_{k}^{*}, \hat{A} \psi_{k}\right), \quad \sum_{k} w_{k}=1, \quad w_{k}&gt;0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_3_PLOTNOSTI">\begin{aligned}\bar{A}=\operatorname{Sp}(\hat{A} \rho) &amp; =\iint A\left(x, x^{\prime}\right) \rho\left(x^{\prime}, x\right) d x d x^{\prime}, \\\rho\left(x, x^{\prime}\right) &amp; =\sum_{k} w_{k} \psi_{k}(x) \psi_{k}^{*}\left(x^{\prime}\right),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_4_PLOTNOSTI">A\left(x, x^{\prime}\right)=\sum_{k, k^{\prime}} \Psi_{k}(x)(\hat{A})_{k k^{\prime}} \Psi_{k^{\prime}}^{*}\left(x^{\prime}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_5_PLOTNOSTI">\rho\left(x, x^{\prime}\right)=\psi_{k}(x) \psi_{k}^{*}\left(x^{\prime}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_6_PLOTNOSTI">\bar{A}=\iint \psi^{*}(q, x) \hat{A} \psi(q, x) d q d x .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_7_PLOTNOSTI">\hat{A} \psi(q, x)=\int A\left(x, x^{\prime}\right) \psi\left(q, x^{\prime}\right) d x^{\prime},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_8_PLOTNOSTI">\begin{aligned}\bar{A} &amp; =\iiint \Psi^{*}\left(q, x^{\prime}\right) \Psi(q, x) A\left(x, x^{\prime}\right) d x d x^{\prime} d q= \\&amp; =\iint \rho\left(x^{\prime}, x\right) A\left(x, x^{\prime}\right) d x d x^{\prime}=\operatorname{Sp}(\rho \hat{A}),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_9_PLOTNOSTI">\rho\left(x, x^{\prime}\right)=\int \psi(q, x) \psi^{*}\left(q, x^{\prime}\right) d q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_10_PLOTNOSTI">\operatorname{Sp} \rho=\sum_{k} w_{k}=1,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_11_PLOTNOSTI">i \hbar \partial \rho / \partial t=[H, \rho]=H \rho-\rho H,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_12_PLOTNOSTI">w\left(\mathscr{E}_{k}\right)=\exp \left[\left(F-\mathscr{E}_{k}\right) / \theta\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_13_PLOTNOSTI">\rho=\exp [(F-H) / \theta]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_14_PLOTNOSTI">\rho\left(x, x^{\prime}\right)=\sum_{k} \psi_{k}^{*}\left(x^{\prime}\right) \exp [(F-H) / \theta] \psi_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_15_PLOTNOSTI">\begin{aligned}\rho(t)=\rho_{0}+ &amp; (i h)^{-1} \int_{-\infty}^{t} \exp \{i H(\tau-t) / \hbar\}\left[H_{\tau}^{\prime}, \rho_{0}\right] \times \\&amp; \times \exp \{-i H(\tau-t) / \hbar\} d \tau,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_16_PLOTNOSTI">\bar{A}=\langle\hat{A}\rangle+(i \hbar)^{-1} \int_{-\infty}^{t}\left\langle\left[\hat{A}(t), H_{\tau}^{\prime}(\tau)\right]\right\rangle d \tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_17_PLOTNOSTI">\hat{A}(t)=e^{i H t / \hbar} \hat{A e^{-i H t / \hbar}}, \quad H_{\tau}^{\prime}(\tau)=e^{i H \tau / \hbar} H_{\tau}^{\prime} e^{-i H \tau / \hbar} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_18_PLOTNOSTI">\rho=w_{a}\left|\chi_{a}\right\rangle\left\langle\chi_{a}\left|+w_{b}\right| \chi_{b}\right\rangle\left\langle\chi_{b}\right|, w_{a}+w_{b}=1,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_19_PLOTNOSTI">\rho=\frac{1}{2}\left\|\begin{array}{ll}1+P_{z} &amp; P_{x}-i P_{y} \\P_{x}+i P_{y} &amp; 1-P_{z}\end{array}\right\|=\frac{1}{2}\left(e+\sum_{i} P_{i} \sigma_{i}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_20_PLOTNOSTI">\rho=\sum_{J J^{\prime} M M^{\prime}}\left\langle J^{\prime} M^{\prime}|\rho| J M\right\rangle\left|J^{\prime} M^{\prime}\right\rangle\langle J M| .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_21_PLOTNOSTI">\rho=\sum_{J J^{\prime} K Q}\left\langle T\left(J^{\prime} J\right)_{K Q}^{+}\right\rangle T\left(J^{\prime} J\right)_{K Q},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_22_PLOTNOSTI">\left|J^{\prime}-J\right| \leqslant K \leqslant J^{\prime}+J, \quad-K \leqslant Q \leqslant K</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_23_PLOTNOSTI">T\left(J^{\prime} J\right)_{K Q}=\sum_{M M^{\prime}}(-1)^{J-M}\left(J^{\prime} M^{\prime}, J-M \mid K Q\right)\left|J^{\prime} M^{\prime}\right\rangle\langle J M|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2250_24_PLOTNOSTI">\left\langle T\left(J^{\prime} J\right)_{K Q}^{+}\right\rangle=\operatorname{Sp}\left(\rho T\left(J^{\prime} J\right)_{K Q}^{+}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_1_PLOTNOSTI">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_2_PLOTNOSTI">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_3_PLOTNOSTI">w_{1}, w_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_4_PLOTNOSTI">\psi_{1}, \psi_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_5_PLOTNOSTI">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_6_PLOTNOSTI">\mathrm{sp}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_7_PLOTNOSTI">\rho\left(x, x^{\prime}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_8_PLOTNOSTI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_9_PLOTNOSTI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_10_PLOTNOSTI">x_{1}, x_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_11_PLOTNOSTI">x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_12_PLOTNOSTI">x_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_13_PLOTNOSTI">\sigma_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_14_PLOTNOSTI">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_15_PLOTNOSTI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_16_PLOTNOSTI">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_17_PLOTNOSTI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_18_PLOTNOSTI">q, x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_19_PLOTNOSTI">\psi(q, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_20_PLOTNOSTI">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_21_PLOTNOSTI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_22_PLOTNOSTI">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_23_PLOTNOSTI">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_24_PLOTNOSTI">\rho\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_25_PLOTNOSTI">\rho\left(x, x^{\prime}\right)=\rho^{*}\left(x^{\prime}, x\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_26_PLOTNOSTI">x_{1}, \ldots, x_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_27_PLOTNOSTI">x_{1}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_28_PLOTNOSTI">\left.x_{N}^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_29_PLOTNOSTI">\rho^{2}=\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_30_PLOTNOSTI">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_31_PLOTNOSTI">\rho_{n n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_32_PLOTNOSTI">\hat{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_33_PLOTNOSTI">\bar{a}=a_{n n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_34_PLOTNOSTI">\psi_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_35_PLOTNOSTI">\psi_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_36_PLOTNOSTI">\partial \rho / \partial t=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_37_PLOTNOSTI">[h, \rho]=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_38_PLOTNOSTI">w\left(\mathscr{e}_{k}\right)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_39_PLOTNOSTI">\mathscr{e} \leqslant \mathscr{E}_{k} \leqslant \mathscr{E}+\Delta \mathscr{E}, \Delta \mathscr{E} \ll \mathscr{E}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_40_PLOTNOSTI">w=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_41_PLOTNOSTI">\mathscr{e}_{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_42_PLOTNOSTI">н</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_43_PLOTNOSTI">(f-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_44_PLOTNOSTI">\theta=k T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_45_PLOTNOSTI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_46_PLOTNOSTI">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_47_PLOTNOSTI">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_48_PLOTNOSTI">h_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_49_PLOTNOSTI">\rho(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_50_PLOTNOSTI">\rho_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_51_PLOTNOSTI">\langle\ldots\rangle=\operatorname{sp}\left(\rho_{0} \ldots\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_52_PLOTNOSTI">\pm 1 / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_53_PLOTNOSTI">\left|\chi_{a}\right\rangle,\left|\chi_{b}\right\rangle-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_54_PLOTNOSTI">|+1 / 2\rangle,|-1 / 2\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_55_PLOTNOSTI">| \pm 1 / 2\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_56_PLOTNOSTI">p_{i}=\operatorname{sp}\left(\rho \sigma_{i}\right)-i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_57_PLOTNOSTI">\sigma_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_58_PLOTNOSTI">e-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_59_PLOTNOSTI">|j M\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_60_PLOTNOSTI">\left\langle J M|\rho| J^{\prime} M^{\prime}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_61_PLOTNOSTI">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_62_PLOTNOSTI">t\left(j^{\prime} J\right)_{K Q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_63_PLOTNOSTI">\left(j^{\prime} M^{\prime}, J-M \mid K Q\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_64_PLOTNOSTI">k, Q-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_65_PLOTNOSTI">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_66_PLOTNOSTI">t\left(j^{\prime} J\right)_{K Q}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_67_PLOTNOSTI">2 J^{\prime}+1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_68_PLOTNOSTI">2 J+1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_69_PLOTNOSTI">\left.J^{\prime}=J\right)\left\langle T(J)_{1}^{+}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_70_PLOTNOSTI">q= \pm 1,0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2250_71_PLOTNOSTI">\left\langle T(J)_{2} Q\right\rangle</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/2250_1_PLOTNOSTI">
+      <rel_text>квадрупольного момента</rel_text>
+      <target>http://libmeta.ru/fme/article/1134_KVADRUPOL'NOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2250_2_PLOTNOSTI">
+      <rel_text>тензора</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2250_3_PLOTNOSTI">
+      <rel_text>Тензор</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2250_4_PLOTNOSTI">
+      <rel_text>угловой момент</rel_text>
+      <target>http://libmeta.ru/fme/article/3147_UGLOVOJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2250_5_PLOTNOSTI">
+      <rel_text>поляризации</rel_text>
+      <target>http://libmeta.ru/fme/article/2321_POLJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2250_6_PLOTNOSTI">
+      <rel_text>Клебша</rel_text>
+      <target>http://libmeta.ru/fme/article/1267_KLETK</target>
+    </relation>
+  </relations>
+  <text>оператор, при помощи которого можно вычислить среднее значение любой физической величины в квантовой статистической механике и, в частности, в квантовой механике. Термин «п. м.» связан с тем, что статистич. оператор обычно задается в матричной форме и определяет плотность вероятности. П. м. введена Дж. Нейманом (j. Neumann) и Л. Д. Ландау в 1927.
+
+В квантовой механике среднее значение физич. величины, представляемой оператором $URI[[http://libmeta.ru/fme/formula/aux/2250_1_PLOTNOSTI]]/URI$, в квантовом состоянии, к-рое описывается волновой функцией $URI[[http://libmeta.ru/fme/formula/aux/2250_2_PLOTNOSTI]]/URI$, равно
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_1_PLOTNOSTI]]/URI
+\]
+
+* означает комплексное сопряжение (для частиц со спином нужно учесть зависимость волновой функции от спиновыx переменных и кроме интегрирования выполнить суммирование по возможным значениям спина). Соответствующий статистич. ансамбль называется ч истым анс а м бле м, а состояние, к-рое можно описать волновой функцией,- «чистым» состоянием. Вся квантовая механика, за исключением нек-рых вопросов теории измерений, основана на применении чистых ансамблей.
+
+Квантовая статистич. механика основана на использовании статистич. ансамбля более общего типа, а именно с ме шан н о го а н с амбля (или смеси состояний), к-рый характеризуется заданием лишь вероятностей $URI[[http://libmeta.ru/fme/formula/aux/2250_3_PLOTNOSTI]]/URI$ пребывания системы в различных квантовых состояниях, описываемых волновыми функциями $URI[[http://libmeta.ru/fme/formula/aux/2250_4_PLOTNOSTI]]/URI$. Для такого ансамбля среднее значение величины $URI[[http://libmeta.ru/fme/formula/aux/2250_5_PLOTNOSTI]]/URI$ определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_2_PLOTNOSTI]]/URI
+\]
+
+к-рую можно записать в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_3_PLOTNOSTI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2250_6_PLOTNOSTI]]/URI$ - след оператора, а $URI[[http://libmeta.ru/fme/formula/aux/2250_7_PLOTNOSTI]]/URI$ П. м. в $URI[[http://libmeta.ru/fme/formula/aux/2250_8_PLOTNOSTI]]/URI$-представлении, $URI[[http://libmeta.ru/fme/formula/aux/2250_9_PLOTNOSTI]]/URI$ - совокупность одночастичных координат $URI[[http://libmeta.ru/fme/formula/aux/2250_10_PLOTNOSTI]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2250_11_PLOTNOSTI]]/URI$, для частиц со спином $URI[[http://libmeta.ru/fme/formula/aux/2250_12_PLOTNOSTI]]/URI$ включает спин $URI[[http://libmeta.ru/fme/formula/aux/2250_13_PLOTNOSTI]]/URI$. Матричный элемент оператора $URI[[http://libmeta.ru/fme/formula/aux/2250_14_PLOTNOSTI]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2250_15_PLOTNOSTI]]/URI$-представлении определяется соотношением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_4_PLOTNOSTI]]/URI
+\]
+
+Чистое состояние есть частный случай смешанного, когда вероятность состояния $URI[[http://libmeta.ru/fme/formula/aux/2250_16_PLOTNOSTI]]/URI$ равна 1 , а вероятность осталь- ных - нулю. В этом случае П. м. равна произведению волновых функций
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_5_PLOTNOSTI]]/URI
+\]
+
+В общем случае П. м. нельзя представить в такой форме, преобразуя волновые функции. Описание системы с помощью П. м. является неполным с точки зрения квантовой механики, так как оно не основано на максимально полном наборе данных, как при описании с помощью волновой функции, но в статистич. механике эта «неполнота», как правило, не является недостатком. Полное описание системы очень большого числа частиц не только чрезвычайно сложно, но и излишне, поскольку для таких систем проявляются статистич. закономерности. Однако для основного состояния квантовомеханич. систем с большим числом частиц иногда удается в нек-ром приближении теоретически рассчитать волновые функции и пользоваться чистым ансамблем.
+
+Физич. смысл П. м. можно пояснить, рассматривая подсистему с координатами $URI[[http://libmeta.ru/fme/formula/aux/2250_17_PLOTNOSTI]]/URI$ квантовомеханич. изолированной системы с координатами $URI[[http://libmeta.ru/fme/formula/aux/2250_18_PLOTNOSTI]]/URI$, к-рая описывается волновой функцией $URI[[http://libmeta.ru/fme/formula/aux/2250_19_PLOTNOSTI]]/URI$. Среднее значение величины $URI[[http://libmeta.ru/fme/formula/aux/2250_20_PLOTNOSTI]]/URI$, относящейся к подсистеме и зависящей лишь от $URI[[http://libmeta.ru/fme/formula/aux/2250_21_PLOTNOSTI]]/URI$, равно
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_6_PLOTNOSTI]]/URI
+\]
+
+Определяя линейный оператор $URI[[http://libmeta.ru/fme/formula/aux/2250_22_PLOTNOSTI]]/URI$ в матричном координатном представлении с помощью соотношения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_7_PLOTNOSTI]]/URI
+\]
+
+получаем для среднего значения оператора выражение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_8_PLOTNOSTI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_9_PLOTNOSTI]]/URI
+\]
+
+- П. м. подсистемы $URI[[http://libmeta.ru/fme/formula/aux/2250_23_PLOTNOSTI]]/URI$. Диагональные элементы П. м. $URI[[http://libmeta.ru/fme/formula/aux/2250_24_PLOTNOSTI]]/URI$ определяют вероятности координат подсистемы. Таким образом, состояние подсистемы описывается не волновой функцией, а П.м.
+
+П. м. обладает следующими свойствами: из нормировки вероятности вытекает, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_10_PLOTNOSTI]]/URI
+\]
+
+П. м. - эрмитова, то есть $URI[[http://libmeta.ru/fme/formula/aux/2250_25_PLOTNOSTI]]/URI$, и, кроме того, симметрична относительно переменных $URI[[http://libmeta.ru/fme/formula/aux/2250_26_PLOTNOSTI]]/URI$ (или $URI[[http://libmeta.ru/fme/formula/aux/2250_27_PLOTNOSTI]]/URI$, ..., $URI[[http://libmeta.ru/fme/formula/aux/2250_28_PLOTNOSTI]]/URI$, включая спиновые переменные, для Бозе - Эйнштейна статистики и антисимметрична для Ферми - Дирака статистики.
+
+Если П. м. удовлетворяет условию $URI[[http://libmeta.ru/fme/formula/aux/2250_29_PLOTNOSTI]]/URI$, то рассматриваемая система находится в чистом состоянии и обладает определенной волновой функцией. Действительно, когда $URI[[http://libmeta.ru/fme/formula/aux/2250_30_PLOTNOSTI]]/URI$ приведено к диагональной форме, это означает, что какой-либо один из матричных элементов $URI[[http://libmeta.ru/fme/formula/aux/2250_31_PLOTNOSTI]]/URI$ равен 1 , а остальные элементы равны нулю. Для любой физич. величины $URI[[http://libmeta.ru/fme/formula/aux/2250_32_PLOTNOSTI]]/URI$ тогда имеем $URI[[http://libmeta.ru/fme/formula/aux/2250_33_PLOTNOSTI]]/URI$, что соответствует наличию определенной волновой функции $URI[[http://libmeta.ru/fme/formula/aux/2250_34_PLOTNOSTI]]/URI$. В этом случае нет необходимости вводить П.м.
+
+П. м. удовлетворяет квантовому уравнению Лиувилля
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_11_PLOTNOSTI]]/URI
+\]
+
+аналогичному уравнению Лиувилля в классич. статистич. механике. Это уравнение получается из того факта, что $URI[[http://libmeta.ru/fme/formula/aux/2250_35_PLOTNOSTI]]/URI$ удовлетворяет уравнению Шредингера. В стационарном состоянии $URI[[http://libmeta.ru/fme/formula/aux/2250_36_PLOTNOSTI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2250_37_PLOTNOSTI]]/URI$, то есть П. м.- интеграл движения. Это свойство является исходным при построе- нии равновесных статистич. ансамблей и перенесении идей Гиббса в квантовую статистику. Напр., для микроканонич. ансамбля $URI[[http://libmeta.ru/fme/formula/aux/2250_38_PLOTNOSTI]]/URI$ const при $URI[[http://libmeta.ru/fme/formula/aux/2250_39_PLOTNOSTI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2250_40_PLOTNOSTI]]/URI$ вне этого интервала, где $URI[[http://libmeta.ru/fme/formula/aux/2250_41_PLOTNOSTI]]/URI$ собственное значение гамильтониана $URI[[http://libmeta.ru/fme/formula/aux/2250_42_PLOTNOSTI]]/URI$. Для канонич. ансамбля
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_12_PLOTNOSTI]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2250_43_PLOTNOSTI]]/URI$ свободная энергия, или энергия Гельмгольца; $URI[[http://libmeta.ru/fme/formula/aux/2250_44_PLOTNOSTI]]/URI$; $URI[[http://libmeta.ru/fme/formula/aux/2250_45_PLOTNOSTI]]/URI$ - абсолютная температура). В этом случае
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_13_PLOTNOSTI]]/URI
+\]
+
+или, в матричной форме,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_14_PLOTNOSTI]]/URI
+\]
+
+П. м. применяют в теории необратимых процессов. Если при $URI[[http://libmeta.ru/fme/formula/aux/2250_46_PLOTNOSTI]]/URI$ система с гамильтонианом $URI[[http://libmeta.ru/fme/formula/aux/2250_47_PLOTNOSTI]]/URI$ находилась в состоянии статистич. равновесия, а затем адиабатически было включено внешнее возмущение $URI[[http://libmeta.ru/fme/formula/aux/2250_48_PLOTNOSTI]]/URI$ (напр., вызванное электрич. или магнитным полем), зависящее от времени, то с помощью $URI[[http://libmeta.ru/fme/formula/aux/2250_49_PLOTNOSTI]]/URI$ можно найти реакцию системы на внешнее возмущение. В линейном приближении по внешнему возмущению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_15_PLOTNOSTI]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2250_50_PLOTNOSTI]]/URI$ - статистич. оператор в состоянии равновесия. Отсюда для среднего значения оператора получим
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_16_PLOTNOSTI]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2250_51_PLOTNOSTI]]/URI$ и операторы взяты в гейзенберговском представлении:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_17_PLOTNOSTI]]/URI
+\]
+
+Эти формулы можно представить через двухвременные запаздывающие Грина функции, что используют в теории электропроводности и магнитного резонанса.
+
+П. М. применяют для построения операторов плотности комплексов молекул, удовлетворяющих цепочке Боголюбова уравнений, с помощью к-рой можно обосновать кинетич. уравнение квантового газа.
+
+П. м. используют в теории поляризованных пучков частиц со спином (магнитным моментом) или фотонов. Напр., П. м. пучка частиц со спином $URI[[http://libmeta.ru/fme/formula/aux/2250_52_PLOTNOSTI]]/URI$ в смешанном состоянии имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_18_PLOTNOSTI]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2250_53_PLOTNOSTI]]/URI$ спиновые функции двух различных суперпозиций состояний $URI[[http://libmeta.ru/fme/formula/aux/2250_54_PLOTNOSTI]]/URI$. П. м. в представлении спиновых функций $URI[[http://libmeta.ru/fme/formula/aux/2250_55_PLOTNOSTI]]/URI$ дается выражением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_19_PLOTNOSTI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2250_56_PLOTNOSTI]]/URI$-я компонента поляризации, $URI[[http://libmeta.ru/fme/formula/aux/2250_57_PLOTNOSTI]]/URI$ матрицы Паули, $URI[[http://libmeta.ru/fme/formula/aux/2250_58_PLOTNOSTI]]/URI$ единичная матрица. П. м. пучка фотонов с различной поляризацией имеет аналогичный вид и зависит от трех параметров Стокса, описывающих степени линейной и круговой поляризации относительно различных осей.
+
+Смешанный ансамбль частиц в различных состояниях углового момента $URI[[http://libmeta.ru/fme/formula/aux/2250_59_PLOTNOSTI]]/URI$ описывается П.м. с элементами $URI[[http://libmeta.ru/fme/formula/aux/2250_60_PLOTNOSTI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_20_PLOTNOSTI]]/URI
+\]
+
+Для того чтобы учесть симметрию, связанную с угловым моментом частиц ансамбля, удобно разложить $URI[[http://libmeta.ru/fme/formula/aux/2250_61_PLOTNOSTI]]/URI$ по неприводимым тензорным операторам угловых моментов $URI[[http://libmeta.ru/fme/formula/aux/2250_62_PLOTNOSTI]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_21_PLOTNOSTI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_22_PLOTNOSTI]]/URI
+\] \[
+URI[[http://libmeta.ru/fme/formula/main/2250_23_PLOTNOSTI]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2250_63_PLOTNOSTI]]/URI$ URI[[http://libmeta.ru/fme/relation/2250_6_PLOTNOSTI]]/URI - Гордана коэффициенты, $URI[[http://libmeta.ru/fme/formula/aux/2250_64_PLOTNOSTI]]/URI$ полный момент и его $URI[[http://libmeta.ru/fme/formula/aux/2250_65_PLOTNOSTI]]/URI$-компонента, $URI[[http://libmeta.ru/fme/formula/aux/2250_66_PLOTNOSTI]]/URI$ матрица, имеющая $URI[[http://libmeta.ru/fme/formula/aux/2250_67_PLOTNOSTI]]/URI$ строк и $URI[[http://libmeta.ru/fme/formula/aux/2250_68_PLOTNOSTI]]/URI$ столбцов. Величины
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2250_24_PLOTNOSTI]]/URI
+\]
+
+называются м у л ь т и п о ля м и с ос т о я н и я и характеризуют свойства URI[[http://libmeta.ru/fme/relation/2250_5_PLOTNOSTI]]/URI и когерентности пучков. Три параметра (при $URI[[http://libmeta.ru/fme/formula/aux/2250_69_PLOTNOSTI]]/URI$с $URI[[http://libmeta.ru/fme/formula/aux/2250_70_PLOTNOSTI]]/URI$ называются вектором ориентаци и и характеризуют средний по ансамблю URI[[http://libmeta.ru/fme/relation/2250_4_PLOTNOSTI]]/URI. URI[[http://libmeta.ru/fme/relation/2250_3_PLOTNOSTI]]/URI 2-го ранга $URI[[http://libmeta.ru/fme/formula/aux/2250_71_PLOTNOSTI]]/URI$ называется тен зором выст роен ности, он пропорционален средним сферич. компонентам URI[[http://libmeta.ru/fme/relation/2250_2_PLOTNOSTI]]/URI электрич. URI[[http://libmeta.ru/fme/relation/2250_1_PLOTNOSTI]]/URI.</text>
+  <text_orig>оператор, при помощи которого можно вычислить среднее значение любой физической величины в квантовой статистической механике и, в частности, в квантовой механике. Термин «П. м.» связан с тем, что статистич. оператор обычно задается в матричной форме и определяет плотность вероятности. П. м. введена Дж. Нейманом (J. Neumann) и Л. Д. Ландау в 1927.
+
+В квантовой механике среднее значение физич. величины, представляемой оператором $\hat{A}$, в квантовом состоянии, к-рое описывается волновой функцией $\psi(x)$, равно
+
+\[
+\bar{A}=\left(\psi^{*}, \hat{A} \psi\right)=\int \psi^{*}(x) \hat{A} \psi(x) d x,
+\]
+
+* означает комплексное сопряжение (для частиц со спином нужно учесть зависимость волновой функции от спиновыX переменных и кроме интегрирования выполнить суммирование по возможным значениям спина). Соответствующий статистич. ансамбль называется ч истым анс а м бле м, а состояние, к-рое можно описать волновой функцией,- «чистым» состоянием. Вся квантовая механика, за исключением нек-рых вопросов теории измерений, основана на применении чистых ансамблей.
+
+Квантовая статистич. механика основана на использовании статистич. ансамбля более общего типа, а именно с ме шан н о го а н с амбля (или смеси состояний), к-рый характеризуется заданием лишь вероятностей $w_{1}, w_{2}, \ldots$ пребывания системы в различных квантовых состояниях, описываемых волновыми функциями $\psi_{1}, \psi_{2}, \ldots$. Для такого ансамбля среднее значение величины $\hat{A}$ определяется формулой
+
+\[
+\bar{A}=\sum_{k} w_{k}\left(\psi_{k}^{*}, \hat{A} \psi_{k}\right), \quad \sum_{k} w_{k}=1, \quad w_{k}&gt;0,
+\]
+
+к-рую можно записать в виде
+
+\[
+\begin{aligned}
+\bar{A}=\operatorname{Sp}(\hat{A} \rho) &amp; =\iint A\left(x, x^{\prime}\right) \rho\left(x^{\prime}, x\right) d x d x^{\prime}, \\
+\rho\left(x, x^{\prime}\right) &amp; =\sum_{k} w_{k} \psi_{k}(x) \psi_{k}^{*}\left(x^{\prime}\right),
+\end{aligned}
+\]
+
+где $\mathrm{Sp}$ - след оператора, а $\rho\left(x, x^{\prime}\right)-$ П. м. в $x$-представлении, $x$ - совокупность одночастичных координат $x_{1}, x_{2}, \ldots$, $x_{n}$, для частиц со спином $x_{i}$ включает спин $\sigma_{i}$. Матричный элемент оператора $\hat{A}$ в $x$-представлении определяется соотношением
+
+\[
+A\left(x, x^{\prime}\right)=\sum_{k, k^{\prime}} \Psi_{k}(x)(\hat{A})_{k k^{\prime}} \Psi_{k^{\prime}}^{*}\left(x^{\prime}\right) .
+\]
+
+Чистое состояние есть частный случай смешанного, когда вероятность состояния $k$ равна 1 , а вероятность осталь- ных - нулю. В этом случае П. м. равна произведению волновых функций
+
+\[
+\rho\left(x, x^{\prime}\right)=\psi_{k}(x) \psi_{k}^{*}\left(x^{\prime}\right) .
+\]
+
+В общем случае П. м. нельзя представить в такой форме, преобразуя волновые функции. Описание системы с помощью П. м. является неполным с точки зрения квантовой механики, так как оно не основано на максимально полном наборе данных, как при описании с помощью волновой функции, но в статистич. механике эта «неполнота», как правило, не является недостатком. Полное описание системы очень большого числа частиц не только чрезвычайно сложно, но и излишне, поскольку для таких систем проявляются статистич. закономерности. Однако для основного состояния квантовомеханич. систем с большим числом частиц иногда удается в нек-ром приближении теоретически рассчитать волновые функции и пользоваться чистым ансамблем.
+
+Физич. смысл П. м. можно пояснить, рассматривая подсистему с координатами $x$ квантовомеханич. изолированной системы с координатами $q, x$, к-рая описывается волновой функцией $\psi(q, x)$. Среднее значение величины $\hat{A}$, относяшейся к подсистеме и зависяшей лишь от $x$, равно
+
+\[
+\bar{A}=\iint \psi^{*}(q, x) \hat{A} \psi(q, x) d q d x .
+\]
+
+Определяя линейный оператор $\hat{A}$ в матричном координатном представлении с помощью соотношения
+
+\[
+\hat{A} \psi(q, x)=\int A\left(x, x^{\prime}\right) \psi\left(q, x^{\prime}\right) d x^{\prime},
+\]
+
+получаем для среднего значения оператора выражение
+
+\[
+\begin{aligned}
+\bar{A} &amp; =\iiint \Psi^{*}\left(q, x^{\prime}\right) \Psi(q, x) A\left(x, x^{\prime}\right) d x d x^{\prime} d q= \\
+&amp; =\iint \rho\left(x^{\prime}, x\right) A\left(x, x^{\prime}\right) d x d x^{\prime}=\operatorname{Sp}(\rho \hat{A}),
+\end{aligned}
+\]
+
+где
+
+\[
+\rho\left(x, x^{\prime}\right)=\int \psi(q, x) \psi^{*}\left(q, x^{\prime}\right) d q
+\]
+
+- П. м. подсистемы $x$. Диагональные элементы П. м. $\rho\left(x, x^{\prime}\right)$ определяют вероятности координат подсистемы. Таким образом, состояние подсистемы описывается не волновой функцией, а П.м.
+
+П. м. обладает следующими свойствами: из нормировки вероятности вытекает, что
+
+\[
+\operatorname{Sp} \rho=\sum_{k} w_{k}=1,
+\]
+
+П. м. - эрмитова, то есть $\rho\left(x, x^{\prime}\right)=\rho^{*}\left(x^{\prime}, x\right)$, и, кроме того, симметрична относительно переменных $x_{1}, \ldots, x_{N}$ (или $x_{1}^{\prime}$, ..., $\left.x_{N}^{\prime}\right)$, включая спиновые переменные, для Бозе - Эйнштейна статистики и антисимметрична для Ферми - Дирака статистики.
+
+Если П. м. удовлетворяет условию $\rho^{2}=\rho$, то рассматриваемая система находится в чистом состоянии и обладает определенной волновой функцией. Действительно, когда $\rho$ приведено к диагональной форме, это означает, что какой-либо один из матричных элементов $\rho_{n n}$ равен 1 , а остальные элементы равны нулю. Для любой физич. величины $\hat{A}$ тогда имеем $\bar{A}=A_{n n}$, что соответствует наличию определенной волновой функции $\psi_{n}$. В этом случае нет необходимости вводить П.м.
+
+П. м. удовлетворяет квантовому уравнению Лиувилля
+
+\[
+i \hbar \partial \rho / \partial t=[H, \rho]=H \rho-\rho H,
+\]
+
+аналогичному уравнению Лиувилля в классич. статистич. механике. Это уравнение получается из того факта, что $\psi_{k}(x)$ удовлетворяет уравнению Шредингера. В стационарном состоянии $\partial \rho / \partial t=0$ и $[H, \rho]=0$, то есть П. м.- интеграл движения. Это свойство является исходным при построе- нии равновесных статистич. ансамблей и перенесении идей Гиббса в квантовую статистику. Напр., для микроканонич. ансамбля $w\left(\mathscr{E}_{k}\right)=$ const при $\mathscr{E} \leqslant \mathscr{E}_{k} \leqslant \mathscr{E}+\Delta \mathscr{E}, \Delta \mathscr{E} \ll \mathscr{E}$ и $w=0$ вне этого интервала, где $\mathscr{E}_{k}-$ собственное значение гамильтониана $Н$. Для канонич. ансамбля
+
+\[
+w\left(\mathscr{E}_{k}\right)=\exp \left[\left(F-\mathscr{E}_{k}\right) / \theta\right]
+\]
+
+$(F-$ свободная энергия, или энергия Гельмгольца; $\theta=k T$; $T$ - абсолютная температура). В этом случае
+
+\[
+\rho=\exp [(F-H) / \theta]
+\]
+
+или, в матричной форме,
+
+\[
+\rho\left(x, x^{\prime}\right)=\sum_{k} \psi_{k}^{*}\left(x^{\prime}\right) \exp [(F-H) / \theta] \psi_{k}(x)
+\]
+
+П. м. применяют в теории необратимых процессов. Если при $t \rightarrow \infty$ система с гамильтонианом $H$ находилась в состоянии статистич. равновесия, а затем адиабатически было включено внешнее возмущение $H_{t}$ (напр., вызванное электрич. или магнитным полем), зависящее от времени, то с помощью $\rho(t)$ можно найти реакцию системы на внешнее возмущение. В линейном приближении по внешнему возмущению
+
+\[
+\begin{aligned}
+\rho(t)=\rho_{0}+ &amp; (i h)^{-1} \int_{-\infty}^{t} \exp \{i H(\tau-t) / \hbar\}\left[H_{\tau}^{\prime}, \rho_{0}\right] \times \\
+&amp; \times \exp \{-i H(\tau-t) / \hbar\} d \tau,
+\end{aligned}
+\]
+
+$\rho_{0}$ - статистич. оператор в состоянии равновесия. Отсюда для среднего значения оператора получим
+
+\[
+\bar{A}=\langle\hat{A}\rangle+(i \hbar)^{-1} \int_{-\infty}^{t}\left\langle\left[\hat{A}(t), H_{\tau}^{\prime}(\tau)\right]\right\rangle d \tau
+\]
+
+$\langle\ldots\rangle=\operatorname{Sp}\left(\rho_{0} \ldots\right)$ и операторы взяты в гейзенберговском представлении:
+
+\[
+\hat{A}(t)=e^{i H t / \hbar} \hat{A e^{-i H t / \hbar}}, \quad H_{\tau}^{\prime}(\tau)=e^{i H \tau / \hbar} H_{\tau}^{\prime} e^{-i H \tau / \hbar} .
+\]
+
+Эти формулы можно представить через двухвременные запаздывающие Грина функции, что используют в теории электропроводности и магнитного резонанса.
+
+П. М. применяют для построения операторов плотности комплексов молекул, удовлетворяющих цепочке Боголюбова уравнений, с помощью к-рой можно обосновать кинетич. уравнение квантового газа.
+
+П. м. используют в теории поляриязованных пучков частиц со спином (магнитным моментом) или фотонов. Напр., П. м. пучка частиц со спином $\pm 1 / 2$ в смешанном состоянии имеет вид:
+
+\[
+\rho=w_{a}\left|\chi_{a}\right\rangle\left\langle\chi_{a}\left|+w_{b}\right| \chi_{b}\right\rangle\left\langle\chi_{b}\right|, w_{a}+w_{b}=1,
+\]
+
+$\left|\chi_{a}\right\rangle,\left|\chi_{b}\right\rangle-$ спиновые функции двух различных суперпозиций состояний $|+1 / 2\rangle,|-1 / 2\rangle$. П. м. в представлении спиновых функций $| \pm 1 / 2\rangle$ дается выражением
+
+\[
+\rho=\frac{1}{2}\left\|\begin{array}{ll}
+1+P_{z} &amp; P_{x}-i P_{y} \\
+P_{x}+i P_{y} &amp; 1-P_{z}
+\end{array}\right\|=\frac{1}{2}\left(e+\sum_{i} P_{i} \sigma_{i}\right),
+\]
+
+где $P_{i}=\operatorname{Sp}\left(\rho \sigma_{i}\right)-i$-я компонента поляризации, $\sigma_{i}-$ матрицы Паули, $e-$ единичная матрица. П. м. пучка фотонов с различной поляризацией имеет аналогичный вид и зависит от трех параметров Стокса, описывающих степени линейной и круговой поляризации относительно различных осей.
+
+Смешанный ансамбль частиц в различных состояниях углового момента $|J M\rangle$ описывается П.м. с элементами $\left\langle J M|\rho| J^{\prime} M^{\prime}\right\rangle$ :
+
+\[
+\rho=\sum_{J J^{\prime} M M^{\prime}}\left\langle J^{\prime} M^{\prime}|\rho| J M\right\rangle\left|J^{\prime} M^{\prime}\right\rangle\langle J M| .
+\]
+
+Для того чтобы учесть симметрию, связанную с угловым моментом частиц ансамбля, удобно разложить $\rho$ по неприводимым тензорным операторам угловых моментов $T\left(J^{\prime} J\right)_{K Q}$
+
+\[
+\rho=\sum_{J J^{\prime} K Q}\left\langle T\left(J^{\prime} J\right)_{K Q}^{+}\right\rangle T\left(J^{\prime} J\right)_{K Q},
+\]
+
+где
+
+\[
+\left|J^{\prime}-J\right| \leqslant K \leqslant J^{\prime}+J, \quad-K \leqslant Q \leqslant K
+\] \[
+T\left(J^{\prime} J\right)_{K Q}=\sum_{M M^{\prime}}(-1)^{J-M}\left(J^{\prime} M^{\prime}, J-M \mid K Q\right)\left|J^{\prime} M^{\prime}\right\rangle\langle J M|
+\]
+
+$\left(J^{\prime} M^{\prime}, J-M \mid K Q\right)-$ Клебша - Гордана коэффициенты, $K, Q-$ полный момент и его $z$-компонента, $T\left(J^{\prime} J\right)_{K Q}-$ матрица, имеющая $2 J^{\prime}+1$ строк и $2 J+1$ столбцов. Величины
+
+\[
+\left\langle T\left(J^{\prime} J\right)_{K Q}^{+}\right\rangle=\operatorname{Sp}\left(\rho T\left(J^{\prime} J\right)_{K Q}^{+}\right)
+\]
+
+называются м у л ь т и п о ля м и с ос т о я н и я и характеризуют свойства поляризации и когерентности пучков. Три параметра (при $\left.J^{\prime}=J\right)\left\langle T(J)_{1}^{+}\right\rangle$с $Q= \pm 1,0$ называются вектором ориентаци и и характеризуют средний по ансамблю угловой момент. Тензор 2-го ранга $\left\langle T(J)_{2} Q\right\rangle$ называется тен зором выст роен ности, он пропорционален средним сферич. компонентам тензора электрич. квадрупольного момента.
+
+Лит.: [1] Л а нда у Л. Д., Л и фш и ц Е. М., Квантовая механика, 4 изд., М., 1989, § 4; [2] их же, Статистическая физика, ч. 1, 3 изд., М., 1976, § 5; [3] Зубарев Д. Н., Неравновесная статистическая термодинамика, М., 1971; [4] Б л у м К., Теория матрицы плотности и ее приложения, пер. с англ., М., $1983 . \quad$ Д. Н. Зубарев.</text_orig>
+</article>

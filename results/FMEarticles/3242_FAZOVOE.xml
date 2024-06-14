@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3242_FAZOVOE" alphabetic_pos="3244">
+  <title>ФАЗОВОЕ ПРОСТРАНСТВО</title>
+  <authors>
+    <author>М. Б. Севрюк</author>
+  </authors>
+  <pages>
+    <start>635</start>
+    <end>635</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Арнольд В. И., Обыкновенные дифференциальные уравнения, 3 изд., М., 1984; [2] Арнольд В. И., Ильяшенко Ю. С., в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 1, М., 1985, с. 7-149; [3] А н о с о в Д. В. [и др.], там же, с. 151-242.</literature_orig>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <title>Обыкновенные дифференциальные уравнения</title>
+      <publication>3 изд., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <author>Ильяшенко Ю. С.</author>
+      <title>в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other>т. 1, с. 7-149</other>
+    </unit>
+    <unit>
+      <title/>
+      <publication/>
+      <year/>
+      <other>А н о с о в Д. В. [и др.], там же, с. 151-242.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3242_1_FAZOVOE">x^{(n)}=V\left(x^{(n-1)}, \ldots, x^{\prime}, x, t\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_1_FAZOVOE">d x / d t=V(x, t)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_2_FAZOVOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_3_FAZOVOE">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_4_FAZOVOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_5_FAZOVOE">a: M \rightarrow M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_6_FAZOVOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_7_FAZOVOE">x \in \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_8_FAZOVOE">m n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_9_FAZOVOE">\left(x^{(n-1)}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3242_10_FAZOVOE">\left.x^{\prime}, x\right)</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/3242_1_FAZOVOE">
+      <rel_text>Случайный процесс</rel_text>
+      <target>http://libmeta.ru/fme/article/2823_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3242_2_FAZOVOE">
+      <rel_text>Динамическая система</rel_text>
+      <target>http://libmeta.ru/fme/article/826_DINAMIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3242_3_FAZOVOE">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3242_4_FAZOVOE">
+      <rel_text>многообразия</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3242_5_FAZOVOE">
+      <rel_text>дифференцируемого</rel_text>
+      <target>http://libmeta.ru/fme/article/879_DIFFERENTsIRUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3242_6_FAZOVOE">
+      <rel_text>метрич</rel_text>
+      <target>http://libmeta.ru/fme/article/1767_METRIK</target>
+    </relation>
+  </relations>
+  <text>множество всевозможных мгновенных состояний некоторой системы, эволюционирующей во времени. При этом обычно предполагается, что эволюционный процесс детерминирован, то есть состояние системы в начальный момент времени однозначно определяет ее будущее (а иногда и прошлое). Напр., Ф. п. механич. системы есть совокупность всех наборов (обобщенных) координат и импульсов. Если $URI[[http://libmeta.ru/fme/formula/aux/3242_1_FAZOVOE]]/URI$ обыкновенное дифференциальное уравнение, заданное на многообразии $URI[[http://libmeta.ru/fme/formula/aux/3242_2_FAZOVOE]]/URI$, то под $URI[[http://libmeta.ru/fme/formula/aux/3242_3_FAZOVOE]]/URI$. п. этого уравнения понимается многообразие $URI[[http://libmeta.ru/fme/formula/aux/3242_4_FAZOVOE]]/URI$. Аналогично, если эволюция системы задана отображением $URI[[http://libmeta.ru/fme/formula/aux/3242_5_FAZOVOE]]/URI$ множества $URI[[http://libmeta.ru/fme/formula/aux/3242_6_FAZOVOE]]/URI$, то оно является Ф. п. этой системы. Ф. п. уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3242_1_FAZOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3242_7_FAZOVOE]]/URI$, есть $URI[[http://libmeta.ru/fme/formula/aux/3242_8_FAZOVOE]]/URI$-мерное пространство наборов $URI[[http://libmeta.ru/fme/formula/aux/3242_9_FAZOVOE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3242_10_FAZOVOE]]/URI$.
+
+Элементы Ф. П. называются фаз о в м и точ кам и.
+
+В зависимости от рассматриваемой задачи Ф. п. может быть наделено структурой топологич. или URI[[http://libmeta.ru/fme/relation/3242_6_FAZOVOE]]/URI. пространства, URI[[http://libmeta.ru/fme/relation/3242_5_FAZOVOE]]/URI или симплектич. URI[[http://libmeta.ru/fme/relation/3242_4_FAZOVOE]]/URI, пространства с мерой, URI[[http://libmeta.ru/fme/relation/3242_3_FAZOVOE]]/URI Ли и т. д.
+
+См. также URI[[http://libmeta.ru/fme/relation/3242_2_FAZOVOE]]/URI, URI[[http://libmeta.ru/fme/relation/3242_1_FAZOVOE]]/URI.</text>
+  <text_orig>множество всевозможных мгновенных состояний некоторой системы, эволюционирующей во времени. При этом обычно предполагается, что эволюционный процесс детерминирован, то есть состояние системы в начальный момент времени однозначно определяет ее будущее (а иногда и прошлое). Напр., Ф. п. механич. системы есть совокупность всех наборов (обобщенных) координат и импульсов. Если $d x / d t=V(x, t)-$ обыкновенное дифференциальное уравнение, заданное на многообразии $M$, то под $\Phi$. п. этого уравнения понимается многообразие $M$. Аналогично, если эволюция системы задана отображением $A: M \rightarrow M$ множества $M$, то оно является Ф. п. этой системы. Ф. п. уравнения
+
+\[
+x^{(n)}=V\left(x^{(n-1)}, \ldots, x^{\prime}, x, t\right),
+\]
+
+где $x \in \mathbb{R}$, есть $m n$-мерное пространство наборов $\left(x^{(n-1)}, \ldots\right.$, $\left.x^{\prime}, x\right)$.
+
+Элементы Ф. П. называются фаз о в м и точ кам и.
+
+В зависимости от рассматриваемой задачи Ф. п. может быть наделено структурой топологич. или метрич. пространства, дифференцируемого или симплектич. многообразия, пространства с мерой, группы Ли и т. д.
+
+См. также Динамическая система, Случайный процесс.
+
+Лит.: [1] Арнольд В. И., Обыкновенные дифференциальные уравнения, 3 изд., М., 1984; [2] Арнольд В. И., Ильяшенко Ю. С., в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 1, М., 1985, с. 7-149; [3] А н о с о в Д. В. [и др.], там же, с. 151-242. М. Б. Севрюк.</text_orig>
+</article>

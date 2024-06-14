@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2545_RASSEJaNIJa" alphabetic_pos="2547">
+  <title>РАССЕЯНИЯ АБСТРАКТНАЯ МАТРИЦА ОТНОСИТЕЛЬНО КОНУСА $\Gamma$</title>
+  <authors/>
+  <pages>
+    <start>490</start>
+    <end>490</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] В л а д и м и р о в В. С., Обобщенные функции в математической физике, 2 изд., М., 1979.</literature_orig>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Обобщенные функции в математической физике</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2545_1_RASSEJaNIJa">S(x)=\left\|S_{i j}(x)\right\|, S_{i j}(x) \in D\left(\mathbb{R}^{n}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2545_2_RASSEJaNIJa">\operatorname{supp} S(x) \subset \Gamma \text {; }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2545_3_RASSEJaNIJa">\int\left\langle S^{*} \Phi, S^{*} \Phi\right\rangle d x \leqslant \int\langle\Phi, \Phi\rangle d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2545_4_RASSEJaNIJa">Z^{*}=(I \delta-S)^{-1 *}(I \delta+S)^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2545_5_RASSEJaNIJa">S^{*}=(Z+I \delta)^{-1 *}(Z-I \delta)^{*}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2545_1_RASSEJaNIJa">(n \times N)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2545_2_RASSEJaNIJa">\phi=\left(\phi_{1}, \ldots, \Phi_{N}\right), \Phi_{j} \in D\left(\mathbb{R}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2545_3_RASSEJaNIJa">s^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2545_4_RASSEJaNIJa">s^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2545_5_RASSEJaNIJa">z^{*}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2545_1_RASSEJaNIJa">
+      <rel_text>рассеяния</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2545_2_RASSEJaNIJa">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2545_3_RASSEJaNIJa">
+      <rel_text>пассивный оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2177_PASSIVNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2545_4_RASSEJaNIJa">
+      <rel_text>пассивный оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2177_PASSIVNYJ</target>
+    </relation>
+  </relations>
+  <text>вещественная $URI[[http://libmeta.ru/fme/formula/aux/2545_1_RASSEJaNIJa]]/URI$-матрица
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2545_1_RASSEJaNIJa]]/URI
+\]
+
+удовлетворяющая условиям:
+
+a) п р и ч и н нос т и относительно конуса Г:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2545_2_RASSEJaNIJa]]/URI
+\]
+
+б) ограниченности:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2545_3_RASSEJaNIJa]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/fme/formula/aux/2545_2_RASSEJaNIJa]]/URI$.
+
+Соответствуюший оператор $URI[[http://libmeta.ru/fme/formula/aux/2545_3_RASSEJaNIJa]]/URI$ называется о пе ратором рас с я ния относительно конуса Г. Между операторами рассеяния и пассивными операторами в теории пассивных систем имеется непосредственная связь: всякий невырожденный абстрактный оператор рассеяния $URI[[http://libmeta.ru/fme/formula/aux/2545_4_RASSEJaNIJa]]/URI$ определяет по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2545_4_RASSEJaNIJa]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/2545_4_RASSEJaNIJa]]/URI; обратно, всякий URI[[http://libmeta.ru/fme/relation/2545_3_RASSEJaNIJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2545_5_RASSEJaNIJa]]/URI$ определяет по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2545_5_RASSEJaNIJa]]/URI
+\]
+
+абстрактный URI[[http://libmeta.ru/fme/relation/2545_2_RASSEJaNIJa]]/URI URI[[http://libmeta.ru/fme/relation/2545_1_RASSEJaNIJa]]/URI.</text>
+  <text_orig>вешественная $(N \times N)$-матрица
+
+\[
+S(x)=\left\|S_{i j}(x)\right\|, S_{i j}(x) \in D\left(\mathbb{R}^{n}\right),
+\]
+
+удовлетворяющая условиям:
+
+a) п р и ч и н нос т и относительно конуса Г:
+
+\[
+\operatorname{supp} S(x) \subset \Gamma \text {; }
+\]
+
+б) ограниченности:
+
+\[
+\int\left\langle S^{*} \Phi, S^{*} \Phi\right\rangle d x \leqslant \int\langle\Phi, \Phi\rangle d x
+\]
+
+для всех $\Phi=\left(\Phi_{1}, \ldots, \Phi_{N}\right), \Phi_{j} \in D\left(\mathbb{R}^{n}\right)$.
+
+Соответствуюший оператор $S^{*}$ называется о пе ратором рас с я ния относительно конуса Г. Между операторами рассеяния и пассивными операторами в теории пассивньх систем имеется непосредственная связь: всякий невырожденный абстрактный оператор рассеяния $S^{*}$ определяет по формуле
+
+\[
+Z^{*}=(I \delta-S)^{-1 *}(I \delta+S)^{*}
+\]
+
+пассивный оператор; обратно, всякий пассивный оператор $Z^{*}$ определяет по формуле
+
+\[
+S^{*}=(Z+I \delta)^{-1 *}(Z-I \delta)^{*}
+\]
+
+абстрактный оператор рассеяния.
+
+Лит.: [1] В л а д и м и р о в В. С., Обобшенные функшии в математической физике, 2 изд., М., 1979.</text_orig>
+</article>

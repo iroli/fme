@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3132_TURBULENTNAJa" alphabetic_pos="3134">
+  <title>ТУРБУЛЕНТНАЯ ВЯЗКОСТЬ</title>
+  <authors/>
+  <pages>
+    <start>610</start>
+    <end>610</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main/>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3132_1_TURBULENTNAJa">\rho K(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3132_2_TURBULENTNAJa">\tau=-\rho\left\langle u^{\prime} w^{\prime}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3132_3_TURBULENTNAJa">\partial\langle u\rangle / \partial z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3132_4_TURBULENTNAJa">\quad \begin{array}{ll}\text {. } &amp; \text {. } . \text { Монин. }\end{array}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/3132_1_TURBULENTNAJa">
+      <rel_text>турбулентного</rel_text>
+      <target>http://libmeta.ru/fme/article/3139_TURBULENTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3132_2_TURBULENTNAJa">
+      <rel_text>состояние</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3132_3_TURBULENTNAJa">
+      <rel_text>жидкость</rel_text>
+      <target>http://libmeta.ru/fme/article/939_ZhIDKOST</target>
+    </relation>
+  </relations>
+  <text>(в простейшем случае, когда осредненное турбулентное течение плоскопараллельно) - отношение $URI[[http://libmeta.ru/fme/formula/aux/3132_1_TURBULENTNAJa]]/URI$ турбулентного напряжения трения $URI[[http://libmeta.ru/fme/formula/aux/3132_2_TURBULENTNAJa]]/URI$ к градиенту скорости осредненного течения $URI[[http://libmeta.ru/fme/formula/aux/3132_3_TURBULENTNAJa]]/URI$. При более сложной геометрии имеются соответствующие тензорные обобщения.
+
+В отличие от молекулярной вязкости, Т. в. характеризует не URI[[http://libmeta.ru/fme/relation/3132_3_TURBULENTNAJa]]/URI (или газ), а URI[[http://libmeta.ru/fme/relation/3132_2_TURBULENTNAJa]]/URI ее URI[[http://libmeta.ru/fme/relation/3132_1_TURBULENTNAJa]]/URI движения и может изменяться в пространстве и времени, в том числе принимать отрицательные значения. $URI[[http://libmeta.ru/fme/formula/aux/3132_4_TURBULENTNAJa]]/URI$</text>
+  <text_orig>(в простейшем случае, когда осредненное турбулентное течение плоскопараллельно) - отношение $\rho K(z)$ турбулентного напряжения трения $\tau=-\rho\left\langle u^{\prime} w^{\prime}\right\rangle$ к градиенту скорости осредненного течения $\partial\langle u\rangle / \partial z$. При более сложной геометрии имеются соответствующие тензорные обобщения.
+
+В отличие от молекулярной вязкости, Т. в. характеризует не жидкость (или газ), а состояние ее турбулентного движения и может изменяться в пространстве и времени, в том числе принимать отрицательные значения. $\quad \begin{array}{ll}\text {. } &amp; \text {. } . \text { Монин. }\end{array}$</text_orig>
+</article>

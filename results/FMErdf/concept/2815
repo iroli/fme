@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3534_ENSTROFI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3534_ENSTROFI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2815</core:url>
+    <lbm:descriptor><![CDATA[ЭНСТРОФИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1598"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20896"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#1355"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20897"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_378"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_64"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>величина $URI[[http://libmeta.ru/fme/formula/aux/3534_1_ENSTROFI]]/URI$, равная половине среднего квадрата вихря скорости $URI[[http://libmeta.ru/fme/formula/aux/3534_2_ENSTROFI]]/URI$ :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20897">$$\Omega=\frac{1}{2}|\operatorname{rot} v|^{2} \text {. }$$</a><BR/></P><P>Э. наряду с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергией</a> является адиабатич. интегральным инвариантом в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_770_DVUMERNAJa">двумерной турбулентности</a>, благодаря чему создается каскад Э. в малые масштабы по спектральному «закону минус трех», а <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a> - в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_262_BOL'ShOGO">большие масштабы</a> по спектральному «закону пяти третей» (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#20896">[1]</a>). В трехмерной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST">турбулентности</a> при сохраняемости <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a> Э. возрастает за счет эффекта растяжения вихревых нитей. При этом <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергия</a> передается только в малые масштабы; в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1021_INERTsIONNYJ">инерционном интервале</a> масштабов выполняется закон Колмогорова Обухова пяти третей (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#1355">[2]</a>).<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_590_GEOFIZIChESKAJa">Геофизическая турбулентность</a><BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#20896">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1592">Kraichnan R. H.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20896">«phys. Fluids», 1967, v. 10, № 7, p. 1417-23</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#1355">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1353">Монин А. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1354">Яглом А. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#1355">Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1598">А. П. Мирабель</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[величина $\Omega$, равная половине среднего квадрата вихря скорости $\boldsymbol{v}$ :
+
+\[
+\Omega=\frac{1}{2}|\operatorname{rot} v|^{2} \text {. }
+\]
+
+Э. наряду с энергией является адиабатич. интегральным инвариантом в двумерной турбулентности, благодаря чему создается каскад Э. в малые масштабы по спектральному «закону минус трех», а энергии - в большие масштабы по спектральному «закону пяти третей» (см. [1]). В трехмерной турбулентности при сохраняемости энергии Э. возрастает за счет эффекта растяжения вихревых нитей. При этом энергия передается только в малые масштабы; в инерционном интервале масштабов выполняется закон Колмогорова Обухова пяти третей (см. [2]).
+
+См. также Геофизическая турбулентность
+
+Лum.: [1] Kraichnan R. H., «Phys. Fluids», 1967, v. 10, № 7, p. 1417-23; [2] М он и н А. С., Я глом А. М., Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967.
+
+А. П. Мирабель.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_590_GEOFIZIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1021_INERTsIONNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_262_BOL'ShOGO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_770_DVUMERNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

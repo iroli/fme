@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3173_UMNOZhENIE" alphabetic_pos="3175">
+  <title>УМНОЖЕНИЕ ОБОБЩЕННЫХ ФУНКЦИЙ</title>
+  <authors/>
+  <pages>
+    <start>621</start>
+    <end>622</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] В л а д и м и р о в В. С., Методы теории функций многих комплексных переменных, М., 1964; [2] Бо голюбов Н. Н., Ш и р к о в Д. В., Введение в теорию квантованных полей, 4 изд., М., $\begin{array}{ll}1984 . &amp; \text { В. В. Жаринов. } \\ &amp; \end{array}$</literature_orig>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Методы теории функций многих комплексных переменных</title>
+      <publication>М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <author>Ширков Д. В.</author>
+      <title>Введение в теорию квантованных полей</title>
+      <publication>4 изд., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3173_1_UMNOZhENIE">(f \cdot g, \Phi)=\lim _{v \rightarrow \infty}\left(f_{v} g_{v}, \Phi\right), \quad \Phi \in \mathscr{F} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3173_1_UMNOZhENIE">0=0 \cdot p \frac{1}{x}=(x \cdot \delta(x)) \cdot p \frac{1}{x} \neq \delta(x) \cdot\left(x \cdot p \frac{1}{x}\right)=\delta(x) \cdot 1=\delta(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3173_2_UMNOZhENIE">\mathscr{d}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3173_3_UMNOZhENIE">f \cdot g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3173_4_UMNOZhENIE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3173_5_UMNOZhENIE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3173_6_UMNOZhENIE">f_{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3173_7_UMNOZhENIE">g_{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3173_8_UMNOZhENIE">\mathscr{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3173_9_UMNOZhENIE">\mathscr{f}</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/3173_1_UMNOZhENIE">
+      <rel_text>нетривиальным</rel_text>
+      <target>http://libmeta.ru/fme/article/3093_TOPOLOGIChESKI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3173_2_UMNOZhENIE">
+      <rel_text>подпространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/2279_PODPREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3173_3_UMNOZhENIE">
+      <rel_text>Владимирова алгебр</rel_text>
+      <target>http://libmeta.ru/fme/article/418_VLADIMIROVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3173_4_UMNOZhENIE">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3173_5_UMNOZhENIE">
+      <rel_text>одночастотные функции в</rel_text>
+      <target>http://libmeta.ru/fme/article/491_VYChET</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3173_6_UMNOZhENIE">
+      <rel_text>операции</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3173_7_UMNOZhENIE">
+      <rel_text>обобщенных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/2013_OBOBSchENNAJa</target>
+    </relation>
+  </relations>
+  <text>операция над обобщенными функциями, сохраняющая основные свойства поточечного умножения функций (коммутативность. ассоциативность, дистрибутивность и т. д.) и в случае регулярных обобщенных функций совпадающая с поточечным умножением. Такое У. противоречит определению обобщенной функции как линейного функционала и в большинстве стандартных пространств невозможно.
+
+П р и м е р Л. Шварца (l. Schwartz):
+
+$URI[[http://libmeta.ru/fme/formula/aux/3173_1_UMNOZhENIE]]/URI$ показывает, что У. обобщенных функций не определено в пространстве распределений Шварца $URI[[http://libmeta.ru/fme/formula/aux/3173_2_UMNOZhENIE]]/URI$. Многочисленные попытки построения У. обобщенных функций мотивируются нуждами приложений в квантовой теории поля, в теории нелинейных дифференциальных уравнений, при описании ударных волн и т. д. Основной способ определения У. обобщенных функций - использование регуляризации обобщенной функции, когда произведение $URI[[http://libmeta.ru/fme/formula/aux/3173_3_UMNOZhENIE]]/URI$ обобщенных функций $URI[[http://libmeta.ru/fme/formula/aux/3173_4_UMNOZhENIE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3173_5_UMNOZhENIE]]/URI$ определяется как предел произведений их регуляризаций $URI[[http://libmeta.ru/fme/formula/aux/3173_6_UMNOZhENIE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3173_7_UMNOZhENIE]]/URI$, то есть полагают, по определению,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3173_1_UMNOZhENIE]]/URI
+\]
+
+В специальных классах URI[[http://libmeta.ru/fme/relation/3173_7_UMNOZhENIE]]/URI такой предел существует и приводит к корректной URI[[http://libmeta.ru/fme/relation/3173_6_UMNOZhENIE]]/URI умножения (наиболее известный пример - URI[[http://libmeta.ru/fme/relation/3173_5_UMNOZhENIE]]/URI URI[[http://libmeta.ru/fme/relation/3173_4_UMNOZhENIE]]/URI, и его развитие - граничные значения аналитич. функций из URI[[http://libmeta.ru/fme/relation/3173_3_UMNOZhENIE]]/URI). В большинстве случаев такой предел существует лишь на нек-ром URI[[http://libmeta.ru/fme/relation/3173_2_UMNOZhENIE]]/URI из $URI[[http://libmeta.ru/fme/formula/aux/3173_8_UMNOZhENIE]]/URI$ и требует доопределения на всем $URI[[http://libmeta.ru/fme/formula/aux/3173_9_UMNOZhENIE]]/URI$. Такое доопределение целиком диктуется решаемой прикладной задачей и может быть далеко URI[[http://libmeta.ru/fme/relation/3173_1_UMNOZhENIE]]/URI.</text>
+  <text_orig>операция над обобщенными функциями, сохраняющая основные свойства поточечного умножения функций (коммутативность. ассоциативность, дистрибутивность и т. д.) и в случае регулярных обобщенных функций совпадающая с поточечным умножением. Такое У. противоречит определению обобщенной функции как линейного функционала и в большинстве стандартных пространств невозможно.
+
+П р и м е р Л. Шварца (L. Schwartz):
+
+$0=0 \cdot p \frac{1}{x}=(x \cdot \delta(x)) \cdot p \frac{1}{x} \neq \delta(x) \cdot\left(x \cdot p \frac{1}{x}\right)=\delta(x) \cdot 1=\delta(x)$ показывает, что У. обобщенных функций не определено в пространстве распределений Шварца $\mathscr{D}^{\prime}$. Многочисленные попытки построения У. обобщенных функций мотивируются нуждами приложений в квантовой теории поля, в теории нелинейных дифференциальных уравнений, при описании ударных волн и т. д. Основной способ определения У. обобщенных функций - использование регуляризации обобщенной функции, когда произведение $f \cdot g$ обобщенных функций $f$ и $g$ определяется как предел произведений их регуляризаций $f_{v}$ и $g_{v}$, то есть полагают, по определению,
+
+\[
+(f \cdot g, \Phi)=\lim _{v \rightarrow \infty}\left(f_{v} g_{v}, \Phi\right), \quad \Phi \in \mathscr{F} .
+\]
+
+В специальных классах обобщенных функций такой предел существует и приводит к корректной операции умножения (наиболее известный пример - одночастотные функции в квантовой теории поля, и его развитие - граничные значения аналитич. функций из Владимирова алгебр). В большинстве случаев такой предел существует лишь на нек-ром подпространстве из $\mathscr{F}$ и требует доопределения на всем $\mathscr{F}$. Такое доопределение целиком диктуется решаемой прикладной задачей и может быть далеко нетривиальным.
+
+Лит.: [1] В л а д и м и р о в В. С., Методы теории функций многих комплексных переменных, М., 1964; [2] Бо голюбов Н. Н., Ш и р к о в Д. В., Введение в теорию квантованных полей, 4 изд., М., $\begin{array}{ll}1984 . &amp; \text { В. В. Жаринов. } \\ &amp; \end{array}$</text_orig>
+</article>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_11761">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>h</mi><mo stretchy="false">&#x00028;</mo><mo stretchy="false">&#x0007C;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy="false">&#x0007C;</mo><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mtable><mtr><mtd columnalign="left"><mfrac><mrow><mn>1</mn></mrow><mrow><mo stretchy="false">&#x00028;</mo><mi>n</mi><mo>&#x02212;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo><msub><mi>&#x003C9;</mi><mrow><mi>N</mi></mrow></msub><mo stretchy="false">&#x0007C;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><msup><mo stretchy="false">&#x0007C;</mo><mrow><mi>N</mi><mo>&#x02212;</mo><mn>2</mn></mrow></msup></mrow></mfrac><mo>&#x0002C;</mo><mspace width="1em" /><mi>n</mi><mi>&#x02A7E;</mi><mn>3</mn><mi>;</mi></mtd></mtr><mtr><mtd columnalign="left"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn><mi>&#x003C0;</mi></mrow></mfrac><mi>ln</mi><mfrac><mrow><mn>1</mn></mrow><mrow><mo stretchy="false">&#x0007C;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy="false">&#x0007C;</mo></mrow></mfrac><mo>&#x0002C;</mo><mspace width="1em" /><mi>n</mi><mi>&#x02A7E;</mi><mn>2</mn><mi>;</mi></mtd></mtr></mtable><mo stretchy="true" fence="true" form="postfix" /></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$h(|x-y|)=\left\{\begin{array}{l}\frac{1}{(n-2) \omega_{N}|x-y|^{N-2}}, \quad n \geqslant 3 ; \\\frac{1}{2 \pi} \ln \frac{1}{|x-y|}, \quad n \geqslant 2 ;\end{array}\right.$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

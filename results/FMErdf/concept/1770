@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2594_REJNOL'DSA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2594_REJNOL'DSA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1770</core:url>
+    <lbm:descriptor><![CDATA[РЕЙНОЛЬДСА КРИТЕРИЙ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5848"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11296"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13295"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13296"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_40"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1019"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_746"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_86"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>критерий механического подобия геометрически подобных течений жидкости, заключающийся в равенстве у них отношений сил инерции $URI[[http://libmeta.ru/fme/formula/aux/2594_1_REJNOL'DSA]]/URI$ силам вязкости:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13295">$$\operatorname{Re}=v^{-1} L U$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2594_2_REJNOL'DSA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2594_3_REJNOL'DSA]]/URI$ - масштабы длины и скорости, а $URI[[http://libmeta.ru/fme/formula/aux/2594_4_REJNOL'DSA]]/URI$ - кинематический коэффициент вязкости. При<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13296">$$\operatorname{Re}>\operatorname{Re}_{\text {кp }} \sim 3000$$</a><BR/></P><P>в результате гидродинамич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1952_NEUSTOJChIVOST">неустойчивости</a> образуется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST">турбулентность</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#11296">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1353">Монин А. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1354">Яглом А. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11296">Статистическая гидромеханика. Механика турбулентности, ч. 1, М., 1965</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#5848">В. П. Красицкий</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[критерий механического подобия геометрически подобных течений жидкости, заключающийся в равенстве у них отношений сил инерции $\mathbf{K}$ силам вязкости:
+
+\[
+\operatorname{Re}=v^{-1} L U
+\]
+
+где $L$ и $U$ - масштабы длины и скорости, а $v$ - кинематический коэффициент вязкости. При
+
+\[
+\operatorname{Re}>\operatorname{Re}_{\text {кp }} \sim 3000
+\]
+
+в результате гидродинамич. неустойчивости образуется турбулентность.
+
+Лит.: [1] М о н и н А. С., Я гл о м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 1, М., 1965. В. П. Красицкий.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1952_NEUSTOJChIVOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

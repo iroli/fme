@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_3485">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>f</mi><mrow><msub><mi>i</mi><mrow><mn>1</mn></mrow></msub><mi>&#x02026;</mi><msub><mi>i</mi><mrow><mi>n</mi></mrow></msub></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>&#x003B5;</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msub><mi>&#x003B5;</mi><mrow><mi>n</mi></mrow></msub><mi>;</mi><mi>t</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0003D;</mo><mfrac><mrow><msup><mo>&#x02202;</mo><mrow><mi>n</mi></mrow></msup></mrow><mrow><mo>&#x02202;</mo><msub><mi>&#x003B5;</mi><mrow><mn>1</mn></mrow></msub><mi>&#x02026;</mi><mo>&#x02202;</mo><msub><mi>&#x003B5;</mi><mrow><mi>n</mi></mrow></msub></mrow></mfrac><mi>&#x00045;</mi><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msub><mi>&#x003BE;</mi><mrow><msub><mi>i</mi><mrow><mn>1</mn></mrow></msub></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>&#x003B5;</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>&#x02026;</mi><msub><mi>&#x003BE;</mi><mrow><msub><mi>i</mi><mrow><mi>n</mi></mrow></msub></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>&#x003B5;</mi><mrow><mi>n</mi></mrow></msub><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$f_{i_{1} \ldots i_{n}}\left(\varepsilon_{1}, \ldots, \varepsilon_{n} ; t\right)=\frac{\partial^{n}}{\partial \varepsilon_{1} \ldots \partial \varepsilon_{n}} \mathrm{E}\left[\xi_{i_{1}}\left(\varepsilon_{1}, t\right) \ldots \xi_{i_{n}}\left(\varepsilon_{n}, t\right)\right],$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

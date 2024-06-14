@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1885_NEGOLONOMNAJa" alphabetic_pos="1887">
+  <title>НЕГОЛОНОМНАЯ СИСТЕМА</title>
+  <authors/>
+  <pages>
+    <start>375</start>
+    <end>376</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] Герц Г., Принципы механики, изложенные в новой связи, пер. с нем., М., 1959; [2] Ч а плы ги н С.А., Исследования по динамике неголономных систем, М.- Л., 1949; [3] С ус ло в Г. К., Теоретическая механика, 3 изд., М.- Л., 1944; [4] В о ро не ц П. В., Об уравнениях движения для неголономных систем, «математич. сб.», 1901, т. 22, вып. 4; [5] H a mel G., Theoretische Mechanik, B., 1949; [6] Ч е та в в Н., О принципе Гаусса, «изв. Казанского физикоматематич. общества при Казанском ун-те», 1932-1933, т. 6, сер. 3; [7] М уш т а и Х. М., «математич. сб.», 1932, т. 39, № 1-2 (содержит обзор работ по Н.с. до 1932); [8] Доброн ра вов В. В., «уч. зап. Мгу», 1948, т. 2, вып. 122; [9] Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, \begin{tabular}{ll} т. 16, М., 1987. &amp; Г. С. Погосов. \\\hline\end{tabular}</literature_orig>
+    <unit>
+      <author>Герц Г.</author>
+      <title>Принципы механики, изложенные в новой связи</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Чаплыгин С. А.</author>
+      <title>Исследования по динамике неголономных систем, М.- Л.</title>
+      <publication/>
+      <year>1949</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Суслов Г. К.</author>
+      <title>Теоретическая механика</title>
+      <publication>3 изд., М.- Л.</publication>
+      <year>1944</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Воронец П. В.</author>
+      <title>Об уравнениях движения для неголономных систем, «математич. сб.»</title>
+      <publication/>
+      <year>1901</year>
+      <other>т. 22, вып. 4</other>
+    </unit>
+    <unit>
+      <author>Hamel G.</author>
+      <title>Theoretische Mechanik, B.</title>
+      <publication/>
+      <year>1949</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Четавв Н.</author>
+      <title>О принципе Гаусса, «изв. Казанского физикоматематич. общества при Казанском ун-те»</title>
+      <publication/>
+      <year>1932</year>
+      <other>т. 6, сер. 3</other>
+    </unit>
+    <unit>
+      <author>Муштаи Х. М.</author>
+      <title>«математич. сб.»</title>
+      <publication/>
+      <year>1932</year>
+      <other>т. 39, № 1-2 (содержит обзор работ по Н.с. до 1932)</other>
+    </unit>
+    <unit>
+      <author>Добронравов В. В.</author>
+      <title>«уч. зап. Мгу»</title>
+      <publication/>
+      <year>1948</year>
+      <other>т. 2, вып. 122</other>
+    </unit>
+    <unit>
+      <title>Итоги науки и техники. Современные проблемы математики. Фундаментальные направления</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other>\begin{tabular}{ll} т. 16</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1885_1_NEGOLONOMNAJa">f_{k}\left(x_{i}, y_{i}, z_{i}, \dot{x}_{i}, \dot{y}_{i}, \dot{z}_{i}, t\right)=0, \quad k=1,2, \ldots, r,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1885_2_NEGOLONOMNAJa">\begin{gathered}f_{k}=\sum_{i=1}^{N}\left(a_{k i} \dot{x}_{i}+b_{k i} \dot{y}_{i}+c_{k i} \dot{z}_{i}\right)+d_{k}=0, \\k=1,2, \ldots, r,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1885_3_NEGOLONOMNAJa">\sum_{i=1}^{N}\left(a_{k i} \delta x_{i}+b_{k i} \delta y_{i}+c_{k i} \delta z_{i}\right)=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1885_4_NEGOLONOMNAJa">f \equiv \sqrt{\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2}}-\varphi\left[\sqrt{\left(x-x_{1}\right)^{2}+\left(y-y_{1}\right)^{2}+\left(z-z_{1}\right)^{2}}\right]=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1885_5_NEGOLONOMNAJa">\sum_{i=1}^{N}\left(\frac{\partial f_{k}}{\partial \dot{x}_{i}} \delta x_{i}+\frac{\partial f_{k}}{\partial \dot{y}_{i}} \delta y_{i}+\frac{\partial f_{k}}{\partial \dot{z}_{i}} \delta z_{i}\right)=0 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_1_NEGOLONOMNAJa">x_{i}, y_{i}, z_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_2_NEGOLONOMNAJa">\dot{x}_{i}, \dot{y}_{i}, \dot{z}_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_3_NEGOLONOMNAJa">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_4_NEGOLONOMNAJa">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_5_NEGOLONOMNAJa">x_{i}, y_{i}, z_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_6_NEGOLONOMNAJa">a, b, c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_7_NEGOLONOMNAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_8_NEGOLONOMNAJa">x_{i}, y_{i}, z_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_9_NEGOLONOMNAJa">t ; N-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_10_NEGOLONOMNAJa">m(x, y, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_11_NEGOLONOMNAJa">m_{1}\left(x_{1}, y_{1}, z_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_12_NEGOLONOMNAJa">m_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_13_NEGOLONOMNAJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1885_14_NEGOLONOMNAJa">m M_{1}</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/1885_1_NEGOLONOMNAJa">
+      <rel_text>Механика</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>механическая система, на которую кроме геометрических наложены еще дифференциальные (кинематические) связи. Связи системы называются дифференциальными (неголономным и), если они накладывают ограничения не только на координаты, но и на скорости точек и выражаются математически уравнениями вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1885_1_NEGOLONOMNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1885_1_NEGOLONOMNAJa]]/URI$ координаты, $URI[[http://libmeta.ru/fme/formula/aux/1885_2_NEGOLONOMNAJa]]/URI$ проекция скоростей, $URI[[http://libmeta.ru/fme/formula/aux/1885_3_NEGOLONOMNAJa]]/URI$ - время, $URI[[http://libmeta.ru/fme/formula/aux/1885_4_NEGOLONOMNAJa]]/URI$ - число наложенных связей.
+
+Неголономная 375 Предполагается, что уравнения (1) не могут быть непосредственно проинтегрированы; в противном случае получается голономная система. Число координат $URI[[http://libmeta.ru/fme/formula/aux/1885_5_NEGOLONOMNAJa]]/URI$, определяющих положение Н.с., больше числа степеней свободы системы; так как уравнения (1) непосредственно не интегрируются, для Н.с., в отличие от голономной, нельзя заранее выразить зависимые координаты через независимые.
+
+Н. с. называется л и н е й н о й, если уравнения (1) линейны относительно скоростей, то есть имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1885_2_NEGOLONOMNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1885_6_NEGOLONOMNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1885_7_NEGOLONOMNAJa]]/URI$ - функции $URI[[http://libmeta.ru/fme/formula/aux/1885_8_NEGOLONOMNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1885_9_NEGOLONOMNAJa]]/URI$ число точек системы. Пример линейной Н. с.: шар, катящийся по шероховатой плоскости. Уравнение связи, выражающее тот факт, что точка касания шара имеет скорость, равную нулю, не может быть проинтегрировано. Возможные перемещения точек системы при связях (2) удовлетворяют условиям:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1885_3_NEGOLONOMNAJa]]/URI
+\]
+
+Движение линейных Н.с. можно изучать с помощью Чаплыгина уравнений, Аппеля уравнений, уравнений в к в а зикоординатах Гамеля (см. [5]) и др. С учетом условий (3) эти уравнения могут быть получены из дифференциальных вариационных принципов или же из обобщенного интегрального принципа Гамильтона - Остроградского - принципа Воронца - Суслова [3, 4].
+
+Н. с. называется нел и н е й н о й, если уравнения (1) нелинейны относительно скоростей. Пример: система двух точек $URI[[http://libmeta.ru/fme/formula/aux/1885_10_NEGOLONOMNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1885_11_NEGOLONOMNAJa]]/URI$, в к-рой точка $URI[[http://libmeta.ru/fme/formula/aux/1885_12_NEGOLONOMNAJa]]/URI$ движется по заданному закону, а скорость точки $URI[[http://libmeta.ru/fme/formula/aux/1885_13_NEGOLONOMNAJa]]/URI$ зависит от взаимного расположения точек, напр. от расстояния $URI[[http://libmeta.ru/fme/formula/aux/1885_14_NEGOLONOMNAJa]]/URI$. Уравнение связи будет
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1885_4_NEGOLONOMNAJa]]/URI
+\]
+
+Уравнения движения нелинейных Н. с. могут быть получены из тех же принципов механики, что и для линейных Н. с., если возможные перемещения точек системы удовлетворяют условию Четаева (см. [6]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1885_5_NEGOLONOMNAJa]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/1885_1_NEGOLONOMNAJa]]/URI Н.с. находит приложения при решении ряда задач современной техники.</text>
+  <text_orig>механическая система, на которую кроме геометрических наложены еще дифференциальные (кинематические) связи. Связи системы называются дифференциальными (неголономным и), если они накладывают ограничения не только на координаты, но и на скорости точек и выражаются математически уравнениями вида:
+
+\[
+f_{k}\left(x_{i}, y_{i}, z_{i}, \dot{x}_{i}, \dot{y}_{i}, \dot{z}_{i}, t\right)=0, \quad k=1,2, \ldots, r,
+\]
+
+где $x_{i}, y_{i}, z_{i}-$ координаты, $\dot{x}_{i}, \dot{y}_{i}, \dot{z}_{i}-$ проекшия скоростей, $t$ - время, $r$ - число наложенных связей.
+
+НЕГОЛОНОМНАЯ 375 Предполагается, что уравнения (1) не могут быть непосредственно проинтегрированы; в противном случае получается голономная система. Число координат $x_{i}, y_{i}, z_{i}$, определяющих положение Н.с., больше числа степеней свободы системы; так как уравнения (1) непосредственно не интегрируются, для Н.с., в отличие от голономной, нельзя заранее выразить зависимые координаты через независимые.
+
+Н. с. называется л и н е й н о й, если уравнения (1) линейны относительно скоростей, то есть имеют вид:
+
+\[
+\begin{gathered}
+f_{k}=\sum_{i=1}^{N}\left(a_{k i} \dot{x}_{i}+b_{k i} \dot{y}_{i}+c_{k i} \dot{z}_{i}\right)+d_{k}=0, \\
+k=1,2, \ldots, r,
+\end{gathered}
+\]
+
+где $a, b, c$ и $d$ - функции $x_{i}, y_{i}, z_{i}$ и $t ; N-$ число точек системы. Пример линейной Н. с.: шар, катящийся по шероховатой плоскости. Уравнение связи, выражающее тот факт, что точка касания шара имеет скорость, равную нулю, не может быть проинтегрировано. Возможные перемещения точек системы при связях (2) удовлетворяют условиям:
+
+\[
+\sum_{i=1}^{N}\left(a_{k i} \delta x_{i}+b_{k i} \delta y_{i}+c_{k i} \delta z_{i}\right)=0 .
+\]
+
+Движение линейных Н.с. можно изучать с помощью Чаплыгина уравнений, Аппеля уравнений, уравнений в к в а зикоординатах Гамеля (см. [5]) и др. С учетом условий (3) эти уравнения могут быть получены из дифференциальных вариационных принципов или же из обобщенного интегрального принципа Гамильтона - Остроградского - принципа Воронца - Суслова [3, 4].
+
+Н. с. называется нел и н е й н о й, если уравнения (1) нелинейны относительно скоростей. Пример: система двух точек $M(x, y, z)$ и $M_{1}\left(x_{1}, y_{1}, z_{1}\right)$, в к-рой точка $M_{1}$ движется по заданному закону, а скорость точки $M$ зависит от взаимного расположения точек, напр. от расстояния $M M_{1}$. Уравнение связи будет
+
+\[
+f \equiv \sqrt{\dot{x}^{2}+\dot{y}^{2}+\dot{z}^{2}}-\varphi\left[\sqrt{\left(x-x_{1}\right)^{2}+\left(y-y_{1}\right)^{2}+\left(z-z_{1}\right)^{2}}\right]=0 .
+\]
+
+Уравнения движения нелинейных Н. с. могут быть получены из тех же принципов механики, что и для линейных Н. с., если возможные перемещения точек системы удовлетворяют условию Четаева (см. [6]):
+
+\[
+\sum_{i=1}^{N}\left(\frac{\partial f_{k}}{\partial \dot{x}_{i}} \delta x_{i}+\frac{\partial f_{k}}{\partial \dot{y}_{i}} \delta y_{i}+\frac{\partial f_{k}}{\partial \dot{z}_{i}} \delta z_{i}\right)=0 .
+\]
+
+Механика Н.с. находит приложения при решении ряда задач современной техники.
+
+Лuт.: [1] Герц Г., Принципы механики, изложенные в новой связи, пер. с нем., М., 1959; [2] Ч а плы ги н С.А., Исследования по динамике неголономных систем, М.- Л., 1949; [3] С ус ло в Г. К., Теоретическая механика, 3 изд., М.- Л., 1944; [4] В о ро не ц П. В., Об уравнениях движения для неголономных систем, «Математич. сб.», 1901, т. 22, вып. 4; [5] H a mel G., Theoretische Mechanik, B., 1949; [6] Ч е та в в Н., О принципе Гаусса, «Изв. Казанского физикоматематич. общества при Казанском ун-те», 1932-1933, т. 6, сер. 3; [7] М уш т а и Х. М., «Математич. сб.», 1932, т. 39, № 1-2 (содержит обзор работ по Н.с. до 1932); [8] Доброн ра вов В. В., «Уч. зап. МГУ», 1948, т. 2, вып. 122; [9] Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, \begin{tabular}{ll} 
+т. 16, М., 1987. &amp; Г. С. Погосов. \\
+\hline
+\end{tabular}</text_orig>
+</article>

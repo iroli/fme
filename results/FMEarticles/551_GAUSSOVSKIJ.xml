@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/551_GAUSSOVSKIJ" alphabetic_pos="551">
+  <title>ГАУССОВСКИЙ ПРОЦЕСС</title>
+  <authors/>
+  <pages>
+    <start>122</start>
+    <end>122</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_1_GAUSSOVSKIJ">\begin{gathered}\varphi_{t_{1}, \ldots, t_{n}}\left(u_{1}, \ldots, u_{n}\right)= \\=\exp \left\{i \sum_{k=1}^{n} A\left(t_{k}\right) u_{k}-\frac{1}{2} \sum_{k, j=1}^{n} B\left(t_{k}, t_{j}\right) u_{k} u_{j}\right\},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_2_GAUSSOVSKIJ">B(t, s)=\mathrm{E}[\xi(t)-A(t)][\xi(s)-A(\mathrm{~s})]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_3_GAUSSOVSKIJ">\xi(t)=\left\{\xi_{1}(t), \ldots, \xi_{m}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_4_GAUSSOVSKIJ">\xi_{i_{1}}\left(t_{1}\right), \ldots, \xi_{i_{n}}\left(t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_5_GAUSSOVSKIJ">\xi(t)=\xi_{1}(t)+i \xi_{2}(t),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_6_GAUSSOVSKIJ">\mathrm{E} \xi(s) \xi(t)=A(s) A(t),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_7_GAUSSOVSKIJ">A(t)=\mathrm{E} \xi(t) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_8_GAUSSOVSKIJ">\begin{gathered}\mathrm{E}\left[\xi_{1}(t)-A_{1}(t)\right]\left[\xi_{1}(s)-A_{1}(s)\right]= \\=\mathrm{E}\left[\xi_{2}(t)-A_{2}(t)\right]\left[\xi_{2}(s)-A_{2}(s)\right]=\frac{1}{2} \operatorname{Re} B(t, s), \\\mathrm{E}\left[\xi_{1}(t)-A_{1}(t)\right]\left[\xi_{2}(s)-A_{2}(s)\right]=-\frac{1}{2} \operatorname{Im} B(t, s),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_9_GAUSSOVSKIJ">B(t, s)=\mathrm{E}[\xi(t)-A(t)] \overline{[\xi(s)-A(s)}]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/551_10_GAUSSOVSKIJ">A_{1}(t)=\mathrm{E} \xi_{1}(t), A_{2}(t)=\mathrm{E} \xi_{2}(t) . \quad \text { Ю. А. Розанов. }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_1_GAUSSOVSKIJ">\xi=\xi(t), t \in T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_2_GAUSSOVSKIJ">\xi\left(t_{1}\right), \ldots, \xi\left(t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_3_GAUSSOVSKIJ">t_{1}, \ldots, t_{n} \in T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_4_GAUSSOVSKIJ">a(t)=\mathrm{e} \xi(t)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_5_GAUSSOVSKIJ">\xi=\xi(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_6_GAUSSOVSKIJ">a(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_7_GAUSSOVSKIJ">b(t, s), s, t \in T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_8_GAUSSOVSKIJ">a(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_9_GAUSSOVSKIJ">b(t, s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_10_GAUSSOVSKIJ">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_11_GAUSSOVSKIJ">a(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_12_GAUSSOVSKIJ">b(t, s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_13_GAUSSOVSKIJ">\xi=\xi(t), t \in T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_14_GAUSSOVSKIJ">\xi_{1}(t), \xi_{2}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_15_GAUSSOVSKIJ">\xi(t)=\xi_{1}(t)+i \xi_{2}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/551_16_GAUSSOVSKIJ">\xi(t)</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/551_1_GAUSSOVSKIJ">
+      <rel_text>корреляционная функция</rel_text>
+      <target>http://libmeta.ru/fme/article/1409_KORRELJaTsIONNAJa</target>
+    </relation>
+  </relations>
+  <text>действительный случайный процесс $URI[[http://libmeta.ru/fme/formula/aux/551_1_GAUSSOVSKIJ]]/URI$, любые конечномерные распределения которого являются гауссовскими, то есть характеристические функции совместных распределений вероятностей случайных величин $URI[[http://libmeta.ru/fme/formula/aux/551_2_GAUSSOVSKIJ]]/URI$ при любых $URI[[http://libmeta.ru/fme/formula/aux/551_3_GAUSSOVSKIJ]]/URI$ имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_1_GAUSSOVSKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/551_4_GAUSSOVSKIJ]]/URI$ математическое ожидание и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_2_GAUSSOVSKIJ]]/URI
+\]
+
+- корреляционная функция. Распределение вероятностей Г. п. $URI[[http://libmeta.ru/fme/formula/aux/551_5_GAUSSOVSKIJ]]/URI$ полностью задается его математич. ожиданием $URI[[http://libmeta.ru/fme/formula/aux/551_6_GAUSSOVSKIJ]]/URI$ и корреляционной функцией $URI[[http://libmeta.ru/fme/formula/aux/551_7_GAUSSOVSKIJ]]/URI$. Для любой функции $URI[[http://libmeta.ru/fme/formula/aux/551_8_GAUSSOVSKIJ]]/URI$ и любой положительно определенной функции $URI[[http://libmeta.ru/fme/formula/aux/551_9_GAUSSOVSKIJ]]/URI$ существует Г. П. $URI[[http://libmeta.ru/fme/formula/aux/551_10_GAUSSOVSKIJ]]/URI$, у к-рого среднее значение и корреляционная функция суть именно $URI[[http://libmeta.ru/fme/formula/aux/551_11_GAUSSOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/551_12_GAUSSOVSKIJ]]/URI$. Многомерный случайный процесс с векторными значениями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_3_GAUSSOVSKIJ]]/URI
+\]
+
+называется гауссовским, если гауссовскими являются совместные распределения вероятностей любых величин
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_4_GAUSSOVSKIJ]]/URI
+\]
+
+К о м п ле к с ны м Г. п. $URI[[http://libmeta.ru/fme/formula/aux/551_13_GAUSSOVSKIJ]]/URI$, называется случайный процесс вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_5_GAUSSOVSKIJ]]/URI
+\]
+
+где действительные $URI[[http://libmeta.ru/fme/formula/aux/551_14_GAUSSOVSKIJ]]/URI$ в совокупности образуют двумерный Г. п. Иногда, говоря о комплексном Г.п. $URI[[http://libmeta.ru/fme/formula/aux/551_15_GAUSSOVSKIJ]]/URI$, считают, что выполняется одно дополнительное условие:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_6_GAUSSOVSKIJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_7_GAUSSOVSKIJ]]/URI
+\]
+
+\section{2 Гауссовский}
+
+Это условие вводится для того, чтобы сохранить то свойство обычных гауссовских случайных величин, согласно к-рому некоррелированность равносильна независимости; его можно переписать следующим образом:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_8_GAUSSOVSKIJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_9_GAUSSOVSKIJ]]/URI
+\]
+
+- URI[[http://libmeta.ru/fme/relation/551_1_GAUSSOVSKIJ]]/URI процесса $URI[[http://libmeta.ru/fme/formula/aux/551_16_GAUSSOVSKIJ]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/551_10_GAUSSOVSKIJ]]/URI
+\]</text>
+  <text_orig>действительнЫй случайный процесс $\xi=\xi(t), t \in T$, любые конечномерные распределения которого являются гауссовскими, то есть характеристические функции совместных распределений вероятностей случайных величин $\xi\left(t_{1}\right), \ldots, \xi\left(t_{n}\right)$ при любых $t_{1}, \ldots, t_{n} \in T$ имеют вид:
+
+\[
+\begin{gathered}
+\varphi_{t_{1}, \ldots, t_{n}}\left(u_{1}, \ldots, u_{n}\right)= \\
+=\exp \left\{i \sum_{k=1}^{n} A\left(t_{k}\right) u_{k}-\frac{1}{2} \sum_{k, j=1}^{n} B\left(t_{k}, t_{j}\right) u_{k} u_{j}\right\},
+\end{gathered}
+\]
+
+где $A(t)=\mathrm{E} \xi(t)-$ математическое ожидание и
+
+\[
+B(t, s)=\mathrm{E}[\xi(t)-A(t)][\xi(s)-A(\mathrm{~s})]
+\]
+
+- корреляционная функция. Распределение вероятностей Г. п. $\xi=\xi(t)$ полностью задается его математич. ожиданием $A(t)$ и корреляционной функцией $B(t, s), s, t \in T$. Для любой функции $A(t)$ и любой положительно определенной функции $B(t, s)$ существует Г. П. $\xi(t)$, у к-рого среднее значение и корреляционная функция суть именно $A(t)$ и $B(t, s)$. Многомерный случайный процесс с векторными значениями
+
+\[
+\xi(t)=\left\{\xi_{1}(t), \ldots, \xi_{m}(t)\right\}
+\]
+
+называется гауссовским, если гауссовскими являются совместные распределения вероятностей любых величин
+
+\[
+\xi_{i_{1}}\left(t_{1}\right), \ldots, \xi_{i_{n}}\left(t_{n}\right)
+\]
+
+К о м п ле к с ны м Г. п. $\xi=\xi(t), t \in T$, называется случайный процесс вида
+
+\[
+\xi(t)=\xi_{1}(t)+i \xi_{2}(t),
+\]
+
+где действительные $\xi_{1}(t), \xi_{2}(t)$ в совокупности образуют двумерный Г. п. Иногда, говоря о комплексном Г.п. $\xi(t)=\xi_{1}(t)+i \xi_{2}(t)$, считают, что выполняется одно дополнительное условие:
+
+\[
+\mathrm{E} \xi(s) \xi(t)=A(s) A(t),
+\]
+
+где
+
+\[
+A(t)=\mathrm{E} \xi(t) .
+\]
+
+\section{2 ГАУССОВСКИЙ}
+
+Это условие вводится для того, чтобы сохранить то свойство обычных гауссовских случайных величин, согласно к-рому некоррелированность равносильна независимости; его можно переписать следующим образом:
+
+\[
+\begin{gathered}
+\mathrm{E}\left[\xi_{1}(t)-A_{1}(t)\right]\left[\xi_{1}(s)-A_{1}(s)\right]= \\
+=\mathrm{E}\left[\xi_{2}(t)-A_{2}(t)\right]\left[\xi_{2}(s)-A_{2}(s)\right]=\frac{1}{2} \operatorname{Re} B(t, s), \\
+\mathrm{E}\left[\xi_{1}(t)-A_{1}(t)\right]\left[\xi_{2}(s)-A_{2}(s)\right]=-\frac{1}{2} \operatorname{Im} B(t, s),
+\end{gathered}
+\]
+
+где
+
+\[
+B(t, s)=\mathrm{E}[\xi(t)-A(t)] \overline{[\xi(s)-A(s)}]
+\]
+
+- корреляционная функция процесса $\xi(t)$ и
+
+\[
+A_{1}(t)=\mathrm{E} \xi_{1}(t), A_{2}(t)=\mathrm{E} \xi_{2}(t) . \quad \text { Ю. А. Розанов. }
+\]</text_orig>
+</article>

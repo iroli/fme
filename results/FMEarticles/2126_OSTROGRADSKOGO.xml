@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2126_OSTROGRADSKOGO" alphabetic_pos="2128">
+  <title>ОСТРОГРАДСКОГО ФОРМУЛА</title>
+  <authors>
+    <author>Л. Д. Кудрявцев</author>
+  </authors>
+  <pages>
+    <start>417</start>
+    <end>417</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2126_1_OSTROGRADSKOGO">\begin{gathered}\int \ldots \int_{G} \sum_{i=1}^{n} \frac{\partial X_{i}}{\partial x_{i}} d x_{1} \ldots d x_{n}= \\=\int \ldots \int_{\partial G} \sum_{i=1}^{n} X_{i} d x_{i+1} \ldots d x_{n} d x_{1} \ldots d x_{i-1} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2126_2_OSTROGRADSKOGO">\int \ldots \int_{G} \sum_{i=1}^{n} \frac{\partial X_{i}}{\partial x_{i}} d v=\int \ldots \int_{\partial G} \sum_{i=1}^{n} X_{i} \cos \alpha_{i} d \sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2126_3_OSTROGRADSKOGO">\int \cdots \int_{G} \operatorname{div} a d v=\int \cdots \int_{\partial G} a v d \sigma .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_1_OSTROGRADSKOGO">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_2_OSTROGRADSKOGO">1-1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_3_OSTROGRADSKOGO">i=x_{i}\left(x_{1}, x_{2}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_4_OSTROGRADSKOGO">\partial X_{i} / \partial x_{i}, i=1,2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_5_OSTROGRADSKOGO">g \subset \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_6_OSTROGRADSKOGO">\partial G</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_7_OSTROGRADSKOGO">\cos \alpha_{i}, i=1,2, \ldots, n,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_8_OSTROGRADSKOGO">\mathbf{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_9_OSTROGRADSKOGO">\partial G</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_10_OSTROGRADSKOGO">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_11_OSTROGRADSKOGO">d v=d x_{1} \ldots d x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_12_OSTROGRADSKOGO">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_13_OSTROGRADSKOGO">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_14_OSTROGRADSKOGO">d \sigma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_15_OSTROGRADSKOGO">(n-1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_16_OSTROGRADSKOGO">\partial G</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_17_OSTROGRADSKOGO">\boldsymbol{a}=\left(x_{1}, \ldots, X_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_18_OSTROGRADSKOGO">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_19_OSTROGRADSKOGO">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_20_OSTROGRADSKOGO">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_21_OSTROGRADSKOGO">\boldsymbol{n} \mathbf{O} . \boldsymbol{\Phi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2126_22_OSTROGRADSKOGO">n=3</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/2126_1_OSTROGRADSKOGO">
+      <rel_text>многообразий</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2126_2_OSTROGRADSKOGO">
+      <rel_text>Стокса формула</rel_text>
+      <target>http://libmeta.ru/fme/article/2960_STOKSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2126_3_OSTROGRADSKOGO">
+      <rel_text>получена</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2126_4_OSTROGRADSKOGO">
+      <rel_text>частного</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2126_5_OSTROGRADSKOGO">
+      <rel_text>получена</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2126_6_OSTROGRADSKOGO">
+      <rel_text>гладких функций</rel_text>
+      <target>http://libmeta.ru/fme/article/107_ASIMPTOTIKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2126_7_OSTROGRADSKOGO">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2126_8_OSTROGRADSKOGO">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>формула интегрального исчисления функций многих переменных, устанавливающая связь между $URI[[http://libmeta.ru/fme/formula/aux/2126_1_OSTROGRADSKOGO]]/URI$-кратным интегралом по области и $URI[[http://libmeta.ru/fme/formula/aux/2126_2_OSTROGRADSKOGO]]/URI$-кратным интегралом по ее границе. Пусть функции $URI[[http://libmeta.ru/fme/formula/aux/2126_3_OSTROGRADSKOGO]]/URI$ вместе со своими частными производными $URI[[http://libmeta.ru/fme/formula/aux/2126_4_OSTROGRADSKOGO]]/URI$, интегрируемы по Лебегу в ограниченной области $URI[[http://libmeta.ru/fme/formula/aux/2126_5_OSTROGRADSKOGO]]/URI$, граница $URI[[http://libmeta.ru/fme/formula/aux/2126_6_OSTROGRADSKOGO]]/URI$ к-рой является Объединением конечного множества кусочно гладких 1-1)-мерных гиперповерхностей, ориентированных с помощью внешней нормали v. Тогда О.Ф. имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2126_1_OSTROGRADSKOGO]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/2126_7_OSTROGRADSKOGO]]/URI$ направляющие косинусы вешних нормалей $URI[[http://libmeta.ru/fme/formula/aux/2126_8_OSTROGRADSKOGO]]/URI$ гиперповерхностей, составляющих границу $URI[[http://libmeta.ru/fme/formula/aux/2126_9_OSTROGRADSKOGO]]/URI$ области $URI[[http://libmeta.ru/fme/formula/aux/2126_10_OSTROGRADSKOGO]]/URI$, то формула (1) может быть записана виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2126_2_OSTROGRADSKOGO]]/URI
+\]
+
+(e $URI[[http://libmeta.ru/fme/formula/aux/2126_11_OSTROGRADSKOGO]]/URI$ - элемент $URI[[http://libmeta.ru/fme/formula/aux/2126_12_OSTROGRADSKOGO]]/URI$-мерного объема в $URI[[http://libmeta.ru/fme/formula/aux/2126_13_OSTROGRADSKOGO]]/URI$, a $URI[[http://libmeta.ru/fme/formula/aux/2126_14_OSTROGRADSKOGO]]/URI$ гемент $URI[[http://libmeta.ru/fme/formula/aux/2126_15_OSTROGRADSKOGO]]/URI$-мерного объема на $URI[[http://libmeta.ru/fme/formula/aux/2126_16_OSTROGRADSKOGO]]/URI$.
+
+В терминах векторного поля $URI[[http://libmeta.ru/fme/formula/aux/2126_17_OSTROGRADSKOGO]]/URI$ формулы (1) (2) означают равенство интеграла от дивергенции этого эля по URI[[http://libmeta.ru/fme/relation/2126_8_OSTROGRADSKOGO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2126_18_OSTROGRADSKOGO]]/URI$ его потоку через границу URI[[http://libmeta.ru/fme/relation/2126_7_OSTROGRADSKOGO]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2126_19_OSTROGRADSKOGO]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2126_3_OSTROGRADSKOGO]]/URI
+\]
+
+Для URI[[http://libmeta.ru/fme/relation/2126_6_OSTROGRADSKOGO]]/URI О.ф. была впервые URI[[http://libmeta.ru/fme/relation/2126_5_OSTROGRADSKOGO]]/URI в трехмерном случае М. В. Остроградским в 1828. На $URI[[http://libmeta.ru/fme/formula/aux/2126_20_OSTROGRADSKOGO]]/URI$-кратле интегралы в случае произвольного натурального $URI[[http://libmeta.ru/fme/formula/aux/2126_21_OSTROGRADSKOGO]]/URI$. іла обобщена им в 1834 . При $URI[[http://libmeta.ru/fme/formula/aux/2126_22_OSTROGRADSKOGO]]/URI$ для одного URI[[http://libmeta.ru/fme/relation/2126_4_OSTROGRADSKOGO]]/URI случая О.Ф. была URI[[http://libmeta.ru/fme/relation/2126_3_OSTROGRADSKOGO]]/URI К. Гауссом (c. Gauss, 1813), поэтому иногда О. ф. называют также фо р м у л о й Г а у с 1 - Остроградского. Обобщением О.Ф. является URI[[http://libmeta.ru/fme/relation/2126_2_OSTROGRADSKOGO]]/URI для URI[[http://libmeta.ru/fme/relation/2126_1_OSTROGRADSKOGO]]/URI с краем.</text>
+  <text_orig>формула интегралього исчисления функций многих переменных, устанавлиюющая связь между $n$-кратным интегралом по области и $1-1)$-кратным интегралом по ее границе. Пусть функции $i=X_{i}\left(x_{1}, x_{2}, \ldots, x_{n}\right)$ вместе со своими частными производыми $\partial X_{i} / \partial x_{i}, i=1,2, \ldots, n$, интегрируемы по Лебегу в раниченной области $G \subset \mathbb{R}^{n}$, граница $\partial G$ к-рой является Ђъединением конечного множества кусочно гладких 1-1)-мерных гиперповерхностей, ориентированных с поощью внешней нормали v. Тогда О.Ф. имеет вид:
+
+\[
+\begin{gathered}
+\int \ldots \int_{G} \sum_{i=1}^{n} \frac{\partial X_{i}}{\partial x_{i}} d x_{1} \ldots d x_{n}= \\
+=\int \ldots \int_{\partial G} \sum_{i=1}^{n} X_{i} d x_{i+1} \ldots d x_{n} d x_{1} \ldots d x_{i-1} .
+\end{gathered}
+\]
+
+Если $\cos \alpha_{i}, i=1,2, \ldots, n,-$ направляющие косинусы тешних нормалей $\mathbf{v}$ гиперповерхностей, составляющих аницу $\partial G$ области $G$, то формула (1) может быть записана виде
+
+\[
+\int \ldots \int_{G} \sum_{i=1}^{n} \frac{\partial X_{i}}{\partial x_{i}} d v=\int \ldots \int_{\partial G} \sum_{i=1}^{n} X_{i} \cos \alpha_{i} d \sigma
+\]
+
+(e $d v=d x_{1} \ldots d x_{n}$ - элемент $n$-мерного объема в $\mathbb{R}^{n}$, a $d \sigma-$ гемент $(n-1)$-мерного объема на $\partial G$.
+
+В терминах векторного поля $\boldsymbol{a}=\left(X_{1}, \ldots, X_{n}\right)$ формулы (1) (2) означают равенство интеграла от дивергенции этого эля по области $G$ его потоку через границу области $G$ :
+
+\[
+\int \cdots \int_{G} \operatorname{div} a d v=\int \cdots \int_{\partial G} a v d \sigma .
+\]
+
+Для гладких функщий О.ф. была впервые получена в гехмерном случае М. В. Остроградским в 1828. На $n$-кратле интегралы в случае произвольного натурального $\boldsymbol{n} \mathbf{O} . \boldsymbol{\Phi}$. іла обобщена им в 1834 . При $n=3$ для одного частного гучая О.Ф. была получена К. Гауссом (C. Gauss, 1813), ээтому иногда О. ф. называют также фо р м у л о й Г а у с 1 - Остроградского. Обобщением О.Ф. является токса формула для многообразий с краем. Л. Д. Кудрявцев.</text_orig>
+</article>

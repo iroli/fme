@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1004_INVARIANTNOE" alphabetic_pos="1006">
+  <title>ИНВАРИАНТНОЕ МНОЖЕСТВО</title>
+  <authors/>
+  <pages>
+    <start>213</start>
+    <end>213</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main/>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1004_1_INVARIANTNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1004_2_INVARIANTNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1004_3_INVARIANTNOE">t=t_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1004_4_INVARIANTNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1004_5_INVARIANTNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1004_6_INVARIANTNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1004_7_INVARIANTNOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1004_8_INVARIANTNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1004_9_INVARIANTNOE">n</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/1004_1_INVARIANTNOE">
+      <rel_text>автономных</rel_text>
+      <target>http://libmeta.ru/fme/article/20_AVTOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1004_2_INVARIANTNOE">
+      <rel_text>пересекается</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1004_3_INVARIANTNOE">
+      <rel_text>фазовая кривая</rel_text>
+      <target>http://libmeta.ru/fme/article/3235_FAZOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1004_4_INVARIANTNOE">
+      <rel_text>начальный момент</rel_text>
+      <target>http://libmeta.ru/fme/article/1874_NAChAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1004_5_INVARIANTNOE">
+      <rel_text>состояние</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1004_6_INVARIANTNOE">
+      <rel_text>фазового пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+  </relations>
+  <text>такое Подмножество $URI[[http://libmeta.ru/fme/formula/aux/1004_1_INVARIANTNOE]]/URI$ URI[[http://libmeta.ru/fme/relation/1004_6_INVARIANTNOE]]/URI некоторой системы, что если URI[[http://libmeta.ru/fme/relation/1004_5_INVARIANTNOE]]/URI системы $URI[[http://libmeta.ru/fme/formula/aux/1004_2_INVARIANTNOE]]/URI$ в URI[[http://libmeta.ru/fme/relation/1004_4_INVARIANTNOE]]/URI времени $URI[[http://libmeta.ru/fme/formula/aux/1004_3_INVARIANTNOE]]/URI$ принадлежит $URI[[http://libmeta.ru/fme/formula/aux/1004_4_INVARIANTNOE]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/1004_5_INVARIANTNOE]]/URI$ принадлежит $URI[[http://libmeta.ru/fme/formula/aux/1004_6_INVARIANTNOE]]/URI$ во все предыдущие и последующие моменты времени $URI[[http://libmeta.ru/fme/formula/aux/1004_7_INVARIANTNOE]]/URI$. Любая URI[[http://libmeta.ru/fme/relation/1004_3_INVARIANTNOE]]/URI этой системы либо целиком лежит в $URI[[http://libmeta.ru/fme/formula/aux/1004_8_INVARIANTNOE]]/URI$, либо не URI[[http://libmeta.ru/fme/relation/1004_2_INVARIANTNOE]]/URI с $URI[[http://libmeta.ru/fme/formula/aux/1004_9_INVARIANTNOE]]/URI$. Термин «и. м.» обычно употребляется только для URI[[http://libmeta.ru/fme/relation/1004_1_INVARIANTNOE]]/URI систем, когда закон, определяющий эволюцию системы, не зависит явно от времени.</text>
+  <text_orig>такое ПОдМНОЖествО $N$ фазового пространства некоторой системы, что если состояние системы $x(t)$ в начальный момент времени $t=t_{0}$ принадлежит $N$, то $x(t)$ принадлежит $N$ во все предыдушие и последующие моменты времени $t$. Любая фазовая кривая этой системы либо целиком лежит в $N$, либо не пересекается с $N$. Термин «И. м.» обычно употребляется только для автономных систем, когда закон, определяющий эволюцию системы, не зависит явно от времени.</text_orig>
+</article>

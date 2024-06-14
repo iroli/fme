@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_7999">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><mi>H</mi><mo>&#x0003D;</mo><mo>&#x0222B;</mo><mi>d</mi><mi>x</mi><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><mfrac><mrow><mo>&#x02202;</mo><mi>&#x003C8;</mi></mrow><mrow><mo>&#x02202;</mo><mi>x</mi></mrow></mfrac><mfrac><mrow><mo>&#x02202;</mo><msup><mi>&#x003C8;</mi><mrow><mo>&#x0002A;</mo></mrow></msup></mrow><mrow><mo>&#x02202;</mo><mi>x</mi></mrow></mfrac><mo>&#x0002B;</mo><mi>x</mi><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>&#x003C8;</mi><msup><mi>&#x003C8;</mi><mrow><mo>&#x0002A;</mo></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mspace linebreak="newline" /><mi>&</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mi>&#x003C8;</mi><mrow><mi>a</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><msub><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mi>b</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0003D;</mo><mi>i</mi><msub><mi>&#x003B4;</mi><mrow><mi>a</mi><mi>b</mi></mrow></msub><mi>&#x003B4;</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; H=\int d x\left[\frac{\partial \psi}{\partial x} \frac{\partial \psi^{*}}{\partial x}+x\left(\psi \psi^{*}\right)^{2}\right] \\&amp; \left\{\psi_{a}(x), \bar{\psi}_{b}(y)\right\}=i \delta_{a b} \delta(x-y)\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

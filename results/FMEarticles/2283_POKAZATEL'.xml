@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2283_POKAZATEL'" alphabetic_pos="2285">
+  <title>ПОКАЗАТЕЛЬ ОСЦИЛЛЯЦИИ ФАЗЫ</title>
+  <authors>
+    <author>C. В. Чмутов</author>
+  </authors>
+  <pages>
+    <start>450</start>
+    <end>451</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2283_1_POKAZATEL'">\exp (i \tau f(x)) \sum_{\alpha} \sum_{k} a_{k, \alpha}(\varphi) \tau^{\alpha}(\ln \tau)^{k} \text { при } \tau \rightarrow \infty .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2283_1_POKAZATEL'">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2283_2_POKAZATEL'">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2283_3_POKAZATEL'">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2283_4_POKAZATEL'">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2283_5_POKAZATEL'">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2283_6_POKAZATEL'">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2283_7_POKAZATEL'">a_{k, \alpha}(\varphi) \neq 0</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/2283_1_POKAZATEL'">
+      <rel_text>Стационарной фазы метод</rel_text>
+      <target>http://libmeta.ru/fme/article/2949_STATsIONARNOJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2283_2_POKAZATEL'">
+      <rel_text>окрестности точки</rel_text>
+      <target>http://libmeta.ru/fme/article/2064_OKRESTNOST'</target>
+    </relation>
+  </relations>
+  <text>Порядок главного члена асимптотики осциллирующего интеграла. В окрестности критич. точки $URI[[http://libmeta.ru/fme/formula/aux/2283_1_POKAZATEL']]/URI$ аналитич. фазы $URI[[http://libmeta.ru/fme/formula/aux/2283_2_POKAZATEL']]/URI$ осциллирующий интеграл разлагается в асимптотич. ряд (см. URI[[http://libmeta.ru/fme/relation/2283_1_POKAZATEL']]/URI):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2283_1_POKAZATEL']]/URI
+\] П о к а з а т е ле м называется максимальное число среди таких чисел $URI[[http://libmeta.ru/fme/formula/aux/2283_3_POKAZATEL']]/URI$, что для любой URI[[http://libmeta.ru/fme/relation/2283_2_POKAZATEL']]/URI $URI[[http://libmeta.ru/fme/formula/aux/2283_4_POKAZATEL']]/URI$ найдется амплитуда $URI[[http://libmeta.ru/fme/formula/aux/2283_5_POKAZATEL']]/URI$ с носителем в этой окрестности и число $URI[[http://libmeta.ru/fme/formula/aux/2283_6_POKAZATEL']]/URI$, для к-рых $URI[[http://libmeta.ru/fme/formula/aux/2283_7_POKAZATEL']]/URI$.</text>
+  <text_orig>ПоряДОК гЛавНого члена асимптотики осцилиирующего интеграла. В окрестности критич. точки $x$ аналитич. фазы $f$ осциллирующий интеграл разлагается в асимптотич. ряд (см. Стационарной фазы метод):
+
+\[
+\exp (i \tau f(x)) \sum_{\alpha} \sum_{k} a_{k, \alpha}(\varphi) \tau^{\alpha}(\ln \tau)^{k} \text { при } \tau \rightarrow \infty .
+\] П о к а з а т е ле м называется максимальное число среди таких чисел $\alpha$, что для любой окрестности точки $x$ найдется амплитуда $\varphi$ с носителем в этой окрестности и число $k$, для к-рых $a_{k, \alpha}(\varphi) \neq 0$.
+
+C. В. Чмутов.</text_orig>
+</article>

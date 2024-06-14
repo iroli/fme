@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_245_BOZO">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_245_BOZO</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1621</core:url>
+    <lbm:descriptor><![CDATA[БОЗОН]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1464"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#12102"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#12103"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>квантовая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частица</a> или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'">квазичастица</a>, подчиняющаяся Бозе - Эйнштейна статистике. Б.- <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частица</a> с целым <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2898_SPINO">спином</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2869_SOSTOJaNIJ">Пространством состояний</a> системы $URI[[http://libmeta.ru/fme/formula/aux/245_1_BOZO]]/URI$ тождественных Б. является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO">гильбертово пространство</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1129_KVADRATIChNO">квадратично интегрируемых</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI">симметричных</a> функций $URI[[http://libmeta.ru/fme/formula/aux/245_2_BOZO]]/URI$ переменных. В случае большого канонич. ансамбля Б. описываются <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_47_ALGEBR">алгеброй</a> операторов рождения - уничтожения, действующей в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI">симметричном</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3285_FOKA">Фока пространстве</a> (см. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_470_VTORIChNOE">Вторичное квантование</a>).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#12102">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#646">Березин Ф. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#12102">Метод вторичного квантования, М., 1986</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#12103">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#12103">Боголюбов Н. Н. (мл.), Введение в квантовую статистическую механику, М., 1984</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1464">Д. П. Санкович</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[квантовая частица или квазичастица, подчиняющаяся Бозе - Эйнштейна статистике. Б.- частица с целым спином. Пространством состояний системы $N$ тождественных Б. является гильбертово пространство квадратично интегрируемых симметричных функций $N$ переменных. В случае большого канонич. ансамбля Б. описываются алгеброй операторов рождения - уничтожения, действующей в симметричном Фока пространстве (см. также Вторичное квантование).
+
+Лит.: [1] Б е рез и н Ф. А., Метод вторичного квантования, М., 1986; [2] Боголюб о в Н. Н., Боголюбов Н. Н. (мл.), Введение в квантовую статистическую механику, М., 1984. Д. П. Санкович.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_470_VTORIChNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3285_FOKA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_47_ALGEBR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1129_KVADRATIChNO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2869_SOSTOJaNIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2898_SPINO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

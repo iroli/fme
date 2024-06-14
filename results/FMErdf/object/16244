@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_16244">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>u</mi><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>u</mi><mrow><mn>1</mn></mrow></msup><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msup><mi>u</mi><mrow><mi>m</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x02208;</mo><msub><mi>V</mi><mrow><mi>m</mi></mrow></msub><mo>&#x0003D;</mo><msub><mi>p</mi><mrow><mi>m</mi></mrow></msub><msup><mi>&#x003B3;</mi><mrow><mn>0</mn></mrow></msup><mo>&#x0002C;</mo><msub><mrow><mo stretchy="true" fence="true" form="prefix" /><msub><mi>&#x003A6;</mi><mrow><mi>m</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mrow><mi>t</mi><mo>&#x0003D;</mo><mi>T</mi></mrow></msub><mo>&#x0003D;</mo><mi>&#x003A8;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>p</mi><mrow><mi>m</mi></mrow></msub><mi>u</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$u=\left(u^{1}, \ldots, u^{m}\right) \in V_{m}=p_{m} \gamma^{0},\left.\Phi_{m}\right|_{t=T}=\Psi\left(p_{m} u\right)$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

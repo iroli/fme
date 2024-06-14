@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1070_KABANE" alphabetic_pos="1072">
+  <title>КАБАНЭ УРАВНЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>227</start>
+    <end>227</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [i] Cabanne H., Mathematical method in kinetic theory of $\begin{array}{ll}\text { gases, Frankfurt, } 1980 . &amp; \text { И. А. Кузин, В. П. Политюков. }\end{array}$</literature_orig>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1070_1_KABANE">\begin{gathered}\frac{\partial N}{\partial t}+v(\theta) \nabla_{x} N=\frac{c S}{\pi} \int_{0}^{2 \pi} N(x, \varphi, t) N(x, \varphi+\pi, t) d \varphi- \\-2 c S N(x, \theta, t) N(x, \theta+\pi, t) .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1070_1_KABANE">n(x, \theta, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1070_2_KABANE">x=x_{1} \boldsymbol{i}+x_{2} \boldsymbol{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1070_3_KABANE">v(\theta)=i c \cos \theta+j c \sin \theta, c-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1070_4_KABANE">t&gt;0</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/1070_1_KABANE">
+      <rel_text>скорости</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1070_2_KABANE">
+      <rel_text>скорость</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1070_3_KABANE">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1070_4_KABANE">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1070_5_KABANE">
+      <rel_text>Больцмана уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/254_BOL'TsMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1070_6_KABANE">
+      <rel_text>интегро-дифференциальное уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/1044_INTEGRO-DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/1070_6_KABANE]]/URI, являющееся моделью URI[[http://libmeta.ru/fme/relation/1070_5_KABANE]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1070_1_KABANE]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1070_1_KABANE]]/URI$ - URI[[http://libmeta.ru/fme/relation/1070_4_KABANE]]/URI URI[[http://libmeta.ru/fme/relation/1070_3_KABANE]]/URI в точке $URI[[http://libmeta.ru/fme/formula/aux/1070_2_KABANE]]/URI$, имеющих URI[[http://libmeta.ru/fme/relation/1070_2_KABANE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1070_3_KABANE]]/URI$ модуль URI[[http://libmeta.ru/fme/relation/1070_1_KABANE]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1070_4_KABANE]]/URI$.</text>
+  <text_orig>интегро-дифференциальное уравнение, являющееся моделью Больцмана уравнения:
+
+\[
+\begin{gathered}
+\frac{\partial N}{\partial t}+v(\theta) \nabla_{x} N=\frac{c S}{\pi} \int_{0}^{2 \pi} N(x, \varphi, t) N(x, \varphi+\pi, t) d \varphi- \\
+-2 c S N(x, \theta, t) N(x, \theta+\pi, t) .
+\end{gathered}
+\]
+
+Здесь $N(x, \theta, t)$ - плотность частиц в точке $x=x_{1} \boldsymbol{i}+x_{2} \boldsymbol{j}$, имеющих скорость $v(\theta)=i c \cos \theta+j c \sin \theta, c-$ модуль скорости, $t&gt;0$.
+
+Jum.: [i] Cabanne H., Mathematical method in kinetic theory of $\begin{array}{ll}\text { gases, Frankfurt, } 1980 . &amp; \text { И. А. Кузин, В. П. Политюков. }\end{array}$</text_orig>
+</article>

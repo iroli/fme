@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/214_BLOHA-MAKSVELLA" alphabetic_pos="214">
+  <title>БЛОХА-МАКСВЕЛЛА УРАВНЕНИЯ</title>
+  <authors>
+    <author>А. В. Андреев</author>
+  </authors>
+  <pages>
+    <start>48</start>
+    <end>48</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/214_1_BLOHA-MAKSVELLA">\sigma_{1}=\left\|\begin{array}{ll}0 &amp; 1 \\1 &amp; 0\end{array}\right\|, \quad \sigma_{2}=\left\|\begin{array}{cc}0 &amp; -i \\i &amp; 0\end{array}\right\|, \quad \sigma_{3}=\left\|\begin{array}{cc}1 &amp; 0 \\0 &amp; -1\end{array}\right\| .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/214_2_BLOHA-MAKSVELLA">\hat{j}(r, t)=\sum_{i=1}^{N}\left\{\left\langle+\left|\hat{j}_{0}^{+}\left(r-r_{i}\right)\right|-\right\rangle \sigma_{i^{+}}(t)+\left\langle-\left|\hat{j}_{0}^{-}\left(r-r_{i}\right)\right|+\right\rangle \sigma_{i^{-}}(t)\right\},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/214_3_BLOHA-MAKSVELLA">\left\langle+\left|\hat{j}_{0}^{+}\left(r-\boldsymbol{r}_{i}\right)\right|-\right\rangle=\boldsymbol{m}_{i} \delta\left(\boldsymbol{r}-\boldsymbol{r}_{i}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/214_4_BLOHA-MAKSVELLA">\begin{aligned}&amp; \operatorname{rot} \operatorname{rot} \boldsymbol{A}(\boldsymbol{r}, t)+\frac{1}{c^{2}} \frac{\partial^{2}}{\partial t^{2}} \boldsymbol{A}(\boldsymbol{r}, t)=\frac{4 \pi}{c} \boldsymbol{j}(\boldsymbol{r}, t), \\&amp; \frac{\partial\left\langle\sigma_{i^{+}}\right\rangle}{\partial t}=i \omega_{0 i}\left\langle\sigma_{i^{+}}\right\rangle+\frac{i}{\hbar c} \boldsymbol{m}_{i}^{*} A\left(\boldsymbol{r}_{i}, t\right)\left\langle\sigma_{i 3}\right\rangle, \\&amp; \frac{\partial\left\langle\sigma_{i 3}\right\rangle}{\partial t}=\frac{2 i}{\hbar c}\left(\boldsymbol{m}_{i}\left\langle\sigma_{i^{+}}\right\rangle-\boldsymbol{m}_{i}^{*}\left\langle\sigma_{i^{-}}\right\rangle\right) \boldsymbol{A}\left(\boldsymbol{r}_{i}, t\right),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/214_5_BLOHA-MAKSVELLA">A(\boldsymbol{r}, t)=\sum_{k} A_{k}^{+}(\boldsymbol{r}, t) e^{i\left(\omega_{k} t-k r\right)}+A_{k}^{-}(\boldsymbol{r}, t) e^{-i\left(\omega_{k} t-k r\right)} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/214_6_BLOHA-MAKSVELLA">\left(\frac{\partial}{\partial t}+c \frac{\partial}{\partial x}\right) A_{k}^{+}(\boldsymbol{r}, t)=-i \frac{2 \pi}{k} \boldsymbol{m} \boldsymbol{R}_{\boldsymbol{k}}^{+},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/214_7_BLOHA-MAKSVELLA">R_{k}^{+}=\frac{1}{V_{1}} \sum_{i \in V_{1}(\boldsymbol{r})}\left\langle\sigma_{i^{+}}\right\rangle e^{i k r_{i}} e^{-i \omega_{k} t}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_1_BLOHA-MAKSVELLA">\sigma_{1}, \sigma_{2}, \sigma_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_2_BLOHA-MAKSVELLA">\left\langle\sigma_{3}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_3_BLOHA-MAKSVELLA">\left\langle\sigma_{1}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_4_BLOHA-MAKSVELLA">\left\langle\sigma_{2}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_5_BLOHA-MAKSVELLA">\sigma_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_6_BLOHA-MAKSVELLA">\sigma_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_7_BLOHA-MAKSVELLA">\sigma_{ \pm}=1 / 2\left(\sigma_{1} \pm i \sigma_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_8_BLOHA-MAKSVELLA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_9_BLOHA-MAKSVELLA">|+\rangle,|-\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_10_BLOHA-MAKSVELLA">\hat{\boldsymbol{j}}_{0}^{+}(\boldsymbol{r})-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_11_BLOHA-MAKSVELLA">\boldsymbol{m}_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_12_BLOHA-MAKSVELLA">a(r, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_13_BLOHA-MAKSVELLA">\left\langle\sigma_{ \pm}\right\rangle,\left\langle\sigma_{3}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_14_BLOHA-MAKSVELLA">\hbar \omega_{0 i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_15_BLOHA-MAKSVELLA">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_16_BLOHA-MAKSVELLA">\boldsymbol{a}_{\boldsymbol{k}}^{ \pm}(\boldsymbol{r}, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/214_17_BLOHA-MAKSVELLA">\boldsymbol{m}_{i}=\boldsymbol{m}</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>основная система уравнений полуклассической теории взаимодействия электромагнитного излучения с резонансной двухуровневой системой атомов (молекул, спинов и т. п.).
+
+Как известно, алгебра двухуровневых излучателей является алгеброй матриц Паули $URI[[http://libmeta.ru/fme/formula/aux/214_1_BLOHA-MAKSVELLA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/214_1_BLOHA-MAKSVELLA]]/URI
+\]
+
+Квантовомеханич. среднее $URI[[http://libmeta.ru/fme/formula/aux/214_2_BLOHA-MAKSVELLA]]/URI$ имеет смысл разности населенностей уровней, а средние $URI[[http://libmeta.ru/fme/formula/aux/214_3_BLOHA-MAKSVELLA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/214_4_BLOHA-MAKSVELLA]]/URI$, равные нулю в чистом состоянии, в суперпозиционном состоянии имеют смысл компонент тока перехода. Удобнее вместо $URI[[http://libmeta.ru/fme/formula/aux/214_5_BLOHA-MAKSVELLA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/214_6_BLOHA-MAKSVELLA]]/URI$ использовать $URI[[http://libmeta.ru/fme/formula/aux/214_7_BLOHA-MAKSVELLA]]/URI$. Они связаны следующим образом с операторами плотности тока атомного перехода
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/214_2_BLOHA-MAKSVELLA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/214_8_BLOHA-MAKSVELLA]]/URI$ - число атомов в системе, $URI[[http://libmeta.ru/fme/formula/aux/214_9_BLOHA-MAKSVELLA]]/URI$ - волновые функции возбужденного и основного состояний атома, $URI[[http://libmeta.ru/fme/formula/aux/214_10_BLOHA-MAKSVELLA]]/URI$ положительно-частотная часть оператора плотности тока перехода отдельного атома в модели точечных атомов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/214_3_BLOHA-MAKSVELLA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/214_11_BLOHA-MAKSVELLA]]/URI$ матричный элемент тока перехода.
+
+Система Б.- М.у. для векторного потенциала $URI[[http://libmeta.ru/fme/formula/aux/214_12_BLOHA-MAKSVELLA]]/URI$ и средних $URI[[http://libmeta.ru/fme/formula/aux/214_13_BLOHA-MAKSVELLA]]/URI$ имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/214_4_BLOHA-MAKSVELLA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/214_14_BLOHA-MAKSVELLA]]/URI$ - энергия возбуждения $URI[[http://libmeta.ru/fme/formula/aux/214_15_BLOHA-MAKSVELLA]]/URI$-го атома.
+
+Часто используется приближение медленно меняющихся амплитуд, состоящее в пренебрежении вторыми производными от медленно меняющихся амплитуд $URI[[http://libmeta.ru/fme/formula/aux/214_16_BLOHA-MAKSVELLA]]/URI$, определяющихся выражением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/214_5_BLOHA-MAKSVELLA]]/URI
+\]
+
+Тогда первое уравнение системы принимает вид
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/214_6_BLOHA-MAKSVELLA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/214_7_BLOHA-MAKSVELLA]]/URI
+\]
+
+и положено, что в атомной системе снято вырождение, так что все $URI[[http://libmeta.ru/fme/formula/aux/214_17_BLOHA-MAKSVELLA]]/URI$.</text>
+  <text_orig>основная система уравнений полуклассической теории взаимодействия электромагнитного излучения с резонансной двухуровневой системой атомов (молекул, спинов и т. п.).
+
+Как известно, алгебра двухуровневых излучателей является алгеброй матриц Паули $\sigma_{1}, \sigma_{2}, \sigma_{3}$ :
+
+\[
+\sigma_{1}=\left\|\begin{array}{ll}
+0 &amp; 1 \\
+1 &amp; 0
+\end{array}\right\|, \quad \sigma_{2}=\left\|\begin{array}{cc}
+0 &amp; -i \\
+i &amp; 0
+\end{array}\right\|, \quad \sigma_{3}=\left\|\begin{array}{cc}
+1 &amp; 0 \\
+0 &amp; -1
+\end{array}\right\| .
+\]
+
+Квантовомеханич. среднее $\left\langle\sigma_{3}\right\rangle$ имеет смысл разности населенностей уровней, а средние $\left\langle\sigma_{1}\right\rangle$, $\left\langle\sigma_{2}\right\rangle$, равные нулю в чистом состоянии, в суперпозиционном состоянии имеют смысл компонент тока перехода. Удобнее вместо $\sigma_{1}$ и $\sigma_{2}$ использовать $\sigma_{ \pm}=1 / 2\left(\sigma_{1} \pm i \sigma_{2}\right)$. Они связаны следующим образом с операторами плотности тока атомного перехода
+
+\[
+\hat{j}(r, t)=\sum_{i=1}^{N}\left\{\left\langle+\left|\hat{j}_{0}^{+}\left(r-r_{i}\right)\right|-\right\rangle \sigma_{i^{+}}(t)+\left\langle-\left|\hat{j}_{0}^{-}\left(r-r_{i}\right)\right|+\right\rangle \sigma_{i^{-}}(t)\right\},
+\]
+
+где $N$ - число атомов в системе, $|+\rangle,|-\rangle$ - волновые функции возбужденного и основного состояний атома, $\hat{\boldsymbol{j}}_{0}^{+}(\boldsymbol{r})-$ положительно-частотная часть оператора плотности тока перехода отдельного атома в модели точечных атомов
+
+\[
+\left\langle+\left|\hat{j}_{0}^{+}\left(r-\boldsymbol{r}_{i}\right)\right|-\right\rangle=\boldsymbol{m}_{i} \delta\left(\boldsymbol{r}-\boldsymbol{r}_{i}\right),
+\]
+
+где $\boldsymbol{m}_{i}-$ матричный элемент тока перехода.
+
+Система Б.- М.у. для векторного потенциала $A(r, t)$ и средних $\left\langle\sigma_{ \pm}\right\rangle,\left\langle\sigma_{3}\right\rangle$ имеет вид
+
+\[
+\begin{aligned}
+&amp; \operatorname{rot} \operatorname{rot} \boldsymbol{A}(\boldsymbol{r}, t)+\frac{1}{c^{2}} \frac{\partial^{2}}{\partial t^{2}} \boldsymbol{A}(\boldsymbol{r}, t)=\frac{4 \pi}{c} \boldsymbol{j}(\boldsymbol{r}, t), \\
+&amp; \frac{\partial\left\langle\sigma_{i^{+}}\right\rangle}{\partial t}=i \omega_{0 i}\left\langle\sigma_{i^{+}}\right\rangle+\frac{i}{\hbar c} \boldsymbol{m}_{i}^{*} A\left(\boldsymbol{r}_{i}, t\right)\left\langle\sigma_{i 3}\right\rangle, \\
+&amp; \frac{\partial\left\langle\sigma_{i 3}\right\rangle}{\partial t}=\frac{2 i}{\hbar c}\left(\boldsymbol{m}_{i}\left\langle\sigma_{i^{+}}\right\rangle-\boldsymbol{m}_{i}^{*}\left\langle\sigma_{i^{-}}\right\rangle\right) \boldsymbol{A}\left(\boldsymbol{r}_{i}, t\right),
+\end{aligned}
+\]
+
+где $\hbar \omega_{0 i}$ - энергия возбуждения $i$-го атома.
+
+Часто используется приближение медленно меняющихся амплитуд, состоящее в пренебрежении вторыми производными от медленно меняющихся амплитуд $\boldsymbol{A}_{\boldsymbol{k}}^{ \pm}(\boldsymbol{r}, t)$, определяющихся выражением
+
+\[
+A(\boldsymbol{r}, t)=\sum_{k} A_{k}^{+}(\boldsymbol{r}, t) e^{i\left(\omega_{k} t-k r\right)}+A_{k}^{-}(\boldsymbol{r}, t) e^{-i\left(\omega_{k} t-k r\right)} .
+\]
+
+Тогда первое уравнение системы принимает вид
+
+где
+
+\[
+\left(\frac{\partial}{\partial t}+c \frac{\partial}{\partial x}\right) A_{k}^{+}(\boldsymbol{r}, t)=-i \frac{2 \pi}{k} \boldsymbol{m} \boldsymbol{R}_{\boldsymbol{k}}^{+},
+\]
+
+\[
+R_{k}^{+}=\frac{1}{V_{1}} \sum_{i \in V_{1}(\boldsymbol{r})}\left\langle\sigma_{i^{+}}\right\rangle e^{i k r_{i}} e^{-i \omega_{k} t}
+\]
+
+и положено, что в атомной системе снято вырождение, так что все $\boldsymbol{m}_{i}=\boldsymbol{m}$.
+
+А. В. Андреев.</text_orig>
+</article>

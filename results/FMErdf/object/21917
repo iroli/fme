@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_21917">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>X</mi><mo>&#x0003D;</mo><mi>sin</mi><mi>&#x003C9;</mi><mi>t</mi><mo>&#x0002B;</mo><mi>&#x003BB;</mi><mi>t</mi><mi>cos</mi><mi>&#x003C9;</mi><mi>t</mi><mo>&#x02212;</mo><mfrac><mrow><msup><mi>&#x003BB;</mi><mrow><mn>2</mn></mrow></msup><msup><mi>t</mi><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn><mo>&#x00021;</mo></mrow></mfrac><mi>sin</mi><mi>&#x003C9;</mi><mi>t</mi><mo>&#x0002B;</mo><mi>&#x02026;</mi></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$X=\sin \omega t+\lambda t \cos \omega t-\frac{\lambda^{2} t^{2}}{2 !} \sin \omega t+\ldots$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

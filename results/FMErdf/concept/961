@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1866_NAKRYTI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1866_NAKRYTI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/961</core:url>
+    <lbm:descriptor><![CDATA[НАКРЫТИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7864"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7865"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7866"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_746"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">расслоение</a> с дискретным слоем, или локально <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE">топологическое отображение</a> $URI[[http://libmeta.ru/fme/formula/aux/1866_1_NAKRYTI]]/URI$ (у каждой точки <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7865">$$y \in Y$$</a> существует такая окрестность, что <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7866">$$f^{-1}(U)$$</a> состоит из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2139_OTKRYTOE">открытых множеств</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_684_GOMEOMORFIZ">гомеоморфных</a> $URI[[http://libmeta.ru/fme/formula/aux/1866_4_NAKRYTI]]/URI$ ). $URI[[http://libmeta.ru/fme/formula/aux/1866_5_NAKRYTI]]/URI$. И. Войцеховский.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[расслоение с дискретным слоем, или локально топологическое отображение $f: X \rightarrow Y$ (у каждой точки $y \in Y$ существует такая окрестность, что $f^{-1}(U)$ состоит из открытых множеств, гомеоморфных $U$ ). $\quad$. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_684_GOMEOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2139_OTKRYTOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

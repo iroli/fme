@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1741_MATEMATIChESKOE" alphabetic_pos="1743">
+  <title>МАТЕМАТИЧЕСКОЕ ОЖИДАНИЕ, СРЕДНЕЕ ЗНАЧЕНИЕ</title>
+  <authors>
+    <author>В. И. Битюиков</author>
+  </authors>
+  <pages>
+    <start>352</start>
+    <end>352</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1741_1_MATEMATIChESKOE">\mathrm{E} X=\sum_{k=1}^{\infty} x_{k} p_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1741_2_MATEMATIChESKOE">\mathrm{E} X=\int_{-\infty}^{\infty} x p(x) d x</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1741_1_MATEMATIChESKOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1741_2_MATEMATIChESKOE">x_{1}, x_{2}, \ldots, x_{k}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1741_3_MATEMATIChESKOE">p_{1}, p_{2}, \ldots, p_{k}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1741_4_MATEMATIChESKOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1741_5_MATEMATIChESKOE">p(x)</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/1741_1_MATEMATIChESKOE">
+      <rel_text>Дисперсия</rel_text>
+      <target>http://libmeta.ru/fme/article/857_DISPERSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1741_2_MATEMATIChESKOE">
+      <rel_text>случайных величин</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1741_3_MATEMATIChESKOE">
+      <rel_text>перемножаются</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1741_4_MATEMATIChESKOE">
+      <rel_text>независимых случайных величин</rel_text>
+      <target>http://libmeta.ru/fme/article/1887_NEZAVISIMYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1741_5_MATEMATIChESKOE">
+      <rel_text>случайных величин</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1741_6_MATEMATIChESKOE">
+      <rel_text>случайной величины</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1741_7_MATEMATIChESKOE">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1741_8_MATEMATIChESKOE">
+      <rel_text>случайной величины</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+  </relations>
+  <text>одна из числовых характеристик распределения вероятностей случайной величины. Для случайной величины $URI[[http://libmeta.ru/fme/formula/aux/1741_1_MATEMATIChESKOE]]/URI$, принимающей последовательность значений $URI[[http://libmeta.ru/fme/formula/aux/1741_2_MATEMATIChESKOE]]/URI$ с вероятностями, равными соответственно $URI[[http://libmeta.ru/fme/formula/aux/1741_3_MATEMATIChESKOE]]/URI$, математическое ожидание определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1741_1_MATEMATIChESKOE]]/URI
+\]
+
+при условии, что ряд сходится абсолютно; для URI[[http://libmeta.ru/fme/relation/1741_8_MATEMATIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1741_4_MATEMATIChESKOE]]/URI$ с непрерывным распределением, имеющим URI[[http://libmeta.ru/fme/relation/1741_7_MATEMATIChESKOE]]/URI вероятности $URI[[http://libmeta.ru/fme/formula/aux/1741_5_MATEMATIChESKOE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1741_2_MATEMATIChESKOE]]/URI
+\]
+
+если интеграл сходится абсолютно. М. о. характеризует расположение значений URI[[http://libmeta.ru/fme/relation/1741_6_MATEMATIChESKOE]]/URI. Полностью эта роль М. о. разъясняется законом больших чисел. При сложении URI[[http://libmeta.ru/fme/relation/1741_5_MATEMATIChESKOE]]/URI их М. о. складываются, при умножении URI[[http://libmeta.ru/fme/relation/1741_4_MATEMATIChESKOE]]/URI их М.о. URI[[http://libmeta.ru/fme/relation/1741_3_MATEMATIChESKOE]]/URI.
+
+Многие важные характеристики распределений определяются как М. о. нек-рых функций от URI[[http://libmeta.ru/fme/relation/1741_2_MATEMATIChESKOE]]/URI, см., напр., URI[[http://libmeta.ru/fme/relation/1741_1_MATEMATIChESKOE]]/URI, Момент, Характеристическая функция.</text>
+  <text_orig>одна из числовых характеристик распределения вероятностей случайной величины. Для случайной величины $X$, принимающей последовательность значений $x_{1}, x_{2}, \ldots, x_{k}, \ldots$ с вероятностями, равными соответственно $p_{1}, p_{2}, \ldots, p_{k}, \ldots$, математическое ожидание определяется формулой
+
+\[
+\mathrm{E} X=\sum_{k=1}^{\infty} x_{k} p_{k}
+\]
+
+при условии, что ряд сходится абсолютно; для случайной величины $X$ с непрерывным распределением, имеющим плотность вероятности $p(x)$,
+
+\[
+\mathrm{E} X=\int_{-\infty}^{\infty} x p(x) d x
+\]
+
+если интеграл сходится абсолютно. М. о. характеризует расположение значений случайной величины. Полностью эта роль М. о. разъясняется законом болыших чисел. При сложении случайных величин их М. о. складываются, при умножении независимых случайных величин их М.о. перемножаются.
+
+Многие важные характеристики распределений определяются как М. о. нек-рых функций от случайных величин, см., напр., Дисперсия, Момент, Характеристическая функция. В. И. Битюиков.</text_orig>
+</article>

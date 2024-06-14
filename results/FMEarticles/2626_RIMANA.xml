@@ -1,0 +1,860 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2626_RIMANA" alphabetic_pos="2628">
+  <title>РИМАНА ЗАДАЧИ МЕТОД В ТЕОРИИ СОЛИТОНОВ</title>
+  <authors>
+    <author>В. А. Марченко</author>
+  </authors>
+  <pages>
+    <start>508</start>
+    <end>511</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] 3 а х а р о в В. Е., Ш а б а т А. Б., &quot;функциональный анализ и его прилож.», 1979, т. 13, в. 3, с. 13-22; [2] В екуа Н. П., Системы сингулярных интегральных уравнений и некоторые граничные задачи, М., 1970; [3] Мусхе л иш в и л и Н. И., Сингулярные интегральные уравнения, 3 изд., М., 1968; [4] Г о х б е р г И. Ц., К р е й н М. Г., «успехи математич. наук», 1958, т. 13, в. 2, с. 3-72; [5] Агранович 3. С., Марченко В. А., Обратная задача теории рассеяния, Харьков, 1960; [6] Тахтаджян Л. А., Фаддее в Л. Д., Гамильтонов подход в теории солитонов, М., 1986; [7] 3 a харов В. Е., Манаков С. В., Новиков С. П., Питаев с к и й Л. П., Теория солитонов - метод обратной задачи, М., 1980.</literature_orig>
+    <unit>
+      <author>3ахаров В. Е.</author>
+      <author>Шабат А. Б.</author>
+      <title>&quot;функциональный анализ и его прилож.»</title>
+      <publication/>
+      <year>1979</year>
+      <other>т. 13, в. 3, с. 13-22</other>
+    </unit>
+    <unit>
+      <author>Векуа Н. П.</author>
+      <title>Системы сингулярных интегральных уравнений и некоторые граничные задачи</title>
+      <publication>М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Мусхелишвили Н. И.</author>
+      <title>Сингулярные интегральные уравнения</title>
+      <publication>3 изд., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гохберг И. Ц.</author>
+      <author>Крейн М. Г.</author>
+      <title>«успехи математич. наук»</title>
+      <publication/>
+      <year>1958</year>
+      <other>т. 13, в. 2, с. 3-72</other>
+    </unit>
+    <unit>
+      <author>Агранович3. С.</author>
+      <author>Марченко В. А.</author>
+      <title>Обратная задача теории рассеяния, Харьков</title>
+      <publication/>
+      <year>1960</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Тахтаджян Л. А.</author>
+      <author>Фаддеев Л. Д.</author>
+      <title>Гамильтонов подход в теории солитонов</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>3aхаров В. Е.</author>
+      <author>Манаков С. В.</author>
+      <author>Новиков С. П.</author>
+      <author>Питаевский Л. П.</author>
+      <title>Теория солитонов - метод обратной задачи</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_1_RIMANA">G^{+}(\lambda) G^{-}(\lambda)=G(\lambda), \lambda \in \Gamma,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_2_RIMANA">G^{-}(\infty)=I \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_3_RIMANA">\operatorname{Im} G^{+}\left(\lambda_{k}^{+}\right), \operatorname{Ker} G^{-}\left(\lambda_{k}^{-}\right), k=1,2, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_4_RIMANA">\operatorname{Im} G^{+}\left(\lambda_{k}^{+}\right) \oplus \operatorname{Ker} G^{-}\left(\lambda_{k}^{-}\right)=\mathbb{C}^{N} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_5_RIMANA">\frac{\partial \Psi}{\partial x}=U \Psi, \quad \frac{\partial \Psi}{\partial t}=V \Psi,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_6_RIMANA">\frac{\partial U}{\partial t}-\frac{\partial V}{\partial x}+[U, V]=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_7_RIMANA">U=u^{(0)}(x, t)+z^{-1} u^{(1)}(x, t), V=v^{(0)}(x, t)+z^{-1} v^{(1)}(x, t),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_8_RIMANA">\left.\begin{array}{c}u_{t}^{(0)}-v_{x}^{(0)}+\left[u^{(0)}, v^{(0)}\right]=0, \\u_{t}^{(1)}-v_{x}^{(1)}+\left[u^{(0)}, v^{(1)}\right]+\left[u^{(1)}, v^{(0)}\right]=0, \\{\left[u^{(1)}, v^{(1)}\right]=0 .}\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_9_RIMANA">\widetilde{U}=g_{x} g^{-1}+g U g^{-1}, \tilde{V}=g_{t} g^{-1}+g V g^{-1} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_10_RIMANA">\begin{aligned}&amp; g_{x}^{+}(\lambda) g^{+}(\lambda)^{-1}+g^{+}(\lambda) U(\lambda) g^{+}(\lambda)^{-1}= \\&amp; =g_{x}^{-}(\lambda) g^{-}(\lambda)^{-1}+g^{-}(\lambda) U(\lambda) g^{-}(\lambda)^{-1}, \\&amp; g_{t}^{+}(\lambda) g^{+}(\lambda)^{-1}+g^{+}(\lambda) V(\lambda) g^{+}(\lambda)^{-1}= \\&amp; =g_{t}^{-}(\lambda) g^{-}(\lambda)^{-1}+g^{-}(\lambda) V(\lambda) g^{-}(\lambda)^{-1},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_11_RIMANA">Y_{x}=[U, Y], Y_{t}=[V, Y]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_12_RIMANA">\omega(x, t, \lambda) G(\lambda) \omega(x, t, \lambda)^{-1},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_13_RIMANA">g^{+}(\lambda)^{-1} g^{-}(\lambda)=\omega(x, t, \lambda) G(\lambda) \omega(x, t, \lambda)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_14_RIMANA">\left.\begin{array}{l}g(z)=g\left(\lambda_{k}^{-}\right)+a_{1}\left(z-\lambda_{k}^{-}\right)+a_{2}\left(z-\lambda_{k}^{-}\right)^{2}+\ldots, \\g(z)^{-1}=\left(z-\lambda_{k}^{-}\right)^{-1} r+b_{0}+b_{1}\left(z-\lambda_{k}^{-}\right)+\ldots,\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_15_RIMANA">g\left(\lambda_{k}^{-}\right) r=r g\left(\lambda_{k}^{-}\right)=0, \quad g\left(\lambda_{k}^{-}\right) b_{0}+a_{1} r=b_{0} g\left(\lambda_{k}^{-}\right)+r a_{1}=I,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_16_RIMANA">\operatorname{Ker} g\left(\lambda_{k}\right)=\operatorname{Im} r, \operatorname{Im} g\left(\lambda_{\bar{k}}\right)=\operatorname{Ker} r .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_17_RIMANA">\begin{gathered}\tilde{U}(z)=\left(z-\lambda_{k}^{-}\right)^{-1} g\left(\lambda_{k}^{-}\right)\left\{-r_{x}+U r\right\}+c_{0}+c_{1}\left(z-\lambda_{k}^{-}\right)+\ldots, \\\tilde{V}(z)=\left(z-\lambda_{k}^{-}\right)^{-1} g\left(\lambda_{k}^{-}\right)\left\{-r_{t}+V r\right\}+d_{0}+d_{1}\left(z-\lambda_{k}^{-}\right)+\ldots\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_18_RIMANA">g\left(\lambda_{k}^{-}\right)\left\{-r_{x}+U\left(\lambda_{k}^{-}\right) r\right\}=g\left(\lambda_{k}^{-}\right)\left\{-r_{t}+V\left(\lambda_{k}^{-}\right) r\right\}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_19_RIMANA">\operatorname{Ker} g\left(\lambda_{k}^{-}\right)=\operatorname{Im} \omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_20_RIMANA">\left.\begin{array}{rl}\operatorname{Im} r= &amp; \operatorname{Ker} g\left(\lambda_{k}^{-}\right)=\operatorname{Im} \omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right), \\&amp; g\left(\lambda_{k}^{-}\right) \omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right)=0\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_21_RIMANA">r=\omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right) Q(x, t) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_22_RIMANA">-\omega_{x}+U\left(\lambda_{k}^{-}\right) \omega=0,-\omega_{t}+V\left(\lambda_{k}^{-}\right) \omega=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_23_RIMANA">\operatorname{Im} g\left(\lambda_{k}^{+}\right)^{-1}=\operatorname{Im} \omega\left(x, t, \lambda_{k}^{+}\right) n\left(\lambda_{k}^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_24_RIMANA">\left.\begin{array}{l}G^{+}(\lambda) G^{-}(\lambda)=\omega(x, t, \lambda) G(\lambda) \omega(x, t, \lambda)^{-1}, \quad \lambda \in \Gamma, \\\operatorname{Im} G^{+}\left(\lambda_{k}^{+}\right)=\omega\left(x, t, \lambda_{k}^{+}\right) N\left(\lambda_{k}^{+}\right), \\\operatorname{Ker} G^{-}\left(\lambda_{k}^{-}\right)=\omega\left(x, t, \lambda_{k}^{-}\right) N\left(\lambda_{k}^{-}\right),\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_25_RIMANA">g(z)= \begin{cases}G^{+}(z)^{-1}, &amp; z \in O_{+}, \\ G^{-}(z)^{-1}, &amp; z \in O_{-},\end{cases}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_26_RIMANA">\begin{gathered}U=u_{0}(x, t)+\sum_{k}\left(z-\alpha_{k}\right)^{-1} u_{k}(x, t), \\V=v_{0}(x, t)+\sum_{l}\left(z-\beta_{l}\right)^{-1} v_{l}(x, t)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_27_RIMANA">\begin{gathered}\tilde{U}=\tilde{u}_{0}(x, t)+\sum_{k}\left(z-\alpha_{k}\right)^{-1} \tilde{u}_{k}(x, t), \\\tilde{V}=\tilde{v}_{0}(x, t)+\sum_{l}\left(z-\beta_{l}\right)^{-1} \tilde{v}_{l}(x, t),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_28_RIMANA">\begin{gathered}\tilde{u}_{0}=g_{x}(\infty) g(\infty)^{-1}+g(\infty) u_{0} g(\infty)^{-1}, \tilde{u}_{k}=g\left(\alpha_{k}\right) u_{k} g\left(\alpha_{k}\right)^{-1}, \\\tilde{v}_{0}=g_{t}(\infty) g(\infty)^{-1}+g(\infty) v_{0} g(\infty)^{-1}, \tilde{v}_{l}=g\left(\beta_{l}\right) v_{l} g\left(\beta_{l}\right)^{-1} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_29_RIMANA">U=A(x, z), V=B(t, z),[A(x, z), B(t, z)]=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_30_RIMANA">\begin{aligned}\operatorname{Im} g_{0}\left(\lambda_{k}^{+}\right)^{-1} &amp; =\omega\left(x, t, \lambda_{k}^{+}\right) N\left(\lambda_{k}^{+}\right), \\\operatorname{Ker} g_{0}\left(\lambda_{k}^{-}\right) &amp; =\omega\left(x, t, \lambda_{k}^{-}\right) N\left(\lambda_{k}^{-}\right) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_31_RIMANA">g_{0}(z)^{-1}=I+\sum_{k=1}^{n}\left(z-\lambda_{k}^{-}\right)^{-1} A(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_32_RIMANA">\operatorname{Im} A(k)=\operatorname{Ker} g_{0}\left(\lambda_{k}^{-}\right)=\omega\left(x, t, \lambda_{k}^{-}\right) N\left(\lambda_{k}^{-}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_33_RIMANA">A(k)(\boldsymbol{f})=\sum_{i=1}^{q_{k}} \boldsymbol{m}^{i}(k)\left(\boldsymbol{x}^{i}(k), \boldsymbol{f}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_34_RIMANA">\begin{gathered}\left(\boldsymbol{n}^{j}(p)+\sum_{k=1}^{n} \sum_{i=1}^{q_{k}} \frac{\boldsymbol{n}^{j}(p), \boldsymbol{m}^{i}(k)}{\lambda_{p}^{+}-\lambda_{k}^{-}} \boldsymbol{x}^{i}(k), \boldsymbol{f}\right)=0, \\\boldsymbol{n}^{j}(p)+\sum_{k=1}^{n} \sum_{i=1}^{q_{k}} \frac{\boldsymbol{n}^{j}(p), \boldsymbol{m}^{i}(k)}{\lambda_{p}^{+}-\lambda_{\boldsymbol{k}}^{-}} \boldsymbol{x}^{i}(k)=0 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_35_RIMANA">G_{1}^{+}(\lambda) G_{1}^{-}(\lambda)=g_{0}(\lambda) \omega(\lambda) G(\lambda) \omega(\lambda)^{-1} g_{0}(\lambda)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_36_RIMANA">u^{(1)}(x, t)=i A, v^{(1)}(x, t)=i B</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2626_37_RIMANA">\left[A, Q_{t}\right]-\left[B, Q_{x}\right]+i[[A, Q],[B, Q]]=0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_1_RIMANA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_2_RIMANA">g(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_3_RIMANA">g^{+}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_4_RIMANA">g^{-}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_5_RIMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_6_RIMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_7_RIMANA">g(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_8_RIMANA">\left(g^{+}(z)\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_9_RIMANA">\left.G^{-}(z)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_10_RIMANA">g^{+}(z) \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_11_RIMANA">g^{-}(z) \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_12_RIMANA">\lambda_{1}^{+}, \lambda_{2}^{+}, \ldots, \lambda_{n}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_13_RIMANA">\lambda_{1}^{-}, \lambda_{2}^{-}, \ldots, \lambda_{n}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_14_RIMANA">g^{+}(z)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_15_RIMANA">g^{-}(z)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_16_RIMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_17_RIMANA">g(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_18_RIMANA">\lambda_{1}^{+}, \lambda_{2}^{+}, \ldots, \lambda_{n}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_19_RIMANA">\lambda_{1}^{-}, \lambda_{2}^{-}, \ldots, \lambda_{n}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_20_RIMANA">u=u(x, t, z), V=V(x, t, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_21_RIMANA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_22_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_23_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_24_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_25_RIMANA">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_26_RIMANA">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_27_RIMANA">\psi=\psi(x, t, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_28_RIMANA">g=g(x, t, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_29_RIMANA">x, t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_30_RIMANA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_31_RIMANA">\widetilde{\psi}=g \Psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_32_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_33_RIMANA">\tilde{u}, \tilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_34_RIMANA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_35_RIMANA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_36_RIMANA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_37_RIMANA">\widetilde{u}, \tilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_38_RIMANA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_39_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_40_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_41_RIMANA">\widetilde{u}, \widetilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_42_RIMANA">u \rightarrow</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_43_RIMANA">\rightarrow \widetilde{U}, V \rightarrow \widetilde{V}, \Psi \rightarrow \widetilde{\Psi}=g \Psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_44_RIMANA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_45_RIMANA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_46_RIMANA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_47_RIMANA">g=g(x, t, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_48_RIMANA">\widetilde{u}, \widetilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_49_RIMANA">g=g(x, t, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_50_RIMANA">g^{-1}=g(x, t, z)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_51_RIMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_52_RIMANA">\mathbb{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_53_RIMANA">\left(o_{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_54_RIMANA">\mathbb{c} \backslash \Gamma=O_{-} \cup O_{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_55_RIMANA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_56_RIMANA">\lambda_{k}^{+} \in O_{+}, k=1,2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_57_RIMANA">g^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_58_RIMANA">\lambda_{k}^{-} \in O_{-}, k=1,2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_59_RIMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_60_RIMANA">\lambda_{k}^{+}, \lambda_{k}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_61_RIMANA">k=1,2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_62_RIMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_63_RIMANA">\tilde{u}, \tilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_64_RIMANA">\lambda \in \Gamma, g^{ \pm}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_65_RIMANA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_66_RIMANA">(+)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_67_RIMANA">(-)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_68_RIMANA">g_{x}^{ \pm}(\lambda), g_{t}^{ \pm}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_69_RIMANA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_70_RIMANA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_71_RIMANA">y=g^{+}(\lambda)^{-1} g^{-}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_72_RIMANA">\omega(x, t, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_73_RIMANA">\omega(x, t, \lambda) \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_74_RIMANA">\lambda \in \Gamma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_75_RIMANA">g(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_76_RIMANA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_77_RIMANA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_78_RIMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_79_RIMANA">\widetilde{u}, \tilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_80_RIMANA">\lambda_{k}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_81_RIMANA">g(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_82_RIMANA">g(z)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_83_RIMANA">\lambda_{k}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_84_RIMANA">\widetilde{u}, \widetilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_85_RIMANA">n\left(\lambda_{\bar{k}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_86_RIMANA">x, t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_87_RIMANA">n\left(\lambda_{k}^{-}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_88_RIMANA">\omega\left(x, t, \lambda_{k}^{-}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_89_RIMANA">\left(\operatorname{det} \omega\left(x, t, \lambda_{k}^{-}\right) \neq 0\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_90_RIMANA">z=\lambda_{k}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_91_RIMANA">q=q(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_92_RIMANA">-r_{x}+U\left(\lambda_{k}^{-}\right) r=\omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right) Q_{x},-r_{t}+V\left(\lambda_{k}^{-}\right) r=\omega n\left(\lambda_{k}^{-}\right) Q_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_93_RIMANA">\lambda_{k}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_94_RIMANA">\tilde{u}, \widetilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_95_RIMANA">\lambda_{k}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_96_RIMANA">n\left(\lambda_{k}^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_97_RIMANA">n\left(\lambda_{k}^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_98_RIMANA">g^{+}(z), G^{-}(z)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_99_RIMANA">n\left(\lambda_{k}^{+}\right), N\left(\lambda_{k}^{-}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_100_RIMANA">x, t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_101_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_102_RIMANA">\widetilde{u}, \widetilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_103_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_104_RIMANA">\widetilde{u}, \widetilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_105_RIMANA">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_106_RIMANA">g(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_107_RIMANA">g(\infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_108_RIMANA">g(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_109_RIMANA">g_{0}=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_110_RIMANA">=g_{0}(x, t, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_111_RIMANA">g(\lambda)=i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_112_RIMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_113_RIMANA">g_{0}^{+}(\lambda)=g_{0}^{-}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_114_RIMANA">g_{0}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_115_RIMANA">\lambda_{1}^{+}, \lambda_{2}^{+}, \ldots, \lambda_{n}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_116_RIMANA">g_{0}(z)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_117_RIMANA">\lambda_{1}^{-}, \lambda_{2}^{-}, \ldots, \lambda_{n}^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_118_RIMANA">a(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_119_RIMANA">\boldsymbol{m}^{i}(k)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_120_RIMANA">\operatorname{im} A(k)=\operatorname{Ker} g_{0}\left(\lambda_{k}^{-}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_121_RIMANA">\boldsymbol{x}^{i}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_122_RIMANA">\boldsymbol{n}^{j}(p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_123_RIMANA">j=1,2, \ldots, q_{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_124_RIMANA">\mathbf{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_125_RIMANA">\operatorname{im} g\left(\lambda_{k}^{+}\right)^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_126_RIMANA">\left(\boldsymbol{n}^{j}(p), g_{0}\left(\lambda_{k}^{+}\right)^{-1} \boldsymbol{f}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_127_RIMANA">\boldsymbol{f} \in \mathbb{C}^{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_128_RIMANA">\boldsymbol{x}^{i}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_129_RIMANA">g_{0}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_130_RIMANA">g^{+}(z)=g_{0}(z)^{-1} G_{1}^{+}(z), G^{-}(z)=G_{1}^{-}(z) g_{0}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_131_RIMANA">g_{1}^{ \pm}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_132_RIMANA">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_133_RIMANA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_134_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_135_RIMANA">\widetilde{u}, \widetilde{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_136_RIMANA">u, V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_137_RIMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_138_RIMANA">g(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_139_RIMANA">\omega(x, t, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_140_RIMANA">x=t=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_141_RIMANA">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_142_RIMANA">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_143_RIMANA">g(0)=i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_144_RIMANA">g^{+}(0)=i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_145_RIMANA">q=q^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2626_146_RIMANA">u^{(0)}=[a, Q], v^{(0)}=\left[\begin{array}{ll}B &amp; Q\end{array}\right]</formula>
+  </formulas_aux>
+  <relations n="16">
+    <relation uri="http://libmeta.ru/fme/relation/2626_1_RIMANA">
+      <rel_text>составная</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_2_RIMANA">
+      <rel_text>нормирована условием</rel_text>
+      <target>http://libmeta.ru/fme/article/1977_NORMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_3_RIMANA">
+      <rel_text>задача Римана</rel_text>
+      <target>http://libmeta.ru/fme/article/2626_RIMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_4_RIMANA">
+      <rel_text>антиэрмитовости</rel_text>
+      <target>http://libmeta.ru/fme/article/96_ANTIKOMMUTATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_5_RIMANA">
+      <rel_text>антиэрмитовость</rel_text>
+      <target>http://libmeta.ru/fme/article/96_ANTIKOMMUTATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_6_RIMANA">
+      <rel_text>антиэрмитовости</rel_text>
+      <target>http://libmeta.ru/fme/article/96_ANTIKOMMUTATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_7_RIMANA">
+      <rel_text>получающиеся</rel_text>
+      <target>http://libmeta.ru/fme/article/2306_POLUINVARIAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_8_RIMANA">
+      <rel_text>получаются</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_9_RIMANA">
+      <rel_text>задачи Римана</rel_text>
+      <target>http://libmeta.ru/fme/article/2626_RIMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_10_RIMANA">
+      <rel_text>векторы</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_11_RIMANA">
+      <rel_text>подпространству</rel_text>
+      <target>http://libmeta.ru/fme/article/2279_PODPREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_12_RIMANA">
+      <rel_text>ортогонального дополнения</rel_text>
+      <target>http://libmeta.ru/fme/article/2103_ORTOGONAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_13_RIMANA">
+      <rel_text>векторы</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_14_RIMANA">
+      <rel_text>векторы</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_15_RIMANA">
+      <rel_text>подпространства</rel_text>
+      <target>http://libmeta.ru/fme/article/2279_PODPREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2626_16_RIMANA">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+  </relations>
+  <text>базирующийся на задачах Римана метод построения и интегрирования систем нелинейных эволюционных уравнений, предложенный В. Е. Захаровым и А. Б. Шабатом [1].
+
+Задача Римана состоит в представлении заданной на замкнутом контуре Г матричной функции $URI[[http://libmeta.ru/fme/formula/aux/2626_1_RIMANA]]/URI$-го порядка $URI[[http://libmeta.ru/fme/formula/aux/2626_2_RIMANA]]/URI$ в виде произведения двух функций
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_1_RIMANA]]/URI
+\]
+
+являющихся предельными значениями матричных функций $URI[[http://libmeta.ru/fme/formula/aux/2626_3_RIMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2626_4_RIMANA]]/URI$ аналитических соответственно внутри и вне контура $URI[[http://libmeta.ru/fme/formula/aux/2626_5_RIMANA]]/URI$. Контур Г может проходить через бесконечно удаленную точку. Особенно важен случай, когда контуром служит вещественная ось. Кроме контура $URI[[http://libmeta.ru/fme/formula/aux/2626_6_RIMANA]]/URI$ и функции $URI[[http://libmeta.ru/fme/formula/aux/2626_7_RIMANA]]/URI$ задается нормировка задачи, то есть значение одной из функций $URI[[http://libmeta.ru/fme/formula/aux/2626_8_RIMANA]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/2626_9_RIMANA]]/URI$ в нек-рой точке области еe аналитичности. Чаще всего задается канонич. нормировка:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_2_RIMANA]]/URI
+\]
+
+Задача Римана называется р е гул я р н о й, если ее решение ищется в классе невырожденных матриц, то есть если Det $URI[[http://libmeta.ru/fme/formula/aux/2626_10_RIMANA]]/URI$ и Det $URI[[http://libmeta.ru/fme/formula/aux/2626_11_RIMANA]]/URI$.
+
+Задача называется задачей Римана с нулями, если ее решение ищется в классе матриц-функций, вырождающихся в точках $URI[[http://libmeta.ru/fme/formula/aux/2626_12_RIMANA]]/URI$и $URI[[http://libmeta.ru/fme/formula/aux/2626_13_RIMANA]]/URI$, в к-рых матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_14_RIMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2626_15_RIMANA]]/URI$ имеют простые полюсы.
+
+В задачах Римана с нулями кроме контура $URI[[http://libmeta.ru/fme/formula/aux/2626_16_RIMANA]]/URI$, функции $URI[[http://libmeta.ru/fme/formula/aux/2626_17_RIMANA]]/URI$ нормировки, точек $URI[[http://libmeta.ru/fme/formula/aux/2626_18_RIMANA]]/URI$и $URI[[http://libmeta.ru/fme/formula/aux/2626_19_RIMANA]]/URI$ задаются подпространства
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_3_RIMANA]]/URI
+\]
+
+прямая сумма к-рых совпадает со всем пространством:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_4_RIMANA]]/URI
+\]
+
+Задачи Римана сводятся к решению сингулярных интегральных уравнений или уравнений типа Винера - Хопфа. Разрешимость этих уравнений, а значит, и задач Римана в различных классах функций исследована достаточно полно (см. [2]-[4]). Задачи Римана естественно возникают в теории обратных задач рассеяния (см. [5], [6]).
+
+Ключевым моментом Р. з. м. является представление нелинейных уравнений в виде условия совместности переопределенной системы линейных уравнений вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_5_RIMANA]]/URI
+\]
+
+в к-рой матричные функции $URI[[http://libmeta.ru/fme/formula/aux/2626_20_RIMANA]]/URI$ рационально зависят от комплексного параметра $URI[[http://libmeta.ru/fme/formula/aux/2626_21_RIMANA]]/URI$. Условие совместности такой системы имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_6_RIMANA]]/URI
+\]
+
+и состоит из системы уравнений, к-рым должны удовлетворять коэффициенты в разложении матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_22_RIMANA]]/URI$ на простейшие дроби. На геометрич. языке представление нелинейных уравнений в виде условия совместности (2) называется представлением нулевой кривизны. Число уравнений совместности на единицу меньше числа входящих в них матричных функций, то есть коэффициентов в разложении матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_23_RIMANA]]/URI$ на простейшие дроби. Вид уравнений совместности зависит только от расположения и порядка полюсов матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_24_RIMANA]]/URI$. Напр., если матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_25_RIMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2626_26_RIMANA]]/URI$ имеют единственный простой полюс в нуле, то есть если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_7_RIMANA]]/URI
+\]
+
+то уравнения совместности имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_8_RIMANA]]/URI
+\]
+
+Пусть матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_27_RIMANA]]/URI$ удовлетворяет системе уравнений (1), а $URI[[http://libmeta.ru/fme/formula/aux/2626_28_RIMANA]]/URI$ - произвольная матричная функция, не вырожденная в нек-рой области изменения переменных $URI[[http://libmeta.ru/fme/formula/aux/2626_29_RIMANA]]/URI$ и параметра $URI[[http://libmeta.ru/fme/formula/aux/2626_30_RIMANA]]/URI$. Элементарная проверка показывает, что матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_31_RIMANA]]/URI$ в этой области удовлетворяет аналогичной системе, в к-рой матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_32_RIMANA]]/URI$ заменены на
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_9_RIMANA]]/URI
+\]
+
+Следовательно, в этой области матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_33_RIMANA]]/URI$ удовлетворяют уравнению (2). Но в общем случае они не будут рациональными функциями от $URI[[http://libmeta.ru/fme/formula/aux/2626_34_RIMANA]]/URI$ и уравнение (2) не сведется к конечной системе уравнений. Исключением является случай, когда обратимая матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_35_RIMANA]]/URI$ не зависит от $URI[[http://libmeta.ru/fme/formula/aux/2626_36_RIMANA]]/URI$. Формулы (4) показывают, что в этом случае матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_37_RIMANA]]/URI$ тоже рационально зависят от $URI[[http://libmeta.ru/fme/formula/aux/2626_38_RIMANA]]/URI$ и имеют те же полюсы, что матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_39_RIMANA]]/URI$.
+
+Поэтому коэффициенты в разложении на простейшие дроби матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_40_RIMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2626_41_RIMANA]]/URI$ будут удовлетворять одинаковым системам уравнений совместности. Преобразование $URI[[http://libmeta.ru/fme/formula/aux/2626_42_RIMANA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2626_43_RIMANA]]/URI$ с матрицей $URI[[http://libmeta.ru/fme/formula/aux/2626_44_RIMANA]]/URI$, не зависящей от $URI[[http://libmeta.ru/fme/formula/aux/2626_45_RIMANA]]/URI$, называется ка л и б ро воч ны м, а соответствующие уравнения - кал ибровочно экви валентным и.
+
+В Р. з.м. преобразования (4) производятся с помощью зависящей от $URI[[http://libmeta.ru/fme/formula/aux/2626_46_RIMANA]]/URI$ матричной функции $URI[[http://libmeta.ru/fme/formula/aux/2626_47_RIMANA]]/URI$, К-рая подбирается так, чтобы у получающихся матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_48_RIMANA]]/URI$ не появились новые особые точки. Из формул (4) видно, что новые особенности могут появиться только там, где находятся особенности матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_49_RIMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2626_50_RIMANA]]/URI$. Пусть контур $URI[[http://libmeta.ru/fme/formula/aux/2626_51_RIMANA]]/URI$ разбивает $URI[[http://libmeta.ru/fme/formula/aux/2626_52_RIMANA]]/URI$-плоскость на внутреннюю $URI[[http://libmeta.ru/fme/formula/aux/2626_53_RIMANA]]/URI$ и внешнюю (o_) области и в области $URI[[http://libmeta.ru/fme/formula/aux/2626_54_RIMANA]]/URI$матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_55_RIMANA]]/URI$ голоморфна всюду, кроме точек $URI[[http://libmeta.ru/fme/formula/aux/2626_56_RIMANA]]/URI$, а матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_57_RIMANA]]/URI$ - всюду, кроме точек $URI[[http://libmeta.ru/fme/formula/aux/2626_58_RIMANA]]/URI$, где они имеют простые полюсы. Тогда новые особенности могут появиться только на контуре $URI[[http://libmeta.ru/fme/formula/aux/2626_59_RIMANA]]/URI$ и в точках $URI[[http://libmeta.ru/fme/formula/aux/2626_60_RIMANA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2626_61_RIMANA]]/URI$. Очевидно, что на контуре $URI[[http://libmeta.ru/fme/formula/aux/2626_62_RIMANA]]/URI$ у новых матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_63_RIMANA]]/URI$ не будет особенностей тогда и только тогда, когда на нем совпадают их предельные значения из внутренней и внешней областей, то есть когда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_10_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2626_64_RIMANA]]/URI$ - предельные значения матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_65_RIMANA]]/URI$ из внешней $URI[[http://libmeta.ru/fme/formula/aux/2626_66_RIMANA]]/URI$ и внутренней $URI[[http://libmeta.ru/fme/formula/aux/2626_67_RIMANA]]/URI$ областей, $URI[[http://libmeta.ru/fme/formula/aux/2626_68_RIMANA]]/URI$ - частные производные по $URI[[http://libmeta.ru/fme/formula/aux/2626_69_RIMANA]]/URI$ и по $URI[[http://libmeta.ru/fme/formula/aux/2626_70_RIMANA]]/URI$.
+
+Элементарное преобразование показывает, что эти равенства эквивалентны следующим:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_11_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2626_71_RIMANA]]/URI$. Общее решение последней системы имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_12_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2626_72_RIMANA]]/URI$ - невырожденное (det $URI[[http://libmeta.ru/fme/formula/aux/2626_73_RIMANA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2626_74_RIMANA]]/URI$ решение системы (1), а $URI[[http://libmeta.ru/fme/formula/aux/2626_75_RIMANA]]/URI$ - произвольная матрица, не зависящая от $URI[[http://libmeta.ru/fme/formula/aux/2626_76_RIMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2626_77_RIMANA]]/URI$. Таким образом, равенство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_13_RIMANA]]/URI
+\]
+
+гарантирует отсутствие особенностей на контуре $URI[[http://libmeta.ru/fme/formula/aux/2626_78_RIMANA]]/URI$ у матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_79_RIMANA]]/URI$.
+
+В окрестности точки $URI[[http://libmeta.ru/fme/formula/aux/2626_80_RIMANA]]/URI$матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_81_RIMANA]]/URI$ голоморфна, а матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_82_RIMANA]]/URI$ имеет простой полюс. Поэтому в этой окрестности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_14_RIMANA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_15_RIMANA]]/URI
+\]
+
+откуда, в частности, следует, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_16_RIMANA]]/URI
+\] Согласно (4), (5), в окрестности $URI[[http://libmeta.ru/fme/formula/aux/2626_83_RIMANA]]/URI$матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_84_RIMANA]]/URI$ разлагаются в такие ряды Лорана:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_17_RIMANA]]/URI
+\]
+
+и для того, чтобы они были голоморфны в этой точке, нужно, чтобы выполнялись равенства
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_18_RIMANA]]/URI
+\]
+
+Пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_19_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2626_85_RIMANA]]/URI$ - не зависящая от $URI[[http://libmeta.ru/fme/formula/aux/2626_86_RIMANA]]/URI$ матрица оператора проектирования на фиксированное подпространство $URI[[http://libmeta.ru/fme/formula/aux/2626_87_RIMANA]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/2626_88_RIMANA]]/URI$невырожденное $URI[[http://libmeta.ru/fme/formula/aux/2626_89_RIMANA]]/URI$ решение системы (1) при $URI[[http://libmeta.ru/fme/formula/aux/2626_90_RIMANA]]/URI$. Тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_20_RIMANA]]/URI
+\]
+
+и существует такая матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_91_RIMANA]]/URI$, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_21_RIMANA]]/URI
+\]
+
+Taк как
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_22_RIMANA]]/URI
+\]
+
+Tо
+
+$URI[[http://libmeta.ru/fme/formula/aux/2626_92_RIMANA]]/URI$, равенства (6) выполняются в силу (7), и в точке $URI[[http://libmeta.ru/fme/formula/aux/2626_93_RIMANA]]/URI$матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_94_RIMANA]]/URI$ голоморфны. Аналогично проверяется, что в точках $URI[[http://libmeta.ru/fme/formula/aux/2626_95_RIMANA]]/URI$голоморфность этих матриц гарантируется условием
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_23_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2626_96_RIMANA]]/URI$- оператор проектирования на фиксированное подпространство $URI[[http://libmeta.ru/fme/formula/aux/2626_97_RIMANA]]/URI$.
+
+Таким образом, если $URI[[http://libmeta.ru/fme/formula/aux/2626_98_RIMANA]]/URI$ решения задачи Римана с нулями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_24_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2626_99_RIMANA]]/URI$- произвольные подпространства, не зависящие от $URI[[http://libmeta.ru/fme/formula/aux/2626_100_RIMANA]]/URI$, то преобразование (4) с матрицей
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_25_RIMANA]]/URI
+\]
+
+переводит матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_101_RIMANA]]/URI$ в матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_102_RIMANA]]/URI$, тоже удовлетворяющие условию совместности (2), сохраняя расположение и порядок полюсов. Следовательно, коэффициенты в разложениях на простейшие дроби матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_103_RIMANA]]/URI$ и матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_104_RIMANA]]/URI$ удовлетворяют одной и той же системе уравнений, то есть Р. з. м. позволяет, зная какое-нибудь одно «затравочное» решение этой системы [и невырожденное решение $URI[[http://libmeta.ru/fme/formula/aux/2626_105_RIMANA]]/URI$ соответствующей ей системы (1)], найти целое семейство других решений, зависящих от произвольно выбираемых данных задачи Римана. Этот метод часто называют о де в ан и е м «затравочного» решения с помощью матрицы (9). Напр., если матрицы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_26_RIMANA]]/URI
+\]
+
+\section{Римана}
+
+одевают с помощью матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_106_RIMANA]]/URI$, то получаются матрицы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_27_RIMANA]]/URI
+\]
+
+у к-рых
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_28_RIMANA]]/URI
+\]
+
+[матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_107_RIMANA]]/URI$ задает нормировку задачи Римана.] В качестве «затравочных» матриц всегда можно взять перестановочные матрицы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_29_RIMANA]]/URI
+\]
+
+к-рые, очевидно, удовлетворяют условию совместности (2).
+
+В общем случае при одевании нужно решать системы сингулярных интегральных уравнений, к к-рым сводятся задачи Римана. Но если в качестве $URI[[http://libmeta.ru/fme/formula/aux/2626_108_RIMANA]]/URI$ взять единичную матрицу, то для отыскания одевающей матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_109_RIMANA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2626_110_RIMANA]]/URI$ нужно решить только систему линейных алгебраич. уравнений. При $URI[[http://libmeta.ru/fme/formula/aux/2626_111_RIMANA]]/URI$ на контуре $URI[[http://libmeta.ru/fme/formula/aux/2626_112_RIMANA]]/URI$ выполняется равенство $URI[[http://libmeta.ru/fme/formula/aux/2626_113_RIMANA]]/URI$, то есть матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_114_RIMANA]]/URI$ голоморфна всюду, кроме точек $URI[[http://libmeta.ru/fme/formula/aux/2626_115_RIMANA]]/URI$, а матрица $URI[[http://libmeta.ru/fme/formula/aux/2626_116_RIMANA]]/URI$ голоморфна всюду, кроме точек $URI[[http://libmeta.ru/fme/formula/aux/2626_117_RIMANA]]/URI$, где они имеют простые полюсы и удовлетворяют условиям:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_30_RIMANA]]/URI
+\]
+
+Поэтому при канонич. нормировке
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_31_RIMANA]]/URI
+\]
+
+и так как
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_32_RIMANA]]/URI
+\]
+
+то URI[[http://libmeta.ru/fme/relation/2626_16_RIMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2626_118_RIMANA]]/URI$ должны иметь вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_33_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2626_119_RIMANA]]/URI$ базис URI[[http://libmeta.ru/fme/relation/2626_15_RIMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2626_120_RIMANA]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/2626_121_RIMANA]]/URI$ - нек-рые неизвестные URI[[http://libmeta.ru/fme/relation/2626_14_RIMANA]]/URI. Пусть URI[[http://libmeta.ru/fme/relation/2626_13_RIMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2626_122_RIMANA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2626_123_RIMANA]]/URI$, образуют базис URI[[http://libmeta.ru/fme/relation/2626_12_RIMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2626_124_RIMANA]]/URI$ URI[[http://libmeta.ru/fme/relation/2626_11_RIMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2626_125_RIMANA]]/URI$. Тогда $URI[[http://libmeta.ru/fme/formula/aux/2626_126_RIMANA]]/URI$ при всех $URI[[http://libmeta.ru/fme/formula/aux/2626_127_RIMANA]]/URI$, откуда, согласно (10), (11), следует, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_34_RIMANA]]/URI
+\]
+
+Из этой системы линейных уравнений находятся URI[[http://libmeta.ru/fme/relation/2626_10_RIMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2626_128_RIMANA]]/URI$, а, значит, и матрица-функция $URI[[http://libmeta.ru/fme/formula/aux/2626_129_RIMANA]]/URI$. Подстановка $URI[[http://libmeta.ru/fme/formula/aux/2626_130_RIMANA]]/URI$ сводит решение общей задачи к решению регулярной URI[[http://libmeta.ru/fme/relation/2626_9_RIMANA]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_35_RIMANA]]/URI
+\]
+
+для матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_131_RIMANA]]/URI$.
+
+При фиксированных полюсах матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_132_RIMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2626_133_RIMANA]]/URI$ система уравнений совместности (2) имеет весьма общий вид. Интересные для физики уравнения URI[[http://libmeta.ru/fme/relation/2626_8_RIMANA]]/URI из нее при наложении на матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_134_RIMANA]]/URI$ дополнительных условий, совместных с системой (2). Такие условия называются реду к ц и я м и. Конечно, URI[[http://libmeta.ru/fme/relation/2626_7_RIMANA]]/URI при одевании матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_135_RIMANA]]/URI$ тоже должны удовлетворять наложенным условиям, что накладывает определенные ограничения на данные соответствующих задач Римана. Напр., если у матриц $URI[[http://libmeta.ru/fme/formula/aux/2626_136_RIMANA]]/URI$ все полюсы лежат на вещественной оси, можно наложить условие URI[[http://libmeta.ru/fme/relation/2626_6_RIMANA]]/URI на коэффициенты в их разложениях на простейшие дроби. Для того чтобы URI[[http://libmeta.ru/fme/relation/2626_5_RIMANA]]/URI сохранялась при одевании, достаточно в качестве $URI[[http://libmeta.ru/fme/formula/aux/2626_137_RIMANA]]/URI$ взять вещественную ось, в качестве $URI[[http://libmeta.ru/fme/formula/aux/2626_138_RIMANA]]/URI$ - эрмитову матрицу и в качестве $URI[[http://libmeta.ru/fme/formula/aux/2626_139_RIMANA]]/URI$ - то решение системы (1), к-рое обращается в единичную матрицу в точке $URI[[http://libmeta.ru/fme/formula/aux/2626_140_RIMANA]]/URI$. Другие дополнительные редукции могут зависеть от расположения полюсов. Так, в примере (3), кроме условия URI[[http://libmeta.ru/fme/relation/2626_4_RIMANA]]/URI, можно потребовать, чтобы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_36_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2626_141_RIMANA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2626_142_RIMANA]]/URI$ - постоянные вещественные диагональные матрицы. Это условие сохранится при одевании, если $URI[[http://libmeta.ru/fme/formula/aux/2626_143_RIMANA]]/URI$ и URI[[http://libmeta.ru/fme/relation/2626_3_RIMANA]]/URI URI[[http://libmeta.ru/fme/relation/2626_2_RIMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2626_144_RIMANA]]/URI$. При наложении этих редукций система уравнений (3) сводится к одному уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2626_37_RIMANA]]/URI
+\]
+
+для матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_145_RIMANA]]/URI$, через к-рую выражаются матрицы $URI[[http://libmeta.ru/fme/formula/aux/2626_146_RIMANA]]/URI$. Уравнение (12) имеет физич. смысл - оно описывает взаимодействие волн в нелинейной среде.
+
+Отыскание подходящих редукций - важная URI[[http://libmeta.ru/fme/relation/2626_1_RIMANA]]/URI часть Р. 3. м. (см. [7]).</text>
+  <text_orig>базирущийся на задачах Римана метод построения и интегрирования систем нелинейных эволюционных уравнений, предложенный В. Е. Захаровым и А. Б. Шабатом [1].
+
+Задача Римана состоит в представлении заданной на замкнутом контуре Г матричной функции $N$-го порядка $G(\lambda)$ в виде произведения двух функций
+
+\[
+G^{+}(\lambda) G^{-}(\lambda)=G(\lambda), \lambda \in \Gamma,
+\]
+
+являющихся предельными значениями матричных функций $G^{+}(z)$ и $G^{-}(z)$ аналитических соответственно внутри и вне контура $\Gamma$. Контур Г может проходить через бесконечно удаленную точку. Особенно важен случай, когда контуром служит вещественная ось. Кроме контура $\Gamma$ и функции $G(\lambda)$ задается нормировка задачи, то есть значение одной из функций $\left(G^{+}(z)\right.$ или $\left.G^{-}(z)\right)$ в нек-рой точке области еe аналитичности. Чаще всего задается канонич. нормировка:
+
+\[
+G^{-}(\infty)=I \text {. }
+\]
+
+Задача Римана называется р е гул я р н о й, если ее решение ищется в классе невырожденных матриц, то есть если Det $G^{+}(z) \neq 0$ и Det $G^{-}(z) \neq 0$.
+
+Задача называется задачей Римана с нулями, если ее решение ищется в классе матриц-функций, вырождающихся в точках $\lambda_{1}^{+}, \lambda_{2}^{+}, \ldots, \lambda_{n}^{+}$и $\lambda_{1}^{-}, \lambda_{2}^{-}, \ldots, \lambda_{n}^{-}$, в к-рых матрицы $G^{+}(z)^{-1}$ и $G^{-}(z)^{-1}$ имеют простые полюсы.
+
+В задачах Римана с нулями кроме контура $\Gamma$, функции $G(\lambda)$ нормировки, точек $\lambda_{1}^{+}, \lambda_{2}^{+}, \ldots, \lambda_{n}^{+}$и $\lambda_{1}^{-}, \lambda_{2}^{-}, \ldots, \lambda_{n}^{-}$ задаются подпространства
+
+\[
+\operatorname{Im} G^{+}\left(\lambda_{k}^{+}\right), \operatorname{Ker} G^{-}\left(\lambda_{k}^{-}\right), k=1,2, \ldots, n,
+\]
+
+прямая сумма к-рых совпадает со всем пространством:
+
+\[
+\operatorname{Im} G^{+}\left(\lambda_{k}^{+}\right) \oplus \operatorname{Ker} G^{-}\left(\lambda_{k}^{-}\right)=\mathbb{C}^{N} .
+\]
+
+Задачи Римана сводятся к решению сингулярных интегральных уравнений или уравнений типа Винера - Хопфа. Разрешимость этих уравнений, а значит, и задач Римана в различных классах функций исследована достаточно полно (см. [2]-[4]). Задачи Римана естественно возникают в теории обратных задач рассеяния (см. [5], [6]).
+
+Ключевым моментом Р. з. м. является представление нелинейных уравнений в виде условия совместности переопределенной системы линейных уравнений вида:
+
+\[
+\frac{\partial \Psi}{\partial x}=U \Psi, \quad \frac{\partial \Psi}{\partial t}=V \Psi,
+\]
+
+в к-рой матричные функции $U=U(x, t, z), V=V(x, t, z)$ рационально зависят от комплексного параметра $z$. Условие совместности такой системы имеет вид:
+
+\[
+\frac{\partial U}{\partial t}-\frac{\partial V}{\partial x}+[U, V]=0
+\]
+
+и состоит из системы уравнений, к-рым должны удовлетворять коэффициенты в разложении матриц $U, V$ на простейшие дроби. На геометрич. языке представление нелинейных уравнений в виде условия совместности (2) называется представлением нулевой кривизны. Число уравнений совместности на единицу меныше числа входящих в них матричных функций, то есть коэффициентов в разложении матриц $U, V$ на простейшие дроби. Вид уравнений совместности зависит только от расположения и порядка полюсов матриц $U, V$. Напр., если матрицы $U$ и $\boldsymbol{V}$ имеют единственный простой полюс в нуле, то есть если
+
+\[
+U=u^{(0)}(x, t)+z^{-1} u^{(1)}(x, t), V=v^{(0)}(x, t)+z^{-1} v^{(1)}(x, t),
+\]
+
+то уравнения совместности имеют вид:
+
+\[
+\left.\begin{array}{c}
+u_{t}^{(0)}-v_{x}^{(0)}+\left[u^{(0)}, v^{(0)}\right]=0, \\
+u_{t}^{(1)}-v_{x}^{(1)}+\left[u^{(0)}, v^{(1)}\right]+\left[u^{(1)}, v^{(0)}\right]=0, \\
+{\left[u^{(1)}, v^{(1)}\right]=0 .}
+\end{array}\right\}
+\]
+
+Пусть матрица $\Psi=\Psi(x, t, z)$ удовлетворяет системе уравнений (1), а $g=g(x, t, z)$ - произвольная матричная функция, не вырожденная в нек-рой области изменения переменных $x, t$ и параметра $z$. Элементарная проверка показывает, что матрица $\widetilde{\Psi}=g \Psi$ в этой области удовлетворяет аналогичной системе, в к-рой матрицы $U, V$ заменены на
+
+\[
+\widetilde{U}=g_{x} g^{-1}+g U g^{-1}, \tilde{V}=g_{t} g^{-1}+g V g^{-1} .
+\]
+
+Следовательно, в этой области матрицы $\tilde{U}, \tilde{V}$ удовлетворяют уравнению (2). Но в общем случае они не будут рациональными функциями от $z$ и уравнение (2) не сведется к конечной системе уравнений. Исключением является случай, когда обратимая матрица $g$ не зависит от $z$. Формулы (4) показывают, что в этом случае матрицы $\widetilde{U}, \tilde{V}$ тоже рационально зависят от $z$ и имеют те же полюсы, что матрицы $U, V$.
+
+Поэтому коэффициенты в разложении на простейшие дроби матриц $U, V$ и $\widetilde{U}, \widetilde{V}$ будут удовлетворять одинаковым системам уравнений совместности. Преобразование $U \rightarrow$ $\rightarrow \widetilde{U}, V \rightarrow \widetilde{V}, \Psi \rightarrow \widetilde{\Psi}=g \Psi$ с матрицей $g$, не зависящей от $z$, называется ка л и б ро воч ны м, а соответствуюшие уравнения - кал ибровочно экви валентным и.
+
+В Р. з.м. преобразования (4) производятся с помощью зависяшей от $z$ матричной функции $g=g(x, t, z)$, К-рая подбирается так, чтобы у получающихся матриц $\widetilde{U}, \widetilde{V}$ не появились новые особые точки. Из формул (4) видно, что новые особенности могут появиться только там, где находятся особенности матриц $g=g(x, t, z)$ и $g^{-1}=g(x, t, z)^{-1}$. Пусть контур $\Gamma$ разбивает $\mathbb{C}$-плоскость на внутреннюю $\left(O_{+}\right)$ и внешнюю (O_) области и в области $\mathbb{C} \backslash \Gamma=O_{-} \cup O_{+}$матрица $g$ голоморфна всюду, кроме точек $\lambda_{k}^{+} \in O_{+}, k=1,2, \ldots, n$, а матрица $g^{-1}$ - всюду, кроме точек $\lambda_{k}^{-} \in O_{-}, k=1,2, \ldots, n$, где они имеют простые полюсы. Тогда новые особенности могут появиться только на контуре $\Gamma$ и в точках $\lambda_{k}^{+}, \lambda_{k}^{-}$, $k=1,2, \ldots, n$. Очевидно, что на контуре $\Gamma$ у новых матриц $\tilde{U}, \tilde{V}$ не будет особенностей тогда и только тогда, когда на нем совпадают их предельные значения из внутренней и внешней областей, то есть когда
+
+\[
+\begin{aligned}
+&amp; g_{x}^{+}(\lambda) g^{+}(\lambda)^{-1}+g^{+}(\lambda) U(\lambda) g^{+}(\lambda)^{-1}= \\
+&amp; =g_{x}^{-}(\lambda) g^{-}(\lambda)^{-1}+g^{-}(\lambda) U(\lambda) g^{-}(\lambda)^{-1}, \\
+&amp; g_{t}^{+}(\lambda) g^{+}(\lambda)^{-1}+g^{+}(\lambda) V(\lambda) g^{+}(\lambda)^{-1}= \\
+&amp; =g_{t}^{-}(\lambda) g^{-}(\lambda)^{-1}+g^{-}(\lambda) V(\lambda) g^{-}(\lambda)^{-1},
+\end{aligned}
+\]
+
+где $\lambda \in \Gamma, g^{ \pm}(\lambda)$ - предельные значения матрицы $g$ из внешней $(+)$ и внутренней $(-)$ областей, $g_{x}^{ \pm}(\lambda), g_{t}^{ \pm}(\lambda)$ - частные производные по $x$ и по $t$.
+
+Элементарное преобразование показывает, что эти равенства эквивалентны следующим:
+
+\[
+Y_{x}=[U, Y], Y_{t}=[V, Y]
+\]
+
+где $Y=g^{+}(\lambda)^{-1} g^{-}(\lambda)$. Общее решение последней системы имеет вид:
+
+\[
+\omega(x, t, \lambda) G(\lambda) \omega(x, t, \lambda)^{-1},
+\]
+
+где $\omega(x, t, \lambda)$ - невырожденное (Det $\omega(x, t, \lambda) \neq 0$ при $\lambda \in \Gamma)$ решение системы (1), а $G(\lambda)$ - произвольная матрица, не зависящая от $x$ и $t$. Таким образом, равенство
+
+\[
+g^{+}(\lambda)^{-1} g^{-}(\lambda)=\omega(x, t, \lambda) G(\lambda) \omega(x, t, \lambda)^{-1}
+\]
+
+гарантирует отсутствие особенностей на контуре $\Gamma$ у матриц $\widetilde{U}, \tilde{V}$.
+
+В окрестности точки $\lambda_{k}^{-}$матрица $g(z)$ голоморфна, а матрица $g(z)^{-1}$ имеет простой полюс. Поэтому в этой окрестности
+
+\[
+\left.\begin{array}{l}
+g(z)=g\left(\lambda_{k}^{-}\right)+a_{1}\left(z-\lambda_{k}^{-}\right)+a_{2}\left(z-\lambda_{k}^{-}\right)^{2}+\ldots, \\
+g(z)^{-1}=\left(z-\lambda_{k}^{-}\right)^{-1} r+b_{0}+b_{1}\left(z-\lambda_{k}^{-}\right)+\ldots,
+\end{array}\right\}
+\]
+
+где
+
+\[
+g\left(\lambda_{k}^{-}\right) r=r g\left(\lambda_{k}^{-}\right)=0, \quad g\left(\lambda_{k}^{-}\right) b_{0}+a_{1} r=b_{0} g\left(\lambda_{k}^{-}\right)+r a_{1}=I,
+\]
+
+откуда, в частности, следует, что
+
+\[
+\operatorname{Ker} g\left(\lambda_{k}\right)=\operatorname{Im} r, \operatorname{Im} g\left(\lambda_{\bar{k}}\right)=\operatorname{Ker} r .
+\] Согласно (4), (5), в окрестности $\lambda_{k}^{-}$матрицы $\widetilde{U}, \widetilde{V}$ разлагаются в такие ряды Лорана:
+
+\[
+\begin{gathered}
+\tilde{U}(z)=\left(z-\lambda_{k}^{-}\right)^{-1} g\left(\lambda_{k}^{-}\right)\left\{-r_{x}+U r\right\}+c_{0}+c_{1}\left(z-\lambda_{k}^{-}\right)+\ldots, \\
+\tilde{V}(z)=\left(z-\lambda_{k}^{-}\right)^{-1} g\left(\lambda_{k}^{-}\right)\left\{-r_{t}+V r\right\}+d_{0}+d_{1}\left(z-\lambda_{k}^{-}\right)+\ldots
+\end{gathered}
+\]
+
+и для того, чтобы они были голоморфны в этой точке, нужно, чтобы выполнялись равенства
+
+\[
+g\left(\lambda_{k}^{-}\right)\left\{-r_{x}+U\left(\lambda_{k}^{-}\right) r\right\}=g\left(\lambda_{k}^{-}\right)\left\{-r_{t}+V\left(\lambda_{k}^{-}\right) r\right\}=0 .
+\]
+
+Пусть
+
+\[
+\operatorname{Ker} g\left(\lambda_{k}^{-}\right)=\operatorname{Im} \omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right) \text {, }
+\]
+
+где $n\left(\lambda_{\bar{k}}\right)$ - не зависящая от $x, t$ матрица оператора проектирования на фиксированное подпространство $N\left(\lambda_{k}^{-}\right)$, а $\omega\left(x, t, \lambda_{k}^{-}\right)-$невырожденное $\left(\operatorname{Det} \omega\left(x, t, \lambda_{k}^{-}\right) \neq 0\right)$ решение системы (1) при $z=\lambda_{k}^{-}$. Тогда
+
+\[
+\left.\begin{array}{rl}
+\operatorname{Im} r= &amp; \operatorname{Ker} g\left(\lambda_{k}^{-}\right)=\operatorname{Im} \omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right), \\
+&amp; g\left(\lambda_{k}^{-}\right) \omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right)=0
+\end{array}\right\}
+\]
+
+и существует такая матрица $Q=Q(x, t)$, что
+
+\[
+r=\omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right) Q(x, t) .
+\]
+
+Taк как
+
+\[
+-\omega_{x}+U\left(\lambda_{k}^{-}\right) \omega=0,-\omega_{t}+V\left(\lambda_{k}^{-}\right) \omega=0
+\]
+
+Tо
+
+$-r_{x}+U\left(\lambda_{k}^{-}\right) r=\omega\left(x, t, \lambda_{k}^{-}\right) n\left(\lambda_{k}^{-}\right) Q_{x},-r_{t}+V\left(\lambda_{k}^{-}\right) r=\omega n\left(\lambda_{k}^{-}\right) Q_{t}$, равенства (6) выполняются в силу (7), и в точке $\lambda_{k}^{-}$матрицы $\tilde{U}, \widetilde{V}$ голоморфны. Аналогично проверяется, что в точках $\lambda_{k}^{+}$голоморфность этих матриц гарантируется условием
+
+\[
+\operatorname{Im} g\left(\lambda_{k}^{+}\right)^{-1}=\operatorname{Im} \omega\left(x, t, \lambda_{k}^{+}\right) n\left(\lambda_{k}^{+}\right)
+\]
+
+где $n\left(\lambda_{k}^{+}\right)$- оператор проектирования на фиксированное подпространство $N\left(\lambda_{k}^{+}\right)$.
+
+Таким образом, если $G^{+}(z), G^{-}(z)-$ решения задачи Римана с нулями
+
+\[
+\left.\begin{array}{l}
+G^{+}(\lambda) G^{-}(\lambda)=\omega(x, t, \lambda) G(\lambda) \omega(x, t, \lambda)^{-1}, \quad \lambda \in \Gamma, \\
+\operatorname{Im} G^{+}\left(\lambda_{k}^{+}\right)=\omega\left(x, t, \lambda_{k}^{+}\right) N\left(\lambda_{k}^{+}\right), \\
+\operatorname{Ker} G^{-}\left(\lambda_{k}^{-}\right)=\omega\left(x, t, \lambda_{k}^{-}\right) N\left(\lambda_{k}^{-}\right),
+\end{array}\right\}
+\]
+
+где $N\left(\lambda_{k}^{+}\right), N\left(\lambda_{k}^{-}\right)$- произвольные подпространства, не зависящие от $x, t$, то преобразование (4) с матрицей
+
+\[
+g(z)= \begin{cases}G^{+}(z)^{-1}, &amp; z \in O_{+}, \\ G^{-}(z)^{-1}, &amp; z \in O_{-},\end{cases}
+\]
+
+переводит матрицы $U, V$ в матрицы $\widetilde{U}, \widetilde{V}$, тоже удовлетворяющие условию совместности (2), сохраняя расположение и порядок полюсов. Следовательно, коэффициенты в разложениях на простейшие дроби матриц $U, V$ и матриц $\widetilde{U}, \widetilde{V}$ удовлетворяют одной и той же системе уравнений, то есть Р. з. м. позволяет, зная какое-нибудь одно «затравочное» решение этой системы [и невырожденное решение $\omega$ соответствующей ей системы (1)], найти целое семейство других решений, зависяших от произвольно выбираемых данных задачи Римана. Этот метод часто называют о де в ан и е м «затравочного» решения с помощью матрицы (9). Напр., если матрицы
+
+\[
+\begin{gathered}
+U=u_{0}(x, t)+\sum_{k}\left(z-\alpha_{k}\right)^{-1} u_{k}(x, t), \\
+V=v_{0}(x, t)+\sum_{l}\left(z-\beta_{l}\right)^{-1} v_{l}(x, t)
+\end{gathered}
+\]
+
+\section{PИMAHA}
+
+одевают с помощыю матрицы $g(z)$, то получаются матрицы
+
+\[
+\begin{gathered}
+\tilde{U}=\tilde{u}_{0}(x, t)+\sum_{k}\left(z-\alpha_{k}\right)^{-1} \tilde{u}_{k}(x, t), \\
+\tilde{V}=\tilde{v}_{0}(x, t)+\sum_{l}\left(z-\beta_{l}\right)^{-1} \tilde{v}_{l}(x, t),
+\end{gathered}
+\]
+
+у к-рых
+
+\[
+\begin{gathered}
+\tilde{u}_{0}=g_{x}(\infty) g(\infty)^{-1}+g(\infty) u_{0} g(\infty)^{-1}, \tilde{u}_{k}=g\left(\alpha_{k}\right) u_{k} g\left(\alpha_{k}\right)^{-1}, \\
+\tilde{v}_{0}=g_{t}(\infty) g(\infty)^{-1}+g(\infty) v_{0} g(\infty)^{-1}, \tilde{v}_{l}=g\left(\beta_{l}\right) v_{l} g\left(\beta_{l}\right)^{-1} .
+\end{gathered}
+\]
+
+[Матрица $g(\infty)$ задает нормировку задачи Римана.] В качестве «затравочных» матриц всегда можно взять перестановочные матрицы
+
+\[
+U=A(x, z), V=B(t, z),[A(x, z), B(t, z)]=0,
+\]
+
+к-рые, очевидно, удовлетворяют условию совместности (2).
+
+В общем случае при одевании нужно решать системы сингулярных интегральных уравнений, к к-рым сводятся задачи Римана. Но если в качестве $G(\lambda)$ взять единичную матрицу, то для отыскания одевающей матрицы $g_{0}=$ $=g_{0}(x, t, z)$ нужно решить только систему линейных алгебраич. уравнений. При $G(\lambda)=I$ на контуре $\Gamma$ выполняется равенство $g_{0}^{+}(\lambda)=g_{0}^{-}(\lambda)$, то есть матрица $g_{0}(z)$ голоморфна всюду, кроме точек $\lambda_{1}^{+}, \lambda_{2}^{+}, \ldots, \lambda_{n}^{+}$, а матрица $g_{0}(z)^{-1}$ голоморфна всюду, кроме точек $\lambda_{1}^{-}, \lambda_{2}^{-}, \ldots, \lambda_{n}^{-}$, где они имеют простые полюсы и удовлетворяют условиям:
+
+\[
+\begin{aligned}
+\operatorname{Im} g_{0}\left(\lambda_{k}^{+}\right)^{-1} &amp; =\omega\left(x, t, \lambda_{k}^{+}\right) N\left(\lambda_{k}^{+}\right), \\
+\operatorname{Ker} g_{0}\left(\lambda_{k}^{-}\right) &amp; =\omega\left(x, t, \lambda_{k}^{-}\right) N\left(\lambda_{k}^{-}\right) .
+\end{aligned}
+\]
+
+Поэтому при канонич. нормировке
+
+\[
+g_{0}(z)^{-1}=I+\sum_{k=1}^{n}\left(z-\lambda_{k}^{-}\right)^{-1} A(k)
+\]
+
+и так как
+
+\[
+\operatorname{Im} A(k)=\operatorname{Ker} g_{0}\left(\lambda_{k}^{-}\right)=\omega\left(x, t, \lambda_{k}^{-}\right) N\left(\lambda_{k}^{-}\right),
+\]
+
+то операторы $A(k)$ должны иметь вид
+
+\[
+A(k)(\boldsymbol{f})=\sum_{i=1}^{q_{k}} \boldsymbol{m}^{i}(k)\left(\boldsymbol{x}^{i}(k), \boldsymbol{f}\right),
+\]
+
+где $\boldsymbol{m}^{i}(k)-$ базис подпространства $\operatorname{Im} A(k)=\operatorname{Ker} g_{0}\left(\lambda_{k}^{-}\right)$, а $\boldsymbol{x}^{i}(k)$ - нек-рые неизвестные векторы. Пусть векторы $\boldsymbol{n}^{j}(p)$, $j=1,2, \ldots, q_{p}$, образуют базис ортогонального дополнения $\mathbf{K}$ подпространству $\operatorname{Im} g\left(\lambda_{k}^{+}\right)^{-1}$. Тогда $\left(\boldsymbol{n}^{j}(p), g_{0}\left(\lambda_{k}^{+}\right)^{-1} \boldsymbol{f}\right)=0$ при всех $\boldsymbol{f} \in \mathbb{C}^{N}$, откуда, согласно (10), (11), следует, что
+
+\[
+\begin{gathered}
+\left(\boldsymbol{n}^{j}(p)+\sum_{k=1}^{n} \sum_{i=1}^{q_{k}} \frac{\boldsymbol{n}^{j}(p), \boldsymbol{m}^{i}(k)}{\lambda_{p}^{+}-\lambda_{k}^{-}} \boldsymbol{x}^{i}(k), \boldsymbol{f}\right)=0, \\
+\boldsymbol{n}^{j}(p)+\sum_{k=1}^{n} \sum_{i=1}^{q_{k}} \frac{\boldsymbol{n}^{j}(p), \boldsymbol{m}^{i}(k)}{\lambda_{p}^{+}-\lambda_{\boldsymbol{k}}^{-}} \boldsymbol{x}^{i}(k)=0 .
+\end{gathered}
+\]
+
+Из этой системы линейных уравнений находятся векторы $\boldsymbol{x}^{i}(k)$, а, значит, и матрица-функция $g_{0}(z)$. Подстановка $G^{+}(z)=g_{0}(z)^{-1} G_{1}^{+}(z), G^{-}(z)=G_{1}^{-}(z) g_{0}(z)$ сводит решение общей задачи к решению регулярной задачи Римана
+
+\[
+G_{1}^{+}(\lambda) G_{1}^{-}(\lambda)=g_{0}(\lambda) \omega(\lambda) G(\lambda) \omega(\lambda)^{-1} g_{0}(\lambda)^{-1}
+\]
+
+для матриц $G_{1}^{ \pm}(z)$.
+
+При фиксированных полюсах матриц $U$ и $V$ система уравнений совместности (2) имеет весьма общий вид. Интересные для физики уравнения получаются из нее при наложении на матрицы $U, V$ дополнительных условий, совместных с системой (2). Такие условия называются реду к ц и я м и. Конечно, получающиеся при одевании матрицы $\widetilde{U}, \widetilde{V}$ тоже должны удовлетворять наложенным условиям, что накладывает определенные ограничения на данные соответствующих задач Римана. Напр., если у матриц $U, V$ все полюсы лежат на вещественной оси, можно наложить условие антиэрмитовости на коэффициенты в их разложениях на простейшие дроби. Для того чтобы антиэрмитовость сохранялась при одевании, достаточно в качестве $\Gamma$ взять вещественную ось, в качестве $G(\lambda)$ - эрмитову матрицу и в качестве $\omega(x, t, \lambda)$ - то решение системы (1), к-рое обращается в единичную матрицу в точке $x=t=0$. Другие дополнительные редукции могут зависеть от расположения полюсов. Так, в примере (3), кроме условия антиэрмитовости, можно потребовать, чтобы
+
+\[
+u^{(1)}(x, t)=i A, v^{(1)}(x, t)=i B
+\]
+
+где $A$ и $B$ - постоянные вещественные диагональные матрицы. Это условие сохранится при одевании, если $G(0)=I$ и задача Римана нормирована условием $G^{+}(0)=I$. При наложении этих редукций система уравнений (3) сводится к одному уравнению
+
+\[
+\left[A, Q_{t}\right]-\left[B, Q_{x}\right]+i[[A, Q],[B, Q]]=0
+\]
+
+для матрицы $Q=Q^{*}$, через к-рую выражаются матрицы $u^{(0)}=[A, Q], v^{(0)}=\left[\begin{array}{ll}B &amp; Q\end{array}\right]$. Уравнение (12) имеет физич. смысл - оно описывает взаимодействие волн в нелинейной среде.
+
+Отыскание подходящих редукций - важная составная часть Р. 3. м. (см. [7]).
+
+Лum.: [1] 3 а х а р о в В. Е., Ш а б а т А. Б., &quot;Функциональный анализ и его прилож.», 1979, т. 13, в. 3, с. 13-22; [2] В екуа Н. П., Системы сингулярных интегральных уравнений и некоторые граничные задачи, М., 1970; [3] Мусхе л иш в и л и Н. И., Сингулярные интегральные уравнения, 3 изд., М., 1968; [4] Г о х б е р г И. Ц., К р е й н М. Г., «Успехи математич. наук», 1958, т. 13, в. 2, с. 3-72; [5] Агранович 3. С., Марченко В. А., Обратная задача теории рассеяния, Харьков, 1960; [6] Тахтаджян Л. А., Фаддее в Л. Д., Гамильтонов подход в теории солитонов, М., 1986; [7] 3 a харов В. Е., Манаков С. В., Новиков С. П., Питаев с к и й Л. П., Теория солитонов - метод обратной задачи, М., 1980. В. А. Марченко.</text_orig>
+</article>

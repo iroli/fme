@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3572_JaKOBI" alphabetic_pos="3574">
+  <title>ЯКОБИ ПОЛЕ</title>
+  <authors>
+    <author>А. В. Болсинов</author>
+  </authors>
+  <pages>
+    <start>688</start>
+    <end>688</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3572_1_JaKOBI">J \xi^{i}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3572_2_JaKOBI">J \xi^{i}=\nabla_{\dot{x}}^{2} \xi^{i}+\dot{x}^{j} \dot{x}^{k} \xi^{l} R_{j, k l}^{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3572_3_JaKOBI">S[\gamma]=\int_{P}^{Q} g_{i j} \dot{x}^{i} \dot{x}^{j} d t,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3572_1_JaKOBI">\xi=\left(\xi^{i}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3572_2_JaKOBI">\gamma=\{x(t)\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3572_3_JaKOBI">p=\gamma(0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3572_4_JaKOBI">q=\gamma(1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3572_5_JaKOBI">\nabla_{\dot{x}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3572_6_JaKOBI">\gamma, R_{j, k l}^{i}-</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/3572_1_JaKOBI">
+      <rel_text>экстремалей</rel_text>
+      <target>http://libmeta.ru/fme/article/3502_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3572_2_JaKOBI">
+      <rel_text>многомерных</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3572_3_JaKOBI">
+      <rel_text>экстремалей</rel_text>
+      <target>http://libmeta.ru/fme/article/3502_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3572_4_JaKOBI">
+      <rel_text>кривизны</rel_text>
+      <target>http://libmeta.ru/fme/article/1458_KRIVIZN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3572_5_JaKOBI">
+      <rel_text>тензор</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3572_6_JaKOBI">
+      <rel_text>ковариантная производная</rel_text>
+      <target>http://libmeta.ru/fme/article/1273_KOVARIANTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3572_7_JaKOBI">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3572_8_JaKOBI">
+      <rel_text>вариации</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3572_9_JaKOBI">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+  </relations>
+  <text>векторное поле $URI[[http://libmeta.ru/fme/formula/aux/3572_1_JaKOBI]]/URI$ на геодезической $URI[[http://libmeta.ru/fme/formula/aux/3572_2_JaKOBI]]/URI$, обращающееся в нуль на концах $URI[[http://libmeta.ru/fme/formula/aux/3572_3_JaKOBI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3572_4_JaKOBI]]/URI$ и удовлетворяющее уравнению Якоби
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3572_1_JaKOBI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3572_2_JaKOBI]]/URI
+\]
+
+- URI[[http://libmeta.ru/fme/relation/3572_9_JaKOBI]]/URI второй URI[[http://libmeta.ru/fme/relation/3572_8_JaKOBI]]/URI URI[[http://libmeta.ru/fme/relation/3572_7_JaKOBI]]/URI,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3572_3_JaKOBI]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3572_5_JaKOBI]]/URI$ - URI[[http://libmeta.ru/fme/relation/3572_6_JaKOBI]]/URI вдоль $URI[[http://libmeta.ru/fme/formula/aux/3572_6_JaKOBI]]/URI$ URI[[http://libmeta.ru/fme/relation/3572_5_JaKOBI]]/URI URI[[http://libmeta.ru/fme/relation/3572_4_JaKOBI]]/URI Римана. Определение обобщается на случай URI[[http://libmeta.ru/fme/relation/3572_3_JaKOBI]]/URI других функционалов, в том числе URI[[http://libmeta.ru/fme/relation/3572_2_JaKOBI]]/URI. Я. п. служит для исследования глобальной минимальности и устойчивости URI[[http://libmeta.ru/fme/relation/3572_1_JaKOBI]]/URI.</text>
+  <text_orig>векторное поле $\xi=\left(\xi^{i}\right)$ на геодезической $\gamma=\{x(t)\}$, обращающееся в нуль на концах $P=\gamma(0)$ и $Q=\gamma(1)$ и удовлетворяющее уравнению Якоби
+
+\[
+J \xi^{i}=0
+\]
+
+где
+
+\[
+J \xi^{i}=\nabla_{\dot{x}}^{2} \xi^{i}+\dot{x}^{j} \dot{x}^{k} \xi^{l} R_{j, k l}^{i}
+\]
+
+- оператор второй вариации функционала,
+
+\[
+S[\gamma]=\int_{P}^{Q} g_{i j} \dot{x}^{i} \dot{x}^{j} d t,
+\]
+
+$\nabla_{\dot{x}}$ - ковариантная производная вдоль $\gamma, R_{j, k l}^{i}-$ тензор кривизны Римана. Определение обобщается на случай экстремалей других функционалов, в том числе многомерных. Я. п. служит для исследования глобальной минимальности и устойчивости экстремалей.
+
+А. В. Болсинов.</text_orig>
+</article>

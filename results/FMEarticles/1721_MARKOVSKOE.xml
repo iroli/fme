@@ -1,0 +1,265 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1721_MARKOVSKOE" alphabetic_pos="1723">
+  <title>МАРКОВСКОЕ СЛУЧАЙНОЕ ПОЛЕ</title>
+  <authors>
+    <author>Р. А. Минлос</author>
+  </authors>
+  <pages>
+    <start>347</start>
+    <end>347</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Доб рушин Р. Л., М инлос Р. А., в сб.: Задачи механики и математической физики, М., 1976, с. 117-65; [2] Сай м о н Б., Модель $p[\varphi]_{2}$ евклидовой квантовой теории поля, пер. с англ., М., 1976.</literature_orig>
+    <unit>
+      <author>Добрушин Р. Л.</author>
+      <author>Минлос Р. А.</author>
+      <title>в сб.: Задачи механики и математической физики</title>
+      <publication>М.</publication>
+      <year>1976</year>
+      <other>с. 117-65</other>
+    </unit>
+    <unit>
+      <author>Саймон Б.</author>
+      <title>Модель $p[\varphi]_{2}$ евклидовой квантовой теории поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1721_1_MARKOVSKOE">\left\langle f_{V^{\prime}} \cdot g_{V^{\prime}}\right\rangle_{\partial V}=\left\langle f_{V}\right\rangle_{\partial V} \cdot\left\langle g_{V^{\prime}}\right\rangle_{\partial V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1721_2_MARKOVSKOE">\langle\cdot\rangle_{\partial V} \equiv \int_{\Omega} \cdot d \mu\left(\omega \mid \Sigma_{\partial V}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1721_3_MARKOVSKOE">\int_{\Omega} f h d \mu=\int_{\Omega} h(\omega)\left[\int_{\Omega} f\left(\omega^{\prime}\right) d \mu\left(\omega^{\prime} \mid \omega\right)\right] d \mu(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1721_4_MARKOVSKOE">\mu\left(\cdot \mid \xi_{\partial V}=\bar{\xi}_{\partial V}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_1_MARKOVSKOE">\xi=\left\{\xi_{t}, t \in T\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_2_MARKOVSKOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_3_MARKOVSKOE">v \subset T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_4_MARKOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_5_MARKOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_6_MARKOVSKOE">\partial V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_7_MARKOVSKOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_8_MARKOVSKOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_9_MARKOVSKOE">t=\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_10_MARKOVSKOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_11_MARKOVSKOE">s-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_12_MARKOVSKOE">\xi=\left\{\xi_{t}, t \in T\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_13_MARKOVSKOE">\xi_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_14_MARKOVSKOE">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_15_MARKOVSKOE">(\omega, \Sigma, \mu)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_16_MARKOVSKOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_17_MARKOVSKOE">\sigma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_18_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_19_MARKOVSKOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_20_MARKOVSKOE">\mu-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_21_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_22_MARKOVSKOE">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_23_MARKOVSKOE">a \subset T-\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_24_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_25_MARKOVSKOE">\left\{\xi_{t}, t \in A\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_26_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_27_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_28_MARKOVSKOE">v \subset T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_29_MARKOVSKOE">\partial V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_30_MARKOVSKOE">t \in T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_31_MARKOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_32_MARKOVSKOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_33_MARKOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_34_MARKOVSKOE">\xi=\left\{\xi_{t}, t \in T\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_35_MARKOVSKOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_36_MARKOVSKOE">v \subset T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_37_MARKOVSKOE">v-\xi_{V}=\left\{\xi_{t}, t \in V\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_38_MARKOVSKOE">v-\xi_{V^{\prime}}=\left\{\xi_{t}, t \in V^{\prime} \equiv T \backslash V\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_39_MARKOVSKOE">\mu\left(\cdot \mid \Sigma_{\partial V}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_40_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_41_MARKOVSKOE">\sigma_{\partial V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_42_MARKOVSKOE">f_{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_43_MARKOVSKOE">g_{v^{\prime}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_44_MARKOVSKOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_45_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_46_MARKOVSKOE">\sigma_{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_47_MARKOVSKOE">\sigma_{v^{\prime}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_48_MARKOVSKOE">\mu\left(\cdot \mid \Sigma_{\partial V}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_49_MARKOVSKOE">\omega \rightarrow \mu(\cdot \mid \omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_50_MARKOVSKOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_51_MARKOVSKOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_52_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_53_MARKOVSKOE">\sigma_{\partial V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_54_MARKOVSKOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_55_MARKOVSKOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_56_MARKOVSKOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_57_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_58_MARKOVSKOE">\sigma_{\partial V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_59_MARKOVSKOE">\xi_{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_60_MARKOVSKOE">\left.\xi\right|_{\partial V}=\xi_{\partial V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_61_MARKOVSKOE">\partial V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_62_MARKOVSKOE">v \subset T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_63_MARKOVSKOE">\left\{\xi_{t}, t \in T\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_64_MARKOVSKOE">t=\mathbb{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_65_MARKOVSKOE">v_{k}=\{t \in \mathbb{Z}, t \geqslant k\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_66_MARKOVSKOE">\left\{\xi_{t}, t \in \mathbb{R}^{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_67_MARKOVSKOE">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_68_MARKOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_69_MARKOVSKOE">v \subset \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_70_MARKOVSKOE">\partial V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_71_MARKOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_72_MARKOVSKOE">\mu\left(\cdot \mid \Sigma_{\partial V}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_73_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_74_MARKOVSKOE">\sigma_{\partial V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_75_MARKOVSKOE">n=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_76_MARKOVSKOE">v_{s}=\{t \in \mathbb{R}, t&gt;s\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_77_MARKOVSKOE">\mathbb{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_78_MARKOVSKOE">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_79_MARKOVSKOE">\xi=\left\{\xi_{\varphi}, \varphi \in K\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_80_MARKOVSKOE">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_81_MARKOVSKOE">s\left(\mathbb{r}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_82_MARKOVSKOE">\varphi(t), t \in \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_83_MARKOVSKOE">v \subset \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_84_MARKOVSKOE">\sigma_{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_85_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_86_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_87_MARKOVSKOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_88_MARKOVSKOE">\left\{\xi_{\varphi}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_89_MARKOVSKOE">\left.\varphi \subset V\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_90_MARKOVSKOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_91_MARKOVSKOE">\sigma_{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_92_MARKOVSKOE">\cap \Sigma_{V}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_93_MARKOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_94_MARKOVSKOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_95_MARKOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_96_MARKOVSKOE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_97_MARKOVSKOE">\mu\left(\cdot \mid \Sigma_{\partial V}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_98_MARKOVSKOE">\partial V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_99_MARKOVSKOE">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1721_100_MARKOVSKOE">p[\varphi]-м</formula>
+  </formulas_aux>
+  <relations n="14">
+    <relation uri="http://libmeta.ru/fme/relation/1721_1_MARKOVSKOE">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_2_MARKOVSKOE">
+      <rel_text>обобщенной функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2013_OBOBSchENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_3_MARKOVSKOE">
+      <rel_text>условное распределение</rel_text>
+      <target>http://libmeta.ru/fme/article/3201_USLOVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_4_MARKOVSKOE">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_5_MARKOVSKOE">
+      <rel_text>марковским свойством</rel_text>
+      <target>http://libmeta.ru/fme/article/1720_MARKOVSKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_6_MARKOVSKOE">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_7_MARKOVSKOE">
+      <rel_text>открытого множества</rel_text>
+      <target>http://libmeta.ru/fme/article/2139_OTKRYTOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_8_MARKOVSKOE">
+      <rel_text>марковского свойства</rel_text>
+      <target>http://libmeta.ru/fme/article/1720_MARKOVSKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_9_MARKOVSKOE">
+      <rel_text>открытым множествам</rel_text>
+      <target>http://libmeta.ru/fme/article/2139_OTKRYTOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_10_MARKOVSKOE">
+      <rel_text>замкнутого множества</rel_text>
+      <target>http://libmeta.ru/fme/article/948_ZAMKNUTOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_11_MARKOVSKOE">
+      <rel_text>открытого множества</rel_text>
+      <target>http://libmeta.ru/fme/article/2139_OTKRYTOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_12_MARKOVSKOE">
+      <rel_text>быстро убывающих</rel_text>
+      <target>http://libmeta.ru/fme/article/290_BYSTRO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_13_MARKOVSKOE">
+      <rel_text>основных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/2116_OSNOVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1721_14_MARKOVSKOE">
+      <rel_text>линейная случайная функция</rel_text>
+      <target>http://libmeta.ru/fme/article/3346_HARAKTERISTIChESKIJ</target>
+    </relation>
+  </relations>
+  <text>случайная функция $URI[[http://libmeta.ru/fme/formula/aux/1721_1_MARKOVSKOE]]/URI$, определенная на некотором множестве $URI[[http://libmeta.ru/fme/formula/aux/1721_2_MARKOVSKOE]]/URI$ такая, что для всякой «области» $URI[[http://libmeta.ru/fme/formula/aux/1721_3_MARKOVSKOE]]/URI$ значения поля внутри $URI[[http://libmeta.ru/fme/formula/aux/1721_4_MARKOVSKOE]]/URI$ и вне $URI[[http://libmeta.ru/fme/formula/aux/1721_5_MARKOVSKOE]]/URI$ при условии, что фиксированы его значения на «границе» $URI[[http://libmeta.ru/fme/formula/aux/1721_6_MARKOVSKOE]]/URI$, условно независимы. При более подробном описании этого понятия следует различать два случая: случай дискретного множества $URI[[http://libmeta.ru/fme/formula/aux/1721_7_MARKOVSKOE]]/URI$ (графа) и случай непрерывного множества $URI[[http://libmeta.ru/fme/formula/aux/1721_8_MARKOVSKOE]]/URI$ (напр., $URI[[http://libmeta.ru/fme/formula/aux/1721_9_MARKOVSKOE]]/URI$ ).
+
+1) М.с. п. на граф е $URI[[http://libmeta.ru/fme/formula/aux/1721_10_MARKOVSKOE]]/URI$ со значениями в измеримом пространстве $URI[[http://libmeta.ru/fme/formula/aux/1721_11_MARKOVSKOE]]/URI$ это набор $URI[[http://libmeta.ru/fme/formula/aux/1721_12_MARKOVSKOE]]/URI$ случайных величин $URI[[http://libmeta.ru/fme/formula/aux/1721_13_MARKOVSKOE]]/URI$ со значениями в $URI[[http://libmeta.ru/fme/formula/aux/1721_14_MARKOVSKOE]]/URI$, определенных на нек-ром вероятностном пространстве $URI[[http://libmeta.ru/fme/formula/aux/1721_15_MARKOVSKOE]]/URI$ и помеченных точками из $URI[[http://libmeta.ru/fme/formula/aux/1721_16_MARKOVSKOE]]/URI$; здесь $URI[[http://libmeta.ru/fme/formula/aux/1721_17_MARKOVSKOE]]/URI$ нек-рая выделенная $URI[[http://libmeta.ru/fme/formula/aux/1721_18_MARKOVSKOE]]/URI$-алгебра подмножеств $URI[[http://libmeta.ru/fme/formula/aux/1721_19_MARKOVSKOE]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1721_20_MARKOVSKOE]]/URI$ вероятностная мера, заданная на множествах из $URI[[http://libmeta.ru/fme/formula/aux/1721_21_MARKOVSKOE]]/URI$. Пусть $URI[[http://libmeta.ru/fme/formula/aux/1721_22_MARKOVSKOE]]/URI$ для любого $URI[[http://libmeta.ru/fme/formula/aux/1721_23_MARKOVSKOE]]/URI$-подалгебра $URI[[http://libmeta.ru/fme/formula/aux/1721_24_MARKOVSKOE]]/URI$, порожденная величинами $URI[[http://libmeta.ru/fme/formula/aux/1721_25_MARKOVSKOE]]/URI$, то есть минимальная $URI[[http://libmeta.ru/fme/formula/aux/1721_26_MARKOVSKOE]]/URI$-подалгебра $URI[[http://libmeta.ru/fme/formula/aux/1721_27_MARKOVSKOE]]/URI$, относительно к-рой все эти величины измеримы. Для каждого множества $URI[[http://libmeta.ru/fme/formula/aux/1721_28_MARKOVSKOE]]/URI$ его гр а н и ц е й $URI[[http://libmeta.ru/fme/formula/aux/1721_29_MARKOVSKOE]]/URI$ называется совокупность точек $URI[[http://libmeta.ru/fme/formula/aux/1721_30_MARKOVSKOE]]/URI$, не принадлежащих $URI[[http://libmeta.ru/fme/formula/aux/1721_31_MARKOVSKOE]]/URI$, но соединенных хотя бы одним ребром графа $URI[[http://libmeta.ru/fme/formula/aux/1721_32_MARKOVSKOE]]/URI$ с точками из $URI[[http://libmeta.ru/fme/formula/aux/1721_33_MARKOVSKOE]]/URI$.
+
+Случайная функция $URI[[http://libmeta.ru/fme/formula/aux/1721_34_MARKOVSKOE]]/URI$ называется марковск и м поле м на $URI[[http://libmeta.ru/fme/formula/aux/1721_35_MARKOVSKOE]]/URI$, если для любого $URI[[http://libmeta.ru/fme/formula/aux/1721_36_MARKOVSKOE]]/URI$ значения поля внутри $URI[[http://libmeta.ru/fme/formula/aux/1721_37_MARKOVSKOE]]/URI$ и вне $URI[[http://libmeta.ru/fme/formula/aux/1721_38_MARKOVSKOE]]/URI$ статистически независимы относительно условного распределения $URI[[http://libmeta.ru/fme/formula/aux/1721_39_MARKOVSKOE]]/URI$, порожденного $URI[[http://libmeta.ru/fme/formula/aux/1721_40_MARKOVSKOE]]/URI$-алгеброй $URI[[http://libmeta.ru/fme/formula/aux/1721_41_MARKOVSKOE]]/URI$. Это означает, что для любых двух ограниченных функций $URI[[http://libmeta.ru/fme/formula/aux/1721_42_MARKOVSKOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1721_43_MARKOVSKOE]]/URI$, определенных на пространстве $URI[[http://libmeta.ru/fme/formula/aux/1721_44_MARKOVSKOE]]/URI$ и измеримых относительно $URI[[http://libmeta.ru/fme/formula/aux/1721_45_MARKOVSKOE]]/URI$-алгебр $URI[[http://libmeta.ru/fme/formula/aux/1721_46_MARKOVSKOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1721_47_MARKOVSKOE]]/URI$, соответственно, выполнено равенство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1721_1_MARKOVSKOE]]/URI
+\]
+
+(марковское свойство), где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1721_2_MARKOVSKOE]]/URI
+\]
+
+- условное среднее. Условное распределение $URI[[http://libmeta.ru/fme/formula/aux/1721_48_MARKOVSKOE]]/URI$, то есть отображение $URI[[http://libmeta.ru/fme/formula/aux/1721_49_MARKOVSKOE]]/URI$ пространства $URI[[http://libmeta.ru/fme/formula/aux/1721_50_MARKOVSKOE]]/URI$ в совокупность вероятностных мер на $URI[[http://libmeta.ru/fme/formula/aux/1721_51_MARKOVSKOE]]/URI$, измеримое относительно $URI[[http://libmeta.ru/fme/formula/aux/1721_52_MARKOVSKOE]]/URI$-алгебры $URI[[http://libmeta.ru/fme/formula/aux/1721_53_MARKOVSKOE]]/URI$ и однозначно определяемое условием
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1721_3_MARKOVSKOE]]/URI
+\]
+
+(где $URI[[http://libmeta.ru/fme/formula/aux/1721_54_MARKOVSKOE]]/URI$ - произвольная измеримая ограниченная функция на $URI[[http://libmeta.ru/fme/formula/aux/1721_55_MARKOVSKOE]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1721_56_MARKOVSKOE]]/URI$ - ограниченная функция, измеримая (см. [1]) относительно $URI[[http://libmeta.ru/fme/formula/aux/1721_57_MARKOVSKOE]]/URI$-алгебры $URI[[http://libmeta.ru/fme/formula/aux/1721_58_MARKOVSKOE]]/URI$ ), может быть представлена как набор условных распределений вероятностей
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1721_4_MARKOVSKOE]]/URI
+\]
+
+для значения поля $URI[[http://libmeta.ru/fme/formula/aux/1721_59_MARKOVSKOE]]/URI$ при условии, что фиксированы его значения $URI[[http://libmeta.ru/fme/formula/aux/1721_60_MARKOVSKOE]]/URI$ на границе $URI[[http://libmeta.ru/fme/formula/aux/1721_61_MARKOVSKOE]]/URI$. В случае, когда марковское свойство (1) имеет место лишь для конечных множеств $URI[[http://libmeta.ru/fme/formula/aux/1721_62_MARKOVSKOE]]/URI$, случайное поле $URI[[http://libmeta.ru/fme/formula/aux/1721_63_MARKOVSKOE]]/URI$ называется локально м а р к о в с к и м. Наконец, если $URI[[http://libmeta.ru/fme/formula/aux/1721_64_MARKOVSKOE]]/URI$ и марковское свойство выполняется для любой полурешетки $URI[[http://libmeta.ru/fme/formula/aux/1721_65_MARKOVSKOE]]/URI$, случайное поле называется це п ь Ю М а кова.
+
+2) М.с. П. класс иче ское $URI[[http://libmeta.ru/fme/formula/aux/1721_66_MARKOVSKOE]]/URI$ в пространстве $URI[[http://libmeta.ru/fme/formula/aux/1721_67_MARKOVSKOE]]/URI$ определяется аналогично, если в качестве $URI[[http://libmeta.ru/fme/formula/aux/1721_68_MARKOVSKOE]]/URI$ рассматриваются произвольные области $URI[[http://libmeta.ru/fme/formula/aux/1721_69_MARKOVSKOE]]/URI$ (или только ограниченные области в случае локального поля), а под $URI[[http://libmeta.ru/fme/formula/aux/1721_70_MARKOVSKOE]]/URI$ понимается обычная граница области $URI[[http://libmeta.ru/fme/formula/aux/1721_71_MARKOVSKOE]]/URI$. В этом случае условное распределение $URI[[http://libmeta.ru/fme/formula/aux/1721_72_MARKOVSKOE]]/URI$ относительно $URI[[http://libmeta.ru/fme/formula/aux/1721_73_MARKOVSKOE]]/URI$-алгебры $URI[[http://libmeta.ru/fme/formula/aux/1721_74_MARKOVSKOE]]/URI$ по-прежнему имеет наглядное представление, аналогичное (3). Если $URI[[http://libmeta.ru/fme/formula/aux/1721_75_MARKOVSKOE]]/URI$, а марковское свойство (1) выполняется для любой полупрямой $URI[[http://libmeta.ru/fme/formula/aux/1721_76_MARKOVSKOE]]/URI$, то соответствующее случайное поле в $URI[[http://libmeta.ru/fme/formula/aux/1721_77_MARKOVSKOE]]/URI$ называется м а рковс к и м случайны м проце с с о м.
+
+3) М.с. п. в $URI[[http://libmeta.ru/fme/formula/aux/1721_78_MARKOVSKOE]]/URI$ обобще н н ое - URI[[http://libmeta.ru/fme/relation/1721_14_MARKOVSKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1721_79_MARKOVSKOE]]/URI$, определенная в нек-ром пространстве $URI[[http://libmeta.ru/fme/formula/aux/1721_80_MARKOVSKOE]]/URI$ URI[[http://libmeta.ru/fme/relation/1721_13_MARKOVSKOE]]/URI (чаще всего это пространство $URI[[http://libmeta.ru/fme/formula/aux/1721_81_MARKOVSKOE]]/URI$ бесконечно гладких URI[[http://libmeta.ru/fme/relation/1721_12_MARKOVSKOE]]/URI функций $URI[[http://libmeta.ru/fme/formula/aux/1721_82_MARKOVSKOE]]/URI$ ). Если лля любого URI[[http://libmeta.ru/fme/relation/1721_11_MARKOVSKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1721_83_MARKOVSKOE]]/URI$ через $URI[[http://libmeta.ru/fme/formula/aux/1721_84_MARKOVSKOE]]/URI$ обозначить $URI[[http://libmeta.ru/fme/formula/aux/1721_85_MARKOVSKOE]]/URI$-подалгебру $URI[[http://libmeta.ru/fme/formula/aux/1721_86_MARKOVSKOE]]/URI$-алгебры $URI[[http://libmeta.ru/fme/formula/aux/1721_87_MARKOVSKOE]]/URI$, порожденную случайными величинами $URI[[http://libmeta.ru/fme/formula/aux/1721_88_MARKOVSKOE]]/URI$, supp $URI[[http://libmeta.ru/fme/formula/aux/1721_89_MARKOVSKOE]]/URI$, а для любого URI[[http://libmeta.ru/fme/relation/1721_10_MARKOVSKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1721_90_MARKOVSKOE]]/URI$ определить $URI[[http://libmeta.ru/fme/formula/aux/1721_91_MARKOVSKOE]]/URI$ как $URI[[http://libmeta.ru/fme/formula/aux/1721_92_MARKOVSKOE]]/URI$, где пересечение берется по всем URI[[http://libmeta.ru/fme/relation/1721_9_MARKOVSKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1721_93_MARKOVSKOE]]/URI$, содержащим $URI[[http://libmeta.ru/fme/formula/aux/1721_94_MARKOVSKOE]]/URI$, то определение URI[[http://libmeta.ru/fme/relation/1721_8_MARKOVSKOE]]/URI обобщенного случайного поля относительно URI[[http://libmeta.ru/fme/relation/1721_7_MARKOVSKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1721_95_MARKOVSKOE]]/URI$ вводится по-прежнему формулой (1). При этом, как и раньше, это поле называется м а рк о в ским, если оно URI[[http://libmeta.ru/fme/relation/1721_6_MARKOVSKOE]]/URI URI[[http://libmeta.ru/fme/relation/1721_5_MARKOVSKOE]]/URI относительно любой URI[[http://libmeta.ru/fme/relation/1721_4_MARKOVSKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1721_96_MARKOVSKOE]]/URI$. Следует отметить, что в случае обобщенных полей URI[[http://libmeta.ru/fme/relation/1721_3_MARKOVSKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1721_97_MARKOVSKOE]]/URI$ не имеет наглядного истолкования, аналогичного предыдущим случаям, поскольку, вообще говоря, нельзя определить сужение URI[[http://libmeta.ru/fme/relation/1721_2_MARKOVSKOE]]/URI на границу $URI[[http://libmeta.ru/fme/formula/aux/1721_98_MARKOVSKOE]]/URI$. Изучение обобщенных М. с. п. в $URI[[http://libmeta.ru/fme/formula/aux/1721_99_MARKOVSKOE]]/URI$ стимулируется задачами URI[[http://libmeta.ru/fme/relation/1721_1_MARKOVSKOE]]/URI, в к-рой существенную роль играют нек-рые специальные классы таких полей - так наз. $URI[[http://libmeta.ru/fme/formula/aux/1721_100_MARKOVSKOE]]/URI$ оде л и.</text>
+  <text_orig>случайная функция $\xi=\left\{\xi_{t}, t \in T\right\}$, определенная на некотором множестве $T$ такая, что для всякой «области» $V \subset T$ значения поля внутри $V$ и вне $V$ при условии, что фиксированы его значения на «границе» $\partial V$, условно независимы. При более подробном описании этого понятия следует различать два случая: случай дискретного множества $T$ (графа) и случай непрерывного множества $T$ (напр., $T=\mathbb{R}^{n}$ ).
+
+1) М.с. п. на граф е $T$ со значениями в измеримом пространстве $S-$ это набор $\xi=\left\{\xi_{t}, t \in T\right\}$ случайных величин $\xi_{t}$ со значениями в $S$, определенных на нек-ром вероятностном пространстве $(\Omega, \Sigma, \mu)$ и помеченных точками из $T$; здесь $\Sigma-$ нек-рая выделенная $\sigma$-алгебра подмножеств $\Omega$, а $\mu-$ вероятностная мера, заданная на множествах из $\Sigma$. Пусть $\Sigma_{A}$ для любого $A \subset T-\sigma$-подалгебра $\Sigma$, порожденная величинами $\left\{\xi_{t}, t \in A\right\}$, то есть минимальная $\sigma$-подалгебра $\Sigma$, относительно к-рой все эти величины измеримы. Для каждого множества $V \subset T$ его гр а н и ц е й $\partial V$ называется совокупность точек $t \in T$, не приналлежаших $V$, но соединенных хотя бы одним ребром графа $T$ с точками из $V$.
+
+Случайная функция $\xi=\left\{\xi_{t}, t \in T\right\}$ называется марковск и м поле м на $T$, если для любого $V \subset T$ значения поля внутри $V-\xi_{V}=\left\{\xi_{t}, t \in V\right\}$ и вне $V-\xi_{V^{\prime}}=\left\{\xi_{t}, t \in V^{\prime} \equiv T \backslash V\right\}$ статистически независимы относительно условного распределения $\mu\left(\cdot \mid \Sigma_{\partial V}\right)$, порожденного $\sigma$-алгеброй $\Sigma_{\partial V}$. Это означает, что для любых двух ограниченных функций $f_{V}$ и $g_{V^{\prime}}$, определенных на пространстве $\Omega$ и измеримых относительно $\sigma$-алгебр $\Sigma_{V}$ и $\Sigma_{V^{\prime}}$, соответственно, выполнено равенство
+
+\[
+\left\langle f_{V^{\prime}} \cdot g_{V^{\prime}}\right\rangle_{\partial V}=\left\langle f_{V}\right\rangle_{\partial V} \cdot\left\langle g_{V^{\prime}}\right\rangle_{\partial V}
+\]
+
+(марковское свойство), где
+
+\[
+\langle\cdot\rangle_{\partial V} \equiv \int_{\Omega} \cdot d \mu\left(\omega \mid \Sigma_{\partial V}\right)
+\]
+
+- условное среднее. Условное распределение $\mu\left(\cdot \mid \Sigma_{\partial V}\right)$, то есть отображение $\omega \rightarrow \mu(\cdot \mid \omega)$ пространства $\Omega$ в совокупность вероятностных мер на $\Omega$, измеримое относительно $\sigma$-алгебры $\Sigma_{\partial V}$ и однозначно определяемое условием
+
+\[
+\int_{\Omega} f h d \mu=\int_{\Omega} h(\omega)\left[\int_{\Omega} f\left(\omega^{\prime}\right) d \mu\left(\omega^{\prime} \mid \omega\right)\right] d \mu(\omega)
+\]
+
+(где $f$ - произвольная измеримая ограниченная функция на $\Omega$, а $h$ - ограниченная функция, измеримая (см. [1]) относительно $\sigma$-алгебры $\Sigma_{\partial V}$ ), может быть представлена как набор условных распределений вероятностей
+
+\[
+\mu\left(\cdot \mid \xi_{\partial V}=\bar{\xi}_{\partial V}\right)
+\]
+
+для значения поля $\xi_{V}$ при условии, что фиксированы его значения $\left.\xi\right|_{\partial V}=\xi_{\partial V}$ на границе $\partial V$. В случае, когда марковское свойство (1) имеет место лишь для конечных множеств $V \subset T$, случайное поле $\left\{\xi_{t}, t \in T\right\}$ называется локально м а р к о в с к и м. Наконец, если $T=\mathbb{Z}$ и марковское свойство выполняется для любой полурешетки $V_{k}=\{t \in \mathbb{Z}, t \geqslant k\}$, случайное поле называется це п ь Ю М а кова.
+
+2) М.с. П. класс иче ское $\left\{\xi_{t}, t \in \mathbb{R}^{n}\right\}$ в пространстве $\mathbb{R}^{n}$ определяется аналогично, если в качестве $V$ рассматриваются произвольные области $V \subset \mathbb{R}^{n}$ (или только ограниченные области в случае локального поля), а под $\partial V$ понимается обычная граница области $V$. В этом случае условное распределение $\mu\left(\cdot \mid \Sigma_{\partial V}\right)$ относительно $\sigma$-алгебры $\Sigma_{\partial V}$ по-прежнему имеет наглядное представление, аналогичное (3). Если $n=1$, а марковское свойство (1) выполняется для любой полупрямой $V_{s}=\{t \in \mathbb{R}, t&gt;s\}$, то соответствуюшее случайное поле в $\mathbb{R}$ называется м а рковс к и м случайны м проце с с о м.
+
+3) М.с. п. в $\mathbb{R}^{n}$ обобще н н ое - линейная случайная функция $\xi=\left\{\xi_{\varphi}, \varphi \in K\right\}$, определенная в нек-ром пространстве $K$ основных функций (чаще всего это пространство $S\left(\mathbb{R}^{n}\right)$ бесконечно гладких быстро убывающих функций $\varphi(t), t \in \mathbb{R}^{n}$ ). Если лля любого открытого множества $V \subset \mathbb{R}^{n}$ через $\Sigma_{V}$ обозначить $\sigma$-подалгебру $\sigma$-алгебры $\Sigma$, порожденную случайными величинами $\left\{\xi_{\varphi}\right.$, supp $\left.\varphi \subset V\right\}$, а для любого замкнутого множества $F$ определить $\Sigma_{F}$ как $\cap \Sigma_{V}$, где пересечение берется по всем открытым множествам $V$, содержащим $F$, то определение марковского свойства обобщенного случайного поля относительно открытого множества $V$ вводится по-прежнему формулой (1). При этом, как и раньше, это поле называется м а рк о в ским, если оно обладает марковским свойством относительно любой области $V$. Следует отметить, что в случае обобщенных полей условное распределение $\mu\left(\cdot \mid \Sigma_{\partial V}\right)$ не имеет наглядного истолкования, аналогичного предыдущим случаям, поскольку, вообще говоря, нельзя определить сужение обобщенной функции на границу $\partial V$. Изучение обобщенных М. с. п. в $\mathbb{R}^{n}$ стимулируется задачами квантовой теории поля, в к-рой существенную роль играют нек-рые специальные классы таких полей - так наз. $P[\varphi]-м$ оде л и.
+
+Лит.: [1] Доб рушин Р. Л., М инлос Р. А., в сб.: Задачи механики и математической физики, М., 1976, с. 117-65; [2] Сай м о н Б., Модель $P[\varphi]_{2}$ евклидовой квантовой теории поля, пер. с англ., М., 1976.
+
+Р. А. Минлос.</text_orig>
+</article>

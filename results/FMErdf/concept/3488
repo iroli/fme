@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_911_DYNKINA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_911_DYNKINA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3488</core:url>
+    <lbm:descriptor><![CDATA[ДЫНКИНА ДИАГРАММА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#776"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26017"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_729"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_857"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26018"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_718_GRA">граф</a>, определяемый базисом <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26017">$$\delta_{1}, \ldots, \Delta_{\mu}$$</a> пространства гомологий, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоящим</a> из исчезающих циклов. Д. д. имеет $URI[[http://libmeta.ru/fme/formula/aux/911_2_DYNKINA]]/URI$ вершин, $URI[[http://libmeta.ru/fme/formula/aux/911_3_DYNKINA]]/URI$-я и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_857">$$j$$</a>-я вершины к-рой соединены ребром кратности <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26018">$$\left(\delta_{i}{ }^{\circ} \Delta_{j}\right)(\cdot \circ \cdot)$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI">симметричная</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2210_PERESEChENIJ">пересечений форма</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#776">С. В. Чмутов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[граф, определяемый базисом $\Delta_{1}, \ldots, \Delta_{\mu}$ пространства гомологий, состоящим из исчезаюцих циклов. Д. д. имеет $\mu$ вершин, $i$-я и $j$-я вершины к-рой соединены ребром кратности $\left(\Delta_{i}{ }^{\circ} \Delta_{j}\right)(\cdot \circ \cdot)$ - симметричная пересечений форма.
+
+С. В. Чмутов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2210_PERESEChENIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_718_GRA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_10312">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>&#x02234;</mo><mspace width="1em" /><mo stretchy="false">&#x00028;</mo><mi>f</mi><mo>&#x0002C;</mo><mi>g</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mo>&#x0222B;</mo><mi>f</mi><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo stretchy="false">&#x00029;</mo><mi>g</mi><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo stretchy="false">&#x00029;</mo><msup><mi>d</mi><mrow><mn>3</mn></mrow></msup><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\therefore \quad(f, g)=\int f(\boldsymbol{x}) g(\boldsymbol{x}) d^{3} \boldsymbol{x},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

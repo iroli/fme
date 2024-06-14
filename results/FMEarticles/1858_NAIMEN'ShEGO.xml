@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1858_NAIMEN'ShEGO" alphabetic_pos="1860">
+  <title>НАИМЕНЬШЕГО ДЕЙСТВИЯ ПРИНЦИП, ПРИНЦИП СТАЦИОНАРНОГО ДЕЙСТВИЯ</title>
+  <authors>
+    <author>С. М. Тар2</author>
+  </authors>
+  <pages>
+    <start>374</start>
+    <end>374</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1858_1_NAIMEN'ShEGO">S=\int_{t_{0}}^{t_{1}} L d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1858_2_NAIMEN'ShEGO">\delta S=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1858_3_NAIMEN'ShEGO">S_{0}=\int_{t_{0}}^{t_{1}} 2 T d t \quad \text { или } \quad S_{0}=\int_{A}^{B} \sum_{i} p_{i} d q_{i},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1858_4_NAIMEN'ShEGO">\Delta S_{0}=0,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_1_NAIMEN'ShEGO">t_{1}-t_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_2_NAIMEN'ShEGO">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_3_NAIMEN'ShEGO">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_4_NAIMEN'ShEGO">\dot{q}_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_5_NAIMEN'ShEGO">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_6_NAIMEN'ShEGO">t_{1}-t_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_7_NAIMEN'ShEGO">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_8_NAIMEN'ShEGO">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_9_NAIMEN'ShEGO">t_{1}-t_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_10_NAIMEN'ShEGO">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_11_NAIMEN'ShEGO">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_12_NAIMEN'ShEGO">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_13_NAIMEN'ShEGO">p_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_14_NAIMEN'ShEGO">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_15_NAIMEN'ShEGO">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_16_NAIMEN'ShEGO">s_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1858_17_NAIMEN'ShEGO">\delta</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1858_1_NAIMEN'ShEGO">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1858_2_NAIMEN'ShEGO">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1858_3_NAIMEN'ShEGO">
+      <rel_text>механич</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>один из вариационных принципов классической механики, согласно которому для данного класса сравниваемых друг с другом движений механической системы действительным является то, для которого физическая величина, называемая действием, имеет наименьшее (точнее, стационарное) значение. Обычно Н. д. п. применяется в одной из двух форм.
+
+a) Н.д.П. в форме Гамильтона- Остроградс к о го. В этом случае под действием за промежуток времени $URI[[http://libmeta.ru/fme/formula/aux/1858_1_NAIMEN'ShEGO]]/URI$ понимают величину
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1858_1_NAIMEN'ShEGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1858_2_NAIMEN'ShEGO]]/URI$ - Лагранжа функция, зависящая от обобщенных координат $URI[[http://libmeta.ru/fme/formula/aux/1858_3_NAIMEN'ShEGO]]/URI$ системы, обобщенных скоростей $URI[[http://libmeta.ru/fme/formula/aux/1858_4_NAIMEN'ShEGO]]/URI$ и времени $URI[[http://libmeta.ru/fme/formula/aux/1858_5_NAIMEN'ShEGO]]/URI$. Н. д. П. в этой форме устанавливает, что среди всех кинематически возможных перемещений системы из одной конфигурации в другую (близкую к первой), совершаемых за один и тот же промежуток времени $URI[[http://libmeta.ru/fme/formula/aux/1858_6_NAIMEN'ShEGO]]/URI$, действительным является то, для к-рого действие $URI[[http://libmeta.ru/fme/formula/aux/1858_7_NAIMEN'ShEGO]]/URI$ будет наименьшим. Математич. выражение Н. д. П. имеет в этом случае вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1858_2_NAIMEN'ShEGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1858_8_NAIMEN'ShEGO]]/URI$ - символ неполной (изохронной) вариации, то есть, в отличие от полной вариации, здесь время не варьируется.
+
+б) Н.д.П. в форме Мопертюи-Лагранжа. В этом случае под действием за промежуток времени $URI[[http://libmeta.ru/fme/formula/aux/1858_9_NAIMEN'ShEGO]]/URI$, в течение к-рого система перемещается из конфигурации $URI[[http://libmeta.ru/fme/formula/aux/1858_10_NAIMEN'ShEGO]]/URI$ в конфигурацию $URI[[http://libmeta.ru/fme/formula/aux/1858_11_NAIMEN'ShEGO]]/URI$, понимают величину
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1858_3_NAIMEN'ShEGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1858_12_NAIMEN'ShEGO]]/URI$ кинетич. энергия системы, $URI[[http://libmeta.ru/fme/formula/aux/1858_13_NAIMEN'ShEGO]]/URI$ обобщенные импульсы. Н. Д. п. в этой форме устанавливает, что среди всех кинематически возможных перемещений системы из конфигурации $URI[[http://libmeta.ru/fme/formula/aux/1858_14_NAIMEN'ShEGO]]/URI$ в близкую к ней конфигурацию $URI[[http://libmeta.ru/fme/formula/aux/1858_15_NAIMEN'ShEGO]]/URI$, совершаемых при сохранении одной и той же величины полной энергии системы, действительным является то, для к-рого действие $URI[[http://libmeta.ru/fme/formula/aux/1858_16_NAIMEN'ShEGO]]/URI$ будет наименьшим. Математич. выражение Н. Д. П. в этом случае имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1858_4_NAIMEN'ShEGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1858_17_NAIMEN'ShEGO]]/URI$ - символ полной вариации (в отличие от принципа Гамильтона-Остроградского, здесь варьируются не только координаты и скорости, но и время перемещения системы из одной конфигурации в другую).
+
+Н. д. П. в форме (2) справедлив только для консервативных и притом голономных систем. Н. д. П. в форме (1) является более общим и, в частности, может быть распространен на неконсервативные системы.
+
+Н. д. п. пользуются для составления уравнений движения URI[[http://libmeta.ru/fme/relation/1858_3_NAIMEN'ShEGO]]/URI. систем и для исследования общих свойств этих движений. При соответствующем обобщении понятий Н. д. п. находит приложения в URI[[http://libmeta.ru/fme/relation/1858_2_NAIMEN'ShEGO]]/URI непрерывной среды, в электродинамике, квантовой URI[[http://libmeta.ru/fme/relation/1858_1_NAIMEN'ShEGO]]/URI и др.</text>
+  <text_orig>один из вариационных принципов классической механики, согласно которому для данного класса сравниваемых друг с другом движений механической системы действительным является то, для которого физическая величина, называемая действием, имеет наименьшее (точнее, стационарное) значение. Обычно Н. д. п. применяется в одной из двух форм.
+
+a) Н.д.П. в форме Гамильтона- Остроградс к о го. В этом случае под действием за промежуток времени $t_{1}-t_{0}$ понимают величину
+
+\[
+S=\int_{t_{0}}^{t_{1}} L d t
+\]
+
+где $L$ - Лагранжа функция, зависящая от обобщенных координат $q_{i}$ системы, обобщенных скоростей $\dot{q}_{i}$ и времени $t$. Н. д. П. в этой форме устанавливает, что среди всех кинематически возможных перемещений системы из одной конфигурации в другую (близкую к первой), совершаемых за один и тот же промежуток времени $t_{1}-t_{0}$, действительным является то, для к-рого действие $S$ будет наименьшим. Математич. выражение Н. д. П. имеет в этом случае вид
+
+\[
+\delta S=0
+\]
+
+где $\delta$ - символ неполной (изохронной) вариации, то есть, в отличие от полной вариации, здесь время не варьируется.
+
+б) Н.д.П. в форме Мопертюи-Лагранжа. В этом случае под действием за промежуток времени $t_{1}-t_{0}$, в течение к-рого система перемещается из конфигурации $A$ в конфигурацию $B$, понимают величину
+
+\[
+S_{0}=\int_{t_{0}}^{t_{1}} 2 T d t \quad \text { или } \quad S_{0}=\int_{A}^{B} \sum_{i} p_{i} d q_{i},
+\]
+
+где $T-$ кинетич. энергия системы, $p_{i}-$ обобщенные импульсы. Н. Д. п. в этой форме устанавливает, что среди всех кинематически возможных перемещений системы из конфигурации $A$ в близкую к ней конфигурацию $B$, совершаемых при сохранении одной и той же величины полной энергии системы, действительным является то, для к-рого действие $S_{0}$ будет наименьшим. Математич. выражение Н. Д. П. в этом случае имеет вид:
+
+\[
+\Delta S_{0}=0,
+\]
+
+где $\Delta$ - символ полной вариации (в отличие от принципа Гамильтона-Остроградского, здесь варьируются не только координаты и скорости, но и время перемещения системы из одной конфигурации в другую).
+
+Н. д. П. в форме (2) справедлив только для консервативных и притом голономных систем. Н. д. П. в форме (1) является более общим и, в частности, может быть распространен на неконсервативные системы.
+
+Н. д. п. пользуются для составления уравнений движения механич. систем и для исследования общих свойств этих движений. При соответствующем обобщении понятий Н. д. п. находит приложения в механике непрерывной среды, в электродинамике, квантовой механике и др.
+
+С. М. Тар2.</text_orig>
+</article>

@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3365_HOPFA" alphabetic_pos="3367">
+  <title>ХОПФА УРАВНЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>657</start>
+    <end>657</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3365_1_HOPFA">\begin{gathered}\partial \chi(t, w) / \partial t=v(\partial \chi / \partial w, \Delta w)- \\-i \sum_{j=1}^{3}\left(\partial^{2} \chi / \partial w^{j}(\cdot) \delta w(\cdot), \partial w(\cdot) / \partial x^{j}\right)+i(w, f(t, \cdot)) \chi(t, w) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3365_2_HOPFA">\begin{gathered}\delta \chi / \delta w(x)=\left(\delta x / \delta w^{1}(x), \ldots, \delta \chi / \delta w^{3}(x)\right), \\\delta^{2} \chi / \delta w^{j}(x) \delta w(x)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3365_3_HOPFA">(u, v)=\int_{\Omega} u^{j}(x) v^{j}(x) d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3365_4_HOPFA">w(x) \in H^{2} \equiv\left\{\left(w^{1}, w^{2}, w^{3}\right) \in\left(H^{2}(\Omega)\right)^{3}: \operatorname{div} w=0,\left.w\right|_{\partial \Omega}=0\right\},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3365_1_HOPFA">\chi(t, w)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3365_2_HOPFA">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3365_3_HOPFA">f(t, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3365_4_HOPFA">l_{2}(\omega), \Omega \subset \mathbb{R}^{3}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3365_5_HOPFA">t \in[0, T]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3365_6_HOPFA">h^{2}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3365_7_HOPFA">l_{2}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3365_8_HOPFA">\chi(t, w)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/3365_1_HOPFA">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3365_2_HOPFA">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3365_3_HOPFA">
+      <rel_text>скалярное произведение</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+  </relations>
+  <text>дифференциальное уравнение для функционала $URI[[http://libmeta.ru/fme/formula/aux/3365_1_HOPFA]]/URI$, имеющее вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3365_1_HOPFA]]/URI
+\]
+
+Здесь
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3365_2_HOPFA]]/URI
+\]
+
+- вариационные производные, $URI[[http://libmeta.ru/fme/formula/aux/3365_2_HOPFA]]/URI$ - оператор Лапласа, $URI[[http://libmeta.ru/fme/formula/aux/3365_3_HOPFA]]/URI$ - плотность внешних сил,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3365_3_HOPFA]]/URI
+\]
+
+- URI[[http://libmeta.ru/fme/relation/3365_3_HOPFA]]/URI в $URI[[http://libmeta.ru/fme/formula/aux/3365_4_HOPFA]]/URI$ ограниченная URI[[http://libmeta.ru/fme/relation/3365_2_HOPFA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/3365_5_HOPFA]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3365_4_HOPFA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3365_6_HOPFA]]/URI$ - пространство функций Соболева, принадлежащих $URI[[http://libmeta.ru/fme/formula/aux/3365_7_HOPFA]]/URI$ вместе с производными до второго порядка. Если URI[[http://libmeta.ru/fme/relation/3365_1_HOPFA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3365_8_HOPFA]]/URI$ удовлетворяет Х.у. и является</text>
+  <text_orig>дифференциальное уравнение для функционала $\chi(t, w)$, имеющее вид:
+
+\[
+\begin{gathered}
+\partial \chi(t, w) / \partial t=v(\partial \chi / \partial w, \Delta w)- \\
+-i \sum_{j=1}^{3}\left(\partial^{2} \chi / \partial w^{j}(\cdot) \delta w(\cdot), \partial w(\cdot) / \partial x^{j}\right)+i(w, f(t, \cdot)) \chi(t, w) .
+\end{gathered}
+\]
+
+Здесь
+
+\[
+\begin{gathered}
+\delta \chi / \delta w(x)=\left(\delta x / \delta w^{1}(x), \ldots, \delta \chi / \delta w^{3}(x)\right), \\
+\delta^{2} \chi / \delta w^{j}(x) \delta w(x)
+\end{gathered}
+\]
+
+- вариационные производные, $\Delta$ - оператор Лапласа, $f(t, x)$ - плотность внешних сил,
+
+\[
+(u, v)=\int_{\Omega} u^{j}(x) v^{j}(x) d x
+\]
+
+- скалярное произведение в $L_{2}(\Omega), \Omega \subset \mathbb{R}^{3}-$ ограниченная область, $t \in[0, T]$,
+
+\[
+w(x) \in H^{2} \equiv\left\{\left(w^{1}, w^{2}, w^{3}\right) \in\left(H^{2}(\Omega)\right)^{3}: \operatorname{div} w=0,\left.w\right|_{\partial \Omega}=0\right\},
+\]
+
+где $H^{2}(\Omega)$ - пространство функций Соболева, принадлежащих $L_{2}(\Omega)$ вместе с производными до второго порядка. Если функционал $\chi(t, w)$ удовлетворяет Х.у. и является</text_orig>
+</article>

@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3194_URSELLA" alphabetic_pos="3196">
+  <title>УРСЕЛЛА ФУНКЦИИ</title>
+  <authors/>
+  <pages>
+    <start>624</start>
+    <end>624</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3194_1_URSELLA">\exp \left\{-\beta U\left(X_{n}\right)\right\}=\sum_{k=1}^{n} \sum_{\bigcup_{1}^{k} X_{j}=X_{n}} \prod_{j=1}^{k} \varphi\left(X_{j}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3194_2_URSELLA">\varphi\left(X_{n}\right)=\sum_{\gamma} \prod_{i&lt;j}^{\gamma}\left(\exp \left\{-\beta \Phi\left(x_{i}-x_{j}\right)\right\}-1\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3194_1_URSELLA">\varphi\left(x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3194_2_URSELLA">u\left(x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3194_3_URSELLA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3194_4_URSELLA">\left(x_{n}=\left(x_{1}, \ldots, x_{n}\right) \in \mathbb{R}^{d n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3194_5_URSELLA">\phi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3194_6_URSELLA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3194_7_URSELLA">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3194_8_URSELLA">\gamma</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/3194_1_URSELLA">
+      <rel_text>потенциал взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/387_VZAIMODEJSTVIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3194_2_URSELLA">
+      <rel_text>парный</rel_text>
+      <target>http://libmeta.ru/fme/article/2173_PARTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3194_3_URSELLA">
+      <rel_text>энергия</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3194_4_URSELLA">
+      <rel_text>потенциальная энергия</rel_text>
+      <target>http://libmeta.ru/fme/article/2340_POTENTsIAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3194_5_URSELLA">
+      <rel_text>Больцмана функции</rel_text>
+      <target>http://libmeta.ru/fme/article/256_BOL'TsMANA</target>
+    </relation>
+  </relations>
+  <text>усеченные URI[[http://libmeta.ru/fme/relation/3194_5_URSELLA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3194_1_URSELLA]]/URI$, определяемые из соотношения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3194_1_URSELLA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3194_2_URSELLA]]/URI$ - URI[[http://libmeta.ru/fme/relation/3194_4_URSELLA]]/URI непрерывной $URI[[http://libmeta.ru/fme/formula/aux/3194_3_URSELLA]]/URI$-частичной системы $URI[[http://libmeta.ru/fme/formula/aux/3194_4_URSELLA]]/URI$. Если эта URI[[http://libmeta.ru/fme/relation/3194_3_URSELLA]]/URI выражается через URI[[http://libmeta.ru/fme/relation/3194_2_URSELLA]]/URI URI[[http://libmeta.ru/fme/relation/3194_1_URSELLA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3194_5_URSELLA]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3194_2_URSELLA]]/URI
+\]
+
+где сумма берется по всем связным графам $URI[[http://libmeta.ru/fme/formula/aux/3194_6_URSELLA]]/URI$ с вершинами $URI[[http://libmeta.ru/fme/formula/aux/3194_7_URSELLA]]/URI$, а произведение - по всем ребрам графа $URI[[http://libmeta.ru/fme/formula/aux/3194_8_URSELLA]]/URI$.</text>
+  <text_orig>усеченные Больцмана функции $\varphi\left(X_{n}\right)$, определяемые из соотношения
+
+\[
+\exp \left\{-\beta U\left(X_{n}\right)\right\}=\sum_{k=1}^{n} \sum_{\bigcup_{1}^{k} X_{j}=X_{n}} \prod_{j=1}^{k} \varphi\left(X_{j}\right),
+\]
+
+где $U\left(X_{n}\right)$ - потенциальная энергия непрерывной $n$-частичной системы $\left(X_{n}=\left(x_{1}, \ldots, x_{n}\right) \in \mathbb{R}^{d n}\right)$. Если эта энергия выражается через парный потенциал взаимодействия $\Phi(x)$, то
+
+\[
+\varphi\left(X_{n}\right)=\sum_{\gamma} \prod_{i&lt;j}^{\gamma}\left(\exp \left\{-\beta \Phi\left(x_{i}-x_{j}\right)\right\}-1\right)
+\]
+
+где сумма берется по всем связным графам $\gamma$ с вершинами $x_{1}, \ldots, x_{n}$, а произведение - по всем ребрам графа $\gamma$.</text_orig>
+</article>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2061_ODNORODNYE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2061_ODNORODNYE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1179</core:url>
+    <lbm:descriptor><![CDATA[ОДНОРОДНЫЕ КООРДИНАТЫ ТОЧКИ $p$ ПРОЕКТИВНОГО ПРОСТРАНСТВА $P(V)$, ПОРОЖДЕННОГО ВЕКТОРНЫМ ПРОСТРАНСТВОМ $V$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1366"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9097"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_64"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_86"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9098"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9099"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9100"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>координаты, определяемые следующим образом. Каждая точка <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9097">$$p \in P(V)$$</a> однозначно определяется любым ненулевым вектором $URI[[http://libmeta.ru/fme/formula/aux/2061_2_ODNORODNYE]]/URI$ на соответствующей прямой в $URI[[http://libmeta.ru/fme/formula/aux/2061_3_ODNORODNYE]]/URI$. В $URI[[http://libmeta.ru/fme/formula/aux/2061_4_ODNORODNYE]]/URI$ выбирают базис <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9098">$$e_{0}, \ldots, e_{n}$$</a>. Тогда координаты <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9099">$$\left(x_{0}, \ldots, x_{n}\right)$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектора</a> $URI[[http://libmeta.ru/fme/formula/aux/2061_7_ODNORODNYE]]/URI$ в этом базисе называются однородными коорд инатам и точки $URI[[http://libmeta.ru/fme/formula/aux/2061_8_ODNORODNYE]]/URI$. Они определены с точностью до умножения на ненулевой скаляр. Традиционное обозначение $URI[[http://libmeta.ru/fme/formula/aux/2061_9_ODNORODNYE]]/URI$<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1366">В. В. Трофимов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[координаты, определяемые следующим образом. Каждая точка $p \in P(V)$ однозначно определяется любым ненулевым вектором $\boldsymbol{v}$ на соответствующей прямой в $V$. В $V$ выбирают базис $e_{0}, \ldots, e_{n}$. Тогда координаты $\left(x_{0}, \ldots, x_{n}\right)$ вектора $\boldsymbol{v}$ в этом базисе называются однородными коорд инатам и точки $p$. Они определены с точностью до умножения на ненулевой скаляр. Традиционное обозначение $\left(x_{0}: \ldots: x_{n}\right)$
+
+В. В. Трофимов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

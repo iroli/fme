@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_5047">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x02016;</mo><msub><mi>P</mi><mrow><mi>K</mi></mrow></msub><msub><mi>U</mi><mrow><mi>t</mi></mrow></msub><mi>f</mi><mo stretchy="true" fence="true" form="postfix">&#x02016;</mo></mrow><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x02016;</mo><msub><mi>Z</mi><mrow><mi>t</mi></mrow></msub><mi>f</mi><mo stretchy="true" fence="true" form="postfix">&#x02016;</mo></mrow><mi>&#x02A7D;</mi><msup><mi>e</mi><mrow><mo>&#x02212;</mo><mi>&#x003B3;</mi><mi>t</mi></mrow></msup><mo fence="false" stretchy="false">&#x02016;</mo><mi>f</mi><mo fence="false" stretchy="false">&#x02016;</mo><mo>&#x0002C;</mo><mi>f</mi><mo>&#x02208;</mo><mi>K</mi><mo>&#x0002C;</mo><mi>t</mi><mi>&#x02A7E;</mi><mn>0</mn><mo>&#x0002E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\left\|P_{K} U_{t} f\right\|=\left\|Z_{t} f\right\| \leqslant e^{-\gamma t}\|f\|, f \in K, t \geqslant 0 .$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

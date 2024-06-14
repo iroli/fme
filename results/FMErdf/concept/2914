@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_395_VIGNERA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_395_VIGNERA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2914</core:url>
+    <lbm:descriptor><![CDATA[ВИГНЕРА ФОРМУЛА ДЛЯ ПОСЛЕДОВАТЕЛЬНЫХ ИЗМЕРЕНИЙ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#228"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#21653"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12773"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21654"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_857"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10954"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21655"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21656"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21657"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>формула, дающая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2533_RASPREDELENIE">распределение вероятностей</a> исходов последовательности <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1188_KVANTOVOE">измерений квантовых</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдаемых</a>. Пусть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12773">$$x_{1}, \ldots, X_{n}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдаемые</a> с чисто точечным спектром, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21654">$$e_{j}(x)-$$</a> спектральный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO">проектор</a> $URI[[http://libmeta.ru/fme/formula/aux/395_3_VIGNERA]]/URI$-й <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдаемой</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2844_SOBSTVENNOE">отвечающей собственному значению</a> $URI[[http://libmeta.ru/fme/formula/aux/395_4_VIGNERA]]/URI$. Тогда вероятность <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получить</a> значения $URI[[http://libmeta.ru/fme/formula/aux/395_5_VIGNERA]]/URI$ при <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2334_POSLEDEJSTVI">последователь-</a> ном точном измерении <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA">наблюдаемых</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10954">$$x_{1}, \ldots, X_{n}$$</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоянии</a>, задаваемом оператором <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотности</a>, есть<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21655">$$\mu_{\rho}\left(x_{1}, \ldots, x_{n}\right)=\operatorname{Tr} E_{n}\left(x_{n}\right) U_{n-1} \ldots U_{1} E\left(x_{1}\right) \rho E\left(x_{1}\right) U_{1}^{*} \ldots U_{n-1}^{*} E_{n}\left(x_{n}\right)$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21656">$$u_{j}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3181_UNITARNYJ">унитарный оператор</a> эволюции между $URI[[http://libmeta.ru/fme/formula/aux/395_9_VIGNERA]]/URI$-м и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21657">$$(j+1)-$$</a> м измерением.<BR/></P><P>См. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_454_VOSPROIZVODIMOSTI">Воспроизводимости гипотеза</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1188_KVANTOVOE">Квантовое измерение</a>, Xaoc.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#21653">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#68">Вигнер Е.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#21653">Этюды о симметрии, пер. с англ., М., 1971, c. $141-59$.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#228">А. С. Холево</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[формула, дающая распределение вероятностей исходов последовательности измерений квантовых наблюдаемых. Пусть $X_{1}, \ldots, X_{n}-$ наблюдаемые с чисто точечным спектром, $E_{j}(x)-$ спектральный проектор $j$-й наблюдаемой, отвечающей собственному значению $x$. Тогда вероятность получить значения $x_{1}, \ldots, x_{n}$ при последователь- ном точном измерении наблюдаемых $X_{1}, \ldots, X_{n}$ в состоянии, задаваемом оператором плотности, есть
+
+$\mu_{\rho}\left(x_{1}, \ldots, x_{n}\right)=\operatorname{Tr} E_{n}\left(x_{n}\right) U_{n-1} \ldots U_{1} E\left(x_{1}\right) \rho E\left(x_{1}\right) U_{1}^{*} \ldots U_{n-1}^{*} E_{n}\left(x_{n}\right)$, где $U_{j}-$ унитарный оператор эволюции между $j$-м и $(j+1)-$ м измерением.
+
+См. Воспроизводимости гипотеза, Квантовое измерение, Xaoc.
+
+Лum.: [1] В и г н е р Е., Этюды о симметрии, пер. с англ., М., 1971, c. $141-59$.
+
+А. С. Холево]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1188_KVANTOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_454_VOSPROIZVODIMOSTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3181_UNITARNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2334_POSLEDEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2844_SOBSTVENNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1853_NABLJuDAEMA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1188_KVANTOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2533_RASPREDELENIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1160_pq-" alphabetic_pos="1162">
+  <title>pq- И qp-КВАНТОВАНИЕ</title>
+  <authors>
+    <author>М. А. Шубин</author>
+  </authors>
+  <pages>
+    <start>243</start>
+    <end>244</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Бе рез и н Ф.А., Ш уб и н М.А., Уравнение Шредингера, М., 1983.</literature_orig>
+    <unit>
+      <author>Березин Ф. А.</author>
+      <author>Шубин М. А.</author>
+      <title>Уравнение Шредингера</title>
+      <publication>М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1160_1_pq-">\left[\hat{q}_{j}, \hat{q}_{k}\right]=\left[\hat{p}_{j}, \hat{p}_{k}\right]=0, \quad\left[\hat{p}_{j}, \hat{q}_{k}\right]=\frac{\hbar}{i} \delta_{i k},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1160_2_pq-">\begin{gathered}\hat{f}_{p q} u(x)=(2 \pi \hbar)^{-n} \int e^{\frac{i}{\hbar} p \cdot(x-y)} f(p, y) u(y) d y \\\hat{f}_{q p} u(x)=(2 \pi \hbar)^{-n} \int e^{\frac{i}{\hbar} p \cdot(x-y)} f(p, x) u(y) d y .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_1_pq-">\mathbb{r}^{2 n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_2_pq-">p_{1}^{\alpha_{1}} \ldots p_{n}^{\alpha_{n}} q_{1}^{\beta_{1}} \ldots q_{n}^{\beta_{n}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_3_pq-">\hat{p}_{1}^{\alpha_{1}} \ldots \hat{p}_{n}^{\alpha_{n}} \hat{q}_{1}^{\beta_{1}} \ldots \hat{q}_{n}^{\beta_{n}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_4_pq-">p q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_5_pq-">\hat{q}_{j}, \hat{p}_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_6_pq-">\hbar-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_7_pq-">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_8_pq-">l^{2}\left(\mathbb{r}_{x}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_9_pq-">\left.\hat{q}_{j}=x_{j}, \hat{p}_{j}=\frac{\hbar}{t} \frac{\partial}{\partial x_{j}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_10_pq-">p q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_11_pq-">q p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_12_pq-">f=f(p, q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_13_pq-">\hat{f}_{p q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1160_14_pq-">\hat{f}_{q p}</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/1160_1_pq-">
+      <rel_text>Квазисредние</rel_text>
+      <target>http://libmeta.ru/fme/article/1138_KVAZIIMPUL'</target>
+    </relation>
+  </relations>
+  <text>квантования алгебры функций на линейном фазовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/1160_1_pq-]]/URI$, в которых функциям (символам) вида $URI[[http://libmeta.ru/fme/formula/aux/1160_2_pq-]]/URI$ ставятся в соответствие операторы $URI[[http://libmeta.ru/fme/formula/aux/1160_3_pq-]]/URI$ в случае $URI[[http://libmeta.ru/fme/formula/aux/1160_4_pq-]]/URI$-кван-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_beb97638694792137dd2g-1.jpg?height=51&amp;width=818&amp;top_left_y=1642&amp;top_left_x=928)
+$URI[[http://libmeta.ru/fme/formula/aux/1160_5_pq-]]/URI$ - операторы координат и импульсов, удовлетворяющие каноническим коммутационным соотношениям:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1160_1_pq-]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1160_6_pq-]]/URI$ постоянная Планка. В $URI[[http://libmeta.ru/fme/formula/aux/1160_7_pq-]]/URI$-представлении (в пространстве $URI[[http://libmeta.ru/fme/formula/aux/1160_8_pq-]]/URI$ с операторами $URI[[http://libmeta.ru/fme/formula/aux/1160_9_pq-]]/URI$ общие формулы $URI[[http://libmeta.ru/fme/formula/aux/1160_10_pq-]]/URI$-квантования и $URI[[http://libmeta.ru/fme/formula/aux/1160_11_pq-]]/URI$-квантования ставят в соответствие функции $URI[[http://libmeta.ru/fme/formula/aux/1160_12_pq-]]/URI$ операторы $URI[[http://libmeta.ru/fme/formula/aux/1160_13_pq-]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1160_14_pq-]]/URI$ вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1160_2_pq-]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/1160_1_pq-]]/URI 243</text>
+  <text_orig>квантования алгебры функций на линейном фазовом пространстве $\mathbb{R}^{2 n}$, в которых функциям (символам) вида $p_{1}^{\alpha_{1}} \ldots p_{n}^{\alpha_{n}} q_{1}^{\beta_{1}} \ldots q_{n}^{\beta_{n}}$ ставятся в соответствие операторы $\hat{p}_{1}^{\alpha_{1}} \ldots \hat{p}_{n}^{\alpha_{n}} \hat{q}_{1}^{\beta_{1}} \ldots \hat{q}_{n}^{\beta_{n}}$ в случае $p q$-кван-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_beb97638694792137dd2g-1.jpg?height=51&amp;width=818&amp;top_left_y=1642&amp;top_left_x=928)
+$\hat{q}_{j}, \hat{p}_{j}$ - операторы координат и импульсов, удовлетворяющие каноническим коммутационным соотношениям:
+
+\[
+\left[\hat{q}_{j}, \hat{q}_{k}\right]=\left[\hat{p}_{j}, \hat{p}_{k}\right]=0, \quad\left[\hat{p}_{j}, \hat{q}_{k}\right]=\frac{\hbar}{i} \delta_{i k},
+\]
+
+$\hbar-$ постоянная Планка. В $q$-представлении (в пространстве $L^{2}\left(\mathbb{R}_{x}^{n}\right)$ с операторами $\left.\hat{q}_{j}=x_{j}, \hat{p}_{j}=\frac{\hbar}{t} \frac{\partial}{\partial x_{j}}\right)$ общие формулы $p q$-квантования и $q p$-квантования ставят в соответствие функции $f=f(p, q)$ операторы $\hat{f}_{p q}$ и $\hat{f}_{q p}$ вида
+
+\[
+\begin{gathered}
+\hat{f}_{p q} u(x)=(2 \pi \hbar)^{-n} \int e^{\frac{i}{\hbar} p \cdot(x-y)} f(p, y) u(y) d y \\
+\hat{f}_{q p} u(x)=(2 \pi \hbar)^{-n} \int e^{\frac{i}{\hbar} p \cdot(x-y)} f(p, x) u(y) d y .
+\end{gathered}
+\]
+
+КВАЗИСРЕДНИЕ 243 Лит.: [1] Бе рез и н Ф.А., Ш уб и н М.А., Уравнение Шредингера, М., 1983. М. А. Шубин.</text_orig>
+</article>

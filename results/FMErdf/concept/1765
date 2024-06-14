@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_258_BOL'TsMANA-GREDA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_258_BOL'TsMANA-GREDA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1765</core:url>
+    <lbm:descriptor><![CDATA[БОЛЬЦМАНА-ГРЭДА ПРЕДЕЛ, ПРЕДЕЛ МАЛОЙ ПЛОТНОСТИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#13277"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>кинетический предельный переход в статистической <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механике</a>. В таком пределе эволюция одночастичных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояний</a> статистич. систем описывается <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_254_BOL'TsMANA">Больцмана уравнением</a>. В Б.- Г. п. описываются системы <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, у к-рых радиус сил взаимодействия мал по сравнению с величиной их средней длины свободного пробега. Строго математически Б.- Г. П. обоснован для системы упругих шаров (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#13277">[1]</a>).<BR/></P><P>См. также Равновесные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояния</a>; <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2490_RAVNOVESNYE">кинетический предел</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#13277">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1202">Петрина Д. Я.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2445">Герасименко В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#13277">“доклады Ан $\begin{array}{lll}\text { СССР», 1987, т. 297, № 2, с. 336-40. } & \text { В. И. Герасименко. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[кинетический предельный переход в статистической механике. В таком пределе эволюция одночастичных состояний статистич. систем описывается Больцмана уравнением. В Б.- Г. п. описываются системы частиц, у к-рых радиус сил взаимодействия мал по сравнению с величиной их средней длины свободного пробега. Строго математически Б.- Г. П. обоснован для системы упругих шаров (см. [1]).
+
+См. также Равновесные состояния; кинетический предел.
+
+Лит.: [1] Петрина Д. Я., Гераси менко В. И., “Доклады АН $\begin{array}{lll}\text { СССР», 1987, т. 297, № 2, с. 336-40. } & \text { В. И. Герасименко. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2490_RAVNOVESNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_254_BOL'TsMANA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

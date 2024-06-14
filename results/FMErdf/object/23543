@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_23543">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>&#x0003D;</mo><mo>&#x02212;</mo><msup><mi>&#x003C1;</mi><mrow><mo>&#x02212;</mo><mn>1</mn></mrow></msup><mo>grad</mo><mi>p</mi><mo>&#x0002B;</mo><mi>v</mi><mi>&#x00394;</mi><mi>v</mi><mo>&#x0002B;</mo><mrow><mi mathvariant="bold-italic">f</mi></mrow><mo>&#x0002C;</mo><mspace linebreak="newline" /><mfrac><mrow><mi>d</mi><mi>T</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>&#x0003D;</mo><mi>&#x003C7;</mi><mi>&#x00394;</mi><mi>T</mi><mo>&#x0002B;</mo><mn>2</mn><msup><mi>c</mi><mrow><mo>&#x02212;</mo><mn>1</mn></mrow></msup><mi>v</mi><mi>D</mi><mi>:</mi><mi>D</mi><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\frac{d v}{d t}=-\rho^{-1} \operatorname{grad} p+v \Delta v+\boldsymbol{f}, \\\frac{d T}{d t}=\chi \Delta T+2 c^{-1} v D: D .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3438_ShAROVYE" alphabetic_pos="3440">
+  <title>ШАРОВЫЕ ФУНКЦИИ</title>
+  <authors>
+    <author>Н. Я. Виленкин</author>
+  </authors>
+  <pages>
+    <start>667</start>
+    <end>667</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3438_1_ShAROVYE">\frac{\partial^{2} u_{n}}{\partial x^{2}}+\frac{\partial^{2} u_{n}}{\partial y^{2}}+\frac{\partial^{2} u_{n}}{\partial z^{2}}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3438_2_ShAROVYE">\begin{gathered}u_{0}=a, u_{1}=a x+b y+c z \\u_{2}=a\left(x^{2}-z^{2}\right)-b\left(y^{2}-z^{2}\right)+c x y+d y z+e z x\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_1_ShAROVYE">u_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_2_ShAROVYE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_3_ShAROVYE">x, y, z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_4_ShAROVYE">2 n+1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_5_ShAROVYE">x, y, z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_6_ShAROVYE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_7_ShAROVYE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_8_ShAROVYE">a, b, c, d, e-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_9_ShAROVYE">0,1,2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3438_10_ShAROVYE">n</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/3438_1_ShAROVYE">
+      <rel_text>областей</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3438_2_ShAROVYE">
+      <rel_text>уравнения Лапласа</rel_text>
+      <target>http://libmeta.ru/fme/article/1548_LAPLASA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3438_3_ShAROVYE">
+      <rel_text>многочленов</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3438_4_ShAROVYE">
+      <rel_text>линейная комбинация</rel_text>
+      <target>http://libmeta.ru/fme/article/1599_LINEJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3438_5_ShAROVYE">
+      <rel_text>многочленов</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3438_6_ShAROVYE">
+      <rel_text>линейно независимых</rel_text>
+      <target>http://libmeta.ru/fme/article/1604_LINEJNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3438_7_ShAROVYE">
+      <rel_text>областей</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>однородные функции $URI[[http://libmeta.ru/fme/formula/aux/3438_1_ShAROVYE]]/URI$ степени $URI[[http://libmeta.ru/fme/formula/aux/3438_2_ShAROVYE]]/URI$ от прямоугольных координат $URI[[http://libmeta.ru/fme/formula/aux/3438_3_ShAROVYE]]/URI$, удовлетворяющие уравнению Лапласа:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3438_1_ShAROVYE]]/URI
+\]
+
+для URI[[http://libmeta.ru/fme/relation/3438_7_ShAROVYE]]/URI, ограниченных сферическими поверхностями. Существует $URI[[http://libmeta.ru/fme/formula/aux/3438_4_ShAROVYE]]/URI$ URI[[http://libmeta.ru/fme/relation/3438_6_ShAROVYE]]/URI однородных URI[[http://libmeta.ru/fme/relation/3438_5_ShAROVYE]]/URI от $URI[[http://libmeta.ru/fme/formula/aux/3438_5_ShAROVYE]]/URI$ целой положительной степени $URI[[http://libmeta.ru/fme/formula/aux/3438_6_ShAROVYE]]/URI$, являющихся Ш. Ф.; их URI[[http://libmeta.ru/fme/relation/3438_4_ShAROVYE]]/URI представляет общий вид такого многочлена степени $URI[[http://libmeta.ru/fme/formula/aux/3438_7_ShAROVYE]]/URI$.
+
+Так, напр.,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3438_2_ShAROVYE]]/URI
+\]
+
+( $URI[[http://libmeta.ru/fme/formula/aux/3438_8_ShAROVYE]]/URI$ произвольные постоянные) представляют общий вид однородных URI[[http://libmeta.ru/fme/relation/3438_3_ShAROVYE]]/URI степеней $URI[[http://libmeta.ru/fme/formula/aux/3438_9_ShAROVYE]]/URI$, являющихся Ш. ф. Задача об отыскании общего вида простейших Ш. ф. степени $URI[[http://libmeta.ru/fme/formula/aux/3438_10_ShAROVYE]]/URI$ приводит к понятию сферических функций. Ш. Ф. применяются при нахождении общего решения URI[[http://libmeta.ru/fme/relation/3438_2_ShAROVYE]]/URI и при решении задач математич. физики для URI[[http://libmeta.ru/fme/relation/3438_1_ShAROVYE]]/URI, ограниченных сферич. поверхностями.</text>
+  <text_orig>однородные функции $u_{n}$ степени $n$ от прямоугольных координат $x, y, z$, удовлетворяющие уравнению Лапласа:
+
+\[
+\frac{\partial^{2} u_{n}}{\partial x^{2}}+\frac{\partial^{2} u_{n}}{\partial y^{2}}+\frac{\partial^{2} u_{n}}{\partial z^{2}}=0
+\]
+
+для областей, ограниченных сферическими поверхностями. Сушествует $2 n+1$ линейно независимых однородных многочленов от $x, y, z$ целой положительной степени $n$, являюшихся Ш. Ф.; их линейная комбинация представляет обший вид такого многочлена степени $n$.
+
+Так, напр.,
+
+\[
+\begin{gathered}
+u_{0}=a, u_{1}=a x+b y+c z \\
+u_{2}=a\left(x^{2}-z^{2}\right)-b\left(y^{2}-z^{2}\right)+c x y+d y z+e z x
+\end{gathered}
+\]
+
+( $a, b, c, d, e-$ произвольные постоянные) представляют общий вид однородных многочленов степеней $0,1,2$, являющихся Ш. ф. Задача об отыскании общего вида простейших Ш. ф. степени $n$ приводит к понятию сферических функций. Ш. Ф. применяются при нахождении общего решения уравнения Лапласа и при решении задач математич. физики для областей, ограниченных сферич. поверхностями.
+
+Н.Я. Виленкин.</text_orig>
+</article>

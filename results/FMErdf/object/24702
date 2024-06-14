@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_24702">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><mi>G</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msup><mi>G</mi><mrow><mn>0</mn></mrow></msup><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><mi>e</mi><mo>&#x0222B;</mo><msup><mi>G</mi><mrow><mn>0</mn></mrow></msup><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><msub><mi>A</mi><mrow><mi>v</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><msup><mi>&#x003B3;</mi><mrow><mi>v</mi></mrow></msup><mi>d</mi><mi>z</mi><mi>G</mi><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><mspace linebreak="newline" /><mi>&</mi><mo>&#x02212;</mo><mi>i</mi><mrow><mi mathvariant="bold-italic">e</mi></mrow><mo>&#x0222D;</mo><msup><mrow><mi mathvariant="bold-italic">G</mi></mrow><mrow><mn>0</mn></mrow></msup><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x02212;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>z</mi><msup><mi>&#x003B3;</mi><mrow><mi>&#x003BC;</mi></mrow></msup><mi>G</mi><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo>&#x0002C;</mo><mi>&#x003C4;</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>&#x003C4;</mi><msup><mi>&#x00393;</mi><mrow><mi>v</mi></mrow></msup><mo stretchy="false">&#x00028;</mo><mi>&#x003C4;</mi><mo>&#x0002C;</mo><mi>y</mi><mi>;</mi><mi>&#x003B7;</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>&#x003B7;</mi><msub><mi>D</mi><mrow><mi>&#x003BC;</mi><mi>v</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>&#x003B7;</mi><mo>&#x0002C;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; G(x, y)=G^{0}(x-y)+e \int G^{0}(x-z) A_{v}(z) \gamma^{v} d z G(z, y)- \\&amp; -i \boldsymbol{e} \iiint \boldsymbol{G}^{0}(x-z) d z \gamma^{\mu} G(z, \tau) d \tau \Gamma^{v}(\tau, y ; \eta) d \eta D_{\mu v}(\eta, z),\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

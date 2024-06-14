@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2333_POROG">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2333_POROG</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1481</core:url>
+    <lbm:descriptor><![CDATA[ПОРОГ КАНАЛА РАССЕЯНИЯ, ОПРЕДЕЛЯЕМОГО КЛАСТЕРНЫМ РАЗБИЕНИЕМ С ПОДСИСТЕМАМИ $\omega_{1}, \omega_{2}, \ldots, \omega_{l}$ И СВЯЗАННЫМИ СОСТОЯНИЯМИ $\psi_{j_{1}}, \psi_{j_{2}}, \ldots, \psi_{j_{l}}$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#7018"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11416"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11417"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11418"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11419"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11420"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_54"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11421"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>величина<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11417">$$E_{A}=\sum_{k=1}^{l} \varepsilon_{j_{k}}, \quad A=\left\{j_{1}, j_{2}, \ldots, j_{l}\right\}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11419">$$\varepsilon_{j_{k}}-$$</a> собственные значения операторов энергии <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11420">$$h_{\omega_{k}}$$</a> подсистем<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11418">$$H_{\omega_{k}} \psi_{j_{k}}=\varepsilon_{j_{k}} \psi_{j_{k}}$$</a><BR/></P><P>П. к. тесно связаны со спектральными свойствами <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a> системы $URI[[http://libmeta.ru/fme/formula/aux/2333_3_POROG]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> $URI[[http://libmeta.ru/fme/formula/aux/2333_4_POROG]]/URI$ в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3387_TsENTRA">центра масс системе</a>. Именно, каждый <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2548_RASSEJaNIJa">канал рассеяния</a> определяет ветвь <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1931_NEPRERYVNYJ">непрерывного спектра</a> оператора $URI[[http://libmeta.ru/fme/formula/aux/2333_5_POROG]]/URI$, а число <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11421">$$e_{a}$$</a> определяет начало этой ветви.<BR/></P><P>См. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1254_KLASTERNOE">Кластерное разбиение</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">Рассеяния</a> канал, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1797_MNOGOKANAL'NOE">Многоканальное рассеяние</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#7018">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#719">Гольдбергер М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#122">Ватсон К.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#7018">Теория столкновений, пер. с англ., М., 1967</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#11416">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#793">Меркурьев С. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#879">Фаддеев Л. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11416">Квантовая теория рассеяния для систем нескольких частиц, $\begin{array}{ll}\text { М., 1985, С. Л. Яковлев. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[величина
+
+\[
+E_{A}=\sum_{k=1}^{l} \varepsilon_{j_{k}}, \quad A=\left\{j_{1}, j_{2}, \ldots, j_{l}\right\}
+\]
+
+где $\varepsilon_{j_{k}}-$ собственные значения операторов энергии $H_{\omega_{k}}$ подсистем
+
+\[
+H_{\omega_{k}} \psi_{j_{k}}=\varepsilon_{j_{k}} \psi_{j_{k}}
+\]
+
+П. к. тесно связаны со спектральными свойствами оператора энергии системы $N$ частиц $H$ в центра масс системе. Именно, каждый канал рассеяния определяет ветвь непрерывного спектра оператора $H$, а число $E_{A}$ определяет начало этой ветви.
+
+См. Кластерное разбиение, Рассеяния канал, Многоканальное рассеяние.
+
+Лит.: [1] Гольдбергер М., Ватсон К., Теория столкновений, пер. с англ., М., 1967; [2] Меркурьев С. П., Фадде е в Л. Д., Квантовая теория рассеяния для систем нескольких частиц, $\begin{array}{ll}\text { М., } 1985 . & \text { С. П. Меркурьев, С. Л. Яковлев. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1254_KLASTERNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1797_MNOGOKANAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1931_NEPRERYVNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2548_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3387_TsENTRA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_559_GEJZENBERGA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_559_GEJZENBERGA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3096</core:url>
+    <lbm:descriptor><![CDATA[ГЕЙЗЕНБЕРГА УРАВНЕНИЕ; АСИМПТОТИЧЕСКИЕ РЕШЕНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#23055"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23056"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23058"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23060"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23061"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23062"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23063"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23064"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6774"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1325"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18062"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23065"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>а с импт О тич С ск и е р е ш е н и я - решения уравнения Гейзенберга<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23061">$$\frac{\partial \hat{f}}{\partial t}=\frac{i}{n}[\hat{H}, \hat{f}]$$</a><BR/></P><P>![](https://cdn.mathpix.com/cropped/2023_07_08_a957fb82d9960e552508g-1.jpg?height=49&width=817&top_left_y=1475&top_left_x=76)
+$URI[[http://libmeta.ru/fme/formula/aux/559_1_GEJZENBERGA]]/URI$, которые могут быть построены для уравнения Гейзенберга, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">полученного</a> квантованием соответствующего <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa">Лиувилля уравнения</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23062">$$\frac{\partial f}{\partial t}=\{H, f\} .$$</a><BR/></P><P>Для квантования Вейля гамильтоновой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механики</a> в $URI[[http://libmeta.ru/fme/formula/aux/559_2_GEJZENBERGA]]/URI$ асимптотич. решения в представлении символов Вейля имеют вид (см., напр., <a href="/object/show?uri=http://libmeta.ru/io/Publication#23056">[1]</a>):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23063">$$f(t, h, p, q)=\sum_{k=0}^{\infty} h^{k} f_{k}(t, p, q), \quad p, q \in \mathbb{R}^{n},$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18062">$$f_{k}$$</a> - суть решения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1916_NEODNORODNOE">неоднородных уравнений</a> Лиувилля<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23064">$$\frac{\partial f_{k}}{\partial t}=\left\{H, f_{k}\right\}+R_{k},$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23065">$$r_{0}=r_{1}=0, R_{k}=R_{k}(H), k=2,3, \ldots$$</a>. Способ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">получения</a> асимптотич. решений Г.у. предложен в <a href="/object/show?uri=http://libmeta.ru/io/Publication#23058">[2]</a>, достаточно полное обоснование см. в <a href="/object/show?uri=http://libmeta.ru/io/Publication#23060">[3]</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#23056">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#646">Березин Ф. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1772">Шубин М. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#23056">Уравнение Шрединrepa, M., 1983</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#23058">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#23057">Groenwold H. J.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#23058">"physica», 1946, v. 12, p. 405-60</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#23060">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#23059">Антонец М. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#23060">«теоретич. и математич. физика», 1979, т. 38, № 3, с. 331-44.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#23055">М. А. Антонеи</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[а с импт О тич С ск и е р е ш е н и я - решения уравнения Гейзенберга
+
+\[
+\frac{\partial \hat{f}}{\partial t}=\frac{i}{n}[\hat{H}, \hat{f}]
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a957fb82d9960e552508g-1.jpg?height=49&width=817&top_left_y=1475&top_left_x=76)
+$\hat{H}$, которые могут быть построены для уравнения Гейзенберга, полученного квантованием соответствующего Лиувилля уравнения
+
+\[
+\frac{\partial f}{\partial t}=\{H, f\} .
+\]
+
+Для квантования Вейля гамильтоновой механики в $\mathbb{R}^{2 n}$ асимптотич. решения в представлении символов Вейля имеют вид (см., напр., [1]):
+
+\[
+f(t, h, p, q)=\sum_{k=0}^{\infty} h^{k} f_{k}(t, p, q), \quad p, q \in \mathbb{R}^{n},
+\]
+
+$f_{k}$ - суть решения неоднородных уравнений Лиувилля
+
+\[
+\frac{\partial f_{k}}{\partial t}=\left\{H, f_{k}\right\}+R_{k},
+\]
+
+где $R_{0}=R_{1}=0, R_{k}=R_{k}(H), k=2,3, \ldots$. Способ получения асимптотич. решений Г.у. предложен в [2], достаточно полное обоснование см. в [3].
+
+Лит.: [1] Бе рези н Ф.А., Ш убин М. А., Уравнение Шрединrepa, M., 1983; [2] Groenwold H. J., "Physica», 1946, v. 12, p. 405-60; [3] Ан тон ец М. А., «Теоретич. и математич. физика», 1979, т. 38, № 3, с. 331-44. М. А. Антонеи.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1916_NEODNORODNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

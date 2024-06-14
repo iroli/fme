@@ -1,0 +1,376 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2637_RIMANOVA" alphabetic_pos="2639">
+  <title>РИМАНОВА ГЕОМЕТРИЯ</title>
+  <authors/>
+  <pages>
+    <start>511</start>
+    <end>513</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ландау Л. Д., Лифшиц Е. М., Теория поля, 7 изд., М., 1988; [2] Р а ш в в с к и й П. К., Риманова геометрия и тензорный анализ, 3 изд., М., 1967; [3] Фок В. А., Теория пространства, времени и тяготения, 2 изд., М., 1961; [4] Ду бр о в и н Б.А., Нов и ков С. П., Фоменко А. Т., Современная геометрия, 2 изд., М., 1986; [5] их же, Современная геометрия. Методы теории гомоло$\begin{array}{ll}\text { гий, М., } 1984 . &amp; \text { Б. А. Дубровин. }\end{array}$</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Теория поля</title>
+      <publication>7 изд., М.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рашввский П. К.</author>
+      <title>Риманова геометрия и тензорный анализ</title>
+      <publication>3 изд., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Фок В. А.</author>
+      <title>Теория пространства, времени и тяготения</title>
+      <publication>2 изд., М.</publication>
+      <year>1961</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Новиков С. П.</author>
+      <author>Фоменко А. Т.</author>
+      <title>Современная геометрия</title>
+      <publication>2 изд., М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>их же, Современная геометрия. Методы теории гомоло$\begin{array}{ll}\text { гий</title>
+      <publication>М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_1_RIMANOVA">(\xi, \eta)=g_{i j}(x) \xi^{i} \eta^{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_2_RIMANOVA">|\xi|=\sqrt{(\xi, \xi)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_3_RIMANOVA">s=\int_{a}^{b}|\dot{x}| d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_4_RIMANOVA">V(U)=\int_{U} \sqrt{\operatorname{det}\left(g_{i j}\right)} d x^{1} \ldots d x^{n} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_5_RIMANOVA">x^{i}=x^{i}\left(u^{1}, \ldots, u^{k}\right), i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_6_RIMANOVA">h_{\alpha \beta}=\frac{\partial x^{i}}{\partial u^{\alpha}} \frac{\partial x^{j}}{\partial u^{\beta}} g_{i j}, \quad \alpha, \beta=1, \ldots, k,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_7_RIMANOVA">\Gamma_{i j}^{k}=\frac{1}{2} g^{k l}\left(\frac{\partial g_{i l}}{\partial x^{j}}+\frac{\partial g_{l j}}{\partial x^{i}}-\frac{\partial g_{i j}}{\partial x^{l}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_8_RIMANOVA">\nabla_{i} \xi_{j}+\nabla_{j} \xi_{i}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_9_RIMANOVA">g_{i j}=4 \delta_{i j}\left[1+\sum_{i}\left(x^{i}\right)^{2}\right]^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_10_RIMANOVA">g_{i j}=4 \delta_{i j}\left[1-\sum_{i}\left(x^{i}\right)^{2}\right]^{2} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_11_RIMANOVA">\nabla_{s} R_{i j k l}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_12_RIMANOVA">g_{i j}(x) \rightarrow \lambda(x) g_{i j}(x) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_13_RIMANOVA">\ddot{x}^{i}+\Gamma_{j k}^{i}(x) \dot{x}^{j} \dot{x}^{k}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_14_RIMANOVA">S=\int_{a}^{b}|\dot{x}|^{2} d t=\int_{a}^{b} g_{i j} \dot{x}^{i} \dot{x}^{j} d t .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_15_RIMANOVA">\frac{1}{4 \pi} \oint K d \sigma=1-g,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_16_RIMANOVA">d s^{2}=g_{i j} d z^{i} d z^{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2637_17_RIMANOVA">d s^{2}=g(z, \bar{z}) d z d \bar{z}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_1_RIMANOVA">g_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_2_RIMANOVA">\xi=\left(\xi^{1}, \ldots, \xi^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_3_RIMANOVA">\eta=\left(\eta^{1}, \ldots, \eta^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_4_RIMANOVA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_5_RIMANOVA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_6_RIMANOVA">x^{i}=x^{i}(t), i=1, \ldots, n ; a \leqslant t \leqslant b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_7_RIMANOVA">\dot{x}=\left(\dot{x}^{1}, \ldots, \dot{x}^{n}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_8_RIMANOVA">\rho(x, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_9_RIMANOVA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_10_RIMANOVA">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_11_RIMANOVA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_12_RIMANOVA">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_13_RIMANOVA">\rho(x, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_14_RIMANOVA">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_15_RIMANOVA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_16_RIMANOVA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_17_RIMANOVA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_18_RIMANOVA">k=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_19_RIMANOVA">g_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_20_RIMANOVA">r_{i j k l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_21_RIMANOVA">\xi^{i}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_22_RIMANOVA">\xi_{i}=g_{i k} \xi^{k}, \nabla_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_23_RIMANOVA">\dot{x}^{i}=\xi^{i}(x), i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_24_RIMANOVA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_25_RIMANOVA">n(n-1) / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_26_RIMANOVA">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_27_RIMANOVA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_28_RIMANOVA">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_29_RIMANOVA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_30_RIMANOVA">n \geqslant 3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_31_RIMANOVA">(n+1)(n+2) / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_32_RIMANOVA">x, y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_33_RIMANOVA">\rho(x, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_34_RIMANOVA">x^{i}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_35_RIMANOVA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_36_RIMANOVA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_37_RIMANOVA">d \sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_38_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_39_RIMANOVA">g=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_40_RIMANOVA">g=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_41_RIMANOVA">z^{1}, \ldots, z^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_42_RIMANOVA">g_{j i}=\bar{g}_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_43_RIMANOVA">x^{1}, x^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_44_RIMANOVA">g_{i j}=g \delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_45_RIMANOVA">z=x^{1}+i x^{2}, \bar{z}=x^{1}-i x^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_46_RIMANOVA">i=\sqrt{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_47_RIMANOVA">\bar{z} \rightarrow w(z), d w / d \bar{z}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2637_48_RIMANOVA">z \rightarrow \bar{z}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2637_1_RIMANOVA">
+      <rel_text>теории относительности</rel_text>
+      <target>http://libmeta.ru/fme/article/2144_OTNOSITEL'NOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2637_2_RIMANOVA">
+      <rel_text>индефинитная метрика</rel_text>
+      <target>http://libmeta.ru/fme/article/1014_INDEFINITNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2637_3_RIMANOVA">
+      <rel_text>псевдоримановы</rel_text>
+      <target>http://libmeta.ru/fme/article/2449_PSEVDOMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2637_4_RIMANOVA">
+      <rel_text>Конформные преобразования</rel_text>
+      <target>http://libmeta.ru/fme/article/1379_KONFORMNOE</target>
+    </relation>
+  </relations>
+  <text>геометрия риманова пространства. Основные понятия Р. г. являются обобщением понятий евклидовой геометрии на пространства с произвольным метрическим тензором $URI[[http://libmeta.ru/fme/formula/aux/2637_1_RIMANOVA]]/URI$.
+
+Скалярное произведение касательных векторов $URI[[http://libmeta.ru/fme/formula/aux/2637_2_RIMANOVA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2637_3_RIMANOVA]]/URI$ в точке $URI[[http://libmeta.ru/fme/formula/aux/2637_4_RIMANOVA]]/URI$ определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_1_RIMANOVA]]/URI
+\] Это позволяет определить длины векторов
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_2_RIMANOVA]]/URI
+\]
+
+и углы между векторами в данной точке. Длина $URI[[http://libmeta.ru/fme/formula/aux/2637_5_RIMANOVA]]/URI$ кривой, $URI[[http://libmeta.ru/fme/formula/aux/2637_6_RIMANOVA]]/URI$, определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_3_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2637_7_RIMANOVA]]/URI$ вектор скорости.
+
+Р а с с тоя н и е $URI[[http://libmeta.ru/fme/formula/aux/2637_8_RIMANOVA]]/URI$ между точками $URI[[http://libmeta.ru/fme/formula/aux/2637_9_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2637_10_RIMANOVA]]/URI$ определяется как минимум длин кривых, соединяющих точки $URI[[http://libmeta.ru/fme/formula/aux/2637_11_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2637_12_RIMANOVA]]/URI$. Функция $URI[[http://libmeta.ru/fme/formula/aux/2637_13_RIMANOVA]]/URI$ задает метрику в римановом пространстве.
+
+Объем области $URI[[http://libmeta.ru/fme/formula/aux/2637_14_RIMANOVA]]/URI$ риманова пространства определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_4_RIMANOVA]]/URI
+\]
+
+На $URI[[http://libmeta.ru/fme/formula/aux/2637_15_RIMANOVA]]/URI$-мерной поверхности, заданной в римановом пространстве в параметрич. виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_5_RIMANOVA]]/URI
+\]
+
+возникает метрич. тензор
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_6_RIMANOVA]]/URI
+\]
+
+называемый первой квадратичной формой поверхности. Длины кривых, углы и объемы $URI[[http://libmeta.ru/fme/formula/aux/2637_16_RIMANOVA]]/URI$-мерных областей на поверхности вычисляются в терминах в нутре нн е й геом е т р и и, то есть через первую квадратичную форму. Р. г. двумерных поверхностей в трехмерном евклидовом пространстве широко применяется в механике оболочек. Большое внимание уделяется изучению минимальных поверхностей, то есть экстремалей функционала $URI[[http://libmeta.ru/fme/formula/aux/2637_17_RIMANOVA]]/URI$-мерного объема. Простейшей их физич. реализацией (при $URI[[http://libmeta.ru/fme/formula/aux/2637_18_RIMANOVA]]/URI$ ) являются мыльные пленки. Считается, что двумерные минимальные поверхности в пространстве Минковского описывают классич. динамику релятивистской струны.
+
+Дифференциальное исчисление тензоров в римановом пространстве основано на введении симметричной связности, согласованной с метрикой $URI[[http://libmeta.ru/fme/formula/aux/2637_19_RIMANOVA]]/URI$. Ее Кристоффеля символы имеют вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_7_RIMANOVA]]/URI
+\]
+
+Кривизны тензор $URI[[http://libmeta.ru/fme/formula/aux/2637_20_RIMANOVA]]/URI$ этой связности определяет кривизну риманова пространства, характеризующую его отличие от евклидова
+
+Д в и же н и я риманова пространства определяются как преобразования, сохраняющие метрику. Однопараметрич. группы движений определяются векторным и полям и К и лл и нга $URI[[http://libmeta.ru/fme/formula/aux/2637_21_RIMANOVA]]/URI$, удовлетворяющими соотношениям:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_8_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2637_22_RIMANOVA]]/URI$ ковариантная производная. Сдвиги вдоль траекторий системы $URI[[http://libmeta.ru/fme/formula/aux/2637_23_RIMANOVA]]/URI$, определяют движения пространства. Движения $URI[[http://libmeta.ru/fme/formula/aux/2637_24_RIMANOVA]]/URI$-мерного риманова пространства образуют группу Ли, размерность к-рой не превосходит $URI[[http://libmeta.ru/fme/formula/aux/2637_25_RIMANOVA]]/URI$. Для общих римановых пространств эта группа тривиальна; примерами пространств с группой движений максимальной размерности служат: евклидово пространство, сфера с метрикой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_9_RIMANOVA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2637_26_RIMANOVA]]/URI$ - символ Кронекера; пространство Лобачевского с метрикой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_10_RIMANOVA]]/URI
+\]
+
+Если группа движений достаточно богата, так что с помощью движения любую точку $URI[[http://libmeta.ru/fme/formula/aux/2637_27_RIMANOVA]]/URI$ можно перевести в заданную точку $URI[[http://libmeta.ru/fme/formula/aux/2637_28_RIMANOVA]]/URI$, то риманово пространство называется о дн о ро дным. Если для любой точки существует движение, являющееся симметрией пространства с центром в этой точке, то однородное пространство называется с и м ме т р и ч е ск и м. Локально симметрич. пространства выделяются условием постоянства кривизны
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_11_RIMANOVA]]/URI
+\]
+
+Теория симметрических и римановых однородных пространств сочетает применение Р.г. и методов теории групп Ли. Идеи и методы этой теории используются при изучении однородных космологич. моделей общей теории относительности.
+
+Ко нф орм н ы и называются такие преобразования риманова пространства, при к-рых метрика подвергается растяжению:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_12_RIMANOVA]]/URI
+\]
+
+Конформные преобразования $URI[[http://libmeta.ru/fme/formula/aux/2637_29_RIMANOVA]]/URI$-мерного риманова пространства при $URI[[http://libmeta.ru/fme/formula/aux/2637_30_RIMANOVA]]/URI$ образуют группу Ли, размерность к-рой не превосходит $URI[[http://libmeta.ru/fme/formula/aux/2637_31_RIMANOVA]]/URI$. Инвариантностью относительно конформных преобразований обычно обладают теории безмассовых частиц.
+
+Геодез ическа я лин и я - экстремаль функционала длины, рассматриваемого на кривых с закрепленными концами. Уравнения геодезических имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_13_RIMANOVA]]/URI
+\]
+
+Геодезические могут быть получены также как экстремаль функционала действия:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_14_RIMANOVA]]/URI
+\]
+
+Близкие точки $URI[[http://libmeta.ru/fme/formula/aux/2637_32_RIMANOVA]]/URI$ риманова пространства всегда можно соединить локально единственной геодезической, длина к-рой и будет равна расстоянию $URI[[http://libmeta.ru/fme/formula/aux/2637_33_RIMANOVA]]/URI$. Риманово пространство называется ге одезически полным, если любая геодезическая $URI[[http://libmeta.ru/fme/formula/aux/2637_34_RIMANOVA]]/URI$ неограниченно продолжается по $URI[[http://libmeta.ru/fme/formula/aux/2637_35_RIMANOVA]]/URI$. В полном римановом пространстве любые две точки можно соединить геодезической (вообще говоря, не единственной). Изучение глобальных свойств геодезических риманова пространства составляет важный раздел вариационного исчисления «в целом». Поскольку многие уравнения классич. механики могут быть записаны в виде уравнений геодезических, методы теории геодезических применимы для получения качественной информации о характере механич. движения. В общей теории относительности, где массивные частицы движутся по времениподобным (а безмассовые - по изотропным) геодезическим индефинитной метрики, в основном изучаются именно такие геодезические. Нек-рые их глобальные свойства допускают физич. интерпретацию. Так, наличие замкнутых геодезических означает нарушение причинности. Геодезич. неполнота трактуется как наиболее универсальный способ определения сингулярности пространства-времени.
+
+Важная задача Р.г.- установление зависимости между геометрией риманова пространства и его топологией. Простейшим примером такой зависимости является фо рму ла Гаусса- Бонне, справедливая для замкнутой двумерной поверхности:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_15_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2637_36_RIMANOVA]]/URI$ - гауссова кривизна поверхности, $URI[[http://libmeta.ru/fme/formula/aux/2637_37_RIMANOVA]]/URI$ - элемент площади, $URI[[http://libmeta.ru/fme/formula/aux/2637_38_RIMANOVA]]/URI$ - топологич. характеристика поверхности, равная числу ручек (напр., для сферы $URI[[http://libmeta.ru/fme/formula/aux/2637_39_RIMANOVA]]/URI$, для тора $URI[[http://libmeta.ru/fme/formula/aux/2637_40_RIMANOVA]]/URI$ ). Для многомерных римановых пространств строятся более сложные топологич. характеристики, вычисляемые в виде интегралов от инвариантов тензора кривизны. Известны также теоремы, выводящие топологич. ограничения на риманово пространство из соотношений типа неравенств для его кривизны. Простейшим примером является такое утверждение: полное односвязное (то есть любой замкнутый путь стягивается в точку) риманово пространство отрицательной кривизны топологически евклидово.
+
+Комплексный аналог Р. г.- теория пространств с эрмитовой метрикой, записываемой в комплексных координатах $URI[[http://libmeta.ru/fme/formula/aux/2637_41_RIMANOVA]]/URI$ в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_16_RIMANOVA]]/URI
+\] (черта означает комплексное сопряжение), причем $URI[[http://libmeta.ru/fme/formula/aux/2637_42_RIMANOVA]]/URI$. В частности, двумерная метрика может быть записана в комплексном виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2637_17_RIMANOVA]]/URI
+\]
+
+если ввести изотермич. координаты $URI[[http://libmeta.ru/fme/formula/aux/2637_43_RIMANOVA]]/URI$ такие, что $URI[[http://libmeta.ru/fme/formula/aux/2637_44_RIMANOVA]]/URI$, и положить $URI[[http://libmeta.ru/fme/formula/aux/2637_45_RIMANOVA]]/URI$ (здесь $URI[[http://libmeta.ru/fme/formula/aux/2637_46_RIMANOVA]]/URI$ ). URI[[http://libmeta.ru/fme/relation/2637_4_RIMANOVA]]/URI сводятся тогда к комплексно-аналитич. заменам: $URI[[http://libmeta.ru/fme/formula/aux/2637_47_RIMANOVA]]/URI$, и сопряжению: $URI[[http://libmeta.ru/fme/formula/aux/2637_48_RIMANOVA]]/URI$.
+
+Большинство методов Р. г. переносятся на URI[[http://libmeta.ru/fme/relation/2637_3_RIMANOVA]]/URI пространства, в к-рых задана URI[[http://libmeta.ru/fme/relation/2637_2_RIMANOVA]]/URI, и поэтому являются основным аппаратом общей URI[[http://libmeta.ru/fme/relation/2637_1_RIMANOVA]]/URI.</text>
+  <text_orig>геометрия риманова пространства. Основные понятия Р. г. являются обобщением понятий евклидовой геометрии на пространства с произвольным метрическим тензором $g_{i j}$.
+
+Скалярное произведение касательных векторов $\xi=\left(\xi^{1}, \ldots, \xi^{n}\right)$, $\eta=\left(\eta^{1}, \ldots, \eta^{n}\right)$ в точке $x$ определяется формулой
+
+\[
+(\xi, \eta)=g_{i j}(x) \xi^{i} \eta^{j}
+\] Это позволяет определить длины векторов
+
+\[
+|\xi|=\sqrt{(\xi, \xi)}
+\]
+
+и углы между векторами в данной точке. Длина $s$ кривой, $x^{i}=x^{i}(t), i=1, \ldots, n ; a \leqslant t \leqslant b$, определяется формулой
+
+\[
+s=\int_{a}^{b}|\dot{x}| d t
+\]
+
+где $\dot{x}=\left(\dot{x}^{1}, \ldots, \dot{x}^{n}\right)-$ вектор скорости.
+
+Р а с с тоя н и е $\rho(x, y)$ между точками $x$ и $y$ определяется как минимум длин кривых, соединяющих точки $x$ и $y$. Функщия $\rho(x, y)$ задает метрику в римановом пространстве.
+
+Объем области $U$ риманова пространства определяется формулой
+
+\[
+V(U)=\int_{U} \sqrt{\operatorname{det}\left(g_{i j}\right)} d x^{1} \ldots d x^{n} .
+\]
+
+На $k$-мерной поверхности, заданной в римановом пространстве в параметрич. виде:
+
+\[
+x^{i}=x^{i}\left(u^{1}, \ldots, u^{k}\right), i=1, \ldots, n,
+\]
+
+возникает метрич. тензор
+
+\[
+h_{\alpha \beta}=\frac{\partial x^{i}}{\partial u^{\alpha}} \frac{\partial x^{j}}{\partial u^{\beta}} g_{i j}, \quad \alpha, \beta=1, \ldots, k,
+\]
+
+называемый первой квадратичной формой поверхности. Длины кривых, углы и объемы $k$-мерных областей на поверхности вычисляются в терминах в нутре нн е й геом е т р и и, то есть через первую квадратичную форму. Р. г. двумерных поверхностей в трехмерном евклидовом пространстве широко применяется в механике оболочек. Большое внимание уделяется изучению минимальных поверхностей, то есть экстремалей функционала $k$-мерного объема. Простейшей их физич. реализацией (при $k=2$ ) являются мыльные пленки. Считается, что двумерные минимальные поверхности в пространстве Минковского описывают классич. динамику релятивистской струны.
+
+Дифференциальное исчисление тензоров в римановом пространстве основано на введении симметричной связности, согласованной с метрикой $g_{i j}$. Ее Кристоффеля символы имеют вид
+
+\[
+\Gamma_{i j}^{k}=\frac{1}{2} g^{k l}\left(\frac{\partial g_{i l}}{\partial x^{j}}+\frac{\partial g_{l j}}{\partial x^{i}}-\frac{\partial g_{i j}}{\partial x^{l}}\right)
+\]
+
+Кривизны тензор $R_{i j k l}$ этой связности определяет кривизну риманова пространства, характеризующую его отличие от евклидова
+
+Д в и же н и я риманова пространства определяются как преобразования, сохраняющие метрику. Однопараметрич. группы движений определяются векторным и полям и К и лл и нга $\xi^{i}(x)$, удовлетворяюшими соотношениям:
+
+\[
+\nabla_{i} \xi_{j}+\nabla_{j} \xi_{i}=0
+\]
+
+где $\xi_{i}=g_{i k} \xi^{k}, \nabla_{i}-$ ковариантная производная. Сдвиги вдоль траекторий системы $\dot{x}^{i}=\xi^{i}(x), i=1, \ldots, n$, определяют движения пространства. Движения $n$-мерного риманова пространства образуют группу Ли, размерность к-рой не превосходит $n(n-1) / 2$. Для общих римановых пространств эта группа тривиальна; примерами пространств с группой движений максимальной размерности служат: евклидово пространство, сфера с метрикой
+
+\[
+g_{i j}=4 \delta_{i j}\left[1+\sum_{i}\left(x^{i}\right)^{2}\right]^{2}
+\]
+
+$\delta_{i j}$ - символ Кронекера; пространство Лобачевского с метрикой
+
+\[
+g_{i j}=4 \delta_{i j}\left[1-\sum_{i}\left(x^{i}\right)^{2}\right]^{2} .
+\]
+
+Если группа движений достаточно богата, так что с помошью движения любую точку $x$ можно перевести в заданную точку $y$, то риманово пространство называется о дн о ро дным. Если для любой точки существует движение, являющееся симметрией пространства с центром в этой точке, то однородное пространство называется с и м ме т р и ч е ск и м. Локально симметрич. пространства выделяются условием постоянства кривизны
+
+\[
+\nabla_{s} R_{i j k l}=0 .
+\]
+
+Теория симметрических и римановых однородных пространств сочетает применение Р.г. и методов теории групп Ли. Идеи и методы этой теории используются при изучении однородных космологич. моделей общей теории относительности.
+
+Ко нф орм н ы и называются такие преобразования риманова пространства, при к-рых метрика подвергается растяжению:
+
+\[
+g_{i j}(x) \rightarrow \lambda(x) g_{i j}(x) .
+\]
+
+Конформные преобразования $n$-мерного риманова пространства при $n \geqslant 3$ образуют группу Ли, размерность к-рой не превосходит $(n+1)(n+2) / 2$. Инвариантностью относительно конформных преобразований обычно обладают теории безмассовых частиц.
+
+Геодез ическа я лин и я - экстремаль функционала длины, рассматриваемого на кривых с закрепленными концами. Уравнения геодезических имеют вид:
+
+\[
+\ddot{x}^{i}+\Gamma_{j k}^{i}(x) \dot{x}^{j} \dot{x}^{k}=0
+\]
+
+Геодезические могут быть получены также как экстремаль функционала действия:
+
+\[
+S=\int_{a}^{b}|\dot{x}|^{2} d t=\int_{a}^{b} g_{i j} \dot{x}^{i} \dot{x}^{j} d t .
+\]
+
+Близкие точки $x, y$ риманова пространства всегда можно соединить локально единственной геодезической, длина к-рой и будет равна расстоянию $\rho(x, y)$. Риманово пространство называется ге одезически полным, если любая геодезическая $x^{i}(t)$ неограниченно продолжается по $t$. В полном римановом пространстве любые две точки можно соединить геодезической (вообше говоря, не единственной). Изучение глобальных свойств геодезических риманова пространства составляет важный раздел вариационного исчисления «в целом». Поскольку многие уравнения классич. механики могут быть записаны в виде уравнений геодезических, методы теории геодезических применимы для получения качественной информации о характере механич. движения. В общей теории относительности, где массивные частицы движутся по времениподобным (а безмассовые - по изотропным) геодезическим индефинитной метрики, в основном изучаются именно такие геодезические. Нек-рые их глобальные свойства допускают физич. интерпретацию. Так, наличие замкнутых геодезических означает нарушение причинности. Геодезич. неполнота трактуется как наиболее универсальный способ определения сингулярности пространства-времени.
+
+Важная задача Р.г.- установление зависимости между геометрией риманова пространства и его топологией. Простейшим примером такой зависимости является фо рму ла Гаусса- Бонне, справедливая для замкнутой двумерной поверхности:
+
+\[
+\frac{1}{4 \pi} \oint K d \sigma=1-g,
+\]
+
+где $K$ - гауссова кривизна поверхности, $d \sigma$ - элемент площади, $g$ - топологич. характеристика поверхности, равная числу ручек (напр., для сферы $g=0$, для тора $g=1$ ). Для многомерных римановых пространств строятся более сложные топологич. характеристики, вычисляемые в виде интегралов от инвариантов тензора кривизны. Известны также теоремы, выводящие топологич. ограничения на риманово пространство из соотношений типа неравенств для его кривизны. Простейшим примером является такое утверждение: полное односвязное (то есть любой замкнутый путь стягивается в точку) риманово пространство отрицательной кривизны топологически евклидово.
+
+Комплексный аналог Р. г.- теория пространств с эрмитовой метрикой, записываемой в комплексных координатах $z^{1}, \ldots, z^{n}$ в виде:
+
+\[
+d s^{2}=g_{i j} d z^{i} d z^{j}
+\] (черта означает комплексное сопряжение), причем $g_{j i}=\bar{g}_{i j}$. В частности, двумерная метрика может быть записана в комплексном виде:
+
+\[
+d s^{2}=g(z, \bar{z}) d z d \bar{z}
+\]
+
+если ввести изотермич. координаты $x^{1}, x^{2}$ такие, что $g_{i j}=g \delta_{i j}$, и положить $z=x^{1}+i x^{2}, \bar{z}=x^{1}-i x^{2}$ (здесь $i=\sqrt{-1}$ ). Конформные преобразования сводятся тогда к комплексно-аналитич. заменам: $\bar{z} \rightarrow w(z), d w / d \bar{z}=0$, и сопряжению: $z \rightarrow \bar{z}$.
+
+Большинство методов Р. г. переносятся на псевдоримановы пространства, в к-рых задана индефинитная метрика, и поэтому являются основным аппаратом общей теории относительности.
+
+Лит.: [1] Ландау Л. Д., Лифшиц Е. М., Теория поля, 7 изд., М., 1988; [2] Р а ш в в с к и й П. К., Риманова геометрия и тензорный анализ, 3 изд., М., 1967; [3] Фок В. А., Теория пространства, времени и тяготения, 2 изд., М., 1961; [4] Ду бр о в и н Б.А., Нов и ков С. П., Фоменко А. Т., Современная геометрия, 2 изд., М., 1986; [5] их же, Современная геометрия. Методы теории гомоло$\begin{array}{ll}\text { гий, М., } 1984 . &amp; \text { Б. А. Дубровин. }\end{array}$</text_orig>
+</article>

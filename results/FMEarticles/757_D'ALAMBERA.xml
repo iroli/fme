@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/757_D'ALAMBERA" alphabetic_pos="759">
+  <title>Д'АЛАМБЕРА ФОРМУЛА</title>
+  <authors>
+    <author>С. В. Молодиов</author>
+  </authors>
+  <pages>
+    <start>163</start>
+    <end>164</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Т и хо но в А. Н., Сам а р ск и й А. А., Уравнения математической физики, 5 изд., М., 1977; [2] Влад и м иров В. С., Уравнения математической физики, 4 изд., М., 1981.</literature_orig>
+    <unit>
+      <author>Тихонов А. Н.</author>
+      <author>Самарский А. А.</author>
+      <title>Уравнения математической физики</title>
+      <publication>5 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Уравнения математической физики</title>
+      <publication>4 изд., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/757_1_D'ALAMBERA">\frac{\partial^{2}}{\partial x^{2}} \psi(x, t)-\frac{1}{c^{2}} \frac{\partial^{2}}{\partial t^{2}} \psi(x, t)=f(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/757_2_D'ALAMBERA">\begin{gathered}\psi(x, t)=-(c / 2) \int_{0}^{t} \int_{x-c(t-\tau)}^{x+c(t-\tau)} f(\tau, \zeta) d \zeta d \tau+ \\+(2 c)^{-1} \int_{x-c t}^{x+c t} \varphi_{2}(\xi) d \xi+\left[\varphi_{1}(x+c t)+\varphi_{1}(x-c t)\right] / 2\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/757_1_D'ALAMBERA">t&gt;0,-\infty&lt;x&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/757_2_D'ALAMBERA">\left.\psi(x, t)\right|_{t}=0=\varphi_{1}(x),\left.\psi_{t}^{\prime}(x, t)\right|_{t=0}=\varphi_{2}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/757_3_D'ALAMBERA">\varphi_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/757_4_D'ALAMBERA">\varphi_{2}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/757_5_D'ALAMBERA">f(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/757_6_D'ALAMBERA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/757_7_D'ALAMBERA">t \geqslant 0,-\infty&lt;x&lt;\infty</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/757_1_D'ALAMBERA">
+      <rel_text>получена</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/757_2_D'ALAMBERA">
+      <rel_text>полуплоскости</rel_text>
+      <target>http://libmeta.ru/fme/article/2306_POLUINVARIAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/757_3_D'ALAMBERA">
+      <rel_text>первой</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/757_4_D'ALAMBERA">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>формула, описывающая решение Коши задачи для одномерного волнового уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/757_1_D'ALAMBERA]]/URI
+\]
+
+в URI[[http://libmeta.ru/fme/relation/757_4_D'ALAMBERA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/757_1_D'ALAMBERA]]/URI$, с начальными условиями $URI[[http://libmeta.ru/fme/formula/aux/757_2_D'ALAMBERA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/757_2_D'ALAMBERA]]/URI
+\] При этом $URI[[http://libmeta.ru/fme/formula/aux/757_3_D'ALAMBERA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/757_4_D'ALAMBERA]]/URI$ должны быть дважды непрерывно дифференцируемы, а функция $URI[[http://libmeta.ru/fme/formula/aux/757_5_D'ALAMBERA]]/URI$ должна быть непрерывна вместе с URI[[http://libmeta.ru/fme/relation/757_3_D'ALAMBERA]]/URI производной по $URI[[http://libmeta.ru/fme/formula/aux/757_6_D'ALAMBERA]]/URI$ в URI[[http://libmeta.ru/fme/relation/757_2_D'ALAMBERA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/757_7_D'ALAMBERA]]/URI$. Д. Ф. URI[[http://libmeta.ru/fme/relation/757_1_D'ALAMBERA]]/URI Ж. Д'аламбером (j. D'alembert) в 1747.</text>
+  <text_orig>формула, описывающая решение Коши задачи для одномерного волнового уравнения
+
+\[
+\frac{\partial^{2}}{\partial x^{2}} \psi(x, t)-\frac{1}{c^{2}} \frac{\partial^{2}}{\partial t^{2}} \psi(x, t)=f(x, t)
+\]
+
+в области $t&gt;0,-\infty&lt;x&lt;\infty$, с начальными условиями $\left.\psi(x, t)\right|_{t}=0=\varphi_{1}(x),\left.\psi_{t}^{\prime}(x, t)\right|_{t=0}=\varphi_{2}(x)$ :
+
+\[
+\begin{gathered}
+\psi(x, t)=-(c / 2) \int_{0}^{t} \int_{x-c(t-\tau)}^{x+c(t-\tau)} f(\tau, \zeta) d \zeta d \tau+ \\
++(2 c)^{-1} \int_{x-c t}^{x+c t} \varphi_{2}(\xi) d \xi+\left[\varphi_{1}(x+c t)+\varphi_{1}(x-c t)\right] / 2
+\end{gathered}
+\] При этом $\varphi_{1}(x)$ и $\varphi_{2}(x)$ должны быть дважды непрерывно дифференцируемы, а функция $f(x, t)$ должна быть непрерывна вместе с первой производной по $x$ в полуплоскости $t \geqslant 0,-\infty&lt;x&lt;\infty$. Д. Ф. получена Ж. Д'Аламбером (J. D'Alembert) в 1747.
+
+Лит.: [1] Т и хо но в А. Н., Сам а р ск и й А. А., Уравнения математической физики, 5 изд., М., 1977; [2] Влад и м иров В. С., Уравнения математической физики, 4 изд., М., 1981.
+
+С. В. Молодиов.</text_orig>
+</article>

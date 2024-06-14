@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_715_GRASSMANA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_715_GRASSMANA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3270</core:url>
+    <lbm:descriptor><![CDATA[ГРАССМАНА АЛГЕБРА, ВНЕШНЯЯ АЛГЕБРА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24291"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24292"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24293"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24294"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24295"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1479"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4163"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24296"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_316"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3080"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24297"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24298"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24299"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>алгебра, порожденная антикоммутирующими образующими <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1479">$$x_{1}, x_{2}, \ldots, x_{n}$$</a>, то есть совокупность всевозможных линейных комбинаций из произведений образующих $URI[[http://libmeta.ru/fme/formula/aux/715_2_GRASSMANA]]/URI$, в которых все сомножители различны, так как<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24291">$$x_{i} x_{k}+x_{k} x_{i}=0$$</a><BR/></P><P>и, в частности, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24296">$$x_{k}^{2}=0$$</a> при любом $URI[[http://libmeta.ru/fme/formula/aux/715_4_GRASSMANA]]/URI$. Размерность Г.а. как <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1610_LINEJNOE">линейного пространства</a> равна $URI[[http://libmeta.ru/fme/formula/aux/715_5_GRASSMANA]]/URI$, базис состоит из <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3080">$$2^{n}$$</a> одночленов:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24292">$$\begin{gathered}1, x_{i}, i \leqslant n, x_{i} x_{j}, i<j \leqslant n, \\x_{i} x_{j} x_{k}, i<j<k \leqslant n, \ldots, x_{1} x_{2} \ldots x_{n} .\end{gathered}$$</a><BR/></P><P>Любой элемент Г. а. $URI[[http://libmeta.ru/fme/formula/aux/715_7_GRASSMANA]]/URI$ можно представить в виде следующей конечной суммы:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24293">$$f(x)=f+\sum_{i} f^{i} x_{i}+\sum_{i<j} f^{i j} x_{i} x_{j}+\ldots+f^{1 \ldots n} x_{1} x_{2} \ldots x_{n} .$$</a><BR/></P><P>На случай <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_717_GRASSMANOVY">грассмановых переменных</a> обобщается ряд понятий обычного анализа, в частности <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST">дифференцирование</a> и интегрирование. Чтобы найти левую производную от одночлена <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24297">$$x_{1} \ldots x_{\beta}$$</a> по переменной $URI[[http://libmeta.ru/fme/formula/aux/715_9_GRASSMANA]]/URI$, нужно, пользуясь (1), переставить <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24298">$$x_{\alpha}$$</a> на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2219_PERIO">первое</a> слева место и вычеркнуть ее. Аналогично определяется правая производная. Производная от общего элемента Г. а. есть сумма производных от одночленов в разложении (2). Интеграл на Г.а. задается правилами Березина:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24294">$$\int d x^{\alpha}=0, \quad \int d x^{\alpha} x_{\beta}=\delta_{\beta}^{\alpha}$$</a><BR/></P><P>при этом кратный интеграл понимается как повторный. Символ <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24299">$$d x^{\alpha}$$</a> не есть обычный дифференциал, его следует трактовать формально. Интеграл на Г. а. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладает</a> нек-рыми свойствами обычного интеграла, в частности возможно интегрирование по <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частям</a>. С другой стороны, интегрирование на Г. а. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3492_EKVIDISTANT">эквивалентно</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST">дифференцированию</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24295">$$\int d x^{\alpha} f(x)=\partial f(x) / \partial x_{\alpha}$$</a><BR/></P><P>Интегрирование по <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_717_GRASSMANOVY">грассмановым переменным</a> позволяет построить функциональный интеграл, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2886_SPEKTRAL'NOE">представляющий Грина функции</a> фермионных полей.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[алгебра, порожденная антикоммутирующими образующими $x_{1}, x_{2}, \ldots, x_{n}$, то есть совокупность всевозможных линейных комбинаций из произведений образующих $x_{i}$, в которых все сомножители различны, так как
+
+\[
+x_{i} x_{k}+x_{k} x_{i}=0
+\]
+
+и, в частности, $x_{k}^{2}=0$ при любом $k$. Размерность Г.а. как линейного пространства равна $2^{n}$, базис состоит из $2^{n}$ одночленов:
+
+\[
+\begin{gathered}
+1, x_{i}, i \leqslant n, x_{i} x_{j}, i<j \leqslant n, \\
+x_{i} x_{j} x_{k}, i<j<k \leqslant n, \ldots, x_{1} x_{2} \ldots x_{n} .
+\end{gathered}
+\]
+
+Любой элемент Г. а. $f(x)$ можно представить в виде следующей конечной суммы:
+
+\[
+f(x)=f+\sum_{i} f^{i} x_{i}+\sum_{i<j} f^{i j} x_{i} x_{j}+\ldots+f^{1 \ldots n} x_{1} x_{2} \ldots x_{n} .
+\]
+
+На случай грассмановых переменных обобшается ряд понятий обычного анализа, в частности дифференцирование и интегрирование. Чтобы найти левую производную от одночлена $x_{1} \ldots x_{\beta}$ по переменной $x_{\alpha}$, нужно, пользуясь (1), переставить $x_{\alpha}$ на первое слева место и вычеркнуть ее. Аналогично определяется правая производная. Производная от общего элемента Г. а. есть сумма производных от одночленов в разложении (2). Интеграл на Г.а. задается правилами Березина:
+
+\[
+\int d x^{\alpha}=0, \quad \int d x^{\alpha} x_{\beta}=\delta_{\beta}^{\alpha}
+\]
+
+при этом кратный интеграл понимается как повторный. Символ $d x^{\alpha}$ не есть обычный дифференциал, его следует трактовать формально. Интеграл на Г. а. обладает нек-рыми свойствами обычного интеграла, в частности возможно интегрирование по частям. С другой стороны, интегрирование на Г. а. эквивалентно дифференцированию:
+
+\[
+\int d x^{\alpha} f(x)=\partial f(x) / \partial x_{\alpha}
+\]
+
+Интегрирование по грассмановым переменным позволяет построить функциональный интеграл, представляющий Грина функции фермионных полей.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2886_SPEKTRAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_717_GRASSMANOVY"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3492_EKVIDISTANT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2219_PERIO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_879_DIFFERENTsIRUEMOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_717_GRASSMANOVY"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1610_LINEJNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

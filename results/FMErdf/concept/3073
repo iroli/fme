@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_538_GAUSSA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_538_GAUSSA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3073</core:url>
+    <lbm:descriptor><![CDATA[ГАУССА ПРИНЦИП НАИМЕНЬШИХ РЕАКЦИЙ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22920"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22921"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22922"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22923"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22924"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7542"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_729"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22925"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18454"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22926"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7731"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18448"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22927"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22928"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22929"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>один из вариационных принципов классической механики; следствие Гаусса принципа наименьшего принуждения: для действительного движения величина<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22920">$$\sum_{i} \frac{R_{i}^{2}}{2 m_{i}}$$</a><BR/></P><P>есть минимум; здесь <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7542">$$m_{i}$$</a> - масса $URI[[http://libmeta.ru/fme/formula/aux/538_2_GAUSSA]]/URI$-й точки системы с радиус-вектором <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22925">$$r_{i}, R_{i}$$</a> - реакция связей.<BR/></P><P>Г. п. обобщен на случай освобождения системы от части связей. Так как возможные перемещения исходной системы находятся среди возможных перемещений освобожденной системы, то справедливо соотношение:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22921">$$\frac{(d t)^{2}}{2} \sum_{i}\left(m_{i} \frac{\partial v_{i}}{d t}-F_{i}\right) \cdot \Delta w_{i}=0,$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18454">$$\delta v_{i}$$</a> - изменение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорости</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22926">$$v_{i}=r_{i}$$</a> за время <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7731">$$d t$$</a> в освобожденном движении <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18448">$$f_{i}\left(t, r_{j}, \dot{r}_{j}\right) \in C^{1}-$$</a> активные силы. Это уравнение можно привести к виду<BR/></P><P>где<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22922">$$A_{d \delta}+A_{d \partial}-A_{\partial \delta}=0$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22923">$$A_{\partial \delta}=\frac{1}{2} \sum_{i} m_{i}\left(\frac{\partial v_{i}}{d t}-\frac{\delta v_{i}}{d t}\right)^{2}$$</a><BR/></P><P>характеризует меру отклонения движения (d) от движения<BR/></P><P>![](https://cdn.mathpix.com/cropped/2023_07_08_931d0e5433f89aa24162g-1.jpg?height=42&width=815&top_left_y=1227&top_left_x=932)
+уравнения (1) следуют неравенства<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22924">$$A_{d \delta}<A_{\partial \delta}, A_{d \delta}<A_{\partial \delta}$$</a><BR/></P><P>выражающие теорему: отклонение действительного движе-<BR/></P><P>![](https://cdn.mathpix.com/cropped/2023_07_08_931d0e5433f89aa24162g-1.jpg?height=37&width=815&top_left_y=1363&top_left_x=932)
+вительного <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22927">$$(\partial)$$</a> ] движения меньше отклонения движения ( <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22928">$$\delta)$$</a><BR/></P><P>![](https://cdn.mathpix.com/cropped/2023_07_08_931d0e5433f89aa24162g-1.jpg?height=40&width=815&top_left_y=1424&top_left_x=932)
+(1932-33). Теорема, выражаемая вторым из неравенств (2), для случая линейных неголономных связей высказана Э. Махом (е. Mach, 1883) и доказана Е. А. Болотовым <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22929">$$\begin{array}{ll}\text { (1916). } & \text { В. В. Румянцев. }\end{array}$$</a><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[один из вариационных принципов классической механики; следствие Гаусса приниипа наименьшего принуждения: для действительного движения величина
+
+\[
+\sum_{i} \frac{R_{i}^{2}}{2 m_{i}}
+\]
+
+есть минимум; здесь $m_{i}$ - масса $i$-й точки системы с радиус-вектором $r_{i}, R_{i}$ - реакция связей.
+
+Г. п. обобщен на случай освобождения системы от части связей. Так как возможные перемешения исходной системы находятся среди возможных перемещений освобожденной системы, то справедливо соотношение:
+
+\[
+\frac{(d t)^{2}}{2} \sum_{i}\left(m_{i} \frac{\partial v_{i}}{d t}-F_{i}\right) \cdot \Delta w_{i}=0,
+\]
+
+где $\delta v_{i}$ - изменение скорости $v_{i}=r_{i}$ за время $d t$ в освобожденном движении $F_{i}\left(t, r_{j}, \dot{r}_{j}\right) \in C^{1}-$ активные силы. Это уравнение можно привести к виду
+
+где
+
+\[
+A_{d \delta}+A_{d \partial}-A_{\partial \delta}=0
+\]
+
+\[
+A_{\partial \delta}=\frac{1}{2} \sum_{i} m_{i}\left(\frac{\partial v_{i}}{d t}-\frac{\delta v_{i}}{d t}\right)^{2}
+\]
+
+характеризует меру отклонения движения (d) от движения
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_931d0e5433f89aa24162g-1.jpg?height=42&width=815&top_left_y=1227&top_left_x=932)
+уравнения (1) следуют неравенства
+
+\[
+A_{d \delta}<A_{\partial \delta}, A_{d \delta}<A_{\partial \delta}
+\]
+
+выражающие теорему: отклонение действительного движе-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_931d0e5433f89aa24162g-1.jpg?height=37&width=815&top_left_y=1363&top_left_x=932)
+вительного $(\partial)$ ] движения меньше отклонения движения ( $\delta)$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_931d0e5433f89aa24162g-1.jpg?height=40&width=815&top_left_y=1424&top_left_x=932)
+(1932-33). Теорема, выражаемая вторым из неравенств (2), для случая линейных неголономных связей высказана Э. Махом (Е. Масһ, 1883) и доказана Е. А. Болотовым $\begin{array}{ll}\text { (1916). } & \text { В. В. Румянцев. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

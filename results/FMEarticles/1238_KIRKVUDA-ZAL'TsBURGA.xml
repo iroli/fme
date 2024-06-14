@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1238_KIRKVUDA-ZAL'TsBURGA" alphabetic_pos="1240">
+  <title>КИРКВУДА-ЗАЛЬЦБУРГА УРАВНЕНИЯ</title>
+  <authors>
+    <author>Д. П. Санкович</author>
+  </authors>
+  <pages>
+    <start>268</start>
+    <end>269</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Р ю эль Д., Статистическая механика, пер. с англ., М., 1971; [2] Ruelle D., &quot;ann. Phys.», 1963, v. 25, p. 109; [3] Munste r A., Statistical thermodynamics, v. 1, B. - N.Y., 1969; [4] M ayer J. E., «j. Chem. Phys.», 1947, v. 15, p. 187.</literature_orig>
+    <unit>
+      <author>Рюэль Д.</author>
+      <title>Статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ruelle D.</author>
+      <title>&quot;ann. Phys.»</title>
+      <publication/>
+      <year>1963</year>
+      <other>v. 25, p. 109</other>
+    </unit>
+    <unit>
+      <author>Munster A.</author>
+      <title>Statistical thermodynamics, v. 1, B. - N.Y.</title>
+      <publication/>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Mayer J. E.</author>
+      <title>«j. Chem. Phys.»</title>
+      <publication/>
+      <year>1947</year>
+      <other>v. 15, p. 187.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1238_1_KIRKVUDA-ZAL'TsBURGA">\Phi(x)=\Phi(|x|), x \in \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1238_2_KIRKVUDA-ZAL'TsBURGA">\int d x\left|e^{-\beta \Phi(x)}-1\right|&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1238_3_KIRKVUDA-ZAL'TsBURGA">\chi_{\Lambda}(x)_{n}=\prod_{i=1}^{n} \chi_{\Lambda}\left(x_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1238_4_KIRKVUDA-ZAL'TsBURGA">\begin{gathered}W^{1}(x)_{m}=\sum_{i=2}^{m} \Phi\left(x_{i}-x_{1}\right) ; \\(x)_{m-1}^{\prime}=\left\{x_{2}, \ldots, x_{m}\right\} ; \\K\left(x_{1},(y)_{n}\right)=\prod_{j=1}^{n}\left(e^{-\beta \Phi\left(y_{i}-x_{1}\right)}-1\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1238_5_KIRKVUDA-ZAL'TsBURGA">\begin{gathered}\rho_{\Lambda}\left(x_{1}\right)=\chi_{\Lambda}\left(x_{1}\right) z\left[1+\sum_{n=1}^{\infty} \frac{1}{n !} \int d y_{1} \ldots d y_{n} K\left(x_{1},(y)_{n}\right) \rho_{\Lambda}(y)_{n}\right] \\\rho_{\Lambda}(x)_{m}=\chi_{\Lambda}(x)_{m} z \exp \left[-\beta W^{1}(x)_{m}\right] \times \\\times\left[\rho_{\Lambda}(x)_{m-1}^{\prime}+\sum_{n=1}^{\infty} \frac{1}{n !} \int d y_{1} \ldots d y_{n} K\left(x_{1},(y)_{n}\right) \rho_{\Lambda}\left(\left(x^{\prime}\right)_{m-1},(y)_{n}\right)\right] .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_1_KIRKVUDA-ZAL'TsBURGA">\beta^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_2_KIRKVUDA-ZAL'TsBURGA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_3_KIRKVUDA-ZAL'TsBURGA">\lambda \subset \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_4_KIRKVUDA-ZAL'TsBURGA">\phi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_5_KIRKVUDA-ZAL'TsBURGA">\phi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_6_KIRKVUDA-ZAL'TsBURGA">\beta&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_7_KIRKVUDA-ZAL'TsBURGA">\chi_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_8_KIRKVUDA-ZAL'TsBURGA">\lambda \subset \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_9_KIRKVUDA-ZAL'TsBURGA">(x)_{n}=\left\{x_{1}, x_{2}, \ldots, x_{n}\right\}, x_{1}, \ldots, x_{n} \in \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_10_KIRKVUDA-ZAL'TsBURGA">\rho_{\lambda}(x)_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_11_KIRKVUDA-ZAL'TsBURGA">\rho_{\lambda}(x)_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_12_KIRKVUDA-ZAL'TsBURGA">n \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1238_13_KIRKVUDA-ZAL'TsBURGA">|\lambda| \rightarrow \infty</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1238_1_KIRKVUDA-ZAL'TsBURGA">
+      <rel_text>Устойчивый потенциал взаимодействия</rel_text>
+      <target>http://libmeta.ru/fme/article/3224_USTOJChIVYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1238_2_KIRKVUDA-ZAL'TsBURGA">
+      <rel_text>кинетический предел</rel_text>
+      <target>http://libmeta.ru/fme/article/2490_RAVNOVESNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1238_3_KIRKVUDA-ZAL'TsBURGA">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1238_4_KIRKVUDA-ZAL'TsBURGA">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+  </relations>
+  <text>система линейных интегральных уравнений для корреляционных функций. Рассмотрим в рамках большого канонич. ансамбля систему классич. тождественных частиц, взаимодействующих посредством парного потенциала
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1238_1_KIRKVUDA-ZAL'TsBURGA]]/URI
+\]
+
+и находящихся в состоянии статистич. равновесия при температуре $URI[[http://libmeta.ru/fme/formula/aux/1238_1_KIRKVUDA-ZAL'TsBURGA]]/URI$ и активности $URI[[http://libmeta.ru/fme/formula/aux/1238_2_KIRKVUDA-ZAL'TsBURGA]]/URI$ в сосуде $URI[[http://libmeta.ru/fme/formula/aux/1238_3_KIRKVUDA-ZAL'TsBURGA]]/URI$. Потенциал $URI[[http://libmeta.ru/fme/formula/aux/1238_4_KIRKVUDA-ZAL'TsBURGA]]/URI$ предполагается устойчивым (см. URI[[http://libmeta.ru/fme/relation/1238_1_KIRKVUDA-ZAL'TsBURGA]]/URI) и регулярным. Последнее означает, что $URI[[http://libmeta.ru/fme/formula/aux/1238_5_KIRKVUDA-ZAL'TsBURGA]]/URI$ ограничен снизу и при всех $URI[[http://libmeta.ru/fme/formula/aux/1238_6_KIRKVUDA-ZAL'TsBURGA]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1238_2_KIRKVUDA-ZAL'TsBURGA]]/URI
+\]
+
+Обозначим через $URI[[http://libmeta.ru/fme/formula/aux/1238_7_KIRKVUDA-ZAL'TsBURGA]]/URI$ характеристич. функцию ограниченного измеримого по Лебегу множества $URI[[http://libmeta.ru/fme/formula/aux/1238_8_KIRKVUDA-ZAL'TsBURGA]]/URI$ и положим
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1238_3_KIRKVUDA-ZAL'TsBURGA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1238_9_KIRKVUDA-ZAL'TsBURGA]]/URI$. Обозначим
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1238_4_KIRKVUDA-ZAL'TsBURGA]]/URI
+\]
+
+К.- 3. у. для корреляционных функций $URI[[http://libmeta.ru/fme/formula/aux/1238_10_KIRKVUDA-ZAL'TsBURGA]]/URI$ имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1238_5_KIRKVUDA-ZAL'TsBURGA]]/URI
+\]
+
+К.- 3.у. образуют неоднородную систему линейных уравнений относительно корреляционных функций $URI[[http://libmeta.ru/fme/formula/aux/1238_11_KIRKVUDA-ZAL'TsBURGA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1238_12_KIRKVUDA-ZAL'TsBURGA]]/URI$. К. - 3. у. используют для изучения предела корреля- ционных функций при $URI[[http://libmeta.ru/fme/formula/aux/1238_13_KIRKVUDA-ZAL'TsBURGA]]/URI$. Особенно эффективны K.3. у. при малых значениях активности, когда удается доказать единственность их решений, а также существование и единственность предельных корреляционных функций.
+
+K. - 3.у. URI[[http://libmeta.ru/fme/relation/1238_4_KIRKVUDA-ZAL'TsBURGA]]/URI Дж. Кирквудом (j. Kirkwood) и 3. Зальцбургом (z. Salzburg) и восходят к работе Дж. Майера [4].
+
+См. также Равновесные URI[[http://libmeta.ru/fme/relation/1238_3_KIRKVUDA-ZAL'TsBURGA]]/URI; URI[[http://libmeta.ru/fme/relation/1238_2_KIRKVUDA-ZAL'TsBURGA]]/URI.</text>
+  <text_orig>система линейных интегральных уравнений для корреляционных функций. Рассмотрим в рамках большого канонич. ансамбля систему классич. тождественных частиц, взаимодействуюших посредством парного потенциала
+
+\[
+\Phi(x)=\Phi(|x|), x \in \mathbb{R}^{v}
+\]
+
+и находящихся в состоянии статистич. равновесия при температуре $\beta^{-1}$ и активности $z$ в сосуде $\Lambda \subset \mathbb{R}^{v}$. Потенциал $\Phi(x)$ предполагается устойчивым (см. Устойчивый потенциал взаимодействия) и регулярным. Последнее означает, что $\Phi(x)$ ограничен снизу и при всех $\beta&gt;0$
+
+\[
+\int d x\left|e^{-\beta \Phi(x)}-1\right|&lt;\infty
+\]
+
+Обозначим через $\chi_{\Lambda}$ характеристич. функцию ограниченного измеримого по Лебегу множества $\Lambda \subset \mathbb{R}^{v}$ и положим
+
+\[
+\chi_{\Lambda}(x)_{n}=\prod_{i=1}^{n} \chi_{\Lambda}\left(x_{i}\right)
+\]
+
+где $(x)_{n}=\left\{x_{1}, x_{2}, \ldots, x_{n}\right\}, x_{1}, \ldots, x_{n} \in \mathbb{R}^{v}$. Обозначим
+
+\[
+\begin{gathered}
+W^{1}(x)_{m}=\sum_{i=2}^{m} \Phi\left(x_{i}-x_{1}\right) ; \\
+(x)_{m-1}^{\prime}=\left\{x_{2}, \ldots, x_{m}\right\} ; \\
+K\left(x_{1},(y)_{n}\right)=\prod_{j=1}^{n}\left(e^{-\beta \Phi\left(y_{i}-x_{1}\right)}-1\right) .
+\end{gathered}
+\]
+
+К.- 3. у. для корреляционных функций $\rho_{\Lambda}(x)_{n}$ имеют вид:
+
+\[
+\begin{gathered}
+\rho_{\Lambda}\left(x_{1}\right)=\chi_{\Lambda}\left(x_{1}\right) z\left[1+\sum_{n=1}^{\infty} \frac{1}{n !} \int d y_{1} \ldots d y_{n} K\left(x_{1},(y)_{n}\right) \rho_{\Lambda}(y)_{n}\right] \\
+\rho_{\Lambda}(x)_{m}=\chi_{\Lambda}(x)_{m} z \exp \left[-\beta W^{1}(x)_{m}\right] \times \\
+\times\left[\rho_{\Lambda}(x)_{m-1}^{\prime}+\sum_{n=1}^{\infty} \frac{1}{n !} \int d y_{1} \ldots d y_{n} K\left(x_{1},(y)_{n}\right) \rho_{\Lambda}\left(\left(x^{\prime}\right)_{m-1},(y)_{n}\right)\right] .
+\end{gathered}
+\]
+
+К.- 3.у. образуют неоднородную систему линейных уравнений относительно корреляционных функций $\rho_{\Lambda}(x)_{n}$ при $n \geqslant 1$. К. - 3. у. используют для изучения предела корреля- ционных функций при $|\Lambda| \rightarrow \infty$. Особенно эффективны K.3. у. при малых значениях активности, когда удается доказать единственность их решений, а также существование и единственность предельных корреляционных функций.
+
+K. - 3.у. получены Дж. Кирквудом (J. Kirkwood) и 3. Зальцбургом (Z. Salzburg) и восходят к работе Дж. Майера [4].
+
+См. также Равновесные состояния; кинетический предел.
+
+Лит.: [1] Р ю эль Д., Статистическая механика, пер. с англ., М., 1971; [2] Ruelle D., &quot;Ann. Phys.», 1963, v. 25, p. 109; [3] Munste r A., Statistical thermodynamics, v. 1, B. - N.Y., 1969; [4] M ayer J. E., «J. Chem. Phys.», 1947, v. 15, p. 187.
+
+Д. П. Санкович.</text_orig>
+</article>

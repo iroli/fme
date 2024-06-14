@@ -1,0 +1,375 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/727_GRINA" alphabetic_pos="729">
+  <title>ГРИНА ФУНКЦИЯ В СТАТИСТИЧЕСКОЙ МЕХАНИКЕ</title>
+  <authors>
+    <author>Д. Н. Зубарев</author>
+  </authors>
+  <pages>
+    <start>158</start>
+    <end>159</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Зу ба ре в Д. Н., «успехи физич. наук», 1960, т. 71, с. 71; [2] Т я б л и ко в С. В., Методы квантовой теории магнетизма, 2 изд., М., 1975; [3] Абрикосов А. А., Горьковл. П., Дзялошинск и й И. Е., Методы квантовой теории поля в статистической физике, М., 1962; [4] Б ого любов Н.Н. (мл.), Садовн и ков Б. И., Некоторые вопросы статистической механики, М., 1975.</literature_orig>
+    <unit>
+      <author>Зубарев Д. Н.</author>
+      <title>«успехи физич. наук»</title>
+      <publication/>
+      <year>1960</year>
+      <other>т. 71, с. 71</other>
+    </unit>
+    <unit>
+      <author>Тябликов С. В.</author>
+      <title>Методы квантовой теории магнетизма</title>
+      <publication>2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Абрикосов А. А.</author>
+      <author>Горьковл. П.</author>
+      <author>Дзялошинский И. Е.</author>
+      <title>Методы квантовой теории поля в статистической физике</title>
+      <publication>М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Б ого любов Н.Н. (мл.), Садовн и ков Б. И., Некоторые вопросы статистической механики</title>
+      <publication>М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_1_GRINA">\begin{gathered}G_{A B}^{\mathrm{ret}}\left(t-t^{\prime}\right)=\theta\left(t-t^{\prime}\right)(i \hbar)^{-1}\left\langle\left[A(t), B\left(t^{\prime}\right)\right]\right\rangle \\G_{A B}^{\mathrm{adv}}\left(t-t^{\prime}\right)=-\theta\left(t^{\prime}-t\right)(i \hbar)^{-1}\left\langle\left[A(t), B\left(t^{\prime}\right)\right]\right\rangle,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_2_GRINA">G_{A B}^{\mathrm{c}}\left(t-t^{\prime}\right)=(i \hbar)^{-1}\left\langle T A(t) B\left(t^{\prime}\right)\right\rangle,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_3_GRINA">H_{t}^{1}=-B F(t) e^{\varepsilon t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_4_GRINA">\langle A\rangle_{t}=\langle A\rangle-\int_{-\infty}^{t} G_{A B}\left(t-t^{\prime}\right) F\left(t^{\prime}\right) e^{\varepsilon t^{\prime}} d t^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_5_GRINA">\langle A\rangle_{t}=\langle A\rangle-\int_{-\infty}^{t} \int_{0}^{1 / k T}\left\langle B\left(t^{\prime}-i \hbar \lambda\right) A(t)\right\rangle F\left(t^{\prime}\right) e^{\varepsilon t^{\prime}} d t^{\prime} d \lambda .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_6_GRINA">\begin{aligned}&amp; \Psi(x, \tau)=e^{\tau \mathscr{H}} \psi(x) e^{-\tau \mathscr{H}}, \\&amp; \bar{\psi}(x, \tau)=e^{\tau \mathscr{H}} \psi^{+}(x) e^{-\tau \mathscr{H}},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_7_GRINA">G_{A B}\left(t-t^{\prime}\right)=\left\langle\left\langle A(t) B\left(t^{\prime}\right)\right\rangle\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_8_GRINA">\begin{gathered}i \hbar \partial G_{A B}\left(t-t^{\prime}\right) / \partial t=\langle[A, B]\rangle \delta\left(t-t^{\prime}\right)+ \\+\left\langle\left\langle A(t) \mathscr{H} B\left(t^{\prime}\right)-\mathscr{J C} A(t) B\left(t^{\prime}\right)\right\rangle\right\rangle .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_9_GRINA">\left\langle B\left(t^{\prime}\right) A(t)\right\rangle=(2 \pi)^{-1} \int_{-\infty}^{\infty} \widetilde{J}_{B A}(\omega) e^{i \omega\left(t^{\prime}-t\right)} d \omega,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_10_GRINA">G_{A B}(\omega+i \varepsilon)-G_{A B}(\omega-i \varepsilon)=(i \hbar)^{-1}\left(e^{\hbar \omega / k T}-h\right) \mathscr{T}_{B A}(\omega) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/727_11_GRINA">A(t)=e^{i L t} A,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_1_GRINA">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_2_GRINA">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_3_GRINA">\theta(t)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_4_GRINA">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_5_GRINA">\theta(t)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_6_GRINA">t&lt;0,\langle\ldots\rangle-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_7_GRINA">[a, B]=A B-h B A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_8_GRINA">h= \pm 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_9_GRINA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_10_GRINA">a, B</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_11_GRINA">h=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_12_GRINA">h=-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_13_GRINA">\mathscr{k}=h-\mu N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_14_GRINA">h-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_15_GRINA">\mu-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_16_GRINA">n-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_17_GRINA">(i \hbar)^{-1}[A, B]_{h=1}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_18_GRINA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_19_GRINA">(\varepsilon \rightarrow+0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_20_GRINA">t \rightarrow-\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_21_GRINA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_22_GRINA">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_23_GRINA">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_24_GRINA">-i / k T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_25_GRINA">\psi(x), \psi^{+}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_26_GRINA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_27_GRINA">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_28_GRINA">\widetilde{t}_{b A}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_29_GRINA">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_30_GRINA">\widetilde{t}_{b A}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_31_GRINA">\tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_32_GRINA">\left(0, \beta=\frac{1}{k T}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_33_GRINA">\omega_{n}=2 n \pi / \beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_34_GRINA">\omega_{n}=(2 n+1) \pi / \beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_35_GRINA">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_36_GRINA">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_37_GRINA">a=\psi(x), B=\psi^{+}\left(x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_38_GRINA">\{a, B\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_39_GRINA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/727_40_GRINA">i L A=\{A, \mathscr{C}\}</formula>
+  </formulas_aux>
+  <relations n="26">
+    <relation uri="http://libmeta.ru/fme/relation/727_1_GRINA">
+      <rel_text>Гиббса распределения</rel_text>
+      <target>http://libmeta.ru/fme/article/604_GIBBSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_2_GRINA">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_3_GRINA">
+      <rel_text>представление Гейзенберга</rel_text>
+      <target>http://libmeta.ru/fme/article/558_GEJZENBERGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_4_GRINA">
+      <rel_text>классические</rel_text>
+      <target>http://libmeta.ru/fme/article/1253_KLASTERIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_5_GRINA">
+      <rel_text>квантовые скобки Пуассона</rel_text>
+      <target>http://libmeta.ru/fme/article/1198_KVANTOVYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_6_GRINA">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_7_GRINA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_8_GRINA">
+      <rel_text>корреляционные функции</rel_text>
+      <target>http://libmeta.ru/fme/article/1409_KORRELJaTsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_9_GRINA">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_10_GRINA">
+      <rel_text>аналитически продолжить</rel_text>
+      <target>http://libmeta.ru/fme/article/77_ANALITIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_11_GRINA">
+      <rel_text>бозе-частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/240_BOZE-SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_12_GRINA">
+      <rel_text>ферми-частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3270_FERMI-ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_13_GRINA">
+      <rel_text>частотам</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_14_GRINA">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_15_GRINA">
+      <rel_text>полуплоскости</rel_text>
+      <target>http://libmeta.ru/fme/article/2306_POLUINVARIAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_16_GRINA">
+      <rel_text>функцию в комплексной</rel_text>
+      <target>http://libmeta.ru/fme/article/491_VYChET</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_17_GRINA">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_18_GRINA">
+      <rel_text>корреляционных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/1409_KORRELJaTsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_19_GRINA">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_20_GRINA">
+      <rel_text>корреляционных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/1409_KORRELJaTsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_21_GRINA">
+      <rel_text>получив</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_22_GRINA">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_23_GRINA">
+      <rel_text>корреляционные функции</rel_text>
+      <target>http://libmeta.ru/fme/article/1409_KORRELJaTsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_24_GRINA">
+      <rel_text>подобные</rel_text>
+      <target>http://libmeta.ru/fme/article/2277_PODOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_25_GRINA">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/727_26_GRINA">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+  </relations>
+  <text>обобщение временной корреляционной функции, тесно связанное с вычислением наблюдаемых физических величин для системы многих частиц. Применение Г. ф. связано с тем, что для нахождения статистич. характеристик системы многих частиц нужно знать не детальное поведение каждой частицы, а только усредненное поведение одной или двух частиц под действием остальных.
+
+В квантовой статистич. механике Г. ф. (з а п а зды в а ю щ и е и о пе режа ющ ие) определяют через средние значения коммутаторов или антикоммутаторов двух операторов $URI[[http://libmeta.ru/fme/formula/aux/727_1_GRINA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/727_2_GRINA]]/URI$ в Гейзенберга представлении:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_1_GRINA]]/URI
+\] где $URI[[http://libmeta.ru/fme/formula/aux/727_3_GRINA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/727_4_GRINA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/727_5_GRINA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/727_6_GRINA]]/URI$ усреднение по большому канонич. распределению Гиббса (см. URI[[http://libmeta.ru/fme/relation/727_1_GRINA]]/URI), $URI[[http://libmeta.ru/fme/formula/aux/727_7_GRINA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/727_8_GRINA]]/URI$. Значение $URI[[http://libmeta.ru/fme/formula/aux/727_9_GRINA]]/URI$ выбирается из соображений удобства: если $URI[[http://libmeta.ru/fme/formula/aux/727_10_GRINA]]/URI$ - бозе-операторы, то обычно выбирают $URI[[http://libmeta.ru/fme/formula/aux/727_11_GRINA]]/URI$, для ферми-операторов $URI[[http://libmeta.ru/fme/formula/aux/727_12_GRINA]]/URI$. Представление Гейзенберга вводят при помощи оператора $URI[[http://libmeta.ru/fme/formula/aux/727_13_GRINA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/727_14_GRINA]]/URI$ оператор Гамильтона системы многих частиц, $URI[[http://libmeta.ru/fme/formula/aux/727_15_GRINA]]/URI$ химич. потенциал, $URI[[http://libmeta.ru/fme/formula/aux/727_16_GRINA]]/URI$ оператор полного числа частиц, $URI[[http://libmeta.ru/fme/formula/aux/727_17_GRINA]]/URI$ квантовая скобка Пуассона.
+
+Используют также пр и ч и н ны е Г. ф.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_2_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/727_18_GRINA]]/URI$ - символ хронологич. упорядочения операторов, располагающего стоящие после него операторы слева направо в порядке убывания времени и меняющего знак на обратный при нечетном числе ферми-операторов.
+
+Запаздывающие Г.ф. описывают реакцию системы на возмущение с энергией
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_3_GRINA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/727_19_GRINA]]/URI$. Если система при $URI[[http://libmeta.ru/fme/formula/aux/727_20_GRINA]]/URI$ находилась в статистич. равновесии, то к моменту $URI[[http://libmeta.ru/fme/formula/aux/727_21_GRINA]]/URI$ среднее значение $URI[[http://libmeta.ru/fme/formula/aux/727_22_GRINA]]/URI$ равно
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_4_GRINA]]/URI
+\]
+
+или
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_5_GRINA]]/URI
+\]
+
+Эти формулы называются формулам и Ку бо.
+
+Причинные Г. ф. не имеют столь простого физич. смысла, но они тесно связаны с теорией возмущений при нулевой температуре, то есть с вычислением основного состояния системы. Наиболее тесно связаны с теорией возмущений при температуре отличной от нуля (то есть с термодинамич. теорией возмущений) - мацуба ро вск и е Г. ф., введенные Т. Мацубарой (т. Matsubara, 1955). Они отличаются от причинных Г.ф. тем, что операторы берутся не в обычном представлении Гейзенберга, а в представлении, зависящем от нек-рого «мнимого&quot; времени - $URI[[http://libmeta.ru/fme/formula/aux/727_23_GRINA]]/URI$, изменяющегося в интервале от $URI[[http://libmeta.ru/fme/formula/aux/727_24_GRINA]]/URI$ до нуля:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_6_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/727_25_GRINA]]/URI$ - операторы, удовлетворяющие перестановочным соотношениям Бозе - Эйнштейна статистики или Ферми - Дирака статистики. Для таких Г.Ф. можно построить диаграммную технику при конечных температурах, аналогичную диаграммной технике квантовой теории поля. Bce eе основные понятия (собственно энергетич. части, вершинные функции) можно перенести на случай ненулевой температуры.
+
+Г. ф. удовлетворяют системе зацепляющихся уравнений, к-рые получаются при дифференцировании Г. ф. по $URI[[http://libmeta.ru/fme/formula/aux/727_26_GRINA]]/URI$. Вводя для запаздывающих и опережающих Г. ф. одинаковые обозначения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_7_GRINA]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/727_26_GRINA]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_8_GRINA]]/URI
+\]
+
+Это уравнение выражает исходные Г.ф. через Г.ф. более высокого порядка, для к-рых можно URI[[http://libmeta.ru/fme/relation/727_25_GRINA]]/URI URI[[http://libmeta.ru/fme/relation/727_24_GRINA]]/URI уравнения и т. д. Уравнения такого типа одинаковы для запаздывающих, опережающих и причинных Г. ф., следовательно, их нужно дополнить граничными условиями, что можно сделать с помощью спектральных представлений Временные URI[[http://libmeta.ru/fme/relation/727_23_GRINA]]/URI удовлетворяют таким же уравнениям, как и Г. ф., но без члена с $URI[[http://libmeta.ru/fme/formula/aux/727_27_GRINA]]/URI$-функцией, поэтому Г.ф. описывают влияние на корреляции мгновенных возмушений. Очевидна их аналогия с Г.ф., к-рые применяют при решении краевых задач математич. физики. Уравнения для Г. ф. являются точными, поэтому решение этой цепочки уравнений в общем случае чрезвычайно сложно. Однако, если в системе есть малые параметры (напр., малая URI[[http://libmeta.ru/fme/relation/727_22_GRINA]]/URI или малое взаимодействие), оказывается возможным выразить высшие Г. ф. через низшие и «расцепить» цепочку для Г. ф., URI[[http://libmeta.ru/fme/relation/727_21_GRINA]]/URI для них замкнутую систему уравнений.
+
+Для временных URI[[http://libmeta.ru/fme/relation/727_20_GRINA]]/URI удобны спектральные представления
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_9_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/727_28_GRINA]]/URI$ - спектральная URI[[http://libmeta.ru/fme/relation/727_19_GRINA]]/URI временных URI[[http://libmeta.ru/fme/relation/727_18_GRINA]]/URI. Отсюда можно URI[[http://libmeta.ru/fme/relation/727_17_GRINA]]/URI спектральные представления для запаздывающих и опережающих Г.Ф. и построить единую аналитич. URI[[http://libmeta.ru/fme/relation/727_16_GRINA]]/URI плоскости $URI[[http://libmeta.ru/fme/formula/aux/727_29_GRINA]]/URI$, к-рая в верхней URI[[http://libmeta.ru/fme/relation/727_15_GRINA]]/URI совпадает с запаздывающей, а в нижней с опережающей Г.ф. Такая Г.ф. удобна для приложений, с ее помощью можно выразить $URI[[http://libmeta.ru/fme/formula/aux/727_30_GRINA]]/URI$ через скачок Г. ф. на действительной оси:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_10_GRINA]]/URI
+\]
+
+Спектральные представления для мацубаровских Г. ф. можно URI[[http://libmeta.ru/fme/relation/727_14_GRINA]]/URI, если продолжить их периодически на все значения $URI[[http://libmeta.ru/fme/formula/aux/727_31_GRINA]]/URI$ вне интервала $URI[[http://libmeta.ru/fme/formula/aux/727_32_GRINA]]/URI$ и разложить в ряд Фурье по URI[[http://libmeta.ru/fme/relation/727_13_GRINA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/727_33_GRINA]]/URI$ для URI[[http://libmeta.ru/fme/relation/727_12_GRINA]]/URI и $URI[[http://libmeta.ru/fme/formula/aux/727_34_GRINA]]/URI$ для URI[[http://libmeta.ru/fme/relation/727_11_GRINA]]/URI. Фурье-компоненты определены лишь для дискретных $URI[[http://libmeta.ru/fme/formula/aux/727_35_GRINA]]/URI$, но их можно URI[[http://libmeta.ru/fme/relation/727_10_GRINA]]/URI на все $URI[[http://libmeta.ru/fme/formula/aux/727_36_GRINA]]/URI$ и URI[[http://libmeta.ru/fme/relation/727_9_GRINA]]/URI тем самым временные URI[[http://libmeta.ru/fme/relation/727_8_GRINA]]/URI.
+
+Особенно важны одночастичные Г.ф., для к-рых $URI[[http://libmeta.ru/fme/formula/aux/727_37_GRINA]]/URI$ : действительная и мнимая части полюса этих Г.Ф. определяют спектр и затухание элементарных возбуждений системы многих URI[[http://libmeta.ru/fme/relation/727_7_GRINA]]/URI. Г. ф. используют также в статистич. URI[[http://libmeta.ru/fme/relation/727_6_GRINA]]/URI классич. систем. В этом случае URI[[http://libmeta.ru/fme/relation/727_5_GRINA]]/URI надо заменить на URI[[http://libmeta.ru/fme/relation/727_4_GRINA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/727_38_GRINA]]/URI$, а URI[[http://libmeta.ru/fme/relation/727_3_GRINA]]/URI - на
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/727_11_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/727_39_GRINA]]/URI$ - URI[[http://libmeta.ru/fme/relation/727_2_GRINA]]/URI Лиувилля, определяемый равенством $URI[[http://libmeta.ru/fme/formula/aux/727_40_GRINA]]/URI$. Г. Ф. применяются также в теории неравновесных процессов.</text>
+  <text_orig>обобщение временно́й корреляционной функции, тесно связанное с вычислением наблюдаемых физических величин для системы многих частиц. Применение Г. ф. связано с тем, что для нахождения статистич. характеристик системы многих частиц нужно знать не детальное поведение каждой частицы, а только усредненное поведение одной или двух частиц под действием остальных.
+
+В квантовой статистич. механике Г. ф. (з а п а зды в а ю щ и е и о пе режа ющ ие) определяют через средние значения коммутаторов или антикоммутаторов двух операторов $A$ и $B$ в Гейзенберга представлении:
+
+\[
+\begin{gathered}
+G_{A B}^{\mathrm{ret}}\left(t-t^{\prime}\right)=\theta\left(t-t^{\prime}\right)(i \hbar)^{-1}\left\langle\left[A(t), B\left(t^{\prime}\right)\right]\right\rangle \\
+G_{A B}^{\mathrm{adv}}\left(t-t^{\prime}\right)=-\theta\left(t^{\prime}-t\right)(i \hbar)^{-1}\left\langle\left[A(t), B\left(t^{\prime}\right)\right]\right\rangle,
+\end{gathered}
+\] где $\theta(t)=1$ при $t&gt;0$ и $\theta(t)=0$ при $t&lt;0,\langle\ldots\rangle-$ усреднение по большому канонич. распределению Гиббса (см. Гиббса распределения), $[A, B]=A B-h B A$, где $h= \pm 1$. Значение $h$ выбирается из соображений удобства: если $A, B$ - бозе-операторы, то обычно выбирают $h=1$, для ферми-операторов $h=-1$. Представление Гейзенберга вводят при помощи оператора $\mathscr{K}=H-\mu N$, где $H-$ оператор Гамильтона системы многих частиц, $\mu-$ химич. потенциал, $N-$ оператор полного числа частиц, $(i \hbar)^{-1}[A, B]_{h=1}-$ квантовая скобка Пуассона.
+
+Используют также пр и ч и н ны е Г. ф.
+
+\[
+G_{A B}^{\mathrm{c}}\left(t-t^{\prime}\right)=(i \hbar)^{-1}\left\langle T A(t) B\left(t^{\prime}\right)\right\rangle,
+\]
+
+где $T$ - символ хронологич. упорядочения операторов, располагающего стоящие после него операторы слева направо в порядке убывания времени и меняющего знак на обратный при нечетном числе ферми-операторов.
+
+Запаздывающие Г.ф. описывают реакцию системы на возмущение с энергией
+
+\[
+H_{t}^{1}=-B F(t) e^{\varepsilon t}
+\]
+
+$(\varepsilon \rightarrow+0)$. Если система при $t \rightarrow-\infty$ находилась в статистич. равновесии, то к моменту $t$ среднее значение $A$ равно
+
+\[
+\langle A\rangle_{t}=\langle A\rangle-\int_{-\infty}^{t} G_{A B}\left(t-t^{\prime}\right) F\left(t^{\prime}\right) e^{\varepsilon t^{\prime}} d t^{\prime}
+\]
+
+или
+
+\[
+\langle A\rangle_{t}=\langle A\rangle-\int_{-\infty}^{t} \int_{0}^{1 / k T}\left\langle B\left(t^{\prime}-i \hbar \lambda\right) A(t)\right\rangle F\left(t^{\prime}\right) e^{\varepsilon t^{\prime}} d t^{\prime} d \lambda .
+\]
+
+Эти формулы называются формулам и Ку бо.
+
+Причинные Г. ф. не имеют столь простого физич. смысла, но они тесно связаны с теорией возмущений при нулевой температуре, то есть с вычислением основного состояния системы. Наиболее тесно связаны с теорией возмущений при температуре отличной от нуля (то есть с термодинамич. теорией возмушений) - мацуба ро вск и е Г. ф., введенные Т. Мацубарой (Т. Matsubara, 1955). Они отличаются от причинных Г.ф. тем, что операторы берутся не в обычном представлении Гейзенберга, а в представлении, зависящем от нек-рого «мнимого&quot; времени - $i$, изменяющегося в интервале от $-i / k T$ до нуля:
+
+\[
+\begin{aligned}
+&amp; \Psi(x, \tau)=e^{\tau \mathscr{H}} \psi(x) e^{-\tau \mathscr{H}}, \\
+&amp; \bar{\psi}(x, \tau)=e^{\tau \mathscr{H}} \psi^{+}(x) e^{-\tau \mathscr{H}},
+\end{aligned}
+\]
+
+где $\psi(x), \psi^{+}(x)$ - операторы, удовлетворяющие перестановочным соотношениям Бозе - Эйнштейна статистики или Ферми - Дирака статистики. Для таких Г.Ф. можно построить диаграммную технику при конечных температурах, аналогичную диаграммной технике квантовой теории поля. Bce eе основные понятия (собственно энергетич. части, вершинные функции) можно перенести на случай ненулевой температуры.
+
+Г. ф. удовлетворяют системе зацепляющихся уравнений, к-рые получаются при дифференцировании Г. ф. по $t$. Вводя для запаздывающих и опережающих Г. ф. одинаковые обозначения
+
+\[
+G_{A B}\left(t-t^{\prime}\right)=\left\langle\left\langle A(t) B\left(t^{\prime}\right)\right\rangle\right\rangle
+\]
+
+получают
+
+\[
+\begin{gathered}
+i \hbar \partial G_{A B}\left(t-t^{\prime}\right) / \partial t=\langle[A, B]\rangle \delta\left(t-t^{\prime}\right)+ \\
++\left\langle\left\langle A(t) \mathscr{H} B\left(t^{\prime}\right)-\mathscr{J C} A(t) B\left(t^{\prime}\right)\right\rangle\right\rangle .
+\end{gathered}
+\]
+
+Это уравнение выражает исходные Г.ф. через Г.ф. более высокого порядка, для к-рых можно получить подобные уравнения и т. д. Уравнения такого типа одинаковы для запаздывающих, опережающих и причинных Г. ф., следовательно, их нужно дополнить граничными условиями, что можно сделать с помощью спектральных представлений Временные корреляционные функции удовлетворяют таким же уравнениям, как и Г. ф., но без члена с $\delta$-функцией, поэтому Г.ф. описывают влияние на корреляции мгновенных возмушений. Очевидна их аналогия с Г.ф., к-рые применяют при решении краевых задач математич. физики. Уравнения для Г. ф. являются точными, поэтому решение этой цепочки уравнений в общем случае чрезвычайно сложно. Однако, если в системе есть малые параметры (напр., малая плотность или малое взаимодействие), оказывается возможным выразить высшие Г. ф. через низшие и «расцепить» цепочку для Г. ф., получив для них замкнутую систему уравнений.
+
+Для временных корреляционных функций удобны спектральные представления
+
+\[
+\left\langle B\left(t^{\prime}\right) A(t)\right\rangle=(2 \pi)^{-1} \int_{-\infty}^{\infty} \widetilde{J}_{B A}(\omega) e^{i \omega\left(t^{\prime}-t\right)} d \omega,
+\]
+
+где $\widetilde{T}_{B A}(\omega)$ - спектральная плотность временных корреляционных функций. Отсюда можно получить спектральные представления для запаздывающих и опережающих Г.Ф. и построить единую аналитич. функцию в комплексной плоскости $\omega$, к-рая в верхней полуплоскости совпадает с запаздывающей, а в нижней с опережающей Г.ф. Такая Г.ф. удобна для приложений, с ее помощью можно выразить $\widetilde{T}_{B A}(\omega)$ через скачок Г. ф. на действительной оси:
+
+\[
+G_{A B}(\omega+i \varepsilon)-G_{A B}(\omega-i \varepsilon)=(i \hbar)^{-1}\left(e^{\hbar \omega / k T}-h\right) \mathscr{T}_{B A}(\omega) .
+\]
+
+Спектральные представления для мацубаровских Г. ф. можно получить, если продолжить их периодически на все значения $\tau$ вне интервала $\left(0, \beta=\frac{1}{k T}\right)$ и разложить в ряд Фурье по частотам $\omega_{n}=2 n \pi / \beta$ для ферми-частиц и $\omega_{n}=(2 n+1) \pi / \beta$ для бозе-частиц. Фурье-компоненты определены лишь для дискретных $\omega_{n}$, но их можно аналитически продолжить на все $\omega$ и получить тем самым временные корреляционные функции.
+
+Особенно важны одночастичные Г.ф., для к-рых $A=\psi(x), B=\psi^{+}\left(x^{\prime}\right)$ : действительная и мнимая части полюса этих Г.Ф. определяют спектр и затухание элементарных возбуждений системы многих частиц. Г. ф. используют также в статистич. механике классич. систем. В этом случае квантовые скобки Пуассона надо заменить на классические $\{A, B\}$, а представление Гейзенберга - на
+
+\[
+A(t)=e^{i L t} A,
+\]
+
+где $L$ - оператор Лиувилля, определяемый равенством $i L A=\{A, \mathscr{C}\}$. Г. Ф. применяются также в теории неравновесных процессов.
+
+Лит.: [1] Зу ба ре в Д. Н., «Успехи физич. наук», 1960, т. 71, с. 71; [2] Т я б л и ко в С. В., Методы квантовой теории магнетизма, 2 изд., М., 1975; [3] Абрикосов А. А., ГорьковЛ. П., Дзялошинск и й И. Е., Методы квантовой теории поля в статистической физике, М., 1962; [4] Б ого любов Н.Н. (мл.), Садовн и ков Б. И., Некоторые вопросы статистической механики, М., 1975.
+
+Д. Н. Зубарев.</text_orig>
+</article>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1406_KORRELJaTsII">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1406_KORRELJaTsII</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/451</core:url>
+    <lbm:descriptor><![CDATA[КОРРЕЛЯЦИИ КОЭФФИЦИЕНТ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4157"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4158"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4159"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4160"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4161"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3169"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3170"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4162"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4163"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4164"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4165"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4166"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4167"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4168"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>числовая характеристика зависимости двух случайных величин. Для случайных величин $URI[[http://libmeta.ru/fme/formula/aux/1406_1_KORRELJaTsII]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1406_2_KORRELJaTsII]]/URI$ с математическими ожиданиями<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4157">$$a_{i}=\mathrm{E} X_{i}$$</a><BR/></P><P>и ненулевыми дисперсиями<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4158">$$\mathrm{D} X_{i}=\sigma_{i}^{2}=\mathrm{E}\left(x_{i}-a_{i}\right)^{2}$$</a><BR/></P><P>K. К. определяется равенством<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4159">$$\rho=\rho\left(X_{1}, X_{2}\right)=\mathrm{E} \frac{X_{1}-a_{1}}{\sigma_{1}} \frac{X_{2}-a_{2}}{\sigma_{2}} .$$</a><BR/></P><P>Если $URI[[http://libmeta.ru/fme/formula/aux/1406_3_KORRELJaTsII]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1406_4_KORRELJaTsII]]/URI$ независимы, то $URI[[http://libmeta.ru/fme/formula/aux/1406_5_KORRELJaTsII]]/URI$ (если $URI[[http://libmeta.ru/fme/formula/aux/1406_6_KORRELJaTsII]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1406_7_KORRELJaTsII]]/URI$ имеют совместное Гаусса распределение, то верно и обратное; в общем случае это неверно); при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4162">$$\rho=0$$</a> случайные величины $URI[[http://libmeta.ru/fme/formula/aux/1406_9_KORRELJaTsII]]/URI$ называются некоррелированными, при $URI[[http://libmeta.ru/fme/formula/aux/1406_10_KORRELJaTsII]]/URI$ <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4165">$$(\rho<0)$$</a> положительно (отрицательно)коррелиров ан ным и; <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4166">$$|\rho|<1$$</a>, причем <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4167">$$|\rho|=1$$</a>, если и только если $URI[[http://libmeta.ru/fme/formula/aux/1406_14_KORRELJaTsII]]/URI$ связаны линейной зависимостью<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4160">$$X_{2}=\hat{X}_{2} \equiv a_{2}+\rho \sigma_{2} \sigma_{1}^{-1}\left(X_{1}-a_{1}\right) .$$</a><BR/></P><P>В общем случае <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4168">$$\hat{x}_{2}$$</a> есть наилучшее представление $URI[[http://libmeta.ru/fme/formula/aux/1406_16_KORRELJaTsII]]/URI$ линейной функцией от $URI[[http://libmeta.ru/fme/formula/aux/1406_17_KORRELJaTsII]]/URI$, так как<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4161">$$\mathrm{E}\left(X_{2}-\hat{X}_{2}\right)^{2}=\min _{a, b} \mathrm{E}\left(X_{2}-a X_{1}-b\right)^{2} .$$</a><BR/></P><P>К. к. не дает полного описания функциональной зависимости <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa">случайных величин</a>; по существу он является лишь мерой их линейной связи.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[числовая характеристика зависимости двух случайных величин. Для случайных величин $X_{1}$ и $X_{2}$ с математическими ожиданиями
+
+\[
+a_{i}=\mathrm{E} X_{i}
+\]
+
+и ненулевыми дисперсиями
+
+\[
+\mathrm{D} X_{i}=\sigma_{i}^{2}=\mathrm{E}\left(x_{i}-a_{i}\right)^{2}
+\]
+
+K. К. определяется равенством
+
+\[
+\rho=\rho\left(X_{1}, X_{2}\right)=\mathrm{E} \frac{X_{1}-a_{1}}{\sigma_{1}} \frac{X_{2}-a_{2}}{\sigma_{2}} .
+\]
+
+Если $X_{1}$ и $X_{2}$ независимы, то $\rho=0$ (если $X_{1}$ и $X_{2}$ имеют совместное Гаусса распределение, то верно и обратное; в общем случае это неверно); при $\rho=0$ случайные величины $X_{i}$ называются некоррелированными, при $\rho>0$ $(\rho<0)$ положительно (отрицательно)коррелиров ан ным и; $|\rho|<1$, причем $|\rho|=1$, если и только если $X_{i}$ связаны линейной зависимостью
+
+\[
+X_{2}=\hat{X}_{2} \equiv a_{2}+\rho \sigma_{2} \sigma_{1}^{-1}\left(X_{1}-a_{1}\right) .
+\]
+
+В общем случае $\hat{X}_{2}$ есть наилучшее представление $X_{2}$ линейной функцией от $X_{1}$, так как
+
+\[
+\mathrm{E}\left(X_{2}-\hat{X}_{2}\right)^{2}=\min _{a, b} \mathrm{E}\left(X_{2}-a X_{1}-b\right)^{2} .
+\]
+
+К. к. не дает полного описания функциональной зависимости случайных величин; по сушеству он является лишь мерой их линейной связи.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

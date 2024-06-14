@@ -1,0 +1,383 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1105_KANONIChESKOE" alphabetic_pos="1107">
+  <title>КАНОНИЧЕСКОЕ ПРЕОБРАЗОВАНИЕ</title>
+  <authors>
+    <author>Б. В. Медведев</author>
+    <author>В. П. Павлов</author>
+  </authors>
+  <pages>
+    <start>236</start>
+    <end>236</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Голдстей н Г., Классическая механика, пер. с англ., 2 изд., М., 1975; [2] Д ирак П., Принципы квантовой механики, пер. с англ., 2 изд., М., 1979; [3] Бе е р з и н Ф. А., Метод вторичного квантования, 2 изд., М., 1986; [4] Ар н оль вд В. И., Математические методы классической механики, 2 изд., М., 1979; [5] Э м х Ж., Алгебраические методы в статистической механике и квантовой теории поля, пер. с англ., М., $1976 . \quad$</literature_orig>
+    <unit>
+      <author>Голдстейн Г.</author>
+      <title>Классическая механика</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дирак П.</author>
+      <title>Принципы квантовой механики</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Беерзин Ф. А.</author>
+      <title>Метод вторичного квантования</title>
+      <publication>2 изд., М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Арнольвд В. И.</author>
+      <title>Математические методы классической механики</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Эмх Ж.</author>
+      <title>Алгебраические методы в статистической механике и квантовой теории поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_1_KANONIChESKOE">q \rightarrow Q(p, q), p \rightarrow P(p, q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_2_KANONIChESKOE">\begin{gathered}\left\{P_{i}, Q_{j}\right\} \equiv \sum_{k}\left(\frac{\partial P_{i}}{\partial p_{k}} \frac{\partial Q_{j}}{\partial q_{k}}-\frac{\partial P_{i}}{\partial q_{k}} \frac{\partial Q_{j}}{\partial p_{k}}\right)=\left\{p_{i}, q_{j}\right\}=\delta_{i j}, \\\left\{P_{i}, P_{j}\right\}=\left\{Q_{i}, Q_{j}\right\}=0,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_3_KANONIChESKOE">\sum_{k} p_{k} d q_{k}-H d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_4_KANONIChESKOE">\sum_{k} p_{k} d q_{k}-H d t=\sum_{k} P_{k} d Q_{k}-H^{\prime} d t+d F .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_5_KANONIChESKOE">p_{i}=\partial F / \partial q, P_{i}=\partial F / \partial Q_{i},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_6_KANONIChESKOE">H^{\prime}(P, Q, t)=H(p, q, t)+\partial F / \partial t .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_7_KANONIChESKOE">\oint \sum_{k} p_{k} d q_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_8_KANONIChESKOE">\prod_{k} d p_{k} d q_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_9_KANONIChESKOE">F=\sum_{k} P_{k} q_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_10_KANONIChESKOE">F=\sum_{k} P_{k} q_{k}-\varepsilon f\left(P_{k}, q_{k} ; \varepsilon\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_11_KANONIChESKOE">\partial P_{i} / \partial \varepsilon=-\partial h / \partial q_{i}, \partial Q_{i} / \partial \varepsilon=\partial h / \partial p_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1105_12_KANONIChESKOE">S=\int_{t_{2}}^{t_{1}}\left(\sum_{k} p_{k} d q_{k}-H d t\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_1_KANONIChESKOE">k=1, \ldots, n, n-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_2_KANONIChESKOE">\delta_{i j}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_3_KANONIChESKOE">h(p, q, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_4_KANONIChESKOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_5_KANONIChESKOE">f(q, Q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_6_KANONIChESKOE">2^{2 n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_7_KANONIChESKOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_8_KANONIChESKOE">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_9_KANONIChESKOE">n-i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_10_KANONIChESKOE">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_11_KANONIChESKOE">n-j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_12_KANONIChESKOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_13_KANONIChESKOE">h=f(p, q ; 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_14_KANONIChESKOE">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_15_KANONIChESKOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_16_KANONIChESKOE">q, p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_17_KANONIChESKOE">\left\{p_{i}, q_{l}\right\}=\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_18_KANONIChESKOE">\left[p_{i}, q_{j}\right]=-i \hbar \delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_19_KANONIChESKOE">\mathscr{\mathcal { ~ }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_20_KANONIChESKOE">\hat{p}, \hat{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_21_KANONIChESKOE">\mathscr{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_22_KANONIChESKOE">\hat{\alpha}, \hat{\alpha}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_23_KANONIChESKOE">\psi, \psi^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_24_KANONIChESKOE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_25_KANONIChESKOE">\hat{\alpha}^{\prime}=u \hat{\alpha} U^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_26_KANONIChESKOE">\psi^{\prime}=u \psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_27_KANONIChESKOE">u\left(t, t_{0}\right)=\exp \left\{-i \hat{H}\left(t-t_{0}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1105_28_KANONIChESKOE">\hat{h}-</formula>
+  </formulas_aux>
+  <relations n="28">
+    <relation uri="http://libmeta.ru/fme/relation/1105_1_KANONIChESKOE">
+      <rel_text>Гейзенберга представление</rel_text>
+      <target>http://libmeta.ru/fme/article/558_GEJZENBERGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_2_KANONIChESKOE">
+      <rel_text>Шредингера представление</rel_text>
+      <target>http://libmeta.ru/fme/article/3459_ShREDINGERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_3_KANONIChESKOE">
+      <rel_text>Каноническое преобразование</rel_text>
+      <target>http://libmeta.ru/fme/article/1105_KANONIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_4_KANONIChESKOE">
+      <rel_text>группа</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_5_KANONIChESKOE">
+      <rel_text>Канонических преобразований</rel_text>
+      <target>http://libmeta.ru/fme/article/1105_KANONIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_6_KANONIChESKOE">
+      <rel_text>ферми-систем</rel_text>
+      <target>http://libmeta.ru/fme/article/3270_FERMI-ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_7_KANONIChESKOE">
+      <rel_text>Боголюбова канонические преобразования</rel_text>
+      <target>http://libmeta.ru/fme/article/222_BOGOLJuBOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_8_KANONIChESKOE">
+      <rel_text>квазичастиц</rel_text>
+      <target>http://libmeta.ru/fme/article/1138_KVAZIIMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_9_KANONIChESKOE">
+      <rel_text>перестановочных соотношений</rel_text>
+      <target>http://libmeta.ru/fme/article/2211_PERESTANOVOChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_10_KANONIChESKOE">
+      <rel_text>теорема Неймана</rel_text>
+      <target>http://libmeta.ru/fme/article/1896_NEJMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_11_KANONIChESKOE">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_12_KANONIChESKOE">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_13_KANONIChESKOE">
+      <rel_text>унитарный оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/3181_UNITARNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_14_KANONIChESKOE">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_15_KANONIChESKOE">
+      <rel_text>представлений операторов</rel_text>
+      <target>http://libmeta.ru/fme/article/2071_OPERATORNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_16_KANONIChESKOE">
+      <rel_text>теорема Неймана</rel_text>
+      <target>http://libmeta.ru/fme/article/1896_NEJMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_17_KANONIChESKOE">
+      <rel_text>эквивалентны</rel_text>
+      <target>http://libmeta.ru/fme/article/3492_EKVIDISTANT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_18_KANONIChESKOE">
+      <rel_text>перестановочных соотношений</rel_text>
+      <target>http://libmeta.ru/fme/article/2211_PERESTANOVOChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_19_KANONIChESKOE">
+      <rel_text>степеней свободы</rel_text>
+      <target>http://libmeta.ru/fme/article/2955_STEPENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_20_KANONIChESKOE">
+      <rel_text>перестановочные соотношения</rel_text>
+      <target>http://libmeta.ru/fme/article/2211_PERESTANOVOChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_21_KANONIChESKOE">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_22_KANONIChESKOE">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_23_KANONIChESKOE">
+      <rel_text>самосопряженных</rel_text>
+      <target>http://libmeta.ru/fme/article/2679_SAMOUSREDNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_24_KANONIChESKOE">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_25_KANONIChESKOE">
+      <rel_text>гильбертова пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/623_GIL'BERTOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_26_KANONIChESKOE">
+      <rel_text>перестановочными</rel_text>
+      <target>http://libmeta.ru/fme/article/2205_PERENORMIRUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_27_KANONIChESKOE">
+      <rel_text>скобки Пуассона</rel_text>
+      <target>http://libmeta.ru/fme/article/2471_PUASSONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1105_28_KANONIChESKOE">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>Преобразование
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_1_KANONIChESKOE]]/URI
+\]
+
+(обобщенных) координат и (обобщенных) импульсов, сохраняющие Пуассона скобки:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_2_KANONIChESKOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1105_1_KANONIChESKOE]]/URI$ число степеней свободы системы, $URI[[http://libmeta.ru/fme/formula/aux/1105_2_KANONIChESKOE]]/URI$ символ Кронекера. К. п. сохраняют канонич. вид Гамильтона уравнений и нормировку Гамильтона функции $URI[[http://libmeta.ru/fme/formula/aux/1105_3_KANONIChESKOE]]/URI$. При К. П. фигурирующее в вариационном наименьшего действия принципе выражение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_3_KANONIChESKOE]]/URI
+\]
+
+может меняться лишь на полный дифференциал:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_4_KANONIChESKOE]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1105_4_KANONIChESKOE]]/URI$ - производящая функция К. п. Если она зависит от старых и новых координат, $URI[[http://libmeta.ru/fme/formula/aux/1105_5_KANONIChESKOE]]/URI$, то явный вид К. п. находится из соотношений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_5_KANONIChESKOE]]/URI
+\]
+
+а новая функция Гамильтона
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_6_KANONIChESKOE]]/URI
+\]
+
+Остальные возможности (всего их $URI[[http://libmeta.ru/fme/formula/aux/1105_6_KANONIChESKOE]]/URI$ ), когда $URI[[http://libmeta.ru/fme/formula/aux/1105_7_KANONIChESKOE]]/URI$ зависит от $URI[[http://libmeta.ru/fme/formula/aux/1105_8_KANONIChESKOE]]/URI$ старых координат, $URI[[http://libmeta.ru/fme/formula/aux/1105_9_KANONIChESKOE]]/URI$ старых импульсов, $URI[[http://libmeta.ru/fme/formula/aux/1105_10_KANONIChESKOE]]/URI$ новых координат и $URI[[http://libmeta.ru/fme/formula/aux/1105_11_KANONIChESKOE]]/URI$ новых импульсов, получаются из данной Лежандра преобразованием.
+
+К. П. сохраняют интеграл
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_7_KANONIChESKOE]]/URI
+\]
+
+по замкнутой кривой в фазовом пространстве и элемент фазового объема
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_8_KANONIChESKOE]]/URI
+\]
+
+Последнее обстоятельство используется при заменах переменных в функциональном интеграле. Для $URI[[http://libmeta.ru/fme/formula/aux/1105_12_KANONIChESKOE]]/URI$, не зависящих явно от времени, сохраняется и функция Гамильтона. Для тождественного К. П.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_9_KANONIChESKOE]]/URI
+\]
+
+Бесконечно малые К. п. с
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_10_KANONIChESKOE]]/URI
+\]
+
+удовлетворяют уравнениям Гамильтона
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_11_KANONIChESKOE]]/URI
+\]
+
+с функцией Гамильтона $URI[[http://libmeta.ru/fme/formula/aux/1105_13_KANONIChESKOE]]/URI$. Поэтому движение системы (параметр $URI[[http://libmeta.ru/fme/formula/aux/1105_14_KANONIChESKOE]]/URI$ интерпретируется как время $URI[[http://libmeta.ru/fme/formula/aux/1105_15_KANONIChESKOE]]/URI$ ) само есть К. П. Преобразования симметрии, сохраняющие действие
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1105_12_KANONIChESKOE]]/URI
+\]
+
+очевидным образом являются К. п.
+
+Благодаря свойствам К. П. равноправны все выборы канонич. переменных классич. системы: в ее фазовом пространстве можно взять любую систему координат, связанную К. п. с декартовой, в К-рой $URI[[http://libmeta.ru/fme/formula/aux/1105_16_KANONIChESKOE]]/URI$ - обычные координаты и импульсы.
+
+В квантовой URI[[http://libmeta.ru/fme/relation/1105_28_KANONIChESKOE]]/URI такого равноправия нет. Постулат канонич. квантования, заменяющий URI[[http://libmeta.ru/fme/relation/1105_27_KANONIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1105_17_KANONIChESKOE]]/URI$ канонич. URI[[http://libmeta.ru/fme/relation/1105_26_KANONIChESKOE]]/URI соотношениями $URI[[http://libmeta.ru/fme/formula/aux/1105_18_KANONIChESKOE]]/URI$, формулируется для декартовой системы координат. Конкретный выбор URI[[http://libmeta.ru/fme/relation/1105_25_KANONIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1105_19_KANONIChESKOE]]/URI$ векторов URI[[http://libmeta.ru/fme/relation/1105_24_KANONIChESKOE]]/URI системы и реализация $URI[[http://libmeta.ru/fme/formula/aux/1105_20_KANONIChESKOE]]/URI$ как URI[[http://libmeta.ru/fme/relation/1105_23_KANONIChESKOE]]/URI (эрмитовых) операторов в этом пространстве (их общая URI[[http://libmeta.ru/fme/relation/1105_22_KANONIChESKOE]]/URI определения должна быть плотной в $URI[[http://libmeta.ru/fme/formula/aux/1105_21_KANONIChESKOE]]/URI$ ) называется пред ставлен и ем. К. П. в квантовой URI[[http://libmeta.ru/fme/relation/1105_21_KANONIChESKOE]]/URI называются преобразования представлений, сохраняющие канонич. URI[[http://libmeta.ru/fme/relation/1105_20_KANONIChESKOE]]/URI.
+
+Для систем с конечным числом URI[[http://libmeta.ru/fme/relation/1105_19_KANONIChESKOE]]/URI все представления канонич. URI[[http://libmeta.ru/fme/relation/1105_18_KANONIChESKOE]]/URI унитарно URI[[http://libmeta.ru/fme/relation/1105_17_KANONIChESKOE]]/URI (URI[[http://libmeta.ru/fme/relation/1105_16_KANONIChESKOE]]/URI): для любых двух URI[[http://libmeta.ru/fme/relation/1105_15_KANONIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1105_22_KANONIChESKOE]]/URI$ и векторов URI[[http://libmeta.ru/fme/relation/1105_14_KANONIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1105_23_KANONIChESKOE]]/URI$ существует URI[[http://libmeta.ru/fme/relation/1105_13_KANONIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1105_24_KANONIChESKOE]]/URI$ такой, что $URI[[http://libmeta.ru/fme/formula/aux/1105_25_KANONIChESKOE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1105_26_KANONIChESKOE]]/URI$ (знак + означает эрмитово сопряжение). Таким образом, К. п. конечномерных квантовых систем всегда могут быть реализованы как унитарные преобразования, и поэтому они сохраняют спектры операторов, средние значения и другие URI[[http://libmeta.ru/fme/relation/1105_12_KANONIChESKOE]]/URI. характеристики. Напр., переход от шредингерова к гейзенбергову описанию эволюции системы (см. URI[[http://libmeta.ru/fme/relation/1105_2_KANONIChESKOE]]/URI, URI[[http://libmeta.ru/fme/relation/1105_1_KANONIChESKOE]]/URI ) является унитарным преобразованием, зависящим от времени, с $URI[[http://libmeta.ru/fme/formula/aux/1105_27_KANONIChESKOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1105_28_KANONIChESKOE]]/URI$ URI[[http://libmeta.ru/fme/relation/1105_11_KANONIChESKOE]]/URI Гамильтона (гамильтониан).
+
+Для бесконечномерных квантовых систем URI[[http://libmeta.ru/fme/relation/1105_10_KANONIChESKOE]]/URI неверна: существуют К. П., не сводящиеся к унитарным, и соответственно неэквивалентные представления канонич. URI[[http://libmeta.ru/fme/relation/1105_9_KANONIChESKOE]]/URI. Такие К. п. могут менять спектры операторов и в этом случае дают математич. описание многих важных физич. эффектов. К. П. является стандартным приемом нахождения спектра элементарных возбуждений (URI[[http://libmeta.ru/fme/relation/1105_8_KANONIChESKOE]]/URI) в статистич. физике. Примером такого К. П. служат URI[[http://libmeta.ru/fme/relation/1105_7_KANONIChESKOE]]/URI, с помощью к-рых находятся эти спектры для слабонеидеальных бозе- и URI[[http://libmeta.ru/fme/relation/1105_6_KANONIChESKOE]]/URI.
+
+См. также URI[[http://libmeta.ru/fme/relation/1105_5_KANONIChESKOE]]/URI URI[[http://libmeta.ru/fme/relation/1105_4_KANONIChESKOE]]/URI; проективное представление, URI[[http://libmeta.ru/fme/relation/1105_3_KANONIChESKOE]]/URI; нормальная форма.</text>
+  <text_orig>ПреобразованИе
+
+\[
+q \rightarrow Q(p, q), p \rightarrow P(p, q)
+\]
+
+(обобщенных) координат и (обобщенных) импульсов, сохраняющие Пуассона скобки:
+
+\[
+\begin{gathered}
+\left\{P_{i}, Q_{j}\right\} \equiv \sum_{k}\left(\frac{\partial P_{i}}{\partial p_{k}} \frac{\partial Q_{j}}{\partial q_{k}}-\frac{\partial P_{i}}{\partial q_{k}} \frac{\partial Q_{j}}{\partial p_{k}}\right)=\left\{p_{i}, q_{j}\right\}=\delta_{i j}, \\
+\left\{P_{i}, P_{j}\right\}=\left\{Q_{i}, Q_{j}\right\}=0,
+\end{gathered}
+\]
+
+$k=1, \ldots, n, n-$ число степеней свободы системы, $\delta_{i j}-$ символ Кронекера. К. п. сохраняют канонич. вид Гамильтона уравнений и нормировку Гамильтона функции $H(p, q, t)$. При К. П. фигурирующее в вариационном наименьшего действия принципе выражение
+
+\[
+\sum_{k} p_{k} d q_{k}-H d t
+\]
+
+может меняться лишь на полный дифференциал:
+
+\[
+\sum_{k} p_{k} d q_{k}-H d t=\sum_{k} P_{k} d Q_{k}-H^{\prime} d t+d F .
+\]
+
+Здесь $F$ - производящая функшия К. п. Если она зависит от старых и новых координат, $F(q, Q)$, то явный вид К. п. находится из соотношений
+
+\[
+p_{i}=\partial F / \partial q, P_{i}=\partial F / \partial Q_{i},
+\]
+
+а новая функция Гамильтона
+
+\[
+H^{\prime}(P, Q, t)=H(p, q, t)+\partial F / \partial t .
+\]
+
+Остальные возможности (всего их $2^{2 n}$ ), когда $F$ зависит от $i$ старых координат, $n-i$ старых импульсов, $j$ новых координат и $n-j$ новых импульсов, получаются из данной Лежандра преобразованием.
+
+К. П. сохраняют интеграл
+
+\[
+\oint \sum_{k} p_{k} d q_{k}
+\]
+
+по замкнутой кривой в фазовом пространстве и элемент фазового объема
+
+\[
+\prod_{k} d p_{k} d q_{k}
+\]
+
+Последнее обстоятельство используется при заменах переменных в функциональном интеграле. Для $F$, не зависящих явно от времени, сохраняется и функция Гамильтона. Для тождественного К. П.
+
+\[
+F=\sum_{k} P_{k} q_{k}
+\]
+
+Бесконечно малые К. п. с
+
+\[
+F=\sum_{k} P_{k} q_{k}-\varepsilon f\left(P_{k}, q_{k} ; \varepsilon\right)
+\]
+
+удовлетворяют уравнениям Гамильтона
+
+\[
+\partial P_{i} / \partial \varepsilon=-\partial h / \partial q_{i}, \partial Q_{i} / \partial \varepsilon=\partial h / \partial p_{j}
+\]
+
+с функцией Гамильтона $h=f(P, q ; 0)$. Поэтому движение системы (параметр $\varepsilon$ интерпретируется как время $t$ ) само есть К. П. Преобразования симметрии, сохраняющие действие
+
+\[
+S=\int_{t_{2}}^{t_{1}}\left(\sum_{k} p_{k} d q_{k}-H d t\right)
+\]
+
+очевидным образом являются К. п.
+
+Благодаря свойствам К. П. равноправны все выборы канонич. переменных классич. системы: в ее фазовом пространстве можно взять любую систему координат, связанную К. п. с декартовой, в К-рой $q, p$ - обычные координаты и импульсы.
+
+В квантовой механике такого равноправия нет. Постулат канонич. квантования, заменяющий скобки Пуассона $\left\{p_{i}, q_{l}\right\}=\delta_{i j}$ канонич. перестановочными соотночениями $\left[p_{i}, q_{j}\right]=-i \hbar \delta_{i j}$, формулируется для декартовой системы координат. Конкретный выбор гильбертова пространства $\mathscr{\mathcal { ~ }}$ векторов состояний системы и реализация $\hat{p}, \hat{q}$ как самосопряженных (эрмитовых) операторов в этом пространстве (их общая область определения должна быть плотной в $\mathscr{t}$ ) называется пред ставлен и ем. К. П. в квантовой механике называются преобразования представлений, сохраняющие канонич. перестановочные соотношения.
+
+Для систем с конечным числом степеней свободы все представления канонич. перестановочных соотношений унитарно эквивалентны (теорема Неймана): для любых двух представлений операторов $\hat{\alpha}, \hat{\alpha}^{\prime}$ и векторов состояний $\psi, \psi^{\prime}$ существует унитарный оператор $U$ такой, что $\hat{\alpha}^{\prime}=U \hat{\alpha} U^{+}$, $\psi^{\prime}=U \psi$ (знак + означает эрмитово сопряжение). Таким образом, К. п. конечномерных квантовых систем всегда могут быть реализованы как унитарные преобразования, и поэтому они сохраняют спектры операторов, средние значения и другие динамич. характеристики. Напр., переход от шредингерова к гейзенбергову описанию эволюции системы (см. Шредингера представление, Гейзенберга представление ) является унитарным преобразованием, зависящим от времени, с $U\left(t, t_{0}\right)=\exp \left\{-i \hat{H}\left(t-t_{0}\right)\right\}$, где $\hat{H}-$ оператор Гамильтона (гамильтониан).
+
+Для бесконечномерных квантовых систем теорема Неймана неверна: существуют К. П., не сводящиеся к унитарным, и соответственно неэквивалентные представления канонич. перестановочных соотношений. Такие К. п. могут менять спектры операторов и в этом случае дают математич. описание многих важных физич. эффектов. К. П. является стандартным приемом нахождения спектра элементарных возбуждений (квазичастиц) в статистич. физике. Примером такого К. П. служат Боголюбова канонические преобразования, с помошью к-рых находятся эти спектры для слабонеидеальных бозе- и ферми-систем.
+
+См. также Канонических преобразований группа; проективное представление, Каноническое преобразование; нормальная форма.
+
+Лит.: [1] Голдстей н Г., Классическая механика, пер. с англ., 2 изд., М., 1975; [2] Д ирак П., Принципы квантовой механики, пер. с англ., 2 изд., М., 1979; [3] Бе е р з и н Ф. А., Метод вторичного квантования, 2 изд., М., 1986; [4] Ар н оль вд В. И., Математические методы классической механики, 2 изд., М., 1979; [5] Э м х Ж., Алгебраические методы в статистической механике и квантовой теории поля, пер. с англ., М., $1976 . \quad$ Б. В. Медведев, В. П. Павлов.</text_orig>
+</article>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_339_VEJLJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_339_VEJLJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2665</core:url>
+    <lbm:descriptor><![CDATA[ВЕЙЛЯ СВЯЗНОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1366"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20077"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20078"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20079"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1370"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_666"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20080"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20081"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20082"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20083"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20084"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20085"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5365"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20086"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>связность $URI[[http://libmeta.ru/fme/formula/aux/339_1_VEJLJa]]/URI$ на многообразии $URI[[http://libmeta.ru/fme/formula/aux/339_2_VEJLJa]]/URI$, снабженном симметричным тензорным полем $URI[[http://libmeta.ru/fme/formula/aux/339_3_VEJLJa]]/URI$ (то есть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20080">$$a_{i j}=a_{j i}$$</a> и det <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20081">$$\left\|a_{i j}\right\| \neq 0$$</a> ), определяемая из условий:<BR/></P><P>a) связность <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20079">$$\gamma_{j k}^{i}$$</a> симметрична, то есть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20082">$$\gamma_{j k}^{i}=\Gamma_{k j}^{i}$$</a>;<BR/></P><P>б) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20083">$$\nabla_{k} a_{i j}=v_{k} a_{i j}$$</a>.<BR/></P><P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">Многообразие</a> с тензорным полем $URI[[http://libmeta.ru/fme/formula/aux/339_9_VEJLJa]]/URI$, снабженное такой связностью, называется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2422_PROSTRANSTVO">пространством с угловой метрикой</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20084">$$a_{i j}-$$</a> основным тензором этого пространства, а ковектор <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20085">$$v=\left\{v_{k}\right\}-$$</a> до по.т и т е л ны ы к о в ект о р ом. В. с. в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT">локальных координатах</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5365">$$\left(x^{1}, \ldots, x^{n}\right)$$</a> вычисляется по формуле<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20078">$$\Gamma_{j t}^{h}=\frac{1}{2} a^{h j}\left(\frac{\partial a_{i j}}{\partial x^{t}}+\frac{\partial a_{i t}}{\partial x^{j}}-\frac{\partial a_{j t}}{\partial x^{i}}\right)-\frac{1}{2}\left(v_{j} \delta_{t}^{h}+v_{i} \delta_{j}^{h}-v_{i} a^{i h} a_{j t}\right),$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20086">$$a^{i j} a_{j s}=\delta_{s}^{i}$$</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#20077">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#20076">Базылвв В. Т.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20077">Геометрия дифференцируемых многообразий, М., 1989</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1366">В. В. Трофимов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[связность $\Gamma_{j k}^{i}$ на многообразии $M^{n}$, снабженном симметричным тензорным полем $a_{i j}$ (то есть $a_{i j}=a_{j i}$ и det $\left\|a_{i j}\right\| \neq 0$ ), определяемая из условий:
+
+a) связность $\Gamma_{j k}^{i}$ симметрична, то есть $\Gamma_{j k}^{i}=\Gamma_{k j}^{i}$;
+
+б) $\nabla_{k} a_{i j}=v_{k} a_{i j}$.
+
+Многообразие с тензорным полем $a_{i j}$, снабженное такой связностью, называется пространством с угловой метрикой, тензор $a_{i j}-$ основным тензором этого пространства, а ковектор $v=\left\{v_{k}\right\}-$ до по.т и т е л ны ы к о в ект о р ом. В. с. в локальных координатах $\left(x^{1}, \ldots, x^{n}\right)$ вычисляется по формуле
+
+\[
+\Gamma_{j t}^{h}=\frac{1}{2} a^{h j}\left(\frac{\partial a_{i j}}{\partial x^{t}}+\frac{\partial a_{i t}}{\partial x^{j}}-\frac{\partial a_{j t}}{\partial x^{i}}\right)-\frac{1}{2}\left(v_{j} \delta_{t}^{h}+v_{i} \delta_{j}^{h}-v_{i} a^{i h} a_{j t}\right),
+\]
+
+где $a^{i j} a_{j s}=\delta_{s}^{i}$.
+
+Лит.: [1] Б аз ы л в в В. Т., Геометрия дифференцируемых многообразий, М., 1989. В. В. Трофимов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2422_PROSTRANSTVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

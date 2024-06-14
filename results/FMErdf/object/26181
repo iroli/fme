@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_26181">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>C</mi><mo stretchy="false">&#x00028;</mo><mi>K</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msup><mi>e</mi><mrow><mo>&#x02212;</mo><mi>W</mi><mo stretchy="false">&#x00028;</mo><mi>K</mi><mo stretchy="false">&#x00029;</mo></mrow></msup><mo>&#x0003D;</mo><msub><mo>lim</mo><mrow><mi>R</mi><mo>&#x02192;</mo><mo>&#x0221E;</mo></mrow></msub><msup><mo>Re</mo><mrow><mo>&#x02212;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mi>C</mi><mo stretchy="false">&#x00028;</mo><mi>L</mi><mo>&#x0002C;</mo><mi>S</mi><mo stretchy="false">&#x00028;</mo><mn>0</mn><mo>&#x0002C;</mo><mi>R</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="false">&#x00029;</mo></mrow></mfrac></mrow></msup><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$C(K)=e^{-W(K)}=\lim _{R \rightarrow \infty} \operatorname{Re}^{-\frac{1}{C(L, S(0, R))}},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

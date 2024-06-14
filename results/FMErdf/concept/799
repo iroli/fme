@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_171_BESSELJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_171_BESSELJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/799</core:url>
+    <lbm:descriptor><![CDATA[БЕССЕЛЯ УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#6047"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6651"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6652"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6653"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6654"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6655"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6656"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6657"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6658"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_86"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6659"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6660"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6661"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6662"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6663"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6664"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>линейное обыкновенное дифференциальное уравнение 2-го порядка:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6656">$$x^{2} y^{\prime \prime}+x y^{\prime}+\left(x^{2}-v^{2}\right) y=0, \quad v=\text { const, }$$</a><BR/></P><P>или в самосопряженной форме:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6657">$$\left(x y^{\prime}\right)^{\prime}+\left(x-\frac{v^{2}}{x}\right) y=0 .$$</a><BR/></P><P>Число $URI[[http://libmeta.ru/fme/formula/aux/171_1_BESSELJa]]/URI$ называется и ндексом Б. у.; величины <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6659">$$x, y, v$$</a> в общем случае могут принимать комплексные значения. После подстановки <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6660">$$y=u x^{-1 / 2}$$</a> получается приведенная форма уравнения (1):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6658">$$u^{\prime \prime}+\left[1+\frac{1-4 v^{2}}{4 x^{2}}\right] u=0$$</a><BR/></P><P>Первым систематическое изучение решений уравнения (1) предпринял Ф. Бессель <a href="/object/show?uri=http://libmeta.ru/io/Publication#6652">[2]</a>, но еще раньше они встречались в работах Д. Бернулли (d. Bernoulli), Л. Эйлера (l. Euler), Ж. Лагранжа (j. Lagrange).<BR/></P><P>Б. у. возникает при разделении переменных во многих задачах математич. физики (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#6653">[3]</a>), в частности в краевых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1446_KRAEVAJa">задачах теории потенциала</a> для цилиндрич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a>.<BR/></P><P>Решения Б.у. называются цилиндрическими <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функциями</a> (или бесс елевым и функциям и). Среди них выделяют цилиндрич. функции 1-го рода (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_172_BESSELJa">Бесселя функции</a>) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6661">$$j_{\mathrm{v}}(x)$$</a>, цилиндрич. функции 2-го рода (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1898_NEJMANA">Неймана функции</a>) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6662">$$y_{\mathrm{v}}(x)$$</a>, цилиндрич. функции 3-го рода (Ганкеля функции) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6663">$$h_{\mathrm{v}}^{(1)}(x)$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6664">$$h_{\mathrm{v}}^{(2)}(x)$$</a>. См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">Дифференциальное уравнение</a>; аналитическая теория, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2892_SPETsIAL'NYE">Специальные функции</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#6651">[1]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#6651">Математическая энциклопедия, М., 1977, т. 1, с. 460-62</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#6652">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1574">Bessel F.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6652">"abhandl. der Königlichen Akad. Wiss. Berlin», 1824, S. 1-52</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#6653">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#326">Грей Э.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#425">Мэтюз Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6653">Функции Бесселя и их приложения к физике и механике, пер. с англ., 2 изд., М., 1953</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#6654">[4]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#425">Ватсон Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6654">Теория бесселевых функций, пер. с англ., ч. 1-2, М., 1949</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#6655">[5]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#326">Камке Э.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6655">Справочник по обыкновенным дифференциальным уравнениям, пер. с нем., 5 изд., М., 1976</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#6047">Н. Х. Розов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[линейное обЫкновенное дифференциальное уравнение 2-го порядка:
+
+\[
+x^{2} y^{\prime \prime}+x y^{\prime}+\left(x^{2}-v^{2}\right) y=0, \quad v=\text { const, }
+\]
+
+или в самосопряженной форме:
+
+\[
+\left(x y^{\prime}\right)^{\prime}+\left(x-\frac{v^{2}}{x}\right) y=0 .
+\]
+
+Число $v$ называется и ндексом Б. у.; величины $x, y, v$ в общем случае могут принимать комплексные значения. После подстановки $y=u x^{-1 / 2}$ получается приведенная форма уравнения (1):
+
+\[
+u^{\prime \prime}+\left[1+\frac{1-4 v^{2}}{4 x^{2}}\right] u=0
+\]
+
+Первым систематическое изучение решений уравнения (1) предпринял Ф. Бессель [2], но еще раньше они встречались в работах Д. Бернулли (D. Bernoulli), Л. Эйлера (L. Euler), Ж. Лагранжа (J. Lagrange).
+
+Б. у. возникает при разделении переменных во многих задачах математич. физики (см. [3]), в частности в краевых задачах теории потенциала для цилиндрич. области.
+
+Решения Б.у. называются иилиндрическими функциями (или бесс елевым и функциям и). Среди них выделяют цилиндрич. функции 1-го рода (Бесселя функции) $J_{\mathrm{v}}(x)$, цилиндрич. функции 2-го рода (Неймана функции) $Y_{\mathrm{v}}(x)$, цилиндрич. функции 3-го рода (Ганкеля функиии) $H_{\mathrm{v}}^{(1)}(x)$, $H_{\mathrm{v}}^{(2)}(x)$. См. также Дифференциальное уравнение; аналитическая теория, Специальные функции.
+
+Лит.: [1] Математическая энциклопедия, т. 1, М., 1977, с. 460-62; [2] B essel F., "Abhandl. der Königlichen Akad. Wiss. Berlin», 1824, S. 1-52; [3] Грей Э., М э т ю з Г., Функции Бесселя и их приложения к физике и механике, пер. с англ., 2 изд., М., 1953; [4] В а т с о н Г., Теория бесселевых функций, пер. с англ., ч. 1-2, М., 1949; [5] Ка м к е Э., Справочник по обыкновенным дифференциальным уравнениям, пер. с нем., 5 изд., М., $1976 . \quad$ Н. Х. Розов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2892_SPETsIAL'NYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1898_NEJMANA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_172_BESSELJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1446_KRAEVAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

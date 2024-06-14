@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2105_ORTOGONAL'NYE" alphabetic_pos="2107">
+  <title>ОРТОГОНАЛЬНЫЕ МНОТОЧЛЕНЫ</title>
+  <authors/>
+  <pages>
+    <start>413</start>
+    <end>413</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] С ует ин П. К., Классические ортогональные многочлены, 2 изд., М., 1979.</literature_orig>
+    <unit>
+      <author>Суетин П. К.</author>
+      <title>Классические ортогональные многочлены</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2105_1_ORTOGONAL'NYE">\int_{a}^{b} P_{n}(x) P_{m}(x) h(x) d x=0, \quad n \neq m,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2105_2_ORTOGONAL'NYE">\int_{a}^{b} \hat{p}_{n}^{2}(x) h(x) d x=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2105_3_ORTOGONAL'NYE">\frac{h^{\prime}(x)}{h(x)}=\frac{p_{0}+p_{1}(x)}{q_{0}+q_{1} x+q_{2} x^{2}}=\frac{A(x)}{B(x)} ; \quad x \in(a, b),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2105_4_ORTOGONAL'NYE">B(x) y^{\prime \prime}+\left[A(x)+B^{\prime}(x)\right] y^{\prime}-n\left[p_{1}+(n+1) q_{2}\right] y=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2105_5_ORTOGONAL'NYE">P_{n}(x)=\frac{c_{n}}{h(x)} \frac{d^{n}}{d x^{n}}\left[h(x) B^{n}(x)\right],</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_1_ORTOGONAL'NYE">\left\{p_{n}(x)\right\}, n=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_2_ORTOGONAL'NYE">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_3_ORTOGONAL'NYE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_4_ORTOGONAL'NYE">h(x) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_5_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_6_ORTOGONAL'NYE">\left\{\widetilde{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_7_ORTOGONAL'NYE">a, b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_8_ORTOGONAL'NYE">h(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_9_ORTOGONAL'NYE">\left\{p_{n}(x ; \alpha, \quad \beta)\right\}-\quad</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_10_ORTOGONAL'NYE">h(x)=(1-x)^{\alpha}(1+x)^{\beta}, \alpha&gt;-1, \beta&gt;-1, a=-1, b=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_11_ORTOGONAL'NYE">\left\{p_{n}(x, \alpha)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_12_ORTOGONAL'NYE">\alpha=\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_13_ORTOGONAL'NYE">\left\{t_{n}(x)\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_14_ORTOGONAL'NYE">\alpha=\beta=-1 / 2, h(x)=1 / \sqrt{1-x^{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_15_ORTOGONAL'NYE">\left\{u_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_16_ORTOGONAL'NYE">\alpha=\beta=1 / 2, h(x)=\sqrt{1-x^{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_17_ORTOGONAL'NYE">\left\{p_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_18_ORTOGONAL'NYE">\alpha=\beta=0, h(x) \equiv 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_19_ORTOGONAL'NYE">\left\{l_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_20_ORTOGONAL'NYE">h(x)=e^{-x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_21_ORTOGONAL'NYE">a=0, b=\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_22_ORTOGONAL'NYE">\left\{l_{n}(x, \alpha)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_23_ORTOGONAL'NYE">h(x)=x^{\alpha} e^{-x}, \alpha&gt;-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_24_ORTOGONAL'NYE">\left\{h_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_25_ORTOGONAL'NYE">a=-\infty, b=+\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_26_ORTOGONAL'NYE">h(x)=e^{-x^{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_27_ORTOGONAL'NYE">y=p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_28_ORTOGONAL'NYE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_29_ORTOGONAL'NYE">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_30_ORTOGONAL'NYE">b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_31_ORTOGONAL'NYE">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_32_ORTOGONAL'NYE">p_{n-1}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_33_ORTOGONAL'NYE">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_34_ORTOGONAL'NYE">c_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2105_35_ORTOGONAL'NYE">\boldsymbol{b}-</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/2105_1_ORTOGONAL'NYE">
+      <rel_text>Лагерра</rel_text>
+      <target>http://libmeta.ru/fme/article/1499_LAGERRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2105_2_ORTOGONAL'NYE">
+      <rel_text>многочлены Эрмита</rel_text>
+      <target>http://libmeta.ru/fme/article/3551_ERMITA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2105_3_ORTOGONAL'NYE">
+      <rel_text>многочлены Якоби</rel_text>
+      <target>http://libmeta.ru/fme/article/3570_JaKOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2105_4_ORTOGONAL'NYE">
+      <rel_text>первым</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2105_5_ORTOGONAL'NYE">
+      <rel_text>формулы Родрига</rel_text>
+      <target>http://libmeta.ru/fme/article/2657_RODRIGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2105_6_ORTOGONAL'NYE">
+      <rel_text>обладают</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>система многочленов $URI[[http://libmeta.ru/fme/formula/aux/2105_1_ORTOGONAL'NYE]]/URI$, удовлетворяющих условию ортогональности:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2105_1_ORTOGONAL'NYE]]/URI
+\]
+
+причем степень каждого многочлена $URI[[http://libmeta.ru/fme/formula/aux/2105_2_ORTOGONAL'NYE]]/URI$ равна индексу $URI[[http://libmeta.ru/fme/formula/aux/2105_3_ORTOGONAL'NYE]]/URI$, a $URI[[http://libmeta.ru/fme/formula/aux/2105_4_ORTOGONAL'NYE]]/URI$ - так называемая ве с овая функция (вес).
+
+О. м. называются о р т о н ор м и р о в а н н ы м и и обозначаются $URI[[http://libmeta.ru/fme/formula/aux/2105_5_ORTOGONAL'NYE]]/URI$, если каждый многочлен имеет положительный старший коэффициент и выполняется условие норм и рованности:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2105_2_ORTOGONAL'NYE]]/URI
+\]
+
+Если старший коэффициент каждого многочлена равен 1, то система О. м. обозначается $URI[[http://libmeta.ru/fme/formula/aux/2105_6_ORTOGONAL'NYE]]/URI$. Наиболее важный класс О.м. составляют так наз. классические О.м.; они получаются (с точностью до постоянного множителя) при указанных ниже $URI[[http://libmeta.ru/fme/formula/aux/2105_7_ORTOGONAL'NYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2105_8_ORTOGONAL'NYE]]/URI$.
+
+1) Якоби многочлены $URI[[http://libmeta.ru/fme/formula/aux/2105_9_ORTOGONAL'NYE]]/URI$ для них $URI[[http://libmeta.ru/fme/formula/aux/2105_10_ORTOGONAL'NYE]]/URI$; специальные частные случаи многочленов Якоби:
+
+ультрасферические многочлены (иногда их называют многочленами Гегенбауэра) $URI[[http://libmeta.ru/fme/formula/aux/2105_11_ORTOGONAL'NYE]]/URI$ - для них $URI[[http://libmeta.ru/fme/formula/aux/2105_12_ORTOGONAL'NYE]]/URI$
+
+Чебышева многочлены 1-го рода $URI[[http://libmeta.ru/fme/formula/aux/2105_13_ORTOGONAL'NYE]]/URI$ для них $URI[[http://libmeta.ru/fme/formula/aux/2105_14_ORTOGONAL'NYE]]/URI$; Чебышева многочлены 2-го рода $URI[[http://libmeta.ru/fme/formula/aux/2105_15_ORTOGONAL'NYE]]/URI$ - для них $URI[[http://libmeta.ru/fme/formula/aux/2105_16_ORTOGONAL'NYE]]/URI$;
+
+Лежандра многочлены $URI[[http://libmeta.ru/fme/formula/aux/2105_17_ORTOGONAL'NYE]]/URI$ - для них $URI[[http://libmeta.ru/fme/formula/aux/2105_18_ORTOGONAL'NYE]]/URI$. 2) Лагерра многочлены $URI[[http://libmeta.ru/fme/formula/aux/2105_19_ORTOGONAL'NYE]]/URI$ - для них $URI[[http://libmeta.ru/fme/formula/aux/2105_20_ORTOGONAL'NYE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2105_21_ORTOGONAL'NYE]]/URI$; обобщенные многочлены Лагерра $URI[[http://libmeta.ru/fme/formula/aux/2105_22_ORTOGONAL'NYE]]/URI$, для к-рых $URI[[http://libmeta.ru/fme/formula/aux/2105_23_ORTOGONAL'NYE]]/URI$.
+
+3) Эрмита многочлены $URI[[http://libmeta.ru/fme/formula/aux/2105_24_ORTOGONAL'NYE]]/URI$ - для них $URI[[http://libmeta.ru/fme/formula/aux/2105_25_ORTOGONAL'NYE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2105_26_ORTOGONAL'NYE]]/URI$.
+
+Весовая функция классич. О. м. удовлетворяет дифференциальному уравнен и П и рсона
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2105_3_ORTOGONAL'NYE]]/URI
+\]
+
+а многочлен $URI[[http://libmeta.ru/fme/formula/aux/2105_27_ORTOGONAL'NYE]]/URI$ удовлетворяет дифференциальному уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2105_4_ORTOGONAL'NYE]]/URI
+\]
+
+О. м. URI[[http://libmeta.ru/fme/relation/2105_6_ORTOGONAL'NYE]]/URI многими общими свойствами. Нули О. м. в случае ортогональности по интервалу $URI[[http://libmeta.ru/fme/formula/aux/2105_28_ORTOGONAL'NYE]]/URI$ являются действительными, различными и расположены внутри ( $URI[[http://libmeta.ru/fme/formula/aux/2105_29_ORTOGONAL'NYE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2105_30_ORTOGONAL'NYE]]/URI$, причем между двумя соседними нулями многочлена $URI[[http://libmeta.ru/fme/formula/aux/2105_31_ORTOGONAL'NYE]]/URI$ находится один нуль многочлена $URI[[http://libmeta.ru/fme/formula/aux/2105_32_ORTOGONAL'NYE]]/URI$. Нули О.м. часто применяются в качестве узлов интерполяционных и квадратурных формул.
+
+Многочлен $URI[[http://libmeta.ru/fme/formula/aux/2105_33_ORTOGONAL'NYE]]/URI$ может быть представлен в виде так наз. URI[[http://libmeta.ru/fme/relation/2105_5_ORTOGONAL'NYE]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2105_5_ORTOGONAL'NYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2105_34_ORTOGONAL'NYE]]/URI$ - нормировочный коэффициент (постоянное), а $URI[[http://libmeta.ru/fme/formula/aux/2105_35_ORTOGONAL'NYE]]/URI$ см. формулу (*). Исторически URI[[http://libmeta.ru/fme/relation/2105_4_ORTOGONAL'NYE]]/URI примером О. м. были многочлены Лежандра. Затем были введены многочлены Чебышева, общие URI[[http://libmeta.ru/fme/relation/2105_3_ORTOGONAL'NYE]]/URI, URI[[http://libmeta.ru/fme/relation/2105_2_ORTOGONAL'NYE]]/URI и URI[[http://libmeta.ru/fme/relation/2105_1_ORTOGONAL'NYE]]/URI.</text>
+  <text_orig>система многочленов $\left\{P_{n}(x)\right\}, n=0,1,2, \ldots$, удовлетворяющих условию ортогональности:
+
+\[
+\int_{a}^{b} P_{n}(x) P_{m}(x) h(x) d x=0, \quad n \neq m,
+\]
+
+причем степень каждого многочлена $P_{n}(x)$ равна индексу $n$, a $h(x) \geqslant 0$ - так называемая ве с овая функция (вес).
+
+О. м. называются о р т о н ор м и р о в а н н ы м и и обозначаются $\left\{\hat{P}_{n}(x)\right\}$, если каждый многочлен имеет положительный старший коэффициент и выполняется условие норм и рованности:
+
+\[
+\int_{a}^{b} \hat{p}_{n}^{2}(x) h(x) d x=1
+\]
+
+Если старший коэффициент каждого многочлена равен 1, то система О. м. обозначается $\left\{\widetilde{P}_{n}(x)\right\}$. Наиболее важный класс О.м. составляют так наз. классические О.м.; они получаются (с точностью до постоянного множителя) при указанных ниже $a, b$ и $h(x)$.
+
+1) Якоби многочлены $\left\{P_{n}(x ; \alpha, \quad \beta)\right\}-\quad$ для них $h(x)=(1-x)^{\alpha}(1+x)^{\beta}, \alpha&gt;-1, \beta&gt;-1, a=-1, b=1$; специальные частные случаи многочленов Якоби:
+
+ультрасферические многочлены (иногда их называют многочленами Гегенбауэра) $\left\{P_{n}(x, \alpha)\right\}$ - для них $\alpha=\beta$
+
+Чебышева многочлены 1-го рода $\left\{T_{n}(x)\right\}-$ для них $\alpha=\beta=-1 / 2, h(x)=1 / \sqrt{1-x^{2}}$; Чебышева многочлены 2-го рода $\left\{U_{n}(x)\right\}$ - для них $\alpha=\beta=1 / 2, h(x)=\sqrt{1-x^{2}}$;
+
+Лежандра многочлены $\left\{P_{n}(x)\right\}$ - для них $\alpha=\beta=0, h(x) \equiv 1$. 2) Лагерра многочлены $\left\{L_{n}(x)\right\}$ - для них $h(x)=e^{-x}$, $a=0, b=\infty$; обобщенные многочлены Лагерра $\left\{L_{n}(x, \alpha)\right\}$, для к-рых $h(x)=x^{\alpha} e^{-x}, \alpha&gt;-1$.
+
+3) Эрмита многочлены $\left\{H_{n}(x)\right\}$ - для них $a=-\infty, b=+\infty$, $h(x)=e^{-x^{2}}$.
+
+Весовая функция классич. О. м. удовлетворяет дифференциальному уравнен и П и рсона
+
+\[
+\frac{h^{\prime}(x)}{h(x)}=\frac{p_{0}+p_{1}(x)}{q_{0}+q_{1} x+q_{2} x^{2}}=\frac{A(x)}{B(x)} ; \quad x \in(a, b),
+\]
+
+а многочлен $y=P_{n}(x)$ удовлетворяет дифференциальному уравнению
+
+\[
+B(x) y^{\prime \prime}+\left[A(x)+B^{\prime}(x)\right] y^{\prime}-n\left[p_{1}+(n+1) q_{2}\right] y=0 .
+\]
+
+О. м. обладают многими общими свойствами. Нули О. м. в случае ортогональности по интервалу $(a, b)$ являются действительными, различными и расположены внутри ( $a$, $b)$, причем между двумя соседними нулями многочлена $P_{n}(x)$ находится один нуль многочлена $P_{n-1}(x)$. Нули О.м. часто применяются в качестве узлов интерполяционных и квадратурных формул.
+
+Многочлен $P_{n}(x)$ может быть представлен в виде так наз. формулы Родрига:
+
+\[
+P_{n}(x)=\frac{c_{n}}{h(x)} \frac{d^{n}}{d x^{n}}\left[h(x) B^{n}(x)\right],
+\]
+
+где $c_{n}$ - нормировочный коэффициент (постоянное), а $\boldsymbol{B}-$ см. формулу (*). Исторически первым примером О. м. были многочлены Лежандра. Затем были введены многочлены Чебышева, общие многочлены Якоби, многочлены Эрмита и Лагерра.
+
+Лит.: [1] С ует ин П. К., Классические ортогональные многочлены, 2 изд., М., 1979.</text_orig>
+</article>

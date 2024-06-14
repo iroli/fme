@@ -1,0 +1,280 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/509_GAMIL'TONA-JaKOBI" alphabetic_pos="509">
+  <title>ГАМИЛЬТОНА-ЯКОБИ УРАВНЕНИЕ</title>
+  <authors>
+    <author>C. M. Tape</author>
+  </authors>
+  <pages>
+    <start>111</start>
+    <end>112</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_1_GAMIL'TONA-JaKOBI">\frac{\partial S}{\partial t}=-H\left(q_{i}, \frac{\partial S}{\partial q_{i}}, t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_2_GAMIL'TONA-JaKOBI">\frac{\partial S}{\partial t}+\frac{1}{2 m}\left[\left(\frac{\partial S}{\partial x}\right)^{2}+\left(\frac{\partial S}{\partial y}\right)^{2}+\left(\frac{\partial S}{\partial z}\right)^{2}\right]-U(x, y, z, t)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_3_GAMIL'TONA-JaKOBI">S=S\left(t, q_{i}, \alpha_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_4_GAMIL'TONA-JaKOBI">\frac{\partial S}{\partial \alpha_{i}}=\beta_{i}, \quad i=1,2, \ldots, s,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_5_GAMIL'TONA-JaKOBI">q_{i}=q_{i}\left(t, \alpha_{i}, \beta_{i}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_6_GAMIL'TONA-JaKOBI">p_{i}=\frac{\partial S}{\partial q_{i}}, \quad i=1,2, \ldots, s .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_7_GAMIL'TONA-JaKOBI">S=S_{0}\left(q_{i}\right)-h t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_8_GAMIL'TONA-JaKOBI">H\left(q_{i}, \frac{\partial S_{0}}{\partial q_{i}}\right)=h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_9_GAMIL'TONA-JaKOBI">S_{0}=S_{0}\left(q_{i}, \alpha_{1}, \alpha_{2}, \ldots, \alpha_{s-1}, h\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_10_GAMIL'TONA-JaKOBI">S=S_{0}\left(q_{i}, \alpha_{1}, \alpha_{2}, \ldots, \alpha_{s-1}, h\right)-h t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/509_11_GAMIL'TONA-JaKOBI">\begin{aligned}&amp; \frac{\partial S_{0}}{\partial \alpha_{i}}=\beta_{i}, \quad i=1,2, \ldots, s-1, \\&amp; \frac{\partial S_{0}}{\partial h}=t+\beta_{s} .\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_1_GAMIL'TONA-JaKOBI">h\left(q_{i}, p_{i}, t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_2_GAMIL'TONA-JaKOBI">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_3_GAMIL'TONA-JaKOBI">p_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_4_GAMIL'TONA-JaKOBI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_5_GAMIL'TONA-JaKOBI">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_6_GAMIL'TONA-JaKOBI">p_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_7_GAMIL'TONA-JaKOBI">\partial S / \partial q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_8_GAMIL'TONA-JaKOBI">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_9_GAMIL'TONA-JaKOBI">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_10_GAMIL'TONA-JaKOBI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_11_GAMIL'TONA-JaKOBI">s\left(q_{i}, t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_12_GAMIL'TONA-JaKOBI">u(x, y, z, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_13_GAMIL'TONA-JaKOBI">m-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_14_GAMIL'TONA-JaKOBI">\boldsymbol{x}, \boldsymbol{y}, z-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_15_GAMIL'TONA-JaKOBI">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_16_GAMIL'TONA-JaKOBI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_17_GAMIL'TONA-JaKOBI">s+1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_18_GAMIL'TONA-JaKOBI">s-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_19_GAMIL'TONA-JaKOBI">s+1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_20_GAMIL'TONA-JaKOBI">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_21_GAMIL'TONA-JaKOBI">\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_22_GAMIL'TONA-JaKOBI">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_23_GAMIL'TONA-JaKOBI">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_24_GAMIL'TONA-JaKOBI">\alpha_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_25_GAMIL'TONA-JaKOBI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_26_GAMIL'TONA-JaKOBI">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_27_GAMIL'TONA-JaKOBI">p_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_28_GAMIL'TONA-JaKOBI">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_29_GAMIL'TONA-JaKOBI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_30_GAMIL'TONA-JaKOBI">\alpha_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_31_GAMIL'TONA-JaKOBI">\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_32_GAMIL'TONA-JaKOBI">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_33_GAMIL'TONA-JaKOBI">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_34_GAMIL'TONA-JaKOBI">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_35_GAMIL'TONA-JaKOBI">s_{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_36_GAMIL'TONA-JaKOBI">q_{i}, \alpha_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_37_GAMIL'TONA-JaKOBI">\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_38_GAMIL'TONA-JaKOBI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_39_GAMIL'TONA-JaKOBI">\alpha_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_40_GAMIL'TONA-JaKOBI">\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_41_GAMIL'TONA-JaKOBI">s_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/509_42_GAMIL'TONA-JaKOBI">s_{0}\left(q_{i}\right)=</formula>
+  </formulas_aux>
+  <relations n="12">
+    <relation uri="http://libmeta.ru/fme/relation/509_1_GAMIL'TONA-JaKOBI">
+      <rel_text>траектории</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_2_GAMIL'TONA-JaKOBI">
+      <rel_text>ортогональные</rel_text>
+      <target>http://libmeta.ru/fme/article/2110_ORTOPROEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_3_GAMIL'TONA-JaKOBI">
+      <rel_text>механику</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_4_GAMIL'TONA-JaKOBI">
+      <rel_text>подобно</rel_text>
+      <target>http://libmeta.ru/fme/article/2277_PODOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_5_GAMIL'TONA-JaKOBI">
+      <rel_text>уравнение эйконала</rel_text>
+      <target>http://libmeta.ru/fme/article/3468_EJKONALA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_6_GAMIL'TONA-JaKOBI">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_7_GAMIL'TONA-JaKOBI">
+      <rel_text>областях</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_8_GAMIL'TONA-JaKOBI">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_9_GAMIL'TONA-JaKOBI">
+      <rel_text>траектории</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_10_GAMIL'TONA-JaKOBI">
+      <rel_text>механич</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_11_GAMIL'TONA-JaKOBI">
+      <rel_text>траекторию</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/509_12_GAMIL'TONA-JaKOBI">
+      <rel_text>многомерном</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>дифференциальное уравнение с частными производными 1-го порядка, описывающее движение голономных механических систем под действием потенциальных сил. Чтобы составить Г.-Я.у., необходимо для данной механич. системы знать Гамильтона функцию $URI[[http://libmeta.ru/fme/formula/aux/509_1_GAMIL'TONA-JaKOBI]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/509_2_GAMIL'TONA-JaKOBI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/509_3_GAMIL'TONA-JaKOBI]]/URI$ канонич. переменные: обобщенные координаты и обобщенные импульсы, а $URI[[http://libmeta.ru/fme/formula/aux/509_4_GAMIL'TONA-JaKOBI]]/URI$ - время. Тогда Г.-Я. у. будет иметь вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_1_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+где правая часть представляет собой выражение функции $URI[[http://libmeta.ru/fme/formula/aux/509_5_GAMIL'TONA-JaKOBI]]/URI$, в к-ром все $URI[[http://libmeta.ru/fme/formula/aux/509_6_GAMIL'TONA-JaKOBI]]/URI$ заменены на $URI[[http://libmeta.ru/fme/formula/aux/509_7_GAMIL'TONA-JaKOBI]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/509_8_GAMIL'TONA-JaKOBI]]/URI$ - подлежащая определению функция координат $URI[[http://libmeta.ru/fme/formula/aux/509_9_GAMIL'TONA-JaKOBI]]/URI$ и времени $URI[[http://libmeta.ru/fme/formula/aux/509_10_GAMIL'TONA-JaKOBI]]/URI$, представляющая собой д е й с т в е по Гам ильтону; иногда функцию $URI[[http://libmeta.ru/fme/formula/aux/509_11_GAMIL'TONA-JaKOBI]]/URI$ называют главной функци ей м и л ь то на.
+
+В частном случае при движении одной материальной точки в силовом поле, определяемом силовой функцией $URI[[http://libmeta.ru/fme/formula/aux/509_12_GAMIL'TONA-JaKOBI]]/URI$, Г.-Я. у. имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_2_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/509_13_GAMIL'TONA-JaKOBI]]/URI$ масса точки, $URI[[http://libmeta.ru/fme/formula/aux/509_14_GAMIL'TONA-JaKOBI]]/URI$ ее координаты.
+
+Г.-Я. у. непосредственно связано с Гамильтона уравнениями, к-рые с математич. точки зрения являются для уравнения (1) уравнениями характеристик.
+
+Чтобы с помощью Г.-Я. у. найти закон движения механич. системы, надо определить полный интеграл уравнения (1), то есть его решение, содержащее столько постоянных интегрирования, сколько в уравнении независимых переменных. Этими переменными являются координаты $URI[[http://libmeta.ru/fme/formula/aux/509_15_GAMIL'TONA-JaKOBI]]/URI$ и время $URI[[http://libmeta.ru/fme/formula/aux/509_16_GAMIL'TONA-JaKOBI]]/URI$; число их равно $URI[[http://libmeta.ru/fme/formula/aux/509_17_GAMIL'TONA-JaKOBI]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/509_18_GAMIL'TONA-JaKOBI]]/URI$ число степеней свободы системы. Следовательно, полный интеграл уравнения (1) должен содержать $URI[[http://libmeta.ru/fme/formula/aux/509_19_GAMIL'TONA-JaKOBI]]/URI$ постоянную, из к-рых одна, как аддитивная, может быть отброшена, и имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_3_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+Если решение Г.- Я.у. в виде (2) будет найдено, то, составив $URI[[http://libmeta.ru/fme/formula/aux/509_20_GAMIL'TONA-JaKOBI]]/URI$ равенств
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_4_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/509_21_GAMIL'TONA-JaKOBI]]/URI$ - новые произвольные постоянные, получим $URI[[http://libmeta.ru/fme/formula/aux/509_22_GAMIL'TONA-JaKOBI]]/URI$ алгебраич. (недифференциальных) уравнений, левые части к-рых содержат $URI[[http://libmeta.ru/fme/formula/aux/509_23_GAMIL'TONA-JaKOBI]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/509_24_GAMIL'TONA-JaKOBI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/509_25_GAMIL'TONA-JaKOBI]]/URI$ и из к-рых можно определить $URI[[http://libmeta.ru/fme/formula/aux/509_26_GAMIL'TONA-JaKOBI]]/URI$ в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_5_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+Значения другой группы канонич. переменных $URI[[http://libmeta.ru/fme/formula/aux/509_27_GAMIL'TONA-JaKOBI]]/URI$ находят из равенств
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_6_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+Уравнения (4), выражающие $URI[[http://libmeta.ru/fme/formula/aux/509_28_GAMIL'TONA-JaKOBI]]/URI$ как функции $URI[[http://libmeta.ru/fme/formula/aux/509_29_GAMIL'TONA-JaKOBI]]/URI$, и определяют положени е механической системы в любой момент времени, то есть закон ее движения. Входящие сюда постоянные $URI[[http://libmeta.ru/fme/formula/aux/509_30_GAMIL'TONA-JaKOBI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/509_31_GAMIL'TONA-JaKOBI]]/URI$ находят подстановкой начальных данных в равенства (4) и (5).
+
+Если функция Гамильтона $URI[[http://libmeta.ru/fme/formula/aux/509_32_GAMIL'TONA-JaKOBI]]/URI$ явно не содержит время, что, в частности, имеет место для консервативных систем, то $URI[[http://libmeta.ru/fme/formula/aux/509_33_GAMIL'TONA-JaKOBI]]/URI$ можно искать в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_7_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/509_34_GAMIL'TONA-JaKOBI]]/URI$ - постоянная, равная полной энергии системы, а $URI[[http://libmeta.ru/fme/formula/aux/509_35_GAMIL'TONA-JaKOBI]]/URI$ величина, называемая укороченным де йс т в и ем (де йс т вием по Лагранжу), или характеристич. функцией, определяемая как полный интеграл уравнения с частными производными
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_8_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_9_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+Гамильтона 111 Тогда полный интеграл Г.- Я. у. будет
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_10_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+и закон движения системы определится в соответствии с (3) из равенств
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/509_11_GAMIL'TONA-JaKOBI]]/URI
+\]
+
+Уравнения (7), содержащие в данном случае только $URI[[http://libmeta.ru/fme/formula/aux/509_36_GAMIL'TONA-JaKOBI]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/509_37_GAMIL'TONA-JaKOBI]]/URI$ и не содержащие время $URI[[http://libmeta.ru/fme/formula/aux/509_38_GAMIL'TONA-JaKOBI]]/URI$, определяют в URI[[http://libmeta.ru/fme/relation/509_12_GAMIL'TONA-JaKOBI]]/URI пространстве URI[[http://libmeta.ru/fme/relation/509_11_GAMIL'TONA-JaKOBI]]/URI точки, изображающей данную URI[[http://libmeta.ru/fme/relation/509_10_GAMIL'TONA-JaKOBI]]/URI. систему, а уравнение (8) дает закон движения вдоль этой URI[[http://libmeta.ru/fme/relation/509_9_GAMIL'TONA-JaKOBI]]/URI. Значения постоянных $URI[[http://libmeta.ru/fme/formula/aux/509_39_GAMIL'TONA-JaKOBI]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/509_40_GAMIL'TONA-JaKOBI]]/URI$ определяются и в этом случае подстановкой начальных данных в равенства (5), (7) и (8).
+
+Г.-Я. У. и связанный с ним метод решения задач URI[[http://libmeta.ru/fme/relation/509_8_GAMIL'TONA-JaKOBI]]/URI играют важную роль и в других URI[[http://libmeta.ru/fme/relation/509_7_GAMIL'TONA-JaKOBI]]/URI физики, особенно в оптике и квантовой URI[[http://libmeta.ru/fme/relation/509_6_GAMIL'TONA-JaKOBI]]/URI. В частности, известное в геометрич. оптике URI[[http://libmeta.ru/fme/relation/509_5_GAMIL'TONA-JaKOBI]]/URI URI[[http://libmeta.ru/fme/relation/509_4_GAMIL'TONA-JaKOBI]]/URI Г.-Я.у. в виде (6), где $URI[[http://libmeta.ru/fme/formula/aux/509_41_GAMIL'TONA-JaKOBI]]/URI$ играет роль эйконала. Этот результат позволяет рассматривать классич. URI[[http://libmeta.ru/fme/relation/509_3_GAMIL'TONA-JaKOBI]]/URI как аналог геометрич. оптики, в к-ром роль поверхностей движущейся волны играют поверхности $URI[[http://libmeta.ru/fme/formula/aux/509_42_GAMIL'TONA-JaKOBI]]/URI$ const, а роль световых лучей - URI[[http://libmeta.ru/fme/relation/509_2_GAMIL'TONA-JaKOBI]]/URI к этим поверхностям URI[[http://libmeta.ru/fme/relation/509_1_GAMIL'TONA-JaKOBI]]/URI движения.</text>
+  <text_orig>дИфференцИальное уравнение с частными производными 1-го порядка, описывающее движение голономных механических систем под действием потенциальных сил. Чтобы составить Г.-Я.у., необходимо для данной механич. системы знать Гамильтона функцию $H\left(q_{i}, p_{i}, t\right)$, где $q_{i}$ и $p_{i}-$ канонич. переменные: обобщенные координаты и обобщенные импульсы, а $t$ - время. Тогда Г.-Я. у. будет иметь вид
+
+\[
+\frac{\partial S}{\partial t}=-H\left(q_{i}, \frac{\partial S}{\partial q_{i}}, t\right)
+\]
+
+где правая часть представляет собой выражение функции $H$, в к-ром все $p_{i}$ заменены на $\partial S / \partial q_{i}$, а $S$ - подлежащая определению функция координат $q_{i}$ и времени $t$, представляюшая собой д е й с т в е по Гам ильтону; иногда функцию $S\left(q_{i}, t\right)$ называют главной функци ей м и л ь то на.
+
+В частном случае при движении одной материальной точки в силовом поле, определяемом силовой функцией $U(x, y, z, t)$, Г.-Я. у. имеет вид
+
+\[
+\frac{\partial S}{\partial t}+\frac{1}{2 m}\left[\left(\frac{\partial S}{\partial x}\right)^{2}+\left(\frac{\partial S}{\partial y}\right)^{2}+\left(\frac{\partial S}{\partial z}\right)^{2}\right]-U(x, y, z, t)=0
+\]
+
+где $m-$ масса точки, $\boldsymbol{x}, \boldsymbol{y}, z-$ ее координаты.
+
+Г.-Я. у. непосредственно связано с Гамильтона уравнениями, к-рые с математич. точки зрения являются для уравнения (1) уравнениями характеристик.
+
+Чтобы с помощью Г.-Я. у. найти закон движения механич. системы, надо определить полный интеграл уравнения (1), то есть его решение, содержашее столько постоянных интегрирования, сколько в уравнении независимых переменных. Этими переменными являются координаты $q_{i}$ и время $t$; число их равно $s+1$, где $s-$ число степеней свободы системы. Следовательно, полный интеграл уравнения (1) должен содержать $s+1$ постоянную, из к-рых одна, как аддитивная, может быть отброшена, и имеет вид
+
+\[
+S=S\left(t, q_{i}, \alpha_{i}\right)
+\]
+
+Если решение Г.- Я.у. в виде (2) будет найдено, то, составив $s$ равенств
+
+\[
+\frac{\partial S}{\partial \alpha_{i}}=\beta_{i}, \quad i=1,2, \ldots, s,
+\]
+
+где $\beta_{i}$ - новые произвольные постоянные, получим $s$ алгебраич. (недифференциальных) уравнений, левые части к-рых содержат $q_{i}$, $\alpha_{i}$ и $t$ и из к-рых можно определить $q_{i}$ в виде
+
+\[
+q_{i}=q_{i}\left(t, \alpha_{i}, \beta_{i}\right) .
+\]
+
+Значения другой группы канонич. переменных $p_{i}$ находят из равенств
+
+\[
+p_{i}=\frac{\partial S}{\partial q_{i}}, \quad i=1,2, \ldots, s .
+\]
+
+Уравнения (4), выражающие $q_{i}$ как функции $t$, и определяют положени е механической системы в любой момент времени, то есть закон ее движения. Входяшие сюда постоянные $\alpha_{i}$ и $\beta_{i}$ находят подстановкой начальных данных в равенства (4) и (5).
+
+Если функция Гамильтона $H$ явно не содержит время, что, в частности, имеет место для консервативных систем, то $S$ можно искать в виде
+
+\[
+S=S_{0}\left(q_{i}\right)-h t
+\]
+
+где $h$ - постоянная, равная полной энергии системы, а $S_{0}-$ величина, называемая укороченным де йс т в и ем (де йс т вием по Лагранжу), или характеристич. функцией, определяемая как полный интеграл уравнения с частными производными
+
+\[
+H\left(q_{i}, \frac{\partial S_{0}}{\partial q_{i}}\right)=h
+\]
+
+в виде
+
+\[
+S_{0}=S_{0}\left(q_{i}, \alpha_{1}, \alpha_{2}, \ldots, \alpha_{s-1}, h\right) .
+\]
+
+ГАМИЛЬТОНА 111 Тогда полный интеграл Г.- Я. у. будет
+
+\[
+S=S_{0}\left(q_{i}, \alpha_{1}, \alpha_{2}, \ldots, \alpha_{s-1}, h\right)-h t
+\]
+
+и закон движения системы определится в соответствии с (3) из равенств
+
+\[
+\begin{aligned}
+&amp; \frac{\partial S_{0}}{\partial \alpha_{i}}=\beta_{i}, \quad i=1,2, \ldots, s-1, \\
+&amp; \frac{\partial S_{0}}{\partial h}=t+\beta_{s} .
+\end{aligned}
+\]
+
+Уравнения (7), содержащие в данном случае только $q_{i}, \alpha_{i}$, $\beta_{i}$ и не содержащие время $t$, определяют в многомерном пространстве траекторию точки, изображающей данную механич. систему, а уравнение (8) дает закон движения вдоль этой траектории. Значения постоянных $\alpha_{i}$, $\beta_{i}$ определяются и в этом случае подстановкой начальных данных в равенства (5), (7) и (8).
+
+Г.-Я. У. и связанный с ним метод решения задач механики играют важную роль и в других областях физики, особенно в оптике и квантовой механике. В частности, известное в геометрич. оптике уравнение эйконала подобно Г.-Я.у. в виде (6), где $S_{0}$ играет роль эйконала. Этот результат позволяет рассматривать классич. механику как аналог геометрич. оптики, в к-ром роль поверхностей движущейся волны играют поверхности $S_{0}\left(q_{i}\right)=$ const, а роль световых лучей - ортогональные к этим поверхностям траектории движения.
+
+C. M. Tape.</text_orig>
+</article>

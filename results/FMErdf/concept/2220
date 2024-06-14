@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_299_BJuRGERSA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_299_BJuRGERSA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2220</core:url>
+    <lbm:descriptor><![CDATA[БЮРГЕРСА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1740"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16811"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16812"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16816"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16817"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16818"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16819"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16820"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16821"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16822"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16823"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2753"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16824"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1009"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16825"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16826"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>нелинейное дифференциальное уравнение с частными производными<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16817">$$\frac{\partial u}{\partial t}+\frac{u \partial u}{\partial x}=\frac{\mu \partial^{2} u}{\partial x^{2}}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/299_1_BJuRGERSA]]/URI$ - неизвестная функция, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16824">$$-\infty<x<\infty, t \geqslant 0, \mu>0-$$</a> параметр. Является модельным уравнением при исследовании волновых процессов в газовой динамике, гидродинамике, акустике и т. Д. На Б. у. как на простейшее уравнение, объединяющее типичную нелинейность и тепловую диффузию (или вязкость), указал Й. Бюргерс (j. Burgers) в 1942, хотя оно фигурировало и ранее в работах других ученых, в частности Г. Бейтмена (h. Bateman). Обнаруженная Э. Хопфом (е. Нoрf) и Дж. Коулом (j. Cole) в 1950 замена<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16818">$$u=-\frac{2 \mu \partial \ln \varphi(x, t)}{\partial x}$$</a><BR/></P><P>позволяет свести Б. у. к уравнению теплопроводности<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16819">$$\partial \varphi / \partial t=\mu \partial^{2} \varphi / \partial x^{2}$$</a><BR/></P><P>для функции $URI[[http://libmeta.ru/fme/formula/aux/299_3_BJuRGERSA]]/URI$ и получить решение задачи Коши <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16825">$$u(x, 0)=u_{0}(x)$$</a> для Б. у. в виде:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16820">$$\begin{gathered}\varphi(x, t)=(4 \pi \mu t)^{-1 / 2} \int_{-\infty}^{\infty} d \eta \exp \{-F(x, \eta, t) / 2 v\}, \\F(x, \eta, t)=\int_{0}^{\eta} u_{0}(\xi) d \xi+(x-\eta)^{2} / 2 t\end{gathered}$$</a><BR/></P><P>С помощью этой формулы можно детально проследить, как из гладких начальных данных образуются и распространяются ударные волны в нелинейной среде, описываемые уравнением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16821">$$\frac{\partial v}{\partial t}+\frac{v \partial v}{\partial x}=0$$</a><BR/></P><P>если понимать под обобщенным решением последнего функцию<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16822">$$v(x, t)=\lim _{\mu \rightarrow+0} u(x, t)$$</a><BR/></P><P>- предел по «исчезающей» вязкости <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa">решения задачи</a> Коши <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16826">$$u(x, 0)=v(x, 0)$$</a> для Б. у. Исходная задача имеет <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1025_INTEGRAL">интеграл движения</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16823">$$\int_{-\infty}^{\infty} u(x, t) d x=\int_{-\infty}^{\infty} u_{0}(x) d x .$$</a><BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2924_STATISTIChESKAJa">Статистическая гидродинамика</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3364_HOPFA">Хопфа уравнение</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#16811">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#15548">Карпман В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16811">Нелинейные волны в диспергирующих средах, М., 1973</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#16812">[2]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#16812">У и зе м Дж., Линейные и нелинейные волны, пер. с англ., 1977</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#16816">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#16813">Виноградова М. Б.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#16814">Руденко О. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#16815">Сухоруков А. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16816">Теория волн, М., 1979</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1740">С. Ю. Доброхотов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[нелинейное дифференциальное уравнение с частными производными
+
+\[
+\frac{\partial u}{\partial t}+\frac{u \partial u}{\partial x}=\frac{\mu \partial^{2} u}{\partial x^{2}}
+\]
+
+где $u(x, t)$ - неизвестная функция, $-\infty<x<\infty, t \geqslant 0, \mu>0-$ параметр. Является модельным уравнением при исследовании волновых процессов в газовой динамике, гидродинамике, акустике и т. Д. На Б. у. как на простейшее уравнение, объединяющее типичную нелинейность и тепловую диффузию (или вязкость), указал Й. Бюргерс (J. Burgers) в 1942, хотя оно фигурировало и ранее в работах других ученых, в частности Г. Бейтмена (H. Bateman). Обнаруженная Э. Хопфом (Е. Нopf) и Дж. Коулом (J. Cole) в 1950 замена
+
+\[
+u=-\frac{2 \mu \partial \ln \varphi(x, t)}{\partial x}
+\]
+
+позволяет свести Б. у. к уравнению теплопроводности
+
+\[
+\partial \varphi / \partial t=\mu \partial^{2} \varphi / \partial x^{2}
+\]
+
+для функции $\varphi$ и получить решение задачи Коши $u(x, 0)=u_{0}(x)$ для Б. у. в виде:
+
+\[
+\begin{gathered}
+\varphi(x, t)=(4 \pi \mu t)^{-1 / 2} \int_{-\infty}^{\infty} d \eta \exp \{-F(x, \eta, t) / 2 v\}, \\
+F(x, \eta, t)=\int_{0}^{\eta} u_{0}(\xi) d \xi+(x-\eta)^{2} / 2 t
+\end{gathered}
+\]
+
+С помощью этой формулы можно детально проследить, как из гладких начальных данных образуются и распространяются ударные волны в нелинейной среде, описываемые уравнением
+
+\[
+\frac{\partial v}{\partial t}+\frac{v \partial v}{\partial x}=0
+\]
+
+если понимать под обобщенным решением последнего функцию
+
+\[
+v(x, t)=\lim _{\mu \rightarrow+0} u(x, t)
+\]
+
+- предел по «исчезающей» вязкости решения задачи Коши $u(x, 0)=v(x, 0)$ для Б. у. Исходная задача имеет интеграл движения:
+
+\[
+\int_{-\infty}^{\infty} u(x, t) d x=\int_{-\infty}^{\infty} u_{0}(x) d x .
+\]
+
+См. также Статистическая гидродинамика, Хопфа уравнение.
+
+Лит.: [1] Карпман В. И., Нелинейные волны в диспергирующих средах, М., 1973; [2] У и зе м Дж., Линейные и нелинейные волны, пер. с англ., 1977; [3] Виноградова М.Б., Руденко О. В., Сухоруков А. Н., Теория волн, М., 1979.
+
+С. Ю. Доброхотов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3364_HOPFA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2924_STATISTIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1025_INTEGRAL"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

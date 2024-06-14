@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/715_GRASSMANA" alphabetic_pos="717">
+  <title>ГРАССМАНА АЛГЕБРА, ВНЕШНЯЯ АЛГЕБРА</title>
+  <authors/>
+  <pages>
+    <start>156</start>
+    <end>156</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/715_1_GRASSMANA">x_{i} x_{k}+x_{k} x_{i}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/715_2_GRASSMANA">\begin{gathered}1, x_{i}, i \leqslant n, x_{i} x_{j}, i&lt;j \leqslant n, \\x_{i} x_{j} x_{k}, i&lt;j&lt;k \leqslant n, \ldots, x_{1} x_{2} \ldots x_{n} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/715_3_GRASSMANA">f(x)=f+\sum_{i} f^{i} x_{i}+\sum_{i&lt;j} f^{i j} x_{i} x_{j}+\ldots+f^{1 \ldots n} x_{1} x_{2} \ldots x_{n} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/715_4_GRASSMANA">\int d x^{\alpha}=0, \quad \int d x^{\alpha} x_{\beta}=\delta_{\beta}^{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/715_5_GRASSMANA">\int d x^{\alpha} f(x)=\partial f(x) / \partial x_{\alpha}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_1_GRASSMANA">x_{1}, x_{2}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_2_GRASSMANA">x_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_3_GRASSMANA">x_{k}^{2}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_4_GRASSMANA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_5_GRASSMANA">2^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_6_GRASSMANA">2^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_7_GRASSMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_8_GRASSMANA">x_{1} \ldots x_{\beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_9_GRASSMANA">x_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_10_GRASSMANA">x_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/715_11_GRASSMANA">d x^{\alpha}</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/715_1_GRASSMANA">
+      <rel_text>представляющий Грина функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2886_SPEKTRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/715_2_GRASSMANA">
+      <rel_text>грассмановым переменным</rel_text>
+      <target>http://libmeta.ru/fme/article/717_GRASSMANOVY</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/715_3_GRASSMANA">
+      <rel_text>дифференцированию</rel_text>
+      <target>http://libmeta.ru/fme/article/879_DIFFERENTsIRUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/715_4_GRASSMANA">
+      <rel_text>эквивалентно</rel_text>
+      <target>http://libmeta.ru/fme/article/3492_EKVIDISTANT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/715_5_GRASSMANA">
+      <rel_text>частям</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/715_6_GRASSMANA">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/715_7_GRASSMANA">
+      <rel_text>первое</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/715_8_GRASSMANA">
+      <rel_text>дифференцирование</rel_text>
+      <target>http://libmeta.ru/fme/article/879_DIFFERENTsIRUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/715_9_GRASSMANA">
+      <rel_text>грассмановых переменных</rel_text>
+      <target>http://libmeta.ru/fme/article/717_GRASSMANOVY</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/715_10_GRASSMANA">
+      <rel_text>линейного пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/1610_LINEJNOE</target>
+    </relation>
+  </relations>
+  <text>алгебра, порожденная антикоммутирующими образующими $URI[[http://libmeta.ru/fme/formula/aux/715_1_GRASSMANA]]/URI$, то есть совокупность всевозможных линейных комбинаций из произведений образующих $URI[[http://libmeta.ru/fme/formula/aux/715_2_GRASSMANA]]/URI$, в которых все сомножители различны, так как
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/715_1_GRASSMANA]]/URI
+\]
+
+и, в частности, $URI[[http://libmeta.ru/fme/formula/aux/715_3_GRASSMANA]]/URI$ при любом $URI[[http://libmeta.ru/fme/formula/aux/715_4_GRASSMANA]]/URI$. Размерность Г.а. как URI[[http://libmeta.ru/fme/relation/715_10_GRASSMANA]]/URI равна $URI[[http://libmeta.ru/fme/formula/aux/715_5_GRASSMANA]]/URI$, базис состоит из $URI[[http://libmeta.ru/fme/formula/aux/715_6_GRASSMANA]]/URI$ одночленов:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/715_2_GRASSMANA]]/URI
+\]
+
+Любой элемент Г. а. $URI[[http://libmeta.ru/fme/formula/aux/715_7_GRASSMANA]]/URI$ можно представить в виде следующей конечной суммы:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/715_3_GRASSMANA]]/URI
+\]
+
+На случай URI[[http://libmeta.ru/fme/relation/715_9_GRASSMANA]]/URI обобщается ряд понятий обычного анализа, в частности URI[[http://libmeta.ru/fme/relation/715_8_GRASSMANA]]/URI и интегрирование. Чтобы найти левую производную от одночлена $URI[[http://libmeta.ru/fme/formula/aux/715_8_GRASSMANA]]/URI$ по переменной $URI[[http://libmeta.ru/fme/formula/aux/715_9_GRASSMANA]]/URI$, нужно, пользуясь (1), переставить $URI[[http://libmeta.ru/fme/formula/aux/715_10_GRASSMANA]]/URI$ на URI[[http://libmeta.ru/fme/relation/715_7_GRASSMANA]]/URI слева место и вычеркнуть ее. Аналогично определяется правая производная. Производная от общего элемента Г. а. есть сумма производных от одночленов в разложении (2). Интеграл на Г.а. задается правилами Березина:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/715_4_GRASSMANA]]/URI
+\]
+
+при этом кратный интеграл понимается как повторный. Символ $URI[[http://libmeta.ru/fme/formula/aux/715_11_GRASSMANA]]/URI$ не есть обычный дифференциал, его следует трактовать формально. Интеграл на Г. а. URI[[http://libmeta.ru/fme/relation/715_6_GRASSMANA]]/URI нек-рыми свойствами обычного интеграла, в частности возможно интегрирование по URI[[http://libmeta.ru/fme/relation/715_5_GRASSMANA]]/URI. С другой стороны, интегрирование на Г. а. URI[[http://libmeta.ru/fme/relation/715_4_GRASSMANA]]/URI URI[[http://libmeta.ru/fme/relation/715_3_GRASSMANA]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/715_5_GRASSMANA]]/URI
+\]
+
+Интегрирование по URI[[http://libmeta.ru/fme/relation/715_2_GRASSMANA]]/URI позволяет построить функциональный интеграл, URI[[http://libmeta.ru/fme/relation/715_1_GRASSMANA]]/URI фермионных полей.</text>
+  <text_orig>алгебра, порожденная антикоммутирующими образующими $x_{1}, x_{2}, \ldots, x_{n}$, то есть совокупность всевозможных линейных комбинаций из произведений образующих $x_{i}$, в которых все сомножители различны, так как
+
+\[
+x_{i} x_{k}+x_{k} x_{i}=0
+\]
+
+и, в частности, $x_{k}^{2}=0$ при любом $k$. Размерность Г.а. как линейного пространства равна $2^{n}$, базис состоит из $2^{n}$ одночленов:
+
+\[
+\begin{gathered}
+1, x_{i}, i \leqslant n, x_{i} x_{j}, i&lt;j \leqslant n, \\
+x_{i} x_{j} x_{k}, i&lt;j&lt;k \leqslant n, \ldots, x_{1} x_{2} \ldots x_{n} .
+\end{gathered}
+\]
+
+Любой элемент Г. а. $f(x)$ можно представить в виде следующей конечной суммы:
+
+\[
+f(x)=f+\sum_{i} f^{i} x_{i}+\sum_{i&lt;j} f^{i j} x_{i} x_{j}+\ldots+f^{1 \ldots n} x_{1} x_{2} \ldots x_{n} .
+\]
+
+На случай грассмановых переменных обобшается ряд понятий обычного анализа, в частности дифференцирование и интегрирование. Чтобы найти левую производную от одночлена $x_{1} \ldots x_{\beta}$ по переменной $x_{\alpha}$, нужно, пользуясь (1), переставить $x_{\alpha}$ на первое слева место и вычеркнуть ее. Аналогично определяется правая производная. Производная от общего элемента Г. а. есть сумма производных от одночленов в разложении (2). Интеграл на Г.а. задается правилами Березина:
+
+\[
+\int d x^{\alpha}=0, \quad \int d x^{\alpha} x_{\beta}=\delta_{\beta}^{\alpha}
+\]
+
+при этом кратный интеграл понимается как повторный. Символ $d x^{\alpha}$ не есть обычный дифференциал, его следует трактовать формально. Интеграл на Г. а. обладает нек-рыми свойствами обычного интеграла, в частности возможно интегрирование по частям. С другой стороны, интегрирование на Г. а. эквивалентно дифференцированию:
+
+\[
+\int d x^{\alpha} f(x)=\partial f(x) / \partial x_{\alpha}
+\]
+
+Интегрирование по грассмановым переменным позволяет построить функциональный интеграл, представляющий Грина функции фермионных полей.</text_orig>
+</article>

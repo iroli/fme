@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2063_ODNOSVJaZNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2063_ODNOSVJaZNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1181</core:url>
+    <lbm:descriptor><![CDATA[ОДНОСВЯЗНОЕ ПРОСТРАНСТВО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#9102"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9103"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9104"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9105"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3711"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3098_TOPOLOGIChESKOE">топологическое пространство</a> $URI[[http://libmeta.ru/fme/formula/aux/2063_1_ODNOSVJaZNOE]]/URI$ такое, что всякое <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE">непрерывное отображение</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9105">$$f: S^{1} \rightarrow X$$</a> окружности<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9103">$$S^{1}=\left\{(x, y) \in \mathbb{R}^{2} \mid x^{2}+y^{2}=1\right\}$$</a><BR/></P><P>можно непрерывно продолжить на диск<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9104">$$D^{2}=\left\{(x, y) \in \mathbb{R}^{2} \mid x^{2}+y^{2} \leqslant 1\right\}$$</a><BR/></P><P>границей которого служит $URI[[http://libmeta.ru/fme/formula/aux/2063_3_ODNOSVJaZNOE]]/URI$.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#9102">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#326">Спеньер Э.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#9102">Алгебраическая топология, пер. с англ., $\begin{array}{ll}\text { M., 1971</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[топологическое пространство $X$ такое, что всякое непрерывное отображение $f: S^{1} \rightarrow X$ окружности
+
+\[
+S^{1}=\left\{(x, y) \in \mathbb{R}^{2} \mid x^{2}+y^{2}=1\right\}
+\]
+
+можно непрерывно продолжить на диск
+
+\[
+D^{2}=\left\{(x, y) \in \mathbb{R}^{2} \mid x^{2}+y^{2} \leqslant 1\right\}
+\]
+
+границей которого служит $S^{1}$.
+
+Лит.: [1] С п е н ье р Э., Алгебраическая топология, пер. с англ., $\begin{array}{ll}\text { M., 1971. } & \text { B. В. Трофимов. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1929_NEPRERYVNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3098_TOPOLOGIChESKOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

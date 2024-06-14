@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2647_RIChARDSONA" alphabetic_pos="2649">
+  <title>РИЧАРДСОНА ЧИСЛО</title>
+  <authors>
+    <author>А. С. Монин</author>
+  </authors>
+  <pages>
+    <start>515</start>
+    <end>515</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2647_1_RIChARDSONA">N^{2}=g \partial \rho * / \rho_{*} \partial z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2647_2_RIChARDSONA">U^{\prime}=\partial U(z) / \partial z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2647_3_RIChARDSONA">\mathrm{Ri}=N^{2}\left(U^{\prime}\right)^{-2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2647_4_RIChARDSONA">\mathrm{Rf}=\alpha \mathrm{Ri}, \alpha=K_{\rho} / K</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2647_1_RIChARDSONA">\mathrm{ri}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2647_2_RIChARDSONA">\rho *(z)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2647_3_RIChARDSONA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2647_4_RIChARDSONA">\left(\mathrm{ri}&lt;\mathrm{ri}_{\text {кр}} ;\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2647_5_RIChARDSONA">\left.\mathrm{Ri}_{\mathrm{Kp}}=1 / 4\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2647_6_RIChARDSONA">k_{\rho}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2647_7_RIChARDSONA">k-</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2647_1_RIChARDSONA">
+      <rel_text>Геофизическая турбулентность</rel_text>
+      <target>http://libmeta.ru/fme/article/590_GEOFIZIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2647_2_RIChARDSONA">
+      <rel_text>турбулентного</rel_text>
+      <target>http://libmeta.ru/fme/article/3139_TURBULENTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2647_3_RIChARDSONA">
+      <rel_text>идеальных жидкостях</rel_text>
+      <target>http://libmeta.ru/fme/article/966_IDEAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2647_4_RIChARDSONA">
+      <rel_text>неустойчивости</rel_text>
+      <target>http://libmeta.ru/fme/article/1952_NEUSTOJChIVOST</target>
+    </relation>
+  </relations>
+  <text>число $URI[[http://libmeta.ru/fme/formula/aux/2647_1_RIChARDSONA]]/URI$, равное отношению квадрата частоты Вяйселя - Брента
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2647_1_RIChARDSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2647_2_RIChARDSONA]]/URI$ потенциальная плотность, $URI[[http://libmeta.ru/fme/formula/aux/2647_3_RIChARDSONA]]/URI$ - ускорение силы тяжести к квадрату сдвига скорости
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2647_2_RIChARDSONA]]/URI
+\]
+
+в стратифицированном течении:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2647_3_RIChARDSONA]]/URI
+\]
+
+Р.ч. служит критерием гидродинамич. URI[[http://libmeta.ru/fme/relation/2647_4_RIChARDSONA]]/URI течения $URI[[http://libmeta.ru/fme/formula/aux/2647_4_RIChARDSONA]]/URI$ в URI[[http://libmeta.ru/fme/relation/2647_3_RIChARDSONA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2647_5_RIChARDSONA]]/URI$. Используется также динамическое число Ричард c O H a
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2647_4_RIChARDSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2647_6_RIChARDSONA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2647_7_RIChARDSONA]]/URI$ коэффициенты URI[[http://libmeta.ru/fme/relation/2647_2_RIChARDSONA]]/URI массообмена и вязкости.
+
+См. также URI[[http://libmeta.ru/fme/relation/2647_1_RIChARDSONA]]/URI.</text>
+  <text_orig>число $\mathrm{Ri}$, равное отношению квадрата частоты Вяйсяля - Брента
+
+\[
+N^{2}=g \partial \rho * / \rho_{*} \partial z
+\]
+
+где $\rho *(z)-$ потенциальная плотность, $g$ - ускорение силы тяжести к квадрату сдвига скорости
+
+\[
+U^{\prime}=\partial U(z) / \partial z
+\]
+
+в стратифицированном течении:
+
+\[
+\mathrm{Ri}=N^{2}\left(U^{\prime}\right)^{-2}
+\]
+
+Р.ч. служит критерием гидродинамич. неустойчивости течения $\left(\mathrm{Ri}&lt;\mathrm{Ri}_{\text {кр}} ;\right.$ в идеальных жидкостях $\left.\mathrm{Ri}_{\mathrm{Kp}}=1 / 4\right)$. Используется также динамическое число Ричард c O H a
+
+\[
+\mathrm{Rf}=\alpha \mathrm{Ri}, \alpha=K_{\rho} / K
+\]
+
+где $K_{\rho}$ и $K-$ коэффициенты турбулентного массообмена и вязкости.
+
+См. также Геофизическая турбулентность. А. С. Монин.</text_orig>
+</article>

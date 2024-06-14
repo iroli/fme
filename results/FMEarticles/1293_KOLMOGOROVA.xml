@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1293_KOLMOGOROVA" alphabetic_pos="1295">
+  <title>КОЛМОГОРОВА ЗАКОН ДВУХ ТРЕТЕЙ</title>
+  <authors>
+    <author>М. М. Любимцев</author>
+  </authors>
+  <pages>
+    <start>277</start>
+    <end>277</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] К о л м о г о р о в А. Н., “доклады Ан СССР», 1941, т. 30, № 4, с. 299-303; т. 31, № 2, с. 99-101 (избранные труды. Математика и механика, М., 1985, с. 281-87, Теория вероятностей и математическая статистика, М., 1986, с. 264-67).</literature_orig>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <title>“доклады Ан СССР»</title>
+      <publication/>
+      <year>1941</year>
+      <other>т. 30, № 4, с. 299-303; т. 31, № 2, с. 99-101 (избранные труды. Математика и механика, М., 1985, с. 281-87, Теория вероятностей и математическая статистика, М., 1986, с. 264-67).</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1293_1_KOLMOGOROVA">D(r)=\left\langle[u(x+r, t)-u(x, t)]^{2}\right\rangle=C(\varepsilon r)^{2 / 3}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1293_1_KOLMOGOROVA">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1293_2_KOLMOGOROVA">\left(v^{3} / \varepsilon\right)^{1 / 4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1293_3_KOLMOGOROVA">\varepsilon-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1293_4_KOLMOGOROVA">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1293_5_KOLMOGOROVA">c-</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/1293_1_KOLMOGOROVA">
+      <rel_text>экспериментом</rel_text>
+      <target>http://libmeta.ru/fme/article/3496_EKSPANSIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1293_2_KOLMOGOROVA">
+      <rel_text>Многократные</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1293_3_KOLMOGOROVA">
+      <rel_text>параметром</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1293_4_KOLMOGOROVA">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1293_5_KOLMOGOROVA">
+      <rel_text>скорость</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1293_6_KOLMOGOROVA">
+      <rel_text>инерционном интервале</rel_text>
+      <target>http://libmeta.ru/fme/article/1021_INERTsIONNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1293_7_KOLMOGOROVA">
+      <rel_text>турбулентности</rel_text>
+      <target>http://libmeta.ru/fme/article/3139_TURBULENTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1293_8_KOLMOGOROVA">
+      <rel_text>гипотезы подобия</rel_text>
+      <target>http://libmeta.ru/fme/article/1292_KOLMOGOROVA</target>
+    </relation>
+  </relations>
+  <text>соотношение, являющееся следствием URI[[http://libmeta.ru/fme/relation/1293_8_KOLMOGOROVA]]/URI К о л м о го р о в а, согласно которой статистическая структура развитой URI[[http://libmeta.ru/fme/relation/1293_7_KOLMOGOROVA]]/URI в URI[[http://libmeta.ru/fme/relation/1293_6_KOLMOGOROVA]]/URI масштабов $URI[[http://libmeta.ru/fme/formula/aux/1293_1_KOLMOGOROVA]]/URI$ (много меньшем масштаба течения в целом, но много большем внутреннего масштаба $URI[[http://libmeta.ru/fme/formula/aux/1293_2_KOLMOGOROVA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1293_3_KOLMOGOROVA]]/URI$ средняя URI[[http://libmeta.ru/fme/relation/1293_5_KOLMOGOROVA]]/URI вязкой диссипации турбулентной URI[[http://libmeta.ru/fme/relation/1293_4_KOLMOGOROVA]]/URI, v - кинематический коэффициент вязкости) определяется одним URI[[http://libmeta.ru/fme/relation/1293_3_KOLMOGOROVA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1293_4_KOLMOGOROVA]]/URI$. В частности,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1293_1_KOLMOGOROVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1293_5_KOLMOGOROVA]]/URI$ числовая константа. URI[[http://libmeta.ru/fme/relation/1293_2_KOLMOGOROVA]]/URI эмпирич. проверки К. з. Д. т. показали хорошее согласие теории с URI[[http://libmeta.ru/fme/relation/1293_1_KOLMOGOROVA]]/URI. Закон установлен А. Н. Колмогоровым [1].</text>
+  <text_orig>соотношение, являющееся следствием гипотезы подобия К о л м о го р о в а, согласно которой статистическая структура развитой турбулентности в инерционном интервале масштабов $r$ (много меньшем масштаба течения в целом, но много большем внутреннего масштаба $\left(v^{3} / \varepsilon\right)^{1 / 4}$, где $\varepsilon-$ средняя скорость вязкой диссипации турбулентной энергии, v - кинематический коэффициент вязкости) определяется одним параметром $\varepsilon$. В частности,
+
+\[
+D(r)=\left\langle[u(x+r, t)-u(x, t)]^{2}\right\rangle=C(\varepsilon r)^{2 / 3}
+\]
+
+где $C-$ числовая константа. Многократные эмпирич. проверки К. з. Д. т. показали хорошее согласие теории с экспериментом. Закон установлен А. Н. Колмогоровым [1].
+
+Лum.: [1] К о л м о г о р о в А. Н., “Доклады АН СССР», 1941, т. 30, № 4, с. 299-303; т. 31, № 2, с. 99-101 (Избранные труды. Математика и механика, М., 1985, с. 281-87, Теория вероятностей и математическая статистика, М., 1986, с. 264-67). М. М. Любимцев.</text_orig>
+</article>

@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_666_GODOGRAFA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_666_GODOGRAFA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3215</core:url>
+    <lbm:descriptor><![CDATA[ГОДОГРАФА МЕТОД, ПРЕОБРАЗОВАНИЕ ГОДОГРАФА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23940"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#19753"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23941"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23942"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23943"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23944"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23945"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23946"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23947"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2753"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7260"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23948"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23949"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23950"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>метод, позволяющий свести однородную систему двух квазилинейных уравнений<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23942">$$\left.\begin{array}{l}u_{t}=a(u, v) u_{x}+b(u, v) v_{x} \\v_{t}=c(u, v) u_{x}+d(u, v) v_{x}\end{array}\right\}$$</a><BR/></P><P>относительно двух функций <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2753">$$u(x, t)$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_7260">$$v(x, t)$$</a> к линейной системе<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23943">$$\left.\begin{array}{rl}-x_{u} & =a(u, v) t_{v}-b(u, v) t_{u} \\x_{v} & =c(u, v) t_{v}-d(u, v) t_{u}\end{array}\right\}$$</a><BR/></P><P>от соответствующих обратных функций <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23948">$$t(u, v)$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23949">$$x(u, v)$$</a>.<BR/></P><P>Впервые Г.м. был применен к интегрированию уравнений движения идеального газа (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#23940">[1]</a>). Г. М. позволяет линеаризовать дифференциальные уравнения с частными производными 2-го порядка, сводимые к системе (1), и совпадает в этом случае с линеаризацией уравнений Лежсандра преобразованием (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#19753">[2]</a>). Обобще н ны й ме тод годографа - метод, применимый к системам гидродинамич. типа с диагональной матрицей<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23944">$$u_{t}^{i}=v_{i}\left(u^{1}, \ldots, u^{n}\right) u_{x}^{i}, u^{i}=u^{i}(x, t), i=1, \ldots, n,$$</a><BR/></P><P>и позволяющий свести систему (2) к линейной системе уравнений<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23945">$$\partial_{i} w_{k}=\frac{\partial_{i} v_{k}}{\left(v_{i}-v_{k}\right)}\left(w_{i}-w_{k}\right), \quad \partial_{i}=\frac{\partial}{\partial u^{i}}, \quad i \neq k,$$</a><BR/></P><P>относительно коэффициентов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23950">$$w_{i}\left(u^{1}, \ldots, u^{n}\right)$$</a> коммутирующих с (2) потоков (то есть симметрий (2)) того же вида при выполнении условий «полугамильтоновости» (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#23940">[1]</a>):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23946">$$\partial_{i}=\left(\frac{\partial_{j} v_{k}}{v_{j}-v_{k}}\right)=\partial_{j}\left(\frac{\partial_{i} v_{k}}{v_{i}-v_{k}}\right), \quad i \neq j \neq k .$$</a><BR/></P><P>Связь решений (2) и (3) дает формула обобщенного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_667_GODOGRAFA">преобразования годографа</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23947">$$w_{i}(u)=v_{i}(u) t+x$$</a><BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#23940">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Мизс Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#23940">Математическая теория течений сжимаемой жидкости, пер. с англ., М., 1961</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#19753">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Курант Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#19753">Уравнения с частными производными, пер. с англ., М., 1964</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#23941">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#3558">Дубровин Б. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#3559">Новиков С. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#23941">"успехи математич. наук», 1989, т. 44, $\begin{array}{ll}\text { в. 6, с. 29-98. } & \text { С. П. Царев. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[метод, позволяющий свести однородную систему двух квазилинейных уравнений
+
+\[
+\left.\begin{array}{l}
+u_{t}=a(u, v) u_{x}+b(u, v) v_{x} \\
+v_{t}=c(u, v) u_{x}+d(u, v) v_{x}
+\end{array}\right\}
+\]
+
+относительно двух функций $u(x, t)$ и $v(x, t)$ к линейной системе
+
+\[
+\left.\begin{array}{rl}
+-x_{u} & =a(u, v) t_{v}-b(u, v) t_{u} \\
+x_{v} & =c(u, v) t_{v}-d(u, v) t_{u}
+\end{array}\right\}
+\]
+
+от соответствующих обратных функций $t(u, v)$ и $x(u, v)$.
+
+Впервые Г.м. был применен к интегрированию уравнений движения идеального газа (см. [1]). Г. М. позволяет линеаризовать дифференциальные уравнения с частными производными 2-го порядка, сводимые к системе (1), и совпадает в этом случае с линеаризацией уравнений Лежсандра преобразованием (см. [2]). Обобще н ны й ме тод годографа - метод, применимый к системам гидродинамич. типа с диагональной матрицей
+
+\[
+u_{t}^{i}=v_{i}\left(u^{1}, \ldots, u^{n}\right) u_{x}^{i}, u^{i}=u^{i}(x, t), i=1, \ldots, n,
+\]
+
+и позволяющий свести систему (2) к линейной системе уравнений
+
+\[
+\partial_{i} w_{k}=\frac{\partial_{i} v_{k}}{\left(v_{i}-v_{k}\right)}\left(w_{i}-w_{k}\right), \quad \partial_{i}=\frac{\partial}{\partial u^{i}}, \quad i \neq k,
+\]
+
+относительно коэффициентов $w_{i}\left(u^{1}, \ldots, u^{n}\right)$ коммутирующих с (2) потоков (то есть симметрий (2)) того же вида при выполнении условий «полугамильтоновости» (см. [1]):
+
+\[
+\partial_{i}=\left(\frac{\partial_{j} v_{k}}{v_{j}-v_{k}}\right)=\partial_{j}\left(\frac{\partial_{i} v_{k}}{v_{i}-v_{k}}\right), \quad i \neq j \neq k .
+\]
+
+Связь решений (2) и (3) дает формула обобщенного преобразования годографа
+
+\[
+w_{i}(u)=v_{i}(u) t+x
+\]
+
+Jum.: [1] М и з с Р., Математическая теория течений сжимаемой жидкости, пер. с англ., М., 1961; [2] Куран т Р., Уравнения с частными производными, пер. с англ., М., 1964; [3] Дубров и н Б. А., Н о в и ко в С. П., "Успехи математич. наук», 1989, т. 44, $\begin{array}{ll}\text { в. 6, с. 29-98. } & \text { С. П. Царев. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_667_GODOGRAFA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

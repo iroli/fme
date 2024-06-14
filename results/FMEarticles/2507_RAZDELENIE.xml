@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2507_RAZDELENIE" alphabetic_pos="2509">
+  <title>РАЗДЕЛЕНИЕ ДВИЖЕНИЙ</title>
+  <authors>
+    <author>A. И. Нейumaдm</author>
+  </authors>
+  <pages>
+    <start>482</start>
+    <end>482</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2507_1_RAZDELENIE">\dot{x}=f(x, y, \varepsilon), \dot{y}=\varepsilon g(x, y, \varepsilon), 0&lt;\varepsilon \ll 1 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2507_2_RAZDELENIE">\dot{\xi}=F(\xi, \eta, \varepsilon), \dot{\eta}=\varepsilon G(\eta, \varepsilon) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2507_1_RAZDELENIE">x, y \rightarrow \xi, \eta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2507_2_RAZDELENIE">f=f(\eta, \varepsilon)</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/2507_1_RAZDELENIE">
+      <rel_text>релаксационных колебаний</rel_text>
+      <target>http://libmeta.ru/fme/article/2603_RELAKSATsIONNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2507_2_RAZDELENIE">
+      <rel_text>фазовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2507_3_RAZDELENIE">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2507_4_RAZDELENIE">
+      <rel_text>быстрых переменных</rel_text>
+      <target>http://libmeta.ru/fme/article/291_BYSTROE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2507_5_RAZDELENIE">
+      <rel_text>медленных переменных</rel_text>
+      <target>http://libmeta.ru/fme/article/1756_MEDLENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2507_6_RAZDELENIE">
+      <rel_text>быстрых переменных</rel_text>
+      <target>http://libmeta.ru/fme/article/291_BYSTROE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2507_7_RAZDELENIE">
+      <rel_text>медленных переменных</rel_text>
+      <target>http://libmeta.ru/fme/article/1756_MEDLENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2507_8_RAZDELENIE">
+      <rel_text>быстрыми и медленными переменными</rel_text>
+      <target>http://libmeta.ru/fme/article/296_BYSTRYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2507_9_RAZDELENIE">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>Один Из Основных Подходов к исследованию систем URI[[http://libmeta.ru/fme/relation/2507_9_RAZDELENIE]]/URI с URI[[http://libmeta.ru/fme/relation/2507_8_RAZDELENIE]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2507_1_RAZDELENIE]]/URI
+\]
+
+При этом подходе ищется близкая к тождественной замена переменных $URI[[http://libmeta.ru/fme/formula/aux/2507_1_RAZDELENIE]]/URI$, к-рая позволила бы отделить уравнение для URI[[http://libmeta.ru/fme/relation/2507_7_RAZDELENIE]]/URI, то есть записать исходную систему в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2507_2_RAZDELENIE]]/URI
+\]
+
+Часто дополнительно требуется, чтобы правая часть уравнения для URI[[http://libmeta.ru/fme/relation/2507_6_RAZDELENIE]]/URI также зависела только от URI[[http://libmeta.ru/fme/relation/2507_5_RAZDELENIE]]/URI: $URI[[http://libmeta.ru/fme/formula/aux/2507_2_RAZDELENIE]]/URI$.
+
+Замена переменных, осуществляющая Р. Д., ищется в виде ряда по малому параметру є. Точное Р. д. обычно невозможно, и ряды для замены переменных расходятся. Однако, обрывая эти ряды, можно осуществить Р. д. приближенно. Отбрасывая в уравнениях для новых переменных члены высокого порядка, зависящие от URI[[http://libmeta.ru/fme/relation/2507_4_RAZDELENIE]]/URI, URI[[http://libmeta.ru/fme/relation/2507_3_RAZDELENIE]]/URI систему для приближенного описания движения, к-рая существенно проще, чем исходная. Примером Р. д. является использование процедур исключения быстрых фаз в усреднения методе.
+
+Иногда приближенное Р. Д. удается осуществить не во всем URI[[http://libmeta.ru/fme/relation/2507_2_RAZDELENIE]]/URI, а лишь на нек-рой поверхности, как это делается в теории URI[[http://libmeta.ru/fme/relation/2507_1_RAZDELENIE]]/URI.</text>
+  <text_orig>ОДИН ИЗ ОСНОВНЫХ ПОДХОдов к исследованию систем дифференциальных уравнений с быстрыми и медленными переменными
+
+\[
+\dot{x}=f(x, y, \varepsilon), \dot{y}=\varepsilon g(x, y, \varepsilon), 0&lt;\varepsilon \ll 1 .
+\]
+
+При этом подходе ищется близкая к тождественной замена переменных $x, y \rightarrow \xi, \eta$, к-рая позволила бы отделить уравнение для медленных переменных, то есть записать исходную систему в виде:
+
+\[
+\dot{\xi}=F(\xi, \eta, \varepsilon), \dot{\eta}=\varepsilon G(\eta, \varepsilon) .
+\]
+
+Часто дополнительно требуется, чтобы правая часть уравнения для быстрых переменных также зависела только от медленных переменных: $F=F(\eta, \varepsilon)$.
+
+Замена переменных, осуществляющая Р. Д., ищется в виде ряда по малому параметру є. Точное Р. д. обычно невозможно, и ряды для замены переменных расходятся. Однако, обрывая эти ряды, можно осуществить Р. д. приближенно. Отбрасывая в уравнениях для новых переменных члены высокого порядка, зависящие от быстрых переменных, получают систему для приближенного описания движения, к-рая существенно проще, чем исходная. Примером Р. д. является использование процедур исключения быстрых фаз в усреднения методе.
+
+Иногда приближенное Р. Д. удается осуществить не во всем фазовом пространстве, а лишь на нек-рой поверхности, как это делается в теории релаксационньх колебаний.
+
+A. И. Нейumaдm.</text_orig>
+</article>

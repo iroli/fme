@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_2131">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mrow><mi mathvariant="script">L</mi></mrow><mrow><mi>&#x0004B;</mi><mo>&#x0002E;</mo><mi>&#x00078;</mi><mo>&#x0002E;</mo></mrow><mrow><mi>c</mi></mrow></msubsup><mo>&#x0003D;</mo><mo>&#x02212;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac><msubsup><mi>G</mi><mrow><mi>&#x003BC;</mi><mi>v</mi></mrow><mrow><mi>a</mi></mrow></msubsup><msubsup><mi>G</mi><mrow><mi>&#x003BC;</mi><mi>v</mi></mrow><mrow><mi>a</mi></mrow></msubsup><mo>&#x0002B;</mo><mi>i</mi><msub><mo>&#x02211;</mo><mrow><mi>q</mi><mo>&#x0003D;</mo><mi>u</mi><mo>&#x0002C;</mo><mi>d</mi><mo>&#x0002C;</mo><mi>&#x02026;</mi></mrow></msub><mover><mrow><mi>q</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mi>i</mi><msub><mi>&#x003B3;</mi><mrow><mi>&#x003BC;</mi></mrow></msub><msubsup><mi>D</mi><mrow><mi>&#x003BC;</mi></mrow><mrow><mi>i</mi><mi>j</mi></mrow></msubsup><mo>&#x02212;</mo><msub><mi>m</mi><mrow><mi>q</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><msub><mi>q</mi><mrow><mi>j</mi></mrow></msub><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\mathscr{L}_{\mathrm{K} . \mathrm{x} .}^{c}=-\frac{1}{4} G_{\mu v}^{a} G_{\mu v}^{a}+i \sum_{q=u, d, \ldots} \bar{q}\left(i \gamma_{\mu} D_{\mu}^{i j}-m_{q}\right) q_{j},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_8836">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>F</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002B;</mo><mi>y</mi><mi>;</mi><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><mi>K</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mi>;</mi><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><msubsup><mo>&#x0222B;</mo><mrow><mi>x</mi></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mi>F</mi><mo stretchy="false">&#x00028;</mo><mi>y</mi><mo>&#x0002B;</mo><mi>&#x003BE;</mi><mi>;</mi><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><mi>K</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>&#x003BE;</mi><mi>;</mi><mi>t</mi><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>&#x003BE;</mi><mo>&#x0003D;</mo><mn>0</mn><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$F(x+y ; t)+K(x, y ; t)+\int_{x}^{\infty} F(y+\xi ; t)+K(x, \xi ; t) d \xi=0,$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

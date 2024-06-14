@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2537_RASPREDELENIJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2537_RASPREDELENIJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1707</core:url>
+    <lbm:descriptor><![CDATA[РАСПРЕДЕЛЕНИЯ ЗАКОН]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1473"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Удобный описательный термин, могущий означать, в зависимости от контекста, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2533_RASPREDELENIE">распределение вероятностей</a> (напр.. какой-либо <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa">случайной величины</a>) или соответствующую распределения функцию или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотность</a> вероятности. $URI[[http://libmeta.ru/fme/formula/aux/2537_1_RASPREDELENIJa]]/URI$<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1473">В. И. Битюцков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[УдОбНЫЙ опИсатеЛЬНЫЙ термин, могуший означать, в зависимости от контекста, распределение вероятностей (напр.. какой-либо случайной величины) или соответствующую распределения функцию или плотность вероятности. $\quad$ В. И. Битюцков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2813_SLUChAJNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2533_RASPREDELENIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3248_FAZOVYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3248_FAZOVYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2497</core:url>
+    <lbm:descriptor><![CDATA[ФАЗОВЫЙ ОБЪЕМ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16332"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19013"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19014"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19015"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1511"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>элемент объема <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазового пространства</a>. Для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механич</a>. системы с $URI[[http://libmeta.ru/fme/formula/aux/3248_1_FAZOVYJ]]/URI$ степенями свободы элементарный Ф.о. равен<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16332">$$d p d q=d p_{1} d q_{1} \ldots d p_{N} d q_{N}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19014">$$q_{1}, \ldots, q_{N}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE">обобщенные координаты</a>, а <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19015">$$p_{1}, \ldots, p_{N}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2021_OBOBSchENNYE">обобщенные импульсы</a> системы. Ф. о. конечной фазовой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> $URI[[http://libmeta.ru/fme/formula/aux/3248_4_FAZOVYJ]]/URI$ равен <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1511">$$2 N$$</a>-мерному интегралу<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19013">$$\int_{G} d p d q$$</a><BR/></P><P>Если система описывается Гамильтона уравнениями, то при движении <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> Ф. о. остается неизменным (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1626_LIUVILLJa">Лиувилля теорема</a>). Это позволяет ввести нормированные распределения функции в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазовом пространстве</a>.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1035_INTEGRAL'NYJ">Интегральный инвариант</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[элемент объема фазового пространства. Для механич. системы с $N$ степенями свободы элементарный Ф.о. равен
+
+\[
+d p d q=d p_{1} d q_{1} \ldots d p_{N} d q_{N}
+\]
+
+где $q_{1}, \ldots, q_{N}-$ обобщенные координаты, а $p_{1}, \ldots, p_{N}-$ обобщенные импульсы системы. Ф. о. конечной фазовой области $G$ равен $2 N$-мерному интегралу
+
+\[
+\int_{G} d p d q
+\]
+
+Если система описывается Гамильтона уравнениями, то при движении частиц Ф. о. остается неизменным (Лиувилля теорема). Это позволяет ввести нормированные распределения функции в фазовом пространстве.
+
+См. также Интегральный инвариант.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1035_INTEGRAL'NYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1626_LIUVILLJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2021_OBOBSchENNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2022_OBOBSchENNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

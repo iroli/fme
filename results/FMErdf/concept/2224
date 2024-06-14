@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3001_SUPERPOZITsIONNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3001_SUPERPOZITsIONNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2224</core:url>
+    <lbm:descriptor><![CDATA[СУПЕРПОЗИЦИОННОЕ ПРИБЛИЖЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1464"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#16855"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#3758"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_16856"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>феноменологическое предположение, используемое при обрыве цепочки уравнений для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2536_RASPREDELENIJa">частичных функций распределения</a> равновесной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI">классической</a> статистической системы. С. п. состоит в том, что трехчастичную <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1505_LAGRANZhA">конфигурационную функцию</a> распределения выражают через двухчастичную по формуле <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_16856">$$n_{3}\left(\overrightarrow{r_{1}}, \overrightarrow{r_{2}}, \overrightarrow{r_{3}}\right)=n_{2}\left(\overrightarrow{r_{1}}, \overrightarrow{r_{2}}\right) n_{2}\left(\overrightarrow{r_{2}}, \overrightarrow{r_{3}}\right) n_{2}\left(\overrightarrow{r_{1}}, \overrightarrow{r_{3}}\right)$$</a>. Пока не удалось обосновать С. п. или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2564_RASShIRENIE">определить область</a> его применимости. С. п. приводит к Борна - Грина - Ивона уравнению. С. п. введено Дж. Кирквудом <a href="/object/show?uri=http://libmeta.ru/io/Publication#16855">[1]</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#16855">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#16854">Kirkwood J. G.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#16855">«j. Chem. Phys.", 1935, v. 3, p. 300</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Балеску Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#3758">Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1464">Д. П. Санкович</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[феНОМенОлогическое предположение, используемое при обрыве цепочки уравнений для частичных функций распределения равновесной классической статистической системы. С. п. состоит в том, что трехчастичную конфигурационную функцию распределения выражают через двухчастичную по формуле $n_{3}\left(\overrightarrow{r_{1}}, \overrightarrow{r_{2}}, \overrightarrow{r_{3}}\right)=n_{2}\left(\overrightarrow{r_{1}}, \overrightarrow{r_{2}}\right) n_{2}\left(\overrightarrow{r_{2}}, \overrightarrow{r_{3}}\right) n_{2}\left(\overrightarrow{r_{1}}, \overrightarrow{r_{3}}\right)$. Пока не удалось обосновать С. п. или определить область его применимости. С. п. приводит к Борна - Грина - Ивона уравнению. С. п. введено Дж. Кирквудом [1]. Jum.: [1] Kirkwood J.G., «J. Chem. Phys.", 1935, v. 3, p. 300; [2] Ба л е с к у Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 1, М., 1978. Д. П. Санкович.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2564_RASShIRENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1505_LAGRANZhA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2536_RASPREDELENIJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

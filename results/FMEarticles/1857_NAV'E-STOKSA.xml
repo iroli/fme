@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1857_NAV'E-STOKSA" alphabetic_pos="1859">
+  <title>НАВЬЕ-СТОКСА УРАВНЕНИЯ</title>
+  <authors>
+    <author>В. В. Пухначев</author>
+  </authors>
+  <pages>
+    <start>374</start>
+    <end>374</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Л ады же н с к а я О. А., Математические вопросы динамики вязкой несжимаемой жидкости, М., $1970 . \quad$</literature_orig>
+    <unit>
+      <author>Ладыженская О. А.</author>
+      <title>Математические вопросы динамики вязкой несжимаемой жидкости</title>
+      <publication>М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1857_1_NAV'E-STOKSA">\frac{\partial v}{\partial t}+\boldsymbol{v}+\operatorname{grad} \boldsymbol{v}=-\frac{1}{\rho} \operatorname{grad} p+v \Delta v+f .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1857_2_NAV'E-STOKSA">\operatorname{div} \boldsymbol{v}=0 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_1_NAV'E-STOKSA">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_2_NAV'E-STOKSA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_3_NAV'E-STOKSA">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_4_NAV'E-STOKSA">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_5_NAV'E-STOKSA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_6_NAV'E-STOKSA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_7_NAV'E-STOKSA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_8_NAV'E-STOKSA">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_9_NAV'E-STOKSA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1857_10_NAV'E-STOKSA">t</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/1857_1_NAV'E-STOKSA">
+      <rel_text>Гидродинамики уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/615_GIDRODINAMIKI</target>
+    </relation>
+  </relations>
+  <text>дифференциальные уравнения движения вязкой жидкости (см. URI[[http://libmeta.ru/fme/relation/1857_1_NAV'E-STOKSA]]/URI). Для несжимаемой жидкости с постоянной плотностью $URI[[http://libmeta.ru/fme/formula/aux/1857_1_NAV'E-STOKSA]]/URI$ и кинематич. коэффициентом вязкости $URI[[http://libmeta.ru/fme/formula/aux/1857_2_NAV'E-STOKSA]]/URI$ векторная запись Н.-С.у. в инерциальной системе координат имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1857_1_NAV'E-STOKSA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1857_3_NAV'E-STOKSA]]/URI$ (3-мерный вектор скорости) и $URI[[http://libmeta.ru/fme/formula/aux/1857_4_NAV'E-STOKSA]]/URI$ (давление) - искомые функции координат $URI[[http://libmeta.ru/fme/formula/aux/1857_5_NAV'E-STOKSA]]/URI$ 3-мерного евклидова пространства и времени $URI[[http://libmeta.ru/fme/formula/aux/1857_6_NAV'E-STOKSA]]/URI$. Функция $URI[[http://libmeta.ru/fme/formula/aux/1857_7_NAV'E-STOKSA]]/URI$ (внешняя сила, отнесенная $URI[[http://libmeta.ru/fme/formula/aux/1857_8_NAV'E-STOKSA]]/URI$ единице массы жидкости) считается известной функцией $URI[[http://libmeta.ru/fme/formula/aux/1857_9_NAV'E-STOKSA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1857_10_NAV'E-STOKSA]]/URI$. Уравнение (1) - дифференциальная форма закона сохранения импульса жидкости. Для замыкания системы к (1) присоединяется уравнение неразрывности, к-рое выражает закон сохранения массы и для несжимаемой жидкости имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1857_2_NAV'E-STOKSA]]/URI
+\]
+
+Система (1), (2) нелинейна и не относится к какому-либо классич. типу, что затрудняет ее изучение. О постановке и результатах исследования начально-краевых задач для H.-С. у. см. [1].</text>
+  <text_orig>дифференциальнЫе уравнения движения вязкой жидкости (см. Гидродинамики уравнения). Для несжимаемой жидкости с постоянной плотностью $\rho$ и кинематич. коэффициентом вязкости $v$ векторная запись Н.-С.у. в инерциальной системе координат имеет вид
+
+\[
+\frac{\partial v}{\partial t}+\boldsymbol{v}+\operatorname{grad} \boldsymbol{v}=-\frac{1}{\rho} \operatorname{grad} p+v \Delta v+f .
+\]
+
+Здесь $\boldsymbol{v}$ (3-мерный вектор скорости) и $p$ (давление) - искомые функции координат $x$ 3-мерного евклидова пространства и времени $t$. Функция $f$ (внешняя сила, отнесенная $\mathrm{K}$ единице массы жидкости) считается известной функшией $x$ и $t$. Уравнение (1) - дифференциальная форма закона сохранения импульса жидкости. Для замыкания системы к (1) присоединяется уравнение неразрывности, к-рое выражает закон сохранения массы и для несжимаемой жидкости имеет вид:
+
+\[
+\operatorname{div} \boldsymbol{v}=0 .
+\]
+
+Система (1), (2) нелинейна и не относится к какому-либо классич. типу, что затрудняет ее изучение. О постановке и результатах исследования начально-краевых задач для H.-С. у. см. [1].
+
+Лит.: [1] Л ады же н с к а я О. А., Математические вопросы динамики вязкой несжимаемой жидкости, М., $1970 . \quad$ В. В. Пухначев.</text_orig>
+</article>

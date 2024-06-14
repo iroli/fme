@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1274_KOVARIANTNOST">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1274_KOVARIANTNOST</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/304</core:url>
+    <lbm:descriptor><![CDATA[КОВАРИАНТНОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3152"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>свойство <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3273_FIZIChESKIE">физических величин</a>, описывающих данное явление или круг явлений, преобра- зовываться по <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2359_PREDSTAVLENIE">представлениям группы</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1008_INVARIANTNOST">инвариантности</a>, установленной или предполагаемой для этого круга. См. так<a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3152">$$\begin{array}{ll}\text { же Инвариантность. } & \text { В. П. Павлов. }\end{array}$$</a><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[свойство физических величин, описывающих данное явление или круг явлений, преобра- зовываться по представлениям группы инвариантности, установленной или предполагаемой для этого круга. См. так$\begin{array}{ll}\text { же Инвариантность. } & \text { В. П. Павлов. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1008_INVARIANTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2359_PREDSTAVLENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3273_FIZIChESKIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

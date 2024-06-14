@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_374_VESOMAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_374_VESOMAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2891</core:url>
+    <lbm:descriptor><![CDATA[ВЕСОМАЯ МАССА, ТЯГОТЕЮЩАЯ МАССА, ГРАВИТАЦИОННАЯ МАССА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6032"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>мера способности тела создавать <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3141_TJaGOTENIJa">поле тяготения</a> и испытывать воздействие этого поля; в заданном <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3141_TJaGOTENIJa">поле тяготения</a> сила, испытываемая телом, пропорциональна его весомой массе.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#6032">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1231">Фок В. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6032">Теория пространства, времени и тяготения, 2 изд., М., 1961</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[мера способности тела создавать поле тяготения и испытывать воздействие этого поля; в заданном поле тяготения сила, испытываемая телом, пропорциональна его весомой массе.
+
+Лит.: [1] Фок В.А., Теория пространства, времени и тяготения, 2 изд., М., 1961.
+
+М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3141_TJaGOTENIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3141_TJaGOTENIJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_323_VATSONA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_323_VATSONA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2488</core:url>
+    <lbm:descriptor><![CDATA[ВАТСОНА ПРЕОБРАЗОВАНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#8368"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#796"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_18999"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19000"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19001"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19002"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13246"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_13247"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>преобразование выражения для амплитуды рассеяния:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_18999">$$\begin{gathered}A(k, \cos \theta)=-i k^{-1} \sum_{l=0}\left(l+\frac{1}{2}\right)(-1)^{l}\left(S_{l}(k)-1\right) P_{l}(-\cos \theta), \\\theta=\left(\hat{k}^{\prime}, k^{\prime}\right),\end{gathered}$$</a> к интегралу в плоскости комплексного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3147_UGLOVOJ">углового момента</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19001">$$\lambda=l+1 / 2$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19000">$$A=\frac{1}{2 k} \int_{C} d \lambda \lambda[S(\lambda, k)-1] P_{\lambda-1 / 2}(-\cos \theta) \sec \pi \lambda$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19002">$$p_{\lambda-1 / 2}$$</a> - аналитич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1032_INTEGRAL'NOE">интерполяция многочленов</a> Лежандра, a <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13246">$$s(\lambda, k)$$</a> - аналитич. интерполяция парциальных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1747_MATRITsA">матриц рассеяния</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_13247">$$s_{l}(k)$$</a> в плоскость комплексного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3147_UGLOVOJ">углового момента</a>. Впервые В. п. использовано Дж. Ватсоном (g. Watson, 1918) в электромагнитной теории <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a>. B квантовой теории <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a> В. П. впервые применено T. Редже (t. Regge, 1959). В. п. допустимо, в частности, для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2546_RASSEJaNIJa">амплитуд рассеяния</a> на аналитич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3496_EKSPANSIVNOST">экспоненциально</a> убывающих потенциалах.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#796">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Ньютон Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#796">Теория рассеяния волн и частиц, пер. с англ., М., 1969</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#8368">Ю. Б. Мельников</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[преобразование выражения для амплитуды рассеяния:
+
+\[
+\begin{gathered}
+A(k, \cos \theta)=-i k^{-1} \sum_{l=0}\left(l+\frac{1}{2}\right)(-1)^{l}\left(S_{l}(k)-1\right) P_{l}(-\cos \theta), \\
+\theta=\left(\hat{k}^{\prime}, k^{\prime}\right),
+\end{gathered}
+\] к интегралу в плоскости комплексного углового момента $\lambda=l+1 / 2$
+
+\[
+A=\frac{1}{2 k} \int_{C} d \lambda \lambda[S(\lambda, k)-1] P_{\lambda-1 / 2}(-\cos \theta) \sec \pi \lambda
+\]
+
+где $P_{\lambda-1 / 2}$ - аналитич. интерполяция многочленов Лежандра, a $S(\lambda, k)$ - аналитич. интерполяция парциальных матриц рассеяния $S_{l}(k)$ в плоскость комплексного углового момента. Впервые В. п. использовано Дж. Ватсоном (G. Watson, 1918) в электромагнитной теории рассеяния. B квантовой теории рассеяния В. П. впервые применено T. Редже (T. Regge, 1959). В. п. допустимо, в частности, для амплитуд рассеяния на аналитич. экспоненциально убывающих потенциалах.
+
+Лum.: [1] Ньютон Р., Теория рассеяния волн и частиц, пер. с англ., М., $1969 . \quad$ Ю. Б. Мельников.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3496_EKSPANSIVNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2546_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3147_UGLOVOJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1747_MATRITsA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1032_INTEGRAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3147_UGLOVOJ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

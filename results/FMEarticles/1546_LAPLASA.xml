@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1546_LAPLASA" alphabetic_pos="1548">
+  <title>ЛАПЛАСА ПРЕОБРАЗОВАНИЕ</title>
+  <authors/>
+  <pages>
+    <start>320</start>
+    <end>320</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Д е ч Г., Руководство к практическому применению преобразований Лапласа, пер. с нем., М., 1965.</literature_orig>
+    <unit>
+      <author>Деч Г.</author>
+      <title>Руководство к практическому применению преобразований Лапласа</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1546_1_LAPLASA">F(p)=L[f]=\int_{0}^{\infty} f(t) e^{-p t} d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1546_2_LAPLASA">f(t)=\frac{1}{2 \pi i} \int_{\gamma-i \infty}^{\gamma+i \infty} F(p) e^{p t} d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1546_3_LAPLASA">\begin{gathered}L\left[f^{\prime}(t)\right]=p F(p)-f(0), \\L\left[t^{n} f(t)\right]=(-1)^{n} F^{(n)}(p), \quad n=1,2, \ldots, \\L\left[\int_{0}^{t} f(t) d t\right]=\frac{F(p)}{p}, \quad t&gt;0 .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_1_LAPLASA">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_2_LAPLASA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_3_LAPLASA">0&lt;t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_4_LAPLASA">p=\sigma+i \tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_5_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_6_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_7_LAPLASA">y^{\prime \prime}+y=f(t), y(0)=y^{\prime}(0)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_8_LAPLASA">y(p)=l[y], F(p)=L[f]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_9_LAPLASA">l\left[y^{\prime \prime}\right]=p^{2} Y(p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_10_LAPLASA">p^{2} Y(p)+</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_11_LAPLASA">+y(p)=f(p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1546_12_LAPLASA">y(p)=\frac{f(p)}{p^{2}+1}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1546_1_LAPLASA">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1546_2_LAPLASA">
+      <rel_text>линейного дифференциального уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/729_GRINA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1546_3_LAPLASA">
+      <rel_text>решение обыкновенного</rel_text>
+      <target>http://libmeta.ru/fme/article/3220_USTOJChIVOST'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1546_4_LAPLASA">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>преобразование, переводящее функцию $URI[[http://libmeta.ru/fme/formula/aux/1546_1_LAPLASA]]/URI$ действительного переменного $URI[[http://libmeta.ru/fme/formula/aux/1546_2_LAPLASA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1546_3_LAPLASA]]/URI$, называемую о р и г и на л о м, в функцию
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1546_1_LAPLASA]]/URI
+\]
+
+комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/1546_4_LAPLASA]]/URI$. Под Л. П. понимают также не только само преобразование, но и его результат функцию $URI[[http://libmeta.ru/fme/formula/aux/1546_5_LAPLASA]]/URI$. Интеграл в правой части формулы (1) называется интегралом Лапласа. Он был рассмотрен П. Лапласом (p. Laplace) в ряде работ, к-рые объединены в его книге «аналитическая теория вероятностей», вышедшей в 1812. Значительно раньше (1737) такие интегралы применял к решению дифференциальных уравнений Л. Эйлер (l. Euler).
+
+При нек-рых условиях Л. п. определяют функцию $URI[[http://libmeta.ru/fme/formula/aux/1546_6_LAPLASA]]/URI$ однозначно, в простейших случаях - по формуле обр а ш е и я:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1546_2_LAPLASA]]/URI
+\]
+
+Л. п. является линейным функциональным преобразованием. Из числа основных формул Л. П. можно отметить следующие:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1546_3_LAPLASA]]/URI
+\]
+
+Л. п. в сочетании с формулой (2) его обращения применяется к интегрированию URI[[http://libmeta.ru/fme/relation/1546_4_LAPLASA]]/URI. В частности, в силу свойства (1) и линейности Л. П. URI[[http://libmeta.ru/fme/relation/1546_3_LAPLASA]]/URI URI[[http://libmeta.ru/fme/relation/1546_2_LAPLASA]]/URI с постоянными коэффициентами удовлетворяет алгебраич. уравнению 1-й степени и может быть, следовательно, легко найдено. Так, если, напр., $URI[[http://libmeta.ru/fme/formula/aux/1546_7_LAPLASA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1546_8_LAPLASA]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/1546_9_LAPLASA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1546_10_LAPLASA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1546_11_LAPLASA]]/URI$, откуда $URI[[http://libmeta.ru/fme/formula/aux/1546_12_LAPLASA]]/URI$.
+
+Многочисленные задачи электротехники, гидродинамики, URI[[http://libmeta.ru/fme/relation/1546_1_LAPLASA]]/URI, теплопроводности эффективно решаются методами, использующими Л. п.</text>
+  <text_orig>преобразование, переводящее функщию $f(x)$ действительного переменного $t$, $0&lt;t&lt;\infty$, называемую о р и г и на л о м, в функцию
+
+\[
+F(p)=L[f]=\int_{0}^{\infty} f(t) e^{-p t} d t
+\]
+
+комплексного переменного $p=\sigma+i \tau$. Под Л. П. понимают также не только само преобразование, но и его результат функцию $F(p)$. Интеграл в правой части формулы (1) называется интегралом Лапласа. Он был рассмотрен П. Лапласом (P. Laplace) в ряде работ, к-рые объединены в его книге «Аналитическая теория вероятностей», вышедшей в 1812. Значительно раныше (1737) такие интегралы применял к решению дифференциальных уравнений Л. Эйлер (L. Euler).
+
+При нек-рых условиях Л. п. определяют функцию $f(t)$ однозначно, в простейших случаях - по формуле обр а ш е и я:
+
+\[
+f(t)=\frac{1}{2 \pi i} \int_{\gamma-i \infty}^{\gamma+i \infty} F(p) e^{p t} d t
+\]
+
+Л. п. является линейным функциональным преобразованием. Из числа основных формул Л. П. можно отметить следующие:
+
+\[
+\begin{gathered}
+L\left[f^{\prime}(t)\right]=p F(p)-f(0), \\
+L\left[t^{n} f(t)\right]=(-1)^{n} F^{(n)}(p), \quad n=1,2, \ldots, \\
+L\left[\int_{0}^{t} f(t) d t\right]=\frac{F(p)}{p}, \quad t&gt;0 .
+\end{gathered}
+\]
+
+Л. п. в сочетании с формулой (2) его обращения применяется к интегрированию дифференциальных уравнений. В частности, в силу свойства (1) и линейности Л. П. решение обыкновенного линейного дифференциального уравнения с постоянными коэффициентами удовлетворяет алгебраич. уравнению 1-й степени и может быть, следовательно, легко найдено. Так, если, напр., $y^{\prime \prime}+y=f(t), y(0)=y^{\prime}(0)=0$ и $Y(p)=L[y], F(p)=L[f]$, то $L\left[y^{\prime \prime}\right]=p^{2} Y(p)$ и $p^{2} Y(p)+$ $+Y(p)=F(p)$, откуда $Y(p)=\frac{F(p)}{p^{2}+1}$.
+
+Многочисленные задачи электротехники, гидродинамики, механики, теплопроводности эффективно решаются методами, использующими Л. п.
+
+Лum.: [1] Д е ч Г., Руководство к практическому применению преобразований Лапласа, пер. с нем., М., 1965.</text_orig>
+</article>

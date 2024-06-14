@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_16332">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>d</mi><mi>p</mi><mi>d</mi><mi>q</mi><mo>&#x0003D;</mo><mi>d</mi><msub><mi>p</mi><mrow><mn>1</mn></mrow></msub><mi>d</mi><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub><mi>&#x02026;</mi><mi>d</mi><msub><mi>p</mi><mrow><mi>N</mi></mrow></msub><mi>d</mi><msub><mi>q</mi><mrow><mi>N</mi></mrow></msub></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$d p d q=d p_{1} d q_{1} \ldots d p_{N} d q_{N}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

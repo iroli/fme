@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_521_GARDNERA-MIURY">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_521_GARDNERA-MIURY</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3055</core:url>
+    <lbm:descriptor><![CDATA[ГАРДНЕРА-МИУРЫ ПРЕОБРАЗОВАНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#877"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#2742"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#22853"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22854"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22855"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22856"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22857"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6416"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>обобщение Миуры преобразования:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22854">$$u(x, t)=w(x, t)+\varepsilon w_{x}^{\prime}(x, t)+\varepsilon^{2} w^{2}(x, t) .$$</a><BR/></P><P>Формальная замена <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22857">$$v(x, t)=\varepsilon w(x, t)$$</a> и предельный переход при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6416">$$\varepsilon \rightarrow \infty$$</a> сводят это преобразование к преобразованию Миуры:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22855">$$u(x, t)=v_{x}^{\prime}(x, t)+v^{2}(x, t) .$$</a><BR/></P><P>Для Г.-М. П. справедливо тождество<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22856">$$\begin{gathered}u_{t}-6 u u_{x}+u_{x x x}= \\=\left(1+\varepsilon \frac{\partial}{\partial x}+2 \varepsilon^{2} w\right)\left(w_{t}-6 w w_{x}-6 \varepsilon^{2} w^{2} w_{x}+w_{x x x}\right) .\end{gathered}$$</a><BR/></P><P>K. Гарднер (c. Gardner) использовал это преобразование для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">получения</a> бесконечной последовательности локальных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2877_SOHRANENIJa">законов сохранения</a> для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1415_KORTEVEGA-DE">уравнения Кортевега-де Фриса</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#2742">[1]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#2742">Солитоны в действии, пер. с англ., М., 1981</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#22853">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#350">Калоджеро Ф.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#11">Дегаспери А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#22853">Спектральные преобразования и солитоны, пер. с англ., М., 1985</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#877">В. П. Котляров</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[обобщеНие Миуры преобразования:
+
+\[
+u(x, t)=w(x, t)+\varepsilon w_{x}^{\prime}(x, t)+\varepsilon^{2} w^{2}(x, t) .
+\]
+
+Формальная замена $v(x, t)=\varepsilon w(x, t)$ и предельный переход при $\varepsilon \rightarrow \infty$ сводят это преобразование к преобразованию Миуры:
+
+\[
+u(x, t)=v_{x}^{\prime}(x, t)+v^{2}(x, t) .
+\]
+
+Для Г.-М. П. справедливо тождество
+
+\[
+\begin{gathered}
+u_{t}-6 u u_{x}+u_{x x x}= \\
+=\left(1+\varepsilon \frac{\partial}{\partial x}+2 \varepsilon^{2} w\right)\left(w_{t}-6 w w_{x}-6 \varepsilon^{2} w^{2} w_{x}+w_{x x x}\right) .
+\end{gathered}
+\]
+
+K. Гарднер (C. Gardner) использовал это преобразование для получения бесконечной последовательности локальных законов сохранения для уравнения Кортевега-де Фриса.
+
+Лит.: [1] Солитоны в действии, пер. с англ., М., 1981; [2] Калоджеро Ф., Де гас пер и А., Спектральные преобразования и солитоны, пер. с англ., М., 1985.
+
+В. П. Котляров.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1415_KORTEVEGA-DE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2877_SOHRANENIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

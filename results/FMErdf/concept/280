@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1252_KLASSIChESKOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1252_KLASSIChESKOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/280</core:url>
+    <lbm:descriptor><![CDATA[КЛАССИЧЕСКОЕ СУПЕРСИММЕТРИЧНОЕ УРАВНЕНИЕ ЛИУВИЛЛЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#2868"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#2872"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2873"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_818"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2874"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2875"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>уравнение движения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2873">$$D_{+} D_{-} \Phi=\exp \Phi$$</a><BR/></P><P>для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2994_SUPERGRAVITATsI">суперскалярного</a> поля $URI[[http://libmeta.ru/fme/formula/aux/1252_1_KLASSIChESKOE]]/URI$ в 2/2-мерном <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2996_SUPERDETERMINAN">суперпространстве</a> с операторами супердифференцирования $URI[[http://libmeta.ru/fme/formula/aux/1252_2_KLASSIChESKOE]]/URI$в переменных светового конуса. Оно является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частным</a> случаем <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3076_TODY">Тоды суперсимметричной цепочки</a>, ассоциируемым с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2992_SUPERALGEBR">супералгеброй</a> osp <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2875">$$(1 \mid 2)$$</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#2868">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#2117">Chaichian M.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2867">Kulish P. P.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#2868">"phys. Lett.», 1978, v. 78b, p. 413-16</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#2872">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#2869">Leznov A. N.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2870">Saveliev M. V.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2871">Leites D. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#2872">там же, 1980, v. 96b, p. 97-99.</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[уравнение движения
+
+\[
+D_{+} D_{-} \Phi=\exp \Phi
+\]
+
+для суперскалярного поля $\Phi$ в 2/2-мерном суперпространстве с операторами супердифференцирования $D_{ \pm}$в переменных светового конуса. Оно является частным случаем Тоды суперсимметричной цепочки, ассоциируемым с супералгеброй osp $(1 \mid 2)$.
+
+Jum.: [1] Chaichian M., Kulish P.P., "Phys. Lett.», 1978, v. 78B, p. 413-16; [2] Leznov A. N., Saveliev M.V., Leites D. А., там же, 1980, v. 96B, p. 97-99.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2992_SUPERALGEBR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3076_TODY"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2996_SUPERDETERMINAN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2994_SUPERGRAVITATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

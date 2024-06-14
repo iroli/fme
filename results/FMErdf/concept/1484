@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2336_POSTUPATEL'NOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2336_POSTUPATEL'NOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1484</core:url>
+    <lbm:descriptor><![CDATA[ПОСТУПАТЕЛЬНОЕ ДВИЖЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>движение твердого тела, при котором прямая, соединяющая любые две точки тела, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">перемещается</a>, оставаясь <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параллельной</a> своему начальному направлению. При П. Д. все точки тела описывают одинаковые <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI">траектории</a> и имеют в каждый момент времени одинаковые по численной величине и направлению <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорости</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3196_USKORENI">ускорения</a>. Поэтому изучение П.д. тела сводится к задаче <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1223_KINEMATIK">кинематики</a> точки.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[движение твердого тела, при котором прямая, соединяющая любые две точки тела, перемещается, оставаясь параллельной своему начальному направлению. При П. Д. все точки тела описывают одинаковые траектории и имеют в каждый момент времени одинаковые по численной величине и направлению скорости и ускорения. Поэтому изучение П.д. тела сводится к задаче кинематики точки.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1223_KINEMATIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3196_USKORENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

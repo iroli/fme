@@ -1,0 +1,644 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/642_GIROSKOPA" alphabetic_pos="642">
+  <title>ГИРОСКОПА МАТЕМАТИЧЕСКАЯ ТЕОРИЯ</title>
+  <authors/>
+  <pages>
+    <start>141</start>
+    <end>144</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М агну с К., Гироскоп. Теория и применение, пер. с нем., М., 1974; [2] И ш л и н с к и й А. Ю., Ориентация, гироскопы и инерциальная навигация, М., 1976.</literature_orig>
+    <unit>
+      <author>Магнус К.</author>
+      <title>Гироскоп. Теория и применение</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ишлинский А. Ю.</author>
+      <title>Ориентация, гироскопы и инерциальная навигация</title>
+      <publication>М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_1_GIROSKOPA">J=\left\|\begin{array}{lll}A &amp; 0 &amp; 0 \\0 &amp; A &amp; 0 \\0 &amp; 0 &amp; C\end{array}\right\| .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_2_GIROSKOPA">\begin{aligned}&amp; \Omega=\omega_{0} \boldsymbol{e}+\omega \quad(\omega \boldsymbol{e}=0), \\&amp; N=n_{0} \boldsymbol{e}+\boldsymbol{n} \quad(\boldsymbol{n} \boldsymbol{e}=0) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_3_GIROSKOPA">\boldsymbol{K}=J \Omega=J\left(\omega_{0} \boldsymbol{e}+\omega\right)=C \omega_{0} \boldsymbol{e}+A \omega=H \boldsymbol{e}+A \omega,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_4_GIROSKOPA">\dot{H} \boldsymbol{e}+H \dot{\boldsymbol{e}}+A \boldsymbol{e} \times \ddot{\boldsymbol{e}}=n_{0} \boldsymbol{e}+\boldsymbol{n} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_5_GIROSKOPA">\left.\begin{array}{l}\dot{H}=n_{0}, \\A e \times \ddot{e}+H \dot{e}=n\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_6_GIROSKOPA">\boldsymbol{N}=\boldsymbol{r} \times \boldsymbol{P}=\boldsymbol{r} \boldsymbol{e} \times \boldsymbol{P}=\boldsymbol{r m g} \boldsymbol{e} \times \boldsymbol{e}_{g},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_7_GIROSKOPA">A \boldsymbol{e} \times \ddot{\boldsymbol{e}}+H \dot{\boldsymbol{e}}=d \boldsymbol{e} \times \boldsymbol{e}_{g}(d=r m g) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_8_GIROSKOPA">-A v^{2}\left(e_{g}\right)+H v+d=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_9_GIROSKOPA">\text { 'fuks', } \quad v=\frac{H \pm \sqrt{H^{2}+4 A d \cos \alpha}}{2 A \cos \alpha} \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_10_GIROSKOPA">H=\frac{A v^{2} \cos \alpha-d}{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_11_GIROSKOPA">-A v^{2} \cos \alpha+H v=0, H v+d=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_12_GIROSKOPA">\dot{\boldsymbol{H}}=n_{0}, H \dot{\boldsymbol{e}}=\boldsymbol{n},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_13_GIROSKOPA">\boldsymbol{e}=\boldsymbol{e}_{g} \text { и } \boldsymbol{e}=-\boldsymbol{e}_{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_14_GIROSKOPA">\pm A\left|\begin{array}{rrr}\boldsymbol{i} &amp; \boldsymbol{j} &amp; \boldsymbol{k} \\0 &amp; 0 &amp; -1 \\\ddot{x} &amp; \ddot{y} &amp; 0\end{array}\right|+H(\dot{x}, \dot{y}, 0)=d\left|\begin{array}{rrr}\boldsymbol{i} &amp; \boldsymbol{j} &amp; \boldsymbol{k} \\x &amp; \boldsymbol{y} &amp; 0 \\0 &amp; 0 &amp; -1\end{array}\right| .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_15_GIROSKOPA">\begin{gathered}\mp A \ddot{x}+H \dot{y}=d x, \\\pm A \ddot{y}+H \dot{x}=-d y .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_16_GIROSKOPA">\left|\begin{array}{cc}\mp A \lambda^{2}-d &amp; H \lambda \\-H \lambda &amp; \mp A \lambda^{2}-d\end{array}\right|=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_17_GIROSKOPA">\left(A \lambda^{2} \pm d\right)^{2}=-H^{2} \lambda^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_18_GIROSKOPA">\lambda= \pm \frac{H}{2 A} i \pm \sqrt{-\frac{H^{2}}{4 A^{2}}-\frac{d}{A}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_19_GIROSKOPA">\lambda=\frac{ \pm H i \pm \sqrt{-H^{2}+4 A d}}{2 A},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_20_GIROSKOPA">H^{2} \geqslant 4 A d \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_21_GIROSKOPA">T=\frac{1}{2}\left[\dot{\alpha}^{2} F(\beta)+\dot{\beta}^{2} B_{0}+C(\dot{\gamma}+\dot{\alpha} \sin \beta)^{2}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_22_GIROSKOPA">F(\beta)=A_{2}+\left(A_{1}+A\right) \cos ^{2} \beta+C_{1} \sin ^{2} \beta, B_{0}=A+B_{1} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_23_GIROSKOPA">\begin{array}{r}H=\frac{\partial T}{\partial \dot{\gamma}}=C(\dot{\gamma}+\dot{\alpha} \sin \beta) \equiv \text { const, } \\G=\frac{\partial T}{\partial \dot{\alpha}}=\dot{\alpha} F(\beta)+C(\dot{\gamma}+\dot{\alpha} \sin \beta) \sin \beta \equiv \text { const. }\end{array}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_24_GIROSKOPA">B_{0} \dot{\beta}^{2}+\frac{(G-H \sin \beta)^{2}}{F(\beta)}=2 E \equiv \text { const, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_25_GIROSKOPA">\dot{\alpha}_{\mathrm{cp}}=-\frac{H\left(A_{2}+C_{1}\right) B_{0}^{2}}{2 F^{2}\left(\beta_{0}\right)} \Delta^{2} \sin \beta_{0},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_26_GIROSKOPA">\dot{\alpha}_{\mathrm{cp}}=\frac{1}{T} \int_{0}^{T} \frac{G-H \sin \beta}{F(\beta)} d t,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_27_GIROSKOPA">\frac{d}{d t} \frac{\partial T}{\partial \dot{\alpha}}-\frac{\partial T}{\partial \alpha}=Q_{\alpha}, \quad \frac{d}{d t} \frac{\partial T}{\partial \dot{\beta}}-\frac{\partial T}{\partial \beta}=Q_{\beta}, \quad \frac{d}{d t} \frac{\partial T}{\partial \dot{\gamma}}-\frac{\partial T}{\partial \gamma}=Q_{\gamma},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_28_GIROSKOPA">\begin{aligned}\frac{d}{d t}(\dot{\alpha}+H \sin \beta) &amp; =Q_{\alpha}, \\B_{0} \ddot{\beta}-\frac{1}{2} \dot{\alpha}^{2} F^{\prime}(\beta)-H \dot{\alpha} \cos \beta &amp; =Q_{\beta}, \quad \dot{H}=Q_{\gamma} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/642_29_GIROSKOPA">H \beta \cos \beta=Q_{\alpha},-H \dot{\alpha} \cos \beta=Q_{\beta},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_1_GIROSKOPA">\boldsymbol{e}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_2_GIROSKOPA">\boldsymbol{h}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_3_GIROSKOPA">\omega_{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_4_GIROSKOPA">\boldsymbol{e}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_5_GIROSKOPA">c-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_6_GIROSKOPA">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_7_GIROSKOPA">j-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_8_GIROSKOPA">\boldsymbol{j e}=\boldsymbol{C} \boldsymbol{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_9_GIROSKOPA">\boldsymbol{j r}=\boldsymbol{A r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_10_GIROSKOPA">\boldsymbol{r} \perp \boldsymbol{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_11_GIROSKOPA">\boldsymbol{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_12_GIROSKOPA">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_13_GIROSKOPA">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_14_GIROSKOPA">\boldsymbol{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_15_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_16_GIROSKOPA">h, \boldsymbol{e}, \dot{\boldsymbol{e}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_17_GIROSKOPA">\left(n_{0}=0\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_18_GIROSKOPA">h=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_19_GIROSKOPA">n_{0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_20_GIROSKOPA">\boldsymbol{n}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_21_GIROSKOPA">h=(\boldsymbol{k e})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_22_GIROSKOPA">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_23_GIROSKOPA">е</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_24_GIROSKOPA">\lambda=\frac{1}{a} \boldsymbol{K}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_25_GIROSKOPA">\boldsymbol{r}=\boldsymbol{r e}, \boldsymbol{r}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_26_GIROSKOPA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_27_GIROSKOPA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_28_GIROSKOPA">\boldsymbol{p}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_29_GIROSKOPA">\boldsymbol{e}(\boldsymbol{e} \times \boldsymbol{P})=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_30_GIROSKOPA">n_{0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_31_GIROSKOPA">h=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_32_GIROSKOPA">\dot{e}=v \times e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_33_GIROSKOPA">v=v e_{g}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_34_GIROSKOPA">\cos \alpha \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_35_GIROSKOPA">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_36_GIROSKOPA">\boldsymbol{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_37_GIROSKOPA">\cos \alpha=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_38_GIROSKOPA">v=-d / H</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_39_GIROSKOPA">h&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_40_GIROSKOPA">\cos \alpha&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_41_GIROSKOPA">\cos \alpha&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_42_GIROSKOPA">h^{2}&lt;-4 A d \cos \alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_43_GIROSKOPA">h^{2}=-4 A d \cos \alpha ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_44_GIROSKOPA">h^{2}&gt;-4 A d \cos \alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_45_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_46_GIROSKOPA">v \simeq H / A \cos \alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_47_GIROSKOPA">v \simeq-d / H</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_48_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_49_GIROSKOPA">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_50_GIROSKOPA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_51_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_52_GIROSKOPA">1 / H</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_53_GIROSKOPA">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_54_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_55_GIROSKOPA">\boldsymbol{k}=\boldsymbol{h e}+A \omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_56_GIROSKOPA">h \gg|A \omega|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_57_GIROSKOPA">\boldsymbol{k} \cong H e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_58_GIROSKOPA">o</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_59_GIROSKOPA">o</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_60_GIROSKOPA">(\dot{e} \equiv 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_61_GIROSKOPA">\boldsymbol{e}_{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_62_GIROSKOPA">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_63_GIROSKOPA">\boldsymbol{e}=\varepsilon \pm \boldsymbol{e}_{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_64_GIROSKOPA">\boldsymbol{e}_{g}=(0,0,-1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_65_GIROSKOPA">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_66_GIROSKOPA">\varepsilon=(x, y, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_67_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_68_GIROSKOPA">\cos \alpha=-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_69_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_70_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_71_GIROSKOPA">\{\dot{\alpha}, 0,0\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_72_GIROSKOPA">\{\dot{\alpha} \cos \beta, \dot{\beta}, \dot{\alpha} \sin \beta\} ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_73_GIROSKOPA">\{\dot{\alpha} \cos \beta, \dot{\beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_74_GIROSKOPA">\dot{\alpha} \sin \beta+\dot{\gamma}\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_75_GIROSKOPA">\gamma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_76_GIROSKOPA">a_{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_77_GIROSKOPA">a_{1}, B_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_78_GIROSKOPA">c_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_79_GIROSKOPA">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_80_GIROSKOPA">b=a, C-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_81_GIROSKOPA">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_82_GIROSKOPA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_83_GIROSKOPA">\dot{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_84_GIROSKOPA">\dot{\gamma}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_85_GIROSKOPA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_86_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_87_GIROSKOPA">(\beta, \dot{\beta})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_88_GIROSKOPA">(h&gt;g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_89_GIROSKOPA">\beta=\arcsin G / H</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_90_GIROSKOPA">\beta=\pi-\arcsin G / H</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_91_GIROSKOPA">\beta=\pi / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_92_GIROSKOPA">\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_93_GIROSKOPA">\alpha(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_94_GIROSKOPA">\alpha(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_95_GIROSKOPA">\beta_{0}=\arcsin G / H-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_96_GIROSKOPA">\delta-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_97_GIROSKOPA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_98_GIROSKOPA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/642_99_GIROSKOPA">h</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/642_1_GIROSKOPA">
+      <rel_text>широко</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+  </relations>
+  <text>Теория, описывающая поведение быстро вращающегося симметричного твердого тела, имеющего одну неподвижную точку,- гироскопа (рис. 1). Все фигурирующие ниже векторы рассматриваются в нек-рой инерциальной системе отсчета.
+
+Pис. 1. Гироскоп: $URI[[http://libmeta.ru/fme/formula/aux/642_1_GIROSKOPA]]/URI$ единичный вектор оси динамической симметрии тела; $URI[[http://libmeta.ru/fme/formula/aux/642_2_GIROSKOPA]]/URI$ кинетический момент гироскопа; $URI[[http://libmeta.ru/fme/formula/aux/642_3_GIROSKOPA]]/URI$ угловая скорость.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_e0a4ac99524494557addg-1.jpg?height=393&amp;width=359&amp;top_left_y=763&amp;top_left_x=1390)
+
+Пусть вектор $URI[[http://libmeta.ru/fme/formula/aux/642_4_GIROSKOPA]]/URI$ единичный вектор оси динамич. симметрии тела, $URI[[http://libmeta.ru/fme/formula/aux/642_5_GIROSKOPA]]/URI$ момент инерции тела вокруг этой оси (полярный момент инерции), $URI[[http://libmeta.ru/fme/formula/aux/642_6_GIROSKOPA]]/URI$ - момент инерции тела вокруг любой оси, перпендикулярной оси динамич. симметрии (экваториальный момент инерции), $URI[[http://libmeta.ru/fme/formula/aux/642_7_GIROSKOPA]]/URI$ тензор инерции тела, имеющий в главных осях вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_1_GIROSKOPA]]/URI
+\]
+
+Тензор инерции обладает свойствами: $URI[[http://libmeta.ru/fme/formula/aux/642_8_GIROSKOPA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/642_9_GIROSKOPA]]/URI$ для любого $URI[[http://libmeta.ru/fme/formula/aux/642_10_GIROSKOPA]]/URI$, то есть векторы $URI[[http://libmeta.ru/fme/formula/aux/642_11_GIROSKOPA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/642_12_GIROSKOPA]]/URI$ являются собственными векторами тензора инерции. Мгновенная угловая скорость тела $URI[[http://libmeta.ru/fme/formula/aux/642_13_GIROSKOPA]]/URI$, а также момент приложенных к телу внешних сил $URI[[http://libmeta.ru/fme/formula/aux/642_14_GIROSKOPA]]/URI$ представимы разложениями по собственным векторам тензора инерции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_2_GIROSKOPA]]/URI
+\]
+
+Момент количества движения тела равен
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_3_GIROSKOPA]]/URI
+\]
+
+где через Не обозначен так наз. собственный кинетич. момент гироскопа ( $URI[[http://libmeta.ru/fme/formula/aux/642_15_GIROSKOPA]]/URI$ - его модуль).
+
+Уравнения динамики гироскопа имеют вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_4_GIROSKOPA]]/URI
+\]
+
+Они могут быть представлены в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_5_GIROSKOPA]]/URI
+\]
+
+Обычно положение динамически симметричного твердого тела вокруг оси симметрии интереса не представляет, поэтому приведенные уравнения определяют фазовое со- стояние гироскопа, выражаемое переменными $URI[[http://libmeta.ru/fme/formula/aux/642_16_GIROSKOPA]]/URI$, то есть величиной собственного кинетич. момента, единичным вектором его направления и скоростью изменения этого вектора.
+
+Если проекция момента приложенных к гироскопу сил на ось симметрии равна нулю $URI[[http://libmeta.ru/fme/formula/aux/642_17_GIROSKOPA]]/URI$, то собственный кинетич. момент постоянен по модулю $URI[[http://libmeta.ru/fme/formula/aux/642_18_GIROSKOPA]]/URI$ const и уравнения (1) понижаются в порядке.
+
+Движение гироскопа по инерции. В этом случае $URI[[http://libmeta.ru/fme/formula/aux/642_19_GIROSKOPA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/642_20_GIROSKOPA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/642_21_GIROSKOPA]]/URI$. Это означает, что в движении по инерции угол между неподвижным в пространстве вектором $URI[[http://libmeta.ru/fme/formula/aux/642_22_GIROSKOPA]]/URI$ и осью симметрии постоянен, то есть ось гироскопа описывает конич. поверхность. Вектор $URI[[http://libmeta.ru/fme/formula/aux/642_23_GIROSKOPA]]/URI$ описывает конич. поверхность с постоянной угловой скоростью $URI[[http://libmeta.ru/fme/formula/aux/642_24_GIROSKOPA]]/URI$. Такое движение называется свободной размерной прецессией ги роскопа.
+
+Движение тяжелого гироскопа. Пусть центр масс гироскопа лежит на оси динамич. симметрии, радиус-вектор центра масс имеет вид $URI[[http://libmeta.ru/fme/formula/aux/642_25_GIROSKOPA]]/URI$ расстояние от точки подвеса. Тогда в поле тяжести на гироскоп действует момент
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_6_GIROSKOPA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/642_26_GIROSKOPA]]/URI$ - масса, $URI[[http://libmeta.ru/fme/formula/aux/642_27_GIROSKOPA]]/URI$ - ускорение свободного падения, $URI[[http://libmeta.ru/fme/formula/aux/642_28_GIROSKOPA]]/URI$ сила веса. Поскольку скалярное произведение $URI[[http://libmeta.ru/fme/formula/aux/642_29_GIROSKOPA]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/642_30_GIROSKOPA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/642_31_GIROSKOPA]]/URI$ const.
+
+Уравнения (1) приобретают вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_7_GIROSKOPA]]/URI
+\]
+
+Өто уравнение также допускает частное решение вида $URI[[http://libmeta.ru/fme/formula/aux/642_32_GIROSKOPA]]/URI$, представляющее собой ре гуля рную п реце с с и ю. Пусть $URI[[http://libmeta.ru/fme/formula/aux/642_33_GIROSKOPA]]/URI$ постоянная угловая скорость прецессии, направленная по силе тяжести; условие существования такой прецессии:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_8_GIROSKOPA]]/URI
+\]
+
+Два значения угловой скорости прецессии, если $URI[[http://libmeta.ru/fme/formula/aux/642_34_GIROSKOPA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_9_GIROSKOPA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/642_35_GIROSKOPA]]/URI$ - угол между осью симметрии гироскопа и направлением силы тяжести. Зависимость корней от величины кинетич. момента удобно анализировать, если разрешить (3) относительно $URI[[http://libmeta.ru/fme/formula/aux/642_36_GIROSKOPA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_10_GIROSKOPA]]/URI
+\]
+
+Эта зависимость изображена на рис. 2. Качественно различными являются три случая. Первый случай $URI[[http://libmeta.ru/fme/formula/aux/642_37_GIROSKOPA]]/URI$ означает ортогональность оси симметрии гироскопа полю тяжести. Частота прецессии одна $URI[[http://libmeta.ru/fme/formula/aux/642_38_GIROSKOPA]]/URI$, направление скорости прецессии противоположно полю тяжести, если $URI[[http://libmeta.ru/fme/formula/aux/642_39_GIROSKOPA]]/URI$. Второй случай $URI[[http://libmeta.ru/fme/formula/aux/642_40_GIROSKOPA]]/URI$ (центр масс находится ниже центра подвеса). В этом случае имеются две частоты прецессии, определяемые по формуле (4). Третий случай $URI[[http://libmeta.ru/fme/formula/aux/642_41_GIROSKOPA]]/URI$ (центр масс находится выше центра подвеса). В этом случае регулярная прецессия не существует, если $URI[[http://libmeta.ru/fme/formula/aux/642_42_GIROSKOPA]]/URI$, имеется одна частота, если $URI[[http://libmeta.ru/fme/formula/aux/642_43_GIROSKOPA]]/URI$ и - две частоты, если $URI[[http://libmeta.ru/fme/formula/aux/642_44_GIROSKOPA]]/URI$.
+
+При больших значениях $URI[[http://libmeta.ru/fme/formula/aux/642_45_GIROSKOPA]]/URI$ приближенные значения для частот прецессии можно определять, если вместо (3) записать:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_11_GIROSKOPA]]/URI
+\]
+
+Из первого соотношения получается приближенное значение для большей частоты $URI[[http://libmeta.ru/fme/formula/aux/642_46_GIROSKOPA]]/URI$, называемой ч а с то той 6 ыс т рой прецесс и и, или нутаци и. Из второго соотношения получается приближенное значение для меньшей частоты $URI[[http://libmeta.ru/fme/formula/aux/642_47_GIROSKOPA]]/URI$, называемое ча с тотой ме дле н ной п р е це с с и и, или просто п р е це с с и и. Частота нутации пропорциональна $URI[[http://libmeta.ru/fme/formula/aux/642_48_GIROSKOPA]]/URI$, не зависит от неуравновешенности $URI[[http://libmeta.ru/fme/formula/aux/642_49_GIROSKOPA]]/URI$ и совпадает с полученной выше частотой прецессии
+
+142 Гиpockoia
+![](https://cdn.mathpix.com/cropped/2023_07_08_33a796a42a2d27a6fe00g-1.jpg?height=812&amp;width=808&amp;top_left_y=51&amp;top_left_x=944)
+
+Рис. 2. Зависимость корней $URI[[http://libmeta.ru/fme/formula/aux/642_50_GIROSKOPA]]/URI$ уравнения прецессии от кинетического момента $URI[[http://libmeta.ru/fme/formula/aux/642_51_GIROSKOPA]]/URI$.
+
+уравновешенного гироскопа. Частота медленной прецессии пропорциональна $URI[[http://libmeta.ru/fme/formula/aux/642_52_GIROSKOPA]]/URI$ и не зависит от угла $URI[[http://libmeta.ru/fme/formula/aux/642_53_GIROSKOPA]]/URI$.
+
+Приближенная теория гироскопа. Приближенная теория гироскопа основывается на предположении, что модуль собственного кинетич. момента $URI[[http://libmeta.ru/fme/formula/aux/642_54_GIROSKOPA]]/URI$ велик; это означает, что в выражении для полного момента количества движения $URI[[http://libmeta.ru/fme/formula/aux/642_55_GIROSKOPA]]/URI$ полагают $URI[[http://libmeta.ru/fme/formula/aux/642_56_GIROSKOPA]]/URI$ и тогда $URI[[http://libmeta.ru/fme/formula/aux/642_57_GIROSKOPA]]/URI$, что приводит к следующему приближенному виду уравнений (1):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_12_GIROSKOPA]]/URI
+\]
+
+к-рые называются уравнениями прецессионной теории, или прецессионными уравнениями. При приложении к оси гироскопа силы он движется не по направлению силы, а по направлению момента, то есть перпендикулярно силе.
+
+Устойчивость вертикального положения волчка Лагранжа. Симметричным, или лагранжевым, волчком называется закрепленное в неподвижной точке $URI[[http://libmeta.ru/fme/formula/aux/642_58_GIROSKOPA]]/URI$ твердое тело, у к-рого эллипсоид инерции в $URI[[http://libmeta.ru/fme/formula/aux/642_59_GIROSKOPA]]/URI$ есть эллипсоид вращения и центр тяжести лежит на оси вращения. В уравнениях (2) имеется два стационарных решения $URI[[http://libmeta.ru/fme/formula/aux/642_60_GIROSKOPA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_13_GIROSKOPA]]/URI
+\]
+
+Первое соответствует нижнему положению равновесия, второе - верхнему. Слова «низ» и «верх» связаны с направлением силы тяжести, то есть вектора $URI[[http://libmeta.ru/fme/formula/aux/642_61_GIROSKOPA]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/642_62_GIROSKOPA]]/URI$ - малое отклонение от положения равновесия: $URI[[http://libmeta.ru/fme/formula/aux/642_63_GIROSKOPA]]/URI$. Если выбрать оси неподвижной системы координат так, чтобы $URI[[http://libmeta.ru/fme/formula/aux/642_64_GIROSKOPA]]/URI$, то приращение $URI[[http://libmeta.ru/fme/formula/aux/642_65_GIROSKOPA]]/URI$ можно искать в виде $URI[[http://libmeta.ru/fme/formula/aux/642_66_GIROSKOPA]]/URI$. Тогда уравнение (2) запишется в виде системы:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_14_GIROSKOPA]]/URI
+\]
+
+Или:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_15_GIROSKOPA]]/URI
+\]
+
+Характеристич. определитель этой системы
+
+Откуда следует
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_16_GIROSKOPA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_17_GIROSKOPA]]/URI
+\]
+
+Знак + соответствует нижнему положению равновесия, для него корни:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_18_GIROSKOPA]]/URI
+\] являются чисто мнимыми. Отсюда следует устойчивость нижнего положения равновесия. Знак - соответствует верхнему положению равновесия. Для него
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_19_GIROSKOPA]]/URI
+\]
+
+откуда следует, что устойчивость имеет место лишь при достаточно большом $URI[[http://libmeta.ru/fme/formula/aux/642_67_GIROSKOPA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_20_GIROSKOPA]]/URI
+\]
+
+Это условие устойчивости вертикального положения равновесия волчка называется у с ло в и е М а и в в кого. Это условие совпадает при $URI[[http://libmeta.ru/fme/formula/aux/642_68_GIROSKOPA]]/URI$ с условием существования регулярной прецессии.
+
+Если симметричное тяжелое тело раскрутить достаточно быстро, чтобы выполнялось приведенное условие, то вертикальное положение оси симметрии, при к-ром центр масс лежит выше точки подвеса, становится устойчивым.
+
+Если учесть сколь угодно малые диссипативные силы, то устойчивость нарушается, каким бы большим ни был кинетич. момент $URI[[http://libmeta.ru/fme/formula/aux/642_69_GIROSKOPA]]/URI$. Тем не менее найденное условие устойчивости имеет большое практич. значение: если оно не выполнено, то развитие неустойчивости происходит быстро и оно почти не зависит от диссипации, если последняя невелика. Если же это условие выполнено, то, несмотря на формальную неустойчивость при наличии диссипации, развитие этой неустойчивости тем медленнее, чем меньше диссипативные силы и чем больше $URI[[http://libmeta.ru/fme/formula/aux/642_70_GIROSKOPA]]/URI$. Приведенное условие разделяет область «катастрофической» неустойчивости и область «вялой» неустойчивости (временной устойчивости).
+
+Гироскоп в кардановом подвесе. Одним из способов технич. реализации закрепления гироскопа в неподвижной точке является карданов подвес, состоящий из двух колец, сопряженных друг с другом и с гироскопом (ротором) так, как это показано на рис. 3. Полученная система трех тел не
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_7e0bb5da5500a8cc948fg-1.jpg?height=540&amp;width=394&amp;top_left_y=1102&amp;top_left_x=73)
+
+Рис. 3. Карданов подвес. сохраняет полностью всех свойств идеального гироскопа. Для описания ее динамики полагают, что оси вращения колец совпадают с их главными центральными моментами инерции. Проекции абсолютной угловой скорости внешнего кольца на его главные оси имеют вид: $URI[[http://libmeta.ru/fme/formula/aux/642_71_GIROSKOPA]]/URI$; проекции абсолютной угловой скорости внутреннего кольца на его главные оси: $URI[[http://libmeta.ru/fme/formula/aux/642_72_GIROSKOPA]]/URI$ все то же самое для ротора: $URI[[http://libmeta.ru/fme/formula/aux/642_73_GIROSKOPA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/642_74_GIROSKOPA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/642_75_GIROSKOPA]]/URI$ угол поворота ротора относительно внутреннего кольца.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/642_76_GIROSKOPA]]/URI$ момент инерции наружного кольца вокруг его оси вращения, $URI[[http://libmeta.ru/fme/formula/aux/642_77_GIROSKOPA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/642_78_GIROSKOPA]]/URI$ - главные моменты инерции внутреннего кольца и $URI[[http://libmeta.ru/fme/formula/aux/642_79_GIROSKOPA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/642_80_GIROSKOPA]]/URI$ главные моменты инерции ротора; кинетич. энергия всей системы трех тел записывается в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_21_GIROSKOPA]]/URI
+\]
+
+Здесь
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_22_GIROSKOPA]]/URI
+\]
+
+В случае, если на гироскоп никаких внешних моментов не действует, кинетич. энергия является первым интегралом движения. Поскольку она от углов $URI[[http://libmeta.ru/fme/formula/aux/642_81_GIROSKOPA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/642_82_GIROSKOPA]]/URI$ не зависит, то эти углы являются циклич. координатами, что позволяет выписать еще два интеграла
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_23_GIROSKOPA]]/URI
+\]
+
+Рис. 4. Качественное поведение траекторий движения гироскопа.
+
+иая из этих соотношений $URI[[http://libmeta.ru/fme/formula/aux/642_83_GIROSKOPA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/642_84_GIROSKOPA]]/URI$ через постоянные $URI[[http://libmeta.ru/fme/formula/aux/642_85_GIROSKOPA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/642_86_GIROSKOPA]]/URI$ и подставляя их в выражение для кинетич. энергии, можно получить уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_24_GIROSKOPA]]/URI
+\]
+
+решение к-рого сводится к гиперэллиптич. квадратурам. Качественное поведение траекторий в плоскости $URI[[http://libmeta.ru/fme/formula/aux/642_87_GIROSKOPA]]/URI$ изображено на рис. 4 для случая достаточно быстрого вращения $URI[[http://libmeta.ru/fme/formula/aux/642_88_GIROSKOPA]]/URI$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_7e0bb5da5500a8cc948fg-1.jpg?height=482&amp;width=545&amp;top_left_y=388&amp;top_left_x=1204)
+
+Выделяются три области, в к-рых характер движения различен: I - область либрационных движений вокруг одной из особых точек $URI[[http://libmeta.ru/fme/formula/aux/642_89_GIROSKOPA]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/642_90_GIROSKOPA]]/URI$; Ii - область либрационных движений вокруг сразу трех особых точек (к указанным двум добавляется еще $URI[[http://libmeta.ru/fme/formula/aux/642_91_GIROSKOPA]]/URI$ ), в этом движении у гироскопа дважды за период складываются кольца; Iii - область ротационных движений, изменение угла $URI[[http://libmeta.ru/fme/formula/aux/642_92_GIROSKOPA]]/URI$ монотонно нарастающее. Изменение угла $URI[[http://libmeta.ru/fme/formula/aux/642_93_GIROSKOPA]]/URI$ носит периодич. характер, если движение соответствует областям Ii и Iii. Если движение соответствует области I, то к периодич. составляющей $URI[[http://libmeta.ru/fme/formula/aux/642_94_GIROSKOPA]]/URI$ добавляется линейно растущая составляющая со временем. Это означает, что в гироскопе в кардановом подвесе при отсутствии внешних сил и наличии малых колебаний оси вектор кинетич. момента систематически изменяет свое направление в пространстве (эффе к т М а г н у с а). Количественно этот эффект описывается формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_25_GIROSKOPA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_26_GIROSKOPA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/642_95_GIROSKOPA]]/URI$ угол, в окрестности к-рого осуществляются колебания, $URI[[http://libmeta.ru/fme/formula/aux/642_96_GIROSKOPA]]/URI$ произвольная постоянная, $URI[[http://libmeta.ru/fme/formula/aux/642_97_GIROSKOPA]]/URI$ - период.
+
+Систематич. эволюция вектора момента количества движения в отсутствие приложенных внешних моментов объясняется появлением моментов реакции опор наружного кольца, перпендикулярных оси его вращения.
+
+Если на гироскоп действуют внешние силы, то, используя полученное ранее выражение для кинетич. энергии, уравнения движения можно представить в форме уравнений Лагранжа:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_27_GIROSKOPA]]/URI
+\]
+
+дающих следующий вид уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_28_GIROSKOPA]]/URI
+\] В инженерных расчетах полагают величину кинетич. момента $URI[[http://libmeta.ru/fme/formula/aux/642_98_GIROSKOPA]]/URI$ достаточно большой и постоянной. Пренебрегая в левых частях уравнений членами, не содержащими $URI[[http://libmeta.ru/fme/formula/aux/642_99_GIROSKOPA]]/URI$, получают прецессионные уравнения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/642_29_GIROSKOPA]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/642_1_GIROSKOPA]]/URI используемые в инженерной практике.</text>
+  <text_orig>ТеорИЯ, описывающая поведение быстро вращающегося симметричного твердого тела, имеющего одну неподвижную точку,- гироскопа (рис. 1). Все фигурирующие ниже векторы рассматриваются в нек-рой инерциальной системе отсчета.
+
+Pис. 1. Гироскоп: $\boldsymbol{e}-$ единичный вектор оси динамической симметрии тела; $\boldsymbol{H}-$ кинетический момент гироскопа; $\omega_{0}-$ угловая скорость.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_e0a4ac99524494557addg-1.jpg?height=393&amp;width=359&amp;top_left_y=763&amp;top_left_x=1390)
+
+Пусть вектор $\boldsymbol{e}-$ единичный вектор оси динамич. симметрии тела, $C-$ момент инерции тела вокруг этой оси (полярный момент инерции), $A$ - момент инерции тела вокруг любой оси, перпендикулярной оси динамич. симметрии (экваториальный момент инерции), $J-$ тензор инерции тела, имеющий в главных осях вид
+
+\[
+J=\left\|\begin{array}{lll}
+A &amp; 0 &amp; 0 \\
+0 &amp; A &amp; 0 \\
+0 &amp; 0 &amp; C
+\end{array}\right\| .
+\]
+
+Тензор инерции обладает свойствами: $\boldsymbol{J e}=\boldsymbol{C} \boldsymbol{e}$ и $\boldsymbol{J r}=\boldsymbol{A r}$ для любого $\boldsymbol{r} \perp \boldsymbol{e}$, то есть векторы $\boldsymbol{e}$ и $\boldsymbol{r}$ являются собственными векторами тензора инерции. Мгновенная угловая скорость тела $\Omega$, а также момент приложенных к телу внешних сил $\boldsymbol{N}$ представимы разложениями по собственным векторам тензора инерции
+
+\[
+\begin{aligned}
+&amp; \Omega=\omega_{0} \boldsymbol{e}+\omega \quad(\omega \boldsymbol{e}=0), \\
+&amp; N=n_{0} \boldsymbol{e}+\boldsymbol{n} \quad(\boldsymbol{n} \boldsymbol{e}=0) .
+\end{aligned}
+\]
+
+Момент количества движения тела равен
+
+\[
+\boldsymbol{K}=J \Omega=J\left(\omega_{0} \boldsymbol{e}+\omega\right)=C \omega_{0} \boldsymbol{e}+A \omega=H \boldsymbol{e}+A \omega,
+\]
+
+где через Не обозначен так наз. собственный кинетич. момент гироскопа ( $H$ - его модуль).
+
+Уравнения динамики гироскопа имеют вид
+
+\[
+\dot{H} \boldsymbol{e}+H \dot{\boldsymbol{e}}+A \boldsymbol{e} \times \ddot{\boldsymbol{e}}=n_{0} \boldsymbol{e}+\boldsymbol{n} .
+\]
+
+Они могут быть представлены в виде
+
+\[
+\left.\begin{array}{l}
+\dot{H}=n_{0}, \\
+A e \times \ddot{e}+H \dot{e}=n
+\end{array}\right\}
+\]
+
+Обычно положение динамически симметричного твердого тела вокруг оси симметрии интереса не представляет, поэтому приведенные уравнения определяют фазовое со- стояние гироскопа, выражаемое переменными $H, \boldsymbol{e}, \dot{\boldsymbol{e}}$, то есть величиной собственного кинетич. момента, единичным вектором его направления и скоростью изменения этого вектора.
+
+Если проекция момента приложенных к гироскопу сил на ось симметрии равна нулю $\left(n_{0}=0\right)$, то собственный кинетич. момент постоянен по модулю $H=$ const и уравнения (1) понижаются в порядке.
+
+Движение гироскопа по инерции. В этом случае $n_{0}=0$, $\boldsymbol{n}=0$ и $H=(\boldsymbol{K e})$. Это означает, что в движении по инерции угол между неподвижным в пространстве вектором $\boldsymbol{K}$ и осью симметрии постоянен, то есть ось гироскопа описывает конич. поверхность. Вектор $е$ описывает конич. поверхность с постоянной угловой скоростью $\lambda=\frac{1}{A} \boldsymbol{K}$. Такое движение называется свободной размерной прецессией ги роскопа.
+
+Движение тяжелого гироскопа. Пусть центр масс гироскопа лежит на оси динамич. симметрии, радиус-вектор центра масс имеет вид $\boldsymbol{r}=\boldsymbol{r e}, \boldsymbol{r}-$ расстояние от точки подвеса. Тогда в поле тяжести на гироскоп действует момент
+
+\[
+\boldsymbol{N}=\boldsymbol{r} \times \boldsymbol{P}=\boldsymbol{r} \boldsymbol{e} \times \boldsymbol{P}=\boldsymbol{r m g} \boldsymbol{e} \times \boldsymbol{e}_{g},
+\]
+
+где $m$ - масса, $g$ - ускорение свободного падения, $\boldsymbol{P}-$ сила веса. Поскольку скалярное піроизведение $\boldsymbol{e}(\boldsymbol{e} \times \boldsymbol{P})=0$, то $n_{0}=0$ и $H=$ const.
+
+Уравнения (1) приобретают вид:
+
+\[
+A \boldsymbol{e} \times \ddot{\boldsymbol{e}}+H \dot{\boldsymbol{e}}=d \boldsymbol{e} \times \boldsymbol{e}_{g}(d=r m g) .
+\]
+
+Өто уравнение также допускает частное решение вида $\dot{e}=v \times e$, представляющее собой ре гуля рную п реце с с и ю. Пусть $v=v e_{g}-$ постоянная угловая скорость прецессии, направленная по силе тяжести; условие существования такой прецессии:
+
+\[
+-A v^{2}\left(e_{g}\right)+H v+d=0 .
+\]
+
+Два значения угловой скорости прецессии, если $\cos \alpha \neq 0$ :
+
+\[
+\text { 'fuks', } \quad v=\frac{H \pm \sqrt{H^{2}+4 A d \cos \alpha}}{2 A \cos \alpha} \text {, }
+\]
+
+где $\alpha$ - угол между осью симметрии гироскопа и направлением силы тяжести. Зависимость корней от величины кинетич. момента удобно анализировать, если разрешить (3) относительно $\boldsymbol{H}$ :
+
+\[
+H=\frac{A v^{2} \cos \alpha-d}{v}
+\]
+
+Эта зависимость изображена на рис. 2. Качественно различными являются три случая. Первый случай $\cos \alpha=0$ означает ортогональность оси симметрии гироскопа полю тяжести. Частота прецессии одна $v=-d / H$, направление скорости прецессии противоположно полю тяжести, если $H&gt;0$. Второй случай $\cos \alpha&gt;0$ (центр масс находится ниже центра подвеса). В этом случае имеются две частоты прецессии, определяемые по формуле (4). Третий случай $\cos \alpha&lt;0$ (центр масс находится выше центра подвеса). В этом случае регулярная прецессия не существует, если $H^{2}&lt;-4 A d \cos \alpha$, имеется одна частота, если $H^{2}=-4 A d \cos \alpha ;$ и - две частоты, если $H^{2}&gt;-4 A d \cos \alpha$.
+
+При больших значениях $H$ приближенные значения для частот прецессии можно определять, если вместо (3) записать:
+
+\[
+-A v^{2} \cos \alpha+H v=0, H v+d=0 .
+\]
+
+Из первого соотношения получается приближенное значение для болышей частоты $v \simeq H / A \cos \alpha$, называемой ч а с то той 6 ыс т рой прецесс и и, или нутаци и. Из второго соотношения получается приближенное значение для меньшей частоты $v \simeq-d / H$, называемое ча с тотой ме дле н ной п р е це с с и и, или просто п р е це с с и и. Частота нутации пропорциональна $H$, не зависит от неуравновешенности $d$ и совпадает с полученной выше частотой прецессии
+
+142 ГИPOCKOIA
+![](https://cdn.mathpix.com/cropped/2023_07_08_33a796a42a2d27a6fe00g-1.jpg?height=812&amp;width=808&amp;top_left_y=51&amp;top_left_x=944)
+
+Рис. 2. Зависимость корней $v$ уравнения прецессии от кинетического момента $H$.
+
+уравновешенного гироскопа. Частота медленной прецессии пропорциональна $1 / H$ и не зависит от угла $\alpha$.
+
+Приближенная теория гироскопа. Приближенная теория гироскопа основывается на предположении, что модуль собственного кинетич. момента $H$ велик; это означает, что в выражении для полного момента количества движения $\boldsymbol{K}=\boldsymbol{H e}+A \omega$ полагают $H \gg|A \omega|$ и тогда $\boldsymbol{K} \cong H e$, что приводит к следующему приближенному виду уравнений (1):
+
+\[
+\dot{\boldsymbol{H}}=n_{0}, H \dot{\boldsymbol{e}}=\boldsymbol{n},
+\]
+
+к-рые называются уравнениями прецессионной теории, или прецессионными уравнениями. При приложении к оси гироскопа силы он движется не по направлению силы, а по направлению момента, то есть перпендикулярно силе.
+
+Устойчивость вертикального положения волчка Лагранжа. Симметричным, или лагранжевым, волчком называется закрепленное в неподвижной точке $O$ твердое тело, у к-рого эллипсоид инерции в $O$ есть эллипсоид вращения и центр тяжести лежит на оси вращения. В уравнениях (2) имеется два стационарных решения $(\dot{e} \equiv 0)$ :
+
+\[
+\boldsymbol{e}=\boldsymbol{e}_{g} \text { и } \boldsymbol{e}=-\boldsymbol{e}_{g}
+\]
+
+Первое соответствует нижнему положению равновесия, второе - верхнему. Слова «низ» и «верх» связаны с направлением силы тяжести, то есть вектора $\boldsymbol{e}_{g}$.
+
+Пусть $\varepsilon$ - малое отклонение от положения равновесия: $\boldsymbol{e}=\varepsilon \pm \boldsymbol{e}_{g}$. Если выбрать оси неподвижной системы координат так, чтобы $\boldsymbol{e}_{g}=(0,0,-1)$, то приращение $\varepsilon$ можно искать в виде $\varepsilon=(x, y, 0)$. Тогда уравнение (2) запишется в виде системы:
+
+\[
+\pm A\left|\begin{array}{rrr}
+\boldsymbol{i} &amp; \boldsymbol{j} &amp; \boldsymbol{k} \\
+0 &amp; 0 &amp; -1 \\
+\ddot{x} &amp; \ddot{y} &amp; 0
+\end{array}\right|+H(\dot{x}, \dot{y}, 0)=d\left|\begin{array}{rrr}
+\boldsymbol{i} &amp; \boldsymbol{j} &amp; \boldsymbol{k} \\
+x &amp; \boldsymbol{y} &amp; 0 \\
+0 &amp; 0 &amp; -1
+\end{array}\right| .
+\]
+
+Или:
+
+\[
+\begin{gathered}
+\mp A \ddot{x}+H \dot{y}=d x, \\
+\pm A \ddot{y}+H \dot{x}=-d y .
+\end{gathered}
+\]
+
+Характеристич. определитель этой системы
+
+Откуда следует
+
+\[
+\left|\begin{array}{cc}
+\mp A \lambda^{2}-d &amp; H \lambda \\
+-H \lambda &amp; \mp A \lambda^{2}-d
+\end{array}\right|=0 .
+\]
+
+\[
+\left(A \lambda^{2} \pm d\right)^{2}=-H^{2} \lambda^{2}
+\]
+
+Знак + соответствует нижнему положению равновесия, для него корни:
+
+\[
+\lambda= \pm \frac{H}{2 A} i \pm \sqrt{-\frac{H^{2}}{4 A^{2}}-\frac{d}{A}}
+\] являются чисто мнимыми. Отсюда следует устойчивость нижнего положения равновесия. Знак - соответствует верхнему положению равновесия. Для него
+
+\[
+\lambda=\frac{ \pm H i \pm \sqrt{-H^{2}+4 A d}}{2 A},
+\]
+
+откуда следует, что устойчивость имеет место лишь при достаточно большом $H$ :
+
+\[
+H^{2} \geqslant 4 A d \text {. }
+\]
+
+Это условие устойчивости вертикального положения равновесия волчка называется у с ло в и е М а и в в кого. Это условие совпадает при $\cos \alpha=-1$ с условием существования регулярной прецессии.
+
+Если симметричное тяжелое тело раскрутить достаточно быстро, чтобы выполнялось приведенное условие, то вертикальное положение оси симметрии, при к-ром центр масс лежит выше точки подвеса, становится устойчивым.
+
+Если учесть сколь угодно малые диссипативные силы, то устойчивость нарушается, каким бы большим ни был кинетич. момент $H$. Тем не менее найденное условие устойчивости имеет большое практич. значение: если оно не выполнено, то развитие неустойчивости происходит быстро и оно почти не зависит от диссипации, если последняя невелика. Если же это условие выполнено, то, несмотря на формальную неустойчивость при наличии диссипации, развитие этой неустойчивости тем медленнее, чем меньше диссипативные силы и чем больше $H$. Приведенное условие разделяет область «катастрофической» неустойчивости и область «Вялой» неустойчивости (временной устойчивости).
+
+Гироскоп в кардановом подвесе. Одним из способов технич. реализации закрепления гироскопа в неподвижной точке является карданов подвес, состоящий из двух колец, сопряженных друг с другом и с гироскопом (ротором) так, как это показано на рис. 3. Полученная система трех тел не
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_7e0bb5da5500a8cc948fg-1.jpg?height=540&amp;width=394&amp;top_left_y=1102&amp;top_left_x=73)
+
+Рис. 3. Карданов подвес. сохраняет полностью всех свойств идеального гироскопа. Для описания ее динамики полагают, что оси вращения колец совпадают с их главными центральными моментами инерции. Проекции абсолютной угловой скорости внешнего кольца на его главные оси имеют вид: $\{\dot{\alpha}, 0,0\}$; проекции абсолютной угловой скорости внутреннего кольца на его главные оси: $\{\dot{\alpha} \cos \beta, \dot{\beta}, \dot{\alpha} \sin \beta\} ;$ все то же самое для ротора: $\{\dot{\alpha} \cos \beta, \dot{\beta}$, $\dot{\alpha} \sin \beta+\dot{\gamma}\}$, где $\gamma-$ угол поворота ротора относительно внутреннего кольца.
+
+Пусть $A_{2}-$ момент инерции наружного кольца вокруг его оси вращения, $A_{1}, B_{1}$, $C_{1}$ - главные моменты инерции внутреннего кольца и $A$, $B=A, C-$ главные моменты инерции ротора; кинетич. энергия всей системы трех тел записывается в виде:
+
+\[
+T=\frac{1}{2}\left[\dot{\alpha}^{2} F(\beta)+\dot{\beta}^{2} B_{0}+C(\dot{\gamma}+\dot{\alpha} \sin \beta)^{2}\right]
+\]
+
+Здесь
+
+\[
+F(\beta)=A_{2}+\left(A_{1}+A\right) \cos ^{2} \beta+C_{1} \sin ^{2} \beta, B_{0}=A+B_{1} .
+\]
+
+В случае, если на гироскоп никаких внешних моментов не действует, кинетич. энергия является первым интегралом движения. Поскольку она от углов $\alpha$ и $\gamma$ не зависит, то эти углы являются циклич. координатами, что позволяет выписать еще два интеграла
+
+\[
+\begin{array}{r}
+H=\frac{\partial T}{\partial \dot{\gamma}}=C(\dot{\gamma}+\dot{\alpha} \sin \beta) \equiv \text { const, } \\
+G=\frac{\partial T}{\partial \dot{\alpha}}=\dot{\alpha} F(\beta)+C(\dot{\gamma}+\dot{\alpha} \sin \beta) \sin \beta \equiv \text { const. }
+\end{array}
+\]
+
+Рис. 4. Качественное поведение траекторий движения гироскопа.
+
+иая из этих соотношений $\dot{\alpha}$ и $\dot{\gamma}$ через постоянные $G$ и $H$ и подставляя их в выражение для кинетич. энергии, можно получить уравнение
+
+\[
+B_{0} \dot{\beta}^{2}+\frac{(G-H \sin \beta)^{2}}{F(\beta)}=2 E \equiv \text { const, }
+\]
+
+решение к-рого сводится к гиперэллиптич. квадратурам. Качественное поведение траекторий в плоскости $(\beta, \dot{\beta})$ изображено на рис. 4 для случая достаточно быстрого вращения $(H&gt;G)$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_7e0bb5da5500a8cc948fg-1.jpg?height=482&amp;width=545&amp;top_left_y=388&amp;top_left_x=1204)
+
+Выделяются три области, в к-рых характер движения различен: I - область либрационных движений вокруг одной из особых точек $\beta=\arcsin G / H$ или $\beta=\pi-\arcsin G / H$; II - область либрационных движений вокруг сразу трех особых точек (к указанным двум добавляется еще $\beta=\pi / 2$ ), в этом движении у гироскопа дважды за период складываются кольца; III - область ротационных движений, изменение угла $\beta$ монотонно нарастающее. Изменение угла $\alpha(t)$ носит периодич. характер, если движение соответствует областям II и III. Если движение соответствует области I, то к периодич. составляющей $\alpha(t)$ добавляется линейно растушая составляющая со временем. Это означает, что в гироскопе в кардановом подвесе при отсутствии внешних сил и наличии малых колебаний оси вектор кинетич. момента систематически изменяет свое направление в пространстве (эффе к т М а г н у с а). Количественно этот эффект описывается формулой
+
+\[
+\dot{\alpha}_{\mathrm{cp}}=-\frac{H\left(A_{2}+C_{1}\right) B_{0}^{2}}{2 F^{2}\left(\beta_{0}\right)} \Delta^{2} \sin \beta_{0},
+\]
+
+где
+
+\[
+\dot{\alpha}_{\mathrm{cp}}=\frac{1}{T} \int_{0}^{T} \frac{G-H \sin \beta}{F(\beta)} d t,
+\]
+
+$\beta_{0}=\arcsin G / H-$ угол, в окрестности к-рого осуществляются колебания, $\Delta-$ произвольная постоянная, $T$ - период.
+
+Систематич. эволюция вектора момента количества движения в отсутствие приложенных внешних моментов объясняется появлением моментов реакции опор наружного кольца, перпендикулярных оси его вращения.
+
+Если на гироскоп действуют внешние силы, то, используя полученное ранее выражение для кинетич. энергии, уравнения движения можно представить в форме уравнений Лагранжа:
+
+\[
+\frac{d}{d t} \frac{\partial T}{\partial \dot{\alpha}}-\frac{\partial T}{\partial \alpha}=Q_{\alpha}, \quad \frac{d}{d t} \frac{\partial T}{\partial \dot{\beta}}-\frac{\partial T}{\partial \beta}=Q_{\beta}, \quad \frac{d}{d t} \frac{\partial T}{\partial \dot{\gamma}}-\frac{\partial T}{\partial \gamma}=Q_{\gamma},
+\]
+
+дающих следующий вид уравнений
+
+\[
+\begin{aligned}
+\frac{d}{d t}(\dot{\alpha}+H \sin \beta) &amp; =Q_{\alpha}, \\
+B_{0} \ddot{\beta}-\frac{1}{2} \dot{\alpha}^{2} F^{\prime}(\beta)-H \dot{\alpha} \cos \beta &amp; =Q_{\beta}, \quad \dot{H}=Q_{\gamma} .
+\end{aligned}
+\] В инженерных расчетах полагают величину кинетич. момента $H$ достаточно большой и постоянной. Пренебрегая в левых частях уравнений членами, не содержащими $H$, получают прецессионные уравнения:
+
+\[
+H \beta \cos \beta=Q_{\alpha},-H \dot{\alpha} \cos \beta=Q_{\beta},
+\]
+
+широко используемые в инженерной практике.
+
+Лит.: [1] М агну с К., Гироскоп. Теория и применение, пер. с нем., М., 1974; [2] И ш л и н с к и й А. Ю., Ориентация, гироскопы и инерциальная навигация, М., 1976.</text_orig>
+</article>

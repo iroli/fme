@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3308_FRIDMANA-KELLERA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3308_FRIDMANA-KELLERA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2564</core:url>
+    <lbm:descriptor><![CDATA[ФРИДМАНА-КЕЛЛЕРА УРАВНЕНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1353"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19338"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19339"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19340"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19341"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19342"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4405"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19343"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19344"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19345"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>выводимая из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_615_GIDRODINAMIKI">уравнений гидродинамики</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_168_BESKONEChNYE">бесконечная система</a> уравнений для всевозможных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многоточечных</a> статистических моментов гидродинамических полей <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST">турбулентного</a> течения, дающая его полное статистическое описание:<BR/></P><P>Здесь<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19338">$$\frac{\partial\langle F\rangle}{\partial t_{k}}=-\frac{\partial\left\langle u_{k \alpha} F\right\rangle}{\partial x_{k \alpha}}+\left\langle w_{k \alpha} \frac{\partial F}{\partial u_{k \alpha}}\right\rangle .$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19339">$$F=\prod_{l=1}^{n}\left[u_{j_{l}}\left(M_{l}\right)\right]^{m_{l}}$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19340">$$u_{j}\left(m_{l}\right)-$$</a> значения гидродинамич. полей в точках <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19341">$$m_{l}=\left(x_{l}, t_{l}\right)$$</a>, $URI[[http://libmeta.ru/fme/formula/aux/3308_3_FRIDMANA-KELLERA]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">перенесенное</a> в $URI[[http://libmeta.ru/fme/formula/aux/3308_4_FRIDMANA-KELLERA]]/URI$ условное математич. ожидание гидродинамич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3196_USKORENI">ускорения</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19343">$$w\left(x, t_{k}\right)$$</a> при условии, что <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19344">$$u\left(m_{1}\right), \ldots$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19345">$$u\left(m_{n}\right)$$</a> фиксированы (а. А. Фридман, Л. В. Келлер, 1924).<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2924_STATISTIChESKAJa">Статистическая гидромеханика</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1353">А. С. Монин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[вЫводимая из уравнений гидродинамики бесконечная система уравнений для всевозможных многоточечных статистических моментов гидродинамических полей турбулентного течения, дающая его полное статистическое описание:
+
+Здесь
+
+\[
+\frac{\partial\langle F\rangle}{\partial t_{k}}=-\frac{\partial\left\langle u_{k \alpha} F\right\rangle}{\partial x_{k \alpha}}+\left\langle w_{k \alpha} \frac{\partial F}{\partial u_{k \alpha}}\right\rangle .
+\]
+
+\[
+F=\prod_{l=1}^{n}\left[u_{j_{l}}\left(M_{l}\right)\right]^{m_{l}}
+\]
+
+$u_{j}\left(M_{l}\right)-$ значения гидродинамич. полей в точках $M_{l}=\left(X_{l}, t_{l}\right)$, $w_{k}$ - перенесенное в $x_{k}$ условное математич. ожидание гидродинамич. ускорения $w\left(x, t_{k}\right)$ при условии, что $u\left(M_{1}\right), \ldots$, $u\left(M_{n}\right)$ фиксированы (А. А. Фридман, Л. В. Келлер, 1924).
+
+См. также Статистическая гидромеханика. А. С. Монин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2924_STATISTIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3196_USKORENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3139_TURBULENTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_168_BESKONEChNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_615_GIDRODINAMIKI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

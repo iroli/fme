@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_308_VAKUUMNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_308_VAKUUMNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2321</core:url>
+    <lbm:descriptor><![CDATA[ВАКУУМНОЕ СРЕДНЕЕ В КВАНТОВОЙ ТЕОРИИ ПОЛЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17622"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9914"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17623"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_626"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17624"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>комплексное число, равное среднему значению какого-либо оператора (или произведения операторов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17622">$$a, B, \ldots$$</a> ) в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_307_VAKUUMNOE">вакуумном состоянии</a> поля $URI[[http://libmeta.ru/fme/formula/aux/308_2_VAKUUMNOE]]/URI$ (см. Вакуум). Обозначается символом <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17623">$$\langle 0|A ; B ; \ldots| 0\rangle$$</a>. В. с. операторов <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульса</a>, момента <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульса</a>, электрич. заряда и др. сохраняющихся квантовых чисел равны нулю. Особенно большую роль играет В. с. локальных операторов поля $URI[[http://libmeta.ru/fme/formula/aux/308_4_VAKUUMNOE]]/URI$, зависящих от пространственно-временных точек $URI[[http://libmeta.ru/fme/formula/aux/308_5_VAKUUMNOE]]/URI$. Так, ненулевое значение <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17624">$$\langle 0|\varphi(x)| 0\rangle$$</a> свидетельствует о <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2912_SPONTANNOE">спонтанном нарушении симметрии</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_481_VYROZhDENIE">вырождении вакуума</a>. В.с. от хронологич. произведения операторов полей или локальных токов дает <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2886_SPEKTRAL'NOE">матричные элементы матрицы рассеяния</a> и определяет все процессы взаимопревращения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[комплексное число, равное среднему значению какого-либо оператора (или произведения операторов $A, B, \ldots$ ) в вакуумном состоянии поля $|0\rangle$ (см. Вакуум). Обозначается символом $\langle 0|A ; B ; \ldots| 0\rangle$. В. с. операторов энергии, импульса, момента импульса, электрич. заряда и др. сохраняюшихся квантовых чисел равны нулю. Особенно большую роль играет В. с. локальных операторов поля $\varphi(x)$, зависящих от пространственно-временных точек $x$. Так, ненулевое значение $\langle 0|\varphi(x)| 0\rangle$ свидетельствует о спонтанном нарушении симметрии и вырождении вакуума. В.с. от хронологич. произведения операторов полей или локальных токов дает матричные элементы матрицы рассеяния и определяет все процессы взаимопревращения частиц.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2886_SPEKTRAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_481_VYROZhDENIE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2912_SPONTANNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_307_VAKUUMNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_7492">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>g</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>60</mn><msubsup><mo>&#x02211;</mo><mrow><msub><mi>m</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><msub><mi>m</mi><mrow><mn>2</mn></mrow></msub><mo>&#x02208;</mo><mi>&#x02124;</mi></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>m</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002B;</mo><msub><mi>m</mi><mrow><mn>2</mn></mrow></msub><mi>z</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>4</mn></mrow></msup></mrow></mfrac><mo>&#x0003D;</mo><mo stretchy="false">&#x00028;</mo><mn>2</mn><mi>&#x003C0;</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mn>4</mn></mrow></msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>12</mn></mrow></mfrac><mo>&#x0002B;</mo><mn>20</mn><msubsup><mo>&#x02211;</mo><mrow><mi>n</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mfrac><mrow><msup><mi>n</mi><mrow><mn>3</mn></mrow></msup><msup><mi>h</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><msup><mi>h</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$g_{2}(z)=60 \sum_{m_{1}, m_{2} \in \mathbb{Z}}^{*} \frac{1}{\left(m_{1}+m_{2} z\right)^{4}}=(2 \pi)^{4}\left\{\frac{1}{12}+20 \sum_{n=1}^{\infty} \frac{n^{3} h^{2 n}}{1-h^{2 n}}\right\}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

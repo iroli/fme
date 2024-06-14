@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1699_MAKSVELLA-BOL'TsMANA" alphabetic_pos="1701">
+  <title>МАКСВЕЛЛА-БОЛЬЦМАНА СТАТИСТИКА</title>
+  <authors/>
+  <pages>
+    <start>341</start>
+    <end>341</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М а й е р Д. Э., Г е п п е р т - М а й е р М., Статистическая механика, пер. с англ., М., 1980.</literature_orig>
+    <unit>
+      <author>Майер Д. Э.</author>
+      <author>Гепперт-Майер М.</author>
+      <title>Статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1699_1_MAKSVELLA-BOL'TsMANA">f(\vec{p}, \vec{q})=A \exp \left\{\frac{-\frac{p^{2}}{2 m}+U(\vec{q})}{k T}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1699_2_MAKSVELLA-BOL'TsMANA">\iint f(\vec{p}, \vec{q}) d^{3} \vec{q} d^{3} \vec{v}=N</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_1_MAKSVELLA-BOL'TsMANA">f(\vec{p}, \vec{q}) \quad</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_2_MAKSVELLA-BOL'TsMANA">\vec{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_3_MAKSVELLA-BOL'TsMANA">\vec{q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_4_MAKSVELLA-BOL'TsMANA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_5_MAKSVELLA-BOL'TsMANA">k=1,38 \cdot 10^{-16}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_6_MAKSVELLA-BOL'TsMANA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_7_MAKSVELLA-BOL'TsMANA">m-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_8_MAKSVELLA-BOL'TsMANA">u(\vec{q})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_9_MAKSVELLA-BOL'TsMANA">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_10_MAKSVELLA-BOL'TsMANA">\vec{v}=\frac{\vec{p}}{m}, d^{3} \vec{v}=d v_{x} d v_{y} d v_{z}, N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_11_MAKSVELLA-BOL'TsMANA">v=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1699_12_MAKSVELLA-BOL'TsMANA">\vec{q},-</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/1699_1_MAKSVELLA-BOL'TsMANA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1699_2_MAKSVELLA-BOL'TsMANA">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1699_3_MAKSVELLA-BOL'TsMANA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1699_4_MAKSVELLA-BOL'TsMANA">
+      <rel_text>частицы</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1699_5_MAKSVELLA-BOL'TsMANA">
+      <rel_text>потенциальная энергия</rel_text>
+      <target>http://libmeta.ru/fme/article/2340_POTENTsIAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1699_6_MAKSVELLA-BOL'TsMANA">
+      <rel_text>частицы</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1699_7_MAKSVELLA-BOL'TsMANA">
+      <rel_text>масса</rel_text>
+      <target>http://libmeta.ru/fme/article/1728_MASS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1699_8_MAKSVELLA-BOL'TsMANA">
+      <rel_text>температура</rel_text>
+      <target>http://libmeta.ru/fme/article/3038_TEMPERATUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1699_9_MAKSVELLA-BOL'TsMANA">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+  </relations>
+  <text>статистический метод описания физических свойств систем большого числа невзаимодействующих частиц (подчиняющихся классической механике) во внешнем потенциальном поле.
+
+М. - Б. с. представляет собой предельный случай квантовых Ферми - Дирака статистики и Бозе - Эйнштейна статистики при высоких температурах, когда квантовыми эффектами можно пренебречь.
+
+М. - Б. с. описывается равновесной функцией распределения $URI[[http://libmeta.ru/fme/formula/aux/1699_1_MAKSVELLA-BOL'TsMANA]]/URI$ (расп ределением Максвелла Б о л ь ц м а на) по импульсам $URI[[http://libmeta.ru/fme/formula/aux/1699_2_MAKSVELLA-BOL'TsMANA]]/URI$ и координатам $URI[[http://libmeta.ru/fme/formula/aux/1699_3_MAKSVELLA-BOL'TsMANA]]/URI$ URI[[http://libmeta.ru/fme/relation/1699_9_MAKSVELLA-BOL'TsMANA]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1699_1_MAKSVELLA-BOL'TsMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1699_4_MAKSVELLA-BOL'TsMANA]]/URI$ - постоянная Больцмана (универсальная постоянная $URI[[http://libmeta.ru/fme/formula/aux/1699_5_MAKSVELLA-BOL'TsMANA]]/URI$ эрг/град), $URI[[http://libmeta.ru/fme/formula/aux/1699_6_MAKSVELLA-BOL'TsMANA]]/URI$ - абсолютная URI[[http://libmeta.ru/fme/relation/1699_8_MAKSVELLA-BOL'TsMANA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1699_7_MAKSVELLA-BOL'TsMANA]]/URI$ URI[[http://libmeta.ru/fme/relation/1699_7_MAKSVELLA-BOL'TsMANA]]/URI URI[[http://libmeta.ru/fme/relation/1699_6_MAKSVELLA-BOL'TsMANA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1699_8_MAKSVELLA-BOL'TsMANA]]/URI$ - URI[[http://libmeta.ru/fme/relation/1699_5_MAKSVELLA-BOL'TsMANA]]/URI URI[[http://libmeta.ru/fme/relation/1699_4_MAKSVELLA-BOL'TsMANA]]/URI во внешнем поле, $URI[[http://libmeta.ru/fme/formula/aux/1699_9_MAKSVELLA-BOL'TsMANA]]/URI$ - константа нормировки, определяемая из условия
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1699_2_MAKSVELLA-BOL'TsMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1699_10_MAKSVELLA-BOL'TsMANA]]/URI$ - число URI[[http://libmeta.ru/fme/relation/1699_3_MAKSVELLA-BOL'TsMANA]]/URI.
+
+Предельный случай М.- Б. с. при $URI[[http://libmeta.ru/fme/formula/aux/1699_11_MAKSVELLA-BOL'TsMANA]]/URI$ называется р а с п р е де л е н и м М а с в е л ла, а проинтегрированная по импульсам М.- Б. с., представляющая URI[[http://libmeta.ru/fme/relation/1699_2_MAKSVELLA-BOL'TsMANA]]/URI числа URI[[http://libmeta.ru/fme/relation/1699_1_MAKSVELLA-BOL'TsMANA]]/URI в точке $URI[[http://libmeta.ru/fme/formula/aux/1699_12_MAKSVELLA-BOL'TsMANA]]/URI$ расп ределе нием Больцмана.</text>
+  <text_orig>статистический метод описания физических свойств систем большого числа невзаимодействуюших частиц (подчиняющихся классической механике) во внешнем потенциальном поле.
+
+М. - Б. с. представляет собой предельный случай квантовых Ферми - Дирака статистики и Бозе - Эйнитейна статистики при высоких температурах, когда квантовыми эффектами можно пренебречь.
+
+М. - Б. с. описывается равновесной функцией распределения $f(\vec{p}, \vec{q}) \quad$ (расп ределением Максвелла Б о л ь ц м а на) по импульсам $\vec{p}$ и координатам $\vec{q}$ частиц:
+
+\[
+f(\vec{p}, \vec{q})=A \exp \left\{\frac{-\frac{p^{2}}{2 m}+U(\vec{q})}{k T}\right\}
+\]
+
+где $k$ - постоянная Больцмана (универсальная постоянная $k=1,38 \cdot 10^{-16}$ эрг/град), $T$ - абсолютная температура, $m-$ масса частицы, $U(\vec{q})$ - потенциальная энергия частицы во внешнем поле, $A$ - константа нормировки, определяемая из условия
+
+\[
+\iint f(\vec{p}, \vec{q}) d^{3} \vec{q} d^{3} \vec{v}=N
+\]
+
+где $\vec{v}=\frac{\vec{p}}{m}, d^{3} \vec{v}=d v_{x} d v_{y} d v_{z}, N$ - число частиц.
+
+Предельный случай М.- Б. с. при $V=0$ называется р а с п р е де л е н и м М а с в е л ла, а проинтегрированная по импульсам М.- Б. с., представляющая плотность числа частиц в точке $\vec{q},-$ расп ределе нием Больцмана.
+
+Лит.: [1] М а й е р Д. Э., Г е п п е р т - М а й е р М., Статистическая механика, пер. с англ., М., 1980.</text_orig>
+</article>

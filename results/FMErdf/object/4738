@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_4738">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><mo>&#x021A6;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mtable><mtr><mtd columnalign="left"><mo stretchy="false">&#x00028;</mo><mi>&#x003BB;</mi><mi>x</mi><mo>&#x02212;</mo><mi>&#x003BB;</mi><mo>&#x0002B;</mo><mn>1</mn><mo>&#x0002C;</mo><mi>&#x003B3;</mi><mi>y</mi><mo>&#x02212;</mo><mi>&#x003B3;</mi><mo>&#x0002B;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo></mtd><mtd columnalign="left"><mtext>&#x000A0;при&#x000A0;</mtext><mi>y</mi><mo>&#x0003E;</mo><mi>k</mi><mi>x</mi><mo>&#x0002C;</mo></mtd></mtr><mtr><mtd columnalign="left"><mo stretchy="false">&#x00028;</mo><mi>&#x003BB;</mi><mi>x</mi><mo>&#x0002B;</mo><mi>&#x003BB;</mi><mo>&#x02212;</mo><mn>1</mn><mo>&#x0002C;</mo><mi>&#x003B3;</mi><mi>y</mi><mo>&#x0002B;</mo><mi>&#x003B3;</mi><mo>&#x02212;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo></mtd><mtd columnalign="left"><mtext>&#x000A0;при&#x000A0;</mtext><mi>y</mi><mo>&#x0003C;</mo><mi>k</mi><mi>x</mi><mo>&#x0002C;</mo></mtd></mtr></mtable></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$(x, y) \mapsto \begin{cases}(\lambda x-\lambda+1, \gamma y-\gamma+1) &amp; \text { при } y&gt;k x, \\ (\lambda x+\lambda-1, \gamma y+\gamma-1) &amp; \text { при } y&lt;k x,\end{cases}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

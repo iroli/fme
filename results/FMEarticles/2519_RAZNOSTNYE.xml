@@ -1,0 +1,355 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2519_RAZNOSTNYE" alphabetic_pos="2521">
+  <title>РАЗНОСТНЫЕ УРАВНЕНИЯ; АСИМПТОТИКА РЕШЕНИЯ</title>
+  <authors>
+    <author>В. Г. Данилов</author>
+    <author>П. Н. Жевандров</author>
+  </authors>
+  <pages>
+    <start>484</start>
+    <end>485</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Фе до р ю к М. В., «журнал вычислительной математики и математич. физики», 1967, т. 7, № 3, с. 510-40; [2] М асло в В. П., «успехи математич. наук», 1968 , т. 23 , в. 4, с. 243 ; [3] е го же, Операторные методы, М., 1973; [4] Дан и лов В. Г., Операторные методы исследования разностных схем, М., 1979; [5] Маслов В. П., Данилов В. Г., “труды Математич. ин-та Ah СССР», 1984, т. 166, c. 130-60; 1985, т. 167, c. 96-107; [6] Данилов В. Г., Жевандров П.Н., «известия Ан Ссср. Сер. математическая», 1989, т. 53, № 2, с. 411-24.</literature_orig>
+    <unit>
+      <author>Федорюк М. В.</author>
+      <title>«журнал вычислительной математики и математич. физики»</title>
+      <publication/>
+      <year>1967</year>
+      <other>т. 7, № 3, с. 510-40</other>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>«успехи математич. наук»</title>
+      <publication/>
+      <year>1968</year>
+      <other>т. 23, в. 4, с. 243</other>
+    </unit>
+    <unit>
+      <title>е го же, Операторные методы</title>
+      <publication>М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Данилов В. Г.</author>
+      <title>Операторные методы исследования разностных схем</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <author>Данилов В. Г.</author>
+      <title>“труды Математич. ин-та Ah СССР»</title>
+      <publication/>
+      <year>1984</year>
+      <other>т. 166, c. 130-60; 1985, т. 167, c. 96-107</other>
+    </unit>
+    <unit>
+      <author>Данилов В. Г.</author>
+      <author>Жевандров П. Н.</author>
+      <title>«известия Ан Ссср. Сер. математическая»</title>
+      <publication/>
+      <year>1989</year>
+      <other>т. 53, № 2, с. 411-24.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_1_RAZNOSTNYE">h^{2} \ddot{u}_{n}=c_{n}^{2}\left(u_{n+1}-2 u_{n}+u_{n-1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_2_RAZNOSTNYE">u(x)=h \pi^{-1} \sum_{n} u_{n} \sin [\pi(x-n h)] /(x-n h)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_3_RAZNOSTNYE">h^{2} u_{t t}+L(x,-i h \partial / \partial x) u=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_4_RAZNOSTNYE">L_{0}=\left\{x \in \mathbb{R}^{1}, p=\partial S_{0}(x) / \partial x\right\} \subset \mathbb{R}_{x}^{1} \times \mathbb{R}_{p}^{1},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_5_RAZNOSTNYE">M_{N}(x,-i \partial / \partial x, t, h)=\left(\partial_{t}^{2}+h^{-2} L(x,-i h \partial / \partial x)\right) \circ T_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_6_RAZNOSTNYE">L_{0}=\left\{x \in \mathbb{R}^{1}, p=1\right\}, H_{\omega}^{ \pm}(x, p)=H^{ \pm}(x, \omega p) / \omega,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_7_RAZNOSTNYE">\begin{gathered}T_{N}(x, \xi, t, h)=\sum_{+,-} \sum_{j=0}^{N} \exp \left(i \xi\left(S^{ \pm}(x, t, \omega)-x\right)\right) \times \\\times \chi_{j}(\xi) a_{j}^{ \pm}(x, t, \omega) \xi^{-j}, \quad \omega=h \xi, .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_8_RAZNOSTNYE">S_{t}^{ \pm}+H_{\omega}^{ \pm}\left(x, \nabla S^{ \pm}\right)=0,\left.\quad S^{ \pm}\right|_{t=0}=x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_9_RAZNOSTNYE">L(x,-i h \partial / \partial x) w=-h^{2} c^{2} u_{x x}+O\left(h^{3}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_10_RAZNOSTNYE">w_{t t}-c^{2} w_{x x}=f(x, t),\left.w\right|_{t=0}=\left.w_{t}\right|_{t=0}=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_11_RAZNOSTNYE">u=T_{N} u_{0}-E(t)\left(M_{N} u_{0}\right)+h r(x, t, h),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2519_12_RAZNOSTNYE">w_{t t}-c^{2} w_{x x}=0,\left.w\right|_{t=0}=w_{0},\left.w_{t}\right|_{t=0}=0,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_1_RAZNOSTNYE">\mathbf{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_2_RAZNOSTNYE">x=n h, n \in \mathbb{Z}, h-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_3_RAZNOSTNYE">u_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_4_RAZNOSTNYE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_5_RAZNOSTNYE">c_{n}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_6_RAZNOSTNYE">u_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_7_RAZNOSTNYE">x=n h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_8_RAZNOSTNYE">\mathbb{r}_{x}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_9_RAZNOSTNYE">u_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_10_RAZNOSTNYE">[-\pi / h, \pi / h]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_11_RAZNOSTNYE">\exp (h \partial / \partial x) u(x)=u(x+h)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_12_RAZNOSTNYE">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_13_RAZNOSTNYE">l(x, p)=4 c^{2} \sin ^{2} p / 2, c(x)&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_14_RAZNOSTNYE">c_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_15_RAZNOSTNYE">\left.u\right|_{t=0}=u_{0},\left.u_{t}\right|_{t=0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_16_RAZNOSTNYE">u_{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_17_RAZNOSTNYE">\quad u_{0}=\varphi_{0} \exp \left(i S_{0} / h\right), \quad \varphi_{0} \in</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_18_RAZNOSTNYE">\in C_{0}^{\infty}\left(\mathbb{R}_{x}^{1}\right), S_{0} \in C^{\infty}\left(\mathbb{R}_{x}^{1}\right), \partial S_{0} / \partial x \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_19_RAZNOSTNYE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_20_RAZNOSTNYE">l_{t}^{ \pm}=g^{ \pm}(t) L_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_21_RAZNOSTNYE">g^{ \pm}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_22_RAZNOSTNYE">h^{ \pm}(x, p)= \pm 2 c(x) \sin p / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_23_RAZNOSTNYE">\partial S_{0} / \partial x \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_24_RAZNOSTNYE">h^{ \pm}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_25_RAZNOSTNYE">p=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_26_RAZNOSTNYE">l_{2}\left(\mathbb{r}_{x}^{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_27_RAZNOSTNYE">\mathscr{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_28_RAZNOSTNYE">u_{0}(n h)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_29_RAZNOSTNYE">n h \notin . K</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_30_RAZNOSTNYE">t_{n}(x,-i \partial / \partial x, t, h)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_31_RAZNOSTNYE">\left\|m_{n} u\right\| \leqslant</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_32_RAZNOSTNYE">\|u\|_{l_{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_33_RAZNOSTNYE">k=k(n) \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_34_RAZNOSTNYE">n \rightarrow \infty, H_{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_35_RAZNOSTNYE">\left.T_{N}\right|_{t=0}=\mathscr{P}(x) \Pi(-i h \partial / \partial x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_36_RAZNOSTNYE">\partial T_{N} /\left.\partial t\right|_{t=0}=0, \mathscr{P} \in C_{0}^{\infty}\left(\mathbb{R}_{x}^{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_37_RAZNOSTNYE">\mathscr{p}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_38_RAZNOSTNYE">x \in \mathscr{K}, \Pi(\omega)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_39_RAZNOSTNYE">[-\pi, \pi]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_40_RAZNOSTNYE">t_{n}(x, \xi, t, n)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_41_RAZNOSTNYE">t_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_42_RAZNOSTNYE">\xi^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_43_RAZNOSTNYE">l_{t}^{ \pm}(\omega)=g_{\omega}^{ \pm}(t) L_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_44_RAZNOSTNYE">g_{\omega}^{ \pm}(t)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_45_RAZNOSTNYE">h_{\omega}^{ \pm}, \omega-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_46_RAZNOSTNYE">-\pi \leqslant \omega \leqslant \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_47_RAZNOSTNYE">l_{t}^{ \pm}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_48_RAZNOSTNYE">\mathbb{r}_{x}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_49_RAZNOSTNYE">t_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_50_RAZNOSTNYE">s^{ \pm}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_51_RAZNOSTNYE">a_{j}^{ \pm}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_52_RAZNOSTNYE">\chi_{0} \equiv 1, \chi_{j}, j \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_53_RAZNOSTNYE">|\xi| \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_54_RAZNOSTNYE">h_{\omega}^{ \pm}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_55_RAZNOSTNYE">p=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_56_RAZNOSTNYE">t_{n} u_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_57_RAZNOSTNYE">h_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_58_RAZNOSTNYE">e(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_59_RAZNOSTNYE">w=e(t) f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_60_RAZNOSTNYE">r(x, t, h)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_61_RAZNOSTNYE">h_{k(n)+1}\left(\mathbb{r}_{x}^{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_62_RAZNOSTNYE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_63_RAZNOSTNYE">t \in\left[0, t_{0}\right], t_{0}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_64_RAZNOSTNYE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_65_RAZNOSTNYE">x=n h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_66_RAZNOSTNYE">u_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_67_RAZNOSTNYE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_68_RAZNOSTNYE">\mathscr{w}^{\prime}\left(\mathbb{r}_{x}^{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_69_RAZNOSTNYE">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_70_RAZNOSTNYE">w_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_71_RAZNOSTNYE">u_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_72_RAZNOSTNYE">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_73_RAZNOSTNYE">u_{0}=h^{-1 / 2} \delta_{h}\left(x-x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_74_RAZNOSTNYE">\delta_{h}(x)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_75_RAZNOSTNYE">x=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_76_RAZNOSTNYE">\delta_{h}(x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_77_RAZNOSTNYE">x=n h, n \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2519_78_RAZNOSTNYE">c</formula>
+  </formulas_aux>
+  <relations n="12">
+    <relation uri="http://libmeta.ru/fme/relation/2519_1_RAZNOSTNYE">
+      <rel_text>Черенкова эффект в разностных уравнениях</rel_text>
+      <target>http://libmeta.ru/fme/article/3418_ChERENKOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_2_RAZNOSTNYE">
+      <rel_text>Осцилляций</rel_text>
+      <target>http://libmeta.ru/fme/article/2129_OSTsILLJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_3_RAZNOSTNYE">
+      <rel_text>решение задачи</rel_text>
+      <target>http://libmeta.ru/fme/article/2547_RASSEJaNIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_4_RAZNOSTNYE">
+      <rel_text>ошибки»</rel_text>
+      <target>http://libmeta.ru/fme/article/2154_OShIBK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_5_RAZNOSTNYE">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_6_RAZNOSTNYE">
+      <rel_text>решением задачи</rel_text>
+      <target>http://libmeta.ru/fme/article/2547_RASSEJaNIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_7_RAZNOSTNYE">
+      <rel_text>квазиклассич</rel_text>
+      <target>http://libmeta.ru/fme/article/1138_KVAZIIMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_8_RAZNOSTNYE">
+      <rel_text>уравнения кристалла</rel_text>
+      <target>http://libmeta.ru/fme/article/1465_KRISTALLA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_9_RAZNOSTNYE">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_10_RAZNOSTNYE">
+      <rel_text>частью</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_11_RAZNOSTNYE">
+      <rel_text>уравнения кристалла</rel_text>
+      <target>http://libmeta.ru/fme/article/1465_KRISTALLA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2519_12_RAZNOSTNYE">
+      <rel_text>на гладких функциях</rel_text>
+      <target>http://libmeta.ru/fme/article/107_ASIMPTOTIKA</target>
+    </relation>
+  </relations>
+  <text>асимптотика решения, которая может быть получена в результате перехода от разностных уравнений $URI[[http://libmeta.ru/fme/formula/aux/2519_1_RAZNOSTNYE]]/URI$ псевдодифференциальным и дальнейшего использования квазиклассического приближения. Типичным примером является дифференциально-разностная задача о колебаниях связанных линейных осцилляторов, положения равновесия к-рых находятся в узлах сетки $URI[[http://libmeta.ru/fme/formula/aux/2519_2_RAZNOSTNYE]]/URI$ малый параметр. Функция $URI[[http://libmeta.ru/fme/formula/aux/2519_3_RAZNOSTNYE]]/URI$ - смещение $URI[[http://libmeta.ru/fme/formula/aux/2519_4_RAZNOSTNYE]]/URI$-го осциллятора удовлетворяет уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_1_RAZNOSTNYE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2519_5_RAZNOSTNYE]]/URI$ скорость звука. Сеточную функцию $URI[[http://libmeta.ru/fme/formula/aux/2519_6_RAZNOSTNYE]]/URI$, заданную в узлах $URI[[http://libmeta.ru/fme/formula/aux/2519_7_RAZNOSTNYE]]/URI$, можно продолжить на всю прямую $URI[[http://libmeta.ru/fme/formula/aux/2519_8_RAZNOSTNYE]]/URI$ с помощью интерполяционных формул Котельникова: функция
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_2_RAZNOSTNYE]]/URI
+\]
+
+в узлах принимает значения $URI[[http://libmeta.ru/fme/formula/aux/2519_9_RAZNOSTNYE]]/URI$, причем носитель преобразования Фурье этой функции принадлежит отрезку $URI[[http://libmeta.ru/fme/formula/aux/2519_10_RAZNOSTNYE]]/URI$. Используя формулу $URI[[http://libmeta.ru/fme/formula/aux/2519_11_RAZNOSTNYE]]/URI$ исходное дифференциально-разностное уравнение можно представить в виде псевдодифференциального уравнения для $URI[[http://libmeta.ru/fme/formula/aux/2519_12_RAZNOSTNYE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_3_RAZNOSTNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2519_13_RAZNOSTNYE]]/URI$,- гладкая функция, принимающая в узлах сетки значения $URI[[http://libmeta.ru/fme/formula/aux/2519_14_RAZNOSTNYE]]/URI$ (предполагается, что такая функция существует). Для полученного псевдодифференциального уравнения, называемого уравнение м к р и с т а л л а, ставится задача Коши с начальными условиями вида: $URI[[http://libmeta.ru/fme/formula/aux/2519_15_RAZNOSTNYE]]/URI$. Если функция $URI[[http://libmeta.ru/fme/formula/aux/2519_16_RAZNOSTNYE]]/URI$ быстро осциллирующая экспонента, $URI[[http://libmeta.ru/fme/formula/aux/2519_17_RAZNOSTNYE]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2519_18_RAZNOSTNYE]]/URI$, то асимптотическое по параметру $URI[[http://libmeta.ru/fme/formula/aux/2519_19_RAZNOSTNYE]]/URI$ решение этой задачи стандартным образом выражается через Маслова канонический оператор на лагранжевых многообразиях $URI[[http://libmeta.ru/fme/formula/aux/2519_20_RAZNOSTNYE]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_4_RAZNOSTNYE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2519_21_RAZNOSTNYE]]/URI$ - фазовые потоки гамильтоновых систем с гамильтонианами $URI[[http://libmeta.ru/fme/formula/aux/2519_22_RAZNOSTNYE]]/URI$. Траектории этих систем называются 6 ихарактеристикам и исходной дифференциально-разностной задачи. Ограничение $URI[[http://libmeta.ru/fme/formula/aux/2519_23_RAZNOSTNYE]]/URI$, типичное для задач рассматриваемого класса, связано с сов- падением гамильтонианов $URI[[http://libmeta.ru/fme/formula/aux/2519_24_RAZNOSTNYE]]/URI$при $URI[[http://libmeta.ru/fme/formula/aux/2519_25_RAZNOSTNYE]]/URI$, что приводит к появлению особенностей у решений соответствующих уравнений переноса. Построение асимптотики решения задачи Коши с произвольными начальными данными из $URI[[http://libmeta.ru/fme/formula/aux/2519_26_RAZNOSTNYE]]/URI$, носитель к-рого принадлежит нек-рому компакту $URI[[http://libmeta.ru/fme/formula/aux/2519_27_RAZNOSTNYE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2519_28_RAZNOSTNYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2519_29_RAZNOSTNYE]]/URI$, состоит из двух этапов. Сначала строится параметрикс задачи Коши, то есть такая последовательность операторов $URI[[http://libmeta.ru/fme/formula/aux/2519_30_RAZNOSTNYE]]/URI$, что композиция
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_5_RAZNOSTNYE]]/URI
+\]
+
+является сглаживающим оператором, $URI[[http://libmeta.ru/fme/formula/aux/2519_31_RAZNOSTNYE]]/URI$ const $URI[[http://libmeta.ru/fme/formula/aux/2519_32_RAZNOSTNYE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2519_33_RAZNOSTNYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2519_34_RAZNOSTNYE]]/URI$ пространства Соболева, и выполнены начальные условия $URI[[http://libmeta.ru/fme/formula/aux/2519_35_RAZNOSTNYE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2519_36_RAZNOSTNYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2519_37_RAZNOSTNYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2519_38_RAZNOSTNYE]]/URI$ характеристич. функция отрезка $URI[[http://libmeta.ru/fme/formula/aux/2519_39_RAZNOSTNYE]]/URI$ (см. Волновое уравнение; асимптотические решения). Символ $URI[[http://libmeta.ru/fme/formula/aux/2519_40_RAZNOSTNYE]]/URI$ оператора $URI[[http://libmeta.ru/fme/formula/aux/2519_41_RAZNOSTNYE]]/URI$ выражается через канонич. оператор Маслова, отвечающий параметру $URI[[http://libmeta.ru/fme/formula/aux/2519_42_RAZNOSTNYE]]/URI$ на семействах лагранжевых многообразий $URI[[http://libmeta.ru/fme/formula/aux/2519_43_RAZNOSTNYE]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_6_RAZNOSTNYE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2519_44_RAZNOSTNYE]]/URI$ фазовые потоки, отвечающие гамильтонианам $URI[[http://libmeta.ru/fme/formula/aux/2519_45_RAZNOSTNYE]]/URI$ параметр, $URI[[http://libmeta.ru/fme/formula/aux/2519_46_RAZNOSTNYE]]/URI$. При условии, что $URI[[http://libmeta.ru/fme/formula/aux/2519_47_RAZNOSTNYE]]/URI$ диффеоморфно проектируется на $URI[[http://libmeta.ru/fme/formula/aux/2519_48_RAZNOSTNYE]]/URI$, символ $URI[[http://libmeta.ru/fme/formula/aux/2519_49_RAZNOSTNYE]]/URI$ имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_7_RAZNOSTNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2519_50_RAZNOSTNYE]]/URI$решения уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_8_RAZNOSTNYE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2519_51_RAZNOSTNYE]]/URI$решения соответствующих уравнений переноса, $URI[[http://libmeta.ru/fme/formula/aux/2519_52_RAZNOSTNYE]]/URI$, - гладкие функции, равные нулю в окрестности нуля и 1 при $URI[[http://libmeta.ru/fme/formula/aux/2519_53_RAZNOSTNYE]]/URI$. Поскольку гамильтонианы $URI[[http://libmeta.ru/fme/formula/aux/2519_54_RAZNOSTNYE]]/URI$ различны при $URI[[http://libmeta.ru/fme/formula/aux/2519_55_RAZNOSTNYE]]/URI$, решения уравнений переноса являются гладкими функциями. Функция $URI[[http://libmeta.ru/fme/formula/aux/2519_56_RAZNOSTNYE]]/URI$ удовлетворяет начальным данным и уравнению кристалла с точностью до гладкой (из $URI[[http://libmeta.ru/fme/formula/aux/2519_57_RAZNOSTNYE]]/URI$ ) функции, то есть является асимптотикой по гладкости. В силу того, что URI[[http://libmeta.ru/fme/relation/2519_12_RAZNOSTNYE]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_9_RAZNOSTNYE]]/URI
+\]
+
+решение URI[[http://libmeta.ru/fme/relation/2519_11_RAZNOSTNYE]]/URI с гладкой правой URI[[http://libmeta.ru/fme/relation/2519_10_RAZNOSTNYE]]/URI выражается через решение предельного волнового уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_10_RAZNOSTNYE]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2519_58_RAZNOSTNYE]]/URI$ - разрешающий URI[[http://libmeta.ru/fme/relation/2519_9_RAZNOSTNYE]]/URI последней задачи, $URI[[http://libmeta.ru/fme/formula/aux/2519_59_RAZNOSTNYE]]/URI$. Тогда для решения URI[[http://libmeta.ru/fme/relation/2519_8_RAZNOSTNYE]]/URI справедлива формула
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_11_RAZNOSTNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2519_60_RAZNOSTNYE]]/URI$ принадлежит $URI[[http://libmeta.ru/fme/formula/aux/2519_61_RAZNOSTNYE]]/URI$ равномерно по $URI[[http://libmeta.ru/fme/formula/aux/2519_62_RAZNOSTNYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2519_63_RAZNOSTNYE]]/URI$. Сужение функции $URI[[http://libmeta.ru/fme/formula/aux/2519_64_RAZNOSTNYE]]/URI$ на сетку $URI[[http://libmeta.ru/fme/formula/aux/2519_65_RAZNOSTNYE]]/URI$ дает решение исходной дифференциально-разностной задачи. Данная формула в случае, когда $URI[[http://libmeta.ru/fme/formula/aux/2519_66_RAZNOSTNYE]]/URI$ - быстро осциллирующая экспонента, приводится к стандартному виду URI[[http://libmeta.ru/fme/relation/2519_7_RAZNOSTNYE]]/URI. асимптотики с помощью метода стационарной фазы. Из нее следует, в частности, что слабый предел функции $URI[[http://libmeta.ru/fme/formula/aux/2519_67_RAZNOSTNYE]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2519_68_RAZNOSTNYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2519_69_RAZNOSTNYE]]/URI$, если он существует, совпадает с URI[[http://libmeta.ru/fme/relation/2519_6_RAZNOSTNYE]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2519_12_RAZNOSTNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2519_70_RAZNOSTNYE]]/URI$ - слабый предел функции $URI[[http://libmeta.ru/fme/formula/aux/2519_71_RAZNOSTNYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2519_72_RAZNOSTNYE]]/URI$. С помощью этой формулы URI[[http://libmeta.ru/fme/relation/2519_5_RAZNOSTNYE]]/URI решение в задаче о распространении «функции единичной URI[[http://libmeta.ru/fme/relation/2519_4_RAZNOSTNYE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2519_73_RAZNOSTNYE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2519_74_RAZNOSTNYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2519_75_RAZNOSTNYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2519_76_RAZNOSTNYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2519_77_RAZNOSTNYE]]/URI$; а также URI[[http://libmeta.ru/fme/relation/2519_3_RAZNOSTNYE]]/URI об излучении движущегося источника (см. также URI[[http://libmeta.ru/fme/relation/2519_2_RAZNOSTNYE]]/URI шлейф, URI[[http://libmeta.ru/fme/relation/2519_1_RAZNOSTNYE]]/URI). Изложенные методы переносятся на более общие дифференциально-разностные, разностные и псевдодифференциальные уравнения. Они позволяют, напр., изучать устойчивость разностных схем в $URI[[http://libmeta.ru/fme/formula/aux/2519_78_RAZNOSTNYE]]/URI$.</text>
+  <text_orig>асимптотика решения, которая может быть получена в результате перехода от разностных уравнений $\mathbf{K}$ псевдодифференциальным и дальнейшего использования квазиклассического приближения. Типичным примером является дифференциально-разностная задача о колебаниях связанных линейных осцилляторов, положения равновесия к-рых находятся в узлах сетки $x=n h, n \in \mathbb{Z}, h-$ малый параметр. Функция $u_{n}$ - смещение $n$-го осциллятора удовлетворяет уравнению
+
+\[
+h^{2} \ddot{u}_{n}=c_{n}^{2}\left(u_{n+1}-2 u_{n}+u_{n-1}\right)
+\]
+
+$c_{n}-$ скорость звука. Сеточную функцию $u_{n}$, заданную в узлах $x=n h$, можно продолжить на всю прямую $\mathbb{R}_{x}^{1}$ с помощью интерполяционных формул Котельникова: функция
+
+\[
+u(x)=h \pi^{-1} \sum_{n} u_{n} \sin [\pi(x-n h)] /(x-n h)
+\]
+
+в узлах принимает значения $u_{n}$, причем носитель преобразования Фурье этой функции принадлежит отрезку $[-\pi / h, \pi / h]$. Используя формулу $\exp (h \partial / \partial x) u(x)=u(x+h)$ исходное дифференциально-разностное уравнение можно представить в виде псевдодифференциального уравнения для $u(x, t)$ :
+
+\[
+h^{2} u_{t t}+L(x,-i h \partial / \partial x) u=0,
+\]
+
+где $L(x, p)=4 c^{2} \sin ^{2} p / 2, c(x)&gt;0$,- гладкая функция, принимающая в узлах сетки значения $c_{n}$ (предполагается, что такая функция существует). Для полученного псевдодифференциального уравнения, называемого уравнение м к р и с т а л л а, ставится задача Коши с начальными условиями вида: $\left.u\right|_{t=0}=u_{0},\left.u_{t}\right|_{t=0}=0$. Если функция $u_{0}-$ быстро осциллирующая экспонента, $\quad u_{0}=\varphi_{0} \exp \left(i S_{0} / h\right), \quad \varphi_{0} \in$ $\in C_{0}^{\infty}\left(\mathbb{R}_{x}^{1}\right), S_{0} \in C^{\infty}\left(\mathbb{R}_{x}^{1}\right), \partial S_{0} / \partial x \neq 0$, то асимптотическое по параметру $h$ решение этой задачи стандартным образом выражается через Маслова канонический оператор на лагранжевых многообразиях $L_{t}^{ \pm}=g^{ \pm}(t) L_{0}$, где
+
+\[
+L_{0}=\left\{x \in \mathbb{R}^{1}, p=\partial S_{0}(x) / \partial x\right\} \subset \mathbb{R}_{x}^{1} \times \mathbb{R}_{p}^{1},
+\]
+
+$g^{ \pm}(t)$ - фазовые потоки гамильтоновых систем с гамильтонианами $H^{ \pm}(x, p)= \pm 2 c(x) \sin p / 2$. Траектории этих систем называются 6 ихарактеристикам и исходной дифференциально-разностной задачи. Ограничение $\partial S_{0} / \partial x \neq 0$, типичное для задач рассматриваемого класса, связано с сов- падением гамильтонианов $H^{ \pm}$при $p=0$, что приводит к появлению особенностей у решений соответствующих уравнений переноса. Построение асимптотики решения задачи Коши с произвольными начальными данными из $L_{2}\left(\mathbb{R}_{x}^{1}\right)$, носитель к-рого принадлежит нек-рому компакту $\mathscr{K}$, $u_{0}(n h)=0$ при $n h \notin . K$, состоит из двух этапов. Сначала строится параметрикс задачи Коши, то есть такая последовательность операторов $T_{N}(x,-i \partial / \partial x, t, h)$, что композиция
+
+\[
+M_{N}(x,-i \partial / \partial x, t, h)=\left(\partial_{t}^{2}+h^{-2} L(x,-i h \partial / \partial x)\right) \circ T_{N}
+\]
+
+является сглаживающим оператором, $\left\|M_{N} u\right\| \leqslant$ const $\|u\|_{L_{2}}$, $k=k(N) \rightarrow \infty$ при $N \rightarrow \infty, H_{k}-$ пространства Соболева, и выполнены начальные условия $\left.T_{N}\right|_{t=0}=\mathscr{P}(x) \Pi(-i h \partial / \partial x)$, $\partial T_{N} /\left.\partial t\right|_{t=0}=0, \mathscr{P} \in C_{0}^{\infty}\left(\mathbb{R}_{x}^{1}\right)$ и $\mathscr{P}=1$ при $x \in \mathscr{K}, \Pi(\omega)-$ характеристич. функция отрезка $[-\pi, \pi]$ (см. Волновое уравнение; асимптотические решения). Символ $T_{N}(x, \xi, t, n)$ оператора $T_{N}$ выражается через канонич. оператор Маслова, отвечающий параметру $\xi^{-1}$ на семействах лагранжевых многообразий $L_{t}^{ \pm}(\omega)=g_{\omega}^{ \pm}(t) L_{0}$, где
+
+\[
+L_{0}=\left\{x \in \mathbb{R}^{1}, p=1\right\}, H_{\omega}^{ \pm}(x, p)=H^{ \pm}(x, \omega p) / \omega,
+\]
+
+$g_{\omega}^{ \pm}(t)-$ фазовые потоки, отвечающие гамильтонианам $H_{\omega}^{ \pm}, \omega-$ параметр, $-\pi \leqslant \omega \leqslant \pi$. При условии, что $L_{t}^{ \pm}(\omega)$ диффеоморфно проектируется на $\mathbb{R}_{x}^{1}$, символ $T_{N}$ имеет вид:
+
+\[
+\begin{gathered}
+T_{N}(x, \xi, t, h)=\sum_{+,-} \sum_{j=0}^{N} \exp \left(i \xi\left(S^{ \pm}(x, t, \omega)-x\right)\right) \times \\
+\times \chi_{j}(\xi) a_{j}^{ \pm}(x, t, \omega) \xi^{-j}, \quad \omega=h \xi, .
+\end{gathered}
+\]
+
+где $S^{ \pm}-$решения уравнений
+
+\[
+S_{t}^{ \pm}+H_{\omega}^{ \pm}\left(x, \nabla S^{ \pm}\right)=0,\left.\quad S^{ \pm}\right|_{t=0}=x
+\]
+
+$a_{j}^{ \pm}-$решения соответствующих уравнений переноса, $\chi_{0} \equiv 1, \chi_{j}, j \geqslant 1$, - гладкие функции, равные нулю в окрестности нуля и 1 при $|\xi| \geqslant 1$. Поскольку гамильтонианы $H_{\omega}^{ \pm}$ различны при $p=1$, решения уравнений переноса являются гладкими функциями. Функция $T_{N} u_{0}$ удовлетворяет начальным данным и уравнению кристалла с точностью до гладкой (из $H_{k}$ ) функции, то есть является асимптотикой по гладкости. В силу того, что на гладких функциях
+
+\[
+L(x,-i h \partial / \partial x) w=-h^{2} c^{2} u_{x x}+O\left(h^{3}\right),
+\]
+
+решение уравнения кристалла с гладкой правой частью выражается через решение предельного волнового уравнения
+
+\[
+w_{t t}-c^{2} w_{x x}=f(x, t),\left.w\right|_{t=0}=\left.w_{t}\right|_{t=0}=0 .
+\]
+
+Пусть $E(t)$ - разрешающий оператор последней задачи, $w=E(t) f$. Тогда для решения уравнения кристалла справедлива формула
+
+\[
+u=T_{N} u_{0}-E(t)\left(M_{N} u_{0}\right)+h r(x, t, h),
+\]
+
+где $r(x, t, h)$ принадлежит $H_{k(N)+1}\left(\mathbb{R}_{x}^{1}\right)$ равномерно по $h$ и $t \in\left[0, t_{0}\right], t_{0}&lt;\infty$. Сужение функции $u$ на сетку $x=n h$ дает решение исходной дифференциально-разностной задачи. Данная формула в случае, когда $u_{0}$ - быстро осциллирующая экспонента, приводится к стандартному виду квазиклассич. асимптотики с помощью метода стационарной фазы. Из нее следует, в частности, что слабый предел функции $u$ в $\mathscr{W}^{\prime}\left(\mathbb{R}_{x}^{1}\right)$ при $h \rightarrow 0$, если он существует, совпадает с решением задачи
+
+\[
+w_{t t}-c^{2} w_{x x}=0,\left.w\right|_{t=0}=w_{0},\left.w_{t}\right|_{t=0}=0,
+\]
+
+где $w_{0}$ - слабый предел функции $u_{0}$ при $h \rightarrow 0$. С помощью этой формулы получается решение в задаче о распространении «функции единичной ошибки» $u_{0}=h^{-1 / 2} \delta_{h}\left(x-x_{0}\right)$, $\delta_{h}(x)=1$ при $x=0$ и $\delta_{h}(x)=0$ при $x=n h, n \neq 0$; а также решение задачи об излучении движущегося источника (см. также Осцилляций шлейф, Черенкова эффект в разностных уравнениях). Изложенные методы переносятся на более общие дифференциально-разностные, разностные и псевдодифференциальные уравнения. Они позволяют, напр., изучать устойчивость разностных схем в $C$.
+
+Лит.: [1] Фе до р ю к М. В., «Журнал вычислительной математики и математич. физики», 1967, т. 7, № 3, с. 510-40; [2] М асло в В. П., «Успехи математич. наук», 1968 , т. 23 , в. 4, с. 243 ; [3] е го же, Операторные методы, М., 1973; [4] Дан и лов В. Г., Операторные методы исследования разностных схем, М., 1979; [5] Маслов В. П., Данилов В. Г., “Труды Математич. ин-та AH СССР», 1984, т. 166, c. 130-60; 1985, т. 167, c. 96-107; [6] Данилов В. Г., Жевандров П.Н., «Известия АН СССР. Сер. математическая», 1989, т. 53, № 2, с. 411-24.
+
+В. Г. Данилов, П. Н. Жевандров.</text_orig>
+</article>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1530_LANDAU" alphabetic_pos="1532">
+  <title>ЛАНДАУ ЗАТУХАНИЕ</title>
+  <authors/>
+  <pages>
+    <start>317</start>
+    <end>317</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Л а нд а у Л. Д., «журнал эксперим. и теоретич. физики», $\begin{array}{ll}1946 \text {, т. 16, с. } 574 . &amp; \text { В. В. Красильников. }\end{array}$</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <title>«журнал эксперим. и теоретич. физики»</title>
+      <publication/>
+      <year>1946</year>
+      <other>т. 16, с. } 574 . &amp; \text { В. В. Красильников. }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1530_1_LANDAU">\gamma_{k}=\left(\frac{\pi}{8}\right)^{1 / 2} \frac{\omega_{0}}{\left(k r_{D}\right)^{3}} \exp \left\{-\frac{1}{2 k^{2} r_{D}^{2}}-\frac{3}{2}\right\}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1530_1_LANDAU">\gamma_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1530_2_LANDAU">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1530_3_LANDAU">r_{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1530_4_LANDAU">\omega_{0}</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/1530_1_LANDAU">
+      <rel_text>механизм</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1530_2_LANDAU">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1530_3_LANDAU">
+      <rel_text>энергию</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1530_4_LANDAU">
+      <rel_text>энергию</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1530_5_LANDAU">
+      <rel_text>фазовой скорости</rel_text>
+      <target>http://libmeta.ru/fme/article/3236_FAZOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1530_6_LANDAU">
+      <rel_text>скоростью</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1530_7_LANDAU">
+      <rel_text>частота</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1530_8_LANDAU">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1530_9_LANDAU">
+      <rel_text>скоростям</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1530_10_LANDAU">
+      <rel_text>Власова уравнением</rel_text>
+      <target>http://libmeta.ru/fme/article/420_VLASOVA</target>
+    </relation>
+  </relations>
+  <text>Процесс затухания электромагнитного поля в бесстолкновительной плазме, описываемой URI[[http://libmeta.ru/fme/relation/1530_10_LANDAU]]/URI (предсказано Л. Д. Ландау, см. [1]). В случае, когда электроны имеют равновесное максвелловское распределение по URI[[http://libmeta.ru/fme/relation/1530_9_LANDAU]]/URI, декремент затухания $URI[[http://libmeta.ru/fme/formula/aux/1530_1_LANDAU]]/URI$ электромагнитного поля определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1530_1_LANDAU]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1530_2_LANDAU]]/URI$ - волновой URI[[http://libmeta.ru/fme/relation/1530_8_LANDAU]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1530_3_LANDAU]]/URI$ - радиус Дебая, $URI[[http://libmeta.ru/fme/formula/aux/1530_4_LANDAU]]/URI$ - плазменная URI[[http://libmeta.ru/fme/relation/1530_7_LANDAU]]/URI. При распространении электромагнитной волны электроны, движущиеся со URI[[http://libmeta.ru/fme/relation/1530_6_LANDAU]]/URI меньшей URI[[http://libmeta.ru/fme/relation/1530_5_LANDAU]]/URI волны, отбирают у нее URI[[http://libmeta.ru/fme/relation/1530_4_LANDAU]]/URI, а электроны, опережающие волну, отдают ей URI[[http://libmeta.ru/fme/relation/1530_3_LANDAU]]/URI. Поэтому, если функция распределения электронов является убывающей функцией URI[[http://libmeta.ru/fme/relation/1530_2_LANDAU]]/URI, то волна будет затухать. Этот URI[[http://libmeta.ru/fme/relation/1530_1_LANDAU]]/URI и обуславливает Л. 3.</text>
+  <text_orig>Процесс затухания электромагнитного поля в бесстолкновительной плазме, описываемой Власова уравнением (предсказано Л. Д. Ландау, см. [1]). В случае, когда электроны имеют равновесное максвелловское распределение по скоростям, декремент затухания $\gamma_{k}$ электромагнитного поля определяется формулой
+
+\[
+\gamma_{k}=\left(\frac{\pi}{8}\right)^{1 / 2} \frac{\omega_{0}}{\left(k r_{D}\right)^{3}} \exp \left\{-\frac{1}{2 k^{2} r_{D}^{2}}-\frac{3}{2}\right\}
+\]
+
+где $k$ - волновой вектор, $r_{D}$ - радиус Дебая, $\omega_{0}$ - плазменная частота. При распространении электромагнитной волны электроны, движушиеся со скоростью менышей фазовой скорости волны, отбирают у нее энергию, а электроны, опережающие волну, отдают ей энергию. Поэтому, если функция распределения электронов является убывающей функцией энергии, то волна будет затухать. Этот механизм и обуславливает Л. 3.
+
+Лит.: [1] Л а нд а у Л. Д., «Журнал эксперим. и теоретич. физики», $\begin{array}{ll}1946 \text {, т. 16, с. } 574 . &amp; \text { В. В. Красильников. }\end{array}$</text_orig>
+</article>

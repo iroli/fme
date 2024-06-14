@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_22285">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>H</mi><mo>&#x0003D;</mo><mo>&#x0222B;</mo><msup><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mo>&#x0002B;</mo></mrow></msup><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo stretchy="false">&#x00029;</mo><msup><mi>H</mi><mrow><mo stretchy="false">&#x00028;</mo><mn>1</mn><mo stretchy="false">&#x00029;</mo></mrow></msup><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo stretchy="false">&#x00029;</mo><mi>d</mi><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo>&#x0002B;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mo>&#x0222B;</mo><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msup><mover><mrow><mrow><mi mathvariant="bold-italic">&#x003C8;</mi></mrow></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mo>&#x0002B;</mo></mrow></msup><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo stretchy="false">&#x00029;</mo><msup><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mo>&#x0002B;</mo></mrow></msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mrow><mi mathvariant="bold-italic">x</mi></mrow><mrow><mi>&#x02032;</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>&#x000D7;</mi><mo stretchy="true" fence="true" form="postfix" /></mrow><mspace linebreak="newline" /><mrow><mo stretchy="true" fence="true" form="prefix" /><mi>&#x000D7;</mi><msup><mi>U</mi><mrow><mo stretchy="false">&#x00028;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo></mrow></msup><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mo stretchy="false">&#x00028;</mo><mrow><mi mathvariant="bold-italic">x</mi></mrow><mo stretchy="false">&#x00029;</mo><mover><mrow><mi>&#x003C8;</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mrow><mi mathvariant="bold-italic">x</mi></mrow><mrow><mi>&#x02032;</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mi>d</mi><mrow><mi mathvariant="bold-italic">x</mi></mrow><mi>d</mi><msup><mrow><mi mathvariant="bold-italic">x</mi></mrow><mrow><mi>&#x02032;</mi></mrow></msup><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}H=\int \hat{\psi}^{+}(\boldsymbol{x}) H^{(1)} \hat{\psi}(\boldsymbol{x}) d \boldsymbol{x}+\frac{1}{2} \int\left[\hat{\boldsymbol{\psi}}^{+}(\boldsymbol{x}) \hat{\psi}^{+}\left(\boldsymbol{x}^{\prime}\right) \times\right. \\\left.\times U^{(2)} \hat{\psi}(\boldsymbol{x}) \hat{\psi}\left(\boldsymbol{x}^{\prime}\right)\right] d \boldsymbol{x} d \boldsymbol{x}^{\prime} .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

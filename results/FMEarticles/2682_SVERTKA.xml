@@ -1,0 +1,274 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2682_SVERTKA" alphabetic_pos="2684">
+  <title>СВЕРТКА ОБОБЩЕННЫХ ФУНКЦИЙ</title>
+  <authors/>
+  <pages>
+    <start>519</start>
+    <end>520</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] В ла д и м и р о в В. С., Обобщенные функции в математической физике, 2 изд., М., 1979; [2] Гельфанд И. М., Ш и л о в Г. Е., Обобщенные функции и действия над ними, 2 изд., М., 1959; [3] 3 е м а н я н А. Г., Интегральные преобразования обобшен$\begin{array}{ll}\text { ных функций, пер. с англ., М., } 1974 . &amp; \text { B. В. Жаринов. }\end{array}$</literature_orig>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Обобщенные функции в математической физике</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гельфанд И. М.</author>
+      <author>Шилов Г. Е.</author>
+      <title>Обобщенные функции и действия над ними</title>
+      <publication>2 изд., М.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>3еманян А. Г.</author>
+      <title>Интегральные преобразования обобшен$\begin{array}{ll}\text { ных функций</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2682_1_SVERTKA">f * g(x)=\int f(x-y) g(y) d^{n} y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2682_2_SVERTKA">(f * g, \Phi)=(f \otimes g, \Psi), \Phi \in \mathscr{H},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2682_3_SVERTKA">f * g \in \mathscr{H}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2682_4_SVERTKA">\Psi(x, y)=\Phi(x+y) \in \mathbb{E} \otimes \mathscr{D}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2682_5_SVERTKA">\Psi(x, y)=\Phi(x+y) \notin \mathcal{S}\left(\mathbb{R}^{2 n}\right)=\mathscr{I}\left(\mathbb{R}^{n}\right) \otimes \mathcal{Y}\left(\mathbb{R}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2682_6_SVERTKA">\Psi(x, y) \in \mathscr{I}\left(\Gamma \times \Gamma_{+}\right)=\mathscr{I}\left(\Gamma_{+}\right) \otimes \mathscr{I}\left(\Gamma_{+}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_1_SVERTKA">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_2_SVERTKA">g(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_3_SVERTKA">\mathscr{f}, \mathscr{G}, \mathscr{H}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_4_SVERTKA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_5_SVERTKA">\phi(x) \in \mathscr{H}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_6_SVERTKA">\psi(x, y)=\Phi(x+y) \in \mathscr{F} \otimes \mathscr{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_7_SVERTKA">\mathscr{h} \rightarrow \mathscr{F} \otimes \mathscr{G}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_8_SVERTKA">f \in \mathscr{F}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_9_SVERTKA">g \in \mathscr{G}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_10_SVERTKA">f * g=g * f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_11_SVERTKA">d_{i}(f * g)=\left(D_{i} f\right) * g=f *\left(D_{i} g\right), D_{i}=\partial / \partial x_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_12_SVERTKA">f *(g * h)=(f * g) * h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_13_SVERTKA">\mathscr{f}=\mathscr{g}=\mathscr{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_14_SVERTKA">\mathscr{f}^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_15_SVERTKA">\mathscr{h}(o), \mathscr{H}(P)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_16_SVERTKA">\mathscr{h}(o+p)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_17_SVERTKA">o, P</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_18_SVERTKA">o+p \subset \mathbb{C}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_19_SVERTKA">\psi(x, y)=\Phi(x+y) \in \mathscr{H}(O \times P)=\mathscr{H}(O) \otimes \mathscr{H}(P)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_20_SVERTKA">\phi \in \mathscr{H}(O+P)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_21_SVERTKA">f \in \mathscr{H}^{\prime}(O)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_22_SVERTKA">g \in \mathscr{f}^{\prime}(P)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_23_SVERTKA">f * g \in \mathscr{H}^{\prime}(O+P)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_24_SVERTKA">o=p=\mathbb{c}^{n}, \mathscr{H}^{\prime}\left(\mathbb{C}^{n}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_25_SVERTKA">\mathscr{e}=\mathscr{e}\left(\mathbb{r}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_26_SVERTKA">\mathscr{d}=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_27_SVERTKA">=\mathscr{d}\left(\mathbb{r}^{n}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_28_SVERTKA">\phi \in \mathscr{T}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_29_SVERTKA">f \in \mathscr{E}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_30_SVERTKA">g \in \mathscr{D}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_31_SVERTKA">f * g \in \mathscr{I}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_32_SVERTKA">\phi(x+y) \in \mathscr{4} \otimes y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_33_SVERTKA">f, g \in \mathcal{I}_{\Gamma_{+}}^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_34_SVERTKA">\phi(x) \in \mathscr{g}\left(\mathbb{R}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_35_SVERTKA">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_36_SVERTKA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_37_SVERTKA">\mathfrak{f}\left(\gamma_{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_38_SVERTKA">у_{m e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_39_SVERTKA">\phi \in \mathscr{I}\left(\Gamma_{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_40_SVERTKA">f * g \in \mathscr{I}_{\Gamma_{+}^{\prime}}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_41_SVERTKA">\mathscr{i}_{\gamma_{+}}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_42_SVERTKA">{ }^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_43_SVERTKA">\mathscr{f}_{\gamma}^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2682_44_SVERTKA">г</formula>
+  </formulas_aux>
+  <relations n="18">
+    <relation uri="http://libmeta.ru/fme/relation/2682_1_SVERTKA">
+      <rel_text>Обобщенная функция</rel_text>
+      <target>http://libmeta.ru/fme/article/2013_OBOBSchENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_2_SVERTKA">
+      <rel_text>Обобщенная функция</rel_text>
+      <target>http://libmeta.ru/fme/article/2013_OBOBSchENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_3_SVERTKA">
+      <rel_text>алгебры</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_4_SVERTKA">
+      <rel_text>алгебра</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_5_SVERTKA">
+      <rel_text>основное пространство</rel_text>
+      <target>http://libmeta.ru/fme/article/2118_OSNOVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_6_SVERTKA">
+      <rel_text>обобщенных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/2013_OBOBSchENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_7_SVERTKA">
+      <rel_text>основные пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/2118_OSNOVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_8_SVERTKA">
+      <rel_text>широкие</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_9_SVERTKA">
+      <rel_text>обобщенные функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2013_OBOBSchENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_10_SVERTKA">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_11_SVERTKA">
+      <rel_text>обобщенные функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2013_OBOBSchENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_12_SVERTKA">
+      <rel_text>основных пространств</rel_text>
+      <target>http://libmeta.ru/fme/article/2118_OSNOVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_13_SVERTKA">
+      <rel_text>финитных распределений</rel_text>
+      <target>http://libmeta.ru/fme/article/3279_FINITNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_14_SVERTKA">
+      <rel_text>основные пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/2118_OSNOVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_15_SVERTKA">
+      <rel_text>сверточная алгебра</rel_text>
+      <target>http://libmeta.ru/fme/article/2685_SVERTOChNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_16_SVERTKA">
+      <rel_text>областях</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_17_SVERTKA">
+      <rel_text>основные пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/2118_OSNOVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2682_18_SVERTKA">
+      <rel_text>сверточная алгебра</rel_text>
+      <target>http://libmeta.ru/fme/article/2685_SVERTOChNAJa</target>
+    </relation>
+  </relations>
+  <text>распространение классической свертки
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2682_1_SVERTKA]]/URI
+\]
+
+суммируемых функций $URI[[http://libmeta.ru/fme/formula/aux/2682_1_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2682_2_SVERTKA]]/URI$ на обобщенные функции. С. обобщенных функций широко применяется в теории обобщенных функций и их приложениях к уравнениям с частными производными и ряду задач математич. физики.
+
+Общая схема построения С. имеет следующий вид. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2682_3_SVERTKA]]/URI$ - основные пространства (см. URI[[http://libmeta.ru/fme/relation/2682_2_SVERTKA]]/URI) функций на $URI[[http://libmeta.ru/fme/formula/aux/2682_4_SVERTKA]]/URI$ такие, что для всякой функции $URI[[http://libmeta.ru/fme/formula/aux/2682_5_SVERTKA]]/URI$ функция двух аргументов $URI[[http://libmeta.ru/fme/formula/aux/2682_6_SVERTKA]]/URI$, причем индуцированное отображение $URI[[http://libmeta.ru/fme/formula/aux/2682_7_SVERTKA]]/URI$ непрерывное. Тогда для любых обобщенных функций $URI[[http://libmeta.ru/fme/formula/aux/2682_8_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2682_9_SVERTKA]]/URI$ равенство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2682_2_SVERTKA]]/URI
+\]
+
+определяет обобщенную функцию - с в е р т ку
+
+С. обладает свойствами:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2682_3_SVERTKA]]/URI
+\]
+
+(a) $URI[[http://libmeta.ru/fme/formula/aux/2682_10_SVERTKA]]/URI$
+
+(б) $URI[[http://libmeta.ru/fme/formula/aux/2682_11_SVERTKA]]/URI$;
+
+(в) $URI[[http://libmeta.ru/fme/formula/aux/2682_12_SVERTKA]]/URI$. В частности, если $URI[[http://libmeta.ru/fme/formula/aux/2682_13_SVERTKA]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2682_14_SVERTKA]]/URI$ URI[[http://libmeta.ru/fme/relation/2682_18_SVERTKA]]/URI.
+
+Свертка аналитических функционалов. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2682_15_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2682_16_SVERTKA]]/URI$ URI[[http://libmeta.ru/fme/relation/2682_17_SVERTKA]]/URI функций, аналитических в URI[[http://libmeta.ru/fme/relation/2682_16_SVERTKA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2682_17_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2682_18_SVERTKA]]/URI$. Тогда $URI[[http://libmeta.ru/fme/formula/aux/2682_19_SVERTKA]]/URI$
+
+для всякой функции $URI[[http://libmeta.ru/fme/formula/aux/2682_20_SVERTKA]]/URI$, причем индуцированное отображение непрерывное. Поэтому для любых аналитич. функционалов $URI[[http://libmeta.ru/fme/formula/aux/2682_21_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2682_22_SVERTKA]]/URI$ определена их С. $URI[[http://libmeta.ru/fme/formula/aux/2682_23_SVERTKA]]/URI$. В случае $URI[[http://libmeta.ru/fme/formula/aux/2682_24_SVERTKA]]/URI$ URI[[http://libmeta.ru/fme/relation/2682_15_SVERTKA]]/URI.
+
+Свертка распределений. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2682_25_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2682_26_SVERTKA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2682_27_SVERTKA]]/URI$ URI[[http://libmeta.ru/fme/relation/2682_14_SVERTKA]]/URI для URI[[http://libmeta.ru/fme/relation/2682_13_SVERTKA]]/URI и Шварца распределений. Тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2682_4_SVERTKA]]/URI
+\]
+
+для всякой функции $URI[[http://libmeta.ru/fme/formula/aux/2682_28_SVERTKA]]/URI$, причем индуцированное отображение непрерывное. Отсюда, для всех $URI[[http://libmeta.ru/fme/formula/aux/2682_29_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2682_30_SVERTKA]]/URI$ определена С. $URI[[http://libmeta.ru/fme/formula/aux/2682_31_SVERTKA]]/URI$.
+
+Часто тензорное произведение URI[[http://libmeta.ru/fme/relation/2682_12_SVERTKA]]/URI, на к-рых определены данные URI[[http://libmeta.ru/fme/relation/2682_11_SVERTKA]]/URI, не URI[[http://libmeta.ru/fme/relation/2682_10_SVERTKA]]/URI свойством $URI[[http://libmeta.ru/fme/formula/aux/2682_32_SVERTKA]]/URI$, но сами URI[[http://libmeta.ru/fme/relation/2682_9_SVERTKA]]/URI однозначно продолжаются на более URI[[http://libmeta.ru/fme/relation/2682_8_SVERTKA]]/URI URI[[http://libmeta.ru/fme/relation/2682_7_SVERTKA]]/URI, для к-рых это свойство уже справедливо. В этом случае, по определению, полагают С. данных URI[[http://libmeta.ru/fme/relation/2682_6_SVERTKA]]/URI равной С. их продолжений.
+
+Свертка умеренных распределений. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2682_33_SVERTKA]]/URI$ умеренные распределения с носителями, ограниченными со стороны острого замкнутого конуса Г. Здесь,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2682_5_SVERTKA]]/URI
+\]
+
+для всех ненулевых $URI[[http://libmeta.ru/fme/formula/aux/2682_34_SVERTKA]]/URI$. Однако $URI[[http://libmeta.ru/fme/formula/aux/2682_35_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2682_36_SVERTKA]]/URI$ однозначно продолжаются на URI[[http://libmeta.ru/fme/relation/2682_5_SVERTKA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2682_37_SVERTKA]]/URI$(см. $URI[[http://libmeta.ru/fme/formula/aux/2682_38_SVERTKA]]/URI$ ренное распределение), причем теперь
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2682_6_SVERTKA]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/fme/formula/aux/2682_39_SVERTKA]]/URI$, и индуцированное отображение непрерывное. Следовательно, определена С. $URI[[http://libmeta.ru/fme/formula/aux/2682_40_SVERTKA]]/URI$ Таким образом, $URI[[http://libmeta.ru/fme/formula/aux/2682_41_SVERTKA]]/URI$сверточная URI[[http://libmeta.ru/fme/relation/2682_4_SVERTKA]]/URI, ее единица - $URI[[http://libmeta.ru/fme/formula/aux/2682_42_SVERTKA]]/URI$дельта-функция Дирака (см. URI[[http://libmeta.ru/fme/relation/2682_1_SVERTKA]]/URI). Важной подалгеброй этой URI[[http://libmeta.ru/fme/relation/2682_3_SVERTKA]]/URI является $URI[[http://libmeta.ru/fme/formula/aux/2682_43_SVERTKA]]/URI$ множество умеренных распределений, носители к-рых лежат в конусе $URI[[http://libmeta.ru/fme/formula/aux/2682_44_SVERTKA]]/URI$.</text>
+  <text_orig>распространение классической свертки
+
+\[
+f * g(x)=\int f(x-y) g(y) d^{n} y
+\]
+
+суммируемых функций $f(x)$ и $g(x)$ на обобщенные функции. С. обобщенных функций широко применяется в теории обобщенных функций и их приложениях к уравнениям с частными производными и ряду задач математич. физики.
+
+Общая схема построения С. имеет следующий вид. Пусть $\mathscr{F}, \mathscr{G}, \mathscr{H}$ - основные пространства (см. Обобщенная функция) функций на $\mathbb{R}^{n}$ такие, что для всякой функции $\Phi(x) \in \mathscr{H}$ функция двух аргументов $\Psi(x, y)=\Phi(x+y) \in \mathscr{F} \otimes \mathscr{g}$, причем индуцированное отображение $\mathscr{H} \rightarrow \mathscr{F} \otimes \mathscr{G}-$ непрерывное. Тогда для любых обобщенных функций $f \in \mathscr{F}$ и $g \in \mathscr{G}$ равенство
+
+\[
+(f * g, \Phi)=(f \otimes g, \Psi), \Phi \in \mathscr{H},
+\]
+
+определяет обобщенную функцию - с в е р т ку
+
+С. обладает свойствами:
+
+\[
+f * g \in \mathscr{H}^{\prime}
+\]
+
+(a) $f * g=g * f$
+
+(б) $D_{i}(f * g)=\left(D_{i} f\right) * g=f *\left(D_{i} g\right), D_{i}=\partial / \partial x_{i}$;
+
+(в) $f *(g * h)=(f * g) * h$. В частности, если $\mathscr{F}=\mathscr{G}=\mathscr{K}$, то $\mathscr{F}^{\prime}-$ сверточная алгебра.
+
+Свертка аналитических функционалов. Пусть $\mathscr{H}(O), \mathscr{H}(P)$ и $\mathscr{H}(O+P)-$ основные пространства функций, аналитических в областях $O, P$ и $O+P \subset \mathbb{C}^{n}$. Тогда $\Psi(x, y)=\Phi(x+y) \in \mathscr{H}(O \times P)=\mathscr{H}(O) \otimes \mathscr{H}(P)$
+
+для всякой функции $\Phi \in \mathscr{H}(O+P)$, причем индуцированное отображение непрерывное. Поэтому для любых аналитич. функционалов $f \in \mathscr{H}^{\prime}(O)$ и $g \in \mathscr{f}^{\prime}(P)$ определена их С. $f * g \in \mathscr{H}^{\prime}(O+P)$. В случае $O=P=\mathbb{C}^{n}, \mathscr{H}^{\prime}\left(\mathbb{C}^{n}\right)-$ сверточная алгебра.
+
+Свертка распределений. Пусть $\mathscr{E}=\mathscr{E}\left(\mathbb{R}^{n}\right)$ и $\mathscr{D}=$ $=\mathscr{D}\left(\mathbb{R}^{n}\right)-$ основные пространства для финитных распределений и Швариа распределений. Тогда
+
+\[
+\Psi(x, y)=\Phi(x+y) \in \mathbb{E} \otimes \mathscr{D}
+\]
+
+для всякой функции $\Phi \in \mathscr{T}$, причем индуцированное отображение непрерывное. Отсюда, для всех $f \in \mathscr{E}^{\prime}$ и $g \in \mathscr{D}^{\prime}$ определена С. $f * g \in \mathscr{I}^{\prime}$.
+
+Часто тензорное произведение основных пространств, на к-рых определены данные обобщенные функции, не обладает свойством $\Phi(x+y) \in \mathscr{4} \otimes y$, но сами обобщенные функции однозначно продолжаются на более широкие основные пространства, для к-рых это свойство уже справедливо. В этом случае, по определению, полагают С. данных обобщенных функций равной С. их продолжений.
+
+Свертка умеренных распределений. Пусть $f, g \in \mathcal{I}_{\Gamma_{+}}^{\prime}-$ умеренные распределения с носителями, ограниченными со стороны острого замкнутого конуса Г. Здесь,
+
+\[
+\Psi(x, y)=\Phi(x+y) \notin \mathcal{S}\left(\mathbb{R}^{2 n}\right)=\mathscr{I}\left(\mathbb{R}^{n}\right) \otimes \mathcal{Y}\left(\mathbb{R}^{n}\right)
+\]
+
+для всех ненулевых $\Phi(x) \in \mathscr{g}\left(\mathbb{R}^{n}\right)$. Однако $f$ и $g$ однозначно продолжаются на основное пространство $\mathfrak{f}\left(\Gamma_{+}\right)$(см. $У_{M e}$ ренное распределение), причем теперь
+
+\[
+\Psi(x, y) \in \mathscr{I}\left(\Gamma \times \Gamma_{+}\right)=\mathscr{I}\left(\Gamma_{+}\right) \otimes \mathscr{I}\left(\Gamma_{+}\right)
+\]
+
+для всех $\Phi \in \mathscr{I}\left(\Gamma_{+}\right)$, и индуцированное отображение непрерывное. Следовательно, определена С. $f * g \in \mathscr{I}_{\Gamma_{+}^{\prime}}^{\prime}$ Таким образом, $\mathscr{I}_{\Gamma_{+}}-$сверточная алгебра, ее единица - ${ }^{+}$дельта-функция Дирака (см. Обобщенная функция). Важной подалгеброй этой алгебры является $\mathscr{f}_{\Gamma}^{\prime}-$ множество умеренных распределений, носители к-рых лежат в конусе $Г$.
+
+Лum.: [1] В ла д и м и р о в В. С., Обобщенные функции в математической физике, 2 изд., М., 1979; [2] Гельфанд И. М., Ш и л о в Г. Е., Обобщенные функции и действия над ними, 2 изд., М., 1959; [3] 3 е м а н я н А. Г., Интегральные преобразования обобшен$\begin{array}{ll}\text { ных функций, пер. с англ., М., } 1974 . &amp; \text { B. В. Жаринов. }\end{array}$</text_orig>
+</article>

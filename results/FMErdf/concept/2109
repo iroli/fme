@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_289_BUST,">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_289_BUST,</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2109</core:url>
+    <lbm:descriptor><![CDATA[БУСТ, ЧИСТОЕ ПРЕОБРАЗОВАНИЕ ЛОРЕНЦА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#15973"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#15974"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#15975"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15976"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_477"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3844"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15977"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15978"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5999"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_632_GIPERBOLIChNOST">гиперболический</a> поворот в плоскости, содержащей ось времени. Точнее, Б. в направлении оси $URI[[http://libmeta.ru/fme/formula/aux/289_1_BUST,]]/URI$ (со <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростью</a>, направленной вдоль этой оси) - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1660_LORENTsA">Лоренца преобразование</a>, оставляющее на месте точки, лежащие в плоскости $URI[[http://libmeta.ru/fme/formula/aux/289_2_BUST,]]/URI$. Б. не образуют <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a>, но образуют так наз. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1068_JORDANOVA">йорданову алгебру</a> относительно закона композиции<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15976">$$B_{1} \circ B_{2}=\frac{B_{1} B_{2}+B_{2} B_{1}}{2}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15977">$$b_{1}, B_{2}-$$</a> нек-рые Б., <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15978">$$b_{1} B_{2}-$$</a> их последовательная композиция. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">Действие</a> трех Б. с непараллельными векторами <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростей</a> может дать обычный пространственный поворот - так наз. пре цесс и ю Томаса.<BR/></P><P>Всякое <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1660_LORENTsA">преобразование Лоренца</a> представляется в виде композиции Б. и пространственного поворота (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2277_PODOBI">подобно</a> тому, как комплекснозначная $URI[[http://libmeta.ru/fme/formula/aux/289_5_BUST,]]/URI$-матрица представляется в виде произведения эрмитовой и унитарной матриц).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#15973">[1]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#15973">Элл и о т Дж., До бер П., Симметрия в физике, пер. с англ., М., 1983, т. 2</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#15974">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Стриттер Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#11">Вайтман А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#15974">Рст, спин и статистика и все такое, пер. с англ., М., 1966</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#15975">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#5959">Румер Ю. Б.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#5960">Фет А. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#15975">Теория групп и квантованные поля, М., 1971</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[гиперболический поворот в плоскости, содержащей ось времени. Точнее, Б. в направлении оси $z$ (со скоростью, направленной вдоль этой оси) - Лоренца преобразование, оставляющее на месте точки, лежащие в плоскости $x, y$. Б. не образуют группы, но образуют так наз. йорданову алгебру относительно закона композиции
+
+\[
+B_{1} \circ B_{2}=\frac{B_{1} B_{2}+B_{2} B_{1}}{2}
+\]
+
+где $B_{1}, B_{2}-$ нек-рые Б., $B_{1} B_{2}-$ их последовательная композиция. Действие трех Б. с непараллельными векторами скоростей может дать обычный пространственный поворот - так наз. пре цесс и ю Томаса.
+
+Всякое преобразование Лоренца представляется в виде композиции Б. и пространственного поворота (подобно тому, как комплекснозначная $(2 \times 2)$-матрица представляется в виде произведения эрмитовой и унитарной матриц).
+
+Лит.: [1] Элл и о т Дж., До бер П., Симметрия в физике, т. 2, пер. с англ., М., 1983; [2] С т р и т те р Р., Вайтман А., РСТ, спин и статистика и все такое, пер. с англ., М., 1966; [3] Румер Ю. Б., Фе т А. И., Теория групп и квантованные поля, М., 1971.
+
+М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2277_PODOBI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1660_LORENTsA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1068_JORDANOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1660_LORENTsA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_632_GIPERBOLIChNOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

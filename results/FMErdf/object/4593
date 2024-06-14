@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_4593">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>R</mi><mrow><mi>i</mi><mi>j</mi><mi>k</mi><mi>l</mi></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><msup><mo>&#x02202;</mo><mrow><mn>2</mn></mrow></msup><msub><mi>g</mi><mrow><mi>i</mi><mi>k</mi></mrow></msub></mrow><mrow><mo>&#x02202;</mo><msup><mi>x</mi><mrow><mi>j</mi></mrow></msup><mo>&#x02202;</mo><msup><mi>x</mi><mrow><mi>l</mi></mrow></msup></mrow></mfrac><mo>&#x0002B;</mo><mfrac><mrow><msup><mo>&#x02202;</mo><mrow><mn>2</mn></mrow></msup><msub><mi>g</mi><mrow><mi>j</mi><mi>l</mi></mrow></msub></mrow><mrow><mo>&#x02202;</mo><msup><mi>x</mi><mrow><mi>i</mi></mrow></msup><mo>&#x02202;</mo><msup><mi>x</mi><mrow><mi>k</mi></mrow></msup></mrow></mfrac><mo>&#x02212;</mo><mfrac><mrow><msup><mo>&#x02202;</mo><mrow><mn>2</mn></mrow></msup><msub><mi>g</mi><mrow><mi>i</mi><mi>l</mi></mrow></msub></mrow><mrow><mo>&#x02202;</mo><msup><mi>x</mi><mrow><mi>j</mi></mrow></msup><mo>&#x02202;</mo><msup><mi>x</mi><mrow><mi>k</mi></mrow></msup></mrow></mfrac><mo>&#x02212;</mo><mfrac><mrow><msup><mo>&#x02202;</mo><mrow><mn>2</mn></mrow></msup><msub><mi>g</mi><mrow><mi>j</mi><mi>k</mi></mrow></msub></mrow><mrow><mo>&#x02202;</mo><msup><mi>x</mi><mrow><mi>j</mi></mrow></msup><mo>&#x02202;</mo><msup><mi>x</mi><mrow><mi>k</mi></mrow></msup></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x02212;</mo><mspace linebreak="newline" /><mo>&#x02212;</mo><msub><mi>g</mi><mrow><mi>r</mi><mi>s</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msubsup><mi>&#x00393;</mi><mrow><mi>j</mi><mi>k</mi></mrow><mrow><mi>r</mi></mrow></msubsup><msubsup><mi>&#x00393;</mi><mrow><mi>i</mi><mi>l</mi></mrow><mrow><mi>s</mi></mrow></msubsup><mo>&#x02212;</mo><msubsup><mi>&#x00393;</mi><mrow><mi>j</mi><mi>l</mi></mrow><mrow><mi>r</mi></mrow></msubsup><msubsup><mi>&#x00393;</mi><mrow><mi>i</mi><mi>k</mi></mrow><mrow><mi>s</mi></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}R_{i j k l}=\frac{1}{2}\left(\frac{\partial^{2} g_{i k}}{\partial x^{j} \partial x^{l}}+\frac{\partial^{2} g_{j l}}{\partial x^{i} \partial x^{k}}-\frac{\partial^{2} g_{i l}}{\partial x^{j} \partial x^{k}}-\frac{\partial^{2} g_{j k}}{\partial x^{j} \partial x^{k}}\right)- \\-g_{r s}\left(\Gamma_{j k}^{r} \Gamma_{i l}^{s}-\Gamma_{j l}^{r} \Gamma_{i k}^{s}\right) .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

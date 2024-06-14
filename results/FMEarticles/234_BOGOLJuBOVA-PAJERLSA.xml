@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/234_BOGOLJuBOVA-PAJERLSA" alphabetic_pos="234">
+  <title>БОГОЛЮБОВА-ПАЙЕРЛСА НЕРАВЕНСТВО</title>
+  <authors>
+    <author>В. Н. Нескоромный</author>
+  </authors>
+  <pages>
+    <start>52</start>
+    <end>52</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/234_1_BOGOLJuBOVA-PAJERLSA">\operatorname{Tr} e^{A+h} /\left(\operatorname{Tr} e^{A}\right) \geqslant \exp \left\{\operatorname{Tr}\left(h e^{A}\right) /\left(\operatorname{Tr} e^{A}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/234_2_BOGOLJuBOVA-PAJERLSA">f_{\Lambda}[H]=-|\Lambda|^{-1} \beta^{-1} \ln \operatorname{Tr} e^{-\beta H}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/234_3_BOGOLJuBOVA-PAJERLSA">f_{\Lambda}\left[H_{0}+V\right]-f_{\Lambda}\left[H_{0}\right] \leqslant|\Lambda|^{-1}\langle V\rangle_{H_{0}, \Lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/234_4_BOGOLJuBOVA-PAJERLSA">|\Lambda|^{-1}\langle V\rangle_{H_{0}+V, \Lambda} \leqslant f_{\Lambda}\left[H_{0}+V\right]-f_{\Lambda}\left[H_{0}\right] .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/234_1_BOGOLJuBOVA-PAJERLSA">a, h, A+h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/234_2_BOGOLJuBOVA-PAJERLSA">a=-\beta H_{0}, h=-\beta V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/234_3_BOGOLJuBOVA-PAJERLSA">f_{\lambda}\left[h_{0}+\lambda V\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/234_4_BOGOLJuBOVA-PAJERLSA">\lambda \in \mathbb{R}</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/234_1_BOGOLJuBOVA-PAJERLSA">
+      <rel_text>выпуклой функции</rel_text>
+      <target>http://libmeta.ru/fme/article/479_VYPUKLAJa</target>
+    </relation>
+  </relations>
+  <text>неравенство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/234_1_BOGOLJuBOVA-PAJERLSA]]/URI
+\]
+
+для самосопряженных операторов $URI[[http://libmeta.ru/fme/formula/aux/234_1_BOGOLJuBOVA-PAJERLSA]]/URI$ при существовании соответствующих следов. В статистич. механике час- то используется конкретный вид с $URI[[http://libmeta.ru/fme/formula/aux/234_2_BOGOLJuBOVA-PAJERLSA]]/URI$. Тогда для функционала плотности свободной энергии в конечном объеме
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/234_2_BOGOLJuBOVA-PAJERLSA]]/URI
+\]
+
+справедлива оценка:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/234_3_BOGOLJuBOVA-PAJERLSA]]/URI
+\]
+
+Н е р а в е н с т в о Бо гол ю б о в а, основанное на URI[[http://libmeta.ru/fme/relation/234_1_BOGOLJuBOVA-PAJERLSA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/234_3_BOGOLJuBOVA-PAJERLSA]]/URI$ по $URI[[http://libmeta.ru/fme/formula/aux/234_4_BOGOLJuBOVA-PAJERLSA]]/URI$, дает также оценку снизу:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/234_4_BOGOLJuBOVA-PAJERLSA]]/URI
+\]</text>
+  <text_orig>неравенство
+
+\[
+\operatorname{Tr} e^{A+h} /\left(\operatorname{Tr} e^{A}\right) \geqslant \exp \left\{\operatorname{Tr}\left(h e^{A}\right) /\left(\operatorname{Tr} e^{A}\right)\right\}
+\]
+
+для самосопряженных операторов $A, h, A+h$ при существовании соответствующих следов. В статистич. механике час- то используется конкретный вид с $A=-\beta H_{0}, h=-\beta V$. Тогда для функционала плотности свободной энергии в конечном объеме
+
+\[
+f_{\Lambda}[H]=-|\Lambda|^{-1} \beta^{-1} \ln \operatorname{Tr} e^{-\beta H}
+\]
+
+справедлива оценка:
+
+\[
+f_{\Lambda}\left[H_{0}+V\right]-f_{\Lambda}\left[H_{0}\right] \leqslant|\Lambda|^{-1}\langle V\rangle_{H_{0}, \Lambda}
+\]
+
+Н е р а в е н с т в о Бо гол ю б о в а, основанное на выпуклой функции $f_{\Lambda}\left[H_{0}+\lambda V\right]$ по $\lambda \in \mathbb{R}$, дает также оценку снизу:
+
+\[
+|\Lambda|^{-1}\langle V\rangle_{H_{0}+V, \Lambda} \leqslant f_{\Lambda}\left[H_{0}+V\right]-f_{\Lambda}\left[H_{0}\right] .
+\]
+
+В. Н. Нескоромный.</text_orig>
+</article>

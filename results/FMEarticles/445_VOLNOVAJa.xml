@@ -1,0 +1,240 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/445_VOLNOVAJa" alphabetic_pos="445">
+  <title>ВОЛНОВАЯ ФУНКЦИЯ; НОРМИРОВКА</title>
+  <authors/>
+  <pages>
+    <start>97</start>
+    <end>98</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_1_VOLNOVAJa">\int d \rho\left(a_{1}, \ldots, a_{N}\right)\left|\psi\left(a_{1}, \ldots, a_{N}\right)\right|^{2}=1,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_2_VOLNOVAJa">\int_{\Delta_{1} \times \ldots \times \Delta_{N}} d \rho\left(a_{1}, \ldots, a_{N}\right)\left|\psi\left(a_{1}, \ldots, a_{N}\right)\right|^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_3_VOLNOVAJa">d \rho=\left(\delta\left(s+\frac{1}{2}\right)+\delta\left(s-\frac{1}{2}\right)\right) d x_{1} d x_{2} d x_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_4_VOLNOVAJa">\sum_{s= \pm 1 / 2} \int d^{3} x\left|\psi_{s}\left(x_{1}, x_{2}, x_{3}\right)\right|^{2}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_5_VOLNOVAJa">\Phi_{b_{1}, \ldots, b_{M}}\left(a_{1}, \ldots, a_{N}\right)=\left\langle a_{1}, \ldots, a_{N} \mid b_{1}, \ldots, b_{M}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_6_VOLNOVAJa">\begin{aligned}&amp; \int d \rho_{A}\left(a_{1}, \ldots, a_{N}\right) \psi_{1}^{*}\left(a_{1}, \ldots, a_{N}\right) \psi_{2}\left(a_{1}, \ldots, a_{N}\right)= \\&amp; =\int d \rho_{B}\left(b_{1}, \ldots, b_{M}\right) c_{1}^{*}\left(b_{1}, \ldots, b_{M}\right) c_{2}\left(b_{1}, \ldots, b_{M}\right) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_7_VOLNOVAJa">\begin{gathered}\int d p_{A}\left(a_{1}, \ldots, a_{N}\right) \Phi_{b_{1}^{\prime}, \ldots, b_{M}^{\prime}}^{*}\left(a_{1}, \ldots, a_{N}\right) \Phi_{b_{1}, \ldots, b_{M}}\left(a_{1}, \ldots, a_{N}\right)= \\=\prod_{i=1}^{M} \delta\left(b_{i}^{\prime}-b_{i}\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_8_VOLNOVAJa">\Phi_{p_{1} p_{2} p_{3}} \sigma\left(x_{1}, x_{2}, x_{3}, s\right)=\frac{1}{(2 \pi)^{3 / 2}} \exp \left(\frac{i p x}{\hbar}\right) \delta_{\sigma_{s}},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_9_VOLNOVAJa">d \rho_{B}=\left(\delta\left(s+\frac{1}{2}\right)+\delta\left(s-\frac{1}{2}\right)\right) d p_{1} d p_{2} d p_{3} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_10_VOLNOVAJa">\begin{aligned}&amp; \sum_{\sigma= \pm 1 / 2} \int d^{3} p \Phi_{p_{1} p_{2} p_{3}}^{*} \sigma\left(x_{1}^{\prime}, x_{2}^{\prime}, x_{3}^{\prime}, s\right) \times \\&amp; \times \Phi_{p_{1} p_{2} p_{3}} \sigma\left(x_{1}, x_{2}, x_{3}, s\right)=\delta\left(x^{\prime}-x\right) \delta_{s s^{\prime}} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/445_11_VOLNOVAJa">\left\langle p^{\prime} \mid p\right\rangle=(2 \pi)^{3} \sqrt{m^{2}+p^{2}} \delta\left(p^{\prime}-p\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_1_VOLNOVAJa">a=\left(a_{1}, \ldots, A_{N}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_2_VOLNOVAJa">d \rho\left(a_{1}, \ldots, a_{N}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_3_VOLNOVAJa">a_{i}, \psi\left(a_{1}, \ldots, a_{N}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_4_VOLNOVAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_5_VOLNOVAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_6_VOLNOVAJa">a_{1}, \ldots, A_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_7_VOLNOVAJa">\left(a_{1}, \ldots, a_{N}\right) \in \Delta_{1} \times \ldots \times \Delta_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_8_VOLNOVAJa">a_{1}, \ldots, A_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_9_VOLNOVAJa">\hat{x}_{1}, \hat{x}_{2}, \hat{x}_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_10_VOLNOVAJa">\hat{x}_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_11_VOLNOVAJa">\psi=\psi_{s}\left(x_{1}, x_{2}, x_{3}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_12_VOLNOVAJa">\left|\psi_{s}\left(x_{1}, x_{2}, x_{3}\right)\right|^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_13_VOLNOVAJa">\left(x_{1}, x_{2}, x_{3}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_14_VOLNOVAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_15_VOLNOVAJa">\hat{x}_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_16_VOLNOVAJa">l^{2}\left(\mathbb{r}^{n}, d \rho\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_17_VOLNOVAJa">b=\left(b_{1}, \ldots, B_{M}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_18_VOLNOVAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_19_VOLNOVAJa">\left|b_{1}, \ldots, b_{M}\right\rangle-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_20_VOLNOVAJa">b_{1}, \ldots, B_{M}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_21_VOLNOVAJa">\left|b_{1}, \ldots, b_{M}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_22_VOLNOVAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_23_VOLNOVAJa">\psi_{i}\left(a_{1}, \ldots, a_{N}\right), i=1,2,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_24_VOLNOVAJa">l^{2}\left(\mathbb{r}^{n}, d \rho_{A}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_25_VOLNOVAJa">\psi_{i}\left(a_{1}, \ldots, a_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_26_VOLNOVAJa">\phi_{b_{1}}, \ldots, b_{M}\left(a_{1}, \ldots, a_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_27_VOLNOVAJa">\psi_{i}\left(a_{1}, \ldots, a_{N}\right) \int d \rho_{B}\left(b_{1}, \ldots, b_{M}\right) c_{1}\left(b_{1}, \ldots, b_{M}\right) \Phi_{b_{1}, \ldots, b_{M}}\left(a_{1}, \ldots, a_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_28_VOLNOVAJa">\phi_{b_{1}}, \ldots, b_{M}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_29_VOLNOVAJa">d \rho=d b_{1} \ldots d b_{M}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_30_VOLNOVAJa">\phi_{b_{1}}, \ldots, b_{M}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_31_VOLNOVAJa">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_32_VOLNOVAJa">l^{2}\left(\mathbb{r}^{n}, d \rho_{A}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_33_VOLNOVAJa">1 / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_34_VOLNOVAJa">\hat{p}_{1}, \hat{p}_{2}, \hat{p}_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_35_VOLNOVAJa">\hat{s}_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/445_36_VOLNOVAJa">\phi</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/445_1_VOLNOVAJa">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+  </relations>
+  <text>условие, которое обычно накладывается на волновую функцию в квантовой механике.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/445_1_VOLNOVAJa]]/URI$ полный набор операторов, $URI[[http://libmeta.ru/fme/formula/aux/445_2_VOLNOVAJa]]/URI$ мера Парсеваля, фигурирующая в спектральном разложении операторов $URI[[http://libmeta.ru/fme/formula/aux/445_3_VOLNOVAJa]]/URI$ В. ф. в $URI[[http://libmeta.ru/fme/formula/aux/445_4_VOLNOVAJa]]/URI$-представлении. Если функция $URI[[http://libmeta.ru/fme/formula/aux/445_5_VOLNOVAJa]]/URI$ удовлетворяет условию нормировки
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_1_VOLNOVAJa]]/URI
+\]
+
+то выражение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_2_VOLNOVAJa]]/URI
+\]
+
+определяет вероятность того, что измерение наблюдаемых $URI[[http://libmeta.ru/fme/formula/aux/445_6_VOLNOVAJa]]/URI$ даст результат $URI[[http://libmeta.ru/fme/formula/aux/445_7_VOLNOVAJa]]/URI$. Условие нормировки (1) выражает при этом тот факт, что сумма вероятностей всех возможных результатов измерений наблюдаемых $URI[[http://libmeta.ru/fme/formula/aux/445_8_VOLNOVAJa]]/URI$ равна единице.
+
+Напр., для нерелятивистской частицы со спином 1/2 в качестве полного набора наблюдаемых можно взять три компоненты оператора координаты $URI[[http://libmeta.ru/fme/formula/aux/445_9_VOLNOVAJa]]/URI$ и оператор проекции спина на третью ось $URI[[http://libmeta.ru/fme/formula/aux/445_10_VOLNOVAJa]]/URI$. Мера
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_3_VOLNOVAJa]]/URI
+\]
+
+а В. ф. зависит от трех непрерывных и одной дискретной переменной: $URI[[http://libmeta.ru/fme/formula/aux/445_11_VOLNOVAJa]]/URI$. Условие (1) примет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_4_VOLNOVAJa]]/URI
+\]
+
+Величина $URI[[http://libmeta.ru/fme/formula/aux/445_12_VOLNOVAJa]]/URI$ дает плотность вероятности обнаружения частицы в точке $URI[[http://libmeta.ru/fme/formula/aux/445_13_VOLNOVAJa]]/URI$ с проекцией спина $URI[[http://libmeta.ru/fme/formula/aux/445_14_VOLNOVAJa]]/URI$ на ось $URI[[http://libmeta.ru/fme/formula/aux/445_15_VOLNOVAJa]]/URI$.
+
+В физич. литературе часто обсуждается вопрос о нормировке В.Ф., не принадлежащих пространству $URI[[http://libmeta.ru/fme/formula/aux/445_16_VOLNOVAJa]]/URI$. Точная постановка вопроса такова.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/445_17_VOLNOVAJa]]/URI$ - полный набор наблюдаемых, вообще говоря, отличный от набора $URI[[http://libmeta.ru/fme/formula/aux/445_18_VOLNOVAJa]]/URI$. Пусть $URI[[http://libmeta.ru/fme/formula/aux/445_19_VOLNOVAJa]]/URI$ полная система общих (обобщенных) собственных векторов операторов $URI[[http://libmeta.ru/fme/formula/aux/445_20_VOLNOVAJa]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_5_VOLNOVAJa]]/URI
+\]
+
+- В. Ф., изображающие вектор $URI[[http://libmeta.ru/fme/formula/aux/445_21_VOLNOVAJa]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/445_22_VOLNOVAJa]]/URI$-представлении. Пусть $URI[[http://libmeta.ru/fme/formula/aux/445_23_VOLNOVAJa]]/URI$ произвольные функции из $URI[[http://libmeta.ru/fme/formula/aux/445_24_VOLNOVAJa]]/URI$. Функции $URI[[http://libmeta.ru/fme/formula/aux/445_25_VOLNOVAJa]]/URI$ могут быть разложены по функциям $URI[[http://libmeta.ru/fme/formula/aux/445_26_VOLNOVAJa]]/URI$ :
+
+$URI[[http://libmeta.ru/fme/formula/aux/445_27_VOLNOVAJa]]/URI$.
+
+Из равенства Парсеваля для системы функций $URI[[http://libmeta.ru/fme/formula/aux/445_28_VOLNOVAJa]]/URI$ вытекает, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_6_VOLNOVAJa]]/URI
+\]
+
+Пусть, для простоты, $URI[[http://libmeta.ru/fme/formula/aux/445_29_VOLNOVAJa]]/URI$. Тогда равенство (2) эквивалентно следующему нормировочному условию на функцию $URI[[http://libmeta.ru/fme/formula/aux/445_30_VOLNOVAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_7_VOLNOVAJa]]/URI
+\]
+
+Нормировка (3) известна как норм и ровка на $URI[[http://libmeta.ru/fme/formula/aux/445_31_VOLNOVAJa]]/URI$ - фу н к ц и ю и широко применяется в квантовой механике. И в общем случае условие нормировки полной системы В. ф., не принадлежащих $URI[[http://libmeta.ru/fme/formula/aux/445_32_VOLNOVAJa]]/URI$, является следствием равенства Парсеваля и эквивалентно тождеству (2).
+
+Пусть в качестве набора для нерелятивистской частицы со спином $URI[[http://libmeta.ru/fme/formula/aux/445_33_VOLNOVAJa]]/URI$ взят набор, состоящий из трех операторов компонент импульса $URI[[http://libmeta.ru/fme/formula/aux/445_34_VOLNOVAJa]]/URI$ и оператора $URI[[http://libmeta.ru/fme/formula/aux/445_35_VOLNOVAJa]]/URI$. Функция $URI[[http://libmeta.ru/fme/formula/aux/445_36_VOLNOVAJa]]/URI$ в этом случае имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_8_VOLNOVAJa]]/URI
+\]
+
+причем
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_9_VOLNOVAJa]]/URI
+\]
+
+Тождество (2) для системы В. ф. (4) эквивалентно следующему условию нормировки:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_10_VOLNOVAJa]]/URI
+\]
+
+В квантовой URI[[http://libmeta.ru/fme/relation/445_1_VOLNOVAJa]]/URI иногда употребляются и другие условия нормировки. Напр., в релятивистских задачах удобно использовать релятивистски-инвариантную нормировку
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/445_11_VOLNOVAJa]]/URI
+\]
+
+Лит. см. при ст. Волновая функция.</text>
+  <text_orig>условие, которое обычно накладывается на волновую функцию в квантовой механике.
+
+Пусть $A=\left(A_{1}, \ldots, A_{N}\right)-$ полный набор операторов, $d \rho\left(a_{1}, \ldots, a_{N}\right)-$ мера Парсеваля, фигурируюшая в спектральном разложении операторов $A_{i}, \psi\left(a_{1}, \ldots, a_{N}\right)-$ В. ф. в $A$-представлении. Если функция $\psi$ удовлетворяет условию нормировки
+
+\[
+\int d \rho\left(a_{1}, \ldots, a_{N}\right)\left|\psi\left(a_{1}, \ldots, a_{N}\right)\right|^{2}=1,
+\]
+
+то выражение
+
+\[
+\int_{\Delta_{1} \times \ldots \times \Delta_{N}} d \rho\left(a_{1}, \ldots, a_{N}\right)\left|\psi\left(a_{1}, \ldots, a_{N}\right)\right|^{2}
+\]
+
+определяет вероятность того, что измерение наблюдаемых $A_{1}, \ldots, A_{N}$ даст результат $\left(a_{1}, \ldots, a_{N}\right) \in \Delta_{1} \times \ldots \times \Delta_{N}$. Условие нормировки (1) выражает при этом тот факт, что сумма вероятностей всех возможных результатов измерений наблюдаемых $A_{1}, \ldots, A_{N}$ равна единице.
+
+Напр., для нерелятивистской частицы со спином 1/2 в качестве полного набора наблюдаемых можно взять три компоненты оператора координаты $\hat{x}_{1}, \hat{x}_{2}, \hat{x}_{3}$ и оператор проекции спина на третью ось $\hat{x}_{3}$. Мера
+
+\[
+d \rho=\left(\delta\left(s+\frac{1}{2}\right)+\delta\left(s-\frac{1}{2}\right)\right) d x_{1} d x_{2} d x_{3}
+\]
+
+а В. ф. зависит от трех непрерывных и одной дискретной переменной: $\psi=\psi_{s}\left(x_{1}, x_{2}, x_{3}\right)$. Условие (1) примет вид:
+
+\[
+\sum_{s= \pm 1 / 2} \int d^{3} x\left|\psi_{s}\left(x_{1}, x_{2}, x_{3}\right)\right|^{2}=1
+\]
+
+Величина $\left|\psi_{s}\left(x_{1}, x_{2}, x_{3}\right)\right|^{2}$ дает плотность вероятности обнаружения частицы в точке $\left(x_{1}, x_{2}, x_{3}\right)$ с проекцией спина $s$ на ось $\hat{x}_{3}$.
+
+В физич. литературе часто обсуждается вопрос о нормировке В.Ф., не принадлежаших пространству $L^{2}\left(\mathbb{R}^{N}, d \rho\right)$. Точная постановка вопроса такова.
+
+Пусть $B=\left(B_{1}, \ldots, B_{M}\right)$ - полный набор наблюдаемых, вообще говоря, отличный от набора $A$. Пусть $\left|b_{1}, \ldots, b_{M}\right\rangle-$ полная система общих (обобщенных) собственных векторов операторов $B_{1}, \ldots, B_{M}$ и
+
+\[
+\Phi_{b_{1}, \ldots, b_{M}}\left(a_{1}, \ldots, a_{N}\right)=\left\langle a_{1}, \ldots, a_{N} \mid b_{1}, \ldots, b_{M}\right\rangle
+\]
+
+- В. Ф., изображающие вектор $\left|b_{1}, \ldots, b_{M}\right\rangle$ в $A$-представлении. Пусть $\psi_{i}\left(a_{1}, \ldots, a_{N}\right), i=1,2,-$ произвольные функции из $L^{2}\left(\mathbb{R}^{N}, d \rho_{A}\right)$. Функции $\psi_{i}\left(a_{1}, \ldots, a_{N}\right)$ могут быть разложены по функциям $\Phi_{b_{1}}, \ldots, b_{M}\left(a_{1}, \ldots, a_{N}\right)$ :
+
+$\Psi_{i}\left(a_{1}, \ldots, a_{N}\right) \int d \rho_{B}\left(b_{1}, \ldots, b_{M}\right) c_{1}\left(b_{1}, \ldots, b_{M}\right) \Phi_{b_{1}, \ldots, b_{M}}\left(a_{1}, \ldots, a_{N}\right)$.
+
+Из равенства Парсеваля для системы функций $\Phi_{b_{1}}, \ldots, b_{M}$ вытекает, что
+
+\[
+\begin{aligned}
+&amp; \int d \rho_{A}\left(a_{1}, \ldots, a_{N}\right) \psi_{1}^{*}\left(a_{1}, \ldots, a_{N}\right) \psi_{2}\left(a_{1}, \ldots, a_{N}\right)= \\
+&amp; =\int d \rho_{B}\left(b_{1}, \ldots, b_{M}\right) c_{1}^{*}\left(b_{1}, \ldots, b_{M}\right) c_{2}\left(b_{1}, \ldots, b_{M}\right) .
+\end{aligned}
+\]
+
+Пусть, для простоты, $d \rho=d b_{1} \ldots d b_{M}$. Тогда равенство (2) эквивалентно следующему нормировочному условию на функцию $\Phi_{b_{1}}, \ldots, b_{M}$ :
+
+\[
+\begin{gathered}
+\int d p_{A}\left(a_{1}, \ldots, a_{N}\right) \Phi_{b_{1}^{\prime}, \ldots, b_{M}^{\prime}}^{*}\left(a_{1}, \ldots, a_{N}\right) \Phi_{b_{1}, \ldots, b_{M}}\left(a_{1}, \ldots, a_{N}\right)= \\
+=\prod_{i=1}^{M} \delta\left(b_{i}^{\prime}-b_{i}\right) .
+\end{gathered}
+\]
+
+Нормировка (3) известна как норм и ровка на $\delta$ - фу н к ц и ю и широко применяется в квантовой механике. И в общем случае условие нормировки полной системы В. ф., не принадлежащих $L^{2}\left(\mathbb{R}^{N}, d \rho_{A}\right)$, является следствием равенства Парсеваля и эквивалентно тождеству (2).
+
+Пусть в качестве набора для нерелятивистской частицы со спином $1 / 2$ взят набор, состоящий из трех операторов компонент импульса $\hat{p}_{1}, \hat{p}_{2}, \hat{p}_{3}$ и оператора $\hat{s}_{3}$. Функция $\Phi$ в этом случае имеет вид:
+
+\[
+\Phi_{p_{1} p_{2} p_{3}} \sigma\left(x_{1}, x_{2}, x_{3}, s\right)=\frac{1}{(2 \pi)^{3 / 2}} \exp \left(\frac{i p x}{\hbar}\right) \delta_{\sigma_{s}},
+\]
+
+причем
+
+\[
+d \rho_{B}=\left(\delta\left(s+\frac{1}{2}\right)+\delta\left(s-\frac{1}{2}\right)\right) d p_{1} d p_{2} d p_{3} .
+\]
+
+Тождество (2) для системы В. ф. (4) эквивалентно следуюшему условию нормировки:
+
+\[
+\begin{aligned}
+&amp; \sum_{\sigma= \pm 1 / 2} \int d^{3} p \Phi_{p_{1} p_{2} p_{3}}^{*} \sigma\left(x_{1}^{\prime}, x_{2}^{\prime}, x_{3}^{\prime}, s\right) \times \\
+&amp; \times \Phi_{p_{1} p_{2} p_{3}} \sigma\left(x_{1}, x_{2}, x_{3}, s\right)=\delta\left(x^{\prime}-x\right) \delta_{s s^{\prime}} .
+\end{aligned}
+\]
+
+В квантовой механике иногда употребляются и другие условия нормировки. Напр., в релятивистских задачах удобно использовать релятивистски-инвариантную нормировку
+
+\[
+\left\langle p^{\prime} \mid p\right\rangle=(2 \pi)^{3} \sqrt{m^{2}+p^{2}} \delta\left(p^{\prime}-p\right) .
+\]
+
+Лит. см. при ст. Волновая функция.</text_orig>
+</article>

@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3052_TEPLOEMKOST" alphabetic_pos="3054">
+  <title>ТЕПЛОЕМКОСТЬ</title>
+  <authors>
+    <author>A. В. Солдатов</author>
+  </authors>
+  <pages>
+    <start>598</start>
+    <end>598</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3052_1_TEPLOEMKOST">C=\frac{\delta Q}{d T}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3052_1_TEPLOEMKOST">1^{\circ} \mathrm{C}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3052_2_TEPLOEMKOST">\delta Q-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3052_3_TEPLOEMKOST">d T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3052_4_TEPLOEMKOST">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3052_5_TEPLOEMKOST">-\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3052_6_TEPLOEMKOST">+\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3052_7_TEPLOEMKOST">c_{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3052_8_TEPLOEMKOST">c_{v}</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/3052_1_TEPLOEMKOST">
+      <rel_text>давлении</rel_text>
+      <target>http://libmeta.ru/fme/article/750_DAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3052_2_TEPLOEMKOST">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3052_3_TEPLOEMKOST">
+      <rel_text>количества тепла</rel_text>
+      <target>http://libmeta.ru/fme/article/1290_KOLIChESTVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3052_4_TEPLOEMKOST">
+      <rel_text>температуры</rel_text>
+      <target>http://libmeta.ru/fme/article/3038_TEMPERATUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3052_5_TEPLOEMKOST">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3052_6_TEPLOEMKOST">
+      <rel_text>количество тепла</rel_text>
+      <target>http://libmeta.ru/fme/article/1290_KOLIChESTVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3052_7_TEPLOEMKOST">
+      <rel_text>температуру</rel_text>
+      <target>http://libmeta.ru/fme/article/3038_TEMPERATUR</target>
+    </relation>
+  </relations>
+  <text>количество теплоты, которое необходимо передать системе, чтобы повысить ее URI[[http://libmeta.ru/fme/relation/3052_7_TEPLOEMKOST]]/URI на $URI[[http://libmeta.ru/fme/formula/aux/3052_1_TEPLOEMKOST]]/URI$ или K, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3052_1_TEPLOEMKOST]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3052_2_TEPLOEMKOST]]/URI$ бесконечно малое URI[[http://libmeta.ru/fme/relation/3052_6_TEPLOEMKOST]]/URI, воспринятое системой в ходе какого-либо процесса при бесконечно малом изменении своего URI[[http://libmeta.ru/fme/relation/3052_5_TEPLOEMKOST]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/3052_3_TEPLOEMKOST]]/URI$ - бесконечно малое приращение URI[[http://libmeta.ru/fme/relation/3052_4_TEPLOEMKOST]]/URI системы, вызванное поглощением этого URI[[http://libmeta.ru/fme/relation/3052_3_TEPLOEMKOST]]/URI. Одна и та же система URI[[http://libmeta.ru/fme/relation/3052_2_TEPLOEMKOST]]/URI многими различными Т. в зависимости от испытываемого ею процесса. Величина $URI[[http://libmeta.ru/fme/formula/aux/3052_4_TEPLOEMKOST]]/URI$ может изменяться в пределах от $URI[[http://libmeta.ru/fme/formula/aux/3052_5_TEPLOEMKOST]]/URI$ до $URI[[http://libmeta.ru/fme/formula/aux/3052_6_TEPLOEMKOST]]/URI$. Наибольшее значение имеют Т., измеряемые при постоянном URI[[http://libmeta.ru/fme/relation/3052_1_TEPLOEMKOST]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3052_7_TEPLOEMKOST]]/URI$ и постоянном объеме $URI[[http://libmeta.ru/fme/formula/aux/3052_8_TEPLOEMKOST]]/URI$.</text>
+  <text_orig>количество теплоты, которое необходимо передать системе, чтобы повысить ее температуру на $1^{\circ} \mathrm{C}$ или K, то есть
+
+\[
+C=\frac{\delta Q}{d T}
+\]
+
+где $\delta Q-$ бесконечно малое количество тепла, воспринятое системой в ходе какого-либо процесса при бесконечно малом изменении своего состояния, $d T$ - бесконечно малое прирашение температуры системы, вызванное поглощением этого количества тепла. Одна и та же система обладает многими различными Т. в зависимости от испытываемого ею процесса. Величина $C$ может изменяться в пределах от $-\infty$ до $+\infty$. Наибольшее значение имеют Т., измеряемые при постоянном давлении $C_{P}$ и постоянном объеме $C_{V}$.
+
+A. В. Солдатов.</text_orig>
+</article>

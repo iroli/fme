@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_13972">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>&#x003C7;</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>r</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mn>4</mn><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mo stretchy="false">&#x0007C;</mo><mi>k</mi><mo stretchy="false">&#x0007C;</mo><mi>n</mi></mrow><mrow><mi>&#x003C0;</mi><mi>&#x003C3;</mi><mo stretchy="false">&#x0007C;</mo><mi>&#x003BC;</mi><mo>&#x02212;</mo><mn>1</mn><mo stretchy="false">&#x0007C;</mo></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mn>1</mn><mo>&#x0002F;</mo><mn>2</mn></mrow></msup><mi>&#x000D7;</mi><mspace linebreak="newline" /><mi>&#x000D7;</mi><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mi>d</mi><mi>p</mi><mfrac><mrow><mi>r</mi><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo></mrow><mrow><msqrt><mrow><mo stretchy="false">&#x0007C;</mo><mi>J</mi><mo stretchy="false">&#x00028;</mo><mi>r</mi><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="false">&#x00029;</mo><mo stretchy="false">&#x0007C;</mo></mrow></msqrt></mrow></mfrac><mi>sin</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mn>2</mn><mi>r</mi><mi>p</mi><mi>n</mi></mrow><mrow><mi>&#x003C3;</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>sin</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mn>2</mn><mi>n</mi></mrow><mrow><mi>&#x003C3;</mi></mrow></mfrac><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>p</mi></mrow></msubsup><mi>r</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msup><mi>p</mi><mrow><mi>&#x02032;</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>d</mi><msup><mi>p</mi><mrow><mi>&#x02032;</mi></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\chi_{n}(r)=4\left(\frac{|k| n}{\pi \sigma|\mu-1|}\right)^{1 / 2} \times \\\times \int_{0}^{\infty} d p \frac{r(p)}{\sqrt{|J(r(p))|}} \sin \left(\frac{2 r p n}{\sigma}\right) \sin \left(\frac{2 n}{\sigma} \int_{0}^{p} r\left(p^{\prime}\right) d p^{\prime}\right),\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

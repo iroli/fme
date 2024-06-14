@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_21543">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><msub><mi>&#x003BE;</mi><mrow><mn>0</mn></mrow></msub><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002C;</mo><mspace width="1em" /><mi>&#x00050;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mi>&#x003BE;</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><mi>k</mi><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0003D;</mo><msub><mi>p</mi><mrow><mi>k</mi></mrow></msub><mo>&#x0002C;</mo><mspace width="1em" /><msubsup><mo>&#x02211;</mo><mrow><mi>k</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><msub><mi>p</mi><mrow><mi>k</mi></mrow></msub><mo>&#x0003D;</mo><mn>1</mn><mo>&#x0002C;</mo><mspace linebreak="newline" /><msub><mi>P</mi><mrow><mi>j</mi><mi>k</mi></mrow></msub><mo>&#x0003D;</mo><mi>&#x00050;</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mi>&#x003BE;</mi><mrow><mi>n</mi><mo>&#x0002B;</mo><mn>1</mn></mrow></msub><mo>&#x0003D;</mo><mi>k</mi><mo>&#x02223;</mo><msub><mi>&#x003BE;</mi><mrow><mi>n</mi></mrow></msub><mo>&#x0003D;</mo><mi>j</mi><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0003D;</mo><msub><mo>&#x02211;</mo><mrow><msub><mi>i</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002B;</mo><msub><mi>i</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0002B;</mo><mi>&#x02026;</mi><mo>&#x0002B;</mo><msub><mi>i</mi><mrow><mi>j</mi></mrow></msub><mo>&#x0003D;</mo><mi>k</mi></mrow></msub><msub><mi>p</mi><mrow><msub><mi>i</mi><mrow><mn>1</mn></mrow></msub></mrow></msub><msub><mi>p</mi><mrow><msub><mi>i</mi><mrow><mn>2</mn></mrow></msub></mrow></msub><mi>&#x02026;</mi><msub><mi>p</mi><mrow><msub><mi>i</mi><mrow><mi>j</mi></mrow></msub></mrow></msub><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\xi_{0}=1, \quad \mathrm{P}\left\{\xi_{1}=k\right\}=p_{k}, \quad \sum_{k=0}^{\infty} p_{k}=1, \\P_{j k}=\mathrm{P}\left\{\xi_{n+1}=k \mid \xi_{n}=j\right\}=\sum_{i_{1}+i_{2}+\ldots+i_{j}=k} p_{i_{1}} p_{i_{2}} \ldots p_{i_{j}} .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

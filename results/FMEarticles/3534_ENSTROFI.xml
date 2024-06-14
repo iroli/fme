@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3534_ENSTROFI" alphabetic_pos="3536">
+  <title>ЭНСТРОФИЯ</title>
+  <authors>
+    <author>А. П. Мирабель</author>
+  </authors>
+  <pages>
+    <start>678</start>
+    <end>678</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Kraichnan R. H., «phys. Fluids», 1967, v. 10, № 7, p. 1417-23; [2] М он и н А. С., Я глом А. М., Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967.</literature_orig>
+    <unit>
+      <author>Kraichnan R. H.</author>
+      <title>«phys. Fluids»</title>
+      <publication/>
+      <year>1967</year>
+      <other>v. 10, № 7, p. 1417-23</other>
+    </unit>
+    <unit>
+      <author>Монин А. С.</author>
+      <author>Яглом А. М.</author>
+      <title>Статистическая гидромеханика. Механика турбулентности, ч. 2</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3534_1_ENSTROFI">\Omega=\frac{1}{2}|\operatorname{rot} v|^{2} \text {. }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3534_1_ENSTROFI">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3534_2_ENSTROFI">\boldsymbol{v}</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/3534_1_ENSTROFI">
+      <rel_text>Геофизическая турбулентность</rel_text>
+      <target>http://libmeta.ru/fme/article/590_GEOFIZIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3534_2_ENSTROFI">
+      <rel_text>инерционном интервале</rel_text>
+      <target>http://libmeta.ru/fme/article/1021_INERTsIONNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3534_3_ENSTROFI">
+      <rel_text>энергия</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3534_4_ENSTROFI">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3534_5_ENSTROFI">
+      <rel_text>турбулентности</rel_text>
+      <target>http://libmeta.ru/fme/article/3139_TURBULENTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3534_6_ENSTROFI">
+      <rel_text>большие масштабы</rel_text>
+      <target>http://libmeta.ru/fme/article/262_BOL'ShOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3534_7_ENSTROFI">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3534_8_ENSTROFI">
+      <rel_text>двумерной турбулентности</rel_text>
+      <target>http://libmeta.ru/fme/article/770_DVUMERNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3534_9_ENSTROFI">
+      <rel_text>энергией</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+  </relations>
+  <text>величина $URI[[http://libmeta.ru/fme/formula/aux/3534_1_ENSTROFI]]/URI$, равная половине среднего квадрата вихря скорости $URI[[http://libmeta.ru/fme/formula/aux/3534_2_ENSTROFI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3534_1_ENSTROFI]]/URI
+\]
+
+Э. наряду с URI[[http://libmeta.ru/fme/relation/3534_9_ENSTROFI]]/URI является адиабатич. интегральным инвариантом в URI[[http://libmeta.ru/fme/relation/3534_8_ENSTROFI]]/URI, благодаря чему создается каскад Э. в малые масштабы по спектральному «закону минус трех», а URI[[http://libmeta.ru/fme/relation/3534_7_ENSTROFI]]/URI - в URI[[http://libmeta.ru/fme/relation/3534_6_ENSTROFI]]/URI по спектральному «закону пяти третей» (см. [1]). В трехмерной URI[[http://libmeta.ru/fme/relation/3534_5_ENSTROFI]]/URI при сохраняемости URI[[http://libmeta.ru/fme/relation/3534_4_ENSTROFI]]/URI Э. возрастает за счет эффекта растяжения вихревых нитей. При этом URI[[http://libmeta.ru/fme/relation/3534_3_ENSTROFI]]/URI передается только в малые масштабы; в URI[[http://libmeta.ru/fme/relation/3534_2_ENSTROFI]]/URI масштабов выполняется закон Колмогорова Обухова пяти третей (см. [2]).
+
+См. также URI[[http://libmeta.ru/fme/relation/3534_1_ENSTROFI]]/URI</text>
+  <text_orig>величина $\Omega$, равная половине среднего квадрата вихря скорости $\boldsymbol{v}$ :
+
+\[
+\Omega=\frac{1}{2}|\operatorname{rot} v|^{2} \text {. }
+\]
+
+Э. наряду с энергией является адиабатич. интегральным инвариантом в двумерной турбулентности, благодаря чему создается каскад Э. в малые масштабы по спектральному «закону минус трех», а энергии - в большие масштабы по спектральному «закону пяти третей» (см. [1]). В трехмерной турбулентности при сохраняемости энергии Э. возрастает за счет эффекта растяжения вихревых нитей. При этом энергия передается только в малые масштабы; в инерционном интервале масштабов выполняется закон Колмогорова Обухова пяти третей (см. [2]).
+
+См. также Геофизическая турбулентность
+
+Лum.: [1] Kraichnan R. H., «Phys. Fluids», 1967, v. 10, № 7, p. 1417-23; [2] М он и н А. С., Я глом А. М., Статистическая гидромеханика. Механика турбулентности, ч. 2, М., 1967.
+
+А. П. Мирабель.</text_orig>
+</article>

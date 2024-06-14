@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2435_PRJaMOE" alphabetic_pos="2437">
+  <title>ПРЯМОЕ ПРОИЗВЕДЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>469</start>
+    <end>469</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2435_1_PRJaMOE">X \times Y=\{(x, y) \mid x \in X, y \in Y\}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_1_PRJaMOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_2_PRJaMOE">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_3_PRJaMOE">x \times Y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_4_PRJaMOE">(x, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_5_PRJaMOE">x \in X, y \in Y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_6_PRJaMOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_7_PRJaMOE">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_8_PRJaMOE">x \times Y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_9_PRJaMOE">\{1,2\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_10_PRJaMOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2435_11_PRJaMOE">y</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/2435_1_PRJaMOE">
+      <rel_text>изоморфизма</rel_text>
+      <target>http://libmeta.ru/fme/article/978_IZOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2435_2_PRJaMOE">
+      <rel_text>состоящее</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2435_3_PRJaMOE">
+      <rel_text>Прямым произведением</rel_text>
+      <target>http://libmeta.ru/fme/article/2435_PRJaMOE</target>
+    </relation>
+  </relations>
+  <text>одна из основных общематематических конструкций, идея которой принадлежит P. Декарту (r. Descartes); П. п. называют также де к а р то вым Произведением. URI[[http://libmeta.ru/fme/relation/2435_3_PRJaMOE]]/URI, или просто произведен ием, двух непустых множеств $URI[[http://libmeta.ru/fme/formula/aux/2435_1_PRJaMOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2435_2_PRJaMOE]]/URI$ называют множество $URI[[http://libmeta.ru/fme/formula/aux/2435_3_PRJaMOE]]/URI$, URI[[http://libmeta.ru/fme/relation/2435_2_PRJaMOE]]/URI из всех упорядоченных пар вида $URI[[http://libmeta.ru/fme/formula/aux/2435_4_PRJaMOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2435_5_PRJaMOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2435_1_PRJaMOE]]/URI
+\]
+
+Если одно из множеств $URI[[http://libmeta.ru/fme/formula/aux/2435_6_PRJaMOE]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/2435_7_PRJaMOE]]/URI$ пусто, то произведение пусто. Множество $URI[[http://libmeta.ru/fme/formula/aux/2435_8_PRJaMOE]]/URI$ можно отождествить с множеством функций, определенных на двухэлементном множестве $URI[[http://libmeta.ru/fme/formula/aux/2435_9_PRJaMOE]]/URI$ и принимающих значения в множестве $URI[[http://libmeta.ru/fme/formula/aux/2435_10_PRJaMOE]]/URI$ при значении аргумента, равном 1, и в множестве $URI[[http://libmeta.ru/fme/formula/aux/2435_11_PRJaMOE]]/URI$ при значении аргумента, равном 2. Это отождествление позволяет распространить определение П. п. на случай любого количества множителей.
+
+Многие задачи математики связаны с описанием математич. объектов, неразложимых в П. п., и с выяснением условий, при к-рых множители произведения определены однозначно с точностью до URI[[http://libmeta.ru/fme/relation/2435_1_PRJaMOE]]/URI.</text>
+  <text_orig>одна из основнЫХ общематематических конструкций, идея которой принадлежит P. Декарту (R. Descartes); П. п. называют также де к а р то вым Произведением. Прямым произведением, или просто произведен ием, двух непустых множеств $X$ и $Y$ называют множество $X \times Y$, состоящее из всех упорядоченных пар вида $(x, y)$, где $x \in X, y \in Y$ :
+
+\[
+X \times Y=\{(x, y) \mid x \in X, y \in Y\}
+\]
+
+Если одно из множеств $X$ или $Y$ пусто, то произведение пусто. Множество $X \times Y$ можно отождествить с множеством функций, определенных на двухэлементном множестве $\{1,2\}$ и принимающих значения в множестве $X$ при значении аргумента, равном 1, и в множестве $Y$ при значении аргумента, равном 2. Это отождествление позволяет распространить определение П. п. на случай любого количества множителей.
+
+Многие задачи математики связаны с описанием математич. объектов, неразложимых в П. п., и с выяснением условий, при к-рых множители произведения определены однозначно с точностью до изоморфизма.</text_orig>
+</article>

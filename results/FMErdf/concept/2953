@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_42_AKSIAL'NYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_42_AKSIAL'NYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2953</core:url>
+    <lbm:descriptor><![CDATA[АКСИАЛЬНЫЙ ВЕКТОР, ПСЕВДОВЕКТОР]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#67"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21870"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21871"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_609"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>величина, преобразующаяся как обычный (полярный) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> при вращениях в евклидовом или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2441_PSEVDOGIL'BERTOVO">псевдоевклидовом пространстве</a> и (в отличие от обычного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектора</a>) не меняющая знака при отражении координатных осей. Простейший пример А. в. в трехмерном пространстве - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_349_VEKTORNOE">векторное произведение</a> обычных векторов; напр., <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> момента <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульса</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21870">$$\boldsymbol{m}=\boldsymbol{r} \times \boldsymbol{p}$$</a>, напряженность магнитного поля <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21871">$$\boldsymbol{h}=\operatorname{rot} \boldsymbol{A}$$</a>, где <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_356_VEKTOR-POTENTsIA">вектор-потенциал</a> $URI[[http://libmeta.ru/fme/formula/aux/42_3_AKSIAL'NYJ]]/URI$ - обычный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a>. $URI[[http://libmeta.ru/fme/formula/aux/42_4_AKSIAL'NYJ]]/URI$<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#67">В. П. Павлов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[величина, преобразующаяся как обычный (полярный) вектор при вращениях в евклидовом или псевдоевклидовом пространстве и (в отличие от обычного вектора) не меняющая знака при отражении координатных осей. Простейший пример А. в. в трехмерном пространстве - векторное произведение обычных векторов; напр., вектор момента импульса $\boldsymbol{M}=\boldsymbol{r} \times \boldsymbol{p}$, напряженность магнитного поля $\boldsymbol{H}=\operatorname{rot} \boldsymbol{A}$, где вектор-потенциал $\boldsymbol{A}$ - обычный вектор. $\quad$ В. П. Павлов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_356_VEKTOR-POTENTsIA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_349_VEKTORNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2441_PSEVDOGIL'BERTOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

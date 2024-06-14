@@ -1,0 +1,265 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/311_VAN" alphabetic_pos="311">
+  <title>ВАН ДЕР ПОЛЯ УРАВНЕНИЕ</title>
+  <authors>
+    <author>Н. Х. Розов</author>
+  </authors>
+  <pages>
+    <start>66</start>
+    <end>66</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Андрон о в А. А., В итт А. А., Хайкин С. Э., Теория колебаний, 2 изд., М., 1959; [2] Л е фш е ц С., Геометрическая теория дифференциальных уравнений, пер. с англ., М., 1961; [3] С ток е р Дж., Нелинейные колебания в механических и электрических системах, пер. с англ., 2 изд., М., 1953; [4] Дородн ицын А. А., «прикл. математика и механика», 1947, т. 11, с. 313-28; [5] М ище н ко Е. Ф., Ро з о в Н.Х., Дифференциальные уравнения с малым параметром и релаксационные колебания, М., $1975 . \quad$</literature_orig>
+    <unit>
+      <author>Андронов А. А.</author>
+      <author>Витт А. А.</author>
+      <author>Хайкин С. Э.</author>
+      <title>Теория колебаний</title>
+      <publication>2 изд., М.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Лефшец С.</author>
+      <title>Геометрическая теория дифференциальных уравнений</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1961</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>С ток е р Дж., Нелинейные колебания в механических и электрических системах</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1953</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дородницын А. А.</author>
+      <title>«прикл. математика и механика»</title>
+      <publication/>
+      <year>1947</year>
+      <other>т. 11, с. 313-28</other>
+    </unit>
+    <unit>
+      <author>Мищенко Е. Ф.</author>
+      <author>Розов Н. Х.</author>
+      <title>Дифференциальные уравнения с малым параметром и релаксационные колебания</title>
+      <publication>М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/311_1_VAN">\ddot{x}-\mu\left(1-x^{2}\right) \dot{x}+x=0, \quad \mu=\text { const }&gt;0, \quad \dot{x}(t) \equiv \frac{d x}{d t} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/311_2_VAN">\dot{x}=v, \quad \dot{v}=-x+\mu\left(1-x^{2}\right) v .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/311_3_VAN">z(t)=\int_{0}^{t} x(\tau) d \tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/311_4_VAN">\ddot{z}-\mu\left(\dot{z}-\frac{\dot{z}^{3}}{3}\right)+z=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/311_5_VAN">y=-x+\frac{x^{3}}{3}+\frac{\dot{x}}{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/311_6_VAN">\varepsilon x^{\prime}=y-x+\frac{x^{3}}{3}, \quad y^{\prime}=-x, \quad '=\frac{d}{d t} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/311_7_VAN">\ddot{x}-\mu\left(1-x^{2}\right) \dot{x}+x=E_{0}+E \sin \omega t</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_1_VAN">x, v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_2_VAN">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_3_VAN">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_4_VAN">\tau=t / \mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_5_VAN">\varepsilon=\mu^{-2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_6_VAN">\mu&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_7_VAN">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_8_VAN">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_9_VAN">2 \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_10_VAN">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_11_VAN">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_12_VAN">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/311_13_VAN">\varepsilon</formula>
+  </formulas_aux>
+  <relations n="21">
+    <relation uri="http://libmeta.ru/fme/relation/311_1_VAN">
+      <rel_text>осциллятора</rel_text>
+      <target>http://libmeta.ru/fme/article/2129_OSTsILLJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_2_VAN">
+      <rel_text>параметром</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_3_VAN">
+      <rel_text>релаксационные колебания</rel_text>
+      <target>http://libmeta.ru/fme/article/2603_RELAKSATsIONNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_4_VAN">
+      <rel_text>первом</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_5_VAN">
+      <rel_text>релаксационные колебания</rel_text>
+      <target>http://libmeta.ru/fme/article/2603_RELAKSATsIONNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_6_VAN">
+      <rel_text>гармонич</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_7_VAN">
+      <rel_text>осциллятора</rel_text>
+      <target>http://libmeta.ru/fme/article/2129_OSTsILLJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_8_VAN">
+      <rel_text>автоколебания</rel_text>
+      <target>http://libmeta.ru/fme/article/13_AVTOKOLEBANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_9_VAN">
+      <rel_text>гармонич</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_10_VAN">
+      <rel_text>осциллятора</rel_text>
+      <target>http://libmeta.ru/fme/article/2129_OSTsILLJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_11_VAN">
+      <rel_text>автоколебания</rel_text>
+      <target>http://libmeta.ru/fme/article/13_AVTOKOLEBANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_12_VAN">
+      <rel_text>осциллятора</rel_text>
+      <target>http://libmeta.ru/fme/article/2129_OSTsILLJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_13_VAN">
+      <rel_text>автоколебаниям</rel_text>
+      <target>http://libmeta.ru/fme/article/13_AVTOKOLEBANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_14_VAN">
+      <rel_text>предельный цикл</rel_text>
+      <target>http://libmeta.ru/fme/article/2357_PREDEL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_15_VAN">
+      <rel_text>траектории</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_16_VAN">
+      <rel_text>устойчивый предельный цикл</rel_text>
+      <target>http://libmeta.ru/fme/article/3225_USTOJChIVYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_17_VAN">
+      <rel_text>получим</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_18_VAN">
+      <rel_text>рассмотреть</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_19_VAN">
+      <rel_text>Рэлея уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/2669_RELEJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_20_VAN">
+      <rel_text>частным</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/311_21_VAN">
+      <rel_text>эквивалентно</rel_text>
+      <target>http://libmeta.ru/fme/article/3492_EKVIDISTANT</target>
+    </relation>
+  </relations>
+  <text>нелинейное обыкновенное дифференциальное уравнение 2-го порядка:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/311_1_VAN]]/URI
+\]
+
+Является важным частным случаем Льенара уравнения. В. д. П.у. описывает свободные автоколебания одной из простейших нелинейных колебательных систем (ос ци ллятора Ван де р Поля). В частности, уравнение (1) служит математич. моделью (при ряде упрощающих предположений) лампового генератора на триоде в случае кубич. характеристики лампы. Характер решений уравнения (i) был впервые подробно изучен Б. Ван дер Полем (b. Van der Pol, 1922-26).
+
+Уравнение (1) URI[[http://libmeta.ru/fme/relation/311_21_VAN]]/URI системе двух уравнений относительно фазовых переменных $URI[[http://libmeta.ru/fme/formula/aux/311_1_VAN]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/311_2_VAN]]/URI
+\]
+
+Иногда вместо $URI[[http://libmeta.ru/fme/formula/aux/311_2_VAN]]/URI$ удобнее ввести переменную
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/311_3_VAN]]/URI
+\]
+
+тогда уравнение (1) приведется к уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/311_4_VAN]]/URI
+\]
+
+являющемуся URI[[http://libmeta.ru/fme/relation/311_20_VAN]]/URI случаем URI[[http://libmeta.ru/fme/relation/311_19_VAN]]/URI. Если вместе с переменной $URI[[http://libmeta.ru/fme/formula/aux/311_3_VAN]]/URI$ URI[[http://libmeta.ru/fme/relation/311_18_VAN]]/URI переменную
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/311_5_VAN]]/URI
+\]
+
+ввести новое время $URI[[http://libmeta.ru/fme/formula/aux/311_4_VAN]]/URI$ и положить $URI[[http://libmeta.ru/fme/formula/aux/311_5_VAN]]/URI$, то вместо уравнения (1) URI[[http://libmeta.ru/fme/relation/311_17_VAN]]/URI систему
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/311_6_VAN]]/URI
+\]
+
+При любом $URI[[http://libmeta.ru/fme/formula/aux/311_6_VAN]]/URI$ в фазовой плоскости системы (2) существует единственный URI[[http://libmeta.ru/fme/relation/311_16_VAN]]/URI, к к-рому при $URI[[http://libmeta.ru/fme/formula/aux/311_7_VAN]]/URI$ приближаются все остальные URI[[http://libmeta.ru/fme/relation/311_15_VAN]]/URI (кроме положения равновесия в начале координат); этот URI[[http://libmeta.ru/fme/relation/311_14_VAN]]/URI адекватен URI[[http://libmeta.ru/fme/relation/311_13_VAN]]/URI URI[[http://libmeta.ru/fme/relation/311_12_VAN]]/URI Ван дер Поля (см. [1]-[3]).
+
+\section{bakyуmtar}
+
+При малых $URI[[http://libmeta.ru/fme/formula/aux/311_8_VAN]]/URI$ URI[[http://libmeta.ru/fme/relation/311_11_VAN]]/URI URI[[http://libmeta.ru/fme/relation/311_10_VAN]]/URI (1) близки к простым URI[[http://libmeta.ru/fme/relation/311_9_VAN]]/URI. колебаниям с периодом $URI[[http://libmeta.ru/fme/formula/aux/311_9_VAN]]/URI$ и с определенной амплитудой. Для вычисления колебательного процесса с большей точностью применяются асимптотич. методы. При возрастании $URI[[http://libmeta.ru/fme/formula/aux/311_10_VAN]]/URI$ URI[[http://libmeta.ru/fme/relation/311_8_VAN]]/URI URI[[http://libmeta.ru/fme/relation/311_7_VAN]]/URI (1) все более отклоняются от URI[[http://libmeta.ru/fme/relation/311_6_VAN]]/URI. колебаний. При больших $URI[[http://libmeta.ru/fme/formula/aux/311_11_VAN]]/URI$ уравнение (1) описывает URI[[http://libmeta.ru/fme/relation/311_5_VAN]]/URI с периодом (в URI[[http://libmeta.ru/fme/relation/311_4_VAN]]/URI приближении) 1,614 $URI[[http://libmeta.ru/fme/formula/aux/311_12_VAN]]/URI$. Известны более точные асимптотич. разложения величин, характеризующих URI[[http://libmeta.ru/fme/relation/311_3_VAN]]/URI (см. [4]); изучение этих колебаний равносильно исследованию решений системы (3) с малым URI[[http://libmeta.ru/fme/relation/311_2_VAN]]/URI $URI[[http://libmeta.ru/fme/formula/aux/311_13_VAN]]/URI$ при производной (см. [5]).
+
+Уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/311_7_VAN]]/URI
+\]
+
+описывает поведение URI[[http://libmeta.ru/fme/relation/311_1_VAN]]/URI Ван дер Поля под воздействием внешнего периодич. возмущения. Здесь наиболее важны изучение явления зах ваты в ан и я ч а с тоты (существования периодич. колебаний) и исследование б и е н и й (возможности почти периодич. колебаний; см. [1], [3]).</text>
+  <text_orig>нелинейное обыкновенное дифференциальное уравнение 2-го порядка:
+
+\[
+\ddot{x}-\mu\left(1-x^{2}\right) \dot{x}+x=0, \quad \mu=\text { const }&gt;0, \quad \dot{x}(t) \equiv \frac{d x}{d t} .
+\]
+
+Является важным частным случаем Льенара уравнения. В. д. П.у. описывает свободные автоколебания одной из простейших нелинейных колебательных систем (ос ци ллятора Ван де р Поля). В частности, уравнение (1) служит математич. моделью (при ряде упрощающих предположений) лампового генератора на триоде в случае кубич. характеристики лампы. Характер решений уравнения (I) был впервые подробно изучен Б. Ван дер Полем (B. Van der Pol, 1922-26).
+
+Уравнение (1) эквивалентно системе двух уравнений относительно фазовых переменных $x, v$ :
+
+\[
+\dot{x}=v, \quad \dot{v}=-x+\mu\left(1-x^{2}\right) v .
+\]
+
+Иногда вместо $x$ удобнее ввести переменную
+
+\[
+z(t)=\int_{0}^{t} x(\tau) d \tau
+\]
+
+тогда уравнение (1) приведется к уравнению
+
+\[
+\ddot{z}-\mu\left(\dot{z}-\frac{\dot{z}^{3}}{3}\right)+z=0
+\]
+
+являющемуся частным случаем Рэлея уравнения. Если вместе с переменной $x$ рассмотреть переменную
+
+\[
+y=-x+\frac{x^{3}}{3}+\frac{\dot{x}}{\mu}
+\]
+
+ввести новое время $\tau=t / \mu$ и положить $\varepsilon=\mu^{-2}$, то вместо уравнения (1) получим систему
+
+\[
+\varepsilon x^{\prime}=y-x+\frac{x^{3}}{3}, \quad y^{\prime}=-x, \quad '=\frac{d}{d t} .
+\]
+
+При любом $\mu&gt;0$ в фазовой плоскости системы (2) сушествует единственный устойчивый предельный цикл, к к-рому при $t \rightarrow \infty$ приближаются все остальные траектории (кроме положения равновесия в начале координат); этот предельный цикл адекватен автоколебаниям осциллятора Ван дер Поля (см. [1]-[3]).
+
+\section{BAKYУMTAR}
+
+При малых $\mu$ автоколебания осциллятора (1) близки к простым гармонич. колебаниям с периодом $2 \pi$ и с определенной амплитудой. Для вычисления колебательного процесса с большей точностью применяются асимптотич. методы. При возрастании $\mu$ автоколебания осциллятора (1) все более отклоняются от гармонич. колебаний. При больших $\mu$ уравнение (1) описывает релаксационные колебания с периодом (в первом приближении) 1,614 $\mu$. Известны более точные асимптотич. разложения величин, характеризующих релаксационные колебания (см. [4]); изучение этих колебаний равносильно исследованию решений системы (3) с малым параметром $\varepsilon$ при производной (см. [5]).
+
+Уравнение
+
+\[
+\ddot{x}-\mu\left(1-x^{2}\right) \dot{x}+x=E_{0}+E \sin \omega t
+\]
+
+описывает поведение осциллятора Ван дер Поля под воздействием внешнего периодич. возмущения. Здесь наиболее важны изучение явления зах ваты в ан и я ч а с тоты (существования периодич. колебаний) и исследование б и е н и й (возможности почти периодич. колебаний; см. [1], [3]).
+
+Лum.: [1] Андрон о в А. А., В итт А. А., Хайкин С. Э., Теория колебаний, 2 изд., М., 1959; [2] Л е фш е ц С., Геометрическая теория дифференциальных уравнений, пер. с англ., М., 1961; [3] С ток е р Дж., Нелинейные колебания в механических и электрических системах, пер. с англ., 2 изд., М., 1953; [4] Дородн ицын А. А., «Прикл. математика и механика», 1947, т. 11, с. 313-28; [5] М ище н ко Е. Ф., Ро з о в Н.Х., Дифференциальные уравнения с малым параметром и релаксационные колебания, М., $1975 . \quad$ Н.Х. Розов.</text_orig>
+</article>

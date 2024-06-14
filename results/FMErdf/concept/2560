@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3304_FRELIHA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3304_FRELIHA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2560</core:url>
+    <lbm:descriptor><![CDATA[ФРЕЛИХА МОДЕЛЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#19328"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#19329"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19330"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19331"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>модель, предложенная Х. Фрелихом <a href="/object/show?uri=http://libmeta.ru/io/Publication#19328">[1]</a> для описания блоховских электронов, взаимодействующих с фононами в металлах, гамильтониан которой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19330">$$\begin{gathered}H=\sum_{\vec{k}, \sigma}\left(\varepsilon_{\vec{k}}-\mu\right) a_{\vec{k}, \sigma}^{+} a_{\vec{k}, \sigma}+\sum_{\vec{q}} \hbar \omega_{q} b_{\vec{q}}^{+} b_{\vec{q}}+ \\+V^{-1 / 2} \sum_{\vec{k}, \sigma, \vec{q}} g(q)\left[a_{\vec{k}+\vec{q}, \sigma}^{+} a_{\vec{k}, \sigma} b_{\vec{q}}+a_{\vec{k}, \sigma}^{+} a_{\vec{k}+\vec{q}, \sigma} b_{\vec{q}}^{+}\right] .\end{gathered}$$</a><BR/></P><P>Канонич. преобразованием во <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_875_DIFFERENTsIAL'NOE">втором порядке</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ">теории возмущений</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK">гармонич</a>. приближении для фононов было <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получено</a> (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#19328">[1]</a>) эффективное взаимодействие между электронами, не зависящее от фононных амплитуд, с перенормировкой фононного спектра и константы связи:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19331">$$\begin{aligned}& H_{I}=\frac{1}{2} \sum_{\vec{k}, \overrightarrow{k^{\prime}}, \sigma, \sigma^{\prime}, \vec{q}} \frac{2 \hbar \omega_{q}\left|M_{q}\right|^{2}}{\left(\varepsilon_{\vec{k}}-\varepsilon_{\vec{k}+\vec{q}}\right)^{2}-\left(h \omega_{q}\right)^{2}} \times \\& \times a_{\overrightarrow{k^{\prime}}}^{+}-\vec{q}, \sigma^{\prime} a_{\overrightarrow{k^{\prime}}, \sigma^{\prime}} a_{\vec{k}+\vec{q}, \sigma}^{+} a_{\vec{k}, \sigma} .\end{aligned}$$</a><BR/></P><P>![](https://cdn.mathpix.com/cropped/2023_07_08_d36ded0585bb6cd4446bg-1.jpg?height=40&width=655&top_left_y=2146&top_left_x=930)<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#19328">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#3478">Frohlich H.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#19328">«proc. Roy. Soc. (London)», 1952, A 215, p. 291</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#19329">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#571">Bardeen J.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2187">Pines D.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#19329">«phys. Rev.», 1955, v. 99, p. 1140.</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[модель, предложенная Х. Фрелихом [1] для описания блоховских электронов, взаимодействующих с фононами в металлах, гамильтониан которой
+
+\[
+\begin{gathered}
+H=\sum_{\vec{k}, \sigma}\left(\varepsilon_{\vec{k}}-\mu\right) a_{\vec{k}, \sigma}^{+} a_{\vec{k}, \sigma}+\sum_{\vec{q}} \hbar \omega_{q} b_{\vec{q}}^{+} b_{\vec{q}}+ \\
++V^{-1 / 2} \sum_{\vec{k}, \sigma, \vec{q}} g(q)\left[a_{\vec{k}+\vec{q}, \sigma}^{+} a_{\vec{k}, \sigma} b_{\vec{q}}+a_{\vec{k}, \sigma}^{+} a_{\vec{k}+\vec{q}, \sigma} b_{\vec{q}}^{+}\right] .
+\end{gathered}
+\]
+
+Канонич. преобразованием во втором порядке теории возмущений в гармонич. приближении для фононов было получено (см. [1]) эффективное взаимодействие между электронами, не зависящее от фононных амплитуд, с перенормировкой фононного спектра и константы связи:
+
+\[
+\begin{aligned}
+& H_{I}=\frac{1}{2} \sum_{\vec{k}, \overrightarrow{k^{\prime}}, \sigma, \sigma^{\prime}, \vec{q}} \frac{2 \hbar \omega_{q}\left|M_{q}\right|^{2}}{\left(\varepsilon_{\vec{k}}-\varepsilon_{\vec{k}+\vec{q}}\right)^{2}-\left(h \omega_{q}\right)^{2}} \times \\
+& \times a_{\overrightarrow{k^{\prime}}}^{+}-\vec{q}, \sigma^{\prime} a_{\overrightarrow{k^{\prime}}, \sigma^{\prime}} a_{\vec{k}+\vec{q}, \sigma}^{+} a_{\vec{k}, \sigma} .
+\end{aligned}
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d36ded0585bb6cd4446bg-1.jpg?height=40&width=655&top_left_y=2146&top_left_x=930)
+
+Jum.: [1] Frohlich H., «Proc. Roy. Soc. (London)», 1952, A 215, p. 291; [2] Bardeen J., Pines D., «Phys. Rev.», 1955, v. 99, p. 1140.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_522_GARMONIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_875_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

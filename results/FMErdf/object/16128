@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_16128">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x00050;</mi><mo stretchy="false">&#x00028;</mo><mi>B</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mi>&#x00050;</mi><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>h</mi></mrow><mo stretchy="false">&#x0005E;</mo></mover><mi>B</mi><mo stretchy="false">&#x00029;</mo><mtext>&#x000A0;для&#x000A0;любых&#x000A0;</mtext><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mtable><mtr><mtd columnalign="left"><mi>B</mi><mo>&#x02208;</mo><mrow><mi mathvariant="script">B</mi></mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>L</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mn>0</mn><mo>&#x0002C;</mo><mi>T</mi><mi>;</mi><mi>&#x1D536;</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mo>&#x0002C;</mo></mtd></mtr><mtr><mtd columnalign="left"><mi>h</mi><mo>&#x02208;</mo><msup><mi>&#x0211D;</mi><mrow><mi>n</mi></mrow></msup><mo>&#x0002C;</mo></mtd></mtr></mtable><mo stretchy="true" fence="true" form="postfix" /></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\mathrm{P}(B)=\mathrm{P}(\hat{h} B) \text { для любых }\left\{\begin{array}{l}B \in \mathscr{B}\left(L_{2}(0, T ; \mathfrak{y})\right), \\h \in \mathbb{R}^{n},\end{array}\right.$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

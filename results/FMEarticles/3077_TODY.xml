@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3077_TODY" alphabetic_pos="3079">
+  <title>ТОДЫ УРАВНЕНИЯ, ЦЕПОЧКА ТОДЫ</title>
+  <authors/>
+  <pages>
+    <start>605</start>
+    <end>606</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Абл о в и ц М., С и х у р Х., Солитоны и метод обратной задачи, пер. с англ., М., 1987; [2] Тахтаджян Л.А., Фаддее в Л. Д., Гамильтонов подход в теории солитонов, М., 1986; [3] П е реломов А. М., Ольшанецкий М.А., Семенов-Тянш а н с к и й М. А., Интегрируемые системы. Ii, в кн.: «итоги науки $\begin{array}{ll}\text { и техники», т. 16, М., } 1987 . &amp; \text { В. Ю. Новокшенов. }\end{array}$</literature_orig>
+    <unit>
+      <author>Абловиц М.</author>
+      <author>Сихур Х.</author>
+      <title>Солитоны и метод обратной задачи</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1987</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Тахтаджян Л. А.</author>
+      <author>Фаддеев Л. Д.</author>
+      <title>Гамильтонов подход в теории солитонов</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Переломов А. М.</author>
+      <author>Ольшанецкий М. А.</author>
+      <author>Семенов-Тяншанский М. А.</author>
+      <title>Интегрируемые системы. Ii, в кн.: «итоги науки $\begin{array}{ll}\text { и техники»</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other>т. 16</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3077_1_TODY">\frac{d^{2} u_{n}}{d t^{2}}=e^{u_{n+1}-u_{n}}-e^{u_{n}-u_{n-1}}, \quad n \in \mathbb{Z},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3077_1_TODY">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3077_2_TODY">u_{n} \in l_{1}</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/3077_1_TODY">
+      <rel_text>действие</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3077_2_TODY">
+      <rel_text>непрерывного спектра</rel_text>
+      <target>http://libmeta.ru/fme/article/1931_NEPRERYVNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3077_3_TODY">
+      <rel_text>граничных условий</rel_text>
+      <target>http://libmeta.ru/fme/article/713_GRANIChNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3077_4_TODY">
+      <rel_text>рассеяния</rel_text>
+      <target>http://libmeta.ru/fme/article/2558_RASSTROJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3077_5_TODY">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>система обыкновенных URI[[http://libmeta.ru/fme/relation/3077_5_TODY]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3077_1_TODY]]/URI
+\]
+
+предложенная М. Тодой (м. Toda, 1967) как модель нелинейно связанных одномерных осцилляторов. Т. у. интегри- руются методом обратной задачи URI[[http://libmeta.ru/fme/relation/3077_4_TODY]]/URI. Для широкого класса URI[[http://libmeta.ru/fme/relation/3077_3_TODY]]/URI (периодических по $URI[[http://libmeta.ru/fme/formula/aux/3077_1_TODY]]/URI$, с фиксированными или свободными концами для конечных цепочек, быстроубывающих $URI[[http://libmeta.ru/fme/formula/aux/3077_2_TODY]]/URI$ для бесконечной цепочки и т. д.) построены точные решения типа солитонов, дано описание URI[[http://libmeta.ru/fme/relation/3077_2_TODY]]/URI возбуждений, а также предъявлены канонич. переменные типа URI[[http://libmeta.ru/fme/relation/3077_1_TODY]]/URI - угол (см. [1], [2]). Теоретико-групповой анализ Т. у. и его квантовое обобщение см. в [3].</text>
+  <text_orig>система обыкновенных дифференциальных уравнений:
+
+\[
+\frac{d^{2} u_{n}}{d t^{2}}=e^{u_{n+1}-u_{n}}-e^{u_{n}-u_{n-1}}, \quad n \in \mathbb{Z},
+\]
+
+предложенная М. Тодой (М. Toda, 1967) как модель нелинейно связанных одномерных осцилляторов. Т. у. интегри- руются методом обратной задачи рассеяния. Для широкого класса граничных условий (периодических по $n$, с фиксированными или свободными концами для конечных цепочек, быстроубывающих $u_{n} \in l_{1}$ для бесконечной цепочки и т. д.) построены точные решения типа солитонов, дано описание непрерывного спектра возбуждений, а также предъявлены канонич. переменные типа действие - угол (см. [1], [2]). Теоретико-групповой анализ Т. у. и его квантовое обобщение см. в [3].
+
+Лит.: [1] Абл о в и ц М., С и х у р Х., Солитоны и метод обратной задачи, пер. с англ., М., 1987; [2] Тахтаджян Л.А., Фаддее в Л. Д., Гамильтонов подход в теории солитонов, М., 1986; [3] П е реломов А. М., Ольшанецкий М.А., Семенов-ТянШ а н с к и й М. А., Интегрируемые системы. II, в кн.: «Итоги науки $\begin{array}{ll}\text { и техники», т. 16, М., } 1987 . &amp; \text { В. Ю. Новокшенов. }\end{array}$</text_orig>
+</article>

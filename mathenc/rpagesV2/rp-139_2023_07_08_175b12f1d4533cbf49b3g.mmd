@@ -1,0 +1,98 @@
+в о д н ы п е р в о го по р я д к а, являясь функциями от $x$ и $y$, могут в свою очередь иметь частные производные по $x$ и $y$, к-рые называются, по отношению к функции $z=f(x, y)$, ч а с т ны м и п р о и зводным и торого поряд ка, или в торыми частными про изводным и. При этом полагают
+
+\[
+\begin{aligned}
+& \frac{\partial}{\partial x}\left(\frac{\partial z}{\partial x}\right)=\frac{\partial^{2} z}{\partial x^{2}}, \quad \frac{\partial}{\partial y}\left(\frac{\partial z}{\partial x}\right)=\frac{\partial^{2} z}{\partial x \partial y}, \\
+& \frac{\partial}{\partial x}\left(\frac{\partial z}{\partial y}\right)=\frac{\partial^{2} z}{\partial y \partial x}, \quad \frac{\partial}{\partial y}\left(\frac{\partial z}{\partial y}\right)=\frac{\partial^{2} z}{\partial y^{2}} .
+\end{aligned}
+\]
+
+Вместо $\partial^{2} z / \partial x^{2}$ употребляют также обозначения
+
+\[
+z_{x x}^{\prime \prime}, z_{x^{2}}^{\prime \prime}, \frac{\partial^{2} f(x, y)}{\partial x^{2}}, \quad \frac{\partial^{2} f}{\partial x^{2}}, f_{x x}^{\prime \prime}(x, y), f_{x^{2}}^{\prime \prime}(x, y) ;
+\]
+
+вместо $\partial^{2} z / \partial x \partial y$ - обозначения
+
+\[
+z_{x y}^{\prime \prime}, \frac{\partial^{2} f(x, y)}{\partial x \partial y}, \frac{\partial^{2} f}{\partial x \partial y}, f_{x y}^{\prime \prime}(x, y)
+\]
+
+и т. д. Подобным образом вводятся частные производные третьего порядка и выше, и соответствующая символика: $\partial^{n} z / \partial x^{n}$ - функция $z$ дифференцируется $n$ раз по $x$; $\partial^{n} z / \partial x^{p} \partial y^{q}$, где $n=p+q$, - функция $z$ дифференцируется $p$ раз по $x$ и $q$ раз по $y$. Частные производные второго и высших порядков, являющиеся результатом дифференцирования по разным переменным, наз. с ме ш а н ным и ч а с т ным и произ во дн ы м и.
+
+Каждой частной производной отвечает нек-рый ч а с т ны й дифф е р е н ц и л, получаемый умпожением ее на диффференциалы независимых переменных, взятые в степенях, равных числу дифференцирований по соответствующему переменному. Так получаются $n$-е ч а с т ны е д и фф е р е н ц и а лы, или ч а с т ны е дифф е ренцй лы $n-\Gamma о$ поря дк а:
+
+\[
+\frac{\partial^{n} z}{\partial x^{n}} d x^{n}, \frac{\partial^{n} z}{\partial x^{p} \partial y^{q}} d x^{p} d y^{q} \text {. }
+\]
+
+Справедлива следующая важная т е о р е м а о с м еш а н н ы х п р о и з в о д ны х: если в нек-рой окрестности точки $\left(x_{0}, y_{0}\right)$ функция $z=f(x, y)$ имеет смешанные частные производные $f_{x y}^{\prime \prime}(x, y)$ и $f_{y x}^{\prime \prime}(x, y)$ и эти производные непрерывны в точке $\left(x_{0}, y_{0}\right)$, то $f_{x y}^{\prime \prime}\left(x_{0}, y_{0}\right)=f_{y x}^{\prime \prime}\left(x_{0}, y_{0}\right)$.
+
+Функция $z=f(x, y)$ наз. д и ф ф е р е нц и р у е м о й в точке $\left(x_{0}, y_{0}\right)$ по совокупности переменных $x$ и $y$, если она определена в нек-рой окрестности этой точки и ее І о ло о п р и р а ен и е
+
+\[
+\Delta z=f\left(x_{0}+\Delta x, y_{0}+\Delta y\right)-f\left(x_{0}, y_{0}\right)
+\]
+
+может быть представлено в виде
+
+\[
+\Delta z=A \Delta x+B \Delta y+\omega,
+\]
+
+где $A$ и $B$ - некоторые числа, $\omega / \rho \rightarrow 0$ при $\rho=$ $=\sqrt{(\Delta x)^{2}+(\Delta y)^{2}} \rightarrow 0$ (при условии, что точка $\left(x_{0}+\Delta x\right.$, $\left.y_{0}+\Delta y\right)$ принадлежит упомянутой окрестности). При этом выражение
+
+\[
+d z=d f\left(x_{0}, y_{0}\right)=A \Delta x+B \Delta y
+\]
+
+наз. п о л ны ди фф е р е нци а л о м (первого порядка) функции $f(x, y)$ в точке $\left(x_{0}, y_{0}\right)$; это есть главная линейная часть приращения. Функция, дифференцируемая в точке, непрерывна в әтой точке (об̈ратное не всегда верно!). Более того, диффференцируемость влечет существование конечных частных производных
+
+$f_{x}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta x \rightarrow 0} \frac{\Delta_{x} z}{\Delta x}=A, f_{y}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta y \rightarrow 0} \frac{\Delta_{y} z}{\Delta y}=B$. Таким образом, для функции, дифференцируемой в $\left(x_{0}, y_{0}\right)$
+
+\[
+d z=d f\left(x_{0}, y_{0}\right)=f_{x}^{\prime}\left(x_{0}, y_{0}\right) \Delta x+f_{y}^{\prime}\left(x_{0}, y_{0}\right) \Delta y
+\]
+
+или
+
+\[
+d z=d f\left(x_{0}, y_{0}\right)=f_{x}^{\prime}\left(x_{0}, y_{0}\right) d x+f_{y}^{\prime}\left(x_{0}, y_{0}\right) d y,
+\]
+
+если, подобно случаю одного переменного, положить для независимых переменных $d x=\Delta x, d y=\Delta y$.
+
+Существование конечных частных производных в общем случае не влечет ее диффференцируемости (здесь нарушается аналогия с функциями одного переменного). Достаточный признак дифференц и р у е м о с т и функции двух переменных: если в нек-рой окрестности точки $\left(x_{0}, y_{0}\right)$ функция $f(x, y)$ имеет конечные частные производные $f_{x}^{\prime}(x, y) \quad$ и $f_{y}^{\prime}(x, y)$, непрерывные в точке $\left(x_{0}, y_{0}\right)$, то $f$ диффференцируема в этой точке. Геомет-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_175b12f1d4533cbf49b3g-1.jpg?height=424&width=484&top_left_y=542&top_left_x=1326)
+
+Puc. 4. рически полный диф ференциал $d f\left(x_{0}, y_{0}\right)$ есть приращение аппликаты касательной плоскости к поверхности $z=f(x, y)$ в точке $\left(x_{0}, y_{0}, z_{0}\right)$, где $z_{0}=f\left(x_{0}, y_{0}\right)$ (см. рис. 4).
+
+Полны е диффер е ци а лы в ыс ші и п о р я д к о в, подобно случаю функций одного переменного, вводятся по индукции равенством
+
+\[
+d^{n} z=d\left(d^{n-1} z\right)
+\]
+
+в предположении, что дифференциал $d^{n-1} z$ определен в нек-рой окрестности рассматриваемой точки и что приращения аргументов $d x, d y$ берутся одни и те же на всех шагах. Аналогично определяются и повторные дифференциалы.
+
+Производны е и диф ф е ренци алы с ло ж ных фу у н к и й. Пусть $w=f\left(u_{1}, \ldots, u_{m}\right)-$ функция $m$ переменных, дифференцируемая в каждой точке открытой области $D$ m-мерного евклидова пространства $R^{m}$, и пусть $m$ функций $u_{1}=\varphi_{1}\left(x_{1}, \ldots, x_{n}\right)$, $\ldots, u_{m}=\varphi_{m}\left(x_{1}, \ldots, x_{n}\right)$ - от $n$ переменных заданы в открытой области $G$-мерного евклидова пространства $\boldsymbol{R}^{n}$. Пусть, наконец, точка $\left(u_{1}, \ldots, u_{m}\right)$, соответствующая точке $\left(x_{1}, \ldots, x_{n}\right) \in G$, не выходит из области $D$. Тогда справедливы следующие теоремы:
+
+1) Если функции $\varphi_{1}, \ldots, \varphi_{m}$ имеют конечные частные производные по $x_{1}, \ldots, x_{n}$, то сложная функция $w=$ $=f\left(u_{1}, \ldots, u_{m}\right)$ от $x_{1}, \ldots, x_{n}$ также имеет конечные частные производные по $x_{1}, \ldots, x_{n}$ и
+
+\[
+\begin{aligned}
+& \frac{\partial w}{\partial x_{1}}=\frac{\partial f}{\partial u_{1}} \frac{\partial u_{1}}{\partial x_{1}}+\ldots+\frac{\partial f}{\partial u_{n}} \frac{\partial u_{n}}{\partial x_{1}}, \\
+& \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \frac{\partial f}{\partial u_{n}} \frac{\partial u_{n}}{\partial x_{n}} . \\
+& \frac{\partial w}{\partial x_{n}}=\frac{\partial f}{\partial u_{1}} \frac{\partial \ell_{1}}{\partial x_{n}}+\ldots+.
+\end{aligned}
+\]
+
+2) Если функции $\varphi_{1}, \ldots, \varphi_{m}$ дифференцируемы по совокупности переменных $x_{1}, \ldots, x_{n}$ в точке $\left(x_{1}, \ldots, x_{n}\right) \in G$, то и сложная функция $w=f\left(u_{1}, \ldots, u_{m}\right)$ дифференцируема в этой точке и
+
+\[
+d w=\frac{\partial f}{\partial u_{1}} d u_{1}+\frac{\partial f}{\partial u_{2}} d u_{2}+\ldots+\frac{\partial f}{\partial u_{n}} d u_{n}
+\]
+где $d u_{1}, \ldots, d u_{m}-$ диффференциалы функций $u_{1}, \ldots$,
+$u_{m}$. Таким образом, свойство инвариантности первого

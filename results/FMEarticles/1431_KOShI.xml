@@ -1,0 +1,235 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1431_KOShI" alphabetic_pos="1433">
+  <title>КОШИ ЗАДАЧА</title>
+  <authors/>
+  <pages>
+    <start>301</start>
+    <end>301</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Г и й е м и н В., С т е р н б е р г С., Геометрические асимптотики, пер. с англ., М., 1981; [2] Мищенко А. С., Стерн и н Б. Ю., Ша тал о в В. Е., Лагранжевы многообразия и метод канонического оператора, М., 1978; [3] М а с л о в В. П., Асимптотические методы решения псевдодифференциальных уравнений, М., 1987; [4] Воропаева Г.А., Дубнов В.Л., Маслов В. П., в Кн.: Итоги науки и техники. Современные проблемы математики. Новейшие достижения, т. 31, М., 1987, с. 93-192.</literature_orig>
+    <unit>
+      <author>Гийемин В.</author>
+      <author>Стернберг С.</author>
+      <title>Геометрические асимптотики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Мищенко А. С.</author>
+      <author>Стернин Б. Ю.</author>
+      <author>Шаталов В. Е.</author>
+      <title>Лагранжевы многообразия и метод канонического оператора</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>Асимптотические методы решения псевдодифференциальных уравнений</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Воропаева Г. А.</author>
+      <author>Дубнов В. Л.</author>
+      <author>Маслов В. П.</author>
+      <title>в Кн.: Итоги науки и техники. Современные проблемы математики. Новейшие достижения</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other>т. 31, с. 93-192.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1431_1_KOShI">\left(-i h \frac{\partial}{\partial t}+H\left(-i h \frac{\partial}{\partial x}, x, t, h\right)\right) u=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1431_2_KOShI">\frac{\partial u}{\partial t}-\sum_{j=1}^{n} A_{j} \frac{\partial u}{\partial x_{j}}+B u=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1431_3_KOShI">\sum_{k=1}^{m} \sum_{j=0}^{\infty}(-i h)^{j} a_{k j}(x, t) \exp \left(i S_{k}(x, t) / h\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1431_4_KOShI">M_{k} a_{k 0}=0, L a_{k j}=M_{k} a_{k j-1}, j&gt;0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1431_5_KOShI">M_{k}=\partial S_{k} / \partial t+H_{0}\left(\partial S_{k} / \partial x, x, t\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1431_6_KOShI">\partial S_{k} / \partial t+\lambda_{k}\left(\partial S_{k} / \partial x, x, t\right)=0 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_1_KOShI">b(x) \exp (i \varphi(x) / h)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_2_KOShI">h&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_3_KOShI">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_4_KOShI">h_{0}(p, x, t)=H(p, x, t, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_5_KOShI">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_6_KOShI">h(p, x, t, h)=-\sum_{j=1}^{n} A_{j}(x, t) p_{j}-i h B(x, t), \quad x \in \mathbb{R}^{n}, \quad u \in \mathbb{R}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_7_KOShI">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_8_KOShI">p \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_9_KOShI">\lambda_{k}(p, x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_10_KOShI">(-i h)^{j} \exp \left(i S_{k} / h\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_11_KOShI">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_12_KOShI">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_13_KOShI">a_{k 0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_14_KOShI">h_{0}\left(\partial S_{k} / \partial x, x, t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_15_KOShI">\lambda_{k}\left(\partial S_{k} / \partial x, x, t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_16_KOShI">s_{k}(x, 0)=\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_17_KOShI">\lambda_{k}(t)=g_{k}^{t} \Lambda_{k}(0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_18_KOShI">g_{k}^{t}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_19_KOShI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_20_KOShI">\lambda_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_21_KOShI">a_{k j}=\alpha_{k j} v_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_22_KOShI">v_{k}(x, t)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_23_KOShI">h_{0}\left(\partial S_{k} / \partial x, x, t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_24_KOShI">\lambda_{k}\left(\partial S_{k} / \partial x, x, t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_25_KOShI">l a_{k j}=M_{k} a_{k j-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_26_KOShI">\alpha_{k j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_27_KOShI">\lambda_{k}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_28_KOShI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_29_KOShI">\lambda_{k}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1431_30_KOShI">\varphi</formula>
+  </formulas_aux>
+  <relations n="13">
+    <relation uri="http://libmeta.ru/fme/relation/1431_1_KOShI">
+      <rel_text>комплексного ростка</rel_text>
+      <target>http://libmeta.ru/fme/article/1333_KOMPLEKSNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_2_KOShI">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_3_KOShI">
+      <rel_text>интегральных кривых</rel_text>
+      <target>http://libmeta.ru/fme/article/1029_INTEGRAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_4_KOShI">
+      <rel_text>дифференциальным уравнением</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_5_KOShI">
+      <rel_text>дифференциальное уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_6_KOShI">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_7_KOShI">
+      <rel_text>фазовый поток</rel_text>
+      <target>http://libmeta.ru/fme/article/3250_FAZOVYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_8_KOShI">
+      <rel_text>лагранжевых многообразий</rel_text>
+      <target>http://libmeta.ru/fme/article/1517_LAGRANZhEVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_9_KOShI">
+      <rel_text>производящей функцией</rel_text>
+      <target>http://libmeta.ru/fme/article/2401_PROIZVODJaSchAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_10_KOShI">
+      <rel_text>начальному условию</rel_text>
+      <target>http://libmeta.ru/fme/article/1873_NAChAL'NYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_11_KOShI">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_12_KOShI">
+      <rel_text>Первое</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1431_13_KOShI">
+      <rel_text>линейный дифференциальный оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/729_GRINA</target>
+    </relation>
+  </relations>
+  <text>вы с окочастотная ас имптоти ка реше н и я - представление решения эволюционного уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1431_1_KOShI]]/URI
+\]
+
+с быстроосциллирующими начальными данными вида $URI[[http://libmeta.ru/fme/formula/aux/1431_1_KOShI]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1431_2_KOShI]]/URI$ - малый параметр, сравнительно простым выражением с точностью до слагаемого, имеющего определенное (обычно степенное) убывание при $URI[[http://libmeta.ru/fme/formula/aux/1431_3_KOShI]]/URI$.
+
+В случае вещественных собственных значений символа $URI[[http://libmeta.ru/fme/formula/aux/1431_4_KOShI]]/URI$ асимптотика решения К. з. для малых $URI[[http://libmeta.ru/fme/formula/aux/1431_5_KOShI]]/URI$ получается методом Люнебурга - Лакса - Людвига (см. [1]), возникшего в квантовой механике под названием В К Б - м е то д а. Пусть, напр., дана строго гиперболич. система
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1431_2_KOShI]]/URI
+\]
+
+где
+
+$URI[[http://libmeta.ru/fme/formula/aux/1431_6_KOShI]]/URI$,
+
+символ $URI[[http://libmeta.ru/fme/formula/aux/1431_7_KOShI]]/URI$ имеет при $URI[[http://libmeta.ru/fme/formula/aux/1431_8_KOShI]]/URI$ различные вещественные собственные значения $URI[[http://libmeta.ru/fme/formula/aux/1431_9_KOShI]]/URI$. Асимптотика решения К. 3. строится как частичная сумма ряда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1431_3_KOShI]]/URI
+\]
+
+Подстановка этого ряда в рассматриваемое уравнение и приравнивание нулю коэффициентов при $URI[[http://libmeta.ru/fme/formula/aux/1431_10_KOShI]]/URI$ дает для каждого $URI[[http://libmeta.ru/fme/formula/aux/1431_11_KOShI]]/URI$ цепочку соотношений
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1431_4_KOShI]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1431_5_KOShI]]/URI
+\]
+
+а $URI[[http://libmeta.ru/fme/formula/aux/1431_12_KOShI]]/URI$ - URI[[http://libmeta.ru/fme/relation/1431_13_KOShI]]/URI 1-го порядка. URI[[http://libmeta.ru/fme/relation/1431_12_KOShI]]/URI из них означает, что $URI[[http://libmeta.ru/fme/formula/aux/1431_13_KOShI]]/URI$ собственный URI[[http://libmeta.ru/fme/relation/1431_11_KOShI]]/URI матрицы $URI[[http://libmeta.ru/fme/formula/aux/1431_14_KOShI]]/URI$. Приравнивание $URI[[http://libmeta.ru/fme/formula/aux/1431_15_KOShI]]/URI$ соответствующему собственному значению дает характеристич. уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1431_6_KOShI]]/URI
+\]
+
+Его решение, удовлетворяющее URI[[http://libmeta.ru/fme/relation/1431_10_KOShI]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1431_16_KOShI]]/URI$, является URI[[http://libmeta.ru/fme/relation/1431_9_KOShI]]/URI семейства URI[[http://libmeta.ru/fme/relation/1431_8_KOShI]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1431_17_KOShI]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1431_18_KOShI]]/URI$ URI[[http://libmeta.ru/fme/relation/1431_7_KOShI]]/URI нестационарного гамильтонова векторного поля $URI[[http://libmeta.ru/fme/formula/aux/1431_19_KOShI]]/URI$ с гамильтонианом $URI[[http://libmeta.ru/fme/formula/aux/1431_20_KOShI]]/URI$. Пусть $URI[[http://libmeta.ru/fme/formula/aux/1431_21_KOShI]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1431_22_KOShI]]/URI$ собственный URI[[http://libmeta.ru/fme/relation/1431_6_KOShI]]/URI матрицы $URI[[http://libmeta.ru/fme/formula/aux/1431_23_KOShI]]/URI$ с собственным значением $URI[[http://libmeta.ru/fme/formula/aux/1431_24_KOShI]]/URI$. Тогда соотношение $URI[[http://libmeta.ru/fme/formula/aux/1431_25_KOShI]]/URI$ превращается в URI[[http://libmeta.ru/fme/relation/1431_5_KOShI]]/URI для $URI[[http://libmeta.ru/fme/formula/aux/1431_26_KOShI]]/URI$ - так наз. уравнение переноса. Уравнение переноса, поднятое на $URI[[http://libmeta.ru/fme/formula/aux/1431_27_KOShI]]/URI$, является обыкновенным URI[[http://libmeta.ru/fme/relation/1431_4_KOShI]]/URI вдоль URI[[http://libmeta.ru/fme/relation/1431_3_KOShI]]/URI поля $URI[[http://libmeta.ru/fme/formula/aux/1431_28_KOShI]]/URI$.
+
+Построенная асимптотика представима как результат применения канонич. URI[[http://libmeta.ru/fme/relation/1431_2_KOShI]]/URI Маслова к соответствующим функциям на $URI[[http://libmeta.ru/fme/formula/aux/1431_29_KOShI]]/URI$ (см. [2]). Это дает продолжение асимптотики на любой отрезок времени.
+
+Асимптотика решения К. з. строится также для комплексной начальной фазы $URI[[http://libmeta.ru/fme/formula/aux/1431_30_KOShI]]/URI$ и комплексных собственных значений символа с помощью URI[[http://libmeta.ru/fme/relation/1431_1_KOShI]]/URI (см. [3], [4]).</text>
+  <text_orig>вы с окочастотная ас имптоти ка реше н и я - представление решения эволюционного уравнения
+
+\[
+\left(-i h \frac{\partial}{\partial t}+H\left(-i h \frac{\partial}{\partial x}, x, t, h\right)\right) u=0
+\]
+
+с быстроосциллирующими начальными данными вида $b(x) \exp (i \varphi(x) / h)$, где $h&gt;0$ - малый параметр, сравнительно простым выражением с точностью до слагаемого, имеющего определенное (обычно степенное) убывание при $h \rightarrow 0$.
+
+В случае вещественных собственных значений символа $H_{0}(p, x, t)=H(p, x, t, 0)$ асимптотика решения К. з. для малых $t$ получается методом Люнебурга - Лакса - Людвига (см. [1]), возникшего в квантовой механике под названием В К Б - м е то д а. Пусть, напр., дана строго гиперболич. система
+
+\[
+\frac{\partial u}{\partial t}-\sum_{j=1}^{n} A_{j} \frac{\partial u}{\partial x_{j}}+B u=0
+\]
+
+где
+
+$H(p, x, t, h)=-\sum_{j=1}^{n} A_{j}(x, t) p_{j}-i h B(x, t), \quad x \in \mathbb{R}^{n}, \quad u \in \mathbb{R}^{m}$,
+
+символ $H$ имеет при $p \neq 0$ различные вещественные собственные значения $\lambda_{k}(p, x, t)$. Асимптотика решения К. 3. строится как частичная сумма ряда
+
+\[
+\sum_{k=1}^{m} \sum_{j=0}^{\infty}(-i h)^{j} a_{k j}(x, t) \exp \left(i S_{k}(x, t) / h\right) .
+\]
+
+Подстановка этого ряда в рассматриваемое уравнение и приравнивание нулю коэффициентов при $(-i h)^{j} \exp \left(i S_{k} / h\right)$ дает для каждого $k$ цепочку соотношений
+
+где
+
+\[
+M_{k} a_{k 0}=0, L a_{k j}=M_{k} a_{k j-1}, j&gt;0,
+\]
+
+\[
+M_{k}=\partial S_{k} / \partial t+H_{0}\left(\partial S_{k} / \partial x, x, t\right),
+\]
+
+а $L$ - линейный дифференциальный оператор 1-го порядка. Первое из них означает, что $a_{k 0}-$ собственный вектор матрицы $H_{0}\left(\partial S_{k} / \partial x, x, t\right)$. Приравнивание $\lambda_{k}\left(\partial S_{k} / \partial x, x, t\right)$ соответствующему собственному значению дает характеристич. уравнение
+
+\[
+\partial S_{k} / \partial t+\lambda_{k}\left(\partial S_{k} / \partial x, x, t\right)=0 .
+\]
+
+Его решение, удовлетворяющее начальному условию $S_{k}(x, 0)=\varphi(x)$, является производящей функцией семейства лагранжевых многообразий $\Lambda_{k}(t)=g_{k}^{t} \Lambda_{k}(0)$, где $g_{k}^{t}-$ фазовый поток нестационарного гамильтонова векторного поля $X_{k}$ с гамильтонианом $\lambda_{k}$. Пусть $a_{k j}=\alpha_{k j} v_{k}$, где $v_{k}(x, t)-$ собственный вектор матрицы $H_{0}\left(\partial S_{k} / \partial x, x, t\right)$ с собственным значением $\lambda_{k}\left(\partial S_{k} / \partial x, x, t\right)$. Тогда соотношение $L a_{k j}=M_{k} a_{k j-1}$ превращается в дифференциальное уравнение для $\alpha_{k j}$ - так наз. уравнение переноса. Уравнение переноса, поднятое на $\Lambda_{k}(t)$, является обыкновенным дифференциальным уравнением вдоль интегральных кривых поля $X_{k}$.
+
+Построенная асимптотика представима как результат применения канонич. оператора Маслова к соответствующим функциям на $\Lambda_{k}(t)$ (см. [2]). Это дает продолжение асимптотики на любой отрезок времени.
+
+Асимптотика решения К. з. строится также для комплексной начальной фазы $\varphi$ и комплексных собственных значений символа с помощью комплексного ростка (см. [3], [4]).
+
+Jum.: [1] Г и й е м и н В., С т е р н б е р г С., Геометрические асимптотики, пер. с англ., М., 1981; [2] Мищенко А. С., Стерн и н Б. Ю., Ша тал о в В. Е., Лагранжевы многообразия и метод канонического оператора, М., 1978; [3] М а с л о в В. П., Асимптотические методы решения псевдодифференциальных уравнений, М., 1987; [4] Воропаева Г.А., Дубнов В.Л., Маслов В. П., в Кн.: Итоги науки и техники. Современные проблемы математики. Новейшие достижения, т. 31, М., 1987, с. 93-192.</text_orig>
+</article>

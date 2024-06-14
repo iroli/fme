@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1152_KVAZIOPTIK">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1152_KVAZIOPTIK</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/169</core:url>
+    <lbm:descriptor><![CDATA[КВАЗИОПТИКА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#1712"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#1713"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>научная дисциплина, смежная геометрической оптике и теории дифракции и посвященная анализу и расчету устройств для формирования и передачи электромагнитных полей, основанных на геометро-оптических процессах отражения, преломления и фокусировки этих полей в условиях, когда необходимо учитывать волновую природу колебаний. Примеры таких устройств - открытый <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2589_REZONAN">резонатор</a>, образованный двумя расположенными друг против друга зеркалами; зеркало или диэлектрич. призма в изломе широкого волновода.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#1712">[1]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#1712">К а ц е н е ле н б а ум Б. 3., «успехи физич. наук», 1964, в. 1, с. 81-105</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#1713">[2]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#1713">Квазиоптика, пер. с англ. и нем., М., 1966</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[научная дисциплина, смежная геометрической оптике и теории дифракции и посвященная анализу и расчету устройств для формирования и передачи электромагнитных полей, основанных на геометро-оптических процессах отражения, преломления и фокусировки этих полей в условиях, когда необходимо учитывать волновую природу колебаний. Примеры таких устройств - открытый резонатор, образованный двумя расположенными друг против друга зеркалами; зеркало или диэлектрич. призма в изломе широкого волновода.
+
+Лит.: [1] К а ц е н е ле н б а ум Б. 3., «Успехи физич. наук», 1964 т. 83, в. 1, с. 81-105; [2] Квазиоптика, пер. с англ. и нем., М., 1966.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2589_REZONAN"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

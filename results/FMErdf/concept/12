@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1010_INVARIANTNYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1010_INVARIANTNYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/12</core:url>
+    <lbm:descriptor><![CDATA[ИНВАРИАНТНЫЙ ТОР]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#57"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#81"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#82"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#84"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_85"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_86"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_87"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_88"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_89"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_90"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_91"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_92"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_93"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_94"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_95"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_96"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>инвариантное многообразие динамической системы (отображения или фазового потока векторного поля), диффеоморфное или гомеоморфное $URI[[http://libmeta.ru/fme/formula/aux/1010_1_INVARIANTNYJ]]/URI$-мерному тору <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_85">$$t^{n}=(\mathbb{r} / 2 \pi \mathbb{Z})^{n}$$</a>. И. т. служит математич. описанием колебательных процессов в динамич. системах.<BR/></P><P>Простейшим примером И. т. является замкнутая траектория фазового потока векторного поля $URI[[http://libmeta.ru/fme/formula/aux/1010_3_INVARIANTNYJ]]/URI$ (то есть периодич. решение дифференциального уравнения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_87">$$d x / d t=V(x))$$</a>. Для общей теории И.т. этот пример нехарактерен, так как большинство аспектов этой теории в размерности $URI[[http://libmeta.ru/fme/formula/aux/1010_5_INVARIANTNYJ]]/URI$ для потоков становятся тривиальными. Поэтому, как правило, в общей теории И. т. рассматривают $URI[[http://libmeta.ru/fme/formula/aux/1010_6_INVARIANTNYJ]]/URI$-мерные И. т. потоков при $URI[[http://libmeta.ru/fme/formula/aux/1010_7_INVARIANTNYJ]]/URI$ и отображений при $URI[[http://libmeta.ru/fme/formula/aux/1010_8_INVARIANTNYJ]]/URI$. С помощью перехода сечению Пуанкаре изучение И. т. $URI[[http://libmeta.ru/fme/formula/aux/1010_9_INVARIANTNYJ]]/URI$ фазового потока часто можно свести к изучению И. т. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_92">$$t^{n-1}$$</a> соответствующего отображения Пуанкаре. Другим простейшим примером И. т., тоже исключительным, являются И. т. в линейных системах.<BR/></P><P>В теории И. т. рассматриваются следующие вопросы: условия существования И. т. и устойчивость И.т. при малых шевелениях системы, поведение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI">траекторий</a> на И. т. и в его окрестности, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI">бифуркации</a> И. т. и семейств И. т.<BR/></P><P>Свойства И. т. резко различаются в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK">динамич</a>. системах с той или иной симметрией (напр., в гамильтоновых или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2032_OBRATIMAJa">обратимых системах</a>) и в системах общего вида.<BR/></P><P>$URI[[http://libmeta.ru/fme/formula/aux/1010_11_INVARIANTNYJ]]/URI$-мерные И. т. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA">гамильтоновых систем</a> с <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_93">$$n \geqslant n$$</a> степенями свободы (или $URI[[http://libmeta.ru/fme/formula/aux/1010_13_INVARIANTNYJ]]/URI$-мерные И. т. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2032_OBRATIMAJa">обратимых систем</a> с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазовым пространством</a> размерности <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_94">$$2 N \geqslant 2 n$$</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">пересекающие</a> $URI[[http://libmeta.ru/fme/formula/aux/1010_15_INVARIANTNYJ]]/URI$-мерное <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразие</a> неподвижных точек обращающей инволюции) присутствуют в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазовом пространстве</a>, как правило, в большом количестве, образуя $URI[[http://libmeta.ru/fme/formula/aux/1010_16_INVARIANTNYJ]]/URI$-параметрич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1109_KANTOROTO">канторовы</a> семейства, и $URI[[http://libmeta.ru/fme/formula/aux/1010_17_INVARIANTNYJ]]/URI$-мерная мера объединения всех И.т. из данного семейства положительна. Движение на этих И.т. условно-периодично с сильно несоизмеримыми частотами. Гладкость И. т. лишь незначительно ниже гладкости самой системы, и если последняя бесконечно дифференцируема или аналитична, то таковы и И. т. (см. Kam-теория).<BR/></P><P>Напротив, И. т. систем общего вида встречаются в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазовом пространстве</a>, как правило, изолированно. Движение на этих И. т. не является, вообще говоря, условно-периодическим, и они часто имеют лишь конечную гладкость, даже если сама <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_168_BESKONEChNYE">система бесконечно</a> дифференцируема или аналитична.<BR/></P><P>Одной из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3454_ShIROT">широко</a> распространенных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI">бифуркаций</a> И. т. является рождение $URI[[http://libmeta.ru/fme/formula/aux/1010_18_INVARIANTNYJ]]/URI$-мерных И. т. из $URI[[http://libmeta.ru/fme/formula/aux/1010_19_INVARIANTNYJ]]/URI$-мерных, напр. двумерного И. т. из предельного цикла. При другой типичной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI">бифуркации</a> И. т. постепенно теряет гладкость, превращается в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2973_STRANNYJ">странный аттрактор</a>, оставаясь уже лишь топологич. подмногообразием <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE">фазового пространства</a>, и, наконец, разрушается с возникновением стохастич. колебаний.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#81">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#80">Самойленко А. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#81">Элементы математической теории многочастотных колебаний. Инвариантные торы, М., 1987</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#82">[2]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#82">B roer H. W. [a. o.], 1990, «mem. Amer. Math. Soc.», v. 83, № 421</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#84">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#83">Анищенко В. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#84">Сложные колебания в простых системах, М., 1990</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#57">М. Б. Севрюк</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[инвариантное многообразие динамической системы (отображения или фазового потока векторного поля), диффеоморфное или гомеоморфное $n$-мерному тору $T^{n}=(\mathbb{R} / 2 \pi \mathbb{Z})^{n}$. И. т. служит математич. описанием колебательных процессов в динамич. системах.
+
+Простейшим примером И. т. является замкнутая траектория фазового потока векторного поля $V$ (то есть периодич. решение дифференциального уравнения $d x / d t=V(x))$. Для общей теории И.т. этот пример нехарактерен, так как большинство аспектов этой теории в размерности $n=1$ для потоков становятся тривиальными. Поэтому, как правило, в общей теории И. т. рассматривают $n$-мерные И. т. потоков при $n \geqslant 2$ и отображений при $n \geqslant 1$. С помощью перехода сечению Пуанкаре изучение И. т. $T^{n}$ фазового потока часто можно свести к изучению И. т. $T^{n-1}$ соответствующего отображения Пуанкаре. Другим простейшим примером И. т., тоже исключительным, являются И. т. в линейных системах.
+
+В теории И. т. рассматриваются следующие вопросы: условия существования И. т. и устойчивость И.т. при малых шевелениях системы, поведение траекторий на И. т. и в его окрестности, бифуркации И. т. и семейств И. т.
+
+Свойства И. т. резко различаются в динамич. системах с той или иной симметрией (напр., в гамильтоновых или обратимых системах) и в системах общего вида.
+
+$n$-мерные И. т. гамильтоновых систем с $N \geqslant n$ степенями свободы (или $n$-мерные И. т. обратимых систем с фазовым пространством размерности $2 N \geqslant 2 n$, пересекающие $N$-мерное многообразие неподвижных точек обращающей инволюции) присутствуют в фазовом пространстве, как правило, в большом количестве, образуя $n$-параметрич. канторовы семейства, и $2 n$-мерная мера объединения всех И.т. из данного семейства положительна. Движение на этих И.т. условно-периодично с сильно несоизмеримыми частотами. Гладкость И. т. лишь незначительно ниже гладкости самой системы, и если последняя бесконечно дифференцируема или аналитична, то таковы и И. т. (см. KAM-теория).
+
+Напротив, И. т. систем общего вида встречаются в фазовом пространстве, как правило, изолированно. Движение на этих И. т. не является, вообше говоря, условно-периодическим, и они часто имеют лишь конечную гладкость, даже если сама система бесконечно дифференцируема или аналитична.
+
+Одной из широко распространенных бифуркаций И. т. является рождение $(n+1)$-мерных И. т. из $n$-мерных, напр. двумерного И. т. из предельного цикла. При другой типичной бифуркации И. т. постепенно теряет гладкость, превращается в странный аттрактор, оставаясь уже лишь топологич. подмногообразием фазового пространства, и, наконец, разрушается с возникновением стохастич. колебаний. Лum.: [1] С а м о йл е н к о А. М., Элементы математической теории многочастотных колебаний. Инвариантные торы, М., 1987; [2] B roer H. W. [a. o.], «Mem. Amer. Math. Soc.», 1990, v. 83, № 421; [3] А н и щ е н к о В. С., Сложные колебания в простых системах, М., 1990. М. Б. Севрюк.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2973_STRANNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3454_ShIROT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_168_BESKONEChNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1109_KANTOROTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3242_FAZOVOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2032_OBRATIMAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2032_OBRATIMAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_816_DINAMIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_197_BIFURKATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

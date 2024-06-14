@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3529_ENERGII">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3529_ENERGII</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2809</core:url>
+    <lbm:descriptor><![CDATA[ЭНЕРГИИ ТУРБУЛЕНТНОСТИ УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5848"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#20852"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11296"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20853"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20854"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_242"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20855"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20856"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20857"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_20858"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>эволюционное уравнение для средней плотности кинетической энергии турбулентного течения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20854">$$e=(1 / 2) \rho\left\langle u_{\alpha}^{\prime} u_{\alpha}^{\prime}\right\rangle$$</a> (здесь <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_242">$$\rho-$$</a> плотность, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20855">$$u_{i}^{\prime}$$</a> - флуктуации скорости). Для несжимаемой жидкости Э. т. у. имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20853">$$\begin{aligned}& \frac{\partial E}{\partial t}+\frac{\partial}{\partial x_{\alpha}}\left(E\left\langle u_{\alpha}\right\rangle+(1 / 2) \rho\left\langle u_{\beta}^{\prime} u_{\beta}^{\prime} u_{\alpha}^{\prime}\right\rangle+\left\langle p^{\prime} u_{\alpha}^{\prime}\right\rangle-\left\langle u_{\beta}^{\prime} \sigma_{\alpha \beta}^{\prime}\right\rangle\right)= \\&=\rho\left\langle u_{\alpha}^{\prime} X_{\alpha}^{\prime}\right\rangle-\rho\langle\varepsilon\rangle-\rho\left\langle u_{\alpha}^{\prime} u_{\beta}^{\prime}\right\rangle \frac{\partial\left\langle u_{\alpha}\right\rangle}{\partial X_{\beta}},\end{aligned}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/3529_4_ENERGII]]/URI$ - давление, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20856">$$\sigma_{i j}-$$</a> тензор вязких напряжений, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20857">$$\rho X_{i}-$$</a> плотность внешних сил, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_20858">$$\rho\langle\varepsilon\rangle-$$</a> средняя удельная вязкая диссипация энергии турбулентности.<BR/></P><P>Э. т. у. в дополнение к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2596_REJNOL'DSA">уравнениям Рейнольдса</a> впервые предложено А. Н. Колмогоровым <a href="/object/show?uri=http://libmeta.ru/io/Publication#20852">[1]</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#20852">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#956">Колмогоров А. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#20852">«известия Ан Ссср. Сер. физическая», 1942, т. 6, № 1-2, с. 56-8 (избранные труды. Математика и механика, М., 1985, с. 294-96)</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#11296">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1353">Монин А. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1354">Яглом А. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11296">Статистическая гидромеханика. Механика турбулентности, ч. 1, М., 1965</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#5848">В. П. Красицкий</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[эВОЛЮционное уравнение для средней плотности кинетической энергии турбулентного течения $E=(1 / 2) \rho\left\langle u_{\alpha}^{\prime} u_{\alpha}^{\prime}\right\rangle$ (здесь $\rho-$ плотность, $u_{i}^{\prime}$ - флуктуации скорости). Для несжимаемой жидкости Э. т. у. имеет вид:
+
+\[
+\begin{aligned}
+& \frac{\partial E}{\partial t}+\frac{\partial}{\partial x_{\alpha}}\left(E\left\langle u_{\alpha}\right\rangle+(1 / 2) \rho\left\langle u_{\beta}^{\prime} u_{\beta}^{\prime} u_{\alpha}^{\prime}\right\rangle+\left\langle p^{\prime} u_{\alpha}^{\prime}\right\rangle-\left\langle u_{\beta}^{\prime} \sigma_{\alpha \beta}^{\prime}\right\rangle\right)= \\
+&=\rho\left\langle u_{\alpha}^{\prime} X_{\alpha}^{\prime}\right\rangle-\rho\langle\varepsilon\rangle-\rho\left\langle u_{\alpha}^{\prime} u_{\beta}^{\prime}\right\rangle \frac{\partial\left\langle u_{\alpha}\right\rangle}{\partial X_{\beta}},
+\end{aligned}
+\]
+
+где $p$ - давление, $\sigma_{i j}-$ тензор вязких напряжений, $\rho X_{i}-$ плотность внешних сил, $\rho\langle\varepsilon\rangle-$ средняя удельная вязкая диссипация энергии турбулентности.
+
+Э. т. у. в дополнение к уравнениям Рейнольдса впервые предложено А. Н. Колмогоровым [1].
+
+Лum.: [1] Кол м о го р о в А. Н., «Известия АН СССР. Сер. физическая», 1942, т. 6, № 1-2, с. 56-8 (Избранные труды. Математика и механика, М., 1985, с. 294-96); [2] М о н и н А. С., Я гл о м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 1, М., 1965.
+
+В. П. Красицкий.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2596_REJNOL'DSA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

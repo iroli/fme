@@ -1,0 +1,308 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2490_RAVNOVESNYE" alphabetic_pos="2492">
+  <title>РАВНОВЕСНЫЕ СОСТОЯНИЯ; КИНЕТИЧЕСКИЙ ПРЕДЕЛ</title>
+  <authors>
+    <author>В. И. Герасименко</author>
+    <author>В. И. Скрипник</author>
+  </authors>
+  <pages>
+    <start>478</start>
+    <end>479</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Grewe N., Kle in W., «j. Math. Phys.», 1976, v. 17, № 5, p. 699-703; [2] Пе трина Д.Я., Герасименко В.И., «доклады Ан УССР, сер. А», 1988, № 12, с. 17-19.</literature_orig>
+    <unit>
+      <author>Grewe N.</author>
+      <author>Klein W.</author>
+      <title>«j. Math. Phys.»</title>
+      <publication/>
+      <year>1976</year>
+      <other>v. 17, № 5, p. 699-703</other>
+    </unit>
+    <unit>
+      <author>Петрина Д. Я.</author>
+      <author>Герасименко В. И.</author>
+      <title>«доклады Ан УССР, сер. А»</title>
+      <publication/>
+      <year>1988</year>
+      <other>№ 12, с. 17-19.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_1_RAVNOVESNYE">\rho_{\varepsilon}\left(q_{1}, \ldots, q_{m}\right)=\varepsilon^{m} \rho\left(q_{1}, \ldots, q_{m} ; \varepsilon\right), q_{i} \in \mathbb{R}^{v},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_2_RAVNOVESNYE">\rho_{\varepsilon}=z\left(K_{\varepsilon} \rho_{\varepsilon}+\alpha\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_3_RAVNOVESNYE">\begin{gathered}\left(K_{\varepsilon} \rho\right)\left(q_{1}, \ldots, q_{m}\right)= \\=\exp \left\{-\beta \sum_{k=2}^{m} \Phi\left(q_{1}-q_{k}\right)\right\}\left[\left(1-\delta_{m, 1}\right) \rho\left(q_{2}, \ldots, q_{m}\right)+\right. \\+\sum_{n \geqslant 1} \frac{1}{n !} \int_{\mathbb{R}^{v n}} d q_{1}^{\prime} \ldots d q_{n}^{\prime} \times \\\left.\times \prod_{j=1}^{n} f_{\varepsilon}\left(q_{1}-q_{j}^{\prime}\right) \rho\left(q_{2}, \ldots, q_{m}, q_{1}^{\prime}, \ldots, q_{n}^{\prime}\right)\right], \\f_{\varepsilon}(q)=\frac{1}{\varepsilon} \exp \{-\beta \varepsilon \Phi(q)\}-1, \quad f_{0}(q)=-\beta \Phi(q) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_4_RAVNOVESNYE">\rho_{0}=z\left(K_{0} \rho_{0}+\alpha\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_5_RAVNOVESNYE">\rho_{0}\left(q_{1}, \ldots, q_{m}\right)=\prod_{i=1}^{m} \rho_{0}\left(q_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_6_RAVNOVESNYE">\rho_{0}(q)=z \exp \left\{-\beta \int_{\mathbb{R}^{v}} d q^{\prime} \Phi\left(q-q^{\prime}\right) \rho_{0}\left(q^{\prime}\right)\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_7_RAVNOVESNYE">|z| \leqslant \xi^{-1} \exp \left\{-2 \beta B-\xi C_{0}(\beta)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_8_RAVNOVESNYE">C_{0}(\beta)=e^{\beta \Phi_{0}} \int_{\mathbb{R}^{v}} d q \Phi(q),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_9_RAVNOVESNYE">x_{i}=\left(q_{i}, p_{i}\right) \in \mathbb{R}^{v} \times \mathbb{R}^{v},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_10_RAVNOVESNYE">\xi=k \lambda^{-1}\left(\frac{2 \pi}{\beta}\right)^{\frac{-v}{2}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_11_RAVNOVESNYE">d&lt;d_{0} \equiv \frac{\ln 2}{k \lambda^{-1}}\left\{v \frac{\left(\frac{v}{2}-1\right) !}{2 \pi^{v / 2}}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_12_RAVNOVESNYE">v \frac{\left(\frac{v}{2}-1\right)\left(\frac{v}{2}-2\right) \cdots \frac{1}{2}}{\pi(v-1)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2490_13_RAVNOVESNYE">F_{n}^{(0)}\left(x_{1}, \ldots, x_{n}\right)=\lambda^{-n}\left(\frac{2 \pi}{\beta}\right)^{-v n / 2} \exp \left\{-\beta \sum_{i=1}^{n} \frac{p_{i}^{2}}{2}\right\}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_1_RAVNOVESNYE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_2_RAVNOVESNYE">\rho\left(q_{1}, \ldots, q_{m} ; \varepsilon\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_3_RAVNOVESNYE">\varepsilon \Phi(q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_4_RAVNOVESNYE">\varepsilon^{-1} z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_5_RAVNOVESNYE">\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_6_RAVNOVESNYE">\rho_{\varepsilon}=\left\{\rho_{\varepsilon}\left(q_{1}, \ldots, q_{m}\right)\right\}_{m \geqslant 1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_7_RAVNOVESNYE">\alpha=(1,0, \ldots)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_8_RAVNOVESNYE">\varepsilon \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_9_RAVNOVESNYE">\rho_{0}=\left\{\rho_{0}\left(q_{1}, \ldots, q_{m}\right)\right\}_{m \geqslant 1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_10_RAVNOVESNYE">\rho_{0}(q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_11_RAVNOVESNYE">\mathbb{e}_{\xi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_12_RAVNOVESNYE">\phi(q) \geqslant-\Phi_{0}, B-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_13_RAVNOVESNYE">\phi(q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_14_RAVNOVESNYE">\rho_{\mathcal{e}}-\rho_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_15_RAVNOVESNYE">\mathbb{e}_{\xi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_16_RAVNOVESNYE">\varepsilon \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_17_RAVNOVESNYE">\rho_{\varepsilon}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_18_RAVNOVESNYE">\rho_{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_19_RAVNOVESNYE">d \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_20_RAVNOVESNYE">z \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_21_RAVNOVESNYE">d^{(v-1)} z=\lambda^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_22_RAVNOVESNYE">\lambda^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_23_RAVNOVESNYE">f_{n}\left(x_{1}, \ldots, x_{n}\right)=\left(\frac{2 \pi}{\beta}\right)^{-v n / 2} \exp \left\{-\beta \sum_{i=1}^{n} \frac{p_{i}^{2}}{2}\right\} \rho_{n}\left(q_{1}, \ldots, q_{n}\right), n \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_24_RAVNOVESNYE">\rho_{n}\left(q_{1}, \ldots, q_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_25_RAVNOVESNYE">\mathbb{e}_{\xi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_26_RAVNOVESNYE">w_{n}=\left\{\left(q_{1}, \ldots, q_{n}\right) \in \mathbb{R}^{v n}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_27_RAVNOVESNYE">\left|q_{i}-q_{j}\right|&lt;d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_28_RAVNOVESNYE">\left.(i, j): i \neq j=1, \ldots, n\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_29_RAVNOVESNYE">\mathbf{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_30_RAVNOVESNYE">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_31_RAVNOVESNYE">v\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_32_RAVNOVESNYE">k&gt;2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_33_RAVNOVESNYE">d^{(v-1) n} F_{n}\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2490_34_RAVNOVESNYE">\mathbb{r}^{v n} \times\left(\mathbb{R}^{v n} \backslash W_{n}\right)</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/2490_1_RAVNOVESNYE">
+      <rel_text>распределения Максвелла</rel_text>
+      <target>http://libmeta.ru/fme/article/1693_MAKSVELLA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2490_2_RAVNOVESNYE">
+      <rel_text>экспоненциально</rel_text>
+      <target>http://libmeta.ru/fme/article/3496_EKSPANSIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2490_3_RAVNOVESNYE">
+      <rel_text>уравнений Кирквуда</rel_text>
+      <target>http://libmeta.ru/fme/article/232_BOGOLJuBOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2490_4_RAVNOVESNYE">
+      <rel_text>активность</rel_text>
+      <target>http://libmeta.ru/fme/article/46_AKTIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2490_5_RAVNOVESNYE">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2490_6_RAVNOVESNYE">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2490_7_RAVNOVESNYE">
+      <rel_text>бесконечной системы</rel_text>
+      <target>http://libmeta.ru/fme/article/168_BESKONEChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2490_8_RAVNOVESNYE">
+      <rel_text>уравнений Кирквуда</rel_text>
+      <target>http://libmeta.ru/fme/article/232_BOGOLJuBOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2490_9_RAVNOVESNYE">
+      <rel_text>Уравнение Кирквуда</rel_text>
+      <target>http://libmeta.ru/fme/article/232_BOGOLJuBOVA</target>
+    </relation>
+  </relations>
+  <text>предельный переход по параметрам, входящим в гамильтониан системы частиц, при котором равновесные $URI[[http://libmeta.ru/fme/formula/aux/2490_1_RAVNOVESNYE]]/URI$-частичные функции распределения в пределе факторизуются на одночастичные. Основными примерами кинетич. пределов являются среднего поля предел, Больцмана - Грэда предел (малой плотности), слабой связи и т. п.
+
+Кинетич. предел Р. с. является стационарным (равновесным) решением соответствующего этому пределу кинетического уравнения.
+
+Предел среднего поля состоит в следующем. Пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_1_RAVNOVESNYE]]/URI
+\]
+
+a $URI[[http://libmeta.ru/fme/formula/aux/2490_2_RAVNOVESNYE]]/URI$ - гиббсовские функции распределения с парным потенциалом $URI[[http://libmeta.ru/fme/formula/aux/2490_3_RAVNOVESNYE]]/URI$, активностью $URI[[http://libmeta.ru/fme/formula/aux/2490_4_RAVNOVESNYE]]/URI$, обратной температурой $URI[[http://libmeta.ru/fme/formula/aux/2490_5_RAVNOVESNYE]]/URI$. Последовательность $URI[[http://libmeta.ru/fme/formula/aux/2490_6_RAVNOVESNYE]]/URI$ удовлетворяет уравнениям Кирквуда - Зальцбурга
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2490_7_RAVNOVESNYE]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_2_RAVNOVESNYE]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_3_RAVNOVESNYE]]/URI
+\]
+
+В пределе $URI[[http://libmeta.ru/fme/formula/aux/2490_8_RAVNOVESNYE]]/URI$ имеет место уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_4_RAVNOVESNYE]]/URI
+\]
+
+Последовательность $URI[[http://libmeta.ru/fme/formula/aux/2490_9_RAVNOVESNYE]]/URI$ является решением этого уравнения, если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_5_RAVNOVESNYE]]/URI
+\]
+
+и $URI[[http://libmeta.ru/fme/formula/aux/2490_10_RAVNOVESNYE]]/URI$ удовлетворяет уравнению Кирквуда Мон ро
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_6_RAVNOVESNYE]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/2490_9_RAVNOVESNYE]]/URI - Зальцбурга имеет единственное в пространстве $URI[[http://libmeta.ru/fme/formula/aux/2490_11_RAVNOVESNYE]]/URI$ решение, если
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_7_RAVNOVESNYE]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_8_RAVNOVESNYE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2490_12_RAVNOVESNYE]]/URI$ константа из условия устойчивости.
+
+Если потенциал $URI[[http://libmeta.ru/fme/formula/aux/2490_13_RAVNOVESNYE]]/URI$ положителен, то $URI[[http://libmeta.ru/fme/formula/aux/2490_14_RAVNOVESNYE]]/URI$ стремится к нулю в норме пространства $URI[[http://libmeta.ru/fme/formula/aux/2490_15_RAVNOVESNYE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2490_16_RAVNOVESNYE]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/2490_17_RAVNOVESNYE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2490_18_RAVNOVESNYE]]/URI$ соответственно решения допредельного и предельного URI[[http://libmeta.ru/fme/relation/2490_8_RAVNOVESNYE]]/URI - Зальцбурга.
+
+Предел Больцмана - Грэда для URI[[http://libmeta.ru/fme/relation/2490_7_RAVNOVESNYE]]/URI URI[[http://libmeta.ru/fme/relation/2490_6_RAVNOVESNYE]]/URI, к-рые взаимодействуют как упругие шары, состоит в том, что диаметр URI[[http://libmeta.ru/fme/relation/2490_5_RAVNOVESNYE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2490_19_RAVNOVESNYE]]/URI$, URI[[http://libmeta.ru/fme/relation/2490_4_RAVNOVESNYE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2490_20_RAVNOVESNYE]]/URI$, так что $URI[[http://libmeta.ru/fme/formula/aux/2490_21_RAVNOVESNYE]]/URI$ (величина $URI[[http://libmeta.ru/fme/formula/aux/2490_22_RAVNOVESNYE]]/URI$ обратно пропорциональна длине свободного пробега).
+
+Последовательность гиббсовских функций распределения $URI[[http://libmeta.ru/fme/formula/aux/2490_23_RAVNOVESNYE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_9_RAVNOVESNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2490_24_RAVNOVESNYE]]/URI$ - решение URI[[http://libmeta.ru/fme/relation/2490_3_RAVNOVESNYE]]/URI - Зальцбурга для системы упругих шаров, принадлежит пространству $URI[[http://libmeta.ru/fme/formula/aux/2490_25_RAVNOVESNYE]]/URI$ последовательностей функций, равных нулю на запрещенных конфигурациях $URI[[http://libmeta.ru/fme/formula/aux/2490_26_RAVNOVESNYE]]/URI$; $URI[[http://libmeta.ru/fme/formula/aux/2490_27_RAVNOVESNYE]]/URI$, хотя бы для одной пары $URI[[http://libmeta.ru/fme/formula/aux/2490_28_RAVNOVESNYE]]/URI$, к-рые ограничены по конфигурационным и URI[[http://libmeta.ru/fme/relation/2490_2_RAVNOVESNYE]]/URI убывают по импульсным переменным.
+
+Если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_10_RAVNOVESNYE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2490_29_RAVNOVESNYE]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_11_RAVNOVESNYE]]/URI
+\]
+
+при четном $URI[[http://libmeta.ru/fme/formula/aux/2490_30_RAVNOVESNYE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_12_RAVNOVESNYE]]/URI
+\]
+
+при нечетном $URI[[http://libmeta.ru/fme/formula/aux/2490_31_RAVNOVESNYE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2490_32_RAVNOVESNYE]]/URI$, то в пределе Больцмана - Грэда функции $URI[[http://libmeta.ru/fme/formula/aux/2490_33_RAVNOVESNYE]]/URI$ сходятся равномерно на каждом компакте из $URI[[http://libmeta.ru/fme/formula/aux/2490_34_RAVNOVESNYE]]/URI$ к функциям URI[[http://libmeta.ru/fme/relation/2490_1_RAVNOVESNYE]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2490_13_RAVNOVESNYE]]/URI
+\]</text>
+  <text_orig>предельный переход по параметрам, входящим в гамильтониан системы частиц, при котором равновесные $n$-частичные функции распределения в пределе факторизуются на одночастичные. Основными примерами кинетич. пределов являются среднего поля предел, Больцмана - Грэда предел (малой плотности), слабой связи и т. п.
+
+Кинетич. предел Р. с. является стационарным (равновесным) решением соответствующего этому пределу кинетического уравнения.
+
+Предел среднего поля состоит в следующем. Пусть
+
+\[
+\rho_{\varepsilon}\left(q_{1}, \ldots, q_{m}\right)=\varepsilon^{m} \rho\left(q_{1}, \ldots, q_{m} ; \varepsilon\right), q_{i} \in \mathbb{R}^{v},
+\]
+
+a $\rho\left(q_{1}, \ldots, q_{m} ; \varepsilon\right)$ - гиббсовские функции распределения с парным потенциалом $\varepsilon \Phi(q)$, активностью $\varepsilon^{-1} z$, обратной температурой $\beta$. Последовательность $\rho_{\varepsilon}=\left\{\rho_{\varepsilon}\left(q_{1}, \ldots, q_{m}\right)\right\}_{m \geqslant 1}$ удовлетворяет уравнениям Кирквуда - Зальцбурга
+
+где $\alpha=(1,0, \ldots)$
+
+\[
+\rho_{\varepsilon}=z\left(K_{\varepsilon} \rho_{\varepsilon}+\alpha\right)
+\]
+
+\[
+\begin{gathered}
+\left(K_{\varepsilon} \rho\right)\left(q_{1}, \ldots, q_{m}\right)= \\
+=\exp \left\{-\beta \sum_{k=2}^{m} \Phi\left(q_{1}-q_{k}\right)\right\}\left[\left(1-\delta_{m, 1}\right) \rho\left(q_{2}, \ldots, q_{m}\right)+\right. \\
++\sum_{n \geqslant 1} \frac{1}{n !} \int_{\mathbb{R}^{v n}} d q_{1}^{\prime} \ldots d q_{n}^{\prime} \times \\
+\left.\times \prod_{j=1}^{n} f_{\varepsilon}\left(q_{1}-q_{j}^{\prime}\right) \rho\left(q_{2}, \ldots, q_{m}, q_{1}^{\prime}, \ldots, q_{n}^{\prime}\right)\right], \\
+f_{\varepsilon}(q)=\frac{1}{\varepsilon} \exp \{-\beta \varepsilon \Phi(q)\}-1, \quad f_{0}(q)=-\beta \Phi(q) .
+\end{gathered}
+\]
+
+В пределе $\varepsilon \rightarrow 0$ имеет место уравнение
+
+\[
+\rho_{0}=z\left(K_{0} \rho_{0}+\alpha\right) \text {. }
+\]
+
+Последовательность $\rho_{0}=\left\{\rho_{0}\left(q_{1}, \ldots, q_{m}\right)\right\}_{m \geqslant 1}$ является решением этого уравнения, если
+
+\[
+\rho_{0}\left(q_{1}, \ldots, q_{m}\right)=\prod_{i=1}^{m} \rho_{0}\left(q_{i}\right)
+\]
+
+и $\rho_{0}(q)$ удовлетворяет уравнению Кирквуда Мон ро
+
+\[
+\rho_{0}(q)=z \exp \left\{-\beta \int_{\mathbb{R}^{v}} d q^{\prime} \Phi\left(q-q^{\prime}\right) \rho_{0}\left(q^{\prime}\right)\right\} .
+\]
+
+Уравнение Кирквуда - Зальцбурга имеет единственное в пространстве $\mathbb{E}_{\xi}$ решение, если
+
+где
+
+\[
+|z| \leqslant \xi^{-1} \exp \left\{-2 \beta B-\xi C_{0}(\beta)\right\}
+\]
+
+\[
+C_{0}(\beta)=e^{\beta \Phi_{0}} \int_{\mathbb{R}^{v}} d q \Phi(q),
+\]
+
+$\Phi(q) \geqslant-\Phi_{0}, B-$ константа из условия устойчивости.
+
+Если потенциал $\Phi(q)$ положителен, то $\rho_{\mathcal{E}}-\rho_{0}$ стремится к нулю в норме пространства $\mathbb{E}_{\xi}$ при $\varepsilon \rightarrow 0$, если $\rho_{\varepsilon}$ и $\rho_{0}-$ соответственно решения допредельного и предельного уравнений Кирквуда - Зальцбурга.
+
+Предел Больцмана - Грэда для бесконечной системы частиц, к-рые взаимодействуют как упругие шары, состоит в том, что диаметр частиц $d \rightarrow 0$, активность $z \rightarrow \infty$, так что $d^{(v-1)} z=\lambda^{-1}$ (величина $\lambda^{-1}$ обратно пропорциональна длине свободного пробега).
+
+Последовательность гиббсовских функций распределения $F_{n}\left(x_{1}, \ldots, x_{n}\right)=\left(\frac{2 \pi}{\beta}\right)^{-v n / 2} \exp \left\{-\beta \sum_{i=1}^{n} \frac{p_{i}^{2}}{2}\right\} \rho_{n}\left(q_{1}, \ldots, q_{n}\right), n \geqslant 1$,
+
+\[
+x_{i}=\left(q_{i}, p_{i}\right) \in \mathbb{R}^{v} \times \mathbb{R}^{v},
+\]
+
+где $\rho_{n}\left(q_{1}, \ldots, q_{n}\right)$ - решение уравнений Кирквуда - Зальцбурга для системы упругих шаров, принадлежит пространству $\mathbb{E}_{\xi}$ последовательностей функций, равных нулю на запрешенных конфигурациях $W_{n}=\left\{\left(q_{1}, \ldots, q_{n}\right) \in \mathbb{R}^{v n}\right.$; $\left|q_{i}-q_{j}\right|&lt;d$, хотя бы для одной пары $\left.(i, j): i \neq j=1, \ldots, n\right\}$, к-рые ограничены по конфигурационным и экспоненциально убывают по импульсным переменным.
+
+Если
+
+\[
+\xi=k \lambda^{-1}\left(\frac{2 \pi}{\beta}\right)^{\frac{-v}{2}}
+\]
+
+$\mathbf{H}$
+
+\[
+d&lt;d_{0} \equiv \frac{\ln 2}{k \lambda^{-1}}\left\{v \frac{\left(\frac{v}{2}-1\right) !}{2 \pi^{v / 2}}\right.
+\]
+
+при четном $v$,
+
+\[
+v \frac{\left(\frac{v}{2}-1\right)\left(\frac{v}{2}-2\right) \cdots \frac{1}{2}}{\pi(v-1)}
+\]
+
+при нечетном $v\}$, где $k&gt;2$, то в пределе Больцмана - Грэда функции $d^{(v-1) n} F_{n}\left(x_{1}, \ldots, x_{n}\right)$ сходятся равномерно на каждом компакте из $\mathbb{R}^{v n} \times\left(\mathbb{R}^{v n} \backslash W_{n}\right)$ к функциям распределения Максвелла:
+
+\[
+F_{n}^{(0)}\left(x_{1}, \ldots, x_{n}\right)=\lambda^{-n}\left(\frac{2 \pi}{\beta}\right)^{-v n / 2} \exp \left\{-\beta \sum_{i=1}^{n} \frac{p_{i}^{2}}{2}\right\}
+\]
+
+Лum.: [1] Grewe N., Kle in W., «J. Math. Phys.», 1976, v. 17, № 5, p. 699-703; [2] Пе трина Д.Я., Герасименко В.И., «Доклады АН УССР, сер. А», 1988, № 12, с. 17-19.
+
+В. И. Герасименко, В. И. Скрипник.</text_orig>
+</article>

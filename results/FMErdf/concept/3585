@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_99_ANTISIMMETRIChESKIJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_99_ANTISIMMETRIChESKIJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3585</core:url>
+    <lbm:descriptor><![CDATA[АНТИСИММЕТРИЧЕСКИЙ ТЕНЗОР, КОСОСИММЕТРИЧЕСКИЙ ТЕНЗОР]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_26482"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>ковариантный (либо <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ">контравариантный</a>) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a>, координаты которого меняют знак при нечетной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">перестановке</a> индексов и не меняют при четной <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_26482">$$\begin{array}{ll}\text { перестановке. } & \text { В. В. Трофимов. } \\ \text { АнтсимМетен }\end{array}$$</a><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[ковариантный (либо контравариантный) тензор, координаты которого меняют знак при нечетной перестановке индексов и не меняют при четной $\begin{array}{ll}\text { перестановке. } & \text { В. В. Трофимов. } \\ \text { АнтсимМетен }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

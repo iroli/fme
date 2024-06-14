@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_8291">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><msub><mi>V</mi><mrow><mi>t</mi></mrow></msub><mo>&#x0003D;</mo><msup><mo>&#x02202;</mo><mrow><mn>3</mn></mrow></msup><mi>V</mi><mo>&#x0002B;</mo><msup><mover><mrow><mo>&#x02202;</mo></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mn>3</mn></mrow></msup><mi>V</mi><mo>&#x0002B;</mo><mo>&#x02202;</mo><mo stretchy="false">&#x00028;</mo><mi>u</mi><mi>V</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><mover><mrow><mo>&#x02202;</mo></mrow><mo stretchy="true">&#x000AF;</mo></mover><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>u</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mi>V</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>&</mi><mover><mrow><mo>&#x02202;</mo></mrow><mo stretchy="true">&#x000AF;</mo></mover><mi>u</mi><mo>&#x0003D;</mo><mn>3</mn><mo>&#x02202;</mo><mi>V</mi><mo>&#x0002C;</mo><mspace width="1em" /><mo>&#x02202;</mo><mo>&#x0003D;</mo><mfrac><mrow><mo>&#x02202;</mo></mrow><mrow><mo>&#x02202;</mo><mi>z</mi></mrow></mfrac><mo>&#x0002C;</mo><mspace width="1em" /><mi>z</mi><mo>&#x0003D;</mo><mi>x</mi><mo>&#x0002B;</mo><mi>i</mi><mi>y</mi><mi>;</mi></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; V_{t}=\partial^{3} V+\bar{\partial}^{3} V+\partial(u V)+\bar{\partial}(\bar{u} V), \\&amp; \bar{\partial} u=3 \partial V, \quad \partial=\frac{\partial}{\partial z}, \quad z=x+i y ;\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

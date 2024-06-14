@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_25270">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi mathvariant="bold-italic">A</mi><mi mathvariant="bold-italic">B</mi></mrow><mo>&#x0003D;</mo><msup><mrow><mi mathvariant="bold-italic">A</mi></mrow><mrow><mn>0</mn></mrow></msup><msup><mrow><mi mathvariant="bold-italic">B</mi></mrow><mrow><mn>0</mn></mrow></msup><mo>&#x02212;</mo><mrow><mi mathvariant="bold-italic">A</mi><mi mathvariant="bold-italic">B</mi></mrow><mo>&#x0003D;</mo><msub><mi>g</mi><mrow><mi>&#x003BC;</mi><mi>v</mi></mrow></msub><msup><mi>A</mi><mrow><mi>&#x003BC;</mi></mrow></msup><msup><mrow><mi mathvariant="bold-italic">B</mi></mrow><mrow><mi>&#x003BD;</mi></mrow></msup></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\boldsymbol{A B}=\boldsymbol{A}^{0} \boldsymbol{B}^{0}-\boldsymbol{A B}=g_{\mu v} A^{\mu} \boldsymbol{B}^{\nu}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

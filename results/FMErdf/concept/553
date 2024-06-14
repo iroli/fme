@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1499_LAGERRA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1499_LAGERRA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/553</core:url>
+    <lbm:descriptor><![CDATA[ЛАГЕРРА МНОГОЧЛЕНЫ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#4788"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4789"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4790"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4791"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4792"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4793"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4794"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4795"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4796"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4797"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4798"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4799"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4800"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4801"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_626"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3978"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4802"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4803"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>многочлены, ортогональные на интервале $URI[[http://libmeta.ru/fme/formula/aux/1499_1_LAGERRA]]/URI$ с весовой функцией <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4799">$$\varphi(x)=x^{\alpha} e^{-x}$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4800">$$\alpha>-1$$</a>. Стандартизованные Л. м. определяются формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4791">$$L_{n}^{\alpha}(x)=\frac{x^{-\alpha} e^{x}}{n !} \frac{d^{n}}{d x^{n}}\left(x^{\alpha+n e-x}\right), \quad n=0,1,2, \ldots ;$$</a><BR/></P><P>представление с помощью гамма-функции:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4792">$$L_{n}^{\alpha}(x)=\sum_{k=0}^{n} \frac{\Gamma(\alpha+n+1)}{\Gamma(\alpha+k+1)} \frac{(-x)^{k}}{k !(n-k) !} .$$</a><BR/></P><P>В применениях наиболее важны формулы:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4793">$$\begin{gathered}(n+1) L_{n+1}^{\alpha}(x)=(\alpha+2 n+1-x) L_{n}^{\alpha}(x)-(\alpha+n) L_{n-1}^{\alpha}(x), \\x L_{n-1}^{\alpha+1}(x)=(n+\alpha) L_{n-1}^{\alpha}(x)-n L_{n}^{\alpha}(x), \\\left(L_{n}^{\alpha}(x)\right)^{\prime}=-L_{n-1}^{\alpha+1}(x) .\end{gathered}$$</a><BR/></P><P>Многочлен $URI[[http://libmeta.ru/fme/formula/aux/1499_4_LAGERRA]]/URI$ удовлетворяет дифференциальному уравнению (уравнен и ю Лагер ра)<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4794">$$x y^{\prime \prime}+(\alpha-x+1) y^{\prime}+n y=0, n=1,2, \ldots$$</a><BR/></P><P>Производящая функция Л. м. имеет вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4795">$$\frac{e^{-x t /(1-t)}}{(1-t)^{\alpha+1}}=\sum_{n=0}^{\infty} L_{n}^{\alpha}(x) t^{n}$$</a><BR/></P><P>Ортонормированные Л. м. выражаются через стандартизованные многочлены:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4796">$$\hat{L}_{n}^{\alpha}(x)=(-1)^{n} L_{n}^{\alpha}(x) \sqrt{\Gamma(n+1) / \Gamma(\alpha+n+1)} .$$</a><BR/></P><P>Множество всех Л.м. плотно в пространстве функций, квадрат к-рых интегрируем с весом $URI[[http://libmeta.ru/fme/formula/aux/1499_5_LAGERRA]]/URI$ на интервале <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4798">$$(0, \infty)$$</a>.<BR/></P><P>Наиболее часто употребляются Л. м. при условии <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3978">$$\alpha=0$$</a>, исследованные Э. Лагерром [е. Laguerre, 1878]; они обозначаются в этом случае $URI[[http://libmeta.ru/fme/formula/aux/1499_8_LAGERRA]]/URI$ (в отличие от них Л. м. $URI[[http://libmeta.ru/fme/formula/aux/1499_9_LAGERRA]]/URI$ иногда называют обобщен ным и). Несколько первых Л. м. $URI[[http://libmeta.ru/fme/formula/aux/1499_10_LAGERRA]]/URI$ имеют вид:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4797">$$\begin{aligned}& L_{0}(x)=1, \\& L_{1}(x)=1-x \\& L_{2}(x)=1-2 x+x^{2} / 2, \\& L_{3}(x)=1-3 x+3 x^{2} / 2-x^{3} / 6, \\& L_{4}(x)=1-4 x+3 x^{2}-2 x^{3} / 3+x^{4} / 24 .\end{aligned}$$</a><BR/></P><P>Л. м. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4801">$$l_{n}^{\alpha}(x)$$</a> иногда обозначается <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4803">$$l_{n}(x ; \alpha)$$</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4789">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4788">Суетин П. К.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4789">Классические ортогональные многочлены, 2 изд., М., 1979</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#4790">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#425">Сегё Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4790">Ортогональные многочлены, пер. с англ., М., 1962</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#4788">П. К. Суетин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[многочЛенЫ, ортогональные на интервале $(0, \infty)$ с весовой функцией $\varphi(x)=x^{\alpha} e^{-x}$, где $\alpha>-1$. Стандартизованные Л. м. определяются формулой
+
+\[
+L_{n}^{\alpha}(x)=\frac{x^{-\alpha} e^{x}}{n !} \frac{d^{n}}{d x^{n}}\left(x^{\alpha+n e-x}\right), \quad n=0,1,2, \ldots ;
+\]
+
+представление с помощью гамма-функции:
+
+\[
+L_{n}^{\alpha}(x)=\sum_{k=0}^{n} \frac{\Gamma(\alpha+n+1)}{\Gamma(\alpha+k+1)} \frac{(-x)^{k}}{k !(n-k) !} .
+\]
+
+В применениях наиболее важны формулы:
+
+\[
+\begin{gathered}
+(n+1) L_{n+1}^{\alpha}(x)=(\alpha+2 n+1-x) L_{n}^{\alpha}(x)-(\alpha+n) L_{n-1}^{\alpha}(x), \\
+x L_{n-1}^{\alpha+1}(x)=(n+\alpha) L_{n-1}^{\alpha}(x)-n L_{n}^{\alpha}(x), \\
+\left(L_{n}^{\alpha}(x)\right)^{\prime}=-L_{n-1}^{\alpha+1}(x) .
+\end{gathered}
+\]
+
+Многочлен $L_{n}^{\alpha}(x)$ удовлетворяет дифференциальному уравнению (уравнен и ю Лагер ра)
+
+\[
+x y^{\prime \prime}+(\alpha-x+1) y^{\prime}+n y=0, n=1,2, \ldots
+\]
+
+Производящая функщия Л. м. имеет вид:
+
+\[
+\frac{e^{-x t /(1-t)}}{(1-t)^{\alpha+1}}=\sum_{n=0}^{\infty} L_{n}^{\alpha}(x) t^{n}
+\]
+
+Ортонормированные Л. м. выражаются через стандартизованные многочлены:
+
+\[
+\hat{L}_{n}^{\alpha}(x)=(-1)^{n} L_{n}^{\alpha}(x) \sqrt{\Gamma(n+1) / \Gamma(\alpha+n+1)} .
+\]
+
+Множество всех Л.м. плотно в пространстве функций, квадрат к-рых интегрируем с весом $\varphi(x)$ на интервале $(0, \infty)$.
+
+Наиболее часто употребляются Л. м. при условии $\alpha=0$, исследованные Э. Лагерром [Е. Laguerre, 1878]; они обозначаются в этом случае $L_{n}(x)$ (в отличие от них Л. м. $L_{n}^{\alpha}(x)$ иногда называют обобщен ным и). Несколько первых Л. м. $L_{n}(x)$ имеют вид:
+
+\[
+\begin{aligned}
+& L_{0}(x)=1, \\
+& L_{1}(x)=1-x \\
+& L_{2}(x)=1-2 x+x^{2} / 2, \\
+& L_{3}(x)=1-3 x+3 x^{2} / 2-x^{3} / 6, \\
+& L_{4}(x)=1-4 x+3 x^{2}-2 x^{3} / 3+x^{4} / 24 .
+\end{aligned}
+\]
+
+Л. м. $L_{n}^{\alpha}(x)$ иногда обозначается $L_{n}(x ; \alpha)$.
+
+Лит.: [1] С ует и н П. К., Классические ортогональные многочлены, 2 изд., М., 1979; [2] С е гё Г., Ортогональные многочлены, пер. с англ., М., $1962 . \quad$ П. К. Суетин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_450_VOLNOVOJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_450_VOLNOVOJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2976</core:url>
+    <lbm:descriptor><![CDATA[ВОЛНОВОЙ ПАКЕТ В КВАНТОВОЙ МЕХАНИКЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22143"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22144"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22145"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22146"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22147"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22148"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4321"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22149"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_475"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22150"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2537"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22151"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22152"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22153"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22154"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5612"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>волновая функция, описывающая состояния частицы. Для свободной релятивистской частицы В. п. в координатном представлении определяется из уравнения Шредингера:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22143">$$\begin{gathered}i \hbar \frac{\partial \psi}{\partial t}(t, x)=-\frac{\hbar^{2}}{2 m} \Delta \psi(t, x), \\\psi(0, x)=\psi_{0}(x), \quad x \in \mathbb{R}^{3},\end{gathered}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22148">$$\psi_{0}(x)-$$</a> функция, локализованная в окрестности нек-рой точки $URI[[http://libmeta.ru/fme/formula/aux/450_2_VOLNOVOJ]]/URI$.<BR/></P><P>Решение уравнения (1) можно представить в виде суперпозиции плоских волн:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22144">$$\psi(t, x)=\frac{1}{(2 \pi)^{3 / 2}} \int d^{3} p \exp \left(\frac{i(p x-E(p) t)}{\hbar}\right) \tilde{\Psi}_{0}(p),$$</a><BR/></P><P>что и объясняет происхождение термина «в. п.» (в последней формуле <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22149">$$\tilde{\psi}_{0}(p)$$</a> - волновая функция частицы в импульсном представлении при $URI[[http://libmeta.ru/fme/formula/aux/450_4_VOLNOVOJ]]/URI$ ).<BR/></P><P>Пусть $URI[[http://libmeta.ru/fme/formula/aux/450_5_VOLNOVOJ]]/URI$ и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22150">$$p_{0}-$$</a> средние значения координаты и импульса частицы в момент $URI[[http://libmeta.ru/fme/formula/aux/450_7_VOLNOVOJ]]/URI$. Тогда из (1), (2) следует, что среднее значение координаты $URI[[http://libmeta.ru/fme/formula/aux/450_8_VOLNOVOJ]]/URI$ в момент времени $URI[[http://libmeta.ru/fme/formula/aux/450_9_VOLNOVOJ]]/URI$ дается формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22145">$$x_{t}=x_{0}+\frac{p_{0}}{m} t .$$</a><BR/></P><P>Иными словами, центр тяжести В. п. движется как свободная частица. Это обстоятельство сыграло большую роль на раннем этапе развития квантовой механики.<BR/></P><P>С течением времени В. П. расплывается. Пусть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22151">$$(\delta x)_{t}^{2}$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22152">$$(\delta p)_{t}^{2}$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI">дисперсии</a> координаты и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульса</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоянии</a> с волновой функцией <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22153">$$\psi(t, x)$$</a>. Тогда при больших $URI[[http://libmeta.ru/fme/formula/aux/450_13_VOLNOVOJ]]/URI$<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22146">$$\sqrt{(\Delta x)_{t}^{2}} \approx \sqrt{(\Delta p)_{0}^{2}} \frac{t}{m} .$$</a><BR/></P><P>Физически расплывание В. п. можно объяснить на основании принципа неопределенностей Гейзенберга, в соответствии с к-рым <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI">дисперсия</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорости</a> в момент $URI[[http://libmeta.ru/fme/formula/aux/450_14_VOLNOVOJ]]/URI$ определяется формулой:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22147">$$(\Delta v)_{0}=\sqrt{(\Delta p)_{0}^{2}} \frac{1}{m} \approx \frac{\hbar}{m}\left(\sqrt{(\Delta x)_{0}^{2}}\right)^{-1} .$$</a><BR/></P><P>Это приводит к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI">дисперсии</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_22154">$$\sqrt{(\delta x)_{0}^{2}}=t(\Delta v)_{0}$$</a>, что качественно согласуется с (3).<BR/></P><P>Понятие «в. П.» имеет смысл также и в присутствии внешнего поля. В этом случае соотношения (3) уже не имеют места. В частности, В. П., отвечающий <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2947_STATsIONARNOE">стационарным состояниям</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частицы</a> во внешнем поле, не расплывается с течением времени. $URI[[http://libmeta.ru/fme/formula/aux/450_16_VOLNOVOJ]]/URI$. А. Лунев.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[волновая функция, описывающая состояния частицы. Для свободной релятивистской частицы В. п. в координатном представлении определяется из уравнения Шредингера:
+
+\[
+\begin{gathered}
+i \hbar \frac{\partial \psi}{\partial t}(t, x)=-\frac{\hbar^{2}}{2 m} \Delta \psi(t, x), \\
+\psi(0, x)=\psi_{0}(x), \quad x \in \mathbb{R}^{3},
+\end{gathered}
+\]
+
+где $\psi_{0}(x)-$ функция, локализованная в окрестности нек-рой точки $x_{0}$.
+
+Решение уравнения (1) можно представить в виде суперпозиции плоских волн:
+
+\[
+\psi(t, x)=\frac{1}{(2 \pi)^{3 / 2}} \int d^{3} p \exp \left(\frac{i(p x-E(p) t)}{\hbar}\right) \tilde{\Psi}_{0}(p),
+\]
+
+что и объясняет происхождение термина «В. п.» (в последней формуле $\tilde{\psi}_{0}(p)$ - волновая функция частицы в импульсном представлении при $t=0$ ).
+
+Пусть $x_{0}$ и $p_{0}-$ средние значения координаты и импульса частицы в момент $t=0$. Тогда из (1), (2) следует, что среднее значение координаты $x_{t}$ в момент времени $t$ дается формулой
+
+\[
+x_{t}=x_{0}+\frac{p_{0}}{m} t .
+\]
+
+Иными словами, центр тяжести В. п. движется как свободная частица. Это обстоятельство сыграло большую роль на раннем этапе развития квантовой механики.
+
+С течением времени В. П. расплывается. Пусть $(\Delta x)_{t}^{2}$ и $(\Delta p)_{t}^{2}$ - дисперсии координаты и импульса в состоянии с волновой функцией $\psi(t, x)$. Тогда при больших $t$
+
+\[
+\sqrt{(\Delta x)_{t}^{2}} \approx \sqrt{(\Delta p)_{0}^{2}} \frac{t}{m} .
+\]
+
+Физически расплывание В. п. можно объяснить на основании принципа неопределенностей Гейзенберга, в соответствии с к-рым дисперсия скорости в момент $t=0$ определяется формулой:
+
+\[
+(\Delta v)_{0}=\sqrt{(\Delta p)_{0}^{2}} \frac{1}{m} \approx \frac{\hbar}{m}\left(\sqrt{(\Delta x)_{0}^{2}}\right)^{-1} .
+\]
+
+Это приводит к дисперсии $\sqrt{(\Delta x)_{0}^{2}}=t(\Delta v)_{0}$, что качественно согласуется с (3).
+
+Понятие «В. П.» имеет смысл также и в присутствии внешнего поля. В этом случае соотношения (3) уже не имеют места. В частности, В. П., отвечающий стационарным состояниям частицы во внешнем поле, не расплывается с течением времени. $Ф$. А. Лунев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2947_STATsIONARNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_857_DISPERSI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

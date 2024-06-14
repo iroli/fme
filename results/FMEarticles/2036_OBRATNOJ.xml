@@ -1,0 +1,1047 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2036_OBRATNOJ" alphabetic_pos="2038">
+  <title>ОБРАТНОЙ ЗАДАЧИ РАССЕЯНИЯ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>400</start>
+    <end>403</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Gardner C.S., Green J.M., Kruskal M.D., Miu ra R. M., &quot;phys. Rev. Lett.», 1967, v. 10, p. 1095; [2] Lax P. D., «comm. Pure Appl. Math.», 1968, v. 21, p. 467-90 (руc. пер.: «математика», 1969, т. 13, № 5, с. 128-50); [3] Захаров В. Е., Шабат А. Б., «журнал эксперим. и теоретич. физики», 1971, т. 61, № 1, c. 118-34; [4] Захаров В. Е., Фадде в Л. Д., «функциональный анализ и его прилож.», 1971, т. 5, № 4, с. 18-27; [5] Тахтаджя н Л. А., Фадде в Л. Д., Гамильтонов подход в теории солитонов, М., 1986; [6] Захаров В. Е., Манаков С. В., Новиков С. П., Питаевский Л. П., Теория солитонов, М., 1980; [7] Абл о в и М., С и гу р Х., Солитоны и метод обратной задачи, $\begin{array}{ll}\text { пер. с англ., М., } 1987 . &amp; \text { В. А. Марченко. }\end{array}$</literature_orig>
+    <unit>
+      <author>Gardner C. S.</author>
+      <author>Green J. M.</author>
+      <author>Kruskal M. D.</author>
+      <author>Miura R. M.</author>
+      <title>&quot;phys. Rev. Lett.»</title>
+      <publication/>
+      <year>1967</year>
+      <other>v. 10, p. 1095</other>
+    </unit>
+    <unit>
+      <author>Lax P. D.</author>
+      <title>«comm. Pure Appl. Math.»</title>
+      <publication/>
+      <year>1968</year>
+      <other>v. 21, p. 467-90 (руc. пер.: «математика», 1969, т. 13, № 5, с. 128-50)</other>
+    </unit>
+    <unit>
+      <author>Захаров В. Е.</author>
+      <author>Шабат А. Б.</author>
+      <title>«журнал эксперим. и теоретич. физики»</title>
+      <publication/>
+      <year>1971</year>
+      <other>т. 61, № 1, c. 118-34</other>
+    </unit>
+    <unit>
+      <author>Захаров В. Е.</author>
+      <author>Фаддев Л. Д.</author>
+      <title>«функциональный анализ и его прилож.»</title>
+      <publication/>
+      <year>1971</year>
+      <other>т. 5, № 4, с. 18-27</other>
+    </unit>
+    <unit>
+      <author>Тахтаджян Л. А.</author>
+      <author>Фаддев Л. Д.</author>
+      <title>Гамильтонов подход в теории солитонов</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Захаров В. Е.</author>
+      <author>Манаков С. В.</author>
+      <author>Новиков С. П.</author>
+      <author>Питаевский Л. П.</author>
+      <title>Теория солитонов</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Аблови М.</author>
+      <author>Сигур Х.</author>
+      <title>Солитоны и метод обратной задачи</title>
+      <publication>$\begin{array}{ll}\text { пер. с англ., М.</publication>
+      <year>1987</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_1_OBRATNOJ">u_{t}=6 u u_{x}-u_{x x x}, u(x, 0)=q(x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_2_OBRATNOJ">L(t)=-\frac{d^{2}}{d x^{2}}+u(x, t), \quad(-\infty&lt;x&lt;\infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_3_OBRATNOJ">\dot{x}_{p}=0, \dot{m}_{p}=8 x_{p}^{3} m_{p}, \dot{r}=8 i k^{3} r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_4_OBRATNOJ">L(0)=-\frac{d^{2}}{d x^{2}}+q(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_5_OBRATNOJ">\left.\begin{array}{l}x_{p}(t)=x_{p}(0), \\m_{p}(t)=m_{p}(0) e^{8 x_{p}^{3} t}, \\r(k, t)=r(k, 0) e^{8 i k^{3} t} ;\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_6_OBRATNOJ">u(x, t)=-2 \frac{d}{d x} K(x, x ; t),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_7_OBRATNOJ">F(x+y ; t)+K(x, y ; t)+\int_{x}^{\infty} F(y+\xi ; t)+K(x, \xi ; t) d \xi=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_8_OBRATNOJ">F(z ; t)=\sum_{p} m_{p}(0) e^{-x_{p} z+8 x_{p}^{3} t}+\frac{1}{2 \pi} \int_{-\infty}^{\infty} r(k, 0) e^{i k z+8 i k^{3} t} d k .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_9_OBRATNOJ">L=-\frac{d^{2}}{d x^{2}}+u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_10_OBRATNOJ">A=4 \frac{d^{3}}{d x^{3}}-3\left(u \frac{d}{d x}+\frac{d}{d x} u\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_11_OBRATNOJ">\dot{L}=[L, A]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_12_OBRATNOJ">L(y)=z y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_13_OBRATNOJ">\frac{\partial}{\partial t}+A=\frac{\partial}{\partial t}+4 \frac{\partial^{3}}{\partial x^{3}}-6 u(x, t) \frac{\partial}{\partial x}-3 u_{x}(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_14_OBRATNOJ">-y_{x x}+u(x, t) y=k^{2} y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_15_OBRATNOJ">\begin{aligned}e^{+}(k, x) &amp; =e^{i k x}(1+o(1)), \operatorname{Im} k \geqslant 0, x \rightarrow+\infty, \\e^{-}(k, x) &amp; =e^{i k x}(1+o(1)), \operatorname{Im} k \leqslant 0, x \rightarrow-\infty,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_16_OBRATNOJ">\begin{aligned}&amp; \left(\frac{\partial}{\partial t}+A\right) e^{+}(k, x)=-4 i k^{3} e^{i k x}(1+o(1)), \quad \operatorname{Im} k \geqslant 0, \quad x \rightarrow+\infty, \\&amp; \left(\frac{\partial}{\partial t}+A\right) e^{-(k, x)}=-4 i k^{3} e^{i k x}(1+o(1)), \quad \operatorname{Im} k \leqslant 0, \quad x \rightarrow-\infty .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_17_OBRATNOJ">\left(\frac{\partial}{\partial t}+A\right) e^{ \pm}(k, x)=-4 i k^{3} e^{ \pm}(k, x), \quad \pm \operatorname{Im} k \geqslant 0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_18_OBRATNOJ">y_{t}=-4 y_{x x x}+6 u(x, t) y_{x}+\left(3 u_{x}(x, t)-4 i k^{3}\right) y,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_19_OBRATNOJ">e^{-}(-k, x)=a e^{+}(-k, x)+b e^{+}(k, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_20_OBRATNOJ">e^{-}\left(-i x_{p}, x\right)=b_{p}(t) e^{+}\left(i x_{p}, x\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_21_OBRATNOJ">e^{+}(k, x), e^{+}(-k, x),-\infty&lt;k&lt;\infty .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_22_OBRATNOJ">\left.\begin{array}{c}x_{p}(t), m_{p}(t)=\left.b_{p}(t)\left(i \frac{\partial a(k, t)}{\partial k}\right)^{-1}\right|_{k=i x_{p}(t)}, \\r(k, t)=\frac{b(k, t)}{a(k, t)},\end{array}\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_23_OBRATNOJ">\begin{gathered}a(k, t)=a(k, 0), \quad x_{p}(t)=x_{p}(0), \\b(k, t)=b(k, 0) e^{8 i k^{3} t}, \quad b_{p}(t)=b_{p}(0) e^{8 x_{p}^{3} t},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_24_OBRATNOJ">\frac{\partial \Psi}{\partial x}=V(x, t, k) \Psi, \quad \frac{\partial \Psi}{\partial t}=U(x, t, k) \Psi,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_25_OBRATNOJ">\frac{\partial U}{\partial x}-\frac{\partial V}{\partial t}+[U, V]=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_26_OBRATNOJ">U=\left\|\begin{array}{ll}-u_{x}-4 i k^{3} &amp; 2 u+4 k^{2} \\-u_{x x}+2 u^{2}+2 u k^{2}-4 k^{4} &amp; u_{x}-4 i k^{3}\end{array}\right\|, \quad V=\| \begin{array}{ll}0 &amp; 1 \\u-k^{2} &amp; 0\end{array} \mid .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_27_OBRATNOJ">\left\|\begin{array}{ll}0 &amp; 0 \\u_{t}+u_{x x x}-6 u u_{x} &amp; 0\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_28_OBRATNOJ">\left.\begin{array}{l}a(k)=\frac{1}{2 i k} W\left(e^{+}(k, x), e^{-}(-k, x)\right), \\b(k)=\frac{1}{2 i k} W\left(e^{-}(-k, x), e^{+}(-k, x)\right) .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_29_OBRATNOJ">e^{ \pm}(k, x)=\exp \left\{i k x+\int_{ \pm \infty}^{x} \sigma^{ \pm}(k, \xi) d \xi\right\}, \quad \pm \operatorname{Im} k \geqslant 0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_30_OBRATNOJ">\sigma_{x}^{ \pm}+2 i k \sigma^{ \pm}+\left(\sigma^{ \pm}\right)^{2}-u(x, t)=0, \pm \operatorname{Im} k \geqslant 0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_31_OBRATNOJ">\begin{gathered}a(k)=\left(1+\frac{\sigma^{+}(k, x)-\sigma^{-}(-k, x)}{2 i k}\right) \times \\\times \exp \left\{-\int_{x}^{\infty} \sigma^{+}(k, \xi) d \xi+\int_{-\infty}^{x} \sigma^{-}(-k, \xi) d \xi\right\}, \\b(k)=\frac{\sigma^{-}(-k, x)-\sigma^{+}(-k, x)}{2 i k} \times \\\times \exp \left\{-2 i k x+\int_{-\infty}^{x} \sigma^{-}(-k, \xi) d \xi-\int_{x}^{\infty} \sigma^{+}(-k, \xi) d \xi\right\} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_32_OBRATNOJ">\operatorname{Re} \sigma^{ \pm}(k, x)=-\frac{1}{2} \ln \left(1+\frac{\operatorname{Im} \sigma^{ \pm}(k, x)}{k}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_33_OBRATNOJ">\sigma^{ \pm}(k, x) \simeq \sum_{p=1}^{\infty} \frac{\sigma_{p}(x, t)}{(2 i k)^{p}}, \quad|k| \rightarrow \infty, \quad \pm \operatorname{Im} k \geqslant 0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_34_OBRATNOJ">\ln a(k) \simeq-2 \sum_{q=0}^{\infty} \frac{I_{q-1}(u)}{(2 i k)^{2 q+1}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_35_OBRATNOJ">I_{q-1}(u)=\frac{1}{2} S_{2 q+1}=\frac{1}{2} \int_{-\infty}^{\infty} \sigma_{2 q+1}(x, t) d x,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_36_OBRATNOJ">\left.\begin{array}{c}I_{-1}(u)=\frac{1}{2} \int_{-\infty}^{\infty} u(x, t) d x, \quad I_{0}(u)=-\frac{1}{2} \int_{-\infty}^{\infty} u(x, t)^{2} d x, \\I_{1}(u)=\frac{1}{2} \int_{-\infty}^{\infty}\left(u_{x}(x, t)^{2}+2 u(x, t)^{3}\right) d x\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_37_OBRATNOJ">\begin{aligned}&amp; I_{q-1}(u)=-\frac{2^{2 q+1}}{2 q+1} \sum_{p=1}^{m} x_{p}^{2 q+1}+ \\&amp; +2^{2 q+1} \frac{(-1)^{q}}{\pi} \int_{0}^{\infty} k^{2 q} \ln |a(k)| d k .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_38_OBRATNOJ">[u, v]=\int_{-\infty}^{\infty} u(x) \frac{d v(x)}{d x} d x=\frac{1}{2} \int_{-\infty}^{\infty}(u d v-v d u),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_39_OBRATNOJ">F(u+\varepsilon)-F(u)=\int_{-\infty}^{\infty} \frac{\delta F}{\delta u(x)} \varepsilon(x) d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_40_OBRATNOJ">\{F, \mathscr{g}\}=\int_{-\infty}^{\infty} \frac{\delta F}{\delta u(x)} \frac{d}{d x}\left(\frac{\delta \mathfrak{I}}{\delta u(x)}\right) d x,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_41_OBRATNOJ">\frac{d}{d t} u=\frac{d}{d x}\left(\frac{\delta H}{\delta u(x)}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_42_OBRATNOJ">\frac{\delta I_{-1}}{\delta u(x)}=\frac{1}{2}, \quad \frac{\delta I_{0}}{\delta u(x)}=-u(x), \quad \frac{\delta I_{1}}{\delta u(x)}=-u_{x x}+3 u^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_43_OBRATNOJ">u_{t}=0, u_{t}=-u_{x}, u_{t}=6 u u_{x}-u_{x x x} \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_44_OBRATNOJ">\frac{d F}{d t}=\{F, H\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_45_OBRATNOJ">\frac{d F(k)}{d t}=\{F(k), H\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_46_OBRATNOJ">\begin{gathered}n(k)=\frac{2 k}{\pi} \ln a(k) a(-k), \quad \varphi(k)=\frac{1}{2 i} \ln \frac{b(k)}{b(-k)}, \quad 0&lt;k&lt;\infty, \\N(p)=x_{p}^{2}, \quad \Phi(p)=-\ln b_{p} \bar{b}_{p}, \quad p=1,2, \ldots, m,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_47_OBRATNOJ">\left\{n(k), n\left(k^{\prime}\right)\right\},\left\{n(k), \varphi\left(k^{\prime}\right)\right\}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_48_OBRATNOJ">e^{ \pm}(k, y)=e^{i k y}-\int_{ \pm \infty}^{y} \frac{\sin k(\xi-y)}{k} u(\xi) e^{ \pm}(k, \xi) d \xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_49_OBRATNOJ">\begin{aligned}&amp; \frac{\delta e^{+}(k, y)}{\delta u(x)}=\left\{\begin{array}{l}0, \quad x&lt;y, \\-s(k, y, x) e^{+}(k, x), \quad x&gt;y,\end{array}\right. \\&amp; \frac{\delta e^{-}(k, y)}{\delta u(x)}=\left\{\begin{array}{l}s(k, y, x) e^{-(k, x)}, \quad x&lt;y, \\0, \quad x&gt;y,\end{array}\right.\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_50_OBRATNOJ">s(k, x, x)=0, \quad s_{y}^{\prime}(k, x, x)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_51_OBRATNOJ">\frac{\delta a(k)}{\delta u(x)}=-\frac{e^{-}(-k, x) e^{+}(k, x)}{2 i k}, \quad \frac{\delta b(k)}{\delta u(x)}=\frac{e^{+}(-k, x) e^{-}(-k, x)}{2 i k} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_52_OBRATNOJ">\begin{gathered}\{n(k), H\}=\{N(p), H\}=0,\{\varphi(k), H\}=8 k^{3}, \\\{\Phi(p), H\}=-16 N(p)^{3 / 2} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2036_53_OBRATNOJ">\dot{n}(k)=\dot{N}(p)=0, \dot{\varphi}(k)=8 k^{3}, \dot{\Phi}(p)=-16 N(p)^{3 / 2},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_1_OBRATNOJ">|x| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_2_OBRATNOJ">u=u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_3_OBRATNOJ">\left\{x_{p}(t), m_{p}(t), r(k, t)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_4_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_5_OBRATNOJ">x_{p}(0), m_{p}(0), r(k, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_6_OBRATNOJ">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_7_OBRATNOJ">k(x, y ; t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_8_OBRATNOJ">(l-A)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_9_OBRATNOJ">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_10_OBRATNOJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_11_OBRATNOJ">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_12_OBRATNOJ">[l, A]=L A-A L</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_13_OBRATNOJ">\dot{l}=\frac{d L}{d t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_14_OBRATNOJ">\dot{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_15_OBRATNOJ">\dot{u}=u_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_16_OBRATNOJ">[l, A]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_17_OBRATNOJ">6 u u_{x}-u_{x x x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_18_OBRATNOJ">\dot{l}-[L, A]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_19_OBRATNOJ">u_{t}-6 u u_{x}+u_{x x x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_20_OBRATNOJ">u=u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_21_OBRATNOJ">l, A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_22_OBRATNOJ">z \in \mathbb{C}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_23_OBRATNOJ">\frac{\partial}{\partial t}+A</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_24_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_25_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_26_OBRATNOJ">|x| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_27_OBRATNOJ">e^{+}(k, x), e^{-}(k, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_28_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_29_OBRATNOJ">k \neq 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_30_OBRATNOJ">e^{+}(-k, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_31_OBRATNOJ">e^{+}(k, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_32_OBRATNOJ">e^{-}(-k, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_33_OBRATNOJ">a=a(k, t), b=b(k, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_34_OBRATNOJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_35_OBRATNOJ">a(k, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_36_OBRATNOJ">\operatorname{im} k&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_37_OBRATNOJ">i x_{p}=i x_{p}(t), x_{p}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_38_OBRATNOJ">\lambda_{p}(t)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_39_OBRATNOJ">=\left(i x_{p}(t)\right)^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_40_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_41_OBRATNOJ">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_42_OBRATNOJ">u, V-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_43_OBRATNOJ">\boldsymbol{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_44_OBRATNOJ">\psi=\psi(x, t, k)-n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_45_OBRATNOJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_46_OBRATNOJ">\psi=\left\|\begin{array}{l}y \\ y_{x}\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_47_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_48_OBRATNOJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_49_OBRATNOJ">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_50_OBRATNOJ">a(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_51_OBRATNOJ">k \in(-\infty, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_52_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_53_OBRATNOJ">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_54_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_55_OBRATNOJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_56_OBRATNOJ">w(f, g)=f_{x} g-f g_{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_57_OBRATNOJ">x \rightarrow \pm \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_58_OBRATNOJ">|k|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_59_OBRATNOJ">\sigma^{ \pm}(k, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_60_OBRATNOJ">\pm \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_61_OBRATNOJ">a(k), b(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_62_OBRATNOJ">\sigma^{ \pm}(k, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_63_OBRATNOJ">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_64_OBRATNOJ">q(x)=u(x, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_65_OBRATNOJ">|x| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_66_OBRATNOJ">|x|^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_67_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_68_OBRATNOJ">t \in(-\infty, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_69_OBRATNOJ">\sigma^{ \pm}(k, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_70_OBRATNOJ">\sigma_{p}=\sigma_{p}(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_71_OBRATNOJ">u, u_{x}, \ldots, u_{x \ldots x}^{(p-1)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_72_OBRATNOJ">\sigma_{p}(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_73_OBRATNOJ">p=2 q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_74_OBRATNOJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_75_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_76_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_77_OBRATNOJ">\ln a(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_78_OBRATNOJ">i_{q-1}(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_79_OBRATNOJ">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_80_OBRATNOJ">i_{q-1}(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_81_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_82_OBRATNOJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_83_OBRATNOJ">i x_{1}, i x_{2}, \ldots, i x_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_84_OBRATNOJ">x_{j}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_85_OBRATNOJ">a(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_86_OBRATNOJ">|a(\xi)|=|a(-\xi)|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_87_OBRATNOJ">u(x, t) \mathrm{K}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_88_OBRATNOJ">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_89_OBRATNOJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_90_OBRATNOJ">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_91_OBRATNOJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_92_OBRATNOJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_93_OBRATNOJ">u \in M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_94_OBRATNOJ">f(u)\left(f: M \rightarrow \mathbb{R}^{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_95_OBRATNOJ">\frac{\delta F}{\delta u(x)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_96_OBRATNOJ">\varepsilon(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_97_OBRATNOJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_98_OBRATNOJ">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_99_OBRATNOJ">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_100_OBRATNOJ">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_101_OBRATNOJ">h=i_{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_102_OBRATNOJ">p=-1,0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_103_OBRATNOJ">h=i_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_104_OBRATNOJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_105_OBRATNOJ">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_106_OBRATNOJ">u(x) \rightarrow F(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_107_OBRATNOJ">u(x) \mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_108_OBRATNOJ">h=i_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_109_OBRATNOJ">i_{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_110_OBRATNOJ">n(k), N(p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_111_OBRATNOJ">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_112_OBRATNOJ">\boldsymbol{y}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_113_OBRATNOJ">u(y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_114_OBRATNOJ">s(k, y, x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_115_OBRATNOJ">-s^{\prime \prime}+u(y) s=k^{2} s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_116_OBRATNOJ">y=x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_117_OBRATNOJ">a(k), b(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_118_OBRATNOJ">\left\{n(k), n\left(k^{\prime}\right)\right\}=\left\{\varphi(k), \varphi\left(k^{\prime}\right)\right\}=0,\left\{n(k), \varphi\left(k^{\prime}\right)\right\}=\delta\left(k^{\prime}-k\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_119_OBRATNOJ">\left\{n(p), N\left(p^{\prime}\right)\right\}=\left\{\Phi(p), \Phi\left(p^{\prime}\right)\right\}=0,\left\{N(p), \Phi\left(p^{\prime}\right)\right\}=\delta\left(p^{\prime}-p\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_120_OBRATNOJ">n(k), \varphi(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_121_OBRATNOJ">n(p), \Phi(p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_122_OBRATNOJ">(n(k), N(p))</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2036_123_OBRATNOJ">(\varphi(k), \Phi(p))</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/2036_1_OBRATNOJ">
+      <rel_text>гамильтоновых систем</rel_text>
+      <target>http://libmeta.ru/fme/article/517_GAMIL'TONOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2036_2_OBRATNOJ">
+      <rel_text>квазипериодич</rel_text>
+      <target>http://libmeta.ru/fme/article/1138_KVAZIIMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2036_3_OBRATNOJ">
+      <rel_text>гамильтоновой системой</rel_text>
+      <target>http://libmeta.ru/fme/article/517_GAMIL'TONOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2036_4_OBRATNOJ">
+      <rel_text>вполне интегрируемой</rel_text>
+      <target>http://libmeta.ru/fme/article/3005_SUPERSIMMETRIChNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2036_5_OBRATNOJ">
+      <rel_text>действие</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2036_6_OBRATNOJ">
+      <rel_text>скобки Пуассона</rel_text>
+      <target>http://libmeta.ru/fme/article/2471_PUASSONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2036_7_OBRATNOJ">
+      <rel_text>скобок Пуассона</rel_text>
+      <target>http://libmeta.ru/fme/article/2471_PUASSONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2036_8_OBRATNOJ">
+      <rel_text>вариационные производные</rel_text>
+      <target>http://libmeta.ru/fme/article/314_VARIATsIONNAJa</target>
+    </relation>
+  </relations>
+  <text>Метод интегрирования нелинейных дифференциальных и конечноразностных уравнений, открытый К. Гарднером, Дж. Грином, М. Крускалом и Р. Миурой в работе [1], посвященной решению задачи Коши для уравнения Кортевега - де Фриса:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_1_OBRATNOJ]]/URI
+\]
+
+в классе быстро убывающих при $URI[[http://libmeta.ru/fme/formula/aux/2036_1_OBRATNOJ]]/URI$ функций.
+
+Основная идея метода состоит в замене искомого решения $URI[[http://libmeta.ru/fme/formula/aux/2036_2_OBRATNOJ]]/URI$ данными рассеяния $URI[[http://libmeta.ru/fme/formula/aux/2036_3_OBRATNOJ]]/URI$ семейства операторов Шредингера
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_2_OBRATNOJ]]/URI
+\]
+
+Эффективность метода обусловлена тем, что данные рассеяния удовлетворяют линейным уравнениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_3_OBRATNOJ]]/URI
+\]
+
+если потенциалы $URI[[http://libmeta.ru/fme/formula/aux/2036_4_OBRATNOJ]]/URI$ семейства (2) являются быстро убывающими решениями уравнения Кортевега - де Фриса, и наоборот. Поэтому для решения задачи Коши (1) достаточно проделать следующие операции: 1) найти данные рассеяния $URI[[http://libmeta.ru/fme/formula/aux/2036_5_OBRATNOJ]]/URI$ оператора
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_4_OBRATNOJ]]/URI
+\]
+
+2) используя уравнения (3), перейти к данным рассеяния операторов (2) по формулам
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_5_OBRATNOJ]]/URI
+\]
+
+3) решить (при каждом $URI[[http://libmeta.ru/fme/formula/aux/2036_6_OBRATNOJ]]/URI$ ) соответствующие обратные задачи рассеяния.
+
+Таким образом, решение задачи Коши дается формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_6_OBRATNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2036_7_OBRATNOJ]]/URI$ - решение линейного интегрального уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_7_OBRATNOJ]]/URI
+\]
+
+в к-ром
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_8_OBRATNOJ]]/URI
+\]
+
+Следующий важный шаг в развитии О. з. р. м. был сделан П. Лаксом [2], введшим понятие $URI[[http://libmeta.ru/fme/formula/aux/2036_8_OBRATNOJ]]/URI$-пары (па р ы Л а кс а), и В. Е. Захаровым и А. Б. Шабатом [3], распространившими О. з. р.м. на другие физически важные уравнения. Операторы $URI[[http://libmeta.ru/fme/formula/aux/2036_9_OBRATNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2036_10_OBRATNOJ]]/URI$, зависящие от параметра $URI[[http://libmeta.ru/fme/formula/aux/2036_11_OBRATNOJ]]/URI$, образуют пару Лакса, если их коммутатор $URI[[http://libmeta.ru/fme/formula/aux/2036_12_OBRATNOJ]]/URI$ и производная $URI[[http://libmeta.ru/fme/formula/aux/2036_13_OBRATNOJ]]/URI$ являются операторами умножения на функции.
+
+Напр., оператор Шредингера
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_9_OBRATNOJ]]/URI
+\]
+
+вместе с оператором
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_10_OBRATNOJ]]/URI
+\]
+
+образуют пару Лакса, так как $URI[[http://libmeta.ru/fme/formula/aux/2036_14_OBRATNOJ]]/URI$ есть оператор умножения на функцию $URI[[http://libmeta.ru/fme/formula/aux/2036_15_OBRATNOJ]]/URI$, а коммутатор $URI[[http://libmeta.ru/fme/formula/aux/2036_16_OBRATNOJ]]/URI$ равен оператору умножения на функцию $URI[[http://libmeta.ru/fme/formula/aux/2036_17_OBRATNOJ]]/URI$. Поэтому оператор $URI[[http://libmeta.ru/fme/formula/aux/2036_18_OBRATNOJ]]/URI$ является оператором умножения на функцию $URI[[http://libmeta.ru/fme/formula/aux/2036_19_OBRATNOJ]]/URI$ и обращается в нуль тогда и только тогда, когда функция $URI[[http://libmeta.ru/fme/formula/aux/2036_20_OBRATNOJ]]/URI$ удовлетворяет уравнению Кортевега - де Фриса, то есть когда оно эквивалентно уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_11_OBRATNOJ]]/URI
+\]
+
+для операторов (2), (5). Представление нелинейных уравнений в таком виде называется Лакса представлением. Если операторы $URI[[http://libmeta.ru/fme/formula/aux/2036_21_OBRATNOJ]]/URI$ удовлетворяют уравнению (6), то при каждом $URI[[http://libmeta.ru/fme/formula/aux/2036_22_OBRATNOJ]]/URI$ оператор $URI[[http://libmeta.ru/fme/formula/aux/2036_23_OBRATNOJ]]/URI$ переводит решения уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_12_OBRATNOJ]]/URI
+\]
+
+в решения этого же уравнения. Поскольку уравнение Кортевега - де Фриса эквивалентно уравнению (6) для операторов (4), (5), оператор
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_13_OBRATNOJ]]/URI
+\]
+
+переводит решения уравнения Шредингера
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_14_OBRATNOJ]]/URI
+\]
+
+в решения этого же уравнения, если функция $URI[[http://libmeta.ru/fme/formula/aux/2036_24_OBRATNOJ]]/URI$ удовлетворяет уравнению Кортевега - де Фриса.
+
+Если решение $URI[[http://libmeta.ru/fme/formula/aux/2036_25_OBRATNOJ]]/URI$ быстро убывает при $URI[[http://libmeta.ru/fme/formula/aux/2036_26_OBRATNOJ]]/URI$, то уравнения (9) имеют решения $URI[[http://libmeta.ru/fme/formula/aux/2036_27_OBRATNOJ]]/URI$ (см. Йоста решения), однозначно определенные асимптотич. условиями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_15_OBRATNOJ]]/URI
+\]
+
+и оператор (8) переводит их в решения того же уравнения (9) с асимптотиками
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_16_OBRATNOJ]]/URI
+\]
+
+В силу единственности решений с такими асимптотиками следует, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_17_OBRATNOJ]]/URI
+\]
+
+то есть решения Йоста кроме уравнения (9) удовлетворяют также уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_18_OBRATNOJ]]/URI
+\]
+
+если функция $URI[[http://libmeta.ru/fme/formula/aux/2036_28_OBRATNOJ]]/URI$ является быстро убывающим решением уравнения Кортевега - де Фриса.
+
+При вещественных значениях $URI[[http://libmeta.ru/fme/formula/aux/2036_29_OBRATNOJ]]/URI$ решения $URI[[http://libmeta.ru/fme/formula/aux/2036_30_OBRATNOJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2036_31_OBRATNOJ]]/URI$ линейно независимы и решение $URI[[http://libmeta.ru/fme/formula/aux/2036_32_OBRATNOJ]]/URI$ является их линейной комбинацией
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_19_OBRATNOJ]]/URI
+\]
+
+с коэффициентами $URI[[http://libmeta.ru/fme/formula/aux/2036_33_OBRATNOJ]]/URI$, не зависящими от $URI[[http://libmeta.ru/fme/formula/aux/2036_34_OBRATNOJ]]/URI$. Коэффициент $URI[[http://libmeta.ru/fme/formula/aux/2036_35_OBRATNOJ]]/URI$ аналитически продолжается в верхнюю полуплоскость $URI[[http://libmeta.ru/fme/formula/aux/2036_36_OBRATNOJ]]/URI$, где он имеет конечное число корней $URI[[http://libmeta.ru/fme/formula/aux/2036_37_OBRATNOJ]]/URI$. Спектр оператора (4) состоит из простых отрицательных собственных значений $URI[[http://libmeta.ru/fme/formula/aux/2036_38_OBRATNOJ]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2036_39_OBRATNOJ]]/URI$ и двукратного непрерывного спектра, занимающего положительную полуось. Собственными функциями дискретного спектра являются решения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_20_OBRATNOJ]]/URI
+\]
+
+а собственными функциями непрерывного спектра - решения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_21_OBRATNOJ]]/URI
+\]
+
+Набор величин
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_22_OBRATNOJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_23_OBRATNOJ]]/URI
+\]
+
+называется данными рассеяния оператора (4).
+
+Операторы (4) образуют изоспектральное семейство, если их потенциалы $URI[[http://libmeta.ru/fme/formula/aux/2036_40_OBRATNOJ]]/URI$ являются быстро убывающими решениями уравнения Кортевега - де Фриса. Формулы (3') для данных рассеяния этого семейства являются очевидным следствием равенств (14), (15).
+
+О. з. р. м. применим и к другим нелинейным уравнениям, если они допускают представление Лакса и для соответствующих $URI[[http://libmeta.ru/fme/formula/aux/2036_41_OBRATNOJ]]/URI$-операторов может быть поставлена и решена обратная задача рассеяния.
+
+Вместо представления Лакса часто проще записывать нелинейные уравнения в форме условия совместности переопределенных систем уравнений вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_24_OBRATNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2036_42_OBRATNOJ]]/URI$ квадратные матрицы-функции $URI[[http://libmeta.ru/fme/formula/aux/2036_43_OBRATNOJ]]/URI$-го порядка и $URI[[http://libmeta.ru/fme/formula/aux/2036_44_OBRATNOJ]]/URI$-мерная вектор-функция. Условие совместности переопределенной системы (16) имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_25_OBRATNOJ]]/URI
+\]
+
+оно является системой нелинейных уравнений, к-рым должны удовлетворять элементы матриц $URI[[http://libmeta.ru/fme/formula/aux/2036_45_OBRATNOJ]]/URI$, V. Напр., уравнения (9), (11), к-рым удовлетворяют решения Йоста, эквивалентны системе уравнений вида (16) для вектор-функции $URI[[http://libmeta.ru/fme/formula/aux/2036_46_OBRATNOJ]]/URI$ с матрицами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_26_OBRATNOJ]]/URI
+\]
+
+Левая часть уравнения совместности (17) для таких матриц равна
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_27_OBRATNOJ]]/URI
+\]
+
+откуда следует, что система (9), (11) совместна тогда и только тогда, когда функция $URI[[http://libmeta.ru/fme/formula/aux/2036_47_OBRATNOJ]]/URI$ удовлетворяет уравнению Кортевега - де Фриса.
+
+Схема применения О. з. р. м. для решения задач Коши уравнений, являющихся условием совместности систем вида (16), остается прежней. Изменения связаны с постановкой и решением обратных задач для линейных систем, порождаемых первым из уравнений (16). Представление нелинейных уравнений в виде условия совместности (17) (оно часто называется представлением нулевой к р и в и зн ы) особенно удобно при использовании задачи Римана для решения обратных задач.
+
+Уравнения, решаемые О. з. р. м., имеют бесконечные наборы интегралов движения, то есть функционалов, определенных на функциях пространственной переменной $URI[[http://libmeta.ru/fme/formula/aux/2036_48_OBRATNOJ]]/URI$, значения к-рых на решениях этих уравнений не зависят от $URI[[http://libmeta.ru/fme/formula/aux/2036_49_OBRATNOJ]]/URI$. Напр., в случае уравнения Кортевега - де Фриса значение коэффициента $URI[[http://libmeta.ru/fme/formula/aux/2036_50_OBRATNOJ]]/URI$ при каждом $URI[[http://libmeta.ru/fme/formula/aux/2036_51_OBRATNOJ]]/URI$ является нек-рым сложным функционалом от решения $URI[[http://libmeta.ru/fme/formula/aux/2036_52_OBRATNOJ]]/URI$ и, согласно (15), не зависит от $URI[[http://libmeta.ru/fme/formula/aux/2036_53_OBRATNOJ]]/URI$. Этот коэффициент можно также использовать для построения счетного семейства интегралов движения, явно выражаемых через решение $URI[[http://libmeta.ru/fme/formula/aux/2036_54_OBRATNOJ]]/URI$ и его производные по $URI[[http://libmeta.ru/fme/formula/aux/2036_55_OBRATNOJ]]/URI$. Из равенства (12), свойств вронскианов $URI[[http://libmeta.ru/fme/formula/aux/2036_56_OBRATNOJ]]/URI$ и асимптотич. поведения решений Йоста при $URI[[http://libmeta.ru/fme/formula/aux/2036_57_OBRATNOJ]]/URI$ следует, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_28_OBRATNOJ]]/URI
+\]
+
+При больших значениях $URI[[http://libmeta.ru/fme/formula/aux/2036_58_OBRATNOJ]]/URI$ решения Йоста представимы в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_29_OBRATNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2036_59_OBRATNOJ]]/URI$ - решения уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_30_OBRATNOJ]]/URI
+\]
+
+суммируемые в окрестности $URI[[http://libmeta.ru/fme/formula/aux/2036_60_OBRATNOJ]]/URI$. Отсюда вытекают следующие представления коэффициентов $URI[[http://libmeta.ru/fme/formula/aux/2036_61_OBRATNOJ]]/URI$ через функции $URI[[http://libmeta.ru/fme/formula/aux/2036_62_OBRATNOJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_31_OBRATNOJ]]/URI
+\] При вещественных $URI[[http://libmeta.ru/fme/formula/aux/2036_63_OBRATNOJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_32_OBRATNOJ]]/URI
+\]
+
+Если потенциал $URI[[http://libmeta.ru/fme/formula/aux/2036_64_OBRATNOJ]]/URI$ принадлежит пространству Шварца (то есть бесконечно дифференцируем и при $URI[[http://libmeta.ru/fme/formula/aux/2036_65_OBRATNOJ]]/URI$ убывает вместе со всеми производными быстрее любой степени $URI[[http://libmeta.ru/fme/formula/aux/2036_66_OBRATNOJ]]/URI$ ), то решение $URI[[http://libmeta.ru/fme/formula/aux/2036_67_OBRATNOJ]]/URI$ задачи (1) при каждом $URI[[http://libmeta.ru/fme/formula/aux/2036_68_OBRATNOJ]]/URI$ тоже принадлежит этому пространству, а функции $URI[[http://libmeta.ru/fme/formula/aux/2036_69_OBRATNOJ]]/URI$ удовлетворяют одному и тому же асимптотич. равенству
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_33_OBRATNOJ]]/URI
+\]
+
+в к-ром коэффициенты $URI[[http://libmeta.ru/fme/formula/aux/2036_70_OBRATNOJ]]/URI$ являются многочленами от $URI[[http://libmeta.ru/fme/formula/aux/2036_71_OBRATNOJ]]/URI$ и принадлежат пространству Шварца. Функции $URI[[http://libmeta.ru/fme/formula/aux/2036_72_OBRATNOJ]]/URI$ с четными номерами $URI[[http://libmeta.ru/fme/formula/aux/2036_73_OBRATNOJ]]/URI$ являются производными по $URI[[http://libmeta.ru/fme/formula/aux/2036_74_OBRATNOJ]]/URI$ от функций, принадлежащих пространству Шварца. Поэтому
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_34_OBRATNOJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_35_OBRATNOJ]]/URI
+\]
+
+причем это асимптотич. равенство выполняется независимо от того, удовлетворяет функция $URI[[http://libmeta.ru/fme/formula/aux/2036_75_OBRATNOJ]]/URI$ уравнению Кортевега - де Фриса или нет.
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/2036_76_OBRATNOJ]]/URI$ - решение задачи (1), то $URI[[http://libmeta.ru/fme/formula/aux/2036_77_OBRATNOJ]]/URI$, а значит, и коэффициенты $URI[[http://libmeta.ru/fme/formula/aux/2036_78_OBRATNOJ]]/URI$ не зависят от $URI[[http://libmeta.ru/fme/formula/aux/2036_79_OBRATNOJ]]/URI$, то есть функционалы $URI[[http://libmeta.ru/fme/formula/aux/2036_80_OBRATNOJ]]/URI$ образуют счетное семейство нетривиальных интегралов движения. Они называются полиноми альным и интегралам и д и жения, так қак являются интегралами от полиномов относительно функции $URI[[http://libmeta.ru/fme/formula/aux/2036_81_OBRATNOJ]]/URI$ и ее производных по $URI[[http://libmeta.ru/fme/formula/aux/2036_82_OBRATNOJ]]/URI$. Напр.,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_36_OBRATNOJ]]/URI
+\]
+
+Их можно также выразить через корни $URI[[http://libmeta.ru/fme/formula/aux/2036_83_OBRATNOJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2036_84_OBRATNOJ]]/URI$, функции $URI[[http://libmeta.ru/fme/formula/aux/2036_85_OBRATNOJ]]/URI$ и значения ее модуля $URI[[http://libmeta.ru/fme/formula/aux/2036_86_OBRATNOJ]]/URI$ на вещественной оси:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_37_OBRATNOJ]]/URI
+\]
+
+В. Е. Захаров и Л.Д. Фаддеев [4] обнаружили глубокую связь между О. з. р.м. и теорией гамильтоновых систем, установив, что переход от функций $URI[[http://libmeta.ru/fme/formula/aux/2036_87_OBRATNOJ]]/URI$ данным рассеяния операторов (2) является переходом к переменным типа действие-угол в соответствующей гамильтоновой системе. Для уравнения Кортевега - де Фриса фазовым пространством служит пространство Шварца, снабженное кососкалярным произведением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_38_OBRATNOJ]]/URI
+\]
+
+превращающим его в симплектич. линейное пространство $URI[[http://libmeta.ru/fme/formula/aux/2036_88_OBRATNOJ]]/URI$. Переменная $URI[[http://libmeta.ru/fme/formula/aux/2036_89_OBRATNOJ]]/URI$ играет роль номера координаты, а значение $URI[[http://libmeta.ru/fme/formula/aux/2036_90_OBRATNOJ]]/URI$ функции $URI[[http://libmeta.ru/fme/formula/aux/2036_91_OBRATNOJ]]/URI$ является $URI[[http://libmeta.ru/fme/formula/aux/2036_92_OBRATNOJ]]/URI$-й координатой точки $URI[[http://libmeta.ru/fme/formula/aux/2036_93_OBRATNOJ]]/URI$. Роль функций на фазовом пространстве играют функционалы $URI[[http://libmeta.ru/fme/formula/aux/2036_94_OBRATNOJ]]/URI$, а роль частных производных - ва- риационные производные $URI[[http://libmeta.ru/fme/formula/aux/2036_95_OBRATNOJ]]/URI$, то есть такие обычные или обобщенные функции, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_39_OBRATNOJ]]/URI
+\]
+
+с точностью до членов более высокого порядка малости, чем $URI[[http://libmeta.ru/fme/formula/aux/2036_96_OBRATNOJ]]/URI$. Функционал $URI[[http://libmeta.ru/fme/formula/aux/2036_97_OBRATNOJ]]/URI$ называется гладки м, если его вариационная производная принадлежит пространству Шварца.
+
+Пуассонова структура на $URI[[http://libmeta.ru/fme/formula/aux/2036_98_OBRATNOJ]]/URI$ задается скобками Пуассона
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_40_OBRATNOJ]]/URI
+\]
+
+К-рые удовлетворяют обычным требованиям.
+
+Гладкие функционалы $URI[[http://libmeta.ru/fme/formula/aux/2036_99_OBRATNOJ]]/URI$ порождают уравнения с частными производными
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_41_OBRATNOJ]]/URI
+\]
+
+к-рые называются гамильтоновыми уравнениям и д в и жен и я с гамильтонианом $URI[[http://libmeta.ru/fme/formula/aux/2036_100_OBRATNOJ]]/URI$. Напр., согласно (24), (24')
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_42_OBRATNOJ]]/URI
+\]
+
+и гамильтоновы уравнения с гамильтонианами $URI[[http://libmeta.ru/fme/formula/aux/2036_101_OBRATNOJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2036_102_OBRATNOJ]]/URI$, таковы:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_43_OBRATNOJ]]/URI
+\]
+
+Таким образом, уравнение Кортевега - де Фриса является гамильтоновым с гамильтонианом $URI[[http://libmeta.ru/fme/formula/aux/2036_103_OBRATNOJ]]/URI$.
+
+Значения функционалов $URI[[http://libmeta.ru/fme/formula/aux/2036_104_OBRATNOJ]]/URI$ на траекториях $URI[[http://libmeta.ru/fme/formula/aux/2036_105_OBRATNOJ]]/URI$ гамильтоновых уравнений (26) удовлетворяют уравнениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_44_OBRATNOJ]]/URI
+\]
+
+При замене координат $URI[[http://libmeta.ru/fme/formula/aux/2036_106_OBRATNOJ]]/URI$ на фазовом пространстве новые координаты являются функционалами от старых. Поэтому уравнение (26) в новых координатах переходит в уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_45_OBRATNOJ]]/URI
+\]
+
+Лежащий в основе О. 3. p. м. переход от функций $URI[[http://libmeta.ru/fme/formula/aux/2036_107_OBRATNOJ]]/URI$ данным рассеяния является нек-рой заменой координат на фазовом пространстве. Вместо данных рассеяния в качестве новых координат удобнее взять величины
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_46_OBRATNOJ]]/URI
+\]
+
+через к-рые легко выразить данные рассеяния.
+
+Для того чтобы найти вид уравнения Кортевега - де Фриса в этих новых координатах, нужно вычислить скобки Пуассона между ними и гамильтонианом $URI[[http://libmeta.ru/fme/formula/aux/2036_108_OBRATNOJ]]/URI$, а так как, согласно (25), все функционалы $URI[[http://libmeta.ru/fme/formula/aux/2036_109_OBRATNOJ]]/URI$ выражаются только через $URI[[http://libmeta.ru/fme/formula/aux/2036_110_OBRATNOJ]]/URI$, то достаточно вычислить всевозможные скобки Пуассона между новыми координатами:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_47_OBRATNOJ]]/URI
+\]
+
+Решения Йоста находятся из уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_48_OBRATNOJ]]/URI
+\]
+
+и при фиксированных $URI[[http://libmeta.ru/fme/formula/aux/2036_111_OBRATNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2036_112_OBRATNOJ]]/URI$ являются функционалами от потенциала $URI[[http://libmeta.ru/fme/formula/aux/2036_113_OBRATNOJ]]/URI$; их вариационные производные:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_49_OBRATNOJ]]/URI
+\] где $URI[[http://libmeta.ru/fme/formula/aux/2036_114_OBRATNOJ]]/URI$ решение уравнения $URI[[http://libmeta.ru/fme/formula/aux/2036_115_OBRATNOJ]]/URI$ при таких начальных данных в точке $URI[[http://libmeta.ru/fme/formula/aux/2036_116_OBRATNOJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_50_OBRATNOJ]]/URI
+\]
+
+и URI[[http://libmeta.ru/fme/relation/2036_8_OBRATNOJ]]/URI коэффициентов $URI[[http://libmeta.ru/fme/formula/aux/2036_117_OBRATNOJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_51_OBRATNOJ]]/URI
+\]
+
+Вычисление URI[[http://libmeta.ru/fme/relation/2036_7_OBRATNOJ]]/URI сводится к вычислению соответствующих интегралов, в результате чего:
+
+$URI[[http://libmeta.ru/fme/formula/aux/2036_118_OBRATNOJ]]/URI$.
+
+Аналогично:
+
+$URI[[http://libmeta.ru/fme/formula/aux/2036_119_OBRATNOJ]]/URI$, а URI[[http://libmeta.ru/fme/relation/2036_6_OBRATNOJ]]/URI между $URI[[http://libmeta.ru/fme/formula/aux/2036_120_OBRATNOJ]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2036_121_OBRATNOJ]]/URI$ равны нулю; наконец:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_52_OBRATNOJ]]/URI
+\]
+
+Таким образом, в новых координатах уравнение Кортевега - де Фриса принимает такой вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2036_53_OBRATNOJ]]/URI
+\]
+
+то есть эти координаты являются переменными типа URI[[http://libmeta.ru/fme/relation/2036_5_OBRATNOJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2036_122_OBRATNOJ]]/URI$ - угол $URI[[http://libmeta.ru/fme/formula/aux/2036_123_OBRATNOJ]]/URI$, а уравнение Кортевега - де Фриса - URI[[http://libmeta.ru/fme/relation/2036_4_OBRATNOJ]]/URI URI[[http://libmeta.ru/fme/relation/2036_3_OBRATNOJ]]/URI.
+
+Гамильтонов подход к уравнениям, интегрируемым методом обратной задачи, всесторонне развит в [5]. Открытый С. П. Новиковым метод отыскания точных URI[[http://libmeta.ru/fme/relation/2036_2_OBRATNOJ]]/URI. решений этих уравнений, базирующийся на теории URI[[http://libmeta.ru/fme/relation/2036_1_OBRATNOJ]]/URI, изложен в [6].</text>
+  <text_orig>МеТОД интегрирования нелинейных дифференциальных и конечноразностных уравнений, открытый К. Гарднером, Дж. Грином, М. Крускалом и Р. Миурой в работе [1], посвященной решению задачи Коши для уравнения Кортевега - де Фриса:
+
+\[
+u_{t}=6 u u_{x}-u_{x x x}, u(x, 0)=q(x),
+\]
+
+в классе быстро убывающих при $|x| \rightarrow \infty$ функций.
+
+Основная идея метода состоит в замене искомого решения $u=u(x, t)$ данными рассеяния $\left\{x_{p}(t), m_{p}(t), r(k, t)\right\}$ семейства операторов Шредингера
+
+\[
+L(t)=-\frac{d^{2}}{d x^{2}}+u(x, t), \quad(-\infty&lt;x&lt;\infty)
+\]
+
+Эффективность метода обусловлена тем, что данные рассеяния удовлетворяют линейным уравнениям
+
+\[
+\dot{x}_{p}=0, \dot{m}_{p}=8 x_{p}^{3} m_{p}, \dot{r}=8 i k^{3} r
+\]
+
+если потенциалы $u(x, t)$ семейства (2) являются быстро убывающими решениями уравнения Кортевега - де Фриса, и наоборот. Поэтому для решения задачи Коши (1) достаточно проделать следующие операции: 1) найти данные рассеяния $x_{p}(0), m_{p}(0), r(k, 0)$ оператора
+
+\[
+L(0)=-\frac{d^{2}}{d x^{2}}+q(x)
+\]
+
+2) используя уравнения (3), перейти к данным рассеяния операторов (2) по формулам
+
+\[
+\left.\begin{array}{l}
+x_{p}(t)=x_{p}(0), \\
+m_{p}(t)=m_{p}(0) e^{8 x_{p}^{3} t}, \\
+r(k, t)=r(k, 0) e^{8 i k^{3} t} ;
+\end{array}\right\}
+\]
+
+3) решить (при каждом $t$ ) соответствующие обратные задачи рассеяния.
+
+Таким образом, решение задачи Коши дается формулой
+
+\[
+u(x, t)=-2 \frac{d}{d x} K(x, x ; t),
+\]
+
+где $K(x, y ; t)$ - решение линейного интегрального уравнения
+
+\[
+F(x+y ; t)+K(x, y ; t)+\int_{x}^{\infty} F(y+\xi ; t)+K(x, \xi ; t) d \xi=0,
+\]
+
+в к-ром
+
+\[
+F(z ; t)=\sum_{p} m_{p}(0) e^{-x_{p} z+8 x_{p}^{3} t}+\frac{1}{2 \pi} \int_{-\infty}^{\infty} r(k, 0) e^{i k z+8 i k^{3} t} d k .
+\]
+
+Следуюший важный шаг в развитии О. з. р. м. был сделан П. Лаксом [2], введшим понятие $(L-A)$-пары (па р ы Л а кс а), и В. Е. Захаровым и А. Б. Шабатом [3], распространившими О. з. р.м. на другие физически важные уравнения. Операторы $L$ и $A$, зависящие от параметра $t$, образуют пару Лакса, если их коммутатор $[L, A]=L A-A L$ и производная $\dot{L}=\frac{d L}{d t}$ являются операторами умножения на функции.
+
+Напр., оператор Шредингера
+
+\[
+L=-\frac{d^{2}}{d x^{2}}+u(x, t)
+\]
+
+вместе с оператором
+
+\[
+A=4 \frac{d^{3}}{d x^{3}}-3\left(u \frac{d}{d x}+\frac{d}{d x} u\right)
+\]
+
+образуют пару Лакса, так как $\dot{L}$ есть оператор умножения на функцию $\dot{u}=u_{t}$, а коммутатор $[L, A]$ равен оператору умножения на функцию $6 u u_{x}-u_{x x x}$. Поэтому оператор $\dot{L}-[L, A]$ является оператором умножения на функцию $u_{t}-6 u u_{x}+u_{x x x}$ и обращается в нуль тогда и только тогда, когда функция $u=u(x, t)$ удовлетворяет уравнению Кортевега - де Фриса, то есть когда оно эквивалентно уравнению
+
+\[
+\dot{L}=[L, A]
+\]
+
+для операторов (2), (5). Представление нелинейных уравнений в таком виде называется Лакса представлением. Если операторы $L, A$ удовлетворяют уравнению (6), то при каждом $z \in \mathbb{C}$ оператор $\frac{\partial}{\partial t}+A$ переводит решения уравнения
+
+\[
+L(y)=z y
+\]
+
+в решения этого же уравнения. Поскольку уравнение Кортевега - де Фриса эквивалентно уравнению (6) для операторов (4), (5), оператор
+
+\[
+\frac{\partial}{\partial t}+A=\frac{\partial}{\partial t}+4 \frac{\partial^{3}}{\partial x^{3}}-6 u(x, t) \frac{\partial}{\partial x}-3 u_{x}(x, t)
+\]
+
+переводит решения уравнения Шредингера
+
+\[
+-y_{x x}+u(x, t) y=k^{2} y
+\]
+
+в решения этого же уравнения, если функция $u(x, t)$ удовлетворяет уравнению Кортевега - де Фриса.
+
+Если решение $u(x, t)$ быстро убывает при $|x| \rightarrow \infty$, то уравнения (9) имеют решения $e^{+}(k, x), e^{-}(k, x)$ (см. Йоста решения), однозначно определенные асимптотич. условиями
+
+\[
+\begin{aligned}
+e^{+}(k, x) &amp; =e^{i k x}(1+o(1)), \operatorname{Im} k \geqslant 0, x \rightarrow+\infty, \\
+e^{-}(k, x) &amp; =e^{i k x}(1+o(1)), \operatorname{Im} k \leqslant 0, x \rightarrow-\infty,
+\end{aligned}
+\]
+
+и оператор (8) переводит их в решения того же уравнения (9) с асимптотиками
+
+\[
+\begin{aligned}
+&amp; \left(\frac{\partial}{\partial t}+A\right) e^{+}(k, x)=-4 i k^{3} e^{i k x}(1+o(1)), \quad \operatorname{Im} k \geqslant 0, \quad x \rightarrow+\infty, \\
+&amp; \left(\frac{\partial}{\partial t}+A\right) e^{-(k, x)}=-4 i k^{3} e^{i k x}(1+o(1)), \quad \operatorname{Im} k \leqslant 0, \quad x \rightarrow-\infty .
+\end{aligned}
+\]
+
+В силу единственности решений с такими асимптотиками следует, что
+
+\[
+\left(\frac{\partial}{\partial t}+A\right) e^{ \pm}(k, x)=-4 i k^{3} e^{ \pm}(k, x), \quad \pm \operatorname{Im} k \geqslant 0,
+\]
+
+то есть решения Йоста кроме уравнения (9) удовлетворяют также уравнению
+
+\[
+y_{t}=-4 y_{x x x}+6 u(x, t) y_{x}+\left(3 u_{x}(x, t)-4 i k^{3}\right) y,
+\]
+
+если функция $u(x, t)$ является быстро убывающим решением уравнения Кортевега - де Фриса.
+
+При вешественных значениях $k \neq 0$ решения $e^{+}(-k, x)$, $e^{+}(k, x)$ линейно независимы и решение $e^{-}(-k, x)$ является их линейной комбинацией
+
+\[
+e^{-}(-k, x)=a e^{+}(-k, x)+b e^{+}(k, x)
+\]
+
+с коэффициентами $a=a(k, t), b=b(k, t)$, не зависяшими от $x$. Коэффициент $a(k, t)$ аналитически продолжается в верхнюю полуплоскость $\operatorname{Im} k&gt;0$, где он имеет конечное число корней $i x_{p}=i x_{p}(t), x_{p}&gt;0$. Спектр оператора (4) состоит из простых отрицательных собственных значений $\lambda_{p}(t)=$ $=\left(i x_{p}(t)\right)^{2}$ и двукратного непрерывного спектра, занимающего положительную полуось. Собственными функциями дискретного спектра являются решения
+
+\[
+e^{-}\left(-i x_{p}, x\right)=b_{p}(t) e^{+}\left(i x_{p}, x\right)
+\]
+
+а собственными функциями непрерывного спектра - peшения
+
+\[
+e^{+}(k, x), e^{+}(-k, x),-\infty&lt;k&lt;\infty .
+\]
+
+Набор величин
+
+\[
+\left.\begin{array}{c}
+x_{p}(t), m_{p}(t)=\left.b_{p}(t)\left(i \frac{\partial a(k, t)}{\partial k}\right)^{-1}\right|_{k=i x_{p}(t)}, \\
+r(k, t)=\frac{b(k, t)}{a(k, t)},
+\end{array}\right\} .
+\]
+
+где
+
+\[
+\begin{gathered}
+a(k, t)=a(k, 0), \quad x_{p}(t)=x_{p}(0), \\
+b(k, t)=b(k, 0) e^{8 i k^{3} t}, \quad b_{p}(t)=b_{p}(0) e^{8 x_{p}^{3} t},
+\end{gathered}
+\]
+
+называется данными рассеяния оператора (4).
+
+Операторы (4) образуют изоспектральное семейство, если их потенциалы $u(x, t)$ являются быстро убывающими решениями уравнения Кортевега - де Фриса. Формулы (3') для данных рассеяния этого семейства являются очевидным следствием равенств (14), (15).
+
+О. з. р. м. применим и к другим нелинейным уравнениям, если они допускают представление Лакса и для соответствующих $L$-операторов может быть поставлена и решена обратная задача рассеяния.
+
+Вместо представления Лакса часто проще записывать нелинейные уравнения в форме условия совместности переопределенных систем уравнений вида:
+
+\[
+\frac{\partial \Psi}{\partial x}=V(x, t, k) \Psi, \quad \frac{\partial \Psi}{\partial t}=U(x, t, k) \Psi,
+\]
+
+где $U, V-$ квадратные матрицы-функции $\boldsymbol{n}$-го порядка и $\Psi=\Psi(x, t, k)-n$-мерная вектор-функция. Условие совместности переопределенной системы (16) имеет вид:
+
+\[
+\frac{\partial U}{\partial x}-\frac{\partial V}{\partial t}+[U, V]=0
+\]
+
+оно является системой нелинейных уравнений, к-рым должны удовлетворять элементы матриц $U$, V. Напр., уравнения (9), (11), к-рым удовлетворяют решения Йоста, эквивалентны системе уравнений вида (16) для вектор-функции $\Psi=\left\|\begin{array}{l}y \\ y_{x}\end{array}\right\|$ с матрицами
+
+\[
+U=\left\|\begin{array}{ll}
+-u_{x}-4 i k^{3} &amp; 2 u+4 k^{2} \\
+-u_{x x}+2 u^{2}+2 u k^{2}-4 k^{4} &amp; u_{x}-4 i k^{3}
+\end{array}\right\|, \quad V=\| \begin{array}{ll}
+0 &amp; 1 \\
+u-k^{2} &amp; 0
+\end{array} \mid .
+\]
+
+Левая часть уравнения совместности (17) для таких матриц равна
+
+\[
+\left\|\begin{array}{ll}
+0 &amp; 0 \\
+u_{t}+u_{x x x}-6 u u_{x} &amp; 0
+\end{array}\right\|
+\]
+
+откуда следует, что система (9), (11) совместна тогда и только тогда, когда функция $u(x, t)$ удовлетворяет уравнению Кортевега - де Фриса.
+
+Схема применения О. з. р. м. для решения задач Коши уравнений, являюшихся условием совместности систем вида (16), остается прежней. Изменения связаны с постановкой и решением обратных задач для линейных систем, порождаемых первым из уравнений (16). Представление нелинейных уравнений в виде условия совместности (17) (оно часто называется представлением нулевой к р и в и зн ы) особенно удобно при использовании задачи Римана для решения обратных задач.
+
+Уравнения, решаемые О. з. р. м., имеют бесконечные наборы интегралов движения, то есть функционалов, определенных на функциях пространственной переменной $x$, значения к-рых на решениях этих уравнений не зависят от $t$. Напр., в случае уравнения Кортевега - де Фриса значение коэффициента $a(k)$ при каждом $k \in(-\infty, \infty)$ является нек-рым сложным функционалом от решения $u(x, t)$ и, согласно (15), не зависит от $t$. Этот коэффициент можно также использовать для построения счетного семейства интегралов движения, явно выражаемых через решение $u(x, t)$ и его производные по $x$. Из равенства (12), свойств вронскианов $W(f, g)=f_{x} g-f g_{x}$ и асимптотич. поведения решений Йоста при $x \rightarrow \pm \infty$ следует, что
+
+\[
+\left.\begin{array}{l}
+a(k)=\frac{1}{2 i k} W\left(e^{+}(k, x), e^{-}(-k, x)\right), \\
+b(k)=\frac{1}{2 i k} W\left(e^{-}(-k, x), e^{+}(-k, x)\right) .
+\end{array}\right\}
+\]
+
+При больших значениях $|k|$ решения Йоста представимы в виде
+
+\[
+e^{ \pm}(k, x)=\exp \left\{i k x+\int_{ \pm \infty}^{x} \sigma^{ \pm}(k, \xi) d \xi\right\}, \quad \pm \operatorname{Im} k \geqslant 0,
+\]
+
+где $\sigma^{ \pm}(k, x)$ - решения уравнения
+
+\[
+\sigma_{x}^{ \pm}+2 i k \sigma^{ \pm}+\left(\sigma^{ \pm}\right)^{2}-u(x, t)=0, \pm \operatorname{Im} k \geqslant 0,
+\]
+
+суммируемые в окрестности $\pm \infty$. Отсюда вытекают следуюшие представления коэффициентов $a(k), b(k)$ через функции $\sigma^{ \pm}(k, x)$ :
+
+\[
+\begin{gathered}
+a(k)=\left(1+\frac{\sigma^{+}(k, x)-\sigma^{-}(-k, x)}{2 i k}\right) \times \\
+\times \exp \left\{-\int_{x}^{\infty} \sigma^{+}(k, \xi) d \xi+\int_{-\infty}^{x} \sigma^{-}(-k, \xi) d \xi\right\}, \\
+b(k)=\frac{\sigma^{-}(-k, x)-\sigma^{+}(-k, x)}{2 i k} \times \\
+\times \exp \left\{-2 i k x+\int_{-\infty}^{x} \sigma^{-}(-k, \xi) d \xi-\int_{x}^{\infty} \sigma^{+}(-k, \xi) d \xi\right\} .
+\end{gathered}
+\] При вещественных $k$
+
+\[
+\operatorname{Re} \sigma^{ \pm}(k, x)=-\frac{1}{2} \ln \left(1+\frac{\operatorname{Im} \sigma^{ \pm}(k, x)}{k}\right) .
+\]
+
+Если потенциал $q(x)=u(x, 0)$ принадлежит пространству Шварца (то есть бесконечно дифференцируем и при $|x| \rightarrow \infty$ убывает вместе со всеми производными быстрее любой степени $|x|^{-1}$ ), то решение $u(x, t)$ задачи (1) при каждом $t \in(-\infty, \infty)$ тоже принадлежит этому пространству, а функции $\sigma^{ \pm}(k, x)$ удовлетворяют одному и тому же асимптотич. равенству
+
+\[
+\sigma^{ \pm}(k, x) \simeq \sum_{p=1}^{\infty} \frac{\sigma_{p}(x, t)}{(2 i k)^{p}}, \quad|k| \rightarrow \infty, \quad \pm \operatorname{Im} k \geqslant 0,
+\]
+
+в к-ром коэффициенты $\sigma_{p}=\sigma_{p}(x, t)$ являются многочленами от $u, u_{x}, \ldots, u_{x \ldots x}^{(p-1)}$ и принадлежат пространству Шварца. Функции $\sigma_{p}(x, t)$ с четными номерами $p=2 q$ являются производными по $x$ от функций, принадлежащих пространству Шварца. Поэтому
+
+\[
+\ln a(k) \simeq-2 \sum_{q=0}^{\infty} \frac{I_{q-1}(u)}{(2 i k)^{2 q+1}}
+\]
+
+где
+
+\[
+I_{q-1}(u)=\frac{1}{2} S_{2 q+1}=\frac{1}{2} \int_{-\infty}^{\infty} \sigma_{2 q+1}(x, t) d x,
+\]
+
+причем это асимптотич. равенство выполняется независимо от того, удовлетворяет функция $u(x, t)$ уравнению Кортевега - де Фриса или нет.
+
+Если $u(x, t)$ - решение задачи (1), то $\ln a(k)$, а значит, и коэффициенты $I_{q-1}(u)$ не зависят от $t$, то есть функционалы $I_{q-1}(u)$ образуют счетное семейство нетривиальных интегралов движения. Они называются полиноми альным и интегралам и д и жения, так қак являются интегралами от полиномов относительно функции $u(x, t)$ и ее производных по $x$. Напр.,
+
+\[
+\left.\begin{array}{c}
+I_{-1}(u)=\frac{1}{2} \int_{-\infty}^{\infty} u(x, t) d x, \quad I_{0}(u)=-\frac{1}{2} \int_{-\infty}^{\infty} u(x, t)^{2} d x, \\
+I_{1}(u)=\frac{1}{2} \int_{-\infty}^{\infty}\left(u_{x}(x, t)^{2}+2 u(x, t)^{3}\right) d x
+\end{array}\right\}
+\]
+
+Их можно также выразить через корни $i x_{1}, i x_{2}, \ldots, i x_{m}$, $x_{j}&gt;0$, функции $a(k)$ и значения ее модуля $|a(\xi)|=|a(-\xi)|$ на вещественной оси:
+
+\[
+\begin{aligned}
+&amp; I_{q-1}(u)=-\frac{2^{2 q+1}}{2 q+1} \sum_{p=1}^{m} x_{p}^{2 q+1}+ \\
+&amp; +2^{2 q+1} \frac{(-1)^{q}}{\pi} \int_{0}^{\infty} k^{2 q} \ln |a(k)| d k .
+\end{aligned}
+\]
+
+В. Е. Захаров и Л.Д. Фаддеев [4] обнаружили глубокую связь между О. з. р.м. и теорией гамильтоновых систем, установив, что переход от функций $u(x, t) \mathrm{K}$ данным рассеяния операторов (2) является переходом к переменным типа действие-угол в соответствуюшей гамильтоновой системе. Для уравнения Кортевега - де Фриса фазовым пространством служит пространство Шварца, снабженное кососкалярным произведением
+
+\[
+[u, v]=\int_{-\infty}^{\infty} u(x) \frac{d v(x)}{d x} d x=\frac{1}{2} \int_{-\infty}^{\infty}(u d v-v d u),
+\]
+
+превращаюшим его в симплектич. линейное пространство $M$. Переменная $x$ играет роль номера координаты, а значение $u(x)$ функции $u$ является $x$-й координатой точки $u \in M$. Роль функций на фазовом пространстве играют функционалы $F(u)\left(F: M \rightarrow \mathbb{R}^{1}\right)$, а роль частных производных - ва- риационные производные $\frac{\delta F}{\delta u(x)}$, то есть такие обычные или обобщенные функции, что
+
+\[
+F(u+\varepsilon)-F(u)=\int_{-\infty}^{\infty} \frac{\delta F}{\delta u(x)} \varepsilon(x) d x
+\]
+
+с точностью до членов более высокого порядка малости, чем $\varepsilon(x)$. Функционал $F$ называется гладки м, если его вариационная производная принадлежит пространству Шварца.
+
+Пуассонова структура на $M$ задается скобками Пуассона
+
+\[
+\{F, \mathscr{g}\}=\int_{-\infty}^{\infty} \frac{\delta F}{\delta u(x)} \frac{d}{d x}\left(\frac{\delta \mathfrak{I}}{\delta u(x)}\right) d x,
+\]
+
+К-рые удовлетворяют обычным требованиям.
+
+Гладкие функционалы $H$ порождают уравнения с частными производными
+
+\[
+\frac{d}{d t} u=\frac{d}{d x}\left(\frac{\delta H}{\delta u(x)}\right)
+\]
+
+к-рые называются гамильтоновыми уравнениям и д в и жен и я с гамильтонианом $H$. Напр., согласно (24), (24')
+
+\[
+\frac{\delta I_{-1}}{\delta u(x)}=\frac{1}{2}, \quad \frac{\delta I_{0}}{\delta u(x)}=-u(x), \quad \frac{\delta I_{1}}{\delta u(x)}=-u_{x x}+3 u^{2}
+\]
+
+и гамильтоновы уравнения с гамильтонианами $H=I_{p}$, $p=-1,0,1, \ldots$, таковы:
+
+\[
+u_{t}=0, u_{t}=-u_{x}, u_{t}=6 u u_{x}-u_{x x x} \text {. }
+\]
+
+Таким образом, уравнение Кортевега - де Фриса является гамильтоновым с гамильтонианом $H=I_{1}$.
+
+Значения функщионалов $F$ на траекториях $u(x, t)$ гамильтоновых уравнений (26) удовлетворяют уравнениям
+
+\[
+\frac{d F}{d t}=\{F, H\} .
+\]
+
+При замене координат $u(x) \rightarrow F(k)$ на фазовом пространстве новые координаты являются функционалами от старых. Поэтому уравнение (26) в новых координатах переходит в уравнение
+
+\[
+\frac{d F(k)}{d t}=\{F(k), H\} .
+\]
+
+Лежащий в основе О. 3. p. м. переход от функций $u(x) \mathrm{k}$ данным рассеяния является нек-рой заменой координат на фазовом пространстве. Вместо данных рассеяния в качестве новых координат удобнее взять величины
+
+\[
+\begin{gathered}
+n(k)=\frac{2 k}{\pi} \ln a(k) a(-k), \quad \varphi(k)=\frac{1}{2 i} \ln \frac{b(k)}{b(-k)}, \quad 0&lt;k&lt;\infty, \\
+N(p)=x_{p}^{2}, \quad \Phi(p)=-\ln b_{p} \bar{b}_{p}, \quad p=1,2, \ldots, m,
+\end{gathered}
+\]
+
+через к-рые легко выразить данные рассеяния.
+
+Для того чтобы найти вид уравнения Кортевега - де Фриса в этих новых координатах, нужно вычислить скобки Пуассона между ними и гамильтонианом $H=I_{1}$, а так как, согласно (25), все функционалы $I_{p}$ выражаются только через $n(k), N(p)$, то достаточно вычислить всевозможные скобки Пуассона между новыми координатами:
+
+\[
+\left\{n(k), n\left(k^{\prime}\right)\right\},\left\{n(k), \varphi\left(k^{\prime}\right)\right\}, \ldots
+\]
+
+Решения Йоста находятся из уравнений
+
+\[
+e^{ \pm}(k, y)=e^{i k y}-\int_{ \pm \infty}^{y} \frac{\sin k(\xi-y)}{k} u(\xi) e^{ \pm}(k, \xi) d \xi
+\]
+
+и при фиксированных $k$ и $\boldsymbol{y}$ являются функционалами от потенциала $u(y)$; их вариационные производные:
+
+\[
+\begin{aligned}
+&amp; \frac{\delta e^{+}(k, y)}{\delta u(x)}=\left\{\begin{array}{l}
+0, \quad x&lt;y, \\
+-s(k, y, x) e^{+}(k, x), \quad x&gt;y,
+\end{array}\right. \\
+&amp; \frac{\delta e^{-}(k, y)}{\delta u(x)}=\left\{\begin{array}{l}
+s(k, y, x) e^{-(k, x)}, \quad x&lt;y, \\
+0, \quad x&gt;y,
+\end{array}\right.
+\end{aligned}
+\] где $s(k, y, x)-$ решение уравнения $-s^{\prime \prime}+u(y) s=k^{2} s$ при таких начальных данных в точке $y=x$ :
+
+\[
+s(k, x, x)=0, \quad s_{y}^{\prime}(k, x, x)=1
+\]
+
+и вариационные производные коэффициентов $a(k), b(k)$ :
+
+\[
+\frac{\delta a(k)}{\delta u(x)}=-\frac{e^{-}(-k, x) e^{+}(k, x)}{2 i k}, \quad \frac{\delta b(k)}{\delta u(x)}=\frac{e^{+}(-k, x) e^{-}(-k, x)}{2 i k} .
+\]
+
+Вычисление скобок Пуассона сводится к вычислению соответствуюших интегралов, в результате чего:
+
+$\left\{n(k), n\left(k^{\prime}\right)\right\}=\left\{\varphi(k), \varphi\left(k^{\prime}\right)\right\}=0,\left\{n(k), \varphi\left(k^{\prime}\right)\right\}=\delta\left(k^{\prime}-k\right)$.
+
+Аналогично:
+
+$\left\{N(p), N\left(p^{\prime}\right)\right\}=\left\{\Phi(p), \Phi\left(p^{\prime}\right)\right\}=0,\left\{N(p), \Phi\left(p^{\prime}\right)\right\}=\delta\left(p^{\prime}-p\right)$, а скобки Пуассона между $n(k), \varphi(k)$ и $N(p), \Phi(p)$ равны нулю; наконец:
+
+\[
+\begin{gathered}
+\{n(k), H\}=\{N(p), H\}=0,\{\varphi(k), H\}=8 k^{3}, \\
+\{\Phi(p), H\}=-16 N(p)^{3 / 2} .
+\end{gathered}
+\]
+
+Таким образом, в новых координатах уравнение Кортевега - де Фриса принимает такой вид:
+
+\[
+\dot{n}(k)=\dot{N}(p)=0, \dot{\varphi}(k)=8 k^{3}, \dot{\Phi}(p)=-16 N(p)^{3 / 2},
+\]
+
+то есть эти координаты являются переменными типа действие $(n(k), N(p))$ - угол $(\varphi(k), \Phi(p))$, а уравнение Кортевега - де Фриса - вполне интегрируемой гамильтоновой системой.
+
+Гамильтонов подход к уравнениям, интегрируемым методом обратной задачи, всесторонне развит в [5]. Открытый С. П. Новиковым метод отыскания точных квазипериодич. решений этих уравнений, базируюшийся на теории гамильтоновых систем, изложен в [6].
+
+Jum.: [1] Gardner C.S., Green J.M., Kruskal M.D., Miu ra R. M., &quot;Phys. Rev. Lett.», 1967, v. 10, p. 1095; [2] Lax P. D., «Comm. Pure Appl. Math.», 1968, v. 21, p. 467-90 (руc. пер.: «Математика», 1969, т. 13, № 5, с. 128-50); [3] Захаров В. Е., Шабат А. Б., «Журнал эксперим. и теоретич. физики», 1971, т. 61, № 1, c. 118-34; [4] Захаров В. Е., Фадде в Л. Д., «Функциональный анализ и его прилож.», 1971, т. 5, № 4, с. 18-27; [5] Тахтаджя н Л. А., Фадде в Л. Д., Гамильтонов подход в теории солитонов, М., 1986; [6] Захаров В. Е., Манаков С. В., Новиков С. П., Питаевский Л. П., Теория солитонов, М., 1980; [7] Абл о в и М., С и гу р Х., Солитоны и метод обратной задачи, $\begin{array}{ll}\text { пер. с англ., М., } 1987 . &amp; \text { В. А. Марченко. }\end{array}$</text_orig>
+</article>

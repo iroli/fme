@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2681_SVERTKA" alphabetic_pos="2683">
+  <title>СВЕРТКА НА ГРУППЕ</title>
+  <authors>
+    <author>Ю. А. Неретин</author>
+  </authors>
+  <pages>
+    <start>519</start>
+    <end>519</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2681_1_SVERTKA">\left(f_{1} * f_{2}\right)(g)=\int_{G} f_{1}(h) f_{2}\left(h^{-1} g\right) d_{l} h,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2681_1_SVERTKA">f_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2681_2_SVERTKA">f_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2681_3_SVERTKA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2681_4_SVERTKA">d_{l} h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2681_5_SVERTKA">g</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/2681_1_SVERTKA">
+      <rel_text>суммирование</rel_text>
+      <target>http://libmeta.ru/fme/article/2835_SOBOLEVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2681_2_SVERTKA">
+      <rel_text>группе</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2681_3_SVERTKA">
+      <rel_text>группа</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2681_4_SVERTKA">
+      <rel_text>группе</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2681_5_SVERTKA">
+      <rel_text>группе</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2681_6_SVERTKA">
+      <rel_text>операция</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/2681_6_SVERTKA]]/URI на классе функций определенных на URI[[http://libmeta.ru/fme/relation/2681_5_SVERTKA]]/URI Ли. А именно, с в е р т ко й фун к ц и й $URI[[http://libmeta.ru/fme/formula/aux/2681_1_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2681_2_SVERTKA]]/URI$ называют функцию на URI[[http://libmeta.ru/fme/relation/2681_4_SVERTKA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2681_3_SVERTKA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2681_1_SVERTKA]]/URI
+\]
+
+где через $URI[[http://libmeta.ru/fme/formula/aux/2681_4_SVERTKA]]/URI$ обозначена левоинвариантная Хаара мера на $URI[[http://libmeta.ru/fme/formula/aux/2681_5_SVERTKA]]/URI$ (если URI[[http://libmeta.ru/fme/relation/2681_3_SVERTKA]]/URI конечна, то интегрирование по URI[[http://libmeta.ru/fme/relation/2681_2_SVERTKA]]/URI заменяется на URI[[http://libmeta.ru/fme/relation/2681_1_SVERTKA]]/URI).</text>
+  <text_orig>операция на классе функций определенных на группе Ли. А именно, с в е р т ко й фун к ц и й $f_{1}$ и $f_{2}$ называют функцию на группе $G$ :
+
+\[
+\left(f_{1} * f_{2}\right)(g)=\int_{G} f_{1}(h) f_{2}\left(h^{-1} g\right) d_{l} h,
+\]
+
+где через $d_{l} h$ обозначена левоинвариантная Хаара мера на $G$ (если группа конечна, то интегрирование по группе заменяется на суммирование). Ю. А. Неретин.</text_orig>
+</article>

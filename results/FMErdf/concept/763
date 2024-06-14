@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1688_MAJERA-MONTROLLA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1688_MAJERA-MONTROLLA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/763</core:url>
+    <lbm:descriptor><![CDATA[МАЙЕРА-МОНТРОЛЛА УРАВНЕНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1464"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#1465"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6184"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#6185"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6186"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6187"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6188"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2803"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_90"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6189"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2444"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_477"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4172"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6190"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_642"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>неоднородная система линейных интегральных уравнений относительно корреляционных функций <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2803">$$\rho_{\lambda}(x)_{n}$$</a> при $URI[[http://libmeta.ru/fme/formula/aux/1688_2_MAJERA-MONTROLLA]]/URI$ :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6186">$$\begin{gathered}\rho_{\Lambda}(x)_{m}=\chi_{\Lambda}(x)_{m} z^{m} \exp \left[-\beta U(x)_{m}\right] \times \\\times\left[1+\sum_{n=1}^{\infty} \frac{1}{n !} \int_{\Lambda^{k}} d(y)_{n} K\left((x)_{m},(y)_{m}\right) \rho_{\Lambda}(y)_{n}\right],\end{gathered}$$</a><BR/></P><P>где<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6187">$$K\left((x)_{m},(y)_{n}\right)=\prod_{j=1}^{n}\left[\left(\prod_{i=1}^{m} \exp \left(-\beta \Phi\left(y_{j}-x_{i}\right)\right)\right)-1\right]$$</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6189">$$\phi(x)=\phi(|x|), x \in \mathbb{R}^{d}-$$</a> устойчивый и регулярный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2173_PARTO">парный</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_387_VZAIMODEJSTVIJa">потенциал взаимодействия</a> классич. тождественных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, находящихся в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состоянии</a> статистич. равновесия при <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температуре</a> $URI[[http://libmeta.ru/fme/formula/aux/1688_4_MAJERA-MONTROLLA]]/URI$, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_46_AKTIVNOST">активности</a> $URI[[http://libmeta.ru/fme/formula/aux/1688_5_MAJERA-MONTROLLA]]/URI$ в сосуде $URI[[http://libmeta.ru/fme/formula/aux/1688_6_MAJERA-MONTROLLA]]/URI$,<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6188">$$U(x)_{n}=\sum_{1 \leqslant i<j \leqslant n} \Phi\left(x_{j}-x_{i}\right), \quad(x)_{n}=\left\{x_{1}, x_{2}, \ldots, x_{n}\right\},$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6190">$$x_{1}, x_{2}, \ldots, x_{n} \in \mathbb{R}^{d}, \chi_{\Lambda}(x)_{n}=\prod_{i=1}^{n} \chi_{\Lambda}\left(x_{i}\right), \chi_{\Lambda}\left(x_{i}\right)$$</a> - характеристич. функция ограниченного измеримого по Лебегу множества $URI[[http://libmeta.ru/fme/formula/aux/1688_8_MAJERA-MONTROLLA]]/URI$. М.-М. у., наряду с Кирквуда - Зальибурга уравнениями, используют для изучения предела <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa">корреляционных функций</a> при $URI[[http://libmeta.ru/fme/formula/aux/1688_9_MAJERA-MONTROLLA]]/URI$. М.-М.у. особенно полезны при изучении положительных потенциалов или потенциалов с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3028_TVERDAJa">твердой сердцевиной</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#1465">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#127">Рюэль Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#1465">Статистическая механика, пер. с англ., М., 1971</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#6184">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#6159">Penrose O.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6184">《j. Math. Phys.», 1963, № 4, p. 1312-20</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#6185">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#6157">Хацет Б. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#6185">„доклады Ан СССР», 1949, т. 66, № 3, c. 321-24.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1464">Д. П. Санкович</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[неоднородная система линейных интегральных уравнений относительно корреляционных функций $\rho_{\Lambda}(x)_{n}$ при $n \geqslant 1$ :
+
+\[
+\begin{gathered}
+\rho_{\Lambda}(x)_{m}=\chi_{\Lambda}(x)_{m} z^{m} \exp \left[-\beta U(x)_{m}\right] \times \\
+\times\left[1+\sum_{n=1}^{\infty} \frac{1}{n !} \int_{\Lambda^{k}} d(y)_{n} K\left((x)_{m},(y)_{m}\right) \rho_{\Lambda}(y)_{n}\right],
+\end{gathered}
+\]
+
+где
+
+\[
+K\left((x)_{m},(y)_{n}\right)=\prod_{j=1}^{n}\left[\left(\prod_{i=1}^{m} \exp \left(-\beta \Phi\left(y_{j}-x_{i}\right)\right)\right)-1\right]
+\] $\Phi(x)=\Phi(|x|), x \in \mathbb{R}^{d}-$ устойчивый и регулярный парный потенциал взаимодействия классич. тождественных частиц, находящихся в состоянии статистич. равновесия при темпеpaтуре $\beta^{-1}$, активности $z$ в сосуде $\Lambda \subset \mathbb{R}^{d}$,
+
+\[
+U(x)_{n}=\sum_{1 \leqslant i<j \leqslant n} \Phi\left(x_{j}-x_{i}\right), \quad(x)_{n}=\left\{x_{1}, x_{2}, \ldots, x_{n}\right\},
+\]
+
+где $x_{1}, x_{2}, \ldots, x_{n} \in \mathbb{R}^{d}, \chi_{\Lambda}(x)_{n}=\prod_{i=1}^{n} \chi_{\Lambda}\left(x_{i}\right), \chi_{\Lambda}\left(x_{i}\right)$ - характеристич. функщия ограниченного измеримого по Лебегу множества $\Lambda \subset \mathbb{R}^{d}$. М.-М. у., наряду с Кирквуда - Зальибурга уравнениями, используют для изучения предела корреляционных функций при $|\Lambda| \rightarrow \infty$. М.-М.у. особенно полезны при изучении положительных потенциалов или потенциалов с твердой сердцевиной.
+
+Лит.: [1] Р юэ л ь Д., Статистическая механика, пер. с англ., М., 1971; [2] Penrose O., 《J. Math. Phys.», 1963, № 4, p. 1312-20; [3] Бо гол юбов Н. Н., Ха цет Б. И., „Доклады АН СССР», 1949, т. 66, № 3, c. 321-24.
+
+Д. П. Санкович.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3028_TVERDAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1409_KORRELJaTsIONNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_46_AKTIVNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_387_VZAIMODEJSTVIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2173_PARTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/441_VOZMOZhNYH" alphabetic_pos="441">
+  <title>ВОЗМОЖНЫХ ПЕРЕМЕЩЕНИЙ ПРИНЦИП, ПРИНЦИП ВИРТУАЛЬНЫХ ПЕРЕМЕЩЕНИЙ</title>
+  <authors>
+    <author>В. В. Румянцев</author>
+  </authors>
+  <pages>
+    <start>94</start>
+    <end>94</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/441_1_VOZMOZhNYH">\sum_{i} F_{i} \delta r_{i}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/441_2_VOZMOZhNYH">F_{i}=\operatorname{grad} r_{i} U\left(t, r_{1}, \ldots, r_{N}\right) ; U\left(t, r_{i}\right) \in C^{2}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/441_1_VOZMOZhNYH">f_{i}\left(t, r_{j}, \dot{r}_{j}\right) \in C^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/441_2_VOZMOZhNYH">\delta r_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/441_3_VOZMOZhNYH">r_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/441_4_VOZMOZhNYH">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/441_5_VOZMOZhNYH">\left({ }^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/441_6_VOZMOZhNYH">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/441_7_VOZMOZhNYH">\left({ }^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/441_8_VOZMOZhNYH">\delta U=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/441_9_VOZMOZhNYH">t</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/441_1_VOZMOZhNYH">
+      <rel_text>действию</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/441_2_VOZMOZhNYH">
+      <rel_text>механич</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/441_3_VOZMOZhNYH">
+      <rel_text>частного</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/441_4_VOZMOZhNYH">
+      <rel_text>статики</rel_text>
+      <target>http://libmeta.ru/fme/article/2923_STATIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/441_5_VOZMOZhNYH">
+      <rel_text>статики</rel_text>
+      <target>http://libmeta.ru/fme/article/2923_STATIK</target>
+    </relation>
+  </relations>
+  <text>один из вариационных принципов классической механики: механическая система находится в равновесии в некотором положении тогда и только тогда, когда сумма элементарных (бесконечно малых) работ активных сил $URI[[http://libmeta.ru/fme/formula/aux/441_1_VOZMOZhNYH]]/URI$ на всяком возможном перемещении $URI[[http://libmeta.ru/fme/formula/aux/441_2_VOZMOZhNYH]]/URI$, выводящем систему из рассматриваемого положения $URI[[http://libmeta.ru/fme/formula/aux/441_3_VOZMOZhNYH]]/URI$, равна нулю
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/441_1_VOZMOZhNYH]]/URI
+\]
+
+в любой момент времени $URI[[http://libmeta.ru/fme/formula/aux/441_4_VOZMOZhNYH]]/URI$.
+
+Уравнение $URI[[http://libmeta.ru/fme/formula/aux/441_5_VOZMOZhNYH]]/URI$ является общим уравнением URI[[http://libmeta.ru/fme/relation/441_5_VOZMOZhNYH]]/URI, сводящим любую задачу URI[[http://libmeta.ru/fme/relation/441_4_VOZMOZhNYH]]/URI к математич. задаче исследования этого уравнения. Для URI[[http://libmeta.ru/fme/relation/441_3_VOZMOZhNYH]]/URI случая потенциальных сил
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/441_2_VOZMOZhNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/441_6_VOZMOZhNYH]]/URI$ - число точек системы, равенство $URI[[http://libmeta.ru/fme/formula/aux/441_7_VOZMOZhNYH]]/URI$ принимает вид $URI[[http://libmeta.ru/fme/formula/aux/441_8_VOZMOZhNYH]]/URI$
+
+при любом $URI[[http://libmeta.ru/fme/formula/aux/441_9_VOZMOZhNYH]]/URI$, то есть URI[[http://libmeta.ru/fme/relation/441_2_VOZMOZhNYH]]/URI. система, подверженная URI[[http://libmeta.ru/fme/relation/441_1_VOZMOZhNYH]]/URI потенциальных сил, находится в равновесии тогда и только тогда, когда силовая функция имеет стационарное значение.</text>
+  <text_orig>один из вариационных принципов классической механики: механическая система находится в равновесии в некотором положении тогда и только тогда, когда сумма элементарных (бесконечно малых) работ активных сил $F_{i}\left(t, r_{j}, \dot{r}_{j}\right) \in C^{1}$ на всяком возможном перемещении $\delta r_{i}$, выводящем систему из рассматриваемого положения $r_{i}$, равна нулю
+
+\[
+\sum_{i} F_{i} \delta r_{i}=0
+\]
+
+в любой момент времени $t$.
+
+Уравнение $\left({ }^{*}\right)$ является обшим уравнением статики, сводящим любую задачу статики к математич. задаче исследования этого уравнения. Для частного случая потенциальных сил
+
+\[
+F_{i}=\operatorname{grad} r_{i} U\left(t, r_{1}, \ldots, r_{N}\right) ; U\left(t, r_{i}\right) \in C^{2}
+\]
+
+где $N$ - число точек системы, равенство $\left({ }^{*}\right)$ принимает вид $\delta U=0$
+
+при любом $t$, то есть механич. система, подверженная действию потенциальных сил, находится в равновесии тогда и только тогда, когда силовая функция имеет стационарное значение. В. В. Румянцев.</text_orig>
+</article>

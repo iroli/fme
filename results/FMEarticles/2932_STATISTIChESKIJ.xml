@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2932_STATISTIChESKIJ" alphabetic_pos="2934">
+  <title>СТАТИСТИЧЕСКИЙ ИНТЕГРАЛ</title>
+  <authors>
+    <author>Д. Н. Зубарев</author>
+  </authors>
+  <pages>
+    <start>574</start>
+    <end>574</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М а й е р Дж., Ге п п е рт - М ай е р М., Статистическая механика, пер. с англ., 2 изд., М., 1980, гл. 8; [2] Х и лл Т., Статистическая механика, пер. с англ., М., 1960, гл. 5; [3] Л е о нт о в и ч М. А., Введение в термодинамику. Статистическая физика, M., 1983.</literature_orig>
+    <unit>
+      <title>М а й е р Дж., Ге п п е рт - М ай е р М., Статистическая механика</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1980</year>
+      <other>гл. 8</other>
+    </unit>
+    <unit>
+      <author>Хилл Т.</author>
+      <title>Статистическая механика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1960</year>
+      <other>гл. 5</other>
+    </unit>
+    <unit>
+      <author>Леонтович М. А.</author>
+      <title>Введение в термодинамику. Статистическая физика</title>
+      <publication>M.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2932_1_STATISTIChESKIJ">Z=\left(N ! h^{3 N}\right)^{-1} \int d p d q \exp [-H(p, q) / k T],</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2932_2_STATISTIChESKIJ">H(p, q)=\sum_{i=1}^{N} p_{i}^{2} / 2 m+\sum_{i&lt;j} \Phi\left(\left|\boldsymbol{q}_{i}-\boldsymbol{q}_{j}\right|\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2932_3_STATISTIChESKIJ">F=-k T \ln Z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2932_4_STATISTIChESKIJ">Z=\left(V^{N} / N ! \Lambda^{3 N}\right) \int d q \exp \left\{-\sum_{i&lt;j} \Phi\left(\left|\boldsymbol{q}_{i}-\boldsymbol{q}_{j}\right|\right) / k T\right\},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_1_STATISTIChESKIJ">p, q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_2_STATISTIChESKIJ">h(p, q)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_3_STATISTIChESKIJ">n-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_4_STATISTIChESKIJ">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_5_STATISTIChESKIJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_6_STATISTIChESKIJ">\phi\left(\left|q_{1}-q_{2}\right|\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_7_STATISTIChESKIJ">d p d q=d p_{1} d q_{1} \ldots d p_{N} d q_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_8_STATISTIChESKIJ">1 / N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_9_STATISTIChESKIJ">h^{-3 N}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_10_STATISTIChESKIJ">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_11_STATISTIChESKIJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_12_STATISTIChESKIJ">3 N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_13_STATISTIChESKIJ">\lambda=h(2 \pi m k T)^{-1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_14_STATISTIChESKIJ">k T</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2932_15_STATISTIChESKIJ">z=v^{n} / N ! \Lambda^{3 N}</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/2932_1_STATISTIChESKIJ">
+      <rel_text>Вириальное разложение</rel_text>
+      <target>http://libmeta.ru/fme/article/410_VIRIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2932_2_STATISTIChESKIJ">
+      <rel_text>подобное</rel_text>
+      <target>http://libmeta.ru/fme/article/2277_PODOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2932_3_STATISTIChESKIJ">
+      <rel_text>импульсы</rel_text>
+      <target>http://libmeta.ru/fme/article/996_IMPUL'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2932_4_STATISTIChESKIJ">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2932_5_STATISTIChESKIJ">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2932_6_STATISTIChESKIJ">
+      <rel_text>частиц</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2932_7_STATISTIChESKIJ">
+      <rel_text>температуры</rel_text>
+      <target>http://libmeta.ru/fme/article/3038_TEMPERATUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2932_8_STATISTIChESKIJ">
+      <rel_text>свободной энергией</rel_text>
+      <target>http://libmeta.ru/fme/article/2696_SVOBODNAJa</target>
+    </relation>
+  </relations>
+  <text>величина, обратная нормирующему множителю в канонич. Гиббса распределении в статистической физике классических систем и равная интегралу по всем фазовым переменным $URI[[http://libmeta.ru/fme/formula/aux/2932_1_STATISTIChESKIJ]]/URI$ системы:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2932_1_STATISTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2932_2_STATISTIChESKIJ]]/URI$ - Гамильтона функция системы, $URI[[http://libmeta.ru/fme/formula/aux/2932_3_STATISTIChESKIJ]]/URI$ число частиц, $URI[[http://libmeta.ru/fme/formula/aux/2932_4_STATISTIChESKIJ]]/URI$ абсолютная температура. Для системы $URI[[http://libmeta.ru/fme/formula/aux/2932_5_STATISTIChESKIJ]]/URI$ частиц (без внутренних степеней свободы), взаимодействующих с парным потенциалом $URI[[http://libmeta.ru/fme/formula/aux/2932_6_STATISTIChESKIJ]]/URI$, функция Гамильтона (полная энергия как функция координат и импульсов всех частиц):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2932_2_STATISTIChESKIJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2932_7_STATISTIChESKIJ]]/URI$ - элемент объема фазового пространства, множитель $URI[[http://libmeta.ru/fme/formula/aux/2932_8_STATISTIChESKIJ]]/URI$ ! связан с тождественностью час-
+
+574 Статистический тиц, множитель $URI[[http://libmeta.ru/fme/formula/aux/2932_9_STATISTIChESKIJ]]/URI$ с тем, что наименьший размер ячейки в фазовом пространстве равен $URI[[http://libmeta.ru/fme/formula/aux/2932_10_STATISTIChESKIJ]]/URI$, если рассматривать С. и. как предел статистической суммы при переходе от квантовой механики к классической. С. и. называют также интегралом состояни й.
+
+С. и. связан со URI[[http://libmeta.ru/fme/relation/2932_8_STATISTIChESKIJ]]/URI системы соотношением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2932_3_STATISTIChESKIJ]]/URI
+\]
+
+к-рое является одним из основных в статистич. физике, так как позволяет вычислить $URI[[http://libmeta.ru/fme/formula/aux/2932_11_STATISTIChESKIJ]]/URI$ как функцию URI[[http://libmeta.ru/fme/relation/2932_7_STATISTIChESKIJ]]/URI, объема и числа URI[[http://libmeta.ru/fme/relation/2932_6_STATISTIChESKIJ]]/URI в зависимости от закона взаимодействия между частицами, а следовательно, вычислить и другие термодинамические потенциалы.
+
+Интегрирование по импульсам в С. и. легко выполняется, в результате С. и. сводится к конфи игураци о н о о у и н т е г р а л у по $URI[[http://libmeta.ru/fme/formula/aux/2932_12_STATISTIChESKIJ]]/URI$ координатам:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2932_4_STATISTIChESKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2932_13_STATISTIChESKIJ]]/URI$ - длина волны де Бройля, соответствующая URI[[http://libmeta.ru/fme/relation/2932_5_STATISTIChESKIJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2932_14_STATISTIChESKIJ]]/URI$. Для идеального газа $URI[[http://libmeta.ru/fme/formula/aux/2932_15_STATISTIChESKIJ]]/URI$. В квантовой URI[[http://libmeta.ru/fme/relation/2932_4_STATISTIChESKIJ]]/URI координаты и URI[[http://libmeta.ru/fme/relation/2932_3_STATISTIChESKIJ]]/URI являются некоммутирующими операторами и URI[[http://libmeta.ru/fme/relation/2932_2_STATISTIChESKIJ]]/URI упрощение статистич. суммы невозможно. Вычисление С. и.- одна из основных задач статистич. физики классич. систем (см., напр., URI[[http://libmeta.ru/fme/relation/2932_1_STATISTIChESKIJ]]/URI).</text>
+  <text_orig>величина, обратная нормирующему множителю в канонич. Гиббса распределении в статистической физике классических систем и равная интегралу по всем фазовым переменным $p, q$ системы:
+
+\[
+Z=\left(N ! h^{3 N}\right)^{-1} \int d p d q \exp [-H(p, q) / k T],
+\]
+
+где $H(p, q)$ - Гамильтона функция системы, $N-$ число частиц, $T-$ абсолютная температура. Для системы $N$ частиц (без внутренних степеней свободы), взаимодействуюших с парным потенциалом $\Phi\left(\left|q_{1}-q_{2}\right|\right)$, функция Гамильтона (полная энергия как функщия координат и импульсов всех частиц):
+
+\[
+H(p, q)=\sum_{i=1}^{N} p_{i}^{2} / 2 m+\sum_{i&lt;j} \Phi\left(\left|\boldsymbol{q}_{i}-\boldsymbol{q}_{j}\right|\right),
+\]
+
+$d p d q=d p_{1} d q_{1} \ldots d p_{N} d q_{N}$ - элемент объема фазового пространства, множитель $1 / N$ ! связан с тождественностью час-
+
+574 СТАТИСТИЧЕСКИЙ тиц, множитель $h^{-3 N}-$ с тем, что наименыший размер ячейки в фазовом пространстве равен $h$, если рассматривать С. и. как предел статистической суммы при переходе от квантовой механики к классической. С. и. называют также интегралом состояни й.
+
+С. и. связан со свободной энергией системы соотношением
+
+\[
+F=-k T \ln Z
+\]
+
+к-рое является одним из основных в статистич. физике, так как позволяет вычислить $F$ как функцию температуры, объема и числа частиц в зависимости от закона взаимодействия между частицами, а следовательно, вычислить и другие термодинамические потенциалы.
+
+Интегрирование по импульсам в С. и. легко выполняется, в результате С. и. сводится к конфи игураци о н о о у и н т е г р а л у по $3 N$ координатам:
+
+\[
+Z=\left(V^{N} / N ! \Lambda^{3 N}\right) \int d q \exp \left\{-\sum_{i&lt;j} \Phi\left(\left|\boldsymbol{q}_{i}-\boldsymbol{q}_{j}\right|\right) / k T\right\},
+\]
+
+где $\Lambda=h(2 \pi m k T)^{-1 / 2}$ - длина волны де Бройля, соответствующая энергии $k T$. Для идеального газа $Z=V^{N} / N ! \Lambda^{3 N}$. В квантовой механике координаты и импульсы являются некоммутирующими операторами и подобное упрощение статистич. суммы невозможно. Вычисление С. и.- одна из основных задач статистич. физики классич. систем (см., напр., Вириальное разложение).
+
+Лит.: [1] М а й е р Дж., Ге п п е рт - М ай е р М., Статистическая механика, пер. с англ., 2 изд., М., 1980, гл. 8; [2] Х и лл Т., Статистическая механика, пер. с англ., М., 1960, гл. 5; [3] Л е о нт о в и ч М. А., Введение в термодинамику. Статистическая физика, M., 1983. Д. Н. Зубарев.</text_orig>
+</article>

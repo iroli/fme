@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_17292">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>s</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003C1;</mi><mo>&#x0002C;</mo><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo><mi>&</mi><mo>&#x0003D;</mo><msub><mo>lim</mo><mrow><mi>V</mi><mo stretchy="false">&#x00028;</mo><mi>&#x0039B;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02192;</mo><mo>&#x0221E;</mo></mrow></msub><mi>s</mi><mo stretchy="false">&#x00028;</mo><mi>&#x0039B;</mi><mo>&#x0002C;</mo><mi>N</mi><mo>&#x0002C;</mo><mi>E</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003C1;</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi><mo stretchy="false">&#x00029;</mo><mi>&</mi><mo>&#x0003D;</mo><msub><mo>lim</mo><mrow><mi>V</mi><mo stretchy="false">&#x00028;</mo><mi>&#x0039B;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02192;</mo><mo>&#x0221E;</mo></mrow></msub><mi>f</mi><mo stretchy="false">&#x00028;</mo><mi>&#x0039B;</mi><mo>&#x0002C;</mo><mi>n</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>p</mi><mo stretchy="false">&#x00028;</mo><mi>z</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi><mo stretchy="false">&#x00029;</mo><mi>&</mi><mo>&#x0003D;</mo><msub><mo>lim</mo><mrow><mi>V</mi><mo stretchy="false">&#x00028;</mo><mi>&#x0039B;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02192;</mo><mo>&#x0221E;</mo></mrow></msub><mi>p</mi><mo stretchy="false">&#x00028;</mo><mi>&#x0039B;</mi><mo>&#x0002C;</mo><mi>z</mi><mo>&#x0002C;</mo><mi>&#x003B2;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}s(\rho, \varepsilon) &amp; =\lim _{V(\Lambda) \rightarrow \infty} s(\Lambda, N, E), \\f(\rho, \beta) &amp; =\lim _{V(\Lambda) \rightarrow \infty} f(\Lambda, n, \beta), \\p(z, \beta) &amp; =\lim _{V(\Lambda) \rightarrow \infty} p(\Lambda, z, \beta),\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

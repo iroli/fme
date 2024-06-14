@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3091_TOPOLOGIChESKAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3091_TOPOLOGIChESKAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2323</core:url>
+    <lbm:descriptor><![CDATA[ТОПОЛОГИЧЕСКАЯ ЭНТРОПИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17625"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17626"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17627"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14479"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_115"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17628"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_383"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17629"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3540_ENTROPI">энтропия</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14479">$$h(f)$$</a> для отображения $URI[[http://libmeta.ru/fme/formula/aux/3091_2_TOPOLOGIChESKAJa]]/URI$ метрического компакта $URI[[http://libmeta.ru/fme/formula/aux/3091_3_TOPOLOGIChESKAJa]]/URI$ с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1767_METRIK">метрикой</a> $URI[[http://libmeta.ru/fme/formula/aux/3091_4_TOPOLOGIChESKAJa]]/URI$, определяемая по формуле<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17625">$$h(f)=\lim _{\varepsilon \rightarrow 0} \varlimsup_{n \rightarrow \infty} \frac{\log N(n, \varepsilon)}{n}=\lim _{\varepsilon \rightarrow 0} \varliminf_{n \rightarrow \infty} \frac{\log N(n, \varepsilon)}{n},$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17628">$$n(n, \varepsilon)$$</a> - наименьшее число шаров радиуса $URI[[http://libmeta.ru/fme/formula/aux/3091_6_TOPOLOGIChESKAJa]]/URI$ в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1767_METRIK">метрике</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17626">$$\rho_{n}(x, y)=\max _{0 \leqslant i \leqslant n} \rho\left(f^{i}(x), f^{i}(y)\right),$$</a><BR/></P><P>необходимых для того, чтобы покрыть $URI[[http://libmeta.ru/fme/formula/aux/3091_7_TOPOLOGIChESKAJa]]/URI$. Т. э. измеряет <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорость</a> асимптотически экспоненциального роста числа различных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI">траекторий</a> отображения $URI[[http://libmeta.ru/fme/formula/aux/3091_8_TOPOLOGIChESKAJa]]/URI$, различимых при фиксированной, но произвольно высокой точности $URI[[http://libmeta.ru/fme/formula/aux/3091_9_TOPOLOGIChESKAJa]]/URI$ их задания. Для Т. э. справедлив вариационный принцип<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17627">$$h(f)=\sup h_{\mu}(f)$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17629">$$h_{\mu}(f)-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1767_METRIK">метрич</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3540_ENTROPI">энтропия</a> $URI[[http://libmeta.ru/fme/formula/aux/3091_11_TOPOLOGIChESKAJa]]/URI$ и верхняя грань берется по всем $URI[[http://libmeta.ru/fme/formula/aux/3091_12_TOPOLOGIChESKAJa]]/URI$-инвариантным нормированным борелевским мерам $URI[[http://libmeta.ru/fme/formula/aux/3091_13_TOPOLOGIChESKAJa]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/3091_14_TOPOLOGIChESKAJa]]/URI$.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[энтропия $h(f)$ для отображения $f$ метрического компакта $X$ с метрикой $\rho$, определяемая по формуле
+
+\[
+h(f)=\lim _{\varepsilon \rightarrow 0} \varlimsup_{n \rightarrow \infty} \frac{\log N(n, \varepsilon)}{n}=\lim _{\varepsilon \rightarrow 0} \varliminf_{n \rightarrow \infty} \frac{\log N(n, \varepsilon)}{n},
+\]
+
+где $N(n, \varepsilon)$ - наименьшее число шаров радиуса $\varepsilon$ в метрике
+
+\[
+\rho_{n}(x, y)=\max _{0 \leqslant i \leqslant n} \rho\left(f^{i}(x), f^{i}(y)\right),
+\]
+
+необходимых для того, чтобы покрыть $X$. Т. э. измеряет скорость асимптотически экспоненциального роста числа различных траекторий отображения $f$, различимых при фиксированной, но произвольно высокой точности $\varepsilon$ их задания. Для Т. э. справедлив вариационный принцип
+
+\[
+h(f)=\sup h_{\mu}(f)
+\]
+
+где $h_{\mu}(f)-$ метрич. энтропия $f$ и верхняя грань берется по всем $f$-инвариантным нормированным борелевским мерам $\mu$ в $X$.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3540_ENTROPI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1767_METRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1767_METRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1767_METRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3540_ENTROPI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

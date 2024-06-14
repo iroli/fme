@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_15014">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mrow><mi mathvariant="script">C</mi></mrow><mrow><mi>p</mi></mrow></msub><mo>&#x0003D;</mo><msub><mrow><mi mathvariant="script">C</mi></mrow><mrow><mi>p</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>H</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mi>T</mi><mo>&#x02208;</mo><msub><mrow><mi mathvariant="script">C</mi></mrow><mrow><mo>&#x0221E;</mo></mrow></msub><mi>:</mi><msubsup><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msub><mi>s</mi><mrow><mi>n</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>T</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mrow><mi>n</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mo>&#x02208;</mo><msub><mi>l</mi><mrow><mi>p</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow><mo>&#x0002C;</mo><mspace width="1em" /><mn>1</mn><mi>&#x02A7D;</mi><mi>p</mi><mo>&#x0003C;</mo><mo>&#x0221E;</mo><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\mathscr{C}_{p}=\mathscr{C}_{p}(H)=\left\{T \in \mathscr{C}_{\infty}:\left\{s_{n}(T)\right\}_{n=1}^{\infty} \in l_{p}\right\}, \quad 1 \leqslant p&lt;\infty,$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

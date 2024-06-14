@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_24464">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>v</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mtable><mtr><mtd columnalign="left"><mfrac><mrow><mn>1</mn></mrow><mrow><mi>n</mi><mo>&#x02212;</mo><mn>2</mn></mrow></mfrac><mo stretchy="false">&#x0007C;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><msup><mo stretchy="false">&#x0007C;</mo><mrow><mn>2</mn><mo>&#x02212;</mo><mi>n</mi></mrow></msup><mo>&#x0002B;</mo><mi>w</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mtd><mtd columnalign="left"><mtext>&#x000A0;если&#x000A0;</mtext><mi>n</mi><mi>&#x02A7E;</mi><mn>3</mn></mtd></mtr><mtr><mtd columnalign="left"><mo>&#x02212;</mo><mi>ln</mi><mo stretchy="false">&#x0007C;</mo><mi>x</mi><mo>&#x02212;</mo><mi>y</mi><mo stretchy="false">&#x0007C;</mo><mo>&#x0002B;</mo><mi>w</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mtd><mtd columnalign="left"><mtext>&#x000A0;осли&#x000A0;</mtext><mi>n</mi><mo>&#x0003D;</mo><mn>2</mn></mtd></mtr></mtable></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$v(x)= \begin{cases}\frac{1}{n-2}|x-y|^{2-n}+w(x), &amp; \text { если } n \geqslant 3 \\ -\ln |x-y|+w(x), &amp; \text { осли } n=2\end{cases}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2406_PROPAGATOR">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2406_PROPAGATOR</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1562</core:url>
+    <lbm:descriptor><![CDATA[ПРОПАГАТОР УРАВНЕНИЯ ЛИУВИЛЛЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#11725"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11726"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11727"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11728"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11729"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11281"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11730"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>функция Грина Лиувилля уравнения для вектора распределения. Вектор распределения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11728">$$\vec{f}(t)=\left\{f\left(x_{1}, \ldots, x_{s} ; t\right)\right\}$$</a>, являющийся совокупностью $URI[[http://libmeta.ru/fme/formula/aux/2406_2_PROPAGATOR]]/URI$-частичных функций распределения, удовлетворяет обобщенному уравнению Лиувилля<BR/></P><P>![](https://cdn.mathpix.com/cropped/2023_07_08_92e9610c5e4ea89c35d9g-1.jpg?height=55&width=196&top_left_y=988&top_left_x=1239)<BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2406_3_PROPAGATOR]]/URI$ оператор Лиувилля. Решение этого уравнения выражается через П. $URI[[http://libmeta.ru/fme/formula/aux/2406_4_PROPAGATOR]]/URI$ в виде<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11726">$$\vec{f}(t)=U(t) \vec{f}(0) .$$</a><BR/></P><P>При этом П. уравнения Лиувилля можно определить как решение уравнения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11727">$$\partial_{t} U(t)=\varphi U(t)$$</a><BR/></P><P>с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1873_NAChAL'NYE">начальным условием</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11730">$$u(0)=\mathbb{1}$$</a>, где 1 - единичный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#11725">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Балеску Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#11725">Равновесная и неравновесная статистическая механика, пер. с англ., т. 2, М., 1978</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[функция Грина Лиувилля уравнения для вектора распределения. Вектор распределения $\vec{f}(t)=\left\{f\left(x_{1}, \ldots, x_{s} ; t\right)\right\}$, являющийся совокупностью $s$-частичных функций распределения, удовлетворяет обобщенному уравнению Лиувилля
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_92e9610c5e4ea89c35d9g-1.jpg?height=55&width=196&top_left_y=988&top_left_x=1239)
+
+где $\mathscr{L}-$ оператор Лиувилля. Решение этого уравнения выражается через П. $U(t)$ в виде
+
+\[
+\vec{f}(t)=U(t) \vec{f}(0) .
+\]
+
+При этом П. уравнения Лиувилля можно определить как решение уравнения
+
+\[
+\partial_{t} U(t)=\varphi U(t)
+\]
+
+с начальным условием $U(0)=\mathbb{1}$, где 1 - единичный оператор.
+
+Лит.: [1] Б а л е с к у Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 2, М., 1978.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1873_NAChAL'NYE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

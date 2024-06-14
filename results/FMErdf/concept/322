@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1290_KOLIChESTVO">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1290_KOLIChESTVO</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/322</core:url>
+    <lbm:descriptor><![CDATA[КОЛИЧЕСТВО ТЕПЛА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3272"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_389"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3273"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3274"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>величина, количественно характеризующая процесс <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST">теплообмена</a>. К. т. равно количеству <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI">энергии</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_294_BYSTRO-MEDLENNYE">переданной системе</a> без изменения ее внешних <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK">параметров</a>. К. т. зависит не только от начального и конечного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояний</a> системы, но и от процесса, к-рый система испытывает при переходе между ними. К. т. отлично от нуля только при наличии процесса <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST">теплоотдачи</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">Состоянию</a> системы не соответствует какое-либо значение К. т. Элементарное K. т.:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3272">$$\delta Q=C d T$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1290_1_KOLIChESTVO]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST">теплоемкость</a> системы, соответствующая опреде- ленному процессу <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST">теплоотдачи</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3273">$$d T-$$</a> бесконечно малое изменение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR">температуры</a> системы. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3274">$$\quad \begin{array}{ll}\text { в. Солдатов. }\end{array}$$</a><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[величина, количественно характеризующая процесс теплообмена. К. т. равно количеству энергии, переданной системе без изменения ее внешних параметров. К. т. зависит не только от начального и конечного состояний системы, но и от процесса, к-рый система испытывает при переходе между ними. К. т. отлично от нуля только при наличии процесса теплоотдачи. Состоянию системы не соответствует какое-либо значение К. т. Элементарное K. т.:
+
+\[
+\delta Q=C d T
+\]
+
+где $C$ - теплоемкость системы, соответствующая опреде- ленному процессу теплоотдачи, $d T-$ бесконечно малое изменение температуры системы. $\quad \begin{array}{ll}\text { в. Солдатов. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3038_TEMPERATUR"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2166_PARAMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_294_BYSTRO-MEDLENNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3530_ENERGI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3052_TEPLOEMKOST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

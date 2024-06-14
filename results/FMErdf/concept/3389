@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_822_DINAMIChESKAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_822_DINAMIChESKAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3389</core:url>
+    <lbm:descriptor><![CDATA[ДИНАМИЧЕСКАЯ БИФУРКАЦИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#25106"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#25107"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#25109"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#25110"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#25112"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_25113"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1144"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2826"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_383"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_547"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_218"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_25114"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6417"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_875"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>совокупность явлений, происходящих в системе с параметрами, когда параметры медленно изменяются со временем и проходят через бифуркационное значение. Если $URI[[http://libmeta.ru/fme/formula/aux/822_1_DINAMIChESKAJa]]/URI$ - вектор фазовых координат системы, а <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2826">$$\boldsymbol{y}$$</a> - вектор параметров, то дифференциальные уравнения, изучаемые в теории Д. б., могут быть записаны в виде быстро-медленной системы<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_25113">$$\dot{x}=f(x, y, \varepsilon), \dot{y}=\varepsilon g(x, y, \varepsilon), x \in \mathbb{R}^{m}, y \in \mathbb{R}^{n}, 0<\varepsilon \ll 1 .$$</a><BR/></P><P>Здесь $URI[[http://libmeta.ru/fme/formula/aux/822_3_DINAMIChESKAJa]]/URI$ характеризует скорость изменения параметров. Предполагается, что в пространстве медленных переменных (параметров) $URI[[http://libmeta.ru/fme/formula/aux/822_4_DINAMIChESKAJa]]/URI$ имеется поверхность $URI[[http://libmeta.ru/fme/formula/aux/822_5_DINAMIChESKAJa]]/URI$, соответствующая бифуркации в быстром уравнении (уравнении для $URI[[http://libmeta.ru/fme/formula/aux/822_6_DINAMIChESKAJa]]/URI$ при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_25114">$$y=\mathrm{const}, \varepsilon=0$$</a> ), и что $URI[[http://libmeta.ru/fme/formula/aux/822_8_DINAMIChESKAJa]]/URI$ - компонента решения полной системы попадает на эту поверхность. Результаты теории Д. б. в нек-рых случаях совершенно отличны от предсказанной «квазистатической» теории, согласно к-рой при медленном переходе через точку бифуркации, соответствующую смене устойчивости состояния (равновесия, цикла) быстрого уравнения, фазовая точка должна отслеживать асимптотически устойчивое состояние. Так, если система аналитична, то Д. б., при к-рой равновесие быстрой системы теряет устойчивость из-за перехода пары сопряженных собственных чисел через мнимую ось не в точке 0 , сопровождается следующими явлениями затягивания потери устойчивости. Фазовая точка, притянувшаяся к устойчивому равновесию за время $URI[[http://libmeta.ru/fme/formula/aux/822_9_DINAMIChESKAJa]]/URI$ до момента бифуркации, будет двигаться вблизи потерявшего устойчивость равновесия в течение времени порядка $URI[[http://libmeta.ru/fme/formula/aux/822_10_DINAMIChESKAJa]]/URI$, так что параметры $URI[[http://libmeta.ru/fme/formula/aux/822_11_DINAMIChESKAJa]]/URI$ успеют измениться на величину порядка 1. Лишь затем может произойти срыв с равновесия. Аналогичное затягивание сопровождает в аналитич. системах Д. б., при к-рой цикл быстрой системы теряет устойчивость, оставаясь невырожденным (пара мультипликаторов пересекает единичную окружность не в точке 1 или один мультипликатор в точке -1). Если система неаналитична (хотя, быть может, принадлежит классу <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_875">$$c^{\infty}$$</a> ), то явление затягивания, вообще говоря, отсутствует: срыв с потерявшего устойчивость равновесия или цикла может происходить (и, в общем случае, происходит) вблизи точки бифуркации.<BR/></P><P>Д. б., при к-рой сливаются и исчезают устойчивое и неустойчивое равновесия быстрой системы, играет центральную роль в теории <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2603_RELAKSATsIONNOE">релаксационных колебаний</a>. Здесь также при нек-рых условиях и уже при конечной гладкости существуют решения (так наз. «утки»), для к-рых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3237_FAZOVAJa">фазовая точка</a>, притянувшаяся к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_111_ASIMPTOTIChESKAJa">асимптотически устойчивому</a> равновесию, движется после слияния равновесий в течение времени порядка $URI[[http://libmeta.ru/fme/formula/aux/822_13_DINAMIChESKAJa]]/URI$ вблизи <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1952_NEUSTOJChIVOST">неустойчивого</a> равновесия <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_294_BYSTRO-MEDLENNYE">быстрой системы</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#25107">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#716">Арнольд В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2961">Афраймович В. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2963">Ильяшенко Ю. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#8083">Шильников Л. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#25107">Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, М., 1986, т. 5, с. 3-218</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#25109">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#25108">Миенко Е. Ф.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#6047">Розов Н. Х.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#25109">Дифференциальные уравнения с малым параметром и релаксационные колебания, М., 1975</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#25110">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#963">Нейштадт А. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#25110">«дифференциальные уравнения», 1987, т. 23, № 12, с. 2060-67; 1988, т. 24, № 2, с. 226-33</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#25112">[4]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#815">Benoit E.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#25111">Callot J.- L.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1574">Diener F.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2117">Diener M.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#25112">"collect. Math.», 1980, v. 31, № 1.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#25106">A. И. Нeŭumadm</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[совокупность явлений, происходящих в системе с параметрами, когда параметры медленно изменяются со временем и проходят через бифуркационное значение. Если $\boldsymbol{x}$ - вектор фазовых координат системы, а $\boldsymbol{y}$ - вектор параметров, то дифференциальные уравнения, изучаемые в теории Д. б., могут быть записаны в виде быстро-медленной системы
+
+\[
+\dot{x}=f(x, y, \varepsilon), \dot{y}=\varepsilon g(x, y, \varepsilon), x \in \mathbb{R}^{m}, y \in \mathbb{R}^{n}, 0<\varepsilon \ll 1 .
+\]
+
+Здесь $\varepsilon$ характеризует скорость изменения параметров. Предполагается, что в пространстве медленных переменных (параметров) $y$ имеется поверхность $\Sigma$, соответствующая бифуркации в быстром уравнении (уравнении для $x$ при $y=\mathrm{const}, \varepsilon=0$ ), и что $y$ - компонента решения полной системы попадает на эту поверхность. Результаты теории Д. б. в нек-рых случаях совершенно отличны от предсказанной «Квазистатической» теории, согласно к-рой при медленном переходе через точку бифуркации, соответствуюшую смене устойчивости состояния (равновесия, цикла) быстрого уравнения, фазовая точка должна отслеживать асимптотически устойчивое состояние. Так, если система аналитична, то Д. б., при к-рой равновесие быстрой системы теряет устойчивость из-за перехода пары сопряженных собственных чисел через мнимую ось не в точке 0 , сопровождается следующими явлениями затягивания потери устойчивости. Фазовая точка, притянувшаяся к устойчивому равновесию за время $1 / \varepsilon$ до момента бифуркации, будет двигаться вблизи потерявшего устойчивость равновесия в течение времени порядка $1 / \varepsilon$, так что параметры $y$ успеют измениться на величину порядка 1. Лишь затем может произойти срыв с равновесия. Аналогичное затягивание сопровождает в аналитич. системах Д. б., при к-рой цикл быстрой системы теряет устойчивость, оставаясь невырожденным (пара мультипликаторов пересекает единичную окружность не в точке 1 или один мультипликатор в точке -1). Если система неаналитична (хотя, быть может, принадлежит классу $C^{\infty}$ ), то явление затягивания, вообще говоря, отсутствует: срыв с потерявшего устойчивость равновесия или цикла может происходить (и, в общем случае, происходит) вблизи точки бифуркации.
+
+Д. б., при к-рой сливаются и исчезают устойчивое и неустойчивое равновесия быстрой системы, играет центральную роль в теории релаксационных колебаний. Здесь также при нек-рых условиях и уже при конечной гладкости существуют решения (так наз. «утки»), для к-рых фазовая точка, притянувшаяся к асимптотически устойчивому равновесию, движется после слияния равновесий в течение времени порядка $1 / \varepsilon$ вблизи неустойчивого равновесия быстрой системы.
+
+Лum.: [1] Арнольд В. И., Афраймович В. С., Ильяшен ко Ю. С., Ш и л ь н и ко в Л. П., Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 5, М., 1986, с. 3-218; [2] М и е н ко Е. Ф., Розо в Н.Х., Дифференциальные уравнения с малым параметром и релаксационные колебания, М., 1975; [3] Н е й ш т а д т А. И., «Дифференциальные уравнения», 1987, т. 23, № 12, с. 2060-67; 1988, т. 24, № 2, с. 226-33; [4] Benoit E., Callot J.-L., Diener F., Diener M., "Collect. Math.», 1980, v. 31, № 1. A. И. Нeŭumadm.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_294_BYSTRO-MEDLENNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1952_NEUSTOJChIVOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_111_ASIMPTOTIChESKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3237_FAZOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2603_RELAKSATsIONNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

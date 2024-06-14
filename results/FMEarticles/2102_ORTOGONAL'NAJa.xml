@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2102_ORTOGONAL'NAJa" alphabetic_pos="2104">
+  <title>ОРТОГОНАЛЬНАЯ СИСТЕМА ФУНКЦИЙ</title>
+  <authors/>
+  <pages>
+    <start>413</start>
+    <end>413</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Кол м о го р о в А. Н., Фо м и н С. В., Элементы теории функций и функционального анализа, 5 изд., М., 1981; [2] Р и х тм а й е р Р., Принципы современной математической физики, пер. с англ., т. 1, М., 1982.</literature_orig>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <author>Фомин С. В.</author>
+      <title>Элементы теории функций и функционального анализа</title>
+      <publication>5 изд., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рихтмайер Р.</author>
+      <title>Принципы современной математической физики</title>
+      <publication>пер. с англ., т. 1, М.</publication>
+      <year>1982</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2102_1_ORTOGONAL'NAJa">\int \varphi_{i}(x) \varphi_{j}^{*}(x) g(x) d x=\left\{\begin{array}{l}0 \text { при } i \neq j, \\\lambda_{i}&gt;0 \text { при } i=j .\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2102_2_ORTOGONAL'NAJa">\sum_{n} c_{n} \varphi_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2102_3_ORTOGONAL'NAJa">c_{n}=\lambda_{n}^{-1} \int f \varphi_{n}^{*} g(x) d x=\left(f, \varphi_{n}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2102_4_ORTOGONAL'NAJa">\sum_{k=1}^{\infty}\left|c_{k}\right|^{2} \lambda_{k} \leqslant\|f\|^{2}=(f, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2102_5_ORTOGONAL'NAJa">\sum_{k=1}^{\infty}\left|c_{k}\right|^{2} \lambda_{k}=\|f\|^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2102_6_ORTOGONAL'NAJa">\chi_{m}(x)=\left\{\begin{array}{l}2^{n / 2} \text { при } x \in\left(\frac{2 k-2}{2^{n+1}}, \frac{2 k-1}{2^{n+1}}\right), \\-2^{n / 2} \text { при } x \in\left(\frac{2 k-1}{2^{n+1}}, \frac{2 k}{2^{n+1}}\right), \\0 \text { в остальных точках отрезка, }\end{array}\right.</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_1_ORTOGONAL'NAJa">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_2_ORTOGONAL'NAJa">l^{2}(a, b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_3_ORTOGONAL'NAJa">g(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_4_ORTOGONAL'NAJa">\lambda_{i}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_5_ORTOGONAL'NAJa">f(x) \in L^{2}(a, b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_6_ORTOGONAL'NAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_7_ORTOGONAL'NAJa">\phi .\left\{\varphi_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_8_ORTOGONAL'NAJa">[-1,1], g(x)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_9_ORTOGONAL'NAJa">1 / 2, \cos \pi n x, \sin \pi n x, n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_10_ORTOGONAL'NAJa">\left\{\chi_{n}(x)\right\}_{n=1}^{\infty}, x \in[0,1]: \chi_{1}(x)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_11_ORTOGONAL'NAJa">m=2^{n}+k, 1 \leqslant k \leqslant 2^{n}, m=2,3, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_12_ORTOGONAL'NAJa">\hat{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2102_13_ORTOGONAL'NAJa">|\psi(x)|^{2}</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/2102_1_ORTOGONAL'NAJa">
+      <rel_text>состоянии</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2102_2_ORTOGONAL'NAJa">
+      <rel_text>состоянии</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2102_3_ORTOGONAL'NAJa">
+      <rel_text>частицу</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2102_4_ORTOGONAL'NAJa">
+      <rel_text>распределения вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2102_5_ORTOGONAL'NAJa">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2102_6_ORTOGONAL'NAJa">
+      <rel_text>механике</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2102_7_ORTOGONAL'NAJa">
+      <rel_text>ортогональны</rel_text>
+      <target>http://libmeta.ru/fme/article/2110_ORTOPROEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2102_8_ORTOGONAL'NAJa">
+      <rel_text>эрмитова оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/3553_ERMITOV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2102_9_ORTOGONAL'NAJa">
+      <rel_text>собственные значения операторов</rel_text>
+      <target>http://libmeta.ru/fme/article/2844_SOBSTVENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2102_10_ORTOGONAL'NAJa">
+      <rel_text>разложении функций</rel_text>
+      <target>http://libmeta.ru/fme/article/1793_MITTAG-LEFFLERA</target>
+    </relation>
+  </relations>
+  <text>Конечная или счетная система функций $URI[[http://libmeta.ru/fme/formula/aux/2102_1_ORTOGONAL'NAJa]]/URI$, принадлежащих (сепарабельному) гильбертову пространству $URI[[http://libmeta.ru/fme/formula/aux/2102_2_ORTOGONAL'NAJa]]/URI$ (квадратично интегрируемых функций) и удовлетворяющих условиям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2102_1_ORTOGONAL'NAJa]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/fme/formula/aux/2102_3_ORTOGONAL'NAJa]]/URI$ называется в е с о м О.с. ф., &quot;означает комплексное сопряжение. Если все $URI[[http://libmeta.ru/fme/formula/aux/2102_4_ORTOGONAL'NAJa]]/URI$, то О. с. ф. называется ортонорм и рованной. О.с. Ф. называется полной, если для любой функции $URI[[http://libmeta.ru/fme/formula/aux/2102_5_ORTOGONAL'NAJa]]/URI$ существует ряд Фурье
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2102_2_ORTOGONAL'NAJa]]/URI
+\]
+
+сходящийся к $URI[[http://libmeta.ru/fme/formula/aux/2102_6_ORTOGONAL'NAJa]]/URI$; такой ряд будет единственным, а его коэффициенты определяются формулами:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2102_3_ORTOGONAL'NAJa]]/URI
+\]
+
+Для всякого ряда Фурье, построенного по О.с. $URI[[http://libmeta.ru/fme/formula/aux/2102_7_ORTOGONAL'NAJa]]/URI$, выполняется не равенство Бесселя
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2102_4_ORTOGONAL'NAJa]]/URI
+\]
+
+а для полной О.с.ф. справедливо равенство Парсев ал я
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2102_5_ORTOGONAL'NAJa]]/URI
+\]
+
+Примеры полных О.с. ф.:
+
+1) тригонометрическая система функций на отрезке $URI[[http://libmeta.ru/fme/formula/aux/2102_8_ORTOGONAL'NAJa]]/URI$ :
+
+$URI[[http://libmeta.ru/fme/formula/aux/2102_9_ORTOGONAL'NAJa]]/URI$
+
+2) системы ортогональных многочленов;
+
+3) система Хаара $URI[[http://libmeta.ru/fme/formula/aux/2102_10_ORTOGONAL'NAJa]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2102_6_ORTOGONAL'NAJa]]/URI
+\]
+
+a $URI[[http://libmeta.ru/fme/formula/aux/2102_11_ORTOGONAL'NAJa]]/URI$.
+
+О.с. ф. используют в различных физич. задачах. Спектральный анализ в теории колебаний, акустике, радиофизике и оптике основан на URI[[http://libmeta.ru/fme/relation/2102_10_ORTOGONAL'NAJa]]/URI в ряды по тригонометрич. системе. В любых задачах на URI[[http://libmeta.ru/fme/relation/2102_9_ORTOGONAL'NAJa]]/URI также появляются О. с. Ф., так как для URI[[http://libmeta.ru/fme/relation/2102_8_ORTOGONAL'NAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2102_12_ORTOGONAL'NAJa]]/URI$ собственные функции, отвечающие различным собственным значениям, URI[[http://libmeta.ru/fme/relation/2102_7_ORTOGONAL'NAJa]]/URI между собой. В квантовой URI[[http://libmeta.ru/fme/relation/2102_6_ORTOGONAL'NAJa]]/URI, где квадрат модуля волновой функции $URI[[http://libmeta.ru/fme/formula/aux/2102_13_ORTOGONAL'NAJa]]/URI$ играет роль URI[[http://libmeta.ru/fme/relation/2102_5_ORTOGONAL'NAJa]]/URI URI[[http://libmeta.ru/fme/relation/2102_4_ORTOGONAL'NAJa]]/URI, свойство ортонормируемости отражает тот факт, что полная вероятность найти URI[[http://libmeta.ru/fme/relation/2102_3_ORTOGONAL'NAJa]]/URI в данном URI[[http://libmeta.ru/fme/relation/2102_2_ORTOGONAL'NAJa]]/URI равна 1 , если известно, что система находится в URI[[http://libmeta.ru/fme/relation/2102_1_ORTOGONAL'NAJa]]/URI с определенным квантовым числом.</text>
+  <text_orig>КОНечНая или счетная система функций $\left\{\varphi_{i}(x)\right\}$, принадлежащих (сепарабельному) гильбертову пространству $L^{2}(a, b)$ (квадратично интегрируемых функций) и удовлетворяющих условиям
+
+\[
+\int \varphi_{i}(x) \varphi_{j}^{*}(x) g(x) d x=\left\{\begin{array}{l}
+0 \text { при } i \neq j, \\
+\lambda_{i}&gt;0 \text { при } i=j .
+\end{array}\right.
+\]
+
+Функция $g(x)$ называется в е с о м О.с. ф., &quot;означает комплексное сопряжение. Если все $\lambda_{i}=1$, то О. с. ф. называется ортонорм и рованной. О.с. Ф. называется полной, если для любой функции $f(x) \in L^{2}(a, b)$ существует ряд Фурье
+
+\[
+\sum_{n} c_{n} \varphi_{n}(x)
+\]
+
+сходящийся к $f(x)$; такой ряд будет единственным, а его коэффициенты определяются формулами:
+
+\[
+c_{n}=\lambda_{n}^{-1} \int f \varphi_{n}^{*} g(x) d x=\left(f, \varphi_{n}\right) .
+\]
+
+Для всякого ряда Фурье, построенного по О.с. $\Phi .\left\{\varphi_{n}(x)\right\}$, выполняется не равенство Бесселя
+
+\[
+\sum_{k=1}^{\infty}\left|c_{k}\right|^{2} \lambda_{k} \leqslant\|f\|^{2}=(f, f)
+\]
+
+а для полной О.с.ф. справедливо равенство Парсев ал я
+
+\[
+\sum_{k=1}^{\infty}\left|c_{k}\right|^{2} \lambda_{k}=\|f\|^{2}
+\]
+
+Примеры полных О.с. ф.:
+
+1) тригонометрическая система функций на отрезке $[-1,1], g(x)=1$ :
+
+$1 / 2, \cos \pi n x, \sin \pi n x, n=1,2, \ldots$
+
+2) системы ортогональных многочленов;
+
+3) система Xаaра $\left\{\chi_{n}(x)\right\}_{n=1}^{\infty}, x \in[0,1]: \chi_{1}(x)=1$,
+
+\[
+\chi_{m}(x)=\left\{\begin{array}{l}
+2^{n / 2} \text { при } x \in\left(\frac{2 k-2}{2^{n+1}}, \frac{2 k-1}{2^{n+1}}\right), \\
+-2^{n / 2} \text { при } x \in\left(\frac{2 k-1}{2^{n+1}}, \frac{2 k}{2^{n+1}}\right), \\
+0 \text { в остальных точках отрезка, }
+\end{array}\right.
+\]
+
+a $m=2^{n}+k, 1 \leqslant k \leqslant 2^{n}, m=2,3, \ldots$.
+
+О.с. ф. используют в различных физич. задачах. Спектральный анализ в теории колебаний, акустике, радиофизике и оптике основан на разложении функций в ряды по тригонометрич. системе. В любых задачах на собственные значения операторов также появляются О. с. Ф., так как для эрмитова оператора $\hat{H}$ собственные функции, отвечающие различным собственным значениям, ортогональны между собой. В квантовой механике, где квадрат модуля волновой функции $|\psi(x)|^{2}$ играет роль плотности распределения вероятностей, свойство ортонормируемости отражает тот факт, что полная вероятность найти частицу в данном состоянии равна 1 , если известно, что система находится в состоянии с определенным квантовым числом.
+
+Лит.: [1] Кол м о го р о в А. Н., Фо м и н С. В., Элементы теории функций и функционального анализа, 5 изд., М., 1981; [2] Р и х тм а й е р Р., Принципы современной математической физики, пер. с англ., т. 1, М., 1982.</text_orig>
+</article>

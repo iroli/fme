@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3125_TROTTERA" alphabetic_pos="3127">
+  <title>ТРОТТЕРА ФОРМУЛА</title>
+  <authors>
+    <author>А. В. Булинский</author>
+  </authors>
+  <pages>
+    <start>609</start>
+    <end>609</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3125_1_TROTTERA">\exp (-t(\overline{A+B}))=s-\lim _{n \rightarrow \infty}(\exp (-t A / n) \exp (-t B / n))^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3125_2_TROTTERA">\exp (i t(\overline{A+B}))=s-\lim _{n \rightarrow \infty}(\exp (i t A / n) \exp (i t B / n))^{n}, t \in \mathbb{R} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_1_TROTTERA">a, B</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_2_TROTTERA">\overline{a+b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_3_TROTTERA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_4_TROTTERA">u(t), V(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_5_TROTTERA">w(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_6_TROTTERA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_7_TROTTERA">w(t) f=\lim _{n \rightarrow \infty}(U(t / n) V(t / n))^{n} f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_8_TROTTERA">f \in X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_9_TROTTERA">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_10_TROTTERA">\mathbb{r}_{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_11_TROTTERA">w(t) f=\lim _{n \rightarrow \infty}\left((I-t A / n)^{-1}(I-t B / n)^{-1}\right)^{n} f, f \in X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_12_TROTTERA">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_13_TROTTERA">b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_14_TROTTERA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_15_TROTTERA">a+b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_16_TROTTERA">t \in \mathbb{R}_{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3125_17_TROTTERA">a, B, \overline{A+B}</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/3125_1_TROTTERA">
+      <rel_text>Чернова формула</rel_text>
+      <target>http://libmeta.ru/fme/article/3426_ChERNOVA</target>
+    </relation>
+  </relations>
+  <text>формула (для) произведения однопараметрических полугрупп операторов. Пусть $URI[[http://libmeta.ru/fme/formula/aux/3125_1_TROTTERA]]/URI$ и замыкание суммы $URI[[http://libmeta.ru/fme/formula/aux/3125_2_TROTTERA]]/URI$ есть генераторы $URI[[http://libmeta.ru/fme/formula/aux/3125_3_TROTTERA]]/URI$-полугрупп сжатий $URI[[http://libmeta.ru/fme/formula/aux/3125_4_TROTTERA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3125_5_TROTTERA]]/URI$ в банаховом пространстве $URI[[http://libmeta.ru/fme/formula/aux/3125_6_TROTTERA]]/URI$. Тогда:
+
+1) $URI[[http://libmeta.ru/fme/formula/aux/3125_7_TROTTERA]]/URI$
+
+для всех $URI[[http://libmeta.ru/fme/formula/aux/3125_8_TROTTERA]]/URI$ равномерно по $URI[[http://libmeta.ru/fme/formula/aux/3125_9_TROTTERA]]/URI$ на конечных промежутках из $URI[[http://libmeta.ru/fme/formula/aux/3125_10_TROTTERA]]/URI$;
+
+2) $URI[[http://libmeta.ru/fme/formula/aux/3125_11_TROTTERA]]/URI$.
+
+Так, если $URI[[http://libmeta.ru/fme/formula/aux/3125_12_TROTTERA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3125_13_TROTTERA]]/URI$ - положительные самосопряженные операторы в гильбертовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/3125_14_TROTTERA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3125_15_TROTTERA]]/URI$ существенно самосопряжен, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3125_1_TROTTERA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3125_16_TROTTERA]]/URI$, и если $URI[[http://libmeta.ru/fme/formula/aux/3125_17_TROTTERA]]/URI$ самосопряжены, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3125_2_TROTTERA]]/URI
+\]
+
+С помощью Т. ф. 1) можно вывести Фейнмана - Каца формулу в квантовой механике.
+
+Т. ф. применена для определения обобщенной суммы неограниченных операторов.
+
+Т. ф. установлена Г. Троттером (н. Trotter, 1959), формулу обобщает URI[[http://libmeta.ru/fme/relation/3125_1_TROTTERA]]/URI, из к-рой следуют 1) и 2).</text>
+  <text_orig>формула (для) произведения однопараметрических полугрупп операторов. Пусть $A, B$ и замыкание суммы $\overline{A+B}$ есть генераторы $C_{0}$-полугрупп сжатий $U(t), V(t)$ и $W(t)$ в банаховом пространстве $X$. Тогда:
+
+1) $W(t) f=\lim _{n \rightarrow \infty}(U(t / n) V(t / n))^{n} f$
+
+для всее $f \in X$ равномерно по $t$ на конечных промежутках из $\mathbb{R}_{+}$;
+
+2) $W(t) f=\lim _{n \rightarrow \infty}\left((I-t A / n)^{-1}(I-t B / n)^{-1}\right)^{n} f, f \in X$.
+
+Так, если $A$ и $B$ - положительные самосопряженные операторы в гильбертовом пространстве $H$ и $A+B$ существенно самосопряжен, то
+
+\[
+\exp (-t(\overline{A+B}))=s-\lim _{n \rightarrow \infty}(\exp (-t A / n) \exp (-t B / n))^{n}
+\]
+
+$t \in \mathbb{R}_{+}$, и если $A, B, \overline{A+B}$ самосопряжены, то
+
+\[
+\exp (i t(\overline{A+B}))=s-\lim _{n \rightarrow \infty}(\exp (i t A / n) \exp (i t B / n))^{n}, t \in \mathbb{R} .
+\]
+
+С помощью Т. ф. 1) можно вывести Фейнмана - Каца формулу в квантовой механике.
+
+Т. ф. применена для определения обобщенной суммы неограниченных операторов.
+
+Т. ф. установлена Г. Троттером (Н. Trotter, 1959), формулу обобщает Чернова формула, из к-рой следуют 1) и 2).
+
+А. В. Булинский.</text_orig>
+</article>

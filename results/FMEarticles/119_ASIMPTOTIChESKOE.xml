@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/119_ASIMPTOTIChESKOE" alphabetic_pos="119">
+  <title>АСИМПТОТИЧЕСКОЕ РЕШЕНИЕ, ФОРМАЛЬНО АСИМПТОТИЧЕСКОЕ РЕШЕНИЕ, УРАВНЕНИЯ $\hat{P} u=f$, ГДЕ $\hat{P}: E \rightarrow F$</title>
+  <authors>
+    <author>Б. Ю. Стернин</author>
+    <author>В. Е. Шаталов</author>
+  </authors>
+  <pages>
+    <start>36</start>
+    <end>36</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/119_1_ASIMPTOTIChESKOE">u \sim \sum_{k=k_{0}}^{\infty} u_{k}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_1_ASIMPTOTIChESKOE">\left\{e_{k}\right\},\left\{f_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_2_ASIMPTOTIChESKOE">\hat{p} \boldsymbol{u}-f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_3_ASIMPTOTIChESKOE">\left\{f_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_4_ASIMPTOTIChESKOE">\hat{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_5_ASIMPTOTIChESKOE">p\left(e_{k}\right) \subset F_{k-s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_6_ASIMPTOTIChESKOE">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_7_ASIMPTOTIChESKOE">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_8_ASIMPTOTIChESKOE">\hat{p} u=f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_9_ASIMPTOTIChESKOE">\tilde{u}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_10_ASIMPTOTIChESKOE">u-\tilde{u}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/119_11_ASIMPTOTIChESKOE">\left\{e_{k}\right\}</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/119_1_ASIMPTOTIChESKOE">
+      <rel_text>Асимптотическое разложение</rel_text>
+      <target>http://libmeta.ru/fme/article/117_ASIMPTOTIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/119_2_ASIMPTOTIChESKOE">
+      <rel_text>асимптотически нулевой</rel_text>
+      <target>http://libmeta.ru/fme/article/112_ASIMPTOTIChESKI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/119_3_ASIMPTOTIChESKOE">
+      <rel_text>Оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/119_4_ASIMPTOTIChESKOE">
+      <rel_text>асимптотически нулевым</rel_text>
+      <target>http://libmeta.ru/fme/article/112_ASIMPTOTIChESKI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/119_5_ASIMPTOTIChESKOE">
+      <rel_text>асимптотическое разложение</rel_text>
+      <target>http://libmeta.ru/fme/article/117_ASIMPTOTIChESKOE</target>
+    </relation>
+  </relations>
+  <text>линейное отображение пространств, ассоциированное с фильтрациями $URI[[http://libmeta.ru/fme/formula/aux/119_1_ASIMPTOTIChESKOE]]/URI$ (см. URI[[http://libmeta.ru/fme/relation/119_1_ASIMPTOTIChESKOE]]/URI элемента),- такое URI[[http://libmeta.ru/fme/relation/119_5_ASIMPTOTIChESKOE]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/119_1_ASIMPTOTIChESKOE]]/URI
+\]
+
+что $URI[[http://libmeta.ru/fme/formula/aux/119_2_ASIMPTOTIChESKOE]]/URI$ является URI[[http://libmeta.ru/fme/relation/119_4_ASIMPTOTIChESKOE]]/URI в фильтрации $URI[[http://libmeta.ru/fme/formula/aux/119_3_ASIMPTOTIChESKOE]]/URI$. URI[[http://libmeta.ru/fme/relation/119_3_ASIMPTOTIChESKOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/119_4_ASIMPTOTIChESKOE]]/URI$ должен быть совместим с фильтрациями, то есть $URI[[http://libmeta.ru/fme/formula/aux/119_5_ASIMPTOTIChESKOE]]/URI$ для нек-рого $URI[[http://libmeta.ru/fme/formula/aux/119_6_ASIMPTOTIChESKOE]]/URI$. Следует отличать A. p. от асимптотики решения $URI[[http://libmeta.ru/fme/formula/aux/119_7_ASIMPTOTIChESKOE]]/URI$ уравнения $URI[[http://libmeta.ru/fme/formula/aux/119_8_ASIMPTOTIChESKOE]]/URI$, то есть от такого элемента $URI[[http://libmeta.ru/fme/formula/aux/119_9_ASIMPTOTIChESKOE]]/URI$, для к-рого элемент $URI[[http://libmeta.ru/fme/formula/aux/119_10_ASIMPTOTIChESKOE]]/URI$ URI[[http://libmeta.ru/fme/relation/119_2_ASIMPTOTIChESKOE]]/URI в фильтрации $URI[[http://libmeta.ru/fme/formula/aux/119_11_ASIMPTOTIChESKOE]]/URI$</text>
+  <text_orig>линейное отображение пространств, ассоциированное с фильтрациями $\left\{E_{k}\right\},\left\{F_{k}\right\}$ (см. Acимптотическое разложение элемента),- такое асимптотическое разложение
+
+\[
+u \sim \sum_{k=k_{0}}^{\infty} u_{k}
+\]
+
+что $\hat{P} \boldsymbol{u}-f$ является асимптотически нулевым в фильтрации $\left\{F_{k}\right\}$. Оператор $\hat{P}$ должен быть совместим с фильтрациями, то есть $P\left(E_{k}\right) \subset F_{k-s}$ для нек-рого $s$. Следует отличать A. p. от асимптотики решения $u$ уравнения $\hat{P} u=f$, то есть от такого элемента $\tilde{u}$, для к-рого элемент $u-\tilde{u}$ асимптотически нулевой в фильтрации $\left\{E_{k}\right\}$ Б. Ю. Стернин, В. Е. Шаталов.</text_orig>
+</article>

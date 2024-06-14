@@ -1,0 +1,846 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2737_SIMVOLIChESKAJa" alphabetic_pos="2739">
+  <title>СИМВОЛИЧЕСКАЯ ДИНАМИКА</title>
+  <authors/>
+  <pages>
+    <start>526</start>
+    <end>529</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] А нос о в Д. В., Геодезические потоки на замкнутых римановых многообразиях отрицательной кривизны, М., 1967 («труды Математич. ин-та Ан СССР», т. 90); [2] С ме йл С., «успехи математич. наук», 1970 , т. 25, в. 1, с. 113-85; [3] Ш и ль н и к о в Л. П., «математич. сб.», 1967, т. 74, № 3, с. 378-97; [4] С и н а й Я. Г., “функциональный анализ и его прилож.», 1968, т. 2, № 1, с. 70-80; [5] А л е к с е е в В. М., Символическая динамика, Одиннадцатая математическая школа, Киев, 1976; [6] Бо уэ н Р., Методы символической динамики, пер. с англ., М., 1979; [7] Б у ни мович Л. А., П е и и Я. Б., Синай Я. Г., Якобсон М. В., в кн.: Итоги науки и техники: Современные проблемы математики. Фундаментальные направления, т. 2, М., 1985, с. 113-231; [8] Гу р е в и ч Б. М., “доклады Ан СССР», 1970, т. 192, № 5, с. 963-65; [9] Milnorj., Thurston W., On iterated maps of the interval, $\begin{array}{ll}\text { Princeton, 1977. } &amp; \text { В. З. Гринес, М. И. Малкин. }\end{array}$</literature_orig>
+    <unit>
+      <author>Аносов Д. В.</author>
+      <title>Геодезические потоки на замкнутых римановых многообразиях отрицательной кривизны</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other>т. 90)</other>
+    </unit>
+    <unit>
+      <author>Смейл С.</author>
+      <title>«успехи математич. наук»</title>
+      <publication/>
+      <year>1970</year>
+      <other>т. 25, в. 1, с. 113-85</other>
+    </unit>
+    <unit>
+      <author>Шильников Л. П.</author>
+      <title>«математич. сб.»</title>
+      <publication/>
+      <year>1967</year>
+      <other>т. 74, № 3, с. 378-97</other>
+    </unit>
+    <unit>
+      <author>Синай Я. Г.</author>
+      <title>“функциональный анализ и его прилож.»</title>
+      <publication/>
+      <year>1968</year>
+      <other>т. 2, № 1, с. 70-80</other>
+    </unit>
+    <unit>
+      <author>Алексеев В. М.</author>
+      <title>Символическая динамика, Одиннадцатая математическая школа, Киев</title>
+      <publication/>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Боуэн Р.</author>
+      <title>Методы символической динамики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бунимович Л. А.</author>
+      <author>Пеии Я. Б.</author>
+      <author>Синай Я. Г.</author>
+      <author>Якобсон М. В.</author>
+      <title>в кн.: Итоги науки и техники: Современные проблемы математики. Фундаментальные направления</title>
+      <publication>М.</publication>
+      <year>1985</year>
+      <other>т. 2, с. 113-231</other>
+    </unit>
+    <unit>
+      <author>Гуревич Б. М.</author>
+      <title>“доклады Ан СССР»</title>
+      <publication/>
+      <year>1970</year>
+      <other>т. 192, № 5, с. 963-65</other>
+    </unit>
+    <unit>
+      <title>Milnorj., Thurston W., On iterated maps of the interval, $\begin{array}{ll}\text { Princeton</title>
+      <publication/>
+      <year>1977</year>
+      <other>М. И. Малкин. }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_1_SIMVOLIChESKAJa">\left[i_{0}, i_{1}, \ldots, i_{k}\right]_{p}=\left\{\omega=\left.\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \in \Omega_{N}\right|_{\omega_{p}=i_{0}, \ldots, \omega_{p+k}=i_{k}}\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_2_SIMVOLIChESKAJa">\rho\left(\omega, \omega^{\prime}\right)=\sum_{n=-\infty}^{+\infty} \frac{\left|\omega_{n}-\omega_{n}^{\prime}\right|}{2^{|n|}},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_3_SIMVOLIChESKAJa">\sigma^{+}: \Omega_{N}^{+} \rightarrow \Omega_{N}^{+}, \sigma^{+}(\omega)=\omega^{\prime},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_4_SIMVOLIChESKAJa">\pi\left(\left\{\omega_{n}\right\}_{-\infty}^{+\infty}\right)=\left\{\omega_{n}^{+}\right\}_{0}^{+\infty},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_5_SIMVOLIChESKAJa">\Sigma=\left\{\omega \in \Omega_{N} \mid \pi \sigma^{k}(\omega) \in \Sigma^{+} \text {для всех } k \in \mathbb{Z}\right\} \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_6_SIMVOLIChESKAJa">\varphi_{L}(x)=\left\{\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \mid f^{n}(x) \in U_{\omega_{n}}\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_7_SIMVOLIChESKAJa">\Omega_{L}^{+}=\left\{\omega=\left\{\omega_{n}\right\}_{0}^{+\infty} \mid f^{n}(x) \in U_{\omega_{n}}\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_8_SIMVOLIChESKAJa">\Sigma_{A}=\left\{\omega \in \Omega_{N} \mid a_{\omega_{n} \omega_{n+1}}=1 \text { для всех } n \in \mathbb{Z}\right\} \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_9_SIMVOLIChESKAJa">\Sigma_{A_{l}}=\left\{\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \in \Sigma_{A} \mid \omega_{n} \in L_{l}, n \in \mathbb{Z}\right\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_10_SIMVOLIChESKAJa">N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\sum_{i=1}^{m} N_{n}\left(\left.\sigma\right|_{\Sigma_{A_{i}}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_11_SIMVOLIChESKAJa">N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\left\{\begin{array}{cc}v \lambda^{n}(A)+\sum_{\left|\lambda_{k}\right|&lt;\lambda(A)} \lambda_{k}^{n}, &amp; \text { если } n=0(\bmod v), \\0, &amp; \text { если } n \neq 0(\bmod v),\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_12_SIMVOLIChESKAJa">\zeta(t)=\exp \left(\sum_{n=0}^{\infty} \frac{N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right) \cdot t^{n}}{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_13_SIMVOLIChESKAJa">\zeta(t)=1 / \operatorname{det}(E-t A)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_14_SIMVOLIChESKAJa">h\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\varlimsup_{n \rightarrow \infty} \frac{\ln N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)}{n}=\ln \lambda(A) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_15_SIMVOLIChESKAJa">h_{\mu_{*}}=\sup h_{\mu}\left(\left.\sigma\right|_{\Sigma_{A}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_16_SIMVOLIChESKAJa">h_{\mu *}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=h\left(\left.\sigma\right|_{\Sigma_{A}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_17_SIMVOLIChESKAJa">p_{i j}=\frac{a_{i j} \beta_{j}}{\lambda(A) \beta_{i}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_18_SIMVOLIChESKAJa">\mu_{*}(B)=\lim _{i \rightarrow \infty} \frac{N_{i v}(B)}{N_{i v}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_19_SIMVOLIChESKAJa">\left|f\left(x_{1}\right)-f\left(x_{2}\right)\right|&gt;q\left|x_{1}-x_{2}\right|, x_{1}, x_{2} \in U_{i}, q&gt;1 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2737_20_SIMVOLIChESKAJa">K^{+}\left(c_{i}\right)=\lim _{x \rightarrow c_{i}+0} K(x), K^{-}\left(c_{i}\right)=\lim _{x \rightarrow c_{i}-0} K(x)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_1_SIMVOLIChESKAJa">g=\{1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_2_SIMVOLIChESKAJa">2, \ldots, N\}, N \in \mathbb{Z}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_3_SIMVOLIChESKAJa">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_4_SIMVOLIChESKAJa">\omega_{n}=\left\{\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \mid \omega_{n} \in G\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_5_SIMVOLIChESKAJa">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_6_SIMVOLIChESKAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_7_SIMVOLIChESKAJa">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_8_SIMVOLIChESKAJa">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_9_SIMVOLIChESKAJa">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_10_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_11_SIMVOLIChESKAJa">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_12_SIMVOLIChESKAJa">\sigma(\omega)=\omega^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_13_SIMVOLIChESKAJa">\omega_{n}^{\prime}=\omega_{n+1}, n \in \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_14_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_15_SIMVOLIChESKAJa">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_16_SIMVOLIChESKAJa">\left(\omega_{n}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_17_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_18_SIMVOLIChESKAJa">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_19_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_20_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_21_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_22_SIMVOLIChESKAJa">(\sigma, \sigma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_23_SIMVOLIChESKAJa">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_24_SIMVOLIChESKAJa">\omega_{n}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_25_SIMVOLIChESKAJa">\omega=\left\{\omega_{n}\right\}_{0}^{+\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_26_SIMVOLIChESKAJa">\omega_{n}^{\prime}=\omega_{n+1}, n \in \mathbb{Z}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_27_SIMVOLIChESKAJa">\left(\sigma^{+}, \sigma^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_28_SIMVOLIChESKAJa">\sigma^{+}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_29_SIMVOLIChESKAJa">\sigma^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_30_SIMVOLIChESKAJa">\omega_{n}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_31_SIMVOLIChESKAJa">(\sigma, \sigma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_32_SIMVOLIChESKAJa">\pi-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_33_SIMVOLIChESKAJa">\omega \rightarrow \Omega^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_34_SIMVOLIChESKAJa">\omega_{n}^{+}=\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_35_SIMVOLIChESKAJa">n \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_36_SIMVOLIChESKAJa">(\sigma, \sigma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_37_SIMVOLIChESKAJa">\mathrm{c}\left(\sigma^{+}, \sigma^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_38_SIMVOLIChESKAJa">\pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_39_SIMVOLIChESKAJa">\pi \sigma=\sigma^{+} \pi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_40_SIMVOLIChESKAJa">\left(\sigma^{+}, \sigma^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_41_SIMVOLIChESKAJa">m-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_42_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_43_SIMVOLIChESKAJa">f: M \rightarrow M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_44_SIMVOLIChESKAJa">l=\left\{u_{1}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_45_SIMVOLIChESKAJa">\left.U_{2}, \ldots, U_{N}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_46_SIMVOLIChESKAJa">\varphi_{l}: M \rightarrow \Omega_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_47_SIMVOLIChESKAJa">x \in M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_48_SIMVOLIChESKAJa">\omega_{l}=\varphi_{l}(m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_49_SIMVOLIChESKAJa">\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_50_SIMVOLIChESKAJa">\omega_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_51_SIMVOLIChESKAJa">\bigcap_{n \in \mathbb{Z}} f^{-n}\left(U_{\omega_{n}}\right) \neq \varnothing</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_52_SIMVOLIChESKAJa">\varphi_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_53_SIMVOLIChESKAJa">\sigma \varphi_{L}=\varphi_{L} f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_54_SIMVOLIChESKAJa">\left\{f^{n}(x)\right\}_{-\infty}^{+\infty}, x \in M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_55_SIMVOLIChESKAJa">\varphi_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_56_SIMVOLIChESKAJa">\left\{\sigma^{n}\left(\varphi_{l}(x)\right)\right\}_{-\infty}^{+\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_57_SIMVOLIChESKAJa">\varphi_{l}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_58_SIMVOLIChESKAJa">\omega_{l} \sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_59_SIMVOLIChESKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_60_SIMVOLIChESKAJa">\varphi_{l}^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_61_SIMVOLIChESKAJa">\varphi_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_62_SIMVOLIChESKAJa">\left(\omega_{l}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_63_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_64_SIMVOLIChESKAJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_65_SIMVOLIChESKAJa">l=\left\{u_{1}, U_{2}, \ldots, U_{N}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_66_SIMVOLIChESKAJa">\omega \in \Omega_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_67_SIMVOLIChESKAJa">\bigcap_{n \in \mathbb{Z}} f^{-n}\left(U_{\omega_{n}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_68_SIMVOLIChESKAJa">\omega_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_69_SIMVOLIChESKAJa">\varphi_{l}^{-1}: \Omega_{L} \rightarrow M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_70_SIMVOLIChESKAJa">\varphi_{l}^{-1} \sigma=f \varphi_{L}^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_71_SIMVOLIChESKAJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_72_SIMVOLIChESKAJa">\varphi_{l}^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_73_SIMVOLIChESKAJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_74_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_75_SIMVOLIChESKAJa">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_76_SIMVOLIChESKAJa">x, y \in M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_77_SIMVOLIChESKAJa">(x \neq y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_78_SIMVOLIChESKAJa">n \in \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_79_SIMVOLIChESKAJa">d\left(f^{n}(x), f^{n}(y)\right)&gt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_80_SIMVOLIChESKAJa">d-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_81_SIMVOLIChESKAJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_82_SIMVOLIChESKAJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_83_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_84_SIMVOLIChESKAJa">\left(\omega_{l}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_85_SIMVOLIChESKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_86_SIMVOLIChESKAJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_87_SIMVOLIChESKAJa">x \in M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_88_SIMVOLIChESKAJa">\left\{f^{n}(x)\right\}_{-\infty}^{+\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_89_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_90_SIMVOLIChESKAJa">\varphi_{l}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_91_SIMVOLIChESKAJa">\left(\omega_{l}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_92_SIMVOLIChESKAJa">w^{s}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_93_SIMVOLIChESKAJa">w^{u}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_94_SIMVOLIChESKAJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_95_SIMVOLIChESKAJa">m-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_96_SIMVOLIChESKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_97_SIMVOLIChESKAJa">x, y \in W^{S}(x)\left(x, y \in W^{U}(x)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_98_SIMVOLIChESKAJa">\omega \in \varphi_{L}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_99_SIMVOLIChESKAJa">\omega^{\prime} \in \varphi_{L}(y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_100_SIMVOLIChESKAJa">n_{0} \in \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_101_SIMVOLIChESKAJa">\omega_{n}=\omega_{n}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_102_SIMVOLIChESKAJa">n&gt;n_{0}\left(n&lt;n_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_103_SIMVOLIChESKAJa">f: M \rightarrow M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_104_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_105_SIMVOLIChESKAJa">\left(\omega^{+}, \sigma^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_106_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_107_SIMVOLIChESKAJa">\omega_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_108_SIMVOLIChESKAJa">a=\left\|a_{i j}\right\|, a_{i j} \in\{0,1\}, i, j \in\{1, \ldots, N\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_109_SIMVOLIChESKAJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_110_SIMVOLIChESKAJa">\{1, \ldots, N\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_111_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_112_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_113_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_114_SIMVOLIChESKAJa">g_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_115_SIMVOLIChESKAJa">l_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_116_SIMVOLIChESKAJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_117_SIMVOLIChESKAJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_118_SIMVOLIChESKAJa">a_{i j}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_119_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_120_SIMVOLIChESKAJa">i&gt;j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_121_SIMVOLIChESKAJa">g_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_122_SIMVOLIChESKAJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_123_SIMVOLIChESKAJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_124_SIMVOLIChESKAJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_125_SIMVOLIChESKAJa">i&gt;j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_126_SIMVOLIChESKAJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_127_SIMVOLIChESKAJa">i, j \in L, i&gt;j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_128_SIMVOLIChESKAJa">j&gt;i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_129_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_130_SIMVOLIChESKAJa">i, j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_131_SIMVOLIChESKAJa">k&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_132_SIMVOLIChESKAJa">a_{i j}^{(k)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_133_SIMVOLIChESKAJa">a^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_134_SIMVOLIChESKAJa">n&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_135_SIMVOLIChESKAJa">i, j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_136_SIMVOLIChESKAJa">g_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_137_SIMVOLIChESKAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_138_SIMVOLIChESKAJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_139_SIMVOLIChESKAJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_140_SIMVOLIChESKAJa">a^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_141_SIMVOLIChESKAJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_142_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_143_SIMVOLIChESKAJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_144_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_145_SIMVOLIChESKAJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_146_SIMVOLIChESKAJa">\omega \in \Sigma_{A}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_147_SIMVOLIChESKAJa">\left\{\sigma^{n}(\omega)\right\}_{-\infty}^{+\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_148_SIMVOLIChESKAJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_149_SIMVOLIChESKAJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_150_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_151_SIMVOLIChESKAJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_152_SIMVOLIChESKAJa">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_153_SIMVOLIChESKAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_154_SIMVOLIChESKAJa">n_{*}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_155_SIMVOLIChESKAJa">f^{n}(u) \cap V \neq \varnothing</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_156_SIMVOLIChESKAJa">n&gt;n_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_157_SIMVOLIChESKAJa">l_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_158_SIMVOLIChESKAJa">l_{2}, \ldots, L_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_159_SIMVOLIChESKAJa">i_{l}, j_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_160_SIMVOLIChESKAJa">l_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_161_SIMVOLIChESKAJa">i_{l}&gt;j_{l}, j_{l}&gt;i_{l}, l=1,2, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_162_SIMVOLIChESKAJa">l_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_163_SIMVOLIChESKAJa">a_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_164_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_165_SIMVOLIChESKAJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_166_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_167_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_168_SIMVOLIChESKAJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_169_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_170_SIMVOLIChESKAJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_171_SIMVOLIChESKAJa">\omega_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_172_SIMVOLIChESKAJa">\omega_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_173_SIMVOLIChESKAJa">\left.\sigma\right|_{\Omega_{i}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_174_SIMVOLIChESKAJa">\left(\sigma_{a_{i}}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_175_SIMVOLIChESKAJa">a_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_176_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_177_SIMVOLIChESKAJa">l_{i}, i=1,2, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_178_SIMVOLIChESKAJa">n\left(\left.\sigma\right|_{\Sigma_{A}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_179_SIMVOLIChESKAJa">\sigma^{n}: \Sigma_{A} \rightarrow \Sigma_{A}, n \in \mathbb{Z}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_180_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_181_SIMVOLIChESKAJa">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_182_SIMVOLIChESKAJa">k_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_183_SIMVOLIChESKAJa">a_{j j}^{\left(k_{j}\right)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_184_SIMVOLIChESKAJa">a_{j j}^{\left(k_{j}\right)}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_185_SIMVOLIChESKAJa">a^{k_{j}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_186_SIMVOLIChESKAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_187_SIMVOLIChESKAJa">k_{j}, j \in G</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_188_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_189_SIMVOLIChESKAJa">\left.\left(\Sigma_{A}, \sigma\right)\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_190_SIMVOLIChESKAJa">\lambda(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_191_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_192_SIMVOLIChESKAJa">|t|&lt;1 / \lambda(A)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_193_SIMVOLIChESKAJa">h\left(\left.\sigma\right|_{\Sigma_{A}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_194_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_195_SIMVOLIChESKAJa">\mu_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_196_SIMVOLIChESKAJa">h_{\mu_{*}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_197_SIMVOLIChESKAJa">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_198_SIMVOLIChESKAJa">\mu_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_199_SIMVOLIChESKAJa">p_{i}=\alpha_{i} \beta_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_200_SIMVOLIChESKAJa">\left\{\beta_{i}\right\}_{1}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_201_SIMVOLIChESKAJa">\left\{\alpha_{i}\right\}_{1}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_202_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_203_SIMVOLIChESKAJa">\sum_{i=1}^{n} \alpha_{i} \beta_{i}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_204_SIMVOLIChESKAJa">\mu_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_205_SIMVOLIChESKAJa">b=\left[i_{0}, i_{1}, \ldots, i_{k}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_206_SIMVOLIChESKAJa">n_{i v}(B)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_207_SIMVOLIChESKAJa">\sigma^{i v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_208_SIMVOLIChESKAJa">b, v-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_209_SIMVOLIChESKAJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_210_SIMVOLIChESKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_211_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_212_SIMVOLIChESKAJa">(\omega, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_213_SIMVOLIChESKAJa">(\omega, f, \mu)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_214_SIMVOLIChESKAJa">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_215_SIMVOLIChESKAJa">\left.f\right|_{\Omega}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_216_SIMVOLIChESKAJa">\left(\sigma_{a}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_217_SIMVOLIChESKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_218_SIMVOLIChESKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_219_SIMVOLIChESKAJa">u_{1}, U_{2}, \ldots, U_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_220_SIMVOLIChESKAJa">u_{i} \cap</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_221_SIMVOLIChESKAJa">u_{j}=\varnothing, i \neq j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_222_SIMVOLIChESKAJa">\bigcup_{i=1}^{n} \partial U_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_223_SIMVOLIChESKAJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_224_SIMVOLIChESKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_225_SIMVOLIChESKAJa">(\omega, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_226_SIMVOLIChESKAJa">\left(\sigma_{a}, \sigma\right),\left.\sigma \varphi_{L}\right|_{\Omega}=\left.\varphi_{L} f\right|_{\Omega}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_227_SIMVOLIChESKAJa">\varphi_{l}^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_228_SIMVOLIChESKAJa">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_229_SIMVOLIChESKAJa">\mu_{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_230_SIMVOLIChESKAJa">\varphi_{l}^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_231_SIMVOLIChESKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_232_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_233_SIMVOLIChESKAJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_234_SIMVOLIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_235_SIMVOLIChESKAJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_236_SIMVOLIChESKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_237_SIMVOLIChESKAJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_238_SIMVOLIChESKAJa">i=[0,1]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_239_SIMVOLIChESKAJa">0=c_{0}&lt;c_{1}&lt;\ldots&lt;c_{n}=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_240_SIMVOLIChESKAJa">l=\left\{u_{1}, U_{2}, \ldots, U_{N}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_241_SIMVOLIChESKAJa">u_{i}=\left[c_{i-1}, c_{i}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_242_SIMVOLIChESKAJa">d=\bigcup_{i, n} f^{-n}\left(c_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_243_SIMVOLIChESKAJa">n \in \mathbb{Z}^{+}, i=1,2, \ldots, N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_244_SIMVOLIChESKAJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_245_SIMVOLIChESKAJa">u_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_246_SIMVOLIChESKAJa">i \backslash D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_247_SIMVOLIChESKAJa">\varphi_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_248_SIMVOLIChESKAJa">\omega_{l}^{+}=\overline{\varphi_{l}(i \backslash D)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_249_SIMVOLIChESKAJa">\left(\omega_{l}^{+}, \sigma^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_250_SIMVOLIChESKAJa">\varphi_{l}(i \backslash D)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_251_SIMVOLIChESKAJa">(i \backslash D, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_252_SIMVOLIChESKAJa">\left(\omega_{l}, \sigma\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_253_SIMVOLIChESKAJa">\left(\omega_{l}^{+}, \sigma^{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_254_SIMVOLIChESKAJa">\left(\omega_{l}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_255_SIMVOLIChESKAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_256_SIMVOLIChESKAJa">h(f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_257_SIMVOLIChESKAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_258_SIMVOLIChESKAJa">\hat{\omega}_{l} \subset \Omega_{L}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_259_SIMVOLIChESKAJa">\left(\hat{\omega}_{l}, \sigma\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_260_SIMVOLIChESKAJa">h=\omega_{l} \backslash \hat{\Omega}_{L}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_261_SIMVOLIChESKAJa">h\left(\left.\sigma\right|_{\hat{\Omega}_{L}}\right)=h(f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_262_SIMVOLIChESKAJa">\hat{g}=\{-N,-(N-1), \ldots,-1,+1, \ldots, N-1, N\} ; \varepsilon(x)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_263_SIMVOLIChESKAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_264_SIMVOLIChESKAJa">x \in I \backslash D ; \varepsilon_{n}(x)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_265_SIMVOLIChESKAJa">=\prod_{i=1}^{n-1} \varepsilon\left(f^{i}(x)\right), \varepsilon_{0}(x)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_266_SIMVOLIChESKAJa">x \in I \backslash D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_267_SIMVOLIChESKAJa">k(x)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_268_SIMVOLIChESKAJa">=\left\{k_{n}(x)\right\}_{0}^{+\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_269_SIMVOLIChESKAJa">\omega_{2}^{+} N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_270_SIMVOLIChESKAJa">k_{n}(x) \in \hat{G}, K_{n}(x)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_271_SIMVOLIChESKAJa">=\varepsilon_{n}(x) \omega_{n}(x), \omega=\left\{\omega_{n}\right\}_{0}^{+\infty}=\varphi_{L}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_272_SIMVOLIChESKAJa">\omega_{2 N}^{+}{ }^{\text {вво- }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_273_SIMVOLIChESKAJa">\left\{k_{n}\right\}_{0}^{+\infty}&lt;\left\{k_{n}^{\prime}\right\}_{0}^{+\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_274_SIMVOLIChESKAJa">i_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_275_SIMVOLIChESKAJa">k_{i_{0}}&lt;k_{i_{0}}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_276_SIMVOLIChESKAJa">k_{j}=k_{j}^{\prime}, j&lt;i_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_277_SIMVOLIChESKAJa">x_{1}&lt;x_{2}, x_{1}, x_{2} \in I \backslash D, K\left(x_{1}\right) \leqslant K\left(x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_278_SIMVOLIChESKAJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_279_SIMVOLIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_280_SIMVOLIChESKAJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_281_SIMVOLIChESKAJa">\left\{k^{+}\left(c_{i}\right), K^{-}\left(c_{i}\right)\right\}_{1}^{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_282_SIMVOLIChESKAJa">(m, f)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_283_SIMVOLIChESKAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2737_284_SIMVOLIChESKAJa">(\omega, f)</formula>
+  </formulas_aux>
+  <relations n="31">
+    <relation uri="http://libmeta.ru/fme/relation/2737_1_SIMVOLIChESKAJa">
+      <rel_text>траекторий</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_2_SIMVOLIChESKAJa">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_3_SIMVOLIChESKAJa">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_4_SIMVOLIChESKAJa">
+      <rel_text>инвариантных множеств</rel_text>
+      <target>http://libmeta.ru/fme/article/1004_INVARIANTNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_5_SIMVOLIChESKAJa">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_6_SIMVOLIChESKAJa">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_7_SIMVOLIChESKAJa">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_8_SIMVOLIChESKAJa">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_9_SIMVOLIChESKAJa">
+      <rel_text>траекторий</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_10_SIMVOLIChESKAJa">
+      <rel_text>числом состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/3432_ChISTOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_11_SIMVOLIChESKAJa">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_12_SIMVOLIChESKAJa">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_13_SIMVOLIChESKAJa">
+      <rel_text>энтропии</rel_text>
+      <target>http://libmeta.ru/fme/article/3540_ENTROPI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_14_SIMVOLIChESKAJa">
+      <rel_text>числом состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/3432_ChISTOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_15_SIMVOLIChESKAJa">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_16_SIMVOLIChESKAJa">
+      <rel_text>непрерывных отображений</rel_text>
+      <target>http://libmeta.ru/fme/article/1929_NEPRERYVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_17_SIMVOLIChESKAJa">
+      <rel_text>монотонных</rel_text>
+      <target>http://libmeta.ru/fme/article/1826_MONODROMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_18_SIMVOLIChESKAJa">
+      <rel_text>аттрактора</rel_text>
+      <target>http://libmeta.ru/fme/article/125_ATTRAKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_19_SIMVOLIChESKAJa">
+      <rel_text>траекториям</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_20_SIMVOLIChESKAJa">
+      <rel_text>последования</rel_text>
+      <target>http://libmeta.ru/fme/article/2334_POSLEDEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_21_SIMVOLIChESKAJa">
+      <rel_text>фазовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_22_SIMVOLIChESKAJa">
+      <rel_text>траекторий</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_23_SIMVOLIChESKAJa">
+      <rel_text>странный аттрактор</rel_text>
+      <target>http://libmeta.ru/fme/article/2973_STRANNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_24_SIMVOLIChESKAJa">
+      <rel_text>фазовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_25_SIMVOLIChESKAJa">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_26_SIMVOLIChESKAJa">
+      <rel_text>многообразий</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_27_SIMVOLIChESKAJa">
+      <rel_text>неустойчивых многообразиях</rel_text>
+      <target>http://libmeta.ru/fme/article/1950_NEUSTOJChIVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_28_SIMVOLIChESKAJa">
+      <rel_text>неустойчивых многообразий</rel_text>
+      <target>http://libmeta.ru/fme/article/1950_NEUSTOJChIVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_29_SIMVOLIChESKAJa">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_30_SIMVOLIChESKAJa">
+      <rel_text>полусопряжена</rel_text>
+      <target>http://libmeta.ru/fme/article/2306_POLUINVARIAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2737_31_SIMVOLIChESKAJa">
+      <rel_text>образующим покрытием</rel_text>
+      <target>http://libmeta.ru/fme/article/2031_OBRAZUJuSchEE</target>
+    </relation>
+  </relations>
+  <text>специальный раздел общей теории динамических систем. С начала 60-х гг. возникают многочисленные примеры динамич. систем, для адекватного описания к-рых классич. методы (теория устойчивости, асимптотич. ряды теории возмущений и т. п.) оказываются недостаточными. Одним из главных свойств этих систем является наличие сильного разбегания любых траекторий с близкими начальными точками из нек-рой области фазового пространства. Такое поведение траекторий было обнаружено еще в 20-х гг. Ж. Адамаром (j. Hadamard) и М. Морсом (m. Morse) в связи с изучением глобального поведения геодезических на поверхностях отрицательной кривизны. В их работах впервые было использовано кодирование траекторий последовательностями символов из нек-рого алфавита с целью установления различных типов траекторий в фазовом пространстве и их классификации. В частности, было доказано существование счетного множества замкнутых геодезических и существование рекуррентных незамкнутых геодезических. С.д. оформилась как раздел общей теории динамич. систем лишь спустя четыре десятилетия и оказалась адекватным и эффективным аппаратом исследования важного класса динамич. систем с гиперболич. структурой (см. [1]-[4]).
+
+Моделирование дискретной динамической системы символической динамической системой.
+
+Пусть задан конечный набор (алфавит) символов $URI[[http://libmeta.ru/fme/formula/aux/2737_1_SIMVOLIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2737_2_SIMVOLIChESKAJa]]/URI$, и пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_3_SIMVOLIChESKAJa]]/URI$ - пространство, состоящее из всевозможных бесконечных в обе стороны последовательностей $URI[[http://libmeta.ru/fme/formula/aux/2737_4_SIMVOLIChESKAJa]]/URI$. Пространство $URI[[http://libmeta.ru/fme/formula/aux/2737_5_SIMVOLIChESKAJa]]/URI$ как прямое произведение счетного множества экземпляров алфавита $URI[[http://libmeta.ru/fme/formula/aux/2737_6_SIMVOLIChESKAJa]]/URI$, снабженного дискретной топологией, наделяется топологией прямого произведения. Базу топологии в $URI[[http://libmeta.ru/fme/formula/aux/2737_7_SIMVOLIChESKAJa]]/URI$ определяют цилиндры, то есть множества вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_1_SIMVOLIChESKAJa]]/URI
+\]
+
+Метрика $URI[[http://libmeta.ru/fme/formula/aux/2737_8_SIMVOLIChESKAJa]]/URI$, определяемая
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_2_SIMVOLIChESKAJa]]/URI
+\]
+
+согласована с этой топологией и превращает $URI[[http://libmeta.ru/fme/formula/aux/2737_9_SIMVOLIChESKAJa]]/URI$ в компактное метрич. пространство. Задается отображение $URI[[http://libmeta.ru/fme/formula/aux/2737_10_SIMVOLIChESKAJa]]/URI$ пространства $URI[[http://libmeta.ru/fme/formula/aux/2737_11_SIMVOLIChESKAJa]]/URI$ на себя как $URI[[http://libmeta.ru/fme/formula/aux/2737_12_SIMVOLIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2737_13_SIMVOLIChESKAJa]]/URI$. Отображение $URI[[http://libmeta.ru/fme/formula/aux/2737_14_SIMVOLIChESKAJa]]/URI$ является гомеоморфизмом пространства $URI[[http://libmeta.ru/fme/formula/aux/2737_15_SIMVOLIChESKAJa]]/URI$ и называется отображением сдвига (влево). Оно порождает дискретную динамическую систему (к а с к а д) $URI[[http://libmeta.ru/fme/formula/aux/2737_16_SIMVOLIChESKAJa]]/URI$. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_17_SIMVOLIChESKAJa]]/URI$ - инвариантное множество в $URI[[http://libmeta.ru/fme/formula/aux/2737_18_SIMVOLIChESKAJa]]/URI$ относительно сдвига $URI[[http://libmeta.ru/fme/formula/aux/2737_19_SIMVOLIChESKAJa]]/URI$. Ограничение $URI[[http://libmeta.ru/fme/formula/aux/2737_20_SIMVOLIChESKAJa]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/2737_21_SIMVOLIChESKAJa]]/URI$ называется символической динамической системой $URI[[http://libmeta.ru/fme/formula/aux/2737_22_SIMVOLIChESKAJa]]/URI$. Наряду с пространством $URI[[http://libmeta.ru/fme/formula/aux/2737_23_SIMVOLIChESKAJa]]/URI$ рассматривают пространство $URI[[http://libmeta.ru/fme/formula/aux/2737_24_SIMVOLIChESKAJa]]/URI$бесконечных в одну сторону последовательностей $URI[[http://libmeta.ru/fme/formula/aux/2737_25_SIMVOLIChESKAJa]]/URI$ с отображением сдвига
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_3_SIMVOLIChESKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2737_26_SIMVOLIChESKAJa]]/URI$. От системы $URI[[http://libmeta.ru/fme/formula/aux/2737_27_SIMVOLIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2737_28_SIMVOLIChESKAJa]]/URI$инвариантное относительно $URI[[http://libmeta.ru/fme/formula/aux/2737_29_SIMVOLIChESKAJa]]/URI$множество в $URI[[http://libmeta.ru/fme/formula/aux/2737_30_SIMVOLIChESKAJa]]/URI$, с помощью конструкции проективного предела можно перейти к символич. динамич. системе $URI[[http://libmeta.ru/fme/formula/aux/2737_31_SIMVOLIChESKAJa]]/URI$ : пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_32_SIMVOLIChESKAJa]]/URI$ проекция $URI[[http://libmeta.ru/fme/formula/aux/2737_33_SIMVOLIChESKAJa]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_4_SIMVOLIChESKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2737_34_SIMVOLIChESKAJa]]/URI$ для $URI[[http://libmeta.ru/fme/formula/aux/2737_35_SIMVOLIChESKAJa]]/URI$, тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_5_SIMVOLIChESKAJa]]/URI
+\]
+
+Система $URI[[http://libmeta.ru/fme/formula/aux/2737_36_SIMVOLIChESKAJa]]/URI$ полусопряжена $URI[[http://libmeta.ru/fme/formula/aux/2737_37_SIMVOLIChESKAJa]]/URI$с помощью проекции $URI[[http://libmeta.ru/fme/formula/aux/2737_38_SIMVOLIChESKAJa]]/URI$, то есть $URI[[http://libmeta.ru/fme/formula/aux/2737_39_SIMVOLIChESKAJa]]/URI$. Она наследует все основные динамич. свойства системы $URI[[http://libmeta.ru/fme/formula/aux/2737_40_SIMVOLIChESKAJa]]/URI$и называется ее е с т е ственным расширением.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_41_SIMVOLIChESKAJa]]/URI$ топологич. пространство, на к-ром задана дискретная динамич. система $URI[[http://libmeta.ru/fme/formula/aux/2737_42_SIMVOLIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2737_43_SIMVOLIChESKAJa]]/URI$ - гомеоморфизм. Произвольному конечному покрытию $URI[[http://libmeta.ru/fme/formula/aux/2737_44_SIMVOLIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2737_45_SIMVOLIChESKAJa]]/URI$ ставится в соответствие, вообще говоря, многозначное отображение $URI[[http://libmeta.ru/fme/formula/aux/2737_46_SIMVOLIChESKAJa]]/URI$, сопоставляющее каждой точке $URI[[http://libmeta.ru/fme/formula/aux/2737_47_SIMVOLIChESKAJa]]/URI$ множество
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_6_SIMVOLIChESKAJa]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_48_SIMVOLIChESKAJa]]/URI$, тогда элемент $URI[[http://libmeta.ru/fme/formula/aux/2737_49_SIMVOLIChESKAJa]]/URI$ принадлежит $URI[[http://libmeta.ru/fme/formula/aux/2737_50_SIMVOLIChESKAJa]]/URI$ тогда и только тогда, когда $URI[[http://libmeta.ru/fme/formula/aux/2737_51_SIMVOLIChESKAJa]]/URI$. Отображение $URI[[http://libmeta.ru/fme/formula/aux/2737_52_SIMVOLIChESKAJa]]/URI$ обладает свойством $URI[[http://libmeta.ru/fme/formula/aux/2737_53_SIMVOLIChESKAJa]]/URI$, к-рое означает, что траектории $URI[[http://libmeta.ru/fme/formula/aux/2737_54_SIMVOLIChESKAJa]]/URI$, переходят под действием $URI[[http://libmeta.ru/fme/formula/aux/2737_55_SIMVOLIChESKAJa]]/URI$ в траектории $URI[[http://libmeta.ru/fme/formula/aux/2737_56_SIMVOLIChESKAJa]]/URI$ множества $URI[[http://libmeta.ru/fme/formula/aux/2737_57_SIMVOLIChESKAJa]]/URI$; в частности, множество $URI[[http://libmeta.ru/fme/formula/aux/2737_58_SIMVOLIChESKAJa]]/URI$-инвариантно. В наиболее интересных случаях покрытие $URI[[http://libmeta.ru/fme/formula/aux/2737_59_SIMVOLIChESKAJa]]/URI$ может быть выбрано таким образом, что отображение $URI[[http://libmeta.ru/fme/formula/aux/2737_60_SIMVOLIChESKAJa]]/URI$, обратное к $URI[[http://libmeta.ru/fme/formula/aux/2737_61_SIMVOLIChESKAJa]]/URI$, является однозначным и непрерывным, то есть символич. динамич. система $URI[[http://libmeta.ru/fme/formula/aux/2737_62_SIMVOLIChESKAJa]]/URI$ полусопряжена с системой $URI[[http://libmeta.ru/fme/formula/aux/2737_63_SIMVOLIChESKAJa]]/URI$ и дает большую информацию о ней. Наиболее значительным в этом направлении является следующий результат.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_64_SIMVOLIChESKAJa]]/URI$ компактно и $URI[[http://libmeta.ru/fme/formula/aux/2737_65_SIMVOLIChESKAJa]]/URI$ покрытие замкнутыми множествами такое, что для каждого элемента $URI[[http://libmeta.ru/fme/formula/aux/2737_66_SIMVOLIChESKAJa]]/URI$ пересечение $URI[[http://libmeta.ru/fme/formula/aux/2737_67_SIMVOLIChESKAJa]]/URI$ состоит не более чем из одной точки. Тогда $URI[[http://libmeta.ru/fme/formula/aux/2737_68_SIMVOLIChESKAJa]]/URI$ компактно, отображение $URI[[http://libmeta.ru/fme/formula/aux/2737_69_SIMVOLIChESKAJa]]/URI$ однозначно, непрерывно и $URI[[http://libmeta.ru/fme/formula/aux/2737_70_SIMVOLIChESKAJa]]/URI$. Более того, если $URI[[http://libmeta.ru/fme/formula/aux/2737_71_SIMVOLIChESKAJa]]/URI$ нульмерно, то $URI[[http://libmeta.ru/fme/formula/aux/2737_72_SIMVOLIChESKAJa]]/URI$ является гомеоморфизмом.
+
+Покрытие с указанным выше свойством называется о бра з у ю и м. Для метрич. пространства $URI[[http://libmeta.ru/fme/formula/aux/2737_73_SIMVOLIChESKAJa]]/URI$ существование образующего покрытия присуще тем и только тем динамич. системам, для к-рых выполняется условие разделен и я т р а е к о р и й (экс па нс и в ность). Говорят, что динамич. система $URI[[http://libmeta.ru/fme/formula/aux/2737_74_SIMVOLIChESKAJa]]/URI$ обладает свойством разделения траекторий, если существует $URI[[http://libmeta.ru/fme/formula/aux/2737_75_SIMVOLIChESKAJa]]/URI$ такое, что для любых $URI[[http://libmeta.ru/fme/formula/aux/2737_76_SIMVOLIChESKAJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2737_77_SIMVOLIChESKAJa]]/URI$ найдется $URI[[http://libmeta.ru/fme/formula/aux/2737_78_SIMVOLIChESKAJa]]/URI$ такое, что $URI[[http://libmeta.ru/fme/formula/aux/2737_79_SIMVOLIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2737_80_SIMVOLIChESKAJa]]/URI$ метрика в $URI[[http://libmeta.ru/fme/formula/aux/2737_81_SIMVOLIChESKAJa]]/URI$. Число $URI[[http://libmeta.ru/fme/formula/aux/2737_82_SIMVOLIChESKAJa]]/URI$ называется константой эксп а н с и в н о с т и. Упомянутую связь между динамикой систем $URI[[http://libmeta.ru/fme/formula/aux/2737_83_SIMVOLIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2737_84_SIMVOLIChESKAJa]]/URI$ отражает следующий результат.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_85_SIMVOLIChESKAJa]]/URI$ - образующее покрытие компакта $URI[[http://libmeta.ru/fme/formula/aux/2737_86_SIMVOLIChESKAJa]]/URI$, для $URI[[http://libmeta.ru/fme/formula/aux/2737_87_SIMVOLIChESKAJa]]/URI$ траектория $URI[[http://libmeta.ru/fme/formula/aux/2737_88_SIMVOLIChESKAJa]]/URI$ является неблуждающей, периодической, незамкнутой, устойчивой по Пуассону или рекуррентной траекторией системы $URI[[http://libmeta.ru/fme/formula/aux/2737_89_SIMVOLIChESKAJa]]/URI$ тогда и только тогда, когда в множестве $URI[[http://libmeta.ru/fme/formula/aux/2737_90_SIMVOLIChESKAJa]]/URI$ существует траектория символич. динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/2737_91_SIMVOLIChESKAJa]]/URI$ с соответствующими свойствами.
+
+В теории динамич. систем одним из основополагающих понятий является понятие устойчивого $URI[[http://libmeta.ru/fme/formula/aux/2737_92_SIMVOLIChESKAJa]]/URI$ и неустойчивого $URI[[http://libmeta.ru/fme/formula/aux/2737_93_SIMVOLIChESKAJa]]/URI$ многообразий точки $URI[[http://libmeta.ru/fme/formula/aux/2737_94_SIMVOLIChESKAJa]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/2737_95_SIMVOLIChESKAJa]]/URI$ компакт и $URI[[http://libmeta.ru/fme/formula/aux/2737_96_SIMVOLIChESKAJa]]/URI$ - образующее покрытие, то $URI[[http://libmeta.ru/fme/formula/aux/2737_97_SIMVOLIChESKAJa]]/URI$ тогда и только тогда, когда существуют элементы $URI[[http://libmeta.ru/fme/formula/aux/2737_98_SIMVOLIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2737_99_SIMVOLIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2737_100_SIMVOLIChESKAJa]]/URI$ такие, что $URI[[http://libmeta.ru/fme/formula/aux/2737_101_SIMVOLIChESKAJa]]/URI$ для всех $URI[[http://libmeta.ru/fme/formula/aux/2737_102_SIMVOLIChESKAJa]]/URI$.
+
+Наконец отметим, что если отображение $URI[[http://libmeta.ru/fme/formula/aux/2737_103_SIMVOLIChESKAJa]]/URI$ не является взаимно однозначным, то соответствующая символич. модель для $URI[[http://libmeta.ru/fme/formula/aux/2737_104_SIMVOLIChESKAJa]]/URI$ есть система $URI[[http://libmeta.ru/fme/formula/aux/2737_105_SIMVOLIChESKAJa]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_7_SIMVOLIChESKAJa]]/URI
+\]
+
+Топологические марковские цепи (см. [5]-[8]).
+
+Чтобы получить наибольшую информацию о свойствах динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/2737_106_SIMVOLIChESKAJa]]/URI$, необходимо иметь конструктивное описание множества $URI[[http://libmeta.ru/fme/formula/aux/2737_107_SIMVOLIChESKAJa]]/URI$. В общем случае даже при наличии образующего покрытия это сделать не удается. Однако существует ряд важных ситуаций, когда множество описывается весьма просто с помощью матрицы из нулей и единиц. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_108_SIMVOLIChESKAJa]]/URI$. Положим
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_8_SIMVOLIChESKAJa]]/URI
+\]
+
+Символич. динамич. система $URI[[http://libmeta.ru/fme/formula/aux/2737_109_SIMVOLIChESKAJa]]/URI$ называется т о п о л огической марковской це пью, а элементы множества $URI[[http://libmeta.ru/fme/formula/aux/2737_110_SIMVOLIChESKAJa]]/URI$ называются с остоян ия м и этой цепи. Естественно предполагается, что каждая строка и каждый столбец матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_111_SIMVOLIChESKAJa]]/URI$ содержат хотя бы один ненулевой элемент. В частном случае, когда матрица $URI[[http://libmeta.ru/fme/formula/aux/2737_112_SIMVOLIChESKAJa]]/URI$ состоит целиком из единиц, топологич. марковскую цепь называют с хе м о й Б е р н у л л и. Наряду с матрицей $URI[[http://libmeta.ru/fme/formula/aux/2737_113_SIMVOLIChESKAJa]]/URI$ для задания цепи используют ориентированный граф $URI[[http://libmeta.ru/fme/formula/aux/2737_114_SIMVOLIChESKAJa]]/URI$, вершины к-рого соответствуют состояниям топологич. марковской цепи, а ребра $URI[[http://libmeta.ru/fme/formula/aux/2737_115_SIMVOLIChESKAJa]]/URI$ - переходам из состояния $URI[[http://libmeta.ru/fme/formula/aux/2737_116_SIMVOLIChESKAJa]]/URI$ в состояние $URI[[http://libmeta.ru/fme/formula/aux/2737_117_SIMVOLIChESKAJa]]/URI$ в том и только том случае, когда $URI[[http://libmeta.ru/fme/formula/aux/2737_118_SIMVOLIChESKAJa]]/URI$. Матрица $URI[[http://libmeta.ru/fme/formula/aux/2737_119_SIMVOLIChESKAJa]]/URI$ индуцирует на множестве состояний транзитивное отношение квазипорядка: $URI[[http://libmeta.ru/fme/formula/aux/2737_120_SIMVOLIChESKAJa]]/URI$ тогда и только тогда, когда на графе $URI[[http://libmeta.ru/fme/formula/aux/2737_121_SIMVOLIChESKAJa]]/URI$ имеется ориентированный путь из состояния $URI[[http://libmeta.ru/fme/formula/aux/2737_122_SIMVOLIChESKAJa]]/URI$ в состояние $URI[[http://libmeta.ru/fme/formula/aux/2737_123_SIMVOLIChESKAJa]]/URI$. Состояние $URI[[http://libmeta.ru/fme/formula/aux/2737_124_SIMVOLIChESKAJa]]/URI$ называется воз вратным, если $URI[[http://libmeta.ru/fme/formula/aux/2737_125_SIMVOLIChESKAJa]]/URI$. Топологич. марковская цепь $URI[[http://libmeta.ru/fme/formula/aux/2737_126_SIMVOLIChESKAJa]]/URI$ называется н е р а з ло ж и м о й, если все ее состояния возвратны и для любых $URI[[http://libmeta.ru/fme/formula/aux/2737_127_SIMVOLIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2737_128_SIMVOLIChESKAJa]]/URI$. Неразложимость матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_129_SIMVOLIChESKAJa]]/URI$ эквивалентна условию: для любых $URI[[http://libmeta.ru/fme/formula/aux/2737_130_SIMVOLIChESKAJa]]/URI$ существует $URI[[http://libmeta.ru/fme/formula/aux/2737_131_SIMVOLIChESKAJa]]/URI$ такое, что элемент $URI[[http://libmeta.ru/fme/formula/aux/2737_132_SIMVOLIChESKAJa]]/URI$ матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_133_SIMVOLIChESKAJa]]/URI$ положителен. Топологич. марковская цепь называется п р и м и т и в н о й, если существует $URI[[http://libmeta.ru/fme/formula/aux/2737_134_SIMVOLIChESKAJa]]/URI$ такое, что для любых $URI[[http://libmeta.ru/fme/formula/aux/2737_135_SIMVOLIChESKAJa]]/URI$ существует путь в $URI[[http://libmeta.ru/fme/formula/aux/2737_136_SIMVOLIChESKAJa]]/URI$, состоящий из $URI[[http://libmeta.ru/fme/formula/aux/2737_137_SIMVOLIChESKAJa]]/URI$ ребер, соединяющий $URI[[http://libmeta.ru/fme/formula/aux/2737_138_SIMVOLIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2737_139_SIMVOLIChESKAJa]]/URI$ (это эквивалентно тому, что все элементы матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_140_SIMVOLIChESKAJa]]/URI$ положительны). Если топологич. марковская цепь $URI[[http://libmeta.ru/fme/formula/aux/2737_141_SIMVOLIChESKAJa]]/URI$ неразложима, то периодич. точки гомеоморфизма $URI[[http://libmeta.ru/fme/formula/aux/2737_142_SIMVOLIChESKAJa]]/URI$ плотны в $URI[[http://libmeta.ru/fme/formula/aux/2737_143_SIMVOLIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2737_144_SIMVOLIChESKAJa]]/URI$ является т о по л о г и ч е с к и т р а н з и т и в н ы м на $URI[[http://libmeta.ru/fme/formula/aux/2737_145_SIMVOLIChESKAJa]]/URI$, то есть существует элемент $URI[[http://libmeta.ru/fme/formula/aux/2737_146_SIMVOLIChESKAJa]]/URI$ такой, что траектория $URI[[http://libmeta.ru/fme/formula/aux/2737_147_SIMVOLIChESKAJa]]/URI$ плотна в $URI[[http://libmeta.ru/fme/formula/aux/2737_148_SIMVOLIChESKAJa]]/URI$. Если же цепь $URI[[http://libmeta.ru/fme/formula/aux/2737_149_SIMVOLIChESKAJa]]/URI$ примитивна, то $URI[[http://libmeta.ru/fme/formula/aux/2737_150_SIMVOLIChESKAJa]]/URI$ топологически переме ш и в а е т, то есть для любых открытых в $URI[[http://libmeta.ru/fme/formula/aux/2737_151_SIMVOLIChESKAJa]]/URI$ множеств $URI[[http://libmeta.ru/fme/formula/aux/2737_152_SIMVOLIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2737_153_SIMVOLIChESKAJa]]/URI$ найдется $URI[[http://libmeta.ru/fme/formula/aux/2737_154_SIMVOLIChESKAJa]]/URI$ такое, что $URI[[http://libmeta.ru/fme/formula/aux/2737_155_SIMVOLIChESKAJa]]/URI$ для всех $URI[[http://libmeta.ru/fme/formula/aux/2737_156_SIMVOLIChESKAJa]]/URI$.
+
+Множество всех возвратных состояний топологич. марковской цепи разбивается на непересекающиеся классы $URI[[http://libmeta.ru/fme/formula/aux/2737_157_SIMVOLIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2737_158_SIMVOLIChESKAJa]]/URI$ таким образом, что если состояния $URI[[http://libmeta.ru/fme/formula/aux/2737_159_SIMVOLIChESKAJa]]/URI$ лежат в $URI[[http://libmeta.ru/fme/formula/aux/2737_160_SIMVOLIChESKAJa]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2737_161_SIMVOLIChESKAJa]]/URI$. Классу $URI[[http://libmeta.ru/fme/formula/aux/2737_162_SIMVOLIChESKAJa]]/URI$ соответствует подматрица $URI[[http://libmeta.ru/fme/formula/aux/2737_163_SIMVOLIChESKAJa]]/URI$ матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_164_SIMVOLIChESKAJa]]/URI$, определяющая в пространстве $URI[[http://libmeta.ru/fme/formula/aux/2737_165_SIMVOLIChESKAJa]]/URI$ инвариантное относительно $URI[[http://libmeta.ru/fme/formula/aux/2737_166_SIMVOLIChESKAJa]]/URI$ подмножество
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_9_SIMVOLIChESKAJa]]/URI
+\]
+
+Следующий результат является аналогом теоремы о спектральном разложении неблуждающего множества динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/2737_167_SIMVOLIChESKAJa]]/URI$, где диффеоморфизм $URI[[http://libmeta.ru/fme/formula/aux/2737_168_SIMVOLIChESKAJa]]/URI$ удовлетворяет аксиоме $URI[[http://libmeta.ru/fme/formula/aux/2737_169_SIMVOLIChESKAJa]]/URI$ Смейла (см. [2]).
+
+Неблуждающее множество символич. динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/2737_170_SIMVOLIChESKAJa]]/URI$ представляется в виде объединения попарно непересекающихся замкнутых инвариантных подмножеств $URI[[http://libmeta.ru/fme/formula/aux/2737_171_SIMVOLIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2737_172_SIMVOLIChESKAJa]]/URI$ таких, что ограничение $URI[[http://libmeta.ru/fme/formula/aux/2737_173_SIMVOLIChESKAJa]]/URI$ есть топологич. марковская цепь $URI[[http://libmeta.ru/fme/formula/aux/2737_174_SIMVOLIChESKAJa]]/URI$, соответствующая неразложимой подматрице $URI[[http://libmeta.ru/fme/formula/aux/2737_175_SIMVOLIChESKAJa]]/URI$ матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_176_SIMVOLIChESKAJa]]/URI$ для класса состояний $URI[[http://libmeta.ru/fme/formula/aux/2737_177_SIMVOLIChESKAJa]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_178_SIMVOLIChESKAJa]]/URI$ - число неподвижных точек отображения $URI[[http://libmeta.ru/fme/formula/aux/2737_179_SIMVOLIChESKAJa]]/URI$. Так как
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_10_SIMVOLIChESKAJa]]/URI
+\]
+
+то далее, не уменьшая общности, предполагается, что матрица $URI[[http://libmeta.ru/fme/formula/aux/2737_180_SIMVOLIChESKAJa]]/URI$ неразложима. Для каждого $URI[[http://libmeta.ru/fme/formula/aux/2737_181_SIMVOLIChESKAJa]]/URI$ через $URI[[http://libmeta.ru/fme/formula/aux/2737_182_SIMVOLIChESKAJa]]/URI$ обозначается такое число, что $URI[[http://libmeta.ru/fme/formula/aux/2737_183_SIMVOLIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2737_184_SIMVOLIChESKAJa]]/URI$ элемент матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_185_SIMVOLIChESKAJa]]/URI$; пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_186_SIMVOLIChESKAJa]]/URI$ - наибольший общий делитель $URI[[http://libmeta.ru/fme/formula/aux/2737_187_SIMVOLIChESKAJa]]/URI$. Число v называется инде ксом ц и клич ност и матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_188_SIMVOLIChESKAJa]]/URI$ [и соответственно цепи $URI[[http://libmeta.ru/fme/formula/aux/2737_189_SIMVOLIChESKAJa]]/URI$. Имеет место следующая формула:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_11_SIMVOLIChESKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2737_190_SIMVOLIChESKAJa]]/URI$ - наибольшее положительное собственное значение матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_191_SIMVOLIChESKAJa]]/URI$ (существующее в силу теоремы Фробениуса - Перрона).
+
+Дзета-функция Артина - Мазура
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_12_SIMVOLIChESKAJa]]/URI
+\]
+
+вычисляется по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_13_SIMVOLIChESKAJa]]/URI
+\]
+
+и определяющий ее ряд сходится в круге $URI[[http://libmeta.ru/fme/formula/aux/2737_192_SIMVOLIChESKAJa]]/URI$.
+
+528 Символическая Топологич. энтропия $URI[[http://libmeta.ru/fme/formula/aux/2737_193_SIMVOLIChESKAJa]]/URI$ вычисляется по формуле
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_14_SIMVOLIChESKAJa]]/URI
+\]
+
+С точки зрения эргодич. теории наиболее важным метрич. свойством (неразложимой) топологич. марковской цепи является существование единственной $URI[[http://libmeta.ru/fme/formula/aux/2737_194_SIMVOLIChESKAJa]]/URI$-инвариантной борелевской вероятностной меры $URI[[http://libmeta.ru/fme/formula/aux/2737_195_SIMVOLIChESKAJa]]/URI$, к-рая максимизирует метрич. энтропию $URI[[http://libmeta.ru/fme/formula/aux/2737_196_SIMVOLIChESKAJa]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_15_SIMVOLIChESKAJa]]/URI
+\]
+
+где sup вычисляется по всем вероятностным борелевским мерам на $URI[[http://libmeta.ru/fme/formula/aux/2737_197_SIMVOLIChESKAJa]]/URI$. При этом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_16_SIMVOLIChESKAJa]]/URI
+\]
+
+Мера $URI[[http://libmeta.ru/fme/formula/aux/2737_198_SIMVOLIChESKAJa]]/URI$ положительна на открытых множествах и совпадает с распределением вероятностей, отвечающим стационарной цепи Маркова с вероятностями перехода
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_17_SIMVOLIChESKAJa]]/URI
+\]
+
+и стационарными вероятностями $URI[[http://libmeta.ru/fme/formula/aux/2737_199_SIMVOLIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2737_200_SIMVOLIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2737_201_SIMVOLIChESKAJa]]/URI$ - соответственно правый и левый собственные векторы матрицы $URI[[http://libmeta.ru/fme/formula/aux/2737_202_SIMVOLIChESKAJa]]/URI$ (положительные в силу теоремы Фробениуса - Перрона) с нормировкой $URI[[http://libmeta.ru/fme/formula/aux/2737_203_SIMVOLIChESKAJa]]/URI$. Мера $URI[[http://libmeta.ru/fme/formula/aux/2737_204_SIMVOLIChESKAJa]]/URI$ определяется конструктивно через асимптотику числа периодич. точек следующим образом: цля любого цилиндра $URI[[http://libmeta.ru/fme/formula/aux/2737_205_SIMVOLIChESKAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_18_SIMVOLIChESKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2737_206_SIMVOLIChESKAJa]]/URI$ число неподвижных точек отображения $URI[[http://libmeta.ru/fme/formula/aux/2737_207_SIMVOLIChESKAJa]]/URI$ в цилиндре $URI[[http://libmeta.ru/fme/formula/aux/2737_208_SIMVOLIChESKAJa]]/URI$ индекс цикличности цепи $URI[[http://libmeta.ru/fme/formula/aux/2737_209_SIMVOLIChESKAJa]]/URI$.
+
+Марковские разбиения (см. [4]-[9]).
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_210_SIMVOLIChESKAJa]]/URI$ - замкнутое инвариантное множество динамич. системы $URI[[http://libmeta.ru/fme/formula/aux/2737_211_SIMVOLIChESKAJa]]/URI$. Динамич. свойства системы $URI[[http://libmeta.ru/fme/formula/aux/2737_212_SIMVOLIChESKAJa]]/URI$, а также метрич. свойства системы $URI[[http://libmeta.ru/fme/formula/aux/2737_213_SIMVOLIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2737_214_SIMVOLIChESKAJa]]/URI$ - мера максимальной (метрической) энтропии ограничения $URI[[http://libmeta.ru/fme/formula/aux/2737_215_SIMVOLIChESKAJa]]/URI$, наиболее тесно связаны с нек-рой топологич. марковской цепью $URI[[http://libmeta.ru/fme/formula/aux/2737_216_SIMVOLIChESKAJa]]/URI$, если удается найти такое покрытие $URI[[http://libmeta.ru/fme/formula/aux/2737_217_SIMVOLIChESKAJa]]/URI$ множества $URI[[http://libmeta.ru/fme/formula/aux/2737_218_SIMVOLIChESKAJa]]/URI$ замкнутыми множествами $URI[[http://libmeta.ru/fme/formula/aux/2737_219_SIMVOLIChESKAJa]]/URI$, что:
+
+1) int $URI[[http://libmeta.ru/fme/formula/aux/2737_220_SIMVOLIChESKAJa]]/URI$ int $URI[[http://libmeta.ru/fme/formula/aux/2737_221_SIMVOLIChESKAJa]]/URI$;
+
+2) $URI[[http://libmeta.ru/fme/formula/aux/2737_222_SIMVOLIChESKAJa]]/URI$ нигде не плотно в $URI[[http://libmeta.ru/fme/formula/aux/2737_223_SIMVOLIChESKAJa]]/URI$;
+
+3) $URI[[http://libmeta.ru/fme/formula/aux/2737_224_SIMVOLIChESKAJa]]/URI$ является URI[[http://libmeta.ru/fme/relation/2737_31_SIMVOLIChESKAJa]]/URI. При наличии такого покрытия система $URI[[http://libmeta.ru/fme/formula/aux/2737_225_SIMVOLIChESKAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2737_30_SIMVOLIChESKAJa]]/URI с цепью $URI[[http://libmeta.ru/fme/formula/aux/2737_226_SIMVOLIChESKAJa]]/URI$, причем отображение $URI[[http://libmeta.ru/fme/formula/aux/2737_227_SIMVOLIChESKAJa]]/URI$ является гомеоморфизмом на множестве второй категории, а мера $URI[[http://libmeta.ru/fme/formula/aux/2737_228_SIMVOLIChESKAJa]]/URI$ индуцируется мерой $URI[[http://libmeta.ru/fme/formula/aux/2737_229_SIMVOLIChESKAJa]]/URI$ с помощью отображения $URI[[http://libmeta.ru/fme/formula/aux/2737_230_SIMVOLIChESKAJa]]/URI$.
+
+Покрытия указанного типа существуют для инвариантных базисных множеств $URI[[http://libmeta.ru/fme/formula/aux/2737_231_SIMVOLIChESKAJa]]/URI$ важного класса URI[[http://libmeta.ru/fme/relation/2737_29_SIMVOLIChESKAJa]]/URI. систем $URI[[http://libmeta.ru/fme/formula/aux/2737_232_SIMVOLIChESKAJa]]/URI$, когда $URI[[http://libmeta.ru/fme/formula/aux/2737_233_SIMVOLIChESKAJa]]/URI$ - диффеоморфизм, удовлетворяющий аксиоме $URI[[http://libmeta.ru/fme/formula/aux/2737_234_SIMVOLIChESKAJa]]/URI$ Смейла. Покрытия, названные для этого класса м а р ко в ск и м и, были построены в работах [4], [6]. Их построение основано на существовании у рассмотренных систем инвариантных семейств устойчивых и URI[[http://libmeta.ru/fme/relation/2737_28_SIMVOLIChESKAJa]]/URI. Элементы покрытия являются «параллелограммами» со сторонами, лежащими на устойчивых и URI[[http://libmeta.ru/fme/relation/2737_27_SIMVOLIChESKAJa]]/URI и удовлетворяют нек-рому условию правильности пересечения образов и прообразов параллелограммов в силу диффеоморфизма $URI[[http://libmeta.ru/fme/formula/aux/2737_235_SIMVOLIChESKAJa]]/URI$ с исходными элементами покрытия. Это условие с учетом сжатия (растяжения) устойчивых (неустойчивых) URI[[http://libmeta.ru/fme/relation/2737_26_SIMVOLIChESKAJa]]/URI гарантирует свойство 3) покрытия $URI[[http://libmeta.ru/fme/formula/aux/2737_236_SIMVOLIChESKAJa]]/URI$. Существуют важные для приложений математич. модели, описываемые с помощью систем URI[[http://libmeta.ru/fme/relation/2737_25_SIMVOLIChESKAJa]]/URI (напр., система Лоренца), для к-рых в URI[[http://libmeta.ru/fme/relation/2737_24_SIMVOLIChESKAJa]]/URI имеется нек-рое притягивающее множество URI[[http://libmeta.ru/fme/relation/2737_23_SIMVOLIChESKAJa]]/URI - со сложной топологич. структурой и обладающее свойством сильного разбегания (хаотич. поведения) URI[[http://libmeta.ru/fme/relation/2737_22_SIMVOLIChESKAJa]]/URI. В ряде случаев в URI[[http://libmeta.ru/fme/relation/2737_21_SIMVOLIChESKAJa]]/URI таких систем имеется секущая, для к-рой изучение соответствующего отображения URI[[http://libmeta.ru/fme/relation/2737_20_SIMVOLIChESKAJa]]/URI по URI[[http://libmeta.ru/fme/relation/2737_19_SIMVOLIChESKAJa]]/URI из URI[[http://libmeta.ru/fme/relation/2737_18_SIMVOLIChESKAJa]]/URI сводится к одномерному, вообще говоря разрывному, необратимому отображению $URI[[http://libmeta.ru/fme/formula/aux/2737_237_SIMVOLIChESKAJa]]/URI$ интервала $URI[[http://libmeta.ru/fme/formula/aux/2737_238_SIMVOLIChESKAJa]]/URI$. Класс отображений, к-рый здесь возникает, состоит из кусочно URI[[http://libmeta.ru/fme/relation/2737_17_SIMVOLIChESKAJa]]/URI, кусочно URI[[http://libmeta.ru/fme/relation/2737_16_SIMVOLIChESKAJa]]/URI с конечным числом $URI[[http://libmeta.ru/fme/formula/aux/2737_239_SIMVOLIChESKAJa]]/URI$ критич. точек и точек разрыва. Естественно возникающее здесь разбиение $URI[[http://libmeta.ru/fme/formula/aux/2737_240_SIMVOLIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2737_241_SIMVOLIChESKAJa]]/URI$, удовлетворяет свойствам 1) и 2) и удовлетворяет свойству 3) в том и только в том случае, когда множество $URI[[http://libmeta.ru/fme/formula/aux/2737_242_SIMVOLIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2737_243_SIMVOLIChESKAJa]]/URI$, плотно в $URI[[http://libmeta.ru/fme/formula/aux/2737_244_SIMVOLIChESKAJa]]/URI$. Последнее свойство имеет место, напр., когда отображение является растягивающим на каждом $URI[[http://libmeta.ru/fme/formula/aux/2737_245_SIMVOLIChESKAJa]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_19_SIMVOLIChESKAJa]]/URI
+\]
+
+На множестве $URI[[http://libmeta.ru/fme/formula/aux/2737_246_SIMVOLIChESKAJa]]/URI$ отображение $URI[[http://libmeta.ru/fme/formula/aux/2737_247_SIMVOLIChESKAJa]]/URI$ является однозначным. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_248_SIMVOLIChESKAJa]]/URI$. Тогда система $URI[[http://libmeta.ru/fme/formula/aux/2737_249_SIMVOLIChESKAJa]]/URI$топологически сопряжена на множестве $URI[[http://libmeta.ru/fme/formula/aux/2737_250_SIMVOLIChESKAJa]]/URI$ с системой $URI[[http://libmeta.ru/fme/formula/aux/2737_251_SIMVOLIChESKAJa]]/URI$. Пусть символич. URI[[http://libmeta.ru/fme/relation/2737_15_SIMVOLIChESKAJa]]/URI. система $URI[[http://libmeta.ru/fme/formula/aux/2737_252_SIMVOLIChESKAJa]]/URI$ естественное расширение системы $URI[[http://libmeta.ru/fme/formula/aux/2737_253_SIMVOLIChESKAJa]]/URI$. Существует плотное в пространстве отображений из рассматриваемого класса множество таких отображений, для к-рых система $URI[[http://libmeta.ru/fme/formula/aux/2737_254_SIMVOLIChESKAJa]]/URI$ является топологич. марковской цепью (с возможно большим, чем $URI[[http://libmeta.ru/fme/formula/aux/2737_255_SIMVOLIChESKAJa]]/URI$, URI[[http://libmeta.ru/fme/relation/2737_14_SIMVOLIChESKAJa]]/URI). В общем же случае при условии положительности URI[[http://libmeta.ru/fme/relation/2737_13_SIMVOLIChESKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2737_256_SIMVOLIChESKAJa]]/URI$ существует такая конструкция построения замкнутого $URI[[http://libmeta.ru/fme/formula/aux/2737_257_SIMVOLIChESKAJa]]/URI$-инвариантного множества $URI[[http://libmeta.ru/fme/formula/aux/2737_258_SIMVOLIChESKAJa]]/URI$, что система $URI[[http://libmeta.ru/fme/formula/aux/2737_259_SIMVOLIChESKAJa]]/URI$ топологически сопряжена с топологич. марковской цепью со счетным множеством URI[[http://libmeta.ru/fme/relation/2737_12_SIMVOLIChESKAJa]]/URI, причем дополнение $URI[[http://libmeta.ru/fme/formula/aux/2737_260_SIMVOLIChESKAJa]]/URI$ не содержит периодич. точек и $URI[[http://libmeta.ru/fme/formula/aux/2737_261_SIMVOLIChESKAJa]]/URI$. Для топологич. марковских цепей со счетным множеством URI[[http://libmeta.ru/fme/relation/2737_11_SIMVOLIChESKAJa]]/URI имеются обобщения основных понятий, сформулированных для таких же цепей с конечным URI[[http://libmeta.ru/fme/relation/2737_10_SIMVOLIChESKAJa]]/URI (см. [8]).
+
+Модифицированный способ кодирования URI[[http://libmeta.ru/fme/relation/2737_9_SIMVOLIChESKAJa]]/URI одномерных отображений из рассматриваемого класса предложили Дж. Милнор и У. Терстон [9]. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2737_262_SIMVOLIChESKAJa]]/URI$ (или -1 ), если $URI[[http://libmeta.ru/fme/formula/aux/2737_263_SIMVOLIChESKAJa]]/URI$ возрастает (убывает) в точке $URI[[http://libmeta.ru/fme/formula/aux/2737_264_SIMVOLIChESKAJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2737_265_SIMVOLIChESKAJa]]/URI$. Нидинг-последователь ностью точки $URI[[http://libmeta.ru/fme/formula/aux/2737_266_SIMVOLIChESKAJa]]/URI$ называется элемент $URI[[http://libmeta.ru/fme/formula/aux/2737_267_SIMVOLIChESKAJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2737_268_SIMVOLIChESKAJa]]/URI$ пространства $URI[[http://libmeta.ru/fme/formula/aux/2737_269_SIMVOLIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2737_270_SIMVOLIChESKAJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2737_271_SIMVOLIChESKAJa]]/URI$. В пространстве $URI[[http://libmeta.ru/fme/formula/aux/2737_272_SIMVOLIChESKAJa]]/URI$ дится лексикографич. порядок: $URI[[http://libmeta.ru/fme/formula/aux/2737_273_SIMVOLIChESKAJa]]/URI$, если найдется такое $URI[[http://libmeta.ru/fme/formula/aux/2737_274_SIMVOLIChESKAJa]]/URI$, что $URI[[http://libmeta.ru/fme/formula/aux/2737_275_SIMVOLIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2737_276_SIMVOLIChESKAJa]]/URI$. Устанавливается, что при $URI[[http://libmeta.ru/fme/formula/aux/2737_277_SIMVOLIChESKAJa]]/URI$. Пределы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2737_20_SIMVOLIChESKAJa]]/URI
+\]
+
+называются ниди нг-ин в ариантам и отображения $URI[[http://libmeta.ru/fme/formula/aux/2737_278_SIMVOLIChESKAJa]]/URI$. В случае, когда множество $URI[[http://libmeta.ru/fme/formula/aux/2737_279_SIMVOLIChESKAJa]]/URI$ плотно на интервале $URI[[http://libmeta.ru/fme/formula/aux/2737_280_SIMVOLIChESKAJa]]/URI$, набор $URI[[http://libmeta.ru/fme/formula/aux/2737_281_SIMVOLIChESKAJa]]/URI$ является полным топологич. инвариантом отображений из рассматриваемого класса.
+
+Другие объекты исследования, связанные с С. д.: нахождение конструктивных условий топологич. эквивалентности топологич. марковских цепей в терминах задающих их матриц; задачи реализации символич. URI[[http://libmeta.ru/fme/relation/2737_8_SIMVOLIChESKAJa]]/URI. систем посредством построения URI[[http://libmeta.ru/fme/relation/2737_7_SIMVOLIChESKAJa]]/URI. системы $URI[[http://libmeta.ru/fme/formula/aux/2737_282_SIMVOLIChESKAJa]]/URI$, неблужда- ющее множество к-рой содержит такое нульмерное множество $URI[[http://libmeta.ru/fme/formula/aux/2737_283_SIMVOLIChESKAJa]]/URI$, что система $URI[[http://libmeta.ru/fme/formula/aux/2737_284_SIMVOLIChESKAJa]]/URI$ топологически сопряжена с заданной символич. URI[[http://libmeta.ru/fme/relation/2737_6_SIMVOLIChESKAJa]]/URI. системой; изучение надстроек над символич. URI[[http://libmeta.ru/fme/relation/2737_5_SIMVOLIChESKAJa]]/URI. системами для непосредственного описания URI[[http://libmeta.ru/fme/relation/2737_4_SIMVOLIChESKAJa]]/URI непрерывных URI[[http://libmeta.ru/fme/relation/2737_3_SIMVOLIChESKAJa]]/URI. систем (потоков); вопросы сложности URI[[http://libmeta.ru/fme/relation/2737_2_SIMVOLIChESKAJa]]/URI. систем и их индивидуальных URI[[http://libmeta.ru/fme/relation/2737_1_SIMVOLIChESKAJa]]/URI.</text>
+  <text_orig>спеџиальнЫЙ раздеЛ общей теории динамических систем. С начала 60-х гг. возникают многочисленные примеры динамич. систем, для адекватного описания к-рых классич. методы (теория устойчивости, асимптотич. ряды теории возмущений и т. п.) оказываются недостаточными. Одним из главных свойств этих систем является наличие сильного разбегания любых траекторий с близкими начальными точками из нек-рой области фазового пространства. Такое поведение траекторий было обнаружено еще в 20-х гг. Ж. Адамаром (J. Hadamard) и М. Морсом (M. Morse) в связи с изучением глобального поведения геодезических на поверхностях отрицательной кривизны. В их работах впервые было использовано кодирование траекторий последовательностями символов из нек-рого алфавита с целью установления различных типов траекторий в фазовом пространстве и их классификации. В частности, было доказано существование счетного множества замкнутых геодезических и существование рекуррентных незамкнутых геодезических. С.д. оформилась как раздел общей теории динамич. систем лишь спустя четыре десятилетия и оказалась адекватным и эффективным аппаратом исследования важного класса динамич. систем с гиперболич. структурой (см. [1]-[4]).
+
+Моделирование дискретной динамической системы символической динамической системой.
+
+Пусть задан конечный набор (алфавит) символов $G=\{1$, $2, \ldots, N\}, N \in \mathbb{Z}^{+}$, и пусть $\Omega_{N}$ - пространство, состоящее из всевозможных бесконечных в обе стороны последовательностей $\Omega_{N}=\left\{\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \mid \omega_{n} \in G\right\}$. Пространство $\Omega_{N}$ как прямое произведение счетного множества экземпляров алфавита $G$, снабженного дискретной топологией, наделяется топологией прямого произведения. Базу топологии в $\Omega_{N}$ определяют цилиндры, то есть множества вида
+
+\[
+\left[i_{0}, i_{1}, \ldots, i_{k}\right]_{p}=\left\{\omega=\left.\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \in \Omega_{N}\right|_{\omega_{p}=i_{0}, \ldots, \omega_{p+k}=i_{k}}\right\} .
+\]
+
+Метрика $\rho$, определяемая
+
+\[
+\rho\left(\omega, \omega^{\prime}\right)=\sum_{n=-\infty}^{+\infty} \frac{\left|\omega_{n}-\omega_{n}^{\prime}\right|}{2^{|n|}},
+\]
+
+согласована с этой топологией и превращает $\Omega_{N}$ в компактное метрич. пространство. Задается отображение $\sigma$ пространства $\Omega_{N}$ на себя как $\sigma(\omega)=\omega^{\prime}$, где $\omega_{n}^{\prime}=\omega_{n+1}, n \in \mathbb{Z}$. Отображение $\sigma$ является гомеоморфизмом пространства $\Omega_{N}$ и называется отображением сдвига (влево). Оно порождает дискретную динамическую систему (к а с к а д) $\left(\Omega_{N}, \sigma\right)$. Пусть $\Sigma$ - инвариантное множество в $\Omega_{N}$ относительно сдвига $\sigma$. Ограничение $\sigma$ на $\Sigma$ называется символической динамической системой $(\Sigma, \sigma)$. Наряду с пространством $\Omega_{N}$ рассматривают пространство $\Omega_{N}^{+}$бесконечных в одну сторону последовательностей $\omega=\left\{\omega_{n}\right\}_{0}^{+\infty}$ с отображением сдвига
+
+\[
+\sigma^{+}: \Omega_{N}^{+} \rightarrow \Omega_{N}^{+}, \sigma^{+}(\omega)=\omega^{\prime},
+\]
+
+где $\omega_{n}^{\prime}=\omega_{n+1}, n \in \mathbb{Z}^{+}$. От системы $\left(\Sigma^{+}, \sigma^{+}\right)$, где $\Sigma^{+}-$инвариантное относительно $\sigma^{+}$множество в $\Omega_{N}^{+}$, с помощью конструкции проективного предела можно перейти к символич. динамич. системе $(\Sigma, \sigma)$ : пусть $\pi-$ проекция $\Omega \rightarrow \Omega^{+}$,
+
+\[
+\pi\left(\left\{\omega_{n}\right\}_{-\infty}^{+\infty}\right)=\left\{\omega_{n}^{+}\right\}_{0}^{+\infty},
+\]
+
+где $\omega_{n}^{+}=\omega_{n}$ для $n \geqslant 0$, тогда
+
+\[
+\Sigma=\left\{\omega \in \Omega_{N} \mid \pi \sigma^{k}(\omega) \in \Sigma^{+} \text {для всех } k \in \mathbb{Z}\right\} \text {. }
+\]
+
+Система $(\Sigma, \sigma)$ полусопряжена $\mathrm{c}\left(\Sigma^{+}, \sigma^{+}\right)$с помощью проекции $\pi$, то есть $\pi \sigma=\sigma^{+} \pi$. Она наследует все основные динамич. свойства системы $\left(\Sigma^{+}, \sigma^{+}\right)$и называется ее е с т е ственным расширением.
+
+Пусть $M-$ топологич. пространство, на к-ром задана дискретная динамич. система $(M, f)$, где $f: M \rightarrow M$ - гомеоморфизм. Произвольному конечному покрытию $L=\left\{U_{1}\right.$, $\left.U_{2}, \ldots, U_{N}\right\}$ ставится в соответствие, вообще говоря, многозначное отображение $\varphi_{L}: M \rightarrow \Omega_{N}$, сопоставляющее каждой точке $x \in M$ множество
+
+\[
+\varphi_{L}(x)=\left\{\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \mid f^{n}(x) \in U_{\omega_{n}}\right\} .
+\]
+
+Пусть $\Omega_{L}=\varphi_{L}(M)$, тогда элемент $\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty}$ принадлежит $\Omega_{L}$ тогда и только тогда, когда $\bigcap_{n \in \mathbb{Z}} f^{-n}\left(U_{\omega_{n}}\right) \neq \varnothing$. Отображение $\varphi_{L}$ обладает свойством $\sigma \varphi_{L}=\varphi_{L} f$, к-рое означает, что траектории $\left\{f^{n}(x)\right\}_{-\infty}^{+\infty}, x \in M$, переходят под действием $\varphi_{L}$ в траектории $\left\{\sigma^{n}\left(\varphi_{L}(x)\right)\right\}_{-\infty}^{+\infty}$ множества $\varphi_{L}(x)$; в частности, множество $\Omega_{L} \sigma$-инвариантно. В наиболее интересных случаях покрытие $L$ может быть выбрано таким образом, что отображение $\varphi_{L}^{-1}$, обратное к $\varphi_{L}$, является однозначным и непрерывным, то есть символич. динамич. система $\left(\Omega_{L}, \sigma\right)$ полусопряжена с системой $(M, f)$ и дает большую информацию о ней. Наиболее значительным в этом направлении является следуюший результат.
+
+Пусть $M$ компактно и $L=\left\{U_{1}, U_{2}, \ldots, U_{N}\right\}-$ покрытие замкнутыми множествами такое, что для каждого элемента $\omega \in \Omega_{N}$ пересечение $\bigcap_{n \in \mathbb{Z}} f^{-n}\left(U_{\omega_{n}}\right)$ состоит не более чем из одной точки. Тогда $\Omega_{L}$ компактно, отображение $\varphi_{L}^{-1}: \Omega_{L} \rightarrow M$ однозначно, непрерывно и $\varphi_{L}^{-1} \sigma=f \varphi_{L}^{-1}$. Более того, если $M$ нульмерно, то $\varphi_{L}^{-1}$ является гомеоморфизмом.
+
+Покрытие с указанным выше свойством называется о бра з у ю и м. Для метрич. пространства $M$ существование образующего покрытия присуще тем и только тем динамич. системам, для к-рых выполняется условие разделен и я т р а е к о р и й (экс па нс и в ность). Говорят, что динамич. система $(M, f)$ обладает свойством разделения траекторий, если существует $\varepsilon&gt;0$ такое, что для любых $x, y \in M$ $(x \neq y)$ найдется $n \in \mathbb{Z}$ такое, что $d\left(f^{n}(x), f^{n}(y)\right)&gt;\varepsilon$, где $d-$ метрика в $M$. Число $\varepsilon$ называется константой эксп а н с и в н о с т и. Упомянутую связь между динамикой систем $(M, f)$ и $\left(\Omega_{L}, \sigma\right)$ отражает следующий результат.
+
+Пусть $L$ - образующее покрытие компакта $M$, для $x \in M$ траектория $\left\{f^{n}(x)\right\}_{-\infty}^{+\infty}$ является неблуждающей, периодической, незамкнутой, устойчивой по Пуассону или рекуррентной траекторией системы $(M, f)$ тогда и только тогда, когда в множестве $\varphi_{L}(x)$ существует траектория символич. динамич. системы $\left(\Omega_{L}, \sigma\right)$ с соответствующими свойствами.
+
+В теории динамич. систем одним из основополагающих понятий является понятие устойчивого $W^{S}(x)$ и неустойчивого $W^{U}(x)$ многообразий точки $x$. Если $M-$ компакт и $L$ - образующее покрытие, то $x, y \in W^{S}(x)\left(x, y \in W^{U}(x)\right)$ тогда и только тогда, когда существуют элементы $\omega \in \varphi_{L}(x)$, $\omega^{\prime} \in \varphi_{L}(y)$ и $n_{0} \in \mathbb{Z}$ такие, что $\omega_{n}=\omega_{n}^{\prime}$ для всех $n&gt;n_{0}\left(n&lt;n_{0}\right)$.
+
+Наконец отметим, что если отображение $f: M \rightarrow M$ не является взаимно однозначным, то соответствующая символич. модель для $(M, f)$ есть система $\left(\Omega^{+}, \sigma^{+}\right)$, где
+
+\[
+\Omega_{L}^{+}=\left\{\omega=\left\{\omega_{n}\right\}_{0}^{+\infty} \mid f^{n}(x) \in U_{\omega_{n}}\right\} .
+\]
+
+Топологические марковские цепи (см. [5]-[8]).
+
+Чтобы получить наибольшую информацию о свойствах динамич. системы $(M, f)$, необходимо иметь конструктивное описание множества $\Omega_{L}$. В общем случае даже при наличии образующего покрытия это сделать не удается. Однако существует ряд важных ситуаций, когда множество описывается весьма просто с помощью матрицы из нулей и единиц. Пусть $A=\left\|a_{i j}\right\|, a_{i j} \in\{0,1\}, i, j \in\{1, \ldots, N\}$. Положим
+
+\[
+\Sigma_{A}=\left\{\omega \in \Omega_{N} \mid a_{\omega_{n} \omega_{n+1}}=1 \text { для всех } n \in \mathbb{Z}\right\} \text {. }
+\]
+
+Символич. динамич. система $\left(\Sigma_{A}, \sigma\right)$ называется т о п о л огической марковской це пью, а элементы множества $\{1, \ldots, N\}$ называются с остоян ия м и этой цепи. Естественно предполагается, что каждая строка и каждый столбец матрицы $A$ содержат хотя бы один ненулевой элемент. В частном случае, когда матрица $A$ состоит целиком из единиц, топологич. марковскую цепь называют с хе м о й Б е р н у л л и. Наряду с матрицей $A$ для задания цепи используют ориентированный граф $G_{A}$, вершины к-рого соответствуют состояниям топологич. марковской цепи, а ребра $l_{i j}$ - переходам из состояния $i$ в состояние $j$ в том и только том случае, когда $a_{i j}=1$. Матрица $A$ индуцирует на множестве состояний транзитивное отношение квазипорядка: $i&gt;j$ тогда и только тогда, когда на графе $G_{A}$ имеется ориентированный путь из состояния $i$ в состояние $j$. Состояние $i$ называется воз вратным, если $i&gt;j$. Топологич. марковская цепь $\left(\Sigma_{A}, \sigma\right)$ называется н е р а з ло ж и м о й, если все ее состояния возвратны и для любых $i, j \in L, i&gt;j$ и $j&gt;i$. Неразложимость матрицы $A$ эквивалентна условию: для любых $i, j$ существует $k&gt;0$ такое, что элемент $a_{i j}^{(k)}$ матрицы $A^{k}$ положителен. Топологич. марковская цепь называется п р и м и т и в н о й, если существует $n&gt;0$ такое, что для любых $i, j$ существует путь в $G_{A}$, состоящий из $n$ ребер, соединяющий $i$ и $j$ (это эквивалентно тому, что все элементы матрицы $A^{n}$ положительны). Если топологич. марковская цепь $\left(\Sigma_{A}, \sigma\right)$ неразложима, то периодич. точки гомеоморфизма $\sigma$ плотны в $\Sigma_{A}$ и $\sigma$ является т о по л о г и ч е с к и т р а н з и т и в н ы м на $\Sigma_{A}$, то есть существует элемент $\omega \in \Sigma_{A}$ такой, что траектория $\left\{\sigma^{n}(\omega)\right\}_{-\infty}^{+\infty}$ плотна в $\Sigma_{A}$. Если же цепь $\left(\Sigma_{A}, \sigma\right)$ примитивна, то $\sigma$ топологически переме ш и в а е т, то есть для любых открытых в $\Sigma_{A}$ множеств $U$ и $V$ найдется $n_{*}&gt;0$ такое, что $f^{n}(U) \cap V \neq \varnothing$ для всех $n&gt;n_{*}$.
+
+Множество всех возвратных состояний топологич. марковской цепи разбивается на непересекающиеся классы $L_{1}$, $L_{2}, \ldots, L_{m}$ таким образом, что если состояния $i_{l}, j_{l}$ лежат в $L_{l}$, то $i_{l}&gt;j_{l}, j_{l}&gt;i_{l}, l=1,2, \ldots, m$. Классу $L_{l}$ соответствует подматрица $A_{l}$ матрицы $A$, определяющая в пространстве $\Sigma_{A}$ инвариантное относительно $\sigma$ подмножество
+
+\[
+\Sigma_{A_{l}}=\left\{\omega=\left\{\omega_{n}\right\}_{-\infty}^{+\infty} \in \Sigma_{A} \mid \omega_{n} \in L_{l}, n \in \mathbb{Z}\right\} .
+\]
+
+Следующий результат является аналогом теоремы о спектральном разложении неблуждающего множества динамич. системы $(M, f)$, где диффеоморфизм $f$ удовлетворяет аксиоме $A$ Смейла (см. [2]).
+
+Неблуждающее множество символич. динамич. системы $\left(\Sigma_{A}, \sigma\right)$ представляется в виде объединения попарно непересекающихся замкнутых инвариантных подмножеств $\Omega_{1}, \ldots$, $\Omega_{m}$ таких, что ограничение $\left.\sigma\right|_{\Omega_{i}}$ есть топологич. марковская цепь $\left(\Sigma_{A_{i}}, \sigma\right)$, соответствующая неразложимой подматрице $A_{i}$ матрицы $A$ для класса состояний $L_{i}, i=1,2, \ldots, m$.
+
+Пусть $N\left(\left.\sigma\right|_{\Sigma_{A}}\right)$ - число неподвижных точек отображения $\sigma^{n}: \Sigma_{A} \rightarrow \Sigma_{A}, n \in \mathbb{Z}^{+}$. Так как
+
+\[
+N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\sum_{i=1}^{m} N_{n}\left(\left.\sigma\right|_{\Sigma_{A_{i}}}\right)
+\]
+
+то далее, не уменьшая общности, предполагается, что матрица $A$ неразложима. Для каждого $j$ через $k_{j}$ обозначается такое число, что $a_{j j}^{\left(k_{j}\right)}$, где $a_{j j}^{\left(k_{j}\right)}-$ элемент матрицы $A^{k_{j}}$; пусть $v$ - наибольший общий делитель $k_{j}, j \in G$. Число v называется инде ксом ц и клич ност и матрицы $A$ [и соответственно цепи $\left.\left(\Sigma_{A}, \sigma\right)\right]$. Имеет место следующая формула:
+
+\[
+N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\left\{\begin{array}{cc}
+v \lambda^{n}(A)+\sum_{\left|\lambda_{k}\right|&lt;\lambda(A)} \lambda_{k}^{n}, &amp; \text { если } n=0(\bmod v), \\
+0, &amp; \text { если } n \neq 0(\bmod v),
+\end{array}\right.
+\]
+
+где $\lambda(A)$ - наибольшее положительное собственное значение матрицы $A$ (существующее в силу теоремы Фробениуса - Перрона).
+
+Дзета-функция Артина - Мазура
+
+\[
+\zeta(t)=\exp \left(\sum_{n=0}^{\infty} \frac{N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right) \cdot t^{n}}{n}\right)
+\]
+
+вычисляется по формуле
+
+\[
+\zeta(t)=1 / \operatorname{det}(E-t A)
+\]
+
+и определяющий ее ряд сходится в круге $|t|&lt;1 / \lambda(A)$.
+
+528 СИМВОЛИЧЕСКАЯ Топологич. энтропия $h\left(\left.\sigma\right|_{\Sigma_{A}}\right)$ вычисляется по формуле
+
+\[
+h\left(\left.\sigma\right|_{\Sigma_{A}}\right)=\varlimsup_{n \rightarrow \infty} \frac{\ln N_{n}\left(\left.\sigma\right|_{\Sigma_{A}}\right)}{n}=\ln \lambda(A) .
+\]
+
+С точки зрения эргодич. теории наиболее важным метрич. свойством (неразложимой) топологич. марковской цепи является существование единственной $\sigma$-инвариантной борелевской вероятностной меры $\mu_{*}$, к-рая максимизирует метрич. энтропию $h_{\mu_{*}}$, то есть
+
+\[
+h_{\mu_{*}}=\sup h_{\mu}\left(\left.\sigma\right|_{\Sigma_{A}}\right)
+\]
+
+где sup вычисляется по всем вероятностным борелевским мерам на $\Sigma_{A}$. При этом
+
+\[
+h_{\mu *}\left(\left.\sigma\right|_{\Sigma_{A}}\right)=h\left(\left.\sigma\right|_{\Sigma_{A}}\right)
+\]
+
+Мера $\mu_{*}$ положительна на открытых множествах и совпадает с распределением вероятностей, отвечающим стационарной цепи Маркова с вероятностями перехода
+
+\[
+p_{i j}=\frac{a_{i j} \beta_{j}}{\lambda(A) \beta_{i}}
+\]
+
+и стационарными вероятностями $p_{i}=\alpha_{i} \beta_{i}$, где $\left\{\beta_{i}\right\}_{1}^{N}$, $\left\{\alpha_{i}\right\}_{1}^{N}$ - соответственно правый и левый собственные векторы матрицы $A$ (положительные в силу теоремы Фробениуса - Перрона) с нормировкой $\sum_{i=1}^{N} \alpha_{i} \beta_{i}=1$. Мера $\mu_{*}$ определяется конструктивно через асимптотику числа периодич. точек следующим образом: цля любого цилиндра $B=\left[i_{0}, i_{1}, \ldots, i_{k}\right]$
+
+\[
+\mu_{*}(B)=\lim _{i \rightarrow \infty} \frac{N_{i v}(B)}{N_{i v}}
+\]
+
+где $N_{i v}(B)-$ число неподвижных точек отображения $\sigma^{i v}$ в цилиндре $B, v-$ индекс цикличности цепи $\left(\Sigma_{A}, \sigma\right)$.
+
+Марковские разбиения (см. [4]-[9]).
+
+Пусть $\Omega$ - замкнутое инвариантное множество динамич. системы $(M, f)$. Динамич. свойства системы $(\Omega, f)$, а также метрич. свойства системы $(\Omega, f, \mu)$, где $\mu$ - мера максимальной (метрической) энтропии ограничения $\left.f\right|_{\Omega}$, наиболее тесно связаны с нек-рой топологич. марковской цепью $\left(\Sigma_{A}, \sigma\right)$, если удается найти такое покрытие $L$ множества $\Omega$ замкнутыми множествами $U_{1}, U_{2}, \ldots, U_{N}$, что:
+
+1) int $U_{i} \cap$ int $U_{j}=\varnothing, i \neq j$;
+
+2) $\bigcup_{i=1}^{n} \partial U_{i}$ нигде не плотно в $M$;
+
+3) $L$ является образующим покрытием. При наличии такого покрытия система $(\Omega, f)$ полусопряжена с цепью $\left(\Sigma_{A}, \sigma\right),\left.\sigma \varphi_{L}\right|_{\Omega}=\left.\varphi_{L} f\right|_{\Omega}$, причем отображение $\varphi_{L}^{-1}$ является гомеоморфизмом на множестве второй категории, а мера $\mu$ индуцируется мерой $\mu_{*}$ с помощью отображения $\varphi_{L}^{-1}$.
+
+Покрытия указанного типа существуют для инвариантных базисных множеств $\Omega$ важного класса динамич. систем $(M, f)$, когда $f$ - диффеоморфизм, удовлетворяющий аксиоме $A$ Смейла. Покрытия, названные для этого класса м а р ко в ск и м и, были построены в работах [4], [6]. Их построение основано на существовании у рассмотренных систем инвариантных семейств устойчивых и неустойчивых многообразий. Элементы покрытия являются «параллелограммами» со сторонами, лежащими на устойчивых и неустойчивых многообразиях и удовлетворяют нек-рому условию правильности пересечения образов и прообразов параллелограммов в силу диффеоморфизма $f$ с исходными элементами покрытия. Это условие с учетом сжатия (растяжения) устойчивых (неустойчивых) многообразий гарантирует свойство 3) покрытия $L$. Существуют важные для приложений математич. модели, описываемые с помощью систем дифференциальных уравнений (напр., система Лоренца), для к-рых в фазовом пространстве имеется нек-рое притягивающее множество странный аттрактор - со сложной топологич. структурой и обладающее свойством сильного разбегания (хаотич. поведения) траекторий. В ряде случаев в фазовом пространстве таких систем имеется секушая, для к-рой изучение соответствующего отображения последования по траекториям из аттрактора сводится к одномерному, вообще говоря разрывному, необратимому отображению $f$ интервала $I=[0,1]$. Класс отображений, к-рый здесь возникает, состоит из кусочно монотонных, кусочно непрерывных отображений с конечным числом $0=c_{0}&lt;c_{1}&lt;\ldots&lt;c_{N}=1$ критич. точек и точек разрыва. Естественно возникающее здесь разбиение $L=\left\{U_{1}, U_{2}, \ldots, U_{N}\right\}$, где $U_{i}=\left[c_{i-1}, c_{i}\right]$, удовлетворяет свойствам 1) и 2) и удовлетворяет свойству 3) в том и только в том случае, когда множество $D=\bigcup_{i, n} f^{-n}\left(c_{i}\right)$, $n \in \mathbb{Z}^{+}, i=1,2, \ldots, N$, плотно в $I$. Последнее свойство имеет место, напр., когда отображение является растягивающим на каждом $U_{i}$, то есть
+
+\[
+\left|f\left(x_{1}\right)-f\left(x_{2}\right)\right|&gt;q\left|x_{1}-x_{2}\right|, x_{1}, x_{2} \in U_{i}, q&gt;1 .
+\]
+
+На множестве $I \backslash D$ отображение $\varphi_{L}$ является однозначным. Пусть $\Omega_{L}^{+}=\overline{\varphi_{L}(I \backslash D)}$. Тогда система $\left(\Omega_{L}^{+}, \sigma^{+}\right)$топологически сопряжена на множестве $\varphi_{L}(I \backslash D)$ с системой $(I \backslash D, f)$. Пусть символич. динамич. система $\left(\Omega_{L}, \sigma\right)-$ естественное расширение системы $\left(\Omega_{L}^{+}, \sigma^{+}\right)$. Существует плотное в пространстве отображений из рассматриваемого класса множество таких отображений, для к-рых система $\left(\Omega_{L}, \sigma\right)$ является топологич. марковской цепью (с возможно большим, чем $N$, числом состояний). В общем же случае при условии положительности энтропии $h(f)$ существует такая конструкция построения замкнутого $\sigma$-инвариантного множества $\hat{\Omega}_{L} \subset \Omega_{L}$, что система $\left(\hat{\Omega}_{L}, \sigma\right)$ топологически сопряжена с топологич. марковской цепью со счетным множеством состояний, причем дополнение $H=\Omega_{L} \backslash \hat{\Omega}_{L}$ не содержит периодич. точек и $h\left(\left.\sigma\right|_{\hat{\Omega}_{L}}\right)=h(f)$. Для топологич. марковских цепей со счетным множеством состояний имеются обобщения основных понятий, сформулированных для таких же цепей с конечным числом состояний (см. [8]).
+
+Модифицированный способ кодирования траекторий одномерных отображений из рассматриваемого класса предложили Дж. Милнор и У. Терстон [9]. Пусть $\hat{G}=\{-N,-(N-1), \ldots,-1,+1, \ldots, N-1, N\} ; \varepsilon(x)=1$ (или -1 ), если $f(x)$ возрастает (убывает) в точке $x \in I \backslash D ; \varepsilon_{n}(x)=$ $=\prod_{i=1}^{n-1} \varepsilon\left(f^{i}(x)\right), \varepsilon_{0}(x)=1$. Нидинг-последователь ностью точки $x \in I \backslash D$ называется элемент $K(x)=$ $=\left\{K_{n}(x)\right\}_{0}^{+\infty}$ пространства $\Omega_{2}^{+} N$, где $K_{n}(x) \in \hat{G}, K_{n}(x)=$ $=\varepsilon_{n}(x) \omega_{n}(x), \omega=\left\{\omega_{n}\right\}_{0}^{+\infty}=\varphi_{L}(x)$. В пространстве $\Omega_{2 N}^{+}{ }^{\text {вво- }}$ дится лексикографич. порядок: $\left\{K_{n}\right\}_{0}^{+\infty}&lt;\left\{K_{n}^{\prime}\right\}_{0}^{+\infty}$, если найдется такое $i_{0}$, что $K_{i_{0}}&lt;K_{i_{0}}^{\prime}$ и $K_{j}=K_{j}^{\prime}, j&lt;i_{0}$. Устанавливается, что при $x_{1}&lt;x_{2}, x_{1}, x_{2} \in I \backslash D, K\left(x_{1}\right) \leqslant K\left(x_{2}\right)$. Пределы
+
+\[
+K^{+}\left(c_{i}\right)=\lim _{x \rightarrow c_{i}+0} K(x), K^{-}\left(c_{i}\right)=\lim _{x \rightarrow c_{i}-0} K(x)
+\]
+
+называются ниди нг-ин в ариантам и отображения $f$. В случае, когда множество $D$ плотно на интервале $I$, набор $\left\{K^{+}\left(c_{i}\right), K^{-}\left(c_{i}\right)\right\}_{1}^{N}$ является полным топологич. инвариантом отображений из рассматриваемого класса.
+
+Другие объекты исследования, связанные с С. д.: нахождение конструктивных условий топологич. эквивалентности топологич. марковских цепей в терминах задающих их матриц; задачи реализации символич. динамич. систем посредством построения динамич. системы $(M, f)$, неблужда- ющее множество к-рой содержит такое нульмерное множество $\Omega$, что система $(\Omega, f)$ топологически сопряжена с заданной символич. динамич. системой; изучение надстроек над символич. динамич. системами для непосредственного описания инвариантных множеств непрерывных динамич. систем (потоков); вопросы сложности динамич. систем и их индивидуальных траекторий.
+
+Лит.: [1] А нос о в Д. В., Геодезические потоки на замкнутых римановых многообразиях отрицательной кривизны, М., 1967 («Труды Математич. ин-та АН СССР», т. 90); [2] С ме йл С., «Успехи математич. наук», 1970 , т. 25, в. 1, с. 113-85; [3] Ш и ль н и к о в Л. П., «Математич. сб.», 1967, т. 74, № 3, с. 378-97; [4] С и н а й Я. Г., “Функщиональный анализ и его прилож.», 1968, т. 2, № 1, с. 70-80; [5] А л е к с е е в В. М., Символическая динамика, Одиннадцатая математическая школа, Киев, 1976; [6] Бо уэ н Р., Методы символической динамики, пер. с англ., М., 1979; [7] Б у ни мович Л. А., П е и и Я. Б., Синай Я. Г., Якобсон М. В., в кн.: Итоги науки и техники: Современные проблемы математики. Фундаментальные направления, т. 2, М., 1985, с. 113-231; [8] Гу р е в и ч Б. М., “Доклады АН СССР», 1970, т. 192, № 5, с. 963-65; [9] MilnorJ., Thurston W., On iterated maps of the interval, $\begin{array}{ll}\text { Princeton, 1977. } &amp; \text { В. З. Гринес, М. И. Малкин. }\end{array}$</text_orig>
+</article>

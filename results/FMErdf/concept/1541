@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2388_PROEKTIVNAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2388_PROEKTIVNAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1541</core:url>
+    <lbm:descriptor><![CDATA[ПРОЕКТИВНАЯ КРИВИЗНА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11578"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11579"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11580"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>величина, характеризующая отклонение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2642_RIMANOVO">риманова пространства</a> от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO">проекти</a> вно <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO">евклидова пространства</a> (то есть такого, которое может быть отображено так на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO">евклидово пространство</a>, что геодезическим первого соответствуют прямые второго). П. К. описывается те н зором п роект и в ной кр и в и з ны:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11578">$$W_{i j k}^{l}=R_{i j k}^{l}-\frac{1}{n-1}\left(\delta_{k}^{l} R_{i j}-\delta_{i}^{l} R_{i k}\right)$$</a><BR/></P><P>здесь <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11579">$$r_{i j k}^{l}-$$</a> Римана <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a>, а <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11580">$$r_{i j}-$$</a> Риччи <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#708">М. И. Войцеховский</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[величина, характеризующая отклонение риманова пространства от проекти вно евклидова пространства (то есть такого, которое может быть отображено так на евклидово пространство, что геодезическим первого соответствуют прямые второго). П. К. описывается те н зором п роект и в ной кр и в и з ны:
+
+\[
+W_{i j k}^{l}=R_{i j k}^{l}-\frac{1}{n-1}\left(\delta_{k}^{l} R_{i j}-\delta_{i}^{l} R_{i k}\right)
+\]
+
+здесь $R_{i j k}^{l}-$ Римана тензор, а $R_{i j}-$ Риччи тензор.
+
+М. И. Войцеховский.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_920_EVKLIDOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2642_RIMANOVO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

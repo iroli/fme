@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2157_PAJERLSA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2157_PAJERLSA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1285</core:url>
+    <lbm:descriptor><![CDATA[ПАЙЕРЛСА НЕРАВЕНСТВО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1464"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#9826"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#1465"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9827"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3214"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9828"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9829"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>неравенство<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9827">$$\sum_{i} \exp \left[-\left(\varphi_{i}, \hat{A} \varphi_{i}\right)\right] \leqslant \operatorname{Tr} e^{-\hat{A}},$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2157_1_PAJERLSA]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2679_SAMOUSREDNENI">самосопряженный</a> (неограниченный) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператор</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9828">$$\left\{\varphi_{i}\right\}$$</a> - ортонормированное семейство векторов в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> его определения <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9829">$$d(\hat{a})$$</a>. П. н. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3454_ShIROT">широко</a> применяется в равновесной статистич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механике</a>, в частности в теории фазовых переходов.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#9826">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#559">Peierls R.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#9826">"phys. Rev.», 1934, v. 54, p. 918</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#1465">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#127">Рюэль Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#1465">Статистическая механика, пер. с англ., М., 1971</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1464">Д. П. Санкович</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[неравенство
+
+\[
+\sum_{i} \exp \left[-\left(\varphi_{i}, \hat{A} \varphi_{i}\right)\right] \leqslant \operatorname{Tr} e^{-\hat{A}},
+\]
+
+где $\hat{A}$ - самосопряженный (неограниченный) оператор и $\left\{\varphi_{i}\right\}$ - ортонормированное семейство векторов в области его определения $D(\hat{A})$. П. н. широко применяется в равновесной статистич. механике, в частности в теории фазовых переходов.
+
+Jum.: [1] Pe ierls R., "Phys. Rev.», 1934, v. 54, p. 918; [2] Рюэл ь Д., Статистическая механика, пер. с англ., М., 1971.
+
+Д. П. Санкович.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3454_ShIROT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2679_SAMOUSREDNENI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

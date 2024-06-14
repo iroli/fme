@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_634_GIPERGEOMETRIChESKOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_634_GIPERGEOMETRIChESKOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3180</core:url>
+    <lbm:descriptor><![CDATA[ГИПЕРГЕОМЕТРИЧЕСКОЕ УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>сm. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_633_GIPERGEOMETRIChESKAJa">Гипергеометрическая функция</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">Дифференциальное уравнение</a>; аналитическая теория.<BR/></P><P>140 Гипергеометрическая<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[сM. ГUnepгеометрическая функция, Дифференциальное уравнение; аналитическая теория.
+
+140 ГИПЕРГЕОМЕТРИЧЕСКАЯ]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_633_GIPERGEOMETRIChESKAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2372_PRIGOZhINA" alphabetic_pos="2374">
+  <title>ПРИГОЖИНА УРАВНЕНИЕ</title>
+  <authors>
+    <author>И. А. Кузин</author>
+    <author>В. П. Политюков</author>
+  </authors>
+  <pages>
+    <start>460</start>
+    <end>460</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2372_1_PRIGOZhINA">\begin{gathered}\frac{\partial F}{\partial t}+v \frac{\partial F}{\partial x}=-\frac{1}{T^{0}}\left(F-G(v) \int_{v_{1}}^{v_{2}} F\left(x, v^{\prime}, t\right) d v^{\prime}\right)+ \\+(1-p) F(x, v, t) \int_{v_{1}}^{v_{2}}\left(v-v^{\prime}\right) F\left(x, v^{\prime}, t\right) d v^{\prime}, \\F(x, v, 0)=f(x, v), \quad x \in[0, L], \quad v \in\left[v_{1}, v_{2}\right], \\F(0, v, t)=h(v, t), \quad t&gt;0, \quad v \in\left[v_{1}, v_{2}\right] .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2372_2_PRIGOZhINA">\int_{v_{1}}^{v_{2}} G(v) d v=1</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2372_1_PRIGOZhINA">f(x, v, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2372_2_PRIGOZhINA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2372_3_PRIGOZhINA">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2372_4_PRIGOZhINA">t&gt;0, T^{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2372_5_PRIGOZhINA">g(v):\left[v_{1}, v_{2}\right] \rightarrow \mathbb{R}-</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/2372_1_PRIGOZhINA">
+      <rel_text>заданная функция</rel_text>
+      <target>http://libmeta.ru/fme/article/1505_LAGRANZhA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2372_2_PRIGOZhINA">
+      <rel_text>релаксации</rel_text>
+      <target>http://libmeta.ru/fme/article/2604_RELAKSATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2372_3_PRIGOZhINA">
+      <rel_text>скорость</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2372_4_PRIGOZhINA">
+      <rel_text>автомобилей</rel_text>
+      <target>http://libmeta.ru/fme/article/20_AVTOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2372_5_PRIGOZhINA">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2372_6_PRIGOZhINA">
+      <rel_text>транспорта</rel_text>
+      <target>http://libmeta.ru/fme/article/3110_TRANSLJaTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2372_7_PRIGOZhINA">
+      <rel_text>автомобильного</rel_text>
+      <target>http://libmeta.ru/fme/article/13_AVTOKOLEBANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2372_8_PRIGOZhINA">
+      <rel_text>интегро-дифференциальное уравнение</rel_text>
+      <target>http://libmeta.ru/fme/article/1044_INTEGRO-DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/fme/relation/2372_8_PRIGOZhINA]]/URI, предложенное И. Пригожиным (i. Prigogine, 1961), для описания движения URI[[http://libmeta.ru/fme/relation/2372_7_PRIGOZhINA]]/URI URI[[http://libmeta.ru/fme/relation/2372_6_PRIGOZhINA]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2372_1_PRIGOZhINA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/2372_1_PRIGOZhINA]]/URI$ - URI[[http://libmeta.ru/fme/relation/2372_5_PRIGOZhINA]]/URI URI[[http://libmeta.ru/fme/relation/2372_4_PRIGOZhINA]]/URI в точке $URI[[http://libmeta.ru/fme/formula/aux/2372_2_PRIGOZhINA]]/URI$, имеющих URI[[http://libmeta.ru/fme/relation/2372_3_PRIGOZhINA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2372_3_PRIGOZhINA]]/URI$ в момент $URI[[http://libmeta.ru/fme/formula/aux/2372_4_PRIGOZhINA]]/URI$ время URI[[http://libmeta.ru/fme/relation/2372_2_PRIGOZhINA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/2372_5_PRIGOZhINA]]/URI$ URI[[http://libmeta.ru/fme/relation/2372_1_PRIGOZhINA]]/URI с условием
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2372_2_PRIGOZhINA]]/URI
+\]</text>
+  <text_orig>интегро-дифференциальное уравнение, предложенное И. Пригожиным (I. Prigogine, 1961), для описания движения автомобильного транспорта
+
+\[
+\begin{gathered}
+\frac{\partial F}{\partial t}+v \frac{\partial F}{\partial x}=-\frac{1}{T^{0}}\left(F-G(v) \int_{v_{1}}^{v_{2}} F\left(x, v^{\prime}, t\right) d v^{\prime}\right)+ \\
++(1-p) F(x, v, t) \int_{v_{1}}^{v_{2}}\left(v-v^{\prime}\right) F\left(x, v^{\prime}, t\right) d v^{\prime}, \\
+F(x, v, 0)=f(x, v), \quad x \in[0, L], \quad v \in\left[v_{1}, v_{2}\right], \\
+F(0, v, t)=h(v, t), \quad t&gt;0, \quad v \in\left[v_{1}, v_{2}\right] .
+\end{gathered}
+\]
+
+Здесь $F(x, v, t)$ - плотность автомобилей в точке $x$, имеющих скорость $v$ в момент $t&gt;0, T^{0}-$ время релаксации, $G(v):\left[v_{1}, v_{2}\right] \rightarrow \mathbb{R}-$ заданная функция с условием
+
+\[
+\int_{v_{1}}^{v_{2}} G(v) d v=1
+\]
+
+И. А. Кузин, В. П. Политюков.</text_orig>
+</article>

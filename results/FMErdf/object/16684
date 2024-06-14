@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_16684">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mo>&#x0222B;</mo><mrow><mo>&#x02212;</mo><mo>&#x0221E;</mo></mrow><mrow><mo>&#x02212;</mo><msub><mi>&#x003BB;</mi><mrow><mn>0</mn></mrow></msub></mrow></msubsup><mi>d</mi><mi>F</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003BB;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><msubsup><mo>&#x0222B;</mo><mrow><mo>&#x02212;</mo><msub><mi>&#x003BB;</mi><mrow><mn>0</mn></mrow></msub></mrow><mrow><msub><mi>&#x003BB;</mi><mrow><mn>0</mn></mrow></msub></mrow></msubsup><msup><mi>&#x003BB;</mi><mrow><mn>2</mn></mrow></msup><mi>d</mi><mi>F</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003BB;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002B;</mo><msubsup><mo>&#x0222B;</mo><mrow><msub><mi>&#x003BB;</mi><mrow><mn>0</mn></mrow></msub></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mi>d</mi><mi>F</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003BB;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003C;</mo><mo>&#x0221E;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\int_{-\infty}^{-\lambda_{0}} d F(\lambda)+\int_{-\lambda_{0}}^{\lambda_{0}} \lambda^{2} d F(\lambda)+\int_{\lambda_{0}}^{\infty} d F(\lambda)&lt;\infty$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

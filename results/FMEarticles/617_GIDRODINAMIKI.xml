@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/617_GIDRODINAMIKI" alphabetic_pos="617">
+  <title>ГИДРОДИНАМИКИ УРАВНЕНИЯ, СТАТИСТИЧЕСКИЕ РЕШЕНИЯ</title>
+  <authors>
+    <author>М. И. Вишик</author>
+    <author>А. В. Фурсиков</author>
+  </authors>
+  <pages>
+    <start>135</start>
+    <end>136</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/617_1_GIDRODINAMIKI">\begin{gathered}\partial u(t, x) / \partial t+\sum_{1}^{3} u^{j} \partial u / \partial x^{j}= \\=v \Delta u+\nabla p(t, x)+f(t, x), \quad \operatorname{div} u=0,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/617_2_GIDRODINAMIKI">u(t, x)=0 \quad \text { при } \quad x=\left(x^{1}, x^{2}, x^{3}\right) \in \partial \Omega,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/617_3_GIDRODINAMIKI">u(0, x)=u_{0}(x) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_1_GIDRODINAMIKI">u=\left(u^{1}, u^{2}, u^{3}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_2_GIDRODINAMIKI">p-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_3_GIDRODINAMIKI">f-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_4_GIDRODINAMIKI">v&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_5_GIDRODINAMIKI">\omega \subset \mathbb{R}^{3}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_6_GIDRODINAMIKI">\partial \Omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_7_GIDRODINAMIKI">t=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_8_GIDRODINAMIKI">u_{0}(x)=u_{0}(x, \omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_9_GIDRODINAMIKI">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_10_GIDRODINAMIKI">u(t, x, \omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_11_GIDRODINAMIKI">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_12_GIDRODINAMIKI">u(t, x, \omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/617_13_GIDRODINAMIKI">\mu</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/617_1_GIDRODINAMIKI">
+      <rel_text>распределение вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/617_2_GIDRODINAMIKI">
+      <rel_text>распределением вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/617_3_GIDRODINAMIKI">
+      <rel_text>случайное векторное</rel_text>
+      <target>http://libmeta.ru/fme/article/354_VEKTORNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/617_4_GIDRODINAMIKI">
+      <rel_text>начальное условие</rel_text>
+      <target>http://libmeta.ru/fme/article/1873_NAChAL'NYE</target>
+    </relation>
+  </relations>
+  <text>вероятностная мера, сосредоточенная на решениях системы Навье - Стокса уравнений, описывающей течение вязкой несжимаемой жидкости.
+
+Система Навье - Стокса имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/617_1_GIDRODINAMIKI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/617_1_GIDRODINAMIKI]]/URI$ скорость, $URI[[http://libmeta.ru/fme/formula/aux/617_2_GIDRODINAMIKI]]/URI$ давление, $URI[[http://libmeta.ru/fme/formula/aux/617_3_GIDRODINAMIKI]]/URI$ плотность внешних сил, $URI[[http://libmeta.ru/fme/formula/aux/617_4_GIDRODINAMIKI]]/URI$ - коэффициент вязкости, $URI[[http://libmeta.ru/fme/formula/aux/617_5_GIDRODINAMIKI]]/URI$ об-
+
+Гидродинамики 135 ласть, заполненная жидкостью. На границе $URI[[http://libmeta.ru/fme/formula/aux/617_6_GIDRODINAMIKI]]/URI$ этой области обычно задаются условия прилипания:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/617_2_GIDRODINAMIKI]]/URI
+\]
+
+а при $URI[[http://libmeta.ru/fme/formula/aux/617_7_GIDRODINAMIKI]]/URI$ URI[[http://libmeta.ru/fme/relation/617_4_GIDRODINAMIKI]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/617_3_GIDRODINAMIKI]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/617_8_GIDRODINAMIKI]]/URI$ - URI[[http://libmeta.ru/fme/relation/617_3_GIDRODINAMIKI]]/URI поле с URI[[http://libmeta.ru/fme/relation/617_2_GIDRODINAMIKI]]/URI $URI[[http://libmeta.ru/fme/formula/aux/617_9_GIDRODINAMIKI]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/617_10_GIDRODINAMIKI]]/URI$ - решение указанной задачи. Тогда мера $URI[[http://libmeta.ru/fme/formula/aux/617_11_GIDRODINAMIKI]]/URI$, задающая URI[[http://libmeta.ru/fme/relation/617_1_GIDRODINAMIKI]]/URI для $URI[[http://libmeta.ru/fme/formula/aux/617_12_GIDRODINAMIKI]]/URI$, называется статистическим реш е н и е м, отвечающим начальной мере $URI[[http://libmeta.ru/fme/formula/aux/617_13_GIDRODINAMIKI]]/URI$.</text>
+  <text_orig>вероятностная мера, сосредоточенная на решениях системы Навье - Стокса уравнений, описывающей течение вязкой несжимаемой жидкости.
+
+Система Навье - Стокса имеет вид
+
+\[
+\begin{gathered}
+\partial u(t, x) / \partial t+\sum_{1}^{3} u^{j} \partial u / \partial x^{j}= \\
+=v \Delta u+\nabla p(t, x)+f(t, x), \quad \operatorname{div} u=0,
+\end{gathered}
+\]
+
+где $u=\left(u^{1}, u^{2}, u^{3}\right)-$ скорость, $p-$ давление, $f-$ плотность внешних сил, $v&gt;0$ - коэффициент вязкости, $\Omega \subset \mathbb{R}^{3}-$ об-
+
+ГИДРОДИНАМИКИ 135 ласть, заполненная жидкостью. На границе $\partial \Omega$ этой области обычно задаются условия прилипания:
+
+\[
+u(t, x)=0 \quad \text { при } \quad x=\left(x^{1}, x^{2}, x^{3}\right) \in \partial \Omega,
+\]
+
+а при $t=0$ начальное условие:
+
+\[
+u(0, x)=u_{0}(x) .
+\]
+
+Пусть $u_{0}(x)=u_{0}(x, \omega)$ - случайное векторное поле с распределением вероятностей $\mu$, а $u(t, x, \omega)$ - решение указанной задачи. Тогда мера $P$, задаюшая распределение вероятностей для $u(t, x, \omega)$, называется статистическим реш е н и е м, отвечающим начальной мере $\mu$.
+
+М. И. Вишик, А. В. Фурсиков.</text_orig>
+</article>

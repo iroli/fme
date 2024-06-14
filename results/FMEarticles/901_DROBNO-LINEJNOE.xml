@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/901_DROBNO-LINEJNOE" alphabetic_pos="903">
+  <title>ДРОБНО-ЛИНЕЙНОЕ ОТОБРАЖЕНИЕ, ДРОБНО-ЛИНЕЙНОЕ ПРЕОБРАЗОВАНИЕ</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>197</start>
+    <end>197</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/901_1_DROBNO-LINEJNOE">z \rightarrow w=L(z)=\frac{a z+b}{c z+d}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_1_DROBNO-LINEJNOE">\mathbb{c}^{n} \rightarrow \mathbb{C}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_2_DROBNO-LINEJNOE">\mathbb{c}^{1}=\mathbb{c}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_3_DROBNO-LINEJNOE">a d-b c \neq 0 ; \quad</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_4_DROBNO-LINEJNOE">a d-b c=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_5_DROBNO-LINEJNOE">\infty \rightarrow a / c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_6_DROBNO-LINEJNOE">-d / c \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_7_DROBNO-LINEJNOE">\overline{\mathbb{c}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_8_DROBNO-LINEJNOE">z \rightarrow w=\tilde{a} z+\tilde{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_9_DROBNO-LINEJNOE">c=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/901_10_DROBNO-LINEJNOE">l_{0}: z \rightarrow w=1 / z</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/901_1_DROBNO-LINEJNOE">
+      <rel_text>суперпозиции</rel_text>
+      <target>http://libmeta.ru/fme/article/2992_SUPERALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/901_2_DROBNO-LINEJNOE">
+      <rel_text>получающиеся</rel_text>
+      <target>http://libmeta.ru/fme/article/2306_POLUINVARIAN</target>
+    </relation>
+  </relations>
+  <text>отображение комплексного пространства $URI[[http://libmeta.ru/fme/formula/aux/901_1_DROBNO-LINEJNOE]]/URI$, осуществляемое дробно-линейными функциями.
+
+В случае комплексной плоскости $URI[[http://libmeta.ru/fme/formula/aux/901_2_DROBNO-LINEJNOE]]/URI$ это отличное от константы отображение вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/901_1_DROBNO-LINEJNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/901_3_DROBNO-LINEJNOE]]/URI$ часто применяется унимодулярная норм и ровка $URI[[http://libmeta.ru/fme/formula/aux/901_4_DROBNO-LINEJNOE]]/URI$. Всякое Д.-л. о. доопределяется соответствиями $URI[[http://libmeta.ru/fme/formula/aux/901_5_DROBNO-LINEJNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/901_6_DROBNO-LINEJNOE]]/URI$ до взаимно однозначного отображения расширенной плоскости $URI[[http://libmeta.ru/fme/formula/aux/901_7_DROBNO-LINEJNOE]]/URI$ на себя. Простейшими среди Д.-л. о. являются линейные: $URI[[http://libmeta.ru/fme/formula/aux/901_8_DROBNO-LINEJNOE]]/URI$, URI[[http://libmeta.ru/fme/relation/901_2_DROBNO-LINEJNOE]]/URI при $URI[[http://libmeta.ru/fme/formula/aux/901_9_DROBNO-LINEJNOE]]/URI$. Всякое нелинейное Д.-л. о. представимо в виде URI[[http://libmeta.ru/fme/relation/901_1_DROBNO-LINEJNOE]]/URI двух линейных отображений и отображения $URI[[http://libmeta.ru/fme/formula/aux/901_10_DROBNO-LINEJNOE]]/URI$.</text>
+  <text_orig>отображение комплексного пространства $\mathbb{C}^{n} \rightarrow \mathbb{C}^{n}$, осуществляемое дробно-линейными функциями.
+
+В случае комплексной плоскости $\mathbb{C}^{1}=\mathbb{C}-$ это отличное от константы отображение вида
+
+\[
+z \rightarrow w=L(z)=\frac{a z+b}{c z+d}
+\]
+
+где $a d-b c \neq 0 ; \quad$ часто применяется унимодулярная норм и ровка $a d-b c=1$. Всякое Д.-л. о. доопределяется соответствиями $\infty \rightarrow a / c$ и $-d / c \rightarrow \infty$ до взаимно однозначного отображения расширенной плоскости $\overline{\mathbb{C}}$ на себя. Простейшими среди Д.-л. о. являются линейные: $z \rightarrow w=\tilde{a} z+\tilde{b}$, получающиеся при $c=0$. Всякое нелинейное Д.-л. о. представимо в виде суперпозиции двух линейных отображений и отображения $L_{0}: z \rightarrow w=1 / z$.
+
+Е. Д. Соломенцев.</text_orig>
+</article>

@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3464_EVOLJuTsIONNYJ" alphabetic_pos="3466">
+  <title>ЭВОЛЮЦИОННЫЙ ОПЕРАТОР УРАВНЕНИЙ БОГОЛЮБОВА</title>
+  <authors/>
+  <pages>
+    <start>671</start>
+    <end>671</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Пет рина Д. Я., Герасименко В. И., Малы ш е в П. В., Математические основы классической статистической механики, Киев, 1985; [2] М асло в В. П., Т а р и в е рд и е в С.Э., в Кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Теоретическая кибернетика, т. 19, М., 1982, с. 85-125.</literature_orig>
+    <unit>
+      <author>Петрина Д. Я.</author>
+      <author>Герасименко В. И.</author>
+      <author>Малышев П. В.</author>
+      <title>Математические основы классической статистической механики, Киев</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <author>Таривердиев С. Э.</author>
+      <title>в Кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Теоретическая кибернетика</title>
+      <publication>М.</publication>
+      <year>1982</year>
+      <other>т. 19, с. 85-125.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3464_1_EVOLJuTsIONNYJ">F(t)=U(t) F^{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3464_2_EVOLJuTsIONNYJ">U(t)=e^{\int d x} S(-t) e^{-\int d x},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3464_3_EVOLJuTsIONNYJ">\left(\int d x f\right)_{n}\left(x_{1}, \ldots, x_{n}\right)=\int d x_{n+1} f_{n+1}\left(x_{1}, \ldots, x_{n+1}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3464_4_EVOLJuTsIONNYJ">U(t)=\left(1-\int d x\right)^{-1} S(-t)\left(1-\int d x\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3464_1_EVOLJuTsIONNYJ">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3464_2_EVOLJuTsIONNYJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3464_3_EVOLJuTsIONNYJ">s(-t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3464_4_EVOLJuTsIONNYJ">\int d x</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/3464_1_EVOLJuTsIONNYJ">
+      <rel_text>уравнений Боголюбова</rel_text>
+      <target>http://libmeta.ru/fme/article/229_BOGOLJuBOVA</target>
+    </relation>
+  </relations>
+  <text>оператор $URI[[http://libmeta.ru/fme/formula/aux/3464_1_EVOLJuTsIONNYJ]]/URI$, с помощью которого решение задачи Коши $URI[[http://libmeta.ru/fme/formula/aux/3464_2_EVOLJuTsIONNYJ]]/URI$ для Боголюбова уравнений определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3464_1_EVOLJuTsIONNYJ]]/URI
+\]
+
+Для симметричной системы частиц он имеет вид (см. [1]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3464_2_EVOLJuTsIONNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3464_3_EVOLJuTsIONNYJ]]/URI$ - прямая сумма эволюционных операторов уравнений Лиувилля, символом $URI[[http://libmeta.ru/fme/formula/aux/3464_4_EVOLJuTsIONNYJ]]/URI$ обозначен оператор
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3464_3_EVOLJuTsIONNYJ]]/URI
+\]
+
+Для несимметричных систем Э. о. уравнений Боголюбова имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3464_4_EVOLJuTsIONNYJ]]/URI
+\]
+
+Э. о. определен на пространстве последовательностей суммируемых функций. Построено (см. [1]) расширение Э. о. URI[[http://libmeta.ru/fme/relation/3464_1_EVOLJuTsIONNYJ]]/URI на пространство последовательностей ограниченных функций (см. Термодинамический предел). Другие типы Э. о. описаны в [2].</text>
+  <text_orig>оператор $U$, с помощью которого решение задачи Коши $F$ для Боголюбова уравнений определяется формулой
+
+\[
+F(t)=U(t) F^{0}
+\]
+
+Для симметричной системы частиц он имеет вид (см. [1]):
+
+\[
+U(t)=e^{\int d x} S(-t) e^{-\int d x},
+\]
+
+где $S(-t)$ - прямая сумма эволюционных операторов уравнений Лиувилля, символом $\int d x$ обозначен оператор
+
+\[
+\left(\int d x f\right)_{n}\left(x_{1}, \ldots, x_{n}\right)=\int d x_{n+1} f_{n+1}\left(x_{1}, \ldots, x_{n+1}\right) .
+\]
+
+Для несимметричных систем Э. о. уравнений Боголюбова имеет вид:
+
+\[
+U(t)=\left(1-\int d x\right)^{-1} S(-t)\left(1-\int d x\right)
+\]
+
+Э. о. определен на пространстве последовательностей суммируемых функций. Построено (см. [1]) расширение Э. о. уравнений Боголюбова на пространство последовательностей ограниченных функций (см. Термодинамический предел). Другие типы Э. о. описаны в [2].
+
+Лит.: [1] Пет рина Д. Я., Герасименко В. И., Малы ш е в П. В., Математические основы классической статистической механики, Киев, 1985; [2] М асло в В. П., Т а р и в е рд и е в С.Э., в Кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Теоретическая кибернетика, т. 19, М., 1982, с. 85-125.</text_orig>
+</article>

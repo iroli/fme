@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2402_PROIZVODJaSchEE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2402_PROIZVODJaSchEE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1558</core:url>
+    <lbm:descriptor><![CDATA[ПРОИЗВОДЯЩЕЕ СЕМЕЙСТВО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#513"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11657"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11658"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11659"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1053"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11660"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3098"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11661"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_177"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11662"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11663"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Фу н К и Й <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11658">$$f(x, q)$$</a>, зависящих от переменной <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11659">$$x \in \mathbb{R}^{k}$$</a> и параметра $URI[[http://libmeta.ru/fme/formula/aux/2402_3_PROIZVODJaSchEE]]/URI$, задает <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1517_LAGRANZhEVO">лагранжево многообразие</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11657">$$L=\left\{(p, q) \in \mathbb{R}^{2 n} \mid \exists x, \partial F / \partial x=0, p=\partial F / \partial q\right\},$$</a><BR/></P><P>если выполнено условие невырожденности: ранг матрицы <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11660">$$\left(\partial^{2} F / \partial x^{2}, \partial^{2} F / \partial x \partial q\right)$$</a> максимально возможный. Обратно, росток любого лагранжевого <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразия</a> задается ростком подходящего невырожденного П. с. Значение П. с. заключается в том, что <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI">классификация</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1519_LAGRANZhEVO">лагранжевых отображений</a> с точностью до <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1516_LAGRANZhEVA">лагранжевой эквивалентности</a> сводится $URI[[http://libmeta.ru/fme/formula/aux/2402_5_PROIZVODJaSchEE]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI">классификации</a> П.с. функций с точностью до <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">расслоенных</a> вдоль $URI[[http://libmeta.ru/fme/formula/aux/2402_6_PROIZVODJaSchEE]]/URI$ замены координат <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11661">$$(x, q)$$</a> и прибавления <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2491_RAVNOVESNYE">функции параметра</a> $URI[[http://libmeta.ru/fme/formula/aux/2402_8_PROIZVODJaSchEE]]/URI$.<BR/></P><P>Аналогично, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1572_LEZhANDROVO">лежандрово многообразие</a> можно задавать <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2402_PROIZVODJaSchEE">производящим семейством</a> гиперповерхностей <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11662">$$f(x, q)=0$$</a> по формуле<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11663">$$l=\left\{([p], q) \in P T^{*} \mathbb{R}^{n} \cong P^{n-1} \times \mathbb{R}^{n} \mid \exists x, F=\partial F / \partial x=0, p=\partial F / \partial q\right\}$$</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#513">М. Э. Казарян</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[ФУ н К и Й $F(x, q)$, зависящих от переменной $x \in \mathbb{R}^{k}$ и параметра $q \in \mathbb{R}^{n}$, задает лагранжево многообразие
+
+\[
+L=\left\{(p, q) \in \mathbb{R}^{2 n} \mid \exists x, \partial F / \partial x=0, p=\partial F / \partial q\right\},
+\]
+
+если выполнено условие невырожденности: ранг матрицы $\left(\partial^{2} F / \partial x^{2}, \partial^{2} F / \partial x \partial q\right)$ максимально возможный. Обратно, росток любого лагранжевого многообразия задается ростком подходяшего невырожденного П. с. Значение П. с. заключается в том, что классификация лагранжевых отображжений с точностью до лагранжевой эквивалентности сводится $\mathrm{K}$ классификации П.с. функций с точностью до расслоенных вдоль $x$ замены координат $(x, q)$ и прибавления функции параметра $q$.
+
+Аналогично, лежандрово многообразие можно задавать производящим семейством гиперповерхностей $F(x, q)=0$ по формуле
+
+$L=\left\{([p], q) \in P T^{*} \mathbb{R}^{n} \cong P^{n-1} \times \mathbb{R}^{n} \mid \exists x, F=\partial F / \partial x=0, p=\partial F / \partial q\right\}$.
+
+М. Э. Казарян.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2402_PROIZVODJaSchEE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1572_LEZhANDROVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2491_RAVNOVESNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1516_LAGRANZhEVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1519_LAGRANZhEVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1517_LAGRANZhEVO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

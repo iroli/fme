@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/910_DUFFINGA" alphabetic_pos="912">
+  <title>ДУФФИНГА УРАВНЕНИЕ</title>
+  <authors>
+    <author>Н. Х. Розов</author>
+  </authors>
+  <pages>
+    <start>197</start>
+    <end>198</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] D u ffing G., Erzwungene Schwingungen bei veränderlicher Eigenfrequenz und ihre technische Bedeutung, Braunschweig, 1918; [2] Стоке р Д., Нелинейные колебания в механических и электрических системах, пер. с англ., 2 изд., М., 1953; [3] Хаяс и Т., Нелинейные колебания в физических системах, пер. с англ., М., $1968 . \quad$</literature_orig>
+    <unit>
+      <author>Duffing G.</author>
+      <title>Erzwungene Schwingungen bei veränderlicher Eigenfrequenz und ihre technische Bedeutung, Braunschweig</title>
+      <publication/>
+      <year>1918</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Стокер Д.</author>
+      <title>Нелинейные колебания в механических и электрических системах</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1953</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Хаяси Т.</author>
+      <title>Нелинейные колебания в физических системах</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/910_1_DUFFINGA">x^{\prime \prime}+k x^{\prime}+\omega_{0}^{2} x+\alpha x^{3}=F \cos \omega t,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_1_DUFFINGA">k&gt;0, \omega_{0}, \alpha, F, \omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_2_DUFFINGA">f(x)=-\omega_{0}^{2} x-\alpha x^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_3_DUFFINGA">f(t)=f \cos \omega t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_4_DUFFINGA">\alpha&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_5_DUFFINGA">\alpha&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_6_DUFFINGA">\left(^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_7_DUFFINGA">\left({ }^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_8_DUFFINGA">x=a \cos \omega t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_9_DUFFINGA">a=a(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_10_DUFFINGA">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_11_DUFFINGA">\omega / n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_12_DUFFINGA">n-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/910_13_DUFFINGA">(*)</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/910_1_DUFFINGA">
+      <rel_text>частоты</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/910_2_DUFFINGA">
+      <rel_text>частоты</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/910_3_DUFFINGA">
+      <rel_text>гармонич</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/910_4_DUFFINGA">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/910_5_DUFFINGA">
+      <rel_text>гармонич</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/910_6_DUFFINGA">
+      <rel_text>вынужденные колебания</rel_text>
+      <target>http://libmeta.ru/fme/article/478_VYNUZhDENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/910_7_DUFFINGA">
+      <rel_text>степенью свободы</rel_text>
+      <target>http://libmeta.ru/fme/article/2955_STEPENI</target>
+    </relation>
+  </relations>
+  <text>обыкновенное дифференци-
+
+альное уравнение 2-го порядка
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/910_1_DUFFINGA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/910_1_DUFFINGA]]/URI$ - постоянные. Это уравнение представляет собой важный пример системы (с одной URI[[http://libmeta.ru/fme/relation/910_7_DUFFINGA]]/URI) с нелинейной восстанавливающей силой $URI[[http://libmeta.ru/fme/formula/aux/910_2_DUFFINGA]]/URI$ и затуханием, совершающей URI[[http://libmeta.ru/fme/relation/910_6_DUFFINGA]]/URI при URI[[http://libmeta.ru/fme/relation/910_5_DUFFINGA]]/URI. внешнем воздействии $URI[[http://libmeta.ru/fme/formula/aux/910_3_DUFFINGA]]/URI$. При $URI[[http://libmeta.ru/fme/formula/aux/910_4_DUFFINGA]]/URI$ говорят о жесткой упругой силе, а при $URI[[http://libmeta.ru/fme/formula/aux/910_5_DUFFINGA]]/URI$ - о мягкой. Впервые исследование решений уравнения $URI[[http://libmeta.ru/fme/formula/aux/910_6_DUFFINGA]]/URI$ предпринял Г. Дуффинг [1]. Решения Д.у. в замкнутой форме URI[[http://libmeta.ru/fme/relation/910_4_DUFFINGA]]/URI не удается. Доказано, что оно имеет большое число разнообразных периодич. решений. В уравнении $URI[[http://libmeta.ru/fme/formula/aux/910_7_DUFFINGA]]/URI$ возможны URI[[http://libmeta.ru/fme/relation/910_3_DUFFINGA]]/URI. колебания $URI[[http://libmeta.ru/fme/formula/aux/910_8_DUFFINGA]]/URI$ с амплитудой $URI[[http://libmeta.ru/fme/formula/aux/910_9_DUFFINGA]]/URI$, к-рая является функцией URI[[http://libmeta.ru/fme/relation/910_2_DUFFINGA]]/URI (амплитудная кривая); для нек-рых значений URI[[http://libmeta.ru/fme/relation/910_1_DUFFINGA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/910_10_DUFFINGA]]/URI$ могут иметь место несколько видов колебаний, отличающихся по амплитуде. При определенных условиях в Д. у. возникают субгармонич. колебания с частотами $URI[[http://libmeta.ru/fme/formula/aux/910_11_DUFFINGA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/910_12_DUFFINGA]]/URI$ целое число. Для изучения решений уравнения $URI[[http://libmeta.ru/fme/formula/aux/910_13_DUFFINGA]]/URI$ часто применяются методы малого параметра.</text>
+  <text_orig>обыкновенное дифференци-
+
+альное уравнение 2-го порядка
+
+\[
+x^{\prime \prime}+k x^{\prime}+\omega_{0}^{2} x+\alpha x^{3}=F \cos \omega t,
+\]
+
+где $k&gt;0, \omega_{0}, \alpha, F, \omega$ - постоянные. Это уравнение представляет собой важный пример системы (с одной степенью свободы) с нелинейной восстанавливающей силой $f(x)=-\omega_{0}^{2} x-\alpha x^{3}$ и затуханием, совершаюшей вынужденные колебания при гармонич. внешнем воздействии $F(t)=F \cos \omega t$. При $\alpha&gt;0$ говорят о жесткой упругой силе, а при $\alpha&lt;0$ - о мягкой. Впервые исследование решений уравнения $\left(^{*}\right)$ предпринял Г. Дуффинг [1]. Решения Д.у. в замкнутой форме получить не удается. Доказано, что оно имеет большое число разнообразных периодич. решений. В уравнении $\left({ }^{*}\right)$ возможны гармонич. колебания $x=A \cos \omega t$ с амплитудой $A=A(\omega)$, к-рая является функцией частоты (амплитудная кривая); для нек-рых значений частоты $\omega$ могут иметь место несколько видов колебаний, отличающихся по амплитуде. При определенных условиях в Д. у. возникают субгармонич. колебания с частотами $\omega / n$, где $n-$ целое число. Для изучения решений уравнения $(*)$ часто применяются методы малого параметра.
+
+Jum.: [1] D u ffing G., Erzwungene Schwingungen bei veränderlicher Eigenfrequenz und ihre technische Bedeutung, Braunschweig, 1918; [2] Стоке р Д., Нелинейные колебания в механических и электрических системах, пер. с англ., 2 изд., М., 1953; [3] Хаяс и Т., Нелинейные колебания в физических системах, пер. с англ., М., $1968 . \quad$ Н.Х. Розов.</text_orig>
+</article>

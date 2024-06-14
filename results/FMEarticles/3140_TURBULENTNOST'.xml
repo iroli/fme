@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3140_TURBULENTNOST'" alphabetic_pos="3142">
+  <title>ТУРБУЛЕНТНОСТЬ В СТРАТИФИЦИРОВАННЫХ СРЕДАХ</title>
+  <authors>
+    <author>А. С. Монин</author>
+  </authors>
+  <pages>
+    <start>614</start>
+    <end>614</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] М о н и н А. С., Я гл о м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 1-2, М., 1965-67; [2] М он и н А. С., О з м и до в Р. В., Океанская турбулентность, Л., 1981.</literature_orig>
+    <unit>
+      <author>Монин А. С.</author>
+      <author>Яглом А. М.</author>
+      <title>Статистическая гидромеханика. Механика турбулентности, ч. 1-2</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Монин А. С.</author>
+      <author>Озмидов Р. В.</author>
+      <title>Океанская турбулентность</title>
+      <publication>Л.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3140_1_TURBULENTNOST'">E(k) \sim(\alpha g)^{4 / 5} \varepsilon_{\theta}^{2 / 5} k^{-11 / 5}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3140_2_TURBULENTNOST'">E_{\theta}(k) \sim(\alpha g)^{-2 / 5} \varepsilon_{\theta}^{4 / 5} k^{-7 / 5} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_1_TURBULENTNOST'">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_2_TURBULENTNOST'">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_3_TURBULENTNOST'">\rho^{\prime} g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_4_TURBULENTNOST'">\rho^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_5_TURBULENTNOST'">\rho_{0}(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_6_TURBULENTNOST'">\rho^{\prime} \approx-\rho \theta^{\prime} / \theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_7_TURBULENTNOST'">\theta^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_8_TURBULENTNOST'">s^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_9_TURBULENTNOST'">\rho^{\prime} / \rho \approx-\alpha \theta^{\prime}+\beta S^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_10_TURBULENTNOST'">\partial \rho_{0} / \partial z&lt;-g \rho_{0} / C^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_11_TURBULENTNOST'">c-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_12_TURBULENTNOST'">\partial \rho_{0} / \partial z&gt;-g \rho_{0} / C^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_13_TURBULENTNOST'">\partial U / \partial z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_14_TURBULENTNOST'">\mathrm{pu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_15_TURBULENTNOST'">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_16_TURBULENTNOST'">\alpha-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_17_TURBULENTNOST'">\alpha=\theta^{-1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_18_TURBULENTNOST'">l=(\alpha g)^{-3 / 2} \varepsilon^{5 / 4} \varepsilon_{\theta}^{3 / 4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_19_TURBULENTNOST'">\varepsilon, \varepsilon_{\theta}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_20_TURBULENTNOST'">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3140_21_TURBULENTNOST'">\alpha g</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/3140_1_TURBULENTNOST'">
+      <rel_text>стратифицированных средах</rel_text>
+      <target>http://libmeta.ru/fme/article/3140_TURBULENTNOST'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3140_2_TURBULENTNOST'">
+      <rel_text>подобия</rel_text>
+      <target>http://libmeta.ru/fme/article/2277_PODOBI</target>
+    </relation>
+  </relations>
+  <text>турбулентность при изменениях плотности среды $URI[[http://libmeta.ru/fme/formula/aux/3140_1_TURBULENTNOST']]/URI$ по вертикали z (направлению силы тяжести $URI[[http://libmeta.ru/fme/formula/aux/3140_2_TURBULENTNOST']]/URI$ ). Отли- чается от Т. в несжимаемой жидкости или в средах с безразличной стратификацией существенным действием архимедовых сил $URI[[http://libmeta.ru/fme/formula/aux/3140_3_TURBULENTNOST']]/URI$ на объемы с отклонениями $URI[[http://libmeta.ru/fme/formula/aux/3140_4_TURBULENTNOST']]/URI$ плотности от ее гидростатич. значения $URI[[http://libmeta.ru/fme/formula/aux/3140_5_TURBULENTNOST']]/URI$ (в земной атмосфере, конвективном слое Солнца и во многих технич. устройствах флуктуации $URI[[http://libmeta.ru/fme/formula/aux/3140_6_TURBULENTNOST']]/URI$ создаются флуктуациями температуры $URI[[http://libmeta.ru/fme/formula/aux/3140_7_TURBULENTNOST']]/URI$, и существенна термич. стратификация, в Мировом океане сравнимую роль играют флуктуации $URI[[http://libmeta.ru/fme/formula/aux/3140_8_TURBULENTNOST']]/URI$ солености и $URI[[http://libmeta.ru/fme/formula/aux/3140_9_TURBULENTNOST']]/URI$, в потоках со взвесью могут быть существенными флуктуации ее концентрации).
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/3140_10_TURBULENTNOST']]/URI$ (где $URI[[http://libmeta.ru/fme/formula/aux/3140_11_TURBULENTNOST']]/URI$ адиабатич. скорость звука), то стратификация гидростатически устойчива, Т. затрачивает энергию на работу против архимедовых сил и поэтому развивается слабо, нередко сохраняясь лишь в отдельных тонких слоях или «блинах» (повсеместно встречающихся, напр., в Мировом океане, где они образуются вследствие горизонтального расплывания вертикально коллапсирующих перемешанных пятен, остающихся после опрокидывания внутренних волн). Если же, наоборот, $URI[[http://libmeta.ru/fme/formula/aux/3140_12_TURBULENTNOST']]/URI$, то стратификация неустойчива, и за счет ее потенциальной энергии развивается бурная турбулентная конвекция (напр., кучевая конвекция в прогреваемых снизу холодных воздушных массах в земной атмосфере или ячеистая конвекция во внешних слоях Солнца). Наличие вертикального сдвига $URI[[http://libmeta.ru/fme/formula/aux/3140_13_TURBULENTNOST']]/URI$ скорости осредненного течения обычно усиливает гидродинамич. неустойчивость и развитие Т. (см. $URI[[http://libmeta.ru/fme/formula/aux/3140_14_TURBULENTNOST']]/URI$ Чардсона число).
+
+В описании Т. в стратифицированных средах существенную роль играет параметр «плавучести» $URI[[http://libmeta.ru/fme/formula/aux/3140_15_TURBULENTNOST']]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/3140_16_TURBULENTNOST']]/URI$ коэффициент расширения (у идеального газа $URI[[http://libmeta.ru/fme/formula/aux/3140_17_TURBULENTNOST']]/URI$ ). В случае развитой Т. возникает «масштаб плавучести» $URI[[http://libmeta.ru/fme/formula/aux/3140_18_TURBULENTNOST']]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/3140_19_TURBULENTNOST']]/URI$ скорости спектрального переноса кинетич. энергии и меры температурных неоднородностей (а. М. Обухов, 1949), и в так наз. инерционноконвективном интервале волновых чисел $URI[[http://libmeta.ru/fme/formula/aux/3140_20_TURBULENTNOST']]/URI$ спектры Т. при устойчивой стратификации принимают вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3140_1_TURBULENTNOST']]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3140_2_TURBULENTNOST']]/URI
+\]
+
+В Монина - Обухова теории URI[[http://libmeta.ru/fme/relation/3140_2_TURBULENTNOST']]/URI для описания энергонесущих компонент Т. в URI[[http://libmeta.ru/fme/relation/3140_1_TURBULENTNOST']]/URI к $URI[[http://libmeta.ru/fme/formula/aux/3140_21_TURBULENTNOST']]/URI$ добавляются вертикальные турбулентные потоки количества движения и массы (или тепла).</text>
+  <text_orig>турбулентность при изменениях плотности среды $\rho$ по вертикали z (направлению силы тяжести $g$ ). Отли- чается от Т. в несжимаемой жидкости или в средах с безразличной стратификацией существенным действием архимедовых сил $\rho^{\prime} g$ на объемы с отклонениями $\rho^{\prime}$ плотности от ее гидростатич. значения $\rho_{0}(z)$ (в земной атмосфере, конвективном слое Солнца и во многих технич. устройствах флуктуации $\rho^{\prime} \approx-\rho \theta^{\prime} / \theta$ создаются флуктуациями температуры $\theta^{\prime}$, и существенна термич. стратификация, в Мировом океане сравнимую роль играют флуктуации $S^{\prime}$ солености и $\rho^{\prime} / \rho \approx-\alpha \theta^{\prime}+\beta S^{\prime}$, в потоках со взвесью могут быть существенными флуктуации ее концентрации).
+
+Если $\partial \rho_{0} / \partial z&lt;-g \rho_{0} / C^{2}$ (где $C-$ адиабатич. скорость звука), то стратификация гидростатически устойчива, Т. затрачивает энергию на работу против архимедовых сил и поэтому развивается слабо, нередко сохраняясь лишь в отдельных тонких слоях или «блинах» (повсеместно встречающихся, напр., в Мировом океане, где они образуются вследствие горизонтального расплывания вертикально коллапсирующих перемешанных пятен, остаюшихся после опрокидывания внутренних волн). Если же, наоборот, $\partial \rho_{0} / \partial z&gt;-g \rho_{0} / C^{2}$, то стратификация неустойчива, и за счет ее потенциальной энергии развивается бурная турбулентная конвекция (напр., кучевая конвекция в прогреваемых снизу холодных воздушных массах в земной атмосфере или ячеистая конвекция во внешних слоях Солнца). Наличие вертикального сдвига $\partial U / \partial z$ скорости осредненного течения обычно усиливает гидродинамич. неустойчивость и развитие Т. (см. $\mathrm{Pu}$ чардсона число).
+
+В описании Т. в стратифицированных средах существенную роль играет параметр «плавучести» $\alpha$, где $\alpha-$ коэффициент расширения (у идеального газа $\alpha=\theta^{-1}$ ). В случае развитой Т. возникает «масштаб плавучести» $L=(\alpha g)^{-3 / 2} \varepsilon^{5 / 4} \varepsilon_{\theta}^{3 / 4}$, где $\varepsilon, \varepsilon_{\theta}-$ скорости спектрального переноса кинетич. энергии и меры температурных неоднородностей (А. М. Обухов, 1949), и в так наз. инерционноконвективном интервале волновых чисел $k$ спектры Т. при устойчивой стратификации принимают вид:
+
+\[
+E(k) \sim(\alpha g)^{4 / 5} \varepsilon_{\theta}^{2 / 5} k^{-11 / 5}
+\]
+
+и
+
+\[
+E_{\theta}(k) \sim(\alpha g)^{-2 / 5} \varepsilon_{\theta}^{4 / 5} k^{-7 / 5} .
+\]
+
+В Монина - Обухова теории подобия для описания энергонесуших компонент Т. в стратифицированных средах к $\alpha g$ добавляются вертикальные турбулентные потоки количества движения и массы (или тепла).
+
+Лum.: [1] М о н и н А. С., Я гл о м А. М., Статистическая гидромеханика. Механика турбулентности, ч. 1-2, М., 1965-67; [2] М он и н А. С., О з м и до в Р. В., Океанская турбулентность, Л., 1981.
+
+А. С. Монин.</text_orig>
+</article>

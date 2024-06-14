@@ -1,0 +1,385 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2983_SUBGARMONIChESKAJa" alphabetic_pos="2985">
+  <title>СУБГАРМОНИЧЕСКАЯ ФУНКЦИЯ</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>584</start>
+    <end>585</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Привалов И. И., Субгармонические функции, М.Л., 1937; [2] Хей ман У., Ке н неди П., Субгармонические функции, пер. с англ., М., 1980; [3] В л а д и м и ро в В. С., Методы теории функций многих комплексных переменных, М., 1964.</literature_orig>
+    <unit>
+      <author>Привалов И. И.</author>
+      <title>Субгармонические функции</title>
+      <publication>М.Л.</publication>
+      <year>1937</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Хейман У.</author>
+      <author>Кеннеди П.</author>
+      <title>Субгармонические функции</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Методы теории функций многих комплексных переменных</title>
+      <publication>М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_1_SUBGARMONIChESKAJa">u(x) \leqslant v(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_2_SUBGARMONIChESKAJa">\sum_{k=1}^{m} \lambda_{k} u_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_3_SUBGARMONIChESKAJa">V=V(\infty)=\left\{x \in \mathbb{R}^{n}:|x|&gt;R\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_4_SUBGARMONIChESKAJa">I(u ; a, r)=\frac{1}{s_{n} r^{n-1}} \int_{S(a, r)} u(x) d \sigma(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_5_SUBGARMONIChESKAJa">J(u ; a, r)=\frac{1}{v_{n} r^{n}} \int_{B(a, r)} u(x) d v(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_6_SUBGARMONIChESKAJa">u(a) \leqslant J(u ; a, r) \leqslant I(u ; a, r), 0 \leqslant r \leqslant r_{2} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_7_SUBGARMONIChESKAJa">u_{m}^{(k)}(x)=J\left(u_{m}^{(k-1)} ; x, \frac{1}{m}\right), \quad u_{m}^{(0)}(x)=u(x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_8_SUBGARMONIChESKAJa">u(x)=\int_{E} k(x-\xi) d \mu(\xi)+h(x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_9_SUBGARMONIChESKAJa">u(x)=-\int_{\bar{G}} g(x, \xi) d \mu(\xi)+w(x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2983_10_SUBGARMONIChESKAJa">\int_{S(0, r)} u^{+}(r \xi) d \sigma(\xi)&lt;c</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_1_SUBGARMONIChESKAJa">u=u(x): D \rightarrow[-\infty, \infty)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_2_SUBGARMONIChESKAJa">x=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_3_SUBGARMONIChESKAJa">\mathbb{r}^{n}, n \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_4_SUBGARMONIChESKAJa">d \subset \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_5_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_6_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_7_SUBGARMONIChESKAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_8_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_9_SUBGARMONIChESKAJa">v(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_10_SUBGARMONIChESKAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_11_SUBGARMONIChESKAJa">\bar{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_12_SUBGARMONIChESKAJa">\partial G</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_13_SUBGARMONIChESKAJa">\bar{g}[v(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_14_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_15_SUBGARMONIChESKAJa">\bar{g}]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_16_SUBGARMONIChESKAJa">u(x) \not \equiv-\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_17_SUBGARMONIChESKAJa">u(x) \in C^{2}(D)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_18_SUBGARMONIChESKAJa">\delta u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_19_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_20_SUBGARMONIChESKAJa">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_21_SUBGARMONIChESKAJa">z=\left(z_{1}, \ldots, z_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_22_SUBGARMONIChESKAJa">|f(z)|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_23_SUBGARMONIChESKAJa">\ln |f(z)|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_24_SUBGARMONIChESKAJa">u^{*}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_25_SUBGARMONIChESKAJa">-u^{*}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_26_SUBGARMONIChESKAJa">u_{1}, \ldots, u_{m}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_27_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_28_SUBGARMONIChESKAJa">\lambda_{1}, \ldots, \lambda_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_29_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_30_SUBGARMONIChESKAJa">\sup \left\{u_{k}(x) ; 1 \leqslant k \leqslant m\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_31_SUBGARMONIChESKAJa">\left\{u_{k}\right\}_{k=1}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_32_SUBGARMONIChESKAJa">\left\{u_{k}\right\}_{k=1}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_33_SUBGARMONIChESKAJa">u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_34_SUBGARMONIChESKAJa">d, \varphi(u)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_35_SUBGARMONIChESKAJa">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_36_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_37_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_38_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_39_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_40_SUBGARMONIChESKAJa">\varphi(u)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_41_SUBGARMONIChESKAJa">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_42_SUBGARMONIChESKAJa">\varphi(u(x))-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_43_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_44_SUBGARMONIChESKAJa">u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_45_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_46_SUBGARMONIChESKAJa">e^{\lambda u(x)}, \lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_47_SUBGARMONIChESKAJa">\left[u^{+}(x)\right]^{k}, k \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_48_SUBGARMONIChESKAJa">u^{+}(x)=\sup \{u(x), 0\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_49_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_50_SUBGARMONIChESKAJa">u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_51_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_52_SUBGARMONIChESKAJa">|u(x)|^{k}, k \geqslant 1,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_53_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_54_SUBGARMONIChESKAJa">u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_55_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_56_SUBGARMONIChESKAJa">\xi \in \partial D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_57_SUBGARMONIChESKAJa">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_58_SUBGARMONIChESKAJa">v=v(\xi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_59_SUBGARMONIChESKAJa">u(x)&lt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_60_SUBGARMONIChESKAJa">d \cap V</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_61_SUBGARMONIChESKAJa">u(x)&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_62_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_63_SUBGARMONIChESKAJa">u(x) \equiv 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_64_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_65_SUBGARMONIChESKAJa">\xi=\infty \in \partial D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_66_SUBGARMONIChESKAJa">u(z)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_67_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_68_SUBGARMONIChESKAJa">\mathbb{c}^{n}, n \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_69_SUBGARMONIChESKAJa">z=z(w)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_70_SUBGARMONIChESKAJa">d^{\prime} \subset \mathbb{C}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_71_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_72_SUBGARMONIChESKAJa">u(z(w))-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_73_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_74_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_75_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_76_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_77_SUBGARMONIChESKAJa">-u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_78_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_79_SUBGARMONIChESKAJa">u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_80_SUBGARMONIChESKAJa">\mathbb{r}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_81_SUBGARMONIChESKAJa">u(x)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_82_SUBGARMONIChESKAJa">s_{n}=2 \pi^{n / 2} \frac{1}{\Gamma(n / 2)}, v_{n}=s_{n} / n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_83_SUBGARMONIChESKAJa">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_84_SUBGARMONIChESKAJa">u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_85_SUBGARMONIChESKAJa">r_{1} \leqslant r=|x-a| \leqslant r_{2}, 0&lt;r_{1}&lt;r_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_86_SUBGARMONIChESKAJa">i(u ; a, r), J(u ; a, r)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_87_SUBGARMONIChESKAJa">m(u ; a, r)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_88_SUBGARMONIChESKAJa">=\max \{u(x): v(-a)=r\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_89_SUBGARMONIChESKAJa">\ln r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_90_SUBGARMONIChESKAJa">n=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_91_SUBGARMONIChESKAJa">r^{2-n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_92_SUBGARMONIChESKAJa">n \geqslant 3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_93_SUBGARMONIChESKAJa">r_{1} \leqslant r \leqslant r_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_94_SUBGARMONIChESKAJa">u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_95_SUBGARMONIChESKAJa">0 \leqslant r=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_96_SUBGARMONIChESKAJa">=|x-a| \leqslant r_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_97_SUBGARMONIChESKAJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_98_SUBGARMONIChESKAJa">j-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_99_SUBGARMONIChESKAJa">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_100_SUBGARMONIChESKAJa">0 \leqslant r \leqslant r_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_101_SUBGARMONIChESKAJa">u(a)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_102_SUBGARMONIChESKAJa">=j(u ; a, 0)=I(u ; a, 0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_103_SUBGARMONIChESKAJa">i(u ; a, r)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_104_SUBGARMONIChESKAJa">j(u ; a, r)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_105_SUBGARMONIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_106_SUBGARMONIChESKAJa">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_107_SUBGARMONIChESKAJa">r-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_108_SUBGARMONIChESKAJa">d^{\prime} \subset D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_109_SUBGARMONIChESKAJa">j(u ; a, r)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_110_SUBGARMONIChESKAJa">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_111_SUBGARMONIChESKAJa">\left\{u_{m}^{(k)}(x)\right\}_{m=m_{0}}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_112_SUBGARMONIChESKAJa">m \rightarrow \infty \mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_113_SUBGARMONIChESKAJa">n \geqslant 3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_114_SUBGARMONIChESKAJa">n=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_115_SUBGARMONIChESKAJa">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_116_SUBGARMONIChESKAJa">u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_117_SUBGARMONIChESKAJa">d \subset \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_118_SUBGARMONIChESKAJa">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_119_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_120_SUBGARMONIChESKAJa">e \subset D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_121_SUBGARMONIChESKAJa">k(x-\xi)=\ln |x-\xi|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_122_SUBGARMONIChESKAJa">n=2, k(x-\xi)=-|x-\xi|^{2-n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_123_SUBGARMONIChESKAJa">n \geqslant 3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_124_SUBGARMONIChESKAJa">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_125_SUBGARMONIChESKAJa">e-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_126_SUBGARMONIChESKAJa">e=\bar{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_127_SUBGARMONIChESKAJa">g(x, \xi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_128_SUBGARMONIChESKAJa">w(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_129_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_130_SUBGARMONIChESKAJa">\bar{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_131_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_132_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_133_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_134_SUBGARMONIChESKAJa">d=b(0, r)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_135_SUBGARMONIChESKAJa">c&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_136_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_137_SUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_138_SUBGARMONIChESKAJa">w(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_139_SUBGARMONIChESKAJa">v=v^{+}-v^{-}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_140_SUBGARMONIChESKAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_141_SUBGARMONIChESKAJa">u(x) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_142_SUBGARMONIChESKAJa">\ln u(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2983_143_SUBGARMONIChESKAJa">v^{+}=0</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/2983_1_SUBGARMONIChESKAJa">
+      <rel_text>логарифмически субгармоническая функция</rel_text>
+      <target>http://libmeta.ru/fme/article/1633_LOGARIFMIChESKI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2983_2_SUBGARMONIChESKAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2983_3_SUBGARMONIChESKAJa">
+      <rel_text>гармонич</rel_text>
+      <target>http://libmeta.ru/fme/article/522_GARMONIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2983_4_SUBGARMONIChESKAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>Функция $URI[[http://libmeta.ru/fme/formula/aux/2983_1_SUBGARMONIChESKAJa]]/URI$ точки $URI[[http://libmeta.ru/fme/formula/aux/2983_2_SUBGARMONIChESKAJa]]/URI$ евклидова пространства $URI[[http://libmeta.ru/fme/formula/aux/2983_3_SUBGARMONIChESKAJa]]/URI$, определенная в области $URI[[http://libmeta.ru/fme/formula/aux/2983_4_SUBGARMONIChESKAJa]]/URI$ и обладающая следующими свойствами: 1) $URI[[http://libmeta.ru/fme/formula/aux/2983_5_SUBGARMONIChESKAJa]]/URI$ полунепрерывна сверху в $URI[[http://libmeta.ru/fme/formula/aux/2983_6_SUBGARMONIChESKAJa]]/URI$; 2) если $URI[[http://libmeta.ru/fme/formula/aux/2983_7_SUBGARMONIChESKAJa]]/URI$ - относительно компактная подобласть $URI[[http://libmeta.ru/fme/formula/aux/2983_8_SUBGARMONIChESKAJa]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/2983_9_SUBGARMONIChESKAJa]]/URI$ - гармоническая функция в $URI[[http://libmeta.ru/fme/formula/aux/2983_10_SUBGARMONIChESKAJa]]/URI$, непрерывная на замыкании $URI[[http://libmeta.ru/fme/formula/aux/2983_11_SUBGARMONIChESKAJa]]/URI$ и такая, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_1_SUBGARMONIChESKAJa]]/URI
+\]
+
+на границе $URI[[http://libmeta.ru/fme/formula/aux/2983_12_SUBGARMONIChESKAJa]]/URI$, то неравенство (1) выполняется всюду в $URI[[http://libmeta.ru/fme/formula/aux/2983_13_SUBGARMONIChESKAJa]]/URI$ называется гармонической мажорантой С. ф. $URI[[http://libmeta.ru/fme/formula/aux/2983_14_SUBGARMONIChESKAJa]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2983_15_SUBGARMONIChESKAJa]]/URI$; 3) $URI[[http://libmeta.ru/fme/formula/aux/2983_16_SUBGARMONIChESKAJa]]/URI$ (это условие иногда опускается). Если $URI[[http://libmeta.ru/fme/formula/aux/2983_17_SUBGARMONIChESKAJa]]/URI$, то для того чтобы она была С. ф., необходимо и достаточно, чтобы оператор Лапласа $URI[[http://libmeta.ru/fme/formula/aux/2983_18_SUBGARMONIChESKAJa]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2983_19_SUBGARMONIChESKAJa]]/URI$ был неотрицателен. Если $URI[[http://libmeta.ru/fme/formula/aux/2983_20_SUBGARMONIChESKAJa]]/URI$ - аналитич. функция одного или нескольких комплексных переменных $URI[[http://libmeta.ru/fme/formula/aux/2983_21_SUBGARMONIChESKAJa]]/URI$, то модуль $URI[[http://libmeta.ru/fme/formula/aux/2983_22_SUBGARMONIChESKAJa]]/URI$ и логарифм модуля $URI[[http://libmeta.ru/fme/formula/aux/2983_23_SUBGARMONIChESKAJa]]/URI$ являются С. ф. Субгармонич. функцию можно рассматривать как аналог выпуклых функций одного действительного переменного. Функция $URI[[http://libmeta.ru/fme/formula/aux/2983_24_SUBGARMONIChESKAJa]]/URI$ называется с у п е р га р м о н и ч е с ко й, если функция $URI[[http://libmeta.ru/fme/formula/aux/2983_25_SUBGARMONIChESKAJa]]/URI$ есть С. ф.
+
+Простейшие свойства С. ф.:
+
+1) Если $URI[[http://libmeta.ru/fme/formula/aux/2983_26_SUBGARMONIChESKAJa]]/URI$ С.ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_27_SUBGARMONIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2983_28_SUBGARMONIChESKAJa]]/URI$ - неотрицательные числа, то линейная комбинация
+
+- С. ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_29_SUBGARMONIChESKAJa]]/URI$.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_2_SUBGARMONIChESKAJa]]/URI
+\] 2) Верхняя огибающая $URI[[http://libmeta.ru/fme/formula/aux/2983_30_SUBGARMONIChESKAJa]]/URI$ конечного семейства С. Ф. $URI[[http://libmeta.ru/fme/formula/aux/2983_31_SUBGARMONIChESKAJa]]/URI$ есть С. ф. Если верхняя огибающая бесконечного семейства С. С. $URI[[http://libmeta.ru/fme/formula/aux/2983_32_SUBGARMONIChESKAJa]]/URI$ полунепрерывна сверху, то она также есть С. ф.
+
+3) Равномерно сходящаяся и монотонно убывающая последовательности С. Ф. сходятся к С. Ф.
+
+4) Если $URI[[http://libmeta.ru/fme/formula/aux/2983_33_SUBGARMONIChESKAJa]]/URI$ С. ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_34_SUBGARMONIChESKAJa]]/URI$ выпуклая неубывающая функция на области значений $URI[[http://libmeta.ru/fme/formula/aux/2983_35_SUBGARMONIChESKAJa]]/URI$ функции $URI[[http://libmeta.ru/fme/formula/aux/2983_36_SUBGARMONIChESKAJa]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2983_37_SUBGARMONIChESKAJa]]/URI$, или если $URI[[http://libmeta.ru/fme/formula/aux/2983_38_SUBGARMONIChESKAJa]]/URI$ - гармонич. функция в $URI[[http://libmeta.ru/fme/formula/aux/2983_39_SUBGARMONIChESKAJa]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/2983_40_SUBGARMONIChESKAJa]]/URI$ - выпуклая функция на $URI[[http://libmeta.ru/fme/formula/aux/2983_41_SUBGARMONIChESKAJa]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2983_42_SUBGARMONIChESKAJa]]/URI$ С. ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_43_SUBGARMONIChESKAJa]]/URI$. В частности, если $URI[[http://libmeta.ru/fme/formula/aux/2983_44_SUBGARMONIChESKAJa]]/URI$ С. ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_45_SUBGARMONIChESKAJa]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2983_46_SUBGARMONIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2983_47_SUBGARMONIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2983_48_SUBGARMONIChESKAJa]]/URI$ суть С. ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_49_SUBGARMONIChESKAJa]]/URI$; если $URI[[http://libmeta.ru/fme/formula/aux/2983_50_SUBGARMONIChESKAJa]]/URI$ гармонич. функция в $URI[[http://libmeta.ru/fme/formula/aux/2983_51_SUBGARMONIChESKAJa]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2983_52_SUBGARMONIChESKAJa]]/URI$ С. Ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_53_SUBGARMONIChESKAJa]]/URI$.
+
+5) Принцип максимума: если $URI[[http://libmeta.ru/fme/formula/aux/2983_54_SUBGARMONIChESKAJa]]/URI$ С. ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_55_SUBGARMONIChESKAJa]]/URI$ и для любой граничной точки $URI[[http://libmeta.ru/fme/formula/aux/2983_56_SUBGARMONIChESKAJa]]/URI$ и любого $URI[[http://libmeta.ru/fme/formula/aux/2983_57_SUBGARMONIChESKAJa]]/URI$ существует окрестность $URI[[http://libmeta.ru/fme/formula/aux/2983_58_SUBGARMONIChESKAJa]]/URI$ такая, что $URI[[http://libmeta.ru/fme/formula/aux/2983_59_SUBGARMONIChESKAJa]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2983_60_SUBGARMONIChESKAJa]]/URI$, то либо $URI[[http://libmeta.ru/fme/formula/aux/2983_61_SUBGARMONIChESKAJa]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2983_62_SUBGARMONIChESKAJa]]/URI$, либо $URI[[http://libmeta.ru/fme/formula/aux/2983_63_SUBGARMONIChESKAJa]]/URI$. Для неограниченной области $URI[[http://libmeta.ru/fme/formula/aux/2983_64_SUBGARMONIChESKAJa]]/URI$ свойство 5) остается в силе, причем если $URI[[http://libmeta.ru/fme/formula/aux/2983_65_SUBGARMONIChESKAJa]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_3_SUBGARMONIChESKAJa]]/URI
+\]
+
+6) Если $URI[[http://libmeta.ru/fme/formula/aux/2983_66_SUBGARMONIChESKAJa]]/URI$ С. ф. в области $URI[[http://libmeta.ru/fme/formula/aux/2983_67_SUBGARMONIChESKAJa]]/URI$ комплексного пространства $URI[[http://libmeta.ru/fme/formula/aux/2983_68_SUBGARMONIChESKAJa]]/URI$, и $URI[[http://libmeta.ru/fme/formula/aux/2983_69_SUBGARMONIChESKAJa]]/URI$ голоморфное отображение области $URI[[http://libmeta.ru/fme/formula/aux/2983_70_SUBGARMONIChESKAJa]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2983_71_SUBGARMONIChESKAJa]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2983_72_SUBGARMONIChESKAJa]]/URI$ C. ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_73_SUBGARMONIChESKAJa]]/URI$.
+
+7) Функция $URI[[http://libmeta.ru/fme/formula/aux/2983_74_SUBGARMONIChESKAJa]]/URI$ - гармоническая в $URI[[http://libmeta.ru/fme/formula/aux/2983_75_SUBGARMONIChESKAJa]]/URI$ тогда и только тогда, если $URI[[http://libmeta.ru/fme/formula/aux/2983_76_SUBGARMONIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2983_77_SUBGARMONIChESKAJa]]/URI$ С. ф. в $URI[[http://libmeta.ru/fme/formula/aux/2983_78_SUBGARMONIChESKAJa]]/URI$.
+
+8) Если $URI[[http://libmeta.ru/fme/formula/aux/2983_79_SUBGARMONIChESKAJa]]/URI$ С. ф. во всей плоскости $URI[[http://libmeta.ru/fme/formula/aux/2983_80_SUBGARMONIChESKAJa]]/URI$ и ограничена сверху, то $URI[[http://libmeta.ru/fme/formula/aux/2983_81_SUBGARMONIChESKAJa]]/URI$ const.
+
+Важное значение имеют свойства средних
+
+И
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_4_SUBGARMONIChESKAJa]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_5_SUBGARMONIChESKAJa]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2983_82_SUBGARMONIChESKAJa]]/URI$ - объем единичного шара в $URI[[http://libmeta.ru/fme/formula/aux/2983_83_SUBGARMONIChESKAJa]]/URI$.
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/2983_84_SUBGARMONIChESKAJa]]/URI$ С. ф. в кольце $URI[[http://libmeta.ru/fme/formula/aux/2983_85_SUBGARMONIChESKAJa]]/URI$, то средние $URI[[http://libmeta.ru/fme/formula/aux/2983_86_SUBGARMONIChESKAJa]]/URI$ и максимум $URI[[http://libmeta.ru/fme/formula/aux/2983_87_SUBGARMONIChESKAJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2983_88_SUBGARMONIChESKAJa]]/URI$ являются выпуклыми функциями относительно $URI[[http://libmeta.ru/fme/formula/aux/2983_89_SUBGARMONIChESKAJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2983_90_SUBGARMONIChESKAJa]]/URI$, или относительно $URI[[http://libmeta.ru/fme/formula/aux/2983_91_SUBGARMONIChESKAJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2983_92_SUBGARMONIChESKAJa]]/URI$ на отрезке $URI[[http://libmeta.ru/fme/formula/aux/2983_93_SUBGARMONIChESKAJa]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/2983_94_SUBGARMONIChESKAJa]]/URI$ С. ф. в шаре $URI[[http://libmeta.ru/fme/formula/aux/2983_95_SUBGARMONIChESKAJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2983_96_SUBGARMONIChESKAJa]]/URI$, то, кроме того, $URI[[http://libmeta.ru/fme/formula/aux/2983_97_SUBGARMONIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2983_98_SUBGARMONIChESKAJa]]/URI$ непрерывные неубывающие функции от $URI[[http://libmeta.ru/fme/formula/aux/2983_99_SUBGARMONIChESKAJa]]/URI$ на отрезке $URI[[http://libmeta.ru/fme/formula/aux/2983_100_SUBGARMONIChESKAJa]]/URI$, причем $URI[[http://libmeta.ru/fme/formula/aux/2983_101_SUBGARMONIChESKAJa]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2983_102_SUBGARMONIChESKAJa]]/URI$. В этом последнем случае
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_6_SUBGARMONIChESKAJa]]/URI
+\]
+
+Средние $URI[[http://libmeta.ru/fme/formula/aux/2983_103_SUBGARMONIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2983_104_SUBGARMONIChESKAJa]]/URI$ как функции точки $URI[[http://libmeta.ru/fme/formula/aux/2983_105_SUBGARMONIChESKAJa]]/URI$ при фиксированных $URI[[http://libmeta.ru/fme/formula/aux/2983_106_SUBGARMONIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2983_107_SUBGARMONIChESKAJa]]/URI$ С. ф. в соответствующих областях $URI[[http://libmeta.ru/fme/formula/aux/2983_108_SUBGARMONIChESKAJa]]/URI$, причем $URI[[http://libmeta.ru/fme/formula/aux/2983_109_SUBGARMONIChESKAJa]]/URI$ непрерывна.
+
+Итерации достаточно высокого порядка $URI[[http://libmeta.ru/fme/formula/aux/2983_110_SUBGARMONIChESKAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_7_SUBGARMONIChESKAJa]]/URI
+\]
+
+образуют убывающую последовательность сколь угодно гладких С. Ф. $URI[[http://libmeta.ru/fme/formula/aux/2983_111_SUBGARMONIChESKAJa]]/URI$, сходящуюся при $URI[[http://libmeta.ru/fme/formula/aux/2983_112_SUBGARMONIChESKAJa]]/URI$ произвольно заданной С. ф.
+
+Ньютонов потенциал (при $URI[[http://libmeta.ru/fme/formula/aux/2983_113_SUBGARMONIChESKAJa]]/URI$ ) и логарифмический потенциал (при $URI[[http://libmeta.ru/fme/formula/aux/2983_114_SUBGARMONIChESKAJa]]/URI$ ) неотрицательных масс, взятые со знаком минус, являются С. Ф. во всем пространстве $URI[[http://libmeta.ru/fme/formula/aux/2983_115_SUBGARMONIChESKAJa]]/URI$. С другой стороны, справедлива теорема Рисса: если $URI[[http://libmeta.ru/fme/formula/aux/2983_116_SUBGARMONIChESKAJa]]/URI$ С. Ф. в области $URI[[http://libmeta.ru/fme/formula/aux/2983_117_SUBGARMONIChESKAJa]]/URI$, то существует единственная неотрицательная борелевская мера $URI[[http://libmeta.ru/fme/formula/aux/2983_118_SUBGARMONIChESKAJa]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/2983_119_SUBGARMONIChESKAJa]]/URI$ (м е ра Р и с а) такая, что для любого компакта $URI[[http://libmeta.ru/fme/formula/aux/2983_120_SUBGARMONIChESKAJa]]/URI$ справедливо представление
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_8_SUBGARMONIChESKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2983_121_SUBGARMONIChESKAJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2983_122_SUBGARMONIChESKAJa]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2983_123_SUBGARMONIChESKAJa]]/URI$ - гармонич. функция во внутренности $URI[[http://libmeta.ru/fme/formula/aux/2983_124_SUBGARMONIChESKAJa]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/2983_125_SUBGARMONIChESKAJa]]/URI$ регулярная замкнутая область $URI[[http://libmeta.ru/fme/formula/aux/2983_126_SUBGARMONIChESKAJa]]/URI$ с достаточно гладкой границей, допускающая функцию Грина $URI[[http://libmeta.ru/fme/formula/aux/2983_127_SUBGARMONIChESKAJa]]/URI$, то наряду с (2) справедливо также
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_9_SUBGARMONIChESKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2983_128_SUBGARMONIChESKAJa]]/URI$ - наименьшая гармонич. мажоранта С. ф. $URI[[http://libmeta.ru/fme/formula/aux/2983_129_SUBGARMONIChESKAJa]]/URI$ в области $URI[[http://libmeta.ru/fme/formula/aux/2983_130_SUBGARMONIChESKAJa]]/URI$.
+
+Представление (3), вообще говоря, не имеет места во всей URI[[http://libmeta.ru/fme/relation/2983_4_SUBGARMONIChESKAJa]]/URI определения С. Ф. $URI[[http://libmeta.ru/fme/formula/aux/2983_131_SUBGARMONIChESKAJa]]/URI$. В связи с этим важное значение имеет вопрос о выделении С. ф. $URI[[http://libmeta.ru/fme/formula/aux/2983_132_SUBGARMONIChESKAJa]]/URI$, имеющих URI[[http://libmeta.ru/fme/relation/2983_3_SUBGARMONIChESKAJa]]/URI. мажоранту во всей URI[[http://libmeta.ru/fme/relation/2983_2_SUBGARMONIChESKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2983_133_SUBGARMONIChESKAJa]]/URI$. Напр., если $URI[[http://libmeta.ru/fme/formula/aux/2983_134_SUBGARMONIChESKAJa]]/URI$ - шар и существует число $URI[[http://libmeta.ru/fme/formula/aux/2983_135_SUBGARMONIChESKAJa]]/URI$ такое, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2983_10_SUBGARMONIChESKAJa]]/URI
+\]
+
+то $URI[[http://libmeta.ru/fme/formula/aux/2983_136_SUBGARMONIChESKAJa]]/URI$ допускает представление (3) в $URI[[http://libmeta.ru/fme/formula/aux/2983_137_SUBGARMONIChESKAJa]]/URI$, причем $URI[[http://libmeta.ru/fme/formula/aux/2983_138_SUBGARMONIChESKAJa]]/URI$ в свою очередь представима интегралом Пуассона - Стилтьеса по граничной мере произвольного знака $URI[[http://libmeta.ru/fme/formula/aux/2983_139_SUBGARMONIChESKAJa]]/URI$. Кроме того, если $URI[[http://libmeta.ru/fme/formula/aux/2983_140_SUBGARMONIChESKAJa]]/URI$ - URI[[http://libmeta.ru/fme/relation/2983_1_SUBGARMONIChESKAJa]]/URI, то есть $URI[[http://libmeta.ru/fme/formula/aux/2983_141_SUBGARMONIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2983_142_SUBGARMONIChESKAJa]]/URI$ С. ф., и выполняется условие (4), то сингулярная составляющая $URI[[http://libmeta.ru/fme/formula/aux/2983_143_SUBGARMONIChESKAJa]]/URI$.</text>
+  <text_orig>ФУНКЦИЯ $u=u(x): D \rightarrow[-\infty, \infty)$ точки $x=\left(x_{1}, \ldots, x_{n}\right)$ евклидова пространства $\mathbb{R}^{n}, n \geqslant 2$, определенная в области $D \subset \mathbb{R}^{n}$ и обладающая следующими свойствами: 1) $u(x)$ полунепрерывна сверху в $D$; 2) если $G$ - относительно компактная подобласть $D$, а $v(x)$ - гармоническая функция в $G$, непрерывная на замыкании $\bar{G}$ и такая, что
+
+\[
+u(x) \leqslant v(x)
+\]
+
+на границе $\partial G$, то неравенство (1) выполняется всюду в $\bar{G}[v(x)$ называется гармонической мажорантой С. ф. $u(x)$ в $\bar{G}]$; 3) $u(x) \not \equiv-\infty$ (это условие иногда опускается). Если $u(x) \in C^{2}(D)$, то для того чтобы она была С. ф., необходимо и достаточно, чтобы оператор Лапласа $\Delta u(x)$ в $D$ был неотрицателен. Если $f(z)$ - аналитич. функция одного или нескольких комплексных переменных $z=\left(z_{1}, \ldots, z_{n}\right)$, то модуль $|f(z)|$ и логарифм модуля $\ln |f(z)|$ являются С. ф. Субгармонич. функцию можно рассматривать как аналог выпуклых функций одного действительного переменного. Функция $u^{*}(x)$ называется с у п е р га р м о н и ч е с ко й, если функция $-u^{*}(x)$ есть С. ф.
+
+Простейшие свойства С. ф.:
+
+1) Если $u_{1}, \ldots, u_{m}-$ С.ф. в $D$ и $\lambda_{1}, \ldots, \lambda_{m}$ - неотрицательные числа, то линейная комбинация
+
+- С. ф. в $D$.
+
+\[
+\sum_{k=1}^{m} \lambda_{k} u_{k}
+\] 2) Верхняя огибающая $\sup \left\{u_{k}(x) ; 1 \leqslant k \leqslant m\right\}$ конечного семейства С. Ф. $\left\{u_{k}\right\}_{k=1}^{m}$ есть С. ф. Если верхняя огибающая бесконечного семейства С. С. $\left\{u_{k}\right\}_{k=1}^{\infty}$ полунепрерывна сверху, то она также есть С. ф.
+
+3) Равномерно сходящаяся и монотонно убываюшая последовательности С. Ф. сходятся к С. Ф.
+
+4) Если $u(x)-$ С. ф. в $D, \varphi(u)-$ выпуклая неубывающая функция на области значений $E$ функции $u(x)$ в $D$, или если $u(x)$ - гармонич. функция в $D$, а $\varphi(u)$ - выпуклая функция на $E$, то $\varphi(u(x))-$ С. ф. в $D$. В частности, если $u(x)-$ С. ф. в $D$, то $e^{\lambda u(x)}, \lambda&gt;0$ и $\left[u^{+}(x)\right]^{k}, k \geqslant 1$, где $u^{+}(x)=\sup \{u(x), 0\}$ суть С. ф. в $D$; если $u(x)-$ гармонич. функция в $D$, то $|u(x)|^{k}, k \geqslant 1,-$ С. Ф. в $D$.
+
+5) Принцип максимума: если $u(x)-$ С. ф. в $D$ и для любой граничной точки $\xi \in \partial D$ и любого $\varepsilon&gt;0$ существует окрестность $V=V(\xi)$ такая, что $u(x)&lt;\varepsilon$ в $D \cap V$, то либо $u(x)&lt;0$ в $D$, либо $u(x) \equiv 0$. Для неограниченной области $D$ свойство 5) остается в силе, причем если $\xi=\infty \in \partial D$, то
+
+\[
+V=V(\infty)=\left\{x \in \mathbb{R}^{n}:|x|&gt;R\right\}
+\]
+
+6) Если $u(z)-$ С. ф. в области $D$ комплексного пространства $\mathbb{C}^{n}, n \geqslant 1$, и $z=z(w)$ голоморфное отображение области $D^{\prime} \subset \mathbb{C}^{n}$ в $D$, то $u(z(w))-$ C. ф. в $D$.
+
+7) Функция $u(x)$ - гармоническая в $D$ тогда и только тогда, если $u(x)$ и $-u(x)-$ С. ф. в $D$.
+
+8) Если $u(x)-$ С. ф. во всей плоскости $\mathbb{R}^{2}$ и ограничена сверху, то $u(x)=$ const.
+
+Важное значение имеют свойства средних
+
+И
+
+\[
+I(u ; a, r)=\frac{1}{s_{n} r^{n-1}} \int_{S(a, r)} u(x) d \sigma(x)
+\]
+
+\[
+J(u ; a, r)=\frac{1}{v_{n} r^{n}} \int_{B(a, r)} u(x) d v(x)
+\]
+
+$s_{n}=2 \pi^{n / 2} \frac{1}{\Gamma(n / 2)}, v_{n}=s_{n} / n$ - объем единичного шара в $\mathbb{R}^{n}$.
+
+Если $u(x)-$ С. ф. в кольце $r_{1} \leqslant r=|x-a| \leqslant r_{2}, 0&lt;r_{1}&lt;r_{2}$, то средние $I(u ; a, r), J(u ; a, r)$ и максимум $M(u ; a, r)=$ $=\max \{u(x): v(-a)=r\}$ являются выпуклыми функциями относительно $\ln r$ при $n=2$, или относительно $r^{2-n}$ при $n \geqslant 3$ на отрезке $r_{1} \leqslant r \leqslant r_{2}$. Если $u(x)-$ С. ф. в шаре $0 \leqslant r=$ $=|x-a| \leqslant r_{2}$, то, кроме того, $I$ и $J-$ непрерывные неубывающие функции от $r$ на отрезке $0 \leqslant r \leqslant r_{2}$, причем $u(a)=$ $=J(u ; a, 0)=I(u ; a, 0)$. В этом последнем случае
+
+\[
+u(a) \leqslant J(u ; a, r) \leqslant I(u ; a, r), 0 \leqslant r \leqslant r_{2} .
+\]
+
+Средние $I(u ; a, r)$ и $J(u ; a, r)$ как функции точки $a$ при фиксированных $u$ и $r-$ С. ф. в соответствующих областях $D^{\prime} \subset D$, причем $J(u ; a, r)$ непрерывна.
+
+Итерации достаточно высокого порядка $k$
+
+\[
+u_{m}^{(k)}(x)=J\left(u_{m}^{(k-1)} ; x, \frac{1}{m}\right), \quad u_{m}^{(0)}(x)=u(x),
+\]
+
+образуют убываюшую последовательность сколь угодно гладких С. Ф. $\left\{u_{m}^{(k)}(x)\right\}_{m=m_{0}}^{\infty}$, сходящуюся при $m \rightarrow \infty \mathrm{k}$ произвольно заданной С. ф.
+
+Ньютонов потенциал (при $n \geqslant 3$ ) и логарифмический потенциал (при $n=2$ ) неотрицательных масс, взятые со знаком минус, являются С. Ф. во всем пространстве $\mathbb{R}^{n}$. С другой стороны, справедлива теорема Рисса: если $u(x)-$ С. Ф. в области $D \subset \mathbb{R}^{n}$, то существует единственная неотрицательная борелевская мера $\mu$ на $D$ (м е ра Р и с а) такая, что для любого компакта $E \subset D$ справедливо представление
+
+\[
+u(x)=\int_{E} k(x-\xi) d \mu(\xi)+h(x),
+\]
+
+где $k(x-\xi)=\ln |x-\xi|$ при $n=2, k(x-\xi)=-|x-\xi|^{2-n}$ при $n \geqslant 3$ - гармонич. функция во внутренности $E$. Если $E-$ регулярная замкнутая область $E=\bar{G}$ с достаточно гладкой границей, допускающая функцию Грина $g(x, \xi)$, то наряду с (2) справедливо также
+
+\[
+u(x)=-\int_{\bar{G}} g(x, \xi) d \mu(\xi)+w(x),
+\]
+
+где $w(x)$ - наименьшая гармонич. мажоранта С. ф. $u(x)$ в области $\bar{G}$.
+
+Представление (3), вообще говоря, не имеет места во всей области определения С. Ф. $u(x)$. В связи с этим важное значение имеет вопрос о выделении С. ф. $u(x)$, имеющих гармонич. мажоранту во всей области $D$. Напр., если $D=B(0, r)$ - шар и сушествует число $c&gt;0$ такое, что
+
+\[
+\int_{S(0, r)} u^{+}(r \xi) d \sigma(\xi)&lt;c
+\]
+
+то $u(x)$ допускает представление (3) в $D$, причем $w(x)$ в свою очередь представима интегралом Пуассона - Стилтьеса по граничной мере произвольного знака $v=v^{+}-v^{-}$. Кроме того, если $u(x)$ - логарифмически субгармоническая функция, то есть $u(x) \geqslant 0$ и $\ln u(x)-$ С. ф., и выполняется условие (4), то сингулярная составляющая $v^{+}=0$.
+
+Лит.: [1] Привалов И. И., Субгармонические функции, М.Л., 1937; [2] Хей ман У., Ке н неди П., Субгармонические функции, пер. с англ., М., 1980; [3] В л а д и м и ро в В. С., Методы теории функций многих комплексных переменных, М., 1964.
+
+Е. Д. Соломенцев.</text_orig>
+</article>

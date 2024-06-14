@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_20039">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>&#x0222B;</mo><mi>&#x02026;</mi><mo>&#x0222B;</mo><mover><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo></mrow><mo accent="true">&#x02015;</mo></mover><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo stretchy="false">&#x00029;</mo><msubsup><mo>&#x0220F;</mo><mrow><mi>j</mi><mo>&#x0003D;</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></msubsup><mi>d</mi><msub><mi>x</mi><mrow><mi>j</mi></mrow></msub><mi>d</mi><msub><mi>y</mi><mrow><mi>j</mi></mrow></msub><mo>&#x0003D;</mo><mo stretchy="false">&#x00028;</mo><mn>2</mn><mi>&#x003C0;</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mo>&#x02212;</mo><mi>n</mi></mrow></msup><mo>Tr</mo><msubsup><mi>A</mi><mrow><msub><mi>f</mi><mrow><mn>1</mn></mrow></msub></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><msub><mi>A</mi><mrow><msub><mi>f</mi><mrow><mn>2</mn></mrow></msub></mrow></msub><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\int \ldots \int \overline{f_{1}(x, y)} f_{2}(x, y) \prod_{j=1}^{n} d x_{j} d y_{j}=(2 \pi)^{-n} \operatorname{Tr} A_{f_{1}}^{*} A_{f_{2}},$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1459_KRIVIZNY">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1459_KRIVIZNY</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/509</core:url>
+    <lbm:descriptor><![CDATA[КРИВИЗНЫ ЗАРЯДОВОГО ПРОСТРАНСТВА ТЕНЗОР]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#8"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4612"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4613"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4614"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4615"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4616"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4617"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_160"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_378"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_862"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4618"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4619"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4620"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_159"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>тензор напряженности калибровочного поля. Он задается выражением<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4612">$$F_{\mu \nu}=\partial_{v} A_{\mu}-\partial_{\mu} A_{v}+\left[A_{\mu}, A_{v}\right]$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1459_1_KRIVIZNY]]/URI$ - калибровочное поле, являющееся элементом алгебры Ли калибровочной группы $URI[[http://libmeta.ru/fme/formula/aux/1459_2_KRIVIZNY]]/URI$. При калибровочных преобразованиях из группы $URI[[http://libmeta.ru/fme/formula/aux/1459_3_KRIVIZNY]]/URI$ тензор кривизны преобразуется следующим образом:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4613">$$F_{\mu \nu} \rightarrow \omega F_{\mu v} \omega^{-1}$$</a><BR/></P><P>При параллельном переносе поля $URI[[http://libmeta.ru/fme/formula/aux/1459_4_KRIVIZNY]]/URI$, реализующего представление калибровочной группы $URI[[http://libmeta.ru/fme/formula/aux/1459_5_KRIVIZNY]]/URI$, вдоль замкнутого контура, имеющего вид параллелограмма со сторонами <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4618">$$\delta_{1} x_{\mu}, \Delta_{2} x_{\mu}$$</a>, полное изменение поля $URI[[http://libmeta.ru/fme/formula/aux/1459_7_KRIVIZNY]]/URI$ равно<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4614">$$\begin{aligned}& \Delta_{12} \Psi(x)=\Gamma\left(F_{\mu v}\right) \Psi \Delta_{1} x_{\mu} \wedge \Delta_{1} x_{v}= \\& =\Gamma\left(F_{\mu v}\right) \Psi\left(\Delta_{1} x_{\mu} \Delta_{2} x_{v}-\Delta_{1} x_{v} \Delta_{2} x_{\mu}\right),\end{aligned}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4619">$$\gamma\left(f_{\mu v}\right)$$</a> - представление матрицы $URI[[http://libmeta.ru/fme/formula/aux/1459_9_KRIVIZNY]]/URI$, отвечающее заданному представлению группы $URI[[http://libmeta.ru/fme/formula/aux/1459_10_KRIVIZNY]]/URI$. Тензор $URI[[http://libmeta.ru/fme/formula/aux/1459_11_KRIVIZNY]]/URI$ является коммутатором ковариантных производных<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4615">$$F_{\mu \nu}=\left[\nabla_{\mu}, \nabla_{v}\right]$$</a><BR/></P><P>и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3576_JaKOBI">тождество Якоби</a>:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4616">$$\left[\left[\nabla_{\mu}, \nabla_{v}\right], \nabla_{\sigma}\right]+\text { цикл. пер. }=0$$</a><BR/></P><P>приводит к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_176_BIANKI">тождеству Бианки для</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4620">$$f_{\mu v}$$</a> :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4617">$$\nabla_{\sigma} F_{\mu \nu}+\text { цикл. пер. }$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#8">A. А. Славнов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[тензор напряженности калибровочного поля. Он задается выражением
+
+\[
+F_{\mu \nu}=\partial_{v} A_{\mu}-\partial_{\mu} A_{v}+\left[A_{\mu}, A_{v}\right]
+\]
+
+где $A_{\mu}(x)$ - калибровочное поле, являющееся элементом алгебры Ли калибровочной группы $\Omega$. При калибровочных преобразованиях из группы $\Omega$ тензор кривизны преобразуется следующим образом:
+
+\[
+F_{\mu \nu} \rightarrow \omega F_{\mu v} \omega^{-1}
+\]
+
+При параллельном переносе поля $\Psi(x)$, реализующего представление калибровочной группы $\Omega$, вдоль замкнутого контура, имеющего вид параллелограмма со сторонами $\Delta_{1} x_{\mu}, \Delta_{2} x_{\mu}$, полное изменение поля $\Psi(x)$ равно
+
+\[
+\begin{aligned}
+& \Delta_{12} \Psi(x)=\Gamma\left(F_{\mu v}\right) \Psi \Delta_{1} x_{\mu} \wedge \Delta_{1} x_{v}= \\
+& =\Gamma\left(F_{\mu v}\right) \Psi\left(\Delta_{1} x_{\mu} \Delta_{2} x_{v}-\Delta_{1} x_{v} \Delta_{2} x_{\mu}\right),
+\end{aligned}
+\]
+
+где $\Gamma\left(F_{\mu v}\right)$ - представление матрицы $F_{\mu v}$, отвечающее заданному представлению группы $\Omega$. Тензор $F_{\mu \nu}$ является коммутатором ковариантных производных
+
+\[
+F_{\mu \nu}=\left[\nabla_{\mu}, \nabla_{v}\right]
+\]
+
+и тождество Якоби:
+
+\[
+\left[\left[\nabla_{\mu}, \nabla_{v}\right], \nabla_{\sigma}\right]+\text { цикл. пер. }=0
+\]
+
+приводит к тождеству Бианки для $F_{\mu v}$ :
+
+\[
+\nabla_{\sigma} F_{\mu \nu}+\text { цикл. пер. }
+\]
+
+A. А. Славнов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_176_BIANKI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3576_JaKOBI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

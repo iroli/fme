@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_20206">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mi>H</mi><mrow><mi>&#x003C9;</mi></mrow><mrow><mi>&#x000B1;</mi></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>p</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mn>2</mn><mi>c</mi><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><msup><mi>&#x003C9;</mi><mrow><mo>&#x02212;</mo><mn>1</mn></mrow></msup><mi>sin</mi><mo stretchy="false">&#x00028;</mo><mi>&#x003C9;</mi><mi>p</mi><mo>&#x0002F;</mo><mn>2</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo><mo>&#x02212;</mo><mi>&#x003C0;</mi><mi>&#x02A7D;</mi><mi>&#x003C9;</mi><mi>&#x02A7D;</mi><mi>&#x003C0;</mi><mo>&#x0002C;</mo></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$H_{\omega}^{ \pm}(x, p)= \pm 2 c(x) \omega^{-1} \sin (\omega p / 2),-\pi \leqslant \omega \leqslant \pi,$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

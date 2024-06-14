@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3044_TENZORNOE" alphabetic_pos="3046">
+  <title>ТЕНЗОРНОЕ ПОЛЕ НА МНОГООБРАЗИИ $M^{n}$</title>
+  <authors>
+    <author>В. В. Трофимов</author>
+  </authors>
+  <pages>
+    <start>596</start>
+    <end>597</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Дубров ин Б. А., Новиков С. П., Фоменко А. Т., Современная геометрия. Методы и приложения, М., 1986.</literature_orig>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Новиков С. П.</author>
+      <author>Фоменко А. Т.</author>
+      <title>Современная геометрия. Методы и приложения</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3044_1_TENZORNOE">\begin{gathered}a_{j_{1} \ldots j_{m}}^{i_{1} \ldots i_{k}}, \\i_{1}, i_{2}, \ldots, i_{k}, j_{1}, j_{2}, \ldots, j_{m}=1,2, \ldots, n\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3044_2_TENZORNOE">a_{j_{1}^{\prime} \ldots j_{m}^{\prime}}^{i_{1}^{\prime} \ldots i_{k}^{\prime}}=\frac{\partial x^{i_{1}^{\prime}}}{\partial x^{i_{1}}} \ldots \frac{\partial x^{i_{k}^{\prime}}}{\partial x^{i_{k}}} \frac{\partial x^{j_{1}}}{\partial x^{j_{1}^{\prime}}} \ldots \frac{\partial x^{j_{m}}}{\partial x^{j_{m}^{\prime}}} a_{j_{1} \ldots j_{m}}^{i_{1} \ldots i_{k}} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_1_TENZORNOE">m^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_2_TENZORNOE">m^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_3_TENZORNOE">m^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_4_TENZORNOE">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_5_TENZORNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_6_TENZORNOE">(k, m)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_7_TENZORNOE">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_8_TENZORNOE">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_9_TENZORNOE">n^{k+m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_10_TENZORNOE">n=\operatorname{dim} M^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_11_TENZORNOE">k+m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3044_12_TENZORNOE">m^{n}</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/3044_1_TENZORNOE">
+      <rel_text>гладкой функцией на</rel_text>
+      <target>http://libmeta.ru/fme/article/107_ASIMPTOTIKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3044_2_TENZORNOE">
+      <rel_text>тензора</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3044_3_TENZORNOE">
+      <rel_text>контравариантное</rel_text>
+      <target>http://libmeta.ru/fme/article/1359_KONTAKTOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3044_4_TENZORNOE">
+      <rel_text>многообразии</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3044_5_TENZORNOE">
+      <rel_text>функциями</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3044_6_TENZORNOE">
+      <rel_text>тензора</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3044_7_TENZORNOE">
+      <rel_text>многообразия</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3044_8_TENZORNOE">
+      <rel_text>тензор</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3044_9_TENZORNOE">
+      <rel_text>многообразия</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>функция на $URI[[http://libmeta.ru/fme/formula/aux/3044_1_TENZORNOE]]/URI$, которая каждой точке URI[[http://libmeta.ru/fme/relation/3044_9_TENZORNOE]]/URI ставит в соответствие URI[[http://libmeta.ru/fme/relation/3044_8_TENZORNOE]]/URI одного и того же строения. Т. П. называется глад к и м, если в каждой карте (согласованной с гладкой структурой URI[[http://libmeta.ru/fme/relation/3044_7_TENZORNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3044_2_TENZORNOE]]/URI$ ) координаты URI[[http://libmeta.ru/fme/relation/3044_6_TENZORNOE]]/URI являются гладкими URI[[http://libmeta.ru/fme/relation/3044_5_TENZORNOE]]/URI точки. Более подробно это означает следующее. Говорят, что на URI[[http://libmeta.ru/fme/relation/3044_4_TENZORNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3044_3_TENZORNOE]]/URI$ задано гладкое Т. п. $URI[[http://libmeta.ru/fme/formula/aux/3044_4_TENZORNOE]]/URI$ раз URI[[http://libmeta.ru/fme/relation/3044_3_TENZORNOE]]/URI и $URI[[http://libmeta.ru/fme/formula/aux/3044_5_TENZORNOE]]/URI$ раз ковариантное [поле типа $URI[[http://libmeta.ru/fme/formula/aux/3044_6_TENZORNOE]]/URI$ ], если в каждой карте, отвечающей данной гладкой структуре, задана система гладких функций, занумерованная $URI[[http://libmeta.ru/fme/formula/aux/3044_7_TENZORNOE]]/URI$ индексами вверху в определенном порядке и $URI[[http://libmeta.ru/fme/formula/aux/3044_8_TENZORNOE]]/URI$ индексами внизу:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3044_1_TENZORNOE]]/URI
+\]
+
+(то есть задано $URI[[http://libmeta.ru/fme/formula/aux/3044_9_TENZORNOE]]/URI$ функций в каждой системе координат, где $URI[[http://libmeta.ru/fme/formula/aux/3044_10_TENZORNOE]]/URI$ ), преобразующихся при переходе от карты к карте по следующему закону (тензорный закон преобразования):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3044_2_TENZORNOE]]/URI
+\]
+
+Число $URI[[http://libmeta.ru/fme/formula/aux/3044_11_TENZORNOE]]/URI$ называется р а н гом, или вале н т нос т ью, URI[[http://libmeta.ru/fme/relation/3044_2_TENZORNOE]]/URI. Т. п. нулевой валентности (без индексов), по опре- делению, является скалярным полем или URI[[http://libmeta.ru/fme/relation/3044_1_TENZORNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3044_12_TENZORNOE]]/URI$.</text>
+  <text_orig>функция на $M^{n}$, которая каждой точке многообразия ставит в соответствие тензор одного и того же строения. Т. П. называется глад к и м, если в каждой карте (согласованной с гладкой структурой многообразия $M^{n}$ ) координаты тензора являются гладкими функщиями точки. Более подробно это означает следующее. Говорят, что на многообразии $M^{n}$ задано гладкое Т. п. $k$ раз контравариантное и $m$ раз ковариантное [поле типа $(k, m)$ ], если в каждой карте, отвечающей данной гладкой структуре, задана система гладких функций, занумерованная $k$ индексами вверху в определенном порядке и $m$ индексами внизу:
+
+\[
+\begin{gathered}
+a_{j_{1} \ldots j_{m}}^{i_{1} \ldots i_{k}}, \\
+i_{1}, i_{2}, \ldots, i_{k}, j_{1}, j_{2}, \ldots, j_{m}=1,2, \ldots, n
+\end{gathered}
+\]
+
+(то есть задано $n^{k+m}$ функций в каждой системе координат, где $n=\operatorname{dim} M^{n}$ ), преобразующихся при переходе от карты к карте по следующему закону (тензорный закон преобразования):
+
+\[
+a_{j_{1}^{\prime} \ldots j_{m}^{\prime}}^{i_{1}^{\prime} \ldots i_{k}^{\prime}}=\frac{\partial x^{i_{1}^{\prime}}}{\partial x^{i_{1}}} \ldots \frac{\partial x^{i_{k}^{\prime}}}{\partial x^{i_{k}}} \frac{\partial x^{j_{1}}}{\partial x^{j_{1}^{\prime}}} \ldots \frac{\partial x^{j_{m}}}{\partial x^{j_{m}^{\prime}}} a_{j_{1} \ldots j_{m}}^{i_{1} \ldots i_{k}} .
+\]
+
+Число $k+m$ называется р а н гом, или вале н т нос т ью, тензора. Т. п. нулевой валентности (без индексов), по опре- делению, является скалярным полем или гладкой функцией на $M^{n}$.
+
+Лит.: [1] Дубров ин Б. А., Новиков С. П., Фоменко А. Т., Современная геометрия. Методы и приложения, М., 1986.
+
+В. В. Трофимов.</text_orig>
+</article>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_5980">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>det</mo><mi>&#x0039B;</mi><mo>&#x0003D;</mo><mi>&#x000B1;</mi><mn>1</mn><mo>&#x0002C;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007C;</mo><msubsup><mi>&#x0039B;</mi><mrow><mn>0</mn></mrow><mrow><mn>0</mn></mrow></msubsup><mo stretchy="true" fence="true" form="postfix">&#x0007C;</mo></mrow><mi>&#x02A7E;</mi><mn>1</mn></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\operatorname{det} \Lambda= \pm 1,\left|\Lambda_{0}^{0}\right| \geqslant 1$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

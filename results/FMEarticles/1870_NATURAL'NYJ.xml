@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1870_NATURAL'NYJ" alphabetic_pos="1872">
+  <title>НАТУРАЛЬНЫЙ ПАРАМЕТР НА КРИВОЙ $(t)$ В РИМАНОВОМ МНОГООБРАЗИИ $\left(M^{n}, g_{i j}\right)$</title>
+  <authors>
+    <author>В. В. Трофимов</author>
+  </authors>
+  <pages>
+    <start>375</start>
+    <end>375</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Дубровин Б.А., Новиков С.П., Фоменко А.Т., Современная геометрия. Методы и приложения, М., 1986.</literature_orig>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Новиков С. П.</author>
+      <author>Фоменко А. Т.</author>
+      <title>Современная геометрия. Методы и приложения</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1870_1_NATURAL'NYJ">s(t)=\int_{a}^{t} \sqrt{g_{i j} \frac{\partial x^{i}}{\partial t} \frac{\partial x^{j}}{\partial t}} d t</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1870_1_NATURAL'NYJ">s(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1870_2_NATURAL'NYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1870_3_NATURAL'NYJ">p_{0}=x(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1870_4_NATURAL'NYJ">p=x(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1870_5_NATURAL'NYJ">\left(x^{1}, \ldots, x^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1870_6_NATURAL'NYJ">m^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1870_7_NATURAL'NYJ">s, s^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1870_8_NATURAL'NYJ">s^{\prime}= \pm s+</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1870_1_NATURAL'NYJ">
+      <rel_text>ортогональное</rel_text>
+      <target>http://libmeta.ru/fme/article/2110_ORTOPROEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1870_2_NATURAL'NYJ">
+      <rel_text>натуральных параметра</rel_text>
+      <target>http://libmeta.ru/fme/article/1870_NATURAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1870_3_NATURAL'NYJ">
+      <rel_text>многообразия</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1870_4_NATURAL'NYJ">
+      <rel_text>локальная система координат в</rel_text>
+      <target>http://libmeta.ru/fme/article/704_GRADIENT</target>
+    </relation>
+  </relations>
+  <text>длина $URI[[http://libmeta.ru/fme/formula/aux/1870_1_NATURAL'NYJ]]/URI$ кривой $URI[[http://libmeta.ru/fme/formula/aux/1870_2_NATURAL'NYJ]]/URI$, отсчитываемая от фиксированной точки $URI[[http://libmeta.ru/fme/formula/aux/1870_3_NATURAL'NYJ]]/URI$ до текущей точки $URI[[http://libmeta.ru/fme/formula/aux/1870_4_NATURAL'NYJ]]/URI$, то есть в пределах одной карты
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1870_1_NATURAL'NYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1870_5_NATURAL'NYJ]]/URI$ - URI[[http://libmeta.ru/fme/relation/1870_4_NATURAL'NYJ]]/URI рассматриваемой карте URI[[http://libmeta.ru/fme/relation/1870_3_NATURAL'NYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1870_6_NATURAL'NYJ]]/URI$. Любые два URI[[http://libmeta.ru/fme/relation/1870_2_NATURAL'NYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1870_7_NATURAL'NYJ]]/URI$ отличаются друг от друга на нек-рое URI[[http://libmeta.ru/fme/relation/1870_1_NATURAL'NYJ]]/URI преобразование прямой, то есть $URI[[http://libmeta.ru/fme/formula/aux/1870_8_NATURAL'NYJ]]/URI$ const, так как можно изменить направление вдоль кривой на противоположное и сдвинуть начальную точку отсчета.</text>
+  <text_orig>длина $s(t)$ кривой $x(t)$, отсчитываемая от фиксированной точки $p_{0}=x(a)$ до текущей точки $p=x(t)$, то есть в пределах одной карты
+
+\[
+s(t)=\int_{a}^{t} \sqrt{g_{i j} \frac{\partial x^{i}}{\partial t} \frac{\partial x^{j}}{\partial t}} d t
+\]
+
+где $\left(x^{1}, \ldots, x^{n}\right)$ - локальная система координат в рассматриваемой карте многообразия $M^{n}$. Любые два натуральных параметра $s, s^{\prime}$ отличаются друг от друга на нек-рое ортогональное преобразование прямой, то есть $s^{\prime}= \pm s+$ const, так как можно изменить направление вдоль кривой на противоположное и сдвинуть начальную точку отсчета.
+
+Лит.: [1] Дубровин Б.А., Новиков С.П., Фоменко А.Т., Современная геометрия. Методы и приложения, М., 1986.
+
+В. В. Трофимов.</text_orig>
+</article>

@@ -1,0 +1,646 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/729_GRINA" alphabetic_pos="731">
+  <title>ГРИНА ФУНКЦИЯ ЛИНЕЙНОГО ДИФФЕРЕНЦИАЛЬНОГО ОПЕРАТОРА $L$ (ЛИНЕЙНОГО ДИФФЕРЕНЦИАЛЬНОГО УРАВНЕНИЯ $L u(x)=f(x))$</title>
+  <authors>
+    <author>Л. П. Купцов</author>
+  </authors>
+  <pages>
+    <start>159</start>
+    <end>161</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М орс Ф. М., Фе шбах Г., Методы теоретической физики, пер. с англ., т. 1, М., 1958; [2] Курант Р., Уравнения с частными производными, пер. с англ., М., 1964; [3] Владими ро в В. С., Уравнения математической физики, 4 изд., М., 1981.</literature_orig>
+    <unit>
+      <author>Морс Ф. М.</author>
+      <author>Фешбах Г.</author>
+      <title>Методы теоретической физики</title>
+      <publication>пер. с англ., т. 1, М.</publication>
+      <year>1958</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Курант Р.</author>
+      <title>Уравнения с частными производными</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Уравнения математической физики</title>
+      <publication>4 изд., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_1_GRINA">L_{x} G\left(x, x^{\prime}\right)=\delta\left(x-x^{\prime}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_2_GRINA">L_{x} G=0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_3_GRINA">L u(x)=f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_4_GRINA">u(x)=\int G\left(x, x^{\prime}\right) f\left(x^{\prime}\right) d x^{\prime} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_5_GRINA">G\left(x, x^{\prime}\right)=G_{0}\left(x, x^{\prime}\right)+g\left(x, x^{\prime}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_6_GRINA">L_{x} g\left(x, x^{\prime}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_7_GRINA">L=\sum_{k=0}^{n} p_{k}(x) d^{k} / d x^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_8_GRINA">L_{x} G\left(x, x^{\prime}\right)=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_9_GRINA">\frac{\partial^{n-1}}{\partial x^{n-1}} G\left(x^{\prime}+0, x^{\prime}\right)-\frac{\partial^{n-1}}{\partial x^{n-1}}\left(x^{\prime}-0, x^{\prime}\right)=\frac{1}{p_{n}\left(x^{\prime}\right)} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_10_GRINA">L=\frac{d}{d x}\left(p(x) \frac{d}{d x}\right)+q(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_11_GRINA">u(a)=u(b)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_12_GRINA">G\left(x, x^{\prime}\right)=\frac{1}{p(x) w(x)} \begin{cases}u_{1}(x) u_{2}\left(x^{\prime}\right) &amp; \text { при } a \leqslant x \leqslant x^{\prime}, \\ u_{1}\left(x^{\prime}\right) u_{2}(x) &amp; \text { при } x^{\prime} \leqslant x \leqslant b,\end{cases}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_13_GRINA">x=\left(x_{1}, x_{2}, \ldots, x_{n}\right),|x|=\left(x_{1}^{2}+\ldots+x_{n}^{2}\right)^{1 / 2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_14_GRINA">\Delta=\partial^{2} / \partial x_{1}^{2}+\ldots+\partial^{2} / \partial x_{n}^{2} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_15_GRINA">\Delta u(x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_16_GRINA">G_{0}\left(x, x^{\prime}\right)= \begin{cases}(2 \pi)^{-1} \ln \left|x-x^{\prime}\right| &amp; \text { при } n=2, \\ -\Gamma(n / 2) / 2 \pi^{n / 2}(n-2)\left|x-x^{\prime}\right|^{n-2} &amp; \text { при } n \geqslant 3,\end{cases}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_17_GRINA">G_{0}\left(x, x^{\prime}\right)=-1 / 4 \pi\left|x-x^{\prime}\right|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_18_GRINA">G\left(x, x^{\prime}\right)=-\frac{1}{4 \pi}\left[\frac{1}{\left|x-x^{\prime}\right|}-\frac{R}{\left|x^{\prime}\right|} \frac{1}{\left|x-\tilde{x}^{\prime}\right|}\right],</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_19_GRINA">G\left(x, x^{\prime}\right)=-\frac{1}{4 \pi}\left[\frac{1}{\left|x-x^{\prime}\right|}-\frac{1}{\left|x-\tilde{x}^{\prime}\right|}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_20_GRINA">G\left(z, z^{\prime}\right)=\frac{1}{2 \pi} \ln \left|\frac{w(z)-w\left(z^{\prime}\right)}{1-w(z) w^{*}\left(z^{\prime}\right)}\right|, \quad z=x_{1}+i x_{2} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_21_GRINA">\begin{gathered}L=\partial / \partial t-a^{2} \Delta, \\G_{0}\left(x, t ; x^{\prime}, t^{\prime}\right)=\theta\left(t-t^{\prime}\right)\left[4 \pi a^{2}\left(t-t^{\prime}\right)\right]^{-n / 2} \exp \left[-\frac{\left|x-x^{\prime}\right|^{2}}{4 a^{2}\left(t-t^{\prime}\right)}\right],\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_22_GRINA">L=\Delta+k^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_23_GRINA">G_{0}\left(x, x^{\prime}\right)=(2 i k)^{-1} \exp \left(i k\left|x-x^{\prime}\right|\right) \quad \text { при } n=1 \text {; }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_24_GRINA">G_{0}\left(x, x^{\prime}\right)=-\frac{i}{4} H_{0}^{(1)}\left(k\left|x-x^{\prime}\right|\right) \quad \text { при } n=2,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_25_GRINA">G_{0}\left(x, x^{\prime}\right)=-\left(4 \pi\left|x-x^{\prime}\right|\right)^{-1} \exp \left(i k\left|x-x^{\prime}\right|\right) \text { при } n=3 \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_26_GRINA">L=\square_{a}=\partial^{2} / \partial t^{2}-a^{2} \Delta,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_27_GRINA">G_{0}(x, t)=(2 a)^{-1} \theta(a t-|x|) \text { при } n=1 \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_28_GRINA">G_{0}(x, t)=(2 \pi a)^{-1}\left(a^{2} t^{2}-|x|^{2}\right)^{-1 / 2} \theta(a t-|x|) \text { при } n=2 \text {; }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_29_GRINA">G_{0}(x, t)=(2 \pi a)^{-1} \theta(t) \delta\left(a^{2} t^{2}-|x|^{2}\right) \text { при } n=3 \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_30_GRINA">u(x, t)=\left(a^{2} / 4 \pi\right) \int d x^{\prime}\left|x-x^{\prime}\right|^{-1} f\left(x^{\prime}, t-a^{-1}\left|x-x^{\prime}\right|\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_31_GRINA">L=\square_{a}+m^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_32_GRINA">G_{0}(x, t)=(2 \pi a)^{-1} \theta(a t) \delta\left(a^{2} t^{2}-|x|^{2}\right)-\left(m / 4 \pi a^{3}\right) \times</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_33_GRINA">\times \theta(a t-|x|)\left(t^{2}-a^{-2}|x|^{2}\right)^{-1 / 2} J_{1}\left(m \sqrt{t^{2}-a^{-2}|x|^{2}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_34_GRINA">L u=\lambda u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_35_GRINA">u(x)=\lambda \int G\left(x, x^{\prime}\right) u\left(x^{\prime}\right) d x^{\prime},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_36_GRINA">\boldsymbol{u}^{\prime}=A(x) \boldsymbol{u}+\boldsymbol{F}(x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/729_37_GRINA">\boldsymbol{u}(x)=\int_{x_{0}}^{x} \boldsymbol{w}(x, s) d s</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_1_GRINA">g\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_2_GRINA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_3_GRINA">\delta\left(x-x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_4_GRINA">x \neq x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_5_GRINA">g\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_6_GRINA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_7_GRINA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_8_GRINA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_9_GRINA">g\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_10_GRINA">g\left(x, x^{\prime}\right)=G^{*}\left(x^{\prime}, x\right)\left({ }^{*}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_11_GRINA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_12_GRINA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_13_GRINA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_14_GRINA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_15_GRINA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_16_GRINA">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_17_GRINA">g\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_18_GRINA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_19_GRINA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_20_GRINA">g_{0}\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_21_GRINA">g\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_22_GRINA">g\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_23_GRINA">g\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_24_GRINA">a \leqslant x \leqslant b</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_25_GRINA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_26_GRINA">u^{(j)}(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_27_GRINA">u^{(i)}(b), 0 \leqslant i, j \leqslant n-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_28_GRINA">u(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_29_GRINA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_30_GRINA">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_31_GRINA">x \neq x^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_32_GRINA">x=x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_33_GRINA">(n-2)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_34_GRINA">(n-1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_35_GRINA">x, x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_36_GRINA">x \neq x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_37_GRINA">g\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_38_GRINA">w(x)=u_{1}(x) u_{2}^{\prime}(x)-u_{2}(x) u_{1}^{\prime}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_39_GRINA">u_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_40_GRINA">u_{2}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_41_GRINA">l u=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_42_GRINA">u_{1}(a)=u_{2}(b)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_43_GRINA">\mathrm{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_44_GRINA">\gamma(n)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_45_GRINA">g_{0}\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_46_GRINA">n=3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_47_GRINA">|x|&lt;r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_48_GRINA">\delta u=f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_49_GRINA">\left.u(x)\right|_{|x|=R}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_50_GRINA">г</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_51_GRINA">ф</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_52_GRINA">x^{\prime}=r^{2} x^{\prime} /\left|x^{\prime}\right|^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_53_GRINA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_54_GRINA">|x|=r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_55_GRINA">x_{3}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_56_GRINA">\left.u(x)\right|_{x_{3}=0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_57_GRINA">\tilde{x}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_58_GRINA">x^{\prime}=\left(x_{1}^{\prime}, x_{2}^{\prime}, x_{3}^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_59_GRINA">x_{3}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_60_GRINA">\tilde{x}^{\prime}=\left(x_{1}^{\prime}, x_{2}^{\prime},-x_{3}^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_61_GRINA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_62_GRINA">n=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_63_GRINA">w=w(z)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_64_GRINA">z=x_{1}+i x_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_65_GRINA">|w|&lt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_66_GRINA">g_{0}\left(x, x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_67_GRINA">\theta(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_68_GRINA">\theta(x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_69_GRINA">x&lt;0, \theta(x)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_70_GRINA">x&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_71_GRINA">h_{0}^{(1)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_72_GRINA">x^{\prime}=t^{\prime}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_73_GRINA">t-t^{\prime}&lt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_74_GRINA">n=3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_75_GRINA">j_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_76_GRINA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_77_GRINA">l u=\lambda u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_78_GRINA">\lambda_{1}, \lambda_{2}, \lambda_{3}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_79_GRINA">\lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_80_GRINA">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_81_GRINA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_82_GRINA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_83_GRINA">g\left(x, x^{\prime} ; \lambda\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_84_GRINA">l-\lambda I</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_85_GRINA">i-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_86_GRINA">g\left(x, x^{\prime} ; \lambda\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_87_GRINA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_88_GRINA">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_89_GRINA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_90_GRINA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_91_GRINA">g\left(x, x^{\prime} ; \lambda\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_92_GRINA">l \boldsymbol{u}=\boldsymbol{f}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_93_GRINA">\boldsymbol{u}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_94_GRINA">\boldsymbol{f}-n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_95_GRINA">a(x)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_96_GRINA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_97_GRINA">\boldsymbol{w}(x, s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_98_GRINA">\boldsymbol{w}^{\prime}=a(x) \boldsymbol{w}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_99_GRINA">\left.\boldsymbol{w}(x, s)\right|_{x=s}=\boldsymbol{F}(s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/729_100_GRINA">\boldsymbol{a}(x)</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/729_1_GRINA">
+      <rel_text>частными</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/729_2_GRINA">
+      <rel_text>дифференциальные операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/877_DIFFERENTsIAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/729_3_GRINA">
+      <rel_text>однородной системы</rel_text>
+      <target>http://libmeta.ru/fme/article/3112_TRANSFER-MATRITsA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/729_4_GRINA">
+      <rel_text>векторы</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/729_5_GRINA">
+      <rel_text>частное</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/729_6_GRINA">
+      <rel_text>подобных</rel_text>
+      <target>http://libmeta.ru/fme/article/2277_PODOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/729_7_GRINA">
+      <rel_text>векторы</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/729_8_GRINA">
+      <rel_text>произведений матрицы</rel_text>
+      <target>http://libmeta.ru/fme/article/1589_LI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/729_9_GRINA">
+      <rel_text>краевой задачи</rel_text>
+      <target>http://libmeta.ru/fme/article/1444_KRAEVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/729_10_GRINA">
+      <rel_text>При изучении систем</rel_text>
+      <target>http://libmeta.ru/fme/article/3216_USTOJChIVOSTI</target>
+    </relation>
+  </relations>
+  <text>функция $URI[[http://libmeta.ru/fme/formula/aux/729_1_GRINA]]/URI$, задающая ядро интегрального оператора, обратного к $URI[[http://libmeta.ru/fme/formula/aux/729_2_GRINA]]/URI$. Поскольку ядром единичного оператора является дельта-функция $URI[[http://libmeta.ru/fme/formula/aux/729_3_GRINA]]/URI$, Г. ф., трактуемая как обобщенная функция, удовлетворяет уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_1_GRINA]]/URI
+\]
+
+Всякое решение уравнения (1) называется фундамен т а льным ре ше н и м исходного дифференциального уравнения; следовательно, Г. Ф.- также нек-рое фундаментальное решение. Из (1) следует, что при $URI[[http://libmeta.ru/fme/formula/aux/729_4_GRINA]]/URI$ Г.ф. удовлетворяет однородному уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_2_GRINA]]/URI
+\]
+
+Решение неоднородного уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_3_GRINA]]/URI
+\]
+
+определяется интегралом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_4_GRINA]]/URI
+\] Г. Ф. $URI[[http://libmeta.ru/fme/formula/aux/729_5_GRINA]]/URI$ представляет собой «отклик» в Точке $URI[[http://libmeta.ru/fme/formula/aux/729_6_GRINA]]/URI$ системы, описываемой дифференциальным уравнением, на единичный точечный источник, помещенный в точку $URI[[http://libmeta.ru/fme/formula/aux/729_7_GRINA]]/URI$. По этой причине Г.ф. часто называют также функци е й источника. Для самосопряженного оператора $URI[[http://libmeta.ru/fme/formula/aux/729_8_GRINA]]/URI$ Г.ф. $URI[[http://libmeta.ru/fme/formula/aux/729_9_GRINA]]/URI$ удовлетворяет с о отноше н и ю взаимности $URI[[http://libmeta.ru/fme/formula/aux/729_10_GRINA]]/URI$ означает комплексное сопряжение), то есть отклик в точке $URI[[http://libmeta.ru/fme/formula/aux/729_11_GRINA]]/URI$ на точечное возмущение в $URI[[http://libmeta.ru/fme/formula/aux/729_12_GRINA]]/URI$ равен отклику в $URI[[http://libmeta.ru/fme/formula/aux/729_13_GRINA]]/URI$ на точечное возмущение в $URI[[http://libmeta.ru/fme/formula/aux/729_14_GRINA]]/URI$. Впервые Г. ф. введена Дж. Грином (g. Green) в 1828. Г. ф.- существенная часть математич. аппарата современной физики. Интегральное соотношение (3), заменяющее дифференциальное уравнение (2), позволяет представить поле, созданное нек-рой системой источников, в виде суперпозиции вкладов отдельных точечных источников; оно удобно для построения теории возмущений и т. п.
+
+Чтобы задать дифференциальный оператор $URI[[http://libmeta.ru/fme/formula/aux/729_15_GRINA]]/URI$, нужно, кроме операции дифференцирования, определить еще класс функций, на к-рые действует эта операция. Ограничения на функции диктуются физич. постановкой задачи и выступают обычно в виде нек-рого числа краевых условий, к-рым подчинены функции $URI[[http://libmeta.ru/fme/formula/aux/729_16_GRINA]]/URI$. Г. ф. дифференциального оператора называют также Г.ф. соответствующей краевой задачи. Г. ф. $URI[[http://libmeta.ru/fme/formula/aux/729_17_GRINA]]/URI$ краевой задачи удовлетворяет краевым условиям по $URI[[http://libmeta.ru/fme/formula/aux/729_18_GRINA]]/URI$ при любом фиксированном $URI[[http://libmeta.ru/fme/formula/aux/729_19_GRINA]]/URI$. Поэтому если $URI[[http://libmeta.ru/fme/formula/aux/729_20_GRINA]]/URI$ - любое фундаментальное решение уравнения (не обязательно удовлетворяющее краевым условиям), то Г. ф. $URI[[http://libmeta.ru/fme/formula/aux/729_21_GRINA]]/URI$ представляется в виде суммы:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_5_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/729_22_GRINA]]/URI$ - решение однородного уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_6_GRINA]]/URI
+\]
+
+выбранное так, чтобы функция $URI[[http://libmeta.ru/fme/formula/aux/729_23_GRINA]]/URI$ удовлетворяла заданным краевым условиям. Построить Г.ф. в явном виде удается в сравнительно небольшом числе случаев для нек-рых видов областей.
+
+Ниже даны примеры конкретных Г. ф.
+
+1. Обыкновенное дифференциальное уравн е н и е на отрезке $URI[[http://libmeta.ru/fme/formula/aux/729_24_GRINA]]/URI$. Пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_7_GRINA]]/URI
+\]
+
+а краевые условия представляют собой $URI[[http://libmeta.ru/fme/formula/aux/729_25_GRINA]]/URI$ линейных соотношений между значениями $URI[[http://libmeta.ru/fme/formula/aux/729_26_GRINA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/729_27_GRINA]]/URI$, младших производных функции $URI[[http://libmeta.ru/fme/formula/aux/729_28_GRINA]]/URI$ на концах отрезка. Тогда Г. ф., удовлетворяя при каждом $URI[[http://libmeta.ru/fme/formula/aux/729_29_GRINA]]/URI$ краевым условиям по $URI[[http://libmeta.ru/fme/formula/aux/729_30_GRINA]]/URI$ и при $URI[[http://libmeta.ru/fme/formula/aux/729_31_GRINA]]/URI$ однородному уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_8_GRINA]]/URI
+\]
+
+должна иметь в точке $URI[[http://libmeta.ru/fme/formula/aux/729_32_GRINA]]/URI$ непрерывные производные вплоть до $URI[[http://libmeta.ru/fme/formula/aux/729_33_GRINA]]/URI$-й и разрывную $URI[[http://libmeta.ru/fme/formula/aux/729_34_GRINA]]/URI$-ю производную, причем скачок в этой точке равен
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_9_GRINA]]/URI
+\]
+
+Эти требования, дополненные естественными предположениями о гладкости по переменным $URI[[http://libmeta.ru/fme/formula/aux/729_35_GRINA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/729_36_GRINA]]/URI$, определяют $URI[[http://libmeta.ru/fme/formula/aux/729_37_GRINA]]/URI$. Напр., дифференциальный оператор 2-го порядка
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_10_GRINA]]/URI
+\]
+
+с краевыми условиями
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_11_GRINA]]/URI
+\]
+
+имеет Г. ф., равную
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_12_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/729_38_GRINA]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/729_39_GRINA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/729_40_GRINA]]/URI$ какие-либо линейно независимые решения уравнения $URI[[http://libmeta.ru/fme/formula/aux/729_41_GRINA]]/URI$, удовлетворяющие условиям $URI[[http://libmeta.ru/fme/formula/aux/729_42_GRINA]]/URI$.
+
+2. Уравнение Лапласа. Пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_13_GRINA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/729_43_GRINA]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_14_GRINA]]/URI
+\]
+
+Фундаментальным решением уравнения Лапласа служит функция
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_15_GRINA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_16_GRINA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/729_44_GRINA]]/URI$ - гамма-функция.
+
+В практически важном случае трехмерного пространства Г.ф.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_17_GRINA]]/URI
+\]
+
+Согласно формуле (4), Г. ф. различных краевых задач для уравнения Лапласа получают, добавляя к $URI[[http://libmeta.ru/fme/formula/aux/729_45_GRINA]]/URI$ подходящую гармонич. функцию, обеспечивающую выполнение краевых условий. Напр., при $URI[[http://libmeta.ru/fme/formula/aux/729_46_GRINA]]/URI$ для шара $URI[[http://libmeta.ru/fme/formula/aux/729_47_GRINA]]/URI$ задаче $URI[[http://libmeta.ru/fme/formula/aux/729_48_GRINA]]/URI$ с краевым условием $URI[[http://libmeta.ru/fme/formula/aux/729_49_GRINA]]/URI$ отвечает $URI[[http://libmeta.ru/fme/formula/aux/729_50_GRINA]]/URI$. $URI[[http://libmeta.ru/fme/formula/aux/729_51_GRINA]]/URI$.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_18_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/729_52_GRINA]]/URI$ - точка, симметричная точке $URI[[http://libmeta.ru/fme/formula/aux/729_53_GRINA]]/URI$ относительно сферы $URI[[http://libmeta.ru/fme/formula/aux/729_54_GRINA]]/URI$. Аналогичной краевой задаче для полупространства $URI[[http://libmeta.ru/fme/formula/aux/729_55_GRINA]]/URI$, то есть краевому условию $URI[[http://libmeta.ru/fme/formula/aux/729_56_GRINA]]/URI$ отвечает Г. Ф. вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_19_GRINA]]/URI
+\]
+
+где точка $URI[[http://libmeta.ru/fme/formula/aux/729_57_GRINA]]/URI$ симметрична точке $URI[[http://libmeta.ru/fme/formula/aux/729_58_GRINA]]/URI$ относительно плоскости $URI[[http://libmeta.ru/fme/formula/aux/729_59_GRINA]]/URI$, то есть $URI[[http://libmeta.ru/fme/formula/aux/729_60_GRINA]]/URI$. Г. Ф. в этих двух случаях представляет собой потенциал точечного заряда, помещенного в точку $URI[[http://libmeta.ru/fme/formula/aux/729_61_GRINA]]/URI$ внутри заземленной проводящей сферы (1-й случай) или в присутствии заземленной проводящей плоскости (2-й случай). При $URI[[http://libmeta.ru/fme/formula/aux/729_62_GRINA]]/URI$ Г. ф. Дирихле задачи для односвязной области с достаточно гладкой границей имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_20_GRINA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/729_63_GRINA]]/URI$ нек-рая функция аргумента $URI[[http://libmeta.ru/fme/formula/aux/729_64_GRINA]]/URI$, конформно отображающая область на единичный круг $URI[[http://libmeta.ru/fme/formula/aux/729_65_GRINA]]/URI$.
+
+В следующих примерах приводятся только фундаментальные решения $URI[[http://libmeta.ru/fme/formula/aux/729_66_GRINA]]/URI$, связанные с Г. ф. соотношением (4).
+
+3. Уравнение теплопроводности:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_21_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/729_67_GRINA]]/URI$ - ступенчатая функция: $URI[[http://libmeta.ru/fme/formula/aux/729_68_GRINA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/729_69_GRINA]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/729_70_GRINA]]/URI$.
+
+4. Уравнение Гельмгольца:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_22_GRINA]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/729_23_GRINA]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/729_24_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/729_71_GRINA]]/URI$ - функция Ханкеля;
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_25_GRINA]]/URI
+\]
+
+5. Волновое уравнение:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_26_GRINA]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/729_27_GRINA]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/729_28_GRINA]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/729_29_GRINA]]/URI
+\] для упрощения принято $URI[[http://libmeta.ru/fme/formula/aux/729_72_GRINA]]/URI$. Полученная Г. ф. называется запазды в ю щей, поскольку она обращается в нуль при $URI[[http://libmeta.ru/fme/formula/aux/729_73_GRINA]]/URI$. Подставляя Г. Ф. в (3), получим решение неоднородного волнового уравнения в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_30_GRINA]]/URI
+\]
+
+носящем в электродинамике название з а п а зды в а ю щ е го потенциала.
+
+6. Уравнение Клейна - Гордона:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_31_GRINA]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/729_32_GRINA]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/729_33_GRINA]]/URI
+\]
+
+при $URI[[http://libmeta.ru/fme/formula/aux/729_74_GRINA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/729_75_GRINA]]/URI$ - функция Бесселя. Полученная Г. ф. также называется з а п а зды в а ю щ е й.
+
+Г.ф. играет важную роль также в задачах о спектре дифференциальных операторов. Если самосопряженный оператор $URI[[http://libmeta.ru/fme/formula/aux/729_76_GRINA]]/URI$ имеет Г. ф., то задача на собственные значения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_34_GRINA]]/URI
+\]
+
+' эквивалентна интегральному уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_35_GRINA]]/URI
+\]
+
+к к-рому можно применить теорию Фредгольма. Задача $URI[[http://libmeta.ru/fme/formula/aux/729_77_GRINA]]/URI$ имеет не более счетного числа собственных значений $URI[[http://libmeta.ru/fme/formula/aux/729_78_GRINA]]/URI$, все $URI[[http://libmeta.ru/fme/formula/aux/729_79_GRINA]]/URI$ вещественны и не имеют конечных точек сгущения. Если комплексное число $URI[[http://libmeta.ru/fme/formula/aux/729_80_GRINA]]/URI$ не является собственным значением оператора $URI[[http://libmeta.ru/fme/formula/aux/729_81_GRINA]]/URI$, то можно построить $URI[[http://libmeta.ru/fme/formula/aux/729_82_GRINA]]/URI$. Ф. $URI[[http://libmeta.ru/fme/formula/aux/729_83_GRINA]]/URI$ оператора $URI[[http://libmeta.ru/fme/formula/aux/729_84_GRINA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/729_85_GRINA]]/URI$ единичный оператор. Функция $URI[[http://libmeta.ru/fme/formula/aux/729_86_GRINA]]/URI$, называемая рез оль вен т ой оператора $URI[[http://libmeta.ru/fme/formula/aux/729_87_GRINA]]/URI$, является мероморфной функцией параметра $URI[[http://libmeta.ru/fme/formula/aux/729_88_GRINA]]/URI$, причем ее полюсами служат собственные значения оператора $URI[[http://libmeta.ru/fme/formula/aux/729_89_GRINA]]/URI$. Таким образом, спектр оператора $URI[[http://libmeta.ru/fme/formula/aux/729_90_GRINA]]/URI$ можно найти, изучая его резольвенту $URI[[http://libmeta.ru/fme/formula/aux/729_91_GRINA]]/URI$.
+
+URI[[http://libmeta.ru/fme/relation/729_10_GRINA]]/URI уравнений $URI[[http://libmeta.ru/fme/formula/aux/729_92_GRINA]]/URI$ роль Г. ф. играют так наз. матр ицы Грина. Они позволяют выразить решение неоднородной URI[[http://libmeta.ru/fme/relation/729_9_GRINA]]/URI для системы в виде интегралов от URI[[http://libmeta.ru/fme/relation/729_8_GRINA]]/URI Грина на URI[[http://libmeta.ru/fme/relation/729_7_GRINA]]/URI правой части системы. Для URI[[http://libmeta.ru/fme/relation/729_6_GRINA]]/URI задач полезен интеграл Дюамеля. Напр., URI[[http://libmeta.ru/fme/relation/729_5_GRINA]]/URI решение неоднородной системы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_36_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/729_93_GRINA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/729_94_GRINA]]/URI$-компонентные URI[[http://libmeta.ru/fme/relation/729_4_GRINA]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/729_95_GRINA]]/URI$ квадратная матрица порядка $URI[[http://libmeta.ru/fme/formula/aux/729_96_GRINA]]/URI$, записывают в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/729_37_GRINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/729_97_GRINA]]/URI$ - решение URI[[http://libmeta.ru/fme/relation/729_3_GRINA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/729_98_GRINA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/729_99_GRINA]]/URI$. Матрица $URI[[http://libmeta.ru/fme/formula/aux/729_100_GRINA]]/URI$ может содержать URI[[http://libmeta.ru/fme/relation/729_2_GRINA]]/URI, поэтому метод применим к уравнениям с URI[[http://libmeta.ru/fme/relation/729_1_GRINA]]/URI производными.</text>
+  <text_orig>функция $G\left(x, x^{\prime}\right)$, задающая ядро интегрального оператора, обратного к $L$. Поскольку ядром единичного оператора является дельта-функция $\delta\left(x-x^{\prime}\right)$, Г. ф., трактуемая как обобщенная функция, удовлетворяет уравнению
+
+\[
+L_{x} G\left(x, x^{\prime}\right)=\delta\left(x-x^{\prime}\right) .
+\]
+
+Всякое решение уравнения (1) называется фундамен т а льным ре ше н и м исходного дифференциального уравнения; следовательно, Г. Ф.- также нек-рое фундаментальное решение. Из (1) следует, что при $x \neq x^{\prime}$ Г.ф. удовлетворяет однородному уравнению
+
+\[
+L_{x} G=0 .
+\]
+
+Решение неоднородного уравнения
+
+\[
+L u(x)=f(x)
+\]
+
+определяется интегралом
+
+\[
+u(x)=\int G\left(x, x^{\prime}\right) f\left(x^{\prime}\right) d x^{\prime} .
+\] Г. Ф. $G\left(x, x^{\prime}\right)$ представляет собой «отклик» в Точке $x$ системы, описываемой дифференциальным уравнением, на единичный точечный источник, помещенный в точку $x^{\prime}$. По этой причине Г.ф. часто называют также функци е й источника. Для самосопряженного оператора $L$ Г.ф. $G\left(x, x^{\prime}\right)$ удовлетворяет с о отноше н и ю взаимности $G\left(x, x^{\prime}\right)=G^{*}\left(x^{\prime}, x\right)\left({ }^{*}\right.$ означает комплексное сопряжение), то есть отклик в точке $x$ на точечное возмущение в $x^{\prime}$ равен отклику в $x^{\prime}$ на точечное возмушение в $x$. Впервые Г. ф. введена Дж. Грином (G. Green) в 1828. Г. ф.- существенная часть математич. аппарата современной физики. Интегральное соотношение (3), заменяющее дифференциальное уравнение (2), позволяет представить поле, созданное нек-рой системой источников, в виде суперпозиции вкладов отдельных точечных источников; оно удобно для построения теории возмущений и т. п.
+
+Чтобы задать дифференциальный оператор $L$, нужно, кроме операции дифференцирования, определить еще класс функций, на к-рые действует эта операция. Ограничения на функции диктуются физич. постановкой задачи и выступают обычно в виде нек-рого числа краевых условий, к-рым подчинены функции $u(x)$. Г. ф. дифференциального оператора называют также Г.ф. соответствующей краевой задачи. Г. ф. $G\left(x, x^{\prime}\right)$ краевой задачи удовлетворяет краевым условиям по $x$ при любом фиксированном $x^{\prime}$. Поэтому если $G_{0}\left(x, x^{\prime}\right)$ - любое фундаментальное решение уравнения (не обязательно удовлетворяющее краевым условиям), то Г. ф. $G\left(x, x^{\prime}\right)$ представляется в виде суммы:
+
+\[
+G\left(x, x^{\prime}\right)=G_{0}\left(x, x^{\prime}\right)+g\left(x, x^{\prime}\right),
+\]
+
+где $g\left(x, x^{\prime}\right)$ - решение однородного уравнения
+
+\[
+L_{x} g\left(x, x^{\prime}\right)=0
+\]
+
+выбранное так, чтобы функция $G\left(x, x^{\prime}\right)$ удовлетворяла заданным краевым условиям. Построить Г.ф. в явном виде удается в сравнительно небольшом числе случаев для нек-рых видов областей.
+
+Ниже даны примеры конкретных Г. ф.
+
+1. Обыкновенное дифференциальное уравн е н и е на отрезке $a \leqslant x \leqslant b$. Пусть
+
+\[
+L=\sum_{k=0}^{n} p_{k}(x) d^{k} / d x^{k}
+\]
+
+а краевые условия представляют собой $n$ линейных соотношений между значениями $u^{(j)}(a)$ и $u^{(i)}(b), 0 \leqslant i, j \leqslant n-1$, младших производных функции $u(x)$ на концах отрезка. Тогда Г. ф., удовлетворяя при каждом $x^{\prime}$ краевым условиям по $x$ и при $x \neq x^{\prime}-$ однородному уравнению
+
+\[
+L_{x} G\left(x, x^{\prime}\right)=0,
+\]
+
+должна иметь в точке $x=x^{\prime}$ непрерывные производные вплоть до $(n-2)$-й и разрывную $(n-1)$-ю производную, причем скачок в этой точке равен
+
+\[
+\frac{\partial^{n-1}}{\partial x^{n-1}} G\left(x^{\prime}+0, x^{\prime}\right)-\frac{\partial^{n-1}}{\partial x^{n-1}}\left(x^{\prime}-0, x^{\prime}\right)=\frac{1}{p_{n}\left(x^{\prime}\right)} .
+\]
+
+Эти требования, дополненные естественными предположениями о гладкости по переменным $x, x^{\prime}$ при $x \neq x^{\prime}$, определяют $G\left(x, x^{\prime}\right)$. Напр., дифференциальный оператор 2-го порядка
+
+\[
+L=\frac{d}{d x}\left(p(x) \frac{d}{d x}\right)+q(x)
+\]
+
+с краевыми условиями
+
+\[
+u(a)=u(b)=0
+\]
+
+имеет Г. ф., равную
+
+\[
+G\left(x, x^{\prime}\right)=\frac{1}{p(x) w(x)} \begin{cases}u_{1}(x) u_{2}\left(x^{\prime}\right) &amp; \text { при } a \leqslant x \leqslant x^{\prime}, \\ u_{1}\left(x^{\prime}\right) u_{2}(x) &amp; \text { при } x^{\prime} \leqslant x \leqslant b,\end{cases}
+\]
+
+где $w(x)=u_{1}(x) u_{2}^{\prime}(x)-u_{2}(x) u_{1}^{\prime}(x)$, а $u_{1}$ и $u_{2}-$ какие-либо линейно независимые решения уравнения $L u=0$, удовлетворяющие условиям $u_{1}(a)=u_{2}(b)=0$.
+
+2. Уравнение Лапласа. Пусть
+
+\[
+x=\left(x_{1}, x_{2}, \ldots, x_{n}\right),|x|=\left(x_{1}^{2}+\ldots+x_{n}^{2}\right)^{1 / 2},
+\]
+
+$\mathrm{a}$
+
+\[
+\Delta=\partial^{2} / \partial x_{1}^{2}+\ldots+\partial^{2} / \partial x_{n}^{2} .
+\]
+
+Фундаментальным решением уравнения Лапласа служит функщия
+
+\[
+\Delta u(x)=0
+\]
+
+\[
+G_{0}\left(x, x^{\prime}\right)= \begin{cases}(2 \pi)^{-1} \ln \left|x-x^{\prime}\right| &amp; \text { при } n=2, \\ -\Gamma(n / 2) / 2 \pi^{n / 2}(n-2)\left|x-x^{\prime}\right|^{n-2} &amp; \text { при } n \geqslant 3,\end{cases}
+\]
+
+$\Gamma(n)$ - гамма-функция.
+
+В практически важном случае трехмерного пространства Г.ф.
+
+\[
+G_{0}\left(x, x^{\prime}\right)=-1 / 4 \pi\left|x-x^{\prime}\right|
+\]
+
+Согласно формуле (4), Г. ф. различных краевых задач для уравнения Лапласа получают, добавляя к $G_{0}\left(x, x^{\prime}\right)$ подходящую гармонич. функщию, обеспечивающую выполнение краевых условий. Напр., при $n=3$ для шара $|x|&lt;R$ задаче $\Delta u=f(x)$ с краевым условием $\left.u(x)\right|_{|x|=R}=0$ отвечает $Г$. $Ф$.
+
+\[
+G\left(x, x^{\prime}\right)=-\frac{1}{4 \pi}\left[\frac{1}{\left|x-x^{\prime}\right|}-\frac{R}{\left|x^{\prime}\right|} \frac{1}{\left|x-\tilde{x}^{\prime}\right|}\right],
+\]
+
+где $x^{\prime}=R^{2} x^{\prime} /\left|x^{\prime}\right|^{2}$ - точка, симметричная точке $x^{\prime}$ относительно сферы $|x|=R$. Аналогичной краевой задаче для полупространства $x_{3}&gt;0$, то есть краевому условию $\left.u(x)\right|_{x_{3}=0}=0$ отвечает Г. Ф. вида
+
+\[
+G\left(x, x^{\prime}\right)=-\frac{1}{4 \pi}\left[\frac{1}{\left|x-x^{\prime}\right|}-\frac{1}{\left|x-\tilde{x}^{\prime}\right|}\right]
+\]
+
+где точка $\tilde{x}^{\prime}$ симметрична точке $x^{\prime}=\left(x_{1}^{\prime}, x_{2}^{\prime}, x_{3}^{\prime}\right)$ относительно плоскости $x_{3}=0$, то есть $\tilde{x}^{\prime}=\left(x_{1}^{\prime}, x_{2}^{\prime},-x_{3}^{\prime}\right)$. Г. Ф. в этих двух случаях представляет собой потенциал точечного заряда, помещенного в точку $x^{\prime}$ внутри заземленной проводящей сферы (1-й случай) или в присутствии заземленной проводяшей плоскости (2-й случай). При $n=2$ Г. ф. Дирихле задачи для односвязной области с достаточно гладкой границей имеет вид
+
+\[
+G\left(z, z^{\prime}\right)=\frac{1}{2 \pi} \ln \left|\frac{w(z)-w\left(z^{\prime}\right)}{1-w(z) w^{*}\left(z^{\prime}\right)}\right|, \quad z=x_{1}+i x_{2} .
+\]
+
+Здесь $w=w(z)-$ нек-рая функция аргумента $z=x_{1}+i x_{2}$, конформно отображающая область на единичный круг $|w|&lt;1$.
+
+В следующих примерах приводятся только фундаментальные решения $G_{0}\left(x, x^{\prime}\right)$, связанные с Г. ф. соотношением (4).
+
+3. Уравнение теплопроводности:
+
+\[
+\begin{gathered}
+L=\partial / \partial t-a^{2} \Delta, \\
+G_{0}\left(x, t ; x^{\prime}, t^{\prime}\right)=\theta\left(t-t^{\prime}\right)\left[4 \pi a^{2}\left(t-t^{\prime}\right)\right]^{-n / 2} \exp \left[-\frac{\left|x-x^{\prime}\right|^{2}}{4 a^{2}\left(t-t^{\prime}\right)}\right],
+\end{gathered}
+\]
+
+где $\theta(x)$ - ступенчатая функция: $\theta(x)=0$ при $x&lt;0, \theta(x)=1$ при $x&gt;0$.
+
+4. Уравнение Гельмгольца:
+
+\[
+L=\Delta+k^{2}
+\]\[
+G_{0}\left(x, x^{\prime}\right)=(2 i k)^{-1} \exp \left(i k\left|x-x^{\prime}\right|\right) \quad \text { при } n=1 \text {; }
+\]\[
+G_{0}\left(x, x^{\prime}\right)=-\frac{i}{4} H_{0}^{(1)}\left(k\left|x-x^{\prime}\right|\right) \quad \text { при } n=2,
+\]
+
+где $H_{0}^{(1)}$ - функция Ханкеля;
+
+\[
+G_{0}\left(x, x^{\prime}\right)=-\left(4 \pi\left|x-x^{\prime}\right|\right)^{-1} \exp \left(i k\left|x-x^{\prime}\right|\right) \text { при } n=3 \text {. }
+\]
+
+5. Волновое уравнение:
+
+\[
+L=\square_{a}=\partial^{2} / \partial t^{2}-a^{2} \Delta,
+\]\[
+G_{0}(x, t)=(2 a)^{-1} \theta(a t-|x|) \text { при } n=1 \text {, }
+\]\[
+G_{0}(x, t)=(2 \pi a)^{-1}\left(a^{2} t^{2}-|x|^{2}\right)^{-1 / 2} \theta(a t-|x|) \text { при } n=2 \text {; }
+\]\[
+G_{0}(x, t)=(2 \pi a)^{-1} \theta(t) \delta\left(a^{2} t^{2}-|x|^{2}\right) \text { при } n=3 \text {, }
+\] для упрощения принято $x^{\prime}=t^{\prime}=0$. Полученная Г. ф. называется запазды в ю щей, поскольку она обращается в нуль при $t-t^{\prime}&lt;0$. Подставляя Г. Ф. в (3), получим решение неоднородного волнового уравнения в виде
+
+\[
+u(x, t)=\left(a^{2} / 4 \pi\right) \int d x^{\prime}\left|x-x^{\prime}\right|^{-1} f\left(x^{\prime}, t-a^{-1}\left|x-x^{\prime}\right|\right),
+\]
+
+носящем в электродинамике название з а п а зды в а ю щ е го потенциала.
+
+6. Уравнение Клейна - Гордона:
+
+\[
+L=\square_{a}+m^{2}
+\]\[
+G_{0}(x, t)=(2 \pi a)^{-1} \theta(a t) \delta\left(a^{2} t^{2}-|x|^{2}\right)-\left(m / 4 \pi a^{3}\right) \times
+\]\[
+\times \theta(a t-|x|)\left(t^{2}-a^{-2}|x|^{2}\right)^{-1 / 2} J_{1}\left(m \sqrt{t^{2}-a^{-2}|x|^{2}}\right)
+\]
+
+при $n=3$, где $J_{1}$ - функция Бесселя. Полученная Г. ф. также называется з а п а зды в а ю щ е й.
+
+Г.ф. играет важную роль также в задачах о спектре дифференциальных операторов. Если самосопряженный оператор $L$ имеет Г. ф., то задача на собственные значения
+
+\[
+L u=\lambda u
+\]
+
+' эквивалентна интегральному уравнению
+
+\[
+u(x)=\lambda \int G\left(x, x^{\prime}\right) u\left(x^{\prime}\right) d x^{\prime},
+\]
+
+к к-рому можно применить теорию Фредгольма. Задача $L u=\lambda u$ имеет не более счетного числа собственных значений $\lambda_{1}, \lambda_{2}, \lambda_{3}, \ldots$, все $\lambda_{i}$ вещественны и не имеют конечных точек сгущения. Если комплексное число $\lambda$ не является собственным значением оператора $L$, то можно построить $\Gamma$. Ф. $G\left(x, x^{\prime} ; \lambda\right)$ оператора $L-\lambda I$, где $I-$ единичный оператор. Функция $G\left(x, x^{\prime} ; \lambda\right)$, называемая рез оль вен т ой оператора $L$, является мероморфной функцией параметра $\lambda$, причем ее полюсами служат собственные значения оператора $L$. Таким образом, спектр оператора $L$ можно найти, изучая его резольвенту $G\left(x, x^{\prime} ; \lambda\right)$.
+
+При изучении систем уравнений $L \boldsymbol{u}=\boldsymbol{f}$ роль Г. ф. играют так наз. матр ицы Грина. Они позволяют выразить решение неоднородной краевой задачи для системы в виде интегралов от произведений матрицы Грина на векторы правой части системы. Для подобных задач полезен интеграл Дюамеля. Напр., частное решение неоднородной системы
+
+\[
+\boldsymbol{u}^{\prime}=A(x) \boldsymbol{u}+\boldsymbol{F}(x),
+\]
+
+где $\boldsymbol{u}$ и $\boldsymbol{F}-n$-компонентные векторы, $A(x)-$ квадратная матрица порядка $n$, записывают в виде
+
+\[
+\boldsymbol{u}(x)=\int_{x_{0}}^{x} \boldsymbol{w}(x, s) d s
+\]
+
+где $\boldsymbol{w}(x, s)$ - решение однородной системы $\boldsymbol{w}^{\prime}=A(x) \boldsymbol{w}$, $\left.\boldsymbol{w}(x, s)\right|_{x=s}=\boldsymbol{F}(s)$. Матрица $\boldsymbol{A}(x)$ может содержать дифференциальные операторы, поэтому метод применим к уравнениям с частными производными.
+
+Лит.: [1] М орс Ф. М., Фе шбах Г., Методы теоретической физики, пер. с англ., т. 1, М., 1958; [2] Курант Р., Уравнения с частными производными, пер. с англ., М., 1964; [3] Владими ро в В. С., Уравнения математической физики, 4 изд., М., 1981. Л. П. Купцов.</text_orig>
+</article>

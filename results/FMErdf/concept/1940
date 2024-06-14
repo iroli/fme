@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2747_SIMMETRIChESKIJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2747_SIMMETRIChESKIJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1940</core:url>
+    <lbm:descriptor><![CDATA[СИММЕТРИЧЕСКИЙ ТЕНЗОР]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#11604"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14571"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>ковариантный либо <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ">контравариантный</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a>, координаты которого не меняются при любой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI">перестановке</a> индексов, то есть<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14571">$$\begin{aligned}& a_{P\left\{i_{1} i_{2} \ldots i_{k}\right\}}=a_{i_{1} i_{2} \ldots i_{k}}, \\& b^{Q\left\{j_{1} j_{2} \ldots j_{m}\right\}}=b^{j_{1} j_{2} \ldots j_{m}}\end{aligned}$$</a><BR/></P><P>для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1274_KOVARIANTNOST">ковариантного</a> или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1361_KONTRAVARIANTNOST">контравариантного</a> тензоров соответственно.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#11604">B. В. Трофимов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[ковариантныЙ либо контравариантный тензор, координаты которого не меняются при любой перестановке индексов, то есть
+
+\[
+\begin{aligned}
+& a_{P\left\{i_{1} i_{2} \ldots i_{k}\right\}}=a_{i_{1} i_{2} \ldots i_{k}}, \\
+& b^{Q\left\{j_{1} j_{2} \ldots j_{m}\right\}}=b^{j_{1} j_{2} \ldots j_{m}}
+\end{aligned}
+\]
+
+для ковариантного или контравариантного тензоров соответственно.
+
+B. В. Трофимов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1361_KONTRAVARIANTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1274_KOVARIANTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2200_PEREMEShIVANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

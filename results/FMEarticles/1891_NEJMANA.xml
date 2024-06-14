@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1891_NEJMANA" alphabetic_pos="1893">
+  <title>НЕЙМАНА ЗАДАЧА, ВТОРАЯ КРАЕВАЯ ЗАДАЧА</title>
+  <authors>
+    <author>В. И. Битюцков</author>
+  </authors>
+  <pages>
+    <start>376</start>
+    <end>376</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1891_1_NEJMANA">\begin{gathered}L u=\sum_{i, j=1}^{n} a_{i j}(x) \frac{\partial^{2} u(x)}{\partial x_{i} \partial x_{j}}+\sum_{i=1}^{n} b_{i}(x) \frac{\partial u(x)}{\partial x_{i}}+ \\+c(x) u(x)=f(x),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1891_2_NEJMANA">\left.\frac{\partial u(x, t)}{\partial N(x)}\right|_{x \in \Gamma}=\varphi(x)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1891_1_NEJMANA">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1891_2_NEJMANA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1891_3_NEJMANA">x=\left(x_{1}, x_{2}, \ldots, x_{n}\right), n \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1891_4_NEJMANA">(*)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1891_5_NEJMANA">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1891_6_NEJMANA">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1891_7_NEJMANA">\varphi(x)</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/1891_1_NEJMANA">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1891_2_NEJMANA">
+      <rel_text>Задачей Неймана</rel_text>
+      <target>http://libmeta.ru/fme/article/1891_NEJMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1891_3_NEJMANA">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1891_4_NEJMANA">
+      <rel_text>частными</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1891_5_NEJMANA">
+      <rel_text>дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>одна из краевых задач для URI[[http://libmeta.ru/fme/relation/1891_5_NEJMANA]]/URI с URI[[http://libmeta.ru/fme/relation/1891_4_NEJMANA]]/URI производными. Пусть, напр., в ограниченной URI[[http://libmeta.ru/fme/relation/1891_3_NEJMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1891_1_NEJMANA]]/URI$, в каждой точке границы $URI[[http://libmeta.ru/fme/formula/aux/1891_2_NEJMANA]]/URI$ к-рой существует нормаль, задано эллиптич. уравнение 2-го порядка
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1891_1_NEJMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1891_3_NEJMANA]]/URI$. URI[[http://libmeta.ru/fme/relation/1891_2_NEJMANA]]/URI для уравнения $URI[[http://libmeta.ru/fme/formula/aux/1891_4_NEJMANA]]/URI$ в URI[[http://libmeta.ru/fme/relation/1891_1_NEJMANA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1891_5_NEJMANA]]/URI$ называется следующая задача: из множества всех решений уравнения (*) требуется выделить те, к-рые в каждой граничной точке имеют производные по внутренней конормали $URI[[http://libmeta.ru/fme/formula/aux/1891_6_NEJMANA]]/URI$ и удовлетворяют условию
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1891_2_NEJMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1891_7_NEJMANA]]/URI$ - заданная непрерывная функция.</text>
+  <text_orig>одна из краевых задач для дифференциальных уравнений с частными производными. Пусть, напр., в ограниченной области $\Omega$, в каждой точке границы $\Gamma$ к-рой существует нормаль, задано эллиптич. уравнение 2-го порядка
+
+\[
+\begin{gathered}
+L u=\sum_{i, j=1}^{n} a_{i j}(x) \frac{\partial^{2} u(x)}{\partial x_{i} \partial x_{j}}+\sum_{i=1}^{n} b_{i}(x) \frac{\partial u(x)}{\partial x_{i}}+ \\
++c(x) u(x)=f(x),
+\end{gathered}
+\]
+
+где $x=\left(x_{1}, x_{2}, \ldots, x_{n}\right), n \geqslant 2$. Задачей Неймана для уравнения $(*)$ в области $\Omega$ называется следующая задача: из множества всех решений уравнения (*) требуется выделить те, к-рые в каждой граничной точке имеют производные по внутренней конормали $N$ и удовлетворяют условию
+
+\[
+\left.\frac{\partial u(x, t)}{\partial N(x)}\right|_{x \in \Gamma}=\varphi(x)
+\]
+
+где $\varphi(x)$ - заданная непрерывная функция. В. И. Битюцков.</text_orig>
+</article>

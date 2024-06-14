@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1414_KORRELJaTsIJa" alphabetic_pos="1416">
+  <title>КОРРЕЛЯЦИЯ В МАТЕМАТИЧЕСКОЙ СТАТИСТИКЕ</title>
+  <authors>
+    <author>A. B. Прохоров</author>
+  </authors>
+  <pages>
+    <start>297</start>
+    <end>298</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1414_1_KORRELJaTsIJa">y(x)=\mathrm{E}(Y \mid X=x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1414_2_KORRELJaTsIJa">y(x)=\mathrm{E}(Y \mid X=x)=\mathrm{E}(Y)=m_{Y}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_1_KORRELJaTsIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_2_KORRELJaTsIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_3_KORRELJaTsIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_4_KORRELJaTsIJa">y(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_5_KORRELJaTsIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_6_KORRELJaTsIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_7_KORRELJaTsIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_8_KORRELJaTsIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_9_KORRELJaTsIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_10_KORRELJaTsIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_11_KORRELJaTsIJa">x=x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_12_KORRELJaTsIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_13_KORRELJaTsIJa">m_{y}=\mathrm{e}(y)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_14_KORRELJaTsIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_15_KORRELJaTsIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_16_KORRELJaTsIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_17_KORRELJaTsIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_18_KORRELJaTsIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_19_KORRELJaTsIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_20_KORRELJaTsIJa">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_21_KORRELJaTsIJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1414_22_KORRELJaTsIJa">y</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1414_1_KORRELJaTsIJa">
+      <rel_text>корреляции коэффициент</rel_text>
+      <target>http://libmeta.ru/fme/article/1406_KORRELJaTsII</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1414_2_KORRELJaTsIJa">
+      <rel_text>определенным рассеянием</rel_text>
+      <target>http://libmeta.ru/fme/article/2333_POROG</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1414_3_KORRELJaTsIJa">
+      <rel_text>случайной величиной</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1414_4_KORRELJaTsIJa">
+      <rel_text>случайной величины</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+  </relations>
+  <text>вероятностная (статистическая) зависимость между величинами, не имеющая, вообще говоря, строго функционального характера. В отличие от функциональной, кор р е л я ц и о н н а я з а в и с и м о с т ь возникает тогда, когда одна из величин зависит не только от данной второй, но и от ряда случайных факторов, или когда среди условий, от к-рых зависят и та и другая величины, имеются общие для них обоих условия.
+
+В основе математич. теории К. лежит предположение о том, что изучаемые явления подчинены определенным вероятностным закономерностям. Зависимость между двумя случайными событиями проявляется в том, что условная вероятность одного из них при наступлении другого отличается от безусловной вероятности. Аналогично, влияние одной случайной величины на другую характеризуется условными распределениями первой при фиксированных значениях второй. Пусть для каждого значения $URI[[http://libmeta.ru/fme/formula/aux/1414_1_KORRELJaTsIJa]]/URI$ случайной величины $URI[[http://libmeta.ru/fme/formula/aux/1414_2_KORRELJaTsIJa]]/URI$ определено условное математическое ожи д ани е
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1414_1_KORRELJaTsIJa]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/1414_4_KORRELJaTsIJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1414_3_KORRELJaTsIJa]]/URI$. Функция $URI[[http://libmeta.ru/fme/formula/aux/1414_4_KORRELJaTsIJa]]/URI$ называется р е г р е с с и е й величины $URI[[http://libmeta.ru/fme/formula/aux/1414_5_KORRELJaTsIJa]]/URI$ по $URI[[http://libmeta.ru/fme/formula/aux/1414_6_KORRELJaTsIJa]]/URI$. Зависимость $URI[[http://libmeta.ru/fme/formula/aux/1414_7_KORRELJaTsIJa]]/URI$ от $URI[[http://libmeta.ru/fme/formula/aux/1414_8_KORRELJaTsIJa]]/URI$ проявляется в изменении средних значений $URI[[http://libmeta.ru/fme/formula/aux/1414_9_KORRELJaTsIJa]]/URI$ при изменении $URI[[http://libmeta.ru/fme/formula/aux/1414_10_KORRELJaTsIJa]]/URI$, хотя при каждом фиксированном значении $URI[[http://libmeta.ru/fme/formula/aux/1414_11_KORRELJaTsIJa]]/URI$ величина $URI[[http://libmeta.ru/fme/formula/aux/1414_12_KORRELJaTsIJa]]/URI$ остается URI[[http://libmeta.ru/fme/relation/1414_3_KORRELJaTsIJa]]/URI с URI[[http://libmeta.ru/fme/relation/1414_2_KORRELJaTsIJa]]/URI.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/1414_13_KORRELJaTsIJa]]/URI$ безусловное математич. ожидание $URI[[http://libmeta.ru/fme/formula/aux/1414_14_KORRELJaTsIJa]]/URI$. Если величины $URI[[http://libmeta.ru/fme/formula/aux/1414_15_KORRELJaTsIJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1414_16_KORRELJaTsIJa]]/URI$ независимы, то все условные математич. ожидания $URI[[http://libmeta.ru/fme/formula/aux/1414_17_KORRELJaTsIJa]]/URI$ не зависят от $URI[[http://libmeta.ru/fme/formula/aux/1414_18_KORRELJaTsIJa]]/URI$ и совпадают с безусловным математич. ожиданием:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1414_2_KORRELJaTsIJa]]/URI
+\]
+
+Обратное заключение не всегда справедливо. При измерении степени зависимости величин $URI[[http://libmeta.ru/fme/formula/aux/1414_19_KORRELJaTsIJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1414_20_KORRELJaTsIJa]]/URI$ наиболее употребителен URI[[http://libmeta.ru/fme/relation/1414_1_KORRELJaTsIJa]]/URI между $URI[[http://libmeta.ru/fme/formula/aux/1414_21_KORRELJaTsIJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1414_22_KORRELJaTsIJa]]/URI$.</text>
+  <text_orig>вероятностная (статистическая) зависимость между величинами, не имеющая, вообще говоря, строго функционального характера. В отличие от функциональной, кор р е л я ц и о н н а я з а в и с и м о с т ь возникает тогда, когда одна из величин зависит не только от данной второй, но и от ряда случайных факторов, или когда среди условий, от к-рых зависят и та и другая величины, имеются общие для них обоих условия.
+
+В основе математич. теории К. лежит предположение о том, что изучаемые явления подчинены определенным вероятностным закономерностям. Зависимость между двумя случайными событиями проявляется в том, что условная вероятность одного из них при наступлении другого отличается от безусловной вероятности. Аналогично, влияние одной случайной величины на другую характеризуется условными распределениями первой при фиксированных значениях второй. Пусть для каждого значения $x$ случайной величины $X$ определено условное математическое ожи д ани е
+
+\[
+y(x)=\mathrm{E}(Y \mid X=x)
+\]
+
+случайной величины $Y$. Функция $y(x)$ называется р е г р е с с и е й величины $Y$ по $X$. Зависимость $Y$ от $X$ проявляется в изменении средних значений $Y$ при изменении $X$, хотя при каждом фиксированном значении $X=x$ величина $Y$ остается случайной величиной с определенным рассеянием.
+
+Пусть $m_{Y}=\mathrm{E}(Y)-$ безусловное математич. ожидание $Y$. Если величины $X$ и $Y$ независимы, то все условные математич. ожидания $Y$ не зависят от $X$ и совпадают с безусловным математич. ожиданием:
+
+\[
+y(x)=\mathrm{E}(Y \mid X=x)=\mathrm{E}(Y)=m_{Y}
+\]
+
+Обратное заключение не всегда справедливо. При измерении степени зависимости величин $X$ и $Y$ наиболее употребителен корреляции коэффициент между $X$ и $Y$.
+
+A. B. Прохоров.</text_orig>
+</article>

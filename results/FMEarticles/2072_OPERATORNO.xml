@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2072_OPERATORNO" alphabetic_pos="2074">
+  <title>ОПЕРАТОРНО ПРОЕКЦИОННЫЙ МЕТОД В ТЕОРИИ СОЛИТОНОВ</title>
+  <authors/>
+  <pages>
+    <start>407</start>
+    <end>407</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М а ч е н к о В. А., Операторные алгебры и нелинейные $\begin{array}{ll}\text { уравнения, Киев, } 1986 . &amp; \text { В. А. Марченко. }\end{array}$</literature_orig>
+    <unit>
+      <author>Маченко В. А.</author>
+      <title>Операторные алгебры и нелинейные $\begin{array}{ll}\text { уравнения, Киев</title>
+      <publication/>
+      <year>1986</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2072_1_OPERATORNO">u_{t}+6 u_{x}^{2}+u_{x x x}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2072_2_OPERATORNO">u(x, t) \hat{P}=\hat{P} \hat{\Gamma}^{-1} \hat{\Gamma}_{x} \hat{P}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2072_3_OPERATORNO">\hat{\Gamma}_{t}+4 \hat{\Gamma}_{x x x}=0, \hat{\Gamma}_{x x}=\hat{a}^{2} \hat{\Gamma}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2072_4_OPERATORNO">\hat{\Gamma}_{x}(I-\hat{P})=\hat{\Gamma} \hat{N}(I-\hat{P}),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2072_1_OPERATORNO">\hat{\gamma}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2072_2_OPERATORNO">\hat{a}, \hat{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2072_3_OPERATORNO">\hat{p}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/2072_1_OPERATORNO">
+      <rel_text>проектор</rel_text>
+      <target>http://libmeta.ru/fme/article/2394_PROEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2072_2_OPERATORNO">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2072_3_OPERATORNO">
+      <rel_text>получаются</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>метод решения нелинейных эволюционных уравнений, основанный на замене данного уравнения уравнением того же вида относительно функций, принимающих значения в произвольной операторной алгебре. Односолитонные операторнозначные решения этих уравнений находятся элементарно и выражаются через логарифмич. производные операторнозначных решений линейных уравнений. Решения же исходных уравнений получаются из этих операторнозначных односолитонных решений окаймлением их специальными конечномерными проекторами. Произвол в выборе операторных алгебр и окаймляющих проекторов позволяет находить широкие классы решений исходных уравнений. В них входят решения, к-рые находятся обратной задачи рассеяния методом, Римана задачи методом и методами алгебраич. геометрии, а также решения, не сводящиеся к ним. Напр., решения скалярного уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2072_1_OPERATORNO]]/URI
+\]
+
+URI[[http://libmeta.ru/fme/relation/2072_3_OPERATORNO]]/URI в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2072_2_OPERATORNO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2072_1_OPERATORNO]]/URI$ - операторнозначное решение уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2072_3_OPERATORNO]]/URI
+\]
+
+удовлетворяющее условию
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2072_4_OPERATORNO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2072_2_OPERATORNO]]/URI$ - произвольные постоянные URI[[http://libmeta.ru/fme/relation/2072_2_OPERATORNO]]/URI и $URI[[http://libmeta.ru/fme/formula/aux/2072_3_OPERATORNO]]/URI$ постоянный одномерный URI[[http://libmeta.ru/fme/relation/2072_1_OPERATORNO]]/URI.</text>
+  <text_orig>метод решения нелинейных эволюционных уравнений, основанный на замене данного уравнения уравнением того же вида относительно функций, принимающих значения в произвольной операторной алгебре. Односолитонные операторнозначные решения этих уравнений находятся элементарно и выражаются через логарифмич. производные операторнозначных решений линейных уравнений. Решения же исходных уравнений получаются из этих операторнозначных односолитонных решений окаймлением их специальными конечномерными проекторами. Произвол в выборе операторных алгебр и окаймляющих проекторов позволяет находить широкие классы решений исходных уравнений. В них входят решения, к-рые находятся обратной задачи рассеяния методом, Римана задачи методом и методами алгебраич. геометрии, а также решения, не сводяшиеся к ним. Напр., решения скалярного уравнения
+
+\[
+u_{t}+6 u_{x}^{2}+u_{x x x}=0
+\]
+
+получаются в виде:
+
+\[
+u(x, t) \hat{P}=\hat{P} \hat{\Gamma}^{-1} \hat{\Gamma}_{x} \hat{P}
+\]
+
+где $\hat{\Gamma}$ - огераторнозначное решение уравнений
+
+\[
+\hat{\Gamma}_{t}+4 \hat{\Gamma}_{x x x}=0, \hat{\Gamma}_{x x}=\hat{a}^{2} \hat{\Gamma}
+\]
+
+удовлетворяющее условию
+
+\[
+\hat{\Gamma}_{x}(I-\hat{P})=\hat{\Gamma} \hat{N}(I-\hat{P}),
+\]
+
+где $\hat{a}, \hat{N}$ - произвольные постоянные операторы и $\hat{P}$ постоянный одномерный проектор.
+
+Лит.: [1] М а ч е н к о В. А., Операторные алгебры и нелинейные $\begin{array}{ll}\text { уравнения, Киев, } 1986 . &amp; \text { В. А. Марченко. }\end{array}$</text_orig>
+</article>

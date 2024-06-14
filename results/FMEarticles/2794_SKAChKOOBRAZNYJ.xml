@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2794_SKAChKOOBRAZNYJ" alphabetic_pos="2796">
+  <title>СКАЧКООБРАЗНЫЙ МАРКОВСКИЙ ПРОЦЕСС</title>
+  <authors/>
+  <pages>
+    <start>540</start>
+    <end>540</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Г и х м а И. И., Скор ох од А. В., Введение в теорию случайных процессов, 2 изд., М., 1977.</literature_orig>
+    <unit>
+      <author>Гихма И. И.</author>
+      <author>Скороход А. В.</author>
+      <title>Введение в теорию случайных процессов</title>
+      <publication>2 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2794_1_SKAChKOOBRAZNYJ">\mathrm{P}\left\{\xi_{t_{0}+\Delta t}=y \mid \xi_{t_{0}}=x\right\}=q\left(y, x, t_{0}\right) \Delta t+o(\Delta t) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2794_2_SKAChKOOBRAZNYJ">1-\sum_{y} q\left(y, x, t_{0}\right) \Delta t+o(\Delta t)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_1_SKAChKOOBRAZNYJ">\left\{\xi_{t}, t \in \mathbb{R}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_2_SKAChKOOBRAZNYJ">x_{1}, \ldots, x_{n}, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_3_SKAChKOOBRAZNYJ">t_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_4_SKAChKOOBRAZNYJ">t_{0}+\delta t, \Delta t&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_5_SKAChKOOBRAZNYJ">\xi_{t_{0}+\delta t}=y\left(=x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_6_SKAChKOOBRAZNYJ">t_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_7_SKAChKOOBRAZNYJ">x\left(=x_{s} \neq x_{k}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_8_SKAChKOOBRAZNYJ">x_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_9_SKAChKOOBRAZNYJ">x_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_10_SKAChKOOBRAZNYJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_11_SKAChKOOBRAZNYJ">\delta t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_12_SKAChKOOBRAZNYJ">\{q(x, y, t) \geqslant 0, x \neq y\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_13_SKAChKOOBRAZNYJ">\left\{\xi_{t}, t \in \mathbb{R}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_14_SKAChKOOBRAZNYJ">p\left(x, y, t_{1}, t_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_15_SKAChKOOBRAZNYJ">t_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_16_SKAChKOOBRAZNYJ">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_17_SKAChKOOBRAZNYJ">t_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_18_SKAChKOOBRAZNYJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_19_SKAChKOOBRAZNYJ">\left\{\xi_{t}, t \in \mathbb{R}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_20_SKAChKOOBRAZNYJ">\mathrm{p}_{\delta t}\left\{y \mid \xi_{t_{0}}=x\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_21_SKAChKOOBRAZNYJ">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_22_SKAChKOOBRAZNYJ">y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_23_SKAChKOOBRAZNYJ">\delta t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2794_24_SKAChKOOBRAZNYJ">\{x(t), t \in \mathbb{R}\}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/2794_1_SKAChKOOBRAZNYJ">
+      <rel_text>интервал времени</rel_text>
+      <target>http://libmeta.ru/fme/article/2193_PERVYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2794_2_SKAChKOOBRAZNYJ">
+      <rel_text>условной вероятности</rel_text>
+      <target>http://libmeta.ru/fme/article/3197_USLOVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2794_3_SKAChKOOBRAZNYJ">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+  </relations>
+  <text>марковский процесс, у которого значения изменяются мгновенно (скачки) в отдельные (случайные) моменты времени. В наиболее простом случае, когда марковский процесс $URI[[http://libmeta.ru/fme/formula/aux/2794_1_SKAChKOOBRAZNYJ]]/URI$ может принимать лишь конечное или счетное число значений $URI[[http://libmeta.ru/fme/formula/aux/2794_2_SKAChKOOBRAZNYJ]]/URI$ лля любого фиксированного момента времени $URI[[http://libmeta.ru/fme/formula/aux/2794_3_SKAChKOOBRAZNYJ]]/URI$, условная вероятность того, что в момент времени $URI[[http://libmeta.ru/fme/formula/aux/2794_4_SKAChKOOBRAZNYJ]]/URI$, процесс примет значение $URI[[http://libmeta.ru/fme/formula/aux/2794_5_SKAChKOOBRAZNYJ]]/URI$ при условии, что его значение в момент времени $URI[[http://libmeta.ru/fme/formula/aux/2794_6_SKAChKOOBRAZNYJ]]/URI$ совпадает с $URI[[http://libmeta.ru/fme/formula/aux/2794_7_SKAChKOOBRAZNYJ]]/URI$ ) (вероятность перескока из $URI[[http://libmeta.ru/fme/formula/aux/2794_8_SKAChKOOBRAZNYJ]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2794_9_SKAChKOOBRAZNYJ]]/URI$ ), равна:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2794_1_SKAChKOOBRAZNYJ]]/URI
+\]
+
+При этом условная вероятность того, что значение $URI[[http://libmeta.ru/fme/formula/aux/2794_10_SKAChKOOBRAZNYJ]]/URI$ в течение промежутка времени $URI[[http://libmeta.ru/fme/formula/aux/2794_11_SKAChKOOBRAZNYJ]]/URI$ не изменится, оказывается равной
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2794_2_SKAChKOOBRAZNYJ]]/URI
+\]
+
+Величины $URI[[http://libmeta.ru/fme/formula/aux/2794_12_SKAChKOOBRAZNYJ]]/URI$ называются и нфи н и т зи ма л ь н м и ве р о я т н с т я м и перехода марковского процесса $URI[[http://libmeta.ru/fme/formula/aux/2794_13_SKAChKOOBRAZNYJ]]/URI$. По ним полностью восстанавливается переходная функция $URI[[http://libmeta.ru/fme/formula/aux/2794_14_SKAChKOOBRAZNYJ]]/URI$ процесса, то есть условная вероятность принять процессу в момент времени $URI[[http://libmeta.ru/fme/formula/aux/2794_15_SKAChKOOBRAZNYJ]]/URI$ значение $URI[[http://libmeta.ru/fme/formula/aux/2794_16_SKAChKOOBRAZNYJ]]/URI$ при условии, что в момент времени $URI[[http://libmeta.ru/fme/formula/aux/2794_17_SKAChKOOBRAZNYJ]]/URI$ он принял значение $URI[[http://libmeta.ru/fme/formula/aux/2794_18_SKAChKOOBRAZNYJ]]/URI$.
+
+В случае, когда множество возможных значений С. м. П. $URI[[http://libmeta.ru/fme/formula/aux/2794_19_SKAChKOOBRAZNYJ]]/URI$ оказывается непрерывным, формула (1) выражает URI[[http://libmeta.ru/fme/relation/2794_3_SKAChKOOBRAZNYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2794_20_SKAChKOOBRAZNYJ]]/URI$ URI[[http://libmeta.ru/fme/relation/2794_2_SKAChKOOBRAZNYJ]]/URI «перескочить» от значения $URI[[http://libmeta.ru/fme/formula/aux/2794_21_SKAChKOOBRAZNYJ]]/URI$ к значению $URI[[http://libmeta.ru/fme/formula/aux/2794_22_SKAChKOOBRAZNYJ]]/URI$ за время $URI[[http://libmeta.ru/fme/formula/aux/2794_23_SKAChKOOBRAZNYJ]]/URI$ [при этом в формуле (2) сумму по у следует заменить интегралом].
+
+Всякая реализация $URI[[http://libmeta.ru/fme/formula/aux/2794_24_SKAChKOOBRAZNYJ]]/URI$ С. м. п. представляет собой кусочно постоянную функцию, у к-рой скачки (разрывы) происходят лишь в отдельные изолированные моменты времени и число таких скачков за любой конечный URI[[http://libmeta.ru/fme/relation/2794_1_SKAChKOOBRAZNYJ]]/URI конечно.</text>
+  <text_orig>марковский процесс, у которого значения изменяются мгновенно (скачки) в отдельные (случайные) моменты времени. В наиболее простом случае, когда марковский процесс $\left\{\xi_{t}, t \in \mathbb{R}\right\}$ может принимать лишь конечное или счетное число значений $x_{1}, \ldots, x_{n}, \ldots$ лля любого фиксированного момента времени $t_{0}$, условная вероятность того, что в момент времени $t_{0}+\Delta t, \Delta t&gt;0$, процесс примет значение $\xi_{t_{0}+\Delta t}=y\left(=x_{k}\right)$ при условии, что его значение в момент времени $t_{0}$ совпадает с $x\left(=x_{s} \neq x_{k}\right.$ ) (вероятность перескока из $x_{s}$ в $x_{k}$ ), равна:
+
+\[
+\mathrm{P}\left\{\xi_{t_{0}+\Delta t}=y \mid \xi_{t_{0}}=x\right\}=q\left(y, x, t_{0}\right) \Delta t+o(\Delta t) .
+\]
+
+При этом условная вероятность того, что значение $x$ в течение промежутка времени $\Delta t$ не изменится, оказывается равной
+
+\[
+1-\sum_{y} q\left(y, x, t_{0}\right) \Delta t+o(\Delta t)
+\]
+
+Величины $\{q(x, y, t) \geqslant 0, x \neq y\}$ называются и нфи н и т зи ма л ь н м и ве р о я т н с т я м и перехода марковского процесса $\left\{\xi_{t}, t \in \mathbb{R}\right\}$. По ним полностью восстанавливается переходная функция $P\left(x, y, t_{1}, t_{2}\right)$ процесса, то есть условная вероятность принять процессу в момент времени $t_{2}$ значение $y$ при условии, что в момент времени $t_{1}$ он принял значение $x$.
+
+В случае, когда множество возможных значений С. м. П. $\left\{\xi_{t}, t \in \mathbb{R}\right\}$ оказывается непрерывным, формула (1) выражает плотность $\mathrm{P}_{\Delta t}\left\{y \mid \xi_{t_{0}}=x\right\}$ условной вероятности «перескочить» от значения $x$ к значению $y$ за время $\Delta t$ [при этом в формуле (2) сумму по у следует заменить интегралом].
+
+Всякая реализация $\{x(t), t \in \mathbb{R}\}$ С. м. п. представляет собой кусочно постоянную функцию, у к-рой скачки (разрывы) происходят лишь в отдельные изолированные моменты времени и число таких скачков за любой конечный интервал времени конечно.
+
+Лит.: [1] Г и х м а И. И., Скор ох од А. В., Введение в теорию случайных процессов, 2 изд., М., 1977.</text_orig>
+</article>

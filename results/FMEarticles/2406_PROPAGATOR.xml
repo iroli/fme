@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2406_PROPAGATOR" alphabetic_pos="2408">
+  <title>ПРОПАГАТОР УРАВНЕНИЯ ЛИУВИЛЛЯ</title>
+  <authors/>
+  <pages>
+    <start>463</start>
+    <end>463</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б а л е с к у Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 2, М., 1978.</literature_orig>
+    <unit>
+      <author>Балеску Р.</author>
+      <title>Равновесная и неравновесная статистическая механика</title>
+      <publication>пер. с англ., т. 2, М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2406_1_PROPAGATOR">\vec{f}(t)=U(t) \vec{f}(0) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2406_2_PROPAGATOR">\partial_{t} U(t)=\varphi U(t)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2406_1_PROPAGATOR">\vec{f}(t)=\left\{f\left(x_{1}, \ldots, x_{s} ; t\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2406_2_PROPAGATOR">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2406_3_PROPAGATOR">\mathscr{l}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2406_4_PROPAGATOR">u(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2406_5_PROPAGATOR">u(0)=\mathbb{1}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/2406_1_PROPAGATOR">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2406_2_PROPAGATOR">
+      <rel_text>начальным условием</rel_text>
+      <target>http://libmeta.ru/fme/article/1873_NAChAL'NYE</target>
+    </relation>
+  </relations>
+  <text>функция Грина Лиувилля уравнения для вектора распределения. Вектор распределения $URI[[http://libmeta.ru/fme/formula/aux/2406_1_PROPAGATOR]]/URI$, являющийся совокупностью $URI[[http://libmeta.ru/fme/formula/aux/2406_2_PROPAGATOR]]/URI$-частичных функций распределения, удовлетворяет обобщенному уравнению Лиувилля
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_92e9610c5e4ea89c35d9g-1.jpg?height=55&amp;width=196&amp;top_left_y=988&amp;top_left_x=1239)
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2406_3_PROPAGATOR]]/URI$ оператор Лиувилля. Решение этого уравнения выражается через П. $URI[[http://libmeta.ru/fme/formula/aux/2406_4_PROPAGATOR]]/URI$ в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2406_1_PROPAGATOR]]/URI
+\]
+
+При этом П. уравнения Лиувилля можно определить как решение уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2406_2_PROPAGATOR]]/URI
+\]
+
+с URI[[http://libmeta.ru/fme/relation/2406_2_PROPAGATOR]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2406_5_PROPAGATOR]]/URI$, где 1 - единичный URI[[http://libmeta.ru/fme/relation/2406_1_PROPAGATOR]]/URI.</text>
+  <text_orig>функция Грина Лиувилля уравнения для вектора распределения. Вектор распределения $\vec{f}(t)=\left\{f\left(x_{1}, \ldots, x_{s} ; t\right)\right\}$, являющийся совокупностью $s$-частичных функций распределения, удовлетворяет обобщенному уравнению Лиувилля
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_92e9610c5e4ea89c35d9g-1.jpg?height=55&amp;width=196&amp;top_left_y=988&amp;top_left_x=1239)
+
+где $\mathscr{L}-$ оператор Лиувилля. Решение этого уравнения выражается через П. $U(t)$ в виде
+
+\[
+\vec{f}(t)=U(t) \vec{f}(0) .
+\]
+
+При этом П. уравнения Лиувилля можно определить как решение уравнения
+
+\[
+\partial_{t} U(t)=\varphi U(t)
+\]
+
+с начальным условием $U(0)=\mathbb{1}$, где 1 - единичный оператор.
+
+Лит.: [1] Б а л е с к у Р., Равновесная и неравновесная статистическая механика, пер. с англ., т. 2, М., 1978.</text_orig>
+</article>

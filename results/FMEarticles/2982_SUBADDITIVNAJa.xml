@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2982_SUBADDITIVNAJa" alphabetic_pos="2984">
+  <title>СУБАДДИТИВНАЯ ЭРГОДИЧЕСКАЯ ТЕОРЕМА</title>
+  <authors>
+    <author>И. П. Корнфельд</author>
+  </authors>
+  <pages>
+    <start>584</start>
+    <end>584</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Hammersle y J., &quot;ann. Probab.”, 1974, v. 2. № 4, p. 652-80; [2] K ing m a n J., там же, 1973, v. 1, № 6, p. 883-909; [3] Derriennic G., «c.r. Acad. sci.», 1975, t. 281, p. 985-88: [4] Katznelson G., We iss B., &quot;isr. J. Math.», 1982, v. 42, № 4, p. 291-96; [5] Akcoghu M., Krengel U., «j. reine und angew. Math.», 1981, Bd 323, S. 53-67; [6] K re ngel U., Ergodic theorems, B.- N.Y., 1985 .</literature_orig>
+    <unit>
+      <author>Hammersley J.</author>
+      <title>&quot;ann. Probab.”</title>
+      <publication/>
+      <year>1974</year>
+      <other>v. 2. № 4, p. 652-80</other>
+    </unit>
+    <unit>
+      <author>Kingman J.</author>
+      <title>там же</title>
+      <publication/>
+      <year>1973</year>
+      <other>v. 1, № 6, p. 883-909</other>
+    </unit>
+    <unit>
+      <author>Derriennic G.</author>
+      <title>«c.r. Acad. sci.»</title>
+      <publication/>
+      <year>1975</year>
+      <other>t. 281, p. 985-88:</other>
+    </unit>
+    <unit>
+      <author>Katznelson G.</author>
+      <author>Weiss B.</author>
+      <title>&quot;isr. J. Math.»</title>
+      <publication/>
+      <year>1982</year>
+      <other>v. 42, № 4, p. 291-96</other>
+    </unit>
+    <unit>
+      <author>Akcoghu M.</author>
+      <author>Krengel U.</author>
+      <title>«j. reine und angew. Math.»</title>
+      <publication/>
+      <year>1981</year>
+      <other>Bd 323, S. 53-67</other>
+    </unit>
+    <unit>
+      <author>Krengel U.</author>
+      <title>Ergodic theorems, B.- N.Y.</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2982_1_SUBADDITIVNAJa">\begin{gathered}X=\lim _{j \rightarrow \infty} j^{-1} X_{0 j}, \\E X=C .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2982_1_SUBADDITIVNAJa">\left\{x_{i j}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2982_2_SUBADDITIVNAJa">i, j \in \mathbb{Z}^{+}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2982_3_SUBADDITIVNAJa">x_{i j} \leqslant X_{i k}+X_{k j}, i \leqslant k \leqslant j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2982_4_SUBADDITIVNAJa">\left\{x_{i j}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2982_5_SUBADDITIVNAJa">\left\{x_{i j}^{\prime}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2982_6_SUBADDITIVNAJa">x_{i j}^{\prime}=X_{i+1, j+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2982_7_SUBADDITIVNAJa">\begin{array}{cc}m_{j}=\mathrm{e}\left(x_{i j}\right) \\ \text { сушествуют и } &amp; \inf ^{-1} m_{j}=C&gt;-\infty .\end{array}</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>утверждение об асимптотическом поведении семейства $URI[[http://libmeta.ru/fme/formula/aux/2982_1_SUBADDITIVNAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2982_2_SUBADDITIVNAJa]]/URI$, действительнозначных случайных величин, составляющих субаддитивный случайный процесс с дискретным временем, то есть таких (см. [1]), что
+
+1) $URI[[http://libmeta.ru/fme/formula/aux/2982_3_SUBADDITIVNAJa]]/URI$
+
+2) совместное распределение любого конечного набора случайных величин $URI[[http://libmeta.ru/fme/formula/aux/2982_4_SUBADDITIVNAJa]]/URI$ совпадает с распределением набора $URI[[http://libmeta.ru/fme/formula/aux/2982_5_SUBADDITIVNAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2982_6_SUBADDITIVNAJa]]/URI$
+
+3) математич. ожидания
+
+$URI[[http://libmeta.ru/fme/formula/aux/2982_7_SUBADDITIVNAJa]]/URI$
+
+Тогда почти наверное существует предел
+
+причем
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2982_1_SUBADDITIVNAJa]]/URI
+\]
+
+Эта теорема, доказанная Дж. Кингманом [2], обобщает, в частности, индивидуальную эргодич. теорему (Биркгофа Хинчина). Субаддитивные процессы встречаются в различных задачах теории просачивания, в комбинаторике, при изучении асимптотич. поведения произведений случайных операторов. Имеются обобщения С. э. т., относящиеся к процессам с непрерывным временем, к случайным полям и т. Д. (см. [5]). См. также [3], [4].</text>
+  <text_orig>утверждение об асимптотическом поведении семейства $\left\{X_{i j}\right\}$, $i, j \in \mathbb{Z}^{+}$, действительнозначных случайных величин, составляющих субадлитивный случайный процесс с дискретным временем, то есть таких (см. [1]), что
+
+1) $X_{i j} \leqslant X_{i k}+X_{k j}, i \leqslant k \leqslant j$
+
+2) совместное распределение любого конечного набора случайных величин $\left\{X_{i j}\right\}$ совпадает с распределением набора $\left\{X_{i j}^{\prime}\right\}$, где $X_{i j}^{\prime}=X_{i+1, j+1}$
+
+3) математич. ожидания
+
+$\begin{array}{cc}m_{j}=\mathrm{E}\left(X_{i j}\right) \\ \text { сушествуют и } &amp; \inf ^{-1} m_{j}=C&gt;-\infty .\end{array}$
+
+Тогда почти наверное существует предел
+
+причем
+
+\[
+\begin{gathered}
+X=\lim _{j \rightarrow \infty} j^{-1} X_{0 j}, \\
+E X=C .
+\end{gathered}
+\]
+
+Эта теорема, доказанная Дж. Кингманом [2], обобщает, в частности, индивидуальную эргодич. теорему (Биркгофа Хинчина). Субаддитивные процессы встречаются в различных задачах теории просачивания, в комбинаторике, при изучении асимптотич. поведения произведений случайных операторов. Имеются обобшения С. э. т., относящиеся к процессам с непрерывным временем, к случайным полям и т. Д. (см. [5]). См. также [3], [4].
+
+Лum.: [1] Hammersle y J., &quot;Ann. Probab.”, 1974, v. 2. № 4, p. 652-80; [2] K ing m a n J., там же, 1973, v. 1, № 6, p. 883-909; [3] Derriennic G., «C.r. Acad. sci.», 1975, t. 281, p. 985-88: [4] Katznelson G., We iss B., &quot;Isr. J. Math.», 1982, v. 42, № 4, p. 291-96; [5] Akcoghu M., Krengel U., «J. reine und angew. Math.», 1981, Bd 323, S. 53-67; [6] K re ngel U., Ergodic theorems, B.- N.Y., 1985 . И. П. Корнфельд.</text_orig>
+</article>

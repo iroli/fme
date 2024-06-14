@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/888_DLINY" alphabetic_pos="890">
+  <title>ДЛИНЫ И ПЛОЩАДИ ПРИНЦИП В КЛАССИЧЕСКОМ ВАРИАНТЕ</title>
+  <authors/>
+  <pages>
+    <start>196</start>
+    <end>196</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Го лу з и н Г. М., Геометрическая теория функций комплексного переменного, 2 изд., М., 1966; [2] С у в о р о в Г. Д., Обобщенный «принцип длины и площади» в теории отображений, Киев, $\begin{array}{ll}1985 . &amp; \text { В. В. Горяйнов. }\end{array}$</literature_orig>
+    <unit>
+      <author>Голузин Г. М.</author>
+      <title>Геометрическая теория функций комплексного переменного</title>
+      <publication>2 изд., М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Суворов Г. Д.</author>
+      <title>Обобщенный «принцип длины и площади» в теории отображений, Киев</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/888_1_DLINY">p(\rho)=\frac{1}{2 \pi} \int_{0}^{2 \pi} n\left(\rho e^{i \theta}\right) d \theta, \quad \rho&gt;0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/888_2_DLINY">\int_{0}^{\infty} \frac{(l(\rho))^{2}}{\rho p(\rho)} d \rho&lt;2 \pi \sigma</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_1_DLINY">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_2_DLINY">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_3_DLINY">n(w)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_4_DLINY">f(z)=w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_5_DLINY">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_6_DLINY">l(p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_7_DLINY">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_8_DLINY">f(z)=\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_9_DLINY">\sigma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/888_10_DLINY">d</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/888_1_DLINY">
+      <rel_text>теории отображений</rel_text>
+      <target>http://libmeta.ru/fme/article/2629_RIMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/888_2_DLINY">
+      <rel_text>получили</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/888_3_DLINY">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/888_4_DLINY">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/888_5_DLINY">
+      <rel_text>голоморфной</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/888_6_DLINY">
+      <rel_text>неравенством Альфорса</rel_text>
+      <target>http://libmeta.ru/fme/article/60_AL'FORSA</target>
+    </relation>
+  </relations>
+  <text>неравенство, связывающее указанные ниже геометрические характеристики и называемое также URI[[http://libmeta.ru/fme/relation/888_6_DLINY]]/URI.
+
+Для URI[[http://libmeta.ru/fme/relation/888_5_DLINY]]/URI в URI[[http://libmeta.ru/fme/relation/888_4_DLINY]]/URI $URI[[http://libmeta.ru/fme/formula/aux/888_1_DLINY]]/URI$ функции $URI[[http://libmeta.ru/fme/formula/aux/888_2_DLINY]]/URI$ пусть $URI[[http://libmeta.ru/fme/formula/aux/888_3_DLINY]]/URI$ число корней уравнения $URI[[http://libmeta.ru/fme/formula/aux/888_4_DLINY]]/URI$, расположенных в $URI[[http://libmeta.ru/fme/formula/aux/888_5_DLINY]]/URI$, и
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/888_1_DLINY]]/URI
+\]
+
+Тогда, если $URI[[http://libmeta.ru/fme/formula/aux/888_6_DLINY]]/URI$ - суммарная длина кривых в $URI[[http://libmeta.ru/fme/formula/aux/888_7_DLINY]]/URI$, на к-рых $URI[[http://libmeta.ru/fme/formula/aux/888_8_DLINY]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/888_9_DLINY]]/URI$ площадь URI[[http://libmeta.ru/fme/relation/888_3_DLINY]]/URI $URI[[http://libmeta.ru/fme/formula/aux/888_10_DLINY]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/888_2_DLINY]]/URI
+\]
+
+Это неравенство и различные его обобщения URI[[http://libmeta.ru/fme/relation/888_2_DLINY]]/URI многочисленные приложения в теории аналитич. Функций и URI[[http://libmeta.ru/fme/relation/888_1_DLINY]]/URI.</text>
+  <text_orig>неравенство, связывающее указанные ниже геометрические характеристики и называемое также неравенством Альфорса.
+
+Для голоморфной в области $D$ функщии $f$ пусть $n(w)-$ число корней уравнения $f(z)=w$, расположенных в $D$, и
+
+\[
+p(\rho)=\frac{1}{2 \pi} \int_{0}^{2 \pi} n\left(\rho e^{i \theta}\right) d \theta, \quad \rho&gt;0 .
+\]
+
+Тогда, если $l(p)$ - суммарная длина кривых в $D$, на к-рых $f(z)=\rho$, а $\sigma-$ площадь области $D$, то
+
+\[
+\int_{0}^{\infty} \frac{(l(\rho))^{2}}{\rho p(\rho)} d \rho&lt;2 \pi \sigma
+\]
+
+Это неравенство и различные его обобщения получили многочисленные приложения в теории аналитич. Функций и теории отображений.
+
+Лит.: [1] Го лу з и н Г. М., Геометрическая теория функций комплексного переменного, 2 изд., М., 1966; [2] С у в о р о в Г. Д., Обобщенный «принцип длины и площади» в теории отображений, Киев, $\begin{array}{ll}1985 . &amp; \text { В. В. Горяйнов. }\end{array}$</text_orig>
+</article>

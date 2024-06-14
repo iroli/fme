@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2372_PRIGOZhINA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2372_PRIGOZhINA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1524</core:url>
+    <lbm:descriptor><![CDATA[ПРИГОЖИНА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5196"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5197"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11569"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11570"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5099"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_22"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_86"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11571"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11572"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1044_INTEGRO-DIFFERENTsIAL'NOE">интегро-дифференциальное уравнение</a>, предложенное И. Пригожиным (i. Prigogine, 1961), для описания движения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_13_AVTOKOLEBANI">автомобильного</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3110_TRANSLJaTsI">транспорта</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11569">$$\begin{gathered}\frac{\partial F}{\partial t}+v \frac{\partial F}{\partial x}=-\frac{1}{T^{0}}\left(F-G(v) \int_{v_{1}}^{v_{2}} F\left(x, v^{\prime}, t\right) d v^{\prime}\right)+ \\+(1-p) F(x, v, t) \int_{v_{1}}^{v_{2}}\left(v-v^{\prime}\right) F\left(x, v^{\prime}, t\right) d v^{\prime}, \\F(x, v, 0)=f(x, v), \quad x \in[0, L], \quad v \in\left[v_{1}, v_{2}\right], \\F(0, v, t)=h(v, t), \quad t>0, \quad v \in\left[v_{1}, v_{2}\right] .\end{gathered}$$</a><BR/></P><P>Здесь <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5099">$$f(x, v, t)$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотность</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_20_AVTOMORFIZ">автомобилей</a> в точке $URI[[http://libmeta.ru/fme/formula/aux/2372_2_PRIGOZhINA]]/URI$, имеющих <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скорость</a> $URI[[http://libmeta.ru/fme/formula/aux/2372_3_PRIGOZhINA]]/URI$ в момент <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11571">$$t>0, T^{0}-$$</a> время <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2604_RELAKSATsI">релаксации</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11572">$$g(v):\left[v_{1}, v_{2}\right] \rightarrow \mathbb{R}-$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1505_LAGRANZhA">заданная функция</a> с условием<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11570">$$\int_{v_{1}}^{v_{2}} G(v) d v=1$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#5196">И. А. Кузин</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#5197">В. П. Политюков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[интегро-дифференциальное уравнение, предложенное И. Пригожиным (I. Prigogine, 1961), для описания движения автомобильного транспорта
+
+\[
+\begin{gathered}
+\frac{\partial F}{\partial t}+v \frac{\partial F}{\partial x}=-\frac{1}{T^{0}}\left(F-G(v) \int_{v_{1}}^{v_{2}} F\left(x, v^{\prime}, t\right) d v^{\prime}\right)+ \\
++(1-p) F(x, v, t) \int_{v_{1}}^{v_{2}}\left(v-v^{\prime}\right) F\left(x, v^{\prime}, t\right) d v^{\prime}, \\
+F(x, v, 0)=f(x, v), \quad x \in[0, L], \quad v \in\left[v_{1}, v_{2}\right], \\
+F(0, v, t)=h(v, t), \quad t>0, \quad v \in\left[v_{1}, v_{2}\right] .
+\end{gathered}
+\]
+
+Здесь $F(x, v, t)$ - плотность автомобилей в точке $x$, имеющих скорость $v$ в момент $t>0, T^{0}-$ время релаксации, $G(v):\left[v_{1}, v_{2}\right] \rightarrow \mathbb{R}-$ заданная функция с условием
+
+\[
+\int_{v_{1}}^{v_{2}} G(v) d v=1
+\]
+
+И. А. Кузин, В. П. Политюков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1505_LAGRANZhA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2604_RELAKSATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_20_AVTOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3110_TRANSLJaTsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_13_AVTOKOLEBANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1044_INTEGRO-DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,342 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2822_SLUChAJNOE" alphabetic_pos="2824">
+  <title>СЛУЧАЙНОЕ ПОЛЕ</title>
+  <authors>
+    <author>Ю. П. Вирченко</author>
+  </authors>
+  <pages>
+    <start>546</start>
+    <end>547</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Я д р е н ко М. И., Спектральная теория случайных полей, Киев, 1980; [2] Р о за н о в Ю.А., Марковские случайные поля, М., 1981; [3] Сай мон Б., Модель $p(\varphi)_{2}$ евклидовой квантовой теории поля, пер. с англ., М., 1976; [4] Р ыто в С. М., Кра в ц о в Ю. А., Т ат а р с к й В. И., Введение в статистическую радиофизику, ч. Ii.- Случайные поля, 2 изд., М., 1978; [5] 3 а й м а н Дж., Модели беспорядка, пер. с англ., М., 1982.</literature_orig>
+    <unit>
+      <author>Ядренко М. И.</author>
+      <title>Спектральная теория случайных полей, Киев</title>
+      <publication/>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Розанов Ю. А.</author>
+      <title>Марковские случайные поля</title>
+      <publication>М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Саймон Б.</author>
+      <title>Модель $p(\varphi)_{2}$ евклидовой квантовой теории поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рытов С. М.</author>
+      <author>Кравцов Ю. А.</author>
+      <author>Татарскй В. И.</author>
+      <title>Введение в статистическую радиофизику, ч. Ii.- Случайные поля</title>
+      <publication>2 изд., М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>3 а й м а н Дж., Модели беспорядка</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1982</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_1_SLUChAJNOE">A\left(x_{1}, \Delta_{1} ; \ldots ; x_{n}, \Delta_{n}\right)=\left\{\bigcap_{j=1}^{n}\left\{\xi\left(x_{j}\right) \in \Delta_{j}\right\}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_2_SLUChAJNOE">Q_{n}\left(x_{1}, \Delta_{1} ; \ldots ; x_{n}, \Delta_{n}\right)=\mathrm{P}\left\{A\left(x_{1}, \Delta_{1} ; \ldots ; x_{n}, \Delta_{n}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_3_SLUChAJNOE">K(x, y)=\mathrm{E}[\xi(x) \xi(y)]-\mathrm{E} \xi(x) \mathrm{E} \xi(y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_4_SLUChAJNOE">\int_{D} K(x, x) d x&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_5_SLUChAJNOE">\xi(x)=a(x)+\sum_{k=1}^{\infty} \eta_{k} \varphi_{k}(x),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_6_SLUChAJNOE">\begin{gathered}\int_{D} K(x, y) \varphi_{k}(y) d y=\lambda_{k} \varphi_{k}(x), \\a(x)=\mathrm{E} \xi(x), \quad \sum_{k} \lambda_{k}&lt;\infty,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_7_SLUChAJNOE">\lim _{N \rightarrow \infty} \int_{D} E\left|\xi(x)-a(x)-\sum_{k=1}^{N} \eta_{k} \varphi_{k}(x)\right|^{2} d x=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_8_SLUChAJNOE">d \mathrm{P}_{\Lambda}=Z_{\Lambda}^{-1} \exp \left[-H\left\{\xi_{\Lambda}\right\}\right] d \mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_9_SLUChAJNOE">Z_{\Lambda}=\int_{\Omega_{\Lambda}} d \mu \exp \left[-H\left\{\xi_{\Lambda}\right\}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2822_10_SLUChAJNOE">\mu_{\Lambda}=\frac{\rho^{n}}{n !}|\Lambda|^{n}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_1_SLUChAJNOE">\{\xi(x), x \in D\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_2_SLUChAJNOE">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_3_SLUChAJNOE">\mathbb{r}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_4_SLUChAJNOE">\mathbb{r}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_5_SLUChAJNOE">\xi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_6_SLUChAJNOE">\xi: D \rightarrow \mathbb{R}^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_7_SLUChAJNOE">\{\omega, \mathfrak{B}, \mathrm{P}\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_8_SLUChAJNOE">\omega-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_9_SLUChAJNOE">\xi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_10_SLUChAJNOE">\mathfrak{b}-\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_11_SLUChAJNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_12_SLUChAJNOE">\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_13_SLUChAJNOE">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_14_SLUChAJNOE">\left(\delta_{1}, \ldots, \Delta_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_15_SLUChAJNOE">\mathbb{r}^{m} ; \mathrm{P}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_16_SLUChAJNOE">q_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_17_SLUChAJNOE">q_{n}\left(x_{i_{1}}, \Delta_{i_{1}} ; \ldots ; x_{i_{n}}, \Delta_{i_{n}}\right)=Q_{n}\left(x_{1}, \Delta_{1} ; \ldots ; x_{n}, \Delta_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_18_SLUChAJNOE">\left(i_{1}, i_{2}, \ldots, i_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_19_SLUChAJNOE">(1, \ldots, n)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_20_SLUChAJNOE">q_{n}\left(x_{1}, \Delta_{1} ; \ldots ; x_{n-1}, \Delta_{n-1} ; x_{n}, \mathbb{R}^{m}\right)=Q_{n-1}\left(x_{1}, \Delta_{1} ; \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_21_SLUChAJNOE">\left.x_{n-1}, \Delta_{n-1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_22_SLUChAJNOE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_23_SLUChAJNOE">\{\xi(x)\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_24_SLUChAJNOE">\{\xi(g x)\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_25_SLUChAJNOE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_26_SLUChAJNOE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_27_SLUChAJNOE">\mathbb{r}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_28_SLUChAJNOE">\mathbb{r}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_29_SLUChAJNOE">d&gt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_30_SLUChAJNOE">m=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_31_SLUChAJNOE">\varphi_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_32_SLUChAJNOE">k(x, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_33_SLUChAJNOE">\lambda_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_34_SLUChAJNOE">\eta_{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_35_SLUChAJNOE">\mathrm{e} \eta_{k}=0, \mathrm{D} \eta_{k}=\lambda_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_36_SLUChAJNOE">q_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_37_SLUChAJNOE">\eta_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_38_SLUChAJNOE">\eta_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_39_SLUChAJNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_40_SLUChAJNOE">\sigma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_41_SLUChAJNOE">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_42_SLUChAJNOE">\lambda \subset \mathbb{R}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_43_SLUChAJNOE">\omega_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_44_SLUChAJNOE">\xi_{\lambda}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_45_SLUChAJNOE">\xi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_46_SLUChAJNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_47_SLUChAJNOE">\lambda \cap D,-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_48_SLUChAJNOE">h\{\xi\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_49_SLUChAJNOE">h\{\xi\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_50_SLUChAJNOE">p_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_51_SLUChAJNOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_52_SLUChAJNOE">\mathfrak{b}_{\lambda}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_53_SLUChAJNOE">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_54_SLUChAJNOE">\omega_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_55_SLUChAJNOE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_56_SLUChAJNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_57_SLUChAJNOE">p_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_58_SLUChAJNOE">\lambda_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_59_SLUChAJNOE">\xi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_60_SLUChAJNOE">d=\mathbb{r}^{d}, \mathbb{Z}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_61_SLUChAJNOE">\xi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_62_SLUChAJNOE">h\{\xi\}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_63_SLUChAJNOE">\mu_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_64_SLUChAJNOE">\xi_{\lambda}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_65_SLUChAJNOE">\sum_{x \in \Lambda} \xi_{\Lambda}(x)=n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_66_SLUChAJNOE">|\lambda|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_67_SLUChAJNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_68_SLUChAJNOE">\mathbb{r}^{d}, \mathbb{Z}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_69_SLUChAJNOE">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_70_SLUChAJNOE">d=\mathbb{z}^{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_71_SLUChAJNOE">्</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_72_SLUChAJNOE">s \subseteq D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_73_SLUChAJNOE">d \backslash \bar{S} \in \Im, \quad \bar{S}=S \cup \partial S, \partial S-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_74_SLUChAJNOE">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_75_SLUChAJNOE">\mathfrak{f}(s)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_76_SLUChAJNOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_77_SLUChAJNOE">x_{i} \in S</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_78_SLUChAJNOE">\gamma_{\varepsilon}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_79_SLUChAJNOE">\partial S</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_80_SLUChAJNOE">\mathfrak{\mho}\left(\gamma_{\varepsilon}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_81_SLUChAJNOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_82_SLUChAJNOE">\mathfrak{\mho}(s)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_83_SLUChAJNOE">\mathfrak{\mho}(d \backslash \bar{S})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_84_SLUChAJNOE">a_{1} \in \mathscr{\mho}(S)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2822_85_SLUChAJNOE">a_{2} \in \mathscr{\mho}(D \backslash \bar{S})</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/2822_1_SLUChAJNOE">
+      <rel_text>Гаусса распределение</rel_text>
+      <target>http://libmeta.ru/fme/article/539_GAUSSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2822_2_SLUChAJNOE">
+      <rel_text>областей</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2822_3_SLUChAJNOE">
+      <rel_text>марковском процессе</rel_text>
+      <target>http://libmeta.ru/fme/article/1715_MARKOVSKIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2822_4_SLUChAJNOE">
+      <rel_text>конструктивной квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1346_KONSTRUKTIVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2822_5_SLUChAJNOE">
+      <rel_text>обобщенные марковские</rel_text>
+      <target>http://libmeta.ru/fme/article/2018_OBOBSchENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2822_6_SLUChAJNOE">
+      <rel_text>механики</rel_text>
+      <target>http://libmeta.ru/fme/article/1777_MEHANIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2822_7_SLUChAJNOE">
+      <rel_text>плотност</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2822_8_SLUChAJNOE">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2822_9_SLUChAJNOE">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+  </relations>
+  <text>случайная функция $URI[[http://libmeta.ru/fme/formula/aux/2822_1_SLUChAJNOE]]/URI$, определенная на подмножестве $URI[[http://libmeta.ru/fme/formula/aux/2822_2_SLUChAJNOE]]/URI$ многомерного пространства $URI[[http://libmeta.ru/fme/formula/aux/2822_3_SLUChAJNOE]]/URI$. С. П., используемые в статистич. задачах математич. физики, обычно являются полями со значениями в каком-либо пространстве $URI[[http://libmeta.ru/fme/formula/aux/2822_4_SLUChAJNOE]]/URI$, так как выборочны е функц и и $URI[[http://libmeta.ru/fme/formula/aux/2822_5_SLUChAJNOE]]/URI$ С. п. являются отображениями $URI[[http://libmeta.ru/fme/formula/aux/2822_6_SLUChAJNOE]]/URI$. Ниже под термином «с. п.» подразумеваются именно такие поля. На основе понятия С. П. возможно адекватное описание физич. полей, распределение к-рых в пространстве зависит от случая, а именно, флуктуирующих скорости, температуры и плотности турбулентного течения жидкости или газа; случайного распределения оптич. показателя преломления в поликристаллич. оптически-прозрачной среде или в оптич. среде, замутненной каким-то инородным материалом; случайное распределение различных макроскопич. характеристик (механических, тепловых, магнитных, электрических) неоднородных материалов, имеющих гетерогенную структуру; систем статистич. механики и т. д.
+
+Исходя из общей математич. конструкции случайной функции, определение случайного поля означает задание вероятностного пространства $URI[[http://libmeta.ru/fme/formula/aux/2822_7_SLUChAJNOE]]/URI$. Здесь $URI[[http://libmeta.ru/fme/formula/aux/2822_8_SLUChAJNOE]]/URI$ пространство элементарных событий, то есть всех допустимых ре ал и за и й $URI[[http://libmeta.ru/fme/formula/aux/2822_9_SLUChAJNOE]]/URI$ С. п.; $URI[[http://libmeta.ru/fme/formula/aux/2822_10_SLUChAJNOE]]/URI$-алгебра случайных событий, порожденная цили ндри ческими множест в ам и:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_1_SLUChAJNOE]]/URI
+\]
+
+при произвольном $URI[[http://libmeta.ru/fme/formula/aux/2822_11_SLUChAJNOE]]/URI$, произвольных наборах $URI[[http://libmeta.ru/fme/formula/aux/2822_12_SLUChAJNOE]]/URI$ точек из $URI[[http://libmeta.ru/fme/formula/aux/2822_13_SLUChAJNOE]]/URI$, произвольных измеримых подмножествах $URI[[http://libmeta.ru/fme/formula/aux/2822_14_SLUChAJNOE]]/URI$ из $URI[[http://libmeta.ru/fme/formula/aux/2822_15_SLUChAJNOE]]/URI$ - распределение вероятностей на событиях из конечномерным распределениям:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_2_SLUChAJNOE]]/URI
+\]
+
+и С. п. по распределениям (1) определяется с точностью до стохастической эквивалентности. Функции $URI[[http://libmeta.ru/fme/formula/aux/2822_16_SLUChAJNOE]]/URI$ обладают свойствами с о гл а с о в а н н о с т и:
+
+1) $URI[[http://libmeta.ru/fme/formula/aux/2822_17_SLUChAJNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2822_18_SLUChAJNOE]]/URI$ - любая перестановка индексов $URI[[http://libmeta.ru/fme/formula/aux/2822_19_SLUChAJNOE]]/URI$;
+
+2) $URI[[http://libmeta.ru/fme/formula/aux/2822_20_SLUChAJNOE]]/URI$; $URI[[http://libmeta.ru/fme/formula/aux/2822_21_SLUChAJNOE]]/URI$.
+
+Важное значение в теории С. п. играет понятие инвариантности (симметрии) по отношению к преобразованиям нек-рой группы $URI[[http://libmeta.ru/fme/formula/aux/2822_22_SLUChAJNOE]]/URI$. С. П. $URI[[http://libmeta.ru/fme/formula/aux/2822_23_SLUChAJNOE]]/URI$ называется о д н о р од д ы м (более точно, однородным в узком смысле), если оно стохастически эквивалентно полям $URI[[http://libmeta.ru/fme/formula/aux/2822_24_SLUChAJNOE]]/URI$ при любом $URI[[http://libmeta.ru/fme/formula/aux/2822_25_SLUChAJNOE]]/URI$ из $URI[[http://libmeta.ru/fme/formula/aux/2822_26_SLUChAJNOE]]/URI$. Наиболее важными группами симметрии являются группа трансляций и группа вращений пространства $URI[[http://libmeta.ru/fme/formula/aux/2822_27_SLUChAJNOE]]/URI$. Это связано с тем, что для С. п., рассматриваемых как модели каких-либо случайных искажений реальных физич. полей, часто нет никаких оснований считать их статистич. свойства различными в разных точках пространства либо отличаться этими свойствами в разных направлениях.
+
+Для С. п. на $URI[[http://libmeta.ru/fme/formula/aux/2822_28_SLUChAJNOE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2822_29_SLUChAJNOE]]/URI$ нет естественных аналогов понятиям «прошлого» и «будущего», к-рые имелись для случайного процесса. Поэтому для построения «естественных» С. П., моделирующих реальные физич. поля, необходимы существенно иные методы. Конструктивное определение меры С. п. требует задания бесконечной совокупности согласованных распределений (2), с помощью конечного набора математич. объектов. Если С. п. таково, что существует корреляционная функция:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_3_SLUChAJNOE]]/URI
+\]
+
+(для простоты рассматривается случай $URI[[http://libmeta.ru/fme/formula/aux/2822_30_SLUChAJNOE]]/URI$ ), для к-рой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_4_SLUChAJNOE]]/URI
+\]
+
+то задача построения меры может быть упрощена ввиду существования канонического разложения С.П.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_5_SLUChAJNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2822_31_SLUChAJNOE]]/URI$ - собственные функции ядра $URI[[http://libmeta.ru/fme/formula/aux/2822_32_SLUChAJNOE]]/URI$ с неотрицательными собственными числами $URI[[http://libmeta.ru/fme/formula/aux/2822_33_SLUChAJNOE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_6_SLUChAJNOE]]/URI
+\] $URI[[http://libmeta.ru/fme/formula/aux/2822_34_SLUChAJNOE]]/URI$ последовательность независимых случайных величин, $URI[[http://libmeta.ru/fme/formula/aux/2822_35_SLUChAJNOE]]/URI$. Ряд (3) сходится в следующем смысле:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_7_SLUChAJNOE]]/URI
+\]
+
+Таким образом, вместо определения согласованных распределений $URI[[http://libmeta.ru/fme/formula/aux/2822_36_SLUChAJNOE]]/URI$ достаточно указать бесконечный набор несвязанных друг с другом распределений для $URI[[http://libmeta.ru/fme/formula/aux/2822_37_SLUChAJNOE]]/URI$, произвол в выборе к-рых ограничивается фиксацией дисперсий. В частности, для гауссовских полей все $URI[[http://libmeta.ru/fme/formula/aux/2822_38_SLUChAJNOE]]/URI$ гауссовские (см. URI[[http://libmeta.ru/fme/relation/2822_1_SLUChAJNOE]]/URI).
+
+Примером альтернативного способа построения распределения вероятностей С. П. служит метод, на К-ром основывается статистическая механика. Пусть пространство $URI[[http://libmeta.ru/fme/formula/aux/2822_39_SLUChAJNOE]]/URI$ снабжено $URI[[http://libmeta.ru/fme/formula/aux/2822_40_SLUChAJNOE]]/URI$ конечной мерой $URI[[http://libmeta.ru/fme/formula/aux/2822_41_SLUChAJNOE]]/URI$ такой, что для компактной области $URI[[http://libmeta.ru/fme/formula/aux/2822_42_SLUChAJNOE]]/URI$ мера множества $URI[[http://libmeta.ru/fme/formula/aux/2822_43_SLUChAJNOE]]/URI$, состоящего из сужений $URI[[http://libmeta.ru/fme/formula/aux/2822_44_SLUChAJNOE]]/URI$ реализаций $URI[[http://libmeta.ru/fme/formula/aux/2822_45_SLUChAJNOE]]/URI$ из $URI[[http://libmeta.ru/fme/formula/aux/2822_46_SLUChAJNOE]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/2822_47_SLUChAJNOE]]/URI$ конечна. Пусть задан функционал $URI[[http://libmeta.ru/fme/formula/aux/2822_48_SLUChAJNOE]]/URI$, определенный на финитных функциях, $URI[[http://libmeta.ru/fme/formula/aux/2822_49_SLUChAJNOE]]/URI$ гамильтониан системы статистич. механики. Распределение вероятностей $URI[[http://libmeta.ru/fme/formula/aux/2822_50_SLUChAJNOE]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/2822_51_SLUChAJNOE]]/URI$-алгебре $URI[[http://libmeta.ru/fme/formula/aux/2822_52_SLUChAJNOE]]/URI$ сужении $URI[[http://libmeta.ru/fme/formula/aux/2822_53_SLUChAJNOE]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/2822_54_SLUChAJNOE]]/URI$ определяется формулой
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_8_SLUChAJNOE]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_9_SLUChAJNOE]]/URI
+\]
+
+Распределение $URI[[http://libmeta.ru/fme/formula/aux/2822_55_SLUChAJNOE]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/2822_56_SLUChAJNOE]]/URI$ есть предел (если он существует) последовательности распределений $URI[[http://libmeta.ru/fme/formula/aux/2822_57_SLUChAJNOE]]/URI$ по расширяющейся последовательности компактных областей $URI[[http://libmeta.ru/fme/formula/aux/2822_58_SLUChAJNOE]]/URI$, удовлетворяющих специальным ограничениям. С. п., построенные по изложенному принципу, называются ги ббс о в с к и м и. Важным частным случаем гиббсовских полей являются т о ч е ч н ы е С. П., у к-рых выборочные функции $URI[[http://libmeta.ru/fme/formula/aux/2822_59_SLUChAJNOE]]/URI$ отличны от нуля на не более чем счетном множестве точек. Примером такого поля $URI[[http://libmeta.ru/fme/formula/aux/2822_60_SLUChAJNOE]]/URI$ является, в частности, п у а с с оновское точечное поле, для к-рого реализации $URI[[http://libmeta.ru/fme/formula/aux/2822_61_SLUChAJNOE]]/URI$ - точечные и равны 0 или 1 , URI[[http://libmeta.ru/fme/relation/2822_9_SLUChAJNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2822_62_SLUChAJNOE]]/URI$ и мера $URI[[http://libmeta.ru/fme/formula/aux/2822_63_SLUChAJNOE]]/URI$ множества всех функций $URI[[http://libmeta.ru/fme/formula/aux/2822_64_SLUChAJNOE]]/URI$ таких, что $URI[[http://libmeta.ru/fme/formula/aux/2822_65_SLUChAJNOE]]/URI$ определяется формулой:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2822_10_SLUChAJNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2822_66_SLUChAJNOE]]/URI$ - мера URI[[http://libmeta.ru/fme/relation/2822_8_SLUChAJNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2822_67_SLUChAJNOE]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/2822_68_SLUChAJNOE]]/URI$. Величина $URI[[http://libmeta.ru/fme/formula/aux/2822_69_SLUChAJNOE]]/URI$ называется URI[[http://libmeta.ru/fme/relation/2822_7_SLUChAJNOE]]/URI ью точе к, распределенных по Пуассону. При $URI[[http://libmeta.ru/fme/formula/aux/2822_70_SLUChAJNOE]]/URI$ пуассоновское поле называется также бе р н ул л и евским решеточным полем. Точечные С. п. помимо своей значимости для статистич. URI[[http://libmeta.ru/fme/relation/2822_6_SLUChAJNOE]]/URI могут служить основой для конструирования новых С. П. с более сложной структурой.
+
+Важным классом С. п. являются марковские поля и, в частности, URI[[http://libmeta.ru/fme/relation/2822_5_SLUChAJNOE]]/URI поля, к-рые применяются в URI[[http://libmeta.ru/fme/relation/2822_4_SLUChAJNOE]]/URI. Их определение связано с обобщением понятия о URI[[http://libmeta.ru/fme/relation/2822_3_SLUChAJNOE]]/URI. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2822_71_SLUChAJNOE]]/URI$ - система открытых URI[[http://libmeta.ru/fme/relation/2822_2_SLUChAJNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2822_72_SLUChAJNOE]]/URI$, для каждой из к-рых $URI[[http://libmeta.ru/fme/formula/aux/2822_73_SLUChAJNOE]]/URI$ топологич. граница $URI[[http://libmeta.ru/fme/formula/aux/2822_74_SLUChAJNOE]]/URI$. Пусть далее $URI[[http://libmeta.ru/fme/formula/aux/2822_75_SLUChAJNOE]]/URI$ минимальная $URI[[http://libmeta.ru/fme/formula/aux/2822_76_SLUChAJNOE]]/URI$-алгебра, порожденная событиями (1), у к-рых $URI[[http://libmeta.ru/fme/formula/aux/2822_77_SLUChAJNOE]]/URI$, и $URI[[http://libmeta.ru/fme/formula/aux/2822_78_SLUChAJNOE]]/URI$ - любая окрестность $URI[[http://libmeta.ru/fme/formula/aux/2822_79_SLUChAJNOE]]/URI$. С. П. называется м а р ко вс ки м, если $URI[[http://libmeta.ru/fme/formula/aux/2822_80_SLUChAJNOE]]/URI$ расщепляет $URI[[http://libmeta.ru/fme/formula/aux/2822_81_SLUChAJNOE]]/URI$-алгебры $URI[[http://libmeta.ru/fme/formula/aux/2822_82_SLUChAJNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2822_83_SLUChAJNOE]]/URI$, то есть для любых событий $URI[[http://libmeta.ru/fme/formula/aux/2822_84_SLUChAJNOE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2822_85_SLUChAJNOE]]/URI$ выполняется свойство условной независимости:
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_26a331db85e944b1b17dg-1.jpg?height=53&amp;width=525&amp;top_left_y=2009&amp;top_left_x=220)</text>
+  <text_orig>случайная функция $\{\xi(x), x \in D\}$, определенная на подмножестве $D$ многомерного пространства $\mathbb{R}^{d}$. С. П., используемые в статистич. задачах математич. физики, обычно являются полями со значениями в какомлибо пространстве $\mathbb{R}^{m}$, так как выборочны е функц и и $\xi(x)$ С. п. являются отображениями $\xi: D \rightarrow \mathbb{R}^{m}$. Ниже под термином «С. п.» подразумеваются именно такие поля. На основе понятия С. П. возможно адекватное описание физич. полей, распределение к-рых в пространстве зависит от случая, а именно, флуктуируюших скорости, температуры и плотности турбулентного течения жидкости или газа; случайного распределения оптич. показателя преломления в поликристаллич. оптически-прозрачной среде или в оптич. среде, замутненной каким-то инородным материалом; случайное распределение различных макроскопич. характеристик (механических, тепловых, магнитных, электрических) неоднородных материалов, имеющих гетерогенную структуру; систем статистич. механики и т. д.
+
+Исходя из общей математич. конструкции случайной функции, определение случайного поля означает задание вероятностного пространства $\{\Omega, \mathfrak{B}, \mathrm{P}\}$. Здесь $\Omega-$ пространство элементарных событий, то есть всех допустимых ре ал и за и й $\xi(x)$ С. п.; $\mathfrak{B}-\sigma$-алгебра случайных событий, порожденная цили ндри ческими множест в ам и:
+
+\[
+A\left(x_{1}, \Delta_{1} ; \ldots ; x_{n}, \Delta_{n}\right)=\left\{\bigcap_{j=1}^{n}\left\{\xi\left(x_{j}\right) \in \Delta_{j}\right\}\right\}
+\]
+
+при произвольном $n$, произвольных наборах $\left(x_{1}, \ldots, x_{n}\right)$ точек из $D$, произвольных измеримых подмножествах $\left(\Delta_{1}, \ldots, \Delta_{n}\right)$ из $\mathbb{R}^{m} ; \mathrm{P}$ - распределение вероятностей на событиях из конечномерным распределениям:
+
+\[
+Q_{n}\left(x_{1}, \Delta_{1} ; \ldots ; x_{n}, \Delta_{n}\right)=\mathrm{P}\left\{A\left(x_{1}, \Delta_{1} ; \ldots ; x_{n}, \Delta_{n}\right)\right\}
+\]
+
+и С. п. по распределениям (1) определяется с точностью до стохастической эквивалентности. Функции $Q_{n}$ обладают свойствами с о гл а с о в а н н о с т и:
+
+1) $Q_{n}\left(x_{i_{1}}, \Delta_{i_{1}} ; \ldots ; x_{i_{n}}, \Delta_{i_{n}}\right)=Q_{n}\left(x_{1}, \Delta_{1} ; \ldots ; x_{n}, \Delta_{n}\right)$, где $\left(i_{1}, i_{2}, \ldots, i_{n}\right)$ - любая перестановка индексов $(1, \ldots, n)$;
+
+2) $Q_{n}\left(x_{1}, \Delta_{1} ; \ldots ; x_{n-1}, \Delta_{n-1} ; x_{n}, \mathbb{R}^{m}\right)=Q_{n-1}\left(x_{1}, \Delta_{1} ; \ldots\right.$; $\left.x_{n-1}, \Delta_{n-1}\right)$.
+
+Важное значение в теории С. п. играет понятие инвариантности (симметрии) по отношению к преобразованиям нек-рой группы $G$. С. П. $\{\xi(x)\}$ называется о д н о р од д ы м (более точно, однородным в узком смысле), если оно стохастически эквивалентно полям $\{\xi(g x)\}$ при любом $g$ из $G$. Наиболее важными группами симметрии являются группа трансляций и группа вращений пространства $\mathbb{R}^{d}$. Это связано с тем, что для С. п., рассматриваемых как модели каких-либо случайных искажений реальных физич. полей, часто нет никаких оснований считать их статистич. свойства различными в разных точках пространства либо отличаться этими свойствами в разных направлениях.
+
+Для С. п. на $\mathbb{R}^{d}$ при $d&gt;1$ нет естественных аналогов понятиям «прошлого» и «будушего», к-рые имелись для случайного процесса. Поэтому для построения «естественных» С. П., моделируюших реальные физич. поля, необходимы сушественно иные методы. Конструктивное определение меры С. п. требует задания бесконечной совокупности согласованных распределений (2), с помощью конечного набора математич. объектов. Если С. п. таково, что существует корреляционная функция:
+
+\[
+K(x, y)=\mathrm{E}[\xi(x) \xi(y)]-\mathrm{E} \xi(x) \mathrm{E} \xi(y)
+\]
+
+(для простоты рассматривается случай $m=1$ ), для к-рой
+
+\[
+\int_{D} K(x, x) d x&lt;\infty
+\]
+
+то задача построения меры может быть упрощена ввиду существования канонического разложения С.П.:
+
+\[
+\xi(x)=a(x)+\sum_{k=1}^{\infty} \eta_{k} \varphi_{k}(x),
+\]
+
+где $\varphi_{k}(x)$ - собственные функции ядра $K(x, y)$ с неотрицательными собственными числами $\lambda_{k}$,
+
+\[
+\begin{gathered}
+\int_{D} K(x, y) \varphi_{k}(y) d y=\lambda_{k} \varphi_{k}(x), \\
+a(x)=\mathrm{E} \xi(x), \quad \sum_{k} \lambda_{k}&lt;\infty,
+\end{gathered}
+\] $\eta_{k}-$ последовательность независимых случайных величин, $\mathrm{E} \eta_{k}=0, \mathrm{D} \eta_{k}=\lambda_{k}$. Ряд (3) сходится в следуюшем смысле:
+
+\[
+\lim _{N \rightarrow \infty} \int_{D} E\left|\xi(x)-a(x)-\sum_{k=1}^{N} \eta_{k} \varphi_{k}(x)\right|^{2} d x=0
+\]
+
+Таким образом, вместо определения согласованных распределений $Q_{n}$ достаточно указать бесконечный набор несвязанных друг с другом распределений для $\eta_{k}$, произвол в выборе к-рых ограничивается фиксацией дисперсий. В частности, для гауссовских полей все $\eta_{k}$ гауссовские (см. Гаусса распределение).
+
+Примером альтернативного способа построения распределения вероятностей С. П. служит метод, на К-ром основывается статистическая механика. Пусть пространство $\Omega$ снабжено $\sigma-$ конечной мерой $\mu$ такой, что для компактной области $\Lambda \subset \mathbb{R}^{d}$ мера множества $\Omega_{\Lambda}$, состоящего из сужений $\xi_{\Lambda}(x)$ реализаций $\xi(x)$ из $\Omega$ на $\Lambda \cap D,-$ конечна. Пусть задан функшионал $H\{\xi\}$, определенный на финитных функциях, $H\{\xi\}-$ гамильтониан системы статистич. механики. Распределение вероятностей $P_{\Lambda}$ на $\sigma$-алгебре $\mathfrak{B}_{\Lambda}-$ сужении $\mathfrak{B}$ на $\Omega_{\Lambda}$ определяется формулой
+
+где
+
+\[
+d \mathrm{P}_{\Lambda}=Z_{\Lambda}^{-1} \exp \left[-H\left\{\xi_{\Lambda}\right\}\right] d \mu
+\]
+
+\[
+Z_{\Lambda}=\int_{\Omega_{\Lambda}} d \mu \exp \left[-H\left\{\xi_{\Lambda}\right\}\right]
+\]
+
+Распределение $\mathrm{P}$ на $\Omega$ есть предел (если он существует) последовательности распределений $P_{\Lambda}$ по расширяюшейся последовательности компактных областей $\Lambda_{n}$, удовлетворяющих специальным ограничениям. С. п., построенные по изложенному принципу, называются ги ббс о в с к и м и. Важным частным случаем гиббсовских полей являются т о ч е ч н ы е С. П., у к-рых выборочные функции $\xi(x)$ отличны от нуля на не более чем счетном множестве точек. Примером такого поля $D=\mathbb{R}^{d}, \mathbb{Z}^{d}$ является, в частности, п у а с с оновское точечное поле, для к-рого реализации $\xi(x)$ - точечные и равны 0 или 1 , функционал $H\{\xi\}=0$ и мера $\mu_{\Lambda}$ множества всех функций $\xi_{\Lambda}(x)$ таких, что $\sum_{x \in \Lambda} \xi_{\Lambda}(x)=n$ определяется формулой:
+
+\[
+\mu_{\Lambda}=\frac{\rho^{n}}{n !}|\Lambda|^{n}
+\]
+
+где $|\Lambda|$ - мера области $\Lambda$ в $\mathbb{R}^{d}, \mathbb{Z}^{d}$. Величина $\rho$ называется плотност ью точе к, распределенных по Пуассону. При $D=\mathbb{Z}^{d}$ пуассоновское поле называется также бе р н ул л и евским решеточным полем. Точечные С. п. помимо своей значимости для статистич. механики могут служить основой для конструирования новых С. П. с более сложной структурой.
+
+Важным классом С. п. являются марковские поля и, в частности, обобщенные марковские поля, к-рые применяются в конструктивной квантовой теории поля. Их определение связано с обобщением понятия о марковском процессе. Пусть $्$ - система открытых областей $S \subseteq D$, для каждой из к-рых $D \backslash \bar{S} \in \Im, \quad \bar{S}=S \cup \partial S, \partial S-$ топологич. граница $S$. Пусть далее $\mathfrak{F}(S)-$ минимальная $\sigma$-алгебра, порожденная событиями (1), у к-рых $x_{i} \in S$, и $\Gamma_{\varepsilon}$ - любая окрестность $\partial S$. С. П. называется м а р ко вс ки м, если $\mathfrak{\mho}\left(\Gamma_{\varepsilon}\right)$ расщепляет $\sigma$-алгебры $\mathfrak{\mho}(S)$ и $\mathfrak{\mho}(D \backslash \bar{S})$, то есть для любых событий $A_{1} \in \mathscr{\mho}(S)$ и $A_{2} \in \mathscr{\mho}(D \backslash \bar{S})$ выполняется свойство условной независимости:
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_26a331db85e944b1b17dg-1.jpg?height=53&amp;width=525&amp;top_left_y=2009&amp;top_left_x=220)
+
+Лит.: [1] Я д р е н ко М. И., Спектральная теория случайных полей, Киев, 1980; [2] Р о за н о в Ю.А., Марковские случайные поля, М., 1981; [3] Сай мон Б., Модель $P(\varphi)_{2}$ эвклидовой квантовой теории поля, пер. с англ., М., 1976; [4] Р ыто в С. М., Кра в ц о в Ю. А., Т ат а р с к й В. И., Введение в статистическую радиофизику, ч. II.- Случайные поля, 2 изд., М., 1978; [5] 3 а й м а н Дж., Модели беспорядка, пер. с англ., М., 1982. Ю. П. Вирченко</text_orig>
+</article>

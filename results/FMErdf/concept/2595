@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3336_HARAKTER">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3336_HARAKTER</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2595</core:url>
+    <lbm:descriptor><![CDATA[ХАРАКТЕР ГРУППЫ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#257"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19748"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19749"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19750"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>гомоморфизм этой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группу</a> комплексных чисел, по модулю равных единице с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операцией</a> умножения. Если $URI[[http://libmeta.ru/fme/formula/aux/3336_1_HARAKTER]]/URI$ - топологич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группа</a>, то необходимо также потребовать, чтобы этот гомоморфизм был непрерывным. Пусть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19748">$$\chi_{1}$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19749">$$\chi_{2}-X$$</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> $URI[[http://libmeta.ru/fme/formula/aux/3336_4_HARAKTER]]/URI$. Тогда <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2401_PROIZVODJaSchAJa">произведение функций</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19750">$$\chi_{1}(g) \chi_{2}(g), g \in G$$</a>, снова является Х. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> $URI[[http://libmeta.ru/fme/formula/aux/3336_6_HARAKTER]]/URI$. Таким образом, множество всех Х. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группы</a> является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группой</a>, к-рая называется гр у п по й х а ракте ров.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#257">Ю. А. Неретин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[гомоморфизм этой группы в группу комплексных чисел, по модулю равных единице с операцией умножения. Если $G$ - топологич. группа, то необходимо также потребовать, чтобы этот гомоморфизм был непрерывным. Пусть $\chi_{1}$ и $\chi_{2}-X$. группы $G$. Тогда произведение функщий $\chi_{1}(g) \chi_{2}(g), g \in G$, снова является Х. группы $G$. Таким образом, множество всех Х. группы является группой, к-рая называется гр у п по й х а ракте ров.
+
+Ю. А. Неретин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2401_PROIZVODJaSchAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

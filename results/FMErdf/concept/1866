@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2680_SBORK">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2680_SBORK</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1866</core:url>
+    <lbm:descriptor><![CDATA[СБОРКА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5341"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14032"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>особенность <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2148_OTOBRAZhENIE">гладкого отображения</a> плоскости в плоскость (или поверхности в поверхность), встречающаяся у отображений общего положения в изолированных точках и неустранимая малыми шевелениями. В нек-рых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT">локальных координатах</a> может быть записана в виде <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14032">$$y_{1}=x_{1}, y_{2}=x_{2}^{3}+x_{1} x_{2}$$</a> (см. рис.). В прообразе точка С. лежит на неособой кривой особых точек (близлежащие точки к-рой являют-<BR/></P><P>\section{сборка.}<BR/></P><P>![](https://cdn.mathpix.com/cropped/2023_07_08_6b32bd7e1b5e5c195089g-1.jpg?height=597&width=528&top_left_y=498&top_left_x=1222)<BR/></P><P>ся точками <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2797_SKLADK">складки</a>), образ к-рой локально диффеоморфен <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">полукубич</a>. параболе.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1122_KATASTROF">Катастроф теория</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#5341">О. В. Ляшко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[особенность гладкого отображения плоскости в плоскость (или поверхности в поверхность), встречающаяся у отображений общего положения в изолированных точках и неустранимая малыми шевелениями. В нек-рых локальных координатах может быть записана в виде $y_{1}=x_{1}, y_{2}=x_{2}^{3}+x_{1} x_{2}$ (см. рис.). В прообразе точка С. лежит на неособой кривой особых точек (близлежащие точки к-рой являют-
+
+\section{Сборка.}
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_6b32bd7e1b5e5c195089g-1.jpg?height=597&width=528&top_left_y=498&top_left_x=1222)
+
+ся точками складки), образ к-рой локально диффеоморфен полукубич. параболе.
+
+См. также Катастроф теория.
+
+О. В. Ляшко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1122_KATASTROF"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2797_SKLADK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2148_OTOBRAZhENIE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

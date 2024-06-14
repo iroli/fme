@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_704_GRADIENT">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_704_GRADIENT</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3258</core:url>
+    <lbm:descriptor><![CDATA[ГРАДИЕНТ АНТИСИММЕТРИЧЕСКОГО ТЕНЗОРНОГО ПОЛЯ С КООРДИНАТАМИ $T_{i_{1} i_{2} \ldots i_{k}}$ В ЛОКАЛЬНОЙ СИСТЕМЕ КООРДИНАТ $\left(x^{1}, \ldots, x^{n}\right)$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24238"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24239"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24240"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24241"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24242"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24243"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_75"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24244"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24245"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_116"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_24246"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>кососимметрическое тензорное поле типа <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24241">$$(0, k+1)$$</a> с координатами<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24238">$$(d T)_{j_{1} \ldots j_{k+1}}=\sum_{q=1}^{k+1}(-1)^{q+1} \frac{\partial T_{j_{1} \ldots \hat{j}_{q} \ldots j_{k+1}}}{\partial x^{j_{q}}}$$</a><BR/></P><P>здесь <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24242">$$\hat{j}_{q}$$</a> обозначает, что индекс <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24243">$$j_{q}$$</a> пропущен.<BR/></P><P>Пусть $URI[[http://libmeta.ru/fme/formula/aux/704_4_GRADIENT]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO">гильбертово пространство</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24244">$$f: U \subset E \rightarrow \mathbb{R}-$$</a> дифференцируемая функция, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24245">$$d f: U \rightarrow E^{*}-$$</a> еe дифференциал. Тогда гради ен т<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24239">$$\operatorname{grad} f=\nabla f: U \rightarrow E$$</a> функции $URI[[http://libmeta.ru/fme/formula/aux/704_7_GRADIENT]]/URI$ определяется равенством<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24240">$$\langle\nabla f(u), e\rangle=d f(u)(e)$$</a><BR/></P><P>для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2826_SMEShANNOE">произвольного вектора</a> $URI[[http://libmeta.ru/fme/formula/aux/704_8_GRADIENT]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/704_9_GRADIENT]]/URI$ конечномерное пространство, то Г. в смысле второго определения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">получается</a> из Г. в смысле определения первого с помощью под<a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_24246">$$\begin{array}{ll}\text { нятия индексов. } & \text { В. В. Трофимов. }\end{array}$$</a><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[кососимметрическое тензорное поле типа $(0, k+1)$ с координатами
+
+\[
+(d T)_{j_{1} \ldots j_{k+1}}=\sum_{q=1}^{k+1}(-1)^{q+1} \frac{\partial T_{j_{1} \ldots \hat{j}_{q} \ldots j_{k+1}}}{\partial x^{j_{q}}}
+\]
+
+здесь $\hat{j}_{q}$ обозначает, что индекс $j_{q}$ пропущен.
+
+Пусть $E-$ гильбертово пространство, $f: U \subset E \rightarrow \mathbb{R}-$ дифференцируемая функшия, $d f: U \rightarrow E^{*}-$ еe дифференциал. Тогда гради ен т
+
+\[
+\operatorname{grad} f=\nabla f: U \rightarrow E
+\] функции $f$ определяется равенством
+
+\[
+\langle\nabla f(u), e\rangle=d f(u)(e)
+\]
+
+для произвольного вектора $e$. Если $E-$ конечномерное пространство, то Г. в смысле второго определения получается из Г. в смысле определения первого с помощью под$\begin{array}{ll}\text { нятия индексов. } & \text { В. В. Трофимов. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2826_SMEShANNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_623_GIL'BERTOVO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

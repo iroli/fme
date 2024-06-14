@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1042_INTEGRIRUEMAJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1042_INTEGRIRUEMAJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/47</core:url>
+    <lbm:descriptor><![CDATA[ИНТЕГРИРУЕМАЯ ГАМИЛЬТОНОВА СИСТЕМА; НЕВЫРОЖДЕННОСТЬ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_696"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_697"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_698"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_699"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_700"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_701"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_702"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_703"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_704"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_705"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_706"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>для системы<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_696">$$\dot{I}=0, \dot{\varphi}=\partial H(I) / \partial I,$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_700">$$i=\left(i_{1}, \ldots, I_{n}\right) \in \mathbb{R}^{n}$$</a> - переменные действия, а <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_701">$$\varphi=\left(\varphi_{1}, \ldots\right.$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_702">$$\left.\varphi_{n}\right) \in T^{n}=(\mathbb{R} / 2 \pi \mathbb{Z})^{n}-$$</a> угловые переменные,- функциональная независимость частот<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_697">$$\omega_{i}(I)=\partial H(I) / \partial I_{i}, \quad i=1, \ldots, n,$$</a><BR/></P><P>условно-периодического движения по инвариантным торам $URI[[http://libmeta.ru/fme/formula/aux/1042_4_INTEGRIRUEMAJa]]/URI$ const $URI[[http://libmeta.ru/fme/formula/aux/1042_5_INTEGRIRUEMAJa]]/URI$. Условие не вы рожден ност и имеет вид<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_698">$$\operatorname{det}\left(\frac{\partial \omega}{\partial I}\right)=\operatorname{det}\left(\frac{\partial^{2} H}{\partial I^{2}}\right) \neq 0 .$$</a><BR/></P><P>Система (*) называется и з о э не р ге т и ческ и не в ыро жд е н н о й, если одна из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частот</a> $URI[[http://libmeta.ru/fme/formula/aux/1042_6_INTEGRIRUEMAJa]]/URI$ не обращается в нуль, а отношения к ней остальных $URI[[http://libmeta.ru/fme/formula/aux/1042_7_INTEGRIRUEMAJa]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частот</a> функционально независимы на гиперповерхностях уровня гамильтониана H. Условие изоэнергетич. невырожденности имеет вид<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_699">$$\operatorname{det}\left(\begin{array}{cc}\partial \omega / \partial I & \omega \\\omega & 0\end{array}\right)=\operatorname{det}\left(\begin{array}{cc}\partial^{2} H / \partial I^{2} & \partial H / \partial I \\\partial H / \partial I & 0\end{array}\right) \neq 0 .$$</a><BR/></P><P>Понятия невырожденности и изоэнергетич. невырожденности имеют локальные аналоги (для гамильтоновых сис- тем в окрестности эллиптич. положения равновесия). Соответствующие формулировки, а также сведения о значении невырожденности для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ">теории возмущений</a> и теории малых колебаний см. в ст. Каm-теория.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[для системы
+
+\[
+\dot{I}=0, \dot{\varphi}=\partial H(I) / \partial I,
+\]
+
+где $I=\left(I_{1}, \ldots, I_{n}\right) \in \mathbb{R}^{n}$ - переменные действия, а $\varphi=\left(\varphi_{1}, \ldots\right.$, $\left.\varphi_{n}\right) \in T^{n}=(\mathbb{R} / 2 \pi \mathbb{Z})^{n}-$ угловые переменные,- функциональная независимость частот
+
+\[
+\omega_{i}(I)=\partial H(I) / \partial I_{i}, \quad i=1, \ldots, n,
+\]
+
+условно-периодического движения по инвариантным торам $\{I=$ const $\}$. Условие не вы рожден ност и имеет вид
+
+\[
+\operatorname{det}\left(\frac{\partial \omega}{\partial I}\right)=\operatorname{det}\left(\frac{\partial^{2} H}{\partial I^{2}}\right) \neq 0 .
+\]
+
+Система (*) называется и з о э не р ге т и ческ и не в ыро жд е н н о й, если одна из частот $\omega_{i}$ не обрашается в нуль, а отношения к ней остальных $n-1$ частот функционально независимы на гиперповерхностях уровня гамильтониана H. Условие изоэнергетич. невырожденности имеет вид
+
+\[
+\operatorname{det}\left(\begin{array}{cc}
+\partial \omega / \partial I & \omega \\
+\omega & 0
+\end{array}\right)=\operatorname{det}\left(\begin{array}{cc}
+\partial^{2} H / \partial I^{2} & \partial H / \partial I \\
+\partial H / \partial I & 0
+\end{array}\right) \neq 0 .
+\]
+
+Понятия невырожденности и изоэнергетич. невырожденности имеют локальные аналоги (для гамильтоновых сис- тем в окрестности эллиптич. положения равновесия). Соответствующие формулировки, а также сведения о значении невырожденности для теории возмущений и теории малых колебаний см. в ст. КАM-теория.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

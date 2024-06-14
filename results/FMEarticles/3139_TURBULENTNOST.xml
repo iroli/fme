@@ -1,0 +1,433 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3139_TURBULENTNOST" alphabetic_pos="3141">
+  <title>ТУРБУЛЕНТНОСТЬ</title>
+  <authors>
+    <author>А. С. Монин</author>
+  </authors>
+  <pages>
+    <start>612</start>
+    <end>614</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] М о н и н А. С., Я гл о м А. М., Статистическая гидромеханика, ч. 1-2, М., 1965-67; [2] Гледзер Е. Б., Монин А. С., «успехи математич. наук», 1974, т. 29, в. 3, c. 111-59; [3] М он и н А. С., &quot;успехи физич. наук», 1978, т. 125, в. 1, с. 97-122; [4] М ирабель А. П., Монин А. С., «успехи механики», 1979, т. 2, в. 3, с. 47-95; [5] Монин А. С., Озм идов Р. В., Океанская турбулентность, Л., 1981; [6] В ишик М.И., Фурсиков А. В., Математические задачи статистической гидромеханики, М., 1980.</literature_orig>
+    <unit>
+      <author>Монин А. С.</author>
+      <author>Яглом А. М.</author>
+      <title>Статистическая гидромеханика, ч. 1-2</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гледзер Е. Б.</author>
+      <author>Монин А. С.</author>
+      <title>«успехи математич. наук»</title>
+      <publication/>
+      <year>1974</year>
+      <other>т. 29, в. 3, c. 111-59</other>
+    </unit>
+    <unit>
+      <author>Монин А. С.</author>
+      <title>&quot;успехи физич. наук»</title>
+      <publication/>
+      <year>1978</year>
+      <other>т. 125, в. 1, с. 97-122</other>
+    </unit>
+    <unit>
+      <author>Мирабель А. П.</author>
+      <author>Монин А. С.</author>
+      <title>«успехи механики»</title>
+      <publication/>
+      <year>1979</year>
+      <other>т. 2, в. 3, с. 47-95</other>
+    </unit>
+    <unit>
+      <author>Монин А. С.</author>
+      <author>Озмидов Р. В.</author>
+      <title>Океанская турбулентность</title>
+      <publication>Л.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Вишик М. И.</author>
+      <author>Фурсиков А. В.</author>
+      <title>Математические задачи статистической гидромеханики</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_1_TURBULENTNOST">\boldsymbol{u}^{\prime}(\boldsymbol{x}, t)=\boldsymbol{a}(\boldsymbol{x}) \exp (\lambda t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_2_TURBULENTNOST">\Psi_{0}[z(k)]=\Psi\left[z(k) \delta\left(t-t_{0}\right)\right] .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_3_TURBULENTNOST">i \frac{\partial \Psi}{\partial t}=\left(H_{0}+H_{1}\right) \Psi ; \quad H_{0}=-i v \int d \boldsymbol{k} \boldsymbol{k}^{2} z_{\alpha}(\boldsymbol{k}) D_{\alpha}(\boldsymbol{k})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_4_TURBULENTNOST">H_{1}=\iint d \boldsymbol{k}^{\prime} d \boldsymbol{k}^{\prime \prime} B_{\alpha, \beta \gamma}\left(\boldsymbol{k}^{\prime}+\boldsymbol{k}^{\prime \prime}\right) z_{\beta}\left(\boldsymbol{k}^{\prime}+\boldsymbol{k}^{\prime \prime}\right) D_{\alpha}\left(\boldsymbol{k}^{\prime}\right) D_{\gamma}\left(\boldsymbol{k}^{\prime \prime}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_5_TURBULENTNOST">f_{n}=P_{M_{1}} \ldots M_{n}\left(\boldsymbol{u}_{1}, \ldots, \boldsymbol{u}_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_6_TURBULENTNOST">\frac{\partial f_{n}}{\partial t_{k}}=-\left(\frac{\partial u_{k \alpha} f_{n}}{\partial x_{k \alpha}}+\frac{\partial w_{k \alpha} f_{n}}{\partial u_{k \alpha}}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_7_TURBULENTNOST">F\left(\boldsymbol{u}_{1}, \ldots, \boldsymbol{u}_{n}\right) d \boldsymbol{u}_{1} \ldots d \boldsymbol{u}_{k},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_8_TURBULENTNOST">\overline{\left[u_{\alpha}(x+r, t)-u_{\alpha}(x, t)\right]^{2}}=(\varepsilon r)^{2 / 3} \varphi(r / \lambda),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_9_TURBULENTNOST">E(k)=C_{\omega} \varepsilon_{\omega}^{2 / 3} k^{-3}\left(\ln \frac{k}{k_{0}}\right)^{-1 / 3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3139_10_TURBULENTNOST">\frac{\partial \varphi \psi}{\partial t}+J(\psi, \varphi \psi)+\beta \frac{\partial \psi}{\partial x}=F ; \quad \varphi=\Delta+\frac{\partial}{\partial z} \frac{H^{2}}{L_{R}^{2}} \frac{\partial}{\partial z},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_1_TURBULENTNOST">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_2_TURBULENTNOST">\operatorname{re}=u L / v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_3_TURBULENTNOST">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_4_TURBULENTNOST">u-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_5_TURBULENTNOST">\operatorname{re}&gt;\operatorname{re}_{\mathrm{kp}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_6_TURBULENTNOST">\boldsymbol{a}(\boldsymbol{x})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_7_TURBULENTNOST">\mathrm{re}_{\mathrm{kp}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_8_TURBULENTNOST">\operatorname{re}&gt;\operatorname{re}_{\mathrm{kp}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_9_TURBULENTNOST">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_10_TURBULENTNOST">\left(\operatorname{re}-\operatorname{Re}_{\text {кр }}\right)^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_11_TURBULENTNOST">\operatorname{re}&lt;\operatorname{re}_{\text {кр }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_12_TURBULENTNOST">\operatorname{re} \rightarrow \operatorname{Re}_{\text {кр }} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_13_TURBULENTNOST">\operatorname{re}&gt;\operatorname{re}_{\text {кр }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_14_TURBULENTNOST">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_15_TURBULENTNOST">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_16_TURBULENTNOST">p(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_17_TURBULENTNOST">\boldsymbol{u}(\boldsymbol{x}, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_18_TURBULENTNOST">\psi[z(\boldsymbol{k}, t)]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_19_TURBULENTNOST">\psi[\boldsymbol{z}(\boldsymbol{k}), t]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_20_TURBULENTNOST">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_21_TURBULENTNOST">\quad B_{\alpha, \beta \gamma}(k)=i k_{\alpha}\left(\delta_{\beta \gamma}-k_{\beta} k_{\gamma} k^{-2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_22_TURBULENTNOST">d_{\alpha}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_23_TURBULENTNOST">z_{\alpha}(\boldsymbol{k})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_24_TURBULENTNOST">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_25_TURBULENTNOST">z_{\alpha}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_26_TURBULENTNOST">d_{\alpha}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_27_TURBULENTNOST">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_28_TURBULENTNOST">\operatorname{re} \gg 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_29_TURBULENTNOST">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_30_TURBULENTNOST">\mathrm{p}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_31_TURBULENTNOST">\mathrm{p}_{e}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_32_TURBULENTNOST">\left\{\mathrm{p}_{e}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_33_TURBULENTNOST">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_34_TURBULENTNOST">\boldsymbol{u}_{m}=u\left(m_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_35_TURBULENTNOST">m_{m}=\left(x_{m}, t_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_36_TURBULENTNOST">w_{k}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_37_TURBULENTNOST">m_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_38_TURBULENTNOST">\left(\boldsymbol{x}, t_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_39_TURBULENTNOST">\boldsymbol{u}_{1}=\boldsymbol{u}\left(m_{1}\right), \ldots, \boldsymbol{u}_{n}=\boldsymbol{u}\left(M_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_40_TURBULENTNOST">w_{k \alpha} f_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_41_TURBULENTNOST">f_{n+1} d u_{n+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_42_TURBULENTNOST">f_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_43_TURBULENTNOST">\partial f_{n} / \partial t_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_44_TURBULENTNOST">f=u_{1 \alpha_{1}}^{m_{1}} \ldots u_{n \alpha_{n}}^{m_{n}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_45_TURBULENTNOST">\bar{f}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_46_TURBULENTNOST">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_47_TURBULENTNOST">n=m_{1}+\ldots+m_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_48_TURBULENTNOST">n=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_49_TURBULENTNOST">\overline{\boldsymbol{u}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_50_TURBULENTNOST">\tau_{j l}=-\rho \overline{u_{j}^{\prime} u_{l}^{\prime}} \quad(\rho-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_51_TURBULENTNOST">\tau_{j l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_52_TURBULENTNOST">\partial \bar{u}_{i} / \partial x_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_53_TURBULENTNOST">l \sqrt{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_54_TURBULENTNOST">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_55_TURBULENTNOST">b-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_56_TURBULENTNOST">n=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_57_TURBULENTNOST">\overline{u_{1 \alpha}^{\prime} u_{2 \beta}^{\prime}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_58_TURBULENTNOST">\left(m_{1}-M_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_59_TURBULENTNOST">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_60_TURBULENTNOST">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_61_TURBULENTNOST">r \ll L</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_62_TURBULENTNOST">l-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_63_TURBULENTNOST">\lambda=\varepsilon^{1 / 4} v^{-3 / 4}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_64_TURBULENTNOST">l \gg r \gg \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_65_TURBULENTNOST">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_66_TURBULENTNOST">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_67_TURBULENTNOST">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_68_TURBULENTNOST">(r / L)^{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_69_TURBULENTNOST">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_70_TURBULENTNOST">\varepsilon_{\omega}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_71_TURBULENTNOST">\psi, \Delta, J</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_72_TURBULENTNOST">z-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_73_TURBULENTNOST">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_74_TURBULENTNOST">l_{r}=h N / f-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_75_TURBULENTNOST">(n-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_76_TURBULENTNOST">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_77_TURBULENTNOST">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_78_TURBULENTNOST">\beta-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_79_TURBULENTNOST">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_80_TURBULENTNOST">f-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_81_TURBULENTNOST">l \ll L_{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_82_TURBULENTNOST">k_{\beta}=(\beta / 2 U)^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_83_TURBULENTNOST">u-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_84_TURBULENTNOST">\left(k&gt;k_{\beta}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_85_TURBULENTNOST">\left(k&lt;k_{\beta}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3139_86_TURBULENTNOST">\mathrm{t}</formula>
+  </formulas_aux>
+  <relations n="24">
+    <relation uri="http://libmeta.ru/fme/relation/3139_1_TURBULENTNOST">
+      <rel_text>жидкости</rel_text>
+      <target>http://libmeta.ru/fme/article/939_ZhIDKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_2_TURBULENTNOST">
+      <rel_text>несжимаемой жидкости</rel_text>
+      <target>http://libmeta.ru/fme/article/1939_NESZhIMAEMAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_3_TURBULENTNOST">
+      <rel_text>широты</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_4_TURBULENTNOST">
+      <rel_text>скорость</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_5_TURBULENTNOST">
+      <rel_text>Волновое число</rel_text>
+      <target>http://libmeta.ru/fme/article/448_VOLNOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_6_TURBULENTNOST">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_7_TURBULENTNOST">
+      <rel_text>широты</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_8_TURBULENTNOST">
+      <rel_text>Брента</rel_text>
+      <target>http://libmeta.ru/fme/article/281_BREZE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_9_TURBULENTNOST">
+      <rel_text>частота</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_10_TURBULENTNOST">
+      <rel_text>деформации»</rel_text>
+      <target>http://libmeta.ru/fme/article/803_DEFORMATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_11_TURBULENTNOST">
+      <rel_text>лапласиан</rel_text>
+      <target>http://libmeta.ru/fme/article/1552_LAPLASIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_12_TURBULENTNOST">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_13_TURBULENTNOST">
+      <rel_text>энтропии</rel_text>
+      <target>http://libmeta.ru/fme/article/3540_ENTROPI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_14_TURBULENTNOST">
+      <rel_text>градиент</rel_text>
+      <target>http://libmeta.ru/fme/article/703_GRADIEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_15_TURBULENTNOST">
+      <rel_text>скорости</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_16_TURBULENTNOST">
+      <rel_text>скалярное произведение</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_17_TURBULENTNOST">
+      <rel_text>обладает</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_18_TURBULENTNOST">
+      <rel_text>энстрофия</rel_text>
+      <target>http://libmeta.ru/fme/article/3534_ENSTROFI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_19_TURBULENTNOST">
+      <rel_text>энергия</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_20_TURBULENTNOST">
+      <rel_text>энстрофии</rel_text>
+      <target>http://libmeta.ru/fme/article/3534_ENSTROFI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_21_TURBULENTNOST">
+      <rel_text>скорость</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_22_TURBULENTNOST">
+      <rel_text>параметров</rel_text>
+      <target>http://libmeta.ru/fme/article/2166_PARAMETRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_23_TURBULENTNOST">
+      <rel_text>энстрофия</rel_text>
+      <target>http://libmeta.ru/fme/article/3534_ENSTROFI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3139_24_TURBULENTNOST">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+  </relations>
+  <text>явление, наблюдаемое в ту рбу ле н тных течен и я х жидкостей и газов, то есть таких завихренных течениях, термодинамические и гидродинамические характеристики которых испытывают хаотические флуктуации из-за наличия многочисленных вихрей различных размеров и потому изменяются в пространстве и времени весьма нерегулярно. Этим турбулентные течения отличаются от так наз. л а м и н а р н ы х течен и й.
+
+Индивидуальные реализации турбулентных течений описываются обычными уравнениями гидромеханики вязкой жидкости. Единственность решения задачи Коши для них не доказана (доказательство удается лишь для двумерных течений и при специальных предположениях об изменчивости кинематич. вязкости $URI[[http://libmeta.ru/fme/formula/aux/3139_1_TURBULENTNOST]]/URI$ ). Стационарные решения, отвечающие ламинарным течениям, формально существуют при любых числах Рейнольдса $URI[[http://libmeta.ru/fme/formula/aux/3139_2_TURBULENTNOST]]/URI$ ( $URI[[http://libmeta.ru/fme/formula/aux/3139_3_TURBULENTNOST]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3139_4_TURBULENTNOST]]/URI$ масштабы длины и скорости), но при $URI[[http://libmeta.ru/fme/formula/aux/3139_5_TURBULENTNOST]]/URI$ они неустойчивы. Гидродинамич. неустойчивость относительно малых возмущений поля скорости вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3139_1_TURBULENTNOST]]/URI
+\]
+
+исследуется как задача о собственных значения соответствующего линеаризованного уравнения для $URI[[http://libmeta.ru/fme/formula/aux/3139_6_TURBULENTNOST]]/URI$ (так наз. Орра - Зоммерфельда уравнение).
+
+При значениях числа Рейнольдса Re в некоторой окрестности $URI[[http://libmeta.ru/fme/formula/aux/3139_7_TURBULENTNOST]]/URI$ в фазовом пространстве течения существует однопараметрич. семейство замкнутых траекторий. Если оно появляется лишь при $URI[[http://libmeta.ru/fme/formula/aux/3139_8_TURBULENTNOST]]/URI$, то бифуркация называется н о р м а л ь но й, и замкнутые траектории суть предельные циклы, которым соответствуют периодические по $URI[[http://libmeta.ru/fme/formula/aux/3139_9_TURBULENTNOST]]/URI$ решения с конечными амплитудами порядка $URI[[http://libmeta.ru/fme/formula/aux/3139_10_TURBULENTNOST]]/URI$ и произвольными фазами. По предположению Л. Д. Ландау (1944), Т. образуется в результате последовательности нормальных бифуркаций и представляет собой квазипериодич. эргодич. течение с очень большим числом несоизмеримых частот колебаний и соответствующих степеней свободы - фаз колебаний.
+
+Если семейство замкнутых фазовых траекторий появляется еще при $URI[[http://libmeta.ru/fme/formula/aux/3139_11_TURBULENTNOST]]/URI$, то бифуркация называется о 6 p a т н о й, предельные циклы неустойчивы (то есть траектории с них сматываются); при $URI[[http://libmeta.ru/fme/formula/aux/3139_12_TURBULENTNOST]]/URI$ они сжимаются и в пределе исчезают, а при $URI[[http://libmeta.ru/fme/formula/aux/3139_13_TURBULENTNOST]]/URI$ возмущения разрастаются со временем и, по-видимому, быстро приобретают непериодич. характер. Возможно, что в этом случае в фазовом пространстве имеется странный аттрактор, то есть множество $URI[[http://libmeta.ru/fme/formula/aux/3139_14_TURBULENTNOST]]/URI$ неблуждающих точек (у к-рых каждая окрестность пересекается с нек-рой траекторией по меньшей мере дважды), отличающихся от неподвижных точек и замкнутых траекторий и имеющих окрестности, в к-рых появляющиеся траектории все асимптотически приближаются к $URI[[http://libmeta.ru/fme/formula/aux/3139_15_TURBULENTNOST]]/URI$.
+
+Существует гипотеза, что после четырех бифуркаций в фазовом пространстве течений жидкости появляется странный аттрактор, являющийся локально канторовым множеством двумерных поверхностей, попадание на к-рый и создает хаотичность течения, то есть Т. Однако доказательной теории бифуркаций для гидродинамич. систем еще не построено (см. [3]).
+
+Наиболее полным статистич. описанием турбулентного течения несжимаемой жидкости является задание вероятностной меры $URI[[http://libmeta.ru/fme/formula/aux/3139_16_TURBULENTNOST]]/URI$ на функциональном пространстве возможных полей скорости $URI[[http://libmeta.ru/fme/formula/aux/3139_17_TURBULENTNOST]]/URI$ или ее функционального преобразования Фурье - характеристич. функционала, напр. в спектральном представлении $URI[[http://libmeta.ru/fme/formula/aux/3139_18_TURBULENTNOST]]/URI$ (см. [1]). Для него из уравнений Навье - Стокса выводится линейное уравнение в вариационных производных (так что статистич. динамика Т. оказывается линейной), к-рое надлежит решать при заданном
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3139_2_TURBULENTNOST]]/URI
+\]
+
+В частности, для пространственного характеристич. функционала $URI[[http://libmeta.ru/fme/formula/aux/3139_19_TURBULENTNOST]]/URI$, дающего полное статистич. описание поля скорости в фиксированный момент времени $URI[[http://libmeta.ru/fme/formula/aux/3139_20_TURBULENTNOST]]/URI$, получается уравнение Хопфа:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3139_3_TURBULENTNOST]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/3139_4_TURBULENTNOST]]/URI
+\]
+
+г $URI[[http://libmeta.ru/fme/formula/aux/3139_21_TURBULENTNOST]]/URI$,
+
+a $URI[[http://libmeta.ru/fme/formula/aux/3139_22_TURBULENTNOST]]/URI$ - оператор вариационного дифференцирования по $URI[[http://libmeta.ru/fme/formula/aux/3139_23_TURBULENTNOST]]/URI$. Это уравнение аналогично уравнению для вектора состояния $URI[[http://libmeta.ru/fme/formula/aux/3139_24_TURBULENTNOST]]/URI$ в представлении Шредингера квантового бозе-поля с сильным взаимодействием специального вида (слияние двух бозонов в один): $URI[[http://libmeta.ru/fme/formula/aux/3139_25_TURBULENTNOST]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3139_26_TURBULENTNOST]]/URI$ суть операторы рождения и уничтожения квантов с импульсом $URI[[http://libmeta.ru/fme/formula/aux/3139_27_TURBULENTNOST]]/URI$, a константой взаимодействия служит Re. Общих методов решения линейных уравнений в вариационных производных еще не создано. При $URI[[http://libmeta.ru/fme/formula/aux/3139_28_TURBULENTNOST]]/URI$ теория возмущений не действует, хотя частичное суммирование диаграмм Фейнмана возможно (см. [2]). Решение $URI[[http://libmeta.ru/fme/formula/aux/3139_29_TURBULENTNOST]]/URI$ можно записать в виде континуального интеграла, но общих методов для вычисления таких интегралов еще нет. Зато общим методом нахождения вероятностных мер $URI[[http://libmeta.ru/fme/formula/aux/3139_30_TURBULENTNOST]]/URI$ для описания турбулентных течений может служить построение таких мер $URI[[http://libmeta.ru/fme/formula/aux/3139_31_TURBULENTNOST]]/URI$ для галеркинских аппроксимаций уравнений Навье - Стокса: для семейства мер $URI[[http://libmeta.ru/fme/formula/aux/3139_32_TURBULENTNOST]]/URI$ доказывается слабая компактность (см. [6]); этим методом, в частности, доказываются нек-рые теоремы существования и единственности решений $URI[[http://libmeta.ru/fme/formula/aux/3139_33_TURBULENTNOST]]/URI$.
+
+Эквивалентная формулировка полного статистич. описания турбулентного течения заключается в задании всех конечномерных плотностей вероятности
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3139_5_TURBULENTNOST]]/URI
+\]
+
+для значений $URI[[http://libmeta.ru/fme/formula/aux/3139_34_TURBULENTNOST]]/URI$ поля скорости на всевозможных конечных наборах точек $URI[[http://libmeta.ru/fme/formula/aux/3139_35_TURBULENTNOST]]/URI$ пространства-времени. Для них из уравнений Навье - Стокса выводятся (см. [5]) линейные уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3139_6_TURBULENTNOST]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3139_36_TURBULENTNOST]]/URI$ перенесенное в точку $URI[[http://libmeta.ru/fme/formula/aux/3139_37_TURBULENTNOST]]/URI$ условное математич. ожидание ускорения в точке $URI[[http://libmeta.ru/fme/formula/aux/3139_38_TURBULENTNOST]]/URI$ при условии, что значения $URI[[http://libmeta.ru/fme/formula/aux/3139_39_TURBULENTNOST]]/URI$ фиксированы. Величины $URI[[http://libmeta.ru/fme/formula/aux/3139_40_TURBULENTNOST]]/URI$ содержат интегралы по $URI[[http://libmeta.ru/fme/formula/aux/3139_41_TURBULENTNOST]]/URI$, так что уравнения для $URI[[http://libmeta.ru/fme/formula/aux/3139_42_TURBULENTNOST]]/URI$ образуют бесконечную цепочку. Интегрируя уравнение для $URI[[http://libmeta.ru/fme/formula/aux/3139_43_TURBULENTNOST]]/URI$ по
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3139_7_TURBULENTNOST]]/URI
+\]
+
+получают обобщенные уравнения Фридмана Келле ра:
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_de807bd01d8407c8ca8eg-1.jpg?height=92&amp;width=350&amp;top_left_y=590&amp;top_left_x=1162)
+
+где черточка - математич. ожидание. Это уравнение было выведено при $URI[[http://libmeta.ru/fme/formula/aux/3139_44_TURBULENTNOST]]/URI$, так что $URI[[http://libmeta.ru/fme/formula/aux/3139_45_TURBULENTNOST]]/URI$ это $URI[[http://libmeta.ru/fme/formula/aux/3139_46_TURBULENTNOST]]/URI$-точечный статистич. момент поля скорости порядка $URI[[http://libmeta.ru/fme/formula/aux/3139_47_TURBULENTNOST]]/URI$. Уравнения для моментов образуют бесконечную цепочку (разрешимость к-рой доказывается с помощью галеркинских аппроксимаций уравнений Навье - Стокса).
+
+При $URI[[http://libmeta.ru/fme/formula/aux/3139_48_TURBULENTNOST]]/URI$ эти уравнения (у ра внения Рей нольд с а) получаются непосредственным осреднением уравнений Навье - Стокса и отличаются от таковых для осредненного поля скорости $URI[[http://libmeta.ru/fme/formula/aux/3139_49_TURBULENTNOST]]/URI$ появлением дополнительных неизвестных - одноточечных вторых моментов $URI[[http://libmeta.ru/fme/formula/aux/3139_50_TURBULENTNOST]]/URI$ плотность жидкости, штрихи обозначают отклонения от математич. ожиданий), называемых на п р я же н и я м и Р е й н о л ь д с а. Простейшим способом замыкания системы уравнений Фридмана - Келлера является представление $URI[[http://libmeta.ru/fme/formula/aux/3139_51_TURBULENTNOST]]/URI$ в виде функций от $URI[[http://libmeta.ru/fme/formula/aux/3139_52_TURBULENTNOST]]/URI$. В полуэмпирической теории турбулентности эти функции берутся линейными, и для их коэффициентов (имеющих смысл коэффициентов турбулентной вязкости) принимаются те или иные дополнительные предположения (напр., пропорциональность $URI[[http://libmeta.ru/fme/formula/aux/3139_53_TURBULENTNOST]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/3139_54_TURBULENTNOST]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3139_55_TURBULENTNOST]]/URI$ масштаб и кинетич. энергия Т. в единице массы, для к-рых конструируются дополнительные уравнения - это делает реологию осредненного течения нелинейной и создает специфич. эффекты).
+
+При $URI[[http://libmeta.ru/fme/formula/aux/3139_56_TURBULENTNOST]]/URI$ получаются уравнения для двухточечных корреляционных функций поля скорости $URI[[http://libmeta.ru/fme/formula/aux/3139_57_TURBULENTNOST]]/URI$ (или их преобразований Фурье по $URI[[http://libmeta.ru/fme/formula/aux/3139_58_TURBULENTNOST]]/URI$-спектральных функций). Для их замыкания необходимы дополнительные предположения о входящих в них третьих моментах (см. [1], [5]). Наиболее естественные методы построения замкнутых уравнений для спектров турбулентности получаются обрезанием частично просуммированных диаграмм Фейнмана.
+
+Существенные геометрич. упрощения получаются в случае однородной и изотропной Т. Эта модель важна, потому что всякая реальная Т. с очень большим числом Рейнольдса оказывается локально-стационарной, локально-однородной и локально-изотропной. При этом при фиксированной скорости диссипации кинетич. энергии $URI[[http://libmeta.ru/fme/formula/aux/3139_59_TURBULENTNOST]]/URI$ статистич. структура трехмерного турбулентного течения с очень большим числом Рейнольдса в достаточно малых масштабах полностью определяется двумя параметрами $URI[[http://libmeta.ru/fme/formula/aux/3139_60_TURBULENTNOST]]/URI$ и v, так что, напр., структурная функция скоростей при $URI[[http://libmeta.ru/fme/formula/aux/3139_61_TURBULENTNOST]]/URI$ должна иметь вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3139_8_TURBULENTNOST]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3139_62_TURBULENTNOST]]/URI$ масштаб течения в целом, а $URI[[http://libmeta.ru/fme/formula/aux/3139_63_TURBULENTNOST]]/URI$ колмогоровский внутренний масштаб; в так наз. инерционном интервале масштабов $URI[[http://libmeta.ru/fme/formula/aux/3139_64_TURBULENTNOST]]/URI$ параметр $URI[[http://libmeta.ru/fme/formula/aux/3139_65_TURBULENTNOST]]/URI$ выпадает, и функция $URI[[http://libmeta.ru/fme/formula/aux/3139_66_TURBULENTNOST]]/URI$ обращается в константу. Если же учитывать флуктуации поля $URI[[http://libmeta.ru/fme/formula/aux/3139_67_TURBULENTNOST]]/URI$, то колмогоровская автомодельность становится неполной, и структурная функция приобретает поправочный множитель $URI[[http://libmeta.ru/fme/formula/aux/3139_68_TURBULENTNOST]]/URI$ с небольшим показателем.
+
+В двумерных течениях, кроме URI[[http://libmeta.ru/fme/relation/3139_24_TURBULENTNOST]]/URI, адиабатич. интегралом движения является еше средний квадрат вихря URI[[http://libmeta.ru/fme/relation/3139_23_TURBULENTNOST]]/URI (так что вихревые нити не растягиваются) и, кроме URI[[http://libmeta.ru/fme/relation/3139_22_TURBULENTNOST]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3139_69_TURBULENTNOST]]/URI$ и v, появляется еще URI[[http://libmeta.ru/fme/relation/3139_21_TURBULENTNOST]]/URI вырождения URI[[http://libmeta.ru/fme/relation/3139_20_TURBULENTNOST]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3139_70_TURBULENTNOST]]/URI$. При этом от масштабов энергоснабжения URI[[http://libmeta.ru/fme/relation/3139_19_TURBULENTNOST]]/URI передается в сторону больших масштабов по колмогоровскому закону, а URI[[http://libmeta.ru/fme/relation/3139_18_TURBULENTNOST]]/URI - в сторону малых масштабов по нелокальному спектральному закону (cm. [4]):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3139_9_TURBULENTNOST]]/URI
+\]
+
+Такими свойствами URI[[http://libmeta.ru/fme/relation/3139_17_TURBULENTNOST]]/URI крупномасштабная квазидвумерная Т. в атмосфере и в океане, образуемая синоптич. вихрями и волнами Россби - Блиновой. Роль вихря двумерного течения здесь играет так наз. п о т е н ц и а л ь н ы й в и х р ь - URI[[http://libmeta.ru/fme/relation/3139_16_TURBULENTNOST]]/URI вихря абсолютной URI[[http://libmeta.ru/fme/relation/3139_15_TURBULENTNOST]]/URI на URI[[http://libmeta.ru/fme/relation/3139_14_TURBULENTNOST]]/URI URI[[http://libmeta.ru/fme/relation/3139_13_TURBULENTNOST]]/URI. Уравнение для него в квазигеострофич. приближении URI[[http://libmeta.ru/fme/relation/3139_12_TURBULENTNOST]]/URI в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3139_10_TURBULENTNOST]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3139_71_TURBULENTNOST]]/URI$ - горизонтальные функция тока, URI[[http://libmeta.ru/fme/relation/3139_11_TURBULENTNOST]]/URI и якобиан, $URI[[http://libmeta.ru/fme/formula/aux/3139_72_TURBULENTNOST]]/URI$ вертикальная координата, $URI[[http://libmeta.ru/fme/formula/aux/3139_73_TURBULENTNOST]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3139_74_TURBULENTNOST]]/URI$ толщина слоя и «радиус URI[[http://libmeta.ru/fme/relation/3139_10_TURBULENTNOST]]/URI Россби $URI[[http://libmeta.ru/fme/formula/aux/3139_75_TURBULENTNOST]]/URI$ URI[[http://libmeta.ru/fme/relation/3139_9_TURBULENTNOST]]/URI Вайссала - URI[[http://libmeta.ru/fme/relation/3139_8_TURBULENTNOST]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/3139_76_TURBULENTNOST]]/URI$ - параметр Кориолиса), $URI[[http://libmeta.ru/fme/formula/aux/3139_77_TURBULENTNOST]]/URI$ - дуга круга URI[[http://libmeta.ru/fme/relation/3139_7_TURBULENTNOST]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/3139_78_TURBULENTNOST]]/URI$ производная от $URI[[http://libmeta.ru/fme/formula/aux/3139_79_TURBULENTNOST]]/URI$ по дуге меридиана, $URI[[http://libmeta.ru/fme/formula/aux/3139_80_TURBULENTNOST]]/URI$ неадиабатич. факторы. В масштабах $URI[[http://libmeta.ru/fme/formula/aux/3139_81_TURBULENTNOST]]/URI$ URI[[http://libmeta.ru/fme/relation/3139_6_TURBULENTNOST]]/URI обычное уравнение двумерной Т. URI[[http://libmeta.ru/fme/relation/3139_5_TURBULENTNOST]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3139_82_TURBULENTNOST]]/URI$ (где $URI[[http://libmeta.ru/fme/formula/aux/3139_83_TURBULENTNOST]]/URI$ типичная URI[[http://libmeta.ru/fme/relation/3139_4_TURBULENTNOST]]/URI) разделяет вихри $URI[[http://libmeta.ru/fme/formula/aux/3139_84_TURBULENTNOST]]/URI$ и волны Россби - Блиновой $URI[[http://libmeta.ru/fme/formula/aux/3139_85_TURBULENTNOST]]/URI$. Малые начальные вихри имеют тенденцию со временем расти, выравниваться по вертикали («баротропизация»), смещаться на запад и вытягиваться вдоль кругов URI[[http://libmeta.ru/fme/relation/3139_3_TURBULENTNOST]]/URI.
+
+Важными обобщениями Т. в URI[[http://libmeta.ru/fme/relation/3139_2_TURBULENTNOST]]/URI являются Т. в стратифицированной URI[[http://libmeta.ru/fme/relation/3139_1_TURBULENTNOST]]/URI с архимедовыми силами и гидромагнитная $URI[[http://libmeta.ru/fme/formula/aux/3139_86_TURBULENTNOST]]/URI$.</text>
+  <text_orig>явление, наблюдаемое в ту рбу ле н тных течен и я х жидкостей и газов, то есть таких завихренных течениях, термодинамические и гидродинамические характеристики которых испытывают хаотические флуктуации из-за наличия многочисленных вихрей различных размеров и потому изменяются в пространстве и времени весьма нерегулярно. Этим турбулентные течения отличаются от так наз. л а м и н а р н ы х течен и й.
+
+Индивидуальные реализации турбулентных течений описываются обычными уравнениями гидромеханики вязкой жидкости. Единственность решения задачи Коши для них не доказана (доказательство удается лишь для двумерных течений и при специальных предположениях об изменчивости кинематич. вязкости $v$ ). Стационарные решения, отвечающие ламинарным течениям, формально существуют при любых числах Рейнольдса $\operatorname{Re}=U L / v$ ( $L$ и $U-$ масштабы длины и скорости), но при $\operatorname{Re}&gt;\operatorname{Re}_{\mathrm{Kp}}$ они неустойчивы. Гидродинамич. неустойчивость относительно малых возмущений поля скорости вида:
+
+\[
+\boldsymbol{u}^{\prime}(\boldsymbol{x}, t)=\boldsymbol{a}(\boldsymbol{x}) \exp (\lambda t)
+\]
+
+исследуется как задача о собственных значения соответствующего линеаризованного уравнения для $\boldsymbol{a}(\boldsymbol{x})$ (так наз. Орра - Зоммерфельда уравнение).
+
+При значениях числа Рейнольдса Re в некоторой окрестности $\mathrm{Re}_{\mathrm{kp}}$ в фазовом пространстве течения существует однопараметрич. семейство замкнутых траекторий. Если оно появляется лишь при $\operatorname{Re}&gt;\operatorname{Re}_{\mathrm{Kp}}$, то бифуркация называется н о р м а л ь но й, и замкнутые траектории суть предельные циклы, которым соответствуют периодические по $t$ решения с конечными амплитудами порядка $\left(\operatorname{Re}-\operatorname{Re}_{\text {кр }}\right)^{1 / 2}$ и произвольными фазами. По предположению Л. Д. Ландау (1944), Т. образуется в результате последовательности нормальных бифуркаций и представляет собой квазипериодич. эргодич. течение с очень большим числом несоизмеримых частот колебаний и соответствуюших степеней свободы - фаз колебаний.
+
+Если семейство замкнутых фазовых траекторий появляется еще при $\operatorname{Re}&lt;\operatorname{Re}_{\text {кр }}$, то бифуркация называется о 6 p a т н о й, предельные циклы неустойчивы (то есть траектории с них сматываются); при $\operatorname{Re} \rightarrow \operatorname{Re}_{\text {кр }} \rightarrow 0$ они сжимаются и в пределе исчезают, а при $\operatorname{Re}&gt;\operatorname{Re}_{\text {кр }}$ возмущения разрастаются со временем и, по-видимому, быстро приобретают непериодич. характер. Возможно, что в этом случае в фазовом пространстве имеется странный аттрактор, то есть множество $\Lambda$ неблуждаюших точек (у к-рых каждая окрестность пересекается с нек-рой траекторией по меньшей мере дважды), отличающихся от неподвижных точек и замкнутых траекторий и имеюших окрестности, в к-рых появляюшиеся траектории все асимптотически приближаются к $\Lambda$.
+
+Существует гипотеза, что после четырех бифуркаций в фазовом пространстве течений жидкости появляется странный аттрактор, являющийся локально канторовым множеством двумерных поверхностей, попадание на к-рый и создает хаотичность течения, то есть Т. Однако доказательной теории бифуркаций для гидродинамич. систем еще не построено (см. [3]).
+
+Наиболее полным статистич. описанием турбулентного течения несжимаемой жидкости является задание вероятностной меры $P(\omega)$ на функциональном пространстве возможных полей скорости $\boldsymbol{u}(\boldsymbol{x}, t)$ или ее функционального преобразования Фурье - характеристич. функционала, напр. в спектральном представлении $\Psi[z(\boldsymbol{k}, t)]$ (см. [1]). Для него из уравнений Навье - Стокса выводится линейное уравнение в вариационных производных (так что статистич. динамика Т. оказывается линейной), к-рое надлежит решать при заданном
+
+\[
+\Psi_{0}[z(k)]=\Psi\left[z(k) \delta\left(t-t_{0}\right)\right] .
+\]
+
+В частности, для пространственного характеристич. функционала $\Psi[\boldsymbol{z}(\boldsymbol{k}), t]$, дающего полное статистич. описание поля скорости в фиксированный момент времени $t$, получается уравнение Хопфа:
+
+\[
+i \frac{\partial \Psi}{\partial t}=\left(H_{0}+H_{1}\right) \Psi ; \quad H_{0}=-i v \int d \boldsymbol{k} \boldsymbol{k}^{2} z_{\alpha}(\boldsymbol{k}) D_{\alpha}(\boldsymbol{k})
+\]\[
+H_{1}=\iint d \boldsymbol{k}^{\prime} d \boldsymbol{k}^{\prime \prime} B_{\alpha, \beta \gamma}\left(\boldsymbol{k}^{\prime}+\boldsymbol{k}^{\prime \prime}\right) z_{\beta}\left(\boldsymbol{k}^{\prime}+\boldsymbol{k}^{\prime \prime}\right) D_{\alpha}\left(\boldsymbol{k}^{\prime}\right) D_{\gamma}\left(\boldsymbol{k}^{\prime \prime}\right),
+\]
+
+г $\quad B_{\alpha, \beta \gamma}(k)=i k_{\alpha}\left(\delta_{\beta \gamma}-k_{\beta} k_{\gamma} k^{-2}\right)$,
+
+a $D_{\alpha}(k)$ - оператор вариационного дифференцирования по $z_{\alpha}(\boldsymbol{k})$. Это уравнение аналогично уравнению для вектора состояния $\Psi$ в представлении Шредингера квантового бозе-поля с сильным взаимодействием специального вида (слияние двух бозонов в один): $z_{\alpha}(k)$ и $D_{\alpha}(k)$ суть операторы рождения и уничтожения квантов с импульсом $\boldsymbol{k}$, a константой взаимодействия служит Re. Обших методов решения линейных уравнений в вариационных производных еще не создано. При $\operatorname{Re} \gg 1$ теория возмущений не действует, хотя частичное суммирование диаграмм Фейнмана возможно (см. [2]). Решение $\Psi$ можно записать в виде континуального интеграла, но обших методов для вычисления таких интегралов еще нет. Зато общим методом нахождения вероятностных мер $\mathrm{P}(\omega)$ для описания турбулентных течений может служить построение таких мер $\mathrm{P}_{e}(\omega)$ для галеркинских аппроксимаций уравнений Навье - Стокса: для семейства мер $\left\{\mathrm{P}_{e}\right\}$ доказывается слабая компактность (см. [6]); этим методом, в частности, доказываются нек-рые теоремы существования и единственности решений $\Psi$.
+
+Эквивалентная формулировка полного статистич. описания турбулентного течения заключается в задании всех конечномерных плотностей вероятности
+
+\[
+f_{n}=P_{M_{1}} \ldots M_{n}\left(\boldsymbol{u}_{1}, \ldots, \boldsymbol{u}_{n}\right)
+\]
+
+для значений $\boldsymbol{u}_{m}=u\left(M_{m}\right)$ поля скорости на всевозможных конечных наборах точек $M_{m}=\left(x_{m}, t_{m}\right)$ пространства-времени. Для них из уравнений Навье - Стокса выводятся (см. [5]) линейные уравнения
+
+\[
+\frac{\partial f_{n}}{\partial t_{k}}=-\left(\frac{\partial u_{k \alpha} f_{n}}{\partial x_{k \alpha}}+\frac{\partial w_{k \alpha} f_{n}}{\partial u_{k \alpha}}\right),
+\]
+
+где $w_{k}-$ перенесенное в точку $M_{k}$ условное математич. ожидание ускорения в точке $\left(\boldsymbol{x}, t_{k}\right)$ при условии, что значения $\boldsymbol{u}_{1}=\boldsymbol{u}\left(M_{1}\right), \ldots, \boldsymbol{u}_{n}=\boldsymbol{u}\left(M_{n}\right)$ фиксированы. Величины $w_{k \alpha} f_{n}$ содержат интегралы по $f_{n+1} d u_{n+1}$, так что уравнения для $f_{n}$ образуют бесконечную цепочку. Интегрируя уравнение для $\partial f_{n} / \partial t_{k}$ по
+
+\[
+F\left(\boldsymbol{u}_{1}, \ldots, \boldsymbol{u}_{n}\right) d \boldsymbol{u}_{1} \ldots d \boldsymbol{u}_{k},
+\]
+
+получают обобщенные уравнения Фридмана Келле ра:
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_de807bd01d8407c8ca8eg-1.jpg?height=92&amp;width=350&amp;top_left_y=590&amp;top_left_x=1162)
+
+где черточка - математич. ожидание. Это уравнение было выведено при $F=u_{1 \alpha_{1}}^{m_{1}} \ldots u_{n \alpha_{n}}^{m_{n}}$, так что $\bar{F}-$ это $n$-точечный статистич. момент поля скорости порядка $N=m_{1}+\ldots+m_{n}$. Уравнения для моментов образуют бесконечную цепочку (разрешимость к-рой доказывается с помошью галеркинских аппроксимаций уравнений Навье - Стокса).
+
+При $N=1$ эти уравнения (у ра внения Рей нольд с а) получаются непосредственным осреднением уравнений Навье - Стокса и отличаются от таковых для осредненного поля скорости $\overline{\boldsymbol{u}}$ появлением дополнительных неизвестных - одноточечных вторых моментов $\tau_{j l}=-\rho \overline{u_{j}^{\prime} u_{l}^{\prime}} \quad(\rho-$ плотность жидкости, штрихи обозначают отклонения от математич. ожиданий), называемых на п р я же н и я м и Р е й н о л ь д с а. Простейшим способом замыкания системы уравнений Фридмана - Келлера является представление $\tau_{j l}$ в виде функций от $\partial \bar{u}_{i} / \partial x_{k}$. В полуэмпирической теории турбулентности эти функции берутся линейными, и для их коэффициентов (имеющих смысл коэффициентов турбулентной вязкости) принимаются те или иные дополнительные предположения (напр., пропорциональность $l \sqrt{b}$, где $l$ и $b-$ масштаб и кинетич. энергия Т. в единице массы, для к-рых конструируются дополнительные уравнения - это делает реологию осредненного течения нелинейной и создает специфич. эффекты).
+
+При $N=2$ получаются уравнения для двухточечных корреляционных функций поля скорости $\overline{u_{1 \alpha}^{\prime} u_{2 \beta}^{\prime}}$ (или их преобразований Фурье по $\left(M_{1}-M_{2}\right)$-спектральных функций). Для их замыкания необходимы дополнительные предположения о входящих в них третьих моментах (см. [1], [5]). Наиболее естественные методы построения замкнутых уравнений для спектров турбулентности получаются обрезанием частично просуммированных диаграмм Фейнмана.
+
+Существенные геометрич. упрощения получаются в случае однородной и изотропной Т. Эта модель важна, потому что всякая реальная Т. с очень большим числом Рейнольдса оказывается локально-стационарной, локально-однородной и локально-изотропной. При этом при фиксированной скорости диссипации кинетич. энергии $\varepsilon$ статистич. структура трехмерного турбулентного течения с очень большим числом Рейнольдса в достаточно малых масштабах полностью определяется двумя параметрами $\varepsilon$ и v, так что, напр., структурная функция скоростей при $r \ll L$ должна иметь вид:
+
+\[
+\overline{\left[u_{\alpha}(x+r, t)-u_{\alpha}(x, t)\right]^{2}}=(\varepsilon r)^{2 / 3} \varphi(r / \lambda),
+\]
+
+где $L-$ масштаб течения в целом, а $\lambda=\varepsilon^{1 / 4} v^{-3 / 4}-$ колмогоровский внутренний масштаб; в так наз. инерционном интервале масштабов $L \gg r \gg \lambda$ параметр $v$ выпадает, и функция $\varphi$ обращается в константу. Если же учитывать флуктуации поля $\varepsilon$, то колмогоровская автомодельность становится неполной, и структурная функция приобретает поправочный множитель $(r / L)^{m}$ с небольшим показателем.
+
+В двумерных течениях, кроме энергии, адиабатич. интегралом движения является еше средний квадрат вихря энстрофия (так что вихревые нити не растягиваются) и, кроме параметров $\varepsilon$ и v, появляется еще скорость вырождения энстрофии $\varepsilon_{\omega}$. При этом от масштабов энергоснабжения энергия передается в сторону больших масштабов по колмогоровскому закону, а энстрофия - в сторону малых масштабов по нелокальному спектральному закону (cM. [4]):
+
+\[
+E(k)=C_{\omega} \varepsilon_{\omega}^{2 / 3} k^{-3}\left(\ln \frac{k}{k_{0}}\right)^{-1 / 3}
+\]
+
+Такими свойствами обладает крупномасштабная квазидвумерная Т. в атмосфере и в океане, образуемая синоптич. вихрями и волнами Россби - Блиновой. Роль вихря двумерного течения здесь играет так наз. п о т е н ц и а л ь н ы й в и х р ь - скалярное произведение вихря абсолютной скорости на градиент энтропии. Уравнение для него в квазигеострофич. приближении получается в виде:
+
+\[
+\frac{\partial \varphi \psi}{\partial t}+J(\psi, \varphi \psi)+\beta \frac{\partial \psi}{\partial x}=F ; \quad \varphi=\Delta+\frac{\partial}{\partial z} \frac{H^{2}}{L_{R}^{2}} \frac{\partial}{\partial z},
+\]
+
+где $\psi, \Delta, J$ - горизонтальные функция тока, лапласиан и якобиан, $z-$ вертикальная координата, $H$ и $L_{R}=H N / f-$ толшина слоя и «радиус деформации» Россби $(N-$ частота Вайссала - Брента, $f$ - параметр Кориолиса), $x$ - дуга круга широты, $\beta-$ производная от $f$ по дуге меридиана, $F-$ неадиабатич. факторы. В масштабах $L \ll L_{R}$ получается обычное уравнение двумерной Т. Волновое число $k_{\beta}=(\beta / 2 U)^{1 / 2}$ (где $U-$ типичная скорость) разделяет вихри $\left(k&gt;k_{\beta}\right)$ и волны Россби - Блиновой $\left(k&lt;k_{\beta}\right)$. Малые начальные вихри имеют тенденцию со временем расти, выравниваться по вертикали («баротропизация»), смещаться на запад и вытягиваться вдоль кругов широты.
+
+Важными обобщениями Т. в несжимаемой жидкости являются Т. в стратифицированной жидкости с архимедовыми силами и гидромагнитная $\mathrm{T}$.
+
+Лum.: [1] М о н и н А. С., Я гл о м А. М., Статистическая гидромеханика, ч. 1-2, М., 1965-67; [2] Гледзер Е. Б., Монин А. С., «Успехи математич. наук», 1974, т. 29, в. 3, c. 111-59; [3] М он и н А. С., &quot;Успехи физич. наук», 1978, т. 125, в. 1, с. 97-122; [4] М ирабель А. П., Монин А. С., «Успехи механики», 1979, т. 2, в. 3, с. 47-95; [5] Монин А. С., Озм идов Р. В., Океанская турбулентность, Л., 1981; [6] В ишик М.И., Фурсиков А. В., Математические задачи статистической гидромеханики, М., 1980.
+
+А. С. Монин.</text_orig>
+</article>

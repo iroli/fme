@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2304_POLUGEODEZIChESKIE" alphabetic_pos="2306">
+  <title>ПОЛУГЕОДЕЗИЧЕСКИЕ КООРДИНАТЫ В РИМАНОВОМ МНОГООБРАЗИИ $\left(M^{n}, g_{i j}\right)$</title>
+  <authors/>
+  <pages>
+    <start>453</start>
+    <end>453</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Р аш е в с к и й П. К., Риманова геометрия и тензорный $\begin{array}{ll}\text { анализ, } 3 \text { изд., М., } 1967 . &amp; \text { В. В. Трофимов. }\end{array}$</literature_orig>
+    <unit>
+      <author>Рашевский П. К.</author>
+      <title>Риманова геометрия и тензорный $\begin{array}{ll}\text { анализ</title>
+      <publication>} 3 \text { изд., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2304_1_POLUGEODEZIChESKIE">d s^{2}=g_{\alpha \beta} d x^{\alpha} d x^{\beta}+\left(d x^{n}\right)^{2}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2304_1_POLUGEODEZIChESKIE">\left(x^{1}, \ldots, x^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2304_2_POLUGEODEZIChESKIE">\alpha, \beta=1,2, \ldots, n-1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2304_3_POLUGEODEZIChESKIE">x^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2304_4_POLUGEODEZIChESKIE">x^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2304_5_POLUGEODEZIChESKIE">x^{n}=</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/2304_1_POLUGEODEZIChESKIE">
+      <rel_text>многообразии</rel_text>
+      <target>http://libmeta.ru/fme/article/1803_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2304_2_POLUGEODEZIChESKIE">
+      <rel_text>гиперповерхности</rel_text>
+      <target>http://libmeta.ru/fme/article/632_GIPERBOLIChNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2304_3_POLUGEODEZIChESKIE">
+      <rel_text>ортогонально</rel_text>
+      <target>http://libmeta.ru/fme/article/2110_ORTOPROEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2304_4_POLUGEODEZIChESKIE">
+      <rel_text>Координатные линии</rel_text>
+      <target>http://libmeta.ru/fme/article/1384_KOORDINATNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2304_5_POLUGEODEZIChESKIE">
+      <rel_text>метрический тензор</rel_text>
+      <target>http://libmeta.ru/fme/article/1775_METRIChESKIJ</target>
+    </relation>
+  </relations>
+  <text>координаты $URI[[http://libmeta.ru/fme/formula/aux/2304_1_POLUGEODEZIChESKIE]]/URI$ такие, что URI[[http://libmeta.ru/fme/relation/2304_5_POLUGEODEZIChESKIE]]/URI в них имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2304_1_POLUGEODEZIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2304_2_POLUGEODEZIChESKIE]]/URI$. Эти координаты допускают следующее геометрич. описание. URI[[http://libmeta.ru/fme/relation/2304_4_POLUGEODEZIChESKIE]]/URI для координаты $URI[[http://libmeta.ru/fme/formula/aux/2304_3_POLUGEODEZIChESKIE]]/URI$ суть геодезические, вдоль к-рых $URI[[http://libmeta.ru/fme/formula/aux/2304_4_POLUGEODEZIChESKIE]]/URI$ служит длиной дуги, причем эти геодезические URI[[http://libmeta.ru/fme/relation/2304_3_POLUGEODEZIChESKIE]]/URI пересекают координатные URI[[http://libmeta.ru/fme/relation/2304_2_POLUGEODEZIChESKIE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2304_5_POLUGEODEZIChESKIE]]/URI$ const. На двумерном URI[[http://libmeta.ru/fme/relation/2304_1_POLUGEODEZIChESKIE]]/URI П. к. иногда называют п о л я р н ы м и.</text>
+  <text_orig>координаты $\left(x^{1}, \ldots, x^{n}\right)$ такие, что метрический тензор в них имеет вид:
+
+\[
+d s^{2}=g_{\alpha \beta} d x^{\alpha} d x^{\beta}+\left(d x^{n}\right)^{2}
+\]
+
+где $\alpha, \beta=1,2, \ldots, n-1$. Эти координаты допускают следующее геометрич. описание. Координатные линии для координаты $x^{n}$ суть геодезические, вдоль к-рых $x^{n}$ служит длиной дуги, причем эти геодезические ортогонально пересекают координатные гиперповерхности $x^{n}=$ const. На двумерном многообразии П. к. иногда называют п о л я р н ы м и.
+
+Лит.: [1] Р аш е в с к и й П. К., Риманова геометрия и тензорный $\begin{array}{ll}\text { анализ, } 3 \text { изд., М., } 1967 . &amp; \text { В. В. Трофимов. }\end{array}$</text_orig>
+</article>

@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1379_KONFORMNOE" alphabetic_pos="1381">
+  <title>КОНФОРМНОЕ ПРЕОБРАЗОВАНИЕ</title>
+  <authors>
+    <author>П. Г. Гриневич</author>
+  </authors>
+  <pages>
+    <start>288</start>
+    <end>288</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Дубровин Б. А., Новиков С. П., Фоменко А. Т., Современная геометрия, М., 1986; [2] Кобаяси Ш., Номи дзу К., Основы дифференциальной геометрии, пер. с англ., М., 1981.</literature_orig>
+    <unit>
+      <author>Дубровин Б. А.</author>
+      <author>Новиков С. П.</author>
+      <author>Фоменко А. Т.</author>
+      <title>Современная геометрия</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Кобаяси Ш.</author>
+      <author>Номидзу К.</author>
+      <title>Основы дифференциальной геометрии</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1379_1_KONFORMNOE">g_{i j}(\boldsymbol{x})=\lambda(\boldsymbol{x}) g_{\alpha \beta}(f(\boldsymbol{x})) \partial f^{\alpha} / \partial x^{i} \partial f^{\beta} / \partial x^{j}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_1_KONFORMNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_2_KONFORMNOE">m^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_3_KONFORMNOE">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_4_KONFORMNOE">\boldsymbol{x}=\left(\boldsymbol{x}^{1}, \ldots, x^{n}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_5_KONFORMNOE">g_{i j}(\boldsymbol{x})-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_6_KONFORMNOE">m^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_7_KONFORMNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_8_KONFORMNOE">\lambda(\boldsymbol{x})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_9_KONFORMNOE">u \subset M^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_10_KONFORMNOE">m^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_11_KONFORMNOE">n=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_12_KONFORMNOE">n=2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_13_KONFORMNOE">x, y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_14_KONFORMNOE">z=x+i y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_15_KONFORMNOE">n \geqslant 3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_16_KONFORMNOE">(n+1)(n+2) / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_17_KONFORMNOE">\mathbb{r}^{p, q}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_18_KONFORMNOE">p+q \geqslant 3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_19_KONFORMNOE">\boldsymbol{x} \rightarrow \lambda \boldsymbol{x}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_20_KONFORMNOE">\boldsymbol{x} \rightarrow \boldsymbol{x} /(\overrightarrow{\boldsymbol{x}}, \overrightarrow{\boldsymbol{x}})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1379_21_KONFORMNOE">(\boldsymbol{x}, \boldsymbol{x})</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/1379_1_KONFORMNOE">
+      <rel_text>скалярное произведение</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+  </relations>
+  <text>взаимно Однозначное отображение $URI[[http://libmeta.ru/fme/formula/aux/1379_1_KONFORMNOE]]/URI$ риманова или псевдориманова многообразия $URI[[http://libmeta.ru/fme/formula/aux/1379_2_KONFORMNOE]]/URI$ размерности $URI[[http://libmeta.ru/fme/formula/aux/1379_3_KONFORMNOE]]/URI$ на себя такое, что индуцированная этим отображением метрика совпадает с исходной с точностью до умножения на скалярную функцию. Если $URI[[http://libmeta.ru/fme/formula/aux/1379_4_KONFORMNOE]]/URI$ локальная система координат, $URI[[http://libmeta.ru/fme/formula/aux/1379_5_KONFORMNOE]]/URI$ метрика в $URI[[http://libmeta.ru/fme/formula/aux/1379_6_KONFORMNOE]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/1379_7_KONFORMNOE]]/URI$ конформно тогда и только тогда, когда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1379_1_KONFORMNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1379_8_KONFORMNOE]]/URI$ - нек-рая скалярная функция.
+
+Аналогично определяется локальное конформ ное преобразован и - отображение открытой области $URI[[http://libmeta.ru/fme/formula/aux/1379_9_KONFORMNOE]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1379_10_KONFORMNOE]]/URI$.
+
+При $URI[[http://libmeta.ru/fme/formula/aux/1379_11_KONFORMNOE]]/URI$ все отображения конформны. При $URI[[http://libmeta.ru/fme/formula/aux/1379_12_KONFORMNOE]]/URI$ на любом римановом многообразии существуют изотермич. координаты $URI[[http://libmeta.ru/fme/formula/aux/1379_13_KONFORMNOE]]/URI$, в к-рых локальные конформные преобразования отвечают голоморфным и антиголоморфным функциям одного комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/1379_14_KONFORMNOE]]/URI$, то есть группа бесконечномерна. В размерностях $URI[[http://libmeta.ru/fme/formula/aux/1379_15_KONFORMNOE]]/URI$ группа локальных конформных преобразований связного риманова многообразия всегда конечномерна и ее размерность не превышает $URI[[http://libmeta.ru/fme/formula/aux/1379_16_KONFORMNOE]]/URI$.
+
+Т е о р е м а Л и у и л л я: произвольное конформное преобразование области евклидова или псевдоевклидова пространства $URI[[http://libmeta.ru/fme/formula/aux/1379_17_KONFORMNOE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/1379_18_KONFORMNOE]]/URI$ представимо в виде композиции изометрии, дилатации (растяжения $URI[[http://libmeta.ru/fme/formula/aux/1379_19_KONFORMNOE]]/URI$ ) и инверсии $URI[[http://libmeta.ru/fme/formula/aux/1379_20_KONFORMNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1379_21_KONFORMNOE]]/URI$ - URI[[http://libmeta.ru/fme/relation/1379_1_KONFORMNOE]]/URI.</text>
+  <text_orig>вЗаИМНО ОДНОзначное отображение $f$ риманова или псевдориманова многообразия $M^{n}$ размерности $n$ на себя такое, что индуцированная этим отображением метрика совпадает с исходной с точностью до умножения на скалярную функцию. Если $\boldsymbol{x}=\left(\boldsymbol{x}^{1}, \ldots, x^{n}\right)-$ локальная система координат, $g_{i j}(\boldsymbol{x})-$ метрика в $M^{n}$, то $f$ конформно тогда и только тогда, когда
+
+\[
+g_{i j}(\boldsymbol{x})=\lambda(\boldsymbol{x}) g_{\alpha \beta}(f(\boldsymbol{x})) \partial f^{\alpha} / \partial x^{i} \partial f^{\beta} / \partial x^{j}
+\]
+
+где $\lambda(\boldsymbol{x})$ - нек-рая скалярная функция.
+
+Аналогично определяется локальное конформ ное преобразован и - отображение открытой области $U \subset M^{n}$ в $M^{n}$.
+
+При $n=1$ все отображения конформны. При $n=2$ на любом римановом многообразии сушествуют изотермич. координаты $x, y$, в к-рых локальные конформные преобразования отвечают голоморфным и антиголоморфным функциям одного комплексного переменного $z=x+i y$, то есть группа бесконечномерна. В размерностях $n \geqslant 3$ группа локальных конформных преобразований связного риманова многообразия всегда конечномерна и ее размерность не превышает $(n+1)(n+2) / 2$.
+
+Т е о р е м а Л и у и л л я: произвольное конформное преобразование области евклидова или псевдоевклидова пространства $\mathbb{R}^{p, q}$ при $p+q \geqslant 3$ представимо в виде композиции изометрии, дилатации (растяжения $\boldsymbol{x} \rightarrow \lambda \boldsymbol{x}$ ) и инверсии $\boldsymbol{x} \rightarrow \boldsymbol{x} /(\overrightarrow{\boldsymbol{x}}, \overrightarrow{\boldsymbol{x}})$, где $(\boldsymbol{x}, \boldsymbol{x})$ - скалярное произведение.
+
+Лит.: [1] Дубровин Б. А., Новиков С. П., Фоменко А. Т., Современная геометрия, М., 1986; [2] Кобаяси Ш., Номи дзу К., Основы дифференциальной геометрии, пер. с англ., М., 1981. П. Г. Гриневич.</text_orig>
+</article>

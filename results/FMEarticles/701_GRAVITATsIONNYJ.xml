@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/701_GRAVITATsIONNYJ" alphabetic_pos="703">
+  <title>ГРАВИТАЦИОННЫЙ РАДИУС</title>
+  <authors>
+    <author>A. Т. Ильичев</author>
+  </authors>
+  <pages>
+    <start>154</start>
+    <end>154</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Ландау Л. Д., Л и фшиц Е. М., Теория поля, 7 изд., M., 1988.</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Теория поля</title>
+      <publication>7 изд., M.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/701_1_GRAVITATsIONNYJ">r_{g}=2 \gamma \mathrm{m} / \mathrm{c}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/701_2_GRAVITATsIONNYJ">d s^{2}=c^{2}\left(1-\frac{r_{g}}{r}\right) d t^{2}-\left(1-\frac{r_{g}}{r}\right)^{-1} d r^{2}-r^{2}\left(d \vartheta^{2}+\sin ^{2} \vartheta d \varphi^{2}\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/701_1_GRAVITATsIONNYJ">(\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/701_2_GRAVITATsIONNYJ">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/701_3_GRAVITATsIONNYJ">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/701_4_GRAVITATsIONNYJ">t, r, \varphi, \vartheta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/701_5_GRAVITATsIONNYJ">r_{g}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/701_6_GRAVITATsIONNYJ">r=r_{g}</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/701_1_GRAVITATsIONNYJ">
+      <rel_text>горизонту</rel_text>
+      <target>http://libmeta.ru/fme/article/689_GORIZON</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/701_2_GRAVITATsIONNYJ">
+      <rel_text>гиперповерхность</rel_text>
+      <target>http://libmeta.ru/fme/article/632_GIPERBOLIChNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/701_3_GRAVITATsIONNYJ">
+      <rel_text>метрики</rel_text>
+      <target>http://libmeta.ru/fme/article/1767_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/701_4_GRAVITATsIONNYJ">
+      <rel_text>скорость</rel_text>
+      <target>http://libmeta.ru/fme/article/2800_SKOROST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/701_5_GRAVITATsIONNYJ">
+      <rel_text>масса</rel_text>
+      <target>http://libmeta.ru/fme/article/1728_MASS</target>
+    </relation>
+  </relations>
+  <text>параметр
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/701_1_GRAVITATsIONNYJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/701_1_GRAVITATsIONNYJ]]/URI$ - гравитационная постоянная, $URI[[http://libmeta.ru/fme/formula/aux/701_2_GRAVITATsIONNYJ]]/URI$ - URI[[http://libmeta.ru/fme/relation/701_5_GRAVITATsIONNYJ]]/URI тела, создающего поле, $URI[[http://libmeta.ru/fme/formula/aux/701_3_GRAVITATsIONNYJ]]/URI$ - URI[[http://libmeta.ru/fme/relation/701_4_GRAVITATsIONNYJ]]/URI света), входящий в выражение пространственно-временного интервала для черной дыры Шварцшильда. Так, напр., в координатах Шварцшильда $URI[[http://libmeta.ru/fme/formula/aux/701_4_GRAVITATsIONNYJ]]/URI$ зависимость URI[[http://libmeta.ru/fme/relation/701_3_GRAVITATsIONNYJ]]/URI от $URI[[http://libmeta.ru/fme/formula/aux/701_5_GRAVITATsIONNYJ]]/URI$ имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/701_2_GRAVITATsIONNYJ]]/URI
+\]
+
+Изотропная URI[[http://libmeta.ru/fme/relation/701_2_GRAVITATsIONNYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/701_6_GRAVITATsIONNYJ]]/URI$ соответствует URI[[http://libmeta.ru/fme/relation/701_1_GRAVITATsIONNYJ]]/URI событий черной дыры Шварцшильда.</text>
+  <text_orig>параметр
+
+\[
+r_{g}=2 \gamma \mathrm{m} / \mathrm{c}^{2}
+\]
+
+$(\gamma$ - гравитационная постоянная, $m$ - масса тела, создающего поле, $c$ - скорость света), входяший в выражение пространственно-временного интервала для черной дыры Шварцшильда. Так, напр., в координатах Шварцшильда $t, r, \varphi, \vartheta$ зависимость метрики от $r_{g}$ имеет вид
+
+\[
+d s^{2}=c^{2}\left(1-\frac{r_{g}}{r}\right) d t^{2}-\left(1-\frac{r_{g}}{r}\right)^{-1} d r^{2}-r^{2}\left(d \vartheta^{2}+\sin ^{2} \vartheta d \varphi^{2}\right) .
+\]
+
+Изотропная гиперповерхность $r=r_{g}$ соответствует горизонту событий черной дыры Шварцшильда.
+
+Лum.: [1] Ландау Л. Д., Л и фшиц Е. М., Теория поля, 7 изд., M., 1988.
+
+A. Т. Ильичев.</text_orig>
+</article>

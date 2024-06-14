@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1664_L'ENARA" alphabetic_pos="1666">
+  <title>ЛЬЕНАРА УРАВНЕНИЕ</title>
+  <authors>
+    <author>Н. Х. Розов</author>
+  </authors>
+  <pages>
+    <start>334</start>
+    <end>335</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Андрон о в А. А., В итт А. А., Хайкин С. Э., Теория колебаний, 2 изд., М., 1959; [2] Сансоне Дж., Обыкновенные дифференциальные уравнения, пер. с итал., т. 2, М., 1954; [3] Л е фше ц С., Геометрическая теория дифференциальных уравнений, пер. с англ., М., 1961; [4] Рейсс и г Р., Сансоне Г., Конти Р., Качественная теория нелинейных дифференциальных уравнений, пер. с нем., М., 1974.</literature_orig>
+    <unit>
+      <author>Андронов А. А.</author>
+      <author>Витт А. А.</author>
+      <author>Хайкин С. Э.</author>
+      <title>Теория колебаний</title>
+      <publication>2 изд., М.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Сансоне Дж., Обыкновенные дифференциальные уравнения</title>
+      <publication>пер. с итал., т. 2, М.</publication>
+      <year>1954</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Лефшец С.</author>
+      <title>Геометрическая теория дифференциальных уравнений</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1961</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рейссиг Р.</author>
+      <author>Сансоне Г.</author>
+      <author>Конти Р.</author>
+      <title>Качественная теория нелинейных дифференциальных уравнений</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_1_L'ENARA">x^{\prime \prime}+f(x) x^{\prime}+x=0 \text {. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_2_L'ENARA">f(x)&lt;0 \text { при малых }|x|,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_3_L'ENARA">f(x)&gt;0 \text { при больших }|x| \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_4_L'ENARA">x^{\prime}=v, v^{\prime}=-x-f(x) v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_5_L'ENARA">\frac{d v}{d x}=\frac{-x-f(x) v}{v} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_6_L'ENARA">y=x^{\prime}+F(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_7_L'ENARA">F(x)=\int_{0}^{x} f(\xi) d \xi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_8_L'ENARA">x^{\prime}=y-F(x), y^{\prime}=-x .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_9_L'ENARA">\begin{gathered}x^{\prime \prime}+f(x) x^{\prime}+g(x)=0, \\x^{\prime \prime}+\varphi\left(x, x^{\prime}\right) x^{\prime}+g(x)=0 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1664_10_L'ENARA">x^{\prime \prime}+f(x) x^{\prime}+x=e(t)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1664_1_L'ENARA">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1664_2_L'ENARA">x, v)</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>нелинейное обыкновенное дифференциальное уравнение 2-го порядка
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1664_1_L'ENARA]]/URI
+\]
+
+Это уравнение описывает динамику системы с одной степенью свободы при наличии линейной восстанавливающей силы и нелинейного затухания. Если функция $URI[[http://libmeta.ru/fme/formula/aux/1664_1_L'ENARA]]/URI$ обладает следующим свойством:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1664_2_L'ENARA]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/1664_3_L'ENARA]]/URI
+\]
+
+то есть если при малых амплитудах система поглощает энергию, а при больших происходит диссипация, то в системе можно ожидать самовозбуждение колебаний (возник- новение автоколебаний). Впервые достаточные условия возникновения автоколебаний в системе (*) доказал А. Льенар (a. Liénard, 1928).
+
+Л. у. тесно связано с Рэлея уравнением. Важным частным случаем Л. у. является Ван дер Поля уравнение. Вместо уравнения (*) часто удобно рассматривать систему
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1664_4_L'ENARA]]/URI
+\]
+
+(автоколебательному процессу в системе (*) адекватен устойчивый предельный цикл на фазовой плоскости $URI[[http://libmeta.ru/fme/formula/aux/1664_2_L'ENARA]]/URI$ или эквивалентное ей уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1664_5_L'ENARA]]/URI
+\]
+
+Если ввести новую переменную
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1664_6_L'ENARA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1664_7_L'ENARA]]/URI
+\]
+
+то уравнение (*) переходит в систему
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1664_8_L'ENARA]]/URI
+\]
+
+Более общими, чем Л. у., являются уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1664_9_L'ENARA]]/URI
+\]
+
+Основной интерес представляет выяснение возможно более широких достаточных условий, при к-рых эти уравнения имеют единственное устойчивое периодич. решение. Подробно изучалось также неоднородное Л. у.
+
+и его обобщения.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1664_10_L'ENARA]]/URI
+\]</text>
+  <text_orig>нелИнейНое обЫКновенное дифференциальное уравнение 2-го порядка
+
+\[
+x^{\prime \prime}+f(x) x^{\prime}+x=0 \text {. }
+\]
+
+Это уравнение описывает динамику системы с одной степенью свободы при наличии линейной восстанавливающей силы и нелинейного затухания. Если функция $f(x)$ обладает следующим свойством:
+
+\[
+f(x)&lt;0 \text { при малых }|x|,
+\]\[
+f(x)&gt;0 \text { при больших }|x| \text {, }
+\]
+
+то есть если при малых амплитудах система поглощает энергию, а при больших происходит диссипация, то в системе можно ожидать самовозбуждение колебаний (возник- новение автоколебаний). Впервые достаточные условия возникновения автоколебаний в системе (*) доказал А. Льенар (A. Liénard, 1928).
+
+Л. у. тесно связано с Рэлея уравнением. Важным частным случаем Л. у. является Ван дер Поля уравнение. Вместо уравнения (*) часто удобно рассматривать систему
+
+\[
+x^{\prime}=v, v^{\prime}=-x-f(x) v
+\]
+
+(автоколебательному процессу в системе (*) адекватен устойчивый предельный цикл на фазовой плоскости $x, v)$ или эквивалентное ей уравнение
+
+\[
+\frac{d v}{d x}=\frac{-x-f(x) v}{v} .
+\]
+
+Если ввести новую переменную
+
+\[
+y=x^{\prime}+F(x)
+\]
+
+где
+
+\[
+F(x)=\int_{0}^{x} f(\xi) d \xi
+\]
+
+то уравнение (*) переходит в систему
+
+\[
+x^{\prime}=y-F(x), y^{\prime}=-x .
+\]
+
+Более общими, чем Л. у., являются уравнения
+
+\[
+\begin{gathered}
+x^{\prime \prime}+f(x) x^{\prime}+g(x)=0, \\
+x^{\prime \prime}+\varphi\left(x, x^{\prime}\right) x^{\prime}+g(x)=0 .
+\end{gathered}
+\]
+
+Основной интерес представляет выяснение возможно более широких достаточных условий, при к-рых эти уравнения имеют единственное устойчивое периодич. решение. Подробно изучалось также неоднородное Л. у.
+
+и его обобщения.
+
+\[
+x^{\prime \prime}+f(x) x^{\prime}+x=e(t)
+\]
+
+Лит.: [1] Андрон о в А. А., В итт А. А., Хайкин С. Э., Теория колебаний, 2 изд., М., 1959; [2] Сансоне Дж., Обыкновенные дифференциальные уравнения, пер. с итал., т. 2, М., 1954; [3] Л е фше ц С., Геометрическая теория дифференциальных уравнений, пер. с англ., М., 1961; [4] Рейсс и г Р., Сансоне Г., Конти Р., Качественная теория нелинейных дифференциальных уравнений, пер. с нем., М., 1974. Н. Х. Розов.</text_orig>
+</article>

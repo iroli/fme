@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1253_KLASTERIZATsI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/281</core:url>
+    <lbm:descriptor><![CDATA[КЛАСТЕРИЗАЦИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2876"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2877"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2878"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2879"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2880"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2881"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2882"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2883"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>разбиение системы $URI[[http://libmeta.ru/fme/formula/aux/1253_1_KLASTERIZATsI]]/URI$ независимых переменных $URI[[http://libmeta.ru/fme/formula/aux/1253_2_KLASTERIZATsI]]/URI$ на кластеры (непересекающиеся подмножества) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2879">$$\left\{x_{1}, \ldots, X_{m}\right\} \equiv X$$</a> такое, что <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2880">$$\cup X_{i}=\left\{x_{1}, \ldots, x_{n}\right\}$$</a>. В статистич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механике</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa">квантовой теории поля</a> функции, описывающие <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояния</a> большого числа <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI">кластеризуются</a>, то есть представляются в виде:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2877">$$f(X)=\sum_{k} \sum^{*} f_{1}\left(X_{1}\right) \ldots f_{k}\left(X_{k}\right),$$</a><BR/></P><P>где суммирование $URI[[http://libmeta.ru/fme/formula/aux/1253_5_KLASTERIZATsI]]/URI$ проводится по <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2882">$$x_{1}, \ldots, X_{k}, X_{i} \cap X_{j}=\varnothing$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2883">$$\cup X_{i}=X$$</a>. К. возникает в майеровских разложениях, кластерных разложениях, в теории $URI[[http://libmeta.ru/fme/formula/aux/1253_8_KLASTERIZATsI]]/URI$-матриц и других случаях.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2876">А. Л. Ребенко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[разбиение системы $n$ независимых переменных $\left\{x_{1}, \ldots, x_{n}\right\}$ на кластеры (непересекающиеся подмножества) $\left\{X_{1}, \ldots, X_{m}\right\} \equiv X$ такое, что $\cup X_{i}=\left\{x_{1}, \ldots, x_{n}\right\}$. В статистич. механике и квантовой теории поля функции, описывающие состояния большого числа частиц, кластеризуются, то есть представляются в виде:
+
+\[
+f(X)=\sum_{k} \sum^{*} f_{1}\left(X_{1}\right) \ldots f_{k}\left(X_{k}\right),
+\]
+
+где суммирование $\sum^{*}$ проводится по $X_{1}, \ldots, X_{k}, X_{i} \cap X_{j}=\varnothing$, $\cup X_{i}=X$. К. возникает в майеровских разложениях, кластерных разложениях, в теории $S$-матриц и других случаях. А.Л. Ребенко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1253_KLASTERIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

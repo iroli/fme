@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_8448">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><msub><mi>&#x003A8;</mi><mrow><mn>3</mn></mrow></msub><mo>&#x0003D;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>\stackrel</mi><mrow><mo>&#x0002B;</mo></mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>i</mi><mi>j</mi><mi>k</mi><mi>l</mi></mrow></msub><msup><mi>V</mi><mrow><mi>i</mi><mi>j</mi></mrow></msup><msup><mi>M</mi><mrow><mi>k</mi><mi>l</mi></mrow></msup><mo>&#x0003D;</mo><mo>&#x02212;</mo><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi><mi>k</mi><mi>l</mi></mrow></msub><msup><mi>n</mi><mrow><mi>i</mi></mrow></msup><msup><mi>l</mi><mrow><mi>j</mi></mrow></msup><msup><mi>n</mi><mrow><mi>k</mi></mrow></msup><msup><mover><mrow><mi>m</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mi>l</mi></mrow></msup><mo>&#x0002C;</mo><mspace linebreak="newline" /><mi>&</mi><msub><mi>&#x003A8;</mi><mrow><mn>4</mn></mrow></msub><mo>&#x0003D;</mo><mo>&#x02212;</mo><mi>\stackrel</mi><mrow><mo>&#x0002B;</mo></mrow><msub><mrow><mi>C</mi></mrow><mrow><mi>i</mi><mi>j</mi><mi>k</mi><mi>l</mi></mrow></msub><msup><mi>V</mi><mrow><mi>i</mi><mi>j</mi></mrow></msup><msup><mi>V</mi><mrow><mi>k</mi><mi>l</mi></mrow></msup><mo>&#x0003D;</mo><mo>&#x02212;</mo><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi><mi>k</mi><mi>l</mi></mrow></msub><msup><mi>n</mi><mrow><mi>i</mi></mrow></msup><msup><mover><mrow><mi>m</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mi>j</mi></mrow></msup><msup><mi>n</mi><mrow><mi>k</mi></mrow></msup><msup><mover><mrow><mi>m</mi></mrow><mo stretchy="true">&#x000AF;</mo></mover><mrow><mi>l</mi></mrow></msup><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; \Psi_{3}=\frac{1}{2} \stackrel{+}{C}_{i j k l} V^{i j} M^{k l}=-C_{i j k l} n^{i} l^{j} n^{k} \bar{m}^{l}, \\&amp; \Psi_{4}=-\stackrel{+}{C}_{i j k l} V^{i j} V^{k l}=-C_{i j k l} n^{i} \bar{m}^{j} n^{k} \bar{m}^{l} .\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

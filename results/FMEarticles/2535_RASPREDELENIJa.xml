@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2535_RASPREDELENIJa" alphabetic_pos="2537">
+  <title>РАСПРЕДЕЛЕНИЯ ВЕКТОР КЛАССИЧЕСКИЙ</title>
+  <authors>
+    <author>A. В. Солдатов</author>
+  </authors>
+  <pages>
+    <start>488</start>
+    <end>488</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2535_1_RASPREDELENIJa">f\left(x_{1}, \ldots, x_{i}, \ldots, x_{j}, \ldots, x_{N}\right)=f\left(x_{1}, \ldots, x_{j}, \ldots, x_{i}, \ldots, x_{N}\right), \text { (1) }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2535_2_RASPREDELENIJa">\int d \vec{q}_{1} \ldots d \vec{q}_{N} d \vec{p}_{1} \ldots d \vec{p}_{N} f\left(\vec{q}_{1}, \vec{p}_{1} ; \ldots ; \vec{q}_{N}, \vec{p}_{N}\right)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2535_3_RASPREDELENIJa">f_{S}=\frac{N !}{(N-s) !} \int d x_{s+1} \ldots d x_{N} f\left(x_{1}, \ldots, x_{s}, x_{s+1}, \ldots, x_{N}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2535_4_RASPREDELENIJa">\int d x_{1} \ldots d x_{s} f_{s}\left(x_{1}, \ldots, x_{s}\right)=\frac{N !}{(N-s) !} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2535_5_RASPREDELENIJa">\left(f_{0}, f_{1}, \ldots, f_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2535_6_RASPREDELENIJa">\lim _{N \rightarrow \infty} \frac{N !}{(N-s) !} \Rightarrow N^{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2535_7_RASPREDELENIJa">\lim N^{-s} \int d x_{1} \ldots d x_{s} f_{s}\left(x_{1}, \ldots, x_{s}\right)=1,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2535_8_RASPREDELENIJa">f_{s}^{\mathrm{Б}}=\frac{(N-s) ! V^{s}}{N !} f_{s}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_1_RASPREDELENIJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_2_RASPREDELENIJa">x_{1}=\vec{q}_{1} \vec{p}_{1} ; \ldots ; x_{N}=\vec{q}_{N}, \vec{p}_{N}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_3_RASPREDELENIJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_4_RASPREDELENIJa">f_{s}\left(x_{1}, \ldots, x_{s}\right), s \leqslant N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_5_RASPREDELENIJa">x_{1}, \ldots, x_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_6_RASPREDELENIJa">f_{0} \equiv 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_7_RASPREDELENIJa">f_{s}\left(x_{1}, \ldots, x_{s}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_8_RASPREDELENIJa">(n+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_9_RASPREDELENIJa">f_{r}\left(x_{1}, \ldots, x_{r}\right)=\frac{(N-s) !}{(N-r) !} \int d x_{r+1} \ldots d x_{s} f_{s}\left(x_{1}, \ldots, x_{s}\right), r&lt;s \leqslant N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_10_RASPREDELENIJa">n \rightarrow \infty, V \rightarrow \infty, N / V=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_11_RASPREDELENIJa">n \rightarrow \infty, V \rightarrow \infty, N / V=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2535_12_RASPREDELENIJa">n+1</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/2535_1_RASPREDELENIJa">
+      <rel_text>уравнений Боголюбова</rel_text>
+      <target>http://libmeta.ru/fme/article/229_BOGOLJuBOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2535_2_RASPREDELENIJa">
+      <rel_text>условие нормировки</rel_text>
+      <target>http://libmeta.ru/fme/article/1977_NORMAL'NOE</target>
+    </relation>
+  </relations>
+  <text>вектор, характеризующий состояние классической системы тождественных частиц. В статистич. механике постулируется, что состояние классич. системы $URI[[http://libmeta.ru/fme/formula/aux/2535_1_RASPREDELENIJa]]/URI$ тождественных частиц полностью характеризуется симметричной относительно перестановок аргументов частиц $URI[[http://libmeta.ru/fme/formula/aux/2535_2_RASPREDELENIJa]]/URI$ функцией распределения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2535_1_RASPREDELENIJa]]/URI
+\]
+
+заданной в фазовом пространстве системы и удовлетворяющей условию нормировки:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2535_2_RASPREDELENIJa]]/URI
+\]
+
+Зададим приведенную $URI[[http://libmeta.ru/fme/formula/aux/2535_3_RASPREDELENIJa]]/URI$-частичную функцию распределения $URI[[http://libmeta.ru/fme/formula/aux/2535_4_RASPREDELENIJa]]/URI$, симметричную в силу условия (1) относительно перестановки аргументов частиц $URI[[http://libmeta.ru/fme/formula/aux/2535_5_RASPREDELENIJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2535_3_RASPREDELENIJa]]/URI
+\]
+
+причем $URI[[http://libmeta.ru/fme/formula/aux/2535_6_RASPREDELENIJa]]/URI$ в силу нормировки (2), а условие нормировки для $URI[[http://libmeta.ru/fme/formula/aux/2535_7_RASPREDELENIJa]]/URI$ имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2535_4_RASPREDELENIJa]]/URI
+\]
+
+Совокупность приведенных функций распределения (3)
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2535_5_RASPREDELENIJa]]/URI
+\]
+
+можно рассматривать как формальный $URI[[http://libmeta.ru/fme/formula/aux/2535_8_RASPREDELENIJa]]/URI$-мерный вектор, поэтому ее принято называть ве ктором распре делен и я с исте мы. Компоненты вектора распределения не являются независимыми, так как
+
+$URI[[http://libmeta.ru/fme/formula/aux/2535_9_RASPREDELENIJa]]/URI$.
+
+В термодинамич. пределе $URI[[http://libmeta.ru/fme/formula/aux/2535_10_RASPREDELENIJa]]/URI$ const Р. в. становится бесконечномерным. При этом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2535_6_RASPREDELENIJa]]/URI
+\]
+
+поэтому URI[[http://libmeta.ru/fme/relation/2535_2_RASPREDELENIJa]]/URI в термодинамич. пределе записывают в форме:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2535_7_RASPREDELENIJa]]/URI
+\]
+
+где предел берется при $URI[[http://libmeta.ru/fme/formula/aux/2535_11_RASPREDELENIJa]]/URI$ const. Удобство представления (5) заключается в том, что на практике для вычисления макроскопич. величин достаточно знать несколько низших компонент Р. в. Это обстоятельство является основой для разработки приближенных методов определения низших компонент Р. в. Временная эволюция Р. в. определяется цепочкой $URI[[http://libmeta.ru/fme/formula/aux/2535_12_RASPREDELENIJa]]/URI$ зацепляющихся URI[[http://libmeta.ru/fme/relation/2535_1_RASPREDELENIJa]]/URI - Борна - Грина - Кирквуда - Ивона (ббгки-цепочка). Наряду с определением (3) часто используется также определение для приведенной функции распределения, данное Н. Н. Боголюбовым:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2535_8_RASPREDELENIJa]]/URI
+\]</text>
+  <text_orig>вектор, характеризующий состояние классической системы тождественных частиц. В статистич. механике постулируется, что состояние классич. системы $N$ тождественных частиц полностью характеризуется симметричной относительно перестановок аргументов частиц $x_{1}=\vec{q}_{1} \vec{p}_{1} ; \ldots ; x_{N}=\vec{q}_{N}, \vec{p}_{N}$ функцией распределения
+
+\[
+f\left(x_{1}, \ldots, x_{i}, \ldots, x_{j}, \ldots, x_{N}\right)=f\left(x_{1}, \ldots, x_{j}, \ldots, x_{i}, \ldots, x_{N}\right), \text { (1) }
+\]
+
+заданной в фазовом пространстве системы и удовлетворяющей условию нормировки:
+
+\[
+\int d \vec{q}_{1} \ldots d \vec{q}_{N} d \vec{p}_{1} \ldots d \vec{p}_{N} f\left(\vec{q}_{1}, \vec{p}_{1} ; \ldots ; \vec{q}_{N}, \vec{p}_{N}\right)=1
+\]
+
+Зададим приведен̆ную $s$-частичную функцию распределения $f_{s}\left(x_{1}, \ldots, x_{s}\right), s \leqslant N$, симметричную в силу условия (1) относительно перестановки аргументов частиц $x_{1}, \ldots, x_{s}$ :
+
+\[
+f_{S}=\frac{N !}{(N-s) !} \int d x_{s+1} \ldots d x_{N} f\left(x_{1}, \ldots, x_{s}, x_{s+1}, \ldots, x_{N}\right),
+\]
+
+причем $f_{0} \equiv 1$ в силу нормировки (2), а условие нормировки для $f_{s}\left(x_{1}, \ldots, x_{s}\right)$ имеет вид:
+
+\[
+\int d x_{1} \ldots d x_{s} f_{s}\left(x_{1}, \ldots, x_{s}\right)=\frac{N !}{(N-s) !} .
+\]
+
+Совокупность приведенных функций распределения (3)
+
+\[
+\left(f_{0}, f_{1}, \ldots, f_{N}\right)
+\]
+
+можно рассматривать как формальный $(N+1)$-мерный вектор, поэтому ее принято называть ве ктором распре делен и я с исте мы. Компоненты вектора распределения не являются независимыми, так как
+
+$f_{r}\left(x_{1}, \ldots, x_{r}\right)=\frac{(N-s) !}{(N-r) !} \int d x_{r+1} \ldots d x_{s} f_{s}\left(x_{1}, \ldots, x_{s}\right), r&lt;s \leqslant N$.
+
+В термодинамич. пределе $N \rightarrow \infty, V \rightarrow \infty, N / V=$ const Р. в. становится бесконечномерным. При этом
+
+\[
+\lim _{N \rightarrow \infty} \frac{N !}{(N-s) !} \Rightarrow N^{s}
+\]
+
+поэтому условие нормировки в термодинамич. пределе записывают в форме:
+
+\[
+\lim N^{-s} \int d x_{1} \ldots d x_{s} f_{s}\left(x_{1}, \ldots, x_{s}\right)=1,
+\]
+
+где предел берется при $N \rightarrow \infty, V \rightarrow \infty, N / V=$ const. Удобство представления (5) заключается в том, что на практике для вычисления макроскопич. величин достаточно знать несколько низших компонент Р. в. Это обстоятельство является основой для разработки приближенных методов определения низших компонент Р. в. Временная эволюция Р. в. определяется цепочкой $N+1$ зацепляющихся уравнений Боголюбова - Борна - Грина - Кирквуда - Ивона (ББГКИ-цепочка). Наряду с определением (3) часто используется также определение для приведенной функции распределения, данное Н. Н. Боголюбовым:
+
+\[
+f_{s}^{\mathrm{Б}}=\frac{(N-s) ! V^{s}}{N !} f_{s}
+\]
+
+A. В. Солдатов.</text_orig>
+</article>

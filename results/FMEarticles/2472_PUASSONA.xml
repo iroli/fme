@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2472_PUASSONA" alphabetic_pos="2474">
+  <title>ПУАССОНА СКОБКИ; КВАНТОВЫЕ ПОПРАВКИ</title>
+  <authors>
+    <author>Ю. М. Воробьев</author>
+  </authors>
+  <pages>
+    <start>475</start>
+    <end>475</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] B a ye n F. [a. o.], &quot;ann. Phys.», 1978, v. 111, № 1, p. 61-151; [2] В о о б ье в Ю. М., Карасе в М. В., «функциональный анализ и его прилож.», 1988, т. 22, № 1, с. 1-11; [3] Др и нфе льд В. Г., «доклады Ан СССР», 1983, т. 273, № 3, с. 531-35.</literature_orig>
+    <unit>
+      <title>B a ye n F. [a. o.], &quot;ann. Phys.»</title>
+      <publication/>
+      <year>1978</year>
+      <other>v. 111, № 1, p. 61-151</other>
+    </unit>
+    <unit>
+      <author>Вообьев Ю. М.</author>
+      <author>Карасев М. В.</author>
+      <title>«функциональный анализ и его прилож.»</title>
+      <publication/>
+      <year>1988</year>
+      <other>т. 22, № 1, с. 1-11</other>
+    </unit>
+    <unit>
+      <author>Дринфельд В. Г.</author>
+      <title>«доклады Ан СССР»</title>
+      <publication/>
+      <year>1983</year>
+      <other>т. 273, № 3, с. 531-35.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2472_1_PUASSONA">\left[A^{j}, A^{k}\right]=i \hbar \Psi_{h}^{j k}\left(A^{\mathrm{l}}, \ldots, A^{n}\right), \Psi_{h}=\Psi_{0}+\hbar \Phi+\hbar^{2} R+\ldots,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2472_2_PUASSONA">\begin{gathered}\Gamma^{j k m}=\sum_{j, k, m}\left(\frac{1}{12} \Psi_{0}^{i \alpha} \partial_{\alpha} \Psi_{0}^{p n} \partial_{l_{n}}^{2} \Psi_{0}^{q m} \partial_{p q}^{2} \Psi_{0}^{j k}+\right. \\\left.+\frac{1}{24} \Psi_{0}^{i \alpha} \Psi_{0}^{p n} \partial_{l n}^{2} \Psi_{0}^{q m} \partial_{p q \alpha}^{3} \Psi_{0}^{j k}-\Phi^{j \alpha} \partial_{\alpha} \Phi^{k m}\right) .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_1_PUASSONA">\phi, R, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_2_PUASSONA">\hbar</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_3_PUASSONA">\psi_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_4_PUASSONA">\phi, R, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_5_PUASSONA">\llbracket \Psi_{0}, \Phi \rrbracket=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_6_PUASSONA">\llbracket \Psi_{0}, R \rrbracket=\Gamma, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_7_PUASSONA">\llbracket \cdot, \cdot \rrbracket-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_8_PUASSONA">\psi_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_9_PUASSONA">\psi_{0}^{j k}(\xi)=C_{s l}^{j k} \xi^{s} \xi^{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2472_10_PUASSONA">\phi(\xi), R(\xi), \ldots</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/2472_1_PUASSONA">
+      <rel_text>тензоры</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+  </relations>
+  <text>коэффициенты $URI[[http://libmeta.ru/fme/formula/aux/2472_1_PUASSONA]]/URI$ разложения по степеням $URI[[http://libmeta.ru/fme/formula/aux/2472_2_PUASSONA]]/URI$ правых частей нелинейных коммутационных соотношений между квантовыми наблюдаемыми
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2472_1_PUASSONA]]/URI
+\]
+
+где тензор $URI[[http://libmeta.ru/fme/formula/aux/2472_3_PUASSONA]]/URI$ задает классическую Пуассона скобку. Поправки $URI[[http://libmeta.ru/fme/formula/aux/2472_4_PUASSONA]]/URI$ удовлетворяют уравнениям $URI[[http://libmeta.ru/fme/formula/aux/2472_5_PUASSONA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2472_6_PUASSONA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2472_7_PUASSONA]]/URI$ скобка Схоутена (см. [1]), тензоры Г, .. (аномалии в тождестве Якоби) выражаются через $URI[[http://libmeta.ru/fme/formula/aux/2472_8_PUASSONA]]/URI$, Ф (см. [2]); напр.:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2472_2_PUASSONA]]/URI
+\]
+
+В случае квадратичных скобок $URI[[http://libmeta.ru/fme/formula/aux/2472_9_PUASSONA]]/URI$ URI[[http://libmeta.ru/fme/relation/2472_1_PUASSONA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2472_10_PUASSONA]]/URI$ также квадратичны и явно вычисляются (сm. [3]).</text>
+  <text_orig>коэффициенты $\Phi, R, \ldots$ разложения по степеням $\hbar$ правых частей нелинейных коммутационных соотношений между квантовыми наблюдаемыми
+
+\[
+\left[A^{j}, A^{k}\right]=i \hbar \Psi_{h}^{j k}\left(A^{\mathrm{l}}, \ldots, A^{n}\right), \Psi_{h}=\Psi_{0}+\hbar \Phi+\hbar^{2} R+\ldots,
+\]
+
+где тензор $\Psi_{0}$ задает классическую Пуассона скобку. Поправки $\Phi, R, \ldots$ удовлетворяют уравнениям $\llbracket \Psi_{0}, \Phi \rrbracket=0$, $\llbracket \Psi_{0}, R \rrbracket=\Gamma, \ldots$, где $\llbracket \cdot, \cdot \rrbracket-$ скобка Схоутена (см. [1]), тензоры Г, .. (аномалии в тождестве Якоби) выражаются через $\Psi_{0}$, Ф (см. [2]); напр.:
+
+\[
+\begin{gathered}
+\Gamma^{j k m}=\sum_{j, k, m}\left(\frac{1}{12} \Psi_{0}^{i \alpha} \partial_{\alpha} \Psi_{0}^{p n} \partial_{l_{n}}^{2} \Psi_{0}^{q m} \partial_{p q}^{2} \Psi_{0}^{j k}+\right. \\
+\left.+\frac{1}{24} \Psi_{0}^{i \alpha} \Psi_{0}^{p n} \partial_{l n}^{2} \Psi_{0}^{q m} \partial_{p q \alpha}^{3} \Psi_{0}^{j k}-\Phi^{j \alpha} \partial_{\alpha} \Phi^{k m}\right) .
+\end{gathered}
+\]
+
+В случае квадратичных скобок $\Psi_{0}^{j k}(\xi)=C_{s l}^{j k} \xi^{s} \xi^{l}$ тензоры $\Phi(\xi), R(\xi), \ldots$ также квадратичны и явно вычисляются (сM. [3]).
+
+Jum.: [1] B a ye n F. [a. o.], &quot;Ann. Phys.», 1978, v. 111, № 1, p. 61-151; [2] В о о б ье в Ю. М., Карасе в М. В., «Функциональный анализ и его прилож.», 1988, т. 22, № 1, с. 1-11; [3] Др и нфе льд В. Г., «Доклады АН СССР», 1983, т. 273, № 3, с. 531-35.
+
+Ю. М. Воробьев.</text_orig>
+</article>

@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/651_GLAVNYJ" alphabetic_pos="651">
+  <title>ГЛАВНЫЙ СИМВОЛ ОПЕРАТОРА, ГАМИЛЬТОНИАН</title>
+  <authors/>
+  <pages>
+    <start>144</start>
+    <end>144</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] М а с л о в В. П., Теория возмущений и асимптотические методы, М., 1965; [2] Миш е нко А. С., С те рнин Б. Ю., Шата л о в В. Е., Лагранжевы многообразия и метод канонического оператора, М., 1978.</literature_orig>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>Теория возмущений и асимптотические методы</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Мишенко А. С.</author>
+      <author>Стернин Б. Ю.</author>
+      <author>Шаталов В. Е.</author>
+      <title>Лагранжевы многообразия и метод канонического оператора</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/651_1_GLAVNYJ">\hat{H}\left(e^{\frac{i}{\hbar} S(x)} \varphi(x)\right) \sim e^{\frac{i}{\hbar} S(x)} \sum_{k=0}^{\infty} F_{k}\left(x, S, \frac{\partial}{\partial x}\right) \varphi \cdot h^{k} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/651_1_GLAVNYJ">t^{*} M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/651_2_GLAVNYJ">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/651_3_GLAVNYJ">1 / h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/651_4_GLAVNYJ">\hat{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/651_5_GLAVNYJ">f_{0}(x, S)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/651_6_GLAVNYJ">d S</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/651_7_GLAVNYJ">s(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/651_8_GLAVNYJ">x_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/651_9_GLAVNYJ">t^{*} M</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/651_1_GLAVNYJ">
+      <rel_text>оператору</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/651_2_GLAVNYJ">
+      <rel_text>гладкому многообразию</rel_text>
+      <target>http://libmeta.ru/fme/article/654_GLADKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/651_3_GLAVNYJ">
+      <rel_text>кокасательном расслоении</rel_text>
+      <target>http://libmeta.ru/fme/article/1286_KOKASATEL'NOE</target>
+    </relation>
+  </relations>
+  <text>функция на URI[[http://libmeta.ru/fme/relation/651_3_GLAVNYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/651_1_GLAVNYJ]]/URI$ к URI[[http://libmeta.ru/fme/relation/651_2_GLAVNYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/651_2_GLAVNYJ]]/URI$, определяемая по $URI[[http://libmeta.ru/fme/formula/aux/651_3_GLAVNYJ]]/URI$-псевдодифференциальному URI[[http://libmeta.ru/fme/relation/651_1_GLAVNYJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/651_4_GLAVNYJ]]/URI$ следующим образом.
+
+Пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/651_1_GLAVNYJ]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/fme/formula/aux/651_5_GLAVNYJ]]/URI$ зависит лишь от дифференциала $URI[[http://libmeta.ru/fme/formula/aux/651_6_GLAVNYJ]]/URI$ функции $URI[[http://libmeta.ru/fme/formula/aux/651_7_GLAVNYJ]]/URI$ в точке $URI[[http://libmeta.ru/fme/formula/aux/651_8_GLAVNYJ]]/URI$ и поэтому представляет собой функцию на $URI[[http://libmeta.ru/fme/formula/aux/651_9_GLAVNYJ]]/URI$, к-рая и называется гла вны м с им волом о пе р а тора.</text>
+  <text_orig>функция на кокасательном расслоении $T^{*} M$ к гладкому многообразию $M$, определяемая по $1 / h$-псевдодифференциальному оператору $\hat{H}$ следующим образом.
+
+Пусть
+
+\[
+\hat{H}\left(e^{\frac{i}{\hbar} S(x)} \varphi(x)\right) \sim e^{\frac{i}{\hbar} S(x)} \sum_{k=0}^{\infty} F_{k}\left(x, S, \frac{\partial}{\partial x}\right) \varphi \cdot h^{k} .
+\]
+
+Функция $F_{0}(x, S)$ зависит лишь от дифференциала $d S$ функции $S(x)$ в точке $x_{0}$ и поэтому представляет собой функцию на $T^{*} M$, к-рая и называется гла вны м с им волом о пе р а тора.
+
+Лum.: [1] М а с л о в В. П., Теория возмущений и асимптотические методы, М., 1965; [2] Миш е нко А. С., С те рнин Б. Ю., Шата л о в В. Е., Лагранжевы многообразия и метод канонического оператора, М., 1978.</text_orig>
+</article>

@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2536_RASPREDELENIJa">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2536_RASPREDELENIJa</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1706</core:url>
+    <lbm:descriptor><![CDATA[РАСПРЕДЕЛЕНИЯ ВЕРОЯТНОСТЕЙ ЧАСТИЧНЫЕ ФУНКЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2445"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#12795"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12796"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12797"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12798"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12799"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12800"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12801"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12802"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_818"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12803"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_12790"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>последовательность функций<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12796">$$F(t)=\left\{F_{s}\left(t, x_{1}, \ldots, x_{s}\right)\right\}_{s \geqslant 1},$$</a><BR/></P><P>которая определяется по решениям Лиувилля уравнения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12797">$$D(t)=\left\{D_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right\}_{n \geqslant 1}$$</a><BR/></P><P>формулой (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#12795">[1]</a>):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12798">$$\begin{aligned}& \quad F_{s}\left(t, x_{1}, \ldots, x_{s}\right)= \\& =\left(\sum_{n=0}^{\infty} \frac{1}{n !} \int d x_{1} \ldots d x_{n} D_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right)^{-1} \times \\& \times \sum_{n=0}^{\infty} \frac{1}{n !} \int d x_{s+1} \ldots d x_{s+n} D_{s+n}\left(t, x_{1}, \ldots, x_{s+n}\right) .\end{aligned}$$</a><BR/></P><P>Для системы фиксированного $URI[[http://libmeta.ru/fme/formula/aux/2536_1_RASPREDELENIJa]]/URI$ числа частиц $URI[[http://libmeta.ru/fme/formula/aux/2536_2_RASPREDELENIJa]]/URI$ - однокомпонентная последовательность:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12799">$$D(t)=\left\{0, \ldots, 0, D_{N}\left(t, x_{1}, \ldots, x_{N}\right), 0, \ldots\right\} .$$</a><BR/></P><P>Р. в. ч. Ф. удовлетворяют Боголюбова уравнениям.<BR/></P><P>Равновесные Р. в.ч.Ф. определяются по стационарным решениям уравнения Лиувилля - функциям Бо льцмана:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12801">$$d_{n}\left(x_{1}, \ldots, x_{n}\right)=\exp \left\{-\beta \sum_{i=1}^{n}\left(\frac{p_{i}^{2}}{2}-\mu\right)-\beta \sum_{i<j=1}^{N} \Phi\left(q_{i}-q_{j}\right)\right\}$$</a>,<BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12802">$$\mu, \beta$$</a> - параметры равновесного состояния, $URI[[http://libmeta.ru/fme/formula/aux/2536_5_RASPREDELENIJa]]/URI$ - потенциал взаимодействия частиц. Такие функции удовлетворяют уравнениям для равновесных состояний Кирквуда Зальцбурга, Боголюбова, Майера - Монтролла и т. п.<BR/></P><P>Р. в. ч. ф. <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12803">$$f_{s}\left(t, x_{1}, \ldots, x_{s}\right)$$</a> интерпретируются как плотность вероятности (по лебеговой мере) нахождения $URI[[http://libmeta.ru/fme/formula/aux/2536_7_RASPREDELENIJa]]/URI$ различных частиц в фазовых точках <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_12790">$$x_{1}, \ldots, x_{s}$$</a> независимо от фазовых состояний остальных частиц.<BR/></P><P>Для квантовых систем Р. в. ч. ф. определяются аналогичным образом по решениям уравнений для плотности матрицы.<BR/></P><P>В терминах Р. в. ч. ф. в статистич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механике</a> описываются <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояния</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_168_BESKONEChNYE">систем бесконечного</a> числа <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#12795">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#5874">Петринад. Я.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1096">Герасименков. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4716">Малышев П. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#12795">Математические основы классической статистической механики, Киев, 1985</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2445">В. И. Герасименко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[последовательность функций
+
+\[
+F(t)=\left\{F_{s}\left(t, x_{1}, \ldots, x_{s}\right)\right\}_{s \geqslant 1},
+\]
+
+которая определяется по решениям Лиувиля уравнения
+
+\[
+D(t)=\left\{D_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right\}_{n \geqslant 1}
+\]
+
+формулой (см. [1]):
+
+\[
+\begin{aligned}
+& \quad F_{s}\left(t, x_{1}, \ldots, x_{s}\right)= \\
+& =\left(\sum_{n=0}^{\infty} \frac{1}{n !} \int d x_{1} \ldots d x_{n} D_{n}\left(t, x_{1}, \ldots, x_{n}\right)\right)^{-1} \times \\
+& \times \sum_{n=0}^{\infty} \frac{1}{n !} \int d x_{s+1} \ldots d x_{s+n} D_{s+n}\left(t, x_{1}, \ldots, x_{s+n}\right) .
+\end{aligned}
+\]
+
+Для системы фиксированного $N$ числа частиц $D(t)$ - однокомпонентная последовательность:
+
+\[
+D(t)=\left\{0, \ldots, 0, D_{N}\left(t, x_{1}, \ldots, x_{N}\right), 0, \ldots\right\} .
+\]
+
+Р. в. ч. Ф. удовлетворяют Боголюбова уравнениям.
+
+Равновесные Р. в.ч.Ф. определяются по стационарным решениям уравнения Лиувилля - функциям Бо льцмана:
+
+$D_{n}\left(x_{1}, \ldots, x_{n}\right)=\exp \left\{-\beta \sum_{i=1}^{n}\left(\frac{p_{i}^{2}}{2}-\mu\right)-\beta \sum_{i<j=1}^{N} \Phi\left(q_{i}-q_{j}\right)\right\}$,
+
+где $\mu, \beta$ - параметры равновесного состояния, $\Phi$ - потенциал взаимодействия частиц. Такие функции удовлетворяют уравнениям для равновесных состояний Кирквуда Зальцбурга, Боголюбова, Майера - Монтролла и т. п.
+
+Р. в. ч. ф. $F_{s}\left(t, x_{1}, \ldots, x_{s}\right)$ интерпретируются как плотность вероятности (по лебеговой мере) нахождения $s$ различных частиц в фазовых точках $x_{1}, \ldots, x_{s}$ независимо от фазовых состояний остальных частиц.
+
+Для квантовых систем Р. в. ч. ф. определяются аналогичным образом по решениям уравнений для плотности матрицы.
+
+В терминах Р. в. ч. ф. в статистич. механике описываются состояния систем бесконечного числа частиц.
+
+Лum.: [1] ПетринаД.Я., ГерасименкоВ.И., Малыш е в П. В., Математические основы классической статистической механики, Киев, $1985 . \quad$ В. И. Герасименко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_168_BESKONEChNYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

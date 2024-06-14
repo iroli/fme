@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1151_KVAZIODNORODNYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1151_KVAZIODNORODNYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/168</core:url>
+    <lbm:descriptor><![CDATA[КВАЗИОДНОРОДНЫЙ ГАМИЛЬТОНИАН]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#1613"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#1700"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1701"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1702"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1703"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1704"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1705"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1706"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1707"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1708"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1709"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1710"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1711"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>старшая часть символа оператора представления, соответствующего заданной функции от упорядоченных операторов<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1701">$$\hat{f}=f\left(\stackrel{1}{A_{1}}, \ldots, \stackrel{n}{A_{n}}\right) .$$</a><BR/></P><P>Пусть<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1702">$$L_{1}\left(\stackrel{2}{x},-i \frac{\frac{1}{\partial}}{\partial x}\right), \ldots, L_{n}\left(\stackrel{2}{x},-i \frac{\frac{1}{\partial}}{\partial x}\right)$$</a><BR/></P><P>- левое упорядоченное представление набора <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1705">$$\left(a_{1}, \ldots, A_{n}\right)$$</a>, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1706">$$\rho_{1}, \ldots, \rho_{n} \geqslant 0-$$</a> заданные веса операторов $URI[[http://libmeta.ru/fme/formula/aux/1151_3_KVAZIODNORODNYJ]]/URI$ и пусть функция <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1708">$$f(x, p)=f\left(L_{1}(x, p), \ldots, L_{n}(x, p)\right)$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладает</a> свойством<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1703">$$\begin{gathered}F\left(\lambda^{\rho_{1}} x_{1}, \ldots, \lambda^{\rho_{n}} x_{n}, \lambda^{1-\rho_{1}} p_{1}, \ldots, \lambda^{1-\rho_{n}} p_{n}\right)= \\=\lambda^{m} H(x, p)+O\left(\lambda^{m-\varepsilon}\right), \lambda \rightarrow+\infty,\end{gathered}$$</a><BR/></P><P>для нек-рых $URI[[http://libmeta.ru/fme/formula/aux/1151_5_KVAZIODNORODNYJ]]/URI$, m. Тогда функция $URI[[http://libmeta.ru/fme/formula/aux/1151_6_KVAZIODNORODNYJ]]/URI$ называется квазиоднородным гамильтонианом <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> $URI[[http://libmeta.ru/fme/formula/aux/1151_7_KVAZIODNORODNYJ]]/URI$. К. г. играет роль <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_505_GAMIL'TONA">Гамильтона функции</a> при построении методом канонич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> Маслова квазиобратного к $URI[[http://libmeta.ru/fme/formula/aux/1151_8_KVAZIODNORODNYJ]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> в шкале с нормой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1704">$$\|u\|_{s}=\left\|\left(1+A_{1}^{2 / \rho_{1}}+\ldots+A_{n}^{2 / \rho_{n}}\right)^{s / 2} u\right\|$$</a><BR/></P><P>(гильбертов случай).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#1613">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1236">Маслов В. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#1613">Операторные методы, М., 1973</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#1700">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1236">Маслов В. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1699">Назайкинскйй В. Е.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#1700">в кн.: Итоги науки и техники. Современные проблемы математики, М., 1979, т. 13, $\begin{array}{ll}\text { c. 5-144. } & \text { B. E. Назайкинский. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[старшая часть символа оператора представления, соответствующего заданной функции от упорядоченных операторов
+
+\[
+\hat{f}=f\left(\stackrel{1}{A_{1}}, \ldots, \stackrel{n}{A_{n}}\right) .
+\]
+
+Пусть
+
+\[
+L_{1}\left(\stackrel{2}{x},-i \frac{\frac{1}{\partial}}{\partial x}\right), \ldots, L_{n}\left(\stackrel{2}{x},-i \frac{\frac{1}{\partial}}{\partial x}\right)
+\]
+
+- левое упорядоченное представление набора $\left(A_{1}, \ldots, A_{n}\right)$, $\rho_{1}, \ldots, \rho_{n} \geqslant 0-$ заданные веса операторов $A_{1}, \ldots, A_{n}$ и пусть функция $F(x, p)=f\left(L_{1}(x, p), \ldots, L_{n}(x, p)\right)$ обладает свойством
+
+\[
+\begin{gathered}
+F\left(\lambda^{\rho_{1}} x_{1}, \ldots, \lambda^{\rho_{n}} x_{n}, \lambda^{1-\rho_{1}} p_{1}, \ldots, \lambda^{1-\rho_{n}} p_{n}\right)= \\
+=\lambda^{m} H(x, p)+O\left(\lambda^{m-\varepsilon}\right), \lambda \rightarrow+\infty,
+\end{gathered}
+\]
+
+для нек-рых $\varepsilon>0$, m. Тогда функция $H(x, p)$ называется квазиоднородным гамильтонианом оператора $\hat{f}$. К. г. играет роль Гамильтона функции при построении методом канонич. оператора Маслова квазиобратного к $\hat{f}$ оператора в шкале с нормой
+
+\[
+\|u\|_{s}=\left\|\left(1+A_{1}^{2 / \rho_{1}}+\ldots+A_{n}^{2 / \rho_{n}}\right)^{s / 2} u\right\|
+\]
+
+(гильбертов случай).
+
+Лum.: [1] М а с л о в В. П., Операторные методы, М., 1973; [2] Масло в В. П., Н а з айки н с к й й В. Е., в кн.: Итоги науки и техники. Современные проблемы математики, т. 13, М., 1979, $\begin{array}{ll}\text { c. 5-144. } & \text { B. E. Назайкинский. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_505_GAMIL'TONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

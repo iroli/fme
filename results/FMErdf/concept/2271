@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3044_TENZORNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3044_TENZORNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2271</core:url>
+    <lbm:descriptor><![CDATA[ТЕНЗОРНОЕ ПОЛЕ НА МНОГООБРАЗИИ $M^{n}$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1366"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5359"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17196"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17197"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1370"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_316"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_58"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17198"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17199"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17200"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17201"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>функция на $URI[[http://libmeta.ru/fme/formula/aux/3044_1_TENZORNOE]]/URI$, которая каждой точке <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразия</a> ставит в соответствие <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензор</a> одного и того же строения. Т. П. называется глад к и м, если в каждой карте (согласованной с гладкой структурой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразия</a> $URI[[http://libmeta.ru/fme/formula/aux/3044_2_TENZORNOE]]/URI$ ) координаты <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензора</a> являются гладкими <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функциями</a> точки. Более подробно это означает следующее. Говорят, что на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразии</a> $URI[[http://libmeta.ru/fme/formula/aux/3044_3_TENZORNOE]]/URI$ задано гладкое Т. п. $URI[[http://libmeta.ru/fme/formula/aux/3044_4_TENZORNOE]]/URI$ раз <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ">контравариантное</a> и $URI[[http://libmeta.ru/fme/formula/aux/3044_5_TENZORNOE]]/URI$ раз ковариантное [поле типа <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17198">$$(k, m)$$</a> ], если в каждой карте, отвечающей данной гладкой структуре, задана система гладких функций, занумерованная $URI[[http://libmeta.ru/fme/formula/aux/3044_7_TENZORNOE]]/URI$ индексами вверху в определенном порядке и $URI[[http://libmeta.ru/fme/formula/aux/3044_8_TENZORNOE]]/URI$ индексами внизу:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17196">$$\begin{gathered}a_{j_{1} \ldots j_{m}}^{i_{1} \ldots i_{k}}, \\i_{1}, i_{2}, \ldots, i_{k}, j_{1}, j_{2}, \ldots, j_{m}=1,2, \ldots, n\end{gathered}$$</a><BR/></P><P>(то есть задано <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17199">$$n^{k+m}$$</a> функций в каждой системе координат, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17200">$$n=\operatorname{dim} M^{n}$$</a> ), преобразующихся при переходе от карты к карте по следующему закону (тензорный закон преобразования):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17197">$$a_{j_{1}^{\prime} \ldots j_{m}^{\prime}}^{i_{1}^{\prime} \ldots i_{k}^{\prime}}=\frac{\partial x^{i_{1}^{\prime}}}{\partial x^{i_{1}}} \ldots \frac{\partial x^{i_{k}^{\prime}}}{\partial x^{i_{k}}} \frac{\partial x^{j_{1}}}{\partial x^{j_{1}^{\prime}}} \ldots \frac{\partial x^{j_{m}}}{\partial x^{j_{m}^{\prime}}} a_{j_{1} \ldots j_{m}}^{i_{1} \ldots i_{k}} .$$</a><BR/></P><P>Число <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17201">$$k+m$$</a> называется р а н гом, или вале н т нос т ью, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3039_TENZO">тензора</a>. Т. п. нулевой валентности (без индексов), по опре- делению, является скалярным полем или <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_107_ASIMPTOTIKA">гладкой функцией на</a> $URI[[http://libmeta.ru/fme/formula/aux/3044_12_TENZORNOE]]/URI$.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#5359">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#3558">Дубровин Б. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#3559">Новиков С. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#3560">Фоменко А. Т.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5359">Современная геометрия. Методы и приложения, М., 1986</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1366">В. В. Трофимов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[функция на $M^{n}$, которая каждой точке многообразия ставит в соответствие тензор одного и того же строения. Т. П. называется глад к и м, если в каждой карте (согласованной с гладкой структурой многообразия $M^{n}$ ) координаты тензора являются гладкими функщиями точки. Более подробно это означает следующее. Говорят, что на многообразии $M^{n}$ задано гладкое Т. п. $k$ раз контравариантное и $m$ раз ковариантное [поле типа $(k, m)$ ], если в каждой карте, отвечающей данной гладкой структуре, задана система гладких функций, занумерованная $k$ индексами вверху в определенном порядке и $m$ индексами внизу:
+
+\[
+\begin{gathered}
+a_{j_{1} \ldots j_{m}}^{i_{1} \ldots i_{k}}, \\
+i_{1}, i_{2}, \ldots, i_{k}, j_{1}, j_{2}, \ldots, j_{m}=1,2, \ldots, n
+\end{gathered}
+\]
+
+(то есть задано $n^{k+m}$ функций в каждой системе координат, где $n=\operatorname{dim} M^{n}$ ), преобразующихся при переходе от карты к карте по следующему закону (тензорный закон преобразования):
+
+\[
+a_{j_{1}^{\prime} \ldots j_{m}^{\prime}}^{i_{1}^{\prime} \ldots i_{k}^{\prime}}=\frac{\partial x^{i_{1}^{\prime}}}{\partial x^{i_{1}}} \ldots \frac{\partial x^{i_{k}^{\prime}}}{\partial x^{i_{k}}} \frac{\partial x^{j_{1}}}{\partial x^{j_{1}^{\prime}}} \ldots \frac{\partial x^{j_{m}}}{\partial x^{j_{m}^{\prime}}} a_{j_{1} \ldots j_{m}}^{i_{1} \ldots i_{k}} .
+\]
+
+Число $k+m$ называется р а н гом, или вале н т нос т ью, тензора. Т. п. нулевой валентности (без индексов), по опре- делению, является скалярным полем или гладкой функцией на $M^{n}$.
+
+Лит.: [1] Дубров ин Б. А., Новиков С. П., Фоменко А. Т., Современная геометрия. Методы и приложения, М., 1986.
+
+В. В. Трофимов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_107_ASIMPTOTIKA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1359_KONTAKTOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3039_TENZO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

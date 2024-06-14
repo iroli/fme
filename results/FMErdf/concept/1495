@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2346_POTOK">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2346_POTOK</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1495</core:url>
+    <lbm:descriptor><![CDATA[ПОТОК ВЕКТОРНОГО ПОЛЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#280"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_11478"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6674"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1264"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>одно из понятий теории векторного поля. П. векторного поля а через поверхность $URI[[http://libmeta.ru/fme/formula/aux/2346_1_POTOK]]/URI$ выражается с точностью до знака поверхностным интегралом<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_11478">$$\iint_{\partial V}(\boldsymbol{a}, \boldsymbol{n}) d s=\iint_{\partial V}\left(a_{x} d y d z+a_{y} d z d x+a_{z} d x d y\right)$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2346_2_POTOK]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_923_EDINIChNYJ">единичный вектор</a> нормали к поверхности $URI[[http://libmeta.ru/fme/formula/aux/2346_3_POTOK]]/URI$ (предполагается, что изменение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектора</a> $URI[[http://libmeta.ru/fme/formula/aux/2346_4_POTOK]]/URI$ по поверхности $URI[[http://libmeta.ru/fme/formula/aux/2346_5_POTOK]]/URI$ непрерывно). Для поля <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростей</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_939_ZhIDKOST">жидкости</a> П. векторного поля равен объему <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_939_ZhIDKOST">жидкости</a>, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2426_PROTEKANI">протекающей</a> за единицу времени через поверхность <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6674">$$\partial V$$</a>.<BR/></P><P>См. также <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_352_VEKTORNYJ">Векторный анализ</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#280">В. И. Битюиков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[одно из понятий теории векторного поля. П. векторного поля а через поверхность $\partial V$ выражается с точностью до знака поверхностным интегралом
+
+\[
+\iint_{\partial V}(\boldsymbol{a}, \boldsymbol{n}) d s=\iint_{\partial V}\left(a_{x} d y d z+a_{y} d z d x+a_{z} d x d y\right)
+\]
+
+где $\boldsymbol{n}$ - единичный вектор нормали к поверхности $\partial V$ (предполагается, что изменение вектора $\boldsymbol{n}$ по поверхности $\partial V$ непрерывно). Для поля скоростей частиц жидкости П. векторного поля равен объему жидкости, протекающей за единицу времени через поверхность $\partial V$.
+
+См. также Векторный анализ.
+
+В. И. Битюиков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_352_VEKTORNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2426_PROTEKANI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_939_ZhIDKOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_939_ZhIDKOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_923_EDINIChNYJ"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

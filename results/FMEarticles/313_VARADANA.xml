@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/313_VARADANA" alphabetic_pos="313">
+  <title>ВАРАДАНА ТЕОРЕМА</title>
+  <authors>
+    <author>А. Л. Ребенко</author>
+  </authors>
+  <pages>
+    <start>66</start>
+    <end>67</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Varadhan S. R. S., &quot;comm. Pure Appl. Math.», 1966, v. 19, p. 261; [2] E11is R.S., Entropy, large deviations and statistical mechanics, B.- Hdlb.- N. Y., $1985 . \quad$</literature_orig>
+    <unit>
+      <author>Varadhan S. R. S.</author>
+      <title>&quot;comm. Pure Appl. Math.»</title>
+      <publication/>
+      <year>1966</year>
+      <other>v. 19, p. 261</other>
+    </unit>
+    <unit>
+      <author>E11is R. S.</author>
+      <title>Entropy, large deviations and statistical mechanics, B.- Hdlb.- N. Y.</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/313_1_VARADANA">\lim _{n \rightarrow \infty} \frac{1}{V_{n}} \ln \int_{E} \mu_{n}[d x] \exp \left\{V_{n} G(x)\right\}=\sup _{x \in E}[G(x)-I(x)] .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/313_1_VARADANA">\left\{\left.\mu_{n}[d x]\right|_{1} ^{\infty}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/313_2_VARADANA">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/313_3_VARADANA">\left\{\left.V_{n}\right|_{1} ^{\infty}\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/313_4_VARADANA">i(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/313_5_VARADANA">g: E \rightarrow \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/313_6_VARADANA">u_{n} \operatorname{supp} \mu_{n}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/313_1_VARADANA">
+      <rel_text>принципу больших уклонений</rel_text>
+      <target>http://libmeta.ru/fme/article/261_BOL'ShIH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/313_2_VARADANA">
+      <rel_text>вариант</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/313_3_VARADANA">
+      <rel_text>больших уклонений принципу</rel_text>
+      <target>http://libmeta.ru/fme/article/261_BOL'ShIH</target>
+    </relation>
+  </relations>
+  <text>теорема, определяющая асимптотическое поведение интегралов по последовательности вероятностных мер, удовлетворяющих URI[[http://libmeta.ru/fme/relation/313_3_VARADANA]]/URI. Фактически она обобщает метод Лапласа на бесконечномерный случай. Наиболее удобным для различных приложений в физике является следующий URI[[http://libmeta.ru/fme/relation/313_2_VARADANA]]/URI В.т. Пусть последовательность вероятностных мер $URI[[http://libmeta.ru/fme/formula/aux/313_1_VARADANA]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/313_2_VARADANA]]/URI$ удовлетворяет URI[[http://libmeta.ru/fme/relation/313_1_VARADANA]]/URI с константами $URI[[http://libmeta.ru/fme/formula/aux/313_3_VARADANA]]/URI$ и функцией уклонения $URI[[http://libmeta.ru/fme/formula/aux/313_4_VARADANA]]/URI$. И пусть $URI[[http://libmeta.ru/fme/formula/aux/313_5_VARADANA]]/URI$ является непрерывной функцией, к-рая ограничена сверху на множестве $URI[[http://libmeta.ru/fme/formula/aux/313_6_VARADANA]]/URI$. Тогда
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/313_1_VARADANA]]/URI
+\]
+
+Подробное доказательство содержится в работе [1]. Физич. примеры, использующие В. т., наиболее полно приведены в [2].</text>
+  <text_orig>теорема, определяющая асимптотическое поведение интегралов по последовательности вероятностных мер, удовлетворяюших больших уклонений принципу. Фактически она обобщает метод Лапласа на бесконечномерный случай. Наиболее удобным для различных приложений в физике является следуюший вариант В.т. Пусть последовательность вероятностных мер $\left\{\left.\mu_{n}[d x]\right|_{1} ^{\infty}\right.$ на $E$ удовлетворяет принципу больших уклонений с константами $\left\{\left.V_{n}\right|_{1} ^{\infty}\right.$ и функцией уклонения $I(x)$. И пусть $G: E \rightarrow \mathbb{R}^{1}$ является непрерывной функцией, к-рая ограничена сверху на множестве $U_{n} \operatorname{supp} \mu_{n}$. Тогда
+
+\[
+\lim _{n \rightarrow \infty} \frac{1}{V_{n}} \ln \int_{E} \mu_{n}[d x] \exp \left\{V_{n} G(x)\right\}=\sup _{x \in E}[G(x)-I(x)] .
+\]
+
+Подробное доказательство содержится в работе [1]. Физич. примеры, использующие В. т., наиболее полно приведены в [2].
+
+Jum.: [1] Varadhan S. R. S., &quot;Comm. Pure Appl. Math.», 1966, v. 19, p. 261; [2] E11is R.S., Entropy, large deviations and statistical mechanics, B.- Hdlb.- N. Y., $1985 . \quad$ А. Л. Ребенко.</text_orig>
+</article>

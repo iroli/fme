@@ -1,0 +1,280 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2949_STATsIONARNOJ" alphabetic_pos="2951">
+  <title>СТАЦИОНАРНОЙ ФАЗЫ МЕТОД</title>
+  <authors>
+    <author>С. В. Чмутов</author>
+  </authors>
+  <pages>
+    <start>579</start>
+    <end>580</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ги йем ин В., Сте рнберr С., Геометрические асимптотики, пер. с англ., М., 1981; [2] Варченко А. Н., «функциональный анализ и его прилож.», 1976, т. 10, № 3, с. 13-38; [3] Фе дорюк М. В., Асимптотика. Интегралы и ряды, М., 1987; [4] Арнольд В.И., Варченко А.Н., Гусейн-3аде С.М., Особенности дифференцируемых отображений. Монодромии и асимптотики интегралов, М., $1984 . \quad$</literature_orig>
+    <unit>
+      <author>Гийемин В.</author>
+      <author>Стернберr С.</author>
+      <title>Геометрические асимптотики</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Варченко А. Н.</author>
+      <title>«функциональный анализ и его прилож.»</title>
+      <publication/>
+      <year>1976</year>
+      <other>т. 10, № 3, с. 13-38</other>
+    </unit>
+    <unit>
+      <author>Федорюк М. В.</author>
+      <title>Асимптотика. Интегралы и ряды</title>
+      <publication>М.</publication>
+      <year>1987</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <author>Варченко А. Н.</author>
+      <author>Гусейн-3аде С. М.</author>
+      <title>Особенности дифференцируемых отображений. Монодромии и асимптотики интегралов</title>
+      <publication>М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2949_1_STATsIONARNOJ">I(\tau, \lambda)=\int_{\mathbb{R}^{n}} e^{i \tau F(x, \lambda)} \Phi(x, \lambda) d x_{1} \ldots d x_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2949_2_STATsIONARNOJ">\exp \left(i \tau f\left(x_{0}\right)\right) \sum_{\alpha} \sum_{k=0}^{n-1} a_{k, \alpha}(\varphi) \tau^{\alpha}(\ln \tau)^{k} \quad \text { при } t \rightarrow+\infty .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2949_3_STATsIONARNOJ">\exp (i \tau f(0)) \tau^{-n / 2} \sum_{j=0}^{\infty} a_{j} \tau^{-j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2949_4_STATsIONARNOJ">\begin{aligned}&amp; \varphi(0)(i \tau)^{-1}(2 \pi / \tau)^{(n-1) / 2} \exp (i \tau f(0)+ \\+ &amp; \left.(i \pi / 4) \operatorname{sign} \tilde{f}_{x^{\prime} x^{\prime}}^{\prime \prime}(0)\right)+\left|\operatorname{det} \tilde{f_{x^{\prime} x^{\prime}}^{\prime \prime}}(0)\right|^{-1 / 2},\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_1_STATsIONARNOJ">\tau \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_2_STATsIONARNOJ">f(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_3_STATsIONARNOJ">f(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_4_STATsIONARNOJ">f(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_5_STATsIONARNOJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_6_STATsIONARNOJ">f(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_7_STATsIONARNOJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_8_STATsIONARNOJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_9_STATsIONARNOJ">f(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_10_STATsIONARNOJ">\tau^{-n / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_11_STATsIONARNOJ">\tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_12_STATsIONARNOJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_13_STATsIONARNOJ">f(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_14_STATsIONARNOJ">a_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_15_STATsIONARNOJ">a_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_16_STATsIONARNOJ">\tau^{-n / 2+1 / 6}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_17_STATsIONARNOJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_18_STATsIONARNOJ">f(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_19_STATsIONARNOJ">a_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_20_STATsIONARNOJ">a_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_21_STATsIONARNOJ">\tau^{-n / 2+1 / 4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_22_STATsIONARNOJ">a_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_23_STATsIONARNOJ">f(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_24_STATsIONARNOJ">i(\tau, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_25_STATsIONARNOJ">\tau^{-n / 2+\beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_26_STATsIONARNOJ">\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_27_STATsIONARNOJ">a_{k}, D_{k}, E_{6}, E_{7}, E_{8}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_28_STATsIONARNOJ">\beta=1 / 2-1 / N</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_29_STATsIONARNOJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_30_STATsIONARNOJ">k+1,2 k-2,12,18,30</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_31_STATsIONARNOJ">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_32_STATsIONARNOJ">\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_33_STATsIONARNOJ">p_{8}, X_{9}, J_{10}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_34_STATsIONARNOJ">f-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_35_STATsIONARNOJ">f \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_36_STATsIONARNOJ">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_37_STATsIONARNOJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_38_STATsIONARNOJ">(t, \ldots, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_39_STATsIONARNOJ">t&gt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_40_STATsIONARNOJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_41_STATsIONARNOJ">f(\cdot)=f(\cdot, \lambda)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_42_STATsIONARNOJ">x_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_43_STATsIONARNOJ">\varphi(\cdot)=\phi(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_44_STATsIONARNOJ">x_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_45_STATsIONARNOJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_46_STATsIONARNOJ">a_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_47_STATsIONARNOJ">2 j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_48_STATsIONARNOJ">\phi(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_49_STATsIONARNOJ">f(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_50_STATsIONARNOJ">\phi(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_51_STATsIONARNOJ">\tau</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_52_STATsIONARNOJ">t \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_53_STATsIONARNOJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_54_STATsIONARNOJ">f(\cdot, \lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_55_STATsIONARNOJ">\tau^{-(n+1) / 2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_56_STATsIONARNOJ">\widetilde{f}_{x^{\prime \prime} x^{\prime}}(0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_57_STATsIONARNOJ">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2949_58_STATsIONARNOJ">\operatorname{det} \widetilde{f}_{x^{\prime \prime} x^{\prime}}(0)-</formula>
+  </formulas_aux>
+  <relations n="21">
+    <relation uri="http://libmeta.ru/fme/relation/2949_1_STATsIONARNOJ">
+      <rel_text>Коротковолновые асимптотики</rel_text>
+      <target>http://libmeta.ru/fme/article/1402_KOROTKOVOLNOVYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_2_STATsIONARNOJ">
+      <rel_text>Перевала метод</rel_text>
+      <target>http://libmeta.ru/fme/article/2194_PEREVALA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_3_STATsIONARNOJ">
+      <rel_text>вторых частных производных</rel_text>
+      <target>http://libmeta.ru/fme/article/875_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_4_STATsIONARNOJ">
+      <rel_text>фаза</rel_text>
+      <target>http://libmeta.ru/fme/article/3230_FAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_5_STATsIONARNOJ">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_6_STATsIONARNOJ">
+      <rel_text>полутени</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_7_STATsIONARNOJ">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_8_STATsIONARNOJ">
+      <rel_text>областей</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_9_STATsIONARNOJ">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_10_STATsIONARNOJ">
+      <rel_text>осциллирующий интеграл</rel_text>
+      <target>http://libmeta.ru/fme/article/2127_OSTsILLIRUJuSchIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_11_STATsIONARNOJ">
+      <rel_text>фаза</rel_text>
+      <target>http://libmeta.ru/fme/article/3230_FAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_12_STATsIONARNOJ">
+      <rel_text>группу</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_13_STATsIONARNOJ">
+      <rel_text>осциллирующие интегралы</rel_text>
+      <target>http://libmeta.ru/fme/article/2127_OSTsILLIRUJuSchIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_14_STATsIONARNOJ">
+      <rel_text>смешанных производных</rel_text>
+      <target>http://libmeta.ru/fme/article/2826_SMEShANNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_15_STATsIONARNOJ">
+      <rel_text>линейной комбинации</rel_text>
+      <target>http://libmeta.ru/fme/article/1599_LINEJNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_16_STATsIONARNOJ">
+      <rel_text>Френеля интеграла</rel_text>
+      <target>http://libmeta.ru/fme/article/3305_FRENELJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_17_STATsIONARNOJ">
+      <rel_text>осциллирующий интеграл</rel_text>
+      <target>http://libmeta.ru/fme/article/2127_OSTsILLIRUJuSchIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_18_STATsIONARNOJ">
+      <rel_text>функция в окрестности</rel_text>
+      <target>http://libmeta.ru/fme/article/2520_RAZREShENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_19_STATsIONARNOJ">
+      <rel_text>осциллирующего интеграла</rel_text>
+      <target>http://libmeta.ru/fme/article/2127_OSTsILLIRUJuSchIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_20_STATsIONARNOJ">
+      <rel_text>частным</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2949_21_STATsIONARNOJ">
+      <rel_text>Осциллирующий интеграл</rel_text>
+      <target>http://libmeta.ru/fme/article/2127_OSTsILLIRUJuSchIJ</target>
+    </relation>
+  </relations>
+  <text>метод Вычисления асимптотики при $URI[[http://libmeta.ru/fme/formula/aux/2949_1_STATsIONARNOJ]]/URI$ осциллирующего интеграла
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2949_1_STATsIONARNOJ]]/URI
+\]
+
+в окрестности критических точек фазовой функции (фазы) $URI[[http://libmeta.ru/fme/formula/aux/2949_2_STATsIONARNOJ]]/URI$ (см. URI[[http://libmeta.ru/fme/relation/2949_2_STATsIONARNOJ]]/URI).
+
+Пусть фаза $URI[[http://libmeta.ru/fme/formula/aux/2949_3_STATsIONARNOJ]]/URI$, рассматриваемая как семейство функций $URI[[http://libmeta.ru/fme/formula/aux/2949_4_STATsIONARNOJ]]/URI$, является семейством общего положения. Тогда (для почти всех $URI[[http://libmeta.ru/fme/formula/aux/2949_5_STATsIONARNOJ]]/URI$ ) функция $URI[[http://libmeta.ru/fme/formula/aux/2949_6_STATsIONARNOJ]]/URI$ имеет только невырожденные критич. точки. Те значения параметра $URI[[http://libmeta.ru/fme/formula/aux/2949_7_STATsIONARNOJ]]/URI$, для к-рых фаза имеет вырожденные критич. точки, образуют гиперповерхность, называемую каустикой.
+
+Рассматривается произвольное значение $URI[[http://libmeta.ru/fme/formula/aux/2949_8_STATsIONARNOJ]]/URI$ параметров вне каустики. Фаза $URI[[http://libmeta.ru/fme/formula/aux/2949_9_STATsIONARNOJ]]/URI$, отвечающая этому значению параметра, имеет только невырожденные критич. точки либо вообще не имеет вещественных критич. точек. В первом случае осциллирующий интеграл является интегралом Френеля и имеет порядок $URI[[http://libmeta.ru/fme/formula/aux/2949_10_STATsIONARNOJ]]/URI$ (главный член асимптотики, см. URI[[http://libmeta.ru/fme/relation/2949_1_STATsIONARNOJ]]/URI). Во втором случае интеграл стремится к нулю быстрее любой степени $URI[[http://libmeta.ru/fme/formula/aux/2949_11_STATsIONARNOJ]]/URI$. В соответствии с этим в первом случае область вне каустики называется областью света, а во втором - областью тени.
+
+В точках $URI[[http://libmeta.ru/fme/formula/aux/2949_12_STATsIONARNOJ]]/URI$ общего положения на каустике фаза $URI[[http://libmeta.ru/fme/formula/aux/2949_13_STATsIONARNOJ]]/URI$ имеет критич. точки типа $URI[[http://libmeta.ru/fme/formula/aux/2949_14_STATsIONARNOJ]]/URI$; в окрестности таких точек осциллирующий интеграл является интегралом Эйри. Каждая точка типа $URI[[http://libmeta.ru/fme/formula/aux/2949_15_STATsIONARNOJ]]/URI$ дает в интеграл вклад $URI[[http://libmeta.ru/fme/formula/aux/2949_16_STATsIONARNOJ]]/URI$. Простейшие особые точки каустики - это ребра возврата. В таких $URI[[http://libmeta.ru/fme/formula/aux/2949_17_STATsIONARNOJ]]/URI$ фаза $URI[[http://libmeta.ru/fme/formula/aux/2949_18_STATsIONARNOJ]]/URI$ имеет критич. точки $URI[[http://libmeta.ru/fme/formula/aux/2949_19_STATsIONARNOJ]]/URI$; осциллирующий интеграл интеграл Пирси. Каждая точка типа $URI[[http://libmeta.ru/fme/formula/aux/2949_20_STATsIONARNOJ]]/URI$ дает в интеграл вклад $URI[[http://libmeta.ru/fme/formula/aux/2949_21_STATsIONARNOJ]]/URI$. (главные члены асимптотики см. в [1].) Критич. точки типа $URI[[http://libmeta.ru/fme/formula/aux/2949_22_STATsIONARNOJ]]/URI$ могут встречаться в семействах $URI[[http://libmeta.ru/fme/formula/aux/2949_23_STATsIONARNOJ]]/URI$ фаз, зависящих (по крайней мере) от двух параметров.
+
+Каждая вырожденная критич. точка дает в интеграл $URI[[http://libmeta.ru/fme/formula/aux/2949_24_STATsIONARNOJ]]/URI$ вклад $URI[[http://libmeta.ru/fme/formula/aux/2949_25_STATsIONARNOJ]]/URI$. Число $URI[[http://libmeta.ru/fme/formula/aux/2949_26_STATsIONARNOJ]]/URI$ называется показателем особости. Для простых критич. точек $URI[[http://libmeta.ru/fme/formula/aux/2949_27_STATsIONARNOJ]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/2949_28_STATsIONARNOJ]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2949_29_STATsIONARNOJ]]/URI$ равно $URI[[http://libmeta.ru/fme/formula/aux/2949_30_STATsIONARNOJ]]/URI$ соответственно; $URI[[http://libmeta.ru/fme/formula/aux/2949_31_STATsIONARNOJ]]/URI$ - это число Кокстера соответствующей группы, порожденной отражениями (группы Вейля). Показатель особости $URI[[http://libmeta.ru/fme/formula/aux/2949_32_STATsIONARNOJ]]/URI$ критич. точек типов $URI[[http://libmeta.ru/fme/formula/aux/2949_33_STATsIONARNOJ]]/URI$ равен 1/2.
+
+Т е о р е а (см. [2]). Пусть $URI[[http://libmeta.ru/fme/formula/aux/2949_34_STATsIONARNOJ]]/URI$ аналитич. функция в окрестности своей критич. точки, главная часть $URI[[http://libmeta.ru/fme/formula/aux/2949_35_STATsIONARNOJ]]/URI$-невырождена, точка пересечения биссектрисы положительного октанта в $URI[[http://libmeta.ru/fme/formula/aux/2949_36_STATsIONARNOJ]]/URI$ с многогранником Ньютона $URI[[http://libmeta.ru/fme/formula/aux/2949_37_STATsIONARNOJ]]/URI$ имеет координаты $URI[[http://libmeta.ru/fme/formula/aux/2949_38_STATsIONARNOJ]]/URI$, причем $URI[[http://libmeta.ru/fme/formula/aux/2949_39_STATsIONARNOJ]]/URI$. Тогда показатель осцилляции $URI[[http://libmeta.ru/fme/formula/aux/2949_40_STATsIONARNOJ]]/URI$ равен
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_e9e41e2feff32a1d4082g-1.jpg?height=40&amp;width=687&amp;top_left_y=1826&amp;top_left_x=932)
+
+URI[[http://libmeta.ru/fme/relation/2949_21_STATsIONARNOJ]]/URI является URI[[http://libmeta.ru/fme/relation/2949_20_STATsIONARNOJ]]/URI случаем интеграла метода перевала. Асимптотич. разложение интегралов метода перевала влечет следующее асимптотич. разложение URI[[http://libmeta.ru/fme/relation/2949_19_STATsIONARNOJ]]/URI. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2949_41_STATsIONARNOJ]]/URI$ аналитич. URI[[http://libmeta.ru/fme/relation/2949_18_STATsIONARNOJ]]/URI своей критич. точки $URI[[http://libmeta.ru/fme/formula/aux/2949_42_STATsIONARNOJ]]/URI$. Носитель амплитуды $URI[[http://libmeta.ru/fme/formula/aux/2949_43_STATsIONARNOJ]]/URI$ сосредоточен в достаточно малой окрестности $URI[[http://libmeta.ru/fme/formula/aux/2949_44_STATsIONARNOJ]]/URI$. Тогда URI[[http://libmeta.ru/fme/relation/2949_17_STATsIONARNOJ]]/URI разлагается в асимптотич. ряд:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2949_2_STATsIONARNOJ]]/URI
+\] При этом параметр $URI[[http://libmeta.ru/fme/formula/aux/2949_45_STATsIONARNOJ]]/URI$ пробегает конечное множество арифметич. прогрессий, зависящих только от фазы и составленных из отрицательных рациональных чисел. Напр., асимптотич. ряд для URI[[http://libmeta.ru/fme/relation/2949_16_STATsIONARNOJ]]/URI с фазой, имеющей критич. точку в 0 , выглядит так:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2949_3_STATsIONARNOJ]]/URI
+\]
+
+где число $URI[[http://libmeta.ru/fme/formula/aux/2949_46_STATsIONARNOJ]]/URI$ равно URI[[http://libmeta.ru/fme/relation/2949_15_STATsIONARNOJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2949_47_STATsIONARNOJ]]/URI$-х URI[[http://libmeta.ru/fme/relation/2949_14_STATsIONARNOJ]]/URI амплитуды в нуле.
+
+Аналогично исследуются URI[[http://libmeta.ru/fme/relation/2949_13_STATsIONARNOJ]]/URI по полупространству. В этом случае вклад в асимптотику дают также критич. точки ограничения фазы на URI[[http://libmeta.ru/fme/relation/2949_12_STATsIONARNOJ]]/URI полупространства. Пусть амплитуда $URI[[http://libmeta.ru/fme/formula/aux/2949_48_STATsIONARNOJ]]/URI$ имеет компактный носитель, а URI[[http://libmeta.ru/fme/relation/2949_11_STATsIONARNOJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2949_49_STATsIONARNOJ]]/URI$ и ее ограничение на границу полупространства не имеют критич. точек на носителе $URI[[http://libmeta.ru/fme/formula/aux/2949_50_STATsIONARNOJ]]/URI$. Тогда URI[[http://libmeta.ru/fme/relation/2949_10_STATsIONARNOJ]]/URI стремится к нулю быстрее любой степени $URI[[http://libmeta.ru/fme/formula/aux/2949_51_STATsIONARNOJ]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/2949_52_STATsIONARNOJ]]/URI$ (URI[[http://libmeta.ru/fme/relation/2949_9_STATsIONARNOJ]]/URI тени). Кроме URI[[http://libmeta.ru/fme/relation/2949_8_STATsIONARNOJ]]/URI света и тени в этом случае может появиться еще URI[[http://libmeta.ru/fme/relation/2949_7_STATsIONARNOJ]]/URI URI[[http://libmeta.ru/fme/relation/2949_6_STATsIONARNOJ]]/URI. Для $URI[[http://libmeta.ru/fme/formula/aux/2949_53_STATsIONARNOJ]]/URI$ из этой URI[[http://libmeta.ru/fme/relation/2949_5_STATsIONARNOJ]]/URI URI[[http://libmeta.ru/fme/relation/2949_4_STATsIONARNOJ]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2949_54_STATsIONARNOJ]]/URI$ не имеет критич. точек, a еe ограничение на границу имеет невырожденные критич. точки 0. В этом случае интеграл называется интегралом Френеля по полупространству и имеет порядок $URI[[http://libmeta.ru/fme/formula/aux/2949_55_STATsIONARNOJ]]/URI$. Если носитель амплитуды содержит только одну такую критич. точку, то главный член асимптотики имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2949_4_STATsIONARNOJ]]/URI
+\]
+
+где sign $URI[[http://libmeta.ru/fme/formula/aux/2949_56_STATsIONARNOJ]]/URI$ - сигнатура матрицы URI[[http://libmeta.ru/fme/relation/2949_3_STATsIONARNOJ]]/URI ограничения $URI[[http://libmeta.ru/fme/formula/aux/2949_57_STATsIONARNOJ]]/URI$ на границу, a $URI[[http://libmeta.ru/fme/formula/aux/2949_58_STATsIONARNOJ]]/URI$ еe определитель.</text>
+  <text_orig>метоД ВЫчисления асимптотики при $\tau \rightarrow+\infty$ осциллирующего интеграла
+
+\[
+I(\tau, \lambda)=\int_{\mathbb{R}^{n}} e^{i \tau F(x, \lambda)} \Phi(x, \lambda) d x_{1} \ldots d x_{n}
+\]
+
+в окрестности критических точек фазовой функции (фазы) $F(x, \lambda)$ (см. Перевала метод).
+
+Пусть фаза $F(x, \lambda)$, рассматриваемая как семейство функций $F(\cdot, \lambda)$, является семейством общего положения. Тогда (для почти всех $\lambda$ ) функщия $F(\cdot, \lambda)$ имеет только невырожденные критич. точки. Те значения параметра $\lambda$, для к-рых фаза имеет вырожденные критич. точки, образуют гиперповерхность, называемую каустикой.
+
+Рассматривается произвольное значение $\lambda$ параметров вне каустики. Фаза $F(\cdot, \lambda)$, отвечающая этому значению параметра, имеет только невырожденные критич. точки либо вообще не имеет вещественных критич. точек. В первом случае осциллирующий интеграл является интегралом Френеля и имеет порядок $\tau^{-n / 2}$ (главный член асимптотики, см. Коротковолновые асимптотики). Во втором случае интеграл стремится к нулю быстрее любой степени $\tau$. В соответствии с этим в первом случае область вне каустики называется областью света, а во втором - областью тени.
+
+В точках $\lambda$ общего положения на каустике фаза $F(\cdot, \lambda)$ имеет критич. точки типа $A_{2}$; в окрестности таких точек осциллирующий интеграл является интегралом Эйри. Каждая точка типа $A_{2}$ дает в интеграл вклад $\tau^{-n / 2+1 / 6}$. Простейшие особые точки каустики - это ребра возврата. В таких $\lambda$ фаза $F(\cdot, \lambda)$ имеет критич. точки $A_{3}$; осциллирующий интеграл интеграл Пирси. Каждая точка типа $A_{3}$ дает в интеграл вклад $\tau^{-n / 2+1 / 4}$. (Главные члены асимптотики см. в [1].) Критич. точки типа $A_{3}$ могут встречаться в семействах $F(\cdot, \lambda)$ фаз, зависящих (по крайней мере) от двух параметров.
+
+Каждая вырожденная критич. точка дает в интеграл $I(\tau, \lambda)$ вклад $\tau^{-n / 2+\beta}$. Число $\beta$ называется показателем особости. Для простых критич. точек $A_{k}, D_{k}, E_{6}, E_{7}, E_{8}$ $\beta=1 / 2-1 / N$, где $N$ равно $k+1,2 k-2,12,18,30$ соответственно; $N$ - это число Кокстера соответствующей группы, порожденной отражениями (группы Вейля). Показатель особости $\beta$ критич. точек типов $P_{8}, X_{9}, J_{10}$ равен 1/2.
+
+Т е о р е а (см. [2]). Пусть $f-$ аналитич. функция в окрестности своей критич. точки, главная часть $f \mathbb{R}$-невырождена, точка пересечения биссектрисы положительного октанта в $\mathbb{R}^{n}$ с многогранником Ньютона $f$ имеет координаты $(t, \ldots, t)$, причем $t&gt;1$. Тогда показатель осцилляции $f$ равен
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_e9e41e2feff32a1d4082g-1.jpg?height=40&amp;width=687&amp;top_left_y=1826&amp;top_left_x=932)
+
+Осциллирующий интеграл является частным случаем интеграла метода перевала. Асимптотич. разложение интегралов метода перевала влечет следующее асимптотич. разложение осциллирующего интеграла. Пусть $f(\cdot)=F(\cdot, \lambda)-$ аналитич. функция в окрестности своей критич. точки $x_{0}$. Носитель амплитуды $\varphi(\cdot)=\Phi(\cdot, \lambda)$ сосредоточен в достаточно малой окрестности $x_{0}$. Тогда осциллирующий интеграл разлагается в асимптотич. ряд:
+
+\[
+\exp \left(i \tau f\left(x_{0}\right)\right) \sum_{\alpha} \sum_{k=0}^{n-1} a_{k, \alpha}(\varphi) \tau^{\alpha}(\ln \tau)^{k} \quad \text { при } t \rightarrow+\infty .
+\] При этом параметр $\alpha$ пробегает конечное множество арифметич. прогрессий, зависящих только от фазы и составленных из отрицательных рациональных чисел. Напр., асимптотич. ряд для Френеля интеграла с фазой, имеющей критич. точку в 0 , выглядит так:
+
+\[
+\exp (i \tau f(0)) \tau^{-n / 2} \sum_{j=0}^{\infty} a_{j} \tau^{-j}
+\]
+
+где число $a_{j}$ равно линейной комбинации $2 j$-х смешанных производных амплитуды в нуле.
+
+Аналогично исследуются осциллирующие интегралы по полупространству. В этом случае вклад в асимптотику дают также критич. точки ограничения фазы на группу полупространства. Пусть амплитуда $\Phi(\cdot, \lambda)$ имеет компактный носитель, а фаза $F(\cdot, \lambda)$ и ее ограничение на границу полупространства не имеют критич. точек на носителе $\Phi(\cdot, \lambda)$. Тогда осциллирующий интеграл стремится к нулю быстрее любой степени $\tau$ при $t \rightarrow+\infty$ (область тени). Кроме областей света и тени в этом случае может появиться еще область полутени. Для $\lambda$ из этой области фаза $F(\cdot, \lambda)$ не имеет критич. точек, a еe ограничение на границу имеет невырожденные критич. точки 0. В этом случае интеграл называется интегралом Френеля по полупространству и имеет порядок $\tau^{-(n+1) / 2}$. Если носитель амплитуды содержит только одну такую критич. точку, то главный член асимптотики имеет вид:
+
+\[
+\begin{aligned}
+&amp; \varphi(0)(i \tau)^{-1}(2 \pi / \tau)^{(n-1) / 2} \exp (i \tau f(0)+ \\
++ &amp; \left.(i \pi / 4) \operatorname{sign} \tilde{f}_{x^{\prime} x^{\prime}}^{\prime \prime}(0)\right)+\left|\operatorname{det} \tilde{f_{x^{\prime} x^{\prime}}^{\prime \prime}}(0)\right|^{-1 / 2},
+\end{aligned}
+\]
+
+где sign $\widetilde{f}_{x^{\prime \prime} x^{\prime}}(0)$ - сигнатура матрицы вторых частных производных ограничения $f$ на границу, a $\operatorname{det} \widetilde{f}_{x^{\prime \prime} x^{\prime}}(0)-$ еe определитель.
+
+Лит.: [1] Ги йем ин В., Сте рнберr С., Геометрические асимптотики, пер. с англ., М., 1981; [2] Варченко А. Н., «Функциональный анализ и его прилож.», 1976, т. 10, № 3, с. 13-38; [3] Фе дорюк М. В., Асимптотика. Интегралы и ряды, М., 1987; [4] Арнольд В.И., Варченко А.Н., Гусейн-3аде С.М., Особенности дифференцируемых отображений. Монодромии и асимптотики интегралов, М., $1984 . \quad$ С. В. Чмутов.</text_orig>
+</article>

@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1644_LOKAL'NO" alphabetic_pos="1646">
+  <title>ЛОКАЛЬНО ВОЗМУЩЕННЫЕ РАВНОВЕСНЫЕ ФУНКЦИИ РАСПРЕДЕЛЕНИЯ</title>
+  <authors>
+    <author>П. В. Малымев</author>
+  </authors>
+  <pages>
+    <start>331</start>
+    <end>331</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Петринад.Я., Герасименко В. И., Малыше в П. В., Математические основы классической статистической механики, Киев, $1985 . \quad$</literature_orig>
+    <unit>
+      <author>Петринад. Я.</author>
+      <author>Герасименко В. И.</author>
+      <author>Малышев П. В.</author>
+      <title>Математические основы классической статистической механики, Киев</title>
+      <publication/>
+      <year>1985</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1644_1_LOKAL'NO">\begin{gathered}F_{\Lambda, s}\left(x_{1}, p_{1} ; \ldots ; x_{s}, p_{s}\right)=\Xi_{\mathrm{B}}^{-1}(\Lambda)\left\{1+\sum_{n=1}^{\infty} \frac{1}{n !} \int_{\Lambda^{n}} d x_{s+1} \ldots d x_{s+n} \times\right. \\\times \int_{\mathbb{R}^{v n}} d p_{s+1} \ldots d p_{s+n} \Psi_{\Lambda, s+n}\left(x_{1}, p_{1} ; \ldots ; x_{s+n}, p_{s+n}\right) \times \\\left.\times \delta \Psi_{\Lambda, s+n}\left(x_{1}, p_{1} ; \ldots ; x_{s+n}, p_{s+n}\right)\right\}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1644_2_LOKAL'NO">\begin{gathered}\Psi_{\Lambda, m}\left(x_{1}, p_{1} ; \ldots ; x_{m}, p_{m}\right)= \\=\exp \left\{-\beta \sum_{i=1}^{m} \frac{p_{i}^{2}}{2 m}-\beta U\left(x_{1}, \ldots, x_{m}\right)+\beta \mu n\right\}, m \geqslant 1,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1644_3_LOKAL'NO">\delta \Psi_{\Lambda, m}\left(x_{1}, p_{1} ; \ldots ; x_{m}, p_{m}\right), m \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1644_4_LOKAL'NO">\sup _{m} \sup _{x_{1}, \ldots, x_{m}}\left|\delta \Psi_{\Lambda, m}\left(x_{1}, p_{1} ; \ldots ; x_{m}, p_{m}\right)\right| \leqslant C ;</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1644_5_LOKAL'NO">\begin{aligned}&amp; \Xi_{\mathrm{B}}(\Lambda)=1+\sum_{n=1}^{\infty} \frac{1}{n !} \int_{\Lambda^{n}} d x_{1} \ldots d x_{n} \int_{\mathbb{R}^{v n}} d p_{1} \ldots d p_{n} \times \\&amp; \times \Psi_{\Lambda, n}\left(x_{1}, p_{1} ; \ldots ; x_{n}, p_{n}\right) \delta \Psi_{\Lambda, n}\left(x_{1}, p_{1} ; \ldots ; x_{n}, p_{n}\right) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1644_6_LOKAL'NO">\lim _{V(\Lambda) \rightarrow \infty} \Xi(\Lambda) \Xi_{\mathrm{B}}^{-1}(\Lambda)=\lim _{V(\Lambda) \rightarrow \infty} C_{1}(V(\Lambda))=C_{1}&lt;\infty,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1644_7_LOKAL'NO">\delta \Psi_{m}\left(x_{1}, p_{1} ; \ldots ; x_{m}, p_{m}\right)=\exp \left(-\beta \sum_{i=1}^{m} h\left(x_{i}\right)\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_1_LOKAL'NO">x_{i} \in \Lambda \subset \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_2_LOKAL'NO">p_{i} \in \mathbb{R}^{v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_3_LOKAL'NO">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_4_LOKAL'NO">u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_5_LOKAL'NO">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_6_LOKAL'NO">\mu-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_7_LOKAL'NO">\beta=(k T)^{-1}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_8_LOKAL'NO">\xi_{\mathrm{b}}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_9_LOKAL'NO">\xi(\lambda)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_10_LOKAL'NO">\delta \Psi_{m} \equiv 1, m \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1644_11_LOKAL'NO">h(x)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1644_1_LOKAL'NO">
+      <rel_text>Гиббса распределения</rel_text>
+      <target>http://libmeta.ru/fme/article/604_GIBBSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1644_2_LOKAL'NO">
+      <rel_text>состояния</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1644_3_LOKAL'NO">
+      <rel_text>функции распределения большого</rel_text>
+      <target>http://libmeta.ru/fme/article/257_BOL'TsMANA</target>
+    </relation>
+  </relations>
+  <text>последовательность распределения вероятностей частичных (приведенных) функций вида (для большого канонического ансамбля классических статистических систем):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1644_1_LOKAL'NO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1644_1_LOKAL'NO]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1644_2_LOKAL'NO]]/URI$ - соответственно, координата и импульс $URI[[http://libmeta.ru/fme/formula/aux/1644_3_LOKAL'NO]]/URI$-й частицы;
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1644_2_LOKAL'NO]]/URI
+\]
+
+- последовательность Больцмана функций ( $URI[[http://libmeta.ru/fme/formula/aux/1644_4_LOKAL'NO]]/URI$ - потенциальная энергия, $URI[[http://libmeta.ru/fme/formula/aux/1644_5_LOKAL'NO]]/URI$ - масса частиц, $URI[[http://libmeta.ru/fme/formula/aux/1644_6_LOKAL'NO]]/URI$ химический потенциал, $URI[[http://libmeta.ru/fme/formula/aux/1644_7_LOKAL'NO]]/URI$ обратная температура);
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1644_3_LOKAL'NO]]/URI
+\]
+
+- последовательность неотрицательных функций, определяющих возмущения функций Больцмана таких, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1644_4_LOKAL'NO]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1644_8_LOKAL'NO]]/URI$ - большая статистическая сумма, определяемая через возмущенные функции Больцмана, то есть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1644_5_LOKAL'NO]]/URI
+\]
+
+Выражение (1) определяет последовательность Л. в. р. Ф. р., если
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1644_6_LOKAL'NO]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1644_9_LOKAL'NO]]/URI$ - равновесная большая статистич. сумма [определяется формулой (2), если положить $URI[[http://libmeta.ru/fme/formula/aux/1644_10_LOKAL'NO]]/URI$; при этом (1) определяет равновесные URI[[http://libmeta.ru/fme/relation/1644_3_LOKAL'NO]]/URI канонич. ансамбля]. В случае канонич. ансамбля Л. в. р. ф. р. определяются аналогично. Термин «л. в. р. ф. р.» связан с тем, что термодинамич. функции, определенные по Л. в. р. Ф.р. и по равновесным функциям распределения, совпадают в термодинамич. пределе.
+
+Примером Л. в. р. ф. р. служат функции, определяемые, напр., через бесконечно малое возмущение $URI[[http://libmeta.ru/fme/formula/aux/1644_11_LOKAL'NO]]/URI$ так:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1644_7_LOKAL'NO]]/URI
+\]
+
+Условие локальности возмущения означает абсолютную непрерывность URI[[http://libmeta.ru/fme/relation/1644_2_LOKAL'NO]]/URI, определяемого Л. в. р. Ф. р., относительно соответствующего равновесного URI[[http://libmeta.ru/fme/relation/1644_1_LOKAL'NO]]/URI.</text>
+  <text_orig>последовательность распределения вероятностей частичных (приведенных) функций вида (для большого канонического ансамбля классических статистических систем):
+
+\[
+\begin{gathered}
+F_{\Lambda, s}\left(x_{1}, p_{1} ; \ldots ; x_{s}, p_{s}\right)=\Xi_{\mathrm{B}}^{-1}(\Lambda)\left\{1+\sum_{n=1}^{\infty} \frac{1}{n !} \int_{\Lambda^{n}} d x_{s+1} \ldots d x_{s+n} \times\right. \\
+\times \int_{\mathbb{R}^{v n}} d p_{s+1} \ldots d p_{s+n} \Psi_{\Lambda, s+n}\left(x_{1}, p_{1} ; \ldots ; x_{s+n}, p_{s+n}\right) \times \\
+\left.\times \delta \Psi_{\Lambda, s+n}\left(x_{1}, p_{1} ; \ldots ; x_{s+n}, p_{s+n}\right)\right\}
+\end{gathered}
+\]
+
+где $x_{i} \in \Lambda \subset \mathbb{R}^{v}$ и $p_{i} \in \mathbb{R}^{v}$ - соответственно, координата и импульс $i$-й частицы;
+
+\[
+\begin{gathered}
+\Psi_{\Lambda, m}\left(x_{1}, p_{1} ; \ldots ; x_{m}, p_{m}\right)= \\
+=\exp \left\{-\beta \sum_{i=1}^{m} \frac{p_{i}^{2}}{2 m}-\beta U\left(x_{1}, \ldots, x_{m}\right)+\beta \mu n\right\}, m \geqslant 1,
+\end{gathered}
+\]
+
+- последовательность Больцмана функиий ( $U$ - потенциальная энергия, $m$ - масса частиц, $\mu-$ химический потенциал, $\beta=(k T)^{-1}-$ обратная температура);
+
+\[
+\delta \Psi_{\Lambda, m}\left(x_{1}, p_{1} ; \ldots ; x_{m}, p_{m}\right), m \geqslant 1
+\]
+
+- последовательность неотрицательных функций, определяющих возмущения функций Больцмана таких, что
+
+\[
+\sup _{m} \sup _{x_{1}, \ldots, x_{m}}\left|\delta \Psi_{\Lambda, m}\left(x_{1}, p_{1} ; \ldots ; x_{m}, p_{m}\right)\right| \leqslant C ;
+\]
+
+$\Xi_{\mathrm{B}}(\Lambda)$ - большая статистическая сумма, определяемая через возмущенные функции Больцмана, то есть
+
+\[
+\begin{aligned}
+&amp; \Xi_{\mathrm{B}}(\Lambda)=1+\sum_{n=1}^{\infty} \frac{1}{n !} \int_{\Lambda^{n}} d x_{1} \ldots d x_{n} \int_{\mathbb{R}^{v n}} d p_{1} \ldots d p_{n} \times \\
+&amp; \times \Psi_{\Lambda, n}\left(x_{1}, p_{1} ; \ldots ; x_{n}, p_{n}\right) \delta \Psi_{\Lambda, n}\left(x_{1}, p_{1} ; \ldots ; x_{n}, p_{n}\right) .
+\end{aligned}
+\]
+
+Выражение (1) определяет последовательность Л. в. р. Ф. р., если
+
+\[
+\lim _{V(\Lambda) \rightarrow \infty} \Xi(\Lambda) \Xi_{\mathrm{B}}^{-1}(\Lambda)=\lim _{V(\Lambda) \rightarrow \infty} C_{1}(V(\Lambda))=C_{1}&lt;\infty,
+\]
+
+$\Xi(\Lambda)$ - равновесная большая статистич. сумма [определяется формулой (2), если положить $\delta \Psi_{m} \equiv 1, m \geqslant 1$; при этом (1) определяет равновесные функции распределения большого канонич. ансамбля]. В случае канонич. ансамбля Л. в. р. ф. р. определяются аналогично. Термин «Л. в. р. ф. р.» связан с тем, что термодинамич. функции, определенные по Л. в. р. Ф.р. и по равновесным функииям распределения, совпадают в термодинамич. пределе.
+
+Примером Л. в. р. ф. р. служат функции, определяемые, напр., через бесконечно малое возмущение $h(x)$ так:
+
+\[
+\delta \Psi_{m}\left(x_{1}, p_{1} ; \ldots ; x_{m}, p_{m}\right)=\exp \left(-\beta \sum_{i=1}^{m} h\left(x_{i}\right)\right),
+\]
+
+Условие локальности возмущения означает абсолютную непрерывность состояния, определяемого Л. в. р. Ф. р., относительно соответствующего равновесного Гиббса распределения.
+
+Лит.: [1] ПетринаД.Я., Герасименко В. И., Малыше в П. В., Математические основы классической статистической механики, Киев, $1985 . \quad$ П. В. Малымев.</text_orig>
+</article>

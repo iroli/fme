@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3071_TETA-FUNKTsIJa," alphabetic_pos="3073">
+  <title>ТЕТА-ФУНКЦИЯ, $\quad \boldsymbol{\theta}$-ФУНКЦИЯ</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>604</start>
+    <end>605</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3071_1_TETA-FUNKTsIJa,">\theta(z+\omega)=\theta(z), \theta(z+\omega \tau)=\varphi(z) \theta(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3071_2_TETA-FUNKTsIJa,">\theta(z)=\sum_{n \in \mathbb{Z}} c_{n} \exp \left(\frac{2 \pi i n}{\omega} z\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3071_3_TETA-FUNKTsIJa,">\varphi(z)=q \exp (-2 \pi i k z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3071_4_TETA-FUNKTsIJa,">c_{n}=\exp \left(a n^{2}+2 b n+c\right), \operatorname{Re} a&lt;0 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3071_5_TETA-FUNKTsIJa,">\left.\begin{array}{c}\theta(z+1)=\theta(z) \\\tau)=\exp (-2 \pi i k z) \theta(z)\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3071_6_TETA-FUNKTsIJa,">\begin{gathered}\theta_{r}(z)=\sum_{s \in \mathbb{Z}} \exp [\pi i \tau s(k(s-1)+2 r)+2 \pi i(k s+r) z], \\r=0,1, \ldots, k-1 .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_1_TETA-FUNKTsIJa,">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_2_TETA-FUNKTsIJa,">\theta(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_3_TETA-FUNKTsIJa,">\omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_4_TETA-FUNKTsIJa,">\omega \tau, \operatorname{Im} \tau&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_5_TETA-FUNKTsIJa,">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_6_TETA-FUNKTsIJa,">c_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_7_TETA-FUNKTsIJa,">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_8_TETA-FUNKTsIJa,">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_9_TETA-FUNKTsIJa,">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3071_10_TETA-FUNKTsIJa,">k</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/3071_1_TETA-FUNKTsIJa,">
+      <rel_text>Якоби эллиптические функции</rel_text>
+      <target>http://libmeta.ru/fme/article/3577_JaKOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3071_2_TETA-FUNKTsIJa,">
+      <rel_text>векторное пространство размерности</rel_text>
+      <target>http://libmeta.ru/fme/article/2513_RAZMERNOST'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3071_3_TETA-FUNKTsIJa,">
+      <rel_text>составляют</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+  </relations>
+  <text>одного комплексного переменного - квазидвоякопериодическая целая функция комплексного переменного $URI[[http://libmeta.ru/fme/formula/aux/3071_1_TETA-FUNKTsIJa,]]/URI$, то есть функция $URI[[http://libmeta.ru/fme/formula/aux/3071_2_TETA-FUNKTsIJa,]]/URI$, имеющая кроме периода $URI[[http://libmeta.ru/fme/formula/aux/3071_3_TETA-FUNKTsIJa,]]/URI$ еще квазипериод $URI[[http://libmeta.ru/fme/formula/aux/3071_4_TETA-FUNKTsIJa,]]/URI$, при прибавлении которого к значению аргумента значение функции умножается на некоторый мультипликатор. Иначе говоря, имеют место тождества по $URI[[http://libmeta.ru/fme/formula/aux/3071_5_TETA-FUNKTsIJa,]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3071_1_TETA-FUNKTsIJa,]]/URI
+\]
+
+Как периодич. целая функция, Т.-ф. всегда представима рядом
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3071_2_TETA-FUNKTsIJa,]]/URI
+\]
+
+в к-ром подбор коэффициентов $URI[[http://libmeta.ru/fme/formula/aux/3071_6_TETA-FUNKTsIJa,]]/URI$ должен обеспечивать сходимость. Ряды (1) называются тета-рядами (по причине первоначальных обозначений). Возможны и иные представления Т.-ф., напр. в виде бесконечного произведения.
+
+В приложениях обычно ограничиваются мультипликаторами вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3071_3_TETA-FUNKTsIJa,]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3071_7_TETA-FUNKTsIJa,]]/URI$ - натуральное число, называемое порядком или в е со м Т.-ф., $URI[[http://libmeta.ru/fme/formula/aux/3071_8_TETA-FUNKTsIJa,]]/URI$ - числовой множитель. Сходимость обеспечивается, напр., коэффициентами вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3071_4_TETA-FUNKTsIJa,]]/URI
+\]
+
+Во многих вопросах удобны Т.-ф., удовлетворяющие условиям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3071_5_TETA-FUNKTsIJa,]]/URI
+\]
+
+Все Т.-ф. вида (2) одного и того же порядка $URI[[http://libmeta.ru/fme/formula/aux/3071_9_TETA-FUNKTsIJa,]]/URI$ URI[[http://libmeta.ru/fme/relation/3071_3_TETA-FUNKTsIJa,]]/URI URI[[http://libmeta.ru/fme/relation/3071_2_TETA-FUNKTsIJa,]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3071_10_TETA-FUNKTsIJa,]]/URI$. Базис этого пространства можно записать в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3071_6_TETA-FUNKTsIJa,]]/URI
+\]
+
+Отдельные примеры Т.-ф. встречаются уже в работах Я. Бернулли (j. Bernoulli, 1713), Л. Эйлера (l. Euler), в теории теплопроводности Ж. Фурье (ј. Fourier). К. Якоби (с. Jacobi) подверг Т.-ф. систематич. исследованию, выделил четыре специальные Т.-ф., к-рые и положил в основу своей теории эллиптич. функций (см. URI[[http://libmeta.ru/fme/relation/3071_1_TETA-FUNKTsIJa,]]/URI).</text>
+  <text_orig>одного комплексного переменного - квазидвоякопериодическая целая функция комплексного переменного $z$, то есть функция $\theta(z)$, имеюшая кроме периода $\omega$ еще квазипериод $\omega \tau, \operatorname{Im} \tau&gt;0$, при прибавлении которого к значению аргумента значение функции умножается на некоторый мультипликатор. Иначе говоря, имеют место тождества по $z$ :
+
+\[
+\theta(z+\omega)=\theta(z), \theta(z+\omega \tau)=\varphi(z) \theta(z)
+\]
+
+Как периодич. целая функция, Т.-ф. всеғда представима рядом
+
+\[
+\theta(z)=\sum_{n \in \mathbb{Z}} c_{n} \exp \left(\frac{2 \pi i n}{\omega} z\right),
+\]
+
+в к-ром подбор коэффициентов $c_{n}$ должен обеспечивать сходимость. Ряды (1) называются тета-рядами (по причине первоначальных обозначений). Возможны и иные представления Т.-ф., напр. в виде бесконечного произведения.
+
+В приложениях обычно ограничиваются мультипликаторами вида
+
+\[
+\varphi(z)=q \exp (-2 \pi i k z)
+\]
+
+где $k$ - натуральное число, называемое порядком или в е со м Т.-ф., $q$ - числовой множитель. Сходимость обеспечивается, напр., коэффициентами вида:
+
+\[
+c_{n}=\exp \left(a n^{2}+2 b n+c\right), \operatorname{Re} a&lt;0 .
+\]
+
+Во многих вопросах удобны Т.-ф., удовлетворяющие условиям
+
+\[
+\left.\begin{array}{c}
+\theta(z+1)=\theta(z) \\
+\tau)=\exp (-2 \pi i k z) \theta(z)
+\end{array}\right\}
+\]
+
+Все Т.-ф. вида (2) одного и того же порядка $k$ составляют векторное пространство размерности $k$. Базис этого пространства можно записать в виде
+
+\[
+\begin{gathered}
+\theta_{r}(z)=\sum_{s \in \mathbb{Z}} \exp [\pi i \tau s(k(s-1)+2 r)+2 \pi i(k s+r) z], \\
+r=0,1, \ldots, k-1 .
+\end{gathered}
+\]
+
+Отдельные примеры Т.-ф. встречаются уже в работах Я. Бернулли (J. Bernoulli, 1713), Л. Эйлера (L. Euler), в теории теплопроводности Ж. Фурье (Ј. Fourier). К. Якоби (С. Jacobi) подверг Т.-ф. систематич. исследованию, выделил четыре специальные Т.-ф., к-рые и положил в основу своей теории эллиптич. функций (см. Якоби эллиптические функции).
+
+Е. Д. Соломенцев.</text_orig>
+</article>

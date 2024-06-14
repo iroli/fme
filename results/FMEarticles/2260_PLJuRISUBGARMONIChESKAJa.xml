@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2260_PLJuRISUBGARMONIChESKAJa" alphabetic_pos="2262">
+  <title>ПЛЮРИСУБГАРМОНИЧЕСКАЯ ФУНКЦИЯ</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>448</start>
+    <end>449</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] В лад и м и р о в В. С., Методы теории функций многих комплексных переменных, М., $1964 . \quad$</literature_orig>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Методы теории функций многих комплексных переменных</title>
+      <publication>М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2260_1_PLJuRISUBGARMONIChESKAJa">u(z) \leqslant \frac{1}{2 \pi} \int_{0}^{2 \pi} u\left(z+r e^{i \varphi} a\right) d \varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2260_2_PLJuRISUBGARMONIChESKAJa">H((z ; u) a, \bar{a})=\sum_{j, k=1}^{n} \frac{\partial^{2} u}{\partial z_{j} \partial \bar{z}_{k}} a_{j} a_{k}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_1_PLJuRISUBGARMONIChESKAJa">\boldsymbol{u}=\boldsymbol{u}(z),-\infty \leqslant u&lt;+\infty, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_2_PLJuRISUBGARMONIChESKAJa">z=\left(z_{1}, \ldots, z_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_3_PLJuRISUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_4_PLJuRISUBGARMONIChESKAJa">\mathbb{c}^{n}: n \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_5_PLJuRISUBGARMONIChESKAJa">u(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_6_PLJuRISUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_7_PLJuRISUBGARMONIChESKAJa">u\left(z^{0}+\lambda a\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_8_PLJuRISUBGARMONIChESKAJa">\lambda \in \mathbb{C}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_9_PLJuRISUBGARMONIChESKAJa">\left\{\lambda \in \mathbb{C}: z^{0}+\lambda a \in D\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_10_PLJuRISUBGARMONIChESKAJa">z^{0} \in D, a \in \mathbb{C}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_11_PLJuRISUBGARMONIChESKAJa">v(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_12_PLJuRISUBGARMONIChESKAJa">-v(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_13_PLJuRISUBGARMONIChESKAJa">n&gt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_14_PLJuRISUBGARMONIChESKAJa">n=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_15_PLJuRISUBGARMONIChESKAJa">\ln |f(z)|, \ln ^{+}|f(z)|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_16_PLJuRISUBGARMONIChESKAJa">|f(z)|^{p}, p \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_17_PLJuRISUBGARMONIChESKAJa">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_18_PLJuRISUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_19_PLJuRISUBGARMONIChESKAJa">d \subset \mathbb{C}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_20_PLJuRISUBGARMONIChESKAJa">u(z), u(z)&lt;+\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_21_PLJuRISUBGARMONIChESKAJa">z \in D, a \in \mathbb{C}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_22_PLJuRISUBGARMONIChESKAJa">|a|=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_23_PLJuRISUBGARMONIChESKAJa">\delta=\delta(z, a)&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_24_PLJuRISUBGARMONIChESKAJa">0&lt;r&lt;\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_25_PLJuRISUBGARMONIChESKAJa">u(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_26_PLJuRISUBGARMONIChESKAJa">c^{2}(d)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_27_PLJuRISUBGARMONIChESKAJa">u(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_28_PLJuRISUBGARMONIChESKAJa">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_29_PLJuRISUBGARMONIChESKAJa">\boldsymbol{u}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2260_30_PLJuRISUBGARMONIChESKAJa">z \in D</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/fme/relation/2260_1_PLJuRISUBGARMONIChESKAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2260_2_PLJuRISUBGARMONIChESKAJa">
+      <rel_text>голоморфная</rel_text>
+      <target>http://libmeta.ru/fme/article/672_GOLOVASTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2260_3_PLJuRISUBGARMONIChESKAJa">
+      <rel_text>составляют</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2260_4_PLJuRISUBGARMONIChESKAJa">
+      <rel_text>открытого множества</rel_text>
+      <target>http://libmeta.ru/fme/article/2139_OTKRYTOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2260_5_PLJuRISUBGARMONIChESKAJa">
+      <rel_text>субгармоническая функция</rel_text>
+      <target>http://libmeta.ru/fme/article/2983_SUBGARMONIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2260_6_PLJuRISUBGARMONIChESKAJa">
+      <rel_text>полунепрерывна</rel_text>
+      <target>http://libmeta.ru/fme/article/2306_POLUINVARIAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2260_7_PLJuRISUBGARMONIChESKAJa">
+      <rel_text>комплексного пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/1319_KOMPAKTNOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2260_8_PLJuRISUBGARMONIChESKAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>действительная функция $URI[[http://libmeta.ru/fme/formula/aux/2260_1_PLJuRISUBGARMONIChESKAJa]]/URI$ комплексных переменных $URI[[http://libmeta.ru/fme/formula/aux/2260_2_PLJuRISUBGARMONIChESKAJa]]/URI$ в URI[[http://libmeta.ru/fme/relation/2260_8_PLJuRISUBGARMONIChESKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2260_3_PLJuRISUBGARMONIChESKAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2260_7_PLJuRISUBGARMONIChESKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2260_4_PLJuRISUBGARMONIChESKAJa]]/URI$, удовлетворяющая условиям: 1) $URI[[http://libmeta.ru/fme/formula/aux/2260_5_PLJuRISUBGARMONIChESKAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2260_6_PLJuRISUBGARMONIChESKAJa]]/URI сверху всюду в $URI[[http://libmeta.ru/fme/formula/aux/2260_6_PLJuRISUBGARMONIChESKAJa]]/URI$; 2) $URI[[http://libmeta.ru/fme/formula/aux/2260_7_PLJuRISUBGARMONIChESKAJa]]/URI$ есть URI[[http://libmeta.ru/fme/relation/2260_5_PLJuRISUBGARMONIChESKAJa]]/URI переменного $URI[[http://libmeta.ru/fme/formula/aux/2260_8_PLJuRISUBGARMONIChESKAJa]]/URI$ в каждой связной компоненте URI[[http://libmeta.ru/fme/relation/2260_4_PLJuRISUBGARMONIChESKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2260_9_PLJuRISUBGARMONIChESKAJa]]/URI$ для любых фиксированных точек $URI[[http://libmeta.ru/fme/formula/aux/2260_10_PLJuRISUBGARMONIChESKAJa]]/URI$. Функция $URI[[http://libmeta.ru/fme/formula/aux/2260_11_PLJuRISUBGARMONIChESKAJa]]/URI$ называется плюрисупергармонической функц и е й, если $URI[[http://libmeta.ru/fme/formula/aux/2260_12_PLJuRISUBGARMONIChESKAJa]]/URI$ есть П. Ф. Плюрисубгармонич. функции при $URI[[http://libmeta.ru/fme/formula/aux/2260_13_PLJuRISUBGARMONIChESKAJa]]/URI$ URI[[http://libmeta.ru/fme/relation/2260_3_PLJuRISUBGARMONIChESKAJa]]/URI правильный подкласс класса субгармонич. функций, а при $URI[[http://libmeta.ru/fme/formula/aux/2260_14_PLJuRISUBGARMONIChESKAJa]]/URI$ эти два класса совпадают. Наиболее важные примеры П.ф.: $URI[[http://libmeta.ru/fme/formula/aux/2260_15_PLJuRISUBGARMONIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2260_16_PLJuRISUBGARMONIChESKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2260_17_PLJuRISUBGARMONIChESKAJa]]/URI$ - URI[[http://libmeta.ru/fme/relation/2260_2_PLJuRISUBGARMONIChESKAJa]]/URI функция в $URI[[http://libmeta.ru/fme/formula/aux/2260_18_PLJuRISUBGARMONIChESKAJa]]/URI$.
+
+Для того чтобы полунепрерывная сверху в URI[[http://libmeta.ru/fme/relation/2260_1_PLJuRISUBGARMONIChESKAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/2260_19_PLJuRISUBGARMONIChESKAJa]]/URI$ функция $URI[[http://libmeta.ru/fme/formula/aux/2260_20_PLJuRISUBGARMONIChESKAJa]]/URI$, была П. Ф., необходимо и достаточно, чтобы для любых фиксированных $URI[[http://libmeta.ru/fme/formula/aux/2260_21_PLJuRISUBGARMONIChESKAJa]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2260_22_PLJuRISUBGARMONIChESKAJa]]/URI$ существовало число $URI[[http://libmeta.ru/fme/formula/aux/2260_23_PLJuRISUBGARMONIChESKAJa]]/URI$ такое, что при $URI[[http://libmeta.ru/fme/formula/aux/2260_24_PLJuRISUBGARMONIChESKAJa]]/URI$ выполняется неравенство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2260_1_PLJuRISUBGARMONIChESKAJa]]/URI
+\]
+
+Для функций $URI[[http://libmeta.ru/fme/formula/aux/2260_25_PLJuRISUBGARMONIChESKAJa]]/URI$ класса $URI[[http://libmeta.ru/fme/formula/aux/2260_26_PLJuRISUBGARMONIChESKAJa]]/URI$ более удобен следующий критерий: $URI[[http://libmeta.ru/fme/formula/aux/2260_27_PLJuRISUBGARMONIChESKAJa]]/URI$ есть П.ф. в $URI[[http://libmeta.ru/fme/formula/aux/2260_28_PLJuRISUBGARMONIChESKAJa]]/URI$ тогда и только тогда, когда эрмитова форма (гессиан функции $URI[[http://libmeta.ru/fme/formula/aux/2260_29_PLJuRISUBGARMONIChESKAJa]]/URI$ )
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2260_2_PLJuRISUBGARMONIChESKAJa]]/URI
+\]
+
+неотрицательно определена в каждой точке $URI[[http://libmeta.ru/fme/formula/aux/2260_30_PLJuRISUBGARMONIChESKAJa]]/URI$.</text>
+  <text_orig>деЙствИтельная функция $\boldsymbol{u}=\boldsymbol{u}(z),-\infty \leqslant u&lt;+\infty, n$ комплексных переменных $z=\left(z_{1}, \ldots, z_{n}\right)$ в области $D$ комплексного пространства $\mathbb{C}^{n}: n \geqslant 1$, удовлетворяющая условиям: 1) $u(z)$ полунепрерывна сверху всюду в $D$; 2) $u\left(z^{0}+\lambda a\right)$ есть субгармоническая функция переменного $\lambda \in \mathbb{C}$ в каждой связной компоненте открытого множества $\left\{\lambda \in \mathbb{C}: z^{0}+\lambda a \in D\right\}$ для любых фиксированных точек $z^{0} \in D, a \in \mathbb{C}^{n}$. Функция $v(z)$ называется плюрисупергармонической функц и е й, если $-v(z)$ есть П. Ф. Плюрисубгармонич. функции при $n&gt;1$ составляют правильный подкласс класса субгармонич. функций, а при $n=1$ эти два класса совпадают. Наиболее важные примеры П.ф.: $\ln |f(z)|, \ln ^{+}|f(z)|$, $|f(z)|^{p}, p \geqslant 0$, где $f(z)$ - голоморфная функция в $D$.
+
+Для того чтобы полунепрерывная сверху в области $D \subset \mathbb{C}^{n}$ функция $u(z), u(z)&lt;+\infty$, была П. Ф., необходимо и достаточно, чтобы для любых фиксированных $z \in D, a \in \mathbb{C}^{n}$, $|a|=1$ существовало число $\delta=\delta(z, a)&gt;0$ такое, что при $0&lt;r&lt;\delta$ выполняется неравенство
+
+\[
+u(z) \leqslant \frac{1}{2 \pi} \int_{0}^{2 \pi} u\left(z+r e^{i \varphi} a\right) d \varphi
+\]
+
+Для функций $u(z)$ класса $C^{2}(D)$ более удобен следуюший критерий: $u(z)$ есть П.ф. в $D$ тогда и только тогда, когда эрмитова форма (гессиан функции $\boldsymbol{u}$ )
+
+\[
+H((z ; u) a, \bar{a})=\sum_{j, k=1}^{n} \frac{\partial^{2} u}{\partial z_{j} \partial \bar{z}_{k}} a_{j} a_{k}
+\]
+
+неотрицательно определена в каждой точке $z \in D$.
+
+Jum.: [1] В лад и м и р о в В. С., Методы теории функций многих комплексных переменных, М., $1964 . \quad$ Е.Д. Соломенцев.</text_orig>
+</article>

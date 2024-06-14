@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/479_VYPUKLAJa" alphabetic_pos="479">
+  <title>ВЫПУКЛАЯ ФУНКЦИЯ</title>
+  <authors>
+    <author>В. И. Нескоромный</author>
+  </authors>
+  <pages>
+    <start>106</start>
+    <end>106</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/479_1_VYPUKLAJa">\alpha f\left(x_{1}\right)+(1-\alpha) f\left(x_{2}\right) \leqslant f\left(\alpha x_{1}+(1-\alpha) x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/479_2_VYPUKLAJa">f_{l}^{\prime}\left(x_{2}\right) \leqslant\left(f\left(x_{2}\right)-f\left(x_{1}\right)\right)\left(x_{2}-x_{1}\right)^{-1} \leqslant f_{r}^{\prime}\left(x_{1}\right) ;</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_1_VYPUKLAJa">[a, b] \subset \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_2_VYPUKLAJa">x_{1}, x_{2} \in[a, b]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_3_VYPUKLAJa">\alpha \in[0,1]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_4_VYPUKLAJa">[a, b]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_5_VYPUKLAJa">(a, b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_6_VYPUKLAJa">[a, b]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_7_VYPUKLAJa">x \in(a, b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_8_VYPUKLAJa">f_{l}^{\prime}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_9_VYPUKLAJa">f_{r}^{\prime}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_10_VYPUKLAJa">x_{1}&lt;x_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_11_VYPUKLAJa">f^{\prime \prime}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_12_VYPUKLAJa">(a, b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/479_13_VYPUKLAJa">f^{\prime \prime}(x) \leqslant 0</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/479_1_VYPUKLAJa">
+      <rel_text>широко</rel_text>
+      <target>http://libmeta.ru/fme/article/3454_ShIROT</target>
+    </relation>
+  </relations>
+  <text>функция на $URI[[http://libmeta.ru/fme/formula/aux/479_1_VYPUKLAJa]]/URI$, график которой лежит выше хорды (выпуклая в в р рх), соединяющей любые две ее точки:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/479_1_VYPUKLAJa]]/URI
+\]
+
+для любых $URI[[http://libmeta.ru/fme/formula/aux/479_2_VYPUKLAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/479_3_VYPUKLAJa]]/URI$; аналогично определяется выпукла я вни 3 функщия. Выпуклая (вверх) на $URI[[http://libmeta.ru/fme/formula/aux/479_4_VYPUKLAJa]]/URI$ функция: непрерывна на $URI[[http://libmeta.ru/fme/formula/aux/479_5_VYPUKLAJa]]/URI$; почти всюду на $URI[[http://libmeta.ru/fme/formula/aux/479_6_VYPUKLAJa]]/URI$ дифференцируема; в каждой точке $URI[[http://libmeta.ru/fme/formula/aux/479_7_VYPUKLAJa]]/URI$ существуют левая $URI[[http://libmeta.ru/fme/formula/aux/479_8_VYPUKLAJa]]/URI$ и правая $URI[[http://libmeta.ru/fme/formula/aux/479_9_VYPUKLAJa]]/URI$ производные, причем для $URI[[http://libmeta.ru/fme/formula/aux/479_10_VYPUKLAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/479_2_VYPUKLAJa]]/URI
+\]
+
+если существует $URI[[http://libmeta.ru/fme/formula/aux/479_11_VYPUKLAJa]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/479_12_VYPUKLAJa]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/479_13_VYPUKLAJa]]/URI$.
+
+Указанные свойства легко обобщаются на случай выпуклых функционалов. Свойства В. ф. URI[[http://libmeta.ru/fme/relation/479_1_VYPUKLAJa]]/URI используются при доказательстве ряда аналитич. свойств термодинамич. потенциалов.</text>
+  <text_orig>функция на $[a, b] \subset \mathbb{R}^{1}$, график которой лежит выше хорды (выпуклая в в р рх), соединяющей любые две ее точки:
+
+\[
+\alpha f\left(x_{1}\right)+(1-\alpha) f\left(x_{2}\right) \leqslant f\left(\alpha x_{1}+(1-\alpha) x_{2}\right)
+\]
+
+для любых $x_{1}, x_{2} \in[a, b]$ и $\alpha \in[0,1]$; аналогично определяется выпукла я вни 3 функщия. Выпуклая (вверх) на $[a, b]$ функция: непрерывна на $(a, b)$; почти всюду на $[a, b]$ дифференцируема; в каждой точке $x \in(a, b)$ существуют левая $f_{l}^{\prime}(x)$ и правая $f_{r}^{\prime}(x)$ производные, причем для $x_{1}&lt;x_{2}$ :
+
+\[
+f_{l}^{\prime}\left(x_{2}\right) \leqslant\left(f\left(x_{2}\right)-f\left(x_{1}\right)\right)\left(x_{2}-x_{1}\right)^{-1} \leqslant f_{r}^{\prime}\left(x_{1}\right) ;
+\]
+
+если сушествует $f^{\prime \prime}(x)$ на $(a, b)$, то $f^{\prime \prime}(x) \leqslant 0$.
+
+Указанные свойства легко обобщаются на случай выпуклых функционалов. Свойства В. ф. широко используются при доказательстве ряда аналитич. свойств термодинамич. потенциалов.
+
+В. И. Нескоромный.</text_orig>
+</article>

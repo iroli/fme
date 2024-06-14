@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1767_METRIK" alphabetic_pos="1769">
+  <title>МЕТРИКА</title>
+  <authors/>
+  <pages>
+    <start>357</start>
+    <end>357</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1767_1_METRIK">\left[\sum_{i=1}^{n}\left(x^{i}-y^{i}\right)^{2}\right]^{1 / 2}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1767_1_METRIK">x, y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1767_2_METRIK">\rho(x, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1767_3_METRIK">\rho(x, y)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1767_4_METRIK">x=y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1767_5_METRIK">\rho(x, y)=\rho(y, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1767_6_METRIK">\rho(x, y)+\rho(y, z) \geqslant \rho(x, z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1767_7_METRIK">\rho(x, y)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1767_8_METRIK">x=y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1767_9_METRIK">\rho</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/1767_1_METRIK">
+      <rel_text>теории относительности</rel_text>
+      <target>http://libmeta.ru/fme/article/2144_OTNOSITEL'NOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1767_2_METRIK">
+      <rel_text>индефинитной метрикой</rel_text>
+      <target>http://libmeta.ru/fme/article/1014_INDEFINITNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1767_3_METRIK">
+      <rel_text>скалярным произведением</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1767_4_METRIK">
+      <rel_text>гильбертова пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/623_GIL'BERTOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1767_5_METRIK">
+      <rel_text>пространства определяются</rel_text>
+      <target>http://libmeta.ru/fme/article/2564_RASShIRENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1767_6_METRIK">
+      <rel_text>пространства в криволинейных</rel_text>
+      <target>http://libmeta.ru/fme/article/1526_LAME</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1767_7_METRIK">
+      <rel_text>евклидова пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/920_EVKLIDOVO</target>
+    </relation>
+  </relations>
+  <text>обобщение понятия расстояния между точками евклидова пространства на множества, в которых можно ввести М. (метрические пространства). Для точек $URI[[http://libmeta.ru/fme/formula/aux/1767_1_METRIK]]/URI$ такого пространства М. $URI[[http://libmeta.ru/fme/formula/aux/1767_2_METRIK]]/URI$ - это действительная неотрицательная функция, удовлетворяющая условиям:
+
+1) $URI[[http://libmeta.ru/fme/formula/aux/1767_3_METRIK]]/URI$ лишь при $URI[[http://libmeta.ru/fme/formula/aux/1767_4_METRIK]]/URI$;
+
+2) $URI[[http://libmeta.ru/fme/formula/aux/1767_5_METRIK]]/URI$
+
+3) $URI[[http://libmeta.ru/fme/formula/aux/1767_6_METRIK]]/URI$.
+
+Вид М. зависит как от самого пространства, так и от выбора системы координат в нем. Простейший пример М.- расстояние
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1767_1_METRIK]]/URI
+\]
+
+в декартовых координатах URI[[http://libmeta.ru/fme/relation/1767_7_METRIK]]/URI. М. евклидова URI[[http://libmeta.ru/fme/relation/1767_6_METRIK]]/URI координатах и М. риманова URI[[http://libmeta.ru/fme/relation/1767_5_METRIK]]/URI метрическим тензором. М. URI[[http://libmeta.ru/fme/relation/1767_4_METRIK]]/URI задается его нормой (или URI[[http://libmeta.ru/fme/relation/1767_3_METRIK]]/URI). Понятие М. применяется и в тех случаях, когда не все условия 1)-3) выполнены: напр., если $URI[[http://libmeta.ru/fme/formula/aux/1767_7_METRIK]]/URI$ не только при $URI[[http://libmeta.ru/fme/formula/aux/1767_8_METRIK]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/1767_9_METRIK]]/URI$ называют п с е в д о м е т р и кой. Если М. не является положительно определенной, то ее называют URI[[http://libmeta.ru/fme/relation/1767_2_METRIK]]/URI; физич. примером такой ситуации служит М. пространства Минковского в URI[[http://libmeta.ru/fme/relation/1767_1_METRIK]]/URI.</text>
+  <text_orig>обобщение понятия расстояния между точками евклидова пространства на множества, в которых можно ввести М. (метрические пространства). Для точек $x, y$ такого пространства М. $\rho(x, y)$ - это действительная неотрицательная функция, удовлетворяющая условиям:
+
+1) $\rho(x, y)=0$ лишь при $x=y$;
+
+2) $\rho(x, y)=\rho(y, x)$
+
+3) $\rho(x, y)+\rho(y, z) \geqslant \rho(x, z)$.
+
+Вид М. зависит как от самого пространства, так и от выбора системы координат в нем. Простейший пример М.- расстояние
+
+\[
+\left[\sum_{i=1}^{n}\left(x^{i}-y^{i}\right)^{2}\right]^{1 / 2}
+\]
+
+в декартовых координатах евклидова пространства. М. евклидова пространства в криволинейных координатах и М. риманова пространства определяются метрическим тензором. М. гильбертова пространства задается его нормой (или скалярным произведением). Понятие М. применяется и в тех случаях, когда не все условия 1)-3) выполнены: напр., если $\rho(x, y)=0$ не только при $x=y$, то $\rho$ называют п с е в д о м е т р и кой. Если М. не является положительно определенной, то ее называют индефинитной метрикой; физич. примером такой ситуации служит М. пространства Минковского в теории относительности.</text_orig>
+</article>

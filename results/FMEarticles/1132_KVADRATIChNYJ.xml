@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1132_KVADRATIChNYJ" alphabetic_pos="1134">
+  <title>КВАДРАТИЧНЫЙ ГАМИЛЬТОНИАН, КВАДРАТИЧНАЯ ФУНКЦИЯ ГАМИЛЬТОНА</title>
+  <authors>
+    <author>М. И. Войцеховский</author>
+  </authors>
+  <pages>
+    <start>240</start>
+    <end>240</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ар нол ь д В. И., Математические методы классической механики, М., $1979 . \quad$</literature_orig>
+    <unit>
+      <author>Арнольд В. И.</author>
+      <title>Математические методы классической механики</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1132_1_KVADRATIChNYJ">H=\frac{1}{2}(A x, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1132_2_KVADRATIChNYJ">\dot{x}=I A x,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1132_1_KVADRATIChNYJ">x=\left(p_{1}, \ldots, p_{n}, q_{1}, \ldots, q_{n}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1132_2_KVADRATIChNYJ">(\cdot, \cdot)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1132_3_KVADRATIChNYJ">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1132_4_KVADRATIChNYJ">i=\left\|\begin{array}{cc}0 &amp; -E \\ E &amp; 0\end{array}\right\|, E-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1132_5_KVADRATIChNYJ">(a,-a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1132_6_KVADRATIChNYJ">(i b,-i b)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1132_7_KVADRATIChNYJ">( \pm a, \pm i b)</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/1132_1_KVADRATIChNYJ">
+      <rel_text>Симплектическое</rel_text>
+      <target>http://libmeta.ru/fme/article/2754_SIMPLEKTIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1132_2_KVADRATIChNYJ">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1132_3_KVADRATIChNYJ">
+      <rel_text>симметрический</rel_text>
+      <target>http://libmeta.ru/fme/article/2741_SIMMETRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1132_4_KVADRATIChNYJ">
+      <rel_text>скалярное произведение</rel_text>
+      <target>http://libmeta.ru/fme/article/2792_SKALJaRNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1132_5_KVADRATIChNYJ">
+      <rel_text>симплектическом</rel_text>
+      <target>http://libmeta.ru/fme/article/2754_SIMPLEKTIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1132_6_KVADRATIChNYJ">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/fme/article/342_VEKTO</target>
+    </relation>
+  </relations>
+  <text>функция вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1132_1_KVADRATIChNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1132_1_KVADRATIChNYJ]]/URI$ URI[[http://libmeta.ru/fme/relation/1132_6_KVADRATIChNYJ]]/URI, записанный в URI[[http://libmeta.ru/fme/relation/1132_5_KVADRATIChNYJ]]/URI базисе (см. URI[[http://libmeta.ru/fme/relation/1132_1_KVADRATIChNYJ]]/URI пространство), $URI[[http://libmeta.ru/fme/formula/aux/1132_2_KVADRATIChNYJ]]/URI$ - URI[[http://libmeta.ru/fme/relation/1132_4_KVADRATIChNYJ]]/URI, $URI[[http://libmeta.ru/fme/formula/aux/1132_3_KVADRATIChNYJ]]/URI$ - URI[[http://libmeta.ru/fme/relation/1132_3_KVADRATIChNYJ]]/URI линейный URI[[http://libmeta.ru/fme/relation/1132_2_KVADRATIChNYJ]]/URI. Канонич. уравнения, соответствующие К. г., имеют вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1132_2_KVADRATIChNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1132_4_KVADRATIChNYJ]]/URI$ единичная матрица. Собственные числа К. г. бывают четырех типов: вещественные пары $URI[[http://libmeta.ru/fme/formula/aux/1132_5_KVADRATIChNYJ]]/URI$, чисто мнимые пары $URI[[http://libmeta.ru/fme/formula/aux/1132_6_KVADRATIChNYJ]]/URI$, четверки $URI[[http://libmeta.ru/fme/formula/aux/1132_7_KVADRATIChNYJ]]/URI$ и нулевые. См. также Квадратичный гамильтониан; нормальная форма.</text>
+  <text_orig>функция вида
+
+\[
+H=\frac{1}{2}(A x, x)
+\]
+
+где $x=\left(p_{1}, \ldots, p_{n}, q_{1}, \ldots, q_{n}\right)-$ вектор, записанный в симплектическом базисе (см. Симплектическое пространство), $(\cdot, \cdot)$ - скалярное произведение, $A$ - симметрический линейный оператор. Канонич. уравнения, соответствующие К. г., имеют вид
+
+\[
+\dot{x}=I A x,
+\]
+
+где $I=\left\|\begin{array}{cc}0 &amp; -E \\ E &amp; 0\end{array}\right\|, E-$ единичная матрица. Собственные числа К. г. бывают четырех типов: вешественные пары $(a,-a)$, чисто мнимые пары $(i b,-i b)$, четверки $( \pm a, \pm i b)$ и нулевые. См. также Квадратичный гамильтониан; нормальная форма.
+
+Лит.: [1] Ар нол ь д В. И., Математические методы классической механики, М., $1979 . \quad$ М. И. Войцеховский.</text_orig>
+</article>

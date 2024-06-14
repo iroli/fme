@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_173_BETA-FUNKTsIJa,">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_173_BETA-FUNKTsIJa,</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/821</core:url>
+    <lbm:descriptor><![CDATA[БЕТА-ФУНКЦИЯ, В-ФУНКЦИЯ, В-ФУНКЦИЯ ЭЙЛЕРА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1473"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6952"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6953"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6954"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6955"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_391"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_177"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6956"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_837"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6957"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6958"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>функция двух переменных $URI[[http://libmeta.ru/fme/formula/aux/173_1_BETA-FUNKTsIJa,]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/173_2_BETA-FUNKTsIJa,]]/URI$, определяемая при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6956">$$p>0, q>0$$</a> равенством<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6952">$$\mathrm{B}(p, q)=\int_{0}^{1} x^{p-1}(1-x)^{q-1} d x$$</a><BR/></P><P>Значения Б.-ф. при различных значениях параметров $URI[[http://libmeta.ru/fme/formula/aux/173_4_BETA-FUNKTsIJa,]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/173_5_BETA-FUNKTsIJa,]]/URI$ связаны между собой следующими соотношениями:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6953">$$\begin{aligned}& \mathrm{B}(p, q)=\mathrm{B}(q, p), \\& \mathrm{B}(p, q)=\frac{q-1}{p+q-1} \mathrm{~B}(p, q-1), \quad q>1 .\end{aligned}$$</a><BR/></P><P>Справедлива формула<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6954">$$\mathrm{B}(p, 1-p)=\frac{\pi}{\sin p \pi}, \quad 0<p<1 .$$</a><BR/></P><P>В случае комплексных $URI[[http://libmeta.ru/fme/formula/aux/173_6_BETA-FUNKTsIJa,]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/173_7_BETA-FUNKTsIJa,]]/URI$ интеграл $URI[[http://libmeta.ru/fme/formula/aux/173_8_BETA-FUNKTsIJa,]]/URI$ сходится, когда <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6957">$$\operatorname{re} p>0$$</a> и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6958">$$\operatorname{re} q>0$$</a>. Б.-ф. выражается через гамма-функцию:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_6955">$$\mathrm{B}(p, q)=\frac{\Gamma(p) \Gamma(q)}{\Gamma(p+q)} \text {. }$$</a><BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1473">В. И. Битюцков</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[функция двух переменных $p$ и $q$, определяемая при $p>0, q>0$ равенством
+
+\[
+\mathrm{B}(p, q)=\int_{0}^{1} x^{p-1}(1-x)^{q-1} d x
+\]
+
+Значения Б.-ф. при различных значениях параметров $p$ и $q$ связаны между собой следуюшими соотношениями:
+
+\[
+\begin{aligned}
+& \mathrm{B}(p, q)=\mathrm{B}(q, p), \\
+& \mathrm{B}(p, q)=\frac{q-1}{p+q-1} \mathrm{~B}(p, q-1), \quad q>1 .
+\end{aligned}
+\]
+
+Справедлива формула
+
+\[
+\mathrm{B}(p, 1-p)=\frac{\pi}{\sin p \pi}, \quad 0<p<1 .
+\]
+
+В случае комплексных $p$ и $q$ интеграл $\left({ }^{*}\right)$ сходится, когда $\operatorname{Re} p>0$ и $\operatorname{Re} q>0$. Б.-ф. выражается через гамма-функцию:
+
+\[
+\mathrm{B}(p, q)=\frac{\Gamma(p) \Gamma(q)}{\Gamma(p+q)} \text {. }
+\]
+
+В. И. Битюцков.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:Concept>
+</rdf:RDF>

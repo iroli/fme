@@ -1,0 +1,340 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1547_LAPLASA" alphabetic_pos="1549">
+  <title>ЛАПЛАСА ПРЕОБРАЗОВАНИЕ ОБОБЩЕННОЙ ФУНКЦИИ</title>
+  <authors>
+    <author>B. B. Жаринов</author>
+  </authors>
+  <pages>
+    <start>320</start>
+    <end>321</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] В ла д и м и р о в В. С., Обобщенные функции в математической физике, 2 изд., М., 1979; [2] Хе р м ан де р Л., Введение в теорию функций нескольких комплексных переменных, пер. с англ., М., 1968; [3] З е ман я н А. Г., Интегральные преобразования обобщенных функций, пер. с англ., М., 1974.</literature_orig>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Обобщенные функции в математической физике</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Хермандер Л.</author>
+      <title>Введение в теорию функций нескольких комплексных переменных</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Земанян А. Г.</author>
+      <title>Интегральные преобразования обобщенных функций</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_1_LAPLASA">e^{i z}(\zeta)=e^{i z \zeta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_2_LAPLASA">L[g](z)=\left(g, e^{i z}\right), z \in T^{O} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_3_LAPLASA">E(O)=\operatorname{limind}_{K \subset O} E(K),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_4_LAPLASA">|f|=\sup \left\{|f(z)| e^{-H_{K}(z)} ; z \in \mathbb{C}^{n}\right\},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_5_LAPLASA">L: x^{\prime}(O) \cong E(O)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_6_LAPLASA">E(\omega)=\underset{K \subset \omega}{\operatorname{limind} \lim } \operatorname{proj}_{\varepsilon} E_{\varepsilon}(K),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_7_LAPLASA">|f|=\sup \left\{|f(z)| e^{-H_{K}(z)-\varepsilon|z|} ; z \in \mathbb{C}^{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_8_LAPLASA">H_{K}(z)=\sup \{-y \zeta ; \zeta \in K\}, z=x+i y,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_9_LAPLASA">E_{\infty}(\omega)=\lim \text { ind } E_{p}(K),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_10_LAPLASA">|f|=\sup \left\{|f(z)| e^{-H_{K}(z)}(1+|z|)^{-p} ; z \in \mathbb{C}^{n}\right\},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_11_LAPLASA">C=\operatorname{int}\left\{y \in \mathbb{R}^{n} ; y \zeta \geqslant 0 \text { для всех } \zeta \in \Gamma\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1547_12_LAPLASA">L[f * g](z)=L[f](z) L[g](z), z \in T^{C},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_1_LAPLASA">\zeta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_2_LAPLASA">z</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_3_LAPLASA">t^{o}=\mathbb{r}^{n}+i O \subset \mathbb{C}^{n}, O-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_4_LAPLASA">\mathbb{r}^{n}, z \zeta=z_{1} \zeta_{1}+\ldots+z_{n} \zeta_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_5_LAPLASA">l[g]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_6_LAPLASA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_7_LAPLASA">f(z)=l[g](z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_8_LAPLASA">t^{o}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_9_LAPLASA">x(o), O-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_10_LAPLASA">\mathbb{c}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_11_LAPLASA">g \in x^{\prime}(O)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_12_LAPLASA">l[g](z), z \in \mathbb{C}^{n},-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_13_LAPLASA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_14_LAPLASA">e(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_15_LAPLASA">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_16_LAPLASA">h_{k}(z)=\sup \{\operatorname{Re} i z \zeta ; \zeta \in K\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_17_LAPLASA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_18_LAPLASA">e(o)=e(\operatorname{ch} O)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_19_LAPLASA">\operatorname{ch} O-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_20_LAPLASA">o</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_21_LAPLASA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_22_LAPLASA">x^{\prime}(o)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_23_LAPLASA">e(o)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_24_LAPLASA">o</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_25_LAPLASA">\mathscr{a}(\omega), \omega-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_26_LAPLASA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_27_LAPLASA">g \in \mathscr{A}^{\prime}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_28_LAPLASA">l[g]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_29_LAPLASA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_30_LAPLASA">e_{\varepsilon}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_31_LAPLASA">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_32_LAPLASA">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_33_LAPLASA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_34_LAPLASA">(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_35_LAPLASA">e(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_36_LAPLASA">\omega, L-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_37_LAPLASA">\mathscr{e}(\omega), \omega-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_38_LAPLASA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_39_LAPLASA">g \in \mathscr{E}^{\prime}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_40_LAPLASA">l[g]-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_41_LAPLASA">e_{p}(k)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_42_LAPLASA">f(z)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_43_LAPLASA">p=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_44_LAPLASA">k \subset \omega</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_45_LAPLASA">l-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_46_LAPLASA">\mathscr{e}^{\prime}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_47_LAPLASA">e_{\infty}(\omega)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_48_LAPLASA">\omega, L</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_49_LAPLASA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_50_LAPLASA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_51_LAPLASA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_52_LAPLASA">l[g]=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_53_LAPLASA">=l[h]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_54_LAPLASA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_55_LAPLASA">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_56_LAPLASA">\gamma \subset \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_57_LAPLASA">\mathscr{i}_{\gamma_{+}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_58_LAPLASA">\mathscr{4}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_59_LAPLASA">g \in \mathscr{I}_{\Gamma_{+}^{\prime}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_60_LAPLASA">\mathscr{l}\left(\gamma_{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_61_LAPLASA">\mathcal{g}\left(\gamma_{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_62_LAPLASA">e^{i z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_63_LAPLASA">z \in T^{C}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_64_LAPLASA">g \in \mathscr{I}_{\Gamma_{+}}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_65_LAPLASA">l[g]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_66_LAPLASA">t^{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_67_LAPLASA">l-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_68_LAPLASA">\mathscr{i}_{\gamma_{+}}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_69_LAPLASA">h_{+}(c)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_70_LAPLASA">f, g \in \mathscr{I}_{\Gamma_{+}}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_71_LAPLASA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_72_LAPLASA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_73_LAPLASA">g_{\gamma}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_74_LAPLASA">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_75_LAPLASA">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_76_LAPLASA">h(c)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1547_77_LAPLASA">\gamma</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/fme/relation/1547_1_LAPLASA">
+      <rel_text>алгебр</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1547_2_LAPLASA">
+      <rel_text>алгебру</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1547_3_LAPLASA">
+      <rel_text>распределений с носителем</rel_text>
+      <target>http://libmeta.ru/fme/article/3279_FINITNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1547_4_LAPLASA">
+      <rel_text>алгебр</rel_text>
+      <target>http://libmeta.ru/fme/article/47_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1547_5_LAPLASA">
+      <rel_text>изоморфизм</rel_text>
+      <target>http://libmeta.ru/fme/article/978_IZOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1547_6_LAPLASA">
+      <rel_text>Владимирова алгебру</rel_text>
+      <target>http://libmeta.ru/fme/article/418_VLADIMIROVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1547_7_LAPLASA">
+      <rel_text>сверточной алгебры</rel_text>
+      <target>http://libmeta.ru/fme/article/2685_SVERTOChNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1547_8_LAPLASA">
+      <rel_text>непрерывное отображение</rel_text>
+      <target>http://libmeta.ru/fme/article/1929_NEPRERYVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1547_9_LAPLASA">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+  </relations>
+  <text>преобразование Лапласа, определенное для обобщенных функций, основное пространство которых содержит ли н е й ны е экспон енты - функции вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_1_LAPLASA]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1547_1_LAPLASA]]/URI$ - вещественный или комплексный аргумент, $URI[[http://libmeta.ru/fme/formula/aux/1547_2_LAPLASA]]/URI$ - параметр, лежащий в трубчатой области $URI[[http://libmeta.ru/fme/formula/aux/1547_3_LAPLASA]]/URI$ область в $URI[[http://libmeta.ru/fme/formula/aux/1547_4_LAPLASA]]/URI$. В этом случае Л. П. $URI[[http://libmeta.ru/fme/formula/aux/1547_5_LAPLASA]]/URI$ обобщенной функции $URI[[http://libmeta.ru/fme/formula/aux/1547_6_LAPLASA]]/URI$ определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_2_LAPLASA]]/URI
+\]
+
+В нормальных условиях топология основного пространства обеспечивает аналитичность функции $URI[[http://libmeta.ru/fme/formula/aux/1547_7_LAPLASA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1547_8_LAPLASA]]/URI$.
+
+Л. П. обобщенных функций было введено Л. Шварцем (l. Schwartz) и Ж. Лионсом (j. Lions) в начале 50-х гг. 20 в. Оно широко применяется в аксиоматич. квантовой теории поля, в теории дифференциальных уравнений с частными производными, в тауберовой теории для обобщенных функций, при изучении граничных значений аналитич. Функций и в других областях математики и математич. физики.
+
+Л. П. аналитических функционалов. Основное пространство $URI[[http://libmeta.ru/fme/formula/aux/1547_9_LAPLASA]]/URI$ область в $URI[[http://libmeta.ru/fme/formula/aux/1547_10_LAPLASA]]/URI$, содержит все линейные экспоненты, так что для всякого аналитич. функционала $URI[[http://libmeta.ru/fme/formula/aux/1547_11_LAPLASA]]/URI$ определено Л. П. $URI[[http://libmeta.ru/fme/formula/aux/1547_12_LAPLASA]]/URI$ целая функция экспоненциального типа. Подробнее, пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_3_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1547_13_LAPLASA]]/URI$ - комплексный компакт, $URI[[http://libmeta.ru/fme/formula/aux/1547_14_LAPLASA]]/URI$ - банахово пространство всех целых функций $URI[[http://libmeta.ru/fme/formula/aux/1547_15_LAPLASA]]/URI$ с конечной нормой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_4_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1547_16_LAPLASA]]/URI$ опорная функция $URI[[http://libmeta.ru/fme/formula/aux/1547_17_LAPLASA]]/URI$. Очевидно, $URI[[http://libmeta.ru/fme/formula/aux/1547_18_LAPLASA]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1547_19_LAPLASA]]/URI$ выпуклая оболочка $URI[[http://libmeta.ru/fme/formula/aux/1547_20_LAPLASA]]/URI$. Л. П. $URI[[http://libmeta.ru/fme/formula/aux/1547_21_LAPLASA]]/URI$ есть линейное непрерывное отображение $URI[[http://libmeta.ru/fme/formula/aux/1547_22_LAPLASA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1547_23_LAPLASA]]/URI$. Если область $URI[[http://libmeta.ru/fme/formula/aux/1547_24_LAPLASA]]/URI$ выпуклая, то
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_5_LAPLASA]]/URI
+\]
+
+- топологич. изоморфизм.
+
+Л. П. вещественных аналитических функцио налов. Основное пространство $URI[[http://libmeta.ru/fme/formula/aux/1547_25_LAPLASA]]/URI$ область в $URI[[http://libmeta.ru/fme/formula/aux/1547_26_LAPLASA]]/URI$, содержит все линейные экспоненты, то есть и здесь для всякого $URI[[http://libmeta.ru/fme/formula/aux/1547_27_LAPLASA]]/URI$ определено Л. П. $URI[[http://libmeta.ru/fme/formula/aux/1547_28_LAPLASA]]/URI$ - целая функция экспоненциального типа. Подробнее, пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_6_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1547_29_LAPLASA]]/URI$ - вещественный компакт, $URI[[http://libmeta.ru/fme/formula/aux/1547_30_LAPLASA]]/URI$ - банахово пространство всех целых функций $URI[[http://libmeta.ru/fme/formula/aux/1547_31_LAPLASA]]/URI$ с конечной нормой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_7_LAPLASA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_8_LAPLASA]]/URI
+\]
+
+поскольку компакт $URI[[http://libmeta.ru/fme/formula/aux/1547_32_LAPLASA]]/URI$ вещественный. Тогда $URI[[http://libmeta.ru/fme/formula/aux/1547_33_LAPLASA]]/URI$ - линейное непрерывное инъективное отображение .d्' $URI[[http://libmeta.ru/fme/formula/aux/1547_34_LAPLASA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1547_35_LAPLASA]]/URI$, а в случае выпуклой области $URI[[http://libmeta.ru/fme/formula/aux/1547_36_LAPLASA]]/URI$ топологич. изоморфизм.
+
+Л. П. обобщенных функций с компактным н о с и те л е м. Основное пространство $URI[[http://libmeta.ru/fme/formula/aux/1547_37_LAPLASA]]/URI$ область в $URI[[http://libmeta.ru/fme/formula/aux/1547_38_LAPLASA]]/URI$, также содержит все линейные экспоненты, так что для всякой $URI[[http://libmeta.ru/fme/formula/aux/1547_39_LAPLASA]]/URI$ определено Л. П. $URI[[http://libmeta.ru/fme/formula/aux/1547_40_LAPLASA]]/URI$ целая функция экспоненциального типа. Подробнее, пусть
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_9_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1547_41_LAPLASA]]/URI$ - банахово пространство всех целых функций $URI[[http://libmeta.ru/fme/formula/aux/1547_42_LAPLASA]]/URI$ с конечной нормой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_10_LAPLASA]]/URI
+\]
+
+индуктивный предел берется по всем $URI[[http://libmeta.ru/fme/formula/aux/1547_43_LAPLASA]]/URI$, и компактам $URI[[http://libmeta.ru/fme/formula/aux/1547_44_LAPLASA]]/URI$. Тогда $URI[[http://libmeta.ru/fme/formula/aux/1547_45_LAPLASA]]/URI$ линейное непрерывное инъек- тивное отображение $URI[[http://libmeta.ru/fme/formula/aux/1547_46_LAPLASA]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1547_47_LAPLASA]]/URI$, а в случае выпуклой области $URI[[http://libmeta.ru/fme/formula/aux/1547_48_LAPLASA]]/URI$ - топологич. изоморфизм.
+
+Часто основное пространство, на к-ром определена данная обобщенная функция $URI[[http://libmeta.ru/fme/formula/aux/1547_49_LAPLASA]]/URI$, не содержит линейных экспонент, но $URI[[http://libmeta.ru/fme/formula/aux/1547_50_LAPLASA]]/URI$ допускает однозначное продолжение до линейного непрерывного функционала $URI[[http://libmeta.ru/fme/formula/aux/1547_51_LAPLASA]]/URI$ на более широком основном пространстве, уже содержащем линейные экспоненты. В этом случае полагают, по определению, $URI[[http://libmeta.ru/fme/formula/aux/1547_52_LAPLASA]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/1547_53_LAPLASA]]/URI$ (да и вообще, отождествляют $URI[[http://libmeta.ru/fme/formula/aux/1547_54_LAPLASA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1547_55_LAPLASA]]/URI$ ).
+
+Л. п. умеренных распределений с носител е м, ограниченным со стороны острого замкнутого конуса $URI[[http://libmeta.ru/fme/formula/aux/1547_56_LAPLASA]]/URI$ с вершиной в нуле, то есть элементов из $URI[[http://libmeta.ru/fme/formula/aux/1547_57_LAPLASA]]/URI$. Здесь основное пространство $URI[[http://libmeta.ru/fme/formula/aux/1547_58_LAPLASA]]/URI$ не содержит линейных экспонент, однако каждый функционал $URI[[http://libmeta.ru/fme/formula/aux/1547_59_LAPLASA]]/URI$ однозначно продолжается до линейного непрерывного функционала на основном пространстве $URI[[http://libmeta.ru/fme/formula/aux/1547_60_LAPLASA]]/URI$. Пространство $URI[[http://libmeta.ru/fme/formula/aux/1547_61_LAPLASA]]/URI$содержит линейные экспоненты $URI[[http://libmeta.ru/fme/formula/aux/1547_62_LAPLASA]]/URI$ при всех $URI[[http://libmeta.ru/fme/formula/aux/1547_63_LAPLASA]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_11_LAPLASA]]/URI
+\]
+
+- внутренность сопряженного к Г конуса, так что каждое $URI[[http://libmeta.ru/fme/formula/aux/1547_64_LAPLASA]]/URI$ имеет Л. п. $URI[[http://libmeta.ru/fme/formula/aux/1547_65_LAPLASA]]/URI$ - аналитическую в трубчатой URI[[http://libmeta.ru/fme/relation/1547_9_LAPLASA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1547_66_LAPLASA]]/URI$ функцию. Точнее, Л. П. $URI[[http://libmeta.ru/fme/formula/aux/1547_67_LAPLASA]]/URI$ линейное инъективное URI[[http://libmeta.ru/fme/relation/1547_8_LAPLASA]]/URI URI[[http://libmeta.ru/fme/relation/1547_7_LAPLASA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1547_68_LAPLASA]]/URI$ (см. Свертка) во URI[[http://libmeta.ru/fme/relation/1547_6_LAPLASA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1547_69_LAPLASA]]/URI$, причем
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1547_12_LAPLASA]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/fme/formula/aux/1547_70_LAPLASA]]/URI$. Если конус $URI[[http://libmeta.ru/fme/formula/aux/1547_71_LAPLASA]]/URI$ выпуклый, то $URI[[http://libmeta.ru/fme/formula/aux/1547_72_LAPLASA]]/URI$ - топологич. URI[[http://libmeta.ru/fme/relation/1547_5_LAPLASA]]/URI URI[[http://libmeta.ru/fme/relation/1547_4_LAPLASA]]/URI. В частности, подалгебру $URI[[http://libmeta.ru/fme/formula/aux/1547_73_LAPLASA]]/URI$ умеренных URI[[http://libmeta.ru/fme/relation/1547_3_LAPLASA]]/URI в конусе $URI[[http://libmeta.ru/fme/formula/aux/1547_74_LAPLASA]]/URI$ Л. п. $URI[[http://libmeta.ru/fme/formula/aux/1547_75_LAPLASA]]/URI$ отображает в URI[[http://libmeta.ru/fme/relation/1547_2_LAPLASA]]/URI Владимирова $URI[[http://libmeta.ru/fme/formula/aux/1547_76_LAPLASA]]/URI$ и является изоморфизмом URI[[http://libmeta.ru/fme/relation/1547_1_LAPLASA]]/URI для выпуклого $URI[[http://libmeta.ru/fme/formula/aux/1547_77_LAPLASA]]/URI$.</text>
+  <text_orig>преобразование Лапласа, определенное для обобценных функций, основное пространство которых содержит ли н е й ны е экспон енты - функции вида
+
+\[
+e^{i z}(\zeta)=e^{i z \zeta}
+\]
+
+$\zeta$ - вещественный или комплексный аргумент, $z$ - параметр, лежаший в трубчатой области $T^{O}=\mathbb{R}^{n}+i O \subset \mathbb{C}^{n}, O-$ область в $\mathbb{R}^{n}, z \zeta=z_{1} \zeta_{1}+\ldots+z_{n} \zeta_{n}$. В этом случае Л. П. $L[g]$ обобшенной функции $g$ определяется формулой
+
+\[
+L[g](z)=\left(g, e^{i z}\right), z \in T^{O} .
+\]
+
+В нормальных условиях топология основного пространства обеспечивает аналитичность функции $f(z)=L[g](z)$ в $T^{O}$.
+
+Л. П. обобщенных функций было введено Л. Шварцем (L. Schwartz) и Ж. Лионсом (J. Lions) в начале 50-х гг. 20 в. Оно широко применяется в аксиоматич. квантовой теории поля, в теории дифференциальных уравнений с частными производными, в тауберовой теории для обобщенных функций, при изучении граничных значений аналитич. Функций и в других областях математики и математич. физики.
+
+Л. П. аналитических функционалов. Основное пространство $x(O), O-$ область в $\mathbb{C}^{n}$, содержит все линейные экспоненты, так что для всякого аналитич. функционала $g \in x^{\prime}(O)$ определено Л. П. $L[g](z), z \in \mathbb{C}^{n},-$ целая функция экспоненциального типа. Подробнее, пусть
+
+\[
+E(O)=\operatorname{limind}_{K \subset O} E(K),
+\]
+
+где $K$ - комплексный компакт, $E(K)$ - банахово пространство всех целых функций $f(z)$ с конечной нормой
+
+\[
+|f|=\sup \left\{|f(z)| e^{-H_{K}(z)} ; z \in \mathbb{C}^{n}\right\},
+\]
+
+где $H_{K}(z)=\sup \{\operatorname{Re} i z \zeta ; \zeta \in K\}-$ опорная функция $K$. Очевидно, $E(O)=E(\operatorname{ch} O)$, где $\operatorname{ch} O-$ выпуклая оболочка $O$. Л. П. $L$ есть линейное непрерывное отображение $x^{\prime}(O)$ в $E(O)$. Если область $O$ выпуклая, то
+
+\[
+L: x^{\prime}(O) \cong E(O)
+\]
+
+- топологич. изоморфизм.
+
+Л. П. вешественных аналитических функцио налов. Основное пространство $\mathscr{A}(\omega), \omega-$ область в $\mathbb{R}^{n}$, содержит все линейные экспоненты, то есть и здесь для всякого $g \in \mathscr{A}^{\prime}(\omega)$ определено Л. П. $L[g]$ - целая функция экспоненциального типа. Подробнее, пусть
+
+\[
+E(\omega)=\underset{K \subset \omega}{\operatorname{limind} \lim } \operatorname{proj}_{\varepsilon} E_{\varepsilon}(K),
+\]
+
+где $K$ - вещественный компакт, $E_{\varepsilon}(K)$ - банахово пространство всех целых функций $f(z)$ с конечной нормой
+
+\[
+|f|=\sup \left\{|f(z)| e^{-H_{K}(z)-\varepsilon|z|} ; z \in \mathbb{C}^{n}\right\}
+\]
+
+где
+
+\[
+H_{K}(z)=\sup \{-y \zeta ; \zeta \in K\}, z=x+i y,
+\]
+
+поскольку компакт $K$ вещественный. Тогда $L$ - линейное непрерывное инъективное отображение .d्' $(\omega)$ в $E(\omega)$, а в случае выпуклой области $\omega, L-$ топологич. изоморфизм.
+
+Л. П. обобщенных функций с компактным н о с и те л е м. Основное пространство $\mathscr{E}(\omega), \omega-$ область в $\mathbb{R}^{n}$, также содержит все линейные экспоненты, так что для всякой $g \in \mathscr{E}^{\prime}(\omega)$ определено Л. П. $L[g]-$ целая функция экспоненциального типа. Подробнее, пусть
+
+\[
+E_{\infty}(\omega)=\lim \text { ind } E_{p}(K),
+\]
+
+где $E_{p}(K)$ - банахово пространство всех целых функций $f(z)$ с конечной нормой
+
+\[
+|f|=\sup \left\{|f(z)| e^{-H_{K}(z)}(1+|z|)^{-p} ; z \in \mathbb{C}^{n}\right\},
+\]
+
+индуктивный предел берется по всем $p=0,1,2, \ldots$, и компактам $K \subset \omega$. Тогда $L-$ линейное непрерывное инъек- тивное отображение $\mathscr{E}^{\prime}(\omega)$ в $E_{\infty}(\omega)$, а в случае выпуклой области $\omega, L$ - топологич. изоморфизм.
+
+Часто основное пространство, на к-ром определена данная обобщенная функция $g$, не содержит линейных экспонент, но $g$ допускает однозначное продолжение до линейного непрерывного функционала $h$ на более широком основном пространстве, уже содержащем линейные экспоненты. В этом случае полагают, по определению, $L[g]=$ $=L[h]$ (да и вообще, отождествляют $g$ и $h$ ).
+
+Л. п. умеренных распределений с носител е м, ограниченным со стороны острого замкнутого конуса $\Gamma \subset \mathbb{R}^{n}$ с вершиной в нуле, то есть элементов из $\mathscr{I}_{\Gamma_{+}}$. Здесь основное пространство $\mathscr{4}$ не содержит линейных экспонент, однако каждый функционал $g \in \mathscr{I}_{\Gamma_{+}^{\prime}}$ однозначно продолжается до линейного непрерывного функционала на основном пространстве $\mathscr{l}\left(\Gamma_{+}\right)$. Пространство $\mathcal{g}\left(\Gamma_{+}\right)$содержит линейные экспоненты $e^{i z}$ при всех $z \in T^{C}$, где
+
+\[
+C=\operatorname{int}\left\{y \in \mathbb{R}^{n} ; y \zeta \geqslant 0 \text { для всех } \zeta \in \Gamma\right\}
+\]
+
+- внутренность сопряженного к Г конуса, так что каждое $g \in \mathscr{I}_{\Gamma_{+}}^{\prime}$ имеет Л. п. $L[g]$ - аналитическую в трубчатой области $T^{C}$ функцию. Точнее, Л. П. $L-$ линейное инъективное непрерывное отображение сверточной алгебры $\mathscr{I}_{\Gamma_{+}}^{\prime}$ (см. Свертка) во Владимирова алгебру $H_{+}(C)$, причем
+
+\[
+L[f * g](z)=L[f](z) L[g](z), z \in T^{C},
+\]
+
+для всех $f, g \in \mathscr{I}_{\Gamma_{+}}^{\prime}$. Если конус $\Gamma$ выпуклый, то $L$ - топологич. изоморфизм алгебр. В частности, подалгебру $g_{\Gamma}^{\prime}$ умеренных распределений с носителем в конусе $\Gamma$ Л. п. $L$ отображает в алгебру Владимирова $H(C)$ и является изоморфизмом алгебр для выпууклого $\Gamma$.
+
+Лит.: [1] В ла д и м и р о в В. С., Обобшенные функции в математической физике, 2 изд., М., 1979; [2] Хе р м ан де р Л., Введение в теорию функций нескольких комплексных переменных, пер. с англ., М., 1968; [3] З е ман я н А. Г., Интегральные преобразования обобщенных функший, пер. с англ., М., 1974.
+
+B. B. Жаринов.</text_orig>
+</article>

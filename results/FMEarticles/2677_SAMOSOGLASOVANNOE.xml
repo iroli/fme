@@ -1,0 +1,306 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2677_SAMOSOGLASOVANNOE" alphabetic_pos="2679">
+  <title>САМОСОГЛАСОВАННОЕ ПОЛЕ; УРАВНЕНИЯ В КВАЗИКЛАССИЧЕСКОМ ПРИБЛИЖЕНИИ</title>
+  <authors>
+    <author>А. В. Перескоков</author>
+  </authors>
+  <pages>
+    <start>518</start>
+    <end>519</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М а с ло в В. П., Комплексные марковские цепи и континуальный интеграл Фейнмана, М., 1976; [2] е го же, в кн.: Итоги науки и техники. Современные проблемы математики, т. 11, М., 1978, с. 153-234; [3] Ка расев М.В., Маслов В. П., там же, т. 13, М., 1979, с. 145-267.</literature_orig>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>Комплексные марковские цепи и континуальный интеграл Фейнмана</title>
+      <publication>М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>е го же, в кн.: Итоги науки и техники. Современные проблемы математики</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other>т. 11, с. 153-234</other>
+    </unit>
+    <unit>
+      <author>Карасев М. В.</author>
+      <author>Маслов В. П.</author>
+      <title>там же</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other>т. 13, с. 145-267.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_1_SAMOSOGLASOVANNOE">\left.\begin{array}{c}-i h \frac{\partial \psi}{\partial t}-h^{2} \Delta \psi+\left(\int V(x-y)|\psi(y, t)|^{2} d y\right) \psi=0, \\\left.\psi\right|_{t=0}=e^{\frac{i}{h} S_{0}} \chi_{0}, \quad t&gt;0, \quad x \in \mathbb{R}^{n} .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_2_SAMOSOGLASOVANNOE">\psi(x, t)=e^{\frac{i}{h} S(x, t)} \varphi(x, t, h),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_3_SAMOSOGLASOVANNOE">\left.\begin{array}{l}\frac{\partial^{2} x^{0}(g, t)}{\partial t^{2}}+2 \int \frac{\partial V}{\partial x}\left(x^{0}(g, t)-x^{0}(y, t)\right) \chi_{0}^{2}(y) d y=0, \\x^{0}(g, 0)=g, \quad \frac{\partial x^{0}}{\partial t}(g, 0)=\nabla S_{0}(g),\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_4_SAMOSOGLASOVANNOE">\begin{aligned}&amp; \tilde{S}(g, t)=S_{0}(g)+\int_{0}^{t}\left[\frac{1}{4}\left|\frac{\partial x^{0}(g, \tau)}{\partial \tau}\right|^{2}-\right. \\&amp; \left.-\int V\left(x^{0}(g, \tau)-x^{0}(y, \tau)\right) \chi_{0}^{2}(y) d y\right] d \tau .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_5_SAMOSOGLASOVANNOE">\begin{gathered}\psi(x, t, h)= \\=\left[\exp \left\{\frac{i}{h} \tilde{S}(g, t)\right\} \chi_{0}^{2}(g) /\left(\frac{D x(g, t)}{D g}\right)^{1 / 2}\right]_{g=\left(x^{0}\right)^{-1}(x, t)}+O(h),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_6_SAMOSOGLASOVANNOE">\begin{gathered}x=x^{0}(g, t), \quad p=\frac{1}{2} \frac{\partial x^{0}(g, t)}{\partial t}, \\p^{t}=-\frac{1}{4}\left|\frac{\partial x^{0}(g, t)}{\partial t}\right|^{2}-\int V\left(x^{0}(g, t)-x^{0}(y, t)\right) \chi_{0}^{2}(y) d y,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_7_SAMOSOGLASOVANNOE">\left.\begin{array}{c}\left(h^{2} \Delta_{x}+\frac{\mu}{|x|}+(1-\mu) \int \frac{|\varphi(y)|^{2}}{|x-y|} d y-1\right) \varphi(x)=0, \\\|\varphi\|_{L_{2}}=1, \quad x \in \mathbb{R}^{3},\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_8_SAMOSOGLASOVANNOE">\begin{gathered}\omega^{\prime \prime}(r)=k / \sqrt{r \omega(r)}, \quad r \in(0,1), \\\omega(0)=\mu, \quad \omega(1)=0, \quad \omega^{\prime}(1)=-1,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_9_SAMOSOGLASOVANNOE">p_{r}^{2}=\frac{1}{r} \omega_{k}(r), \quad 0&lt;r \leqslant 1 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_10_SAMOSOGLASOVANNOE">h=\sigma / 2 n, n=1,2, \ldots,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_11_SAMOSOGLASOVANNOE">\sigma=\frac{2}{\pi} \int_{0}^{1} \sqrt{\frac{\omega_{k}(r)}{r}} d r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_12_SAMOSOGLASOVANNOE">\begin{gathered}\chi_{n}(r)=4\left(\frac{|k| n}{\pi \sigma|\mu-1|}\right)^{1 / 2} \times \\\times \int_{0}^{\infty} d p \frac{r(p)}{\sqrt{|J(r(p))|}} \sin \left(\frac{2 r p n}{\sigma}\right) \sin \left(\frac{2 n}{\sigma} \int_{0}^{p} r\left(p^{\prime}\right) d p^{\prime}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_13_SAMOSOGLASOVANNOE">J(r)=k \int_{0}^{r} \frac{\sqrt{r^{\prime}} d r^{\prime}}{\sqrt{\omega_{k}\left(r^{\prime}\right)}}-\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2677_14_SAMOSOGLASOVANNOE">\varphi_{n}(x)=\frac{1}{|x| \sqrt{4 \pi}} \chi_{n}(|x|)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_1_SAMOSOGLASOVANNOE">v, \chi_{0}, S_{0} \in C_{0}^{\infty}\left(\mathbb{R}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_2_SAMOSOGLASOVANNOE">\psi-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_3_SAMOSOGLASOVANNOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_4_SAMOSOGLASOVANNOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_5_SAMOSOGLASOVANNOE">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_6_SAMOSOGLASOVANNOE">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_7_SAMOSOGLASOVANNOE">x^{0}(g, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_8_SAMOSOGLASOVANNOE">\tilde{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_9_SAMOSOGLASOVANNOE">\left[0, T_{0}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_10_SAMOSOGLASOVANNOE">d x^{0} / D g&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_11_SAMOSOGLASOVANNOE">\|o(\hbar)\|_{l_{2}} \leqslant C h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_12_SAMOSOGLASOVANNOE">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_13_SAMOSOGLASOVANNOE">\left.D x^{0}(g, t) / D g=0\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_14_SAMOSOGLASOVANNOE">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_15_SAMOSOGLASOVANNOE">k_{\lambda}^{1 / h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_16_SAMOSOGLASOVANNOE">\lambda-(n+1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_17_SAMOSOGLASOVANNOE">\mathbb{r}^{2 n+2}\left\{\left(x, t, p, p^{t}\right) \mid(x, p) \in \mathbb{R}^{2 n}, t, p^{t} \in \mathbb{R}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_18_SAMOSOGLASOVANNOE">x^{0}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_19_SAMOSOGLASOVANNOE">\psi=\left[k_{\lambda}^{1 / h} \chi_{0}\right](x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_20_SAMOSOGLASOVANNOE">o\left(h^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_21_SAMOSOGLASOVANNOE">\mu-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_22_SAMOSOGLASOVANNOE">\mu \geqslant 0, \mu \neq 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_23_SAMOSOGLASOVANNOE">\omega_{k}(r)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_24_SAMOSOGLASOVANNOE">k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_25_SAMOSOGLASOVANNOE">h=h_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_26_SAMOSOGLASOVANNOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_27_SAMOSOGLASOVANNOE">r=r(p)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2677_28_SAMOSOGLASOVANNOE">o\left(h^{1+1 / 6}\right)</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>уравнения, описывающие такие взаимодействия частиц, при которых потенциал поля зависит от волновой функции частицы. Таково, напр., уравнение Шредингера для парного взаимодействия:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_1_SAMOSOGLASOVANNOE]]/URI
+\]
+
+518 Самосогласованное Здесь $URI[[http://libmeta.ru/fme/formula/aux/2677_1_SAMOSOGLASOVANNOE]]/URI$ - вещественные функции, $URI[[http://libmeta.ru/fme/formula/aux/2677_2_SAMOSOGLASOVANNOE]]/URI$ волновая функция (см. [1], [2]). Параметр $URI[[http://libmeta.ru/fme/formula/aux/2677_3_SAMOSOGLASOVANNOE]]/URI$ в (1) считается малым.
+
+Задача (1) и целый ряд подобных ей нелинейных задач при достаточно малом $URI[[http://libmeta.ru/fme/formula/aux/2677_4_SAMOSOGLASOVANNOE]]/URI$ имеют асимптотич. решения вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_2_SAMOSOGLASOVANNOE]]/URI
+\]
+
+где амплитуда $URI[[http://libmeta.ru/fme/formula/aux/2677_5_SAMOSOGLASOVANNOE]]/URI$ регулярна при $URI[[http://libmeta.ru/fme/formula/aux/2677_6_SAMOSOGLASOVANNOE]]/URI$.
+
+Пусть функция $URI[[http://libmeta.ru/fme/formula/aux/2677_7_SAMOSOGLASOVANNOE]]/URI$ является решением задачи
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_3_SAMOSOGLASOVANNOE]]/URI
+\]
+
+а $URI[[http://libmeta.ru/fme/formula/aux/2677_8_SAMOSOGLASOVANNOE]]/URI$ определяется формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_4_SAMOSOGLASOVANNOE]]/URI
+\]
+
+Те о ре м а 1. Решение задачи (1) на отрезке $URI[[http://libmeta.ru/fme/formula/aux/2677_9_SAMOSOGLASOVANNOE]]/URI$, где якобиан $URI[[http://libmeta.ru/fme/formula/aux/2677_10_SAMOSOGLASOVANNOE]]/URI$, имеет следующую асимптотику
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_5_SAMOSOGLASOVANNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2677_11_SAMOSOGLASOVANNOE]]/URI$.
+
+Асимптотич. решение (3) перестает быть справедливым вблизи фокальных точек (то есть в те моменты времени $URI[[http://libmeta.ru/fme/formula/aux/2677_12_SAMOSOGLASOVANNOE]]/URI$, когда якобиан $URI[[http://libmeta.ru/fme/formula/aux/2677_13_SAMOSOGLASOVANNOE]]/URI$. Глобальные асимптотич. формулы при всех $URI[[http://libmeta.ru/fme/formula/aux/2677_14_SAMOSOGLASOVANNOE]]/URI$ строятся с помощью канонич. оператора Маслова $URI[[http://libmeta.ru/fme/formula/aux/2677_15_SAMOSOGLASOVANNOE]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/2677_16_SAMOSOGLASOVANNOE]]/URI$-мерное многообразие в фазовом пространстве $URI[[http://libmeta.ru/fme/formula/aux/2677_17_SAMOSOGLASOVANNOE]]/URI$, задаваемое формулами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_6_SAMOSOGLASOVANNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2677_18_SAMOSOGLASOVANNOE]]/URI$ решение задачи (2).
+
+Т е о ре ма 2. Функция $URI[[http://libmeta.ru/fme/formula/aux/2677_19_SAMOSOGLASOVANNOE]]/URI$ является асимптотич. решением задачи Коши (1) по модулю $URI[[http://libmeta.ru/fme/formula/aux/2677_20_SAMOSOGLASOVANNOE]]/URI$.
+
+Аналогичные результаты справедливы для систем нелинейных уравнений (напр., для уравнения Хартри).
+
+Изложенные методы применимы также и к стационарным уравнениям. Так, напр., для уравнений Хартри с кулоновским взаимодействием (см. [3])
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_7_SAMOSOGLASOVANNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2677_21_SAMOSOGLASOVANNOE]]/URI$ параметр, $URI[[http://libmeta.ru/fme/formula/aux/2677_22_SAMOSOGLASOVANNOE]]/URI$, вводится функция $URI[[http://libmeta.ru/fme/formula/aux/2677_23_SAMOSOGLASOVANNOE]]/URI$ и число $URI[[http://libmeta.ru/fme/formula/aux/2677_24_SAMOSOGLASOVANNOE]]/URI$ как решение следующей задачи (уравнение для самосогласованного потенциала):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_8_SAMOSOGLASOVANNOE]]/URI
+\]
+
+и определяется кривая в фазовом пространстве уравнением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_9_SAMOSOGLASOVANNOE]]/URI
+\]
+
+Тогда правило квантования
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_10_SAMOSOGLASOVANNOE]]/URI
+\] где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_11_SAMOSOGLASOVANNOE]]/URI
+\]
+
+выделяет дискретный спектр значений $URI[[http://libmeta.ru/fme/formula/aux/2677_25_SAMOSOGLASOVANNOE]]/URI$, при к-рых определен канонич. оператор Маслова. Подстановка найденных значений $URI[[http://libmeta.ru/fme/formula/aux/2677_26_SAMOSOGLASOVANNOE]]/URI$ в формулу для канонич. оператора приводит к следующей функции:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_12_SAMOSOGLASOVANNOE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_13_SAMOSOGLASOVANNOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/2677_27_SAMOSOGLASOVANNOE]]/URI$ решение уравнения (5).
+
+Т е о р е м 3. Пусть выполнено правило квантования (6). Тогда функция
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2677_14_SAMOSOGLASOVANNOE]]/URI
+\]
+
+является асимптотич. решением задачи (4) с точностью $URI[[http://libmeta.ru/fme/formula/aux/2677_28_SAMOSOGLASOVANNOE]]/URI$.</text>
+  <text_orig>уравнения, описывающие такие взаимодействия частиц, при которых потенциал поля зависит от волновой функции частицы. Таково, напр., уравнение Шредингера для парного взаимодействия:
+
+\[
+\left.\begin{array}{c}
+-i h \frac{\partial \psi}{\partial t}-h^{2} \Delta \psi+\left(\int V(x-y)|\psi(y, t)|^{2} d y\right) \psi=0, \\
+\left.\psi\right|_{t=0}=e^{\frac{i}{h} S_{0}} \chi_{0}, \quad t&gt;0, \quad x \in \mathbb{R}^{n} .
+\end{array}\right\}
+\]
+
+518 САМОСОГЛАСОВАННОЕ Здесь $V, \chi_{0}, S_{0} \in C_{0}^{\infty}\left(\mathbb{R}^{n}\right)$ - вешественные функции, $\psi-$ волновая функция (см. [1], [2]). Параметр $h$ в (1) считается малым.
+
+Задача (1) и целый ряд подобных ей нелинейных задач при достаточно малом $t$ имеют асимптотич. решения вида:
+
+\[
+\psi(x, t)=e^{\frac{i}{h} S(x, t)} \varphi(x, t, h),
+\]
+
+где амплитуда $\varphi$ регулярна при $h \rightarrow 0$.
+
+Пусть функция $x^{0}(g, t)$ является решением задачи
+
+\[
+\left.\begin{array}{l}
+\frac{\partial^{2} x^{0}(g, t)}{\partial t^{2}}+2 \int \frac{\partial V}{\partial x}\left(x^{0}(g, t)-x^{0}(y, t)\right) \chi_{0}^{2}(y) d y=0, \\
+x^{0}(g, 0)=g, \quad \frac{\partial x^{0}}{\partial t}(g, 0)=\nabla S_{0}(g),
+\end{array}\right\}
+\]
+
+а $\tilde{S}$ определяется формулой
+
+\[
+\begin{aligned}
+&amp; \tilde{S}(g, t)=S_{0}(g)+\int_{0}^{t}\left[\frac{1}{4}\left|\frac{\partial x^{0}(g, \tau)}{\partial \tau}\right|^{2}-\right. \\
+&amp; \left.-\int V\left(x^{0}(g, \tau)-x^{0}(y, \tau)\right) \chi_{0}^{2}(y) d y\right] d \tau .
+\end{aligned}
+\]
+
+Те о ре м а 1. Решение задачи (1) на отрезке $\left[0, T_{0}\right]$, где якобиан $D x^{0} / D g&gt;0$, имеет следующую асимптотику
+
+\[
+\begin{gathered}
+\psi(x, t, h)= \\
+=\left[\exp \left\{\frac{i}{h} \tilde{S}(g, t)\right\} \chi_{0}^{2}(g) /\left(\frac{D x(g, t)}{D g}\right)^{1 / 2}\right]_{g=\left(x^{0}\right)^{-1}(x, t)}+O(h),
+\end{gathered}
+\]
+
+где $\|O(\hbar)\|_{L_{2}} \leqslant C h$.
+
+Асимптотич. решение (3) перестает быть справедливым вблизи фокальных точек (то есть в те моменты времени $t$, когда якобиан $\left.D x^{0}(g, t) / D g=0\right)$. Глобальные асимптотич. формулы при всех $t \geqslant 0$ строятся с помощью канонич. оператора Маслова $K_{\Lambda}^{1 / h}$.
+
+Пусть $\Lambda-(n+1)$-мерное многообразие в фазовом пространстве $\mathbb{R}^{2 n+2}\left\{\left(x, t, p, p^{t}\right) \mid(x, p) \in \mathbb{R}^{2 n}, t, p^{t} \in \mathbb{R}\right\}$, задаваемое формулами
+
+\[
+\begin{gathered}
+x=x^{0}(g, t), \quad p=\frac{1}{2} \frac{\partial x^{0}(g, t)}{\partial t}, \\
+p^{t}=-\frac{1}{4}\left|\frac{\partial x^{0}(g, t)}{\partial t}\right|^{2}-\int V\left(x^{0}(g, t)-x^{0}(y, t)\right) \chi_{0}^{2}(y) d y,
+\end{gathered}
+\]
+
+где $x^{0}-$ решение задачи (2).
+
+Т е о ре ма 2. Функция $\psi=\left[K_{\Lambda}^{1 / h} \chi_{0}\right](x, t)$ является асимптотич. решением задачи Коши (1) по модулю $O\left(h^{2}\right)$.
+
+Аналогичные результаты справедливы для систем нелинейных уравнений (напр., для уравнения Хартри).
+
+Изложенные методы применимы также и к стационарным уравнениям. Так, напр., для уравнений Хартри с кулоновским взаимодействием (см. [3])
+
+\[
+\left.\begin{array}{c}
+\left(h^{2} \Delta_{x}+\frac{\mu}{|x|}+(1-\mu) \int \frac{|\varphi(y)|^{2}}{|x-y|} d y-1\right) \varphi(x)=0, \\
+\|\varphi\|_{L_{2}}=1, \quad x \in \mathbb{R}^{3},
+\end{array}\right\}
+\]
+
+где $\mu-$ параметр, $\mu \geqslant 0, \mu \neq 1$, вводится функция $\omega_{k}(r)$ и число $k$ как решение следующей задачи (уравнение для самосогласованного потенциала):
+
+\[
+\begin{gathered}
+\omega^{\prime \prime}(r)=k / \sqrt{r \omega(r)}, \quad r \in(0,1), \\
+\omega(0)=\mu, \quad \omega(1)=0, \quad \omega^{\prime}(1)=-1,
+\end{gathered}
+\]
+
+и определяется кривая в фазовом пространстве уравнением
+
+\[
+p_{r}^{2}=\frac{1}{r} \omega_{k}(r), \quad 0&lt;r \leqslant 1 .
+\]
+
+Тогда правило квантования
+
+\[
+h=\sigma / 2 n, n=1,2, \ldots,
+\] где
+
+\[
+\sigma=\frac{2}{\pi} \int_{0}^{1} \sqrt{\frac{\omega_{k}(r)}{r}} d r
+\]
+
+выделяет дискретный спектр значений $h=h_{n}$, при к-рых определен канонич. оператор Маслова. Подстановка найденных значений $h$ в формулу для канонич. оператора приводит к следующей функции:
+
+\[
+\begin{gathered}
+\chi_{n}(r)=4\left(\frac{|k| n}{\pi \sigma|\mu-1|}\right)^{1 / 2} \times \\
+\times \int_{0}^{\infty} d p \frac{r(p)}{\sqrt{|J(r(p))|}} \sin \left(\frac{2 r p n}{\sigma}\right) \sin \left(\frac{2 n}{\sigma} \int_{0}^{p} r\left(p^{\prime}\right) d p^{\prime}\right),
+\end{gathered}
+\]
+
+где
+
+\[
+J(r)=k \int_{0}^{r} \frac{\sqrt{r^{\prime}} d r^{\prime}}{\sqrt{\omega_{k}\left(r^{\prime}\right)}}-\mu
+\]
+
+$r=r(p)-$ решение уравнения (5).
+
+Т е о р е м 3. Пусть выполнено правило квантования (6). Тогда функция
+
+\[
+\varphi_{n}(x)=\frac{1}{|x| \sqrt{4 \pi}} \chi_{n}(|x|)
+\]
+
+является асимптотич. решением задачи (4) с точностью $O\left(h^{1+1 / 6}\right)$.
+
+Лит.: [1] М а с ло в В. П., Комплексные марковские цепи и континуальный интеграл Фейнмана, М., 1976; [2] е го же, в кн.: Итоги науки и техники. Современные проблемы математики, т. 11, М., 1978, с. 153-234; [3] Ка расев М.В., Маслов В. П., там же, т. 13, М., 1979, с. 145-267. А. В. Перескоков.</text_orig>
+</article>

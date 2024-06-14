@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3573_JaKOBI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3573_JaKOBI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2858</core:url>
+    <lbm:descriptor><![CDATA[ЯКОБИ ПРИНЦИП СТАЦИОНАРНОГО ДЕЙСТВИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#281"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21306"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21307"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21308"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21309"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21310"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_297"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3916"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4808"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3882"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21311"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_21312"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7129"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>один из вариационных принципов классической механики: если заданы начальное и конечное положения голономной консервативной системы, то для действительного движения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21306">$$\delta \int_{P_{0}}^{P_{1}} \sqrt{2(U+h)} d s=0$$</a><BR/></P><P>при сравнении со всякими другими бесконечно близкими движениями между теми же самыми начальным и конечным положениями и с тем же самым постоянным значением энергии <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21310">$$h=t-U$$</a>, что и в действительном движении; здесь в обобщенных координатах $URI[[http://libmeta.ru/fme/formula/aux/3573_2_JaKOBI]]/URI$ кинетич. энергия системы<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21307">$$T=\frac{1}{2} \sum_{i, j=1}^{n} a_{i j} \dot{q}_{i} \dot{q}_{j}$$</a><BR/></P><P>и задана метрика координатного пространства формулой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21308">$$d s^{2}=\sum_{i, j=1}^{n} a_{i j} d q_{i} d q_{j}$$</a><BR/></P><P>а также конечные положения системы $URI[[http://libmeta.ru/fme/formula/aux/3573_3_JaKOBI]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/3573_4_JaKOBI]]/URI$ в нек-ром действительном движении системы.<BR/></P><P>Я. п. приводит задачу изучения движения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голономной</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1344_KONSERVATIVNAJa">консервативной системы</a> к геометрич. задаче отыскания в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2642_RIMANOVO">римановом пространстве</a> с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1767_METRIK">метрикой</a> (2) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3502_EKSTREMAL">экстремалей</a> вариационной задачи (1), к-рые представляют собой действительные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI">траектории</a> системы. Я. п. выявляет тесную связь, существующую между движениями <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голономной</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1344_KONSERVATIVNAJa">консервативной системы</a> и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2637_RIMANOVA">римановой геометрией</a> пространства. Если движение системы происходит в отсутствие заданных сил, когда <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3882">$$u=0$$</a>, то система движется вдоль геодезич. линии <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1150_KVAZIODNORODNOE">координатного пространства</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21311">$$\left(q_{1}, \ldots, q_{n}\right)$$</a> с постоянной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST">скоростью</a>. Этот факт является обобщением закона инерции Галилея. Когда <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21312">$$u \neq 0$$</a>, разыскание движения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голономной</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1344_KONSERVATIVNAJa">консервативной системы</a> также сводится к задаче определения геодезических в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2642_RIMANOVO">римановом пространстве</a> с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1767_METRIK">метрикой</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_21309">$$d s_{1}^{2}=2(U+h) d s^{2}=\sum_{i, j=1}^{n} b_{i j} d q_{i} d q_{j} .$$</a><BR/></P><P>Для случая одной материальной точки, когда линейный элемент $URI[[http://libmeta.ru/fme/formula/aux/3573_8_JaKOBI]]/URI$ - элемент евклидова 3-мерного пространства, Я. п. представляет собой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK">механич</a>. аналог принципа Ферма в оптике.<BR/></P><P>Принцип предложен К. Якоби (с. Jacobi, 1837).<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#281">В. В. Румяниев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[один из вариационных принципов классической механики: если заданы начальное и конечное положения голономной консервативной системы, то для действительного движения
+
+\[
+\delta \int_{P_{0}}^{P_{1}} \sqrt{2(U+h)} d s=0
+\]
+
+при сравнении со всякими другими бесконечно близкими движениями между теми же самыми начальным и конечным положениями и с тем же самым постоянным значением энергии $h=T-U$, что и в действительном движении; здесь в обобщенных координатах $q_{i}$ кинетич. энергия системы
+
+\[
+T=\frac{1}{2} \sum_{i, j=1}^{n} a_{i j} \dot{q}_{i} \dot{q}_{j}
+\]
+
+и задана метрика координатного пространства формулой
+
+\[
+d s^{2}=\sum_{i, j=1}^{n} a_{i j} d q_{i} d q_{j}
+\]
+
+а также конечные положения системы $P_{0}$ и $P_{1}$ в нек-ром действительном движении системы.
+
+Я. п. приводит задачу изучения движения голономной консервативной системы к геометрич. задаче отыскания в римановом пространстве с метрикой (2) экстремалей вариационной задачи (1), к-рые представляют собой действительные траектории системы. Я. п. выявляет тесную связь, существующую между движениями голономной консервативной системы и римановой геометрией пространства. Если движение системы происходит в отсутствие заданных сил, когда $U=0$, то система движется вдоль геодезич. линии координатного пространства $\left(q_{1}, \ldots, q_{n}\right)$ с постоянной скоростью. Этот факт является обобщением закона инерџии Галилея. Когда $U \neq 0$, разыскание движения голономной консервативной системы также сводится к задаче определения геодезических в римановом пространстве с метрикой
+
+\[
+d s_{1}^{2}=2(U+h) d s^{2}=\sum_{i, j=1}^{n} b_{i j} d q_{i} d q_{j} .
+\]
+
+Для случая одной материальной точки, когда линейный элемент $d s$ - элемент евклидова 3-мерного пространства, Я. п. представляет собой механич. аналог принципа Ферма в оптике.
+
+Принцип предложен К. Якоби (С. Jacobi, 1837).
+
+В. В. Румяниев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1777_MEHANIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1767_METRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2642_RIMANOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1344_KONSERVATIVNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2800_SKOROST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1150_KVAZIODNORODNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2637_RIMANOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1344_KONSERVATIVNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3109_TRAEKTORI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3502_EKSTREMAL"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1767_METRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2642_RIMANOVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1344_KONSERVATIVNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

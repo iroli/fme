@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/732_GRIFFITSA" alphabetic_pos="734">
+  <title>ГРИФФИТСА ЛЕММА</title>
+  <authors>
+    <author>Й. Г. Бранков</author>
+  </authors>
+  <pages>
+    <start>161</start>
+    <end>161</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Griffith s R. B., «j. Math. Phys.», 1964, v. 5, p. 1215; [2] Fischer M. E., там же, 1965, v. 6, p. 1643-53.</literature_orig>
+    <unit>
+      <author>Griffiths R. B.</author>
+      <title>«j. Math. Phys.»</title>
+      <publication/>
+      <year>1964</year>
+      <other>v. 5, p. 1215</other>
+    </unit>
+    <unit>
+      <author>Fischer M. E.</author>
+      <title>там же</title>
+      <publication/>
+      <year>1965</year>
+      <other>v. 6, p. 1643-53.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/732_1_GRIFFITSA">\frac{d^{-} f(x)}{d x} \leqslant \lim _{k \rightarrow \infty} \inf \frac{d^{-} f_{k}(x)}{d x} \leqslant \lim _{k \rightarrow \infty} \sup \frac{d^{+} f_{k}(x)}{d x} \leqslant \frac{d^{+} f(x)}{d x} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/732_1_GRIFFITSA">\left\{f_{k}(x)\right\}, \quad x \in \mathbf{I} \subset \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/732_2_GRIFFITSA">k \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/732_3_GRIFFITSA">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/732_4_GRIFFITSA">d^{-} f / d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/732_5_GRIFFITSA">d^{+} f / d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/732_6_GRIFFITSA">x \in \mathbf{I}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/732_1_GRIFFITSA">
+      <rel_text>уравнение самосогласования в</rel_text>
+      <target>http://libmeta.ru/fme/article/2677_SAMOSOGLASOVANNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/732_2_GRIFFITSA">
+      <rel_text>методе аппроксимирующего гамильтониана</rel_text>
+      <target>http://libmeta.ru/fme/article/114_ASIMPTOTIChESKIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/732_3_GRIFFITSA">
+      <rel_text>дифференцируемости</rel_text>
+      <target>http://libmeta.ru/fme/article/879_DIFFERENTsIRUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/732_4_GRIFFITSA">
+      <rel_text>дифференцируемых функций</rel_text>
+      <target>http://libmeta.ru/fme/article/729_GRINA</target>
+    </relation>
+  </relations>
+  <text>если последовательность выпуклых URI[[http://libmeta.ru/fme/relation/732_4_GRIFFITSA]]/URI сходится поточечно к предельной функции (необходимо выпуклой), то и последовательность производных сходится к производной от предельной функции в точках ее непрерывной URI[[http://libmeta.ru/fme/relation/732_3_GRIFFITSA]]/URI. Более общая лемма сформулирована М. Фишером (см. [2]): пусть дана последовательность выпуклых вниз функций $URI[[http://libmeta.ru/fme/formula/aux/732_1_GRIFFITSA]]/URI$, к-рая сходится при $URI[[http://libmeta.ru/fme/formula/aux/732_2_GRIFFITSA]]/URI$ к предельной функции $URI[[http://libmeta.ru/fme/formula/aux/732_3_GRIFFITSA]]/URI$; тогда для производных слева, $URI[[http://libmeta.ru/fme/formula/aux/732_4_GRIFFITSA]]/URI$, и производных справа, $URI[[http://libmeta.ru/fme/formula/aux/732_5_GRIFFITSA]]/URI$, в любой точке $URI[[http://libmeta.ru/fme/formula/aux/732_6_GRIFFITSA]]/URI$ справедливы неравенства
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/732_1_GRIFFITSA]]/URI
+\]
+
+Лемма Фишера используется в URI[[http://libmeta.ru/fme/relation/732_2_GRIFFITSA]]/URI для вывода неравенств, обобщающих URI[[http://libmeta.ru/fme/relation/732_1_GRIFFITSA]]/URI термодинамич. пределе.</text>
+  <text_orig>если последовательность выпуклых дифференцируемых функций сходится поточечно к предельной функции (необходимо выпуклой), то и последовательность производных сходится к производной от предельной функции в точках ее непрерывной дифференцируемости. Более обшая лемма сформулирована М. Фишером (см. [2]): пусть дана последовательность выпуклых вниз функций $\left\{f_{k}(x)\right\}, \quad x \in \mathbf{I} \subset \mathbb{R}^{1}$, к-рая сходится при $k \rightarrow \infty$ к предельной функции $f(x)$; тогда для производных слева, $d^{-} f / d x$, и производных справа, $d^{+} f / d x$, в любой точке $x \in \mathbf{I}$ справедливы неравенства
+
+\[
+\frac{d^{-} f(x)}{d x} \leqslant \lim _{k \rightarrow \infty} \inf \frac{d^{-} f_{k}(x)}{d x} \leqslant \lim _{k \rightarrow \infty} \sup \frac{d^{+} f_{k}(x)}{d x} \leqslant \frac{d^{+} f(x)}{d x} .
+\]
+
+Лемма Фишера используется в методе аппроксимирующего гамильтониана для вывода неравенств, обобщающих уравнение самосогласования в термодинамич. пределе.
+
+Jum.: [1] Griffith s R. B., «J. Math. Phys.», 1964, v. 5, p. 1215; [2] Fischer M. E., там же, 1965, v. 6, p. 1643-53. Й. Г. Бранков.</text_orig>
+</article>

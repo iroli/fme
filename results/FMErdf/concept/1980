@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2783_SIN'ORINI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2783_SIN'ORINI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1980</core:url>
+    <lbm:descriptor><![CDATA[СИНЬОРИНИ ЗАДАЧА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#14832"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#14833"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#14834"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14835"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14836"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14837"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14838"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14839"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_7078"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2824"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_746"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14840"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14841"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14842"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14843"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>задача определения равновесия упругого тела, естественная форма которого поддерживается жесткой поверхностью без трения. В случае<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14835">$$L v=-\Delta v-f$$</a><BR/></P><P>С. 3. записывается в виде <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_317_VARIATsIONNOE">вариационного неравенства</a> с <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14836">$$k=\left\{v \in W_{2}^{1}(D) \mid v \geqslant 0\right.$$</a> на <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14837">$$\left.\partial D\right\}$$</a> или в виде односторонней задачи $URI[[http://libmeta.ru/fme/formula/aux/2783_3_SIN'ORINI]]/URI$ в <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14839">$$d, \min \{\partial u / \partial \boldsymbol{n}, u\}=0$$</a> на $URI[[http://libmeta.ru/fme/formula/aux/2783_5_SIN'ORINI]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2783_6_SIN'ORINI]]/URI$ внешняя нормаль к $URI[[http://libmeta.ru/fme/formula/aux/2783_7_SIN'ORINI]]/URI$. Решение $URI[[http://libmeta.ru/fme/formula/aux/2783_8_SIN'ORINI]]/URI$ С. з. существует (при достаточно гладких <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14840">$$f, \partial D)$$</a> и принадлежит <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14841">$$w_{2}^{2}(d) \cap C^{1+\alpha}(\bar{D}), \alpha<1 / 2$$</a>. С. з. представляет собой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частный</a> случай препятствия зада- <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14842">$$ч и$$</a> (с препятствием на границе <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a>). Множество <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14843">$$\partial\{x \in \partial D \mid u>0\}$$</a>, на к-ром упругое тело «отходит» от <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_935_ZhESTKAJa">жесткой поверхности</a> $URI[[http://libmeta.ru/fme/formula/aux/2783_13_SIN'ORINI]]/URI$, играет роль неизвестной границы.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#14833">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#425">Фикера Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#14833">Теоремы существования в теории упругости, пер. с англ., М., 1974</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#14834">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1096">Главччек И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#5874">Гаслингер Я.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#1096">Нечас И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#5874">Ловишек Я.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#14834">Решение вариационных неравенств в механике, пер. со словацк., М., 1986</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#14832">T. Н. Рожковская</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[задача определения равновесия упругого тела, естественная форма которого поддерживается жесткой поверхностью без трения. В случае
+
+\[
+L v=-\Delta v-f
+\]
+
+С. 3. записывается в виде вариационного неравенства с $K=\left\{v \in W_{2}^{1}(D) \mid v \geqslant 0\right.$ на $\left.\partial D\right\}$ или в виде односторонней задачи $L u=0$ в $D, \min \{\partial u / \partial \boldsymbol{n}, u\}=0$ на $\partial D$, где $\boldsymbol{n}-$ внешняя нормаль к $\partial D$. Решение $u$ С. з. существует (при достаточно гладких $f, \partial D)$ и принадлежит $W_{2}^{2}(D) \cap C^{1+\alpha}(\bar{D}), \alpha<1 / 2$. С. з. представляет собой частный случай препятствия зада- $ч и$ (с препятствием на границе области). Множество $\partial\{x \in \partial D \mid u>0\}$, на к-ром упругое тело «отходит» от жесткой поверхности $\partial D$, играет роль неизвестной границы.
+
+Лum.: [1] Ф и к е р а Г., Теоремы существования в теории упругости, пер. с англ., М., 1974; [2] Гла в чче к И., Га слингер Я., Не ч а с И., Л о вишек Я., Решение вариационных неравенств в механике, пер. со словацк., М., 1986. T. Н. Рожковская.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_935_ZhESTKAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_317_VARIATsIONNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

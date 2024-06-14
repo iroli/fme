@@ -1,0 +1,502 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2615_RENORMALIZATsIONNAJa" alphabetic_pos="2617">
+  <title>РЕНОРМАЛИЗАЦИОННАЯ ГРУППА</title>
+  <authors/>
+  <pages>
+    <start>505</start>
+    <end>507</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] S t u e ckelberg E., Petermann A., «helv. Phys. Acta», 1953, v. 26, p. 499; [2] Боголюбов Н. Н., Ширков Д. В., «доклады Ан СССР», 1955, т. 103, № 3, с. 391; [3] и х же, Введение в теорию квантованных полей, 4 изд., М., 1984; [4] В ильсон К., К огут Дж., Ренормализационная группа и є-разложение, пер. с $\begin{array}{ll}\text { англ., М., } 1975 . &amp; \text { Д. И. Казаков, Д. В. Ширков. }\end{array}$</literature_orig>
+    <unit>
+      <author>Stueckelberg E.</author>
+      <author>Petermann A.</author>
+      <title>«helv. Phys. Acta»</title>
+      <publication/>
+      <year>1953</year>
+      <other>v. 26, p. 499</other>
+    </unit>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <author>Ширков Д. В.</author>
+      <title>«доклады Ан СССР»</title>
+      <publication/>
+      <year>1955</year>
+      <other>т. 103, № 3, с. 391</other>
+    </unit>
+    <unit>
+      <title>и х же, Введение в теорию квантованных полей</title>
+      <publication>4 изд., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Вильсон К.</author>
+      <title>К огут Дж., Ренормализационная группа и є-разложение</title>
+      <publication>пер. с $\begin{array}{ll}\text { англ., М.</publication>
+      <year>1975</year>
+      <other>Д. В. Ширков. }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_1_RENORMALIZATsIONNAJa">R\left(t_{1}\right) R\left(t_{2}\right)=R\left(t_{1}+t_{2}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_2_RENORMALIZATsIONNAJa">R(t):\left\{x_{1} \rightarrow x_{2}=x_{1}+t, g_{1} \rightarrow g_{2}=G\left(t, g_{1}\right)\right\},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_3_RENORMALIZATsIONNAJa">G\left(t_{1}, G\left(t_{2}, g\right)\right)=G\left(t_{1}+t_{2}, g\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_4_RENORMALIZATsIONNAJa">G(0, g)=g,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_5_RENORMALIZATsIONNAJa">f\left(x_{2}, g_{2}\right)=f\left(x_{1}, g_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_6_RENORMALIZATsIONNAJa">f(x+t, G(t, g))=f(x, g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_7_RENORMALIZATsIONNAJa">F(x+t, G(t, g))=z(t, g) F(x, g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_8_RENORMALIZATsIONNAJa">F(x+t, G(t, g))=F(t, G(t, g)) F(x, g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_9_RENORMALIZATsIONNAJa">G^{i}\left(t,\left\{G^{n}\left(t_{2},\{g\}\right)\right\}\right)=G^{i}\left(t_{1}+t_{2},\{g\}\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_10_RENORMALIZATsIONNAJa">F(x+t,\{G(t,\{g\})\})=F(t,\{G(t,\{g\})\}) F(x,\{g\}) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_11_RENORMALIZATsIONNAJa">(\partial / \partial t+\beta(g) \partial / \partial g) f(t, g)=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_12_RENORMALIZATsIONNAJa">\beta(g)=\left.\frac{\partial G(t, g)}{\partial t}\right|_{t=0} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_13_RENORMALIZATsIONNAJa">(\partial / \partial t+\beta(g) \partial / \partial g-\gamma(g)) F(t, g)=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_14_RENORMALIZATsIONNAJa">\gamma(g)=\left.\frac{\partial \ln z(t, g)}{\partial t}\right|_{t=0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_15_RENORMALIZATsIONNAJa">\frac{\partial G(t, g)}{\partial t}=\beta(G(t, g)) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_16_RENORMALIZATsIONNAJa">F(t, g)=F_{\text {app }}(1, G(t, g)) \exp \int_{0}^{t} \gamma(G(t, g)) d t,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_17_RENORMALIZATsIONNAJa">A\left(l_{1}+\lambda, a\right)=A\left(\lambda, A\left(l_{1}, a\right)\right),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_18_RENORMALIZATsIONNAJa">A_{\text {app }}(l, a) \approx a-v a l+o\left(l^{2}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_19_RENORMALIZATsIONNAJa">A(l, a)=a \exp (-v l)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_20_RENORMALIZATsIONNAJa">A_{\text {app }}(l, a) \approx a-\beta a^{2} l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2615_21_RENORMALIZATsIONNAJa">A(l, a)=\frac{a}{l+\mathrm{val}} \text {. }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_1_RENORMALIZATsIONNAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_2_RENORMALIZATsIONNAJa">f_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_3_RENORMALIZATsIONNAJa">x_{1}: f\left(x, x_{1}, f_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_4_RENORMALIZATsIONNAJa">f \mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_5_RENORMALIZATsIONNAJa">\left(x_{1}, f_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_6_RENORMALIZATsIONNAJa">\left(x_{2}, f_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_7_RENORMALIZATsIONNAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_8_RENORMALIZATsIONNAJa">r(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_9_RENORMALIZATsIONNAJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_10_RENORMALIZATsIONNAJa">(x, y)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_11_RENORMALIZATsIONNAJa">m=\mathbb{r}^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_12_RENORMALIZATsIONNAJa">g(t, g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_13_RENORMALIZATsIONNAJa">r(0)=e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_14_RENORMALIZATsIONNAJa">f(x, g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_15_RENORMALIZATsIONNAJa">z(0, g)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_16_RENORMALIZATsIONNAJa">f(0, g)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_17_RENORMALIZATsIONNAJa">m=\mathbb{r}^{n+1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_18_RENORMALIZATsIONNAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_19_RENORMALIZATsIONNAJa">g^{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_20_RENORMALIZATsIONNAJa">r(t):\left\{x_{1} \rightarrow x_{2}=x_{1}+t, g_{1}^{i} \rightarrow g_{2}^{i}=G^{i}\left(t,\left\{\mathrm{~g}^{i}\right\}\right), i=1, \ldots, n\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_21_RENORMALIZATsIONNAJa">\{g\}=g_{1}, \ldots, g_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_22_RENORMALIZATsIONNAJa">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_23_RENORMALIZATsIONNAJa">g^{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_24_RENORMALIZATsIONNAJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_25_RENORMALIZATsIONNAJa">\ln \mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_26_RENORMALIZATsIONNAJa">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_27_RENORMALIZATsIONNAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_28_RENORMALIZATsIONNAJa">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_29_RENORMALIZATsIONNAJa">\beta(g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_30_RENORMALIZATsIONNAJa">\gamma(g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_31_RENORMALIZATsIONNAJa">g(t, g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_32_RENORMALIZATsIONNAJa">g(t, g)=g t^{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_33_RENORMALIZATsIONNAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_34_RENORMALIZATsIONNAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_35_RENORMALIZATsIONNAJa">f(t, g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_36_RENORMALIZATsIONNAJa">f_{\text {арр }}(t, g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_37_RENORMALIZATsIONNAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_38_RENORMALIZATsIONNAJa">g(t, g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_39_RENORMALIZATsIONNAJa">\gamma(g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_40_RENORMALIZATsIONNAJa">\beta(g)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_41_RENORMALIZATsIONNAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_42_RENORMALIZATsIONNAJa">f_{\text {app }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_43_RENORMALIZATsIONNAJa">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_44_RENORMALIZATsIONNAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_45_RENORMALIZATsIONNAJa">a(l, a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_46_RENORMALIZATsIONNAJa">a\left(l-l_{1}, a_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_47_RENORMALIZATsIONNAJa">l_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_48_RENORMALIZATsIONNAJa">a_{1}=a\left(l_{1}, a\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_49_RENORMALIZATsIONNAJa">l=l_{1}+\lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_50_RENORMALIZATsIONNAJa">l \ll 1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_51_RENORMALIZATsIONNAJa">\beta(g)=-v g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_52_RENORMALIZATsIONNAJa">0 \leqslant l&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_53_RENORMALIZATsIONNAJa">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2615_54_RENORMALIZATsIONNAJa">l \rightarrow \infty</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/2615_1_RENORMALIZATsIONNAJa">
+      <rel_text>Ренормализационная группа</rel_text>
+      <target>http://libmeta.ru/fme/article/2615_RENORMALIZATsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2615_2_RENORMALIZATsIONNAJa">
+      <rel_text>дифференциальные уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/872_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2615_3_RENORMALIZATsIONNAJa">
+      <rel_text>Ренормализационная группа</rel_text>
+      <target>http://libmeta.ru/fme/article/2615_RENORMALIZATsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2615_4_RENORMALIZATsIONNAJa">
+      <rel_text>турбулентности</rel_text>
+      <target>http://libmeta.ru/fme/article/3139_TURBULENTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2615_5_RENORMALIZATsIONNAJa">
+      <rel_text>перенормировок</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2615_6_RENORMALIZATsIONNAJa">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2615_7_RENORMALIZATsIONNAJa">
+      <rel_text>ультрафиолетовые расходимости</rel_text>
+      <target>http://libmeta.ru/fme/article/3170_UL'TRAFIOLETOVAJa</target>
+    </relation>
+  </relations>
+  <text>группа симметрии решения физической задачи относительно преобразований, изменяющих способ параметризации (или нормировки), фиксирующий это решение. Иначе, Р. г. есть группа преобразований репараметризации решения $URI[[http://libmeta.ru/fme/formula/aux/2615_1_RENORMALIZATsIONNAJa]]/URI$. Напр., если рассматривать это решение как функцию своего граничного значения $URI[[http://libmeta.ru/fme/formula/aux/2615_2_RENORMALIZATsIONNAJa]]/URI$, заданного при нек-ром значении аргумента $URI[[http://libmeta.ru/fme/formula/aux/2615_3_RENORMALIZATsIONNAJa]]/URI$, то преобразование Р. г. есть преобразование перехода от параметризации данного решения $URI[[http://libmeta.ru/fme/formula/aux/2615_4_RENORMALIZATsIONNAJa]]/URI$ помощью пары $URI[[http://libmeta.ru/fme/formula/aux/2615_5_RENORMALIZATsIONNAJa]]/URI$ к иной параметризации этого же самого решения, характеризуемой другой парой $URI[[http://libmeta.ru/fme/formula/aux/2615_6_RENORMALIZATsIONNAJa]]/URI$.
+
+Термин «ренормализационная» обязан своим происхождением тому факту, что Р. г. была открыта в задачах квантовой теории поля, в к-рой преобразования Р. г. соответствуют переходу от одного способа перенормировки (иначе ренормировки) к другому. Идеи и метод Р. г. распространились из квантовой теории поля на другие разделы теоретич. физики.
+
+С математич. точки зрения Р. г. есть однопараметрич. группа Ли $URI[[http://libmeta.ru/fme/formula/aux/2615_7_RENORMALIZATsIONNAJa]]/URI$ непрерывных преобразований $URI[[http://libmeta.ru/fme/formula/aux/2615_8_RENORMALIZATsIONNAJa]]/URI$ дифференцируемого многообразия $URI[[http://libmeta.ru/fme/formula/aux/2615_9_RENORMALIZATsIONNAJa]]/URI$ с групповым законом композиции
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_1_RENORMALIZATsIONNAJa]]/URI
+\]
+
+В простейшем случае эти преобразования действуют в пространстве пар действительных чисел $URI[[http://libmeta.ru/fme/formula/aux/2615_10_RENORMALIZATsIONNAJa]]/URI$, то есть $URI[[http://libmeta.ru/fme/formula/aux/2615_11_RENORMALIZATsIONNAJa]]/URI$, и имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_2_RENORMALIZATsIONNAJa]]/URI
+\]
+
+причем, согласно (1), функция $URI[[http://libmeta.ru/fme/formula/aux/2615_12_RENORMALIZATsIONNAJa]]/URI$ удовлетворяет функциональному уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_3_RENORMALIZATsIONNAJa]]/URI
+\]
+
+а также условию нормировки
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_4_RENORMALIZATsIONNAJa]]/URI
+\]
+
+отвечающему единичному (тождественному) преобразованию $URI[[http://libmeta.ru/fme/formula/aux/2615_13_RENORMALIZATsIONNAJa]]/URI$.
+
+Инвариантом преобразования (2) является функция $URI[[http://libmeta.ru/fme/formula/aux/2615_14_RENORMALIZATsIONNAJa]]/URI$ (здесь и далее указана зависимость только от упомянутых параметров), для к-рой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_5_RENORMALIZATsIONNAJa]]/URI
+\]
+
+то есть функция, удовлетворяющая уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_6_RENORMALIZATsIONNAJa]]/URI
+\]
+
+Более сложной ситуации отвечает реализация представления Р. г., не остающегося неизменным при преобразовании (2), но приобретающего множитель, зависящий от параметров преобразования
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_7_RENORMALIZATsIONNAJa]]/URI
+\]
+
+с условием нормировки $URI[[http://libmeta.ru/fme/formula/aux/2615_15_RENORMALIZATsIONNAJa]]/URI$. Уравнение (6) может быть переписано также в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_8_RENORMALIZATsIONNAJa]]/URI
+\]
+
+с условием нормировки $URI[[http://libmeta.ru/fme/formula/aux/2615_16_RENORMALIZATsIONNAJa]]/URI$.
+
+Функциональные уравнения (5), (7) непосредственно обобщаются на многомерные многообразия $URI[[http://libmeta.ru/fme/formula/aux/2615_17_RENORMALIZATsIONNAJa]]/URI$. Преобразования P.г. в этом случае по-прежнему линейны по первому аргументу и содержат $URI[[http://libmeta.ru/fme/formula/aux/2615_18_RENORMALIZATsIONNAJa]]/URI$ функций $URI[[http://libmeta.ru/fme/formula/aux/2615_19_RENORMALIZATsIONNAJa]]/URI$ :
+
+$URI[[http://libmeta.ru/fme/formula/aux/2615_20_RENORMALIZATsIONNAJa]]/URI$, являющихся решением системы функциональных уравнений
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_9_RENORMALIZATsIONNAJa]]/URI
+\]
+
+обобщающих (3), (4), причем $URI[[http://libmeta.ru/fme/formula/aux/2615_21_RENORMALIZATsIONNAJa]]/URI$, а инварианты удовлетворяют уравнениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_10_RENORMALIZATsIONNAJa]]/URI
+\]
+
+Естественным продолжением является распространение Р. г. на бесконечномерные многообразия $URI[[http://libmeta.ru/fme/formula/aux/2615_22_RENORMALIZATsIONNAJa]]/URI$. Роль констант $URI[[http://libmeta.ru/fme/formula/aux/2615_23_RENORMALIZATsIONNAJa]]/URI$ здесь играет дифференцируемая функция на многообразии. С такой ситуацией сталкиваются в нек-рых задачах квантовой теории поля и статистич. механики.
+
+В исторически первой квантовополевой реализации Р. Г. роль параметра $URI[[http://libmeta.ru/fme/formula/aux/2615_24_RENORMALIZATsIONNAJa]]/URI$ играл $URI[[http://libmeta.ru/fme/formula/aux/2615_25_RENORMALIZATsIONNAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2615_26_RENORMALIZATsIONNAJa]]/URI$ есть параметр ренормировки или точка вычитания, а $URI[[http://libmeta.ru/fme/formula/aux/2615_27_RENORMALIZATsIONNAJa]]/URI$ является зарядом, характеризующим силу взаимодействия. Ренормализационно-групповая инвариантность вида (5), (6) здесь есть условие инвариантности относительно выбора параметра ренормировки. Свойством (5) обладают все наблюдаемые величины, а также нек-рые вспомогательные (инвариантный и эффективный заряды). Уравнениям типа (6), (7) подчиняются, напр., функции Грина.
+
+Поскольку непрерывная группа Ли полностью характеризуется своим инфинитезимальным элементом, вместо функционального уравнения (5) достаточно рассмотреть дифференциальное уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_11_RENORMALIZATsIONNAJa]]/URI
+\]
+
+к-рое может быть получено из (5) в пределе бесконечно малого $URI[[http://libmeta.ru/fme/formula/aux/2615_28_RENORMALIZATsIONNAJa]]/URI$ (см. URI[[http://libmeta.ru/fme/relation/2615_3_RENORMALIZATsIONNAJa]]/URI; URI[[http://libmeta.ru/fme/relation/2615_2_RENORMALIZATsIONNAJa]]/URI). При этом так наз. бета-функция $URI[[http://libmeta.ru/fme/formula/aux/2615_29_RENORMALIZATsIONNAJa]]/URI$, представляющая групповой генератор, определяется соотношением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_12_RENORMALIZATsIONNAJa]]/URI
+\]
+
+Аналогичная форма уравнения (7) имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_13_RENORMALIZATsIONNAJa]]/URI
+\]
+
+где функция $URI[[http://libmeta.ru/fme/formula/aux/2615_30_RENORMALIZATsIONNAJa]]/URI$, называемая аномальной размерностью, определяется условием
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_14_RENORMALIZATsIONNAJa]]/URI
+\]
+
+В квантовой теории поля функцию $URI[[http://libmeta.ru/fme/formula/aux/2615_31_RENORMALIZATsIONNAJa]]/URI$ называют эффективной константой связи (эффективным зарядом), играющим наряду с инвариантным зарядом ключевую роль в решении дифференциальных уравнений Р. г. Она удовлетворяет дифференциальному уравнению вида (8) или уравнению в форме Ли
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_15_RENORMALIZATsIONNAJa]]/URI
+\]
+
+Обращение правой части уравнения (12) в нуль отвечает точкам стационарности или фиксированным точкам преобразования Р. г. Эффективные заряды в этих точках принимают фиксированные значения, определяемые из уравнений Р.г. В многозарядном случае существует несколько фиксированных точек: они бывают устойчивыми, неустойчивыми и седловыми. В зависимости от начальных данных решение попадает в область притяжения той или иной фиксированной точки. Как правило, фиксированные точки соответствуют определенным физич. особенностям задачи. Так, напр., в моделях статистич. механики инфракрасные фиксированные точки являются точками фазового перехода, а в асимптотически свободных теориях поля ультрафиолетовая фиксированная точка отвечает свободной картине с исчезающим взаимодействием.
+
+Симметрию Р. г. можно рассматривать как обобщение симметрии степенного самоподобия (автомодельности), известной из задач гидро- и газодинамики. Действительно, решение функционального уравнения (3), линейное по второму аргументу, имеет вид $URI[[http://libmeta.ru/fme/formula/aux/2615_32_RENORMALIZATsIONNAJa]]/URI$, вследствие чего (2) принимает вид преобразования степенной автомодельности. Поэтому преобразование Р. Г. можно назвать преобразованием функциональной автомодельности.
+
+В квантовой теории поля и статистич. физике Р. г. отвечает масштабному преобразованию импульсов или координат. При этом могут меняться не только соответствующие заряды, но и вид лагранжиана (гамильтониана системы). В
+
+Ренормализационная 505 таком случае имеют дело с бесконечнопараметрич. Р.г. Преобразованный гамильтониан обычно проектируют на исходный, то есть приближенно представляют его в форме исходного с новыми значениями параметров. Если число параметров равно $URI[[http://libmeta.ru/fme/formula/aux/2615_33_RENORMALIZATsIONNAJa]]/URI$, то преобразования Р. г. соответствуют траекториям в $URI[[http://libmeta.ru/fme/formula/aux/2615_34_RENORMALIZATsIONNAJa]]/URI$-мерном фазовом пространстве и изучение критич. свойств системы сводится к анализу окрестностей неподвижных точек. Дискретным вариантом бесконечнопараметрич. Р. г. является Р. г. Каданова - Вильсона или Р. г. в прямом пространстве. Ее решеточная реализация используется в методе Монте-Карло (см. URI[[http://libmeta.ru/fme/relation/2615_1_RENORMALIZATsIONNAJa]]/URI; метод Монте-Карло).
+
+Групповая симметрия, лежащая в основе Р. г., и свойство функциональной автомодельности позволяют развить регулярный метод улучшения приближенных решений физич. задач, получаемых разложением по малому параметру. Сущность метода Р. г., предложенного в 1955 Н. Н. Боголюбовым и Д. В. Ширковым, состоит в восстановлении групповой симметрии решения, разрушенной в процессе приближения. Метод основан на использовании приближенных решений для нахождения явного вида генераторов, входящих в групповые дифференциальные уравнения. Последующее решение этих уравнений приводит к выражениям, к-рые, с одной стороны, надлежащим образом соответствуют исходным приближенным, а с другой - обладают правильной групповой симметрией.
+
+Для иллюстрации рассмотрим функцию $URI[[http://libmeta.ru/fme/formula/aux/2615_35_RENORMALIZATsIONNAJa]]/URI$, удовлетворяющую уравнениям (7) или (10), для к-рой известно нек-рое приближенное решение $URI[[http://libmeta.ru/fme/formula/aux/2615_36_RENORMALIZATsIONNAJa]]/URI$ (взятое, напр., из теории возмущений в виде степенного разложения по $URI[[http://libmeta.ru/fme/formula/aux/2615_37_RENORMALIZATsIONNAJa]]/URI$ ). Решение уравнения (10) может быть получено с помощью метода характеристик и представлено в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_16_RENORMALIZATsIONNAJa]]/URI
+\]
+
+где эффективный заряд $URI[[http://libmeta.ru/fme/formula/aux/2615_38_RENORMALIZATsIONNAJa]]/URI$ удовлетворяет дифференциальному уравнению (12), а функции $URI[[http://libmeta.ru/fme/formula/aux/2615_39_RENORMALIZATsIONNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2615_40_RENORMALIZATsIONNAJa]]/URI$ с помощью определений (9), (11) также вычислены по теории возмущений. «улучшенное» решение (13) по построению удовлетворяет условию функциональной автомодельности и в то же время при разложении в ряд по малому параметру $URI[[http://libmeta.ru/fme/formula/aux/2615_41_RENORMALIZATsIONNAJa]]/URI$ воспроизводит исходное приближенное решение $URI[[http://libmeta.ru/fme/formula/aux/2615_42_RENORMALIZATsIONNAJa]]/URI$, К-рое само по себе не является автомодельным.
+
+Метод Р. г. оказывается особенно эффективным в ситуациях, когда решение имеет те или иные сингулярности (особенности), напр. степенные или экспоненциальные. Приближения, использующие разложения, обычно искажают тип особенности. Восстановление групповой симметрии одновременно реконструирует истинную структуру сингулярности, соответствующую свойству функциональной автомодельности решения.
+
+В качестве простой иллюстрации метода Р. г. рассмотрим плоскую задачу переноса излучения. Представим себе, что правая половина пространства, ограниченная вертикальной плоскостью, заполнена однородным веществом, а слева от границы - пустота. Обозначим через $URI[[http://libmeta.ru/fme/formula/aux/2615_43_RENORMALIZATsIONNAJa]]/URI$ поток падающих на границу частиц. В силу однородности среды поток частиц, продолжающих двигаться слева направо внутри среды на расстоянии $URI[[http://libmeta.ru/fme/formula/aux/2615_44_RENORMALIZATsIONNAJa]]/URI$ от границы раздела, однозначно определяется значением потока на границе и расстоянием до нее, то есть имеет вид нек-рой функции $URI[[http://libmeta.ru/fme/formula/aux/2615_45_RENORMALIZATsIONNAJa]]/URI$. Однако эту же величину можно представить в виде $URI[[http://libmeta.ru/fme/formula/aux/2615_46_RENORMALIZATsIONNAJa]]/URI$, выразив ее через поток на воображаемой границе раздела, перенесенный внутрь среды на расстояние $URI[[http://libmeta.ru/fme/formula/aux/2615_47_RENORMALIZATsIONNAJa]]/URI$ и равный $URI[[http://libmeta.ru/fme/formula/aux/2615_48_RENORMALIZATsIONNAJa]]/URI$. Тогда, комбинируя два различных представления для потока на расстоянии $URI[[http://libmeta.ru/fme/formula/aux/2615_49_RENORMALIZATsIONNAJa]]/URI$, получаем уравнение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_17_RENORMALIZATsIONNAJa]]/URI
+\]
+
+совпадающее с групповым уравнением (3).
+
+Точное решение задачи переноса должно удовлетворять полученному функциональному уравнению независимо от природы падающих частиц и деталей процессов взаимодействия (рассеяния, поглощения, размножения) частиц со средой.
+
+Допустим теперь, что при $URI[[http://libmeta.ru/fme/formula/aux/2615_50_RENORMALIZATsIONNAJa]]/URI$ нам известно приближенное решение, напр.
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_18_RENORMALIZATsIONNAJa]]/URI
+\]
+
+Определяя с помощью (9) на его основе генератор $URI[[http://libmeta.ru/fme/formula/aux/2615_51_RENORMALIZATsIONNAJa]]/URI$ и решая затем уравнение (12), получаем «улучшенное» решение
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_19_RENORMALIZATsIONNAJa]]/URI
+\]
+
+справедливое на всем полупространстве $URI[[http://libmeta.ru/fme/formula/aux/2615_52_RENORMALIZATsIONNAJa]]/URI$, заполненном средой.
+
+Если предположить, что инфинитезимальный отклик квадратичен по $URI[[http://libmeta.ru/fme/formula/aux/2615_53_RENORMALIZATsIONNAJa]]/URI$ и в окрестности границы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_20_RENORMALIZATsIONNAJa]]/URI
+\]
+
+то метод Р. г. приведет к следующему решению:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2615_21_RENORMALIZATsIONNAJa]]/URI
+\]
+
+Полученный результат, подобно предыдущему, справедлив во всем полубесконечном объеме среды и, в частности, описывает поведение потока при $URI[[http://libmeta.ru/fme/formula/aux/2615_54_RENORMALIZATsIONNAJa]]/URI$.
+
+Как уже отмечалось выше, Р.Г. и основанный на ней метод улучшения приближенных решений были впервые использованы в середине 50-х гг. в задачах квантовой теории поля. С помощью указанного метода были определены ультрафиолетовые (и инфракрасные) асимптотики в квантовой электродинамике и, в частности, проанализирован парадокс нуль-заряда.
+
+Впоследствии с помощью метода Р. г. было открыто свойство асимптотической свободы неабелевых калибровочных квантовых теорий поля, что послужило важным стимулом для создания современной теории сильных взаимодействий - квантовой хромодинамики. В дальнейшем метод Р. г. оказался неотъемлемым атрибутом расчетного аппарата в этой теории. Дело в том, что обычное разложение теории возмущений по малому параметру не позволяет продвинуться в область высоких энергий из-за больших, логарифмически растущих с энергией, поправок. Напротив, использование Р.г. приводит, согласно уравнению (13), к разложению по эффективному заряду, к-рый в силу явления асимптотич. свободы стремится к нулю при высоких энергиях. Использование улучшенной с помощью Р. г. теории возмущений здесь эквивалентно суммированию ведущих логарифмич. асимптотик и правильно передает высокоэнергетич. поведение. В квантовой хромодинамике теория возмущений, улучшенная с помощью Р. г., применяется для описания амплитуд процессов рассеяния частиц, характеризуемых большими передачами импульса.
+
+В то же время непертурбативные вычисления в рамках квантовой хромодинамики ведутся на основе представления континуального интеграла, к-рый аппроксимируется конечномерным повторным интегралом высокой кратности. Для численного расчета последнего используется метод Монте-Карло. Сходимость этого статистич. метода не является быстрой и для ее улучшения также могут быть использованы идеи Р.г., К-рые формулируются в виде так наз. Монте - Карло ренормализационной группы.
+
+Метод Р. г. служит основой гипотезы великого объединения взаимодействий в теории элементарных частиц. Согласно этой гипотезе, различные взаимодействия имеют единый источник происхождения, однако на больших расстояниях эффективные заряды, характеризующие интенсивность взаимодействия, ведут себя по-разному в соответствии с уравнениями Р. г. В результате единое взаимодействие расщепляется на три ветви, к-рые проявляют разные свойства и называются фундаментальными взаимодейст в и я м и.
+
+В начале 70-х гг. К. Вильсон (k. Wilson) перенес идеологию Р. г. в статистич. физику, успешно использовав ее в задачах теории критич. явлений для вычислений индексов фазовых переходов. Исходные построения здесь используют более сложную идеологию, поскольку не удается сформулировать симметрию функциональной автомодельности в терминах исходной задачи. Здесь приходится конструировать набор все более огрубленных моделей, связанных между собой преобразованиями Р. г.
+
+В то же время окончательная физич. картина оказывается более наглядной, поскольку она формулируется в обычном пространстве и не связана с такими сложными понятиями, как URI[[http://libmeta.ru/fme/relation/2615_7_RENORMALIZATsIONNAJa]]/URI URI[[http://libmeta.ru/fme/relation/2615_6_RENORMALIZATsIONNAJa]]/URI и их устранение с помощью URI[[http://libmeta.ru/fme/relation/2615_5_RENORMALIZATsIONNAJa]]/URI.
+
+Благодаря этому в последующее десятилетие метод Р.г. быстро продвинулся в ряд других разделов теоретич. физики: теорию URI[[http://libmeta.ru/fme/relation/2615_4_RENORMALIZATsIONNAJa]]/URI, теорию полимеров, теорию смачивания и растрескивания (перколяции) и нек-рые другие. В результате такой экспансии метод Р. г. к настоящему времени превратился в весьма эффективный общий метод теоретич. и математич. физики.</text>
+  <text_orig>группа симметрии решения физической задачи относительно преобразований, изменяющих способ параметризации (или нормировки), фиксирующий это решение. Иначе, Р. г. есть группа преобразований репараметризации решения $f(x)$. Напр., если рассматривать это решение как функцию своего граничного значения $f_{1}$, заданного при нек-ром значении аргумента $x_{1}: f\left(x, x_{1}, f_{1}\right)$, то преобразование Р. г. есть преобразование перехода от параметризации данного решения $f \mathrm{c}$ помощью пары $\left(x_{1}, f_{1}\right)$ к иной параметризации этого же самого решения, характеризуемой другой парой $\left(x_{2}, f_{2}\right)$.
+
+Термин «ренормализационная» обязан своим происхождением тому факту, что Р. г. была открыта в задачах квантовой теории поля, в к-рой преобразования Р. г. соответствуют переходу от одного способа перенормировки (иначе ренормировки) к другому. Идеи и метод Р. г. распространились из квантовой теории поля на другие разделы теоретич. физики.
+
+С математич. точки зрения Р. г. есть однопараметрич. группа Ли $G$ непрерывных преобразований $R(t)$ дифференцируемого многообразия $M$ с групповым законом композиции
+
+\[
+R\left(t_{1}\right) R\left(t_{2}\right)=R\left(t_{1}+t_{2}\right) .
+\]
+
+В простейшем случае эти преобразования действуют в пространстве пар действительных чисел $(x, y)$, то есть $M=\mathbb{R}^{2}$, и имеют вид:
+
+\[
+R(t):\left\{x_{1} \rightarrow x_{2}=x_{1}+t, g_{1} \rightarrow g_{2}=G\left(t, g_{1}\right)\right\},
+\]
+
+причем, согласно (1), функция $G(t, g)$ удовлетворяет функциональному уравнению
+
+\[
+G\left(t_{1}, G\left(t_{2}, g\right)\right)=G\left(t_{1}+t_{2}, g\right)
+\]
+
+а также условию нормировки
+
+\[
+G(0, g)=g,
+\]
+
+отвечающему единичному (тождественному) преобразованию $R(0)=E$.
+
+Инвариантом преобразования (2) является функция $f(x, g)$ (здесь и далее указана зависимость только от упомянутых параметров), для к-рой
+
+\[
+f\left(x_{2}, g_{2}\right)=f\left(x_{1}, g_{1}\right)
+\]
+
+то есть функщия, удовлетворяющая уравнению
+
+\[
+f(x+t, G(t, g))=f(x, g)
+\]
+
+Более сложной ситуации отвечает реализация представления Р. г., не остаюшегося неизменным при преобразовании (2), но приобретаюшего множитель, зависящий от параметров преобразования
+
+\[
+F(x+t, G(t, g))=z(t, g) F(x, g)
+\]
+
+с условием нормировки $z(0, g)=1$. Уравнение (6) может быть переписано также в виде
+
+\[
+F(x+t, G(t, g))=F(t, G(t, g)) F(x, g)
+\]
+
+с условием нормировки $F(0, g)=1$.
+
+Функциональные уравнения (5), (7) непосредственно обобщаются на многомерные многообразия $M=\mathbb{R}^{n+1}$. Преобразования P.г. в этом случае по-прежнему линейны по первому аргументу и содержат $n$ функший $G^{i}$ :
+
+$R(t):\left\{x_{1} \rightarrow x_{2}=x_{1}+t, g_{1}^{i} \rightarrow g_{2}^{i}=G^{i}\left(t,\left\{\mathrm{~g}^{i}\right\}\right), i=1, \ldots, n\right.$, являющихся решением системы функциональных уравнений
+
+\[
+G^{i}\left(t,\left\{G^{n}\left(t_{2},\{g\}\right)\right\}\right)=G^{i}\left(t_{1}+t_{2},\{g\}\right),
+\]
+
+обобщающих (3), (4), причем $\{g\}=g_{1}, \ldots, g_{n}$, а инварианты удовлетворяют уравнениям
+
+\[
+F(x+t,\{G(t,\{g\})\})=F(t,\{G(t,\{g\})\}) F(x,\{g\}) .
+\]
+
+Естественным продолжением является распространение Р. г. на бесконечномерные многообразия $M$. Роль констант $g^{i}$ здесь играет дифференцируемая функция на многообразии. С такой ситуацией сталкиваются в нек-рых задачах квантовой теории поля и статистич. механики.
+
+В исторически первой квантовополевой реализации Р. Г. роль параметра $x$ играл $\ln \mu$, где $\mu$ есть параметр ренормировки или точка вычитания, а $g$ является зарядом, характеризующим силу взаимодействия. Ренормализационногрупповая инвариантность вида (5), (6) здесь есть условие инвариантности относительно выбора параметра ренормировки. Свойством (5) обладают все наблюдаемые величины, а также нек-рые вспомогательные (инвариантный и эффективный заряды). Уравнениям типа (6), (7) подчиняются, напр., функции Грина.
+
+Поскольку непрерывная группа Ли полностью характеризуется своим инфинитезимальным элементом, вместо функционального уравнения (5) достаточно рассмотреть дифференциальное уравнение
+
+\[
+(\partial / \partial t+\beta(g) \partial / \partial g) f(t, g)=0,
+\]
+
+к-рое может быть получено из (5) в пределе бесконечно малого $t$ (см. Ренормализационная группа; дифференциальные уравнения). При этом так наз. бета-функция $\beta(g)$, представляющая групповой генератор, определяется соотношением
+
+\[
+\beta(g)=\left.\frac{\partial G(t, g)}{\partial t}\right|_{t=0} .
+\]
+
+Аналогичная форма уравнения (7) имеет вид:
+
+\[
+(\partial / \partial t+\beta(g) \partial / \partial g-\gamma(g)) F(t, g)=0,
+\]
+
+где функция $\gamma(g)$, называемая аномальной размерностью, определяется условием
+
+\[
+\gamma(g)=\left.\frac{\partial \ln z(t, g)}{\partial t}\right|_{t=0}
+\]
+
+В квантовой теории поля функцию $G(t, g)$ называют эффективной константой связи (эффективным зарядом), играющим наряду с инвариантным зарядом ключевую роль в решении дифференциальных уравнений Р. г. Она удовлетворяет дифференциальному уравнению вида (8) или уравнению в форме Ли
+
+\[
+\frac{\partial G(t, g)}{\partial t}=\beta(G(t, g)) .
+\]
+
+Обращение правой части уравнения (12) в нуль отвечает точкам стационарности или фиксированным точкам преобразования Р. г. Эффективные заряды в этих точках принимают фиксированные значения, определяемые из уравнений Р.г. В многозарядном случае существует несколько фиксированных точек: они бывают устойчивыми, неустойчивыми и седловыми. В зависимости от начальных данных решение попадает в область притяжения той или иной фиксированной точки. Как правило, фиксированные точки соответствуют определенным физич. особенностям задачи. Так, напр., в моделях статистич. механики инфракрасные фиксированные точки являются точками фазового перехода, а в асимптотически свободных теориях поля ультрафиолетовая фиксированная точка отвечает свободной картине с исчезающим взаимодействием.
+
+Симметрию Р. г. можно рассматривать как обобщение симметрии степенного самоподобия (автомодельности), известной из задач гидро- и газодинамики. Действительно, решение функционального уравнения (3), линейное по второму аргументу, имеет вид $G(t, g)=g t^{k}$, вследствие чего (2) принимает вид преобразования степенной автомодельности. Поэтому преобразование Р. Г. можно назвать преобразованием функциональной автомодельности.
+
+В квантовой теории поля и статистич. физике Р. г. отвечает масштабному преобразованию импульсов или координат. При этом могут меняться не только соответствующие заряды, но и вид лагранжиана (гамильтониана системы). В
+
+РЕНОРМАЛИЗАЦИОННАЯ 505 таком случае имеют дело с бесконечнопараметрич. Р.г. Преобразованный гамильтониан обычно проектируют на исходный, то есть приближенно представляют его в форме исходного с новыми значениями параметров. Если число параметров равно $n$, то преобразования Р. г. соответствуют траекториям в $n$-мерном фазовом пространстве и изучение критич. свойств системы сводится к анализу окрестностей неподвижных точек. Дискретным вариантом бесконечнопараметрич. Р. г. является Р. г. Каданова - Вильсона или Р. г. в прямом пространстве. Ее решеточная реализация используется в методе Монте-Карло (см. Ренормализационная групnа; метод Монте-Карло).
+
+Групповая симметрия, лежащая в основе Р. г., и свойство функциональной автомодельности позволяют развить регулярный метод улучшения приближенных решений физич. задач, получаемых разложением по малому параметру. Сущность метода Р. г., предложенного в 1955 Н. Н. Боголюбовым и Д. В. Ширковым, состоит в восстановлении групповой симметрии решения, разрушенной в процессе приближения. Метод основан на использовании приближенных решений для нахождения явного вида генераторов, входящих в групповые дифференциальные уравнения. Последующее решение этих уравнений приводит к выражениям, к-рые, с одной стороны, надлежащим образом соответствуют исходным приближенным, а с другой - обладают правильной групповой симметрией.
+
+Для иллюстрации рассмотрим функцию $F(t, g)$, удовлетворяющую уравнениям (7) или (10), для к-рой известно нек-рое приближенное решение $F_{\text {арр }}(t, g)$ (взятое, напр., из теории возмущений в виде степенного разложения по $g$ ). Решение уравнения (10) может быть получено с помошыю метода характеристик и представлено в виде
+
+\[
+F(t, g)=F_{\text {app }}(1, G(t, g)) \exp \int_{0}^{t} \gamma(G(t, g)) d t,
+\]
+
+где эффективный заряд $G(t, g)$ удовлетворяет дифференциальному уравнению (12), а функщии $\gamma(g)$ и $\beta(g)$ с помфщью определений (9), (11) также вычислены по теории возмущений. «Улучшенное» решение (13) по построению удовлетворяет условию функциональной автомодельности и в то же время при разложении в ряд по малому параметру $g$ воспроизводит исходное приближенное решение $F_{\text {app }}$, К-рое само по себе не является автомодельным.
+
+Метод Р. г. оказывается особенно эффективным в ситуациях, когда решение имеет те или иные сингулярности (особенности), напр. степенные или экспоненциальные. Приближения, использующие разложения, обычно искажают тип особенности. Восстановление групповой симметрии одновременно реконструирует истинную структуру сингулярности, соответствующую свойству функциональной автомодельности решения.
+
+В качестве простой иллюстрации метода Р. г. рассмотрим плоскую задачу переноса излучения. Представим себе, что правая половина пространства, ограниченная вертикальной плоскостью, заполнена однородным веществом, а слева от границы - пустота. Обозначим через $\alpha$ поток падающих на границу частиц. В силу однородности среды поток частиц, продолжающих двигаться слева направо внутри среды на расстоянии $l$ от границы раздела, однозначно определяется значением потока на границе и расстоянием до нее, то есть имеет вид нек-рой функции $A(l, a)$. Однако эту же величину можно представить в виде $A\left(l-l_{1}, a_{1}\right)$, выразив ее через поток на воображаемой границе раздела, перенесенный внутрь среды на расстояние $l_{1}$ и равный $a_{1}=A\left(l_{1}, a\right)$. Тогда, комбинируя два различных представления для потока на расстоянии $l=l_{1}+\lambda$, получаем уравнение
+
+\[
+A\left(l_{1}+\lambda, a\right)=A\left(\lambda, A\left(l_{1}, a\right)\right),
+\]
+
+совпадающее с групповым уравнением (3).
+
+Точное решение задачи переноса должно удовлетворять полученному функциональному уравнению независимо от природы падающих частиц и деталей процессов взаимодействия (рассеяния, поглощения, размножения) частиц со средой.
+
+Допустим теперь, что при $l \ll 1$ нам известно приближенное решение, напр.
+
+\[
+A_{\text {app }}(l, a) \approx a-v a l+o\left(l^{2}\right) .
+\]
+
+Определяя с помощью (9) на его основе генератор $\beta(g)=-v g$ и решая затем уравнение (12), получаем «улучшенное» решение
+
+\[
+A(l, a)=a \exp (-v l)
+\]
+
+справедливое на всем полупространстве $0 \leqslant l&lt;\infty$, заполненном средой.
+
+Если предположить, что инфинитезимальный отклик квадратичен по $\alpha$ и в окрестности границы
+
+\[
+A_{\text {app }}(l, a) \approx a-\beta a^{2} l
+\]
+
+то метод Р. г. приведет к следующему решению:
+
+\[
+A(l, a)=\frac{a}{l+\mathrm{val}} \text {. }
+\]
+
+Полученный результат, подобно предыдущему, справедлив во всем полубесконечном объеме среды и, в частности, описывает поведение потока при $l \rightarrow \infty$.
+
+Как уже отмечалось выше, Р.Г. и основанный на ней метод улучшения приближенных решений были впервые использованы в середине 50-х гг. в задачах квантовой теории поля. С помошью указанного метода были определены ультрафиолетовые (и инфракрасные) асимптотики в квантовой электродинамике и, в частности, проанализирован парадокс нуль-заряда.
+
+Впоследствии с помощью метода Р. г. было открыто свойство асимптотической свободы неабелевых калибровочных квантовых теорий поля, что послужило важным стимулом для создания современной теории сильных взаимодействий - квантовой хромодинамики. В дальнейшем метод Р. г. оказался неотъемлемым атрибутом расчетного аппарата в этой теории. Дело в том, что обычное разложение теории возмущений по малому параметру не позволяет продвинуться в область высоких энергий из-за больших, логарифмически растущих с энергией, поправок. Напротив, использование Р.г. приводит, согласно уравнению (13), к разложению по эффективному заряду, к-рый в силу явления асимптотич. свободы стремится к нулю при высоких энергиях. Использование улучшенной с помощью Р. г. теории возмущений здесь эквивалентно суммированию ведущих логарифмич. асимптотик и правильно передает высокоэнергетич. поведение. В квантовой хромодинамике теория возмущений, улучшенная с помощью Р. г., применяется для описания амплитуд процессов рассеяния частиц, характеризуемых большими передачами импульса.
+
+В то же время непертурбативные вычисления в рамках квантовой хромодинамики ведутся на основе представления континуального интеграла, к-рый аппроксимируется конечномерным повторным интегралом высокой кратности. Для численного расчета последнего используется метод Монте-Карло. Сходимость этого статистич. метода не является быстрой и для ее улучшения также могут быть использованы идеи Р.г., К-рые формулируются в виде так наз. Монте - Карло ренормализационной группы.
+
+Метод Р. г. служит основой гипотезы великого объединения взаимодействий в теории элементарных частиц. Согласно этой гипотезе, различные взаимодействия имеют единый источник происхождения, однако на больших расстояниях эффективные заряды, характеризующие интенсивность взаимодействия, ведут себя по-разному в соответствии с уравнениями Р. г. В результате единое взаимодействие расщепляется на три ветви, к-рые проявляют разные свойства и называются фундаментальными взаимодейст в и я м и.
+
+В начале 70-х гг. К. Вильсон (K. Wilson) перенес идеологию Р. г. в статистич. физику, успешно использовав ее в задачах теории критич. явлений для вычислений индіексов фазовых переходов. Исходные построения здесь используют более сложную идеологию, поскольку не удается сформулировать симметрию функциональной автомодельности в терминах исходной задачи. Здесь приходится конструировать набор все более огрубленных моделей, связанных между собой преобразованиями Р. г.
+
+В то же время окончательная физич. картина оказывается более наглядной, поскольку она формулируется в обычном пространстве и не связана с такими сложными понятиями, как ультрафиолетовые расходимости квантовой теории поля и их устранение с помощью перенормировок.
+
+Благодаря этому в последующее десятилетие метод Р.г. быстро продвинулся в ряд других разделов теоретич. физики: теорию турбулентности, теорию полимеров, теорию смачивания и растрескивания (перколяции) и нек-рые другие. В результате такой экспансии метод Р. г. к настоящему времени превратился в весьма эффективный общий метод теоретич. и математич. физики.
+
+Jum.: [1] S t u e ckelberg E., Petermann A., «Helv. Phys. Acta», 1953, v. 26, p. 499; [2] Боголюбов Н. Н., Ширков Д. В., «Доклады АН СССР», 1955, т. 103, № 3, с. 391; [3] и х же, Введение в теорию квантованных полей, 4 изд., М., 1984; [4] В ильсон К., К огут Дж., Ренормализационная группа и є-разложение, пер. с $\begin{array}{ll}\text { англ., М., } 1975 . &amp; \text { Д. И. Казаков, Д. В. Ширков. }\end{array}$</text_orig>
+</article>

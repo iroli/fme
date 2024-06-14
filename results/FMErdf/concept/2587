@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3329_FUR'E">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3329_FUR'E</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2587</core:url>
+    <lbm:descriptor><![CDATA[ФУРЬЕ УЛЬТРАГИПЕРФУНКЦИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#19664"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19665"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19666"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19667"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19668"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19669"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4504"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19670"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_19671"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_818"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>аналитический функционал на основном пространстве<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19665">$$\Phi=\lim _{v \rightarrow \infty} \operatorname{proj} \Phi_{v}$$</a><BR/></P><P>где банаховы пространства <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19669">$$\phi_{v}$$</a> состоят из всех функций $URI[[http://libmeta.ru/fme/formula/aux/3329_2_FUR'E]]/URI$, аналитических в трубчатой области <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19670">$$\mathbb{r}^{n}+i B_{v}$$</a>, с конечной нормой<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19666">$$|\Phi|=\sup \left\{e^{v|z|}|\Phi(z)| ; \quad z \in \mathbb{R}^{n}+i B_{v}\right\},$$</a><BR/></P><P>шар <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19671">$$b_{v}=\left\{y \in \mathbb{R}^{n} ;|y|<v\right\}$$</a>.<BR/></P><P>Ф. у. введены в конце 50-х гг. 20 в.; применяются при изучении сильно нелокальных моделей <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa">квантовой теории поля</a>.<BR/></P><P>На <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2118_OSNOVNOE">основном пространстве</a> $URI[[http://libmeta.ru/fme/formula/aux/3329_5_FUR'E]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">действует</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3326_FUR'E">преобразование Фурье</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19667">$$F: \Phi \cong \Phi,$$</a><BR/></P><P>так что определено <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3326_FUR'E">преобразование Фурье</a> Ф. у.<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_19668">$$F: \Phi^{\prime} \cong \Phi^{\prime}$$</a><BR/></P><P>(см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3326_FUR'E">Фурье преобразование</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa">обобщенной функции</a>).<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#19664">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#8365">Жаринов В. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#19664">«труды Математич. ин-та Ан СССР», 1983, т. 162, с. 1-80. } & \text { B. В. Жаринов. }\end{array}$</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[аналитический функционал на основном пространстве
+
+\[
+\Phi=\lim _{v \rightarrow \infty} \operatorname{proj} \Phi_{v}
+\]
+
+где банаховы пространства $\Phi_{v}$ состоят из всех функций $\Phi(z)$, аналитических в трубчатой области $\mathbb{R}^{n}+i B_{v}$, с конечной нормой
+
+\[
+|\Phi|=\sup \left\{e^{v|z|}|\Phi(z)| ; \quad z \in \mathbb{R}^{n}+i B_{v}\right\},
+\]
+
+шар $B_{v}=\left\{y \in \mathbb{R}^{n} ;|y|<v\right\}$.
+
+Ф. у. введены в конце 50-х гг. 20 в.; применяются при изучении сильно нелокальных моделей квантовой теории поля.
+
+На основном пространстве $\Phi$ действует преобразование Фурье
+
+\[
+F: \Phi \cong \Phi,
+\]
+
+так что определено преобразование Фурье Ф. у.
+
+\[
+F: \Phi^{\prime} \cong \Phi^{\prime}
+\]
+
+(см. Фурье преобразование обобщенной функции).
+
+Лит.: [1] Ж а р и н о в В. В., «Труды Математич. ин-та АН СССР», $\begin{array}{ll}1983 \text {, т. 162, с. 1-80. } & \text { B. В. Жаринов. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2013_OBOBSchENNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3326_FUR'E"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3326_FUR'E"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3326_FUR'E"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2118_OSNOVNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2681_SVERTKA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2681_SVERTKA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1867</core:url>
+    <lbm:descriptor><![CDATA[СВЕРТКА НА ГРУППЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#257"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14033"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_529"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4251"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_14034"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операция</a> на классе функций определенных на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группе</a> Ли. А именно, с в е р т ко й фун к ц и й $URI[[http://libmeta.ru/fme/formula/aux/2681_1_SVERTKA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2681_2_SVERTKA]]/URI$ называют функцию на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группе</a> $URI[[http://libmeta.ru/fme/formula/aux/2681_3_SVERTKA]]/URI$ :<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14033">$$\left(f_{1} * f_{2}\right)(g)=\int_{G} f_{1}(h) f_{2}\left(h^{-1} g\right) d_{l} h,$$</a><BR/></P><P>где через <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_14034">$$d_{l} h$$</a> обозначена левоинвариантная Хаара мера на $URI[[http://libmeta.ru/fme/formula/aux/2681_5_SVERTKA]]/URI$ (если <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группа</a> конечна, то интегрирование по <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группе</a> заменяется на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2835_SOBOLEVA">суммирование</a>).<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#257">Ю. А. Неретин</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[операция на классе функций определенных на группе Ли. А именно, с в е р т ко й фун к ц и й $f_{1}$ и $f_{2}$ называют функцию на группе $G$ :
+
+\[
+\left(f_{1} * f_{2}\right)(g)=\int_{G} f_{1}(h) f_{2}\left(h^{-1} g\right) d_{l} h,
+\]
+
+где через $d_{l} h$ обозначена левоинвариантная Хаара мера на $G$ (если группа конечна, то интегрирование по группе заменяется на суммирование). Ю. А. Неретин.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2835_SOBOLEVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

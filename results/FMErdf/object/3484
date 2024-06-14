@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_3484">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&#x003C6;</mi><mo stretchy="false">&#x00028;</mo><mi>s</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mo>Eexp</mo><mo stretchy="false">[</mo><mi>i</mi><mi>s</mi><mi>&#x003BE;</mi><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo>&#x0002C;</mo><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="false">]</mo><mo>&#x0003D;</mo><mspace linebreak="newline" /><mo>&#x0003D;</mo><msubsup><mo>&#x02211;</mo><mrow><mi>l</mi><mo>&#x0003D;</mo><mn>0</mn></mrow><mrow><mo>&#x0221E;</mo></mrow></msubsup><mfrac><mrow><mo stretchy="false">&#x00028;</mo><mi>i</mi><mi>s</mi><msup><mo stretchy="false">&#x00029;</mo><mrow><mi>l</mi></mrow></msup></mrow><mrow><mi>l</mi><mo>&#x00021;</mo></mrow></mfrac><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mi>&#x003B5;</mi></mrow></msubsup><msub><mi>f</mi><mrow><mi>l</mi></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>&#x003B5;</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><msub><mi>&#x003B5;</mi><mrow><mn>2</mn></mrow></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msub><mi>&#x003B5;</mi><mrow><mi>l</mi></mrow></msub><mi>;</mi><mi>t</mi><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>d</mi><msub><mi>&#x003B5;</mi><mrow><mn>1</mn></mrow></msub><mi>d</mi><msub><mi>&#x003B5;</mi><mrow><mn>2</mn></mrow></msub><mi>&#x02026;</mi><mi>d</mi><msub><mi>&#x003B5;</mi><mrow><mi>l</mi></mrow></msub><mo>&#x0002E;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{gathered}\varphi(s)=\operatorname{Eexp}[i s \xi(t, \varepsilon)]= \\=\sum_{l=0}^{\infty} \frac{(i s)^{l}}{l !} \int_{0}^{\varepsilon} f_{l}\left(\varepsilon_{1}, \varepsilon_{2}, \ldots, \varepsilon_{l} ; t\right) d \varepsilon_{1} d \varepsilon_{2} \ldots d \varepsilon_{l} .\end{gathered}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

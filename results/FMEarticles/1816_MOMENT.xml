@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1816_MOMENT" alphabetic_pos="1818">
+  <title>МОМЕНТ СЛУЧАЙНОЙ ВЕЛИЧИНЫ $X$</title>
+  <authors>
+    <author>Р. А. Минлос</author>
+  </authors>
+  <pages>
+    <start>366</start>
+    <end>366</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1816_1_MOMENT">\mathrm{E} X^{n} \equiv\left\langle X^{n}\right\rangle=\int_{-\infty}^{\infty} x^{n} p(x) d x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1816_2_MOMENT">\mathrm{E} X^{n}=\sum_{k} x_{k}^{n} p_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1816_3_MOMENT">\mathrm{E}(X-\mathrm{E} X)^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1816_4_MOMENT">M_{n_{1}, \ldots, n_{k}}\left(t_{1}, \ldots, t_{k}\right)=E X_{t_{1}}^{n_{1}} \ldots X_{t_{k}}^{n_{k}}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_1_MOMENT">n=1,2,3, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_2_MOMENT">p(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_3_MOMENT">\left\{x_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_4_MOMENT">\left\{p_{k}\right\}, n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_5_MOMENT">\mathrm{e} X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_6_MOMENT">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_7_MOMENT">\left\{x_{t}, t \in T\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_8_MOMENT">t-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_9_MOMENT">\left\{t_{1}, \ldots, t_{k}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_10_MOMENT">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_11_MOMENT">\left\{n_{1}, \ldots, n_{k}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1816_12_MOMENT">x_{t_{1}}, \ldots, X_{t_{k}}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1816_1_MOMENT">
+      <rel_text>значений случайных величин</rel_text>
+      <target>http://libmeta.ru/fme/article/2915_SREDNEE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1816_2_MOMENT">
+      <rel_text>распределению вероятностей</rel_text>
+      <target>http://libmeta.ru/fme/article/2533_RASPREDELENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1816_3_MOMENT">
+      <rel_text>мультииндекс</rel_text>
+      <target>http://libmeta.ru/fme/article/1841_MUL'TIMOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1816_4_MOMENT">
+      <rel_text>случайных величин</rel_text>
+      <target>http://libmeta.ru/fme/article/2813_SLUChAJNAJa</target>
+    </relation>
+  </relations>
+  <text>математическое ожидание ее степеней; мо м е н т порядка $URI[[http://libmeta.ru/fme/formula/aux/1816_1_MOMENT]]/URI$ для непрерывно распределенной случайной величины с плотностью $URI[[http://libmeta.ru/fme/formula/aux/1816_2_MOMENT]]/URI$ равен
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1816_1_MOMENT]]/URI
+\]
+
+Для дискретной случайной величины, принимающей значения $URI[[http://libmeta.ru/fme/formula/aux/1816_3_MOMENT]]/URI$ с вероятностями $URI[[http://libmeta.ru/fme/formula/aux/1816_4_MOMENT]]/URI$-й М. равен
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1816_2_MOMENT]]/URI
+\]
+
+M. 1-го порядка $URI[[http://libmeta.ru/fme/formula/aux/1816_5_MOMENT]]/URI$ - математич. ожидание. Величина
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1816_3_MOMENT]]/URI
+\]
+
+называется центральным моментом порядка $URI[[http://libmeta.ru/fme/formula/aux/1816_6_MOMENT]]/URI$, центральный М. 2-го порядка называется дисперсией.
+
+В случае конечного или бесконечного семейства URI[[http://libmeta.ru/fme/relation/1816_4_MOMENT]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1816_7_MOMENT]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/1816_8_MOMENT]]/URI$ нек-рое множество, помечающее эти величины, с мешан ны е моменты (м ульт и м о м е н т ы) этого семейства определяются формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1816_4_MOMENT]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1816_9_MOMENT]]/URI$ произвольный набор попарно различных точек $URI[[http://libmeta.ru/fme/formula/aux/1816_10_MOMENT]]/URI$, а $URI[[http://libmeta.ru/fme/formula/aux/1816_11_MOMENT]]/URI$ целочисленный URI[[http://libmeta.ru/fme/relation/1816_3_MOMENT]]/URI; математич. ожидание вычисляется по совместному URI[[http://libmeta.ru/fme/relation/1816_2_MOMENT]]/URI URI[[http://libmeta.ru/fme/relation/1816_1_MOMENT]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1816_12_MOMENT]]/URI$</text>
+  <text_orig>математическое ожидание ее степеней; мо м е н т порядка $n=1,2,3, \ldots$ для непрерывно распределенной случайной величины с плотностью $p(x)$ равен
+
+\[
+\mathrm{E} X^{n} \equiv\left\langle X^{n}\right\rangle=\int_{-\infty}^{\infty} x^{n} p(x) d x
+\]
+
+Для дискретной случайной величины, принимающей значения $\left\{x_{k}\right\}$ с вероятностями $\left\{p_{k}\right\}, n$-й М. равен
+
+\[
+\mathrm{E} X^{n}=\sum_{k} x_{k}^{n} p_{k}
+\]
+
+M. 1-го порядка $\mathrm{E} X$ - математич. ожидание. Величина
+
+\[
+\mathrm{E}(X-\mathrm{E} X)^{n}
+\]
+
+называется центральным моментом порядка $n$, центральный М. 2-го порядка называется дисперсией.
+
+В случае конечного или бесконечного семейства случайных величин $\left\{X_{t}, t \in T\right\}$, где $T-$ нек-рое множество, помечающее эти величины, с мешан ны е моменты (м ульт и м о м е н т ы) этого семейства определяются формулой
+
+\[
+M_{n_{1}, \ldots, n_{k}}\left(t_{1}, \ldots, t_{k}\right)=E X_{t_{1}}^{n_{1}} \ldots X_{t_{k}}^{n_{k}}
+\]
+
+где $\left\{t_{1}, \ldots, t_{k}\right\}-$ произвольный набор попарно различных точек $T$, а $\left\{n_{1}, \ldots, n_{k}\right\}-$ целочисленный мультииндекс; математич. ожидание вычисляется по совместному распределению вероятностей значений случайных величин $X_{t_{1}}, \ldots, X_{t_{k}}$
+
+Р. А. Минлос.</text_orig>
+</article>

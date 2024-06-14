@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_625">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>f</mi><mrow><mi>&#x003BB;</mi></mrow></msub><mo stretchy="false">[</mo><mi>t</mi><mo stretchy="false">]</mo><mo>&#x0003C;</mo><mo>&#x0221E;</mo><mo>&#x0002C;</mo><mspace width="1em" /><msub><mi>A</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo>&#x0003D;</mo><msubsup><mi>A</mi><mrow><mi>&#x0039B;</mi></mrow><mrow><mo>&#x0002B;</mo></mrow></msubsup><mo>&#x0002C;</mo><mspace width="1em" /><mrow><mo stretchy="true" fence="true" form="prefix">&#x02016;</mo><msub><mi>A</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">&#x02016;</mo></mrow><mi>&#x02A7D;</mi><msub><mi>M</mi><mrow><mn>1</mn></mrow></msub><mo>&#x0002C;</mo><mspace width="1em" /><mrow><mo stretchy="true" fence="true" form="prefix">&#x02016;</mo><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><mi>T</mi><mo>&#x0002C;</mo><msub><mi>A</mi><mrow><mi>&#x0039B;</mi></mrow></msub><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mo stretchy="true" fence="true" form="postfix">&#x02016;</mo></mrow><mi>&#x02A7D;</mi><msub><mi>M</mi><mrow><mn>2</mn></mrow></msub></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$f_{\lambda}[t]&lt;\infty, \quad A_{\Lambda}=A_{\Lambda}^{+}, \quad\left\|A_{\Lambda}\right\| \leqslant M_{1}, \quad\left\|\left[T, A_{\Lambda}\right]\right\| \leqslant M_{2}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

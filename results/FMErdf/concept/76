@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1069_IัOSTA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1069_IัOSTA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/76</core:url>
+    <lbm:descriptor><![CDATA[ИัОСТА ФУНКЦИИ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#793"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#794"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#795"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#796"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_797"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_798"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_799"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_800"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_801"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_802"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_803"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_804"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_805"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>функции<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_797">$$F_{l}(k)=\lim _{r \rightarrow 0} \frac{(-k r)^{l}}{(2 l-1) ! !} f_{l}(k, r),$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_800">$$l=0,1, \ldots$$</a>, где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_801">$$f_{l}-$$</a> решения Йоста радиального уравнения Шредингера:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_798">$$\left\{-\frac{\partial^{2}}{\partial r^{2}}+l(l+1) / r^{2}+V(r)-k^{2}\right\} f_{l}(k, r)=0$$</a><BR/></P><P>с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_713_GRANIChNOE">граничным условием</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_802">$$f_{l}(k, r)=l^{i k r}+o(1), r \rightarrow \infty$$</a>. Й. Ф. существуют при условии<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_799">$$\int_{0}^{\infty} r|V(r)| d r<\infty$$</a><BR/></P><P>Основные свойства: 1) $URI[[http://libmeta.ru/fme/formula/aux/1069_4_IัOSTA]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голоморфна</a> при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_804">$$\operatorname{im} k \geqslant 0$$</a>, 2) <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_805">$$\left.\left.F_{l}\left(-k^{*}\right)=F_{l}^{*}(k), 3\right) F_{l}(k)=1+o(1), k \rightarrow \infty, 4\right)$$</a> нули <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_803">$$f_{l}(k)$$</a> в верхней <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2306_POLUINVARIAN">полуплоскости</a> соответствуют <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2702_SVJaZANNOE">связанным состояниям</a> для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2500_RADIAL'NOE">радиального уравнения Шредингера</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#795">[1]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#795">Ал ь фа р о В. де, Потенциальное рассеяние, пер. с англ., М., 1966, Р е дже Т.</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#796">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#120">Ньютон Р.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#796">Теория рассеяния волн и частиц, пер. с англ., М., 1969</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#793">С. П. Меркурьев</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#794">С. Л. Яковлев</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[функции
+
+\[
+F_{l}(k)=\lim _{r \rightarrow 0} \frac{(-k r)^{l}}{(2 l-1) ! !} f_{l}(k, r),
+\]
+
+$l=0,1, \ldots$, где $f_{l}-$ решения Йоста радиального уравнения Шредингера:
+
+\[
+\left\{-\frac{\partial^{2}}{\partial r^{2}}+l(l+1) / r^{2}+V(r)-k^{2}\right\} f_{l}(k, r)=0
+\]
+
+с граничным условием $f_{l}(k, r)=l^{i k r}+o(1), r \rightarrow \infty$. Й. Ф. существуют при условии
+
+\[
+\int_{0}^{\infty} r|V(r)| d r<\infty
+\]
+
+Основные свойства: 1) $F_{l}(k)$ голоморфна при $\operatorname{Im} k \geqslant 0$, 2) $\left.\left.F_{l}\left(-k^{*}\right)=F_{l}^{*}(k), 3\right) F_{l}(k)=1+o(1), k \rightarrow \infty, 4\right)$ нули $F_{l}(k)$ в верхней полуплоскости соответствуют связанным состояниям для радиального уравнения Шредингера.
+
+Jum.: [1] Ал ь фа р о В. де, Р е дже Т., Потеншиальное рассеяние, пер. с англ., М., 1966; [2] Н ь ю т о н Р., Теория рассеяния волн и частиц, пер. с англ., М., 1969.
+
+С. П. Меркурьев, С.Л. Яковлев.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2500_RADIAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2702_SVJaZANNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2306_POLUINVARIAN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_713_GRANIChNOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

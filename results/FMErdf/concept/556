@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1500_LAGRANZhA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1500_LAGRANZhA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/556</core:url>
+    <lbm:descriptor><![CDATA[ЛАГРАНЖА ПЛОСКОСТЬ В ЛИНЕЙНОМ СИМПЛЕКТИЧЕСКОМ ПРОСТРАНСТВЕ $\left(\mathbb{R}^{2 n}, \omega\right)$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#513"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>n#-мерная плоскость, совпадающая со своим косоортогональным дополнением. Множество всех Л. П. является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_654_GLADKOE">гладким многообразием</a> и называется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_716_GRASSMANA">Грассмана лагранжевым многообразием</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#513">М. Э. Казарян</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[n$-мерная плоскость, совпадающая со своим косоортогональным дополнением. Множество всех Л. П. является гладким многообразием и называется Грассмана лагранжевым многообразием.
+
+М. Э. Казарян.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_716_GRASSMANA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_654_GLADKOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

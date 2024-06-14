@@ -1,0 +1,304 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1536_LANDAU-LIFShITsA" alphabetic_pos="1538">
+  <title>ЛАНДАУ-ЛИФШИЦА УРАВНЕНИЕ</title>
+  <authors>
+    <author>И. Б. Барьяхтар</author>
+  </authors>
+  <pages>
+    <start>318</start>
+    <end>319</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ландау Л.Д., Лифшиц Е.М., в кн.: Ландау Л.Д., Собрание трудов, т. 1, М., 1969, с. 128-43; [2] Ахи езер А.И., Барьяхтар В. Г., Пелетминский С. В., Спиновые волны, М., 1967; [3] Косе в ич А. М., Иванов Б. А., Ковале в А. С., Нелинейные волны намагниченности. Динамические и топологические солитоны, Киев, 1983; [4] М а с л о в В. П., Че т в е р и ков В. М., Теория доменных структур в магнитных пленках с большой перпендикулярной анизотропией, М., 1986.</literature_orig>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <author>вкн.:Ландау Л. Д.</author>
+      <title>Собрание трудов</title>
+      <publication>М.</publication>
+      <year>1969</year>
+      <other>т. 1, с. 128-43</other>
+    </unit>
+    <unit>
+      <author>Ахиезер А. И.</author>
+      <author>Барьяхтар В. Г.</author>
+      <author>Пелетминский С. В.</author>
+      <title>Спиновые волны</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Косевич А. М.</author>
+      <author>Иванов Б. А.</author>
+      <author>Ковалев А. С.</author>
+      <title>Нелинейные волны намагниченности. Динамические и топологические солитоны, Киев</title>
+      <publication/>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Маслов В. П.</author>
+      <author>Четвериков В. М.</author>
+      <title>Теория доменных структур в магнитных пленках с большой перпендикулярной анизотропией</title>
+      <publication>М.</publication>
+      <year>1986</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_1_LANDAU-LIFShITsA">\frac{\partial \boldsymbol{M}}{\partial t}=-\frac{g|e|}{m c}\left[\boldsymbol{M}, \boldsymbol{H}^{\ni \Phi}\right]+\boldsymbol{R} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_2_LANDAU-LIFShITsA">\boldsymbol{H}^{\ni \Phi}=-\frac{\delta W}{\delta \boldsymbol{M}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_3_LANDAU-LIFShITsA">W=\int w\left\{M, \partial M_{i} / \partial x_{k}\right\} d \boldsymbol{x},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_4_LANDAU-LIFShITsA">w_{E}=\frac{1}{2} f\left(M^{2}\right)+\alpha_{i j} \frac{\partial \boldsymbol{M}}{\partial x_{i}} \frac{\partial \boldsymbol{M}}{\partial x_{j}}, \quad i, j=1,2,3,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_5_LANDAU-LIFShITsA">w_{A}=\frac{1}{2} \beta\left(\boldsymbol{M}, \boldsymbol{e}_{z}\right)^{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_6_LANDAU-LIFShITsA">w_{M}=-\frac{1}{2}\left(\boldsymbol{M}, \boldsymbol{H}_{M}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_7_LANDAU-LIFShITsA">w_{H}=-(\boldsymbol{M}, \boldsymbol{H}) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_8_LANDAU-LIFShITsA">\boldsymbol{R}=\lambda\left[\boldsymbol{M},\left[\boldsymbol{M}, \boldsymbol{H}^{\ni \Phi}\right]\right],</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_9_LANDAU-LIFShITsA">\boldsymbol{R}=\lambda^{\prime}\left[\boldsymbol{M}, \frac{\partial \boldsymbol{M}}{\partial t}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_10_LANDAU-LIFShITsA">\boldsymbol{R}=\hat{\boldsymbol{\gamma}} \boldsymbol{H}^{\text {эФ }}-\gamma_{i j}^{e} \frac{\partial}{\partial x_{i}} \frac{\partial}{\partial x_{j}} \boldsymbol{H}^{э \Phi}, \quad i, j=1,2,3 .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1536_11_LANDAU-LIFShITsA">w_{A}=\frac{1}{2}\left(\beta_{1} M_{z}^{2}+\beta_{2} M_{x}^{2}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_1_LANDAU-LIFShITsA">\boldsymbol{m}(x, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_2_LANDAU-LIFShITsA">\boldsymbol{h}^{\text {эф }}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_3_LANDAU-LIFShITsA">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_4_LANDAU-LIFShITsA">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_5_LANDAU-LIFShITsA">1 \leqslant g \leqslant 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_6_LANDAU-LIFShITsA">|e|</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_7_LANDAU-LIFShITsA">m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_8_LANDAU-LIFShITsA">c</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_9_LANDAU-LIFShITsA">w_{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_10_LANDAU-LIFShITsA">w_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_11_LANDAU-LIFShITsA">w_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_12_LANDAU-LIFShITsA">w_{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_13_LANDAU-LIFShITsA">\alpha_{i j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_14_LANDAU-LIFShITsA">\alpha_{i j}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_15_LANDAU-LIFShITsA">w_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_16_LANDAU-LIFShITsA">\beta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_17_LANDAU-LIFShITsA">\boldsymbol{e}_{z}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_18_LANDAU-LIFShITsA">w_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_19_LANDAU-LIFShITsA">\boldsymbol{h}_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_20_LANDAU-LIFShITsA">w_{e} \gg w_{A}, w_{M}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_21_LANDAU-LIFShITsA">w_{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_22_LANDAU-LIFShITsA">\boldsymbol{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_23_LANDAU-LIFShITsA">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_24_LANDAU-LIFShITsA">\lambda=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_25_LANDAU-LIFShITsA">\lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_26_LANDAU-LIFShITsA">\lambda^{\prime}=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_27_LANDAU-LIFShITsA">\lambda^{\prime}&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_28_LANDAU-LIFShITsA">\boldsymbol{m}^{2}(\boldsymbol{x}, t)=\boldsymbol{M}_{0}^{2}(\boldsymbol{x})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_29_LANDAU-LIFShITsA">\hat{\gamma}, \gamma_{i j}^{e}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_30_LANDAU-LIFShITsA">\boldsymbol{r}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_31_LANDAU-LIFShITsA">w_{m}=w_{h}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1536_32_LANDAU-LIFShITsA">(l-A)</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/fme/relation/1536_1_LANDAU-LIFShITsA">
+      <rel_text>обратной задачи рассеяния метод</rel_text>
+      <target>http://libmeta.ru/fme/article/2036_OBRATNOJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1536_2_LANDAU-LIFShITsA">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1536_3_LANDAU-LIFShITsA">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1536_4_LANDAU-LIFShITsA">
+      <rel_text>состояний</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1536_5_LANDAU-LIFShITsA">
+      <rel_text>релаксацию</rel_text>
+      <target>http://libmeta.ru/fme/article/2604_RELAKSATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1536_6_LANDAU-LIFShITsA">
+      <rel_text>тензоры</rel_text>
+      <target>http://libmeta.ru/fme/article/3039_TENZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1536_7_LANDAU-LIFShITsA">
+      <rel_text>релаксацию</rel_text>
+      <target>http://libmeta.ru/fme/article/2604_RELAKSATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1536_8_LANDAU-LIFShITsA">
+      <rel_text>интеграла движения</rel_text>
+      <target>http://libmeta.ru/fme/article/1025_INTEGRAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1536_9_LANDAU-LIFShITsA">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1536_10_LANDAU-LIFShITsA">
+      <rel_text>Плотность</rel_text>
+      <target>http://libmeta.ru/fme/article/2253_PLOTNOST</target>
+    </relation>
+  </relations>
+  <text>Уравнение Движения магнитного момента $URI[[http://libmeta.ru/fme/formula/aux/1536_1_LANDAU-LIFShITsA]]/URI$ в ферромагнетиках. Сформулировано Л. Д. Ландау и Е. М. Лифшицем (1935). Л.-Л.у. имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_1_LANDAU-LIFShITsA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1536_2_LANDAU-LIFShITsA]]/URI$ - эффективное магнитное поле, $URI[[http://libmeta.ru/fme/formula/aux/1536_3_LANDAU-LIFShITsA]]/URI$ - релаксационный член, $URI[[http://libmeta.ru/fme/formula/aux/1536_4_LANDAU-LIFShITsA]]/URI$ - множитель Ланде (a. Landé), $URI[[http://libmeta.ru/fme/formula/aux/1536_5_LANDAU-LIFShITsA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1536_6_LANDAU-LIFShITsA]]/URI$ - заряд электрона, $URI[[http://libmeta.ru/fme/formula/aux/1536_7_LANDAU-LIFShITsA]]/URI$ - масса электрона, $URI[[http://libmeta.ru/fme/formula/aux/1536_8_LANDAU-LIFShITsA]]/URI$ - скорость света.
+
+Эффективное поле представляет собой вариационную производную
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_2_LANDAU-LIFShITsA]]/URI
+\]
+
+от энергии ферромагнетика
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_3_LANDAU-LIFShITsA]]/URI
+\]
+
+к-рую, исходя из физич. соображений, можно представить в виде суммы четырех слагаемых: энергии обменного взаимодействия $URI[[http://libmeta.ru/fme/formula/aux/1536_9_LANDAU-LIFShITsA]]/URI$, энергии анизотропии $URI[[http://libmeta.ru/fme/formula/aux/1536_10_LANDAU-LIFShITsA]]/URI$, энергии размагничивающих полей $URI[[http://libmeta.ru/fme/formula/aux/1536_11_LANDAU-LIFShITsA]]/URI$ и энергии магнетика во внешнем магнитном поле $URI[[http://libmeta.ru/fme/formula/aux/1536_12_LANDAU-LIFShITsA]]/URI$.
+
+Плотность энергии обменного взаимодействия имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_4_LANDAU-LIFShITsA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1536_13_LANDAU-LIFShITsA]]/URI$ - тензор обменных постоянных $URI[[http://libmeta.ru/fme/formula/aux/1536_14_LANDAU-LIFShITsA]]/URI$.
+
+Обменное взаимодействие ответственно за упорядочение магнитных моментов в ферромагнетике, имеет квантовомеханич. природу и связано с кулоновским взаимодействием электронов и ядер с учетом принципа Паули. Обменное взаимодействие инвариантно по отношению к вращению магнитных моментов.
+
+Энергия магнитной анизотропии $URI[[http://libmeta.ru/fme/formula/aux/1536_15_LANDAU-LIFShITsA]]/URI$ связана с взаимодействием магнитных моментов атомов ферромагнетика с электрич. полем кристаллич. решетки, а также с дипольным взаимодействием магнитных моментов друг с другом. Плотность энергии магнитной анизотропии в простейшем случае так наз. одноосной анизотропии имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_5_LANDAU-LIFShITsA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1536_16_LANDAU-LIFShITsA]]/URI$ - константа магнитной анизотропии, $URI[[http://libmeta.ru/fme/formula/aux/1536_17_LANDAU-LIFShITsA]]/URI$ - единичный вектор вдоль оси анизотропии.
+
+Конкретный вид обменной энергии и энергии магнитной анизотропии определяется симметрией кристалла.
+
+Плотность энергии размагничивающих полей $URI[[http://libmeta.ru/fme/formula/aux/1536_18_LANDAU-LIFShITsA]]/URI$ может быть записана в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_6_LANDAU-LIFShITsA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1536_19_LANDAU-LIFShITsA]]/URI$ - размагничивающее поле, к-рое создается магнитными моментами ферромагнетика благодаря дипольному взаимодействию и удовлетворяет уравнениям магнитостатики. Для большинства ферромагнетиков выполняется соотношение $URI[[http://libmeta.ru/fme/formula/aux/1536_20_LANDAU-LIFShITsA]]/URI$.
+
+URI[[http://libmeta.ru/fme/relation/1536_10_LANDAU-LIFShITsA]]/URI URI[[http://libmeta.ru/fme/relation/1536_9_LANDAU-LIFShITsA]]/URI магнетика $URI[[http://libmeta.ru/fme/formula/aux/1536_21_LANDAU-LIFShITsA]]/URI$ во внешнем магнитном поле $URI[[http://libmeta.ru/fme/formula/aux/1536_22_LANDAU-LIFShITsA]]/URI$ имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_7_LANDAU-LIFShITsA]]/URI
+\]
+
+Релаксационный член $URI[[http://libmeta.ru/fme/formula/aux/1536_23_LANDAU-LIFShITsA]]/URI$ описывает диссипативные процессы в ферромагнетике. Л. Д. Ландау и Е. М. Лифшиц предложили следующий вид релаксационного члена:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_8_LANDAU-LIFShITsA]]/URI
+\] где $URI[[http://libmeta.ru/fme/formula/aux/1536_24_LANDAU-LIFShITsA]]/URI$ const, $URI[[http://libmeta.ru/fme/formula/aux/1536_25_LANDAU-LIFShITsA]]/URI$. Более удобную для расчетов форму релаксационному члену придал Т. Гильберт (t. Gilbert, 1955):
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_9_LANDAU-LIFShITsA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1536_26_LANDAU-LIFShITsA]]/URI$ const, $URI[[http://libmeta.ru/fme/formula/aux/1536_27_LANDAU-LIFShITsA]]/URI$. Важным свойством Л.-Л. у. с релаксационными членами (7), (8) является наличие локального URI[[http://libmeta.ru/fme/relation/1536_8_LANDAU-LIFShITsA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1536_28_LANDAU-LIFShITsA]]/URI$. Таким образом, формулы (7), (8) описывают URI[[http://libmeta.ru/fme/relation/1536_7_LANDAU-LIFShITsA]]/URI направления магнитного момента к равновесному значению. Релаксационный член можно записать следующим образом:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_10_LANDAU-LIFShITsA]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/fme/formula/aux/1536_29_LANDAU-LIFShITsA]]/URI$ URI[[http://libmeta.ru/fme/relation/1536_6_LANDAU-LIFShITsA]]/URI релаксационных постоянных, определяемых симметрией кристалла. Релаксационный член (9) позволяет исследовать URI[[http://libmeta.ru/fme/relation/1536_5_LANDAU-LIFShITsA]]/URI сильно неоднородных URI[[http://libmeta.ru/fme/relation/1536_4_LANDAU-LIFShITsA]]/URI как величины, так и направления магнитного момента.
+
+Л.-Л. у. позволяет исследовать существенно нелинейные процессы в ферромагнетиках. Важным свойством Л.-Л. у. в случае одномерного магнетика в приближении $URI[[http://libmeta.ru/fme/formula/aux/1536_30_LANDAU-LIFShITsA]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1536_31_LANDAU-LIFShITsA]]/URI$ и URI[[http://libmeta.ru/fme/relation/1536_3_LANDAU-LIFShITsA]]/URI URI[[http://libmeta.ru/fme/relation/1536_2_LANDAU-LIFShITsA]]/URI магнитной анизотропии вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1536_11_LANDAU-LIFShITsA]]/URI
+\]
+
+является существование точных решений типа уединенных волн. Л.-Л. у. в этом же приближении было представлено как условие совместимости двух линейных уравнений [предъявлена $URI[[http://libmeta.ru/fme/formula/aux/1536_32_LANDAU-LIFShITsA]]/URI$-пара], что позволило применить для Л.-Л.У. URI[[http://libmeta.ru/fme/relation/1536_1_LANDAU-LIFShITsA]]/URI.</text>
+  <text_orig>УравНеНИе ДВИжения магнитного момента $\boldsymbol{M}(x, t)$ в ферромагнетиках. Сформулировано Л. Д. Ландау и Е. М. Лифшицем (1935). Л.-Л.у. имеет вид:
+
+\[
+\frac{\partial \boldsymbol{M}}{\partial t}=-\frac{g|e|}{m c}\left[\boldsymbol{M}, \boldsymbol{H}^{\ni \Phi}\right]+\boldsymbol{R} .
+\]
+
+Здесь $\boldsymbol{H}^{\text {эф }}$ - эффективное магнитное поле, $\boldsymbol{R}$ - релаксационный член, $g$ - множитель Ланде (A. Landé), $1 \leqslant g \leqslant 2$, $|e|$ - заряд электрона, $m$ - масса электрона, $c$ - скорость света.
+
+Эффективное поле представляет собой вариационную производную
+
+\[
+\boldsymbol{H}^{\ni \Phi}=-\frac{\delta W}{\delta \boldsymbol{M}}
+\]
+
+от энергии ферромагнетика
+
+\[
+W=\int w\left\{M, \partial M_{i} / \partial x_{k}\right\} d \boldsymbol{x},
+\]
+
+к-рую, исходя из физич. соображений, можно представить в виде суммы четырех слагаемых: энергии обменного взаимодействия $W_{E}$, энергии анизотропии $W_{A}$, энергии размагничивающих полей $W_{M}$ и энергии магнетика во внешнем магнитном поле $W_{H}$.
+
+Плотность энергии обменного взаимодействия имеет вид:
+
+\[
+w_{E}=\frac{1}{2} f\left(M^{2}\right)+\alpha_{i j} \frac{\partial \boldsymbol{M}}{\partial x_{i}} \frac{\partial \boldsymbol{M}}{\partial x_{j}}, \quad i, j=1,2,3,
+\]
+
+где $\alpha_{i j}$ - тензор обменных постоянных $\alpha_{i j}&gt;0$.
+
+Обменное взаимодействие ответственно за упорядочение магнитных моментов в ферромагнетике, имеет квантовомеханич. природу и связано с кулоновским взаимодействием электронов и ядер с учетом принципа Паули. Обменное взаимодействие инвариантно по отношению к вращению магнитных моментов.
+
+Энергия магнитной анизотропии $W_{A}$ связана с взаимодействием магнитных моментов атомов ферромагнетика с электрич. полем кристаллич. решетки, а также с дипольным взаимодействием магнитных моментов друг с другом. Плотность энергии магнитной анизотропии в простейшем случае так наз. одноосной анизотропии имеет вид:
+
+\[
+w_{A}=\frac{1}{2} \beta\left(\boldsymbol{M}, \boldsymbol{e}_{z}\right)^{2},
+\]
+
+где $\beta$ - константа магнитной анизотропии, $\boldsymbol{e}_{z}$ - единичный вектор вдоль оси анизотропии.
+
+Конкретный вид обменной энергии и энергии магнитной анизотропии определяется симметрией кристалла.
+
+Плотность энергии размагничивающих полей $w_{M}$ может быть записана в виде:
+
+\[
+w_{M}=-\frac{1}{2}\left(\boldsymbol{M}, \boldsymbol{H}_{M}\right)
+\]
+
+где $\boldsymbol{H}_{M}$ - размагничивающее поле, к-рое создается магнитными моментами ферромагнетика благодаря дипольному взаимодействию и удовлетворяет уравнениям магнитостатики. Для большинства ферромагнетиков выполняется соотношение $w_{E} \gg w_{A}, w_{M}$.
+
+Плотность энергии магнетика $w_{H}$ во внешнем магнитном поле $\boldsymbol{H}$ имеет вид:
+
+\[
+w_{H}=-(\boldsymbol{M}, \boldsymbol{H}) .
+\]
+
+Релаксационный член $\boldsymbol{R}$ описывает диссипативные процессы в ферромагнетике. Л. Д. Ландау и Е. М. Лифшиц предложили следующий вид релаксационного члена:
+
+\[
+\boldsymbol{R}=\lambda\left[\boldsymbol{M},\left[\boldsymbol{M}, \boldsymbol{H}^{\ni \Phi}\right]\right],
+\] где $\lambda=$ const, $\lambda&gt;0$. Более удобную для расчетов форму релаксационному члену придал Т. Гильберт (T. Gilbert, 1955):
+
+\[
+\boldsymbol{R}=\lambda^{\prime}\left[\boldsymbol{M}, \frac{\partial \boldsymbol{M}}{\partial t}\right]
+\]
+
+где $\lambda^{\prime}=$ const, $\lambda^{\prime}&gt;0$. Важным свойством Л.-Л. у. с релаксационными членами (7), (8) является наличие локального интеграла движения $\boldsymbol{M}^{2}(\boldsymbol{x}, t)=\boldsymbol{M}_{0}^{2}(\boldsymbol{x})$. Таким образом, формулы (7), (8) описывают релаксацию направления магнитного момента к равновесному значению. Релаксационный член можно записать следуюшим образом:
+
+\[
+\boldsymbol{R}=\hat{\boldsymbol{\gamma}} \boldsymbol{H}^{\text {эФ }}-\gamma_{i j}^{e} \frac{\partial}{\partial x_{i}} \frac{\partial}{\partial x_{j}} \boldsymbol{H}^{э \Phi}, \quad i, j=1,2,3 .
+\]
+
+Здесь $\hat{\gamma}, \gamma_{i j}^{e}-$ тензоры релаксационных постоянных, определяемых симметрией кристалла. Релаксационный член (9) позволяет исследовать релаксацию сильно неоднородных состояний как величины, так и направления магнитного момента.
+
+Л.-Л. у. позволяет исследовать существенно нелинейные процессы в ферромагнетиках. Важным свойством Л.-Л. у. в случае одномерного магнетика в приближении $\boldsymbol{R}=0$, $w_{M}=w_{H}=0$ и плотности энергии магнитной анизотропии вида:
+
+\[
+w_{A}=\frac{1}{2}\left(\beta_{1} M_{z}^{2}+\beta_{2} M_{x}^{2}\right)
+\]
+
+является существование точных решений типа уединенных волн. Л.-Л. у. в этом же приближении было представлено как условие совместимости двух линейных уравнений [предъявлена $(L-A)$-пара], что позволило применить для Л.-Л.У. обратной задачи рассеяния метод.
+
+Лит.: [1] Ландау Л.Д., Лифшиц Е.М., в кн.: Ландау Л.Д., Собрание трудов, т. 1, М., 1969, с. 128-43; [2] Ахи езер А.И., Барьяхтар В. Г., Пелетминский С. В., Спиновые волны, М., 1967; [3] Косе в ич А. М., Иванов Б. А., Ковале в А. С., Нелинейные волны намагниченности. Динамические и топологические солитоны, Киев, 1983; [4] М а с л о в В. П., Че т в е р и ков В. М., Теория доменных структур в магнитных пленках с большой перпендикулярной анизотропией, М., 1986.
+
+И. Б. Барьяхтар.</text_orig>
+</article>

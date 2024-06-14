@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1965_NOVIKOVA-VESELOVA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1965_NOVIKOVA-VESELOVA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1071</core:url>
+    <lbm:descriptor><![CDATA[НОВИКОВА-ВЕСЕЛОВА УРАВНЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1544"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#8289"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#8290"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8291"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8292"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8293"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8294"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1019"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_33"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_243"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_8295"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>уравнение<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8291">$$\begin{aligned}& V_{t}=\partial^{3} V+\bar{\partial}^{3} V+\partial(u V)+\bar{\partial}(\bar{u} V), \\& \bar{\partial} u=3 \partial V, \quad \partial=\frac{\partial}{\partial z}, \quad z=x+i y ;\end{aligned}$$</a><BR/></P><P>было предложено в <a href="/object/show?uri=http://libmeta.ru/io/Publication#8289">[1]</a>, как уравнение, описывающее <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI">деформации</a> потенциала <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8294">$$v(x, y, t)$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> Шредингера<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8292">$$L=\partial \bar{\partial}+V$$</a><BR/></P><P>сохраняющие спектральные данные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> $URI[[http://libmeta.ru/fme/formula/aux/1965_2_NOVIKOVA-VESELOVA]]/URI$ при одном <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3191_UROVEN'">уровне энергии</a>. Такие <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI">деформации</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3492_EKVIDISTANT">эквивалентны</a> операторным уравнениям вида:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8293">$$\partial_{t} L=[L, A+\bar{A}]+(B+\bar{B}) L$$</a><BR/></P><P>для Н.-В.у. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операторы</a> $URI[[http://libmeta.ru/fme/formula/aux/1965_3_NOVIKOVA-VESELOVA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1965_4_NOVIKOVA-VESELOVA]]/URI$ равны: <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_8295">$$a=\partial^{3}+u \partial, B=\partial u$$</a>. Н.-В. у. является двумерным аналогом <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1415_KORTEVEGA-DE">Кортевега-де Фриса уравнения</a>. Для него построены <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'">квазипериодич</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1337_KONEChNOZONNOE">конечнозонные решения</a>, построены точные многосолитонные решения (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#8290">[2]</a>) и развита общая схема <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_819_DINAMIKA">интегрирования задачи</a> Коши для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_290_BYSTRO">быстро убывающих</a> начальных данных.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#8289">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#8287">Веселов А. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#8288">Новикв С. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#8289">«доклады Ан СССР», 1984, т. 279, № 1, с. 20-24</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#8290">[2]</a> , <a href="/object/show?uri=http://libmeta.ru/io/Publication#8290">их же, там же, 1984, т. 279, № 4, с. 784-88.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1544">И. М. Кричевер</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[уравнение
+
+\[
+\begin{aligned}
+& V_{t}=\partial^{3} V+\bar{\partial}^{3} V+\partial(u V)+\bar{\partial}(\bar{u} V), \\
+& \bar{\partial} u=3 \partial V, \quad \partial=\frac{\partial}{\partial z}, \quad z=x+i y ;
+\end{aligned}
+\]
+
+было предложено в [1], как уравнение, описываюшее деформации потенциала $V(x, y, t)$ оператора Шредингера
+
+\[
+L=\partial \bar{\partial}+V
+\]
+
+сохраняющие спектральные данные оператора $L$ при одном уровне энергии. Такие деформации эквивалентны операторным уравнениям вида:
+
+\[
+\partial_{t} L=[L, A+\bar{A}]+(B+\bar{B}) L
+\]
+
+для Н.-В.у. операторы $A$ и $B$ равны: $A=\partial^{3}+u \partial, B=\partial u$. Н.-В. у. является двумерным аналогом Кортевега-де Фриса уравнения. Для него построены квазипериодич. конечнозонные решения, построены точные многосолитонные решения (см. [2]) и развита общая схема интегрирования задачи Коши для быстро убывающих начальных данных.
+
+Лum.: [1] В е с ело в А. П., Но в и к в С.П., «Доклады АН СССР», 1984, т. 279, № 1, с. 20-24; [2] их же, там же, 1984, т. 279, № 4, с. 784-88.
+И. М. Кричевер.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_290_BYSTRO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_819_DINAMIKA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1337_KONEChNOZONNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1415_KORTEVEGA-DE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3492_EKVIDISTANT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3191_UROVEN'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_803_DEFORMATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

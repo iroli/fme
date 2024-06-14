@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_752_DAJSONA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_752_DAJSONA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3311</core:url>
+    <lbm:descriptor><![CDATA[ДАЙСОНА РАСПРЕДЕЛЕНИЕ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#10474"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>обобщение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_392_VIGNERA">Вигнера распределения</a>, характеризующее предельную спектральную <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST">плотность</a> распределения в случайных ансамблях матриц, обладающих иными свойствами <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1008_INVARIANTNOST">инвариантности</a>, чем <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2110_ORTOPROEKTO">ортогонально</a> инвариантный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_391_VIGNERA">ансамбль Вигнера</a> (у н и т а р н ы й а н с а м б л ь и др.). Основной качественный эффект, характерный для Д.р.,- явление отталкивания спектральных уровней. Как и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_392_VIGNERA">распределение Вигнера</a>, Д. р. возникает в связи с описанием спектров тяжелых ядер.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#10474">С. А. Молчанов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[обобщение Вигнера распределения, характеризующее предельную спектральную плотность распределения в случайных ансамблях матриц, обладающих иными свойствами инвариантности, чем ортогонально инвариантный ансамбль Вигнера (у н и т а р н ы й а н с а м б л ь и др.). Основной качественный эффект, характерный для Д.р.,- явление отталкивания спектральных уровней. Как и распределение Вигнера, Д. р. возникает в связи с описанием спектров тяжелых ядер. С. А. Молчанов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_392_VIGNERA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_391_VIGNERA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2110_ORTOPROEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1008_INVARIANTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2253_PLOTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_392_VIGNERA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

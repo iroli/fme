@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3183_UORDA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3183_UORDA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2425</core:url>
+    <lbm:descriptor><![CDATA[УОРДА ТОЖДЕСТВА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#14"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>соотношения между Грина <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функциями</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa">квантовой электродинамике</a>, следующие из <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1076_KALIBROVOChNAJa">калибровочной инвариантности</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">действия</a>. Впервые <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получены</a> Дж. Уордом (j. Ward, 1950), затем в более общей форме Е. С. Фрадкиным (1955) и Я. Такахаши (y. Takahashi, 1957).<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#14">А. А. Славнов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[соотношения между Грина функциями в квантовой электродинамике, следующие из калибровочной инвариантности действия. Впервые получены Дж. Уордом (J. Ward, 1950), затем в более общей форме Е. С. Фрадкиным (1955) и Я. Такахаши (Y. Takahashi, 1957). А. А. Славнов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1076_KALIBROVOChNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

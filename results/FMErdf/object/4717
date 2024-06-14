@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_4717">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003A6;</mi><mo stretchy="false">&#x00028;</mo><mi>r</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mi>k</mi><mfrac><mrow><msub><mi>q</mi><mrow><mn>1</mn></mrow></msub><msub><mi>q</mi><mrow><mn>2</mn></mrow></msub></mrow><mrow><mi>&#x003B5;</mi><mi>r</mi></mrow></mfrac><mo>&#x0002C;</mo><mspace width="1em" /><mi>k</mi><mo>&#x0003D;</mo><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><mtable><mtr><mtd columnalign="left"><mn>1</mn><mo>&#x0002C;</mo></mtd><mtd columnalign="left"><mtext>&#x000A0;СГС,&#x000A0;</mtext></mtd></mtr><mtr><mtd columnalign="left"><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn><mi>&#x003C0;</mi><msub><mi>&#x003B5;</mi><mrow><mn>0</mn></mrow></msub></mrow></mfrac><mo>&#x0002C;</mo></mtd><mtd columnalign="left"><mtext>&#x000A0;СИ,&#x000A0;</mtext></mtd></mtr></mtable></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\Phi(r)=k \frac{q_{1} q_{2}}{\varepsilon r}, \quad k= \begin{cases}1, &amp; \text { СГС, } \\ \frac{1}{4 \pi \varepsilon_{0}}, &amp; \text { СИ, }\end{cases}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

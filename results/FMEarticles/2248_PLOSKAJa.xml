@@ -1,0 +1,809 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/2248_PLOSKAJa" alphabetic_pos="2250">
+  <title>ПЛОСКАЯ ЗАДАЧА ТЕОРИИ УПРУГОСТИ</title>
+  <authors>
+    <author>И. Н. Векуа</author>
+    <author>Р. А. Кордзадзе</author>
+  </authors>
+  <pages>
+    <start>443</start>
+    <end>445</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] К о ло с о в Г. В., Применение комплексных диаграмм и теории функций комплексной переменной к теории упругости, Л.М., 1935; [2] М у х е л и ш в и л Н. И., Некоторые основные задачи математической теории упругости, 5 изд., М., 1966; [3] е го же, Сингулярные интегральные уравнения, 3 изд., М., 1968; [4] В еку а И. Н., Новые методы решения эллиптических уравнений, М.Л., 1948.</literature_orig>
+    <unit>
+      <author>Колосов Г. В.</author>
+      <title>Применение комплексных диаграмм и теории функций комплексной переменной к теории упругости</title>
+      <publication>Л.М.</publication>
+      <year>1935</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Мухелишвил Н. И.</author>
+      <title>Некоторые основные задачи математической теории упругости</title>
+      <publication>5 изд., М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>е го же, Сингулярные интегральные уравнения</title>
+      <publication>3 изд., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Векуа И. Н.</author>
+      <title>Новые методы решения эллиптических уравнений</title>
+      <publication>М.Л.</publication>
+      <year>1948</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_1_PLOSKAJa">u_{\alpha}=u_{\alpha}\left(x_{1}, x_{2}, t\right), \alpha=1,2, u_{3}=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_2_PLOSKAJa">X_{\alpha \beta}=\lambda \theta \delta_{\alpha \beta}+2 \mu e_{\alpha \beta}, X_{\alpha 3}=0, X_{33}=\lambda \theta \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_3_PLOSKAJa">\mu \Delta u_{\alpha}+(\lambda+\mu) \partial_{\alpha} \theta+X_{\alpha}=\rho \ddot{u}_{\alpha}, \alpha=1,2,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_4_PLOSKAJa">2 \partial_{\bar{z}}=\partial_{1}+i \partial_{2}, \quad 2 \partial_{z}=\partial_{1}-i \partial_{2} \quad\left(\partial_{\alpha}=\partial / \partial x_{\alpha}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_5_PLOSKAJa">(\lambda+3 \mu) \partial_{z \bar{z}}^{2} u+(\lambda+\mu) \partial_{\bar{z} \bar{z}}^{2} \bar{u}+X=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_6_PLOSKAJa">u=u_{1}+i u_{2}, X=2^{-1}\left(X_{1}+i X_{2}\right) .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_7_PLOSKAJa">\begin{aligned}&amp; T X=-x(\mu \pi(1+x))^{-1} \iint X(\zeta) \ln |\zeta-z| d \zeta_{1} d \zeta_{2}+ \\&amp; +(2 \mu \pi(1+x))^{-1} \iint \bar{X}(\zeta-z)(\bar{\zeta}-\bar{z})^{-1} d \zeta_{1} d \zeta_{2},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_8_PLOSKAJa">u_{0}=K(\varphi, \psi ; x)=x \varphi(z)-z \overline{\varphi^{\prime}(z)}-\psi(z),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_9_PLOSKAJa">X_{\alpha \alpha}=2(\lambda+\mu)\left(\partial_{z} u+\partial_{\bar{z}} u\right), \quad X_{11}-X_{22}+2 i X_{12}=4 \mu \partial_{\bar{z}} u</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_10_PLOSKAJa">u=K(\varphi, \psi ; x)+T X,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_11_PLOSKAJa">X_{\alpha \alpha}=4 \operatorname{Re} \Phi(z)+T_{0} X,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_12_PLOSKAJa">X_{11}-X_{22}+2 i X_{12}=2\left(\bar{z} \Phi^{\prime}(z)+\Psi(z)\right)+T_{1} X \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_13_PLOSKAJa">\begin{gathered}\Phi=2 \mu \varphi^{\prime}, \Psi=2 \mu \Psi^{\prime}, \\T_{0}=4(\lambda+\mu) \operatorname{Re}_{z} T X, \quad T_{1} X=4 \mu \partial_{\bar{z}} T X .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_14_PLOSKAJa">\left(X_{n}+i Y_{n}\right) d s=-2 i \mu d\left(\varphi(z)+z \overline{\varphi^{\prime}(z)}+\overline{\psi(z)}\right)_{\ell}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_15_PLOSKAJa">\varphi(t)+t \overline{\varphi^{\prime}(t)}+\overline{\psi(t)}=f(t)+c(t), \quad t \in L,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_16_PLOSKAJa">f(t)=i(2 \mu)^{-1} \int_{L}\left(X_{n}+i Y_{n}\right) d s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_17_PLOSKAJa">\int_{L}\left(X_{n}+i Y_{n}\right) d s=0, \quad 2 \mu \int_{L}\left(x_{1} Y_{n}-x_{2} X_{n}\right) d s=\operatorname{Re} \int_{L} f d t=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_18_PLOSKAJa">x \varphi(t)-t \overline{\varphi^{\prime}(t)}-\overline{\psi(t)}=f(t), \quad t \in L,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_19_PLOSKAJa">\gamma(t) \varphi(t)+t \overline{\varphi^{\prime}(t)}+\overline{\psi(t)}=f(t)+c(t), \quad t \in L,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_20_PLOSKAJa">\Delta \Delta w=q / D,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_21_PLOSKAJa">w=w_{0}+\tilde{T} q,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_22_PLOSKAJa">\tilde{T} q=(8 \pi D)^{-1} \iint q(\zeta)|\zeta-t|^{2} \ln |\zeta-z| d \zeta_{1} d \zeta_{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_23_PLOSKAJa">w_{0}=\operatorname{Re}(\bar{z} \Phi(z)+\Psi(z))</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_24_PLOSKAJa">\Delta \Delta w_{0}=0 \text {, }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_25_PLOSKAJa">w\left(x_{1}, x_{2}\right)=D^{-1} \iint S G\left(x_{1}, x_{2}, \zeta_{1}, \zeta_{2}\right) q\left(\zeta_{1}, \zeta_{2}\right) d \zeta_{1} d \zeta_{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_26_PLOSKAJa">\begin{aligned}G\left(x_{1}, x_{2}, \zeta_{1}, \zeta_{2}\right) &amp; =2|\zeta-z|^{2} \ln \left(|1-z \bar{\zeta}||\zeta-z|^{-1}\right)- \\&amp; -\left(1-|z|^{2}\right)\left(1-|\zeta|^{2}\right), \\z &amp; =x_{1}+i x_{2}, \zeta=\zeta_{1}+i \zeta_{2} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_27_PLOSKAJa">d\left((3+\sigma) /(1-\sigma) \Phi-z \bar{\Phi}^{\prime}-\bar{\Psi}^{\prime}\right)=g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_28_PLOSKAJa">u=v\left(x_{1}, x_{2}\right) e^{\dot{N} t}, u_{3}=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_29_PLOSKAJa">v=\partial_{\bar{z}}\left(w_{1}+i w_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_30_PLOSKAJa">\begin{gathered}\Delta w_{1}+a^{2} v^{2} w_{1}=0, \Delta w_{2}+b^{2} v^{2} w_{2}=0, \\a^{2}=\rho(\lambda+2 \mu)^{-1}, b^{2}=\rho \mu^{-1} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_31_PLOSKAJa">\begin{gathered}X_{11}+X_{22}=-(\lambda+\mu) \alpha^{2} v^{2} w_{1}, \\X_{11}-X_{22}+2 i X_{22}=4 \mu \partial_{\bar{z}}^{2}\left(w_{1}-i w_{2}\right), \\X_{33}=-2^{-1} a^{2} v^{2} w_{1} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_32_PLOSKAJa">\Delta w+k^{2} w=0, k^{2}=\mathrm{const}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/2248_33_PLOSKAJa">w=A_{0} J_{0}(k|z|)+\int_{0}^{1} \operatorname{Re}[z \Phi(z t)] J_{0}(k|z| \sqrt{1-t}) d t,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_1_PLOSKAJa">o x_{1} x_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_2_PLOSKAJa">o x_{1} x_{2} x_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_3_PLOSKAJa">o x_{1} x_{2} x_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_4_PLOSKAJa">t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_5_PLOSKAJa">\lambda, \mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_6_PLOSKAJa">\delta_{\alpha \beta}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_7_PLOSKAJa">\boldsymbol{e}_{\alpha \beta}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_8_PLOSKAJa">\boldsymbol{e}_{\alpha \beta}=\partial_{\alpha} u_{\beta}+\partial_{\beta} u_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_9_PLOSKAJa">\theta=e_{\alpha \alpha}=\partial_{\alpha} u_{\alpha}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_10_PLOSKAJa">(\alpha, \beta=1,2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_11_PLOSKAJa">o x_{1} x_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_12_PLOSKAJa">x_{\alpha}=x_{\alpha}\left(x_{1}, x_{2}, t\right), X_{3}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_13_PLOSKAJa">x_{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_14_PLOSKAJa">\pm \lambda \theta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_15_PLOSKAJa">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_16_PLOSKAJa">о \ddot{u}_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_17_PLOSKAJa">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_18_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_19_PLOSKAJa">o x_{1} x_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_20_PLOSKAJa">l_{0}, L_{1}, \ldots, L_{m}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_21_PLOSKAJa">l=l_{0}+l_{1}+\ldots+l_{m}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_22_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_23_PLOSKAJa">z=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_24_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_25_PLOSKAJa">u=u_{0}+t X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_26_PLOSKAJa">t X-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_27_PLOSKAJa">u_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_28_PLOSKAJa">(x=0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_29_PLOSKAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_30_PLOSKAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_31_PLOSKAJa">z=x_{1}+i x_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_32_PLOSKAJa">s(x=3-4 \sigma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_33_PLOSKAJa">\sigma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_34_PLOSKAJa">0&lt;\sigma&lt;0,5)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_35_PLOSKAJa">x-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_36_PLOSKAJa">x, y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_37_PLOSKAJa">t X</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_38_PLOSKAJa">k(\varphi, \psi ; x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_39_PLOSKAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_40_PLOSKAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_41_PLOSKAJa">\varphi(0)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_42_PLOSKAJa">\psi(0)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_43_PLOSKAJa">u=u_{1}+i u_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_44_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_45_PLOSKAJa">\varphi, \psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_46_PLOSKAJa">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_47_PLOSKAJa">x^{*}=(3-\sigma) /(1+\sigma)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_48_PLOSKAJa">s ; \Phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_49_PLOSKAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_50_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_51_PLOSKAJa">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_52_PLOSKAJa">\phi^{\prime}(0)=\overline{\phi^{\prime}(0)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_53_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_54_PLOSKAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_55_PLOSKAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_56_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_57_PLOSKAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_58_PLOSKAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_59_PLOSKAJa">\left(x_{n}, Y_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_60_PLOSKAJa">d s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_61_PLOSKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_62_PLOSKAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_63_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_64_PLOSKAJa">l_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_65_PLOSKAJa">z_{k} \in L_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_66_PLOSKAJa">c(t)=c_{k}=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_67_PLOSKAJa">l_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_68_PLOSKAJa">c_{0}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_69_PLOSKAJa">c_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_70_PLOSKAJa">m=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_71_PLOSKAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_72_PLOSKAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_73_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_74_PLOSKAJa">\varphi(0)=0, \operatorname{Im} \varphi^{\prime}(0)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_75_PLOSKAJa">m&gt;0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_76_PLOSKAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_77_PLOSKAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_78_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_79_PLOSKAJa">\varphi^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_80_PLOSKAJa">\psi^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_81_PLOSKAJa">f=u_{1}+i u_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_82_PLOSKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_83_PLOSKAJa">s-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_84_PLOSKAJa">l ; L=L^{\prime}+L^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_85_PLOSKAJa">l^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_86_PLOSKAJa">l_{1}^{\prime}, \ldots, L_{m}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_87_PLOSKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_88_PLOSKAJa">l^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_89_PLOSKAJa">l^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_90_PLOSKAJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_91_PLOSKAJa">t \in L ; \gamma(t)=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_92_PLOSKAJa">t \in L^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_93_PLOSKAJa">\gamma(t)=-x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_94_PLOSKAJa">t \in L^{\prime \prime} ; c(t)=c_{k}=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_95_PLOSKAJa">t \in L^{\prime} ; c(t)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_96_PLOSKAJa">t \in L^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_97_PLOSKAJa">c_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_98_PLOSKAJa">\mathbf{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_99_PLOSKAJa">w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_100_PLOSKAJa">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_101_PLOSKAJa">d=e h^{3} / 12\left(1-\sigma^{2}\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_102_PLOSKAJa">h-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_103_PLOSKAJa">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_104_PLOSKAJa">\tilde{t} q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_105_PLOSKAJa">w_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_106_PLOSKAJa">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_107_PLOSKAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_108_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_109_PLOSKAJa">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_110_PLOSKAJa">x_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_111_PLOSKAJa">x_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_112_PLOSKAJa">\tilde{t} q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_113_PLOSKAJa">\phi(0)=0, \Psi(0)=0, \Phi^{\prime}(0)=\overline{\Phi^{\prime}(0)}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_114_PLOSKAJa">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_115_PLOSKAJa">\psi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_116_PLOSKAJa">w_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_117_PLOSKAJa">w</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_118_PLOSKAJa">\delta \Delta w=q / D</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_119_PLOSKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_120_PLOSKAJa">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_121_PLOSKAJa">w=d w / d n=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_122_PLOSKAJa">n-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_123_PLOSKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_124_PLOSKAJa">\partial_{z} w=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_125_PLOSKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_126_PLOSKAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_127_PLOSKAJa">|z|&lt;1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_128_PLOSKAJa">\left.\begin{array}{l}\sigma \Delta w+(1-\sigma)\left(w_{x_{1} x_{1}} \cos ^{2} v+w_{x_{2} x_{2}} \sin ^{2} v+w_{x_{1} x_{2}} \sin 2 v\right)=0 \\ \frac{d \Delta w}{d n}+(1-\sigma) \frac{d}{d s}\left(\frac{1}{2}\left(w_{x_{1} x_{2}}-w_{x_{1} x_{1}}\right) \sin 2 v+w_{x_{1} x_{2}} \cos 2 v\right)=0\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_129_PLOSKAJa">v-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_130_PLOSKAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_131_PLOSKAJa">o x_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_132_PLOSKAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_133_PLOSKAJa">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_134_PLOSKAJa">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_135_PLOSKAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_136_PLOSKAJa">v</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_137_PLOSKAJa">x_{\alpha}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_138_PLOSKAJa">w_{1}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_139_PLOSKAJa">w_{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_140_PLOSKAJa">a_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_141_PLOSKAJa">\phi-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_142_PLOSKAJa">j_{0}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_143_PLOSKAJa">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_144_PLOSKAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/2248_145_PLOSKAJa">\psi</formula>
+  </formulas_aux>
+  <relations n="15">
+    <relation uri="http://libmeta.ru/fme/relation/2248_1_PLOSKAJa">
+      <rel_text>интегральным уравнениям</rel_text>
+      <target>http://libmeta.ru/fme/article/1033_INTEGRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_2_PLOSKAJa">
+      <rel_text>интегральным уравнениям</rel_text>
+      <target>http://libmeta.ru/fme/article/1033_INTEGRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_3_PLOSKAJa">
+      <rel_text>конформное отображение</rel_text>
+      <target>http://libmeta.ru/fme/article/1378_KONFORMNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_4_PLOSKAJa">
+      <rel_text>интегральным уравнениям</rel_text>
+      <target>http://libmeta.ru/fme/article/1033_INTEGRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_5_PLOSKAJa">
+      <rel_text>рациональных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/2568_RATsIONAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_6_PLOSKAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_7_PLOSKAJa">
+      <rel_text>конформного отображения</rel_text>
+      <target>http://libmeta.ru/fme/article/1378_KONFORMNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_8_PLOSKAJa">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_9_PLOSKAJa">
+      <rel_text>рациональных функций</rel_text>
+      <target>http://libmeta.ru/fme/article/2568_RATsIONAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_10_PLOSKAJa">
+      <rel_text>областей</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_11_PLOSKAJa">
+      <rel_text>конформного отображения</rel_text>
+      <target>http://libmeta.ru/fme/article/1378_KONFORMNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_12_PLOSKAJa">
+      <rel_text>частного</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_13_PLOSKAJa">
+      <rel_text>бесконечным системам</rel_text>
+      <target>http://libmeta.ru/fme/article/168_BESKONEChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_14_PLOSKAJa">
+      <rel_text>теории возмущений</rel_text>
+      <target>http://libmeta.ru/fme/article/442_VOZMUSchENIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/2248_15_PLOSKAJa">
+      <rel_text>составляют</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+  </relations>
+  <text>Название типа задач, в которых картина изучаемого явления в упругой среде одинакова во всех плоскостях, параллельных некоторой плоскости (например, плоскости $URI[[http://libmeta.ru/fme/formula/aux/2248_1_PLOSKAJa]]/URI$ декартовой системы координат $URI[[http://libmeta.ru/fme/formula/aux/2248_2_PLOSKAJa]]/URI$ ). Математич. теорией П. з. часто описываются и задачи, к-рые по содержанию имеют пространственный характер (напр., изгиб тонких пластинок).
+
+По П.з. теории упругости успехи достигнуты главным образом благодаря использованию формул, выражающих искомые решения через аналитич. функции одного комплексного аргумента; впервые эти формулы были выведены в 1909 Г. К. Колосовым, а начиная с 20-х гг. 20 в. в работах Н. И. Мусхелишвили они нашли полное обоснование, и на их базе развиты методы решения широкого круга граничных (краевых) и контактных П. з. теории упругости. Полученные по П.з. теоретич. результаты используются при решении практич. задач.
+
+Комплексное представление полей смещений и напряжений. Говорят, что упругая среда находится в состоянии плоской деформации, если существует такая декартова система координат $URI[[http://libmeta.ru/fme/formula/aux/2248_3_PLOSKAJa]]/URI$, относительно к-рой компоненты вектора смещения имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_1_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_4_PLOSKAJa]]/URI$ - время. Компоненты тензора напряжений таковы:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_2_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_5_PLOSKAJa]]/URI$ - постоянные Ламе, $URI[[http://libmeta.ru/fme/formula/aux/2248_6_PLOSKAJa]]/URI$ - символы Кронекера, $URI[[http://libmeta.ru/fme/formula/aux/2248_7_PLOSKAJa]]/URI$ компоненты тензора деформации: $URI[[http://libmeta.ru/fme/formula/aux/2248_8_PLOSKAJa]]/URI$; $URI[[http://libmeta.ru/fme/formula/aux/2248_9_PLOSKAJa]]/URI$ дилатация $URI[[http://libmeta.ru/fme/formula/aux/2248_10_PLOSKAJa]]/URI$; наличие в выражении двух одинаковых индексов означает суммирование).
+
+Плоская деформация возможна в упругой среде, к-рая заполняет цилиндр с образующими, перпендикулярными плоскости $URI[[http://libmeta.ru/fme/formula/aux/2248_11_PLOSKAJa]]/URI$, если при этом компоненты объемных сил имеют вид $URI[[http://libmeta.ru/fme/formula/aux/2248_12_PLOSKAJa]]/URI$, а боковые усилия не зависят от координаты $URI[[http://libmeta.ru/fme/formula/aux/2248_13_PLOSKAJa]]/URI$ и расположены на плоскостях, перпендикулярных оси цилиндра. Для реализации плоской деформации упругого цилиндра к его торцам необходимо приложить нормальные силы, равные $URI[[http://libmeta.ru/fme/formula/aux/2248_14_PLOSKAJa]]/URI$.
+
+При сделанных допущениях система уравнений динамики упругого тела относительно компонентов вектора смещений имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_3_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_15_PLOSKAJa]]/URI$ - плотность распределения масс, $URI[[http://libmeta.ru/fme/formula/aux/2248_16_PLOSKAJa]]/URI$ - силы инерции, $URI[[http://libmeta.ru/fme/formula/aux/2248_17_PLOSKAJa]]/URI$ - оператор Лапласа. Если воспользоваться операциями комплексного дифференцирования:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_4_PLOSKAJa]]/URI
+\]
+
+то при отсутствии сил инерции (статич. задача) эту систему можно записать в виде одного (комплексного) уравнения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_5_PLOSKAJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_6_PLOSKAJa]]/URI
+\]
+
+Пусть область $URI[[http://libmeta.ru/fme/formula/aux/2248_18_PLOSKAJa]]/URI$, занятая упругой средой, представляет связную часть плоскости $URI[[http://libmeta.ru/fme/formula/aux/2248_19_PLOSKAJa]]/URI$, ограниченную одним или несколькими контурами $URI[[http://libmeta.ru/fme/formula/aux/2248_20_PLOSKAJa]]/URI$ без общих точек, $URI[[http://libmeta.ru/fme/formula/aux/2248_21_PLOSKAJa]]/URI$ граница области $URI[[http://libmeta.ru/fme/formula/aux/2248_22_PLOSKAJa]]/URI$; точка $URI[[http://libmeta.ru/fme/formula/aux/2248_23_PLOSKAJa]]/URI$ принадлежит $URI[[http://libmeta.ru/fme/formula/aux/2248_24_PLOSKAJa]]/URI$.
+
+Искомое решение уравнения равновесия выражается по формуле $URI[[http://libmeta.ru/fme/formula/aux/2248_25_PLOSKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2248_26_PLOSKAJa]]/URI$ нек-рое частное решение, к-рое можно выразить в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_7_PLOSKAJa]]/URI
+\]
+
+a $URI[[http://libmeta.ru/fme/formula/aux/2248_27_PLOSKAJa]]/URI$ - общее решение однородного уравнения $URI[[http://libmeta.ru/fme/formula/aux/2248_28_PLOSKAJa]]/URI$, к-рое выражается по формуле:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_8_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_29_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_30_PLOSKAJa]]/URI$ - произвольные аналитич. функции от $URI[[http://libmeta.ru/fme/formula/aux/2248_31_PLOSKAJa]]/URI$ в области $URI[[http://libmeta.ru/fme/formula/aux/2248_32_PLOSKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2248_33_PLOSKAJa]]/URI$ постоянная Пуассона, $URI[[http://libmeta.ru/fme/formula/aux/2248_34_PLOSKAJa]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/2248_35_PLOSKAJa]]/URI$ многочлен от $URI[[http://libmeta.ru/fme/formula/aux/2248_36_PLOSKAJa]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2248_37_PLOSKAJa]]/URI$ можно выразить в явной форме.
+
+Оператор $URI[[http://libmeta.ru/fme/formula/aux/2248_38_PLOSKAJa]]/URI$ не изменится, если функции $URI[[http://libmeta.ru/fme/formula/aux/2248_39_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_40_PLOSKAJa]]/URI$ подчинить условию $URI[[http://libmeta.ru/fme/formula/aux/2248_41_PLOSKAJa]]/URI$ или $URI[[http://libmeta.ru/fme/formula/aux/2248_42_PLOSKAJa]]/URI$. При выполнении одного из этих условий всякому полю смещений $URI[[http://libmeta.ru/fme/formula/aux/2248_43_PLOSKAJa]]/URI$, заданному в области $URI[[http://libmeta.ru/fme/formula/aux/2248_44_PLOSKAJa]]/URI$, соответствует вполне определенная пара аналитич. функций $URI[[http://libmeta.ru/fme/formula/aux/2248_45_PLOSKAJa]]/URI$.
+
+Если в предыдущих формулах постоянную $URI[[http://libmeta.ru/fme/formula/aux/2248_46_PLOSKAJa]]/URI$ заменить через $URI[[http://libmeta.ru/fme/formula/aux/2248_47_PLOSKAJa]]/URI$, то получается формула для поля смещения обобщенного плосконапряженного состояния.
+
+Комплексная запись
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_9_PLOSKAJa]]/URI
+\]
+
+компонентов тензора напряжений, в силу равенства
+
+принимает вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_10_PLOSKAJa]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_11_PLOSKAJa]]/URI
+\]\[
+URI[[http://libmeta.ru/fme/formula/main/2248_12_PLOSKAJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_13_PLOSKAJa]]/URI
+\]
+
+Пусть упругая среда подвергается непрерывной деформации. Тогда можно считать, что компоненты тензора напряжений и смещений - непрерывные однозначные функции в области $URI[[http://libmeta.ru/fme/formula/aux/2248_48_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_49_PLOSKAJa]]/URI$ голоморфны в $URI[[http://libmeta.ru/fme/formula/aux/2248_50_PLOSKAJa]]/URI$, причем $URI[[http://libmeta.ru/fme/formula/aux/2248_51_PLOSKAJa]]/URI$ можно подчинить условию $URI[[http://libmeta.ru/fme/formula/aux/2248_52_PLOSKAJa]]/URI$.
+
+Если область $URI[[http://libmeta.ru/fme/formula/aux/2248_53_PLOSKAJa]]/URI$ ограничена и односвязна, а деформация непрерывна, то функции $URI[[http://libmeta.ru/fme/formula/aux/2248_54_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_55_PLOSKAJa]]/URI$ голоморфны в $URI[[http://libmeta.ru/fme/formula/aux/2248_56_PLOSKAJa]]/URI$. В случае конечной многосвязной области $URI[[http://libmeta.ru/fme/formula/aux/2248_57_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_58_PLOSKAJa]]/URI$ будут, вообще говоря, многозначными функциями определенного вида.
+
+Основными задачами плоской теории упругости являются следующие задачи.
+
+1) Первая основная задача: определить упругое равновесие тела, когда на его границе заданы внешние силы.
+
+Сила напряжения $URI[[http://libmeta.ru/fme/formula/aux/2248_59_PLOSKAJa]]/URI$, действующая на элемент дуги $URI[[http://libmeta.ru/fme/formula/aux/2248_60_PLOSKAJa]]/URI$ контура $URI[[http://libmeta.ru/fme/formula/aux/2248_61_PLOSKAJa]]/URI$ с нормалью $URI[[http://libmeta.ru/fme/formula/aux/2248_62_PLOSKAJa]]/URI$, может быть записана в комплексной форме:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_14_PLOSKAJa]]/URI
+\]
+
+и краевые условия первой задачи имеют вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_15_PLOSKAJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_16_PLOSKAJa]]/URI
+\] причем дуга $URI[[http://libmeta.ru/fme/formula/aux/2248_63_PLOSKAJa]]/URI$ отсчитывается на каждом $URI[[http://libmeta.ru/fme/formula/aux/2248_64_PLOSKAJa]]/URI$ от нек-рой фиксированной точки $URI[[http://libmeta.ru/fme/formula/aux/2248_65_PLOSKAJa]]/URI$ в положительном направлении; $URI[[http://libmeta.ru/fme/formula/aux/2248_66_PLOSKAJa]]/URI$ const на $URI[[http://libmeta.ru/fme/formula/aux/2248_67_PLOSKAJa]]/URI$. Всегда можно считать $URI[[http://libmeta.ru/fme/formula/aux/2248_68_PLOSKAJa]]/URI$, остальные постоянные $URI[[http://libmeta.ru/fme/formula/aux/2248_69_PLOSKAJa]]/URI$ определяются в ходе решения задачи. Если $URI[[http://libmeta.ru/fme/formula/aux/2248_70_PLOSKAJa]]/URI$, то искомые функции $URI[[http://libmeta.ru/fme/formula/aux/2248_71_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_72_PLOSKAJa]]/URI$ голоморфны в $URI[[http://libmeta.ru/fme/formula/aux/2248_73_PLOSKAJa]]/URI$. Тогда равенства $URI[[http://libmeta.ru/fme/formula/aux/2248_74_PLOSKAJa]]/URI$ обеспечивают единственность решения задачи (1), а необходимые и достаточные условия существования решения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_17_PLOSKAJa]]/URI
+\]
+
+представляют собой условия статич. равновесия абсолютно жесткого тела.
+
+При $URI[[http://libmeta.ru/fme/formula/aux/2248_75_PLOSKAJa]]/URI$, как уже было отмечено, $URI[[http://libmeta.ru/fme/formula/aux/2248_76_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_77_PLOSKAJa]]/URI$ - многозначные функции специального вида, причем они выражаются через новые искомые голоморфные в области $URI[[http://libmeta.ru/fme/formula/aux/2248_78_PLOSKAJa]]/URI$ функции $URI[[http://libmeta.ru/fme/formula/aux/2248_79_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_80_PLOSKAJa]]/URI$.
+
+2) Вторая основная задача: определить упругое равновесие тела по заданным смещениям точек его границы.
+
+Эта задача приводит к граничному условию вида:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_18_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_81_PLOSKAJa]]/URI$ - заданная на $URI[[http://libmeta.ru/fme/formula/aux/2248_82_PLOSKAJa]]/URI$ функция.
+
+3) Основная смешанная задача. Пусть $URI[[http://libmeta.ru/fme/formula/aux/2248_83_PLOSKAJa]]/URI$ конечная односвязная область, ограниченная замкнутым контуром $URI[[http://libmeta.ru/fme/formula/aux/2248_84_PLOSKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2248_85_PLOSKAJa]]/URI$ состоит из конечного числа дуг $URI[[http://libmeta.ru/fme/formula/aux/2248_86_PLOSKAJa]]/URI$ контура $URI[[http://libmeta.ru/fme/formula/aux/2248_87_PLOSKAJa]]/URI$, к-рые попарно не имеют общих точек; на $URI[[http://libmeta.ru/fme/formula/aux/2248_88_PLOSKAJa]]/URI$ заданы внешние напряжения, а на $URI[[http://libmeta.ru/fme/formula/aux/2248_89_PLOSKAJa]]/URI$ - смещения. Соответствующие краевые условия можно записать в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_19_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_90_PLOSKAJa]]/URI$ - заданная функция точки $URI[[http://libmeta.ru/fme/formula/aux/2248_91_PLOSKAJa]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/2248_92_PLOSKAJa]]/URI$, и $URI[[http://libmeta.ru/fme/formula/aux/2248_93_PLOSKAJa]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/2248_94_PLOSKAJa]]/URI$ const, если $URI[[http://libmeta.ru/fme/formula/aux/2248_95_PLOSKAJa]]/URI$, если $URI[[http://libmeta.ru/fme/formula/aux/2248_96_PLOSKAJa]]/URI$. Постоянные $URI[[http://libmeta.ru/fme/formula/aux/2248_97_PLOSKAJa]]/URI$ (кроме одной, выбираемой как угодно) не задаются заранее и подлежат определению в ходе решения задачи.
+
+4) Третья основная задача. На границе области задаются нормальная составляющая вектора смещения и касательная составляющая вектора внешнего напряжения.
+
+Такая задача возникает, напр., в случае соприкасания упругого тела с жестким профилем заданной формы, когда контакт между упругим и жестким телами осуществляется по всей границе. Рассматриваются также другого рода контактные задачи. Все эти задачи также приводятся $URI[[http://libmeta.ru/fme/formula/aux/2248_98_PLOSKAJa]]/URI$ граничным задачам для аналитич. функций.
+
+5) Граничные задачи изгиба тонких плас ти нок. K аналогичным граничным условиям приводят задачи изгиба тонких пластинок. Прогиб $URI[[http://libmeta.ru/fme/formula/aux/2248_99_PLOSKAJa]]/URI$ серединной поверхности тонкой однородной упругой пластинки, подверженной действию распределенной по ее поверхности нормальной нагрузки интенсивности $URI[[http://libmeta.ru/fme/formula/aux/2248_100_PLOSKAJa]]/URI$, удовлетворяет неоднородному бигармонич. уравнению
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_20_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_101_PLOSKAJa]]/URI$ цилиндрич. жесткость; $URI[[http://libmeta.ru/fme/formula/aux/2248_102_PLOSKAJa]]/URI$ толщина пластинки, $URI[[http://libmeta.ru/fme/formula/aux/2248_103_PLOSKAJa]]/URI$ - модуль Юнга. Общее решение этого уравнения имеет вид:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_21_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_104_PLOSKAJa]]/URI$ - частное решение, к-рое выражается формулой:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_22_PLOSKAJa]]/URI
+\]
+
+a $URI[[http://libmeta.ru/fme/formula/aux/2248_105_PLOSKAJa]]/URI$ - общее решение:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_23_PLOSKAJa]]/URI
+\]
+
+однородного бигармонич. уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_24_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_106_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_107_PLOSKAJa]]/URI$ - произвольные аналитич. функции в $URI[[http://libmeta.ru/fme/formula/aux/2248_108_PLOSKAJa]]/URI$. Если $URI[[http://libmeta.ru/fme/formula/aux/2248_109_PLOSKAJa]]/URI$ - многочлен от $URI[[http://libmeta.ru/fme/formula/aux/2248_110_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_111_PLOSKAJa]]/URI$, то $URI[[http://libmeta.ru/fme/formula/aux/2248_112_PLOSKAJa]]/URI$ выражается в явной форме. Если $URI[[http://libmeta.ru/fme/formula/aux/2248_113_PLOSKAJa]]/URI$, то функции $URI[[http://libmeta.ru/fme/formula/aux/2248_114_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_115_PLOSKAJa]]/URI$ выражаются однозначно посредством заданной бигармонич. функции $URI[[http://libmeta.ru/fme/formula/aux/2248_116_PLOSKAJa]]/URI$.
+
+Решение $URI[[http://libmeta.ru/fme/formula/aux/2248_117_PLOSKAJa]]/URI$ уравнения $URI[[http://libmeta.ru/fme/formula/aux/2248_118_PLOSKAJa]]/URI$ следует подчинить граничным условиям, соответствующим тому или иному характеру закрепления границы пластинки. В случае заделанной по краям пластинки на границе $URI[[http://libmeta.ru/fme/formula/aux/2248_119_PLOSKAJa]]/URI$ области $URI[[http://libmeta.ru/fme/formula/aux/2248_120_PLOSKAJa]]/URI$, занятой серединной поверхностью пластинки, должны выполняться условия $URI[[http://libmeta.ru/fme/formula/aux/2248_121_PLOSKAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/2248_122_PLOSKAJa]]/URI$ внешняя нормаль к контуру $URI[[http://libmeta.ru/fme/formula/aux/2248_123_PLOSKAJa]]/URI$. Эти два условия можно записать в виде одного комплексного равенства $URI[[http://libmeta.ru/fme/formula/aux/2248_124_PLOSKAJa]]/URI$ (на $URI[[http://libmeta.ru/fme/formula/aux/2248_125_PLOSKAJa]]/URI$ ). Последнее приводится к виду (1).
+
+Решение этой задачи всегда существует, единственно и выражается по формуле:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_25_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_126_PLOSKAJa]]/URI$ - функция Грина. Для круга $URI[[http://libmeta.ru/fme/formula/aux/2248_127_PLOSKAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_26_PLOSKAJa]]/URI
+\]
+
+В случае свободной пластинки граничные условия имеют вид:
+
+$URI[[http://libmeta.ru/fme/formula/aux/2248_128_PLOSKAJa]]/URI$
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_129_PLOSKAJa]]/URI$ угол, составляемый внешней нормалью $URI[[http://libmeta.ru/fme/formula/aux/2248_130_PLOSKAJa]]/URI$ с осью $URI[[http://libmeta.ru/fme/formula/aux/2248_131_PLOSKAJa]]/URI$. Левые части равенств (2) представляют собой соответственно изгибающий момент и обобщенную перерезывающую силу, отнесенные к единице длины и действующие на боковой элемент пластинки с нормалью $URI[[http://libmeta.ru/fme/formula/aux/2248_132_PLOSKAJa]]/URI$. Граничные условия (2) можно записать в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_27_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_133_PLOSKAJa]]/URI$ - заданная функция на $URI[[http://libmeta.ru/fme/formula/aux/2248_134_PLOSKAJa]]/URI$.
+
+6) Плоские стационарные упругие колебан и я. Когда решения системы уравнений динамики упругой среды ищутся в виде
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_28_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_135_PLOSKAJa]]/URI$ - частота колебания, для $URI[[http://libmeta.ru/fme/formula/aux/2248_136_PLOSKAJa]]/URI$ получается формула
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_29_PLOSKAJa]]/URI
+\]
+
+(предполагается, что внешние силы равны нулю, $URI[[http://libmeta.ru/fme/formula/aux/2248_137_PLOSKAJa]]/URI$ ), где $URI[[http://libmeta.ru/fme/formula/aux/2248_138_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_139_PLOSKAJa]]/URI$ - произвольные решения уравнений:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_30_PLOSKAJa]]/URI
+\]
+
+Поле напряжений выражается по формулам
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_31_PLOSKAJa]]/URI
+\]
+
+Общее решение уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_32_PLOSKAJa]]/URI
+\]
+
+выражается в виде:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/2248_33_PLOSKAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/2248_140_PLOSKAJa]]/URI$ - произвольная действительная постоянная, $URI[[http://libmeta.ru/fme/formula/aux/2248_141_PLOSKAJa]]/URI$ произвольная аналитич. функция, $URI[[http://libmeta.ru/fme/formula/aux/2248_142_PLOSKAJa]]/URI$ - функция Бесселя 1-го рода нулевого порядка. При помощи формулы (3) выводятся комплексные представления для полей смещений и напряжений при плоском стационарном колебании упругой среды; они могут быть использованы для исследования граничных задач, а также для построения различных полных систем частных решений, к-рые позволяют аппроксимировать любые поля смещений и напряжений. В частности, эти полные системы можно использовать для построения приближенных решений краевых задач.
+
+7) 3 адача определения концентраций напряжений около отверстий в анизотропных и изотропных пластинах. Основу приближенных методов решения таких задач также URI[[http://libmeta.ru/fme/relation/2248_15_PLOSKAJa]]/URI введение функций комплексного переменного специальной структуры в виде степенных рядов и различных модификаций URI[[http://libmeta.ru/fme/relation/2248_14_PLOSKAJa]]/URI, а также использование теорем сложения цилиндрич. и сферич. функций с последующим сведением граничных задач к URI[[http://libmeta.ru/fme/relation/2248_13_PLOSKAJa]]/URI алгебраич. уравнений.
+
+Методы решения граничных задач. Формулы представления полей смещений и напряжений через аналитич. функции используются для доказательства существования и единственности решения общих граничных задач, а также для построения в явной форме решений нек-рых классов задач URI[[http://libmeta.ru/fme/relation/2248_12_PLOSKAJa]]/URI вида.
+
+Метод степенных рядов с применением URI[[http://libmeta.ru/fme/relation/2248_11_PLOSKAJa]]/URI позволяет решать основные П. з. для URI[[http://libmeta.ru/fme/relation/2248_10_PLOSKAJa]]/URI, конформно отображающихся на круг посредством URI[[http://libmeta.ru/fme/relation/2248_9_PLOSKAJa]]/URI. Задача редуцируется к линейной алгебраич. системе уравнений и квадратурам. Этим методом практически решаются основные граничные задачи для любой односвязной URI[[http://libmeta.ru/fme/relation/2248_8_PLOSKAJa]]/URI с использованием приближенного URI[[http://libmeta.ru/fme/relation/2248_7_PLOSKAJa]]/URI URI[[http://libmeta.ru/fme/relation/2248_6_PLOSKAJa]]/URI на круг с помощью URI[[http://libmeta.ru/fme/relation/2248_5_PLOSKAJa]]/URI. При использовании Эвм этот прием является эффективным для построения решений основных граничных П. з. теории упругости и изгиба пластинок.
+
+На основе теории интеграла типа Коши исследование П. з. редуцируется $URI[[http://libmeta.ru/fme/formula/aux/2248_143_PLOSKAJa]]/URI$ хорошо изученным URI[[http://libmeta.ru/fme/relation/2248_4_PLOSKAJa]]/URI. Полезными являются также методы, сочетающие URI[[http://libmeta.ru/fme/relation/2248_3_PLOSKAJa]]/URI с применением аппарата интегралов типа Коши. Существуют и другие способы приведения граничных П. з. теории упругости к URI[[http://libmeta.ru/fme/relation/2248_2_PLOSKAJa]]/URI, к-рые дают возможность изучить вопросы существования и единственности решения.
+
+Для редукции граничных П. з. теории упругости к URI[[http://libmeta.ru/fme/relation/2248_1_PLOSKAJa]]/URI используется также метод потенциалов, не вводящий в рассмотрение комплексные аналитич. функции ( $URI[[http://libmeta.ru/fme/formula/aux/2248_144_PLOSKAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2248_145_PLOSKAJa]]/URI$ ).</text>
+  <text_orig>Название типа задач, в которых картина изучаемого явления в упругой среде одинакова во всех плоскостях, параллельных некоторой плоскости (например, плоскости $O x_{1} x_{2}$ декартовой системы координат $O x_{1} x_{2} x_{3}$ ). Математич. теорией П. з. часто описыва'ются и задачи, к-рые по содержанию имеют пространственный характер (напр., изгиб тонких пластинок).
+
+По П.з. теории упругости успехи достигнуты главным образом благодаря использованию формул, выражающих искомые решения через аналитич. функции одного комплексного аргумента; впервые эти формулы были выведены в 1909 Г. К. Колосовым, а начиная с 20-х гг. 20 в. в работах Н. И. Мусхелишвили они нашли полное обоснование, и на их базе развиты методы решения широкого круга граничных (краевых) и контактных П. з. теории упругости. Полученные по П.з. теоретич. результаты используются при решении практич. задач.
+
+Комплексное представление полей смещений и напряжений. Говорят, что упругая среда находится в состоянии плоской деформации, если сушествует такая декартова система координат $O x_{1} x_{2} x_{3}$, относительно к-рой компоненты вектора смещения имеют вид:
+
+\[
+u_{\alpha}=u_{\alpha}\left(x_{1}, x_{2}, t\right), \alpha=1,2, u_{3}=0,
+\]
+
+где $t$ - время. Компоненты тензора напряжений таковы:
+
+\[
+X_{\alpha \beta}=\lambda \theta \delta_{\alpha \beta}+2 \mu e_{\alpha \beta}, X_{\alpha 3}=0, X_{33}=\lambda \theta \text {, }
+\]
+
+где $\lambda, \mu$ - постоянные Ламе, $\delta_{\alpha \beta}$ - символы Кронекера, $\boldsymbol{e}_{\alpha \beta}-$ компоненты тензора деформации: $\boldsymbol{e}_{\alpha \beta}=\partial_{\alpha} u_{\beta}+\partial_{\beta} u_{\alpha}$; $\theta=e_{\alpha \alpha}=\partial_{\alpha} u_{\alpha}-$ дилатация $(\alpha, \beta=1,2$; наличие в выражении двух одинаковых индексов означает суммирование).
+
+Плоская деформация возможна в упругой среде, к-рая заполняет цилиндр с образуюшими, перпендикулярными плоскости $O x_{1} x_{2}$, если при этом компоненты объемных сил имеют вид $X_{\alpha}=X_{\alpha}\left(x_{1}, x_{2}, t\right), X_{3}=0$, а боковые усилия не зависят от координаты $x_{3}$ и расположены на плоскостях, перпендикулярных оси цилиндра. Для реализации плоской деформации упругого цилиндра к его торцам необходимо приложить нормальные силы, равные $\pm \lambda \theta$.
+
+При сделанных допушениях система уравнений динамики упругого тела относительно компонентов вектора смешений имеет вид:
+
+\[
+\mu \Delta u_{\alpha}+(\lambda+\mu) \partial_{\alpha} \theta+X_{\alpha}=\rho \ddot{u}_{\alpha}, \alpha=1,2,
+\]
+
+где $\rho$ - плотность распределения масс, $о \ddot{u}_{\alpha}$ - силы инерции, $\Delta$ - оператор Лапласа. Если воспользоваться операциями комплексного дифференцирования:
+
+\[
+2 \partial_{\bar{z}}=\partial_{1}+i \partial_{2}, \quad 2 \partial_{z}=\partial_{1}-i \partial_{2} \quad\left(\partial_{\alpha}=\partial / \partial x_{\alpha}\right)
+\]
+
+то при отсутствии сил инерции (статич. задача) эту систему можно записать в виде одного (комплексного) уравнения:
+
+\[
+(\lambda+3 \mu) \partial_{z \bar{z}}^{2} u+(\lambda+\mu) \partial_{\bar{z} \bar{z}}^{2} \bar{u}+X=0,
+\]
+
+где
+
+\[
+u=u_{1}+i u_{2}, X=2^{-1}\left(X_{1}+i X_{2}\right) .
+\]
+
+Пусть область $S$, занятая упругой средой, представляет связную часть плоскости $O x_{1} x_{2}$, ограниченную одним или несколькими контурами $L_{0}, L_{1}, \ldots, L_{m}$ без общих точек, $L=L_{0}+L_{1}+\ldots+L_{m}-$ граница области $S$; точка $z=0$ принадлежит $S$.
+
+Искомое решение уравнения равновесия выражается по формуле $u=u_{0}+T X$, где $T X-$ нек-рое частное решение, к-рое можно выразить в виде:
+
+\[
+\begin{aligned}
+&amp; T X=-x(\mu \pi(1+x))^{-1} \iint X(\zeta) \ln |\zeta-z| d \zeta_{1} d \zeta_{2}+ \\
+&amp; +(2 \mu \pi(1+x))^{-1} \iint \bar{X}(\zeta-z)(\bar{\zeta}-\bar{z})^{-1} d \zeta_{1} d \zeta_{2},
+\end{aligned}
+\]
+
+a $u_{0}$ - общее решение однородного уравнения $(X=0)$, к-рое выражается по формуле:
+
+\[
+u_{0}=K(\varphi, \psi ; x)=x \varphi(z)-z \overline{\varphi^{\prime}(z)}-\psi(z),
+\]
+
+где $\varphi$ и $\psi$ - произвольные аналитич. функции от $z=x_{1}+i x_{2}$ в области $S(x=3-4 \sigma$, где $\sigma-$ постоянная Пуассона, $0&lt;\sigma&lt;0,5)$. Если $X-$ многочлен от $x, y$, то $T X$ можно выразить в явной форме.
+
+Оператор $K(\varphi, \psi ; x)$ не изменится, если функции $\varphi$ и $\psi$ подчинить условию $\varphi(0)=0$ или $\psi(0)=0$. При выполнении одного из этих условий всякому полю смещений $u=u_{1}+i u_{2}$, заданному в области $S$, соответствует вполне определенная пара аналитич. функций $\varphi, \psi$.
+
+Если в предыдущих формулах постоянную $x$ заменить через $x^{*}=(3-\sigma) /(1+\sigma)$, то получается формула для поля смещения обобщенного плосконапряженного состояния.
+
+Комплексная запись
+
+\[
+X_{\alpha \alpha}=2(\lambda+\mu)\left(\partial_{z} u+\partial_{\bar{z}} u\right), \quad X_{11}-X_{22}+2 i X_{12}=4 \mu \partial_{\bar{z}} u
+\]
+
+компонентов тензора напряжений, в силу равенства
+
+принимает вид:
+
+\[
+u=K(\varphi, \psi ; x)+T X,
+\]
+
+\[
+X_{\alpha \alpha}=4 \operatorname{Re} \Phi(z)+T_{0} X,
+\]\[
+X_{11}-X_{22}+2 i X_{12}=2\left(\bar{z} \Phi^{\prime}(z)+\Psi(z)\right)+T_{1} X \text {, }
+\]
+
+где
+
+\[
+\begin{gathered}
+\Phi=2 \mu \varphi^{\prime}, \Psi=2 \mu \Psi^{\prime}, \\
+T_{0}=4(\lambda+\mu) \operatorname{Re}_{z} T X, \quad T_{1} X=4 \mu \partial_{\bar{z}} T X .
+\end{gathered}
+\]
+
+Пусть упругая среда подвергается непрерывной деформации. Тогда можно считать, что компоненты тензора напряжений и смещений - непрерывные однозначные функции в области $S ; \Phi$ и $\Psi$ голоморфны в $S$, причем $\Phi$ можно подчинить условию $\Phi^{\prime}(0)=\overline{\Phi^{\prime}(0)}$.
+
+Если область $S$ ограничена и односвязна, а деформация непрерывна, то функции $\varphi$ и $\psi$ голоморфны в $S$. В случае конечной многосвязной области $\varphi$ и $\psi$ будут, вообще говоря, многозначными функциями определенного вида.
+
+Основными задачами плоской теории упругости являются следующие задачи.
+
+1) Первая основная задача: определить упругое равновесие тела, когда на его границе заданы внешние силы.
+
+Сила напряжения $\left(X_{n}, Y_{n}\right)$, действующая на элемент дуги $d s$ контура $L$ с нормалью $n$, может быть записана в комплексной форме:
+
+\[
+\left(X_{n}+i Y_{n}\right) d s=-2 i \mu d\left(\varphi(z)+z \overline{\varphi^{\prime}(z)}+\overline{\psi(z)}\right)_{\ell}
+\]
+
+и краевые условия первой задачи имеют вид:
+
+\[
+\varphi(t)+t \overline{\varphi^{\prime}(t)}+\overline{\psi(t)}=f(t)+c(t), \quad t \in L,
+\]
+
+где
+
+\[
+f(t)=i(2 \mu)^{-1} \int_{L}\left(X_{n}+i Y_{n}\right) d s
+\] причем дуга $s$ отсчитывается на каждом $L_{k}$ от нек-рой фиксированной точки $z_{k} \in L_{k}$ в положительном направлении; $c(t)=c_{k}=$ const на $L_{k}$. Всегда можно считать $c_{0}=0$, остальные постоянные $c_{k}$ определяются в ходе решения задачи. Если $m=0$, то искомые функции $\varphi$ и $\psi$ голоморфны в $S$. Тогда равенства $\varphi(0)=0, \operatorname{Im} \varphi^{\prime}(0)=0$ обеспечивают единственность решения задачи (1), а необходимые и достаточные условия существования решения
+
+\[
+\int_{L}\left(X_{n}+i Y_{n}\right) d s=0, \quad 2 \mu \int_{L}\left(x_{1} Y_{n}-x_{2} X_{n}\right) d s=\operatorname{Re} \int_{L} f d t=0
+\]
+
+представляют собой условия статич. равновесия абсолютно жесткого тела.
+
+При $m&gt;0$, как уже было отмечено, $\varphi$ и $\psi$ - многозначные функции специального вида, причем они выражаются через новые искомые голоморфные в области $S$ функции $\varphi^{*}$ и $\psi^{*}$.
+
+2) Вторая основная задача: определить упругое равновесие тела по заданным смещениям точек его границы.
+
+Эта задача приводит к граничному условию вида:
+
+\[
+x \varphi(t)-t \overline{\varphi^{\prime}(t)}-\overline{\psi(t)}=f(t), \quad t \in L,
+\]
+
+где $f=u_{1}+i u_{2}$ - заданная на $L$ функция.
+
+3) Основная смешанная задача. Пусть $S-$ конечная односвязная область, ограниченная замкнутым контуром $L ; L=L^{\prime}+L^{\prime \prime}$, где $L^{\prime}$ состоит из конечного числа дуг $L_{1}^{\prime}, \ldots, L_{m}^{\prime}$ контура $L$, к-рые попарно не имеют общих точек; на $L^{\prime}$ заданы внешние напряжения, а на $L^{\prime \prime}$ - смещения. Соответствующие краевые условия можно записать в виде
+
+\[
+\gamma(t) \varphi(t)+t \overline{\varphi^{\prime}(t)}+\overline{\psi(t)}=f(t)+c(t), \quad t \in L,
+\]
+
+где $f$ - заданная функция точки $t \in L ; \gamma(t)=1$, если $t \in L^{\prime}$, и $\gamma(t)=-x$, если $t \in L^{\prime \prime} ; c(t)=c_{k}=$ const, если $t \in L^{\prime} ; c(t)=0$, если $t \in L^{\prime \prime}$. Постоянные $c_{k}$ (кроме одной, выбираемой как угодно) не задаются заранее и подлежат определению в ходе решения задачи.
+
+4) Третья основная задача. На границе области задаются нормальная составляющая вектора смещения и касательная составляющая вектора внешнего напряжения.
+
+Такая задача возникает, напр., в случае соприкасания упругого тела с жестким профилем заданной формы, когда контакт между упругим и жестким телами осуществляется по всей границе. Рассматриваются также другого рода контактные задачи. Все эти задачи также приводятся $\mathbf{K}$ граничным задачам для аналитич. функций.
+
+5) Граничные задачи изгиба тонких плас ти нок. K аналогичным граничным условиям приводят задачи изгиба тонких пластинок. Прогиб $w$ серединной поверхности тонкой однородной упругой пластинки, подверженной действию распределенной по ее поверхности нормальной нагрузки интенсивности $q$, удовлетворяет неоднородному бигармонич. уравнению
+
+\[
+\Delta \Delta w=q / D,
+\]
+
+где $D=E h^{3} / 12\left(1-\sigma^{2}\right)-$ цилиндрич. жесткость; $h-$ толшина пластинки, $E$ - модуль Юнга. Общее решение этого уравнения имеет вид:
+
+\[
+w=w_{0}+\tilde{T} q,
+\]
+
+где $\tilde{T} q$ - частное решение, к-рое выражается формулой:
+
+\[
+\tilde{T} q=(8 \pi D)^{-1} \iint q(\zeta)|\zeta-t|^{2} \ln |\zeta-z| d \zeta_{1} d \zeta_{2},
+\]
+
+a $w_{0}$ - общее решение:
+
+\[
+w_{0}=\operatorname{Re}(\bar{z} \Phi(z)+\Psi(z))
+\]
+
+однородного бигармонич. уравнения
+
+\[
+\Delta \Delta w_{0}=0 \text {, }
+\]
+
+где $\Phi$ и $\Psi$ - произвольные аналитич. функции в $S$. Если $q$ - многочлен от $x_{1}$ и $x_{2}$, то $\tilde{T} q$ выражается в явной форме. Если $\Phi(0)=0, \Psi(0)=0, \Phi^{\prime}(0)=\overline{\Phi^{\prime}(0)}$, то функции $\Phi$ и $\Psi$ выражаются однозначно посредством заданной бигармонич. функции $w_{0}$.
+
+Решение $w$ уравнения $\Delta \Delta w=q / D$ следует подчинить граничным условиям, соответствующим тому или иному характеру закрепления границы пластинки. В случае заделанной по краям пластинки на границе $L$ области $S$, занятой серединной поверхностью пластинки, должны выполняться условия $w=d w / d n=0$, где $n-$ внешняя нормаль к контуру $L$. Эти два условия можно записать в виде одного комплексного равенства $\partial_{z} w=0$ (на $L$ ). Последнее приводится к виду (1).
+
+Решение этой задачи всегда сушествует, единственно и выражается по формуле:
+
+\[
+w\left(x_{1}, x_{2}\right)=D^{-1} \iint S G\left(x_{1}, x_{2}, \zeta_{1}, \zeta_{2}\right) q\left(\zeta_{1}, \zeta_{2}\right) d \zeta_{1} d \zeta_{2},
+\]
+
+где $G$ - функция Грина. Для круга $|z|&lt;1$ :
+
+\[
+\begin{aligned}
+G\left(x_{1}, x_{2}, \zeta_{1}, \zeta_{2}\right) &amp; =2|\zeta-z|^{2} \ln \left(|1-z \bar{\zeta}||\zeta-z|^{-1}\right)- \\
+&amp; -\left(1-|z|^{2}\right)\left(1-|\zeta|^{2}\right), \\
+z &amp; =x_{1}+i x_{2}, \zeta=\zeta_{1}+i \zeta_{2} .
+\end{aligned}
+\]
+
+В случае свободной пластинки граничные условия имеют вид:
+
+$\left.\begin{array}{l}\sigma \Delta w+(1-\sigma)\left(w_{x_{1} x_{1}} \cos ^{2} v+w_{x_{2} x_{2}} \sin ^{2} v+w_{x_{1} x_{2}} \sin 2 v\right)=0 \\ \frac{d \Delta w}{d n}+(1-\sigma) \frac{d}{d s}\left(\frac{1}{2}\left(w_{x_{1} x_{2}}-w_{x_{1} x_{1}}\right) \sin 2 v+w_{x_{1} x_{2}} \cos 2 v\right)=0\end{array}\right\}$
+
+где $v-$ угол, составляемый внешней нормалью $n$ с осью $O x_{1}$. Левые части равенств (2) представляют собой соответственно изгибаюший момент и обобщенную перерезываюшую силу, отнесенные к единице длины и действующие на боковой элемент пластинки с нормалью $n$. Граничные условия (2) можно записать в виде:
+
+\[
+d\left((3+\sigma) /(1-\sigma) \Phi-z \bar{\Phi}^{\prime}-\bar{\Psi}^{\prime}\right)=g
+\]
+
+где $g$ - заданная функция на $L$.
+
+6) Плоские стационарные упругие колебан и я. Когда решения системы уравнений динамики упругой среды ищутся в виде
+
+\[
+u=v\left(x_{1}, x_{2}\right) e^{\dot{N} t}, u_{3}=0,
+\]
+
+где $v$ - частота колебания, для $v$ получаетсяя формула
+
+\[
+v=\partial_{\bar{z}}\left(w_{1}+i w_{2}\right)
+\]
+
+(предполагается, что внешние силы равны нулю, $X_{\alpha}=0$ ), где $w_{1}$ и $w_{2}$ - произвольные решения уравнений:
+
+\[
+\begin{gathered}
+\Delta w_{1}+a^{2} v^{2} w_{1}=0, \Delta w_{2}+b^{2} v^{2} w_{2}=0, \\
+a^{2}=\rho(\lambda+2 \mu)^{-1}, b^{2}=\rho \mu^{-1} .
+\end{gathered}
+\]
+
+Поле напряжений выражается по формулам
+
+\[
+\begin{gathered}
+X_{11}+X_{22}=-(\lambda+\mu) \alpha^{2} v^{2} w_{1}, \\
+X_{11}-X_{22}+2 i X_{22}=4 \mu \partial_{\bar{z}}^{2}\left(w_{1}-i w_{2}\right), \\
+X_{33}=-2^{-1} a^{2} v^{2} w_{1} .
+\end{gathered}
+\]
+
+Общее решение уравнения
+
+\[
+\Delta w+k^{2} w=0, k^{2}=\mathrm{const}
+\]
+
+выражается в виде:
+
+\[
+w=A_{0} J_{0}(k|z|)+\int_{0}^{1} \operatorname{Re}[z \Phi(z t)] J_{0}(k|z| \sqrt{1-t}) d t,
+\]
+
+где $A_{0}$ - произвольная действительная постоянная, $\Phi-$ произвольная аналитич. функция, $J_{0}$ - функция Бесселя 1-го рода нулевого порядка. При помощи формулы (3) выводятся комплексные представления для полей смещений и напряжений при плоском стационарном колебании упругой среды; они могут быть использованы для исследования граничных задач, а также для построения различных полных систем частных решений, к-рые позволяют аппроксимировать любые поля смещений и напряжений. В частности, эти полные системы можно использовать для построения приближенных решений краевых задач.
+
+7) 3 адача определения концентраций напряжений около отверстий в анизотропных и изотропных пластинах. Основу приближенных методов решения таких задач также составляют введение функций комплексного переменного специальной структуры в виде степенных рядов и различных модификаций теории возмущений, а также использование теорем сложения цилиндрич. и сферич. функций с последующим сведением граничных задач к бесконечным системам алгебраич. уравнений.
+
+Методы решения граничных задач. Формулы представления полей смещений и напряжений через аналитич. функции используются для доказательства существования и единственности решения общих граничных задач, а также для построения в явной форме решений нек-рых классов задач частного вида.
+
+Метод степенных рядов с применением конформного отображения позволяет решать основные П. з. для областей, конформно отображающихся на круг посредством рациональных функций. Задача редуцируется к линейной алгебраич. системе уравнений и квадратурам. Этим методом практически решаются основные граничные задачи для любой односвязной области с использованием приближенного конформного отображения области на круг с помощью рациональных функций. При использовании ЭВМ этот прием является эффективным для построения решений основных граничных П. з. теории упругости и изгиба пластинок.
+
+На основе теории интеграла типа Коши исследование П. з. редуцируется $\mathrm{k}$ хорошо изученным интегральным уравнениям. Полезными являются также методы, сочетающие конформное отображение с применением аппарата интегралов типа Коши. Существуют и другие способы приведения граничных П. з. теории упругости к интегральным уравнениям, к-рые дают возможность изучить вопросы существования и единственности решения.
+
+Для редукшии граничных П. з. теории упругости к интегральным уравнениям используется также метод потенциалов, не вводяший в рассмотрение комплексные аналитич. функции ( $\varphi$ и $\psi$ ).
+
+Лит.: [1] К о ло с о в Г. В., Применение комплексных диаграмм и теории функций комплексной переменной к теории упругости, Л.М., 1935; [2] М у х е л и ш в и л Н. И., Некоторые основные задачи математической теории упругости, 5 изд., М., 1966; [3] е го же, Сингулярные интегральные уравнения, 3 изд., М., 1968; [4] В еку а И. Н., Новые методы решения эллиптических уравнений, М.Л., 1948.
+
+И. Н. Векуа, Р. А. Кордзадзе.</text_orig>
+</article>

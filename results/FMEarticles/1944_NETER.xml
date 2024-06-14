@@ -1,0 +1,623 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1944_NETER" alphabetic_pos="1946">
+  <title>НЕТЕР ТЕОРЕМА</title>
+  <authors>
+    <author>Б. В. Медведев</author>
+    <author>П. Б. Медведев</author>
+  </authors>
+  <pages>
+    <start>384</start>
+    <end>386</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Hilbert D., Die Grundlagen der Physik, «gött. Nachr., Math. Phys. Klasse», 1915, S. 395; [2] K le in F., Die Differentialgesetze fur die Erhaltung von Impuls und Energie in der Einsteinsch. Gravitationstheorie, там же, 1918, S. 171; [3] N other E., Invariante Variationsprobleme, там же, 1918, S. 235; [4] Ландау Л. Д., Л и фш и ц Е. М., Теория поля, 7 изд., М., 1988; [5] П а ул и В., Релятивистская теория элементарных частиц, пер. с англ., М., 1947; [6] Б о го л юбов Н. Н., Ш и рко в Д. В., Введение в теорию квантованных полей, 4 изд., М., 1984; [7] Гельфанд И. М., Фо м ин С. В., Вариационное исчисление, М., 1961; [8] Медведе в Б. В., Начала теоретической физики, М., 1977.</literature_orig>
+    <unit>
+      <author>Hilbert D.</author>
+      <title>Die Grundlagen der Physik, «gött. Nachr., Math. Phys. Klasse»</title>
+      <publication/>
+      <year>1915</year>
+      <other>S. 395</other>
+    </unit>
+    <unit>
+      <author>Klein F.</author>
+      <title>Die Differentialgesetze fur die Erhaltung von Impuls und Energie in der Einsteinsch. Gravitationstheorie, там же</title>
+      <publication/>
+      <year>1918</year>
+      <other>S. 171</other>
+    </unit>
+    <unit>
+      <author>Nother E.</author>
+      <title>Invariante Variationsprobleme, там же</title>
+      <publication/>
+      <year>1918</year>
+      <other>S. 235</other>
+    </unit>
+    <unit>
+      <author>Ландау Л. Д.</author>
+      <author>Лифшиц Е. М.</author>
+      <title>Теория поля</title>
+      <publication>7 изд., М.</publication>
+      <year>1988</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Паули В.</author>
+      <title>Релятивистская теория элементарных частиц</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1947</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <author>Ширков Д. В.</author>
+      <title>Введение в теорию квантованных полей</title>
+      <publication>4 изд., М.</publication>
+      <year>1984</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гельфанд И. М.</author>
+      <author>Фомин С. В.</author>
+      <title>Вариационное исчисление</title>
+      <publication>М.</publication>
+      <year>1961</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Медведев Б. В.</author>
+      <title>Начала теоретической физики</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_1_NETER">S=\int_{T} L\left[q_{a}(t), \dot{q}_{a}(t)\right] d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_2_NETER">t \rightarrow t^{\prime}=t+\Lambda(q, t) \varepsilon, q_{a}(t) \rightarrow q_{a}^{\prime}\left(t^{\prime}\right)=q_{a}(t)+\Lambda_{a}(q, t) \varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_3_NETER">Q=\left[L-\sum_{a} \frac{\partial L}{\partial \dot{q}_{a}} \dot{q}_{a}\right] \Lambda+\sum_{a} \frac{\partial L}{\partial q_{a}} \Lambda_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_4_NETER">-\mathscr{E}=L-\sum_{a} \frac{\partial L}{\partial \dot{q}_{a}} \dot{q}_{a}=\text { const }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_5_NETER">0=d H / d \varepsilon=(Q, H) \rightarrow 0=(H, Q)=d Q / d t .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_6_NETER">\left(M_{i} M_{k}\right)=-e_{i} k_{l} M_{l}, i, k, l=1,2,3</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_7_NETER">S=\int_{R} L\left[\varphi^{a}(x), \varphi_{, v}^{a}(x) ; x^{\mu}\right] d^{4} x ; \quad \mu, v=0,1,2,3,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_8_NETER">\begin{gathered}x^{\mu} \rightarrow x^{\prime \mu}=x^{\mu}+\Lambda_{A}^{\mu}(x) \varepsilon^{A}, \\\varphi^{a}(x) \rightarrow \varphi^{\prime a}\left(x^{\prime}\right)=\varphi^{a}(x)+\mathscr{L}_{A}^{a b}(x) \varphi_{b}(x) \varepsilon^{A}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_9_NETER">d J_{A}^{\mu} / d x^{\mu}=0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_10_NETER">J_{A}^{\mu}=T_{v}^{\mu} \Lambda_{A}^{v}+\frac{\partial L(x)}{\partial \varphi_{, \mu}^{a}} \varphi^{b} \mathscr{L}_{A}^{a b},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_11_NETER">T_{v}^{\mu}=\delta_{v}^{\mu} L(x)-\frac{\partial L(x)}{\partial \varphi^{a}} \varphi_{v}^{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_12_NETER">Q_{A}(t)=\int_{x^{0}=t} J_{A}^{0}(x) d^{3} x,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_13_NETER">P_{\mu}=\int_{x^{0}=t} T_{\mu}^{0} d^{3} x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_14_NETER">A=(\mu, v) ; \varepsilon^{A}=\omega^{v \mu}=-\omega^{\mu v} ; \Lambda_{A}^{\rho}=\delta_{v}^{\rho} g_{\mu \sigma} x^{\sigma}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_15_NETER">M_{v \rho}^{\mu}=-\frac{1}{2} T_{v}^{\mu} x_{\rho}+\frac{1}{2} T_{\rho}^{\mu} x_{v}+\frac{\partial L(x)}{\partial \varphi_{, \mu}^{a}} \mathscr{L}_{v \rho}^{a b} \varphi^{b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_16_NETER">\begin{gathered}\left(P_{\mu}, P_{v}\right)=0 ; \\\left(M_{\mu \rho}, P_{v}\right)=-\left(g_{\mu v} g_{\rho \sigma}-g_{\mu \sigma} g_{\rho \mu}\right) P^{\sigma} ;\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_17_NETER">\left(M_{\mu \rho}, M_{v \sigma}\right)=-g_{\mu v} M_{\rho \sigma}+g_{\rho v} M_{\mu \sigma}+g_{\mu \sigma} M_{\rho v}-g_{\rho \sigma} M_{\mu v}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_18_NETER">\varphi^{a} \rightarrow \varphi^{a} \exp (i \alpha) ; \varphi^{* a} \rightarrow \varphi^{* a} \exp (-i \alpha),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_19_NETER">j^{\mu}(x)=i\left(\frac{\partial L(x)}{\partial \varphi_{, \mu}^{a}} \varphi^{a}-\varphi^{* a} \frac{\partial L(x)}{\partial \varphi_{, \mu}^{* a}}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_20_NETER">J_{A}^{\mu} \rightarrow J_{A}^{\mu}+\frac{\partial f_{A}^{\mu v}\left(\varphi^{a} ; \varphi_{, v}^{a}\right)}{\partial x^{v}} ; \quad f_{A}^{\mu v}+f_{A}^{v \mu}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_21_NETER">\frac{d_{j 5}^{\lambda}}{\partial_{x}^{\lambda}} \sim e^{2} e^{\mu \nu \rho \sigma} F_{\mu \nu} F_{\rho \sigma} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_22_NETER">\delta_{\lambda} S=\int d^{4} x \frac{\partial L}{\partial A} \nabla \delta \lambda=-\int d^{4} x \nabla\left(\frac{\partial L}{\partial A}\right) \delta \lambda,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1944_23_NETER">\nabla j=0 ; \quad j=\frac{\partial L}{\partial A} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_1_NETER">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_2_NETER">q_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_3_NETER">\dot{q}_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_4_NETER">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_5_NETER">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_6_NETER">\lambda(q, t), \Lambda_{a}(q, t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_7_NETER">\left\{q_{a}\right\} \equiv q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_8_NETER">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_9_NETER">\lambda_{a}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_10_NETER">\lambda=1</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_11_NETER">l</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_12_NETER">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_13_NETER">\left(\lambda=0, \Lambda_{a}=1\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_14_NETER">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_15_NETER">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_16_NETER">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_17_NETER">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_18_NETER">q</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_19_NETER">q_{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_20_NETER">e_{i} k_{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_21_NETER">o(3)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_22_NETER">l\left[\varphi^{a}(x), \varphi_{, v}^{a}(x) ; x^{\mu}\right]</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_23_NETER">\varphi^{a}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_24_NETER">\varphi_{, v}^{a} \equiv \partial \varphi^{a} / \partial x^{\nu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_25_NETER">x^{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_26_NETER">x=\left\{x^{\mu}\right\}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_27_NETER">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_28_NETER">\hbar=c=1)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_29_NETER">\varepsilon^{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_30_NETER">r</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_31_NETER">j_{a}^{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_32_NETER">\delta_{v}^{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_33_NETER">j_{a}^{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_34_NETER">j_{a}^{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_35_NETER">\varepsilon^{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_36_NETER">\delta x^{\mu}=a^{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_37_NETER">a=\mu, \mathscr{L}_{A}^{a b}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_38_NETER">g_{\mu \sigma}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_39_NETER">\mathscr{l}_{v \rho}^{a b}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_40_NETER">\varphi^{a}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_41_NETER">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_42_NETER">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_43_NETER">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_44_NETER">t_{\mathrm{v}}^{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_45_NETER">f^{v, \rho \mu}=\frac{1}{2}\left\{-\frac{\partial L}{\partial \varphi_{, \mu}^{a}} \mathscr{L}^{v \rho ; a b} \varphi^{b}+\frac{\partial L}{\partial \varphi_{, \rho}^{a}} \mathscr{L}^{\mu v ; a b} \varphi^{b}+\frac{\partial L}{\partial \varphi_{, v}^{a}} \mathscr{L}^{\rho \mu ; a b} \varphi^{b}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_46_NETER">t_{\mathrm{v}}^{\mu}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_47_NETER">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_48_NETER">\theta_{\alpha}(\alpha-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_49_NETER">j_{5}^{\mu}=\bar{\psi} \gamma^{\mu} \gamma^{5} \psi\left(\gamma^{\mu}, \gamma^{5}-\right.</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_50_NETER">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_51_NETER">a(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_52_NETER">\lambda(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_53_NETER">\delta \lambda(x), \delta \lambda(x)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_54_NETER">\delta_{\lambda} A=\nabla \delta \lambda</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_55_NETER">\nabla</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1944_56_NETER">\delta \lambda(x)</formula>
+  </formulas_aux>
+  <relations n="32">
+    <relation uri="http://libmeta.ru/fme/relation/1944_1_NETER">
+      <rel_text>супергравитации</rel_text>
+      <target>http://libmeta.ru/fme/article/2994_SUPERGRAVITATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_2_NETER">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_3_NETER">
+      <rel_text>частях</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_4_NETER">
+      <rel_text>первой</rel_text>
+      <target>http://libmeta.ru/fme/article/2219_PERIO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_5_NETER">
+      <rel_text>получаемый</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_6_NETER">
+      <rel_text>ковариантный закон сохранения</rel_text>
+      <target>http://libmeta.ru/fme/article/1277_KOVARIANTNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_7_NETER">
+      <rel_text>вариациях</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_8_NETER">
+      <rel_text>ковариантная производная</rel_text>
+      <target>http://libmeta.ru/fme/article/1273_KOVARIANTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_9_NETER">
+      <rel_text>вариации</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_10_NETER">
+      <rel_text>калибровки</rel_text>
+      <target>http://libmeta.ru/fme/article/1075_KALIBROVK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_11_NETER">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_12_NETER">
+      <rel_text>калибровочным преобразованием</rel_text>
+      <target>http://libmeta.ru/fme/article/1082_KALIBROVOChNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_13_NETER">
+      <rel_text>калибровочном поле</rel_text>
+      <target>http://libmeta.ru/fme/article/1081_KALIBROVOChNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_14_NETER">
+      <rel_text>действия</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_15_NETER">
+      <rel_text>вариацию</rel_text>
+      <target>http://libmeta.ru/fme/article/321_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_16_NETER">
+      <rel_text>калибровки</rel_text>
+      <target>http://libmeta.ru/fme/article/1075_KALIBROVK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_17_NETER">
+      <rel_text>произвольной функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2401_PROIZVODJaSchAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_18_NETER">
+      <rel_text>получает</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_19_NETER">
+      <rel_text>произвольной функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2401_PROIZVODJaSchAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_20_NETER">
+      <rel_text>действия</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_21_NETER">
+      <rel_text>инвариантности</rel_text>
+      <target>http://libmeta.ru/fme/article/1008_INVARIANTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_22_NETER">
+      <rel_text>теорема Нетер</rel_text>
+      <target>http://libmeta.ru/fme/article/1944_NETER</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_23_NETER">
+      <rel_text>получаем</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_24_NETER">
+      <rel_text>втором порядке</rel_text>
+      <target>http://libmeta.ru/fme/article/875_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_25_NETER">
+      <rel_text>матрицы Дирака</rel_text>
+      <target>http://libmeta.ru/fme/article/838_DIRAKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_26_NETER">
+      <rel_text>аксиальный ток</rel_text>
+      <target>http://libmeta.ru/fme/article/43_AKSIAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_27_NETER">
+      <rel_text>перенормировке</rel_text>
+      <target>http://libmeta.ru/fme/article/2200_PEREMEShIVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_28_NETER">
+      <rel_text>регуляризации</rel_text>
+      <target>http://libmeta.ru/fme/article/2575_REGULJaRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_29_NETER">
+      <rel_text>квантовой теории поля</rel_text>
+      <target>http://libmeta.ru/fme/article/1178_KVANTOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_30_NETER">
+      <rel_text>супералгебры</rel_text>
+      <target>http://libmeta.ru/fme/article/2992_SUPERALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_31_NETER">
+      <rel_text>суперзарядов</rel_text>
+      <target>http://libmeta.ru/fme/article/2992_SUPERALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1944_32_NETER">
+      <rel_text>суперсимметрией</rel_text>
+      <target>http://libmeta.ru/fme/article/2994_SUPERGRAVITATsI</target>
+    </relation>
+  </relations>
+  <text>для всякой физической системы, уравнения движения которой могут быть получены из вариационного принципа, каждому однопараметрическому непрерывному преобразованию, оставляющему вариационный функционал инвариантным, отвечает один дифференциальный сохранения закон и, главное, позволяет явно выписать сохраняющуюся величину. Установлена в работах ученых геттингенской школы Д. Гильберта (d. Hilbert), Ф. Клейна (f. Klein) и Э. Нетер (е. Noether). Н. т.- самое универсальное средство, позволяющее находить законы сохранения в лагранжевой классич. механике, теории поля, квантовой теории и т. д.
+
+В классич. механике для системы с действием
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_1_NETER]]/URI
+\]
+
+( $URI[[http://libmeta.ru/fme/formula/aux/1944_1_NETER]]/URI$ - Лагранжа функция, зависящая от обобщенных координат $URI[[http://libmeta.ru/fme/formula/aux/1944_2_NETER]]/URI$ и скоростей $URI[[http://libmeta.ru/fme/formula/aux/1944_3_NETER]]/URI$ ) инвариантность $URI[[http://libmeta.ru/fme/formula/aux/1944_4_NETER]]/URI$ относительно образующих группу преобразований с параметром $URI[[http://libmeta.ru/fme/formula/aux/1944_5_NETER]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_2_NETER]]/URI
+\]
+
+[где задающие преобразование функции $URI[[http://libmeta.ru/fme/formula/aux/1944_6_NETER]]/URI$ зависят от совокупности координат $URI[[http://libmeta.ru/fme/formula/aux/1944_7_NETER]]/URI$ и времени] влечет за собой, согласно Н.т., сохранение во времени величины
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_3_NETER]]/URI
+\]
+
+В частности, из инвариантности $URI[[http://libmeta.ru/fme/formula/aux/1944_8_NETER]]/URI$ относительно (1) с $URI[[http://libmeta.ru/fme/formula/aux/1944_9_NETER]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/1944_10_NETER]]/URI$, то есть из однородности времени, следует закон сохранения энергии:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_4_NETER]]/URI
+\]
+
+В этом случае $URI[[http://libmeta.ru/fme/formula/aux/1944_11_NETER]]/URI$ не зависит от времени явно. Подобным же образом из инвариантности $URI[[http://libmeta.ru/fme/formula/aux/1944_12_NETER]]/URI$ по отношению к пространственным сдвигам $URI[[http://libmeta.ru/fme/formula/aux/1944_13_NETER]]/URI$ следует закон сохранения импульса, а из изотропии пространства - закон сохранения трехмерного момента.
+
+В гамильтоновом описании, то есть когда $URI[[http://libmeta.ru/fme/formula/aux/1944_14_NETER]]/URI$ выражены через канонич. переменные - обобщенные координаты и импульсы (для простоты считаем, что явные зависимости от времени отсутствуют): 1) Пуассона скобка $URI[[http://libmeta.ru/fme/formula/aux/1944_15_NETER]]/URI$ с гамильтонианом $URI[[http://libmeta.ru/fme/formula/aux/1944_16_NETER]]/URI$ равна нулю, 2) изменение любой динамич. переменной $URI[[http://libmeta.ru/fme/formula/aux/1944_17_NETER]]/URI$ при преобразовании (1) определяется ее скобкой Пуассона с $URI[[http://libmeta.ru/fme/formula/aux/1944_18_NETER]]/URI$. В этом контексте утверждение Н. т. становится как бы тривиальным, следующим из одной лишь антисимметрии скобок Пуассона:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_5_NETER]]/URI
+\]
+
+Если преобразования симметрии образуют не однопараметрич. группу, то между $URI[[http://libmeta.ru/fme/formula/aux/1944_19_NETER]]/URI$ должны выполняться соотношения в скобках Пуассона, воспроизводящие алгебру Ли генераторов соответствующей группы. Так, напр., три компоненты момента должны удовлетворять соотношению в скобках Пуассона
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_6_NETER]]/URI
+\]
+
+(где $URI[[http://libmeta.ru/fme/formula/aux/1944_20_NETER]]/URI$ - символ Леви-Чивиты), воспроизводящему алгебру Ли группы трехмерных вращений $URI[[http://libmeta.ru/fme/formula/aux/1944_21_NETER]]/URI$.
+
+Особо важное значение Н. т. приобретает в квантовой теории поля, где вытекающие из наличия группы симметрии законы сохранения часто оказываются единственным источником информации о свойствах системы. Для формального вывода Н. т. в (классической или квантовой) теории поля рассматривают интеграл действия:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_7_NETER]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1944_22_NETER]]/URI$ - лагранжиан, зависящий от функций поля $URI[[http://libmeta.ru/fme/formula/aux/1944_23_NETER]]/URI$, их первых производных по всем четырем координатам $URI[[http://libmeta.ru/fme/formula/aux/1944_24_NETER]]/URI$ и, возможно, от координат $URI[[http://libmeta.ru/fme/formula/aux/1944_25_NETER]]/URI$ ( $URI[[http://libmeta.ru/fme/formula/aux/1944_26_NETER]]/URI$ точка пространства-времени; индекс $URI[[http://libmeta.ru/fme/formula/aux/1944_27_NETER]]/URI$ нумерует компоненты поля; принята система отсчета, в к-рой $URI[[http://libmeta.ru/fme/formula/aux/1944_28_NETER]]/URI$. Тогда Н.т. утверждает, что из инвариантности действия (2) относительно преобразований с параметрами $URI[[http://libmeta.ru/fme/formula/aux/1944_29_NETER]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_8_NETER]]/URI
+\]
+
+для произвольной области интегрирования $URI[[http://libmeta.ru/fme/formula/aux/1944_30_NETER]]/URI$ вытекает дифференциальный закон сохранения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_9_NETER]]/URI
+\]
+
+где так наз. н е т е р о в т ок $URI[[http://libmeta.ru/fme/formula/aux/1944_31_NETER]]/URI$ вычисляется из лагранжиана по правилу:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_10_NETER]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_11_NETER]]/URI
+\]
+
+( $URI[[http://libmeta.ru/fme/formula/aux/1944_32_NETER]]/URI$ - символ Кронекера; по повторяющемуся индексу предполагается суммирование). Интегрируя (3) по произвольному 4-объему и используя теорему Гаусса, получаем, что полный 4-поток вектора $URI[[http://libmeta.ru/fme/formula/aux/1944_33_NETER]]/URI$ через ограничивающую этот объем гиперповерхность равен нулю. Выбирая гиперповерхность в виде цилиндра с пространственноподобными основаниями, такого, что потоком через боковые стенки можно пренебречь, приходим к утверждению, что направленные в будущее потоки вектора $URI[[http://libmeta.ru/fme/formula/aux/1944_34_NETER]]/URI$ через нижнее и верхнее основания равны. Отсюда следует, что нетеровы заряды
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_12_NETER]]/URI
+\]
+
+во-первых, сохраняются во времени (интегральная фо р м а Н.т.), во-вторых, преобразуются при Лоренца преобразованиях контравариантно соответствующим параметрам $URI[[http://libmeta.ru/fme/formula/aux/1944_35_NETER]]/URI$.
+
+Из физич. представлений об однородности и изотропии пространства-времени следует, что для любой замкнутой системы действие должно быть инвариантно относительно преобразований Пуанкаре группы, что в силу Н. т. приводит к существованию 10 фундаментальных сохраняющихся величин: энергии, 3 компонент импульса и 6 компонент 4-момента. Сохранение энергии и импульса следует из инвариантности относительно трансляций $URI[[http://libmeta.ru/fme/formula/aux/1944_36_NETER]]/URI$. При этом $URI[[http://libmeta.ru/fme/formula/aux/1944_37_NETER]]/URI$, нетеровы токи исчерпываются выражением (5) и образуют тензор энерги и-импульса. Сохраняющиеся «заряды» суть компоненты 4-импульса:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_13_NETER]]/URI
+\]
+
+Из инвариантности относительно трех пространственных поворотов и трех преобразований Лоренца
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_14_NETER]]/URI
+\]
+
+(где $URI[[http://libmeta.ru/fme/formula/aux/1944_38_NETER]]/URI$ метрич. тензор) вытекает дифференциальный закон сохранения для тензора плотности момента:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_15_NETER]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/1944_39_NETER]]/URI$ определяется спином полей. Соответствующий нетеров заряд есть 4-момент.
+
+В гамильтоновом описании 10 фундаментальных величин являются генераторами соответствующих преобразований группы Пуанкаре и образуют относительно скобок Пуассона замкнутую алгебру Ли
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_16_NETER]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_17_NETER]]/URI
+\]
+
+изоморфную алгебре Ли группы Пуанкаре. Требование выполнения соотношений (7) в гамильтоновом формализме эквивалентно требованию инвариантности лагранжиана относительно группы Пуанкаре в лагранжевом формализме.
+
+При наличии в системе симметрий, не связанных с пространством-временем, Н.т. позволяет построить и другие сохраняющиеся величины. При этом в выражении (4) для нетерова тока остается только второй член. Напр., если в системе с комплексным полем $URI[[http://libmeta.ru/fme/formula/aux/1944_40_NETER]]/URI$ действие инвариантно относительно глобального (с фазой $URI[[http://libmeta.ru/fme/formula/aux/1944_41_NETER]]/URI$, не зависящей от $URI[[http://libmeta.ru/fme/formula/aux/1944_42_NETER]]/URI$ ) калибровочного преобразования 1-го рода
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_18_NETER]]/URI
+\]
+
+то будут сохраняться ток
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_19_NETER]]/URI
+\]
+
+и соответствующий заряд. В построении современных реалистич. квантовополевых моделей токи и заряды, сохраняющиеся в силу инвариантности относительно достаточно сложных калибровочных групп, играют ведущую роль.
+
+Выражение (4) для пространственно-временной локализации нетерова тока (это выражение называется ка ноническким) не однозначно, если исходить только из требования выполнения дифференциального закона сохранения (3) и получения правильной интегральной величины (6). Выполнение этих требований не нарушается при замене
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_20_NETER]]/URI
+\]
+
+с произвольной функцией $URI[[http://libmeta.ru/fme/formula/aux/1944_43_NETER]]/URI$. Этим произволом пользуются, чтобы заменить канонич. тензор (5) $URI[[http://libmeta.ru/fme/formula/aux/1944_44_NETER]]/URI$ (не симметричный для отличного от нуля спина) на симметричный (тензор Белинфанте), выбирая
+
+$URI[[http://libmeta.ru/fme/formula/aux/1944_45_NETER]]/URI$.
+
+Для нулевого спина то же преобразование позволяет получить для безмассового поля $URI[[http://libmeta.ru/fme/formula/aux/1944_46_NETER]]/URI$ с нулевым следом.
+
+Однозначные выражения для нетеровых токов получаются варьированием по полям, для к-рых эти токи служат источниками.
+
+Для теорий, обладающих URI[[http://libmeta.ru/fme/relation/1944_32_NETER]]/URI, независимыми переменными при выводе Н.т. будут наряду с $URI[[http://libmeta.ru/fme/formula/aux/1944_47_NETER]]/URI$ и антикоммутирующие координаты $URI[[http://libmeta.ru/fme/formula/aux/1944_48_NETER]]/URI$ спинорный индекс). Это приводит к обобщению фундаментальных сохраняющихся величин, а также к появлению новых сохраняющихся величин: спин-векторных токов и соответствующих им URI[[http://libmeta.ru/fme/relation/1944_31_NETER]]/URI, образующих представление URI[[http://libmeta.ru/fme/relation/1944_30_NETER]]/URI Пуанкаре.
+
+Для классич. теорий поля выписанных формальных вы ражений вполне достаточно. В URI[[http://libmeta.ru/fme/relation/1944_29_NETER]]/URI выражения (4), (6), как правило, нуждаются в URI[[http://libmeta.ru/fme/relation/1944_28_NETER]]/URI и URI[[http://libmeta.ru/fme/relation/1944_27_NETER]]/URI. При этом может оказаться, что формально имеющаяся симметрия не может быть сохранена для регуляризованных выражений и соответствующий закон сохранения перестает выполняться - говорят, что присутствует аномалия. Так, при рассмотрении взаимодействия безмассовых фермионов с электромагнитным полем в классич. теории наряду с векторным сохраняется также и URI[[http://libmeta.ru/fme/relation/1944_26_NETER]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1944_49_NETER]]/URI$ URI[[http://libmeta.ru/fme/relation/1944_25_NETER]]/URI). В кван-
+
+Нетер 385 товой теории во URI[[http://libmeta.ru/fme/relation/1944_24_NETER]]/URI по заряду $URI[[http://libmeta.ru/fme/formula/aux/1944_50_NETER]]/URI$ возникает аномалия, и вместо сохранения тока URI[[http://libmeta.ru/fme/relation/1944_23_NETER]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_21_NETER]]/URI
+\]
+
+Вторая URI[[http://libmeta.ru/fme/relation/1944_22_NETER]]/URI. Помимо обсуждавшейся выше Н.т., к-рую принято называть пе р в ой Н.т., существует вторая Н.т., к-рая касается тождеств, вытекающих из URI[[http://libmeta.ru/fme/relation/1944_21_NETER]]/URI URI[[http://libmeta.ru/fme/relation/1944_20_NETER]]/URI относительно преобразований, зависящих от непрерывного параметра, то есть от URI[[http://libmeta.ru/fme/relation/1944_19_NETER]]/URI. Наибольшее значение она URI[[http://libmeta.ru/fme/relation/1944_18_NETER]]/URI в применении к случаю «полей материи», взаимодействующих с калибровочным полем $URI[[http://libmeta.ru/fme/formula/aux/1944_51_NETER]]/URI$ - полем, физич. содержание к-рого не меняется при определенных зависящих от URI[[http://libmeta.ru/fme/relation/1944_17_NETER]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1944_52_NETER]]/URI$ преобразованиях, называемых преобразованиями URI[[http://libmeta.ru/fme/relation/1944_16_NETER]]/URI. Вычисляя URI[[http://libmeta.ru/fme/relation/1944_15_NETER]]/URI URI[[http://libmeta.ru/fme/relation/1944_14_NETER]]/URI для поля материи во внешнем URI[[http://libmeta.ru/fme/relation/1944_13_NETER]]/URI, вызванную бесконечно малым URI[[http://libmeta.ru/fme/relation/1944_12_NETER]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1944_53_NETER]]/URI$ на границах URI[[http://libmeta.ru/fme/relation/1944_11_NETER]]/URI интегрирования, следует учитывать только вызываемые изменением URI[[http://libmeta.ru/fme/relation/1944_10_NETER]]/URI URI[[http://libmeta.ru/fme/relation/1944_9_NETER]]/URI калибровочного поля $URI[[http://libmeta.ru/fme/formula/aux/1944_54_NETER]]/URI$ (здесь $URI[[http://libmeta.ru/fme/formula/aux/1944_55_NETER]]/URI$ - URI[[http://libmeta.ru/fme/relation/1944_8_NETER]]/URI), поскольку при URI[[http://libmeta.ru/fme/relation/1944_7_NETER]]/URI полей материи коэффициентами будут левые части уравнений движения. Поэтому
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_22_NETER]]/URI
+\]
+
+откуда в силу произвольности $URI[[http://libmeta.ru/fme/formula/aux/1944_56_NETER]]/URI$ вытекает к о в а р и а н тный закон сохранения:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1944_23_NETER]]/URI
+\]
+
+При обращении в формуле (8) внешнего калибровочного поля в нуль URI[[http://libmeta.ru/fme/relation/1944_6_NETER]]/URI превращается в обычный, URI[[http://libmeta.ru/fme/relation/1944_5_NETER]]/URI по URI[[http://libmeta.ru/fme/relation/1944_4_NETER]]/URI Н.т. Подчеркнем, что вторая Н.т. приводит к ограничениям на поля материи, исходя из особенностей калибровочного поля. Таким образом, она устанавливает соответствие между свойствами материальных систем и полей, с к-рыми они могут взаимодействовать. Поскольку в правых URI[[http://libmeta.ru/fme/relation/1944_3_NETER]]/URI уравнений движения самих калибровочных полей стоят как раз токи (8), то вторая Н. т. налагает тождественные соотношения на левые части этих уравнений. В современной URI[[http://libmeta.ru/fme/relation/1944_2_NETER]]/URI вторая Н.т. используется в электродинамике, теории Янга-Миллса полей, гравитации, URI[[http://libmeta.ru/fme/relation/1944_1_NETER]]/URI и т. д.</text>
+  <text_orig>для всякой физической системы, уравнения движения которой могут быть получены из вариационного принципа, каждому однопараметрическому непрерывному преобразованию, оставляющему вариационный функционал инвариантным, отвечает один дифференциальный сохранения закон и, главное, позволяет явно выписать сохраняющуюся величину. Установлена в работах ученых геттингенской школы Д. Гильберта (D. Hilbert), Ф. Клейна (F. Klein) и Э. Нетер (Е. Noether). Н. т.- самое универсальное средство, позволяющее находить законы сохранения в лагранжевой классич. механике, теории поля, квантовой теории и т. д.
+
+В классич. механике для системы с действием
+
+\[
+S=\int_{T} L\left[q_{a}(t), \dot{q}_{a}(t)\right] d t
+\]
+
+( $L$ - Лагранжа функция, зависящая от обобщенных координат $q_{a}$ и скоростей $\dot{q}_{a}$ ) инвариантность $S$ относительно образующих группу преобразований с параметром $\varepsilon$ :
+
+\[
+t \rightarrow t^{\prime}=t+\Lambda(q, t) \varepsilon, q_{a}(t) \rightarrow q_{a}^{\prime}\left(t^{\prime}\right)=q_{a}(t)+\Lambda_{a}(q, t) \varepsilon
+\]
+
+[где задающие преобразование функции $\Lambda(q, t), \Lambda_{a}(q, t)$ зависят от совокупности координат $\left\{q_{a}\right\} \equiv q$ и времени] влечет за собой, согласно Н.т., сохранение во времени величины
+
+\[
+Q=\left[L-\sum_{a} \frac{\partial L}{\partial \dot{q}_{a}} \dot{q}_{a}\right] \Lambda+\sum_{a} \frac{\partial L}{\partial q_{a}} \Lambda_{a}
+\]
+
+В частности, из инвариантности $S$ относительно (1) с $\Lambda_{a}=0$, $\Lambda=1$, то есть из однородности времени, следует закон сохранения энергии:
+
+\[
+-\mathscr{E}=L-\sum_{a} \frac{\partial L}{\partial \dot{q}_{a}} \dot{q}_{a}=\text { const }
+\]
+
+В этом случае $L$ не зависит от времени явно. Подобным же образом из инвариантности $S$ по отношению к пространственным сдвигам $\left(\Lambda=0, \Lambda_{a}=1\right)$ следует закон сохранения импульса, а из изотропии пространства - закон сохранения трехмерного момента.
+
+В гамильтоновом описании, то есть когда $Q$ выражены через канонич. переменные - обобщенные координаты и импульсы (для простоты считаем, что явные зависимости от времени отсутствуют): 1) Пуассона скобка $Q$ с гамильтонианом $H$ равна нулю, 2) изменение любой динамич. переменной $F$ при преобразовании (1) определяется ее скобкой Пуассона с $Q$. В этом контексте утверждение Н. т. становится как бы тривиальным, следующим из одной лишь антисимметрии скобок Пуассона:
+
+\[
+0=d H / d \varepsilon=(Q, H) \rightarrow 0=(H, Q)=d Q / d t .
+\]
+
+Если преобразования симметрии образуют не однопараметрич. группу, то между $Q_{A}$ должны выполняться соотношения в скобках Пуассона, воспроизводящие алгебру Ли генераторов соответствующей группы. Так, напр., три компоненты момента должны удовлетворять соотношению в скобках Пуассона
+
+\[
+\left(M_{i} M_{k}\right)=-e_{i} k_{l} M_{l}, i, k, l=1,2,3
+\]
+
+(где $e_{i} k_{l}$ - символ Леви-Чивиты), воспроизводящему алгебру Ли группы трехмерных вращений $O(3)$.
+
+Особо важное значение Н. т. приобретает в квантовой теории поля, где вытекающие из наличия группы симметрии законы сохранения часто оказываются единственным источником информации о свойствах системы. Для формального вывода Н. т. в (классической или квантовой) теории поля рассматривают интеграл действия:
+
+\[
+S=\int_{R} L\left[\varphi^{a}(x), \varphi_{, v}^{a}(x) ; x^{\mu}\right] d^{4} x ; \quad \mu, v=0,1,2,3,
+\]
+
+где $L\left[\varphi^{a}(x), \varphi_{, v}^{a}(x) ; x^{\mu}\right]$ - лагранжиан, зависящий от функций поля $\varphi^{a}(x)$, их первых производных по всем четырем координатам $\varphi_{, v}^{a} \equiv \partial \varphi^{a} / \partial x^{\nu}$ и, возможно, от координат $x^{\mu}$ ( $x=\left\{x^{\mu}\right\}-$ точка пространства-времени; индекс $a$ нумерует компоненты поля; принята система отсчета, в к-рой $\hbar=c=1)$. Тогда Н.т. утверждает, что из инвариантности действия (2) относительно преобразований с параметрами $\varepsilon^{A}$
+
+\[
+\begin{gathered}
+x^{\mu} \rightarrow x^{\prime \mu}=x^{\mu}+\Lambda_{A}^{\mu}(x) \varepsilon^{A}, \\
+\varphi^{a}(x) \rightarrow \varphi^{\prime a}\left(x^{\prime}\right)=\varphi^{a}(x)+\mathscr{L}_{A}^{a b}(x) \varphi_{b}(x) \varepsilon^{A}
+\end{gathered}
+\]
+
+для произвольной области интегрирования $R$ вытекает дифференциальный закон сохранения:
+
+\[
+d J_{A}^{\mu} / d x^{\mu}=0,
+\]
+
+где так наз. н е т е р о в т ок $J_{A}^{\mu}$ вычисляется из лагранжиана по правилу:
+
+\[
+J_{A}^{\mu}=T_{v}^{\mu} \Lambda_{A}^{v}+\frac{\partial L(x)}{\partial \varphi_{, \mu}^{a}} \varphi^{b} \mathscr{L}_{A}^{a b},
+\]
+
+где
+
+\[
+T_{v}^{\mu}=\delta_{v}^{\mu} L(x)-\frac{\partial L(x)}{\partial \varphi^{a}} \varphi_{v}^{a}
+\]
+
+( $\delta_{v}^{\mu}$ - символ Кронекера; по повторяюшемуся индексу предполагается суммирование). Интегрируя (3) по произвольному 4-объему и используя теорему Гаусса, получаем, что полный 4-поток вектора $J_{A}^{\mu}$ через ограничивающую этот объем гиперповерхность равен нулю. Выбирая гиперповерхность в виде цилиндра с пространственноподобными основаниями, такого, что потоком через боковые стенки можно пренебречь, приходим к утверждению, что направленные в будущее потоки вектора $J_{A}^{\mu}$ через нижнее и верхнее основания равны. Отсюда следует, что нетеровы заряды
+
+\[
+Q_{A}(t)=\int_{x^{0}=t} J_{A}^{0}(x) d^{3} x,
+\]
+
+во-первых, сохраняются во времени (интегральная фо р м а Н.т.), во-вторых, преобразуются при Лоренца преобразованиях контравариантно соответствующим параметрам $\varepsilon^{A}$.
+
+Из физич. представлений об однородности и изотропии пространства-времени следует, что для любой замкнутой системы действие должно быть инвариантно относительно преобразований Пуанкаре группы, что в силу Н. т. приводит к существованию 10 фундаментальных сохраняющихся величин: энергии, 3 компонент импульса и 6 компонент 4-момента. Сохранение энергии и импульса следует из инвариантности относительно трансляций $\delta x^{\mu}=a^{\mu}$. При этом $A=\mu, \mathscr{L}_{A}^{a b}=0$, нетеровы токи исчерпываются выражением (5) и образуют тензор энерги и-импульса. Сохраняющиеся «заряды» суть компоненты 4-импульса:
+
+\[
+P_{\mu}=\int_{x^{0}=t} T_{\mu}^{0} d^{3} x
+\]
+
+Из инвариантности относительно трех пространственных поворотов и трех преобразований Лоренца
+
+\[
+A=(\mu, v) ; \varepsilon^{A}=\omega^{v \mu}=-\omega^{\mu v} ; \Lambda_{A}^{\rho}=\delta_{v}^{\rho} g_{\mu \sigma} x^{\sigma}
+\]
+
+(где $g_{\mu \sigma}-$ метрич. тензор) вытекает дифференциальный закон сохранения для тензора плотности момента:
+
+\[
+M_{v \rho}^{\mu}=-\frac{1}{2} T_{v}^{\mu} x_{\rho}+\frac{1}{2} T_{\rho}^{\mu} x_{v}+\frac{\partial L(x)}{\partial \varphi_{, \mu}^{a}} \mathscr{L}_{v \rho}^{a b} \varphi^{b}
+\]
+
+$\mathscr{L}_{v \rho}^{a b}$ определяется спином полей. Соответствующий нетеров заряд есть 4-момент.
+
+В гамильтоновом описании 10 фундаментальных величин являются генераторами соответствующих преобразований группы Пуанкаре и образуют относительно скобок Пуассона замкнутую алгебру Ли
+
+\[
+\begin{gathered}
+\left(P_{\mu}, P_{v}\right)=0 ; \\
+\left(M_{\mu \rho}, P_{v}\right)=-\left(g_{\mu v} g_{\rho \sigma}-g_{\mu \sigma} g_{\rho \mu}\right) P^{\sigma} ;
+\end{gathered}
+\]
+
+\[
+\left(M_{\mu \rho}, M_{v \sigma}\right)=-g_{\mu v} M_{\rho \sigma}+g_{\rho v} M_{\mu \sigma}+g_{\mu \sigma} M_{\rho v}-g_{\rho \sigma} M_{\mu v}
+\]
+
+изоморфную алгебре Ли группы Пуанкаре. Требование выполнения соотношений (7) в гамильтоновом формализме эквивалентно требованию инвариантности лагранжиана относительно группы Пуанкаре в лагранжевом формализме.
+
+При наличии в системе симметрий, не связанных с пространством-временем, Н.т. позволяет построить и другие сохраняющиеся величины. При этом в выражении (4) для нетерова тока остается только второй член. Напр., если в системе с комплексным полем $\varphi^{a}$ действие инвариантно относительно глобального (с фазой $\alpha$, не зависящей от $x$ ) калибровочного преобразования 1-го рода
+
+\[
+\varphi^{a} \rightarrow \varphi^{a} \exp (i \alpha) ; \varphi^{* a} \rightarrow \varphi^{* a} \exp (-i \alpha),
+\]
+
+то будут сохраняться ток
+
+\[
+j^{\mu}(x)=i\left(\frac{\partial L(x)}{\partial \varphi_{, \mu}^{a}} \varphi^{a}-\varphi^{* a} \frac{\partial L(x)}{\partial \varphi_{, \mu}^{* a}}\right)
+\]
+
+и соответствующий заряд. В построении современных реалистич. квантовополевых моделей токи и заряды, сохраняющиеся в силу инвариантности относительно достаточно сложных калибровочных групп, играют ведущую роль.
+
+Выражение (4) для пространственно-временной локализации нетерова тока (это выражение называется ка ноническким) не однозначно, если исходить только из требования выполнения дифференциального закона сохранения (3) и получения правильной интегральной величины (6). Выполнение этих требований не нарушается при замене
+
+\[
+J_{A}^{\mu} \rightarrow J_{A}^{\mu}+\frac{\partial f_{A}^{\mu v}\left(\varphi^{a} ; \varphi_{, v}^{a}\right)}{\partial x^{v}} ; \quad f_{A}^{\mu v}+f_{A}^{v \mu}=0
+\]
+
+с произвольной функцией $f$. Этим произволом пользуются, чтобы заменить канонич. тензор (5) $T_{\mathrm{v}}^{\mu}$ (не симметричный для отличного от нуля спина) на симметричный (тензор Белинфанте), выбирая
+
+$f^{v, \rho \mu}=\frac{1}{2}\left\{-\frac{\partial L}{\partial \varphi_{, \mu}^{a}} \mathscr{L}^{v \rho ; a b} \varphi^{b}+\frac{\partial L}{\partial \varphi_{, \rho}^{a}} \mathscr{L}^{\mu v ; a b} \varphi^{b}+\frac{\partial L}{\partial \varphi_{, v}^{a}} \mathscr{L}^{\rho \mu ; a b} \varphi^{b}\right\}$.
+
+Для нулевого спина то же преобразование позволяет получить для безмассового поля $T_{\mathrm{v}}^{\mu}$ с нулевым следом.
+
+Однозначные выражения для нетеровых токов получаются варьированием по полям, для к-рых эти токи служат источниками.
+
+Для теорий, обладающих суперсимметрией, независимыми переменными при выводе Н.т. будут наряду с $x$ и антикоммутирующие координаты $\theta_{\alpha}(\alpha-$ спинорный индекс). Это приводит к обобщению фундаментальных сохраняющихся величин, а также к появлению новых сохраняющихся величин: спин-векторных токов и соответствующих им суперзарядов, образующих представление супералгебры Пуанкаре.
+
+Для классич. теорий поля выписанных формальных вы ражений вполне достаточно. В квантовой теории поля выражения (4), (6), как правило, нуждаются в регуляризации и перенормировке. При этом может оказаться, что формально имеющаяся симметрия не может быть сохранена для регуляризованных выражений и соответствуюший закон сохранения перестает выполняться - говорят, что присутствует аномалия. Так, при рассмотрении взаимодействия безмассовых фермионов с электромагнитным полем в классич. теории наряду с векторным сохраняется также и аксиальный ток $j_{5}^{\mu}=\bar{\psi} \gamma^{\mu} \gamma^{5} \psi\left(\gamma^{\mu}, \gamma^{5}-\right.$ матришы Дирака). В кван-
+
+HETEP 385 товой теории во втором порядке по заряду $e$ возникает аномалия, и вместо сохранения тока получаем
+
+\[
+\frac{d_{j 5}^{\lambda}}{\partial_{x}^{\lambda}} \sim e^{2} e^{\mu \nu \rho \sigma} F_{\mu \nu} F_{\rho \sigma} .
+\]
+
+Вторая теорема Нетер. Помимо обсуждавшейся выше Н.т., к-рую принято называть пе р в ой Н.т., существует вторая Н.т., к-рая касается тождеств, вытекающих из инвариантности действия относительно преобразований, зависящих от непрерывного параметра, то есть от произвольной функции. Наибольшее значение она получает в применении к случаю «полей материи», взаимодействующих с калибровочным полем $A(x)$ - полем, физич. содержание к-рого не меняется при определенных зависящих от произвольной функшии $\lambda(x)$ преобразованиях, называемых преобразованиями калибровки. Вычисляя вариацию действия для поля материи во внешнем калибровочном поле, вызванную бесконечно малым калибровочным преобразованием $\delta \lambda(x), \delta \lambda(x)=0$ на границах области интегрирования, следует учитывать только вызываемые изменением калибровки вариации калибровочного поля $\delta_{\lambda} A=\nabla \delta \lambda$ (здесь $\nabla$ - ковариантная производная), поскольку при вариациях полей материи коэффициентами будут левые части уравнений движения. Поэтому
+
+\[
+\delta_{\lambda} S=\int d^{4} x \frac{\partial L}{\partial A} \nabla \delta \lambda=-\int d^{4} x \nabla\left(\frac{\partial L}{\partial A}\right) \delta \lambda,
+\]
+
+откуда в силу произвольности $\delta \lambda(x)$ вытекает к о в а р и а н тный закон сохранения:
+
+\[
+\nabla j=0 ; \quad j=\frac{\partial L}{\partial A} .
+\]
+
+При обращении в формуле (8) внешнего калибровочного поля в нуль ковариантный закон сохранения превращается в обычный, получаемый по первой Н.т. Подчеркнем, что вторая Н.т. приводит к ограничениям на поля материи, исходя из особенностей калибровочного поля. Таким образом, она устанавливает соответствие между свойствами материальных систем и полей, с к-рыми они могут взаимодействовать. Поскольку в правых частях уравнений движения самих калибровочных полей стоят как раз токи (8), то вторая Н. т. налагает тождественные соотношения на левые части этих уравнений. В современной квантовой теории поля вторая Н.т. используется в электродинамике, теории Янга-Миллса полей, гравитации, супергравитации и т. д.
+
+Jum.: [1] Hilbert D., Die Grundlagen der Physik, «Gött. Nachr., Math. Phys. Klasse», 1915, S. 395; [2] K le in F., Die Differentialgesetze fur die Erhaltung von Impuls und Energie in der Einsteinsch. Gravitationstheorie, там же, 1918, S. 171; [3] N other E., Invariante Variationsprobleme, там же, 1918, S. 235; [4] Ландау Л. Д., Л и фш и ц Е. М., Теория поля, 7 изд., М., 1988; [5] П а ул и В., Релятивистская теория элементарных частиц, пер. с англ., М., 1947; [6] Б о го л юбов Н. Н., Ш и рко в Д. В., Введение в теорию квантованных полей, 4 изд., М., 1984; [7] Гельфанд И. М., Фо м ин С. В., Вариационное исчисление, М., 1961; [8] Медведе в Б. В., Начала теоретической физики, М., 1977.
+
+Б. В. Медведев, П. Б. Медведев.</text_orig>
+</article>

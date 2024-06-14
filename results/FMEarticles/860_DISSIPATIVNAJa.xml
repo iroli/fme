@@ -1,0 +1,257 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/860_DISSIPATIVNAJa" alphabetic_pos="862">
+  <title>ДИССИПАТИВНАЯ ФУНКЦИЯ</title>
+  <authors>
+    <author>С. М. Тара</author>
+  </authors>
+  <pages>
+    <start>187</start>
+    <end>188</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Стретт Дж. В. (лорд Рэлей), Теория звука, пер. с англ., т. 1, 2 изд., М., 1955, гл. 4; [2] Ландау Л. и Лифшиц Е., Статистическая физика, ч. 1, 3 изд., М., 1976; [3] и х же, Механика сплошных сред, 2 изд., М., 1954, ч. 1, § 16, ч. 2, § 29; [4] и х же, Электродинамика сплошных сред, М., 1959, § 48; [5] Н е в з ллядо в В. Г., Теоретическая механика, М., 1959, § 100, 158.</literature_orig>
+    <unit>
+      <title>Стретт Дж. В. (лорд Рэлей), Теория звука</title>
+      <publication>пер. с англ., т. 1, 2 изд., М.</publication>
+      <year>1955</year>
+      <other>гл. 4</other>
+    </unit>
+    <unit>
+      <author>Ландау Л.и Лифшиц Е.</author>
+      <title>Статистическая физика, ч. 1</title>
+      <publication>3 изд., М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>и х же, Механика сплошных сред</title>
+      <publication>2 изд., М.</publication>
+      <year>1954</year>
+      <other>ч. 1, § 16, ч. 2, § 29</other>
+    </unit>
+    <unit>
+      <title>и х же, Электродинамика сплошных сред</title>
+      <publication>М.</publication>
+      <year>1959</year>
+      <other>§ 48</other>
+    </unit>
+    <unit>
+      <author>Невзллядов В. Г.</author>
+      <title>Теоретическая механика</title>
+      <publication>М.</publication>
+      <year>1959</year>
+      <other>§ 100, 158.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_1_DISSIPATIVNAJa">F=\frac{1}{2} \sum_{i=1}^{s} \sum_{k=1}^{s} \alpha_{i k} \dot{q}_{i} \dot{q}_{k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_2_DISSIPATIVNAJa">F=\frac{1}{2}\left|\frac{d E}{d t}\right| .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_3_DISSIPATIVNAJa">Q_{i}^{(R)}=-\frac{\partial F}{\partial q_{i}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_4_DISSIPATIVNAJa">\frac{d}{d t}\left(\frac{\partial L}{\partial \dot{q}_{i}}\right)-\frac{\partial L}{\partial q_{i}}=Q_{i}^{(R)}, \quad i=1,2, \ldots, s,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_5_DISSIPATIVNAJa">\Phi=\mu \sum_{i=1}^{3} \sum_{k=1}^{3} \varepsilon_{i k}^{2}+\frac{1}{2}\left(\lambda-\frac{2}{3} \mu\right) \theta^{2},</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_6_DISSIPATIVNAJa">\Phi=\mu\left[\varepsilon_{11}^{2}+\varepsilon_{22}^{2}+\varepsilon_{33}^{2}+2\left(\varepsilon_{12}^{2}+\varepsilon_{23}^{2}+\varepsilon_{31}^{2}\right)\right],</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_7_DISSIPATIVNAJa">\rho \frac{d v_{i}}{d t}=F_{i}+\frac{\partial \sigma_{i 1}}{\partial x_{1}}+\frac{\partial \sigma_{i 2}}{\partial x_{2}}+\frac{\partial \sigma_{i 3}}{\partial x_{3}}, \quad i=1,2,3,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_8_DISSIPATIVNAJa">\sigma_{i k}^{\prime}=\frac{\partial \Phi}{\partial \varepsilon_{i k}} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_9_DISSIPATIVNAJa">\sigma_{11}^{\prime}=2 \mu \varepsilon_{11}+\left(\lambda-\frac{2}{3} \mu\right) \theta \quad \text { и т. д.; } \quad \sigma_{12}^{\prime}=2 \mu \varepsilon_{12} \quad \text { и т. д. }</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/860_10_DISSIPATIVNAJa">Q_{i}^{R}=-\frac{\partial R}{\partial \dot{e}_{i}}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_1_DISSIPATIVNAJa">q_{1}, q_{2}, \ldots, q_{s}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_2_DISSIPATIVNAJa">\dot{q}_{i}=d q_{i} / d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_3_DISSIPATIVNAJa">\alpha_{i k}=\alpha_{k i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_4_DISSIPATIVNAJa">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_5_DISSIPATIVNAJa">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_6_DISSIPATIVNAJa">e</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_7_DISSIPATIVNAJa">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_8_DISSIPATIVNAJa">l\left(q_{i}, \dot{q}_{i}, t\right)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_9_DISSIPATIVNAJa">\varepsilon_{i k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_10_DISSIPATIVNAJa">i=k</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_11_DISSIPATIVNAJa">i \neq k), \theta=\varepsilon_{11}+\varepsilon_{22}+\varepsilon_{33}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_12_DISSIPATIVNAJa">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_13_DISSIPATIVNAJa">\lambda-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_14_DISSIPATIVNAJa">(\theta=0)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_15_DISSIPATIVNAJa">\phi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_16_DISSIPATIVNAJa">\varepsilon_{i k}=\varepsilon_{k i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_17_DISSIPATIVNAJa">\mu</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_18_DISSIPATIVNAJa">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_19_DISSIPATIVNAJa">x_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_20_DISSIPATIVNAJa">v_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_21_DISSIPATIVNAJa">f_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_22_DISSIPATIVNAJa">\sigma_{i k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_23_DISSIPATIVNAJa">\sigma_{i k}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_24_DISSIPATIVNAJa">\sigma_{i k}+\sigma_{i k}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_25_DISSIPATIVNAJa">\sigma_{i k}^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_26_DISSIPATIVNAJa">i_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_27_DISSIPATIVNAJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_28_DISSIPATIVNAJa">q_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_29_DISSIPATIVNAJa">e_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_30_DISSIPATIVNAJa">i</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_31_DISSIPATIVNAJa">\dot{q}_{i}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_32_DISSIPATIVNAJa">i_{i}=\frac{\partial e_{i}}{d t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_33_DISSIPATIVNAJa">r=\sum R_{i} \dot{e}_{i}^{2} / 2</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_34_DISSIPATIVNAJa">r_{i}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/860_35_DISSIPATIVNAJa">i</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/fme/relation/860_1_DISSIPATIVNAJa">
+      <rel_text>диссипативных систем</rel_text>
+      <target>http://libmeta.ru/fme/article/859_DISSIPATIVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/860_2_DISSIPATIVNAJa">
+      <rel_text>энергии</rel_text>
+      <target>http://libmeta.ru/fme/article/3530_ENERGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/860_3_DISSIPATIVNAJa">
+      <rel_text>уравнения Лагранжа</rel_text>
+      <target>http://libmeta.ru/fme/article/1503_LAGRANZhA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/860_4_DISSIPATIVNAJa">
+      <rel_text>конденсатора</rel_text>
+      <target>http://libmeta.ru/fme/article/1335_KONDENSATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/860_5_DISSIPATIVNAJa">
+      <rel_text>заряд</rel_text>
+      <target>http://libmeta.ru/fme/article/953_ZARJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/860_6_DISSIPATIVNAJa">
+      <rel_text>уравнения Лагранжа</rel_text>
+      <target>http://libmeta.ru/fme/article/1503_LAGRANZhA</target>
+    </relation>
+  </relations>
+  <text>Функция рассея н и я,- функция, вводимая для учета влияния сил вязкого трения на движение механической системы и характеризующая степень убывания механической энергии этой системы, а также вообще для учета перехода энергии упорядоченного движения в энергию неупорядоченного движения (в конечном счете - в тепловую); имеет размерность мощности. Д. ф. может быть построена для механич. систем, у к-рых скорости макроскопич. движений настолько малы, что силы сопротивления движению можно считать линейно зависящими от скоростей. Если положение такой системы определяется обобщенными координатами $URI[[http://libmeta.ru/fme/formula/aux/860_1_DISSIPATIVNAJa]]/URI$, то для нее Д. Ф. является квадратичной формой обобщенных скоростей $URI[[http://libmeta.ru/fme/formula/aux/860_2_DISSIPATIVNAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_1_DISSIPATIVNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/860_3_DISSIPATIVNAJa]]/URI$ размерные коэффициенты, зависящие в общем случае от координат $URI[[http://libmeta.ru/fme/formula/aux/860_4_DISSIPATIVNAJa]]/URI$. Величина $URI[[http://libmeta.ru/fme/formula/aux/860_5_DISSIPATIVNAJa]]/URI$ всегда положительна и численно равна половине полной механич. энергии $URI[[http://libmeta.ru/fme/formula/aux/860_6_DISSIPATIVNAJa]]/URI$ системы, рассеивающейся в единицу времени:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_2_DISSIPATIVNAJa]]/URI
+\]
+
+Зная Д. Ф., можно вычислить соответствующую каждой координате $URI[[http://libmeta.ru/fme/formula/aux/860_7_DISSIPATIVNAJa]]/URI$ силу сопротивления
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_3_DISSIPATIVNAJa]]/URI
+\]
+
+и составить дифференциальные уравнения движения системы в лагранжевой форме:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_4_DISSIPATIVNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/860_8_DISSIPATIVNAJa]]/URI$ функция Лагранжа для данной системы.
+
+Д.ф. может также вводиться для характеристики сил внутреннего трения при движении сплошной среды (жидкости, газа, деформируемого твердого тела). В этом случае Д. ф.- квадратичная форма компонент тензора скоростей деформаций с коэффициентами, характеризующими вязкость среды. Напр., для изотропной среды Д. ф., отнесенная к единице объема, имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_5_DISSIPATIVNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/860_9_DISSIPATIVNAJa]]/URI$ - компоненты тензора скоростей деформации (деформаций удлинения при $URI[[http://libmeta.ru/fme/formula/aux/860_10_DISSIPATIVNAJa]]/URI$ и деформаций сдвига при $URI[[http://libmeta.ru/fme/formula/aux/860_11_DISSIPATIVNAJa]]/URI$ скорость объемного расширения, $URI[[http://libmeta.ru/fme/formula/aux/860_12_DISSIPATIVNAJa]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/860_13_DISSIPATIVNAJa]]/URI$ коэффициенты вязкости, характеризующие соответственно вязкость при сдвиге и вязкость при объемном расширении. В частности, для несжимаемой вязкой жидкости $URI[[http://libmeta.ru/fme/formula/aux/860_14_DISSIPATIVNAJa]]/URI$ выражение $URI[[http://libmeta.ru/fme/formula/aux/860_15_DISSIPATIVNAJa]]/URI$, если учесть, что $URI[[http://libmeta.ru/fme/formula/aux/860_16_DISSIPATIVNAJa]]/URI$, имеет вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_6_DISSIPATIVNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/860_17_DISSIPATIVNAJa]]/URI$ - ньютонов коэффициент вязкости.
+
+Уравнения движения среды в компонентах напряжений имеют вид
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_7_DISSIPATIVNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/860_18_DISSIPATIVNAJa]]/URI$ - плотность, $URI[[http://libmeta.ru/fme/formula/aux/860_19_DISSIPATIVNAJa]]/URI$ координаты, $URI[[http://libmeta.ru/fme/formula/aux/860_20_DISSIPATIVNAJa]]/URI$ проекции скорости, $URI[[http://libmeta.ru/fme/formula/aux/860_21_DISSIPATIVNAJa]]/URI$ - проекции силы, действующей на единицу объема, $URI[[http://libmeta.ru/fme/formula/aux/860_22_DISSIPATIVNAJa]]/URI$ - компоненты тензора напряжений. Если для данной среды Д. Ф. известна, то учесть влияние внутреннего трения можно, заменив в уравнениях движения все $URI[[http://libmeta.ru/fme/formula/aux/860_23_DISSIPATIVNAJa]]/URI$ на $URI[[http://libmeta.ru/fme/formula/aux/860_24_DISSIPATIVNAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/860_25_DISSIPATIVNAJa]]/URI$ компоненты «диссипативного&quot; тензора напряжений, вычисляемые из равенств
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_8_DISSIPATIVNAJa]]/URI
+\]
+
+В частности, для изотропной среды
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_9_DISSIPATIVNAJa]]/URI
+\]
+
+Понятие Д. ф. употребляется в применении и к немеханич. системам, когда уравнения движения могут быть записаны в лагранжевой форме. Так, напр., колебания электрич. тока $URI[[http://libmeta.ru/fme/formula/aux/860_26_DISSIPATIVNAJa]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/860_27_DISSIPATIVNAJa]]/URI$-м контуре системы контуров могут быть записаны, как вышеприведенные URI[[http://libmeta.ru/fme/relation/860_6_DISSIPATIVNAJa]]/URI, в к-рых под $URI[[http://libmeta.ru/fme/formula/aux/860_28_DISSIPATIVNAJa]]/URI$ нужно понимать URI[[http://libmeta.ru/fme/relation/860_5_DISSIPATIVNAJa]]/URI $URI[[http://libmeta.ru/fme/formula/aux/860_29_DISSIPATIVNAJa]]/URI$ на обкладках $URI[[http://libmeta.ru/fme/formula/aux/860_30_DISSIPATIVNAJa]]/URI$-го URI[[http://libmeta.ru/fme/relation/860_4_DISSIPATIVNAJa]]/URI, под $URI[[http://libmeta.ru/fme/formula/aux/860_31_DISSIPATIVNAJa]]/URI$ соответствующий ток $URI[[http://libmeta.ru/fme/formula/aux/860_32_DISSIPATIVNAJa]]/URI$, под Д. Ф.- величину $URI[[http://libmeta.ru/fme/formula/aux/860_33_DISSIPATIVNAJa]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/860_34_DISSIPATIVNAJa]]/URI$ - омич. сопротивление $URI[[http://libmeta.ru/fme/formula/aux/860_35_DISSIPATIVNAJa]]/URI$-го контура. Тогда диссипативный член в правой части URI[[http://libmeta.ru/fme/relation/860_3_DISSIPATIVNAJa]]/URI будет равен
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/860_10_DISSIPATIVNAJa]]/URI
+\]
+
+Он характеризует в данном случае переход URI[[http://libmeta.ru/fme/relation/860_2_DISSIPATIVNAJa]]/URI упорядоченного тока в джоулево тепло.
+
+Понятие о Д.ф. используется при изучении движения URI[[http://libmeta.ru/fme/relation/860_1_DISSIPATIVNAJa]]/URI, в частности для учета влияния сопротивлений на малые колебания системы около ее положения равновесия, для исследования затухания колебаний в упругой среде, для учета тепловых потерь при затухании колебаний электрич. тока в системе контуров и др.</text>
+  <text_orig>Функция рассея н и я,- функция, вводимая для учета влияния сил вязкого трения на движение механической системы и характеризующая степень убывания механической энергии этой системы, а также вообще для учета перехода энергии упорядоченного движения в энергию неупорядоченного движения (в конечном счете - в тепловую); имеет размерность мощности. Д. ф. может быть построена для механич. систем, у к-рых скорости макроскопич. движений настолько малы, что силы сопротивления движению можно считать линейно зависяшими от скоростей. Если положение такой системы определяется обобщенными координатами $q_{1}, q_{2}, \ldots, q_{s}$, то для нее Д. Ф. является квадратичной формой обобщенных скоростей $\dot{q}_{i}=d q_{i} / d t$
+
+\[
+F=\frac{1}{2} \sum_{i=1}^{s} \sum_{k=1}^{s} \alpha_{i k} \dot{q}_{i} \dot{q}_{k}
+\]
+
+где $\alpha_{i k}=\alpha_{k i}-$ размерные коэффициенты, зависящие в общем случае от координат $q_{i}$. Величина $F$ всегда положительна и численно равна половине полной механич. энергии $E$ системы, рассеивающейся в единицу времени:
+
+\[
+F=\frac{1}{2}\left|\frac{d E}{d t}\right| .
+\]
+
+Зная Д. Ф., можно вычислить соответствующую каждой координате $q_{i}$ силу сопротивления
+
+\[
+Q_{i}^{(R)}=-\frac{\partial F}{\partial q_{i}}
+\]
+
+и составить дифференциальные уравнения движения системы в лагранжевой форме:
+
+\[
+\frac{d}{d t}\left(\frac{\partial L}{\partial \dot{q}_{i}}\right)-\frac{\partial L}{\partial q_{i}}=Q_{i}^{(R)}, \quad i=1,2, \ldots, s,
+\]
+
+где $L\left(q_{i}, \dot{q}_{i}, t\right)-$ функция Лагранжа для данной системы.
+
+Д.ф. может также вводиться для характеристики сил внутреннего трения при движении сплошной среды (жидкости, газа, деформируемого твердого тела). В этом случае Д. ф.- квадратичная форма компонент тензора скоростей деформаций с коэффициентами, характеризующими вязкость среды. Напр., для изотропной среды Д. ф., отнесенная к единице объема, имеет вид
+
+\[
+\Phi=\mu \sum_{i=1}^{3} \sum_{k=1}^{3} \varepsilon_{i k}^{2}+\frac{1}{2}\left(\lambda-\frac{2}{3} \mu\right) \theta^{2},
+\]
+
+где $\varepsilon_{i k}$ - компоненты тензора скоростей деформации (деформаций удлинения при $i=k$ и деформаций сдвига при $i \neq k), \theta=\varepsilon_{11}+\varepsilon_{22}+\varepsilon_{33}-$ скорость объемного расширения, $\mu$ и $\lambda-$ коэффициенты вязкости, характеризующие соответственно вязкость при сдвиге и вязкость при объемном расширении. В частности, для несжимаемой вязкой жидкости $(\theta=0)$ выражение $\Phi$, если учесть, что $\varepsilon_{i k}=\varepsilon_{k i}$, имеет вид
+
+\[
+\Phi=\mu\left[\varepsilon_{11}^{2}+\varepsilon_{22}^{2}+\varepsilon_{33}^{2}+2\left(\varepsilon_{12}^{2}+\varepsilon_{23}^{2}+\varepsilon_{31}^{2}\right)\right],
+\]
+
+где $\mu$ - ньютонов коэффициент вязкости.
+
+Уравнения движения среды в компонентах напряжений имеют вид
+
+\[
+\rho \frac{d v_{i}}{d t}=F_{i}+\frac{\partial \sigma_{i 1}}{\partial x_{1}}+\frac{\partial \sigma_{i 2}}{\partial x_{2}}+\frac{\partial \sigma_{i 3}}{\partial x_{3}}, \quad i=1,2,3,
+\]
+
+где $\rho$ - плотность, $x_{i}$ координаты, $v_{i}-$ проекции скорости, $F_{i}$ - проекции силы, действующей на единицу объема, $\sigma_{i k}$ - компоненты тензора напряжений. Если для данной среды Д. Ф. известна, то учесть влияние внутреннего трения можно, заменив в уравнениях движения все $\sigma_{i k}$ на $\sigma_{i k}+\sigma_{i k}^{\prime}$, где $\sigma_{i k}^{\prime}-$ компоненты «диссипативного&quot; тензора напряжений, вычисляемые из равенств
+
+\[
+\sigma_{i k}^{\prime}=\frac{\partial \Phi}{\partial \varepsilon_{i k}} .
+\]
+
+В частности, для изотропной среды
+
+\[
+\sigma_{11}^{\prime}=2 \mu \varepsilon_{11}+\left(\lambda-\frac{2}{3} \mu\right) \theta \quad \text { и т. д.; } \quad \sigma_{12}^{\prime}=2 \mu \varepsilon_{12} \quad \text { и т. д. }
+\]
+
+Понятие Д. ф. употребляется в применении и к немеханич. системам, когда уравнения движения могут быть записаны в лагранжевой форме. Так, напр., колебания электрич. тока $I_{i}$ в $i$-м контуре системы контуров могут быть записаны, как вышеприведенные уравнения Лагранжа, в к-рых под $q_{i}$ нужно понимать заряд $e_{i}$ на обкладках $i$-го конденсатора, под $\dot{q}_{i}-$ соответствующий ток $I_{i}=\frac{\partial e_{i}}{d t}$, под Д. Ф.- величину $R=\sum R_{i} \dot{e}_{i}^{2} / 2$, где $R_{i}$ - омич. сопротивление $i$-го контура. Тогда диссипативный член в правой части уравнения Лагранжа будет равен
+
+\[
+Q_{i}^{R}=-\frac{\partial R}{\partial \dot{e}_{i}}
+\]
+
+Он характеризует в данном случае переход энергии упорядоченного тока в джоулево тепло.
+
+Понятие о Д.ф. используется при изучении движения диссипативных систем, в частности для учета влияния сопротивлений на малые колебания системы около ее положения равновесия, для исследования затухания колебаний в упругой среде, для учета тепловых потерь при затухании колебаний электрич. тока в системе контуров и др.
+
+Лит.: [1] Стретт Дж. В. (лорд Рэлей), Теория звука, пер. с англ., т. 1, 2 изд., М., 1955, гл. 4; [2] Ландау Л. и Лифшиц Е., Статистическая физика, ч. 1, 3 изд., М., 1976; [3] и х же, Механика сплошных сред, 2 изд., М., 1954, ч. 1, § 16, ч. 2, § 29; [4] и х же, Электродинамика сплошных сред, М., 1959, § 48; [5] Н е в з ллядо в В. Г., Теоретическая механика, М., 1959, § 100, 158. С. М. Тара.</text_orig>
+</article>

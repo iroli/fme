@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_15843">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:15 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:15 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><mi>&#x00394;</mi><msub><mi>M</mi><mrow><mi>f</mi><mi>i</mi></mrow></msub><mo>&#x02261;</mo><msub><mi>M</mi><mrow><mi>f</mi><mi>i</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>s</mi><mo>&#x0002B;</mo><mi>i</mi><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><msub><mi>M</mi><mrow><mi>f</mi><mi>i</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>s</mi><mo>&#x02212;</mo><mi>i</mi><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><mspace linebreak="newline" /><mi>&</mi><mo>&#x0003D;</mo><msub><mo>&#x02211;</mo><mrow><mi>n</mi></mrow></msub><mo>&#x0222B;</mo><mi>d</mi><msub><mi>&#x00393;</mi><mrow><mi>n</mi></mrow></msub><msub><mi>M</mi><mrow><mi>f</mi><mi>n</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>s</mi><mo>&#x0002B;</mo><mi>i</mi><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo><msubsup><mi>M</mi><mrow><mi>i</mi><mi>n</mi></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><mo stretchy="false">&#x00028;</mo><mi>s</mi><mo>&#x02212;</mo><mi>i</mi><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; \Delta M_{f i} \equiv M_{f i}(s+i \varepsilon)-M_{f i}(s-i \varepsilon)= \\&amp; =\sum_{n} \int d \Gamma_{n} M_{f n}(s+i \varepsilon) M_{i n}^{*}(s-i \varepsilon),\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

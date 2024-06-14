@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_221_BOGOLJuBOVA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_221_BOGOLJuBOVA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1355</core:url>
+    <lbm:descriptor><![CDATA[БОГОЛЮБОВА ДУАЛЬНЫЕ УРАВНЕНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#2445"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5875"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10410"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10411"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10412"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10413"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10414"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2881"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10415"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>Цепочка эволюционных уравнений вида<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10410">$$\begin{gathered}\frac{\partial}{\partial t} f_{s}\left(t, x_{1}, \ldots, x_{s}\right)=\left[f_{s}\left(t, x_{1}, \ldots, x_{s}\right), H_{s}\right]- \\\dot{v} \\-\sum_{i \neq j=1}^{s} \frac{\partial}{\partial q_{i}} \Phi\left(q_{i}-q_{j}\right) \frac{\partial}{\partial p_{i}} f_{s-1}\left(t, x_{1}, \ldots, x_{s}\right), \quad s=1,2, \ldots,\end{gathered}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10412">$$x_{i} \equiv\left(q_{i}, p_{i}\right) \in \mathbb{R}^{v} \times \mathbb{R}^{v}, H_{s}$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA">гамильтониан системы</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>, взаимодействующих посредством потенциала <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10413">$$\phi(q),[\cdot, \cdot]$$</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2471_PUASSONA">скобка Пуассона</a>. Б. Д. У. являются сопряженными к <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_229_BOGOLJuBOVA">Боголюбова уравнениям</a>. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa">Решение задачи</a> Коши для Б. д.у. представляется формулой (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#5875">[1]</a>):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10411">$$\begin{aligned}& f_{s}\left(t, x_{1}, \ldots, x_{s}\right)=\sum_{n=0}^{s} \sum_{k=0}^{n} \frac{(-1)^{k}}{k !(n-k) !} \times \\& i_{1} i_{k} \quad i_{1} \quad i_{n} \\& \times \sum^{*} S^{s-k}\left(t, x_{1}, \ldots, x_{s}\right) f_{s-n}^{0}\left(x_{1}, \ldots \vee, x_{s}\right) \text {, }\end{aligned}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10414">$$s^{s-k}(t)$$</a> - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3465_EVOLJuTsIONNYJ">эволюционный оператор URI[[http://libmet</a>a.ru/fme/relation/221_1_BOGOLJuBOVA]]/URI, а суммирование <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_2881">$$\sum^{*}$$</a> проводится от 1 до $URI[[http://libmeta.ru/fme/formula/aux/221_5_BOGOLJuBOVA]]/URI$ по <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10415">$$i_{1}, \ldots, i_{n}=1, i_{1} \neq i_{n}$$</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#5875">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#5874">Петринад. Я.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2445">Герасименко В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4716">Малышев П. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5875">Математические основы классической статистической механики, Киев, 1985</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#2445">В. И. Герасименко</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[ЦеПОчКа эволюционных уравнений вида
+
+\[
+\begin{gathered}
+\frac{\partial}{\partial t} f_{s}\left(t, x_{1}, \ldots, x_{s}\right)=\left[f_{s}\left(t, x_{1}, \ldots, x_{s}\right), H_{s}\right]- \\
+\dot{v} \\
+-\sum_{i \neq j=1}^{s} \frac{\partial}{\partial q_{i}} \Phi\left(q_{i}-q_{j}\right) \frac{\partial}{\partial p_{i}} f_{s-1}\left(t, x_{1}, \ldots, x_{s}\right), \quad s=1,2, \ldots,
+\end{gathered}
+\]
+
+где $x_{i} \equiv\left(q_{i}, p_{i}\right) \in \mathbb{R}^{v} \times \mathbb{R}^{v}, H_{s}$ - гамильтониан системы частиц, взаимодействующих посредством потенциала $\Phi(q),[\cdot, \cdot]$ скобка Пуассона. Б. Д. У. являются сопряженными к Боголюбова уравнениям. Решение задачи Коши для Б. д.у. представляется формулой (см. [1]):
+
+\[
+\begin{aligned}
+& f_{s}\left(t, x_{1}, \ldots, x_{s}\right)=\sum_{n=0}^{s} \sum_{k=0}^{n} \frac{(-1)^{k}}{k !(n-k) !} \times \\
+& i_{1} i_{k} \quad i_{1} \quad i_{n} \\
+& \times \sum^{*} S^{s-k}\left(t, x_{1}, \ldots, x_{s}\right) f_{s-n}^{0}\left(x_{1}, \ldots \vee, x_{s}\right) \text {, }
+\end{aligned}
+\]
+
+где $S^{s-k}(t)$ - эволюционный оператор уравнения Лиувилля, а суммирование $\sum^{*}$ проводится от 1 до $s$ по $i_{1}, \ldots, i_{n}=1, i_{1} \neq i_{n}$.
+
+Лит.: [1] ПетринаД.Я., Герасименко В. И., Малыше в П. В., Математические основы классической статистической механики, Киев, 1985.
+
+В. И. Герасименко.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1627_LIUVILLJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3465_EVOLJuTsIONNYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2547_RASSEJaNIJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_229_BOGOLJuBOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2471_PUASSONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_517_GAMIL'TONOVA"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1138_KVAZIIMPUL'</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/153</core:url>
+    <lbm:descriptor><![CDATA[КВАЗИИМПУЛЬС]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#1544"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1545"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1546"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_609"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_749"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1547"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>векторная величина $URI[[http://libmeta.ru/fme/formula/aux/1138_1_KVAZIIMPUL']]/URI$, характеризующая <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI">состояние</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'">квазичастицы</a> (электрона, экситона, фонона и т. д.) в кристаллической решетке. К в а з и ч а с т и ца м и обычно называют элементарные возбуждения, по к-рым могут быть разложены произвольные малые возбуждения системы. К. для <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'">квазичастиц</a> играет ту же роль, что и обычный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'">импульс</a> для обычных <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT">частиц</a>. Представление о К. возникло в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_964_ZONTI">зонной</a> теории кристаллов. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2947_STATsIONARNOE">Стационарные состояния</a> электрона в периодич. поле описываются волновыми Блоха <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функциями</a>, обладающими следующими трансляционными свойствами<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1545">$$\psi(x+a, p)=\psi(x, p) \exp \left(\frac{i}{\hbar} p a\right),$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1138_2_KVAZIIMPUL']]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2622_REShETKA">решетки периодов</a>. К. определен по модулю обратной решетки, то есть решетки векторов $URI[[http://libmeta.ru/fme/formula/aux/1138_3_KVAZIIMPUL']]/URI$ таких, что <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1547">$$(\boldsymbol{a}, \boldsymbol{b})=2 \pi n, n-$$</a> целое. Приведенное соотношение является определяющим при введении понятия К. и решений Блоха для общих периодич. дифференциальных или разностных уравнений.<BR/></P><P>Особую роль понятие К. играет в теории <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1336_KONEChNOZONNOE">конечнозонного интегрирования</a>, где его дифференциал оказывается после аналитич. продолжения <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2220_PERIOD">абелевым дифференциалом</a> второго рода на компактной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2640_RIMANOVA">римановой поверхности</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#1544">И. М. Кричевер</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[векторная величина $\boldsymbol{p}$, характеризующая состояние квазичастицы (электрона, экситона, фонона и т. д.) в кристаллической решетке. К в а з и ч а с т и ца м и обычно называют элементарные возбуждения, по к-рым могут быть разложены произвольные малые возбуждения системы. К. для квазичастиц играет ту же роль, что и обычный импульс для обычных частиц. Представление о К. возникло в зонной теории кристаллов. Стационарные состояния электрона в периодич. поле описываются волновыми Блоха функциями, обладающими следующими трансляционными свойствами
+
+\[
+\psi(x+a, p)=\psi(x, p) \exp \left(\frac{i}{\hbar} p a\right),
+\]
+
+где $\boldsymbol{a}$ - вектор решетки периодов. К. определен по модулю обратной решетки, то есть решетки векторов $\boldsymbol{b}$ таких, что $(\boldsymbol{a}, \boldsymbol{b})=2 \pi n, n-$ целое. Приведенное соотношение является определяющим при введении понятия К. и решений Блоха для общих периодич. дифференциальных или разностных уравнений.
+
+Особую роль понятие К. играет в теории конечнозонного интегрирования, где его дифференциал оказывается после аналитич. продолжения абелевым дифференциалом второго рода на компактной римановой поверхности. И. М. Кричевер.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2640_RIMANOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2220_PERIOD"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1336_KONEChNOZONNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2622_REShETKA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2947_STATsIONARNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_964_ZONTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3412_ChASTOT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_996_IMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1138_KVAZIIMPUL'"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2867_SOSTOJaNI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

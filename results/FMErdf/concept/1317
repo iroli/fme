@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2186_PENLEVE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2186_PENLEVE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1317</core:url>
+    <lbm:descriptor><![CDATA[ПЕНЛЕВЕ УРАВНЕНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#825"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10054"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10060"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#10061"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10062"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10063"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_986"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_477"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1400"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10064"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_504"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10065"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10066"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>общее название группы из шести обыкновенных дифференциальных уравнений. Введены П. Пенлеве (p. Painlevé, 1900) и Б. Гамбье (b. Gambier, 1910) при классификации уравнений типа<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10062">$$w^{\prime \prime}=R\left(z, w, w^{\prime}\right),$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/2186_1_PENLEVE]]/URI$ - функция аналитическая по $URI[[http://libmeta.ru/fme/formula/aux/2186_2_PENLEVE]]/URI$ и рациональная по $URI[[http://libmeta.ru/fme/formula/aux/2186_3_PENLEVE]]/URI$ и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10064">$$w^{\prime}$$</a>.<BR/></P><P>Обычно П. у. записывают в следующем виде:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10063">$$\begin{aligned}\text { I. } w^{\prime \prime} & =6 w^{2}+z \\\text { II. } w^{\prime \prime} & =2 w^{3}+z w+a \\\text { III. } w^{\prime \prime} & =\left(w^{\prime}\right)^{2} w^{-1}+\left(a w^{2}+b\right) \exp z+ \\+ & \left(c w^{3}+d w^{-1}\right) \exp 2 z,|b|+|d| \neq 0, \\\text { IV. } w^{\prime \prime} & =\left(w^{\prime}\right)^{2} w^{-1} / 2+3 w^{3} / 2+4 z w^{2}+2\left(z^{2}-\alpha\right) w+\beta w^{-1}, \\\text { V. } w^{\prime \prime} & =\left(w^{\prime}\right)^{2}\left(\frac{1}{2 w}+\frac{1}{w-1}\right)-\frac{w^{\prime}}{z}+ \\+ & \frac{(w-1)^{2}}{z^{2}}\left(\alpha w+\frac{\beta}{w}\right)+\gamma \frac{w}{z}+\delta \frac{w(w+1)}{w-1}, \\\text { VI. } w^{\prime \prime} & =\frac{\left(w^{\prime}\right)^{2}}{2}\left(\frac{1}{w}+\frac{1}{w-1}+\frac{1}{w-z}\right)-w^{\prime}\left(\frac{1}{z}+\frac{1}{z-1}+\frac{1}{w-z}\right)+ \\+ & \frac{w(w-1)(w-z)}{z^{2}(z-1)^{2}}\left[\alpha+\beta \frac{z}{w^{2}}+\gamma \frac{z-1}{(w-1)^{2}}+\delta \frac{z(z-1)}{(w-z)^{2}}\right] .\end{aligned}$$</a><BR/></P><P>П. у. возникают при сведении к обыкновенным <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE">дифференциальным уравнениям</a> некоторых нелинейных уравнений математич. физики, в частности Кортевега - де Фриса уравнения (п.у. Ii), синус-Гордона уравнения (п.у. Iii), <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1907_NELINEJNOE">нелинейного уравнения Шредингера</a> (п.у. Iv).<BR/></P><P>Решения П.у. (<a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3114_TRANSTsENDENTNAJa">трансцендентные функции</a> Пенле в е - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2892_SPETsIAL'NYE">специальные функции</a>, не сводящиеся к известным) <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладают</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2184_PENLEVE">Пенлеве свойством</a>: не имеют других подвижных (то есть зависящих от постоянных интегрирования или начальных данных) особенностей, кроме полюсов. Так, решения П.у. I-Iv не имеют вообще никаких особенностей, кроме полюсов; решения П. у. V имеют неподвижные логарифмич. точки ветвления при $URI[[http://libmeta.ru/fme/formula/aux/2186_5_PENLEVE]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/2186_6_PENLEVE]]/URI$, а решения П.у. Vi - при <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_10066">$$z=0, z=1$$</a> и $URI[[http://libmeta.ru/fme/formula/aux/2186_8_PENLEVE]]/URI$. Установление <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2184_PENLEVE">свойства Пенлеве</a> позволяет находить интегрируемые <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI">варианты</a> различных моделей нелинейных явлений и многих нелинейных уравнений, решаемых при помощи <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2036_OBRATNOJ">обратной задачи рассеяния</a> метода.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#10054">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#10053">Айнс Э. Л.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10054">Обыкновенные дифференциальные уравнения, пер. с англ., Харьков, 1939</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#10060">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4873">Голубев В. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10060">Лекции по аналитической теории дифференциальных уравнений, 2 изд., М.- Л., 1950</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#10061">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#716">Арнольд В. И.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#2963">Ильяшенко Ю. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#10061">в кн.: Итоги науки и техники. Современные проблемы математики, М., 1985, т. 1</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#825">Ю. А. Данилов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[общее название группы из шести обыкновенных дифференциальных уравнений. Введены П. Пенлеве (P. Painlevé, 1900) и Б. Гамбье (B. Gambier, 1910) при классификации уравнений типа
+
+\[
+w^{\prime \prime}=R\left(z, w, w^{\prime}\right),
+\]
+
+где $R$ - функция аналитическая по $z$ и рациональная по $w$ и $w^{\prime}$.
+
+Обычно П. у. записывают в следующем виде:
+
+\[
+\begin{aligned}
+\text { I. } w^{\prime \prime} & =6 w^{2}+z \\
+\text { II. } w^{\prime \prime} & =2 w^{3}+z w+a \\
+\text { III. } w^{\prime \prime} & =\left(w^{\prime}\right)^{2} w^{-1}+\left(a w^{2}+b\right) \exp z+ \\
++ & \left(c w^{3}+d w^{-1}\right) \exp 2 z,|b|+|d| \neq 0, \\
+\text { IV. } w^{\prime \prime} & =\left(w^{\prime}\right)^{2} w^{-1} / 2+3 w^{3} / 2+4 z w^{2}+2\left(z^{2}-\alpha\right) w+\beta w^{-1}, \\
+\text { V. } w^{\prime \prime} & =\left(w^{\prime}\right)^{2}\left(\frac{1}{2 w}+\frac{1}{w-1}\right)-\frac{w^{\prime}}{z}+ \\
++ & \frac{(w-1)^{2}}{z^{2}}\left(\alpha w+\frac{\beta}{w}\right)+\gamma \frac{w}{z}+\delta \frac{w(w+1)}{w-1}, \\
+\text { VI. } w^{\prime \prime} & =\frac{\left(w^{\prime}\right)^{2}}{2}\left(\frac{1}{w}+\frac{1}{w-1}+\frac{1}{w-z}\right)-w^{\prime}\left(\frac{1}{z}+\frac{1}{z-1}+\frac{1}{w-z}\right)+ \\
++ & \frac{w(w-1)(w-z)}{z^{2}(z-1)^{2}}\left[\alpha+\beta \frac{z}{w^{2}}+\gamma \frac{z-1}{(w-1)^{2}}+\delta \frac{z(z-1)}{(w-z)^{2}}\right] .
+\end{aligned}
+\]
+
+П. у. возникают при сведении к обыкновенным дифференциальным уравнениям некоторых нелинейных уравнений математич. физики, в частности Кортевега - де Фриса уравнения (П.у. II), синус-Гордона уравнения (П.у. III), нелинейного уравнения ШIредингера (П.у. IV).
+
+Решения П.у. (трансцендентные функции Пенле в е - специальные функции, не сводящиеся к известным) обладают Пенлеве свойством: не имеют других подвижных (то есть зависящих от постоянных интегрирования или начальных данных) особенностей, кроме полюсов. Так, решения П.у. I-IV не имеют вообще никаких особенностей, кроме полюсов; решения П. у. V имеют неподвижные логарифмич. точки ветвления при $z=0$ и $z=\infty$, а решения П.у. VI - при $z=0, z=1$ и $z=\infty$. Установление свойства Пенлеве позволяет находить интегрируемые варианты различных моделей нелинейных явлений и многих нелинейных уравнений, решаемых при помощи обратной задачи рассеяния метода.
+
+Лит.: [1] А й н с Э. Л., Обыкновенные дифференциальные уравнения, пер. с англ., Харьков, 1939; [2] Гол убе в В. В., Лекшии по аналитической теории дифференциальных уравнений, 2 изд., М.- Л., 1950; [3] Арнольд В.И., Ильяшенко Ю. С., в кн.: Итоги науки и техники. Современные проблемы математики, т. 1, М., 1985. Ю. А. Данилов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2036_OBRATNOJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_321_VARIATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2184_PENLEVE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2184_PENLEVE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2892_SPETsIAL'NYE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3114_TRANSTsENDENTNAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1907_NELINEJNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_872_DIFFERENTsIAL'NOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_441">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>li</mo><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msub><mo>lim</mo><mrow><mi>&#x003B5;</mi><mo>&#x02192;</mo><mo>&#x0002B;</mo><mn>0</mn></mrow></msub><mrow><mo stretchy="true" fence="true" form="prefix">&#x0007B;</mo><msubsup><mo>&#x0222B;</mo><mrow><mn>0</mn></mrow><mrow><mn>1</mn><mo>&#x02212;</mo><mi>&#x003B5;</mi></mrow></msubsup><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>ln</mi><mi>t</mi></mrow></mfrac><mo>&#x0002B;</mo><msubsup><mo>&#x0222B;</mo><mrow><mn>1</mn><mo>&#x0002B;</mo><mi>&#x003B5;</mi></mrow><mrow><mi>x</mi></mrow></msubsup><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>ln</mi><mi>t</mi></mrow></mfrac><mo stretchy="true" fence="true" form="postfix">&#x0007D;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\operatorname{li}(x)=\lim _{\varepsilon \rightarrow+0}\left\{\int_{0}^{1-\varepsilon} \frac{d t}{\ln t}+\int_{1+\varepsilon}^{x} \frac{d t}{\ln t}\right\}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

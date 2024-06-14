@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/862_DISSIPATIVNOE" alphabetic_pos="864">
+  <title>ДИССИПАТИВНОЕ ОТОБРАЖЕНИЕ</title>
+  <authors>
+    <author>А. С. Холево</author>
+  </authors>
+  <pages>
+    <start>188</start>
+    <end>188</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: см. [2], [6] при ст. Динамическая полугруппа.</literature_orig>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/862_1_DISSIPATIVNOE">\mathscr{L}\left(X_{i}^{*} X_{j}\right)-X_{i}^{*} \mathscr{L}\left(X_{j}\right)-\mathscr{L}\left(X_{i}^{*}\right) X_{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/862_2_DISSIPATIVNOE">\Phi_{t}\left(X^{*} X\right) \geqslant \Phi_{t}\left(X^{*}\right) \Phi_{t}(X),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_1_DISSIPATIVNOE">\varphi_{\text {в }} C^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_2_DISSIPATIVNOE">₫</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_3_DISSIPATIVNOE">d(\mathscr{l})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_4_DISSIPATIVNOE">{ }^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_5_DISSIPATIVNOE">d</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_6_DISSIPATIVNOE">\mathscr{l}\left(x^{*}\right)=\mathscr{l}(x)^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_7_DISSIPATIVNOE">x \in D(\mathscr{L})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_8_DISSIPATIVNOE">\mathscr{l}\left(x^{*} X\right)-X^{*} \mathscr{L}(X)-\mathscr{L}\left(X^{*}\right) X \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_9_DISSIPATIVNOE">x \in D(\mathscr{L})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_10_DISSIPATIVNOE">\left.3^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_11_DISSIPATIVNOE">n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_12_DISSIPATIVNOE">x_{1}, \ldots, X_{n} \in D(\varphi)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_13_DISSIPATIVNOE">(n \times n)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_14_DISSIPATIVNOE">\mathscr{l}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_15_DISSIPATIVNOE">\mathscr{\varphi}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_16_DISSIPATIVNOE">\phi_{t}=\exp t \mathscr{Q}, t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_17_DISSIPATIVNOE">3^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_18_DISSIPATIVNOE">\phi_{t}, t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_19_DISSIPATIVNOE">c^{*}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/862_20_DISSIPATIVNOE">\mathscr{a}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/862_1_DISSIPATIVNOE">
+      <rel_text>вполне положительными</rel_text>
+      <target>http://libmeta.ru/fme/article/455_VPOLNE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/862_2_DISSIPATIVNOE">
+      <rel_text>эквивалентно</rel_text>
+      <target>http://libmeta.ru/fme/article/3492_EKVIDISTANT</target>
+    </relation>
+  </relations>
+  <text>линейное отображение $URI[[http://libmeta.ru/fme/formula/aux/862_1_DISSIPATIVNOE]]/URI$-алгебре $URI[[http://libmeta.ru/fme/formula/aux/862_2_DISSIPATIVNOE]]/URI$, обладающее свойствами:
+
+1) область определения $URI[[http://libmeta.ru/fme/formula/aux/862_3_DISSIPATIVNOE]]/URI$ является плотной $URI[[http://libmeta.ru/fme/formula/aux/862_4_DISSIPATIVNOE]]/URI$-подалгеброй $URI[[http://libmeta.ru/fme/formula/aux/862_5_DISSIPATIVNOE]]/URI$;
+
+2) $URI[[http://libmeta.ru/fme/formula/aux/862_6_DISSIPATIVNOE]]/URI$ при $URI[[http://libmeta.ru/fme/formula/aux/862_7_DISSIPATIVNOE]]/URI$
+
+3) $URI[[http://libmeta.ru/fme/formula/aux/862_8_DISSIPATIVNOE]]/URI$ для $URI[[http://libmeta.ru/fme/formula/aux/862_9_DISSIPATIVNOE]]/URI$.
+
+Если вместо условия 3) выполняется:
+
+$URI[[http://libmeta.ru/fme/formula/aux/862_10_DISSIPATIVNOE]]/URI$ для любого $URI[[http://libmeta.ru/fme/formula/aux/862_11_DISSIPATIVNOE]]/URI$ и любых $URI[[http://libmeta.ru/fme/formula/aux/862_12_DISSIPATIVNOE]]/URI$ $URI[[http://libmeta.ru/fme/formula/aux/862_13_DISSIPATIVNOE]]/URI$-матрица с элементами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/862_1_DISSIPATIVNOE]]/URI
+\]
+
+является положительной, то отображение $URI[[http://libmeta.ru/fme/formula/aux/862_14_DISSIPATIVNOE]]/URI$ называется вполне диссипативным.
+
+Если $URI[[http://libmeta.ru/fme/formula/aux/862_15_DISSIPATIVNOE]]/URI$ ограничено, то условие 3) эквивалентно тому, что полугруппа отображений $URI[[http://libmeta.ru/fme/formula/aux/862_16_DISSIPATIVNOE]]/URI$, удовлетворяет Кадисона - Шварца неравенству
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/862_2_DISSIPATIVNOE]]/URI
+\]
+
+а условие $URI[[http://libmeta.ru/fme/formula/aux/862_17_DISSIPATIVNOE]]/URI$ ) URI[[http://libmeta.ru/fme/relation/862_2_DISSIPATIVNOE]]/URI тому, что все $URI[[http://libmeta.ru/fme/formula/aux/862_18_DISSIPATIVNOE]]/URI$, являются URI[[http://libmeta.ru/fme/relation/862_1_DISSIPATIVNOE]]/URI сжатиями в $URI[[http://libmeta.ru/fme/formula/aux/862_19_DISSIPATIVNOE]]/URI$-алгебре $URI[[http://libmeta.ru/fme/formula/aux/862_20_DISSIPATIVNOE]]/URI$</text>
+  <text_orig>линеЙНое отображение $\varphi_{\text {в }} C^{*}$-алгебре $₫$, обладающее свойствами:
+
+1) область определения $D(\mathscr{L})$ является плотной ${ }^{*}$-подалгеброй $d$;
+
+2) $\mathscr{L}\left(X^{*}\right)=\mathscr{L}(X)^{*}$ при $X \in D(\mathscr{L})$
+
+3) $\mathscr{L}\left(X^{*} X\right)-X^{*} \mathscr{L}(X)-\mathscr{L}\left(X^{*}\right) X \geqslant 0$ для $X \in D(\mathscr{L})$.
+
+Если вместо условия 3) выполняется:
+
+$\left.3^{\prime}\right)$ для любого $n=1,2, \ldots$ и любых $X_{1}, \ldots, X_{n} \in D(\varphi)$ $(n \times n)$-матрица с элементами
+
+\[
+\mathscr{L}\left(X_{i}^{*} X_{j}\right)-X_{i}^{*} \mathscr{L}\left(X_{j}\right)-\mathscr{L}\left(X_{i}^{*}\right) X_{j}
+\]
+
+является положительной, то отображение $\mathscr{L}$ называется вполне диссипативным.
+
+Если $\mathscr{\varphi}$ ограничено, то условие 3) эквивалентно тому, что полугруппа отображений $\Phi_{t}=\exp t \mathscr{Q}, t \geqslant 0$, удовлетворяет Кадисона - Швариа неравенству
+
+\[
+\Phi_{t}\left(X^{*} X\right) \geqslant \Phi_{t}\left(X^{*}\right) \Phi_{t}(X),
+\]
+
+а условие $3^{\prime}$ ) эквивалентно тому, что все $\Phi_{t}, t \geqslant 0$, являются вполне положительными сжатиями в $C^{*}$-алгебре $\mathscr{A}$
+
+Лит.: см. [2], [6] при ст. Динамическая полугруппа. А. С. Холево.</text_orig>
+</article>

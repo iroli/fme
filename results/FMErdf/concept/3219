@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_66_AMPLITUDA">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_66_AMPLITUDA</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/3219</core:url>
+    <lbm:descriptor><![CDATA[АМПЛИТУДА РАССЕЯНИЯ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#73"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#23971"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23972"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_301"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9248"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3209"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23973"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_174"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5734"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_23974"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>величина, определяющая вероятность процессов рассеяния при столкновении элементарных частиц (или частиц, которые в задачах рассеяния могут рассматриваться как элементарные, например ядер). А. рассеяния определяется матричным элементом $URI[[http://libmeta.ru/fme/formula/aux/66_1_AMPLITUDA]]/URI$-матрицы, связанной с $URI[[http://libmeta.ru/fme/formula/aux/66_2_AMPLITUDA]]/URI$-матрицей соотношением: <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9248">$$s=i+i T$$</a>. Если начальное состояние задано вектором <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_3209">$$|\alpha\rangle$$</a>, а конечное - вектором <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23973">$$|\beta\rangle$$</a>, то амплитуда рассеяния <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_174">$$f_{\alpha \beta}$$</a> выражается формулой:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23972">$$\begin{gathered}F_{\alpha \beta}=(2 \pi)^{4} \delta\left(\sum p_{i}-\sum p_{j}^{\prime}\right) T_{\alpha \beta} ; \\T_{\alpha \beta}=\langle\beta|T| \alpha\rangle,\end{gathered}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5734">$$p_{i}-$$</a> импульсы частиц в начальном состоянии, <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_23974">$$p_{j}^{\prime}-$$</a> в конечном.<BR/></P><P>С помощью редукционных формул А. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a> выражается через интеграл от $URI[[http://libmeta.ru/fme/formula/aux/66_9_AMPLITUDA]]/URI$-произведения токов. Основным мето- дом вычисления А. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a> является <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ">возмущений теория</a>, однако и в рамках аксиоматич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa">квантовой теории поля</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN">получен</a> ряд ограничений на А. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">рассеяния</a> различных процессов.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#73">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#71">Боголюбов Н. Н.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#72">Ширков Д. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#73">Введение в теорию квантованных полей, 4 изд., М., 1984</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#23971">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#23970">Бьёркен Дж. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#8260">Дрелл С. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#23971">Релятивистская квантовая теория поля, пер. с англ., М., 1978, т. 2</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[величина, определяющая вероятность процессов рассеяния при столкновении элементарных частиц (или частиц, которые в задачах рассеяния могут рассматриваться как элементарные, например ядер). А. рассеяния определяется матричным элементом $T$-матрицы, связанной с $S$-матрицей соотношением: $S=I+i T$. Если начальное состояние задано вектором $|\alpha\rangle$, а конечное - вектором $|\beta\rangle$, то амплитуда рассеяния $F_{\alpha \beta}$ выражается формулой:
+
+\[
+\begin{gathered}
+F_{\alpha \beta}=(2 \pi)^{4} \delta\left(\sum p_{i}-\sum p_{j}^{\prime}\right) T_{\alpha \beta} ; \\
+T_{\alpha \beta}=\langle\beta|T| \alpha\rangle,
+\end{gathered}
+\]
+
+где $p_{i}-$ импульсы частиц в начальном состоянии, $p_{j}^{\prime}-$ в конечном.
+
+С помощью редукционных формул А. рассеяния выражается через интеграл от $T$-произведения токов. Основным мето- дом вычисления А. рассеяния является возмущений теория, однако и в рамках аксиоматич. квантовой теории поля получен ряд ограничений на А. рассеяния различных процессов.
+
+Лum.: [1] Бо гол юб о в Н. Н., Ш и рко в Д. В., Введение в теорию квантованных полей, 4 изд., М., 1984; [2] Б ьё рке н Дж. Д., Д релл С. Д., Релятивистская квантовая теория поля, т. 2, пер. с англ., М., 1978.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2312_POLUTEN"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1178_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_442_VOZMUSchENIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

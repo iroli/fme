@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_3085_TOMASA-FERMI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_3085_TOMASA-FERMI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2316</core:url>
+    <lbm:descriptor><![CDATA[ТОМАСА-ФЕРМИ МЕТОД]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17594"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_17595"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1340"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_75"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_835"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_320"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_3441"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>см. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2675_SAMOSOGLASOVANNOE">Самосогласованное поле</a>.<BR/></P><P>тонкой Структуры постоянная <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_1340">$$(\alpha)$$</a> - безразмерная величина, образованная из универсальных физич. постоянных:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17594">$$\alpha=e^{2} / \hbar c \approx 1 / 137,$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/3085_2_TOMASA-FERMI]]/URI$ заряд электрона. Согласно наиболее точным измерениям,<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_17595">$$\alpha^{-1}=137,0359895(61) \text {. }$$</a><BR/></P><P>Т. с. п. определяет тонкое расщепление <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3191_UROVEN'">уровней энергии</a> атома (а следовательно, и спектральных линий), величина к-рого пропорциональна <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_835">$$\alpha^{2}$$</a>; с этим связано название кон² станты $URI[[http://libmeta.ru/fme/formula/aux/3085_4_TOMASA-FERMI]]/URI$. В <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa">квантовой электродинамике</a> $URI[[http://libmeta.ru/fme/formula/aux/3085_5_TOMASA-FERMI]]/URI$ естественный параметр, характеризующий «силу» <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3506_ELEKTROMAGNITNOE">электромагнитного взаимодействия</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[см. Самосогласованное поле.
+
+тОНкой СтруктуРы постояннАя $(\alpha)$ - безразмерная величина, образованная из универсальных физич. постоянных:
+
+\[
+\alpha=e^{2} / \hbar c \approx 1 / 137,
+\]
+
+где $e-$ заряд электрона. Согласно наиболее точным измерениям,
+
+\[
+\alpha^{-1}=137,0359895(61) \text {. }
+\]
+
+Т. с. п. определяет тонкое расщепление уровней энергии атома (а следовательно, и спектральных линий), величина к-рого пропорциональна $\alpha^{2}$; с этим связано название кон² станты $\alpha$. В квантовой электродинамике $\alpha-$ естественный параметр, характеризующий «силу» электромагнитного взаимодействия.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2675_SAMOSOGLASOVANNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3506_ELEKTROMAGNITNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1183_KVANTOVAJa"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3191_UROVEN'"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

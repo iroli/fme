@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1143_KVAZIKONFORMNOE" alphabetic_pos="1145">
+  <title>КВАЗИКОНФОРМНОЕ ОТОБРАЖЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>241</start>
+    <end>241</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: Математическая энциклопедия, т. 2, М., 1979, кол. 810-13.</literature_orig>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1143_1_KVAZIKONFORMNOE">Q(f)=\sup _{x \in G} Q(f, x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1143_2_KVAZIKONFORMNOE">Q(f, a)=\lim _{r \rightarrow 0} \frac{\sup _{|x-a|&lt;r}|f(x)-f(a)|}{\inf _{|x-a|&lt;r}|f(x)-f(a)|}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1143_1_KVAZIKONFORMNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1143_2_KVAZIKONFORMNOE">g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1143_3_KVAZIKONFORMNOE">g^{\prime}\left(g, G^{\prime} \subset \mathbb{R}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1143_4_KVAZIKONFORMNOE">a</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1143_5_KVAZIKONFORMNOE">f</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1143_6_KVAZIKONFORMNOE">a \in G</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1143_7_KVAZIKONFORMNOE">f^{\prime}(a)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1143_8_KVAZIKONFORMNOE">q(f, a)&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1143_9_KVAZIKONFORMNOE">q(f) \equiv 1</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/fme/relation/1143_1_KVAZIKONFORMNOE">
+      <rel_text>Конформное отображение</rel_text>
+      <target>http://libmeta.ru/fme/article/1378_KONFORMNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1143_2_KVAZIKONFORMNOE">
+      <rel_text>полуоси</rel_text>
+      <target>http://libmeta.ru/fme/article/2312_POLUTEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1143_3_KVAZIKONFORMNOE">
+      <rel_text>область</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1143_4_KVAZIKONFORMNOE">
+      <rel_text>области</rel_text>
+      <target>http://libmeta.ru/fme/article/2006_OBLAST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1143_5_KVAZIKONFORMNOE">
+      <rel_text>евклидова пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/920_EVKLIDOVO</target>
+    </relation>
+  </relations>
+  <text>отображение URI[[http://libmeta.ru/fme/relation/1143_5_KVAZIKONFORMNOE]]/URI в себя, при котором бесконечно малые шары переходят в невырождающиеся эллипсоиды. Точнее, сохраняющее ориентацию отображение $URI[[http://libmeta.ru/fme/formula/aux/1143_1_KVAZIKONFORMNOE]]/URI$ URI[[http://libmeta.ru/fme/relation/1143_4_KVAZIKONFORMNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1143_2_KVAZIKONFORMNOE]]/URI$ в URI[[http://libmeta.ru/fme/relation/1143_3_KVAZIKONFORMNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1143_3_KVAZIKONFORMNOE]]/URI$ кваз и кон фо о м но, если конечна величина коэффициента искажения в точке $URI[[http://libmeta.ru/fme/formula/aux/1143_4_KVAZIKONFORMNOE]]/URI$ :
+
+где
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1143_1_KVAZIKONFORMNOE]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1143_2_KVAZIKONFORMNOE]]/URI
+\]
+
+(вследствие чего К. о. называют также о т о б р а же н и я м и с ограниченным искажением). Если $URI[[http://libmeta.ru/fme/formula/aux/1143_5_KVAZIKONFORMNOE]]/URI$ дифференцируемо в точке $URI[[http://libmeta.ru/fme/formula/aux/1143_6_KVAZIKONFORMNOE]]/URI$, то линейное отображение $URI[[http://libmeta.ru/fme/formula/aux/1143_7_KVAZIKONFORMNOE]]/URI$ преобразует шар в эллипсоид, отношение наибольшей URI[[http://libmeta.ru/fme/relation/1143_2_KVAZIKONFORMNOE]]/URI к-рого к наименьшей равно $URI[[http://libmeta.ru/fme/formula/aux/1143_8_KVAZIKONFORMNOE]]/URI$. URI[[http://libmeta.ru/fme/relation/1143_1_KVAZIKONFORMNOE]]/URI характеризуется условием $URI[[http://libmeta.ru/fme/formula/aux/1143_9_KVAZIKONFORMNOE]]/URI$, так что К. о. является естественным его обобщением.</text>
+  <text_orig>отображение евклидова пространства в себя, при котором бесконечно малые шары переходят в невырождающиеся эллипсоиды. Точнее, сохраняющее ориентацию отображение $f$ области $G$ в область $G^{\prime}\left(G, G^{\prime} \subset \mathbb{R}^{n}\right)$ кваз и кон фо о м но, если конечна величина коэффициента искажения в точке $a$ :
+
+где
+
+\[
+Q(f)=\sup _{x \in G} Q(f, x)
+\]
+
+\[
+Q(f, a)=\lim _{r \rightarrow 0} \frac{\sup _{|x-a|&lt;r}|f(x)-f(a)|}{\inf _{|x-a|&lt;r}|f(x)-f(a)|}
+\]
+
+(вследствие чего К. о. называют также о т о б р а же н и я м и с ограниченным искажением). Если $f$ дифференцируемо в точке $a \in G$, то линейное отображение $f^{\prime}(a)$ преобразует шар в эллипсоид, отношение наибольшей полуоси к-рого к наименьшей равно $Q(f, a)&lt;\infty$. Конформное отображение характеризуется условием $Q(f) \equiv 1$, так что К. о. является естественным его обобщением.
+
+Лит.: Математическая энциклопедия, т. 2, М., 1979, кол. 810-13.</text_orig>
+</article>

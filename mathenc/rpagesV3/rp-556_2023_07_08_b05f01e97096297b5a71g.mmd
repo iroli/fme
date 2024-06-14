@@ -1,0 +1,144 @@
+лом остром и замкнутом гонусе $\Gamma$ с вершиной в 0 . Обозначение:
+
+\[
+D_{+}^{\prime}=D^{\prime}([0, \infty)), n=1 \text {. }
+\]
+
+О. ф. ஜ из $D^{\prime}$ наз. ф у нд а м е н т а л ь ны м решен и ем (функцй й точечного ист о н и к а) дифференциального оператора $L(D)$ с постоянными коэфффициентами, если она удовлетворяет уравнению
+
+\[
+L(D) \nprec(x)=\delta(x) .
+\]
+
+Зная фундаментальное решение \& оператора $L(D)$, можно построить решение уравненпя $L(D) u=f$ для тех $f$ из $D^{\prime}$, для к-рых свертка $f * \delta$ дается формулой $u=f * 尺$.
+
+П р и м е р ы. 20) Ядро оператора дробного дифференцирования и дробного интегрпрования $f_{\alpha}(x),-\infty<$ $<\alpha<\infty:$
+
+\[
+f_{\alpha}(x)=\left\{\begin{array}{l}
+\frac{\theta(x) x^{\alpha-1}}{\Gamma(\alpha)}, \alpha>0, \\
+f_{\alpha+N(x),}^{(N)}, \alpha+N>0, N \text {-целое. }
+\end{array}\right.
+\]
+
+При этом $f_{\alpha} * f_{\beta}=f_{\alpha+\beta}, f_{0}=\delta, f_{1}=\theta, f_{-k}=\delta^{(k)}, k-$ целое. Если $f \in D_{+}^{\prime}$, то $f * f_{\alpha}=f^{(-\alpha)}$ есть первообразная порядка $\alpha$ при $\alpha>0$ (пропзводная порядка - $\alpha$ при $\alpha<0$ ).
+
+21) $\Delta \mathscr{O}=\delta(x)$,
+
+$\mathscr{O}(x)=\frac{1}{2 \pi} \ln |x|, n=2, \mathscr{O}(x)=-\frac{1}{4 \pi|x|}, n=3$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b05f01e97096297b5a71g-1.jpg?height=72&width=762&top_left_y=1056&top_left_x=150)
+
+23) $\mathscr{O}_{t t}-\mathscr{O}_{x x}=\delta(x, t)$,
+
+\[
+\mathscr{O}(x, t)=\frac{1}{2} \theta(t-|x|) \text {. }
+\]
+
+е) П р е о б р а о в ани е Фурь е. Оно определяется для класса О. ф. $S^{\prime}=S^{\prime}(\mathbb{R} n)$ медленного роста. Пространство основных функций $S=S\left(\mathbb{R}^{n}\right)$ состоит из $C^{\infty}\left(\mathbb{R}^{n}\right)$-функций, убывающих на бесконечности вместе со всеми производными быстрее любой степени $|x|^{-1}$. Топология в $S$ задается счетным числом норм $\|\varphi\|_{p}=\sup _{|\alpha| \leqslant p}\left(1+|x|^{2}\right)^{p / 2}\left|D^{\alpha} \varphi(x)\right|, \varphi \in S, p=0,1, \ldots$
+
+При этом $D \subset S$ и $S^{\prime} \subset D^{\prime}$, где указанные вложения непрерывны. Локально суммируемые в $\mathbb{R} n$ функции медленного роста содержатся в $S^{\prime}$, определяя по формуле (2) регулярные функционалы на $S$.
+
+Всякая О. ф. из $S^{\prime}$ есть нек-рая пропзводная от непрерывной функции медленного роста и, стало быть, имеет конечный порядок в $\mathbb{R}^{n}$.
+
+$\Pi$ р еоб разов ание Фу рье $F[f]$ О. ф. $f$ из $S^{\prime}$ определяется равенством
+
+\[
+(F[f], \varphi)=(f, F[\varphi]), \varphi \in S,
+\]
+
+где
+
+\[
+F[\varphi](\xi)=\int \varphi(x) e^{i(\xi, x)} d x,
+\]
+
+$\varphi \in S$ - классич. преобразование Фурье. Так как операция $\varphi \rightarrow F[\varphi]-$ изоморфизм $S$ на $S$, то и операция $f \rightarrow F[f]$ - изоморфизм $S^{\prime}$ на $S^{\prime}$, причем обратной операцией к $F$ служит операция
+
+\[
+F^{-1}[f]=\frac{1}{(2 \pi)^{n}} F[f(-\xi)], f \in S^{\prime} .
+\]
+
+Имеют место основные формулы для $f \in S^{\prime}$ :
+
+\[
+\begin{gathered}
+D^{\alpha} F[f]=F\left[(i x)^{\alpha} f\right], x^{\alpha}=x_{1}^{\alpha_{1}} \ldots x_{n}^{\alpha_{n}} ; \\
+F\left[D^{\alpha} f\right]=(i \xi)^{\alpha} F[f], \\
+F[f * g]=F[f] F[g],
+\end{gathered}
+\]
+
+еслі $g$ финитна. Если О. ф. $f$ - периодическая с $n$ периодом $T=\left(T_{1}, \ldots ., T_{n}\right), T_{j}>0$, то $f \in S^{\prime}$ и ее можно разложить в тригонометрич. ряд
+
+$f(x)=\sum_{|k|=0}^{\infty} c_{k}(f) e^{i(k \omega, x)}, \quad\left|c_{k}(f)\right| \leqslant A(1+|k|)^{m}$, сходящийся к $f$ в $S^{\prime}$; здесь
+
+\[
+\omega=\left(\frac{2 \pi}{T_{1}}, \ldots, \frac{2 \pi}{T_{n}}\right), k \omega=\left(\frac{2 \pi k_{1}}{T_{1}}, \ldots, \frac{2 \pi k_{n}}{T_{n}}\right) .
+\]
+
+П р и м е р ы. 24) $F\left[x^{\alpha}\right]=(2 \pi)^{n}(-i)|\alpha| D^{\alpha} \delta(\xi), \quad$ в частности $F[1]=(2 \pi)^{n} \delta(\xi)$.
+
+25) $F[D \alpha \delta]=(-i \xi)^{\alpha}$, в частности $F[\delta]=1$.
+
+26) $F[\theta]=\frac{i}{\xi+i 0}=\pi \delta(\xi)+i \mathscr{P}\left(\frac{1}{\xi}\right)$.
+
+ж) П р е о б р азов ан и е Л а пл а с а. Пусть О. ф. $g \in S^{\prime}(\Gamma) \stackrel{ }{=} S^{\prime} \cap D^{\prime}(\Gamma)$, где $\Gamma-$ замкнутый выпуклый острый конус. Пусть $C=$ int $\Gamma$, где $\Gamma^{*}=\left\{y:\left(y^{*}\right.\right.$, $\xi) \geqslant 0, \forall \xi \in \Gamma\}$ - сопряженный конус к $\Gamma$. Преобразованием Лапласа О. ф. $f$ наз. выражение
+
+\[
+L[g] z=F\left[g(\xi) e^{-(y, \xi)}\right](x), z=x+i y .
+\]
+
+Операция $g \rightarrow L[g]$ осуществляет изоморфизм сверточной алгебры $S^{\prime}(\Gamma)$ на алгебру $H(C)$, состоящую из функций $f(z)$, голоморфных в трубчатой области $T^{c}=$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b05f01e97096297b5a71g-1.jpg?height=42&width=826&top_left_y=922&top_left_x=996)
+вуют числа $\alpha=\alpha(f) \geqslant 0$ и $\boldsymbol{\beta}=\boldsymbol{\beta}(f) \geqslant 0$ такие, что для любого конуса $C^{\prime} \Subset C$ (т. е. $\overline{C^{\prime}} \subset C \bigcup\{0\}$ ) существует число $M_{f}\left(C^{\prime}\right)$ такое, что
+
+\[
+|f(z)| \leqslant M_{f}\left(C^{\prime}\right) \frac{1+|z|^{\alpha}}{|y|^{\beta}}, \quad z \in T^{C^{\prime}} .
+\]
+
+Обратное преобразование к преобразованию Лапласа $L$ задается равенством
+
+\[
+g(\xi)=e^{(y, \xi)} F_{x}[f(x+i y)](\xi),
+\]
+
+причем правая часть (10) не зависит от $y \in C$.
+
+Взаимно однозначное соответствие между $g(\xi)$ и $f(z)$, задаваемое равенствами (9) и (10), удобно изображать в виде следующей схемы:
+
+\[
+g(\xi) \leftrightarrow f(z),
+\]
+
+причем $f$ наз. и з о бр а ж е ни е м $g$, а $g-$ с п е к т$\mathbf{p} \mathbf{a}$ л ь н о й ф у н кц и е й функции $f$.
+
+Всякая $f(z)$ из алгебры $H(C)$ имеет граничное значение $f(x+i 0)$ при $y \rightarrow 0, y \in C$, в $S^{\prime}$, связанное со спектральной функцией $g$ функции $f$ формулой $f(x+$ $+i 0)=F[g]$ согласно (9). Справедливы следующие основные формулы для преобразования Лапласа:
+
+$(i \xi)^{\alpha} g(\xi) \leftrightarrow D^{\alpha} f(z)$,
+
+\[
+D^{\alpha} g(\xi) \leftrightarrow(-i z)^{\alpha} f(z),
+\]
+
+$g_{1} * g_{2} \leftrightarrow L\left[g_{1}\right](x) L\left[g_{2}\right](z), g_{1}, g_{2} \in S^{\prime}(\Gamma)$.
+
+П р и м е р. 27) $f_{\alpha}(t) \leftrightarrow(-i z)^{-\alpha}$, в частности
+
+\[
+\delta^{(k)}(t) \leftrightarrow(-i z)^{k}, \theta(t) \leftrightarrow \frac{i}{z} .
+\]
+
+Лит.: [1] Д и р а к П. А. М., Основы квантовой механики,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b05f01e97096297b5a71g-1.jpg?height=50&width=838&top_left_y=1947&top_left_x=985)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b05f01e97096297b5a71g-1.jpg?height=47&width=834&top_left_y=1975&top_left_x=987)
+H. H., Л о г у н о в A. A., Т о д о p o в И. Т., Основы аксиоматического подхода в квантовой теории поля, М., 1969: Функции, в. $1-3$, М., $1958 ;[6]$ В л а д и м и р о в В. С., Фунции, в. 1-3, M., $1958 ;[6]$ В л а д и м и p о в 8 В. С.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b05f01e97096297b5a71g-1.jpg?height=62&width=836&top_left_y=2115&top_left_x=986)
+М., 1979; [8] А н т о с и к П., М и к у с и н с к и й Я., С и-
+к о р с к и й Р., Теория обобщенных функций. Секвенциальный подход, пер. с англ., М., $1976 . \quad$ В. С. Владимиров.
+
+ОБОБІЕННО НИЛЬПОТЕНТНАЯ ГРУПIА группа одного из обобщенно нильпотентных классов групп. Класс групп наз. о б о б щ е н н о н и л ь п о-

@@ -1,0 +1,189 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3172_UMERENNOE" alphabetic_pos="3174">
+  <title>УМЕРЕННОЕ РАСПРЕДЕЛЕНИЕ, ОБОБЩЕННАЯ ФУНКЦИЯ МЕДЛЕННОГО РОСТА</title>
+  <authors>
+    <author>В. В. Жаринов</author>
+  </authors>
+  <pages>
+    <start>621</start>
+    <end>621</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] В ла д и м и р о в В. С., Обобщенные функции в математической физике, 2 изд., М., 1979; [2] Гельфанд И. М., Ши л о в Г. Е., Обобщенные функции и действия над ними, 2 изд., М., 1959; [3] S $\mathrm{c}$ h wartz L., Théorie des distributions, t. 1-2, P., 1950-51 (nouv. éd., P., 1978).</literature_orig>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Обобщенные функции в математической физике</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гельфанд И. М.</author>
+      <author>Шилов Г. Е.</author>
+      <title>Обобщенные функции и действия над ними</title>
+      <publication>2 изд., М.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>S$\mathrm{c}$hwartz L.</author>
+      <title>Théorie des distributions, t. 1-2, P.</title>
+      <publication/>
+      <year>1950</year>
+      <other>P., 1978).</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3172_1_UMERENNOE">|\Phi|=\sup \left\{\left|D^{\alpha} \Phi(x)\right|(1+|x|)^{p} ;|\alpha| \leqslant p, x \in \mathbb{R}^{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3172_2_UMERENNOE">\int \frac{|G(x)|}{(1+|x|)^{p}} d^{n} x&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3172_3_UMERENNOE">(g, \Phi)=\int G(x) D^{\alpha} \Phi(x) d^{n} x, \quad \Phi \in \mathscr{H} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3172_4_UMERENNOE">|\Phi|=\sup \left\{\left|D^{\alpha} \Phi(x)\right|(1+|x|)^{p} ;|\alpha| \leqslant p, x \in \Gamma+K\right\},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_1_UMERENNOE">\mathscr{y}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_2_UMERENNOE">\phi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_3_UMERENNOE">d^{\alpha} \Phi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_4_UMERENNOE">p=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_5_UMERENNOE">\alpha=\left(\begin{array}{lll}\alpha_{1}, \ldots, \alpha_{n}\end{array}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_6_UMERENNOE">|\alpha|=\alpha_{1}+\ldots+\alpha_{n}, D_{i}=\partial / \partial x_{i}, D^{\alpha}=D_{1}^{\alpha_{1}} \ldots D_{n}^{\alpha_{n}}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_7_UMERENNOE">\mathscr{d}=\mathscr{d}\left(\mathbb{r}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_8_UMERENNOE">\mathscr{y}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_9_UMERENNOE">\mathscr{i}^{\prime} \subset \mathscr{D}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_10_UMERENNOE">g \in \mathscr{g}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_11_UMERENNOE">\alpha</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_12_UMERENNOE">g(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_13_UMERENNOE">p</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_14_UMERENNOE">\gamma-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_15_UMERENNOE">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_16_UMERENNOE">\mathscr{t}_{\gamma_{+}^{\prime}}^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_17_UMERENNOE">g \in \mathcal{I}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_18_UMERENNOE">\operatorname{supp} g</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_19_UMERENNOE">г</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_20_UMERENNOE">g \subset \Gamma+K</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_21_UMERENNOE">k=k(g)-</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_22_UMERENNOE">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_23_UMERENNOE">g \in \mathscr{I}_{\Gamma}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_24_UMERENNOE">\mathcal{g}\left(\gamma_{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_25_UMERENNOE">\phi(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_26_UMERENNOE">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_27_UMERENNOE">p=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_28_UMERENNOE">k \subset \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_29_UMERENNOE">\mathscr{i}_{\gamma_{+}}^{\prime}=\mathscr{g}^{\prime}\left(\gamma_{+}\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_30_UMERENNOE">\mathscr{i}_{\gamma_{+}}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_31_UMERENNOE">\mathscr{f}_{\gamma}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_32_UMERENNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3172_33_UMERENNOE">g^{\prime}</formula>
+  </formulas_aux>
+  <relations n="11">
+    <relation uri="http://libmeta.ru/fme/relation/3172_1_UMERENNOE">
+      <rel_text>Обобщенная функция</rel_text>
+      <target>http://libmeta.ru/fme/article/2013_OBOBSchENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_2_UMERENNOE">
+      <rel_text>линейные дифференциальные операторы</rel_text>
+      <target>http://libmeta.ru/fme/article/729_GRINA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_3_UMERENNOE">
+      <rel_text>действуют</rel_text>
+      <target>http://libmeta.ru/fme/article/785_DEJSTVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_4_UMERENNOE">
+      <rel_text>обобщенной функции</rel_text>
+      <target>http://libmeta.ru/fme/article/2013_OBOBSchENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_5_UMERENNOE">
+      <rel_text>Фурье преобразование</rel_text>
+      <target>http://libmeta.ru/fme/article/3326_FUR'E</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_6_UMERENNOE">
+      <rel_text>состоящее</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_7_UMERENNOE">
+      <rel_text>подпространство</rel_text>
+      <target>http://libmeta.ru/fme/article/2279_PODPREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_8_UMERENNOE">
+      <rel_text>топологией пространства</rel_text>
+      <target>http://libmeta.ru/fme/article/3100_TOPOLOGIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_9_UMERENNOE">
+      <rel_text>состоящем</rel_text>
+      <target>http://libmeta.ru/fme/article/2867_SOSTOJaNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_10_UMERENNOE">
+      <rel_text>основном пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/2118_OSNOVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3172_11_UMERENNOE">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/fme/article/3318_FUNKTsIONA</target>
+    </relation>
+  </relations>
+  <text>линейный непрерывный функционал на основном пространстве (см. URI[[http://libmeta.ru/fme/relation/3172_1_UMERENNOE]]/URI) $URI[[http://libmeta.ru/fme/formula/aux/3172_1_UMERENNOE]]/URI$, состоящем из всех функций $URI[[http://libmeta.ru/fme/formula/aux/3172_2_UMERENNOE]]/URI$, имеющих непрерывные производные $URI[[http://libmeta.ru/fme/formula/aux/3172_3_UMERENNOE]]/URI$ всех порядков, с конечными нормами
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3172_1_UMERENNOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/3172_4_UMERENNOE]]/URI$, с топологией пространства Фреше, задаваемой этими нормами. Здесь мультииндекс $URI[[http://libmeta.ru/fme/formula/aux/3172_5_UMERENNOE]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/3172_6_UMERENNOE]]/URI$. Основное пространство $URI[[http://libmeta.ru/fme/formula/aux/3172_7_UMERENNOE]]/URI$ (см. Шварца распределение) плотно и непрерывно вложено в $URI[[http://libmeta.ru/fme/formula/aux/3172_8_UMERENNOE]]/URI$, так что $URI[[http://libmeta.ru/fme/formula/aux/3172_9_UMERENNOE]]/URI$, то есть каждое У. р. есть распределение Шварца.
+
+У. p. были введены Л. Шварцем (l. Schwartz) в конце 40-х гг. 20 в. Они широко применяются в теории линейных уравнений с частными производными с постоянными коэффициентами, в аксиоматической квантовой теории поля и в ряде областей математич. физики.
+
+Каждое У. р. имеет конечный порядок, то есть для всякого $URI[[http://libmeta.ru/fme/formula/aux/3172_10_UMERENNOE]]/URI$ существуют мультииндекс $URI[[http://libmeta.ru/fme/formula/aux/3172_11_UMERENNOE]]/URI$ и непрерывная функция $URI[[http://libmeta.ru/fme/formula/aux/3172_12_UMERENNOE]]/URI$ медленного роста (последнее означает, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3172_2_UMERENNOE]]/URI
+\]
+
+для нек-рого числа $URI[[http://libmeta.ru/fme/formula/aux/3172_13_UMERENNOE]]/URI$ ) такие, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3172_3_UMERENNOE]]/URI
+\]
+
+У. p. с носителем, ограниченным со стороны конус а. Пусть $URI[[http://libmeta.ru/fme/formula/aux/3172_14_UMERENNOE]]/URI$ острый замкнутый конус в $URI[[http://libmeta.ru/fme/formula/aux/3172_15_UMERENNOE]]/URI$ с вершиной в нуле. И пусть $URI[[http://libmeta.ru/fme/formula/aux/3172_16_UMERENNOE]]/URI$ множество всех У. p. $URI[[http://libmeta.ru/fme/formula/aux/3172_17_UMERENNOE]]/URI$, носители $URI[[http://libmeta.ru/fme/formula/aux/3172_18_UMERENNOE]]/URI$ к-рых ограничены со стороны $URI[[http://libmeta.ru/fme/formula/aux/3172_19_UMERENNOE]]/URI$, то есть supp $URI[[http://libmeta.ru/fme/formula/aux/3172_20_UMERENNOE]]/URI$, где $URI[[http://libmeta.ru/fme/formula/aux/3172_21_UMERENNOE]]/URI$ компакт в $URI[[http://libmeta.ru/fme/formula/aux/3172_22_UMERENNOE]]/URI$. Каждое У. р. $URI[[http://libmeta.ru/fme/formula/aux/3172_23_UMERENNOE]]/URI$ однозначно продолжается до линейного непрерывного URI[[http://libmeta.ru/fme/relation/3172_11_UMERENNOE]]/URI на URI[[http://libmeta.ru/fme/relation/3172_10_UMERENNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3172_24_UMERENNOE]]/URI$, URI[[http://libmeta.ru/fme/relation/3172_9_UMERENNOE]]/URI из всех функций $URI[[http://libmeta.ru/fme/formula/aux/3172_25_UMERENNOE]]/URI$, имеющих непрерывные производные всех порядков в $URI[[http://libmeta.ru/fme/formula/aux/3172_26_UMERENNOE]]/URI$ и конечные нормы
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3172_4_UMERENNOE]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/fme/formula/aux/3172_27_UMERENNOE]]/URI$, и компактов $URI[[http://libmeta.ru/fme/formula/aux/3172_28_UMERENNOE]]/URI$, с URI[[http://libmeta.ru/fme/relation/3172_8_UMERENNOE]]/URI Фреше, задаваемой этими нормами. Более того, можно положить $URI[[http://libmeta.ru/fme/formula/aux/3172_29_UMERENNOE]]/URI$. Пространство $URI[[http://libmeta.ru/fme/formula/aux/3172_30_UMERENNOE]]/URI$ содержит URI[[http://libmeta.ru/fme/relation/3172_7_UMERENNOE]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3172_31_UMERENNOE]]/URI$, URI[[http://libmeta.ru/fme/relation/3172_6_UMERENNOE]]/URI из У. р., носители к-рых лежат в конусе $URI[[http://libmeta.ru/fme/formula/aux/3172_32_UMERENNOE]]/URI$.
+
+На $URI[[http://libmeta.ru/fme/formula/aux/3172_33_UMERENNOE]]/URI$ определено URI[[http://libmeta.ru/fme/relation/3172_5_UMERENNOE]]/URI URI[[http://libmeta.ru/fme/relation/3172_4_UMERENNOE]]/URI, на нем URI[[http://libmeta.ru/fme/relation/3172_3_UMERENNOE]]/URI URI[[http://libmeta.ru/fme/relation/3172_2_UMERENNOE]]/URI конечного порядка.</text>
+  <text_orig>линейный непрерывный функционал на основном пространстве (см. Обобценная функция) $\mathscr{Y}$, состоящем из всех функций $\Phi(x)$, имеющих непрерывные производные $D^{\alpha} \Phi(x)$ всех порядков, с конечными нормами
+
+\[
+|\Phi|=\sup \left\{\left|D^{\alpha} \Phi(x)\right|(1+|x|)^{p} ;|\alpha| \leqslant p, x \in \mathbb{R}^{n}\right\}
+\]
+
+$p=0,1,2, \ldots$, с топологией пространства Фреше, задаваемой этими нормами. Здесь мультииндекс $\alpha=\left(\begin{array}{lll}\alpha_{1}, \ldots, \alpha_{n}\end{array}\right)$, $|\alpha|=\alpha_{1}+\ldots+\alpha_{n}, D_{i}=\partial / \partial x_{i}, D^{\alpha}=D_{1}^{\alpha_{1}} \ldots D_{n}^{\alpha_{n}}$. Основное пространство $\mathscr{D}=\mathscr{D}\left(\mathbb{R}^{n}\right)$ (см. Шьариа распределение) плотно и непрерывно вложено в $\mathscr{Y}$, так что $\mathscr{I}^{\prime} \subset \mathscr{D}^{\prime}$, то есть каждое У. р. есть распределение Шварца.
+
+У. p. были введены Л. Шварцем (L. Schwartz) в конце 40-х гг. 20 в. Они широко применяются в теории линейных уравнений с частными производными с постоянными коэффициентами, в аксиоматической квантовой теории поля и в ряде областей математич. физики.
+
+Каждое У. р. имеет конечный порядок, то есть для всякого $g \in \mathscr{g}^{\prime}$ существуют мультииндекс $\alpha$ и непрерывная функция $G(x)$ медленного роста (последнее означает, что
+
+\[
+\int \frac{|G(x)|}{(1+|x|)^{p}} d^{n} x&lt;\infty
+\]
+
+для нек-рого числа $p$ ) такие, что
+
+\[
+(g, \Phi)=\int G(x) D^{\alpha} \Phi(x) d^{n} x, \quad \Phi \in \mathscr{H} .
+\]
+
+У. p. с носителем, ограниченным со стороны конус а. Пусть $\Gamma-$ острый замкнутый конус в $\mathbb{R}^{n}$ с вершиной в нуле. И пусть $\mathscr{T}_{\Gamma_{+}^{\prime}}^{\prime}-$ множество всех У. p. $g \in \mathcal{I}^{\prime}$, носители $\operatorname{supp} g$ к-рых ограничены со стороны $Г$, то есть supp $g \subset \Gamma+K$, где $K=K(g)-$ компакт в $\mathbb{R}^{n}$. Каждое У. р. $g \in \mathscr{I}_{\Gamma}^{\prime}$ однозначно продолжается до линейного непрерывного функционала на основном пространстве $\mathcal{g}\left(\Gamma_{+}\right)$, состоящем из всех функций $\Phi(x)$, имеющих непрерывные производные всех порядков в $\mathbb{R}^{n}$ и конечные нормы
+
+\[
+|\Phi|=\sup \left\{\left|D^{\alpha} \Phi(x)\right|(1+|x|)^{p} ;|\alpha| \leqslant p, x \in \Gamma+K\right\},
+\]
+
+для всех $p=0,1,2, \ldots$, и компактов $K \subset \mathbb{R}^{n}$, с топологией пространства Фреше, задаваемой этими нормами. Более того, можно положить $\mathscr{I}_{\Gamma_{+}}^{\prime}=\mathscr{g}^{\prime}\left(\Gamma_{+}\right)$. Пространство $\mathscr{I}_{\Gamma_{+}}^{\prime}$ содержит подпространство $\mathscr{F}_{\Gamma}^{\prime}$, состояшее из У. р., носители к-рых лежат в конусе $\Gamma$.
+
+На $g^{\prime}$ определено Фурье преобразование обобщенной функции, на нем действуют линейные дифференциальные операторы конечного порядка.
+
+Лum.: [1] В ла д и м и р о в В. С., Обобщенные функции в математической физике, 2 изд., М., 1979; [2] Гельфанд И. М., Ши л о в Г. Е., Обобщенные функции и действия над ними, 2 изд., М., 1959; [3] S $\mathrm{c}$ h wartz L., Théorie des distributions, t. 1-2, P., 1950-51 (nouv. éd., P., 1978).
+
+В. В. Жаринов.</text_orig>
+</article>

@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1550_LAPLASA-BEL'TRAMI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1550_LAPLASA-BEL'TRAMI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/611</core:url>
+    <lbm:descriptor><![CDATA[ЛАПЛАСА-БЕЛЬТРАМИ ОПЕРАТОР; АСИМПТОТИКА СПЕКТРА]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#5324"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4103"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5325"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#5326"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5327"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5328"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1370"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1084"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_2369"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5329"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5330"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_5331"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4486"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>построение <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_117_ASIMPTOTIChESKOE">асимптотических разложений</a> собственных значений. Построение асимптотики может производиться методом эталонных задач (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#4103">[1]</a>). В более общем случае, если геодезич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2345_POTO">поток</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1870_NATURAL'NYJ">на римановом многообразии</a> $URI[[http://libmeta.ru/fme/formula/aux/1550_1_LAPLASA-BEL'TRAMI]]/URI$ имеет инвариантные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1517_LAGRANZhEVO">лагранжевы многообразия</a>, асимптотич. разложения могут строиться с помощью <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1099_KANONIChESKIJ">Маслова канонического оператора</a> (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#5325">[2]</a>). Напр., главный член асимптотич. разложения серии собственных чисел, соответствующих $URI[[http://libmeta.ru/fme/formula/aux/1550_2_LAPLASA-BEL'TRAMI]]/URI$-мерному <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1008_INVARIANTNOST">инвариантному</a> условно-периодич. тору с частотами $URI[[http://libmeta.ru/fme/formula/aux/1550_3_LAPLASA-BEL'TRAMI]]/URI$, имеет вид (см. <a href="/object/show?uri=http://libmeta.ru/io/Publication#5326">[3]</a>):<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5327">$$\left(\sum_{i=1}^{n} \omega_{i}\left(m_{i}+l_{i} / 4\right)\right)^{2}$$</a><BR/></P><P>где $URI[[http://libmeta.ru/fme/formula/aux/1550_4_LAPLASA-BEL'TRAMI]]/URI$ - <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1724_MASLOVA">индексы Маслова</a> базисных циклов <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5329">$$\gamma_{i}, i=1, \ldots, n$$</a>, тора и <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5330">$$\left(m_{1}, \ldots, m_{n}\right)$$</a> - целочисленный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a>, находящийся на <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK">расстоянии</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5331">$$o(1)$$</a> от луча, задаваемого вектором <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4486">$$\left(a_{1}, \ldots, a_{n}\right)$$</a>, здесь<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_5328">$$a_{i}=\frac{1}{2 \pi} \int_{\gamma_{i}} p d q, \quad i=1, \ldots, n .$$</a><BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4103">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1554">Бабич В. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#3979">Булдырев В. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4103">Асимптотические методы в задачах дифракции коротких волн, М., 1972</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#5325">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#1236">Маслов В. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5325">Асимптотические методы и теория возмущений, М., 1987</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#5326">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#5324">Крахнов А. Д.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#5326">«успехи математич. наук», 1976, т. 31, в. 3, с. 217-18.</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#5324">А. Д. Крахнов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[построение асимптотических разложений собственных значений. Построение асимптотики может производиться методом эталонных задач (см. [1]). В более общем случае, если геодезич. поток на римановом многообразии $M^{n}$ имеет инвариантные лагранжевы многообразия, асимптотич. разложения могут строиться с помощью Маслова канонического оператора (см. [2]). Напр., главный член асимптотич. разложения серии собственных чисел, соответствуюших $n$-мерному инвариантному условно-периодич. тору с частотами $\omega_{1}, \ldots, \omega_{n}$, имеет вид (см. [3]):
+
+\[
+\left(\sum_{i=1}^{n} \omega_{i}\left(m_{i}+l_{i} / 4\right)\right)^{2}
+\]
+
+где $l_{i}$ - индексы Маслова базисных циклов $\gamma_{i}, i=1, \ldots, n$, тора и $\left(m_{1}, \ldots, m_{n}\right)$ - целочисленный вектор, находяшийся на расстоянии $O(1)$ от луча, задаваемого вектором $\left(a_{1}, \ldots, a_{n}\right)$, здесь
+
+\[
+a_{i}=\frac{1}{2 \pi} \int_{\gamma_{i}} p d q, \quad i=1, \ldots, n .
+\]
+
+Лum.: [1] Ба бич В. М., Б у лды р е в В. С., Асимптотические методы в задачах дифракции коротких волн, М., 1972; [2] М асло в В. П., Асимптотические методы и теория возмущений, М., 1987; [3] К рахн о в А.Д., «Успехи математич. наук», 1976, т. 31, в. 3, с. 217-18. А. Д. Крахнов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2558_RASSTROJK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1724_MASLOVA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1008_INVARIANTNOST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1099_KANONIChESKIJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1517_LAGRANZhEVO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1870_NATURAL'NYJ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2345_POTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_117_ASIMPTOTIChESKOE"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

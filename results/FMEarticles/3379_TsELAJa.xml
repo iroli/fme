@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3379_TsELAJa" alphabetic_pos="3381">
+  <title>ЦЕЛАЯ ФУНКЦИЯ</title>
+  <authors/>
+  <pages>
+    <start>659</start>
+    <end>659</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3379_1_TsELAJa">f(z)=\sum_{k=0}^{\infty} a_{k} z^{k}, \quad a_{k}=\frac{f^{(k)}(0)}{k !}, \quad k \geqslant 0,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/3379_2_TsELAJa">w=P_{n}(z)=a_{0} z^{n}+a_{1} z^{n-1}+\ldots+a_{n}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3379_1_TsELAJa">\mathbb{c}, \lim _{k \rightarrow \infty} \sqrt[k]{\left|a_{k}\right|}=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3379_2_TsELAJa">n</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3379_3_TsELAJa">a_{0}, \ldots, a_{n}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3379_4_TsELAJa">z</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/fme/relation/3379_1_TsELAJa">
+      <rel_text>степенной ряд</rel_text>
+      <target>http://libmeta.ru/fme/article/2956_STEPENNOJ</target>
+    </relation>
+  </relations>
+  <text>функция, аналитическая во всей плоскости комплексного переменного (кроме, возможно, бесконечно удаленной точки). Она разлагается в URI[[http://libmeta.ru/fme/relation/3379_1_TsELAJa]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3379_1_TsELAJa]]/URI
+\]
+
+сходящийся во всей плоскости $URI[[http://libmeta.ru/fme/formula/aux/3379_1_TsELAJa]]/URI$.
+
+Простейшая Ц. Ф.- целая рациональная функ ция (или многочлен, полином) - функция вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3379_2_TsELAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/3379_2_TsELAJa]]/URI$ - целое неотрицательное, коэффициенты $URI[[http://libmeta.ru/fme/formula/aux/3379_3_TsELAJa]]/URI$ действительные или комплексные числа, $URI[[http://libmeta.ru/fme/formula/aux/3379_4_TsELAJa]]/URI$ - действительное или комплексное переменное.</text>
+  <text_orig>функция, аналитическая во всей плоскости комплексного переменного (кроме, возможно, бесконечно удаленной точки). Она разлагается в степенной ряд
+
+\[
+f(z)=\sum_{k=0}^{\infty} a_{k} z^{k}, \quad a_{k}=\frac{f^{(k)}(0)}{k !}, \quad k \geqslant 0,
+\]
+
+сходяшийся во всей плоскости $\mathbb{C}, \lim _{k \rightarrow \infty} \sqrt[k]{\left|a_{k}\right|}=0$.
+
+Простейшая Ц. Ф.- целая рациональная функ ция (или многочлен, полином) - функция вида
+
+\[
+w=P_{n}(z)=a_{0} z^{n}+a_{1} z^{n-1}+\ldots+a_{n}
+\]
+
+где $n$ - целое неотрицательное, коэффициенты $a_{0}, \ldots, a_{n}$ действительные или комплексные числа, $z$ - действительное или комплексное переменное.</text_orig>
+</article>

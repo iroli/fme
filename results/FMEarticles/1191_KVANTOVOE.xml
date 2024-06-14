@@ -1,0 +1,269 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1191_KVANTOVOE" alphabetic_pos="1193">
+  <title>КВАНТОВОЕ СТОХАСТИЧЕСКОЕ ИСЧИСЛЕНИЕ</title>
+  <authors>
+    <author>А. С. Холево</author>
+  </authors>
+  <pages>
+    <start>259</start>
+    <end>260</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Хадсон Р.Л., Партаса р и К.Р., в сб.: Квантовые случайные процессы и открытые системы, пер. с англ., М., 1988, c. 92-123; [2] Frigerio A., &quot;lect. Notes in Math.», 1985, v. 1136, p. 207-22; [3] Gardiner C.W., Collett M.J., &quot;phys. Rev. A», 1985, v. 31, p. 3761-74; [4] M e y e r P. A., «lect. Notes in Math.», 1986, v. 1204, p. $186-312$.</literature_orig>
+    <unit>
+      <author>Хадсон Р. Л.</author>
+      <author>Партасари К. Р.</author>
+      <title>в сб.: Квантовые случайные процессы и открытые системы</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1988</year>
+      <other>c. 92-123</other>
+    </unit>
+    <unit>
+      <author>Frigerio A.</author>
+      <title>&quot;lect. Notes in Math.»</title>
+      <publication/>
+      <year>1985</year>
+      <other>v. 1136, p. 207-22</other>
+    </unit>
+    <unit>
+      <author>Gardiner C. W.</author>
+      <author>Collett M. J.</author>
+      <title>&quot;phys. Rev. A»</title>
+      <publication/>
+      <year>1985</year>
+      <other>v. 31, p. 3761-74</other>
+    </unit>
+    <unit>
+      <author>Meyer P. A.</author>
+      <title>«lect. Notes in Math.»</title>
+      <publication/>
+      <year>1986</year>
+      <other>v. 1204, p. $186-312$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_1_KVANTOVOE">\begin{gathered}{[a(t), a(s)]_{\mp}=0,\left[a^{+}(t), a^{+}(s)\right]_{\mp}=0,} \\{\left[a(t), a^{+}(s)\right]=\delta(t-s) I .}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_2_KVANTOVOE">\varphi\left(a(t)^{+} a(s)\right)=v \delta(t-s), \varphi(a(t) a(s))=\mu \delta(t-s),</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_3_KVANTOVOE">A(t)=\int_{0}^{t} a(s) d s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_4_KVANTOVOE">\begin{gathered}{[A(t), A(s)]_{\mp}=0, \quad\left[A^{+}(t), A^{+}(s)\right]_{\mp}=0,} \\{\left[A(t), A^{+}(s)\right]_{\mp}=\min (t, s) I .}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_5_KVANTOVOE">d X=F d A+G d A^{+}+H d t,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_6_KVANTOVOE">d(X Y)=d X Y+X d Y+d X d Y</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_7_KVANTOVOE">\begin{array}{r|ccc} &amp; d A &amp; d A^{+} &amp; d t \\\hline d A &amp; \mu d t &amp; (\nu+1) d t &amp; 0 \\d A^{+} &amp; v d t &amp; \bar{\mu} d t &amp; 0 \\d t &amp; 0 &amp; 0 &amp; 0\end{array}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_8_KVANTOVOE">d U=\left[L d A^{+}-L^{*} d A-\left(i M+\frac{1}{2} L^{*} L\right) d t\right] U ;(0)=I,</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_9_KVANTOVOE">X(t) \equiv j_{t}(X)=U(t)^{*}(X \otimes I) U(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_10_KVANTOVOE">\begin{aligned}d X(t)=\{ &amp; {\left[L^{*}(t), X(t)\right]_{-} d A+[X(t), L(t)]_{-} d A+i[M(t), X(t)]_{-}+} \\&amp; \left.+\left(L^{*}(t) X(t) L(t)-\frac{1}{2}\left[X(t), L^{*}(t) L(t)\right]_{+}\right)\right\} d t .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/1191_11_KVANTOVOE">\mathscr{L}(X)=i[M, X]_{-}+L^{*} X L-\frac{1}{2}\left[X, L^{*} L\right]_{+} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_1_KVANTOVOE">a(t), t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_2_KVANTOVOE">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_3_KVANTOVOE">v \geqslant 0, v(v+1) \geqslant|\mu|^{2}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_4_KVANTOVOE">a(t), t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_5_KVANTOVOE">(+)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_6_KVANTOVOE">x(t), F(t), G(t), H(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_7_KVANTOVOE">a(t), A^{+}(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_8_KVANTOVOE">x(t), \ldots</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_9_KVANTOVOE">d_{t}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_10_KVANTOVOE">\left.A(s), A^{+}(s) ; s \leqslant t\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_11_KVANTOVOE">x(t), Y(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_12_KVANTOVOE">d A, d A^{+}, d t</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_13_KVANTOVOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_14_KVANTOVOE">a(t)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_15_KVANTOVOE">\mathfrak{y}=\gamma\left(l^{2}\left(\mathbb{r}_{+}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_16_KVANTOVOE">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_17_KVANTOVOE">v=\mu=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_18_KVANTOVOE">u(t), t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_19_KVANTOVOE">\mathrm{pa}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_20_KVANTOVOE">l, M</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_21_KVANTOVOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_22_KVANTOVOE">m^{*}=m</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_23_KVANTOVOE">h \otimes \mathfrak{y}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_24_KVANTOVOE">x</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_25_KVANTOVOE">h</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_26_KVANTOVOE">j_{t}, t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_27_KVANTOVOE">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_28_KVANTOVOE">\mathfrak{p}(h \otimes \mathfrak{G})</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_29_KVANTOVOE">j_{t}(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_30_KVANTOVOE">\varphi</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_31_KVANTOVOE">\phi_{t}(x), t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1191_32_KVANTOVOE">\mathfrak{b}(h)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/fme/relation/1191_1_KVANTOVOE">
+      <rel_text>квантовых броуновских движений</rel_text>
+      <target>http://libmeta.ru/fme/article/1185_KVANTOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1191_2_KVANTOVOE">
+      <rel_text>полугруппа</rel_text>
+      <target>http://libmeta.ru/fme/article/2305_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1191_3_KVANTOVOE">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/fme/article/816_DINAMIK</target>
+    </relation>
+  </relations>
+  <text>операторное дифференциальное исчисление, в основе которого лежит понятие кванто вого шума. Последний описывается обобщенной операторнозначной функцией $URI[[http://libmeta.ru/fme/formula/aux/1191_1_KVANTOVOE]]/URI$, удовлетворяющей канонич. коммутационным (антикоммутационным) соотношениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_1_KVANTOVOE]]/URI
+\]
+
+Кроме того, на соответствующей Ккс-алгебре (кас-алгебре) задается квазисвободное состояние $URI[[http://libmeta.ru/fme/formula/aux/1191_2_KVANTOVOE]]/URI$ такое, что
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_2_KVANTOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1191_3_KVANTOVOE]]/URI$.
+
+С математич. точки зрения предпочтительнее иметь дело с квантовым броуновским движением, формально определяемым как
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_3_KVANTOVOE]]/URI
+\]
+
+Операторнозначная функция $URI[[http://libmeta.ru/fme/formula/aux/1191_4_KVANTOVOE]]/URI$, удовлетворяет соотношениям
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_4_KVANTOVOE]]/URI
+\]
+
+В случае коммутаторов (-) говорят о боз о н н о м, а в случае антикоммутаторов $URI[[http://libmeta.ru/fme/formula/aux/1191_5_KVANTOVOE]]/URI$ - о фе р м ионном броуновском движении. Разработана теория квантовых стохастич. дифференциальных уравнений вида
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_5_KVANTOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1191_6_KVANTOVOE]]/URI$ - семейства операторов, согласованные с потоком алгебр Неймана, порождаемых операторами $URI[[http://libmeta.ru/fme/formula/aux/1191_7_KVANTOVOE]]/URI$ (то есть операторы $URI[[http://libmeta.ru/fme/formula/aux/1191_8_KVANTOVOE]]/URI$ являются присоединенными к алгебре $URI[[http://libmeta.ru/fme/formula/aux/1191_9_KVANTOVOE]]/URI$, порождаемой операторами $URI[[http://libmeta.ru/fme/formula/aux/1191_10_KVANTOVOE]]/URI$. Имеет место квантовая формула И то: если $URI[[http://libmeta.ru/fme/formula/aux/1191_11_KVANTOVOE]]/URI$ определяются уравнениями типа (1), To
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_6_KVANTOVOE]]/URI
+\]
+
+где считается, что согласованные процессы коммутируют с базисными дифференциалами $URI[[http://libmeta.ru/fme/formula/aux/1191_12_KVANTOVOE]]/URI$, а произведения базисных дифференциалов находятся согласно таблице умножения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_7_KVANTOVOE]]/URI
+\]
+
+в к-рой столбец слева обозначает первый множитель, а верхняя строка - второй (см. [1]).
+
+К. с. и. позволяет дать описание эволюции квантовой открытой системы под действием бозонного или фермионного шума (см. [2], [3]).
+
+Пусть $URI[[http://libmeta.ru/fme/formula/aux/1191_13_KVANTOVOE]]/URI$ - гильбертово пространство системы, а квантовый шум для определенности описывается бозонным броуновским движением $URI[[http://libmeta.ru/fme/formula/aux/1191_14_KVANTOVOE]]/URI$ в симметричном пространстве Фока $URI[[http://libmeta.ru/fme/formula/aux/1191_15_KVANTOVOE]]/URI$с вакуумным состоянием $URI[[http://libmeta.ru/fme/formula/aux/1191_16_KVANTOVOE]]/URI$, для к-рого $URI[[http://libmeta.ru/fme/formula/aux/1191_17_KVANTOVOE]]/URI$ (что соответствует нулевой температуре шума). Решение $URI[[http://libmeta.ru/fme/formula/aux/1191_18_KVANTOVOE]]/URI$, стохастического уравнения Ш ре динге $URI[[http://libmeta.ru/fme/formula/aux/1191_19_KVANTOVOE]]/URI$
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_8_KVANTOVOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/fme/formula/aux/1191_20_KVANTOVOE]]/URI$ - операторы в $URI[[http://libmeta.ru/fme/formula/aux/1191_21_KVANTOVOE]]/URI$, причем $URI[[http://libmeta.ru/fme/formula/aux/1191_22_KVANTOVOE]]/URI$, является семейством унитарных операторов, определяющим обратимую эволюцию в пространстве $URI[[http://libmeta.ru/fme/formula/aux/1191_23_KVANTOVOE]]/URI$. Для любой наблюдаемой $URI[[http://libmeta.ru/fme/formula/aux/1191_24_KVANTOVOE]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1191_25_KVANTOVOE]]/URI$ семейство
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_9_KVANTOVOE]]/URI
+\]
+
+удовлетворяет квантовому уравнению Ланжевена
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_10_KVANTOVOE]]/URI
+\]
+
+Семейство гомоморфизмов $URI[[http://libmeta.ru/fme/formula/aux/1191_26_KVANTOVOE]]/URI$, с состоянием $URI[[http://libmeta.ru/fme/formula/aux/1191_27_KVANTOVOE]]/URI$ дает квантовый случайный процесс в алгебре $URI[[http://libmeta.ru/fme/formula/aux/1191_28_KVANTOVOE]]/URI$. Осреднение $URI[[http://libmeta.ru/fme/formula/aux/1191_29_KVANTOVOE]]/URI$ по вакуумному состоянию $URI[[http://libmeta.ru/fme/formula/aux/1191_30_KVANTOVOE]]/URI$ дает квантовую дина- мическую полугруппу $URI[[http://libmeta.ru/fme/formula/aux/1191_31_KVANTOVOE]]/URI$, в $URI[[http://libmeta.ru/fme/formula/aux/1191_32_KVANTOVOE]]/URI$ с инфинитезимальным оператором
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1191_11_KVANTOVOE]]/URI
+\]
+
+Обратно, всякая непрерывная по норме квантовая URI[[http://libmeta.ru/fme/relation/1191_3_KVANTOVOE]]/URI. URI[[http://libmeta.ru/fme/relation/1191_2_KVANTOVOE]]/URI допускает расширение до стохастич. унитарной эволюции, определяемой нек-рым, вообще говоря, бесконечным набором независимых URI[[http://libmeta.ru/fme/relation/1191_1_KVANTOVOE]]/URI (см. [1], [2]).</text>
+  <text_orig>операторное дифференциальное исчисление, в основе которого лежит понятие кванто вого шума. Последний описывается обобщенной операторнозначной функцией $a(t), t \geqslant 0$, удовлетворяющей канонич. коммутационным (антикоммутационным) соотношениям
+
+\[
+\begin{gathered}
+{[a(t), a(s)]_{\mp}=0,\left[a^{+}(t), a^{+}(s)\right]_{\mp}=0,} \\
+{\left[a(t), a^{+}(s)\right]=\delta(t-s) I .}
+\end{gathered}
+\]
+
+Кроме того, на соответствующей ККС-алгебре (КАС-алгебре) задается квазисвободное состояние $\varphi$ такое, что
+
+\[
+\varphi\left(a(t)^{+} a(s)\right)=v \delta(t-s), \varphi(a(t) a(s))=\mu \delta(t-s),
+\]
+
+где $v \geqslant 0, v(v+1) \geqslant|\mu|^{2}$.
+
+С математич. точки зрения предпочтительнее иметь дело с квантовым броуновским движением, формально определяемым как
+
+\[
+A(t)=\int_{0}^{t} a(s) d s
+\]
+
+Операторнозначная функция $A(t), t \geqslant 0$, удовлетворяет соотношениям
+
+\[
+\begin{gathered}
+{[A(t), A(s)]_{\mp}=0, \quad\left[A^{+}(t), A^{+}(s)\right]_{\mp}=0,} \\
+{\left[A(t), A^{+}(s)\right]_{\mp}=\min (t, s) I .}
+\end{gathered}
+\]
+
+В случае коммутаторов (-) говорят о боз о н н о м, а в случае антикоммутаторов $(+)$ - о фе р м ионном броуновском движении. Разработана теория квантовых стохастич. дифференциальных уравнений вида
+
+\[
+d X=F d A+G d A^{+}+H d t,
+\]
+
+где $X(t), F(t), G(t), H(t)$ - семейства операторов, согласованные с потоком алгебр Неймана, порождаемых операторами $A(t), A^{+}(t)$ (то есть операторы $X(t), \ldots$ являются присоединенными к алгебре $d_{t}$, порождаемой операторами $\left.A(s), A^{+}(s) ; s \leqslant t\right)$. Имеет место квантовая формула И то: если $X(t), Y(t)$ определяются уравнениями типа (1), To
+
+\[
+d(X Y)=d X Y+X d Y+d X d Y
+\]
+
+где считается, что согласованные процессы коммутируют с базисными дифференциалами $d A, d A^{+}, d t$, а произведения базисных дифференциалов находятся согласно таблице умножения
+
+\[
+\begin{array}{r|ccc} 
+&amp; d A &amp; d A^{+} &amp; d t \\
+\hline d A &amp; \mu d t &amp; (\nu+1) d t &amp; 0 \\
+d A^{+} &amp; v d t &amp; \bar{\mu} d t &amp; 0 \\
+d t &amp; 0 &amp; 0 &amp; 0
+\end{array}
+\]
+
+в к-рой столбец слева обозначает первый множитель, а верхняя строка - второй (см. [1]).
+
+К. с. и. позволяет дать описание эволюции квантовой открытой системы под действием бозонного или фермионного шума (см. [2], [3]).
+
+Пусть $H$ - гильбертово пространство системы, а квантовый шум для определенности описывается бозонным броуновским движением $A(t)$ в симметричном пространстве Фока $\mathfrak{y}=\Gamma\left(L^{2}\left(\mathbb{R}_{+}\right)\right)$с вакуумным состоянием $\varphi$, для к-рого $v=\mu=0$ (что соответствует нулевой температуре шума). Решение $U(t), t \geqslant 0$, стохастического уравнения Ш ре динге $\mathrm{pa}$
+
+\[
+d U=\left[L d A^{+}-L^{*} d A-\left(i M+\frac{1}{2} L^{*} L\right) d t\right] U ;(0)=I,
+\]
+
+где $L, M$ - операторы в $H$, причем $M^{*}=M$, является семейством унитарных операторов, определяющим обратимую эволюцию в пространстве $H \otimes \mathfrak{y}$. Для любой наблюдаемой $X$ в $H$ семейство
+
+\[
+X(t) \equiv j_{t}(X)=U(t)^{*}(X \otimes I) U(t)
+\]
+
+удовлетворяет квантовому уравнению Ланжевена
+
+\[
+\begin{aligned}
+d X(t)=\{ &amp; {\left[L^{*}(t), X(t)\right]_{-} d A+[X(t), L(t)]_{-} d A+i[M(t), X(t)]_{-}+} \\
+&amp; \left.+\left(L^{*}(t) X(t) L(t)-\frac{1}{2}\left[X(t), L^{*}(t) L(t)\right]_{+}\right)\right\} d t .
+\end{aligned}
+\]
+
+Семейство гомоморфизмов $j_{t}, t \geqslant 0$, с состоянием $\varphi$ дает квантовый случайный процесс в алгебре $\mathfrak{P}(H \otimes \mathfrak{G})$. Осреднение $j_{t}(X)$ по вакуумному состоянию $\varphi$ дает квантовую дина- мическую полугруппу $\Phi_{t}(X), t \geqslant 0$, в $\mathfrak{B}(H)$ с инфинитезимальным оператором
+
+\[
+\mathscr{L}(X)=i[M, X]_{-}+L^{*} X L-\frac{1}{2}\left[X, L^{*} L\right]_{+} .
+\]
+
+Обратно, всякая непрерывная по норме квантовая динамич. полугруппа допускает расширение до стохастич. унитарной эволюции, определяемой нек-рым, вообще говоря, бесконечным набором независимых квантовых броуновских движений (см. [1], [2]).
+
+Лит.: [1] Хадсон Р.Л., Партаса р и К.Р., в сб.: Квантовые случайные процессы и открытые системы, пер. с англ., М., 1988, c. 92-123; [2] Frigerio A., &quot;Lect. Notes in Math.», 1985, v. 1136, p. 207-22; [3] Gardiner C.W., Collett M.J., &quot;Phys. Rev. A», 1985, v. 31, p. 3761-74; [4] M e y e r P. A., «Lect. Notes in Math.», 1986, v. 1204, p. $186-312$.
+
+А. С. Холево.</text_orig>
+</article>

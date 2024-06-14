@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/778_DVUHChASTIChNOE" alphabetic_pos="780">
+  <title>ДВУХЧАСТИЧНОЕ РАССЕЯНИЕ</title>
+  <authors/>
+  <pages>
+    <start>166</start>
+    <end>166</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Гольдбергер М., В атсон К., Теория столкновений, пер. с англ., М., 1967; [2] Р ид М., Саймон Б., Методы современной математической физики, т. 3. Теория рассеяния, пер. $\begin{array}{ll}\text { с англ., М., } 1982 . &amp; \text { С. П. Меркурьев, С. Л. Яковлев. }\end{array}$</literature_orig>
+    <unit>
+      <author>Гольдбергер М.</author>
+      <author>Ватсон К.</author>
+      <title>Теория столкновений</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рид М.</author>
+      <author>Саймон Б.</author>
+      <title>Методы современной математической физики</title>
+      <publication>пер. $\begin{array}{ll}\text { с англ., М.</publication>
+      <year>1982</year>
+      <other>т. 3. Теория рассеяния, С. Л. Яковлев. }\end{array}$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/778_1_DVUHChASTIChNOE">H=-\Delta+V(x), x \in \mathbb{R}^{3}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/778_2_DVUHChASTIChNOE">-\Delta W_{ \pm}(x, p)+V(x) W_{ \pm}(x, p)=p^{2} W_{ \pm}(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/778_3_DVUHChASTIChNOE">W_{ \pm}(x, p)=\exp \{i(x, p)\}+f_{ \pm}\left(\frac{x}{|x|}, p\right) \frac{\exp \{ \pm i|p||x|\}}{|x|}\{1+o(1)\} .</formula>
+    <formula uri="http://libmeta.ru/fme/formula/main/778_4_DVUHChASTIChNOE">f_{ \pm}\left(\frac{x}{|x|}, p\right)=-2 \pi^{2} T\left( \pm|p| \frac{x}{|x|}, p, p^{2} \pm i \cdot 0\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/778_1_DVUHChASTIChNOE">\delta</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/778_2_DVUHChASTIChNOE">\mathbb{r}^{3}, V(x)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/778_3_DVUHChASTIChNOE">w_{ \pm}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/778_4_DVUHChASTIChNOE">f_{ \pm}\left(\frac{x}{|x|}, p\right)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/778_5_DVUHChASTIChNOE">t</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/fme/relation/778_1_DVUHChASTIChNOE">
+      <rel_text>Кулоновское рассеяние</rel_text>
+      <target>http://libmeta.ru/fme/article/1490_KULONOVSKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/778_2_DVUHChASTIChNOE">
+      <rel_text>граничным условием</rel_text>
+      <target>http://libmeta.ru/fme/article/713_GRANIChNOE</target>
+    </relation>
+  </relations>
+  <text>рассеяние в системе двух частиц с оператором Шредингера, задаваемым в центра масс системе выражением
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/778_1_DVUHChASTIChNOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/fme/formula/aux/778_1_DVUHChASTIChNOE]]/URI$ - лапласиан в $URI[[http://libmeta.ru/fme/formula/aux/778_2_DVUHChASTIChNOE]]/URI$ - потенциал. Волновые операторы $URI[[http://libmeta.ru/fme/formula/aux/778_3_DVUHChASTIChNOE]]/URI$, определяющие рассеяния задачи решения, являются интегральными операторами. Ядра этих операторов после преобразования Фурье по второму аргументу удовлетворяют стационарному уравнению Шредингера:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/778_2_DVUHChASTIChNOE]]/URI
+\]
+
+с асимптотич. URI[[http://libmeta.ru/fme/relation/778_2_DVUHChASTIChNOE]]/URI
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/778_3_DVUHChASTIChNOE]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/fme/formula/aux/778_4_DVUHChASTIChNOE]]/URI$, называемая а м пл и т у до й ра с с е я н и я, связана с двухчастичной $URI[[http://libmeta.ru/fme/formula/aux/778_5_DVUHChASTIChNOE]]/URI$-матрицей формулой
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/778_4_DVUHChASTIChNOE]]/URI
+\]
+
+Особенности Д. р. в случае дальнодействующих потенциалов см. в ст. URI[[http://libmeta.ru/fme/relation/778_1_DVUHChASTIChNOE]]/URI.</text>
+  <text_orig>рассеяние в системе двух частиц с оператором Шредингера, задаваемым в центра масс системе выражением
+
+\[
+H=-\Delta+V(x), x \in \mathbb{R}^{3}
+\]
+
+$\Delta$ - лапласиан в $\mathbb{R}^{3}, V(x)$ - потенциал. Волновые операторы $W_{ \pm}$, определяющие рассеяния задачи решения, являются интегральными операторами. Ядра этих операторов после преобразования Фурье по второму аргументу удовлетворяют стационарному уравнению Шредингера:
+
+\[
+-\Delta W_{ \pm}(x, p)+V(x) W_{ \pm}(x, p)=p^{2} W_{ \pm}(x, p)
+\]
+
+с асимптотич. граничным условием
+
+\[
+W_{ \pm}(x, p)=\exp \{i(x, p)\}+f_{ \pm}\left(\frac{x}{|x|}, p\right) \frac{\exp \{ \pm i|p||x|\}}{|x|}\{1+o(1)\} .
+\]
+
+Функция $f_{ \pm}\left(\frac{x}{|x|}, p\right)$, называемая а м пл и т у до й ра с с е я н и я, связана с двухчастичной $T$-матрицей формулой
+
+\[
+f_{ \pm}\left(\frac{x}{|x|}, p\right)=-2 \pi^{2} T\left( \pm|p| \frac{x}{|x|}, p, p^{2} \pm i \cdot 0\right) .
+\]
+
+Особенности Д. р. в случае дальнодействующих потенциалов см. в ст. Кулоновское рассеяние.
+
+Лит.: [1] Гольдбергер М., В атсон К., Теория столкновений, пер. с англ., М., 1967; [2] Р ид М., Саймон Б., Методы современной математической физики, т. 3. Теория рассеяния, пер. $\begin{array}{ll}\text { с англ., М., } 1982 . &amp; \text { С. П. Меркурьев, С. Л. Яковлев. }\end{array}$</text_orig>
+</article>

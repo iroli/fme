@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/">
+  <lbm:InformationObject rdf:about="http://libmeta.ru/thesaurus/Formula_1600">
+    <lbm:type rdf:resource="http://libmeta.ru/resource/Formula"/>
+    <lbm:description/>
+    <lbm:dateCreated> 29-3-2024 21:14 </lbm:dateCreated>
+    <lbm:dateUpdated> 29-3-2024 21:14 </lbm:dateUpdated>
+    <lbm:properties>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/mathml"/>
+        <lbm:value><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mrow><mi>&</mi><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mfrac><mrow><mo>&#x02202;</mo></mrow><mrow><mo>&#x02202;</mo><mi>t</mi></mrow></mfrac><mo>&#x0002B;</mo><mn>2</mn><mi>v</mi><msup><mi>k</mi><mrow><mn>2</mn></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mi>E</mi><mo stretchy="false">&#x00028;</mo><mi>k</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x0003D;</mo><msub><mi>C</mi><mrow><mi>d</mi></mrow></msub><msub><mo>&#x0222C;</mo><mrow><msub><mi>&#x00394;</mi><mrow><mi>k</mi></mrow></msub></mrow></msub><msub><mi>&#x003B8;</mi><mrow><mi>k</mi><mi>p</mi><mi>q</mi></mrow></msub><mo stretchy="false">&#x00028;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mfrac><mrow><msup><mi>k</mi><mrow><mi>d</mi><mo>&#x0002B;</mo><mn>4</mn></mrow></msup></mrow><mrow><mi>p</mi><mi>q</mi></mrow></mfrac><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><mn>1</mn><mo>&#x02212;</mo><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mo stretchy="false">&#x00028;</mo><mi>d</mi><mo>&#x02212;</mo><mn>3</mn><mo stretchy="false">&#x00029;</mo><mo>&#x0002F;</mo><mn>2</mn></mrow></msup><mi>&#x000D7;</mi><mspace linebreak="newline" /><mi>&</mi><mi>&#x000D7;</mi><mrow><mo stretchy="true" fence="true" form="prefix">[</mo><msubsup><mi>a</mi><mrow><mi>k</mi><mi>p</mi><mi>q</mi></mrow><mrow><mo stretchy="false">&#x00028;</mo><mi>d</mi><mo stretchy="false">&#x00029;</mo></mrow></msubsup><msup><mi>k</mi><mrow><mi>d</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msup><mi>E</mi><mo stretchy="false">&#x00028;</mo><mi>p</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mi>E</mi><mo stretchy="false">&#x00028;</mo><mi>q</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo>&#x02212;</mo><msubsup><mi>b</mi><mrow><mi>k</mi><mi>p</mi><mi>q</mi></mrow><mrow><mo stretchy="false">&#x00028;</mo><mi>d</mi><mo stretchy="false">&#x00029;</mo></mrow></msubsup><msup><mi>p</mi><mrow><mi>d</mi><mo>&#x02212;</mo><mn>1</mn></mrow></msup><mi>E</mi><mo stretchy="false">&#x00028;</mo><mi>q</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mi>E</mi><mo stretchy="false">&#x00028;</mo><mi>k</mi><mo>&#x0002C;</mo><mi>t</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="true" fence="true" form="postfix">]</mo></mrow><mi>d</mi><mi>p</mi><mi>d</mi><mi>q</mi><mo>&#x0002C;</mo></mrow></mrow></math></lbm:value>
+      </lbm:property>
+      <lbm:property>
+        <lbm:type rdf:resource="http://libmeta.ru/attribute/tex"/>
+        <lbm:value>$$\begin{aligned}&amp; \left(\frac{\partial}{\partial t}+2 v k^{2}\right) E(k, t)=C_{d} \iint_{\Delta_{k}} \theta_{k p q}(t) \frac{k^{d+4}}{p q}\left(1-x^{2}\right)^{(d-3) / 2} \times \\&amp; \times\left[a_{k p q}^{(d)} k^{d-1} E(p, t) E(q, t)-b_{k p q}^{(d)} p^{d-1} E(q, t) E(k, t)\right] d p d q,\end{aligned}$$</lbm:value>
+      </lbm:property>
+    </lbm:properties>
+  </lbm:InformationObject>
+</rdf:RDF>

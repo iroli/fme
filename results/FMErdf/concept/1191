@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2072_OPERATORNO">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2072_OPERATORNO</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1191</core:url>
+    <lbm:descriptor><![CDATA[ОПЕРАТОРНО ПРОЕКЦИОННЫЙ МЕТОД В ТЕОРИИ СОЛИТОНОВ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#9108"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9109"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9110"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9111"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9112"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9113"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_9114"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1794"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>метод решения нелинейных эволюционных уравнений, основанный на замене данного уравнения уравнением того же вида относительно функций, принимающих значения в произвольной операторной алгебре. Односолитонные операторнозначные решения этих уравнений находятся элементарно и выражаются через логарифмич. производные операторнозначных решений линейных уравнений. Решения же исходных уравнений получаются из этих операторнозначных односолитонных решений окаймлением их специальными конечномерными проекторами. Произвол в выборе операторных алгебр и окаймляющих проекторов позволяет находить широкие классы решений исходных уравнений. В них входят решения, к-рые находятся обратной задачи рассеяния методом, Римана задачи методом и методами алгебраич. геометрии, а также решения, не сводящиеся к ним. Напр., решения скалярного уравнения<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9109">$$u_{t}+6 u_{x}^{2}+u_{x x x}=0$$</a><BR/></P><P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP">получаются</a> в виде:<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9110">$$u(x, t) \hat{P}=\hat{P} \hat{\Gamma}^{-1} \hat{\Gamma}_{x} \hat{P}$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9113">$$\hat{\gamma}$$</a> - операторнозначное решение уравнений<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9111">$$\hat{\Gamma}_{t}+4 \hat{\Gamma}_{x x x}=0, \hat{\Gamma}_{x x}=\hat{a}^{2} \hat{\Gamma}$$</a><BR/></P><P>удовлетворяющее условию<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9112">$$\hat{\Gamma}_{x}(I-\hat{P})=\hat{\Gamma} \hat{N}(I-\hat{P}),$$</a><BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_9114">$$\hat{a}, \hat{N}$$</a> - произвольные постоянные <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операторы</a> и $URI[[http://libmeta.ru/fme/formula/aux/2072_3_OPERATORNO]]/URI$ постоянный одномерный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO">проектор</a>.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#9108">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#9107">Маченко В. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#9108">Операторные алгебры и нелинейные $\begin{array}{ll}\text { уравнения, Киев, 1986</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[метод решения нелинейных эволюционных уравнений, основанный на замене данного уравнения уравнением того же вида относительно функций, принимающих значения в произвольной операторной алгебре. Односолитонные операторнозначные решения этих уравнений находятся элементарно и выражаются через логарифмич. производные операторнозначных решений линейных уравнений. Решения же исходных уравнений получаются из этих операторнозначных односолитонных решений окаймлением их специальными конечномерными проекторами. Произвол в выборе операторных алгебр и окаймляющих проекторов позволяет находить широкие классы решений исходных уравнений. В них входят решения, к-рые находятся обратной задачи рассеяния методом, Римана задачи методом и методами алгебраич. геометрии, а также решения, не сводяшиеся к ним. Напр., решения скалярного уравнения
+
+\[
+u_{t}+6 u_{x}^{2}+u_{x x x}=0
+\]
+
+получаются в виде:
+
+\[
+u(x, t) \hat{P}=\hat{P} \hat{\Gamma}^{-1} \hat{\Gamma}_{x} \hat{P}
+\]
+
+где $\hat{\Gamma}$ - огераторнозначное решение уравнений
+
+\[
+\hat{\Gamma}_{t}+4 \hat{\Gamma}_{x x x}=0, \hat{\Gamma}_{x x}=\hat{a}^{2} \hat{\Gamma}
+\]
+
+удовлетворяющее условию
+
+\[
+\hat{\Gamma}_{x}(I-\hat{P})=\hat{\Gamma} \hat{N}(I-\hat{P}),
+\]
+
+где $\hat{a}, \hat{N}$ - произвольные постоянные операторы и $\hat{P}$ постоянный одномерный проектор.
+
+Лит.: [1] М а ч е н к о В. А., Операторные алгебры и нелинейные $\begin{array}{ll}\text { уравнения, Киев, } 1986 . & \text { В. А. Марченко. }\end{array}$]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2394_PROEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2305_POLUGRUPP"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

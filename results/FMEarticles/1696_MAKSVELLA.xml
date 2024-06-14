@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/1696_MAKSVELLA" alphabetic_pos="1698">
+  <title>МАКСВЕЛЛА УРАВНЕНИЯ</title>
+  <authors/>
+  <pages>
+    <start>339</start>
+    <end>340</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Максве лл Дж. К., Избранные сочинения по теории электромагнитного поля, пер. с англ., М., 1952, с. 251-345; [2] Туро в Е. А., Материальные уравнения электродинамики, М., 1983; [3] Фуш и ч В. И., Н и к и т и А. Г., Симметрия уравнений Максвелла, Киев, 1983.</literature_orig>
+    <unit>
+      <author>Максвелл Дж. К.</author>
+      <title>Избранные сочинения по теории электромагнитного поля</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1952</year>
+      <other>с. 251-345</other>
+    </unit>
+    <unit>
+      <author>Туров Е. А.</author>
+      <title>Материальные уравнения электродинамики</title>
+      <publication>М.</publication>
+      <year>1983</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Фушич В. И.</author>
+      <author>Никити А. Г.</author>
+      <title>Симметрия уравнений Максвелла, Киев</title>
+      <publication/>
+      <year>1983</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/1696_1_MAKSVELLA">\begin{gathered}\operatorname{rot} \boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{c \partial t}, \quad \operatorname{rot} \boldsymbol{H}=\frac{4 \pi \boldsymbol{j}}{c}+\frac{\partial \boldsymbol{D}}{c \partial t}, \\\operatorname{div} \boldsymbol{D}=4 \pi \rho, \quad \operatorname{div} \boldsymbol{B}=0\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_1_MAKSVELLA">\boldsymbol{e}, \boldsymbol{H}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_2_MAKSVELLA">\boldsymbol{d}, \boldsymbol{B}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_3_MAKSVELLA">\rho</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_4_MAKSVELLA">j</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_5_MAKSVELLA">\boldsymbol{d}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_6_MAKSVELLA">\boldsymbol{e}, \boldsymbol{B}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_7_MAKSVELLA">\boldsymbol{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_8_MAKSVELLA">\boldsymbol{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_9_MAKSVELLA">\boldsymbol{j}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_10_MAKSVELLA">\boldsymbol{e}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_11_MAKSVELLA">\boldsymbol{e}, \boldsymbol{H}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/1696_12_MAKSVELLA">\boldsymbol{b}, \boldsymbol{D}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/fme/relation/1696_1_MAKSVELLA">
+      <rel_text>законы сохранения</rel_text>
+      <target>http://libmeta.ru/fme/article/2877_SOHRANENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1696_2_MAKSVELLA">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/fme/article/737_GRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1696_3_MAKSVELLA">
+      <rel_text>циркуляций</rel_text>
+      <target>http://libmeta.ru/fme/article/3404_TsIRKULJaTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/1696_4_MAKSVELLA">
+      <rel_text>материальные уравнения</rel_text>
+      <target>http://libmeta.ru/fme/article/1745_MATERIAL'NYE</target>
+    </relation>
+  </relations>
+  <text>система Уравнений для вычисления напряженностей $URI[[http://libmeta.ru/fme/formula/aux/1696_1_MAKSVELLA]]/URI$ и индукций $URI[[http://libmeta.ru/fme/formula/aux/1696_2_MAKSVELLA]]/URI$ электрического и магнитного полей при известных плотностях заряда $URI[[http://libmeta.ru/fme/formula/aux/1696_3_MAKSVELLA]]/URI$ и стороннего тока $URI[[http://libmeta.ru/fme/formula/aux/1696_4_MAKSVELLA]]/URI$. Эта система включает уравнения
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/1696_1_MAKSVELLA]]/URI
+\]
+
+и связи $URI[[http://libmeta.ru/fme/formula/aux/1696_5_MAKSVELLA]]/URI$ с $URI[[http://libmeta.ru/fme/formula/aux/1696_6_MAKSVELLA]]/URI$ с $URI[[http://libmeta.ru/fme/formula/aux/1696_7_MAKSVELLA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1696_8_MAKSVELLA]]/URI$ с $URI[[http://libmeta.ru/fme/formula/aux/1696_9_MAKSVELLA]]/URI$ и $URI[[http://libmeta.ru/fme/formula/aux/1696_10_MAKSVELLA]]/URI$, называемые ма те р и аль ным и уравнениями. Установлены Дж. Максвеллом
+
+Максвелла 339 (j. Maxwell, 1864). В зависимости от свойств среды URI[[http://libmeta.ru/fme/relation/1696_4_MAKSVELLA]]/URI могут быть линейными или нелинейными, локальными или интегральными. М.у. для URI[[http://libmeta.ru/fme/relation/1696_3_MAKSVELLA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/1696_11_MAKSVELLA]]/URI$ и потоков $URI[[http://libmeta.ru/fme/formula/aux/1696_12_MAKSVELLA]]/URI$ установлены экспериментально и считаются справедливыми для кусочно непрерывных полей. Различные формы М.у., допускаемые ими URI[[http://libmeta.ru/fme/relation/1696_2_MAKSVELLA]]/URI и соответствующие URI[[http://libmeta.ru/fme/relation/1696_1_MAKSVELLA]]/URI см. в [2].</text>
+  <text_orig>система УравнениЙ длЯ вЫчисления напряженностей $\boldsymbol{E}, \boldsymbol{H}$ и индукций $\boldsymbol{D}, \boldsymbol{B}$ электрического и магнитного полей при известных плотностях заряда $\rho$ и стороннего тока $j$. Эта система включает уравнения
+
+\[
+\begin{gathered}
+\operatorname{rot} \boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{c \partial t}, \quad \operatorname{rot} \boldsymbol{H}=\frac{4 \pi \boldsymbol{j}}{c}+\frac{\partial \boldsymbol{D}}{c \partial t}, \\
+\operatorname{div} \boldsymbol{D}=4 \pi \rho, \quad \operatorname{div} \boldsymbol{B}=0
+\end{gathered}
+\]
+
+и связи $\boldsymbol{D}$ с $\boldsymbol{E}, \boldsymbol{B}$ с $\boldsymbol{H}$ и $\boldsymbol{J}$ с $\boldsymbol{j}$ и $\boldsymbol{E}$, называемые ма те р и аль ным и уравнениями. Установлены Дж. Максвеллом
+
+МАКСВЕЛЛА 339 (J. Maxwell, 1864). В зависимости от свойств среды материальные уравнения могут быть линейными или нелинейными, локальными или интегральными. М.у. для циркуляций $\boldsymbol{E}, \boldsymbol{H}$ и потоков $\boldsymbol{B}, \boldsymbol{D}$ установлены экспериментально и считаются справедливыми для кусочно непрерывных полей. Различные формы М.у., допускаемые ими группы и соответствующие законы сохранения см. в [2].
+
+Лит.: [1] Максве лл Дж. К., Избранные сочинения по теории электромагнитного поля, пер. с англ., М., 1952, с. 251-345; [2] Туро в Е. А., Материальные уравнения электродинамики, М., 1983; [3] Фуш и ч В. И., Н и к и т и А. Г., Симметрия уравнений Максвелла, Киев, 1983.</text_orig>
+</article>

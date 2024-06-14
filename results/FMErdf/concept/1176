@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2059_ODNORODNOE">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2059_ODNORODNOE</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/1176</core:url>
+    <lbm:descriptor><![CDATA[ОДНОРОДНОЕ СИМПЛЕКТИЧЕСКОЕ ПРОСТРАНСТВО]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_6843"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_30"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P><a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2754_SIMPLEKTIZATsI">симплектическое</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразие</a> $URI[[http://libmeta.ru/fme/formula/aux/2059_1_ODNORODNOE]]/URI$, на котором <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_737_GRUPP">группа</a> Ли $URI[[http://libmeta.ru/fme/formula/aux/2059_2_ODNORODNOE]]/URI$ <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3110_TRANSLJaTsI">транзитивно</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">действует</a> симплектоморфизмами.<BR/></P><P>Всякое $URI[[http://libmeta.ru/fme/formula/aux/2059_3_ODNORODNOE]]/URI$-однородное симплектич. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI">многообразие</a> локально <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ">изоморфно</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2083_ORBIT">орбите</a> в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1389_KOPRISOEDINENNOE">коприсоединенном представлении</a> группы $URI[[http://libmeta.ru/fme/formula/aux/2059_4_ODNORODNOE]]/URI$ или ее центрального расширения. Соответствующий <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ">изоморфизм</a> задается <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1820_MOMENTA">моментов отображением</a>.<BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[симплектическое многообразие $(M, \omega)$, на котором группа Ли $G$ транзитивно действует симплектоморфизмами.
+
+Всякое $G$-однородное симплектич. многообразие локально изоморфно орбите в коприсоединенном представлении группы $G$ или ее центрального расширения. Соответствующий изоморфизм задается моментов отображением.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1820_MOMENTA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1389_KOPRISOEDINENNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2083_ORBIT"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3110_TRANSLJaTsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_737_GRUPP"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1803_MNOGOOBRAZI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2754_SIMPLEKTIZATsI"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

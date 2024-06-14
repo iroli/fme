@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_2848_SOBSTVENNYJ">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_2848_SOBSTVENNYJ</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/2052</core:url>
+    <lbm:descriptor><![CDATA[СОБСТВЕННЫЙ ВЕКТОР ОПЕРАТОРА $A$]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#15418"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15419"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15420"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15421"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1019"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_78"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_33"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15357"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_47"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_10408"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15422"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15423"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15424"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15366"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15425"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15426"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_15427"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>ненулевой <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> из векторного пространства $URI[[http://libmeta.ru/fme/formula/aux/2848_1_SOBSTVENNYJ]]/URI$, который переводится данным оператором в пропорциональный ему <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a>, то есть<BR/></P><P>\[
+URI[[http://libmeta.ru/fme/formula/main/2848_1_SOBSTVENNYJ]]/URI
+\]<BR/></P><P>где вещественное либо комплексное число $URI[[http://libmeta.ru/fme/formula/aux/2848_2_SOBSTVENNYJ]]/URI$ называется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2844_SOBSTVENNOE">собственным значением оператора</a> $URI[[http://libmeta.ru/fme/formula/aux/2848_3_SOBSTVENNYJ]]/URI$. С. в. операторов, действующих в функциональном пространстве, называются собственными <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA">функциями</a>.<BR/></P><P>Для линейного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> $URI[[http://libmeta.ru/fme/formula/aux/2848_4_SOBSTVENNYJ]]/URI$ множество $URI[[http://libmeta.ru/fme/formula/aux/2848_5_SOBSTVENNYJ]]/URI$ всех С.в., отвечающих одному и тому же собственному значению $URI[[http://libmeta.ru/fme/formula/aux/2848_6_SOBSTVENNYJ]]/URI$, образует линейное <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2279_PODPREDSTAVLENI">подпространство</a>, к-рое называется <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2846_SOBSTVENNOE">собственным подпространством</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> $URI[[http://libmeta.ru/fme/formula/aux/2848_7_SOBSTVENNYJ]]/URI$. Если пространство $URI[[http://libmeta.ru/fme/formula/aux/2848_8_SOBSTVENNYJ]]/URI$ конечномерно ( $URI[[http://libmeta.ru/fme/formula/aux/2848_9_SOBSTVENNYJ]]/URI$-мерно), а матрица преобразования $URI[[http://libmeta.ru/fme/formula/aux/2848_10_SOBSTVENNYJ]]/URI$ эрмитова, то у нее имеется ровно $URI[[http://libmeta.ru/fme/formula/aux/2848_11_SOBSTVENNYJ]]/URI$ различных С. в., отвечающих вещественным собственным значениям.<BR/></P><P>Наличие С. в. у операторов в <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_167_BESKONEChNOMERNOE">бесконечномерных пространствах</a> - явление довольно редкое, хотя для физич. приложений существенно, что <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">операторы</a> специальных классов (интегральные, дифференциальные и т. п.) часто <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладают</a> обширными наборами С. в. Наиболее важным для физики бесконечномерным векторным пространством является пространство $URI[[http://libmeta.ru/fme/formula/aux/2848_12_SOBSTVENNYJ]]/URI$ векторов $URI[[http://libmeta.ru/fme/formula/aux/2848_13_SOBSTVENNYJ]]/URI$ вида $URI[[http://libmeta.ru/fme/formula/aux/2848_14_SOBSTVENNYJ]]/URI$, $URI[[http://libmeta.ru/fme/formula/aux/2848_15_SOBSTVENNYJ]]/URI$ со <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2792_SKALJaRNOE">скалярным произведением</a><BR/></P><P>\[
+URI[[http://libmeta.ru/fme/formula/main/2848_2_SOBSTVENNYJ]]/URI
+\]<BR/></P><P>(черта означает комплексное сопряжение) и соответствующей конечной нормой<BR/></P><P>\[
+URI[[http://libmeta.ru/fme/formula/main/2848_3_SOBSTVENNYJ]]/URI
+\]<BR/></P><P>Это пространство <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ">изоморфно</a> пространству <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_1129_KVADRATIChNO">квадратично интегрируемых</a> функций $URI[[http://libmeta.ru/fme/formula/aux/2848_16_SOBSTVENNYJ]]/URI$ и <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">обладает</a> всеми свойствами последнего. В конечномерных пространствах, наоборот, у всякой $URI[[http://libmeta.ru/fme/formula/aux/2848_17_SOBSTVENNYJ]]/URI$-мерной матрицы $URI[[http://libmeta.ru/fme/formula/aux/2848_18_SOBSTVENNYJ]]/URI$ имеется хотя бы один С. В., отвечающий, вообще говоря, комплексному собственному значению $URI[[http://libmeta.ru/fme/formula/aux/2848_19_SOBSTVENNYJ]]/URI$, а если к тому же матрица $URI[[http://libmeta.ru/fme/formula/aux/2848_20_SOBSTVENNYJ]]/URI$ невырождена <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15425">$$(\operatorname{det} A) \neq 0$$</a>, то у такой матрицы найдутся ровно $URI[[http://libmeta.ru/fme/formula/aux/2848_22_SOBSTVENNYJ]]/URI$ различных комплексных С. В. Это справедливо, в частности, для унитарных конечномерных матриц <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15426">$$a\left(a^{+}=a^{-1}\right)$$</a>. В физич. приложениях часто возникает необходимость разложить произвольный <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектор</a> в сумму по С. в. заданной эрмитовой матрицы $URI[[http://libmeta.ru/fme/formula/aux/2848_24_SOBSTVENNYJ]]/URI$ [напр., привести к диагональному виду <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI">симметричную</a> квадратичную форму <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_15427">$$(x, A x)]$$</a>. Эта задача решается переходом с помощью унитарного преобразования к базису, составленному из С. в. матрицы $URI[[http://libmeta.ru/fme/formula/aux/2848_26_SOBSTVENNYJ]]/URI$. В этом базисе <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI">действие</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI">оператора</a> $URI[[http://libmeta.ru/fme/formula/aux/2848_27_SOBSTVENNYJ]]/URI$ сводится к умножению каждого базисного <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_342_VEKTO">вектора</a> на соответствующее ему собственное значение $URI[[http://libmeta.ru/fme/formula/aux/2848_28_SOBSTVENNYJ]]/URI$. В бесконечномерном случае аналогом этой процедуры диагонализации является так наз. <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2887_SPEKTRAL'NOE">спектральное разложение</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#15418">Л. О. Нехов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[ненулевой вектор из векторного пространства $L$, который переводится данным оператором в пропорциональный ему вектор, то есть
+
+\[
+A x=\lambda x \text {, }
+\]
+
+где вещественное либо комплексное число $\lambda$ называется собственным значением оператора $A$. С. в. операторов, действующих в функциональном пространстве, называются собственными функциями.
+
+Для линейного оператора $A$ множество $L_{\lambda}$ всех С.в., отвечающих одному и тому же собственному значению $\lambda$, образует линейное подпространство, к-рое называется собственным подпространством оператора $A$. Если пространство $L$ конечномерно ( $n$-мерно), а матрица преобразования $A$ эрмитова, то у нее имеется ровно $n$ различных С. в., отвечающих вещественным собственным значениям.
+
+Наличие С. в. у операторов в бесконечномерных пространствах - явление довольно редкое, хотя для физич. приложений существенно, что операторы специальных классов (интегральные, дифференциальные и т. п.) часто обладают обширными наборами С. в. Наиболее важным для физики бесконечномерным векторным пространством является пространство $l^{2}$ векторов $f, g$ вида $\left(a_{1}, a_{2}, \ldots\right)$, $\left(b_{1}, b_{2}, \ldots\right)$ со скалярным произведением
+
+\[
+(f, g)=\sum_{k=1}^{\infty} \bar{a}_{k} b_{k}
+\]
+
+(черта означает комплексное сопряжение) и соответствующей конечной нормой
+
+\[
+\|f\|^{2}=(f, f)<\infty .
+\]
+
+Это пространство изоморфно пространству квадратично интегрируемых функций $L^{2}(-\infty,+\infty)$ и обладает всеми свойствами последнего. В конечномерных пространствах, наоборот, у всякой $n$-мерной матрицы $A$ имеется хотя бы один С. В., отвечающий, вообше говоря, комплексному собственному значению $\lambda$, а если к тому же матрица $A$ невырождена $(\operatorname{det} A) \neq 0$, то у такой матрицы найдутся ровно $n$ различных комплексных С. В. Это справедливо, в частности, для унитарных конечномерных матриц $A\left(A^{+}=A^{-1}\right)$. В физич. приложениях часто возникает необходимость разложить произвольный вектор в сумму по С. в. заданной эрмитовой матрицы $A$ [напр., привести к диагональному виду симметричную квадратичную форму $(x, A x)]$. Эта задача решается переходом с помощью унитарного преобразования к базису, составленному из С. в. матрицы $A$. В этом базисе действие оператора $A$ сводится к умножению каждого базисного вектора на соответствующее ему собственное значение $\lambda$. В бесконечномерном случае аналогом этой процедуры диагонализации является так наз. спектральное разложение.
+
+Л. О. Нехов]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2887_SPEKTRAL'NOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_785_DEJSTVI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2741_SIMMETRIZATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_1129_KVADRATIChNO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_978_IZOMORFIZ"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2792_SKALJaRNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_167_BESKONEChNOMERNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2846_SOBSTVENNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2279_PODPREDSTAVLENI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2078_OPERATsI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_3318_FUNKTsIONA"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2844_SOBSTVENNOE"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_342_VEKTO"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>

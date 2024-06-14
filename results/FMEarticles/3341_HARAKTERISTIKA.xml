@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/fme/article/3341_HARAKTERISTIKA" alphabetic_pos="3343">
+  <title>ХАРАКТЕРИСТИКА ДИФФЕРЕНЦИАЛЬНОГО ОПЕРАТОРА</title>
+  <authors>
+    <author>Б. Ю. Стернин</author>
+    <author>В. Е. Шаталов</author>
+  </authors>
+  <pages>
+    <start>655</start>
+    <end>655</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] М а с ло в В. П., «успехи математич. наук», 1983, т. 38, B. 6 , c. 3-36.</literature_orig>
+    <unit>
+      <author>Маслов В. П.</author>
+      <title>«успехи математич. наук»</title>
+      <publication/>
+      <year>1983</year>
+      <other>т. 38, B. 6, c. 3-36.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/fme/formula/main/3341_1_HARAKTERISTIKA">\dot{x}=H_{p}(x, p), \dot{p}=-H_{x}(x, p) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3341_1_HARAKTERISTIKA">\hat{h}-\hat{A}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3341_2_HARAKTERISTIKA">h(x, p)</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3341_3_HARAKTERISTIKA">\hat{h}</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3341_4_HARAKTERISTIKA">s(x)=</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3341_5_HARAKTERISTIKA">s</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3341_6_HARAKTERISTIKA">h\left(x, \frac{\partial S}{\partial x}\right)=0</formula>
+    <formula uri="http://libmeta.ru/fme/formula/aux/3341_7_HARAKTERISTIKA">h(x, p)</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/fme/relation/3341_1_HARAKTERISTIKA">
+      <rel_text>фазовом пространстве</rel_text>
+      <target>http://libmeta.ru/fme/article/3242_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3341_2_HARAKTERISTIKA">
+      <rel_text>траектории</rel_text>
+      <target>http://libmeta.ru/fme/article/3109_TRAEKTORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3341_3_HARAKTERISTIKA">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3341_4_HARAKTERISTIKA">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3341_5_HARAKTERISTIKA">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/fme/article/2078_OPERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3341_6_HARAKTERISTIKA">
+      <rel_text>частными</rel_text>
+      <target>http://libmeta.ru/fme/article/3412_ChASTOT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/fme/relation/3341_7_HARAKTERISTIKA">
+      <rel_text>теории дифференциальных уравнений</rel_text>
+      <target>http://libmeta.ru/fme/article/873_DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>понятие URI[[http://libmeta.ru/fme/relation/3341_7_HARAKTERISTIKA]]/URI с URI[[http://libmeta.ru/fme/relation/3341_6_HARAKTERISTIKA]]/URI производными. Пусть $URI[[http://libmeta.ru/fme/formula/aux/3341_1_HARAKTERISTIKA]]/URI$-псевдодифференциальный URI[[http://libmeta.ru/fme/relation/3341_5_HARAKTERISTIKA]]/URI с главным символом $URI[[http://libmeta.ru/fme/formula/aux/3341_2_HARAKTERISTIKA]]/URI$. Х а ра к теристиками URI[[http://libmeta.ru/fme/relation/3341_4_HARAKTERISTIKA]]/URI $URI[[http://libmeta.ru/fme/formula/aux/3341_3_HARAKTERISTIKA]]/URI$ называются поверхности $URI[[http://libmeta.ru/fme/formula/aux/3341_4_HARAKTERISTIKA]]/URI$ const с функцией $URI[[http://libmeta.ru/fme/formula/aux/3341_5_HARAKTERISTIKA]]/URI$, удовлетворяющей уравнению Гамильтона - Якоби $URI[[http://libmeta.ru/fme/formula/aux/3341_6_HARAKTERISTIKA]]/URI$. Б и х а р а к т е р и с т и кам и этого URI[[http://libmeta.ru/fme/relation/3341_3_HARAKTERISTIKA]]/URI называются URI[[http://libmeta.ru/fme/relation/3341_2_HARAKTERISTIKA]]/URI системы Гамильтона для гамильтониана $URI[[http://libmeta.ru/fme/formula/aux/3341_7_HARAKTERISTIKA]]/URI$ в URI[[http://libmeta.ru/fme/relation/3341_1_HARAKTERISTIKA]]/URI:
+
+\[
+URI[[http://libmeta.ru/fme/formula/main/3341_1_HARAKTERISTIKA]]/URI
+\]</text>
+  <text_orig>понятие теории дифференциальных уравнений с частными производными. Пусть $\hat{H}-\hat{A}$-псевдодифференциальный оператор с главным символом $H(x, p)$. Х а ра к теристиками оператора $\hat{H}$ называются поверхности $S(x)=$ const с функцией $S$, удовлетворяющей уравнению Гамильтона - Якоби $H\left(x, \frac{\partial S}{\partial x}\right)=0$. Б и х а р а к т е р и с т и кам и этого оператора называются траектории системы Гамильтона для гамильтониана $H(x, p)$ в фазовом пространстве:
+
+\[
+\dot{x}=H_{p}(x, p), \dot{p}=-H_{x}(x, p) .
+\]
+
+Лum.: [1] М а с ло в В. П., «Успехи математич. наук», 1983, т. 38, B. 6 , c. 3-36.
+
+Б. Ю. Стернин, В. Е. Шаталов.</text_orig>
+</article>

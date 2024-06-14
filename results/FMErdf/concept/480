@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lbm="http://libmeta.ru/" xmlns:core="http://libmeta.ru/core">
+  <lbm:Concept rdf:about="http://libmeta.ru/thesaurus/concept/fme_1432_KOShI">
+    <lbm:thesaurus rdf:resource="http://libmeta.ru/thesaurus/528624"/>
+    <lbm:code>fme_1432_KOShI</lbm:code>
+    <core:url>http://libmeta.ru/concept/show/480</core:url>
+    <lbm:descriptor><![CDATA[КОШИ ИНТЕГРАЛ]]></lbm:descriptor>
+    <lbm:comment/>
+    <lbm:properties>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/author_of_the_article">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Person#3576"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4414"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4415"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4417"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4419"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/lit">
+        <lbm:value rdf:resource="http://libmeta.ru/io/Publication#4421"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4422"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4423"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4424"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/mainFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4425"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_37"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_747"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4426"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_1620"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_602"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_737"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4427"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4428"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/additonalFormula">
+        <lbm:value rdf:resource="http://libmeta.ru/thesaurus/Formula_4429"/>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/article">
+        <lbm:value><![CDATA[<P>интегральный оператор вида<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4422">$$(K f)(z)=\frac{1}{2 \pi i} \int_{\partial D} f(\zeta) \frac{d \zeta}{\zeta-z}, \quad z \in D$$</a><BR/></P><P>восстанавливающий значения аналитической функции $URI[[http://libmeta.ru/fme/formula/aux/1432_1_KOShI]]/URI$ в $URI[[http://libmeta.ru/fme/formula/aux/1432_2_KOShI]]/URI$ по ее граничным значениям.<BR/></P><P>К. и. впервые встречается в работах О. Коши (а. Сauchy, 1831) и служит основой для интегральной формулы Коши. Обобщением К. и. на случай разомкнутых контуров и плотностей, не представляющих собой граничные значения аналитич. функций, является сингулярный ин те грал ти па Ко ш и, понимаемый в смысле главного значения.<BR/></P><P>В пространственном случае аналогом К. и. выступает Коши-Лере-Фантаппье интеграл<BR/></P><P>где <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4426">$$\boldsymbol{n}-ф о р м а$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4423">$$(K f)(z)=\frac{1}{(2 \pi i)^{n}} \int_{\gamma} f(\zeta) \frac{\omega^{\prime}(\eta) \wedge \omega(\zeta)}{\langle\eta, \zeta-z\rangle^{n}}$$</a><BR/></P><P>$URI[[http://libmeta.ru/fme/formula/aux/1432_4_KOShI]]/URI$-форма<BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4424">$$\omega(\zeta)=d \zeta^{1} \wedge \ldots \wedge d \zeta^{n}$$</a><BR/></P><P><a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4425">$$\omega^{\prime}(\eta)=\sum_{k=1}(-1)^{k-1} \eta^{k} d \eta^{1} \wedge \ldots \wedge d \eta^{k} \wedge \ldots \wedge d \eta^{n},$$</a><BR/></P><P>a $URI[[http://libmeta.ru/fme/formula/aux/1432_5_KOShI]]/URI$ суть <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_737">$$(2 n-1)$$</a>-мерный цикл пространства <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4427">$$\mathbb{c}_{\zeta}^{n} \mathbb{C}_{\eta}^{n}$$</a>, лежащий над границей <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> <a href="/object/show?uri=http://libmeta.ru/thesaurus/Formula_4428">$$d \subset \mathbb{C}_{\zeta}^{n}$$</a> и накрывающий ее один ра3. Для конкретной <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">области</a> $URI[[http://libmeta.ru/fme/formula/aux/1432_9_KOShI]]/URI$ этот интеграл дает возможность построения целого класса интегральных представлений, среди к-рых наиболее важны для приложений представители с <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI">голоморфным</a> ядром. В настоящее время имеются явные формулы для шара, полидиска, аналитич. полиэдров, строго <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2449_PSEVDOMETRIK">псевдовыпуклых</a> <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">областей</a>, трубчатых <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">областей</a> над конусом, <a href="/concept/show?uri=http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST">областей</a> Дайсона и др.<BR/></P><P><i>Лит.</i>: <a href="/object/show?uri=http://libmeta.ru/io/Publication#4414">[1]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4412">Айзенберг Л. А.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4413">Южаков А. П.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4414">Интегральные представления и вычеты в многомерном комплексном анализе, Новосибирск, 1979</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#4415">[2]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#537">Владимиров В. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4415">Обобщенные функции в математической физике, 2 изд., М., 1979</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#4417">[3]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4416">Шабат Б. В.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4417">Введение в комплексный анализ, 3 изд., ч. 1-2, М., 1985</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#4419">[4]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#537">Владимиров В. С.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Person#4418">Сергеев А. Г.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4419">в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, М., 1985, т. 8, с. 191-266</a>; <a href="/object/show?uri=http://libmeta.ru/io/Publication#4421">[5]</a> <a href="/object/show?uri=http://libmeta.ru/io/Person#4420">Хенкин Г. М.</a>, <a href="/object/show?uri=http://libmeta.ru/io/Publication#4421">там же, М., 1985, т. 7, c. $23-124$</a>.<BR/></P><P><i><a href="/object/show?uri=http://libmeta.ru/io/Person#3576">Ю. Е. Хохлов</a>.</i><BR/></P>]]></lbm:value>
+      </lbm:property>
+      <lbm:property rdf:resource="http://libmeta.ru/thesaurus/attribute/original_text">
+        <lbm:value><![CDATA[интегральный оператор вида
+
+\[
+(K f)(z)=\frac{1}{2 \pi i} \int_{\partial D} f(\zeta) \frac{d \zeta}{\zeta-z}, \quad z \in D
+\]
+
+восстанавливающий значения аналитической функции $f$ в $D$ по ее граничным значениям.
+
+К. и. впервые встречается в работах О. Коши (А. Сauchy, 1831) и служит основой для интегральной формулы Коши. Обобщением К. и. на случай разомкнутых контуров и плотностей, не представляющих собой граничные значения аналитич. функций, является сингулярный ин те грал ти па Ко ш и, понимаемый в смысле главного значения.
+
+В пространственном случае аналогом К. и. выступает Коши-Лере-Фантаппье интеграл
+
+где $\boldsymbol{n}-ф о р м а$
+
+\[
+(K f)(z)=\frac{1}{(2 \pi i)^{n}} \int_{\gamma} f(\zeta) \frac{\omega^{\prime}(\eta) \wedge \omega(\zeta)}{\langle\eta, \zeta-z\rangle^{n}}
+\]
+
+$(n-1)$-форма
+
+\[
+\omega(\zeta)=d \zeta^{1} \wedge \ldots \wedge d \zeta^{n}
+\]
+
+\[
+\omega^{\prime}(\eta)=\sum_{k=1}(-1)^{k-1} \eta^{k} d \eta^{1} \wedge \ldots \wedge d \eta^{k} \wedge \ldots \wedge d \eta^{n},
+\]
+
+a $\gamma$ суть $(2 n-1)$-мерный цикл пространства $\mathbb{C}_{\zeta}^{n} \mathbb{C}_{\eta}^{n}$, лежащий над границей области $D \subset \mathbb{C}_{\zeta}^{n}$ и накрывающий ее один ра3. Для конкретной области $D \subset \mathbb{C}^{n}$ этот интеграл дает возможность построения целого класса интегральных представлений, среди к-рых наиболее важны для приложений представители с голоморфным ядром. В настоящее время имеются явные формулы для шара, полидиска, аналитич. полиэдров, строго псевдовыпуклых областей, трубчатых областей над конусом, областей Дайсона и др.
+
+Лит.: [1] Айзен бе рг Л. А., Южаков А. П., Интегральные представления и вычеты в многомерном комплексном анализе, Новосибирск, 1979; [2] В лад и м и ро в В. С., Обобщенные функции в математической физике, 2 изд., М., 1979; [3] Ш а ба т Б. В., Введение в комплексный анализ, 3 изд., ч. 1-2, М., 1985; [4] В л а д и м и ров В. С., Серге е в А. Г., в кн.: Итоги науки и техники. Современные проблемы математики. Фундаментальные направления, т. 8, М., 1985, с. 191-266; [5] Хе н к и н Г. М., там же, т. 7, М., 1985 , c. $23-124$
+
+Ю. Е. Хохлов.]]></lbm:value>
+      </lbm:property>
+    </lbm:properties>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2449_PSEVDOMETRIK"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_672_GOLOVASTI"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+    <lbm:familyRelation type="http://libmeta.ru/relation/family#related">
+      <lbm:value rdf:resource="http://libmeta.ru/thesaurus/concept/fme_2006_OBLAST"/>
+    </lbm:familyRelation>
+  </lbm:Concept>
+</rdf:RDF>
