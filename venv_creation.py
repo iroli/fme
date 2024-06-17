@@ -17,8 +17,8 @@ subprocess.check_call([sys.executable, '-m', 'venv', venv_name])
 
 
 input('\n\nDone.\n\n'
-      'If you\'re working in an IDE please configure environment (interpreter) there and run requirements.py\n\n'
-      'If you\'re working from terminal / command line / powershell,\n'
+      '\n\nIf you\'re working in an IDE please configure environment (interpreter) there and run requirements.py\n\n'
+      '\nIf you\'re working from terminal / command line / powershell,\n'
       'please run following commands to activate the environment, then run requirements.py:\n\n'
       'For Windows:\n'
       f'.\\{venv_name}\\Scripts\\activate\n\n'
