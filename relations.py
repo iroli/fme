@@ -1,15 +1,15 @@
 # 9. Парсер ссылок типа "смотри также"
 
+from lib import *
+
 # -------------------------- VARS --------------------------------
-ARTICLES_DIR = "./results/MEarticles/"
+ARTICLES_DIR = GLOBAL_RESULTS_DIR + GLOBAL_ARTICLES_DIR
 STRICT_SEQUENCING = False  # DEFAULT: False; Links with changed order of words will also be found if False
 BRUTE_FORCE_MODE = True  # Maximum amount of links to find, but takes more time (very slow)
 USE_MULTIPROCESSING = True  # WARNING: Does not work inside Jupyter!!!; Significantly speeds up scanning process
 KEEP_FREE = 0  # Make multiprocessing keep free a specified amount of logic processors, if needed.
 # ----------------------------------------------------------------
 
-
-from lib import *
 
 number_of_processors = max(1, os.cpu_count() - KEEP_FREE)
 matches_list = []

@@ -34,6 +34,8 @@ import os
 import datetime
 # noinspection PyUnresolvedReferences
 from latex2mathml.converter import convert as tex2mml
+# noinspection PyUnresolvedReferences
+from preferences import *
 
 
 # Small dictionaries merger
@@ -86,8 +88,8 @@ XML_EXCLUDES = {
     '&gt;': '>',
     '&amp;': '&'
 }
-PERSONAL_WORD_LIST = "./mathenc/PWL.txt"
-URI_PREFIX = "http://libmeta.ru/me/"
+PERSONAL_WORD_LIST = GLOBAL_WORK_DIR + GLOBAL_PERSONAL_WORD_LIST
+URI_PREFIX = GLOBAL_URI_PREFIX
 # ----------------------------------------------------------------
 
 
@@ -288,7 +290,7 @@ def check_in_formula(text_to_check: str, pos_to_check: int) -> bool:
     in_aux = not ((found_before + cntr) % 2) and found_before > 0
     return in_main or in_aux
 
-print(enchant)
+
 # Prepare spellcheckers
 ru_dict = enchant.DictWithPWL("ru_RU", PERSONAL_WORD_LIST)
 ru_checker = SpellChecker(ru_dict, filters=[EmailFilter, URLFilter])

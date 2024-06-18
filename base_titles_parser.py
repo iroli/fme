@@ -14,9 +14,9 @@ import codecs
 from lib import *
 
 # -------------------------- VARS --------------------------------
-PAGES_DIR = "./mathenc/rpagesV3/"
-EXIT_DIR = "./mathenc/"
-EXIT_FILE = "MEv2.xml"
+PAGES_DIR = GLOBAL_WORK_DIR + GLOBAL_PAGES_DIR
+EXIT_DIR = GLOBAL_WORK_DIR
+EXIT_FILE = BASE_TITLES_PARSER_OUTPUT_FILE
 # First and last pages to be parsed
 START_PAGE = 501
 END_PAGE = 593
