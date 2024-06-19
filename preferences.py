@@ -23,23 +23,6 @@ GLOBAL_RESULTS_DIR = "./fme_results/"
 # Должна быть расположена внутри GLOBAL_WORK_DIR.
 GLOBAL_PAGES_DIR = "rpages/"
 
-# Параметры префиксов ссылок и URI финального преобразования в формат RDF:
-# Resources links
-RDF_RESOURCE_CONCEPT = "http://libmeta.ru/thesaurus/528624"
-RDF_RESOURCE_PERSON = "http://libmeta.ru/resource/person"
-RDF_RESOURCE_PUBLICATION = "http://libmeta.ru/resource/publication"
-RDF_RESOURCE_FORMULA = "http://libmeta.ru/resource/Formula"
-# Uri prefixes
-RDF_CORE_URL = "http://libmeta.ru/concept/show/"
-RDF_CONCEPTS_URI_POSTPREFIX = "fme_"
-RDF_CONCEPTS_URI_PREFIX = "http://libmeta.ru/thesaurus/concept/"
-RDF_PERSONS_URI_PREFIX = "http://libmeta.ru/io/Person#"
-RDF_PUBLICATIONS_URI_PREFIX = "http://libmeta.ru/io/Publication#"
-RDF_FORMULAS_URI_PREFIX = "http://libmeta.ru/thesaurus/Formula_"
-# Filename and uri ranges
-RDF_CONCEPTS_NUM_RANGE = (1, 99999)
-RDF_OBJECTS_NUM_RANGE = (1, 99999)
-
 
 # -------------- КОТОРЫЕ СКОРЕЕ ВСЕГО НЕ НУЖНО МЕНЯТЬ -----------------
 
