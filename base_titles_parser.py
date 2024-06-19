@@ -14,12 +14,16 @@ import codecs
 from lib import *
 
 # -------------------------- VARS --------------------------------
-PAGES_DIR = GLOBAL_WORK_DIR + GLOBAL_PAGES_DIR
-EXIT_DIR = GLOBAL_WORK_DIR
-EXIT_FILE = BASE_TITLES_PARSER_OUTPUT_FILE
+# ----------------------------------------------------------------
+# ----------------------------------------------------------------
 # First and last pages to be parsed
 START_PAGE = 501
 END_PAGE = 593
+# ----------------------------------------------------------------
+# ----------------------------------------------------------------
+PAGES_DIR = GLOBAL_WORK_DIR + GLOBAL_PAGES_DIR
+EXIT_DIR = GLOBAL_WORK_DIR
+EXIT_FILE = BASE_TITLES_PARSER_OUTPUT_FILE
 # How many words to display before and after a potential title
 LEAD_WORDS = 5
 AFT_WORDS = 5
