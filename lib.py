@@ -1,5 +1,5 @@
 # 0. Общий код
-
+from typing import Tuple
 # noinspection PyUnresolvedReferences
 from os import walk
 # noinspection PyUnresolvedReferences
@@ -151,7 +151,7 @@ def parse_xml(file_name: str) -> ElementTree.Element:
 
 
 # !!!BUG!!! for some reason newlines disappear in texts in parsed xml, so extract article texts manually and replace
-def get_texts(file_name: str) -> tuple[str, str]:
+def get_texts(file_name: str) -> Tuple[str, str]:
     with codecs.open(file_name, 'r', 'utf-8') as f_in:
         file_content = f_in.read()
     text_local = file_content[file_content.find('<text>') + 6:file_content.find('</text>')]
