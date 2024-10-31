@@ -42,7 +42,7 @@ def find_next_space(work_text: str, start_pos: int) -> int:
 
 
 # Try to find a matching title to the given one
-def find_matching_title(sequence_list: list) -> (bool, bool, bool, int):
+def find_matching_title(sequence_list: list) -> tuple[bool, bool, bool, int]:
     match_possible_local = False
     global matches_list
     global titles_list
