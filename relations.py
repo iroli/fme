@@ -1,4 +1,5 @@
 # 9. Парсер ссылок типа "смотри также"
+import xml.etree.ElementTree
 
 from lib import *
 
@@ -214,12 +215,16 @@ def loop(filenames_loc: list) -> int:
                         if match_exact_loc:
                             _match_single_loc = False
                             # Add an inter-link
-                            related_article_loc = parse_xml(ARTICLES_DIR + articles_list[match_pos_loc])
-                            relation_obj = Relation()
-                            relation_obj.start = border_left_loc
-                            relation_obj.end = border_right_loc
-                            relation_obj.tgt = related_article_loc.attrib['uri']
-                            relations_list.append((border_left_loc, relation_obj))
+                            try:
+                                related_article_loc = parse_xml(ARTICLES_DIR + articles_list[match_pos_loc])
+                                relation_obj = Relation()
+                                relation_obj.start = border_left_loc
+                                relation_obj.end = border_right_loc
+                                relation_obj.tgt = related_article_loc.attrib['uri']
+                                relations_list.append((border_left_loc, relation_obj))
+                            except xml.etree.ElementTree.ParseError:
+                                # Related article parsing error
+                                pass
                             # Continue in case of multilink
                             if not BRUTE_FORCE_MODE:
                                 border_left_loc = border_right_loc
@@ -286,8 +291,9 @@ if __name__ != '__main__':
     for filename in tqdm(filenames):
         article = parse_xml(ARTICLES_DIR + filename)
         title = get_xml_elem(article, 'title').text
-        titles_list.append([title_word.upper().strip(' \n\r.,;:!?\\()[]{}&') for title_word in title.split(' ')])
-        articles_list.append(filename)
+        if title is not None and len(title):
+            titles_list.append([title_word.upper().strip(' \n\r.,;:!?\\()[]{}&') for title_word in title.split(' ')])
+            articles_list.append(filename)
 
 
 def run():
