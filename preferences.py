@@ -5,23 +5,23 @@
 
 # Префикс, использующийся для формирования uri и url в ходе обработки.
 # Пример: "http://libmeta.ru/fme/".
-GLOBAL_URI_PREFIX = "http://libmeta.ru/fme/"
+GLOBAL_URI_PREFIX = "http://libmeta.ru/me/"
 
 # Указание на рабочую папку,
 # в которую будут помещены предварительный результат разметки заголовков,
 # предварительный результат проверки орфографии и т.д.
 # Пример: "./matphys/".
-GLOBAL_WORK_DIR = "./matphys/"
+GLOBAL_WORK_DIR = "./mathenc/"
 
 # Указание на папку, в которую будут записаны результаты,
 # такие как файлы размеченных и обработанных заголовков, индивидуальные файлы статей и т.д.
 # Пример: "./fme_results/".
-GLOBAL_RESULTS_DIR = "./fme_results/"
+GLOBAL_RESULTS_DIR = "./me_results/"
 
 # Указание на папку с исходными оцифрованными текстами.
 # Пример: "rpages/"
 # Должна быть расположена внутри GLOBAL_WORK_DIR.
-GLOBAL_PAGES_DIR = "rpages/"
+GLOBAL_PAGES_DIR = "rpagesV5/"
 
 
 # -------------- КОТОРЫЕ СКОРЕЕ ВСЕГО НЕ НУЖНО МЕНЯТЬ -----------------
@@ -59,7 +59,8 @@ BASE_TITLES_PARSER_OUTPUT_FILE = "titles-raw.xml"
 # Имя файла для записи предварительных результата разметки заголовка.
 # Пример: "titles-added-manually.xml" (по умолчанию), "titles-raw.xml".
 # Будет расположен внутри GLOBAL_WORK_DIR.
-SINGLE_TITLE_PARSER_OUTPUT_FILE = "titles-added-manually.xml"
+SINGLE_TITLE_PARSER_OUTPUT_FILE = ""
+#SINGLE_TITLE_PARSER_OUTPUT_FILE = "titles-added-manually.xml"
 
 # Имя файла, в который будут записаны результаты предварительной обработки и исправления ошибок в заголовках.
 # Пример: "titles-corr.xml" (по умолчанию).
@@ -79,7 +80,7 @@ GLOBAL_URI_CACHE = "titles-uri-cache.xml"
 # Имя файла для записи результата слития файлов с обработанными заголовками.
 # Пример: "titles-merged.xml" (по умолчанию).
 # Будет расположен внутри GLOBAL_RESULTS_DIR.
-GLOBAL_MERGED_TITLES_FILE = "titles-merged.xml"
+GLOBAL_MERGED_TITLES_FILE = "titles-mergedV5.xml"
 
 # Имя файла, в который будет записан общий список формул со всех статей.
 # Пример: "formulas-extracted.xml" (по умолчанию).
