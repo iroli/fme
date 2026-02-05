@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from rdflib import Graph, URIRef, Literal, Namespace
 from rdflib.namespace import RDF, RDFS, XSD
 import uuid
+import hashlib
 from tqdm.auto import tqdm
 
 # Настройка пространств имен RDF
@@ -12,6 +13,8 @@ PERSON_NS = Namespace("http://libmeta.ru/person/")
 PUBLICATION_NS = Namespace("http://libmeta.ru/publication/")
 FORMULA_NS = Namespace("http://libmeta.ru/fme/formula/")
 SOURCE_NS = Namespace("http://libmeta.ru/source/")
+ARTICLE_NS = Namespace("http://libmeta.ru/article/")
+TERM_NS = Namespace("http://libmeta.ru/term/")
 
 # Определение собственных классов и свойств
 class_ns = Namespace("http://libmeta.ru/ontology/")
@@ -38,6 +41,41 @@ used_in_text = class_ns.used_in_text
 taken_from = class_ns.taken_from
 contained_in = class_ns.contained_in
 has_relation_text = class_ns.has_relation_text
+has_original_uri = class_ns.has_original_uri
+has_source = class_ns.has_source
+
+def normalize_term_name(name):
+    """Нормализация имени термина для URI"""
+    # Удаляем лишние пробелы, приводим к нижнему регистру
+    # и заменяем пробелы на подчеркивания
+    if not name:
+        return "untitled"
+    
+    # Удаляем специальные символы, оставляем только буквы, цифры и пробелы
+    normalized = re.sub(r'[^\w\s]', '', name, flags=re.UNICODE)
+    # Заменяем пробелы на подчеркивания и приводим к нижнему регистру
+    normalized = normalized.strip().lower().replace(' ', '_')
+    # Если после нормализации строка пустая, создаем хэш
+    if not normalized:
+        normalized = hashlib.md5(name.encode()).hexdigest()[:10]
+    
+    return normalized
+
+def generate_article_uri(title, source_name):
+    """Генерация уникального URI для статьи"""
+    # Нормализуем название
+    norm_title = normalize_term_name(title)
+    # Создаем уникальный идентификатор
+    unique_id = str(uuid.uuid4())[:8]
+    
+    # Создаем URI с учетом источника
+    uri = f"{ARTICLE_NS}{source_name}/{norm_title}_{unique_id}"
+    return URIRef(uri)
+
+def generate_term_uri(term_name):
+    """Генерация URI для термина"""
+    norm_name = normalize_term_name(term_name)
+    return URIRef(f"{TERM_NS}{norm_name}")
 
 def extract_uri_from_brackets(text):
     """Извлечение URI из формата URI[[...]]/URI"""
@@ -46,42 +84,53 @@ def extract_uri_from_brackets(text):
     uris = re.findall(r'URI\[\[(.*?)\]\]/URI', text)
     return uris
 
-def process_article_xml(xml_path, graph, processed_articles=None):
+def process_article_xml(xml_path, graph, source_uri, source_name):
     """Обработка одного XML файла статьи"""
-    if processed_articles is None:
-        processed_articles = set()
     
     tree = ET.parse(xml_path)
     root = tree.getroot()
     
-    # URI статьи
-    article_uri = URIRef(root.get('uri'))
+    # Оригинальный URI статьи
+    original_uri = root.get('uri')
     
-    # Пропуск, если статья уже обработана
-    if article_uri in processed_articles:
-        return graph, processed_articles
+    # Название статьи
+    title = root.find('title').text
+    if not title:
+        title = "Без названия"
     
-    processed_articles.add(article_uri)
+    # Генерация нового URI для статьи
+    article_uri = generate_article_uri(title, source_name)
+    
+    # Проверяем, не обрабатывали ли мы уже эту статью
+    # (по оригинальному URI)
+    existing_articles = list(graph.subjects(has_original_uri, URIRef(original_uri)))
+    if existing_articles:
+        # Статья уже существует, возвращаем её URI
+        return graph, existing_articles[0]
     
     # Тип статьи
     graph.add((article_uri, RDF.type, Article_Ru))
     
-    # Название статьи (Term)
-    title = root.find('title').text
+    # Сохраняем оригинальный URI
+    graph.add((article_uri, has_original_uri, URIRef(original_uri)))
+    
+    # Название статьи
     graph.add((article_uri, has_title, Literal(title)))
     
-    # Term содержится в статье
-    term_uri = URIRef(f"{article_uri}#term")
+    # Термин (может быть связан с несколькими статьями)
+    term_uri = generate_term_uri(title)
     graph.add((term_uri, RDF.type, Term))
     graph.add((term_uri, has_title, Literal(title)))
-    graph.add((article_uri, contained_in, term_uri))
+    graph.add((term_uri, contained_in, article_uri))
     
     # Авторы статьи
     authors_elem = root.find('authors')
     if authors_elem is not None:
         for author_elem in authors_elem.findall('author'):
             author_name = author_elem.text.strip()
-            author_uri = URIRef(PERSON_NS[author_name.replace(' ', '_')])
+            # Создаем уникальный идентификатор для автора
+            author_id = hashlib.md5(author_name.encode()).hexdigest()[:10]
+            author_uri = URIRef(f"{PERSON_NS}{author_id}")
             
             graph.add((author_uri, RDF.type, Person))
             graph.add((author_uri, has_name, Literal(author_name)))
@@ -109,38 +158,52 @@ def process_article_xml(xml_path, graph, processed_articles=None):
             year_elem = unit_elem.find('year')
             
             if author_elem is not None and title_elem is not None:
-                pub_id = f"{author_elem.text.replace(' ', '_')}_{title_elem.text.replace(' ', '_')}"
+                # Создаем уникальный ID для публикации
+                pub_data = f"{author_elem.text}_{title_elem.text}"
                 if year_elem is not None and year_elem.text:
-                    pub_id += f"_{year_elem.text}"
+                    pub_data += f"_{year_elem.text}"
                 
-                publication_uri = URIRef(PUBLICATION_NS[pub_id])
-                graph.add((publication_uri, RDF.type, Publication))
+                pub_id = hashlib.md5(pub_data.encode()).hexdigest()[:12]
+                publication_uri = URIRef(f"{PUBLICATION_NS}{pub_id}")
                 
-                # Автор публикации
-                if author_elem.text:
-                    pub_author_name = author_elem.text.strip()
-                    pub_author_uri = URIRef(PERSON_NS[pub_author_name.replace(' ', '_')])
-                    graph.add((pub_author_uri, RDF.type, Person))
-                    graph.add((pub_author_uri, has_name, Literal(pub_author_name)))
-                    graph.add((publication_uri, has_author, pub_author_uri))
+                # Проверяем, существует ли уже эта публикация
+                existing_pubs = list(graph.subjects(RDF.type, Publication))
+                existing_titles = [str(graph.value(pub, has_title)) for pub in existing_pubs]
                 
-                # Название публикации
-                if title_elem.text:
-                    graph.add((publication_uri, has_title, Literal(title_elem.text)))
-                
-                # Информация о публикации
-                pub_info_elem = unit_elem.find('publication')
-                if pub_info_elem is not None and pub_info_elem.text:
-                    graph.add((publication_uri, has_publication_info, Literal(pub_info_elem.text)))
-                
-                # Год
-                if year_elem is not None and year_elem.text:
-                    graph.add((publication_uri, has_year, Literal(year_elem.text, datatype=XSD.integer)))
-                
-                # Другая информация
-                other_elem = unit_elem.find('other')
-                if other_elem is not None and other_elem.text:
-                    graph.add((publication_uri, has_other_info, Literal(other_elem.text)))
+                if str(title_elem.text) not in existing_titles:
+                    graph.add((publication_uri, RDF.type, Publication))
+                    
+                    # Автор публикации
+                    if author_elem.text:
+                        pub_author_name = author_elem.text.strip()
+                        pub_author_id = hashlib.md5(pub_author_name.encode()).hexdigest()[:10]
+                        pub_author_uri = URIRef(f"{PERSON_NS}{pub_author_id}")
+                        
+                        # Добавляем автора, если его еще нет
+                        existing_authors = list(graph.subjects(has_name, Literal(pub_author_name)))
+                        if not existing_authors:
+                            graph.add((pub_author_uri, RDF.type, Person))
+                            graph.add((pub_author_uri, has_name, Literal(pub_author_name)))
+                        
+                        graph.add((publication_uri, has_author, pub_author_uri))
+                    
+                    # Название публикации
+                    if title_elem.text:
+                        graph.add((publication_uri, has_title, Literal(title_elem.text)))
+                    
+                    # Информация о публикации
+                    pub_info_elem = unit_elem.find('publication')
+                    if pub_info_elem is not None and pub_info_elem.text:
+                        graph.add((publication_uri, has_publication_info, Literal(pub_info_elem.text)))
+                    
+                    # Год
+                    if year_elem is not None and year_elem.text:
+                        graph.add((publication_uri, has_year, Literal(year_elem.text, datatype=XSD.integer)))
+                    
+                    # Другая информация
+                    other_elem = unit_elem.find('other')
+                    if other_elem is not None and other_elem.text:
+                        graph.add((publication_uri, has_other_info, Literal(other_elem.text)))
                 
                 # Связь статьи с публикацией
                 graph.add((article_uri, refers_to, publication_uri))
@@ -149,25 +212,31 @@ def process_article_xml(xml_path, graph, processed_articles=None):
     formulas_main_elem = root.find('formulas_main')
     if formulas_main_elem is not None:
         for formula_elem in formulas_main_elem.findall('formula'):
-            formula_uri = URIRef(formula_elem.get('uri'))
-            graph.add((formula_uri, RDF.type, Formula))
-            
-            if formula_elem.text:
-                graph.add((formula_uri, has_formula_text, Literal(formula_elem.text)))
-            
-            graph.add((article_uri, used_in_text, formula_uri))
+            formula_text = formula_elem.text
+            if formula_text:
+                # Создаем URI для формулы на основе её текста
+                formula_id = hashlib.md5(formula_text.encode()).hexdigest()[:12]
+                formula_uri = URIRef(f"{FORMULA_NS}{formula_id}")
+                
+                # Проверяем, существует ли уже такая формула
+                existing_formulas = list(graph.subjects(has_formula_text, Literal(formula_text)))
+                if not existing_formulas:
+                    graph.add((formula_uri, RDF.type, Formula))
+                    graph.add((formula_uri, has_formula_text, Literal(formula_text)))
+                
+                graph.add((article_uri, used_in_text, formula_uri))
     
-    # Вспомогательные формулы
-    #formulas_aux_elem = root.find('formulas_aux')
-    #if formulas_aux_elem is not None:
-    #    for formula_elem in formulas_aux_elem.findall('formula'):
-    #        formula_uri = URIRef(formula_elem.get('uri'))
-    #        graph.add((formula_uri, RDF.type, Formula))
-    #        
-    #        if formula_elem.text:
-    #            graph.add((formula_uri, has_formula_text, Literal(formula_elem.text)))
-    #        
-    #        graph.add((article_uri, used_in_text, formula_uri))
+    # Вспомогательные формулы - ЗАКОММЕНТИРОВАНО
+    # formulas_aux_elem = root.find('formulas_aux')
+    # if formulas_aux_elem is not None:
+    #     for formula_elem in formulas_aux_elem.findall('formula'):
+    #         formula_uri = URIRef(formula_elem.get('uri'))
+    #         graph.add((formula_uri, RDF.type, Formula))
+    #         
+    #         if formula_elem.text:
+    #             graph.add((formula_uri, has_formula_text, Literal(formula_elem.text)))
+    #         
+    #         graph.add((article_uri, used_in_text, formula_uri))
     
     # Связи с другими статьями
     relations_elem = root.find('relations')
@@ -177,10 +246,21 @@ def process_article_xml(xml_path, graph, processed_articles=None):
             target_elem = relation_elem.find('target')
             
             if target_elem is not None and target_elem.text:
-                target_uri = URIRef(target_elem.text)
+                target_original_uri = target_elem.text
                 
-                # Создаем связанную статью (если еще не существует)
-                graph.add((target_uri, RDF.type, Article_Ru))
+                # Ищем, есть ли уже статья с таким оригинальным URI
+                existing_targets = list(graph.subjects(has_original_uri, URIRef(target_original_uri)))
+                
+                if existing_targets:
+                    # Статья уже есть, используем её URI
+                    target_uri = existing_targets[0]
+                else:
+                    # Создаем временный URI для будущей статьи
+                    # (будет заменен при обработке той статьи)
+                    target_id = hashlib.md5(target_original_uri.encode()).hexdigest()[:12]
+                    target_uri = URIRef(f"{ARTICLE_NS}temporary_{target_id}")
+                    graph.add((target_uri, RDF.type, Article_Ru))
+                    graph.add((target_uri, has_original_uri, URIRef(target_original_uri)))
                 
                 # Добавляем связь
                 graph.add((article_uri, relevant_article, target_uri))
@@ -200,25 +280,50 @@ def process_article_xml(xml_path, graph, processed_articles=None):
             
             # Определяем тип URI
             if 'formula' in uri:
+                # Для формул создаем объект Formula
                 graph.add((uri_ref, RDF.type, Formula))
                 graph.add((article_uri, used_in_text, uri_ref))
             elif 'article' in uri:
-                graph.add((uri_ref, RDF.type, Article_Ru))
-                graph.add((article_uri, relevant_article, uri_ref))
+                # Для статей ищем или создаем Article_Ru
+                existing_articles = list(graph.subjects(has_original_uri, uri_ref))
+                if existing_articles:
+                    target_article = existing_articles[0]
+                else:
+                    # Создаем временную статью
+                    target_id = hashlib.md5(str(uri_ref).encode()).hexdigest()[:12]
+                    target_article = URIRef(f"{ARTICLE_NS}temporary_{target_id}")
+                    graph.add((target_article, RDF.type, Article_Ru))
+                    graph.add((target_article, has_original_uri, uri_ref))
+                
+                graph.add((article_uri, relevant_article, target_article))
     
-    # Источник (предполагаем, что это физико-математическая энциклопедия)
-    source_uri = URIRef(SOURCE_NS["fme"])
-    graph.add((source_uri, RDF.type, Source))
-    graph.add((source_uri, has_title, Literal("Физико-математическая энциклопедия")))
-    graph.add((article_uri, taken_from, source_uri))
+    # Источник
+    graph.add((article_uri, has_source, source_uri))
     
-    return graph, processed_articles
+    return graph, article_uri
 
 def xml_to_rdf(input_dir, output_dir):
     """Преобразование всех XML файлов в RDF"""
     
     # Создаем выходную директорию, если не существует
     os.makedirs(output_dir, exist_ok=True)
+    
+    # Запрос информации об источнике у пользователя
+    print("=" * 60)
+    print("ПРЕОБРАЗОВАНИЕ XML В RDF")
+    print("=" * 60)
+    
+    source_name = input("Введите название источника (например, 'fme'): ").strip()
+    if not source_name:
+        source_name = "unknown_source"
+    
+    source_title = input("Введите полное название источника (например, 'Физико-математическая энциклопедия'): ").strip()
+    if not source_title:
+        source_title = f"Источник: {source_name}"
+    
+    # Создаем URI для источника
+    source_id = normalize_term_name(source_name)
+    source_uri = URIRef(f"{SOURCE_NS}{source_id}")
     
     # Инициализация графа
     graph = Graph()
@@ -227,26 +332,37 @@ def xml_to_rdf(input_dir, output_dir):
     output_file = os.path.join(output_dir, "articles.rdf")
     if os.path.exists(output_file):
         graph.parse(output_file, format="turtle")
-        print(f"Загружен существующий граф из {output_file}")
+        print(f"\nЗагружен существующий граф из {output_file}")
     
-    # Множество обработанных статей (для избежания дублирования)
-    processed_articles = set()
+    # Добавляем источник в граф
+    graph.add((source_uri, RDF.type, Source))
+    graph.add((source_uri, has_title, Literal(source_title)))
     
     # Находим все XML файлы
     xml_files = [f for f in os.listdir(input_dir) if f.endswith('.xml')]
     
-    print(f"Найдено {len(xml_files)} XML файлов для обработки")
+    print(f"\nНайдено {len(xml_files)} XML файлов для обработки")
+    print(f"Источник: {source_title} ({source_uri})")
+    print("-" * 60)
     
-    # Обработка каждого файла
-    for xml_file in tqdm(xml_files):
+    if not xml_files:
+        print("Нет XML файлов для обработки.")
+        return graph
+    
+    # Обработка каждого файла с прогресс-баром
+    processed_count = 0
+    skipped_count = 0
+    
+    for xml_file in tqdm(xml_files, desc="Обработка XML файлов"):
         xml_path = os.path.join(input_dir, xml_file)
-        #print(f"Обработка файла: {xml_file}")
         
         try:
-            graph, processed_articles = process_article_xml(xml_path, graph, processed_articles)
-            #print(f"  ✓ Успешно обработан")
+            graph, article_uri = process_article_xml(xml_path, graph, source_uri, source_name)
+            processed_count += 1
+            # Закомментировано: print(f"  ✓ Успешно обработан: {xml_file}")
         except Exception as e:
-            print(f"  ✗ Ошибка при обработке {xml_file}: {str(e)}")
+            print(f"\n✗ Ошибка при обработке {xml_file}: {str(e)}")
+            skipped_count += 1
     
     # Сохранение графа
     graph.bind("fme", FME)
@@ -254,24 +370,45 @@ def xml_to_rdf(input_dir, output_dir):
     graph.bind("publication", PUBLICATION_NS)
     graph.bind("formula", FORMULA_NS)
     graph.bind("source", SOURCE_NS)
+    graph.bind("article", ARTICLE_NS)
+    graph.bind("term", TERM_NS)
     graph.bind("ontology", class_ns)
     
     # Сохраняем в нескольких форматах для удобства
     graph.serialize(destination=output_file, format="turtle")
-    print(f"Граф сохранен в {output_file}")
     
     # Также сохраняем в XML/RDF для совместимости
     xml_output = os.path.join(output_dir, "articles.xml")
     graph.serialize(destination=xml_output, format="xml")
-    print(f"Граф также сохранен в {xml_output}")
     
     # Статистика
-    print("\n=== СТАТИСТИКА ===")
-    print(f"Всего статей: {len([s for s in graph.subjects(RDF.type, Article_Ru)])}")
-    print(f"Всего авторов: {len([s for s in graph.subjects(RDF.type, Person)])}")
-    print(f"Всего публикаций: {len([s for s in graph.subjects(RDF.type, Publication)])}")
-    print(f"Всего формул: {len([s for s in graph.subjects(RDF.type, Formula)])}")
-    print(f"Всего терминов: {len([s for s in graph.subjects(RDF.type, Term)])}")
+    print("\n" + "=" * 60)
+    print("ОБРАБОТКА ЗАВЕРШЕНА")
+    print("=" * 60)
+    print(f"Обработано файлов: {processed_count}")
+    if skipped_count > 0:
+        print(f"Пропущено файлов: {skipped_count}")
+    
+    # Получаем статистику из графа
+    articles = list(graph.subjects(RDF.type, Article_Ru))
+    persons = list(graph.subjects(RDF.type, Person))
+    publications = list(graph.subjects(RDF.type, Publication))
+    formulas = list(graph.subjects(RDF.type, Formula))
+    terms = list(graph.subjects(RDF.type, Term))
+    sources = list(graph.subjects(RDF.type, Source))
+    
+    print(f"\n=== СТАТИСТИКА ГРАФА ===")
+    print(f"Всего статей: {len(articles)}")
+    print(f"Всего авторов: {len(persons)}")
+    print(f"Всего публикаций: {len(publications)}")
+    print(f"Всего формул: {len(formulas)}")
+    print(f"Всего терминов: {len(terms)}")
+    print(f"Всего источников: {len(sources)}")
+    
+    # Информация о сохраненных файлах
+    print(f"\nРезультаты сохранены:")
+    print(f"  Turtle формат: {os.path.abspath(output_file)}")
+    print(f"  XML/RDF формат: {os.path.abspath(xml_output)}")
     
     return graph
 
