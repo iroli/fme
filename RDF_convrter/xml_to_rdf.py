@@ -327,7 +327,11 @@ class XMLToRDFConverter:
 
         # ----- Formulas -----
         formulas = []
-        for ftype, parent in [("main", root.find("formulas_main")), ("aux", root.find("formulas_aux"))]:
+        ##################################################################################
+        # Обработка aux выключена для сокращения времени обработки графа
+        # for ftype, parent in [("main", root.find("formulas_main")), ("aux", root.find("formulas_aux"))]:
+        ##################################################################################
+        for ftype, parent in [("main", root.find("formulas_main"))]:
             if parent is not None:
                 for f in parent.findall("formula"):
                     uri_attr = f.get("uri")
