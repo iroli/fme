@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sg: <https://scilib.ai/ontology/semantic-graph/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sg:Article a rdfs:Class .
+
+sg:Formula a rdfs:Class .
+
+sg:Person a rdfs:Class .
+
+sg:Publication a rdfs:Class .
+
+sg:Term a rdfs:Class .
+
+sg:Thesaurus a rdfs:Class .
+
+sg:denotesArticle a rdf:Property ;
+    rdfs:domain sg:Term ;
+    rdfs:range sg:Article ;
+    sg:inverseOf sg:hasTerm .
+
+sg:formula_type a rdf:Property ;
+    rdfs:domain sg:Formula ;
+    rdfs:range xsd:string .
+
+sg:hasArticle a rdf:Property ;
+    rdfs:domain sg:Person ;
+    rdfs:range sg:Article ;
+    sg:inverseOf sg:hasAuthor .
+
+sg:hasClass a rdf:Property ;
+    rdfs:domain sg:Thesaurus ;
+    rdfs:range rdfs:Class .
+
+sg:hasPublication a rdf:Property ;
+    rdfs:domain sg:Person ;
+    rdfs:range sg:Publication .
+
+sg:hasRelation a rdf:Property ;
+    rdfs:domain sg:Article ;
+    rdfs:range sg:Term .
+
+sg:hasThesaurus a rdf:Property ;
+    rdfs:domain sg:Article ;
+    rdfs:range sg:Thesaurus .
+
+sg:hasType a rdf:Property ;
+    rdfs:domain sg:Thesaurus ;
+    rdfs:range rdfs:Class .
+
+sg:latex a rdf:Property ;
+    rdfs:domain sg:Formula ;
+    rdfs:range xsd:string .
+
+sg:other a rdf:Property ;
+    rdfs:domain sg:Publication ;
+    rdfs:range xsd:string .
+
+sg:pages_end a rdf:Property ;
+    rdfs:domain sg:Article ;
+    rdfs:range xsd:integer .
+
+sg:pages_start a rdf:Property ;
+    rdfs:domain sg:Article ;
+    rdfs:range xsd:integer .
+
+sg:publication_details a rdf:Property ;
+    rdfs:domain sg:Publication ;
+    rdfs:range xsd:string .
+
+sg:referredIn a rdf:Property ;
+    rdfs:domain sg:Publication ;
+    rdfs:range sg:Article ;
+    sg:inverseOf sg:refersTo .
+
+sg:text a rdf:Property ;
+    rdfs:domain sg:Article ;
+    rdfs:range xsd:string .
+
+sg:usedIn a rdf:Property ;
+    rdfs:domain sg:Formula ;
+    rdfs:range sg:Article ;
+    sg:inverseOf sg:hasFormula .
+
+sg:year a rdf:Property ;
+    rdfs:domain sg:Publication ;
+    rdfs:range xsd:integer .
+
+sg:hasAuthor a rdf:Property ;
+    rdfs:domain sg:Article,
+        sg:Publication ;
+    rdfs:range sg:Person .
+
+sg:hasFormula a rdf:Property ;
+    rdfs:domain sg:Article ;
+    rdfs:range sg:Formula .
+
+sg:hasTerm a rdf:Property ;
+    rdfs:domain sg:Article ;
+    rdfs:range sg:Term .
+
+sg:refersTo a rdf:Property ;
+    rdfs:domain sg:Article ;
+    rdfs:range sg:Publication .
+

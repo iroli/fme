@@ -1,0 +1,15 @@
+@prefix fme: <http://libmeta.ru/fme/> .
+@prefix me: <http://libmeta.ru/me/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sg: <https://scilib.ai/ontology/semantic-graph/> .
+
+fme: a sg:Thesaurus ;
+    rdfs:label "Тезаурус Энциклопедии математической физики"@ru ;
+    sg:hasClass sg:Thesaurus ;
+    sg:hasType sg:Object .
+
+me: a sg:Thesaurus ;
+    rdfs:label "Тезаурус Математической энциклопедии"@ru ;
+    sg:hasClass sg:Thesaurus ;
+    sg:hasType sg:Object .
+
