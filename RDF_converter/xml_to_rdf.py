@@ -29,6 +29,7 @@ LIBRARY = {
 # UUID namespaces for deterministic generation
 PERSON_NS = uuid.uuid5(uuid.NAMESPACE_DNS, "https://scilib.ai/id/person")
 PUBLICATION_NS = uuid.uuid5(uuid.NAMESPACE_DNS, "https://scilib.ai/id/publication")
+TERM_NS = uuid.uuid5(uuid.NAMESPACE_DNS, "https://scilib.ai/id/term")
 
 
 # ----------------------------------------------------------------------
@@ -45,6 +46,7 @@ class XMLToRDFConverter:
         # Statistics
         self.stats = {
             "articles": {"new": 0, "duplicate": 0, "total_before": 0, "total_after": 0},
+            "terms": {"new": 0, "duplicate": 0, "total_before": 0, "total_after": 0},
             "persons": {"new": 0, "duplicate": 0, "total_before": 0, "total_after": 0},
             "publications": {"new": 0, "duplicate": 0, "total_before": 0, "total_after": 0},
             "formulas": {"new": 0, "duplicate": 0, "total_before": 0, "total_after": 0},
@@ -54,10 +56,16 @@ class XMLToRDFConverter:
         # RDF graphs for each entity class
         self.g_ontology = Graph()
         self.g_thesaurus = Graph()
+        self.g_terms = Graph()
         self.g_articles = Graph()
         self.g_persons = Graph()
         self.g_publications = Graph()
         self.g_formulas = Graph()
+
+        # Keep track of already processed article URIs in this run
+        self.processed_articles = set()
+        # Map article URI -> title for resolving hasRelation targets to Terms (XML + загруженные TTL)
+        self.article_title_by_uri = {}
 
         self._bind_namespaces()
         self._create_ontology()          # static ontology triples
@@ -65,16 +73,15 @@ class XMLToRDFConverter:
 
         # Load existing TTL files (if any) – merge previous runs
         self._load_existing_data()
-
-        # Keep track of already processed article URIs in this run
-        self.processed_articles = set()
+        # Восстановить article_uri -> title из уже загруженных данных (корректный повторный запуск)
+        self._build_article_title_map_from_loaded_data()
 
     # ------------------------------------------------------------------
     # Namespace binding
     # ------------------------------------------------------------------
     def _bind_namespaces(self):
         """Bind common prefixes to all graphs for cleaner Turtle output."""
-        for g in [self.g_ontology, self.g_thesaurus, self.g_articles,
+        for g in [self.g_ontology, self.g_thesaurus, self.g_terms, self.g_articles,
                   self.g_persons, self.g_publications, self.g_formulas]:
             g.bind("sg", SG)
             g.bind("rdf", RDF)
@@ -92,6 +99,7 @@ class XMLToRDFConverter:
         # Classes
         self.g_ontology.add((SG.Thesaurus, RDF.type, RDFS.Class))
         self.g_ontology.add((SG.Article, RDF.type, RDFS.Class))
+        self.g_ontology.add((SG.Term, RDF.type, RDFS.Class))
         self.g_ontology.add((SG.Person, RDF.type, RDFS.Class))
         self.g_ontology.add((SG.Publication, RDF.type, RDFS.Class))
         self.g_ontology.add((SG.Formula, RDF.type, RDFS.Class))
@@ -112,11 +120,25 @@ class XMLToRDFConverter:
         self.g_ontology.add((SG.hasAuthor, RDF.type, RDF.Property))
         self.g_ontology.add((SG.hasAuthor, RDFS.domain, SG.Article))
         self.g_ontology.add((SG.hasAuthor, RDFS.range, SG.Person))
+        self.g_ontology.add((SG.hasAuthor, RDFS.domain, SG.Publication))  # литература — автор(ы)
         # Inverse
         self.g_ontology.add((SG.hasArticle, RDF.type, RDF.Property))
         self.g_ontology.add((SG.hasArticle, RDFS.domain, SG.Person))
         self.g_ontology.add((SG.hasArticle, RDFS.range, SG.Article))
         self.g_ontology.add((SG.hasArticle, SG.inverseOf, SG.hasAuthor))
+
+        self.g_ontology.add((SG.hasPublication, RDF.type, RDF.Property))
+        self.g_ontology.add((SG.hasPublication, RDFS.domain, SG.Person))
+        self.g_ontology.add((SG.hasPublication, RDFS.range, SG.Publication))
+        # Связь литература–автор: Publication hasAuthor Person; Person hasPublication Publication
+
+        self.g_ontology.add((SG.hasTerm, RDF.type, RDF.Property))
+        self.g_ontology.add((SG.hasTerm, RDFS.domain, SG.Article))
+        self.g_ontology.add((SG.hasTerm, RDFS.range, SG.Term))
+        self.g_ontology.add((SG.denotesArticle, RDF.type, RDF.Property))
+        self.g_ontology.add((SG.denotesArticle, RDFS.domain, SG.Term))
+        self.g_ontology.add((SG.denotesArticle, RDFS.range, SG.Article))
+        self.g_ontology.add((SG.denotesArticle, SG.inverseOf, SG.hasTerm))
 
         self.g_ontology.add((SG.refersTo, RDF.type, RDF.Property))
         self.g_ontology.add((SG.refersTo, RDFS.domain, SG.Article))
@@ -138,7 +160,7 @@ class XMLToRDFConverter:
 
         self.g_ontology.add((SG.hasRelation, RDF.type, RDF.Property))
         self.g_ontology.add((SG.hasRelation, RDFS.domain, SG.Article))
-        self.g_ontology.add((SG.hasRelation, RDFS.range, SG.Article))
+        self.g_ontology.add((SG.hasRelation, RDFS.range, SG.Term))  # ссылки ведут на термин (название), не на статью
 
         # Datatype properties
         self.g_ontology.add((SG.text, RDF.type, RDF.Property))
@@ -197,10 +219,11 @@ class XMLToRDFConverter:
     # Load existing TTL files (merge from previous runs)
     # ------------------------------------------------------------------
     def _load_existing_data(self):
-        """If TTL files exist in output_dir, parse them into the graphs."""
+        """If TTL files exist in output_dir, parse them into the graphs (повторный запуск — дополнение)."""
         file_map = {
             "semantic-graph.ttl": self.g_ontology,
             "thesaurus.ttl": self.g_thesaurus,
+            "terms.ttl": self.g_terms,
             "articles.ttl": self.g_articles,
             "persons.ttl": self.g_persons,
             "publications.ttl": self.g_publications,
@@ -213,11 +236,19 @@ class XMLToRDFConverter:
 
         # Update statistics "total_before" counts
         self.stats["articles"]["total_before"] = self._count_instances(self.g_articles, SG.Article)
+        self.stats["terms"]["total_before"] = self._count_instances(self.g_terms, SG.Term)
         self.stats["persons"]["total_before"] = self._count_instances(self.g_persons, SG.Person)
         self.stats["publications"]["total_before"] = self._count_instances(self.g_publications, SG.Publication)
         self.stats["formulas"]["total_before"] = self._count_instances(self.g_formulas, SG.Formula)
-        # Relations are triples, not individuals
         self.stats["relations"]["total_before"] = self._count_relation_triples()
+
+    def _build_article_title_map_from_loaded_data(self):
+        """По загруженным articles + terms восстановить article_uri -> title (для повторного запуска)."""
+        for article_uri, _, term_uri in self.g_articles.triples((None, SG.hasTerm, None)):
+            for p, o in self.g_terms.predicate_objects(term_uri):
+                if p == RDFS.label and isinstance(o, Literal):
+                    self.article_title_by_uri[article_uri] = str(o)
+                    break
 
     @staticmethod
     def _count_instances(graph: Graph, class_uri: URIRef) -> int:
@@ -243,21 +274,47 @@ class XMLToRDFConverter:
         uid = uuid.uuid5(PERSON_NS, norm)
         return DATA[f"person-{uid}"]
 
-    def generate_publication_uri(self, author: str, title: str, publication: str, year: str) -> URIRef:
-        """Deterministic UUID5 URI for a publication."""
-        key = f"{author}|{title}|{publication}|{year}"
+    def generate_publication_uri(self, authors: list, title: str, publication: str, year: str) -> URIRef:
+        """Deterministic UUID5 URI for a publication (authors: list of author names)."""
+        authors_key = "|".join(sorted(a.strip() for a in authors)) if authors else ""
+        key = f"{authors_key}|{title}|{publication}|{year}"
         uid = uuid.uuid5(PUBLICATION_NS, key)
         return DATA[f"publication-{uid}"]
+
+    def generate_term_uri(self, title: str) -> URIRef:
+        """Deterministic URI for a Term by normalized title (same title => same Term)."""
+        norm = " ".join(title.strip().lower().split()) if title else ""
+        uid = uuid.uuid5(TERM_NS, norm)
+        return DATA[f"term-{uid}"]
 
     # ------------------------------------------------------------------
     # Main processing
     # ------------------------------------------------------------------
     def process_all_xml(self):
-        """Find all XML files in input_dir and process each."""
+        """Find all XML files in input_dir: first pass — collect uri→title, second — full processing."""
         pattern = os.path.join(self.input_dir, "*.xml")
-        for xml_path in tqdm(glob.glob(pattern), desc="Processing XML files..."):
+        xml_files = list(glob.glob(pattern))
+        # Первый проход: собрать для каждой статьи (uri, title) для подстановки Term в hasRelation
+        for xml_path in tqdm(xml_files, desc="Pass 1: collecting article titles..."):
+            self._collect_article_title(xml_path)
+        # Второй проход: полная обработка (статьи, Term, связи на Term)
+        for xml_path in tqdm(xml_files, desc="Processing XML files..."):
             self.process_xml_file(xml_path)
         self._update_final_stats()
+
+    def _collect_article_title(self, xml_path: str):
+        """Read XML and record article URI → title (for resolving relation targets to Terms)."""
+        try:
+            tree = ET.parse(xml_path)
+            root = tree.getroot()
+        except ET.ParseError:
+            return
+        article_uri = root.get("uri")
+        if not article_uri:
+            return
+        title_elem = root.find("title")
+        title = title_elem.text.strip() if title_elem is not None and title_elem.text else ""
+        self.article_title_by_uri[URIRef(article_uri)] = title
 
     def process_xml_file(self, xml_path: str):
         """Parse a single XML file and add its content to the RDF graphs."""
@@ -311,16 +368,20 @@ class XMLToRDFConverter:
         lit_elem = root.find("literature")
         if lit_elem is not None:
             for unit in lit_elem.findall("unit"):
-                author_e = unit.find("author")
+                author_elems = unit.findall("author")
+                authors = [a.text.strip() for a in author_elems if a.text and a.text.strip()]
+                if not authors:
+                    author_e = unit.find("author")
+                    authors = [author_e.text.strip() if author_e is not None and author_e.text else ""]
                 title_e = unit.find("title")
                 pub_e = unit.find("publication")
                 year_e = unit.find("year")
                 other_e = unit.find("other")
-                if author_e is not None and title_e is not None and pub_e is not None and year_e is not None:
+                if title_e is not None and title_e.text and pub_e is not None and pub_e.text:
                     literature_units.append({
-                        "author": author_e.text.strip() if author_e is not None and author_e.text else "",
-                        "title": title_e.text.strip() if title_e is not None and title_e.text else "",
-                        "publication": pub_e.text.strip() if pub_e is not None and pub_e.text else "",
+                        "authors": authors,
+                        "title": title_e.text.strip() if title_e.text else "",
+                        "publication": pub_e.text.strip() if pub_e.text else "",
                         "year": year_e.text.strip() if year_e is not None and year_e.text else "",
                         "other": other_e.text.strip() if other_e is not None and other_e.text else "",
                     })
@@ -358,8 +419,13 @@ class XMLToRDFConverter:
         # ------------------------------------------------------------------
         # Add data to RDF graphs
         # ------------------------------------------------------------------
-        # 1. Article individual
+        # 1. Article individual (дубликаты статей не удаляем — каждая статья уникальна по URI)
         self._add_article(article_uri, title, text, pages_start, pages_end, thesaurus_uri)
+
+        # 1b. Term с названием статьи; статьи с одинаковым названием разделяют один Term
+        term_uri = self._add_term(title)
+        self.g_articles.add((article_uri, SG.hasTerm, term_uri))
+        self.g_terms.add((term_uri, SG.denotesArticle, article_uri))
 
         # 2. Authors and hasAuthor links
         for name in author_names:
@@ -372,11 +438,13 @@ class XMLToRDFConverter:
             pub_uri = self._add_publication(pub_data)
             self.g_articles.add((article_uri, SG.refersTo, pub_uri))
             self.g_publications.add((pub_uri, SG.referredIn, article_uri))
-
-            # Link publication to its author (Person)
-            person_uri = self._add_person(pub_data["author"])
-            self.g_publications.add((pub_uri, SG.hasAuthor, person_uri))
-            self.g_persons.add((person_uri, SG.hasPublication, pub_uri))
+            # Link publication to each author (Person) — у литературы может быть несколько авторов
+            for author_name in pub_data["authors"]:
+                if not author_name:
+                    continue
+                person_uri = self._add_person(author_name)
+                self.g_publications.add((pub_uri, SG.hasAuthor, person_uri))
+                self.g_persons.add((person_uri, SG.hasPublication, pub_uri))
 
         # 4. Formulas
         for fdata in formulas:
@@ -384,11 +452,16 @@ class XMLToRDFConverter:
             self.g_articles.add((article_uri, SG.hasFormula, fdata["uri"]))
             self.g_formulas.add((fdata["uri"], SG.usedIn, article_uri))
 
-        # 5. Relations (cross-article links)
+        # 5. Relations: ссылки ведут на Term (название), не на статью — граф чище
         for target_uri in relations:
-            self.g_articles.add((article_uri, SG.hasRelation, target_uri))
-            self.stats["relations"]["new"] += 1   # count each triple as "new" (we don't check existence)
-            # Note: we do not check duplicate relation triples; rdflib will deduplicate.
+            target_title = self.article_title_by_uri.get(target_uri)
+            if target_title is not None:
+                target_term_uri = self._add_term(target_title)
+            else:
+                # Целевая статья не из нашего корпуса — Term по URI
+                target_term_uri = self._get_or_create_term_for_article_uri(target_uri)
+            self.g_articles.add((article_uri, SG.hasRelation, target_term_uri))
+            self.stats["relations"]["new"] += 1
 
     # ------------------------------------------------------------------
     # Individual adders with duplicate detection
@@ -416,49 +489,78 @@ class XMLToRDFConverter:
             self.g_articles.add((uri, SG.hasThesaurus, thesaurus_uri))
 
     def _add_person(self, name: str) -> URIRef:
-        """Add a Person individual if new, and return its URI."""
+        """Add a Person individual (or merge into existing); return URI."""
         uri = self.generate_person_uri(name)
         if (uri, RDF.type, SG.Person) not in self.g_persons:
             self.g_persons.add((uri, RDF.type, SG.Person))
             self.g_persons.add((uri, SG.hasType, SG.Object))
             self.g_persons.add((uri, SG.hasClass, SG.Person))
-            self.g_persons.add((uri, RDFS.label, Literal(name, lang="ru")))
             self.stats["persons"]["new"] += 1
         else:
             self.stats["persons"]["duplicate"] += 1
+        # Всегда добавляем/дополняем свойства при слиянии дубликатов
+        self.g_persons.add((uri, RDFS.label, Literal(name, lang="ru")))
         return uri
 
     def _add_publication(self, data: dict) -> URIRef:
-        """Add a Publication individual if new, and return its URI."""
-        uri = self.generate_publication_uri(data["author"], data["title"],
+        """Add a Publication individual (or merge into existing); return URI."""
+        uri = self.generate_publication_uri(data["authors"], data["title"],
                                             data["publication"], data["year"])
-        if (uri, RDF.type, SG.Publication) not in self.g_publications:
+        is_new = (uri, RDF.type, SG.Publication) not in self.g_publications
+        if is_new:
             self.g_publications.add((uri, RDF.type, SG.Publication))
             self.g_publications.add((uri, SG.hasType, SG.Object))
             self.g_publications.add((uri, SG.hasClass, SG.Publication))
-            self.g_publications.add((uri, RDFS.label, Literal(data["title"], lang="ru")))
-            self.g_publications.add((uri, SG.publication_details, Literal(data["publication"], lang="ru")))
-            if data["year"]:
-                self.g_publications.add((uri, SG.year, Literal(int(data["year"]), datatype=XSD.integer)))
-            if data["other"]:
-                self.g_publications.add((uri, SG.other, Literal(data["other"], lang="ru")))
             self.stats["publications"]["new"] += 1
         else:
             self.stats["publications"]["duplicate"] += 1
+        # Всегда добавляем/дополняем свойства (слияние дубликатов с сохранением данных)
+        self.g_publications.add((uri, RDFS.label, Literal(data["title"], lang="ru")))
+        self.g_publications.add((uri, SG.publication_details, Literal(data["publication"], lang="ru")))
+        if data.get("year"):
+            self.g_publications.add((uri, SG.year, Literal(int(data["year"]), datatype=XSD.integer)))
+        if data.get("other"):
+            self.g_publications.add((uri, SG.other, Literal(data["other"], lang="ru")))
+        return uri
+
+    def _add_term(self, title: str) -> URIRef:
+        """Создать или вернуть Term с заданным названием (одинаковое название — один Term)."""
+        uri = self.generate_term_uri(title)
+        if (uri, RDF.type, SG.Term) not in self.g_terms:
+            self.g_terms.add((uri, RDF.type, SG.Term))
+            self.g_terms.add((uri, SG.hasType, SG.Object))
+            self.g_terms.add((uri, SG.hasClass, SG.Term))
+            self.stats["terms"]["new"] += 1
+        else:
+            self.stats["terms"]["duplicate"] += 1
+        self.g_terms.add((uri, RDFS.label, Literal(title, lang="ru")))
+        return uri
+
+    def _get_or_create_term_for_article_uri(self, article_uri: URIRef) -> URIRef:
+        """Term для статьи вне корпуса (нет названия): URI по строке article_uri."""
+        title = str(article_uri)
+        uri = self.generate_term_uri(title)
+        if (uri, RDF.type, SG.Term) not in self.g_terms:
+            self.g_terms.add((uri, RDF.type, SG.Term))
+            self.g_terms.add((uri, SG.hasType, SG.Object))
+            self.g_terms.add((uri, SG.hasClass, SG.Term))
+            self.g_terms.add((uri, RDFS.label, Literal(title, lang="ru")))
+            self.stats["terms"]["new"] += 1
         return uri
 
     def _add_formula(self, uri: URIRef, latex: str, ftype: str, article_uri: URIRef):
-        """Add a Formula individual if new."""
+        """Add a Formula individual (or merge into existing)."""
         if (uri, RDF.type, SG.Formula) not in self.g_formulas:
             self.g_formulas.add((uri, RDF.type, SG.Formula))
             self.g_formulas.add((uri, SG.hasType, SG.Object))
             self.g_formulas.add((uri, SG.hasClass, SG.Formula))
-            self.g_formulas.add((uri, RDFS.label, Literal(latex, lang="ru")))
-            self.g_formulas.add((uri, SG.latex, Literal(latex, lang="ru")))
-            self.g_formulas.add((uri, SG.formula_type, Literal(ftype, lang="ru")))
             self.stats["formulas"]["new"] += 1
         else:
             self.stats["formulas"]["duplicate"] += 1
+        # Всегда добавляем/дополняем свойства при слиянии дубликатов
+        self.g_formulas.add((uri, RDFS.label, Literal(latex, lang="ru")))
+        self.g_formulas.add((uri, SG.latex, Literal(latex, lang="ru")))
+        self.g_formulas.add((uri, SG.formula_type, Literal(ftype, lang="ru")))
         # usedIn is added by caller
 
     # ------------------------------------------------------------------
@@ -467,6 +569,7 @@ class XMLToRDFConverter:
     def _update_final_stats(self):
         """Update total_after counters."""
         self.stats["articles"]["total_after"] = self._count_instances(self.g_articles, SG.Article)
+        self.stats["terms"]["total_after"] = self._count_instances(self.g_terms, SG.Term)
         self.stats["persons"]["total_after"] = self._count_instances(self.g_persons, SG.Person)
         self.stats["publications"]["total_after"] = self._count_instances(self.g_publications, SG.Publication)
         self.stats["formulas"]["total_after"] = self._count_instances(self.g_formulas, SG.Formula)
@@ -480,6 +583,7 @@ class XMLToRDFConverter:
         file_map = {
             "semantic-graph.ttl": self.g_ontology,
             "thesaurus.ttl": self.g_thesaurus,
+            "terms.ttl": self.g_terms,
             "articles.ttl": self.g_articles,
             "persons.ttl": self.g_persons,
             "publications.ttl": self.g_publications,
@@ -507,6 +611,7 @@ class XMLToRDFConverter:
             print(f"  Net change:              {stats['total_after'] - stats['total_before']}")
 
         print_class_stats("articles", self.stats["articles"])
+        print_class_stats("terms", self.stats["terms"])
         print_class_stats("persons", self.stats["persons"])
         print_class_stats("publications", self.stats["publications"])
         print_class_stats("formulas", self.stats["formulas"])
