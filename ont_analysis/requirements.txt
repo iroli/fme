@@ -1,6 +1,7 @@
 # Анализ графа (article_metrics.ipynb и др.)
 rdflib>=6.0
 pandas>=1.0
+tabulate>=0.9  # для export_analysis_to_markdown.py (таблицы в Markdown)
 networkx>=2.5
 numpy>=1.20
 scikit-learn>=1.0
